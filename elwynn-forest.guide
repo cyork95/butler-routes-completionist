@@ -1,0 +1,352 @@
+# Butler Routes - Elwynn Forest completionist (pack butler-routes-completionist).
+# Every quest in the WoW Forever command center's Elwynn Forest tracker list
+# (83 quests) appears exactly once as an accept and once as a turnin.
+# Class quests for other classes are included and gated with 'only', so they
+# never show for a character they are not for.
+# The two Delicate Instruments quests (Tower of Azora) share a name; both are
+# taken from Hamish Bergwort - one works the Jasperlode Mine, the other
+# Stone Cairn Lake. Applejack Still never enters the quest log: it is a
+# direct hand-in at the still itself, once Homer Stonefield has sold you
+# the apples. The two horse-exchange errands are level 60 mount trades that
+# sit in this zone's list; they wait at Eastvale until you ride.
+# Coordinates typed in this guide are in the client's own (live) map frame.
+guide butler-routes-completionist/elwynn-forest
+title Elwynn Forest - Completionist
+levels 1-10
+zone Elwynn Forest
+faction Alliance
+category Leveling
+folder Completionist
+keywords elwynn, completionist, northshire, goldshire, all quests, hogger
+coords live
+version 1
+
+step Northshire Abbey - arrival
+
+  tip You appear in Northshire Valley, in front of the abbey. Deputy Willem (48.2, 43.0) stands a few steps north of you with your first orders. Take every quest a person offers before you head out.
+  note A new human also holds a Northshire Gift Voucher. If yours is still in your bags, hand it to Merissa Stilwell in the abbey - characters who arrive from elsewhere (Skyborne coming off the Zephras route) will not have one, so the line is optional.
+  note Two sets of abbey quests are not in this guide's tracker list: your class letter from Marshal McBride, and Brother Paxton's book quests (Book Inventory, Rascally Rodents and their follow-ups). Do them anyway - they run in the same fields as everything below.
+  accept 783 -- A Threat Within - Deputy Willem
+  accept 5261 -- Eagan Peltskinner - Deputy Willem sends you to the skinner
+  accept 5805 optional -- Welcome! - hand the Northshire Gift Voucher to Merissa Stilwell
+  turnin 5805 optional -- Welcome! - Merissa Stilwell, in the abbey
+
+step Northshire Abbey - Marshal McBride
+
+  tip Marshal McBride (48.9, 41.6) commands the valley from the abbey steps. Eagan Peltskinner (48.9, 40.2) works just north of him.
+  turnin 783 -- Report to Marshal McBride
+  accept 7 -- Kobold Camp Cleanup - Marshal McBride
+  accept 15 -- Investigate Echo Ridge - Marshal McBride
+  turnin 5261 -- Speak with Eagan Peltskinner
+  accept 33 -- Wolves Across the Border - Eagan Peltskinner; eight Tough Wolf Meat from the valley wolves
+
+step Northshire Valley - kobolds and wolves
+
+  tip One sweep of the valley floor covers all three: Kobold Vermin around the abbey, Kobold Workers at Echo Ridge to the north-east, and wolves everywhere. Hand in as you pass the abbey again.
+  turnin 7 -- Kobold Camp Cleanup - back to Marshal McBride
+  turnin 15 -- Investigate Echo Ridge - back to Marshal McBride
+  turnin 33 -- Wolves Across the Border - back to Eagan Peltskinner
+
+step Northshire Abbey - skirmish at Echo Ridge
+
+  tip With Echo Ridge scouted, McBride sends you back in force: twelve Kobold Laborers this time.
+  accept 21 -- Skirmish at Echo Ridge - Marshal McBride
+  turnin 21 -- Skirmish at Echo Ridge - back to Marshal McBride
+
+step Northshire Valley - thieves, Padfoot and a drink
+
+  tip Deputy Willem's second batch works the Northshire Vineyards, south-east of the abbey, where Defias thieves are stealing the harvest. Gerard Tiller works in the valley - his errand starts and ends with him.
+  accept 18 -- Brotherhood of Thieves - Deputy Willem; twelve Red Burlap Bandanas from the vineyard thieves
+  accept 3903 -- Milly Osworth - Deputy Willem sends you to Milly
+  accept 6 -- Bounty on Garrick Padfoot - Deputy Willem; Padfoot leads the thieves
+  accept 16 -- Give Gerard a Drink - accept and hand in with Gerard Tiller
+  turnin 16 -- Give Gerard a Drink - back to Gerard Tiller
+  turnin 18 -- Brotherhood of Thieves - back to Deputy Willem
+  turnin 6 -- Bounty on Garrick Padfoot - Garrick's head to Deputy Willem
+
+step Northshire Valley - Milly's grapes
+
+  tip Milly Osworth (50.7, 39.3) stands by the vineyard. Her crates were scattered by the thieves; the manifest goes to Brother Neals inside the abbey.
+  turnin 3903 -- Speak with Milly Osworth
+  accept 3904 -- Milly's Harvest - Milly Osworth; gather her eight crates from the vineyard
+  turnin 3904 -- Milly's Harvest - back to Milly Osworth
+  accept 3905 -- Grape Manifest - Milly Osworth
+  turnin 3905 -- Grape Manifest - to Brother Neals, in the abbey
+
+step The road south
+
+  tip The valley's work is done. Marshal McBride's documents go south to Goldshire; on the way out, Falkhaan Isenstrider (45.6, 47.8) waits by the valley gate with a traveller's errand, and McBride asks Sam Sarsaparilla's name of anyone heading that way.
+  accept 54 -- Report to Goldshire - Marshal McBride; his documents go to Marshal Dughan
+  accept 96627 -- The Adventurer - Marshal McBride sends you to Sam Sarsaparilla, near Goldshire
+  accept 2158 -- Rest and Relaxation - Falkhaan Isenstrider, by the valley gate; speak with Innkeeper Farley in Goldshire
+
+step Goldshire - arrival
+
+  tip Goldshire, the zone's crossroads town. Marshal Dughan (42.1, 65.9) holds the Lion's Pride Inn green; Innkeeper Farley (43.8, 65.9) keeps the inn - make it your home while you are here. William Pestle trades in alchemy supplies; Remy "Two Times" leans nearby (42.2, 67.2).
+  note Dughan also offers Book Return, and later Rare Books, for Brother Paxton's library - they are not in this tracker's list, but they run with the two mines below, so take them anyway.
+  turnin 54 -- Report to Goldshire - hand McBride's documents to Marshal Dughan
+  turnin 2158 -- Rest and Relaxation - speak with Innkeeper Farley
+  accept 62 -- The Fargodeep Mine - Marshal Dughan; explore the mine south of town
+  accept 60 -- Kobold Candles - William Pestle; eight Large Candles from the mine kobolds
+  accept 47 -- Gold Dust Exchange - Remy "Two Times"; ten Gold Dust from the same kobolds
+
+step Stonefield Farm - first visit
+
+  tip The Stonefield Farm lies south-west of Goldshire. "Auntie" Bernice Stonefield has lost a necklace; her sister Ma Stonefield has a pig problem.
+  accept 85 -- Lost Necklace - "Auntie" Bernice Stonefield; speak with Billy Maclure
+  accept 88 -- Princess Must Die! - Ma Stonefield; her prize boar Princess has gone wild
+
+step Maclure Vineyards - young lovers
+
+  tip The Maclure Vineyards, east of the Stonefields across the road. Maybell Maclure waits in the farmhouse with a letter she cannot deliver herself; her brother Billy is by the barn.
+  accept 106 -- Young Lovers - Maybell Maclure; her letter goes to Tommy Joe Stonefield
+  turnin 85 -- Lost Necklace - speak with Billy Maclure
+  accept 86 -- Pie for Billy - Billy Maclure; four Chunks of Boar Meat for a Pork Belly Pie, baked by Bernice
+
+step Stonefield Farm - the family web
+
+  tip Work the two farms together. The boars around both farms carry Pie for Billy's meat, and Princess roots around the Brackwell Pumpkin Patch, just east of the Stonefields - kill her on this sweep and carry her collar back to Ma on the return pass.
+  task "Buy 4 Shiny Red Apples from Homer Stonefield, here at the farm - a still west of Goldshire will want them much later" optional
+  turnin 106 -- Young Lovers - deliver Maybell's letter to Tommy Joe Stonefield
+  accept 111 -- Speak with Gramma - Tommy Joe Stonefield
+  turnin 111 -- Speak with Gramma Stonefield
+  accept 107 -- Note to William - Gramma Stonefield's note goes to William Pestle in Goldshire
+  turnin 86 -- Pie for Billy - the boar meat to "Auntie" Bernice Stonefield
+  accept 84 -- Back to Billy - Bernice Stonefield; carry the Pork Belly Pie to Billy Maclure
+
+step Maclure Vineyards - back to Billy
+
+  tip Billy gets his pie - and tells you where Bernice's necklace really went: down the Fargodeep Mine, around a kobold's neck.
+  turnin 84 -- Back to Billy - the pie to Billy Maclure
+  accept 87 -- Goldtooth - Billy Maclure; Goldtooth, deep in the Fargodeep Mine, wears the necklace
+
+step Goldshire - the Fargodeep run
+
+  tip One trip into the Fargodeep Mine, south of Goldshire, finishes three errands at once: explore the mine for Dughan, candles for William, gold dust for Remy - and Goldtooth, at the back, for Billy's necklace. Hand everything in as you come back through town.
+  turnin 62 -- The Fargodeep Mine - explored; report to Marshal Dughan
+  turnin 60 -- Kobold Candles - to William Pestle
+  turnin 47 -- Gold Dust Exchange - to Remy "Two Times"
+
+step Stonefield Farm - hand-ins
+
+  tip A last pass through the Stonefields on the way north: Bernice gets her necklace back, and Ma gets Princess's collar.
+  turnin 87 -- Goldtooth - Bernice's Necklace to "Auntie" Bernice Stonefield
+  turnin 88 -- Princess Must Die! - Princess's collar to Ma Stonefield
+
+step Goldshire - William's errands
+
+  tip Back at William Pestle's stall: Gramma's note is delivered, and William has two more jobs - kelp from Crystal Lake, and a liquor to smuggle to Maybell. His brother Morgan, in Stormwind, is waiting on a shipment, too.
+  turnin 107 -- Note to William - Gramma's note to William Pestle
+  accept 61 -- Shipment to Stormwind - William Pestle; his shipment goes to Morgan Pestle, in the Stormwind Trade District
+  accept 112 -- Collecting Kelp - William Pestle; four Crystal Kelp Fronds from Crystal Lake
+  accept 114 -- The Escape - William Pestle; take the Invisibility Liquor to Maybell Maclure
+
+step Sam's camp - the great outdoors
+
+  tip Sam Sarsaparilla keeps a camp north-east of Goldshire (44.9, 63.3), on the way to Crystal Lake. His Camping 101 quests each send you on to a profession's trainer once you have shown some proficiency - take the ones you qualify for; the rest are optional and safe to skip. Helene Peltskinner, by the camp, buys wolf pelts from anyone who skins.
+  turnin 96627 -- The Adventurer - speak to Sam Sarsaparilla
+  accept 95998 -- The Great Outdoors - Sam Sarsaparilla
+  turnin 95998 -- The Great Outdoors - sit by Sam's Basic Campfire until the Boosted Rest buff takes hold
+  accept 91751 optional -- Rough Wolf Pelts - Helene Peltskinner; skin seven Rough Wolf Pelts from the zone's wolves as you travel
+  accept 96626 optional -- Camping 101: Cooking
+  accept 97915 optional -- Camping 101: Alchemy
+  accept 97916 optional -- Camping 101: Blacksmithing
+  accept 97917 optional -- Camping 101: Enchanting
+  accept 97918 optional -- Camping 101: Engineering
+  accept 97919 optional -- Camping 101: First Aid
+  accept 97920 optional -- Camping 101: Fishing
+  accept 97921 optional -- Camping 101: Herbalism
+  accept 97922 optional -- Camping 101: Leatherworking
+  accept 97923 optional -- Camping 101: Mining
+  accept 97924 optional -- Camping 101: Skinning
+  accept 97925 optional -- Camping 101: Tailoring
+
+step Crystal Lake - Jason's traps
+
+  tip Crystal Lake, north-east of Goldshire. Jason Mathers works its shore; Lee Brown fishes beside him. Murlocs have moved into the lake - and William's kelp grows in the same water, so gather it while you are here.
+  accept 99127 -- A Net Disaster - Jason Mathers; check his fishing traps around the lake
+  turnin 99127 -- A Net Disaster - back to Jason Mathers
+  accept 99128 -- Slimy Menace - Jason Mathers; thin the murlocs in and around the lake
+  turnin 99128 -- Slimy Menace - back to Jason Mathers
+  accept 99129 -- A Man About a Murloc - Jason Mathers sends you to Remy "Two Times", in Goldshire
+  accept 99143 -- Bottles and Baubles - Lee Brown; six pieces of shiny junk from the murloc camp
+  turnin 99143 -- Bottles and Baubles - back to Lee Brown
+  turnin 97920 optional -- Camping 101: Fishing - Lee Brown, here at the lake
+
+step Goldshire - murloc bait
+
+  tip Remy "Two Times" has a plan for Jason's murlocs, and it smells awful: blood from the zone's beasts and duskweed petals, gathered as you travel, make the bait. Collect them on your other rounds, then hand the mixture in.
+  turnin 99129 -- A Man About a Murloc - speak with Remy "Two Times"
+  accept 99130 -- An Enticing Offer - Remy "Two Times"; six Vials of Animal Blood and eighteen Duskweed Petals
+  turnin 99130 -- An Enticing Offer - back to Remy "Two Times"
+  accept 99131 -- Baited for Success - Remy "Two Times" sends word back to Jason Mathers
+
+step Crystal Lake - baited for success
+
+  tip Back up the lake road one last time: Jason Mathers gets his bait, and the lake chain closes.
+  turnin 99131 -- Baited for Success - return to Jason Mathers
+
+step Tower of Azora - first visit
+
+  tip The Tower of Azora overlooks the zone's east from its hill (its enchanting trainer, Kitta Firewind, stands at 64.8, 70.6). Hamish Bergwort studies the kobolds' instruments; Blixie Fitzwink, below the tower, has lost her enchanting supplies to the gnolls. Kitta's lesson works through the Jasperlode Mine, so take it before the mine, not after.
+  accept 91753 optional -- An Enchanting Lesson - Kitta Firewind; disenchant Crude Wax Effigies from the Jasperlode kobolds for three Luminous Residue
+  accept 91723 -- Delicate Instruments - Hamish Bergwort; eight Kobold Geomancers in the Jasperlode Mine
+  accept 91724 -- Delicate Instruments - Hamish Bergwort; the second list - Defias Rogue Wizards at Stone Cairn Lake
+  accept 91725 -- Stolen Enchanting Supplies - Blixie Fitzwink; five supplies from the gnoll camps around Stone Cairn Lake
+
+step Stone Cairn Lake - the tower hand-ins
+
+  tip Stone Cairn Lake, below the tower: Defias wizards camp its shore and Riverpaw gnolls raid around it. The gnolls here carry a certain schedule, bound for Marshal Dughan - if it reaches your bags, the quest starts from the item itself. Hand Hamish's and Blixie's work in at the tower on your way back up.
+  accept 123 -- The Collector - starts from The Collector's Schedule, dropped by the gnolls around the lake
+  turnin 91724 -- Delicate Instruments - back to Hamish Bergwort, in the tower
+  turnin 91725 -- Stolen Enchanting Supplies - back to Blixie Fitzwink, below the tower
+
+step Goldshire - the level 10 batch
+
+  tip Hearth back to the Lion's Pride Inn, or run the road west - at level 10 Goldshire's work changes. Remy has a fishy report for the marshal, and Dughan's remaining orders point east: the Jasperlode Mine, the eastern garrison, and Westfall beyond. Priestess Josetta (43.3, 65.7) has a priest's errand to the capital.
+  accept 40 -- A Fishy Peril - Remy "Two Times" wants you to speak with Marshal Dughan
+  turnin 40 -- A Fishy Peril - speak with Marshal Dughan
+  accept 35 -- Further Concerns - Marshal Dughan sends you to Guard Thomas, at the eastern bridge
+  accept 76 -- The Jasperlode Mine - Marshal Dughan; explore the second mine
+  accept 239 -- Westbrook Garrison Needs Help! - Marshal Dughan; report to Deputy Rainer at the garrison
+  accept 109 -- Report to Gryan Stoutmantle - Marshal Dughan; Gryan Stoutmantle waits on Sentinel Hill, in Westfall
+  accept 94774 only Priest -- Divine Grace - Priestess Josetta sends you to High Priestess Laurena, in Stormwind
+
+step Goldshire - the taming chain (Hunter, level 10)
+
+  only Hunter
+  tip A hunter's pet, in three tames and a lesson. Josephine Carson (41.2, 66.2), Goldshire's hunter trainer, lends you her Taming Rod: a Rockhide Boar, then a Gray Forest Wolf, then a Young Forest Bear - each roams the woods around town. Isaac Chan, also in Goldshire, teaches the rest of the craft.
+  level 10
+  accept 94792 -- Taming the Beast, part 1 - Josephine Carson; tame a Rockhide Boar
+  turnin 94792 -- Back to Josephine Carson
+  accept 94863 -- Taming the Beast, part 2 - tame a Gray Forest Wolf
+  turnin 94863 -- Back to Josephine Carson
+  accept 94864 -- Taming the Beast, part 3 - tame a Young Forest Bear
+  turnin 94864 -- Back to Josephine Carson
+  accept 94793 -- Training the Beast - Josephine Carson sends you to Isaac Chan
+  turnin 94793 -- Speak with Isaac Chan, in Goldshire
+
+step Eastvale Logging Camp
+
+  tip Eastvale Logging Camp, at the zone's far east under the Redridge wall: lumber, stables, and work. Supervisor Raelen is short eight bundles of wood; Sara Timberlain wants red linen from the Defias; Hagar Lowe's tools were left in the Jasperlode Mine; Ormin Pelford's gear has washed downstream.
+  accept 5545 -- A Bundle of Trouble - Supervisor Raelen; eight Bundles of Wood from the gnolls of the forest
+  accept 83 -- Red Linen Goods - Sara Timberlain; six Red Linen Bandanas from the Defias
+  accept 91732 -- Good Steel - Hagar Lowe; four Mining Tools from the Jasperlode Mine
+  accept 91733 -- Downstream - Ormin Pelford; his Waterlogged Axe, Saw and Toolbox, washed down the river
+
+step Eastvale - the horse breeder (level 60 errands)
+
+  tip Katie Hunter, the horse breeder, keeps Eastvale's stables. Her two exchanges are level 60 mount trades that sit in this zone's list: bring her a white stallion, or a palomino, and she swaps it for another colour. No character on this route can do them yet - they are written here so the zone's list is complete. Come back when you ride.
+  accept 7677 optional -- White Stallion Exchange - Katie Hunter, at the Eastvale stables
+  turnin 7677 optional -- White Stallion Exchange - back to Katie Hunter
+  accept 7678 optional -- Palomino Exchange - Katie Hunter, at the Eastvale stables
+  turnin 7678 optional -- Palomino Exchange - back to Katie Hunter
+
+step The Jasperlode Mine
+
+  tip The Jasperlode Mine, north-west of Eastvale, is the kobolds' second warren - deeper and meaner than Fargodeep. One run covers Dughan's exploration, Hamish's geomancers, Kitta's wax effigies and Hagar's lost tools. Hand the tower's work in at Azora, on the hill above the road west.
+  turnin 91723 -- Delicate Instruments - back to Hamish Bergwort, in the Tower of Azora
+  turnin 91753 optional -- An Enchanting Lesson - back to Kitta Firewind, in the Tower of Azora
+
+step Eastvale - hand-ins
+
+  tip Back down at the camp: Hagar Lowe gets his tools, and Ormin Pelford his sodden gear.
+  note Two named bears haunt the woods south of here: Matriarch Bristlefur, and Elmpaw, a level 12 elite below the tower toward the water. Hunters - either is a trophy tame at the right level; Helene Peltskinner also pays for Elmpaw's head, on an errand this tracker's list does not carry.
+  turnin 91732 -- Good Steel - the Mining Tools to Hagar Lowe
+  turnin 91733 -- Downstream - the waterlogged tools to Ormin Pelford
+
+step The eastern bridge - Guard Thomas
+
+  tip Guard Thomas holds the bridge on the eastern road, below Eastvale. Dughan's concerns are his patrol: two of his guards, Rolf and Malakai, are missing toward the murloc shore, and the road itself wants clearing.
+  turnin 35 -- Further Concerns - report to Guard Thomas
+  accept 37 -- Find the Lost Guards - Guard Thomas; search north up the river for Rolf and Malakai
+  accept 46 -- Bounty on Murlocs - Guard Thomas; eight Torn Murloc Fins
+  accept 52 -- Protect the Frontier - Guard Thomas; Prowlers and Young Forest Bears along the road
+
+step The lost guards
+
+  tip Follow the river north from the bridge to the murloc shore. What is left of the patrol is there: a half-eaten body, and Rolf's corpse beyond it. This shore is Stone Cairn Lake's north end - the route passed its other side from the tower.
+  turnin 37 -- Find the Lost Guards - ends at the half-eaten body
+  accept 45 -- Discover Rolf's Fate - starts at the half-eaten body; search on for Rolf
+  turnin 45 -- Discover Rolf's Fate - ends at Rolf's corpse
+  accept 71 -- Report to Thomas - starts at Rolf's corpse; carry the guards' medallions back
+
+step The eastern bridge - reports
+
+  tip Back at the bridge: fins, road-kills and bad news, all for Thomas - and his written report goes back to Goldshire with you.
+  turnin 46 -- Bounty on Murlocs - back to Guard Thomas
+  turnin 52 -- Protect the Frontier - back to Guard Thomas
+  turnin 71 -- Report to Thomas - the medallions to Guard Thomas
+  accept 39 -- Deliver Thomas' Report - Guard Thomas; his report goes to Marshal Dughan
+
+step Goldshire - reports and the Collector's schedule
+
+  tip Goldshire again: Thomas's report and the Jasperlode survey for Dughan, William's kelp at last, and the Collector's Schedule, if the gnolls gave it up. Dughan's answer to the schedule is a manhunt - and only now, with your reports in, does he hand over the Stormwind Armor Marker.
+  turnin 39 -- Deliver Thomas' Report - to Marshal Dughan
+  turnin 76 -- The Jasperlode Mine - explored; report to Marshal Dughan
+  turnin 123 -- The Collector - give The Collector's Schedule to Marshal Dughan
+  turnin 112 -- Collecting Kelp - the Crystal Kelp Fronds to William Pestle
+  turnin 91751 optional -- Rough Wolf Pelts - to Helene Peltskinner, at Sam's camp north-east of town
+  accept 147 -- Manhunt - Marshal Dughan; the Collector hides at the Brackwell Pumpkin Patch - bring back his ring
+  accept 59 -- Cloth and Leather Armor - Marshal Dughan; carry the Stormwind Armor Marker to Sara Timberlain, at Eastvale
+
+step Goldshire - Camping 101 hand-ins
+
+  tip Hand in the Camping 101 quests you took at Sam's camp. The Goldshire trainers are all in town: Smith Argus (Blacksmithing), Tomas (Cooking), Michelle Belle (First Aid), Adele Fielder (Leatherworking) and Helene Peltskinner (Skinning). The Alchemy and Enchanting hand-ins follow the same pattern - to those professions' trainers, wherever the quest data points.
+  turnin 96626 optional -- Camping 101: Cooking - Tomas, in Goldshire
+  turnin 97916 optional -- Camping 101: Blacksmithing - Smith Argus, in Goldshire
+  turnin 97919 optional -- Camping 101: First Aid - Michelle Belle, in Goldshire
+  turnin 97922 optional -- Camping 101: Leatherworking - Adele Fielder, near Goldshire
+  turnin 97924 optional -- Camping 101: Skinning - Helene Peltskinner, near Goldshire
+  turnin 97915 optional -- Camping 101: Alchemy - hand in to the alchemy trainer the quest names
+  turnin 97917 optional -- Camping 101: Enchanting - hand in to the enchanting trainer the quest names
+
+step Eastvale - the armor marker
+
+  tip One more run east, with a marshal's marker to deliver and Eastvale's own errands to close: Raelen's wood comes from the gnoll camps you have been clearing all across the forest, and Sara's bandanas from every Defias you have dropped since the vineyards.
+  turnin 59 -- Cloth and Leather Armor - the Stormwind Armor Marker to Sara Timberlain
+  turnin 5545 -- A Bundle of Trouble - the Bundles of Wood to Supervisor Raelen
+  turnin 83 -- Red Linen Goods - the Red Linen Bandanas to Sara Timberlain
+  turnin 97925 optional -- Camping 101: Tailoring - Eldrin, here at Eastvale
+
+step Brackwell Pumpkin Patch - the Collector
+
+  tip The Brackwell Pumpkin Patch, east of the Stonefield Farm: the Collector makes his camp among the pumpkins. On the way, swing by the Maclure farmhouse - Maybell is still waiting on a certain liquor, and her escape.
+  turnin 114 -- The Escape - the Invisibility Liquor to Maybell Maclure, at the Maclure Vineyards
+
+step Goldshire - the Collector's ring
+
+  tip The patch run is done and the ring is in your bags. Dughan closes the file.
+  turnin 147 -- Manhunt - The Collector's Ring to Marshal Dughan
+
+step Westbrook Garrison - and the Applejack Still
+
+  tip The road west ends at Westbrook Garrison (24.2, 74.5), the zone's frontier post. On the way in, detour north to the Applejack Still (24.5, 58.2), just outside Stormwind's wall: feed it the four Shiny Red Apples Homer Stonefield sold you. The still's hand-in never enters your quest log - keep the Thunder Applejack it gives you; Sergeant De Vries, at the garrison, is waiting for a taste.
+  accept 91736 optional -- Applejack Still - the still itself; four Shiny Red Apples
+  turnin 91736 direct -- Applejack Still - handed in at the still; it never enters the log
+  turnin 239 -- Westbrook Garrison Needs Help! - report to Deputy Rainer
+  accept 11 -- Riverpaw Gnoll Bounty - Deputy Rainer; eight Painted Gnoll Armbands from the Forest's Edge camps
+  accept 176 -- Wanted: "Hogger" - from the garrison's wanted poster
+  accept 91738 -- An Apple Treat - Sergeant De Vries
+  turnin 91738 -- An Apple Treat - the Thunder Applejack to Sergeant De Vries
+  turnin 11 -- Riverpaw Gnoll Bounty - back to Deputy Rainer
+  note Hogger is a level 11 elite gnoll, roaming south of the garrison - bring a friend, or come back a level stronger. His claw goes to Marshal Dughan.
+
+step Goldshire - Hogger's claw
+
+  tip Through Goldshire one last time, with a certain claw for the marshal.
+  turnin 176 -- Wanted: "Hogger" - Hogger's Huge Gnoll Claw to Marshal Dughan
+
+step Stormwind City
+
+  tip The capital, north of Goldshire: William's shipment for his brother Morgan, in the Trade District - and the city's trainers close out the last of Sam's Camping lessons. Priests: High Priestess Laurena waits in the Cathedral of Light.
+  turnin 61 -- Shipment to Stormwind - William's Shipment to Morgan Pestle
+  turnin 94774 only Priest -- Divine Grace - speak with High Priestess Laurena, in the Cathedral of Light
+  turnin 97918 optional -- Camping 101: Engineering - Sprite Jumpsprocket, in Stormwind
+  turnin 97923 optional -- Camping 101: Mining - Gelman Stonehand, in Stormwind
+  turnin 97921 optional -- Camping 101: Herbalism - Herbalist Pomeroy
+
+step Leaving Elwynn
+
+  tip When you are ready, the road west past Westbrook Garrison runs on into Westfall. Marshal Dughan's introduction is in your bags: Gryan Stoutmantle waits in the stone tower on Sentinel Hill, in the middle of Westfall.
+  turnin 109 -- Report to Gryan Stoutmantle - hand in to Gryan Stoutmantle when you reach Sentinel Hill
