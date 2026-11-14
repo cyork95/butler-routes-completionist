@@ -191,9 +191,9 @@ _Follows Darkshore._
 
 _Off Ashenvale. Alliance route first; Horde content handled as the data dictates._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 80 candidates, 40 Alliance IN / 40 OUT (32 Horde set-aside for the Horde block)
+- [x] Core guide - `stonetalon.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 4 personas 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
