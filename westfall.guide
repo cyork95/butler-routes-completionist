@@ -1,0 +1,249 @@
+# Butler Routes - Westfall completionist pilot (pack butler-routes-completionist, v0.4.0).
+# Every Westfall quest in the WoW Forever command center's tracker list
+# (43 quests) appears exactly once as an accept and once as a turnin.
+# Entry: the Elwynn guide ends at Sentinel Hill (turnin 109); this guide opens there.
+# Humans and Skyborne share the route; race-locked lines are gated per quest data
+# (6281 Human-only, 98021 Skyborne-only). Deadmines objectives are placed at the
+# dungeon's Moonbrook front (166, 214) or Alba's south-road staging (92753, 92819).
+# Coordinates on Westfall use the era frame; Stormwind and Redridge stops use live.
+guide butler-routes-completionist/westfall
+title Westfall - Completionist
+levels 9-18
+zone Westfall
+faction Alliance
+category Leveling
+folder Completionist
+keywords westfall, completionist, sentinel hill, deadmines, lighthouse
+coords live
+version 1
+
+step Sentinel Hill — arrival
+
+  tip Sentinel Hill, the Alliance hub of Westfall. Thor (56.6, 52.6) runs the gryphon roost; Innkeeper Heather (52.9, 53.7) binds your home here. Take every quest on the hill before you head out.
+  accept 12 -- The People's Militia - Gryan Stoutmantle, first muster: Defias Trappers and Smugglers
+  accept 65 -- The Defias Brotherhood - Gryan Stoutmantle; the trail leads to Wiley the Black in Lakeshire
+  accept 102 -- Patrolling Westfall - Captain Danuvin, by Gryan's tower
+  accept 6281 only Human -- Continue to Stormwind - Thor. Humans only: pick up A Swift Message (6181) from Quartermaster Lewis first, it leads to Thor and opens this flight.
+  note Skyborne characters skip the flight chain: your road into Westfall is Journey to Sentinel Hill (98021), taken in Stormwind later.
+
+step Alba Fairmoon's farm
+
+  accept 92742 -- Testing the Wells - Alba Fairmoon, west of the hill by Scout Galiaan
+  accept 92744 -- Murloc Gills - Alba Fairmoon
+  accept 153 -- Red Leather Bandanas - Scout Galiaan, beside Alba's farm
+
+step Saldean's Farm
+
+  tip The Saldean farmstead, south down the road. Farmer Saldean (56.0, 31.2) and Salma Saldean (56.4, 30.5) hold the southern fields.
+  accept 9 -- The Killing Fields - Farmer Saldean: twenty Harvest Watchers out west
+  accept 22 -- Goretusk Liver Pie - Salma Saldean: eight goretusk livers
+
+step Furlbrow's Farm
+
+  tip The Furlbrow farmstead, southeast. Verna Furlbrow (59.9, 19.4) and Farmer Furlbrow (60.0, 19.4) work the last farm before the eastern road.
+  accept 36 -- Westfall Stew - Verna Furlbrow; Salma Saldean gets the delivery
+  accept 64 -- The Forgotten Heirloom - Farmer Furlbrow; his wardrobe stands far west at (49.3, 19.3)
+  accept 151 -- Poor Old Blanchy - Verna Furlbrow; Handfuls of Oats come from the sacks out west
+  note Furlbrow's Deed (184) starts from a Westfall Deed dropped by the Defias of the Jangolode Mine east and the Deadmines crews. Check your bags on the way.
+  accept 184 -- Furlbrow's Deed - use the deed, then hand it to Farmer Furlbrow
+  turnin 184
+  complete 92742 @56.6,18.7 era -- the Jansen Stead water well, just west of the farm
+  complete 153 @56.3,19.2 era -- the Defias Footpads along the eastern road
+
+step Saldean's Farm — Westfall Stew handoff
+
+  turnin 36 -- Westfall Stew - hand Verna's delivery to Salma Saldean
+  accept 38 -- Westfall Stew - Salma Saldean; the shopping list: vulture meat, murloc eyes, goretusk snouts, okra
+
+step Ozwin Ironsprocket
+
+  tip Ozwin Ironsprocket (51.5, 32.3) tinkers east of the harvest fields. His harvester work comes in three same-named parts; the compiler tells them apart, this note is for you.
+  accept 92909 -- Harvesting the Harvesters - Ozwin Ironsprocket, direct offer: Golem Isosprings and Harvester Gyrostabilizers
+  note The two follow-ups share the name: 92910 starts from a Precessive Autocognition Assembly dropped by the harvest golems and ends back here, 92911 is Ozwin's Engineering follow-up. Engineers get their own gated steps; everyone does this one.
+
+step The harvest fields — golem parts and oil
+
+  complete 92909 @36.1,50.9 era -- the Harvest Watchers and golems: fourteen Golem Isosprings and five Harvester Gyrostabilizers
+  note Bank the Flask of Oil that drops from the golems; Grayson at the lighthouse wants five (accepted later).
+  complete 92742 @46.1,38.1 era -- the Molsen Farm water well
+
+step Ozwin's post and Alba's farm — returns
+
+  turnin 92909 -- Harvesting the Harvesters - back to Ozwin Ironsprocket
+  turnin 92742 -- Testing the Wells - back to Alba Fairmoon
+
+step Ozwin's post — Engineer's assembly
+  when skill Engineering 1
+
+  note Engineers only. The Precessive Autocognition Assembly (92910) drops from the harvest golems; Ozwin takes it and hands you part two (92911). Non-engineers skip this step cleanly.
+  kill 36 optional -- a Harvest Golem, for the Assembly
+  accept 92910 -- Harvesting the Harvesters - use the Precessive Autocognition Assembly
+  turnin 92910 -- Harvesting the Harvesters - back to Ozwin Ironsprocket
+  accept 92911 -- Harvesting the Harvesters - Ozwin's Engineering follow-up
+  complete 92911 @36.1,50.9 era -- eight Golem Isosprings and four Copper Modulators off the golems and Defias
+  note The Crude Scope comes from the coast murlocs and the Pillagers and Looters met later; it is picked up on those legs.
+
+step The western fields — Militia muster
+
+  complete 12 @31.0,33.5 era -- fifteen Defias Trappers
+  complete 12 @41.1,41.8 era -- fifteen Defias Smugglers
+  complete 102 @34.0,29.5 era -- eight Gnoll Paws off the Riverpaw Scouts
+  complete 151 @31.4,34.0 era -- eight Handfuls of Oats from the sacks
+  turnin 12 -- The People's Militia - first muster to Gryan Stoutmantle
+  accept 13 -- The People's Militia - Gryan Stoutmantle, second muster: Pillagers and Looters
+
+step Jangolode edge — Militia, part two
+
+  complete 13 @29.0,50.0 era -- fifteen Defias Pillagers and fifteen Defias Looters
+  complete 92744 @24.0,55.0 era -- seven Longshore Murloc Gills off the west-coast hunters and oracles
+  turnin 92744 -- Murloc Gills - the gills to Alba Fairmoon
+  turnin 13 -- The People's Militia - second muster to Gryan Stoutmantle
+  accept 14 -- The People's Militia - Gryan Stoutmantle, third muster: the south road gangs
+  note Engineers: the Pillagers and Looters also drop the Crude Scope for Harvesting the Harvesters (92911).
+
+step The mines and Moonbrook
+
+  accept 92745 -- The State of the Mines - Alba Fairmoon: kobolds and Riverpaw miners
+  complete 92745 @44.8,21.0 era -- four Kobold Diggers
+  complete 92745 @29.3,48.5 era -- six Riverpaw Miners
+  turnin 92745 -- The State of the Mines - back to Alba Fairmoon
+  accept 92747 -- Moonbrook Espionage - Alba Fairmoon: the crates around Moonbrook
+  complete 92747 @42.0,69.0 era -- eight Suspicious Industrial Supplies from the crates around Moonbrook
+  turnin 92747 -- Moonbrook Espionage - back to Alba Fairmoon
+  accept 92748 -- Explosive Consultation - Alba Fairmoon sends you to Sprite Jumpsprocket in Stormwind
+
+step Lakeshire — Wiley the Black
+
+  zone map 1433
+  tip The Defias trail leaves Westfall: east through Elwynn to Lakeshire, in Redridge. Wiley the Black waits there.
+  turnin 65 -- The Defias Brotherhood - hand Gryan's message to Wiley the Black
+  accept 132 -- The Defias Brotherhood - Wiley the Black; carry his reply to Gryan
+
+step Sentinel Hill — the Defias chain
+
+  zone map 1436
+  turnin 132 -- The Defias Brotherhood - Wiley's reply to Gryan Stoutmantle
+  accept 135 -- The Defias Brotherhood - Gryan Stoutmantle; Master Mathias Shaw in Stormwind takes it
+
+step Stormwind — SI:7, the throne and the engineer
+
+  zone map 1453
+  tip One Stormwind trip covers the Defias chain, Alba's engineer and both racial handoffs. Sprite Jumpsprocket tinkers in the Dwarven District (61.9, 30.6); Master Mathias Shaw is at SI:7 (78.3, 70.7); Highlord Bolvar Fordragon holds the throne room (80.2, 38.4); Osric Strang runs the gryphon roost (77.2, 61.0).
+  turnin 135 -- The Defias Brotherhood - Shaw takes Gryan's report
+  accept 141 -- The Defias Brotherhood - Master Mathias Shaw; carry his orders to Gryan
+  turnin 92748 -- Explosive Consultation - Alba's word to Sprite Jumpsprocket
+  accept 92749 -- A Dynamite Plan - Sprite Jumpsprocket; ten Rough Dynamite
+  accept 92750 -- Detonation at a Distance - Sprite Jumpsprocket to Jasper Fel in Old Town
+  turnin 92750 -- Detonation at a Distance - Jasper Fel takes Sprite's plan
+  accept 92751 -- Detonation at a Distance - Jasper Fel; carry his detonator back to Sprite
+  turnin 92751 -- Detonation at a Distance - back to Sprite Jumpsprocket
+  note Rough Dynamite (ten for A Dynamite Plan): the game data lists no Westfall source, so have ten in your bags before you turn in.
+  turnin 92749 -- A Dynamite Plan - back to Sprite Jumpsprocket
+  accept 92752 -- Explosive Consultation - Sprite Jumpsprocket; carry the findings to Alba Fairmoon
+  accept 98021 only Skyborne -- Journey to Sentinel Hill - Highlord Bolvar Fordragon; Skyborne only, ends at Gryan back west
+  turnin 6281 only Human -- Continue to Stormwind - Osric Strang takes Thor's message; Humans only
+
+step Sentinel Hill — the chains return
+
+  zone map 1436
+  turnin 141 -- The Defias Brotherhood - Shaw's orders to Gryan Stoutmantle
+  accept 142 -- The Defias Brotherhood - Gryan Stoutmantle; a Mysterious Message off the Defias Messenger on the Moonbrook road
+
+step Alba Fairmoon's farm — the south road
+
+  turnin 92752 -- Explosive Consultation - Sprite's findings to Alba Fairmoon
+  accept 92753 -- Destruction in Deadmines - Alba Fairmoon; the staging moves to the south road
+  turnin 153 -- Red Leather Bandanas - Scout Galiaan takes the fifteen bandanas
+
+step The lighthouse — Captain Grayson
+
+  tip Captain Grayson (30.0, 86.0) holds the lighthouse at the far southwest coast. Old Murk-Eye works the shore north of him.
+  accept 103 -- Keeper of the Flame - Captain Grayson; five Flasks of Oil
+  complete 103 @32.5,36.4 era -- five Flasks of Oil off the harvest golems, if the flasks have not dropped already
+  accept 152 -- The Coast Isn't Clear - Captain Grayson; seven of each murloc kind along the coast
+  accept 104 -- The Coastal Menace - Captain Grayson; the Scale of Old Murk-Eye
+  complete 103 @32.5,36.4 era -- five Flasks of Oil off the harvest golems, if the flasks have not dropped already
+  turnin 103 -- Keeper of the Flame - back to Captain Grayson
+  complete 104 @29.3,76.0 era -- Old Murk-Eye, one Scale
+  turnin 104 -- The Coastal Menace - back to Captain Grayson
+
+step The western coast — teeth and gills
+
+  complete 152 @42.0,11.0 era -- seven Murloc Coastrunners on the north shore
+  complete 152 @25.0,49.5 era -- seven Murloc Warriors on the west shore
+  complete 152 @26.0,73.0 era -- seven Murloc Tidehunters on the south shore
+  complete 152 @24.0,60.0 era -- seven Murloc Oracles on the west shore
+  turnin 152 -- The Coast Isn't Clear - back to Captain Grayson
+
+step The western shore — Sanders' trail
+
+  note Captain Sanders' Treasure Map drops from the coastal murlocs met on this leg. The trail runs Footlocker, Broken Barrel, Old Jug, Locked Chest; the map, the clicks and the turn-ins are all on this shore.
+  accept 136 -- Captain Sanders' Hidden Treasure - use the Captain's Treasure Map
+  turnin 136 -- Captain Sanders' Hidden Treasure - click the Captain's Footlocker (25.9, 47.8)
+  accept 138 -- Captain Sanders' Hidden Treasure - the Footlocker points on
+  turnin 138 -- Captain Sanders' Hidden Treasure - click the Broken Barrel (40.5, 47.8)
+  accept 139 -- Captain Sanders' Hidden Treasure - the Barrel points on
+  turnin 139 -- Captain Sanders' Hidden Treasure - click the Old Jug (40.6, 17.0)
+  accept 140 -- Captain Sanders' Hidden Treasure - the Jug points on
+  turnin 140 -- Captain Sanders' Hidden Treasure - click the Locked Chest (26.0, 16.9); it holds the Shirt, the Sash and the Booty Bag
+
+step Moonbrook — messages and silk
+
+  complete 142 @45.1,69.3 era -- a Mysterious Message off the Defias Messenger on the Moonbrook road
+  turnin 142 -- The Defias Brotherhood - the message to Gryan Stoutmantle
+  accept 155 -- The Defias Brotherhood - The Defias Traitor by Sentinel Hill (55.7, 47.5); escort him and learn where VanCleef hides
+  complete 155 @55.7,47.5 era -- escort The Defias Traitor
+  turnin 155 -- The Defias Brotherhood - the traitor's word to Gryan Stoutmantle
+  accept 166 -- The Defias Brotherhood - Gryan Stoutmantle; Edwin VanCleef, inside the Deadmines
+  complete 14 @36.5,76.5 era -- fifteen Defias Highwaymen, five Pathstalkers and five Knuckledusters on the south road
+  accept 214 -- Red Silk Bandanas - Scout Riell, by Gryan's tower; ten silks off the Deadmines crews
+
+step The Deadmines entrance
+
+  tip The Deadmines open at Moonbrook. 166 and 214 go inside with your group; these goals mark the entrance at (42.0, 71.0).
+  complete 166 @42.0,71.0 era -- the Head of VanCleef, inside the Deadmines
+  note Edwin VanCleef waits at the bottom of the Deadmines; this goal marks the Moonbrook entrance, the group goes in together.
+  complete 214 @42.0,71.0 era -- ten Red Silk Bandanas off the Deadmines crews, inside
+  note The silk bandanas drop from the Deadmines crews inside; this goal marks the Moonbrook entrance.
+
+step The south road — Alba's last stand
+
+  tip Alba Fairmoon stages the south road at (38.7, 83.7) with the Detonator at (38.7, 83.6). 92753 goes inside the Deadmines with your group from this staging.
+  complete 92753 @38.7,83.6 era -- place the explosives, inside the Deadmines
+  note Destruction in Deadmines finishes inside the dungeon; this goal marks Alba's south-road staging by the Detonator.
+  turnin 92753 -- Destruction in Deadmines - back to Alba Fairmoon at the staging
+  accept 92819 -- Destruction in Deadmines - Alba Fairmoon at the staging
+  interact 581792 @38.7,83.6 era -- the Detonator
+  turnin 92819 -- Destruction in Deadmines - back to Alba Fairmoon
+
+step Saldean's Farm — the shopping list
+
+  complete 22 @35.4,36.6 era -- eight Goretusk Livers off the goretusks west of the farm
+  turnin 22 -- Goretusk Liver Pie - the livers to Salma Saldean
+  complete 9 @37.0,50.0 era -- twenty Harvest Watchers out west
+  turnin 9 -- The Killing Fields - back to Farmer Saldean
+  complete 38 @37.4,30.7 era -- three Stringy Vulture Meat off the young fleshrippers
+  complete 38 @42.5,12.3 era -- three Murloc Eyes off the coastrunners
+  complete 38 @35.4,36.6 era -- three Goretusk Snouts off the goretusks
+  complete 38 @32.5,36.4 era -- three Okra off the harvest golems
+  turnin 38 -- Westfall Stew - the full list to Salma Saldean
+
+step Southern farms close-out
+
+  complete 64 @49.3,19.3 era -- Furlbrow's Pocket Watch in his wardrobe
+  turnin 64 -- The Forgotten Heirloom - the Pocket Watch to Farmer Furlbrow
+  turnin 151 -- Poor Old Blanchy - the oats to Verna Furlbrow
+
+step Ozwin's post — Engineer's turnin
+  when skill Engineering 1
+
+  turnin 92911 -- Harvesting the Harvesters - the last parts to Ozwin Ironsprocket; Engineers only
+
+step Sentinel Hill — muster out
+
+  tip Westfall done: every tracker quest accepted and handed in. The hill's flight and inn stand ready for the next zone.
+  turnin 14 -- The People's Militia - third muster to Gryan Stoutmantle
+  turnin 102 -- Patrolling Westfall - the paws to Captain Danuvin
+  turnin 166 -- The Defias Brotherhood - the Head of VanCleef to Gryan Stoutmantle
+  turnin 214 -- Red Silk Bandanas - the silks to Scout Riell
+  turnin 98021 only Skyborne -- Journey to Sentinel Hill - the Skyborne road ends at Gryan Stoutmantle
