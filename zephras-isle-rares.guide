@@ -1,0 +1,316 @@
+# Butler Routes - Zephras Isle rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the eight confirmed rares and the fixed world containers of
+# Zephras Isle. Run it in its own Polestar tab at the end of the core route or standalone.
+# EVERY goal is optional: a rare that is not up never holds the route.
+# Spawn points, levels and loot are the local Forever game data (questie-forever);
+# respawn timers are unconfirmed anywhere, so none are stated.
+guide butler-routes-completionist/zephras-isle-rares
+title Zephras Isle - Rares & Treasures (Skyborne)
+levels 1-12
+zone Zephras Isle
+faction Alliance
+race Skyborne
+category Collectibles
+folder Companions
+keywords zephras, rares, treasures, skyborne, companions
+coords live
+version 1
+
+step Snapbeak the Quick — Thendal Grove
+
+  loop
+  goto 33.1,58.2
+  goto 34.2,59.5
+  goto 34.3,58.8
+  goto 34.5,54.3
+  goto 34.7,60.6
+  goto 34.7,58.2
+  goto 34.7,56.5
+  goto 34.8,57.2
+  goto 35.2,58.9
+  goto 35.3,53.9
+  goto 35.4,58.0
+  goto 35.8,56.6
+  goto 35.9,57.4
+  goto 36.0,54.5
+  goto 36.1,58.1
+  goto 36.3,55.7
+  goto 36.4,58.7
+  goto 36.5,57.6
+  goto 36.6,56.9
+  goto 37.0,55.8
+  goto 37.4,56.4
+  goto 37.4,57.3
+  goto 37.7,58.5
+  goto 38.0,55.6
+  kill 259394 optional
+  collect 285264 "Skyseer's Slippers" optional
+  collect 285268 "Scout Ranger's Boots" optional
+  collect 285269 "Thendal Watcher's Boots" optional
+  note Level 9 rare elite. Patrols a circle around the great tree past the Hippogryph Protectors. Not tameable.
+  note Also drops ordinary greens (Cracked Bill, Primal Boots, Beaded Cuffs); respawn timer unconfirmed.
+
+step Fernfeather — Windfield Orchard
+
+  loop
+  goto 46.6,83.0
+  goto 47.2,83.6
+  goto 48.0,84.7
+  goto 48.6,85.8
+  goto 49.3,83.6
+  goto 49.5,84.9
+  goto 49.6,81.0
+  goto 50.7,80.2
+  goto 50.7,83.0
+  goto 50.9,84.0
+  goto 51.3,81.8
+  goto 51.5,83.4
+  goto 51.8,80.4
+  goto 52.2,78.7
+  goto 53.0,77.5
+  goto 53.4,78.9
+  goto 53.6,80.2
+  goto 53.7,81.0
+  goto 54.0,78.0
+  goto 54.3,79.8
+  goto 54.6,78.9
+  goto 54.7,77.1
+  goto 62.9,63.7
+  goto 65.5,54.9
+  kill 256492 optional
+  task "Tame it instead of killing it (Bite, Dust Cloud)" optional only Hunter
+  collect 285272 "Skyseer's Belt" optional
+  collect 285273 "Scout Ranger's Belt" optional
+  collect 285274 "Thendal Watcher's Belt" optional
+  note Level 10 rare. Walks the orchard. The core route camps her for its taming quests; this step is the kill and loot sweep.
+  note Also drops ordinary greens (Cracked Bill, Ruffled Feather, Primal Wraps); respawn timer unconfirmed.
+
+step Tel'daeor the Stormspeaker — the eastern storm ridges
+
+  loop
+  goto 53.6,74.0
+  goto 55.0,73.4
+  goto 58.9,51.4
+  goto 64.5,50.6
+  goto 64.7,54.5
+  goto 64.9,53.1
+  goto 64.9,51.4
+  goto 65.3,52.4
+  goto 65.5,51.9
+  goto 65.6,54.9
+  goto 65.9,53.3
+  goto 66.2,54.0
+  goto 66.2,52.4
+  goto 66.6,53.4
+  goto 66.7,52.9
+  goto 66.9,52.3
+  kill 259385 optional
+  collect 263015 "Skyseer's Pants" optional
+  collect 263016 "Scout Ranger's Leggings" optional
+  collect 263017 "Thendal Watcher's Leggings" optional
+  note Level 13 rare. Also carries Stolen Shen'dar Supplies for the core quest Stolen Supplies (92551); the core route covers that quest.
+  note Also drops ordinary greens (Disciple's Robe, Cadet Belt, Cheap Blunderbuss); respawn timer unconfirmed.
+
+step Galemender Delanea — eastern Zephras
+
+  loop
+  goto 60.0,34.0
+  goto 61.3,61.2
+  goto 62.2,61.6
+  goto 62.3,64.6
+  goto 62.4,61.1
+  goto 62.5,62.3
+  goto 62.6,62.8
+  goto 62.8,60.5
+  goto 63.0,61.3
+  goto 63.1,62.2
+  goto 63.3,60.0
+  goto 63.5,63.1
+  goto 63.6,60.7
+  goto 63.7,61.6
+  goto 63.9,62.4
+  goto 64.1,64.1
+  goto 64.3,61.3
+  goto 64.4,62.9
+  goto 64.4,59.6
+  goto 64.8,61.6
+  goto 65.0,62.7
+  goto 65.0,63.4
+  goto 65.3,62.0
+  goto 65.6,54.8
+  kill 259398 optional
+  collect 285253 "Skyseer's Gloves" optional
+  collect 285254 "Scout Ranger's Gloves" optional
+  collect 285255 "Thendal Watcher's Gloves" optional
+  note Level 11 rare. Also carries Stolen Shen'dar Supplies for the core quest Stolen Supplies (92551); the core route covers that quest.
+  note Also drops ordinary greens (Warped Leather Vest, Battle Chain Boots, Beaded Britches); respawn timer unconfirmed.
+
+step Den'dralass — the eastern ruins
+
+  loop
+  goto 51.2,42.7
+  goto 52.2,41.5
+  goto 53.0,40.2
+  goto 53.2,42.6
+  goto 53.5,45.1
+  goto 54.8,43.9
+  goto 55.0,36.1
+  goto 55.1,38.1
+  goto 55.2,42.2
+  goto 56.6,37.9
+  goto 56.7,33.0
+  goto 57.0,31.4
+  goto 57.4,42.8
+  goto 57.8,29.4
+  goto 57.9,35.0
+  goto 58.2,40.8
+  goto 59.3,43.2
+  goto 59.7,31.7
+  goto 60.0,34.0
+  goto 61.1,38.1
+  goto 62.1,36.4
+  goto 62.7,37.8
+  goto 64.0,36.9
+  goto 65.6,54.9
+  kill 250936 optional
+  collect 263935 "Elunar Longstaff" optional
+  collect 263936 "Windforged Shortblade" optional
+  collect 263937 "Skyseeker's Greatstaff" optional
+  note Level 12 rare, The Great Mother; her points include the cliff edge beside the central ruin (about 56.3, 31.7) that trackers reported.
+  note Also drops ordinary greens (Ruffled Feather); respawn timer unconfirmed.
+
+step Mystmane — Shadowgale Forest
+
+  loop
+  goto 54.7,38.6
+  goto 54.9,36.2
+  goto 55.7,37.1
+  goto 56.1,38.2
+  goto 56.3,36.0
+  goto 57.1,37.9
+  goto 57.4,35.7
+  goto 57.8,37.2
+  goto 58.2,34.6
+  goto 58.5,33.4
+  goto 58.5,39.4
+  goto 58.7,36.1
+  goto 59.1,34.6
+  goto 59.1,37.9
+  goto 59.8,33.8
+  goto 59.9,32.4
+  goto 60.1,37.8
+  goto 60.1,39.2
+  goto 60.3,37.0
+  goto 60.5,34.8
+  goto 60.7,35.8
+  goto 60.8,38.2
+  goto 61.6,37.6
+  goto 62.0,35.9
+  kill 259388 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 285228 "Mystmane's Pelt" optional
+  note Level 13 rare. Prowls the trees of Shadowgale Forest.
+  note Also drops ordinary greens (Battle Chain Tunic, Pristine Leather, Cracked Bill); respawn timer unconfirmed.
+
+step The Lost One — central Zephras
+
+  loop
+  goto 48.4,44.9
+  goto 48.6,43.7
+  goto 48.6,46.0
+  goto 49.8,47.8
+  goto 49.9,42.1
+  goto 50.2,44.2
+  goto 50.5,45.6
+  goto 50.7,46.8
+  goto 50.9,42.9
+  goto 51.4,49.1
+  goto 51.7,44.3
+  goto 52.2,47.2
+  goto 52.5,48.3
+  goto 52.6,45.8
+  goto 52.9,49.7
+  goto 53.0,51.2
+  goto 53.6,47.2
+  goto 53.9,48.5
+  goto 54.2,46.1
+  goto 54.9,48.9
+  goto 55.0,47.2
+  goto 55.8,48.5
+  goto 58.7,46.5
+  goto 58.7,44.8
+  kill 256028 optional
+  collect 263005 "Thendal Watcher's Vest" optional
+  collect 263006 "Scout Ranger's Tunic" optional
+  collect 263007 "Skyseer's Vest" optional
+  note Level 6 rare elite. A named level 6 rare elite, a distinct record from the ordinary Lost One mobs.
+  note Also drops ordinary greens (Scroll of Intellect, Elixir of Shadow Power, Shiny Red Apple); respawn timer unconfirmed.
+
+step Slydris — central Zephras
+
+  loop
+  goto 49.5,52.1
+  goto 49.9,51.7
+  goto 50.0,49.8
+  goto 50.0,52.8
+  goto 50.1,50.4
+  goto 50.2,49.0
+  goto 50.3,52.1
+  goto 50.5,51.6
+  goto 50.6,50.9
+  goto 50.6,53.2
+  goto 50.8,50.4
+  goto 50.9,49.1
+  goto 50.9,52.5
+  goto 51.1,51.6
+  goto 51.3,49.7
+  goto 51.3,50.9
+  goto 51.5,52.1
+  goto 51.5,53.0
+  goto 51.7,51.4
+  goto 51.8,50.2
+  goto 52.1,50.9
+  goto 52.2,51.8
+  goto 53.2,42.6
+  kill 255887 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 285236 "Worn Ranger's Dagger" optional
+  collect 285238 "Chipped Spellstaff" optional
+  collect 285239 "Explorer's Shortsword" optional
+  note Level 6 rare elite. The golden fox of the core route's Thendal Village note. Trackers never pinned him, but the game data lists his patrol in central Zephras, so the sweep checks it; a trophy for the stable, not a tank.
+  note Also drops ordinary greens (Rabbit's Foot); respawn timer unconfirmed.
+
+step Dented Chests — fixed world containers
+
+  loop
+  goto 35.5,22.5
+  goto 35.9,24.7
+  goto 37.7,24.6
+  goto 37.2,26.2
+  goto 36.2,25.5
+  goto 35.8,33.8
+  goto 36.4,33.0
+  goto 37.7,34.6
+  goto 47.3,34.5
+  goto 48.5,20.5
+  goto 46.9,17.4
+  goto 35.1,54.1
+  goto 37.4,53.7
+  goto 41.9,66.9
+  goto 45.0,64.5
+  goto 43.8,75.4
+  goto 51.8,72.8
+  goto 55.1,77.6
+  goto 49.0,53.5
+  goto 49.5,56.2
+  goto 49.9,57.1
+  goto 56.0,58.7
+  goto 66.0,65.3
+  goto 50.0,35.1
+  goto 50.2,36.0
+  goto 50.4,33.1
+  goto 50.7,34.4
+  goto 50.6,44.2
+  interact 626718 optional
+  interact 626752 optional
+  note Two fixed Dented Chest placements confirmed in the game data; both hold ordinary low-level goods, no unique treasure. Respawn timer unconfirmed.
