@@ -180,9 +180,9 @@ _Follows Westfall and Loch Modan._
 
 _Follows Darkshore._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 112 candidates, 55 Alliance IN / 57 OUT (39 Horde set-aside for the Horde block)
+- [x] Core guide - `ashenvale.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 9 personas 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.19.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.20.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -24,6 +24,7 @@ Status: **in development (pack v0.19.0), not published yet**. The first release 
 | `darnassus-recipes.guide` (companion built, pilot pending) | Darnassus recipes & patterns | 4–60 | Alliance |
 | `darnassus.guide` (third city guide built, pilot pending) | Darnassus (Alliance capital) | 4–60 | Alliance |
 | `redridge.guide` (Set 2 core built, pilot pending) | Redridge Mountains | 14–26 | Alliance |
+| `ashenvale.guide` (Set 2 core built, pilot pending) | Ashenvale | 18–32 | Alliance |
 | `zephras-isle-rares.guide` (pilot companion) | Zephras Isle rares and treasures | 1–12 | Alliance (Skyborne) |
 | `zephras-isle-recipes.guide` (pilot companion) | Zephras Isle recipe sources | 1–12 | Alliance (Skyborne) |
 | `elwynn-forest-rares.guide` (companion built, pilot pending) | Elwynn Forest rares and treasures | 1–10 | Alliance |
