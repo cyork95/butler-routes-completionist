@@ -1,0 +1,423 @@
+# Butler Routes - Darkshore completionist pilot (pack butler-routes-completionist, v0.8.0).
+# Every Darkshore quest in the local census (74 quests, docs/darkshore-census.md)
+# appears exactly once as an accept and once as a turnin.
+# No race header: the data leaves open quests to all Alliance and gates only
+# the Night Elf return (6343), the Human/Dwarf Warrior stop (1442) and the
+# Night Elf Druid pair (6123/6124), so per-line `only` gates carry the rest.
+# Chain order is strictly turn-in-before-accept (external pres become notes
+# plus listed structural warnings, or when onquest mini-steps where completes
+# would wedge the sim); item- and object-started quests never wedge (note at
+# the source, sourcing optional); elites get notes, not silent solos.
+# Coordinates use the era frame the data carries, set with zone map lines.
+guide butler-routes-completionist/darkshore
+title Darkshore - Completionist
+levels 10-20
+zone Darkshore
+faction Alliance
+category Leveling
+folder Completionist
+keywords darkshore, completionist, auberdine, tower of althalaxx, beached
+coords live
+version 1
+
+step Auberdine - landfall
+
+  zone map 1439
+
+  tip Auberdine, the port hub. Laird (36.8, 44.3) holds the boat line; Terenthis (39.4, 43.5) and Tharnariun (38.8, 43.4) keep the town quests; Glynda (37.7, 43.4) posts the boards and the Red Crystal; Wizbang (37.0, 44.1) runs the buzzboxes; Gwennyth (36.6, 45.6) walks the shore; Gorbold (38.1, 41.2) wants the deeps; Cerellean (35.7, 43.7) mourns; Alanndarian (37.7, 40.7) keeps the grove word and the cooking pot; Elissa (39.1, 43.6) watches the Tower; Hollee (37.4, 41.8) digs. Thundris (37.4, 40.1) stands just east. Take every quest in town before you head out.
+  note Return to Nessa (6343) sends Laird's word back to Nessa at Rut'theran across the water; hop the boat back, turn in at the dock, sail home. The route never strands it.
+  accept 6343 only NightElf -- Return to Nessa - Laird; Nessa's word at Rut'theran
+  zone map 1438
+  turnin 6343 only NightElf -- Return to Nessa - Laird's word to Nessa Shadowsong
+  zone map 1439
+  accept 984 -- How Big a Threat? - Terenthis; find a corrupt furbolg camp
+  accept 985 -- How Big a Threat? - Terenthis; eight Pathfinders and five Windtalkers
+  accept 986 -- A Lost Master - Terenthis; five Fine Moonstalker Pelts
+  accept 993 -- A Lost Master - Terenthis; carry the word south to Volcor
+  accept 2118 -- Plagued Lands - Tharnariun Treetender; a Rabid Thistle Bear
+  accept 2138 -- Cleansing of the Infected - Tharnariun Treetender; twenty Rabid Thistle Bears
+  accept 983 -- Buzzbox 827 - Wizbang Cranktoggle; six Crawler Legs
+  complete 983 @34.7,48.0 era -- six Crawler Legs off the Pygmy Tide Crawlers on the town shore
+  turnin 983 -- Buzzbox 827 - the legs to Wizbang Cranktoggle
+  accept 1001 -- Buzzbox 411 - Buzzbox 827; carry the word north
+  note Gaffer Jacks (1579) and Electropellers (1580) want eight Gaffer Jacks and twelve Electropellers; the data lists no Darkshore source, so have them in your bags (auction house or an engineer) before you turn in.
+  accept 1579 -- Gaffer Jacks - Wizbang Cranktoggle; eight Gaffer Jacks
+  accept 947 -- Cave Mushrooms - Barithras Moonshade; Scaber Stalks and a Death Cap
+  accept 965 -- The Tower of Althalaxx - Sentinel Elissa Starbreeze; Balthule waits north
+  accept 982 -- Deep Ocean, Vast Sea - Gorbold Steelhand; the two lockboxes
+  accept 2178 -- Easy Strider Living - Alanndarian Nightsong; five Strider Meat
+
+step Tower of Althalaxx - the north
+
+  zone map 1439
+
+  tip North up the coast: Gelkak's camp, the two lockboxes, the buzzbox relay, the Tower and its mushrooms, and the Baron's waters. Athrikus Narassin (56.0, 26.3) is an elite - bring help or outlevel him.
+  turnin 965 -- The Tower of Althalaxx - Elissa's word to Balthule Shadowstrike
+  accept 966 -- The Tower of Althalaxx - Balthule Shadowstrike; four Worn Parchments
+  complete 966 @55.0,27.7 era -- four Worn Parchments off the Dark Strand Fanatics by the Tower
+  turnin 966 -- The Tower of Althalaxx - the parchments to Balthule Shadowstrike
+  accept 967 -- The Tower of Althalaxx - Balthule Shadowstrike; Delgren waits in Ashenvale
+  complete 947 @55.6,35.0 era -- five Scaber Stalks and the Death Cap around the Tower slopes
+  accept 2098 -- Gyromast's Retrieval - Gelkak Gyromast; the three key parts
+  complete 982 @38.2,28.8 era -- Silver Dawning's Lockbox on the north shore
+  complete 982 @39.6,27.5 era -- Mist Veil's Lockbox further east
+  note Baron Marinous (98028) starts from the Clouded Water Globe the Baron carries on the far north-east shore (57.6, 20.8); the Baron is an elite. Take the globe if it drops, hand it to Onu in the south; the route never waits on it.
+  accept 98028 -- Baron Marinous - the Clouded Water Globe
+  accept 1143 -- The Tower of Althalaxx - Balthule Shadowstrike; Athrikus Narassin's Head
+  turnin 1143 -- The Tower of Althalaxx - the Head to Balthule Shadowstrike
+  accept 981 -- The Tower of Althalaxx - Balthule Shadowstrike; Delgren waits in Ashenvale
+
+step Tower of Althalaxx - Athrikus Narassin (soft pre)
+
+  zone map 1439
+
+  when onquest 1143
+
+  complete 1143 @56.0,26.3 era -- Athrikus Narassin's Head off Athrikus Narassin (elite - bring help or outlevel him)
+
+step Auberdine - first returns
+
+  zone map 1439
+
+  tip Back through town on the way south: bank the north trip, pick up the Bashal'Aran follow-ups at Thundris's, and take Barithras's word for Onu.
+  turnin 982 -- Deep Ocean, Vast Sea - the lockboxes to Gorbold Steelhand
+  turnin 947 -- Cave Mushrooms - the mushrooms to Barithras Moonshade
+  accept 948 -- Onu - Barithras Moonshade; Onu waits in the southern grove
+  turnin 1579 -- Gaffer Jacks - the jacks to Wizbang Cranktoggle
+  accept 1580 -- Electropellers - Wizbang Cranktoggle; twelve Electropellers
+  turnin 1580 -- Electropellers - the electropellers to Wizbang Cranktoggle
+  accept 3524 -- Washed Ashore - Gwennyth Bly'Leggonde; Sea Creature Bones
+  accept 963 -- For Love Eternal - Cerellean Whiteclaw; Anaya's Pendant
+  note Fruit of the Sea (1138) wants six Fine Crab Chunks off the tide crawlers; The Family and the Fishing Pole (1141) wants six Darkshore Grouper - fished or bought.
+  accept 1138 -- Fruit of the Sea - Gubber Blump; six Fine Crab Chunks
+  accept 1141 -- The Family and the Fishing Pole - Gubber Blump; six Darkshore Grouper
+  note WANTED: Murkdeep! (4740) is posted on the board by the dock (37.2, 44.2); Murkdeep works the north-west shore (36.4, 76.5). Take it if you pass; the route never waits on a rare spawn.
+  accept 4740 -- WANTED: Murkdeep! - the board; Murkdeep on the north-west shore
+  note Washed Ashore (4681) needs Bones (3524) turned in first - Gwennyth's turnin below unlocks it.
+  accept 4681 -- Washed Ashore - Gwennyth Bly'Leggonde; Sea Turtle Remains
+
+step West coast - south to the Grove
+
+  zone map 1439
+
+  tip Down the west shore: the furbolg camp, the bears, Tysha's ruins, the pelts, the bones, and Murkdeep. Grell Earrings and Moonstalker Fangs come off anything in the way. The beached pair here unlocks with 4681's turnin - re-click stragglers on the last loop.
+  complete 984 @39.9,53.9 era -- find the corrupt furbolg camp
+  complete 2118 @38.1,56.6 era -- the Rabid Thistle Bear
+  complete 2138 @38.1,56.6 era -- twenty Rabid Thistle Bears along the road
+  complete 3524 @36.4,50.9 era -- Sea Creature Bones at the beached wreck
+  accept 953 -- The Fall of Ameth'Aran - Sentinel Tysha Moonblade; read the tablets east
+  accept 4722 -- Beached Sea Turtle - the beached turtle (37.1, 62.2)
+  accept 4728 -- Beached Sea Creature - the beached creature (36.0, 70.9)
+  complete 2098 @35.7,71.6 era -- the Middle of Gelkak's Key off the Greymist Coastrunners and Seers
+  complete 1001 @29.5,46.3 era -- three Thresher Eyes off the Darkshore Threshers
+  complete 1138 @34.9,72.3 era -- six Fine Crab Chunks off the Reef Crawlers
+  complete 4740 @36.4,76.5 era -- Murkdeep on the north-west shore (elite - bring help or outlevel him)
+
+step West coast - Sea Turtle Remains (soft pre)
+
+  zone map 1439
+
+  when onquest 4681
+
+  complete 4681 @31.8,46.3 era -- Sea Turtle Remains at the skeletal turtle
+
+step West coast - Moonstalker pelts (soft pre)
+
+  zone map 1439
+
+  when onquest 986
+
+  complete 986 @37.5,63.4 era -- five Fine Moonstalker Pelts off the Moonstalkers
+
+step West coast - Blackwood camp (soft pre)
+
+  zone map 1439
+
+  when onquest 985
+
+  complete 985 @39.1,53.4 era -- eight Blackwood Pathfinders and five Windtalkers
+
+step Auberdine - south chain returns
+
+  zone map 1439
+
+  tip Back up to town with the coast's leavings: the furbolg and bear words, the bones, and - with 4681 turned in - the whole beached series unlocks for the way south. Swing east to Thundris for his errands.
+  turnin 984 -- How Big a Threat? - the camp word to Terenthis
+  accept 4761 -- Thundris Windweaver - Terenthis; Thundris waits east
+  turnin 4761 -- Thundris Windweaver - Terenthis's word to Thundris Windweaver
+  accept 4762 -- The Cliffspring River - Thundris Windweaver; the river sample
+  turnin 2118 -- Plagued Lands - the bear to Tharnariun Treetender
+  turnin 2138 -- Cleansing of the Infected - the bears to Tharnariun Treetender
+  accept 2139 -- Tharnariun's Hope - Tharnariun Treetender; Den Mother in the east
+  turnin 3524 -- Washed Ashore - the bones to Gwennyth Bly'Leggonde
+  turnin 4681 -- Washed Ashore - the remains to Gwennyth Bly'Leggonde
+  accept 954 -- Bashal'Aran - Thundris Windweaver; the blue aura in the ruins
+  accept 958 -- Tools of the Highborne - Thundris Windweaver; seven Highborne Relics
+  accept 4811 -- The Red Crystal - Sentinel Glynda Nal'Shea; the eastern crystal
+  note Trouble In Darkshore? (730, Teldrassil) unlocks The Absent Minded Prospector (729) here; Greywhisker's word in Teldrassil comes first, then Hollee's dig takes the story south.
+  accept 729 -- The Absent Minded Prospector - Archaeologist Hollee; carry the word to Remtravel
+  note Seeking the Kor Gem (1442) follows an Ironforge Paladin chain (1654, uncontracted); the gem itself waits at the far south of the zone. Human and Dwarf Paladins only.
+  accept 1442 only Human,Dwarf,Paladin -- Seeking the Kor Gem - Thundris Windweaver; the Corrupted Kor Gem
+  note Researching the Corruption (1275) needs The Corruption Abroad (3765, Azshara) first - out of contract, so the errand waits on that trip.
+  accept 1275 -- Researching the Corruption - Gershala Nightwhisper; eight Corrupted Brain Stems
+  note Unrequited Love (98461) carries Hollee's word to Tarrel in the Wetlands; sail east when the zone is done.
+  accept 98461 -- Unrequited Love - Archaeologist Hollee; Hollee's word for Tarrel
+  note Gathering the Cure (6123) needs The Principal Source (6122, Moonglade) turned in first; pick it up from Dendrite in Moonglade before Alanndarian's cure counts. The route never wedges on it.
+  note Earthroot comes from any herbalist or vendor; Lunar Fungus blooms south-east of town.
+  accept 6123 only NightElf,Druid -- Gathering the Cure - Alanndarian Nightsong; Earthroot and Lunar Fungus
+  accept 6124 only NightElf,Druid -- Curing the Sick - Alanndarian Nightsong; the Sickly Deer
+
+step Far south - Volcor, escorts and the Blackfathom
+
+  zone map 1439
+
+  tip The far south: the last beached pair, Volcor's cave, Therylune's flight, both southern escorts, and the Blackfathom shore. Corrupted Brain Stems and the Kor Gem come off the satyrs and naga down here. The beached four here are open now that 4681 is turned in. Den Mother and the buzzbox wait for the return trip.
+  accept 4730 -- Beached Sea Creature - the beached creature (32.7, 80.8)
+  accept 4731 -- Beached Sea Turtle - the beached turtle (31.7, 83.7)
+  accept 4732 -- Beached Sea Turtle - the beached turtle (31.2, 85.6)
+  accept 4733 -- Beached Sea Creature - the beached creature (31.3, 87.4)
+  turnin 993 -- A Lost Master - Terenthis's word to Volcor
+  turnin 729 -- The Absent Minded Prospector - Hollee's word to Prospector Remtravel
+  accept 731 -- The Absent Minded Prospector - Prospector Remtravel; escort him to Hollee
+  accept 995 -- Escape Through Stealth - Volcor; sneak him out of the cave
+  accept 945 -- Therylune's Escape - Therylune; escort her from the Glaive
+  complete 945 @40.5,87.1 era -- escort Therylune away from the Master's Glaive
+  zone map 1440
+  turnin 945 -- Therylune's Escape - Therylune to Therysil
+  zone map 1439
+  accept 5713 -- One Shot. One Kill. - Sentinel Aynasha; protect her (pilot watch: the data leaves this open to all, report if the game gates it)
+  complete 5713 @45.9,90.4 era -- protect Aynasha in the south
+  zone map 1440
+  turnin 5713 -- One Shot. One Kill. - Aynasha's word to Sentinel Onaeya
+  zone map 1439
+  accept 5321 -- The Sleeper Has Awakened - Kerlonian Evershade; escort him south
+  complete 5321 @41.6,89.9 era -- escort Kerlonian Evershade on the road south
+  zone map 1440
+  turnin 5321 -- The Sleeper Has Awakened - Kerlonian to Liladris Moonriver
+  zone map 1439
+
+
+  complete 2178 @34.4,86.8 era -- five Strider Meat off the Foreststriders
+
+  complete 2098 @34.4,86.8 era -- the Top of Gelkak's Key off the Giant Foreststrider
+  complete 2098 @31.7,81.9 era -- the Bottom of Gelkak's Key off the Encrusted Tide Crawlers
+
+step Far south - Sickly Deer (soft pre)
+
+  zone map 1439
+
+  when onquest 6124
+
+  complete 6124 @34.6,87.3 era -- ten Sickly Deer in the south
+
+step Far south - Brain Stems (soft pre)
+
+  zone map 1439
+
+  when onquest 1275
+
+  complete 1275 @30.9,91.8 era -- eight Corrupted Brain Stems off the Fallenroot and Blackfathom
+
+step Far south - Kor Gem (soft pre)
+
+  zone map 1439
+
+  when onquest 1442
+
+  complete 1442 @30.7,94.5 era -- the Corrupted Kor Gem off the Blackfathom at the far south shore
+
+step Far south - Volcor escape (soft pre)
+
+  zone map 1439
+
+  when onquest 995
+
+  complete 995 @44.6,85.0 era -- help Volcor escape the cave
+
+step Far south - Remtravel escort (soft pre)
+
+  zone map 1439
+
+  when onquest 731
+
+  complete 731 @35.7,84.0 era -- escort Prospector Remtravel
+
+step Grove of the Ancients - Onu and the Glaive
+
+  zone map 1439
+
+  tip Inland to the Grove: Barithras's word reaches Onu, the Glaive opens, and Arbal names the Mathystra hunt. The turnins for the southern escort quests already left the zone with their escorts.
+  turnin 948 -- Onu - Barithras's word to Onu
+  accept 944 -- The Master's Glaive - Onu; enter the Glaive
+  complete 944 @38.5,86.5 era -- enter the Master's Glaive
+  turnin 944 -- The Master's Glaive - the Glaive word at the Scrying Bowl
+  accept 949 -- The Twilight Camp - the Scrying Bowl (38.6, 86.2)
+  turnin 949 -- The Twilight Camp - the Bowl word at the Twilight Tome
+  accept 950 -- Return to Onu - the Twilight Tome (38.5, 86.1)
+  turnin 950 -- Return to Onu - the Tome to Onu
+  accept 951 -- Mathystra Relics - Onu; six relics in the northern ruins
+  accept 98013 -- Swelling Forces - Arbal; Stormscales in the northern ruins
+  turnin 98028 -- Baron Marinous - the Clouded Water Globe to Onu
+
+step East and north - Mathystra and Gelkak
+
+  zone map 1439
+
+  tip East across Ameth'Aran and Bashal'Aran, up Cliffspring to the northern ruins: tablets, relics, the crystal, the seal chain, the river sample, the Stormscales, and Gelkak's turnin. The 411 box closes the Thresher leg. The beached three up here are open now that 4681 is turned in.
+  complete 953 @43.3,58.7 era -- read the Lay of Ameth'Aran
+  complete 953 @42.7,63.1 era -- read the Fall of Ameth'Aran
+  complete 963 @41.8,60.7 era -- Anaya's Pendant off Anaya Dawnrunner
+  complete 958 @41.5,58.6 era -- seven Highborne Relics off the Cursed and Writhing Highborne
+  complete 954 @44.3,36.4 era -- find the strange blue aura in Bashal'Aran
+  turnin 954 -- Bashal'Aran - the aura word to Asterion
+  accept 955 -- Bashal'Aran - Asterion; eight Grell Earrings
+  complete 955 @44.0,38.4 era -- eight Grell Earrings off the Vile Sprites and Wild Grell
+  turnin 955 -- Bashal'Aran - the earrings to Asterion
+  accept 956 -- Bashal'Aran - Asterion; the Ancient Moonstone Seal
+  complete 956 @45.4,39.7 era -- the Ancient Moonstone Seal off the Deth'ryll Satyr
+  turnin 956 -- Bashal'Aran - the seal to Asterion
+  accept 957 -- Bashal'Aran - Asterion; destroy the seal at the ancient flame
+  complete 957 @42.4,61.8 era -- destroy the seal at the Ancient Flame
+  turnin 957 -- Bashal'Aran - the flame word to Asterion
+  accept 4723 -- Beached Sea Creature - the beached creature (41.9, 31.5)
+  turnin 1001 -- Buzzbox 411 - the relay to Buzzbox 411
+  accept 1002 -- Buzzbox 323 - Buzzbox 411; six Moonstalker Fangs
+  accept 4725 -- Beached Sea Turtle - the beached turtle (44.2, 20.6)
+  accept 4727 -- Beached Sea Turtle - the beached turtle (53.1, 18.1)
+  turnin 2098 -- Gyromast's Retrieval - the three key parts to Gelkak Gyromast
+  accept 2078 -- Gyromast's Revenge - Gelkak Gyromast; Gelkak's First Mate
+  complete 2078 @55.8,18.3 era -- Gelkak's First Mate by the northern camp
+  turnin 2078 -- Gyromast's Revenge - the revenge to Gelkak Gyromast
+  note Jai'vhanel (98025) nests with its chicks east of the Grove (41.9, 57.8); the Feather starts the WANTED poster. Take it if it drops, hand it to Glynda; the route never waits on it.
+  accept 98025 -- WANTED: Jai'vhanel - the Feather of Jai'vhanel
+  complete 98025 @41.9,57.8 era -- the Feather of Jai'vhanel off Jai'vhanel
+  complete 4811 @47.3,48.7 era -- locate the large, red crystal on the eastern range
+  complete 951 @58.5,19.3 era -- six Mathystra Relics in the northern ruins
+  complete 98013 @56.9,22.5 era -- twelve Stormscale Myrmidons in the northern ruins
+  complete 98013 @57.0,21.7 era -- eight Stormscale Sorceresses in the northern ruins
+  complete 98013 @60.1,18.8 era -- six Stormscale Warriors in the northern ruins
+
+step East and north - Lunar Fungus (soft pre)
+
+  zone map 1439
+
+  when onquest 6123
+
+  complete 6123 @43.2,45.8 era -- twelve Lunar Fungus off the blooms south-east of town
+
+step East and north - Cliffspring sample (soft pre)
+
+  zone map 1439
+
+  when onquest 4762
+
+  complete 4762 @50.8,25.6 era -- the Cliffspring River Sample at the waterfall
+
+step Auberdine - returns
+
+  zone map 1439
+
+  tip Home to Auberdine with the south in your bags: turn in the whole southern arc, take the Twilight turn at Thundris's, and pick up the last three errands. Tysha's tablet word goes back down the road.
+  turnin 985 -- How Big a Threat? - the furbolgs to Terenthis
+  turnin 986 -- A Lost Master - the pelts to Terenthis
+  turnin 995 -- Escape Through Stealth - Volcor's freedom to Terenthis
+  accept 97914 -- Expanding Horizons - Thundris Windweaver; Baros waits in Stormwind
+  turnin 731 -- The Absent Minded Prospector - Remtravel's escort to Archaeologist Hollee
+  accept 741 -- The Absent Minded Prospector - Archaeologist Hollee; Remtravel's word for Greywhisker
+  note Volcor's chain points on to Sentinel Selarin's Trek to Ashenvale (990, uncontracted) - a later round's business, not this route's.
+  turnin 953 -- The Fall of Ameth'Aran - the tablets to Sentinel Tysha Moonblade
+  turnin 958 -- Tools of the Highborne - the relics to Thundris Windweaver
+  turnin 4762 -- The Cliffspring River - the sample to Thundris Windweaver
+  accept 4763 -- The Blackwood Corrupted - Thundris Windweaver; the Talisman of Corruption
+  turnin 963 -- For Love Eternal - the pendant to Cerellean Whiteclaw
+  turnin 6123 only NightElf,Druid -- Gathering the Cure - the cure to Alanndarian Nightsong
+  turnin 2178 -- Easy Strider Living - the meat to Alanndarian Nightsong
+  turnin 1275 -- Researching the Corruption - the stems to Gershala Nightwhisper
+  turnin 1442 only Human,Dwarf,Paladin -- Seeking the Kor Gem to Thundris Windweaver
+  turnin 4811 -- The Red Crystal - the crystal word to Sentinel Glynda Nal'Shea
+  accept 4812 -- As Water Cascades - Sentinel Glynda Nal'Shea; fill the Moonwell Water Tube
+  complete 4812 @37.7,43.4 era -- fill the Moonwell Water Tube at the town moonwell
+  turnin 4812 -- As Water Cascades - the filled tube to Sentinel Glynda Nal'Shea
+  turnin 4740 -- WANTED: Murkdeep! - Murkdeep's end to Sentinel Glynda Nal'Shea
+  turnin 98025 -- WANTED: Jai'vhanel - the Feather to Sentinel Glynda Nal'Shea
+  turnin 1138 -- Fruit of the Sea - the chunks to Gubber Blump
+  turnin 1141 -- The Family and the Fishing Pole - the grouper to Gubber Blump
+  turnin 4722 -- Beached Sea Turtle - the turtle's word to Gwennyth Bly'Leggonde
+  turnin 4728 -- Beached Sea Creature - the creature's word to Gwennyth Bly'Leggonde
+  turnin 4730 -- Beached Sea Creature - the creature's word to Gwennyth Bly'Leggonde
+  turnin 4731 -- Beached Sea Turtle - the turtle's word to Gwennyth Bly'Leggonde
+  turnin 4732 -- Beached Sea Turtle - the turtle's word to Gwennyth Bly'Leggonde
+  turnin 4733 -- Beached Sea Creature - the creature's word to Gwennyth Bly'Leggonde
+  turnin 4723 -- Beached Sea Creature - the creature's word to Gwennyth Bly'Leggonde
+  turnin 4725 -- Beached Sea Turtle - the turtle's word to Gwennyth Bly'Leggonde
+  turnin 4727 -- Beached Sea Turtle - the turtle's word to Gwennyth Bly'Leggonde
+  accept 87760 -- Holy Diver - Gwennyth Bly'Leggonde; the Rod of Deep Dominion
+
+step The last miles - Den Mother, the crystal and the buzzbox
+
+  zone map 1439
+
+  tip One last loop, and it rambles: north-east for the Rod, east for Den Mother and the crystal, south for fangs, back to the 323 box, south again for scalps and the 525 box, then home by way of Onu and Arbal. Den Mother is an elite - bring help or outlevel her. Re-click any beached stragglers still in your log on the way.
+  accept 4813 -- The Fragments Within - the Mysterious Red Crystal (47.3, 48.7)
+  complete 2139 @51.5,38.3 era -- Den Mother in the east
+  complete 1002 @37.5,63.4 era -- six Moonstalker Fangs off the Moonstalkers, back south
+  turnin 1002 -- Buzzbox 323 - the relay to Buzzbox 323
+  accept 1003 -- Buzzbox 525 - Buzzbox 323; four Grizzled Scalps
+  complete 1003 @37.5,82.0 era -- four Grizzled Scalps off the Grizzled Thistle Bears
+  turnin 1003 -- Buzzbox 525 - the relay to Buzzbox 525
+  accept 98042 -- It's All Fun and Games Until... - the Twilight Tome (38.5, 86.1)
+  complete 98042 @38.2,85.7 era -- the Peerless Eye off the Twilight cultists
+  turnin 951 -- Mathystra Relics - the relics to Onu
+  turnin 98013 -- Swelling Forces - the Stormscales to Arbal
+
+step The last miles - Rod of Deep Dominion (soft pre)
+
+  zone map 1439
+
+  when onquest 87760
+
+  complete 87760 @46.1,20.3 era -- the Rod of Deep Dominion off the Stormscale Beastmistress
+
+step The last miles - Talisman (soft pre)
+
+  zone map 1439
+
+  when onquest 4763
+
+  complete 4763 @52.5,33.4 era -- the Talisman of Corruption in Xabraxxis' Demon Bag
+
+step Auberdine - final returns
+
+  zone map 1439
+
+  tip Last call in town: the Den Mother word, the crystal fragments, the Rod, and the Talisman.
+  turnin 2139 -- Tharnariun's Hope - Den Mother's end to Tharnariun Treetender
+  turnin 4813 -- The Fragments Within - the fragments to Sentinel Glynda Nal'Shea
+  turnin 87760 -- Holy Diver - the Rod to Gwennyth Bly'Leggonde
+  turnin 98042 -- It's All Fun and Games Until... - the Peerless Eye to Thundris Windweaver
+  turnin 4763 -- The Blackwood Corrupted - the talisman to Thundris Windweaver
+
+step Ashenvale handoff
+
+  zone map 1440
+
+  tip South across the border: Delgren takes the Tower chain home. The Tower finale is elite work - bring help or outlevel it.
+  turnin 967 -- The Tower of Althalaxx - Balthule's word to Delgren the Purifier
+  turnin 981 -- The Tower of Althalaxx - the Tower's end to Delgren the Purifier
+
+step Eastward - Menethil and Stormwind
+
+  zone map 1439
+
+  tip Muster: the boat east to Menethil Harbor carries the Wetlands word; Stormwind takes the last courier. Sail when ready.
+  zone map 1437
+  turnin 98461 -- Unrequited Love - Hollee's word to Tarrel Rockweaver
+  zone map 1453
+  turnin 97914 -- Expanding Horizons - Thundris's word to Baros Alexston
+  zone map 1450
+  turnin 6124 only NightElf,Druid -- Curing the Sick - the deer to Dendrite Starblaze (druids teleport to Moonglade)
+  zone map 1439
+  zone map 1438
+  turnin 741 -- The Absent Minded Prospector - Remtravel's word to Chief Archaeologist Greywhisker in Dolanaar
+  note Remtravel's chain points on to Chief Archaeologist Greywhisker and the Teldrassil find (942, uncontracted there as above-band) - noted, not routed.
+  zone map 1439
