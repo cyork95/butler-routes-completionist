@@ -14,7 +14,7 @@ _Where every zone stands. Updated 2026-11-13 · Pack v0.2.0 · Repo: `cyork95/bu
 
 Companions (Rares & Treasures · Recipes & Patterns) follow the core guide once the Zephras template is proven.
 
-**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside** → then **Alliance completion** (companions for every Alliance zone, plus all pilots and pilot fixes) → then **Set 2** (Redridge Mountains → Ashenvale → Stonetalon Mountains → Duskwood) → then **Set 3** (Wetlands → Stranglethorn Vale → Riverglades → Thousand Needles → Desolace) → **Horde last** (Durotar, Mulgore, Tirisfal, Zephras twin).
+**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside** → then **Alliance completion** (companions for every Alliance zone, plus all pilots and pilot fixes) → then **Set 2** (Redridge Mountains → Ashenvale → Stonetalon Mountains → Duskwood) → then **Set 3** (Wetlands → Stranglethorn Vale → Riverglades → Thousand Needles → Desolace) → then **Set 4** (Hillsbrad Foothills → Arathi Highlands → Alterac Mountains → Moonglade → Dustwallow Marsh → Feralas → Tanaris) → **Horde last** (Durotar, Mulgore, Tirisfal, Zephras twin).
 
 ---
 
@@ -231,20 +231,86 @@ _Skyborne country._
 
 ---
 
+## Set 4 — the next tier (after Set 3, before the Horde block)
+
+### Hillsbrad Foothills — contested
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Arathi Highlands — contested
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Alterac Mountains — contested
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Moonglade — the druid thing (special handling)
+
+_Not a standard zone route: Moonglade is the druid class hub. This guide covers the druid class content centred there — the form quests and class chains — written for druids, not a general completionist route._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Dustwallow Marsh — contested (Kalimdor)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Feralas — contested (Kalimdor)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Tanaris — contested (Kalimdor)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+---
+
 ## Beyond v1.0 — every other open-world zone
 
 _Not started. Same pipeline applies when we get there._
 
 ### Eastern Kingdoms
 
-- [ ] Alterac Mountains
-- [ ] Arathi Highlands
 - [ ] Badlands
 - [ ] Blasted Lands
 - [ ] Burning Steppes
 - [ ] Deadwind Pass
 - [ ] Eastern Plaguelands
-- [ ] Hillsbrad Foothills
 - [ ] Searing Gorge
 - [ ] Silverpine Forest
 - [ ] Swamp of Sorrows
@@ -255,13 +321,9 @@ _Not started. Same pipeline applies when we get there._
 
 - [ ] Azshara
 - [ ] The Barrens
-- [ ] Dustwallow Marsh
 - [ ] Felwood
-- [ ] Feralas
-- [ ] Moonglade
 - [ ] Mount Hyjal
 - [ ] Silithus
-- [ ] Tanaris
 - [ ] Un'Goro Crater
 - [ ] Winterspring
 
