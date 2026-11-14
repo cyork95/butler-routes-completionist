@@ -1,0 +1,232 @@
+# Butler Routes - Dun Morogh rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 11 confirmed rares and the fixed world containers
+# of Dun Morogh, Coldridge Valley included. Run it in its own Polestar tab at the
+# end of the core route or standalone. EVERY goal is optional: a rare that is not
+# up never holds the route. Spawn points, levels and loot are the local Forever
+# game data (questie-forever); respawn timers are unconfirmed anywhere, so none
+# are stated. Named mobs that are core-route quest objectives or quest-item
+# sources (Grik'nir the Cold, Mangeclaw, Vagash, Old Frosthowl, Avala, Captain
+# Beld, the Dark Iron Spy) are NOT here: the core guide covers their quests. See
+# docs/dun-morogh-companions-inventory.md for the full inventory this guide was
+# built against.
+guide butler-routes-completionist/dun-morogh-rares
+title Dun Morogh - Rares & Treasures
+levels 1-12
+zone Dun Morogh
+faction Alliance
+category Collectibles
+folder Companions
+keywords dun morogh, rares, treasures, companions
+coords live
+version 1
+
+step Gibblewilt — the northwest
+
+  loop
+  goto 24.8,43.18
+  goto 27.37,36.21
+  kill 8503 optional
+  collect 10553 "Foreman Vest" optional
+  collect 10554 "Foreman Pants" optional
+  note Level 11 rare, flagged rare in the data.
+  note Also drops ordinary greens (Calico Tunic, Wooden Buckler); respawn timer unconfirmed.
+
+step Great Father Arctikus — the west
+
+  loop
+  goto 21.59,51.79
+  goto 22.49,54.24
+  goto 22.78,52.08
+  goto 23.45,54.63
+  goto 23.81,51.02
+  goto 24.15,52.56
+  kill 1260 optional
+  collect 2546 "Royal Frostmane Girdle" optional
+  collect 3223 "Frostmane Scepter" optional
+  note Level 11 rare, flagged rare in the data. Holds the western hills.
+  note Also drops ordinary greens (Calico Tunic, Wooden Buckler); respawn timer unconfirmed.
+
+step Timber — the northwest woods
+
+  loop
+  goto 33.5,43.75
+  goto 34.11,42.56
+  goto 34.21,41.79
+  kill 1132 optional
+  collect 1965 "White Wolf Gloves" optional
+  collect 3224 "Silver-lined Bracers" optional
+  note Level 10 rare, flagged rare in the data.
+  note Also drops ordinary greens (Ragged Leather Vest, Battered Buckler); respawn timer unconfirmed.
+
+step Fyodi — the northern woods
+
+  loop
+  goto 27.8,38.2
+  goto 28.4,42.8
+  goto 28.4,44.8
+  goto 28.8,39.6
+  goto 29.4,42.2
+  goto 29.6,45.6
+  goto 29.8,39
+  goto 30.2,43.6
+  goto 30.4,36.6
+  goto 30.4,41.2
+  goto 30.6,42.4
+  goto 31.6,40
+  goto 32.2,36
+  goto 32.2,38
+  goto 33.4,33.4
+  goto 33.4,37.6
+  goto 33.6,34.4
+  goto 33.6,36
+  goto 35,33
+  goto 35.2,36.4
+  goto 35.4,38
+  goto 35.8,33.8
+  goto 36.6,36.6
+  goto 37.6,35.2
+  kill 208638 optional
+  note Level 7 rare. His pack holds runes and spell notes besides pig meat; no quest in the data explains them. Respawn timer unconfirmed.
+
+step Soboz — north-central Dun Morogh
+
+  goto 42.2,35.4
+  kill 204070 optional
+  collect 204912 "Rune of Grace" optional
+  note Level 8 rare. The data records nothing else on him besides the rune; respawn timer unconfirmed.
+
+step Jorul — the northwest
+
+  loop
+  goto 35.4,43.6
+  goto 37.2,42.4
+  goto 37.8,42.4
+  goto 38.4,43.4
+  kill 208812 optional
+  collect 205979 "Rune of Flanking" optional
+  note Level 8 rare. The data records nothing else on him besides the rune; respawn timer unconfirmed.
+
+step Edan the Howler — central Dun Morogh
+
+  loop
+  goto 38.98,47.48
+  goto 42.21,49.43
+  kill 1137 optional
+  collect 3008 "Wendigo Fur Cloak" optional
+  collect 3225 "Bloodstained Knife" optional
+  note Level 9 rare wendigo, flagged rare in the data; his cloak is wendigo fur, and wendigos are not tameable.
+  note Also drops ordinary greens (Ragged Leather Vest, Withered Staff); respawn timer unconfirmed.
+
+step Old Icebeard — central Dun Morogh
+
+  goto 38.54,54.18
+  kill 1271 optional
+  collect 2899 "Wendigo Collar" optional
+  note Level 11 rare.
+  note Also drops ordinary greens (Calico Tunic, Wooden Buckler); respawn timer unconfirmed.
+
+step Bjarn — the central-south line
+
+  loop
+  goto 52.83,58.52
+  goto 55.64,58.51
+  goto 59.45,58.43
+  goto 62.57,58.45
+  kill 1130 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 2069 "Black Bear Hide Vest" optional
+  note Level 12 rare bear, flagged rare in the data; his drops are bear paws, teeth and meat. Walks a straight east-west line south of Kharanos.
+  note Also drops ordinary greens (Journeyman's Vest, Hunting Gloves); respawn timer unconfirmed.
+
+step Ghostfang — the east, two haunts
+
+  loop
+  goto 73.29,62.01
+  goto 74.09,60.96
+  goto 74.13,63.11
+  goto 74.81,63.74
+  goto 74.97,60.52
+  goto 75.17,62.15
+  goto 75.62,61.34
+  goto 79.05,44.21
+  goto 79.41,42.95
+  goto 79.42,47.33
+  goto 79.49,48.63
+  goto 79.73,40.87
+  goto 80.21,46.1
+  goto 80.35,47.78
+  goto 80.37,55.96
+  goto 80.42,44.54
+  goto 80.83,43.63
+  goto 80.97,57.82
+  goto 81.24,42.68
+  goto 81.4,45.96
+  goto 81.44,53.26
+  goto 81.61,54.56
+  goto 81.79,55.57
+  goto 81.79,56.55
+  kill 276111 optional
+  collect 286751 "Ghostfang's Steps" optional
+  note Level 10 rare. His confirmed points fall in two clusters, one around (74, 62) and one ranging (79-81, 40-57); check them opportunistically, not as one walk.
+  note His steps drop nowhere else; otherwise he drops almost nothing but a pair of Journeyman's Pants. Respawn timer unconfirmed.
+
+step Hammerspine — the east
+
+  goto 71.45,51.29
+  kill 1119 optional
+  collect 763 "Ice-covered Bracers" optional
+  collect 2254 "Icepane Warhammer" optional
+  note Level 12 rare, flagged rare in the data.
+  note Also drops ordinary greens (Calico Tunic, Wooden Buckler); respawn timer unconfirmed.
+
+step Fixed Chests — world containers
+
+  loop
+  goto 20.66,76.74
+  goto 22.61,80.11
+  goto 22.62,80.51
+  goto 26.19,79.6
+  goto 29.23,80.64
+  goto 29.24,81.16
+  goto 30.61,79.43
+  goto 30.74,80.39
+  goto 23.25,54.26
+  goto 23.45,52.47
+  goto 26.02,51.14
+  goto 26.14,41.2
+  goto 26.75,36.35
+  goto 36.11,40.06
+  goto 39.18,46.61
+  goto 40.05,48.03
+  goto 40.95,48.84
+  goto 41.97,35.9
+  goto 42.84,47.1
+  goto 43.53,49.22
+  goto 66.91,59.61
+  goto 67.48,60.63
+  goto 68.97,59.35
+  goto 71.06,59.04
+  goto 71.95,52.05
+  goto 72.11,49.83
+  goto 73,53.46
+  goto 74.64,61.8
+  goto 74.74,56.52
+  goto 76,58.17
+  goto 79.34,58.58
+  goto 79.74,54.65
+  goto 47,43.7
+  goto 47,52
+  goto 53.4,47.8
+  goto 30.8,80.1
+  goto 26.8,72.6
+  goto 77.96,62.16
+  interact 2843 optional
+  interact 106318 optional
+  interact 386675 optional
+  interact 387466 optional
+  interact 392029 optional
+  interact 405628 optional
+  interact 405633 optional
+  interact 85562 optional
+  note Thirty-two fixed Battered Chest placements (objects 2843 and 106318), a Buried Treasure (386675) at (47.0, 43.7), a Rusty Lockbox (387466) at (47.0, 52.0), a Swordsman's Reward (392029) at (53.4, 47.8) on the Dun Morogh points of the Swordsman's patrol (the Swordsman himself is routed in the Westfall companion), a Frostmane Loot Cache (405628) at (30.8, 80.1), a Rockjaw Footlocker (405633) at (26.8, 72.6), and Ironband's Strongbox (85562) at (77.96, 62.16). All hold ordinary low-level goods; no unique treasure confirmed.
+  note Also confirmed but not a container: an Etched Note (object 174746) at (52.5, 37.1). Respawn timers unconfirmed.
