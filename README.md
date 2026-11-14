@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.14.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.15.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -17,6 +17,7 @@ Status: **in development (pack v0.14.0), not published yet**. The first release 
 | `loch-modan.guide` (core built, pilot pending) | Loch Modan (Dwarf & Gnome second zone) | 10–20 | Alliance |
 | `teldrassil.guide` (core built, pilot pending) | Teldrassil (Night Elf start) | 1–10 | Alliance |
 | `darkshore.guide` (core built, pilot pending) | Darkshore (Night Elf second zone) | 10–20 | Alliance |
+| `stormwind.guide` (first city guide built, pilot pending) | Stormwind City (Alliance capital) | 1–60 | Alliance |
 | `zephras-isle-rares.guide` (pilot companion) | Zephras Isle rares and treasures | 1–12 | Alliance (Skyborne) |
 | `zephras-isle-recipes.guide` (pilot companion) | Zephras Isle recipe sources | 1–12 | Alliance (Skyborne) |
 | `elwynn-forest-rares.guide` (companion built, pilot pending) | Elwynn Forest rares and treasures | 1–10 | Alliance |
@@ -28,7 +29,7 @@ Status: **in development (pack v0.14.0), not published yet**. The first release 
 | `loch-modan-rares.guide` (companion built, pilot pending) | Loch Modan rares, figurine and treasures | 10–20 | Alliance |
 | `loch-modan-recipes.guide` (companion built, pilot pending) | Loch Modan recipe sources | 10–20 | Alliance |
 
-Each quest guide takes every quest on the zone's tracker list exactly once: 145 accepts / 145 turn-ins for Zephras Isle, 83 / 83 for Elwynn Forest, 43 / 43 for Westfall, 105 / 105 for Dun Morogh, 41 / 41 for Loch Modan, 95 / 95 for Teldrassil, 74 / 74 for Darkshore. Class quests for other classes are included and gated with `only`, so they never show for a character they are not for.
+Each quest guide takes every quest on the zone's tracker list exactly once: 145 accepts / 145 turn-ins for Zephras Isle, 83 / 83 for Elwynn Forest, 43 / 43 for Westfall, 105 / 105 for Dun Morogh, 41 / 41 for Loch Modan, 95 / 95 for Teldrassil, 74 / 74 for Darkshore, and 189 / 189 for Stormwind City. Class quests for other classes are included and gated with `only`, so they never show for a character they are not for.
 
 The two pilot companions run in their own Polestar tab beside the Zephras core route: the rares guide sweeps all 8 confirmed rares plus the fixed Dented Chest placements (every goal optional, so a rare that is not up never holds the route), and the recipes guide collects the 12 vendor-sold recipe sources on the isle, gated by profession.
 
@@ -43,6 +44,8 @@ The two Loch Modan companions run the same way beside the Loch Modan core route:
 The two Darkshore companions run the same way beside the Darkshore core route: the rares guide sweeps 18 confirmed rares (including the Ghost Saber, summoned at the Mathystra cat figurines, and the Baron Marinous hunt, which feeds the contracted core quest) plus the fixed world containers (Battered Chests, Giant Clams, Waterlogged Footlockers and six one-off lockboxes), and the recipes guide collects the 13 vendor-sold recipe sources in Auberdine, from Heldan Galesong and from Bale, gated by profession.
 
 The two Teldrassil companions run the same way beside the Teldrassil core route: the rares guide sweeps 19 confirmed rares (including the Moss-twined Heart hunt on Blackmoss, which feeds the contracted core quest) plus the fixed world containers (Battered Chests, Buried Treasure, Lunar Chest, harpy chests, Gnarlpine caches, Velinde's Locker), and the recipes guide collects the 6 vendor-sold Cooking recipe sources in Dolanaar and Rut'theran, gated by profession.
+
+The first city guide covers Stormwind City: 189 quests that accept inside the city at every level, grouped by district with the chains kept together, plus expedition steps that run the out-of-city objectives at their data-placed locations.
 
 ## Planned scope
 

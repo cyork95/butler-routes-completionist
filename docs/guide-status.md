@@ -134,9 +134,9 @@ _Cities are in scope as SMALLER guides (Cody, 2026-11-14): a census + core route
 
 ### Stormwind — Alliance capital
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census
+- [x] Core guide
+- [x] Lint/playtest clean
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions (only where the data warrants)
