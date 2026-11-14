@@ -1,4 +1,4 @@
-# Companion unverified (pack 0.10.0)
+# Companion unverified (pack 0.11.0)
 
 Recipe and source candidates for Zephras Isle that could NOT be confirmed from the
 local Forever game data, so they are NOT in the guides. Promote an entry into a
@@ -133,4 +133,50 @@ above: game-data citation or a named source.
 ## Respawn timers: unconfirmed everywhere
 
 - No respawn data for any of the 14 Westfall rares or any fixed container
+  exists in the local build. Every step says the timer is unconfirmed.
+
+---
+
+# Dun Morogh (pack 0.11.0)
+
+Recipe and source candidates for Dun Morogh that could NOT be confirmed from
+the local Forever game data, so they are NOT in the guides. Same promotion rule
+as above: game-data citation or a named source.
+
+## Quest-reward recipes: class unverifiable locally
+
+- Quest records in the local build carry no reward data, so no quest-reward
+  recipe in Dun Morogh can be confirmed or denied from the toolchain. The 3
+  shipped recipes are 2 vendor-sold plus 1 exclusive mob drop. If a Dun Morogh
+  quest is later found to reward a recipe, add it as a `note`/`task` step at
+  the relevant hub (the quest itself stays core-only).
+
+## Dropped recipes: world drops, one exclusion argued
+
+- Full scan of every recipe/pattern/plans/schematic/design/manual/formula item
+  against all 272 Dun Morogh-spawning NPC drops and all Dun Morogh object
+  drops: every Dun Morogh-dropping recipe except two is a generic multi-zone
+  world drop. Recipe: Minor Mageblood Elixir (item250375) drops from the Dun
+  Morogh Young Wendigo plus one mob elsewhere — a two-zone world drop, not Dun
+  Morogh content per the Elwynn rule, so not shipped. The one shipped drop is
+  Recipe: Peace Tea (item249879), whose sole dropper anywhere is the Dun Morogh
+  Frostmane Seer. No Blacksmithing plan has any Dun Morogh source in the data.
+
+## Stock class: unverifiable locally
+
+- Same finding as before: local item/vendor records carry no
+  limited-vs-unlimited stock flag, so no Dun Morogh recipe is marked limited.
+  Each vendor step notes that stock class is unconfirmed.
+
+## Tameability: one task line, drop-evidenced
+
+- NPC records carry no family/tame flags. The single `only Hunter` tame line
+  (Bjarn) rests on drop-table evidence — his drops are bear paws, teeth and
+  meat. No other shipped Dun Morogh rare is drop-evidenced as a tameable beast
+  family, so every other step is kill-only. If another Dun Morogh rare is later
+  confirmed tameable, add an `only Hunter` task line per the Elwynn pattern.
+
+## Respawn timers: unconfirmed everywhere
+
+- No respawn data for any of the 11 Dun Morogh rares or any fixed container
   exists in the local build. Every step says the timer is unconfirmed.

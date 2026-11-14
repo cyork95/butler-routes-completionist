@@ -68,7 +68,7 @@ _The lead-in for Loch Modan (build order #2)._
 - [ ] Lint/playtest clean
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions — 11 rares + fixed containers, 3 recipes, lint 0/0 (pilot pending)
 
 ### Loch Modan — second zone (Alliance) · build order #2
 
