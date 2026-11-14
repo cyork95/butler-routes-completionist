@@ -1,6 +1,6 @@
 # Butler Routes — Zone Checklist
 
-_Where every zone stands. Updated 2026-11-13 · Pack v0.2.0 · Repo: `cyork95/butler-routes-completionist` (`master`)_
+_Where every zone stands. Updated 2026-11-14 · Pack v0.8.0 · Repo: `cyork95/butler-routes-completionist` (`master`)_
 
 **Pack principle (Cody, 2026-11-13): this is a COMPLETIONIST pack, not a leveling guide.** Every guide covers every quest in its zone — including the ones a leveling route would skip as XP-inefficient. The build order follows the sequence a player levels through the content, but that only decides which zone gets written next; inside a zone, efficiency shapes the route's order, never its quest selection.
 
@@ -90,9 +90,9 @@ _The lead-in for Loch Modan (build order #2)._
 
 ### Darkshore — second zone (Alliance) · build order #3
 
-- [ ] Census — follows Teldrassil
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census — 74 quests, local-data census (`docs/darkshore-census.md`)
+- [x] Core guide — `darkshore.guide`
+- [x] Lint/playtest clean — 0 errors, playtest 0 stuck
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
