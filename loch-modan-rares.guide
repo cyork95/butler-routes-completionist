@@ -1,0 +1,157 @@
+# Butler Routes - Loch Modan rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 10 confirmed rares, the Carved Figurine, and the
+# fixed world containers of Loch Modan. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is not up
+# never holds the route. Spawn points, levels and loot are the local Forever game
+# data (questie-forever); respawn timers are unconfirmed anywhere, so none are
+# stated. Named mobs that are core-route quest objectives (Chok'sul, Ol' Sooty,
+# Daggerfang, the Headsplitter, Grawmug's crew) are NOT here: the core guide
+# covers their quests. See docs/loch-modan-companions-inventory.md for the full
+# inventory this guide was built against.
+guide butler-routes-completionist/loch-modan-rares
+title Loch Modan - Rares & Treasures
+levels 10-20
+zone Loch Modan
+faction Alliance
+category Collectibles
+folder Companions
+keywords loch modan, rares, treasures, companions
+coords live
+version 1
+
+step Grizlak — the northwest
+
+  goto 34.58,27.07
+  kill 1425 optional
+  collect 2284 "Rat Cloth Cloak" optional
+  collect 6195 "Wax-polished Armor" optional
+  note Level 15 rare, flagged rare in the data.
+  note Also drops ordinary greens (Calico Tunic, Wooden Buckler); respawn timer unconfirmed.
+
+step Large Loch Crocolisk — the Loch
+
+  loop
+  goto 58.9,31.07
+  goto 60.3,39.59
+  kill 2476 optional
+  collect 3563 "Seafarer's Pantaloons" optional
+  collect 6197 "Loch Croc Hide Vest" optional
+  note Level 22 rare crocolisk, flagged rare in the data; his drops are crocolisk meat, skins and scales, and crocolisks are not tameable.
+  note Also drops ordinary greens (Burnished Tunic, Forest Leather Boots); respawn timer unconfirmed.
+
+step Kackle — the eastern shore
+
+  loop
+  goto 49.41,55.19
+  goto 49.43,52.57
+  goto 50.72,49.65
+  goto 50.73,58.66
+  goto 51.22,55.55
+  goto 52.13,51.75
+  goto 52.2,54.14
+  goto 52.46,59.58
+  goto 52.61,49.98
+  goto 53.55,56.55
+  goto 53.59,48.24
+  goto 54.12,54.58
+  goto 54.81,51.39
+  goto 55.04,58.62
+  goto 55.59,48.91
+  goto 55.76,56.47
+  goto 56.24,60.28
+  goto 56.78,54.39
+  goto 57.12,58.13
+  goto 57.93,60.9
+  goto 58.39,52.04
+  goto 58.68,56.58
+  goto 59.38,59.22
+  goto 60.83,42.33
+  kill 210107 optional
+  note Level 15 rare. His pack holds a sniper's rune, a scroll, waylaid crates and pristine leather; no family the data shows is tameable, so no tame line.
+  note Respawn timer unconfirmed.
+
+step Shanda the Spinner — the east
+
+  goto 78.09,52.35
+  kill 14266 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 282636 "Silkspun Gloves" optional
+  note Level 19 rare spider, flagged rare in the data; her drops are spider meat, venom sacs, venom and ichor.
+  note Also drops ordinary greens (Burnished Tunic, Forest Leather Boots); respawn timer unconfirmed.
+
+step Emogg the Crusher — the northeast
+
+  goto 73.09,26.96
+  kill 14267 optional
+  collect 282639 "Emogg's \"Crusher\"" optional
+  note Level 19 rare, flagged rare in the data.
+  note Also drops ordinary greens (Laced Mail Vest, Laced Cloak); respawn timer unconfirmed.
+
+step Boss Galgosh — the southeast
+
+  goto 68.07,65.93
+  kill 1398 optional
+  collect 1215 "Support Girdle" optional
+  collect 1938 "Block Mallet" optional
+  note Level 22 rare, flagged rare in the data. Holds the Stonesplinter hold with Magosh.
+  note Also drops ordinary greens (Laced Mail Vest, Laced Cloak); respawn timer unconfirmed.
+
+step Magosh — the southeast
+
+  goto 70.12,66.39
+  kill 1399 optional
+  collect 2241 "Desperado Cape" optional
+  collect 3571 "Trogg Beater" optional
+  note Level 21 rare, flagged rare in the data. Holds the Stonesplinter hold with Boss Galgosh.
+  note Also drops ordinary greens (Laced Mail Vest, Laced Cloak); respawn timer unconfirmed.
+
+step Lord Condar — the southeast hills
+
+  loop
+  goto 62.57,78.54
+  goto 74.62,70.77
+  goto 74.74,66.89
+  goto 77.74,74.93
+  kill 14268 optional
+  collect 282637 "Shaking Egg" optional
+  note Level 16 rare, flagged rare in the data. His drops include a buzzard beak and a shaking egg, which suggest a bird — but a harpy fits them just as well, and harpies are not tameable, so there is no tame line; correct the guide if the game contradicts it.
+  note Also drops ordinary greens (Hunting Tunic, Veteran Armor); respawn timer unconfirmed.
+
+step Haren Swifthoof — south-central Loch Modan
+
+  goto 55.45,67.06
+  kill 2478 optional
+  collect 5319 "Bashing Pauldrons" optional
+  note Level 20 rare. Dens with Thragomm nearby; the two are separate kills.
+  note Also drops ordinary greens (Laced Mail Vest, Laced Cloak); respawn timer unconfirmed.
+
+step Thragomm — south-central Loch Modan
+
+  goto 55.3,66.94
+  kill 7170 optional
+  collect 4949 "Orcish Cleaver" optional
+  note Level 20 rare. Dens with Haren Swifthoof nearby; the two are separate kills.
+  note Also drops ordinary greens (Laced Mail Vest, Laced Cloak); respawn timer unconfirmed.
+
+step Carved Figurine — the dam's north bank
+
+  goto 49.42,12.92
+  interact 424007 optional
+  note The figurine starts Eagle's Fist (79975), a level-32 chain per the data — far above this guide's band and out of the core contract, so bank it for later. Wet Job (79974), also level 32 and uncontracted, ends at this same point. Respawn timer unconfirmed.
+
+step Fixed Chests — world containers
+
+  loop
+  goto 45.58,43.34
+  goto 47.91,34.24
+  goto 48.14,39.58
+  goto 48.86,54.23
+  goto 59.18,13.45
+  goto 67.93,65.92
+  goto 68.32,18.44
+  goto 68.88,62.45
+  goto 69.75,66.46
+  goto 75.59,24.99
+  goto 77.1,14.54
+  interact 2849 optional
+  note Eleven fixed Battered Chest placements (object 2849) scattered around the Loch, the dam and the southeast. All hold ordinary low-level goods; no unique treasure confirmed. Respawn timers unconfirmed.
