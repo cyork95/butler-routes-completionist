@@ -4519,6 +4519,235 @@
           "name": "Show of Force"
         }
       ]
+    },
+    {
+      "id": "ashenvale",
+      "name": "Ashenvale",
+      "order": 12,
+      "levelBand": "18-32",
+      "summary": "Set 2 second zone (Alliance): Astranaar hub, the Tower of Althalaxx chain, Raene’s Cleansing, the Foulweald and Xavian lines, the Stonetalon exits, and the western oddities. Leads on to Stonetalon and the Barrens.",
+      "quests": [
+        {
+          "id": 970,
+          "name": "The Tower of Althalaxx"
+        },
+        {
+          "id": 973,
+          "name": "The Tower of Althalaxx"
+        },
+        {
+          "id": 976,
+          "name": "Supplies to Auberdine"
+        },
+        {
+          "id": 991,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1007,
+          "name": "The Ancient Statuette"
+        },
+        {
+          "id": 1008,
+          "name": "The Zoram Strand"
+        },
+        {
+          "id": 1009,
+          "name": "Ruuzel"
+        },
+        {
+          "id": 1010,
+          "name": "Bathran's Hair"
+        },
+        {
+          "id": 1011,
+          "name": "Forsaken Diseases"
+        },
+        {
+          "id": 1012,
+          "name": "Insane Druids"
+        },
+        {
+          "id": 1016,
+          "name": "Elemental Bracers"
+        },
+        {
+          "id": 1017,
+          "name": "Mage Summoner"
+        },
+        {
+          "id": 1020,
+          "name": "Orendil's Cure"
+        },
+        {
+          "id": 1021,
+          "name": "Vile Satyr! Dryads in Danger!"
+        },
+        {
+          "id": 1022,
+          "name": "The Howling Vale"
+        },
+        {
+          "id": 1023,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1024,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1025,
+          "name": "An Aggressive Defense"
+        },
+        {
+          "id": 1026,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1027,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1028,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1029,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1030,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1031,
+          "name": "The Branch of Cenarius"
+        },
+        {
+          "id": 1032,
+          "name": "Satyr Slaying!"
+        },
+        {
+          "id": 1033,
+          "name": "Elune's Tear"
+        },
+        {
+          "id": 1034,
+          "name": "The Ruins of Stardust"
+        },
+        {
+          "id": 1035,
+          "name": "Fallen Sky Lake"
+        },
+        {
+          "id": 1037,
+          "name": "Velinde Starsong"
+        },
+        {
+          "id": 1045,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1046,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1054,
+          "name": "Culling the Threat"
+        },
+        {
+          "id": 1055,
+          "name": "Raene's Cleansing"
+        },
+        {
+          "id": 1056,
+          "name": "Journey to Stonetalon Peak"
+        },
+        {
+          "id": 1070,
+          "name": "On Guard in Stonetalon"
+        },
+        {
+          "id": 1081,
+          "name": "Reception from Tyrande"
+        },
+        {
+          "id": 1134,
+          "name": "Pridewings of Stonetalon"
+        },
+        {
+          "id": 1140,
+          "name": "The Tower of Althalaxx"
+        },
+        {
+          "id": 1167,
+          "name": "The Tower of Althalaxx"
+        },
+        {
+          "id": 4581,
+          "name": "Kayneth Stillwind"
+        },
+        {
+          "id": 78089,
+          "name": "Advice From Stormwind"
+        },
+        {
+          "id": 78093,
+          "name": "Return to Delgren"
+        },
+        {
+          "id": 78132,
+          "name": "Dragonslayer's Helm"
+        },
+        {
+          "id": 78133,
+          "name": "Dragonslayer's Shield"
+        },
+        {
+          "id": 78134,
+          "name": "Dragonslayer's Lance"
+        },
+        {
+          "id": 79090,
+          "name": "Repelling Invaders"
+        },
+        {
+          "id": 86757,
+          "name": "Slowing the Orc Advance"
+        },
+        {
+          "id": 95737,
+          "name": "Seeking Caitlin"
+        },
+        {
+          "id": 98027,
+          "name": "Gleaming Crescent Necklace"
+        },
+        {
+          "id": 98417,
+          "name": "Vengeful Trail"
+        },
+        {
+          "id": 98418,
+          "name": "Shared Fury"
+        },
+        {
+          "id": 94222,
+          "name": "Craftsman's Writ: Iridescent Hammer"
+        },
+        {
+          "id": 94231,
+          "name": "Craftsman's Writ: Moonsight Rifle"
+        },
+        {
+          "id": 94240,
+          "name": "Craftsman's Writ: Herbalist's Gloves"
+        },
+        {
+          "id": 94249,
+          "name": "Craftsman's Writ: Azure Silk Hood"
+        }
+      ]
     }
   ]
 }
