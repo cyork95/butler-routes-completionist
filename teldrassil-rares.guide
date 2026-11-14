@@ -1,0 +1,303 @@
+# Butler Routes - Teldrassil rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 19 confirmed rares and the fixed world containers
+# of Teldrassil. Run it in its own Polestar tab at the end of the core route or
+# standalone. EVERY goal is optional: a rare that is not up never holds the route.
+# Spawn points, levels and loot are the local Forever game data (questie-forever);
+# respawn timers are unconfirmed anywhere, so none are stated. Named mobs that are
+# core-route quest objectives or quest-item sources (Oakenscowl, Lord Melenas,
+# Xethorr the Wicked, Hatescreech, Windmistress Gaedress, Githyiss the Vile, the
+# Befouled Webwood) are NOT here: the core guide covers their quests. The
+# Moss-twined Heart that Blackmoss carries starts a contracted core quest; the
+# hunt lives here, the accept lives there. See
+# docs/teldrassil-companions-inventory.md for the full inventory this guide was
+# built against.
+guide butler-routes-completionist/teldrassil-rares
+title Teldrassil - Rares & Treasures
+levels 1-10
+zone Teldrassil
+faction Alliance
+category Collectibles
+folder Companions
+keywords teldrassil, rares, treasures, companions
+coords live
+version 1
+
+step Lady Sathrah — the north
+
+  loop
+  goto 39.4,25.4
+  goto 41,25.6
+  goto 41.4,25.2
+  goto 42,25.4
+  goto 46.2,24.4
+  goto 47.8,26.6
+  goto 48,25.2
+  goto 48,25.6
+  goto 48.6,24.6
+  kill 7319 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 8344 "Silvery Spinnerets" optional
+  note Level 12 rare spider; her drops are spider limbs and spinnerets.
+  note Also drops ordinary greens (Journeyman's Vest, Dwarven Hatchet); respawn timer unconfirmed.
+
+step Nightscreech — the northern woods
+
+  loop
+  goto 37.66,32.02
+  goto 37.82,29
+  goto 38.01,56.02
+  goto 38.05,54.39
+  goto 38.27,27.44
+  goto 38.49,52.14
+  goto 38.66,25.62
+  goto 39.31,31.27
+  goto 39.53,53.28
+  goto 39.88,51.51
+  goto 40.52,56.44
+  goto 40.79,54.7
+  goto 40.82,58.6
+  goto 40.89,28.47
+  goto 42.23,53.23
+  goto 43.43,33.59
+  goto 43.97,51.39
+  goto 44.68,30.32
+  goto 44.9,32.14
+  goto 45.56,34.86
+  goto 45.7,36.73
+  goto 46.19,31.19
+  goto 46.98,33.31
+  goto 47.64,36.31
+  kill 276101 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 286750 "Wisesight Wand" optional
+  note Level 10 rare owl; her drops are bills, feathers, eggs and leg meat. All 24 confirmed points sit in the northern woods; the data shows none outside the Darnassus gates.
+  note Respawn timer unconfirmed.
+
+step Blackmoss the Fetid — the north
+
+  loop
+  goto 42.43,37.84
+  goto 42.81,28.39
+  goto 43.26,27.02
+  goto 43.96,29.56
+  kill 3535 optional
+  collect 5179 "Moss-twined Heart" optional
+  collect 284167 "Blackmoss Robes" optional
+  note Level 13 rare, above the zone band but the hunt the brief names: his Heart starts the contracted core quest The Moss-twined Heart (927), so take it if it drops and hand it to Denalan — the core route covers the quest and never waits on the drop.
+  note Also drops ordinary greens (Calico Tunic, Calico Gloves); respawn timer unconfirmed.
+
+step Witchmother Arysa — the north
+
+  goto 34.22,27.94
+  kill 272046 optional
+  collect 280834 "Witchmother Arysa's Amulet" optional
+  note Level 12 rare.
+  note Also drops ordinary greens (Worn Mail Boots, Battle Chain Boots); respawn timer unconfirmed.
+
+step Sethir the Ancient — the north
+
+  goto 37.11,22.83
+  kill 6909 optional
+  collect 7737 "Sethir's Journal" optional
+  note Level 12 rare. The journal starts no recorded quest in the data.
+  note Also drops ordinary greens (Calico Shoes, Calico Cloak); respawn timer unconfirmed.
+
+step Vorlus Vilehoof — central Teldrassil
+
+  goto 47.25,63.6
+  kill 6128 optional
+  collect 6805 "Horn of Vorlus" optional
+  note Level 10 rare. His Horn is sought by Elanaria's Darnassus-city quest Vorlus Vilehoof (1683, not in the core contract — a city-variant quest the core route does not cover).
+  note Also drops ordinary greens (Ragged Leather Vest, Frayed Shoes); respawn timer unconfirmed.
+
+step Agal — central Teldrassil
+
+  goto 46.26,51.02
+  kill 2162 optional
+  note Level 8 rare.
+  note Also drops ordinary greens (Ragged Leather Vest, Ragged Leather Pants); respawn timer unconfirmed.
+
+step Threggil — Shadowglen
+
+  goto 51.99,50.54
+  kill 14432 optional
+  collect 18610 "Keen Machete" optional
+  note Level 6 rare.
+  note Also drops ordinary greens (Ragged Leather Vest, Ragged Leather Pants); respawn timer unconfirmed.
+
+step Greenpaw — south-central Teldrassil
+
+  goto 44.56,62.54
+  kill 1993 optional
+  note Level 10 rare.
+  note Also drops ordinary greens (Ragged Leather Vest, Ragged Leather Pants); respawn timer unconfirmed.
+
+step Rageclaw — south-central Teldrassil
+
+  goto 45.53,58.58
+  kill 7318 optional
+  note Level 10 rare.
+  note Also drops ordinary greens (Ragged Leather Vest, Ragged Leather Pants); respawn timer unconfirmed.
+
+step Fury Shelda — the west
+
+  goto 34.35,34.74
+  kill 14431 optional
+  collect 18612 "Bloody Chain Boots" optional
+  note Level 8 rare.
+  note Also drops ordinary greens (Ragged Leather Vest, Ragged Leather Pants); respawn timer unconfirmed.
+
+step Sylassa Moonglow — the west
+
+  loop
+  goto 59.76,42.76
+  goto 60.84,41.91
+  goto 60.89,42.73
+  goto 60.92,43.7
+  goto 61.24,41.21
+  goto 61.52,41.88
+  goto 61.59,40.53
+  goto 61.61,43.58
+  goto 61.66,43.05
+  kill 267287 optional
+  note Level 8 rare. The data records no loot on her at all; respawn timer unconfirmed.
+
+step Mowgh — the west
+
+  loop
+  goto 46.4,32.6
+  goto 47.2,32.6
+  goto 47.6,32.6
+  goto 48,31.6
+  goto 48.6,31.4
+  kill 209928 optional
+  note Level 8 rare. His only drop is a Rune of Flanking, shared with Jorul in Dun Morogh and two others per the item data — no collect goal; take it if it drops. Respawn timer unconfirmed.
+
+step Unleashed Nature Spirit — the east
+
+  loop
+  goto 67,58
+  goto 67,58.6
+  kill 206245 optional
+  collect 206963 "Rune of Natural Potential" optional
+  note Level 7 rare. The data records nothing else on it besides the rune; respawn timer unconfirmed.
+
+step Uruson — the east
+
+  goto 67.94,59.36
+  kill 14428 optional
+  collect 18611 "Gnarlpine Leggings" optional
+  note Level 7 rare.
+  note Also drops ordinary greens (Ragged Leather Vest, Ragged Leather Pants); respawn timer unconfirmed.
+
+step Duskstalker — the southeast
+
+  goto 58.15,76.65
+  kill 14430 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 284165 "Duskstalker's Hide" optional
+  note Level 9 rare cat, stealthed. The seed put him at (56, 76); the data has him two points east, and the data wins. Nightsabers are hunter-tameable, and the core route's own taming chain tames a Nightsaber Stalker.
+  note Also drops ordinary greens (Warrior's Shield, Journeyman's Vest); respawn timer unconfirmed.
+
+step Ferocitas the Dream Eater — the east
+
+  goto 69.37,53.41
+  kill 7234 optional
+  collect 8049 "Gnarlpine Necklace" optional
+  note Level 8 rare. The contracted core quest Ferocitas the Dream Eater (2459) is named for him but its objectives kill Gnarlpine Mystics, not him — he is not a core kill, so the hunt ships with his own loot.
+  note Also drops ordinary greens (Ragged Leather Vest, Ragged Leather Pants); respawn timer unconfirmed.
+
+step Grimmaw — the far south
+
+  goto 40.13,79.99
+  kill 14429 optional
+  collect 284166 "Gnarlpine War Staff" optional
+  note Level 11 rare.
+  note Also drops ordinary greens (Worn Hatchet, Veteran Cloak); respawn timer unconfirmed.
+
+step Wrathvine — the southwest
+
+  loop
+  goto 51.65,73.42
+  goto 52.31,71.63
+  goto 52.8,73.35
+  goto 52.94,66.99
+  goto 53.36,70.53
+  goto 53.61,68.63
+  goto 53.85,71.96
+  goto 54.89,66.75
+  goto 55.24,67.97
+  goto 55.51,70.46
+  goto 55.9,69.12
+  goto 56.16,66.58
+  goto 56.55,67.74
+  goto 57.2,71.07
+  goto 57.32,69.54
+  goto 57.35,64.42
+  goto 57.59,68.44
+  goto 58.52,71.51
+  goto 59.13,73.2
+  goto 59.26,69.28
+  goto 60,71.1
+  goto 60.06,72.27
+  goto 60.42,69.87
+  goto 61.67,71.36
+  kill 276099 optional
+  collect 286749 "Wrathroot" optional
+  note Level 8 rare plant. Vines through the southwest, all 24 confirmed points.
+  note Also drops Peacebloom, Earthroot, scrolls and a Dewy Lasher Frond; respawn timer unconfirmed.
+
+step Fixed Chests — world containers
+
+  loop
+  goto 54.01,39.09
+  goto 54.1,39.66
+  goto 54.63,44.29
+  goto 55.71,27.19
+  goto 56.04,46.24
+  goto 56.41,26.18
+  goto 57.29,30.01
+  goto 58.25,27.11
+  goto 31.43,31.82
+  goto 33.88,35.68
+  goto 34.2,28.14
+  goto 34.2,34.41
+  goto 36.26,27.72
+  goto 36.29,37.81
+  goto 43.86,59.84
+  goto 43.95,61.9
+  goto 44.8,58.93
+  goto 44.97,61.16
+  goto 47.22,77.87
+  goto 50.01,62.93
+  goto 52.04,51.37
+  goto 66,63.57
+  goto 68.71,52.01
+  goto 55.3,90.8
+  goto 52.8,78.8
+  goto 43.7,61.22
+  goto 45.65,57.44
+  goto 44.7,62.44
+  goto 44.4,60.66
+  goto 37.9,82.5
+  goto 43.1,60.8
+  goto 44.1,61.2
+  goto 44.5,62.4
+  goto 44.7,59
+  goto 44.8,59.9
+  goto 45,61.4
+  goto 45.3,58.1
+  goto 45.7,57
+  goto 30.2,64.3
+  interact 2843 optional
+  interact 106318 optional
+  interact 386675 optional
+  interact 404433 optional
+  interact 2739 optional
+  interact 2740 optional
+  interact 2741 optional
+  interact 2742 optional
+  interact 407352 optional
+  interact 407734 optional
+  interact 19877 optional
+  note Twenty-three fixed Battered Chest placements (objects 2843 and 106318), a Buried Treasure (386675) at (55.3, 90.8), a Lunar Chest (404433) at (52.8, 78.8), four harpy chests — Black Feather (2739) at (43.7, 61.22), Raven Claw (2740) at (45.65, 57.44), Sky (2741) at (44.7, 62.44), Nesting (2742) at (44.4, 60.66) — a Gnarlpine Stash (407352) at (37.9, 82.5), eight Gnarlpine Caches (407734) around (43-46, 57-62), and Velinde's Locker (19877) at (30.2, 64.3). None starts a quest in the data; all hold ordinary low-level goods, no unique treasure confirmed. Respawn timers unconfirmed.
