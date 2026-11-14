@@ -1,0 +1,349 @@
+# Butler Routes - Ashenvale completionist (pack butler-routes-completionist, v1).
+# Every Alliance accept in the local census (55 quests,
+# docs/ashenvale-census.md) appears exactly once as an accept and once as a
+# turnin. The 39 Horde-accept quests stay with the Horde block's census. No
+# race header: the data shows no single-race-locked quests here, so per-line
+# class gates only (Warrior, Paladin, Human+Dwarf Paladin). Soft-pre accepts
+# whose blocking pre-quest sits outside the contract carry a note at the
+# accept; their completes and turn-ins stand alone in `when onquest`
+# mini-steps. Out-of-zone objectives complete at their data-placed locations
+# in expedition legs. Coordinates in Ashenvale use the era frame; expedition
+# stops use the frames their data carries, set with zone map lines.
+guide butler-routes-completionist/ashenvale
+title Ashenvale - Completionist
+levels 18-32
+zone Ashenvale
+faction Alliance
+category Leveling
+folder Completionist
+keywords ashenvale, completionist
+coords live
+version 1
+
+step Melyria's watch, north entry
+
+  note In from Darkshore along the north road: Sentinel Melyria Frostshadow holds the vale's watch, and Illiyana's dryads need the east. Quests here run 18 to 32 — the steps say which legs belong to which level.
+  accept 1022 -- The Howling Vale - Sentinel Melyria Frostshadow; the Tome of Mel'Thandris, central
+  accept 1021 -- Vile Satyr! Dryads in Danger! - Illiyana; Anilia takes it, far east
+
+step Astranaar — Raene's cleansing
+
+  accept 991 -- Raene's Cleansing - Raene Wolfrunner; Teronis' Corpse takes it, west
+  turnin 991 -- Raene's Cleansing - Raene's word to Teronis' Corpse
+  accept 1023 -- Raene's Cleansing - Teronis' Corpse; the Glowing Gem, Raene takes it
+  complete 1023 @18.99,40.29 era -- the Glowing Gem off the Saltspittle murlocs for Raene Wolfrunner
+  turnin 1023 -- Raene's Cleansing - the gem to Raene Wolfrunner
+  accept 1024 -- Raene's Cleansing - Raene Wolfrunner; Shael'dryn takes it
+  note 1024's pre (1023 above) fills here — take 1024 after it.
+  turnin 1024 -- Raene's Cleansing - Raene's word to Shael'dryn
+  accept 1026 -- Raene's Cleansing - Shael'dryn; the Iron Shaft
+  note 1026's pre (1024 above) fills here — take 1026 after it.
+  complete 1026 @53.54,46.22 era -- the Iron Shaft for Shael'dryn; it names no source in the data, so have it in your bags
+  turnin 1026 -- Raene's Cleansing - back to Shael'dryn
+  accept 1027 -- Raene's Cleansing - Shael'dryn; the Iron Pommel
+  note 1027's pre (1026 above) fills here — take 1027 after it.
+  complete 1027 @53.54,46.22 era -- the Iron Pommel for Shael'dryn; it names no source in the data, so have it in your bags
+  turnin 1027 -- Raene's Cleansing - back to Shael'dryn
+  accept 1028 -- Raene's Cleansing - Shael'dryn; the Hidden Shrine, south-east
+  note 1028's pre (1027 above) fills here — take 1028 after it.
+  turnin 1028 -- Raene's Cleansing - Shael'dryn's word to the Hidden Shrine
+  accept 1055 -- Raene's Cleansing - the Hidden Shrine; Shael'dryn takes it
+  note 1055's pre (1028 above) fills here — take 1055 after it.
+  turnin 1055 -- Raene's Cleansing - the shrine's word to Shael'dryn
+  goto 36.62,49.58
+  accept 1029 -- Raene's Cleansing - Shael'dryn; Raene Wolfrunner takes it
+  note 1029's pre (1055 above) fills here — take 1029 after it.
+  turnin 1029 -- Raene's Cleansing - Shael'dryn's word to Raene Wolfrunner
+  accept 1030 -- Raene's Cleansing - Raene Wolfrunner; Krolg takes it, south
+  note 1030's pre (1029 above) fills here — take 1030 after it.
+  accept 1025 -- An Aggressive Defense - Raene Wolfrunner; Foulweald killings, south-east
+  note 1025's pre (1023 above) fills here — take 1025 after it.
+  complete 1025 @49.97,59.9 era -- the Foulweald Den Watcher for Raene Wolfrunner
+  complete 1025 @50.19,59.63 era -- Foulweald Ursas for Raene Wolfrunner
+  complete 1025 @49.39,61.45 era -- Foulweald Totemics for Raene Wolfrunner
+  complete 1025 @49.33,60.46 era -- Foulweald Warriors for Raene Wolfrunner
+  turnin 1025 -- An Aggressive Defense - back to Raene Wolfrunner
+
+step Astranaar — Shindrell, Llana and the neighbors
+
+  accept 4581 -- Kayneth Stillwind - Shindrell Swiftfire; Kayneth Stillwind takes it, far east
+  accept 1008 -- The Zoram Strand - Shindrell Swiftfire; Wrathtail Heads x20, west
+  complete 1008 @4.95,14.49 era -- Wrathtail Heads off the Wrathtail murlocs for Shindrell Swiftfire
+  turnin 1008 -- The Zoram Strand - back to Shindrell Swiftfire
+  accept 1134 -- Pridewings of Stonetalon - Shindrell Swiftfire; Pridewing Venom Sacs x12, in Stonetalon
+  note 1134's pre (1008 above) fills here — take 1134 after it. The sacs drop only in Stonetalon, so the Stonetalon expedition leg below does the collecting.
+  accept 95737 -- Seeking Caitlin - Llana; Caitlin Grassman waits in the Wetlands
+
+
+step Astranaar — Thenysil, Faldreas and the wardens
+
+  accept 1081 -- Reception from Tyrande - Sentinel Thenysil; Tyrande Whisperwind takes it, at 28
+  note 1081's pre (1082) is uncontracted in Stonetalon — take 1081 on its own.
+  accept 1070 -- On Guard in Stonetalon - Sentinel Thenysil; Kaela Shadowspear waits in Stonetalon
+  accept 1056 -- Journey to Stonetalon Peak - Faldreas Goeth'Shael; Keeper Albagorm waits in Stonetalon
+  accept 86757 -- Slowing the Orc Advance - Shandrina; Jagged Orcish Swords and Curved Orcish Daggers, south-east
+  complete 86757 @71.71,80.47 era -- Jagged Orcish Swords off the Horde Grunts for Shandrina
+  complete 86757 @69.3,82.39 era -- Curved Orcish Daggers off the Horde Scouts for Shandrina
+  turnin 86757 -- Slowing the Orc Advance - back to Shandrina
+  accept 98027 -- Gleaming Crescent Necklace - the Gleaming Crescent Pendant, south-east
+  note Maliynn in Astranaar takes the pendant — hand it in on the Astranaar return below.
+  collect 211814 @21.2,36.4 era -- Warsong Outrider Mark off the Warsong raiders (Grunt, Raider, Shaman) around the outpost
+  accept 79090 -- Repelling Invaders - Felore Moonray; the mark takes itself to her, at 60
+  turnin 79090 -- Repelling Invaders - the mark to Felore Moonray
+
+
+step The west — Talen and Orendil
+
+  accept 1007 -- The Ancient Statuette - Talen; the Ancient Statuette
+  complete 1007 @14.79,31.29 era -- the Ancient Statuette for Talen; it names no source in the data, so have it in your bags
+  turnin 1007 -- The Ancient Statuette - back to Talen
+  accept 1009 -- Ruuzel - Talen; the Ring of Zoram
+  note 1009's pre (1007 above) fills here — take 1009 after it.
+  complete 1009 @7.22,13.06 era -- the Ring of Zoram off Ruuzel for Talen
+  turnin 1009 -- Ruuzel - the ring to Talen
+  accept 1010 -- Bathran's Hair - Orendil Broadleaf; Bathran's Hair x5
+  complete 1010 @26.44,38.59 era -- Bathran's Hair for Orendil Broadleaf; it names no source in the data, so have it in your bags
+  turnin 1010 -- Bathran's Hair - back to Orendil Broadleaf
+  accept 1020 -- Orendil's Cure - Orendil Broadleaf; Pelturas Whitemoon takes it
+  note 1020's pre (1010 above) fills here — take 1020 after it.
+  turnin 1020 -- Orendil's Cure - Orendil's word to Pelturas Whitemoon
+  accept 1033 -- Elune's Tear - Pelturas Whitemoon; Elune's Tear
+  note 1033's pre (1020 above) fills here — take 1033 after it.
+  complete 1033 @37.37,51.79 era -- Elune's Tear for Pelturas Whitemoon; it names no source in the data, so have it in your bags
+  turnin 1033 -- Elune's Tear - back to Pelturas Whitemoon
+  accept 1034 -- The Ruins of Stardust - Pelturas Whitemoon; Handfuls of Stardust x5
+  note 1034's pre (1033 above) fills here — take 1034 after it.
+  complete 1034 @37.37,51.79 era -- Handfuls of Stardust for Pelturas Whitemoon; they name no source in the data, so have them in your bags
+  turnin 1034 -- The Ruins of Stardust - back to Pelturas Whitemoon
+  accept 1035 -- Fallen Sky Lake - Pelturas Whitemoon; the Fallen Moonstone, south-east
+  note 1035's pre (1034 above) fills here — take 1035 after it.
+  complete 1035 @66.66,82.17 era -- the Fallen Moonstone off the Shadethicket Oracle for Pelturas Whitemoon
+  turnin 1035 -- Fallen Sky Lake - the moonstone to Pelturas Whitemoon
+
+step Delgren's tower, west-central
+
+  accept 970 -- The Tower of Althalaxx - Delgren the Purifier; the Glowing Soul Gem
+  note 970's pre (967) lives in the Darkshore guide — take 970 after that leg.
+  accept 78089 only Paladin -- Advice From Stormwind - Delgren the Purifier; Katherine the Pure waits in Stormwind, at 30
+  note 78089's pre (78088) is uncontracted in Darkshore — take 78089 on its own.
+
+
+step The east — Velene, Shael'dryn and the dryads
+
+  accept 1016 -- Elemental Bracers - Sentinel Velene Starstrike; the Divined Scroll
+  complete 1016 @49.8,67.21 era -- the Divined Scroll for Sentinel Velene Starstrike; it names no source in the data, so have it in your bags
+  turnin 1016 -- Elemental Bracers - back to Sentinel Velene Starstrike
+  accept 1017 -- Mage Summoner - Sentinel Velene Starstrike; Sarilus Foulborne's Head, in the Barrens
+  note 1017's pre (1016 above) fills here — take 1017 after it. Sarilus drops the head only in the Barrens, so the Barrens expedition leg below does the collecting.
+  goto 53.54,46.22
+  accept 1054 -- Culling the Threat - Raene Wolfrunner; Dal Bloodclaw's Skull
+  complete 1054 @39.61,36.31 era -- Dal Bloodclaw's Skull for Raene Wolfrunner
+  turnin 1054 -- Culling the Threat - back to Raene Wolfrunner
+
+step The far east — Kayneth, Anilia and Maseara
+
+  turnin 4581 -- Kayneth Stillwind - Shindrell's word to Kayneth Stillwind
+  accept 1011 -- Forsaken Diseases - Kayneth Stillwind; the Bottle of Disease
+  note 1011's pre (4581) lives in the Astranaar step above — take 1011 after that leg.
+  complete 1011 @85.24,44.71 era -- the Bottle of Disease for Kayneth Stillwind; it names no source in the data, so have it in your bags
+  turnin 1011 -- Forsaken Diseases - back to Kayneth Stillwind
+  accept 1012 -- Insane Druids - Kayneth Stillwind; Taneel Darkwood, Uthil Mooncall and Mavoris Cloudsbreak, south
+  note 1012's pre (1011 above) fills here — take 1012 after it.
+  complete 1012 @77.18,73.99 era -- Taneel Darkwood for Kayneth Stillwind
+  complete 1012 @77.96,72.74 era -- Uthil Mooncall for Kayneth Stillwind
+  complete 1012 @75.05,74.2 era -- Mavoris Cloudsbreak for Kayneth Stillwind
+  turnin 1012 -- Insane Druids - back to Kayneth Stillwind
+  turnin 1021 -- Vile Satyr! Dryads in Danger! - Illiyana's word to Anilia
+  accept 1031 -- The Branch of Cenarius - Anilia; the Branch of Cenarius
+  note 1031's pre (1021 above) fills here — take 1031 after it.
+  complete 1031 @77.99,42.42 era -- the Branch of Cenarius off Geltharis for Anilia
+  turnin 1031 -- The Branch of Cenarius - back to Anilia
+  accept 1032 -- Satyr Slaying! - Anilia; Satyr Horns x16
+  note 1032's pre (1031 above) fills here — take 1032 after it.
+  complete 1032 @77.58,46.17 era -- Satyr Horns off the Xavian for Anilia
+  turnin 1032 -- Satyr Slaying! - back to Anilia
+  accept 98417 -- Vengeful Trail - Maseara Autumnmoon; the Vine-Wrapped Scroll
+  complete 98417 @86.24,45.86 era -- the Vine-Wrapped Scroll for Maseara Autumnmoon; it names no source in the data, so have it in your bags
+  turnin 98417 -- Vengeful Trail - back to Maseara Autumnmoon
+  accept 98418 -- Shared Fury - Maseara Autumnmoon; Xavian of all four castes
+  note 98418's pre (98417 above) fills here — take 98418 after it.
+  complete 98418 @77.58,46.17 era -- Xavian Rogues for Maseara Autumnmoon
+  complete 98418 @77.31,44.89 era -- Xavian Felsworn for Maseara Autumnmoon
+  complete 98418 @77.73,44.78 era -- Xavian Hellcallers for Maseara Autumnmoon
+  complete 98418 @78.26,45.63 era -- Xavian Betrayers for Maseara Autumnmoon
+  turnin 98418 -- Shared Fury - back to Maseara Autumnmoon
+
+
+step The south — Krolg's hunt
+
+  turnin 1030 -- Raene's Cleansing - Raene's word to Krolg
+  accept 1045 -- Raene's Cleansing - Krolg; Bloodtooth Guards and Ran Bloodtooth's Skull
+  note 1045's pre (1030 above) fills here — take 1045 after it.
+  complete 1045 @54.4,79.58 era -- Bloodtooth Guards for Krolg
+  complete 1045 @54.75,79.62 era -- Ran Bloodtooth's Skull for Krolg
+  turnin 1045 -- Raene's Cleansing - back to Krolg
+  accept 1046 -- Raene's Cleansing - Krolg; Dartol's Rod of Transformation, Raene takes it
+  note 1046's pre (1045 above) fills here — take 1046 after it.
+  complete 1046 @36.62,49.58 era -- Dartol's Rod of Transformation for Raene Wolfrunner; it names no source in the data, so have it in your bags
+  turnin 1046 -- Raene's Cleansing - Krolg's word to Raene Wolfrunner
+  turnin 98027 -- Gleaming Crescent Necklace - the pendant to Maliynn
+
+step The south — Alonso's warriors
+
+  goto 42,69.2
+  accept 78132 only Warrior -- Dragonslayer's Helm - Alonso; the Dragonslayer's Helm
+  complete 78132 only Warrior @42,69.2 era -- the Dragonslayer's Helm for Alonso; it names no source in the data, so have it in your bags
+  turnin 78132 only Warrior -- Dragonslayer's Helm - back to Alonso
+  accept 78133 only Warrior -- Dragonslayer's Shield - Alonso; the Dragonslayer's Shield
+  complete 78133 only Warrior @42,69.2 era -- the Dragonslayer's Shield for Alonso; it names no source in the data, so have it in your bags
+  turnin 78133 only Warrior -- Dragonslayer's Shield - back to Alonso
+  accept 78134 only Warrior -- Dragonslayer's Lance - Alonso; the Lance, sold in the Wetlands
+  note The Lance comes from the Dark Iron Entrepreneur in the Wetlands — buy it on the Wetlands leg below, then hand in back here.
+
+step The south-east — writ: hammer (Blacksmithing)
+
+  when skill Blacksmithing 1
+
+  goto 78.47,68.89
+  accept 94222 optional -- Craftsman's Writ: Iridescent Hammer - the Cowardly Peon; back to the Peon, at 60
+  note 94222's starter (the writ) has no placed source in the data — have it in your bags.
+  turnin 94222 optional -- Craftsman's Writ: Iridescent Hammer - back to the Cowardly Peon
+
+step The south-east — writ: rifle (Engineering)
+
+  when skill Engineering 1
+
+  goto 82.13,50.99
+  accept 94231 optional -- Craftsman's Writ: Moonsight Rifle - Grembly; back to Grembly, at 60
+  note 94231's starter (the writ) has no placed source in the data — have it in your bags.
+  turnin 94231 optional -- Craftsman's Writ: Moonsight Rifle - back to Grembly
+
+step The south-east — writ: gloves (Leatherworking)
+
+  when skill Leatherworking 1
+
+  goto 64.77,80.15
+  accept 94240 optional -- Craftsman's Writ: Herbalist's Gloves - Murache; back to Murache, at 60
+  note 94240's starter (the writ) has no placed source in the data — have it in your bags.
+  turnin 94240 optional -- Craftsman's Writ: Herbalist's Gloves - back to Murache
+
+step The south-east — writ: hood (Tailoring)
+
+  when skill Tailoring 1
+
+  accept 94249 optional -- Craftsman's Writ: Azure Silk Hood - Murache; the Cowardly Peon takes it, at 60
+  note 94249's starter (the writ) has no placed source in the data — have it in your bags.
+  turnin 94249 optional -- Craftsman's Writ: Azure Silk Hood - Murache's word to the Cowardly Peon
+
+step The south-east — the shattered orb
+
+  goto 89.37,77.03
+  accept 78093 only Human,Dwarf,Paladin -- Return to Delgren - the Shattered Orb; Delgren the Purifier takes it
+  note 78093’s pre (78088, the Strange Orb in Darkshore) is likewise outside this contract — take the orb’s word on its own.
+
+step Delgren's tower, returned
+
+  goto 26.2,38.7
+  turnin 78093 only Human,Dwarf,Paladin -- Return to Delgren - the orb's word to Delgren the Purifier
+
+
+step Tower of Althalaxx — Delgren's chain
+
+  when onquest 970
+  complete 970 @30.38,31.76 era -- the Glowing Soul Gem off the Dark Strand cultists for Delgren the Purifier
+  turnin 970 -- The Tower of Althalaxx - the gem to Delgren the Purifier
+  accept 973 -- The Tower of Althalaxx - Delgren the Purifier; Ilkrud Magthrull's Tome
+  complete 973 @25.28,60.69 era -- Ilkrud Magthrull's Tome for Delgren the Purifier
+  turnin 973 -- The Tower of Althalaxx - the tome to Delgren the Purifier
+  accept 976 -- Supplies to Auberdine - Delgren the Purifier; escort Feero Ironhand
+  note 976's pre (973 above) fills here — take 976 after it.
+  complete 976 @26.21,38.88 era -- escort Feero Ironhand to Auberdine for Delgren the Purifier
+  turnin 976 -- Supplies to Auberdine - Feero kept to Delgren the Purifier
+  accept 1140 -- The Tower of Althalaxx - Delgren the Purifier; the Highborne souls at Night Run and Satyrnaar
+  note 1140's pre (973 above) fills here — take 1140 after it.
+
+
+step Tower of Althalaxx — the Highborne souls
+
+  when onquest 1140
+  complete 1140 @66.62,57 era -- free the Highborne soul in Night Run for Delgren the Purifier
+  complete 1140 @81.6,48.57 era -- free the Highborne soul in Satyrnaar for Delgren the Purifier
+  turnin 1140 -- The Tower of Althalaxx - the freed souls to Delgren the Purifier
+  accept 1167 -- The Tower of Althalaxx - Delgren the Purifier; Balthule Shadowstrike waits in Darkshore
+
+
+step Expedition — Darkshore, Balthule's word
+
+  when onquest 1167
+  zone map 1439
+  turnin 1167 -- The Tower of Althalaxx - Delgren's word to Balthule Shadowstrike
+  zone map 1440
+
+
+step Expedition — Tyrande's word
+
+  when onquest 1081
+  zone map 1457
+  turnin 1081 -- Reception from Tyrande - Thenysil's word to Tyrande Whisperwind, at 28
+  zone map 1440
+
+
+step Expedition — Stormwind, Katherine's word
+
+  when onquest 78089
+  zone map 1453
+  goto 48.48,49.09
+  turnin 78089 only Paladin -- Advice From Stormwind - Delgren's word to Katherine the Pure, at 30
+  zone map 1440
+
+
+step Melyria's tome, returned
+
+  complete 1022 @50.49,39.13 era -- the Tome of Mel'Thandris for Sentinel Melyria Frostshadow
+  turnin 1022 -- The Howling Vale - the tome to Sentinel Melyria Frostshadow
+  accept 1037 -- Velinde Starsong - Sentinel Melyria Frostshadow; Thyn'tel Bladeweaver takes it, at 30
+  note 1037's pre (1022 above) fills here — take 1037 after it.
+
+step Expedition — Stonetalon, the southern exits
+
+  zone map 1442
+  turnin 1056 -- Journey to Stonetalon Peak - Faldreas's word to Keeper Albagorm
+  turnin 1070 -- On Guard in Stonetalon - Thenysil's word to Kaela Shadowspear
+  complete 1134 @60.54,48.72 era -- Pridewing Venom Sacs off the Pridewings for Shindrell Swiftfire
+  zone map 1440
+
+
+step Expedition — Barrens, Sarilus's head
+
+  zone map 1413
+  complete 1017 @48.22,19.15 era -- Sarilus Foulborne's Head for Sentinel Velene Starstrike
+  zone map 1440
+
+
+step Expedition — Wetlands, Caitlin's word and the Lance
+
+  zone map 1437
+  turnin 95737 -- Seeking Caitlin - Llana's word to Caitlin Grassman
+  buy 209874 "Dragonslayer's Lance"
+  note Alonso's Lance comes from the Dark Iron Entrepreneur out here; hand in back at Alonso below.
+  zone map 1440
+
+
+step Astranaar — the expedition returns
+
+  turnin 1134 -- Pridewings of Stonetalon - the sacs to Shindrell Swiftfire
+  turnin 1017 -- Mage Summoner - Sarilus's head to Sentinel Velene Starstrike
+
+step Expedition — Darnassus, Thyn'tel's word
+
+  zone map 1457
+  turnin 1037 -- Velinde Starsong - Melyria's word to Thyn'tel Bladeweaver, at 30
+  zone map 1440
+
+
+step Alonso's lance, delivered
+
+  goto 42,69.2
+  complete 78134 only Warrior @42,69.2 era -- the Dragonslayer's Lance for Alonso
+  turnin 78134 only Warrior -- Dragonslayer's Lance - the lance to Alonso
+
