@@ -48,7 +48,7 @@ _The twin guide. Horde quest lines are already faction-gated inside the Alliance
 - [x] Lint/playtest clean — 0 errors
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions — after the Zephras template
+- [x] Companions — 24 rares + fixed containers, 4 vendor recipes, lint 0/0 (pilot pending)
 
 ### Westfall — follow-on zone (Alliance) · build order #1
 
