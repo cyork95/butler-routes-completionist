@@ -1,0 +1,292 @@
+# Butler Routes - Redridge Mountains completionist (pack butler-routes-completionist, v1).
+# Every Redridge accept in the local census (44 quests,
+# docs/redridge-census.md) appears exactly once as an accept and once as a
+# turnin — except 93551 Praise, an accept-only record with no turn-in in the
+# data (Ironforge 95924/95925 precedent: contracted with an honest note,
+# never an invented turn-in). No race header: the data shows no race-locked
+# quests here, so per-line class gates only (Warrior, Rogue). Soft-pre
+# accepts whose blocking pre-quest sits outside the contract carry a note at
+# the accept; their completes and turn-ins stand alone in `when onquest`
+# mini-steps. Coordinates in Redridge use the live frame; expedition stops
+# use the frames their data carries, set with zone map lines.
+guide butler-routes-completionist/redridge-mountains
+title Redridge Mountains - Completionist
+levels 14-26
+zone Redridge Mountains
+faction Alliance
+category Leveling
+folder Completionist
+keywords redridge, completionist
+coords live
+version 1
+
+step West road — Parker and the gnolls
+
+  note In from Elwynn along the west road: Guard Parker holds the gnoll line, and Tamelyn Aldridge's license starts the oddest errand in the zone. Quests here run 14 to 26 — the steps say which legs belong where; the three level-58-plus records carry their own notes.
+  accept 244 -- Encroaching Gnolls - Guard Parker; Deputy Feldon takes it, south
+  turnin 244 -- Encroaching Gnolls - Parker's word to Deputy Feldon
+  accept 246 -- Assessing the Threat - Deputy Feldon; Redridge Mongrels and Poachers
+  complete 246 @9.42,65.82 era -- Redridge Mongrels for Deputy Feldon, west
+  complete 246 @23.25,79.41 era -- Redridge Poachers for Deputy Feldon, south-east
+  turnin 246 -- Assessing the Threat - back to Deputy Feldon
+  goto 10.37,71.26
+  accept 98407 -- Show of Force - Guard Parker; Spiked Collars off the Redridge Thrashers
+  note 98407's pre (244 above) fills here — take 98407 after it.
+  complete 98407 @8.51,67.77 era -- Spiked Collars off the Redridge Thrashers for Guard Parker
+  turnin 98407 -- Show of Force - back to Guard Parker
+  note Tamelyn Aldridge sells the Advertising License Application: buy it from her, then accept.
+  buy 270888 "Advertising License Application"
+  accept 95816 -- Sign Me Up! - Tamelyn Aldridge; Elaine Compton takes the forms, at 60
+  complete 95816 @6.17,71.71 era -- the Massive Pile of Completed Forms for Elaine Compton; the pile has no placed source in the data, so have it in your bags
+  turnin 95816 -- Sign Me Up! - the forms to Elaine Compton
+  goto 9.71,70.86
+  accept 98247 -- Shipping Label - Marcy Baker; back to Marcy Baker, at 60
+  note 98247's starter (the Shipping Label) has no placed source in the data — have it in your bags. The Barrens twin (98248, Dokimi's label) stays out — Marcy's label is the contracted pick.
+  turnin 98247 -- Shipping Label - back to Marcy Baker
+
+step Lakeshire — Solomon and the messengers
+
+  accept 120 -- Messenger to Stormwind - Magistrate Solomon; General Marcus Jonathan waits in Stormwind
+  accept 143 -- Messenger to Westfall - Magistrate Solomon; Gryan Stoutmantle waits in Westfall
+  note 143's pre (121) lives in the Stormwind guide — take 143 after that leg.
+  accept 145 -- Messenger to Darkshire - Magistrate Solomon; Lord Ello Ebonlocke waits in Duskwood
+  note 145's pre (144) is uncontracted in Westfall — take 145 on its own.
+
+step Lakeshire — Conacher’s law
+
+  accept 91 -- Solomon’s Law - Bailiff Conacher; Shadowhide Pendants off the Shadowhide Gnolls, east
+  complete 91 @68.92,35.88 era -- Shadowhide Pendants off the Shadowhide Darkweavers for Bailiff Conacher
+  turnin 91 -- Solomon’s Law - back to Bailiff Conacher
+
+step Lakeshire — Marris and the Blackrock line
+
+  accept 20 -- Blackrock Menace - Marshal Marris; Battleworn Axes off the Blackrock Champions, north
+  complete 20 @21.49,8.19 era -- Battleworn Axes off the Blackrock Champions for Marshal Marris
+  turnin 20 -- Blackrock Menace - back to Marshal Marris
+  accept 98387 -- Blackrock Blockade - Marshal Marris; Stolen Weapons and Blackrock Supplies
+  complete 98387 @28.41,48.97 era -- Stolen Weapons x8 and Blackrock Supplies x10 for Marshal Marris; neither names a source in the data, so have them in your bags
+  turnin 98387 -- Blackrock Blockade - back to Marshal Marris
+  accept 19 -- Tharil'zun - Marshal Marris; Tharil'zun's Head, east
+  note 19's pres (20 and 98387 above) fill here — take 19 after them.
+  complete 19 @64.36,59.41 era -- Tharil'zun's Head for Marshal Marris
+  turnin 19 -- Tharil'zun - back to Marshal Marris
+  accept 115 -- Shadow Magic - Marshal Marris; Midnight Orbs off the Shadowcasters
+  note 115's pres (20 and 98387 above) fill here — take 115 after them.
+  complete 115 @30.44,9.92 era -- Midnight Orbs off the Blackrock Shadowcasters for Marshal Marris
+  turnin 115 -- Shadow Magic - back to Marshal Marris
+
+step Lakeshire — Yorus and the mill rogues
+
+  goto 21.49,44.72
+  accept 1699 only Warrior -- The Rethban Gauntlet - Yorus Barleybrew; enter the Rethban Caverns
+  note 1699's pre (1698) lives in the Darnassus guide — take 1699 after that leg.
+  accept 132 -- The Defias Brotherhood - Wiley the Black; Gryan Stoutmantle waits in Westfall
+  note 132's pre (65) lives in the Westfall guide — take 132 after that leg.
+  goto 22.97,52.04
+  accept 2282 only Rogue -- Alther's Mill - Lucius; the Token of Thievery
+  note 2282's pre (2281) lives in the Stormwind guide — take 2282 after that leg. Oslow's Alther's Mill (98386) is the same-name twin, routed at the bridge — Lucius's line is the contracted Rogue pick.
+
+
+step Lakeshire — Verner and the bridge gnolls
+
+  accept 118 -- The Price of Shoes - Verner Osgood; Smith Argus waits in Elwynn
+  accept 122 -- Underbelly Scales - Verner Osgood; Underbelly Whelp Scales
+  note 122's pres (118 above here; 119 lives uncontracted at Smith Argus in Elwynn — take it when handing 118 in) fill here — take 122 after them.
+  accept 124 -- A Baying of Gnolls - Verner Osgood; Redridge Brutes and Mystics, north
+  note 124's pres (118 above here; 119 lives uncontracted at Smith Argus in Elwynn) fill here — take 124 after them.
+
+step Verner scales — when holding 122
+
+  when onquest 122
+  complete 122 @18.71,35.21 era -- Underbelly Whelp Scales off the Black Dragon Whelps for Verner Osgood
+  turnin 122 -- Underbelly Scales - back to Verner Osgood
+
+step Verner gnolls — when holding 124
+
+  when onquest 124
+  complete 124 @15.05,33.25 era -- Redridge Brutes for Verner Osgood
+  complete 124 @11.81,17.73 era -- Redridge Mystics for Verner Osgood
+  turnin 124 -- A Baying of Gnolls - back to Verner Osgood
+  accept 126 -- Howling in the Hills - Verner Osgood; Yowler's Paw
+
+step Verner hills — when holding 126
+
+  when onquest 126
+  complete 126 @22.56,21.38 era -- Yowler's Paw for Verner Osgood
+  turnin 126 -- Howling in the Hills - back to Verner Osgood
+
+step Lakeshire — Daniels and the kitchens
+
+  accept 116 -- Dry Times - Barkeep Daniels; four drinks from four far vendors
+  note Daniels' four drinks come from across the world — buy each on the expedition legs below, then hand in back here.
+  accept 92 -- Redridge Goulash - Chef Breanna; snouts, condor meat and spider meat
+  complete 92 @10.59,49.31 era -- Great Goretusk Snouts off Bellygrub and the Great Goretusks for Chef Breanna
+  complete 92 @30.37,70.23 era -- Tough Condor Meat off the Dire Condors for Chef Breanna
+  complete 92 @42.74,38.46 era -- Crisp Spider Meat off the Tarantulas for Chef Breanna
+  turnin 92 -- Redridge Goulash - back to Chef Breanna
+  accept 127 -- Selling Fish - Dockmaster Baren; Spotted Sunfish off the Lake murlocs
+  complete 127 @34.05,47.09 era -- Spotted Sunfish off the Murloc Flesheaters for Dockmaster Baren
+  turnin 127 -- Selling Fish - back to Dockmaster Baren
+  accept 150 -- Murloc Poachers - Dockmaster Baren; Murloc Fins
+  complete 150 @34.05,47.09 era -- Murloc Fins off the Lake murlocs for Dockmaster Baren
+  turnin 150 -- Murloc Poachers - back to Dockmaster Baren
+
+step Lakeshire — Darcy and the neighbors
+
+  accept 129 -- A Free Lunch - Darcy; Guard Parker takes it
+  turnin 129 -- A Free Lunch - Darcy's word to Guard Parker
+  accept 130 -- Visit the Herbalist - Guard Parker; Martie Jainrose takes it
+  note 130's pre (129 above) fills here — take 130 after it.
+  turnin 130 -- Visit the Herbalist - Parker's word to Martie Jainrose
+  accept 34 -- An Unwelcome Guest - Martie Jainrose; Bellygrub's Tusk
+  complete 34 @10.59,49.31 era -- Bellygrub's Tusk for Martie Jainrose
+  turnin 34 -- An Unwelcome Guest - back to Martie Jainrose
+  accept 131 -- Delivering Daffodils - Martie Jainrose; Darcy takes it
+  note 131's pre (130 above) fills here — take 131 after it.
+  turnin 131 -- Delivering Daffodils - Martie's word to Darcy
+  accept 3741 -- Hilary's Necklace - Shawn; Hilary takes it
+  complete 3741 @24.23,53.64 era -- Hilary's Necklace for Hilary; it names no source in the data, so have it in your bags
+  turnin 3741 -- Hilary's Necklace - Shawn's word to Hilary
+
+step The bridge works — Oslow and the mill
+
+  accept 125 -- The Lost Tools - Foreman Oslow; Oslow's Toolbox
+  complete 125 @27.05,48.64 era -- Oslow's Toolbox for Foreman Oslow; it names no source in the data, so have it in your bags
+  turnin 125 -- The Lost Tools - back to Foreman Oslow
+  accept 89 -- The Everstill Bridge - Foreman Oslow; Iron Pikes and Iron Rivets, north
+  note 89's pre (125 above) fills here — take 89 after it.
+  complete 89 @15.05,33.25 era -- Iron Pikes off the Redridge Brutes for Foreman Oslow
+  complete 89 @11.81,17.73 era -- Iron Rivets off the Redridge Mystics for Foreman Oslow
+  turnin 89 -- The Everstill Bridge - back to Foreman Oslow
+  accept 98386 -- Alther's Mill - Foreman Oslow; Tarantulas and their eggs
+  note 98386's pre (89 above) fills here — take 98386 after it. Lucius's Alther's Mill (2282) is the same-name Rogue twin — Oslow's line is the contracted pick.
+  complete 98386 @42.74,38.46 era -- Greater Tarantulas for Foreman Oslow
+  complete 98386 @46,42.1 era -- Tarantula Eggs for Foreman Oslow
+  turnin 98386 -- Alther's Mill - back to Foreman Oslow
+
+
+step Stonewatch and the east — bounties and posters
+
+  accept 128 -- Blackrock Bounty - Guard Howe; Blackrock Champions, north
+  complete 128 @21.49,8.19 era -- Blackrock Champions for Guard Howe
+  turnin 128 -- Blackrock Bounty - back to Guard Howe
+  accept 386 -- What Comes Around... - Guard Berton; the Head of Targorr
+  complete 386 @21.17,46.58 era -- the Head of Targorr for Guard Berton; Targorr the Dread has no placed point in the data, so take the head where he stands
+  turnin 386 -- What Comes Around... - back to Guard Berton
+  accept 169 -- WANTED: Gath'Ilzogg - the wanted poster; Gath'Ilzogg's Head, east
+  complete 169 @64.52,55.79 era -- Gath'Ilzogg's Head for Magistrate Solomon
+  turnin 169 -- WANTED: Gath'Ilzogg - the head to Magistrate Solomon
+  accept 180 -- WANTED: Lieutenant Fangore - the wanted poster; Fangore's Paw, east
+  complete 180 @75.09,37.06 era -- Fangore's Paw for Magistrate Solomon
+  turnin 180 -- WANTED: Lieutenant Fangore - the paw to Magistrate Solomon
+  accept 95999 -- WANTED: Incinerator Gar'im - the wanted poster; Gar'im's Broken Staff, south-east
+  complete 95999 @72.82,86.33 era -- the Broken Staff of Incinerator Gar'im for Magistrate Solomon
+  turnin 95999 -- WANTED: Incinerator Gar'im - the staff to Magistrate Solomon
+  accept 93551 -- Praise - Veteran of the Third War
+  note 93551 has no turn-in in the data — salute the Veteran and move on; never an invented turn-in.
+  accept 95772 -- Songblade Search - Dorin Songblade; back to Dorin, at 31
+  accept 95795 -- Fallen in the Fen - Dorin Songblade; picked up where 95772 leaves off, same conversation
+  turnin 95795 -- Fallen in the Fen - back to Dorin Songblade
+  note The data splits this errand across two records (95772 accepts, 95795 turns in) — take all three lines together here.
+  accept 248 -- Looking Further - the Old Lion Statue; the An Empty Jar, east
+  note 248's pre (94) is uncontracted in Elwynn — take 248 on its own.
+
+step The west Rethban — Oslow's ore
+
+  accept 347 -- Rethban Ore - Foreman Oslow; Brother Paxton waits in Elwynn
+  note 347's pre (345) is uncontracted in Elwynn — take 347 on its own.
+
+
+step Rethban Caverns — Yorus's gauntlet
+
+  when onquest 1699
+  complete 1699 only Warrior @21.49,44.72 era -- enter the Rethban Caverns for Yorus Barleybrew
+  turnin 1699 only Warrior -- The Rethban Gauntlet - the caverns for Yorus Barleybrew
+  accept 1702 only Warrior -- The Shieldsmith - Yorus Barleybrew; Furen Longbeard waits in Stormwind
+
+step Alther's Mill — Lucius's token
+
+  when onquest 2282
+  complete 2282 only Rogue @22.97,52.04 era -- the Token of Thievery for Lucius; it names no source in the data, so have it in your bags
+  turnin 2282 only Rogue -- Alther's Mill - the token to Lucius
+  accept 2358 only Rogue -- Horns of Nez'ra - Arantir; the Horns of Nez'ra
+  complete 2358 only Rogue @64.52,55.79 era -- the Horns of Nez'ra off Gath'Ilzogg and the Blackrocks for Arantir
+  turnin 2358 only Rogue -- Horns of Nez'ra - the horns to Arantir
+
+step The Old Lion — the Empty Jar
+
+  when onquest 248
+  turnin 248 -- Looking Further - the statue's word to the An Empty Jar
+
+step Expedition — Westfall, stocking the bar
+
+  zone map 1436
+  buy 1262 "Keg of Thunderbrew"
+  note Daniels' Keg comes from Grimbooze Thunderbrew out here; the other three drinks ride the Stormwind, Duskwood and Elwynn legs.
+  zone map 1433
+
+step Expedition — Westfall, Gryan's messenger
+
+  when onquest 143
+  zone map 1436
+  turnin 143 -- Messenger to Westfall - Solomon's word to Gryan Stoutmantle
+  zone map 1433
+
+step Expedition — Westfall, Gryan's Defias word
+
+  when onquest 132
+  zone map 1436
+  turnin 132 -- The Defias Brotherhood - Wiley's word to Gryan Stoutmantle
+  zone map 1433
+
+step Expedition — Stormwind, Marcus and Furen
+
+  zone map 1453
+  turnin 120 -- Messenger to Stormwind - Solomon's word to General Marcus Jonathan
+  goto 64.62,37.23
+  note The Shieldsmith rides its own mini below — Warriors holding 1702, take that step next.
+  buy 1941 "Cask of Merlot"
+  note Daniels' Cask comes from Roberto Pupellyverbos here; the last drink rides the Duskwood leg.
+  zone map 1433
+
+step Stormwind — Furen's word
+
+  when onquest 1702
+  zone map 1453
+  turnin 1702 only Warrior -- The Shieldsmith - Yorus's word to Furen Longbeard
+  zone map 1433
+
+step Expedition — Duskwood, Ello's word
+
+  when onquest 145
+  zone map 1431
+  turnin 145 -- Messenger to Darkshire - Solomon's word to Lord Ello Ebonlocke
+  zone map 1433
+
+step Expedition — Duskwood, stocking the bar
+
+  zone map 1431
+  buy 1942 "Bottle of Moonshine"
+  note Daniels' Moonshine comes from Barkeep Hann out here; the Elwynn leg carries the last drink.
+  zone map 1433
+
+step Expedition — Elwynn, Argus and the bar
+
+  zone map 1429
+  turnin 118 -- The Price of Shoes - Verner's word to Smith Argus
+  buy 1939 "Skin of Sweet Rum"
+  note Daniels' Rum comes from Barkeep Dobbins here; with all four drinks, hand in back in Lakeshire.
+  zone map 1433
+
+step Expedition — Elwynn, Paxton's ore
+
+  when onquest 347
+  complete 347 @10.8,21.17 era -- Rethban Ore off the Redridge Drudgers for Brother Paxton
+  zone map 1429
+  turnin 347 -- Rethban Ore - Oslow's word to Brother Paxton
+  zone map 1433
+
+step Lakeshire — Daniels' drinks, served
+
+  complete 116 @21.39,43.96 era -- the Keg, Cask, Bottle and Skin for Barkeep Daniels
+  turnin 116 -- Dry Times - the four drinks to Barkeep Daniels
