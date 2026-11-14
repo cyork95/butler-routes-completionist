@@ -1,0 +1,124 @@
+# Butler Routes - Stormwind City recipes companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns sold by vendors spawning inside Stormwind City
+# (zone 1453), verified against the local Forever game data. 34 recipes
+# across 36 vendor links (see docs/city-recipes-inventory.md). Each step is
+# gated to its profession; other characters skip it cleanly. No stock-class
+# flag exists in the data, so nothing is marked limited.
+guide butler-routes-completionist/stormwind-recipes
+title Stormwind City - Recipes & Patterns
+levels 1-60
+zone Stormwind City
+faction Alliance
+category Professions
+folder Companions
+keywords stormwind, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — Trade District (Kendor Kabonka)
+  when skill Cooking 1
+
+  vendor 340 -- Kendor Kabonka (77.47, 52.69)
+  buy 728 "Recipe: Westfall Stew"
+  buy 2697 "Recipe: Goretusk Liver Pie"
+  buy 2698 "Recipe: Cooked Crab Claw"
+  buy 2699 "Recipe: Redridge Goulash"
+  buy 2700 "Recipe: Succulent Pork Ribs"
+  buy 2701 "Recipe: Seasoned Wolf Kabob"
+  buy 2889 "Recipe: Beer Basted Boar Ribs"
+  buy 3678 "Recipe: Crocolisk Steak"
+  buy 3679 "Recipe: Blood Sausage"
+  buy 3680 "Recipe: Murloc Fin Soup"
+  buy 3681 "Recipe: Crocolisk Gumbo"
+  buy 3682 "Recipe: Curiously Tasty Omelet"
+  buy 3683 "Recipe: Gooey Spider Cake"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Trade District (Catherine Leland)
+  when skill Cooking 1
+
+  vendor 5494 -- Catherine Leland (55.09, 69.76)
+  buy 6325 "Recipe: Brilliant Smallfish"
+  buy 6330 "Recipe: Bristle Whisker Catfish"
+  buy 6368 "Recipe: Rainbow Fin Albacore"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Trade District (Erika Tate)
+  when skill Cooking 1
+
+  vendor 5483 -- Erika Tate (78.53, 52.88)
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Trade District (Khole Jinglepocket)
+  when skill Cooking 1
+
+  vendor 13435 -- Khole Jinglepocket (62.24, 70.29)
+  buy 17200 "Recipe: Gingerbread Cookie"
+  buy 17201 "Recipe: Egg Nog"
+  note Winter Veil seasonal stock, sold during the Feast of the Winter Veil; out of season, skip this step. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Mage Quarter (Alexandra Bolero)
+  when skill Tailoring 1
+
+  vendor 1347 -- Alexandra Bolero (53.14, 81.76)
+  buy 6274 "Pattern: Blue Overalls"
+  buy 10325 "Pattern: White Wedding Dress"
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note The Linen and Woolen Reagent Bag patterns are also stocked by Antonio Bolero nearby. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Mage Quarter (Antonio Bolero)
+  when skill Tailoring 1
+
+  vendor 258568 -- Antonio Bolero (53.5, 81.83)
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note The same two bag patterns are also stocked by Alexandra Bolero nearby. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Mage Quarter (Jessara Cordell)
+  when skill Enchanting 1
+
+  vendor 1318 -- Jessara Cordell (52.8, 74.26)
+  buy 6342 "Formula: Enchant Chest - Minor Mana"
+  buy 20752 "Formula: Minor Mana Oil"
+  buy 20753 "Formula: Lesser Wizard Oil"
+  buy 20758 "Formula: Minor Wizard Oil"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Mage Quarter (Jessara Cordell)
+  when skill Tailoring 1
+
+  vendor 1318 -- Jessara Cordell (52.8, 74.26)
+  buy 22307 "Pattern: Enchanted Mageweave Pouch"
+  note The pouch is a Tailoring pattern stocked by the Enchanting supplier. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Mage Quarter (Maria Lumere)
+  when skill Alchemy 1
+
+  vendor 1313 -- Maria Lumere (55.9, 85.64)
+  buy 9301 "Recipe: Elixir of Shadow Power"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Dwarven District (Kaita Deepforge)
+  when skill Blacksmithing 1
+
+  vendor 5512 -- Kaita Deepforge (63.26, 37.74)
+  buy 12162 "Plans: Hardened Iron Shortsword"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — Dwarven District (Darian Singh)
+  when skill Engineering 1
+
+  vendor 1304 -- Darian Singh (42.44, 76.92)
+  buy 18649 "Schematic: Blue Firework"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Trade District (Jillian Tanner)
+  when skill Leatherworking 1
+
+  vendor 5565 -- Jillian Tanner (71.57, 62.77)
+  buy 252783 "Pattern: Mystic Medium Armor Kit"
+  buy 252784 "Pattern: Forceful Medium Armor Kit"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
