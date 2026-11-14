@@ -169,9 +169,9 @@ _The 19 city-accept quests the Teldrassil census set aside land here._
 
 _Follows Westfall and Loch Modan._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 46 candidates, 44 IN / 2 OUT
+- [x] Core guide - `redridge.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 5 personas 0 stuck (R1+R2 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
