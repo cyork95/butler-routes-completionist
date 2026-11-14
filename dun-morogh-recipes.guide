@@ -1,0 +1,60 @@
+# Butler Routes - Dun Morogh recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics, designs and manuals whose SOURCE is
+# physically in Dun Morogh (Coldridge Valley included), verified against the local
+# Forever game data (questie-forever item, vendor and drop tables). Two recipes
+# are vendor-sold and one drops exclusively from a Dun Morogh mob; every other
+# dropped recipe is a generic multi-zone world drop, and quest records carry no
+# reward data (see docs/companion-unverified.md). No Blacksmithing plan has a Dun
+# Morogh source in the data — smithing country or not, none ships. Trainer-taught
+# staples are excluded: Polestar's own profession guides cover those. Each step is
+# gated to its profession; other characters skip it cleanly.
+guide butler-routes-completionist/dun-morogh-recipes
+title Dun Morogh - Recipes & Patterns
+levels 1-12
+zone Dun Morogh
+faction Alliance
+category Professions
+folder Companions
+keywords dun morogh, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — Gretta Ganter
+  when skill Cooking 1
+
+  vendor 8508 -- Gretta Ganter (31.53, 44.65)
+  buy 6325 "Recipe: Brilliant Smallfish"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Frostmane Seer (rare drop)
+  when skill Cooking 1
+
+  loop
+  goto 40.34,42.86
+  goto 40.67,34.98
+  goto 41.09,44.87
+  goto 41.14,45.54
+  goto 41.16,44.47
+  goto 41.28,34.34
+  goto 41.48,45.01
+  goto 41.54,35.32
+  goto 41.62,43.82
+  goto 41.81,35.62
+  goto 42.07,34.35
+  goto 42.1,45.52
+  goto 42.11,44.59
+  goto 42.25,36.6
+  goto 42.31,34.93
+  goto 42.46,35.79
+  goto 42.55,33.75
+  goto 42.82,36.59
+  goto 43.06,35.86
+  collect 249879 "Recipe: Peace Tea" optional
+  note Dropped only by the Frostmane Seer, a common troll of the Frostmane hold, and by nothing else anywhere in the data.
+
+step Engineering — Namdo Bizzfizzle
+  when skill Engineering 1
+
+  vendor 2683 -- Namdo Bizzfizzle (21.86, 31.86)
+  buy 14639 "Schematic: Minor Recombobulator"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
