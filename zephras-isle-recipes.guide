@@ -1,0 +1,71 @@
+# Butler Routes - Zephras Isle recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics, designs and manuals whose SOURCE is on
+# Zephras Isle, verified against the local Forever game data (questie-forever item,
+# vendor and drop tables). Everything here is vendor-sold; the drop scan over all
+# 315 Zephras NPCs, all Zephras objects and both fixed chest placements found zero
+# recipe items, and quest records carry no reward data (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover those.
+# Each step is gated to its profession; other characters skip it cleanly.
+guide butler-routes-completionist/zephras-isle-recipes
+title Zephras Isle - Recipes & Patterns
+levels 1-12
+zone Zephras Isle
+faction Alliance
+race Skyborne
+category Professions
+folder Companions
+keywords zephras, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — Valanaar (Nyalah Brightfire)
+  when skill Cooking 1
+
+  vendor 257006 -- Nyalah Brightfire (60.6, 72.7), who also gives the core quest Crab Season
+  buy 6325 "Recipe: Brilliant Smallfish"
+  buy 6326 "Recipe: Slitherskin Mackerel"
+  buy 6328 "Recipe: Longjaw Mud Snapper"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Shen'dar (Zerril Softbreeze)
+  when skill Cooking 1
+
+  vendor 251905 -- Zerril Softbreeze (43.9, 43.8)
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Shen'dar (Taleen Shimmerthread and Nasalanna Windsinger)
+  when skill Tailoring 1
+
+  vendor 251991 -- Taleen Shimmerthread (44.9, 44.2)
+  vendor 257020 -- Nasalanna Windsinger (43.2, 43.2)
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  buy 22307 "Pattern: Enchanted Mageweave Pouch" -- sold by the enchanting vendor Nasalanna
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Othesia Evengale (64.4, 81.2)
+  when skill Tailoring 1
+
+  vendor 252380 -- Othesia Evengale (64.4, 81.2)
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Shen'dar (Nasalanna Windsinger)
+  when skill Enchanting 1
+
+  vendor 257020 -- Nasalanna Windsinger (43.2, 43.2)
+  buy 6342 "Formula: Enchant Chest - Minor Mana"
+  buy 20752 "Formula: Minor Mana Oil"
+  buy 20753 "Formula: Lesser Wizard Oil"
+  buy 20758 "Formula: Minor Wizard Oil"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Eaysaa Brightgust (59.2, 76.4)
+  when skill Enchanting 1
+
+  vendor 257004 -- Eaysaa Brightgust (59.2, 76.4)
+  buy 6342 "Formula: Enchant Chest - Minor Mana"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
