@@ -1,6 +1,6 @@
 # Butler Routes — Zone Checklist
 
-_Where every zone stands. Updated 2026-11-14 · Pack v0.5.0 · Repo: `cyork95/butler-routes-completionist` (`master`)_
+_Where every zone stands. Updated 2026-11-14 · Pack v0.6.0 · Repo: `cyork95/butler-routes-completionist` (`master`)_
 
 **The pipeline every zone goes through:**
 
@@ -70,9 +70,9 @@ _The lead-in for Loch Modan (build order #2)._
 
 ### Loch Modan — second zone (Alliance) · build order #2
 
-- [ ] Census — needs a ForeverDB pull
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census — 41 quests, local-data census (`docs/loch-modan-census.md`)
+- [x] Core guide — `loch-modan.guide`
+- [x] Lint/playtest clean — 0 errors, playtest 0 stuck
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
