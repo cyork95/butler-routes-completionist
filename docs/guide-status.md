@@ -53,8 +53,8 @@ _The twin guide. Horde quest lines are already faction-gated inside the Alliance
 ### Westfall — follow-on zone (Alliance) · build order #1
 
 - [x] Census — 43 quests, tracker-verified
-- [ ] Core guide — the next core build
-- [ ] Lint/playtest clean
+- [x] Core guide — `westfall.guide`
+- [x] Lint/playtest clean — 0 errors
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions — 14 rares + fixed containers, 10 recipes, lint 0/0 (pilot pending)
