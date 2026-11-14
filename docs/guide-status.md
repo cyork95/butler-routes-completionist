@@ -14,7 +14,7 @@ _Where every zone stands. Updated 2026-11-13 · Pack v0.2.0 · Repo: `cyork95/bu
 
 Companions (Rares & Treasures · Recipes & Patterns) follow the core guide once the Zephras template is proven.
 
-**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside** → then **Alliance completion** (companions for every Alliance zone, plus all pilots and pilot fixes) → then **Set 2** (Redridge Mountains → Ashenvale → Stonetalon Mountains → Duskwood) → **Horde last** (Durotar, Mulgore, Tirisfal, Zephras twin).
+**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside** → then **Alliance completion** (companions for every Alliance zone, plus all pilots and pilot fixes) → then **Set 2** (Redridge Mountains → Ashenvale → Stonetalon Mountains → Duskwood) → then **Set 3** (Wetlands → Stranglethorn Vale → Riverglades → Thousand Needles → Desolace) → **Horde last** (Durotar, Mulgore, Tirisfal, Zephras twin).
 
 ---
 
@@ -176,6 +176,61 @@ _Follows Westfall. Raven Hill country._
 
 ---
 
+## Set 3 — the next tier (after Set 2, before the Horde block)
+
+### Wetlands — follows Loch Modan (Alliance)
+
+_Menethil Harbor. Sorinis is questing here now._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Stranglethorn Vale — follows Duskwood / Redridge
+
+_Booty Bay country._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Riverglades — Forever-original zone
+
+_Skyborne country._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Thousand Needles — contested (Kalimdor)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Desolace — contested (Kalimdor)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+---
+
 ## Beyond v1.0 — every other open-world zone
 
 _Not started. Same pipeline applies when we get there._
@@ -192,17 +247,14 @@ _Not started. Same pipeline applies when we get there._
 - [ ] Hillsbrad Foothills
 - [ ] Searing Gorge
 - [ ] Silverpine Forest
-- [ ] Stranglethorn Vale
 - [ ] Swamp of Sorrows
 - [ ] The Hinterlands
 - [ ] Western Plaguelands
-- [ ] Wetlands
 
 ### Kalimdor
 
 - [ ] Azshara
 - [ ] The Barrens
-- [ ] Desolace
 - [ ] Dustwallow Marsh
 - [ ] Felwood
 - [ ] Feralas
@@ -210,13 +262,11 @@ _Not started. Same pipeline applies when we get there._
 - [ ] Mount Hyjal
 - [ ] Silithus
 - [ ] Tanaris
-- [ ] Thousand Needles
 - [ ] Un'Goro Crater
 - [ ] Winterspring
 
 ### Forever-new lands
 
-- [ ] Riverglades
 - [ ] Shen'dralas
 
 _No public rare data yet for either — their censuses will lean on game data._
