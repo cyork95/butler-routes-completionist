@@ -1,6 +1,6 @@
 # Butler Routes — Zone Checklist
 
-_Where every zone stands. Updated 2026-11-14 · Pack v0.7.0 · Repo: `cyork95/butler-routes-completionist` (`master`)_
+_Where every zone stands. Updated 2026-11-13 · Pack v0.2.0 · Repo: `cyork95/butler-routes-completionist` (`master`)_
 
 **The pipeline every zone goes through:**
 
@@ -12,7 +12,7 @@ _Where every zone stands. Updated 2026-11-14 · Pack v0.7.0 · Repo: `cyork95/bu
 
 Companions (Rares & Treasures · Recipes & Patterns) follow the core guide once the Zephras template is proven.
 
-**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside**. Horde starts follow.
+**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside** → then **Alliance completion** (companions for every Alliance zone, plus all pilots and pilot fixes) → **Horde last** (Durotar, Mulgore, Tirisfal, Zephras twin).
 
 ---
 
@@ -30,7 +30,7 @@ Companions (Rares & Treasures · Recipes & Patterns) follow the core guide once 
 
 ### Zephras Isle — Skyborne (Horde)
 
-_The twin guide. Horde quest lines are already faction-gated inside the Alliance file._
+_The twin guide. Horde quest lines are already faction-gated inside the Alliance file. Part of the Horde block — built last, after Alliance completion._
 
 - [ ] Census
 - [ ] Core guide
@@ -51,8 +51,8 @@ _The twin guide. Horde quest lines are already faction-gated inside the Alliance
 ### Westfall — follow-on zone (Alliance) · build order #1
 
 - [x] Census — 43 quests, tracker-verified
-- [x] Core guide — `westfall.guide`
-- [x] Lint/playtest clean — 0 errors, playtest 0 stuck
+- [ ] Core guide — the next core build
+- [ ] Lint/playtest clean
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
@@ -61,27 +61,27 @@ _The twin guide. Horde quest lines are already faction-gated inside the Alliance
 
 _The lead-in for Loch Modan (build order #2)._
 
-- [x] Census — 105 quests, local-data census (`docs/dun-morogh-census.md`)
-- [x] Core guide — `dun-morogh.guide`
-- [x] Lint/playtest clean — 0 errors, playtest 0 stuck
+- [ ] Census — needs a ForeverDB pull
+- [ ] Core guide
+- [ ] Lint/playtest clean
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
 
 ### Loch Modan — second zone (Alliance) · build order #2
 
-- [x] Census — 41 quests, local-data census (`docs/loch-modan-census.md`)
-- [x] Core guide — `loch-modan.guide`
-- [x] Lint/playtest clean — 0 errors, playtest 0 stuck
+- [ ] Census — needs a ForeverDB pull
+- [ ] Core guide
+- [ ] Lint/playtest clean
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
 
 ### Teldrassil — Night Elf (Alliance) · alongside
 
-- [x] Census — 95 quests, local-data census (`docs/teldrassil-census.md`)
-- [x] Core guide — `teldrassil.guide`
-- [x] Lint/playtest clean — 0 errors, playtest 0 stuck
+- [ ] Census — Ferinis is playing the zone now; curation follows
+- [ ] Core guide
+- [ ] Lint/playtest clean
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
@@ -95,7 +95,7 @@ _The lead-in for Loch Modan (build order #2)._
 - [ ] Pilot fixes landed
 - [ ] Companions
 
-### Durotar — Orc & Troll (Horde)
+### Durotar — Orc & Troll (Horde) · Horde block — last
 
 - [ ] Census
 - [ ] Core guide
@@ -104,7 +104,7 @@ _The lead-in for Loch Modan (build order #2)._
 - [ ] Pilot fixes landed
 - [ ] Companions
 
-### Mulgore — Tauren (Horde)
+### Mulgore — Tauren (Horde) · Horde block — last
 
 - [ ] Census
 - [ ] Core guide
@@ -113,7 +113,7 @@ _The lead-in for Loch Modan (build order #2)._
 - [ ] Pilot fixes landed
 - [ ] Companions
 
-### Tirisfal Glades — Undead (Horde)
+### Tirisfal Glades — Undead (Horde) · Horde block — last
 
 - [ ] Census
 - [ ] Core guide
