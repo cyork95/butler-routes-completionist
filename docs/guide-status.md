@@ -14,7 +14,7 @@ _Where every zone stands. Updated 2026-11-14 · Pack v0.8.0 · Repo: `cyork95/bu
 
 Companions (Rares & Treasures · Recipes & Patterns) follow the core guide once the Zephras template is proven.
 
-**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside** → then **Alliance completion** (companions for every Alliance zone, plus all pilots and pilot fixes) → then **Set 2** (Redridge Mountains → Ashenvale → Stonetalon Mountains → Duskwood) → then **Set 3** (Wetlands → Stranglethorn Vale → Riverglades → Thousand Needles → Desolace) → then **Set 4** (Hillsbrad Foothills → Arathi Highlands → Alterac Mountains → Moonglade → Dustwallow Marsh → Feralas → Tanaris) → then **Set 5** (Badlands → Blasted Lands → Searing Gorge → Felwood → Azshara → Un'Goro Crater) → then **Set 6** (everything left) → **the Horde block, last**: the Horde starting zones (Durotar, Mulgore, Tirisfal, Zephras twin) **plus all the Horde guides** — the Horde side of every shared and contested zone — so the pack ends with both factions holding a completionist path through the whole world.
+**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside** → then **Alliance completion** (companions for every Alliance zone, plus all pilots and pilot fixes) → then the **Alliance city guides** (Stormwind → Ironforge → Darnassus — smaller guides, city quests) → then **Set 2** (Redridge Mountains → Ashenvale → Stonetalon Mountains → Duskwood) → then **Set 3** (Wetlands → Stranglethorn Vale → Riverglades → Thousand Needles → Desolace) → then **Set 4** (Hillsbrad Foothills → Arathi Highlands → Alterac Mountains → Moonglade → Dustwallow Marsh → Feralas → Tanaris) → then **Set 5** (Badlands → Blasted Lands → Searing Gorge → Felwood → Azshara → Un'Goro Crater) → then **Set 6** (everything left) → **the Horde block, last**: the Horde starting zones (Durotar, Mulgore, Tirisfal, Zephras twin) **plus all the Horde guides** — the Horde side of every shared and contested zone, and the Horde city guides (Orgrimmar → Thunder Bluff → Undercity) — so the pack ends with both factions holding a completionist path through the whole world.
 
 ---
 
@@ -125,6 +125,41 @@ _The lead-in for Loch Modan (build order #2)._
 - [ ] Companions
 
 **Publish rule (Cody, 2026-11-13): v1.0.0 waits for ALL of it** — every zone on this checklist, both factions and Set 2 included, done at first pass: core + companions written and lint-clean. Then the `v1.0.0` tag push fires the GitHub Actions publish to polestar.guide. Pilots and pilot-fix rounds continue after publish as v1.x updates. The build order follows zone progression; per the pack principle above, that orders the writing, never the content.
+
+---
+
+## City guides — smaller guides (after the Alliance companion rounds)
+
+_Cities are in scope as SMALLER guides (Cody, 2026-11-14): a census + core route for the quests that accept inside the city — the content the city rule has been setting aside since the Teldrassil round. Companions only where a city's data actually warrants one. The Horde cities (Orgrimmar → Thunder Bluff → Undercity) are part of the Horde block, last._
+
+### Stormwind — Alliance capital
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions (only where the data warrants)
+
+### Ironforge — Alliance capital
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions (only where the data warrants)
+
+### Darnassus — Alliance capital
+
+_The 19 city-accept quests the Teldrassil census set aside land here._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions (only where the data warrants)
 
 ---
 
@@ -482,4 +517,4 @@ _No public rare data yet — its census leans on game data._
 
 _Every open-world zone is now assigned to a set — nothing remains here._
 
-**Out of scope by design:** capital cities (no zone route to write) and dungeons/raids (Polestar's own journal covers them).
+**Out of scope by design:** dungeons/raids (Polestar's own journal covers them). Capital cities are IN scope as smaller guides (see City guides above).
