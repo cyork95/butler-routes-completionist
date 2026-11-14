@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.13.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.14.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -40,6 +40,8 @@ The two Dun Morogh companions run the same way beside the Dun Morogh core route:
 
 The two Loch Modan companions run the same way beside the Loch Modan core route: the rares guide sweeps 10 confirmed rares plus the Carved Figurine (a level-32 chain starter, banked for later) and the fixed Battered Chest placements, and the recipes guide collects the 10 vendor-sold recipe sources in Thelsamar and Farstrider Lodge, gated by profession.
 
+The two Darkshore companions run the same way beside the Darkshore core route: the rares guide sweeps 18 confirmed rares (including the Ghost Saber, summoned at the Mathystra cat figurines, and the Baron Marinous hunt, which feeds the contracted core quest) plus the fixed world containers (Battered Chests, Giant Clams, Waterlogged Footlockers and six one-off lockboxes), and the recipes guide collects the 13 vendor-sold recipe sources in Auberdine, from Heldan Galesong and from Bale, gated by profession.
+
 The two Teldrassil companions run the same way beside the Teldrassil core route: the rares guide sweeps 19 confirmed rares (including the Moss-twined Heart hunt on Blackmoss, which feeds the contracted core quest) plus the fixed world containers (Battered Chests, Buried Treasure, Lunar Chest, harpy chests, Gnarlpine caches, Velinde's Locker), and the recipes guide collects the 6 vendor-sold Cooking recipe sources in Dolanaar and Rut'theran, gated by profession.
 
 ## Planned scope
@@ -47,7 +49,7 @@ The two Teldrassil companions run the same way beside the Teldrassil core route:
 All starting zones, both factions:
 
 - Zephras Isle (Alliance) ✓, Elwynn Forest ✓, Westfall (core ✓, pilot pending)
-- Dun Morogh / Coldridge Valley ✓ (core built, pilot pending), Loch Modan ✓ (core built, pilot pending), Teldrassil ✓ (core + companions built, pilot pending), Darkshore ✓ (core built, pilot pending)
+- Dun Morogh / Coldridge Valley ✓ (core built, pilot pending), Loch Modan ✓ (core built, pilot pending), Teldrassil ✓ (core + companions built, pilot pending), Darkshore ✓ (core + companions built, pilot pending)
 - Durotar, Mulgore, Tirisfal Downs
 - Zephras Isle (Horde)
 

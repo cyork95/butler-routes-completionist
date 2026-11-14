@@ -95,7 +95,7 @@ _The lead-in for Loch Modan (build order #2)._
 - [x] Lint/playtest clean — 0 errors, playtest 0 stuck
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions
 
 ### Durotar — Orc & Troll (Horde) · Horde block — last
 

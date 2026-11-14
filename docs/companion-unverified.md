@@ -278,3 +278,81 @@ as above: game-data citation or a named source.
 - No Stashbox of any name (Sordac's included) has a Teldrassil-spawn record in
   the local build; the named stashboxes sit on maps 1429 and 1411. Nothing
   secret-stash-like loops in the guide.
+
+## Darkshore tameability: four task lines, rest kill-only (pack 0.14.0)
+
+- NPC records carry no family/tame flags, and unlike Teldrassil the Darkshore
+  core guide has no taming chain to corroborate against. The four `only Hunter`
+  tame lines rest on drop evidence plus the brief: Clutchmother (Strider Meat
+  in her table), Shadowclaw (Small Furry Paw; brief asserts tameable),
+  Ghost Saber (brief-mandated tame-on-sight; cat plus Haunch of Meat), Lunaclaw
+  (Haunch of Meat; bear). Every other shipped Darkshore rare is kill-only.
+- Paxnozz (210482) is OUT despite the Kackle-shaped 24-point named record: it
+  drops nothing but two Season-of-Discovery runes shared with other NPCs — a
+  rune source, not a rare. If the game confirms a true rare there, promote it.
+
+## Darkshore Ghost Saber: what the data does and does not confirm
+
+- Confirmed: npc3619 Ghost Saber (level 19) holds 3 Darkshore points; obj13359
+  Cat Figurine holds 3 Ruins-of-Mathystra points and obj13873 holds 1; the
+  saber drops item5332 Glowing Cat Figurine and nothing else exclusive. The
+  figurine loop, the interact lines and the collect are all data.
+- Not in the data: the summon-and-despawn mechanic itself. It is the brief's
+  report and the step says so. If the game shows the figurines work
+  differently (or the saber roams), the step gets rebuilt from that.
+
+## Darkshore quest-reward recipes: class unverifiable locally
+
+- Quest records carry no reward data, so no quest-reward recipe on Darkshore
+  can be confirmed or denied from the toolchain. The 13 shipped recipes are
+  all vendor-sold. If a Darkshore quest is later found to reward a recipe, add
+  it as a `note`/`task` step at the relevant hub (the quest itself stays
+  core-only).
+
+## Darkshore dropped recipes: all world drops, none shipped
+
+- The two candidate drop recipes are both generic: Recipe: Cooked Crab Claw
+  (2698) drops from 117 NPCs and Feet of the Lynx (1121) from 384. Per the
+  Elwynn rule both stay out, so no drop recipe made the guide.
+
+## Darkshore stock class: unverifiable locally
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so no
+  Darkshore recipe is marked limited. Each vendor step notes that stock class
+  is unconfirmed.
+
+## Darkshore respawn timers: unconfirmed everywhere
+
+- No respawn data for any of the 18 Darkshore rares, the Ghost Saber
+  figurines, or any fixed container exists in the local build. Every step says
+  the timer is unconfirmed.
+
+## Darkshore excluded objects and NPCs: logged with reason
+
+- Xabraxxis' Demon Bag (obj177624): unlinked prop co-located with a shipped
+  rare, no quest link, no loot data — left out rather than guessed.
+- Narassin's Strongbox (obj676349) and Bough of Altek (obj411715): Tower of
+  Althalaxx area props, chain-adjacent — not companion content.
+- Sapphires of Aku'Mai (obj178184/178185/178186): Blackfathom dungeon-side —
+  not zone content for an open-world sweep.
+- Gnarled Harpoons (obj408802), Remnant (obj414646), Field Guide (obj612088):
+  unidentified fixed props with no container nature and no quest link — the
+  Verigan's Fist precedent.
+- Moonkin Stone (obj177525): unconfirmable single object, no quest link.
+- Skeletal Sea Turtle (obj176189): beached-series-adjacent; the core guide owns
+  the beached series.
+- Scrolls (obj409496): starts uncontracted quest 78124 (Nar'thalas Almanac,
+  level 20) — quest-owned, not companion content.
+- Strange Orb (obj409289): starts uncontracted druid-30 chain 78088 — above
+  band and quest-owned.
+- Crate of Elunite, Armor/Weapon/Food Crates, Barrel of Milk (obj86492, 3660,
+  3661, 3662, 3705): Auberdine town and Tower-chain-adjacent props.
+- Ruuzel (npc3943, level 22, single remote Mist's-edge point, zero exclusive
+  loot): level alone never ships a step.
+- Incubus (npc185317), Thamarian (npc12656), Una Ji'ro (npc11816): zero drops,
+  no quest link — summon/prop or unconfirmable, never into the guide.
+- Ghostpaw Runner (npc3823): spawns on Darkshore (2 pts), Ashenvale (24 pts)
+  and map 1442 alongside Howler/Alpha — a cross-zone family, not a rare.
+- Jai'vhanel pair: contracted quest subject (98025) with an ambient 24-point
+  spawn — core-owned. Note: the quest's item objective 28103 does not exist in
+  items.json; that is the core route's data gap, reported not fixed.
