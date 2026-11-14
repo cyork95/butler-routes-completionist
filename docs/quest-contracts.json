@@ -2473,6 +2473,311 @@
           "name": "Easing Suffering"
         }
       ]
+    },
+    {
+      "id": "darkshore",
+      "name": "Darkshore",
+      "order": 7,
+      "levelBand": "10-20",
+      "summary": "Night Elf second zone: Auberdine hub, the northern coast and Twilight Vale, the Ruins of Mathystra, Ameth'Aran and Bashal'Aran, the Tower of Althalaxx, the long southern coast to the Master's Glaive, and the beached-creature series. Leads on to Ashenvale in the south.",
+      "quests": [
+        {
+          "id": 729,
+          "name": "The Absent Minded Prospector"
+        },
+        {
+          "id": 731,
+          "name": "The Absent Minded Prospector"
+        },
+        {
+          "id": 741,
+          "name": "The Absent Minded Prospector"
+        },
+        {
+          "id": 944,
+          "name": "The Master's Glaive"
+        },
+        {
+          "id": 945,
+          "name": "Therylune's Escape"
+        },
+        {
+          "id": 947,
+          "name": "Cave Mushrooms"
+        },
+        {
+          "id": 948,
+          "name": "Onu"
+        },
+        {
+          "id": 949,
+          "name": "The Twilight Camp"
+        },
+        {
+          "id": 950,
+          "name": "Return to Onu"
+        },
+        {
+          "id": 951,
+          "name": "Mathystra Relics"
+        },
+        {
+          "id": 953,
+          "name": "The Fall of Ameth'Aran"
+        },
+        {
+          "id": 954,
+          "name": "Bashal'Aran"
+        },
+        {
+          "id": 955,
+          "name": "Bashal'Aran"
+        },
+        {
+          "id": 956,
+          "name": "Bashal'Aran"
+        },
+        {
+          "id": 957,
+          "name": "Bashal'Aran"
+        },
+        {
+          "id": 958,
+          "name": "Tools of the Highborne"
+        },
+        {
+          "id": 963,
+          "name": "For Love Eternal"
+        },
+        {
+          "id": 965,
+          "name": "The Tower of Althalaxx"
+        },
+        {
+          "id": 966,
+          "name": "The Tower of Althalaxx"
+        },
+        {
+          "id": 967,
+          "name": "The Tower of Althalaxx"
+        },
+        {
+          "id": 982,
+          "name": "Deep Ocean, Vast Sea"
+        },
+        {
+          "id": 983,
+          "name": "Buzzbox 827"
+        },
+        {
+          "id": 984,
+          "name": "How Big a Threat?"
+        },
+        {
+          "id": 985,
+          "name": "How Big a Threat?"
+        },
+        {
+          "id": 986,
+          "name": "A Lost Master"
+        },
+        {
+          "id": 993,
+          "name": "A Lost Master"
+        },
+        {
+          "id": 995,
+          "name": "Escape Through Stealth"
+        },
+        {
+          "id": 1001,
+          "name": "Buzzbox 411"
+        },
+        {
+          "id": 1002,
+          "name": "Buzzbox 323"
+        },
+        {
+          "id": 1003,
+          "name": "Buzzbox 525"
+        },
+        {
+          "id": 1138,
+          "name": "Fruit of the Sea"
+        },
+        {
+          "id": 1141,
+          "name": "The Family and the Fishing Pole"
+        },
+        {
+          "id": 1579,
+          "name": "Gaffer Jacks"
+        },
+        {
+          "id": 1580,
+          "name": "Electropellers"
+        },
+        {
+          "id": 2078,
+          "name": "Gyromast's Revenge"
+        },
+        {
+          "id": 2098,
+          "name": "Gyromast's Retrieval"
+        },
+        {
+          "id": 2118,
+          "name": "Plagued Lands"
+        },
+        {
+          "id": 2138,
+          "name": "Cleansing of the Infected"
+        },
+        {
+          "id": 2139,
+          "name": "Tharnariun's Hope"
+        },
+        {
+          "id": 2178,
+          "name": "Easy Strider Living"
+        },
+        {
+          "id": 3524,
+          "name": "Washed Ashore"
+        },
+        {
+          "id": 4681,
+          "name": "Washed Ashore"
+        },
+        {
+          "id": 4722,
+          "name": "Beached Sea Turtle"
+        },
+        {
+          "id": 4723,
+          "name": "Beached Sea Creature"
+        },
+        {
+          "id": 4725,
+          "name": "Beached Sea Turtle"
+        },
+        {
+          "id": 4727,
+          "name": "Beached Sea Turtle"
+        },
+        {
+          "id": 4728,
+          "name": "Beached Sea Creature"
+        },
+        {
+          "id": 4730,
+          "name": "Beached Sea Creature"
+        },
+        {
+          "id": 4731,
+          "name": "Beached Sea Turtle"
+        },
+        {
+          "id": 4732,
+          "name": "Beached Sea Turtle"
+        },
+        {
+          "id": 4733,
+          "name": "Beached Sea Creature"
+        },
+        {
+          "id": 4740,
+          "name": "WANTED: Murkdeep!"
+        },
+        {
+          "id": 4761,
+          "name": "Thundris Windweaver"
+        },
+        {
+          "id": 4762,
+          "name": "The Cliffspring River"
+        },
+        {
+          "id": 4763,
+          "name": "The Blackwood Corrupted"
+        },
+        {
+          "id": 4811,
+          "name": "The Red Crystal"
+        },
+        {
+          "id": 4812,
+          "name": "As Water Cascades"
+        },
+        {
+          "id": 4813,
+          "name": "The Fragments Within"
+        },
+        {
+          "id": 5321,
+          "name": "The Sleeper Has Awakened"
+        },
+        {
+          "id": 5713,
+          "name": "One Shot.  One Kill."
+        },
+        {
+          "id": 6123,
+          "name": "Gathering the Cure"
+        },
+        {
+          "id": 6124,
+          "name": "Curing the Sick"
+        },
+        {
+          "id": 6343,
+          "name": "Return to Nessa"
+        },
+        {
+          "id": 87760,
+          "name": "Holy Diver"
+        },
+        {
+          "id": 97914,
+          "name": "Expanding Horizons"
+        },
+        {
+          "id": 98013,
+          "name": "Swelling Forces"
+        },
+        {
+          "id": 98025,
+          "name": "WANTED: Jai'vhanel"
+        },
+        {
+          "id": 98028,
+          "name": "Baron Marinous"
+        },
+        {
+          "id": 98042,
+          "name": "It's All Fun and Games Until..."
+        },
+        {
+          "id": 98461,
+          "name": "Unrequited Love"
+        },
+        {
+          "id": 981,
+          "name": "The Tower of Althalaxx"
+        },
+        {
+          "id": 1143,
+          "name": "The Tower of Althalaxx"
+        },
+        {
+          "id": 1275,
+          "name": "Researching the Corruption"
+        },
+        {
+          "id": 1442,
+          "name": "Seeking the Kor Gem"
+        }
+      ]
     }
   ]
 }
