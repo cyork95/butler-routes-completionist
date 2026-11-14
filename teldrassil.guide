@@ -1,0 +1,385 @@
+# Butler Routes - Teldrassil completionist pilot (pack butler-routes-completionist, v0.7.0).
+# Every Teldrassil quest in the local census (95 quests, docs/teldrassil-census.md)
+# appears exactly once as an accept and once as a turnin.
+# No race header: the data leaves open quests to all Alliance and starts
+# Human, Dwarf and Gnome Priest lines with Laurna in Dolanaar, so per-line
+# `only` gates carry every restriction instead. Chain order is strictly
+# turn-in-before-accept (external pres become notes plus listed structural
+# warnings, or when onquest mini-steps where completes would wedge the sim);
+# item-started quests never wedge (note at the source, no blocking line);
+# elites and the Mo'grosh-style group spots get notes, not silent solos.
+# Coordinates on Teldrassil use the era frame; Darkshore, Ironforge and
+# Stormwind stops use the frames their data carries, set with zone map lines.
+guide butler-routes-completionist/teldrassil
+title Teldrassil - Completionist
+levels 1-10
+zone Teldrassil
+faction Alliance
+category Leveling
+folder Completionist
+keywords teldrassil, completionist, shadowglen, dolanaar, denalan
+coords live
+version 1
+
+step Shadowglen - spawn
+
+  zone map 1438
+
+  tip Shadowglen, the Night Elf start. Ilthalaine (58.7, 44.3) sets the Balance of Nature; Melithar (59.9, 42.5) points you at the dryad Tarindrella; Shanda (59.2, 40.4) and the class trainers stand around the hollow.
+  accept 456 -- The Balance of Nature - Conservator Ilthalaine; seven Young Nightsabers and four Young Thistle Boars
+  complete 456 @56.6,44.5 era -- seven Young Nightsabers
+  complete 456 @55.1,43.4 era -- four Young Thistle Boars
+  turnin 456 -- The Balance of Nature - back to Conservator Ilthalaine
+  accept 457 -- The Balance of Nature - Conservator Ilthalaine; seven Mangy Nightsabers and seven Thistle Boars
+  complete 457 @58.9,35.9 era -- seven Mangy Nightsabers
+  complete 457 @55.3,37.1 era -- seven Thistle Boars
+  turnin 457 -- The Balance of Nature - back to Conservator Ilthalaine
+  accept 3116 only NightElf,Warrior -- Simple Sigil - Conservator Ilthalaine; carry it to Alyissia
+  accept 3117 only NightElf,Hunter -- Etched Sigil - Conservator Ilthalaine; carry it to Ayanna Everstride
+  accept 3118 only NightElf,Rogue -- Encrypted Sigil - Conservator Ilthalaine; carry it to Frahun Shadewhisper
+  accept 3119 only NightElf,Priest -- Hallowed Sigil - Conservator Ilthalaine; carry it to Shanda
+  accept 3120 only NightElf,Druid -- Verdant Sigil - Conservator Ilthalaine; carry it to Mardant Strongoak
+  turnin 3116 only NightElf,Warrior -- Simple Sigil - the sigil to Alyissia
+  turnin 3117 only NightElf,Hunter -- Etched Sigil - the sigil to Ayanna Everstride
+  turnin 3118 only NightElf,Rogue -- Encrypted Sigil - the sigil to Frahun Shadewhisper
+  turnin 3119 only NightElf,Priest -- Hallowed Sigil - the sigil to Shanda
+  turnin 3120 only NightElf,Druid -- Verdant Sigil - the sigil to Mardant Strongoak
+  accept 458 -- The Woodland Protector - Melithar Staghelm; seek out the dryad Tarindrella
+  turnin 458 -- The Woodland Protector - Melithar's word to Tarindrella
+  accept 459 -- The Woodland Protector - Tarindrella; eight Fel Moss
+  complete 459 @55.7,46.0 era -- eight Fel Moss off the Grell and Grellkin
+  turnin 459 -- The Woodland Protector - the moss to Tarindrella
+  accept 97977 -- Nature's Call - Tarindrella; four Gnarlpine Totems
+  complete 97977 @54.5,44.1 era -- four Gnarlpine Totems around the hollow
+  turnin 97977 -- Nature's Call - the totems to Tarindrella
+  accept 97979 -- The Goddess Provides - Shanda
+  turnin 97979 -- The Goddess Provides - back to Shanda
+  note Welcome! (5842) starts from Orenthil's Gift Voucher - same kind as Dun Morogh's check-bags voucher, so look in your bags before anything else.
+  accept 5842 -- Welcome! - Orenthil Whisperwind's Gift Voucher
+  turnin 5842 -- Welcome! - the voucher to Orenthil Whisperwind
+
+step Shadowglen - the Webwood cave
+
+  tip The cave mouth north of the hollow (venom sacs, eggs, mushrooms, the journal) and Iverron's camp beyond it. Ayanna's Hunter's Path starts here for later; Blackmoss the Fetid and Githyiss are rares - take their drops if you see them, never camp them.
+  accept 916 -- Webwood Venom - Gilshalan Windwalker; ten Webwood Venom Sacs
+  complete 916 @55.5,27.6 era -- ten Webwood Venom Sacs off the Webwood Spiders by the cave
+  turnin 916 -- Webwood Venom - the sacs to Gilshalan Windwalker
+  accept 917 -- Webwood Egg - Gilshalan Windwalker; the Webwood Egg
+  complete 917 @56.7,26.5 era -- the Webwood Egg in the cave
+  turnin 917 -- Webwood Egg - the egg to Gilshalan Windwalker
+  accept 920 -- Tenaron's Summons - Gilshalan Windwalker; Tenaron wants you
+  turnin 920 -- Tenaron's Summons - Gilshalan's word to Tenaron Stormgrip
+  accept 921 -- Crown of the Earth - Tenaron Stormgrip; fill the Crystal Phial
+  complete 921 @60.0,33.1 era -- the Crystal Phial at the Shadowglen Moonwell
+  turnin 921 -- Crown of the Earth - the filled phial to Tenaron Stormgrip
+  note The Moss-twined Heart (927) starts from the Heart Blackmoss the Fetid carries - rare spawn, north slopes (42-43, 27-37). Take it if it drops, hand it to Denalan at Lake Al'Ameth; the route never waits on it.
+  accept 927 -- The Moss-twined Heart - the Heart to Denalan
+  note Fang of Githyiss (97236) starts from the Fang (Githyiss the Vile, in this cave at 56.7, 26.3). Take it if it drops, hand it to Gilshalan; the route never waits on it.
+  accept 97236 -- Fang of Githyiss - the Fang to Gilshalan Windwalker
+  turnin 97236 -- Fang of Githyiss - the Fang to Gilshalan Windwalker
+  accept 4495 -- A Good Friend - Dirania Silvershine; find Iverron
+  turnin 4495 -- A Good Friend - Dirania's word to Iverron
+  accept 3519 -- A Friend in Need - Iverron; Dirania can help
+  turnin 3519 -- A Friend in Need - Iverron's word to Dirania Silvershine
+  accept 3521 -- Iverron's Antidote - Dirania Silvershine; mushrooms and ichor
+  complete 3521 @54.5,41.7 era -- seven Hyacinth Mushrooms around the hollow
+  complete 3521 @56.5,38.9 era -- four Moonpetal Lilies
+  complete 3521 @55.5,27.6 era -- Webwood Ichor off the Webwood Spiders
+  turnin 3521 -- Iverron's Antidote - the reagents to Dirania Silvershine
+  accept 3522 -- Iverron's Antidote - Dirania Silvershine; carry the antidote back
+  turnin 3522 -- Iverron's Antidote - the antidote to Iverron
+  accept 928 -- Crown of the Earth - Tenaron Stormgrip; the Lost Journal
+  note The Adventurer (96630) starts from the Lost Journal by the hollow (59.1, 39.6). Pick it up if you see it; Lyreena in Dolanaar takes the story.
+  accept 96630 -- The Adventurer - the Lost Journal
+
+step Dolanaar - the hub
+
+  tip Dolanaar, the zone hub. Innkeeper Keldamyr (55.6, 59.8) binds your home; Zarrin (57.1, 61.3) cooks, Aldia (55.5, 57.2) keeps the store, Syral (56.1, 57.7) mixes, Byancie (55.3, 56.8) sews; Dazalar (56.7, 59.5) trains hunters, Laurna (55.6, 56.8) keeps the priests, Amara and Kyra (52.9, 57.2 and 56.2, 59.2) the warriors and rogues. Take every quest in town before you head out.
+  turnin 928 -- Crown of the Earth - Tenaron's word to Corithras Moonrage
+  accept 929 -- Crown of the Earth - Corithras Moonrage; fill the Jade Phial at Starbreeze
+  turnin 96630 -- The Adventurer - the journal's story to Lyreena Duskblade
+  accept 475 -- A Troubling Breeze - Athridas Bearmantle; seek out Gaerolas in Starbreeze Village
+  accept 487 -- The Road to Darnassus - Moon Priestess Amara; Gnarlpine Ambushers south of the den
+  accept 488 -- Zenn's Bidding - Zenn Foulhoof; fangs, feathers and silk
+  note Seek Redemption! (489) starts here too but needs 488 first - take it when offered.
+  accept 489 -- Seek Redemption! - Amara, Kyra and Syral; three Fel Cones
+  accept 932 -- Twisted Hatred - Tallonkai Swiftroot; Melenas' Head
+  complete 932 @51.2,50.8 era -- Lord Melenas' Head, just south of town
+  turnin 932 -- Twisted Hatred - the head to Tallonkai Swiftroot
+  accept 98403 -- Twisted Hatred - Tallonkai Swiftroot; the Befouled Webwood and Xethorr the Wicked (level-12 elite - bring help)
+  accept 2438 -- The Emerald Dreamcatcher - Tallonkai Swiftroot; the Dreamcatcher from the dresser
+  note Ferocitas the Dream Eater (2459) starts here too but needs the Dreamcatcher first - take it when offered.
+  accept 2459 -- Ferocitas the Dream Eater - Tallonkai Swiftroot; the Mystic and the jewel, east
+  accept 2159 -- Dolanaar Delivery - Porthannius; a delivery for Innkeeper Keldamyr
+  accept 997 -- Denalan's Earth - Syral Bladeleaf; Denalan's Earth for Denalan at the lake
+  accept 5622 only NightElf,Priest -- In Favor of Elune - Shanda; Laurna in Dolanaar wants you
+  accept 98391 -- The Sisterhood of Elune - Laurna Morninglight; Sister Aquinne waits in Darnassus, late
+  note The Relics of Wakening (483) starts here too but needs 476 (Gaerolas, Starbreeze) first - take it when offered.
+  accept 483 -- The Relics of Wakening - Athridas Bearmantle; the four barrow-den relics
+  accept 87288 -- Soft Saber Pelts - Aldia; six Soft Nightsaber Pelts
+  complete 87288 @48.5,50.0 era -- six Soft Nightsaber Pelts off the Nightsabers, west
+  turnin 87288 -- Soft Saber Pelts - the pelts to Aldia
+  accept 99046 -- The Lost Runner - Sentinel Kyra Starsong; find Eralya at the Oracle Glade
+  turnin 2159 -- Dolanaar Delivery - the delivery to Innkeeper Keldamyr
+
+step Dolanaar - the metalsmith's errand
+  when skill Alchemy 1
+
+  note Elixirs for the Bladeleafs (1581) wants six Elixirs of Lion's Strength and two of Minor Defense; the data lists no Teldrassil source, so have them in your bags (auction house or an alchemist) before you turn in. Non-alchemists skip this step cleanly.
+  accept 1581 -- Elixirs for the Bladeleafs - Syral Bladeleaf; the elixirs
+  turnin 1581 -- Elixirs for the Bladeleafs - the elixirs to Syral Bladeleaf
+
+step Dolanaar - the cook's errand
+  when skill Cooking 1
+
+  note Recipe of the Kaldorei (4161) wants seven Small Spider Legs; the data's spiders live in Elwynn, so have the legs in your bags (auction house or a trip east) before you turn in. Non-cooks skip this step cleanly.
+  accept 4161 -- Recipe of the Kaldorei - Zarrin; seven Small Spider Legs
+  turnin 4161 -- Recipe of the Kaldorei - the legs to Zarrin
+
+step Dolanaar - campers by the fire
+  note Lyreena's Camping lessons are all optional: The Great Outdoors first, then whichever 101 matches your profession. The three Darkshore trainers (Elisa, Jenna, Kurdram) get their turn-ins on the Auberdine trip, late; Astaia and Trianna take theirs on the Darnassus trip.
+  accept 96606 optional -- The Great Outdoors - Lyreena Duskblade; sit by her campfire and rest
+  turnin 96606 optional -- The Great Outdoors - back to Lyreena Duskblade
+  accept 96634 optional -- Camping 101: Cooking - Lyreena Duskblade; Zarrin takes it
+  accept 97938 optional -- Camping 101: Alchemy - Lyreena Duskblade; Cyndra takes it
+  accept 97942 optional -- Camping 101: First Aid - Lyreena Duskblade; Byancie takes it
+  accept 97944 optional -- Camping 101: Herbalism - Lyreena Duskblade; Malorne takes it
+  accept 97946 optional -- Camping 101: Leatherworking - Lyreena Duskblade; Nadyia takes it
+  accept 97949 optional -- Camping 101: Skinning - Lyreena Duskblade; Radnaal takes it
+  accept 97940 optional -- Camping 101: Enchanting - Lyreena Duskblade; Alanna takes it at the Oracle Glade
+  accept 97943 optional -- Camping 101: Fishing - Lyreena Duskblade; Astaia takes it in Darnassus, late
+  accept 97950 optional -- Camping 101: Tailoring - Lyreena Duskblade; Trianna takes it in Darnassus, late
+  accept 97939 optional -- Camping 101: Blacksmithing - Lyreena Duskblade; Elisa takes it in Auberdine, late
+  accept 97941 optional -- Camping 101: Engineering - Lyreena Duskblade; Jenna takes it in Auberdine, late
+  accept 97948 optional -- Camping 101: Mining - Lyreena Duskblade; Kurdram takes it in Auberdine, late
+  turnin 96634 optional -- Camping 101: Cooking - back to Zarrin
+  turnin 97938 optional -- Camping 101: Alchemy - back to Cyndra Kindwhisper
+  turnin 97942 optional -- Camping 101: First Aid - back to Byancie
+  turnin 97944 optional -- Camping 101: Herbalism - back to Malorne Bladeleaf
+  turnin 97946 optional -- Camping 101: Leatherworking - back to Nadyia Maneweaver
+  turnin 97949 optional -- Camping 101: Skinning - back to Radnaal Maneweaver
+
+step Dolanaar - the taming chain (Hunter, level 10)
+  only Hunter
+
+  tip Start back at Ayanna Everstride in Shadowglen (58.7, 40.5) if you have not taken the path yet, then Dazalar (56.7, 59.5) lends you the work: tame a Webwood Lurker, then a Nightsaber Stalker with Ayanna's blessing behind you, then a Strigid Screecher, and Jocaste in Darnassus takes the report, late.
+  accept 6072 only NightElf,Hunter -- The Hunter's Path - Ayanna Everstride; Dazalar in Dolanaar teaches the taming Dazalar (56.7, 59.5), Dolanaar's hunter trainer, lends you the work: tame a Webwood Lurker, then a Nightsaber Stalker with Ayanna's blessing behind you, then a Strigid Screecher, and Jocaste in Darnassus takes the report, late.
+  turnin 6072 only NightElf,Hunter -- The Hunter's Path - Ayanna's word to Dazalar
+  accept 6063 -- Taming the Beast - Dazalar; tame a Webwood Lurker
+  complete 6063 @45.9,46.7 era -- tame a Webwood Lurker, west (don't kill it)
+  turnin 6063 -- Taming the Beast - back to Dazalar
+  accept 6101 -- Taming the Beast - Dazalar; tame a Nightsaber Stalker
+  complete 6101 @38.2,58.6 era -- tame a Nightsaber Stalker (Ayanna's blessing covers you)
+  turnin 6101 -- Taming the Beast - back to Dazalar
+  accept 6102 -- Taming the Beast - Dazalar; tame a Strigid Screecher
+  complete 6102 @37.6,51.3 era -- tame a Strigid Screecher
+  turnin 6102 -- Taming the Beast - back to Dazalar
+  accept 6103 -- Training the Beast - Dazalar; carry it to Jocaste in Darnassus, late
+
+step Starbreeze Village - relics and dreams
+
+  tip East to Starbreeze: Gaerolas (66.3, 58.5) takes the breeze home; the Starbreeze Moonwell (63.4, 58.1) fills the Jade Phial; Tallonkai's Mystic (68.3, 52.2) and dresser (68.0, 59.7) close the Dreamcatcher. Loop back to Dolanaar with the report.
+  turnin 475 -- A Troubling Breeze - the breeze to Gaerolas Talvethren
+  accept 476 -- Gnarlpine Corruption - Gaerolas Talvethren; report back to Athridas in Dolanaar
+  complete 929 @63.4,58.1 era -- the Jade Phial at the Starbreeze Village Moonwell
+  complete 2438 @68.0,59.7 era -- the Dreamcatcher from Tallonkai's Dresser
+
+step Starbreeze east - the Dream Eater
+  when onquest 2459
+
+  complete 2459 @68.3,52.2 era -- Gnarlpine Mystic, east of the village
+  complete 2459 @68.0,59.7 era -- Tallonkai's Jewel from the dresser (check it if the jewel isn't there)
+
+step Dolanaar - Starbreeze returns
+
+  tip Back through Dolanaar with Starbreeze's work: Gaerolas' word to Athridas, the Dreamcatcher to Tallonkai, the Jade Phial to Corithras - and Corithras starts the Tourmaline leg.
+
+  turnin 476 -- Gnarlpine Corruption - Gaerolas's word to Athridas Bearmantle
+  turnin 929 -- Crown of the Earth - the Jade Phial to Corithras Moonrage
+  accept 933 -- Crown of the Earth - Corithras Moonrage; fill the Tourmaline Phial
+
+step Lake Al'Ameth - Denalan
+
+  tip Denalan (60.9, 68.5) keeps the lake garden. Timberlings west of the water seed it; the pools east fill the Tourmaline Phial; the Heart plants here if Blackmoss gave it up. Rellian's chain starts here too - his end of it lives in Darnassus.
+  accept 918 -- Timberling Seeds - Denalan; eight Timberling Seeds
+  complete 918 @54.3,66.2 era -- eight Timberling Seeds off the Timberlings, west of the lake
+  turnin 918 -- Timberling Seeds - the seeds to Denalan
+  accept 919 -- Timberling Sprouts - Denalan; twelve Timberling Sprouts
+  complete 919 @50.9,70.8 era -- twelve Timberling Sprouts around the lake
+  turnin 919 -- Timberling Sprouts - the sprouts to Denalan
+  accept 922 -- Rellian Greenspyre - Denalan; Rellian waits in Darnassus, late
+  turnin 927 -- The Moss-twined Heart - the Heart to Denalan
+  accept 941 -- Planting the Heart - Denalan; plant it in the garden
+  turnin 941 -- Planting the Heart - the Heart to Denalan's Planter (60.8, 68.6)
+  turnin 997 -- Denalan's Earth - Syral's Earth to Denalan
+  complete 933 @42.4,67.1 era -- the Tourmaline Phial at the Pools of Arlithrien Moonwell
+  note Return to Denalan (2499) starts here but needs 2498 (Rellian, Darnassus) first - take it when offered and bring down Oakenscowl, a level-9 elite south-west of the lake.
+  accept 2499 -- Return to Denalan - Denalan; Gargantuan Tumor from Oakenscowl
+
+step Oakenscowl's tumor - elite
+
+  when onquest 2499
+
+  complete 2499 @53.8,75.1 era -- the Gargantuan Tumor off Oakenscowl (elite - bring help or outlevel him)
+
+step Dolanaar - lake returns
+
+  tip Back through Dolanaar with the lake's work: the Tourmaline Phial to Corithras, who starts the Amethyst leg at the Oracle Glade.
+  turnin 933 -- Crown of the Earth - the Tourmaline Phial to Corithras Moonrage
+  accept 7383 -- Crown of the Earth - Corithras Moonrage; fill the Amethyst Phial at the Oracle Glade
+
+step The Oracle Glade - Arynia
+
+  tip West to the Oracle Glade: Arynia (38.3, 34.4) holds the glade against the harpies; Mist (31.5, 31.6) needs walking home; the Oracle Tree Bark (37.0, 34.0) and the Moonwell (38.4, 34.1) finish two chains. Shayla (42.2, 51.3) posts the Furbolg bounty on the way.
+  accept 937 -- The Enchanted Glade - Sentinel Arynia Cloudsbreak; six Bloodfeather Belts
+  complete 937 @34.1,35.5 era -- six Bloodfeather Belts off the harpies
+  turnin 937 -- The Enchanted Glade - the belts to Sentinel Arynia Cloudsbreak
+  accept 938 -- Mist - Mist; walk her home to Arynia
+  complete 938 @38.3,34.4 era -- escort Mist to Sentinel Arynia Cloudsbreak
+  turnin 938 -- Mist - Mist home to Sentinel Arynia Cloudsbreak
+  accept 98392 -- Darkness in the Glade - Sentinel Arynia Cloudsbreak; three harpy amulets
+  complete 98392 @35.1,39.3 era -- Hatescreech's Amulet
+  complete 98392 @33.2,36.1 era -- Windmistress Gaedress' Amulet
+  complete 98392 @34.2,27.9 era -- Witchmother Arysa's Amulet
+  turnin 98392 -- Darkness in the Glade - the amulets to Sentinel Arynia Cloudsbreak
+  accept 98398 -- The Oracle Tree - Sentinel Arynia Cloudsbreak; bark from the Oracle Tree
+  turnin 98398 -- The Oracle Tree - the bark from the Oracle Tree (37.0, 34.0)
+  accept 940 -- Teldrassil - Sentinel Arynia Cloudsbreak; Fandral Staghelm waits in Darnassus, late
+  complete 7383 @38.4,34.1 era -- the Amethyst Phial at the Oracle Glade Moonwell
+  accept 931 -- The Shimmering Frond - the Strange Fronded Plant (34.6, 28.8)
+  turnin 97940 optional -- Camping 101: Enchanting - back to Alanna Raveneye
+  complete 488 @34.7,31.0 era -- three Nightsaber Fangs off the Nightsabers, west
+  complete 488 @45.9,47.5 era -- three Strigid Owl Feathers off the owls
+  complete 488 @45.9,46.7 era -- three Webwood Spider Silks off the Lurkers
+  accept 490 -- Bounty: Gnarlpine Furbolg - Sentinel Shayla Nightbreeze; fifteen Gnarlpine Fangs
+  complete 98403 @43.7,43.6 era -- the Befouled Webwood
+  complete 98403 @49.4,51.8 era -- Mature Fel Moss off Xethorr the Wicked (level-12 elite - bring help or outlevel him)
+  turnin 99046 -- The Lost Runner - the news to Sentinel Eralya Leafshadow
+  accept 99047 -- Not Dead Yet - Sentinel Eralya Leafshadow; Byancie in Dolanaar wants her
+
+step Ban'ethil chests - the Relics of Wakening
+  when onquest 483
+
+  complete 483 @45.7,57.4 era -- the Raven Claw Talisman from the Chest of the Raven Claw
+  complete 483 @43.7,61.2 era -- the Black Feather Quill from the Chest of the Black Feather
+  complete 483 @44.7,62.4 era -- the Sapphire of Sky from the Chest of the Sky
+  complete 483 @44.4,61.0 era -- the Rune of Nesting from the Chest of Nesting
+step Ban'ethil Barrow Den - relics and rogues
+
+  tip The barrow den south-west: Athridas's relic chests, Oben Rageclaw's druid business (Druids only), Tallonkai's ambushers, Zenn's cones, and Lynessa's escape. Shayla's bounty starts on the way in.
+  accept 2541 only Druid -- The Sleeping Druid - Oben Rageclaw; a Shaman Voodoo Charm
+  complete 2541 @37.4,67.0 era -- a Shaman Voodoo Charm off the Gnarlpine Shaman, north
+  turnin 2541 -- The Sleeping Druid - the charm to Oben Rageclaw
+  accept 2561 only Druid -- Druid of the Claw - Oben Rageclaw; Rageclaw himself
+  complete 2561 @45.5,58.6 era -- Rageclaw
+  turnin 2561 -- The Sleeping Druid - Rageclaw's end to Oben Rageclaw
+  accept 99053 -- Escaping Ban'ethil - Sentinel Lynessa Duskblossom; walk her out to Kyra in Dolanaar
+  complete 99053 @44.7,58.9 era -- escort Lynessa Duskblossom out of Ban'ethil
+
+step Fel Cones - Zenn's redemption
+  when onquest 489
+
+  complete 489 @42.0,68.0 era -- three Fel Cones around the den
+step Gnarlpine south - fangs and hides
+
+  tip South past the lake: Ursal the Mauler (38.8, 79.8) for Athridas; the Strange Fruited Plant (42.6, 76.2) for Denalan; Oakenscowl's turf for the tumor; Gnarlpine Warriors (49.7, 68.1) for Shayla's bounty; lashers for Byancie.
+  accept 486 -- Ursal the Mauler - Athridas Bearmantle; kill Ursal the Mauler. Needs 483 first - take the warning if it fires.
+  accept 930 -- The Glowing Fruit - the Strange Fruited Plant (42.6, 76.2)
+  complete 487 @45.2,54.6 era -- Gnarlpine Ambushers south of the den
+  complete 490 @49.7,68.1 era -- fifteen Gnarlpine Fangs off the Gnarlpine Warriors, south-east
+  complete 487 @45.2,54.6 era -- Gnarlpine Ambushers south of the den
+
+step Ursal the Mauler - the den mother's price
+  when onquest 486
+
+  complete 486 @38.8,79.8 era -- Ursal the Mauler, far south
+
+step Dolanaar and Denalan - returns
+
+  tip Loop back through town and the lake: turn in the south's work, muster the Corithras chain (7383 in, 935 out), close the Ban'ethil escorts, and pick up Byancie's last errand with a swing west to Eralya.
+  turnin 483 -- The Relics of Wakening - the relics to Athridas Bearmantle
+  turnin 486 -- Ursal the Mauler - Ursal's end to Athridas Bearmantle
+  turnin 487 -- The Road to Darnassus - the Ambushers' end to Moon Priestess Amara
+  turnin 488 -- Zenn's Bidding - the fangs, feathers and silk to Zenn Foulhoof
+  turnin 489 -- Seek Redemption! - the cones to Zenn Foulhoof
+  tip Back in force now that the town's work is done: Laurna's level-10 Priest lines, the Warrior and Rogue handoffs, and Kal's Druid call.
+  turnin 5622 only NightElf,Priest -- In Favor of Elune - Shanda's word to Laurna Morninglight
+  accept 5621 only NightElf,Priest -- Garments of the Moon - Laurna Morninglight; duel Sentinel Shaya
+  complete 5621 @57.2,63.5 era -- Sentinel Shaya, north of town
+  turnin 5621 -- Garments of the Moon - back to Laurna Morninglight
+  accept 1684 only Warrior -- Elanaria - Moon Priestess Amara and Kyra Windblade; Elanaria waits in Darnassus, late
+  accept 2241 only NightElf,Rogue -- The Apple Falls - Jannok Breezesong; carry it to Syurna in Darnassus, late
+  accept 5629 only NightElf,Priest -- Returning Home - Laurna Morninglight; carry it to Alathea in Darnassus, late
+  accept 5636 only Dwarf,Priest -- Desperate Prayer - Laurna Morninglight; carry it to High Priest Rohan in Ironforge, late
+  accept 94775 only Human,Priest -- Divine Grace - Laurna Morninglight; carry it to High Priestess Laurena in Stormwind, late
+  accept 94823 only Gnome,Priest -- Confounding Flash - Laurna Morninglight; carry it to High Priestess Mims in Ironforge, late
+  accept 5925 only NightElf,Druid -- Heeding the Call - Kal; Mathrengyl Bearwalker waits in Darnassus, late
+  turnin 99053 -- Escaping Ban'ethil - Lynessa safe to Sentinel Kyra Starsong
+  turnin 2438 -- The Emerald Dreamcatcher - the Dreamcatcher to Tallonkai Swiftroot
+  turnin 2459 -- Ferocitas the Dream Eater - back to Tallonkai Swiftroot
+  turnin 930 -- The Glowing Fruit - the fruit to Denalan
+  turnin 931 -- The Shimmering Frond - the frond to Denalan
+  note The Sprouted Fronds (2399) start from the frond-pods around the lake (50-53, 68-74). Pick them up if you see them.
+  accept 2399 -- The Sprouted Fronds - the pods
+  turnin 2399 -- The Sprouted Fronds - the fronds at the pods
+  turnin 2499 -- Return to Denalan - the tumor to Denalan
+  turnin 490 -- Bounty: Gnarlpine Furbolg - the fangs to Sentinel Shayla Nightbreeze
+  turnin 98403 -- Twisted Hatred - the Webwood's end to Tallonkai Swiftroot
+  turnin 7383 -- Crown of the Earth - the Amethyst Phial to Corithras Moonrage
+  accept 935 -- Crown of the Earth - Corithras Moonrage; Fandral Staghelm waits in Darnassus, late
+  turnin 99047 -- Not Dead Yet - Eralya's word to Byancie
+  accept 99050 -- The Great Tree Provides - Byancie; fronds, a vial and spring water
+  note Swing south once more for the fronds (47.5, 73.1), then come back with a bought vial and spring water.
+  complete 99050 @47.5,73.1 era -- six Dewy Lasher Fronds off the Lasher Sproutlings (buy an Empty Vial and Spring Water from any vendor first)
+  turnin 99050 -- The Great Tree Provides - the bundle to Byancie
+  accept 99073 -- Easing Suffering - Byancie; Eralya at the Oracle Glade waits, late
+  turnin 99073 -- Easing Suffering - the run west to Sentinel Eralya Leafshadow
+
+step Darnassus - the city turn-ins
+
+  tip One Darnassus trip closes the zone: Fandral takes the Crown and Teldrassil, Aquinne the Sisterhood, Rellian and Elanaria and Syurna and Mathrengyl their handoffs, Jocaste the Hunter's report. Astaia and Trianna take their Camping lessons here too (both optional).
+  turnin 935 -- Crown of the Earth - the Crown to Arch Druid Fandral Staghelm
+  turnin 5629 only NightElf,Priest -- Returning Home - Laurna's word to Priestess Alathea
+  turnin 940 -- Teldrassil - the glade's word to Arch Druid Fandral Staghelm
+  turnin 98391 -- The Sisterhood of Elune - Laurna's word to Sister Aquinne
+  turnin 922 -- Rellian Greenspyre - Denalan's word to Rellian Greenspyre
+  turnin 1684 only Warrior -- Elanaria - Amara and Kyra's word to Elanaria
+  turnin 2241 only NightElf,Rogue -- The Apple Falls - Jannok's word to Syurna
+  turnin 5925 only NightElf,Druid -- Heeding the Call - Kal's word to Mathrengyl Bearwalker
+  turnin 6103 -- Training the Beast - the report to Jocaste
+  turnin 97943 optional -- Camping 101: Fishing - back to Astaia
+  turnin 97950 optional -- Camping 101: Tailoring - back to Trianna
+
+step Rut'theran Village - the crossing
+
+  tip South to Rut'theran at the World Tree's roots: Nessa (56.3, 92.4) posts the Bounty, Vesprystus (58.4, 94.0) flies it out. Take 6341 if offered (Mydrannul, Darnassus, gates it) and cross to Auberdine.
+  note The Bounty of Teldrassil (6341) starts with Nessa but needs 6344 (Mydrannul, Darnassus) first - take it when offered.
+  accept 6341 -- The Bounty of Teldrassil - Nessa Shadowsong; Vesprystus flies the bounty out
+  turnin 6341 -- The Bounty of Teldrassil - the bounty to Vesprystus
+  accept 6342 -- Flight to Auberdine - Vesprystus; Laird waits in Auberdine, across the water
+
+step Auberdine - across the water
+
+  zone map 1439
+
+  tip Auberdine, Darkshore: Laird (36.8, 44.3) takes the bounty. Elisa, Jenna and Kurdram take their Camping lessons here too (all optional).
+  turnin 6342 -- Flight to Auberdine - the bounty to Laird
+  turnin 97939 optional -- Camping 101: Blacksmithing - back to Elisa Steelhand
+  turnin 97941 optional -- Camping 101: Engineering - back to Jenna Lemkenilli
+  turnin 97948 optional -- Camping 101: Mining - back to Kurdram Stonehammer
+  tip Teldrassil done: every census quest accepted and handed in. The Darkshore road runs south from here.
+
+step Ironforge - the priests' errands
+
+  zone map 1455
+
+  tip One Ironforge trip closes the Dwarf and Gnome Priest lines: Rohan takes Garments of Desperation (5636), Mims takes Confounding Flash (94823) at 24.6, 10.0.
+  turnin 5636 only Dwarf,Priest -- Desperate Prayer - Laurna's word to High Priest Rohan
+  turnin 94823 only Gnome,Priest -- Confounding Flash - Laurna's word to High Priestess Mims
+
+step Stormwind - the Human priest's errand
+
+  zone map 1453
+
+  tip Laurena in Stormwind's Cathedral takes Divine Grace (94775).
+  turnin 94775 only Human,Priest -- Divine Grace - Laurna's word to High Priestess Laurena
