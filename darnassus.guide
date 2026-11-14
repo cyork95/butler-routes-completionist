@@ -1,0 +1,398 @@
+# Butler Routes - Darnassus completionist (pack butler-routes-completionist, v1).
+# Every Darnassus City quest in the local census (70 quests,
+# docs/darnassus-census.md) appears exactly once as an accept and once as a
+# turnin. Druid class-chain members carry a [DRUID] marker in the census; a
+# future Set 4 druid class guide will build on that list.
+# Darnassus is a hub the character returns to across their whole
+# leveling life, so the route is ordered for repeated use: grouped by district
+# with chains kept together, then accept-based expeditions by destination zone.
+# Quest levels run 4-60 (min-levels 4-60); high-level legs carry notes saying
+# which level they belong to. Coordinates in Darnassus use the era frame;
+# expedition stops use the frames their data carries, set with zone map lines.
+guide butler-routes-completionist/darnassus-city
+title Darnassus - Completionist
+levels 4-60
+zone Darnassus
+faction Alliance
+category Leveling
+folder Cities
+keywords darnassus, city, completionist
+coords live
+version 1
+
+step Temple of the Moon — arrival and the Crown
+
+  note Darnassus is a hub for the whole leveling life: come in from Teldrassil and take the Crown of the Earth from Fandral first — it leads the whole zone. Quests here span min-level 4 to level 60 — the steps say which legs belong to which level; low-level arrivals do the early steps and come back for the rest.
+  accept 98046 -- Crown of the Earth - Arch Druid Fandral Staghelm; Lariia takes it
+  note 98046's pre (935, Teldrassil-contracted) lives in the Teldrassil guide — take 98046 after that leg.
+  turnin 98046 -- Crown of the Earth - Fandral's word to Lariia
+  accept 98065 -- Crown of the Earth - Lariia; Tyrande Whisperwind takes it
+  note 98065's pre (98046 above) fills here — take 98065 after it.
+  turnin 98065 -- Crown of the Earth - Lariia's word to Tyrande Whisperwind
+  accept 98067 -- Eyes of the Sentinels - Sentinel Dalia Sunblade; four watches across the city
+  complete 98067 @33.39,16.77 era -- the watch, first post
+  complete 98067 @41.04,43.55 era -- the watch, second post
+  complete 98067 @66.46,15.35 era -- the watch, third post
+  complete 98067 @89.14,34.76 era -- the watch, fourth post
+  turnin 98067 -- Eyes of the Sentinels - back to Sentinel Dalia Sunblade
+  accept 98096 -- Sisters In Duty - Sentinel Dalia Sunblade; Commander Truesong waits in Azshara, at 47
+  accept 2519 -- The Temple of the Moon - Sister Aquinne; Priestess A'moora takes it
+  turnin 2519 -- The Temple of the Moon - Aquinne's word to Priestess A'moora
+  accept 2518 -- Tears of the Moon - Priestess A'moora; Silvery Spinnerets
+  complete 2518 @36.65,85.93 era -- Silvery Spinnerets for Priestess A'moora
+  turnin 2518 -- Tears of the Moon - back to Priestess A'moora
+  accept 2520 -- Sathrah's Sacrifice - Priestess A'moora; the Temple of the Moon Fountain
+  complete 2520 @39.18,85.59 era -- the Temple of the Moon Fountain for Priestess A'moora
+  turnin 2520 -- Sathrah's Sacrifice - back to Priestess A'moora
+  accept 1047 -- The New Frontier - Herald Moonstalker; Arch Druid Fandral Staghelm takes it, very late
+  turnin 1047 -- The New Frontier - Moonstalker's word to Arch Druid Fandral Staghelm
+  accept 5091 -- A Call to Arms: The Plaguelands! - Herald Moonstalker; Commander Ashlam Valorfist waits in the Plaguelands, very late
+  note Ironforge's line (5090) and Stormwind's line (5066) stay out — Moonstalker's line is the contracted pick.
+  accept 7494 -- Feathermoon Stronghold - Herald Moonstalker; Latronicus Moonspear waits in Feralas, very late
+  note Crier Goodman, Courier Hammerfall and Moonstalker all start this chain; Moonstalker's leg is the contracted pick.
+  accept 730 -- Trouble In Darkshore? - Chief Archaeologist Greywhisker; Archaeologist Hollee waits in Darkshore
+  accept 942 -- The Absent Minded Prospector - Chief Archaeologist Greywhisker; Archaeologist Flagongut waits in the Wetlands
+  note 942's pre (741, Darkshore-contracted) lives in the Darkshore guide — take 942 after that leg.
+  accept 4493 -- March of the Silithid - Gracina Spiritmight; Alchemist Pestlezugg waits in Tanaris, late
+  note 4493’s pre (162, Rise of the Silithid) is uncontracted in Tanaris — take 4493 on its own.
+  accept 4510 -- Calm Before the Storm - Gracina Spiritmight; Idriana takes it, late
+  note 4510's pre (4508) is uncontracted in Tanaris — take 4510 on its own.
+  turnin 4510 -- Calm Before the Storm - Gracina's word to Idriana
+
+step Temple of the Moon — priest variants
+
+  goto 39.52,81.2
+  accept 5627 only NightElf,Priest -- Stars of Elune - Priestess Alathea; back to Alathea
+  turnin 5627 only NightElf,Priest -- Stars of Elune - back to Priestess Alathea
+  accept 5640 only Dwarf,Priest -- Desperate Prayer - Priestess Alathea; High Priest Rohan waits in Ironforge
+  accept 5647 only Dwarf,Priest -- A Lack of Fear - Priestess Alathea; High Priest Rohan waits in Ironforge, at 20
+  accept 5672 only NightElf,Priest -- Elune's Grace - Priestess Alathea; back to Alathea, at 20
+  turnin 5672 only NightElf,Priest -- Elune's Grace - back to Priestess Alathea
+  accept 5678 only Human,Priest -- Arcane Feedback - Priestess Alathea; High Priestess Laurena waits in Stormwind, at 20
+  accept 94820 only Gnome,Priest -- Contingency Plan - Priestess Alathea; High Priestess Mims waits in Dun Morogh, at 20
+  accept 94826 only Gnome,Priest -- Confounding Flash - Priestess Alathea; High Priestess Mims waits in Dun Morogh
+  accept 94779 only Human,Priest -- Divine Grace - Priestess Alathea; High Priestess Laurena waits in Stormwind
+
+step Temple of the Moon — Fandral's chain and the grove
+
+  accept 3763 -- Assisting Arch Druid Staghelm - Innkeeper Saelienne; Arch Druid Fandral Staghelm takes it, very late
+  note Stormwind's line (3789) and Ironforge's line (3790) stay out — Saelienne's line is the contracted pick.
+  turnin 3763 -- Assisting Arch Druid Staghelm - Saelienne's word to Arch Druid Fandral Staghelm
+  accept 3764 -- Un'Goro Soil - Arch Druid Fandral Staghelm; Un'Goro Soil x20, then Jenal, very late
+  note 3764's pres (3763 above, or 3789/3790 in the other city guides) fill here — take 3764 after any of them.
+  complete 3764 @31.49,8.23 era -- Un'Goro Soil x20 for Jenal, in Un'Goro when ready
+  turnin 3764 -- Un'Goro Soil - Fandral's word to Jenal
+  accept 3781 -- Morrowgrain Research - Arch Druid Fandral Staghelm; Mathrengyl Bearwalker takes it, very late
+  note 3781's pre (3764 above) fills here — take 3781 after it.
+  turnin 3781 -- Morrowgrain Research - Fandral's word to Mathrengyl Bearwalker
+  accept 3785 -- Morrowgrain Research - Mathrengyl Bearwalker; Morrowgrain x10, very late
+  note 3785's pre (3781 above) fills here — take 3785 after it.
+  complete 3785 @35.37,8.4 era -- Morrowgrain x10 for Mathrengyl Bearwalker
+  turnin 3785 -- Morrowgrain Research - back to Mathrengyl Bearwalker
+  accept 3803 -- Morrowgrain to Darnassus - Mathrengyl Bearwalker; Morrowgrain x10, very late
+  note 3803's pre (3785 above) fills here — take 3803 after it.
+  complete 3803 @35.37,8.4 era -- Morrowgrain x10 for Mathrengyl Bearwalker
+  turnin 3803 -- Morrowgrain to Darnassus - back to Mathrengyl Bearwalker
+  accept 952 -- Grove of the Ancients - Arch Druid Fandral Staghelm; Onu waits in Darkshore
+  note 952's pre (940) lives in the Darkshore guide — take 952 after that leg.
+  accept 6761 -- The New Frontier - Arch Druid Fandral Staghelm; Mathrengyl Bearwalker takes it, very late
+  note 6761's pres (1047 above, or 1015/1019 in the other city guides) fill here — take 6761 after any of them.
+  turnin 6761 -- The New Frontier - Fandral's word to Mathrengyl Bearwalker
+  accept 6762 -- Rabine Saturna - Mathrengyl Bearwalker; Rabine Saturna waits in Moonglade, very late
+  note 6762's pre (6761 above) fills here — take 6762 after it.
+
+
+step Cenarion Enclave — Rellian, Syurna and the scouts
+
+  accept 923 -- Tumors - Rellian; Mossy Tumor x5
+  note 923's pre (922) lives in the Teldrassil guide — take 923 after that leg.
+  complete 923 @38.18,21.64 era -- Mossy Tumor x5 for Rellian
+  turnin 923 -- Tumors - back to Rellian
+  accept 2498 -- Return to Denalan - Rellian; Denalan waits in Teldrassil
+  note 2498's pre (923 above) fills here — take 2498 after it. Darkshore's line (958) stays out — Rellian's line is the contracted pick.
+  goto 36.99,21.91
+  accept 2242 only Rogue -- Destiny Calls - Syurna; Sethir's Journal
+  note 2242's pre (2241) lives in the Teldrassil guide — take 2242 after that leg. Stormwind's line (2281) stays out — Syurna's line is the contracted pick.
+  complete 2242 only Rogue @36.99,21.91 era -- Sethir's Journal for Syurna
+  turnin 2242 only Rogue -- Destiny Calls - back to Syurna
+  goto 34.52,25.93
+  accept 2260 only Rogue -- Erion's Behest - Erion Shadewhisper; Renzik the Shiv waits in Stormwind
+  note 2260's pre (2259) lives uncontracted with Jannok Breezesong in Teldrassil — take 2260 on its own.
+  goto 36.99,21.91
+  accept 8233 only Rogue -- A Simple Request - Syurna; Jorach Ravenholdt waits in Alterac, very late
+  note Osborne, Ormok, Miles and Hulfdan all start this chain; Syurna's leg is the contracted pick.
+  goto 42.21,7.27
+  accept 8151 only Hunter -- The Hunter's Charm - Dorion; Ogtinc waits in Azshara, late
+  note Holt, Ormak, Olmin and Ulfir all start this chain; Dorion's leg is the contracted pick.
+
+step Cenarion Enclave — the druid chain [DRUID]
+
+  goto 34.77,7.37
+  accept 5923 only NightElf,Druid -- Heeding the Call - Denatharion; Mathrengyl Bearwalker takes it
+  goto 35.37,8.4
+  turnin 5923 only NightElf,Druid -- Heeding the Call - Denatharion's word to Mathrengyl Bearwalker
+  accept 26 only NightElf,Skyborne,Druid -- A Lesson to Learn - Mathrengyl Bearwalker; Dendrite Starblaze waits in Moonglade, very late
+  note Stormwind's line (27) and the other lines (28, 29) stay out — Mathrengyl's line is the contracted pick.
+  accept 5921 only NightElf,Druid -- Moonglade - Mathrengyl Bearwalker; Dendrite Starblaze waits in Moonglade, very late
+  note 5921's pres (5923 above, or 5924/5925 elsewhere) fill here — take 5921 after any of them.
+  accept 6001 only NightElf,Druid -- Body and Heart - Mathrengyl Bearwalker; the Lunaclaw Spirit, Dendrite Starblaze waits in Moonglade, very late
+  note 6001's pre (5931) lives uncontracted with Dendrite in Moonglade — take 6001 after the Moonglade leg.
+  complete 6001 only NightElf,Druid @35.37,8.4 era -- the Lunaclaw Spirit for Mathrengyl; it has no placed point in the data, so take it where the spirit walks on the Moonglade leg, and hand in on return
+  turnin 6001 only NightElf,Druid -- Body and Heart - the spirit's word to Mathrengyl Bearwalker
+  accept 6121 only NightElf,Skyborne,Druid -- Lessons Anew - Mathrengyl Bearwalker; Dendrite Starblaze waits in Moonglade, very late
+  accept 98393 only NightElf,Skyborne,Druid -- The Great Cat Spirit - Mathrengyl Bearwalker; Dendrite Starblaze waits in Moonglade, very late
+  note Teldrassil's line (98403) stays out — Mathrengyl's line is the contracted pick.
+  accept 9063 only Druid -- Torwa Pathfinder - Mathrengyl Bearwalker; Torwa Pathfinder waits in Tanaris, very late
+  note Turak, Theridran and Loganaar all start this chain; Mathrengyl's leg is the contracted pick.
+  accept 92344 -- Get to the Roots of It - Mathrengyl Bearwalker; Nordrassil Root Cap x10, late
+  note 92344's pres (92345/92346) are uncontracted in Azshara — take 92344 on its own.
+  complete 92344 @35.37,8.4 era -- Nordrassil Root Cap x10 for Mathrengyl Bearwalker
+  turnin 92344 -- Get to the Roots of It - back to Mathrengyl Bearwalker
+  goto 40.38,8.55
+  accept 6071 only NightElf,Hunter -- The Hunter's Path - Jocaste; Dazalar waits in Teldrassil
+  note Teldrassil's line (6072) stays out — Jocaste's leg is the contracted pick.
+
+step Cenarion Enclave — mounts and riding
+
+  accept 7671 -- Frostsaber Replacement - Lelanai; the Reins from her own vendor stock, at 60
+  note Lelanai sells the Reins of the Frostsaber: buy them from her, then accept.
+  buy 12302 "Reins of the Frostsaber"
+  complete 7671 @38.28,15.36 era -- Reins of the Frostsaber for Lelanai
+  turnin 7671 -- Frostsaber Replacement - back to Lelanai
+  accept 7672 -- Nightsaber Replacement - Lelanai; the Reins from her own stock, at 60
+  note Lelanai sells the Reins of the Nightsaber: buy them from her, then accept.
+  buy 12303 "Reins of the Nightsaber"
+  complete 7672 @38.28,15.36 era -- Reins of the Nightsaber for Lelanai
+  turnin 7672 -- Nightsaber Replacement - back to Lelanai
+  goto 38.69,15.84
+  accept 97074 only NightElf -- Learning to Ride - Jartsam; Lelanai takes it
+  goto 38.28,15.36
+  turnin 97074 only NightElf -- Learning to Ride - Jartsam's word to Lelanai
+  accept 95511 only NightElf -- Your First Feline Friend - Lelanai; back to Lelanai
+  note 95511's pre (97074 above) fills here — take 95511 after it.
+  turnin 95511 only NightElf -- Your First Feline Friend - back to Lelanai
+  goto 38.69,15.84
+  accept 99205 only NightElf -- Swift as the Wind - Jartsam; Lelanai takes it
+  goto 38.28,15.36
+  turnin 99205 only NightElf -- Swift as the Wind - Jartsam's word to Lelanai
+
+
+step Warrior's Terrace — Elanaria's line
+
+  goto 57.3,34.61
+  accept 1683 only Warrior -- Vorlus Vilehoof - Elanaria; the Horn of Vorlus
+  complete 1683 only Warrior @57.3,34.61 era -- the Horn of Vorlus for Elanaria
+  turnin 1683 only Warrior -- Vorlus Vilehoof - back to Elanaria
+  accept 1686 only Warrior -- The Shade of Elura - Elanaria; Elunite Ore and the Medallion
+  note 1686's pre (1683 above) fills here — take 1686 after it.
+  complete 1686 only Warrior @57.3,34.61 era -- Elunite Ore x8 and Elura's Medallion for Elanaria
+  turnin 1686 only Warrior -- The Shade of Elura - back to Elanaria
+  accept 1692 only Warrior -- Smith Mathiel - Elanaria; Mathiel takes it
+  note 1692's pre (1686 above) fills here — take 1692 after it.
+  goto 59.51,45.38
+  turnin 1692 only Warrior -- Smith Mathiel - Elanaria's word to Mathiel
+  goto 58.94,35.35
+  accept 1698 only Warrior -- Yorus Barleybrew - Darnath Bladesinger; Yorus Barleybrew waits in Redridge, at 20
+  note Kelv and Wu Shen all start this chain; Darnath's leg is the contracted pick.
+  accept 8417 only Warrior -- A Troubled Spirit - Darnath Bladesinger; the Fallen Hero waits in the Swamp of Sorrows, late
+  note Ironforge's and Stormwind's line (8415) stays out — Darnath's leg is the contracted pick. Torm, Sorek, Christoph, Kelv and Wu Shen all start this chain elsewhere.
+
+step Craftsmen's Terrace — Mathiel and the smiths
+
+  goto 59.51,45.38
+  accept 1693 only Warrior -- Weapons of Elunite - Mathiel; back to Mathiel
+  note 1693's pre (1692 above) fills here — take 1693 after it.
+  turnin 1693 only Warrior -- Weapons of Elunite - back to Mathiel
+  accept 1710 only Warrior -- Sunscorched Shells - Mathiel; Sunscorched Shell x20, at 30
+  note 1710's pres (1703/1782) live in the Stormwind guide — take 1710 after those legs.
+  complete 1710 only Warrior @59.51,45.38 era -- Sunscorched Shell x20 for Mathiel
+  turnin 1710 only Warrior -- Sunscorched Shells - back to Mathiel
+  accept 1711 only Warrior -- Mathiel's Armor - Mathiel; back to Mathiel, at 30
+  note 1711's pre (1710 above) fills here — take 1711 after it.
+  turnin 1711 only Warrior -- Mathiel's Armor - back to Mathiel
+  accept 2925 -- Klockmort's Essentials - Mathiel; Tinkmaster Overspark waits in Ironforge, at 30
+  accept 1038 -- Velinde's Effects - Thyn'tel Bladeweaver; Velinde's Journal, at 30
+  note 1038's pre (1037) lives uncontracted with Melyria Frostshadow in Ashenvale — take 1038 on its own.
+  complete 1038 @61.77,39.18 era -- Velinde's Journal for Thyn'tel Bladeweaver
+  turnin 1038 -- Velinde's Effects - back to Thyn'tel Bladeweaver
+  accept 1039 -- The Barrens Port - Thyn'tel Bladeweaver; Dizzywig waits in the Barrens, at 30
+  note 1039's pre (1038 above) fills here — take 1039 after it.
+  goto 70.68,45.38
+  accept 6344 only NightElf -- Nessa Shadowsong - Mydrannul; Nessa Shadowsong waits in Teldrassil
+  note Teldrassil's lines (6341, 6342) and Darkshore's line (6343) stay out — Mydrannul's Night Elf line is the contracted pick.
+  accept 7792 -- A Donation of Wool - Raedon; Wool Cloth x60, at 12
+  complete 7792 @64.02,23 era -- Wool Cloth x60 for Raedon
+  turnin 7792 -- A Donation of Wool - back to Raedon
+  accept 7798 -- A Donation of Silk - Raedon; Silk Cloth x60, at 26
+  complete 7798 @64.02,23 era -- Silk Cloth x60 for Raedon
+  turnin 7798 -- A Donation of Silk - back to Raedon
+  accept 7799 -- A Donation of Mageweave - Raedon; Mageweave Cloth x60, at 40
+  complete 7799 @64.02,23 era -- Mageweave Cloth x60 for Raedon
+  turnin 7799 -- A Donation of Mageweave - back to Raedon
+  accept 7800 -- A Donation of Runecloth - Raedon; Runecloth x60, at 50
+  note 7800's pres (7792, 7798 and 7799 above) fill here — take 7800 after them.
+  complete 7800 @64.02,23 era -- Runecloth x60 for Raedon
+  turnin 7800 -- A Donation of Runecloth - back to Raedon
+
+step Craftsmen's Terrace — Lotherias's vest
+  when skill Leatherworking 90
+
+  note Leatherworkers only. Lotherias wants a Moonglow Vest set — the Gloves, Boots and Cloak, hand-made as the name says, so have the set in your bags before you turn in. Non-leatherworkers skip this step cleanly.
+  accept 1582 -- Moonglow Vest - Lotherias; the Embossed Leather set
+  complete 1582 @64.4,22.22 era -- the Embossed Leather Gloves, Boots and Cloak for Lotherias
+  turnin 1582 -- Moonglow Vest - back to Lotherias
+
+step Tradesmen's Terrace — odds and ends
+
+  accept 1198 -- In Search of Thaelrid - Dawnwatcher Shaedlass; Argent Guard Thaelrid takes it
+  note Thaelrid has no placed point in the data — hand this in where Thaelrid stands when you find him.
+  turnin 1198 -- In Search of Thaelrid - Shaedlass's word to Argent Guard Thaelrid
+  accept 1199 -- Twilight Falls - Argent Guard Manados; Twilight Pendant x10
+  complete 1199 @55.24,23.99 era -- Twilight Pendant x10 for Argent Guard Manados
+  turnin 1199 -- Twilight Falls - back to Argent Guard Manados
+  accept 8734 -- Tyrande and Remulos - Forest Wisp; Remulos waits in Moonglade, at 60
+  note 8734's pre (8733) is uncontracted — take 8734 on its own.
+
+
+step Expedition — Teldrassil, the glade and the shore
+
+  note 2498, 6344 and 6071 turn in around Lake Al'Ameth and the north — finish them on a trip down the tree and hand in on return.
+  zone map 1438
+  turnin 2498 -- Return to Denalan - Rellian's word to Denalan
+  goto 56.26,92.44
+  turnin 6344 only NightElf -- Nessa Shadowsong - Mydrannul's word to Nessa Shadowsong
+  goto 56.68,59.49
+  turnin 6071 only NightElf,Hunter -- The Hunter's Path - Jocaste's word to Dazalar
+  zone map 1457
+
+step Expedition — Darkshore, Onu and Hollee
+
+  note 952 and 730 turn in at the Grove of the Ancients and Auberdine — finish them on a Darkshore trip and hand in there.
+  zone map 1439
+  turnin 952 -- Grove of the Ancients - Fandral's word to Onu
+  turnin 730 -- Trouble In Darkshore? - Greywhisker's word to Archaeologist Hollee
+  zone map 1457
+
+step Expedition — Redridge, Yorus's word
+
+  zone map 1433
+  goto 21.49,44.72
+  turnin 1698 only Warrior -- Yorus Barleybrew - Darnath's word to Yorus Barleybrew, at 20
+  zone map 1457
+
+step Expedition — Stormwind, Renzik and the priests
+
+  zone map 1453
+  goto 78.29,71.14
+  turnin 2260 only Rogue -- Erion's Behest - Erion's word to Renzik the Shiv
+  goto 49.53,44.6
+  turnin 5678 only Human,Priest -- Arcane Feedback - Alathea's word to High Priestess Laurena, at 20
+  turnin 94779 only Human,Priest -- Divine Grace - Alathea's word to High Priestess Laurena
+  zone map 1457
+
+step Expedition — Azshara, Ogtinc's word
+
+  zone map 1447
+  goto 42.4,42.62
+  turnin 8151 only Hunter -- The Hunter's Charm - Dorion's word to Ogtinc, late
+  zone map 1457
+
+step Expedition — Azshara, Truesong's word
+
+  when onquest 98096
+  zone map 1447
+  turnin 98096 -- Sisters In Duty - Dalia's word to Commander Truesong, at 47
+  zone map 1457
+
+step Expedition — Moonglade, Dendrite's word
+
+  note 26, 5921, 6121 and 98393 all turn in with Keeper Dendrite Starblaze in Moonglade — take them together on the druid legs and hand them in there.
+  zone map 1450
+  goto 56.21,30.64
+  turnin 26 only NightElf,Skyborne,Druid -- A Lesson to Learn - Mathrengyl's word to Dendrite Starblaze, very late
+  turnin 5921 only NightElf,Druid -- Moonglade - Mathrengyl's word to Dendrite Starblaze, very late
+  turnin 6121 only NightElf,Skyborne,Druid -- Lessons Anew - Mathrengyl's word to Dendrite Starblaze, very late
+  turnin 98393 only NightElf,Skyborne,Druid -- The Great Cat Spirit - Mathrengyl's word to Dendrite Starblaze, very late
+  zone map 1457
+
+step Expedition — Moonglade, Rabine's word
+
+  when onquest 6762
+  zone map 1450
+  turnin 6762 -- Rabine Saturna - Mathrengyl's word to Rabine Saturna, very late
+  zone map 1457
+
+step Expedition — Tanaris, the desert legs
+
+  zone map 1446
+  turnin 4493 -- March of the Silithid - Gracina's word to Alchemist Pestlezugg, late
+  goto 27.5,42.7
+  turnin 9063 only Druid -- Torwa Pathfinder - the chain's word to Torwa Pathfinder, very late
+  zone map 1457
+
+step Expedition — the Plaguelands, Valorfist's word
+
+  zone map 1422
+  turnin 5091 -- A Call to Arms: The Plaguelands! - Moonstalker's word to Commander Ashlam Valorfist, very late
+  zone map 1457
+
+step Expedition — Feralas, Moonspear's word
+
+  zone map 1444
+  turnin 7494 -- Feathermoon Stronghold - Moonstalker's word to Latronicus Moonspear, very late
+  zone map 1457
+
+step Expedition — the Wetlands, Flagongut's word
+
+  zone map 1437
+  turnin 942 -- The Absent Minded Prospector - Greywhisker's word to Archaeologist Flagongut
+  zone map 1457
+
+step Expedition — Swamp of Sorrows, the Fallen Hero
+
+  zone map 1435
+  goto 34.29,66.14
+  turnin 8417 only Warrior -- A Troubled Spirit - Darnath's word to the Fallen Hero, late
+  zone map 1457
+
+step Expedition — the Barrens, Dizzywig's word
+
+  zone map 1413
+  turnin 1039 -- The Barrens Port - Thyn'tel's word to Dizzywig, at 30
+  zone map 1457
+
+step Expedition — Ironforge, Rohan's word
+
+  zone map 1455
+  goto 24.73,8.16
+  turnin 5640 only Dwarf,Priest -- Desperate Prayer - Alathea's word to High Priest Rohan
+  turnin 5647 only Dwarf,Priest -- A Lack of Fear - Alathea's word to High Priest Rohan, at 20
+  zone map 1457
+
+step Expedition — Ironforge, Klockmort's word
+
+  when onquest 2925
+  zone map 1455
+  turnin 2925 -- Klockmort's Essentials - Mathiel's word to Tinkmaster Overspark, at 30
+  zone map 1457
+
+step Expedition — Alterac, Ravenholdt's word
+
+  zone map 1416
+  goto 86.02,78.88
+  turnin 8233 only Rogue -- A Simple Request - Syurna's word to Jorach Ravenholdt, very late
+  zone map 1457
+
+step Expedition — Dun Morogh, Mims's word
+
+  zone map 1426
+  goto 55.05,22.38
+  turnin 94820 only Gnome,Priest -- Contingency Plan - Alathea's word to High Priestess Mims, at 20
+  turnin 94826 only Gnome,Priest -- Confounding Flash - Alathea's word to High Priestess Mims
+  zone map 1457
+
+step Expedition — Moonglade, Remulos's word
+
+  zone map 1450
+  turnin 8734 -- Tyrande and Remulos - the Forest Wisp's word to Remulos, at 60
+  zone map 1457
