@@ -12,6 +12,8 @@ _Where every zone stands. Updated 2026-11-13 · Pack v0.2.0 · Repo: `cyork95/bu
 
 Companions (Rares & Treasures · Recipes & Patterns) follow the core guide once the Zephras template is proven.
 
+**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside**. Horde starts follow.
+
 ---
 
 ## v1.0 scope — starting zones, both factions
@@ -46,9 +48,7 @@ _The twin guide. Horde quest lines are already faction-gated inside the Alliance
 - [ ] Pilot fixes landed
 - [ ] Companions — after the Zephras template
 
-### Westfall — follow-on zone (Alliance)
-
-_In the v1.0 queue behind Elwynn._
+### Westfall — follow-on zone (Alliance) · build order #1
 
 - [x] Census — 43 quests, tracker-verified
 - [ ] Core guide — the next core build
@@ -59,6 +59,8 @@ _In the v1.0 queue behind Elwynn._
 
 ### Dun Morogh / Coldridge Valley — Dwarf & Gnome (Alliance)
 
+_The lead-in for Loch Modan (build order #2)._
+
 - [ ] Census — needs a ForeverDB pull
 - [ ] Core guide
 - [ ] Lint/playtest clean
@@ -66,9 +68,27 @@ _In the v1.0 queue behind Elwynn._
 - [ ] Pilot fixes landed
 - [ ] Companions
 
-### Teldrassil — Night Elf (Alliance)
+### Loch Modan — second zone (Alliance) · build order #2
+
+- [ ] Census — needs a ForeverDB pull
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Teldrassil — Night Elf (Alliance) · alongside
 
 - [ ] Census — Ferinis is playing the zone now; curation follows
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Darkshore — second zone (Alliance) · build order #3
+
+- [ ] Census — follows Teldrassil
 - [ ] Core guide
 - [ ] Lint/playtest clean
 - [ ] Cody pilot
@@ -121,7 +141,6 @@ _Not started. Same pipeline applies when we get there._
 - [ ] Duskwood
 - [ ] Eastern Plaguelands
 - [ ] Hillsbrad Foothills
-- [ ] Loch Modan
 - [ ] Redridge Mountains
 - [ ] Searing Gorge
 - [ ] Silverpine Forest
@@ -136,7 +155,6 @@ _Not started. Same pipeline applies when we get there._
 - [ ] Ashenvale
 - [ ] Azshara
 - [ ] The Barrens
-- [ ] Darkshore
 - [ ] Desolace
 - [ ] Dustwallow Marsh
 - [ ] Felwood
