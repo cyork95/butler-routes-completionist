@@ -1,0 +1,433 @@
+guide butler-routes-completionist/duskwood
+title Duskwood - Completionist
+levels 17-28
+zone Duskwood
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step The west road - Sven's farm
+
+  note In from Westfall along the west road: Sven Yorgen's farm and Lars' camp hold the border. Quests here run 17 to 28, with the Level 60 writs and twins as a special class - the steps say which legs belong to which level.
+  accept 226 -- Wolves at Our Heels - Lars; Starving and Rabid Dire Wolves, north-east
+  complete 226 @11,45 era -- Starving Dire Wolves for Lars
+  complete 226 @11,45 era -- Rabid Dire Wolves for Lars
+  turnin 226 -- Wolves at Our Heels - back to Lars
+  accept 55 -- Morbent Fel - Sven Yorgen; Morbent Fel himself, Raven Hill
+  note 55's pre (325, Armed and Ready) lives in the Stormwind guide - take 55 after that leg.
+  complete 55 @16.9,33.4 era -- Morbent Fel for Sven Yorgen
+  turnin 55 -- Morbent Fel - back to Sven Yorgen
+
+step The east road - Elaine and Calor
+
+  accept 163 -- Raven Hill - Elaine Carevin; Jitters takes it, Raven Hill
+  accept 164 -- Deliveries to Sven - Elaine Carevin; Sven Yorgen takes it, west
+  accept 165 -- The Hermit - Elaine Carevin; Abercrombie takes it, Raven Hill
+  accept 173 -- Worgen in the Woods - Calor; Nightbane Shadow Weavers, west
+  complete 173 @60,45 era -- Nightbane Shadow Weavers for Calor
+  turnin 173 -- Worgen in the Woods - back to Calor
+  accept 221 -- Worgen in the Woods - Calor; Nightbane Dark Runners, west
+  note 221's pre (173 above) fills here - take 221 after it.
+  complete 221 @61,45 era -- Nightbane Dark Runners for Calor
+  turnin 221 -- Worgen in the Woods - back to Calor
+  accept 222 -- Worgen in the Woods - Calor; Vile Fangs and Tainted Ones, south
+  note 222's pre (221 above) fills here - take 222 after it.
+  complete 222 @62,81 era -- Nightbane Vile Fangs for Calor
+  complete 222 @62,81 era -- Nightbane Tainted Ones for Calor
+  turnin 222 -- Worgen in the Woods - back to Calor
+  accept 223 -- Worgen in the Woods - Calor; Jonathan Carevin takes it
+  note 223's pre (222 above) fills here - take 223 after it.
+  turnin 223 -- Worgen in the Woods - back to Jonathan Carevin
+
+step Raven Hill - Jitters and the Grave
+
+  turnin 163 -- Raven Hill - Elaine's word to Jitters
+  accept 5 -- Jitters' Growing Gut - Jitters; Chef Grual takes it, Darkshire
+  note 5's pre (163 above) fills here - take 5 after it.
+  accept 225 -- The Weathered Grave - the Weathered Grave; Sirra Von'Indi takes it, Darkshire
+  accept 78147 -- Crimes Against Anatomy - the Spellbook; Garion Wendell takes it in Stormwind
+  complete 78147 @16.7,28.4 era -- Crimes Against Anatomy for Garion Wendell; the Spellbook gives it
+  accept 98372 -- An Unfortunate End - Night Watch Guard
+  accept 99267 -- An Unfortunate End - Night Watch Guard
+  note The twin An Unfortunate End records share one Guard and one ending - take both lines together.
+  turnin 98372 -- An Unfortunate End - back to the Night Watch Guard
+  turnin 99267 -- An Unfortunate End - back to the Night Watch Guard
+  note The Guard also walks a southern post (45.58,79.16) - this step uses his Raven Hill post.
+  kill 272273 optional -- a Lost Watcher, for the Bow
+  collect 281142 @17.09,57.04 era optional
+  note The Bow drops from the Lost Watchers west of the road - take one off them.
+  accept 96138 -- Merrick's Bow - the Bow; Splinter Fist ogres, Vul'gol
+  note 96138's starter (Merrick's Bow) drops from the Lost Watchers west of the road - take one off them.
+  kill 272273 optional -- a Lost Watcher, for Merrick's Bow
+
+step Sven's revenge, west and south
+
+  turnin 164 -- Deliveries to Sven - Elaine's word to Sven Yorgen
+  accept 95 -- Sven's Revenge - Sven Yorgen; the Mound of loose dirt takes it, south
+  note 95's pre (164 above) fills here - take 95 after it.
+  turnin 95 -- Sven's Revenge - Sven's word to the Mound of loose dirt
+  accept 230 -- Sven's Camp - the Mound of loose dirt; Sven Yorgen takes it, west
+  note 230's pre (95 above) fills here - take 230 after it.
+  turnin 230 -- Sven's Camp - the Mound's word to Sven Yorgen
+  accept 262 -- The Shadowy Figure - Sven Yorgen; Madame Eva takes it, Darkshire
+  note 262's pre (230 above) fills here - take 262 after it.
+  turnin 262 -- The Shadowy Figure - Sven's word to Madame Eva
+  accept 265 -- The Shadowy Search Continues - Madame Eva; Clerk Daltry takes it
+  note 265's pre (262 above) fills here - take 265 after it.
+  turnin 265 -- The Shadowy Search Continues - back to Clerk Daltry
+
+step Darkshire - the hub, Ebonlocke row
+
+  note Darkshire is the hub: the Ebonlocke family holds the town hall, with Grual, Smitts, Millstipe, Backus and Sirra around the square.
+  accept 56 -- The Night Watch - Commander Althea Ebonlocke; Skeletal Warriors and Mages, east
+  complete 56 @77,71 era -- Skeletal Warriors for Commander Althea Ebonlocke
+  complete 56 @77,71 era -- Skeletal Mages for Commander Althea Ebonlocke
+  turnin 56 -- The Night Watch - back to Commander Althea Ebonlocke
+  accept 57 -- The Night Watch - Commander Althea Ebonlocke; Fiends and Horrors, west
+  note 57's pre (56 above) fills here - take 57 after it.
+  complete 57 @15,45 era -- Skeletal Fiends for Commander Althea Ebonlocke
+  complete 57 @15,45 era -- Skeletal Horrors for Commander Althea Ebonlocke
+  turnin 57 -- The Night Watch - back to Commander Althea Ebonlocke
+  accept 58 -- The Night Watch - Commander Althea Ebonlocke; Plague Spreaders, north
+  note 58's pre (57 above) fills here - take 58 after it.
+  complete 58 @18,31 era -- Plague Spreaders for Commander Althea Ebonlocke
+  turnin 58 -- The Night Watch - back to Commander Althea Ebonlocke
+  accept 66 -- The Legend of Stalvan - Madame Eva; Clerk Daltry takes it
+  turnin 66 -- The Legend of Stalvan - Eva's word to Clerk Daltry
+  accept 67 -- The Legend of Stalvan - Clerk Daltry; the Old Footlocker takes it, Westfall
+  note 67's pre (66 above) fills here - take 67 after it.
+  accept 69 -- The Legend of Stalvan - Clerk Daltry; Innkeeper Farley takes it, Elwynn
+  note 69's pre (68, in Westfall) sits outside this contract - take 69 on its own.
+  accept 79 -- The Legend of Stalvan - Tavernkeep Smitts; Commander Althea Ebonlocke takes it
+  note 79's pre (78, in Elwynn) sits outside this contract - take 79 on its own.
+  turnin 79 -- The Legend of Stalvan - Smitts' word to Commander Althea Ebonlocke
+  accept 80 -- The Legend of Stalvan - Commander Althea Ebonlocke; Clerk Daltry takes it
+  note 80's pre (79 above) fills here - take 80 after it.
+  turnin 80 -- The Legend of Stalvan - back to Clerk Daltry
+  accept 97 -- The Legend of Stalvan - Clerk Daltry; Commander Althea Ebonlocke takes it
+  note 97's pre (80 above) fills here - take 97 after it.
+  turnin 97 -- The Legend of Stalvan - back to Commander Althea Ebonlocke
+  accept 98 -- The Legend of Stalvan - Madame Eva; the Mistmantle Family Ring, north-east
+  note 98's pre (97 above) fills here - take 98 after it.
+  complete 98 @77.35,36.19 era -- the Mistmantle Family Ring off Stalvan Mistmantle for Madame Eva
+  turnin 98 -- The Legend of Stalvan - back to Madame Eva
+  accept 146 -- Messenger to Darkshire - Lord Ello Ebonlocke; Magistrate Solomon takes it in Redridge
+  note 146's pre (145, Messenger to Westfall) lives in the Redridge guide - take 146 after that leg.
+  accept 148 -- Supplies from Darkshire - Lord Ello Ebonlocke; Madame Eva takes it
+  note 148's pre (165, The Hermit) fills at Abercrombie below - take 148 after it.
+  turnin 148 -- Supplies from Darkshire - Ello's word to Madame Eva
+  accept 377 -- Crime and Punishment - Councilman Millstipe; the Hand of Dextren Ward
+  note Dextren Ward has no placed spawn in the data - bring the Hand if earned.
+  complete 377 @71.92,47.79 era -- the Hand of Dextren Ward for Councilman Millstipe; the Hand names no source in the data, so have it in your bags
+  turnin 377 -- Crime and Punishment - back to Councilman Millstipe
+  accept 1244 -- The Missing Diplomat - Watcher Backus; the Defias Docket, south-west
+  note 1244's pre (1243, The Missing Diplomat) lives in the Stormwind guide - take 1244 after that leg.
+  complete 1244 @23.92,72.07 era -- the Defias Docket off the Defias Strongbox for Watcher Backus
+  turnin 1244 -- The Missing Diplomat - back to Watcher Backus
+  accept 1245 -- The Missing Diplomat - Watcher Backus; Elling Trias takes it in Stormwind
+  note 1245's pre (1244 above) fills here - take 1245 after it.
+  turnin 225 -- The Weathered Grave - the grave's word to Sirra Von'Indi
+  accept 227 -- Morgan Ladimore - Sirra Von'Indi; Commander Althea Ebonlocke takes it
+  note 227's pre (225 above) fills here - take 227 after it.
+  turnin 227 -- Morgan Ladimore - back to Commander Althea Ebonlocke
+  accept 228 -- Mor'Ladim - Commander Althea Ebonlocke; Mor'Ladim's Skull, Raven Hill
+  note 228's pre (227 above) fills here - take 228 after it.
+  complete 228 @16.67,37.35 era -- Mor'Ladim's Skull off Mor'Ladim for Commander Althea Ebonlocke
+  turnin 228 -- Mor'Ladim - back to Commander Althea Ebonlocke
+  accept 229 -- The Daughter Who Lived - Commander Althea Ebonlocke; Watcher Ladimore takes it
+  note 229's pre (228 above) fills here - take 229 after it.
+  turnin 229 -- The Daughter Who Lived - back to Watcher Ladimore
+  accept 96139 -- The Valor Family - Sirra Von'Indi; the Raven Hill Tome, Raven Hill
+  accept 231 -- A Daughter's Love - Watcher Ladimore; the Weathered Grave takes it, Raven Hill
+  note 231's pre (229 above) fills here - take 231 after it.
+  accept 1042 -- The Carevin Family - Clerk Daltry; Jonathan Carevin takes it
+  note 1042's pre (1041, in Stranglethorn) sits outside this contract - take 1042 on its own.
+
+step Darkshire - the hub, Grual and Smitts
+
+  turnin 5 -- Jitters' Growing Gut - Jitters' word to Chef Grual
+  accept 93 -- Dusky Crab Cakes - Chef Grual; Gooey Spider Legs, west
+  note 93's pre (5 above) fills here - take 93 after it.
+  complete 93 @11,48 era -- Gooey Spider Legs off the west spiders for Chef Grual
+  turnin 93 -- Dusky Crab Cakes - back to Chef Grual
+  accept 240 -- Return to Jitters - Chef Grual; Jitters takes it, Raven Hill
+  note 240's pre (93 above) fills here - take 240 after it.
+  note 240 needs Dusky Crab Cakes (93's product) - keep a set from 93's run.
+  accept 266 -- Inquire at the Inn - Clerk Daltry; Tavernkeep Smitts takes it
+  note 266's pre (265) fills on the Sven loop above - take 266 after it.
+  turnin 266 -- Inquire at the Inn - Daltry's word to Tavernkeep Smitts
+  accept 453 -- Finding the Shadowy Figure - Tavernkeep Smitts; Jitters takes it, Raven Hill
+  note 453's pre (266 above) fills here - take 453 after it.
+
+step Darkshire - Kabobs for the road (Cooking)
+
+  when skill Cooking 50
+
+  accept 90 optional -- Seasoned Wolf Kabobs - Chef Grual; Lean Wolf Flanks, east
+  complete 90 optional @55,30 era -- Lean Wolf Flanks off the east wolves for Chef Grual
+  turnin 90 optional -- Seasoned Wolf Kabobs - back to Chef Grual
+  note 90 bakes Kabobs from the flanks in your bags - bring a set from the east run.
+
+step Darkshire - the hub, Eva and Sirra
+
+  accept 101 -- The Totem of Infliction - Madame Eva; ghoul fangs, venom and fingers
+  complete 101 @21,32 era -- Ghoul Fangs off the north ghouls for Madame Eva
+  complete 101 @11,48 era -- Vials of Spider Venom off the west spiders for Madame Eva
+  complete 101 @15,45 era -- Skeleton Fingers off the west skeletons for Madame Eva
+  turnin 101 -- The Totem of Infliction - back to Madame Eva
+  turnin 1042 -- The Carevin Family - Daltry's word to Jonathan Carevin
+  accept 1043 -- The Scythe of Elune - Jonathan Carevin; evidence at the south-eastern mound
+  note 1043's pre (1042 above) fills here - take 1043 after it.
+  complete 1043 @73.53,79.14 era -- evidence of the Scythe of Elune at the Mound of Dirt for Jonathan Carevin
+  turnin 1043 -- The Scythe of Elune - back to Jonathan Carevin
+  accept 1044 -- Answered Questions - Jonathan Carevin; Thyn'tel Bladeweaver takes it, Darnassus
+  note 1044's pre (1043 above) fills here - take 1044 after it.
+
+step The east - Viktori and Mary
+
+  accept 174 -- Look To The Stars - Viktori Prism'Antras; a Bronze Tube
+  note 174's objective (the Bronze Tube) has no placed source in the data - have one in your bags; engineering suppliers sell them.
+  complete 174 @79.8,48.02 era -- a Bronze Tube for Viktori Prism'Antras; it names no source in the data, so have it in your bags
+  turnin 174 -- Look To The Stars - back to Viktori Prism'Antras
+  accept 175 -- Look To The Stars - Viktori Prism'Antras; Mary takes it, east
+  note 175's pre (174 above) fills here - take 175 after it.
+  turnin 175 -- Look To The Stars - back to Mary
+  accept 177 -- Look To The Stars - Mary; Mary's Looking Glass, south-east
+  note 177's pre (175 above) fills here - take 177 after it.
+  complete 177 @80.9,71.96 era -- Mary's Looking Glass off the Insane Ghoul for Mary
+  turnin 177 -- Look To The Stars - back to Mary
+  accept 181 -- Look To The Stars - Mary; the Ogre's Monocle, Vul'gol
+  note 181's pre (177 above) fills here - take 181 after it.
+  complete 181 @36.5,81.5 era -- the Ogre's Monocle off Zzarc'Vul for Mary
+  turnin 181 -- Look To The Stars - back to Mary
+  accept 149 -- Ghost Hair Thread - Blind Mary; Mary takes it
+  note 149's pre (148) fills in Darkshire - take 149 after it.
+  turnin 149 -- Ghost Hair Thread - back to Blind Mary
+  accept 154 -- Return the Comb - Blind Mary; Madame Eva takes it, Darkshire
+  note 154's pre (149 above) fills here - take 154 after it.
+step The north - Abercrombie's dugout
+
+  turnin 165 -- The Hermit - Elaine's word to Abercrombie
+  turnin 154 -- Return the Comb - Mary's word to Madame Eva
+  accept 157 -- Deliver the Thread - Madame Eva; Abercrombie takes it, north
+  note 157's pre (154 above) fills here - take 157 after it.
+  turnin 157 -- Deliver the Thread - Eva's word to Abercrombie
+  accept 158 -- Zombie Juice - Abercrombie; Tavernkeep Smitts takes it, Darkshire
+  note 158's pre (157 above) fills here - take 158 after it.
+  turnin 158 -- Zombie Juice - Abercrombie's word to Tavernkeep Smitts
+  accept 156 -- Gather Rot Blossoms - Abercrombie; Rot Blossoms, west
+  note 156's pre (158 above) fills here - take 156 after it.
+  complete 156 @16,45 era -- Rot Blossoms off the west skeletons for Abercrombie
+  turnin 156 -- Gather Rot Blossoms - back to Abercrombie
+  accept 159 -- Juice Delivery - Abercrombie; Abercrombie takes it
+  note 159's pre (156 above) fills here - take 159 after it.
+  turnin 159 -- Juice Delivery - Smitts' word to Abercrombie
+  accept 133 -- Ghoulish Effigy - Abercrombie; Ghoul Ribs, south
+  note 133's pre (159 above) fills here - take 133 after it.
+  complete 133 @21,32 era -- Ghoul Ribs off the north ghouls for Abercrombie
+  turnin 133 -- Ghoulish Effigy - back to Abercrombie
+  accept 134 -- Ogre Thieves - Abercrombie; Abercrombie's Crate, Vul'gol
+  note 134's pre (133 above) fills here - take 134 after it.
+  complete 134 @33.42,76.35 era -- Abercrombie's Crate off the Vul'gol cache for Abercrombie
+  turnin 134 -- Ogre Thieves - back to Abercrombie
+  accept 160 -- Note to the Mayor - Abercrombie; Lord Ello Ebonlocke takes it, Darkshire
+  note 160's pre (134 above) fills here - take 160 after it.
+step Raven Hill, returned
+
+  turnin 453 -- Finding the Shadowy Figure - Jitters' word to Sven Yorgen
+  note 453's line rides west to Sven with the notes below.
+  turnin 240 -- Return to Jitters - Grual's word to Jitters
+  turnin 231 -- A Daughter's Love - Ladimore's word to the Weathered Grave
+  complete 96139 @21.1,55.6 era -- the Raven Hill Tome off the Memory of Valor for Sirra Von'Indi
+
+step Sven's revenge, closed
+
+  accept 268 -- Return to Sven - Sven Yorgen
+  note 268's pre (453 above) fills at Raven Hill - take 268 after it.
+  turnin 268 -- Return to Sven - back to Sven Yorgen
+  accept 323 -- Proving Your Worth - Sven Yorgen
+  note 323's pre (268 above) fills here - take 323 after it.
+  complete 323 @14,36 era -- Skeletal Raiders for Sven Yorgen
+  complete 323 @14,36 era -- Skeletal Healers for Sven Yorgen
+  complete 323 @14,36 era -- Skeletal Warders for Sven Yorgen
+  turnin 323 -- Proving Your Worth - back to Sven Yorgen
+  accept 269 -- Seeking Wisdom - Sven Yorgen; Bishop Farthing takes it in Stormwind
+  note 269's pre (323 above) fills here - take 269 after it.
+
+step The mission board - Palandar's incursion
+
+  note Field Captain Palandar holds the Nightmare board, central. Eighteen missions, no chains between them - take the board in one pass, work it by area, hand it all back at the end.
+  accept 81730 -- Duskwood Mission I: Defeat Worgen - Field Captain Palandar; Runners and Weavers, the Rotting Orchard
+  accept 81731 -- Duskwood Mission II: Defeat Ogres - Field Captain Palandar; ogres, Vul'gol
+  accept 81732 -- Duskwood Mission III: Defeat Dragonkin - Field Captain Palandar; whelps and terrorwalkers, south
+  accept 81733 -- Duskwood Mission IV: Ogre Intelligence - Field Captain Palandar; Dreamwarden Thalinar, Vul'gol
+  accept 81734 -- Duskwood Mission V: Worgen Intelligence - Field Captain Palandar; Dreamwarden Dorilar, the Orchard
+  accept 81735 -- Duskwood Mission VI: Dragon Intelligence - Field Captain Palandar; Dreamwarden Amalia, Yorgen
+  accept 81736 -- Duskwood Mission VII: Recover Shadowscythe - Field Captain Palandar; the Mysterious Box, Orchard
+  accept 81737 -- Duskwood Mission VIII: Recover Ogre Magi Text - Field Captain Palandar; Vul'gol
+  accept 81738 -- Duskwood Mission IX: Recover Dragon Egg - Field Captain Palandar; south
+  accept 81739 -- Duskwood Mission X: Nightmare Moss - Field Captain Palandar; gather it anywhere
+  accept 81740 -- Duskwood Mission XI: Cold Iron Ore - Field Captain Palandar; Vul'gol deposits
+  accept 81741 -- Duskwood Mission XII: Dream-Touched Dragonscale - Field Captain Palandar; whelp scales, south
+  accept 81742 -- Duskwood Mission XIII: Defeat Ylanthrius - Field Captain Palandar; south
+  accept 81743 -- Duskwood Mission XIV: Defeat Vvarc'Zul - Field Captain Palandar; Vul'gol
+  accept 81744 -- Duskwood Mission XV: Defeat Amokarok - Field Captain Palandar; Orchard
+  accept 81745 -- Duskwood Mission XVI: Rescue Kroll Mountainshade - Field Captain Palandar; the Orchard guest house
+  accept 81746 -- Duskwood Mission XVII: Rescue Alara Grovemender - Field Captain Palandar; the Yorgen stable
+  accept 81747 -- Duskwood Mission XVIII: Rescue Elenora Marshwalker - Field Captain Palandar; Vul'gol ruins
+
+step The Rotting Orchard - nightmare sweep
+
+  complete 81730 @60,72 era -- Nightmare Runners for Field Captain Palandar
+  complete 81730 @63,70 era -- Nightmare Weavers for Field Captain Palandar
+  complete 81734 @66.2,76 era -- Intelligence Report: Rotting Orchard from Dreamwarden Dorilar for Field Captain Palandar
+  note Dreamwarden Dorilar provides the report.
+  complete 81736 @65.7,67.4 era -- the Shadowscythe off the Mysterious Box for Field Captain Palandar
+  complete 81739 @53.9,62.7 era -- Nightmare Moss for Field Captain Palandar
+  complete 81744 @65.8,75.8 era -- Amokarok for Field Captain Palandar
+  note Kroll Mountainshade waits in the guest house at the Rotting Orchard.
+
+step Vul'gol - nightmare sweep
+
+  complete 81731 @34,74 era -- Deranged Ogres for Field Captain Palandar
+  complete 81731 @33,74 era -- Demented Fire Weavers for Field Captain Palandar
+  complete 81733 @36.4,83.8 era -- Intelligence Report: Vul'gol Ogre Mound from Dreamwarden Thalinar for Field Captain Palandar
+  note Dreamwarden Thalinar provides the report.
+  complete 81737 @35.7,80.1 era -- the Ogre Magi Text for Field Captain Palandar
+  complete 81740 @33.2,67.9 era -- Cold Iron Ore off the Cold Iron Deposits for Field Captain Palandar
+  complete 81743 @37.2,83.2 era -- Vvarc'Zul for Field Captain Palandar
+  note Elenora Marshwalker waits in the ruins of a farmhouse near the Vul'gol Ogre Mound.
+  complete 96138 @33,68 era -- Splinter Fist Warriors for Sirra Von'Indi
+  complete 96138 @36,70 era -- Splinter Fist Taskmasters for Sirra Von'Indi
+
+step The south - nightmare sweep
+
+  complete 81732 @50,73 era -- Wyrmkin Terrorwalkers for Field Captain Palandar
+  complete 81732 @48,72 era -- Nightterror Whelps for Field Captain Palandar
+  complete 81735 @50.6,77 era -- Intelligence Report: Yorgen Farmstead from Dreamwarden Amalia for Field Captain Palandar
+  note Dreamwarden Amalia provides the report.
+  complete 81738 @48.9,72.8 era -- the Unhatched Green Dragon Egg for Field Captain Palandar
+  complete 81741 @47,72 era -- Dream-Touched Dragonscales off the whelps for Field Captain Palandar
+  complete 81742 @46,71 era -- Ylanthrius for Field Captain Palandar
+  note Alara Grovemender waits in the stable at the Yorgen farmstead.
+  accept 236 -- Awaiting Word - Watcher Dodds; Watcher Callahan takes it, north-east
+  accept 245 -- Eight-Legged Menaces - Watcher Dodds; Pygmy Venom Web Spiders, west
+  complete 245 @8,50 era -- Pygmy Venom Web Spiders for Watcher Dodds
+  turnin 245 -- Eight-Legged Menaces - back to Watcher Dodds
+step The mission board, returned
+
+  turnin 81730 -- Duskwood Mission I: Defeat Worgen - back to Field Captain Palandar
+  turnin 81731 -- Duskwood Mission II: Defeat Ogres - back to Field Captain Palandar
+  turnin 81732 -- Duskwood Mission III: Defeat Dragonkin - back to Field Captain Palandar
+  turnin 81733 -- Duskwood Mission IV: Ogre Intelligence - back to Field Captain Palandar
+  turnin 81734 -- Duskwood Mission V: Worgen Intelligence - back to Field Captain Palandar
+  turnin 81735 -- Duskwood Mission VI: Dragon Intelligence - back to Field Captain Palandar
+  turnin 81736 -- Duskwood Mission VII: Recover Shadowscythe - back to Field Captain Palandar
+  turnin 81737 -- Duskwood Mission VIII: Recover Ogre Magi Text - back to Field Captain Palandar
+  turnin 81738 -- Duskwood Mission IX: Recover Dragon Egg - back to Field Captain Palandar
+  turnin 81739 -- Duskwood Mission X: Nightmare Moss - back to Field Captain Palandar
+  turnin 81740 -- Duskwood Mission XI: Cold Iron Ore - back to Field Captain Palandar
+  turnin 81741 -- Duskwood Mission XII: Dream-Touched Dragonscale - back to Field Captain Palandar
+  turnin 81742 -- Duskwood Mission XIII: Defeat Ylanthrius - back to Field Captain Palandar
+  turnin 81743 -- Duskwood Mission XIV: Defeat Vvarc'Zul - back to Field Captain Palandar
+  turnin 81744 -- Duskwood Mission XV: Defeat Amokarok - back to Field Captain Palandar
+  turnin 81745 -- Duskwood Mission XVI: Rescue Kroll Mountainshade - back to Field Captain Palandar
+  turnin 81746 -- Duskwood Mission XVII: Rescue Alara Grovemender - back to Field Captain Palandar
+  turnin 81747 -- Duskwood Mission XVIII: Rescue Elenora Marshwalker - back to Field Captain Palandar
+
+step Darkshire, returned - Sirra's word
+
+  turnin 96139 -- The Valor Family - the Raven Hill Tome to Sirra Von'Indi
+  turnin 96138 -- Merrick's Bow - the Splinter Fist word to Sirra Von'Indi
+  turnin 160 -- Note to the Mayor - Abercrombie's word to Lord Ello Ebonlocke
+  accept 251 -- Translate Abercrombie's Note - Lord Ello Ebonlocke; Sirra Von'Indi takes it
+  note 251's pre (160 above) fills here - take 251 after it.
+  turnin 251 -- Translate Abercrombie's Note - back to Sirra Von'Indi
+  accept 401 -- Wait for Sirra to Finish - Sirra Von'Indi; Sirra Von'Indi takes it
+  note 401's pre (251 above) fills here - take 401 after it.
+  turnin 401 -- Wait for Sirra to Finish - back to Sirra Von'Indi
+  accept 252 -- Translation to Ello - Sirra Von'Indi; Lord Ello Ebonlocke takes it
+  note 252's pre (401 above) fills here - take 252 after it.
+  turnin 252 -- Translation to Ello - Sirra's word to Lord Ello Ebonlocke
+  accept 253 -- Bride of the Embalmer - Lord Ello Ebonlocke; the Embalmer's Heart, north
+  note 253's pre (252 above) fills here - take 253 after it.
+  complete 253 @28.82,30.91 era -- the Embalmer's Heart off Eliza for Lord Ello Ebonlocke
+  note Eliza haunts the north - ride up for the Heart and the Grave Dirt below.
+  turnin 253 -- Bride of the Embalmer - back to Lord Ello Ebonlocke
+  accept 254 -- Digging Through the Dirt - Eliza's Grave Dirt; Eliza's Grave Dirt takes it, north
+  note 254's pre (253 above) fills here - take 254 after it.
+  turnin 254 -- Digging Through the Dirt - back to Eliza's Grave Dirt
+
+step The north-east - Callahan's word
+
+  turnin 236 -- Awaiting Word - Dodds' word to Watcher Callahan
+
+step Kzixx's post - writ: potion (Alchemy)
+
+  when skill Alchemy 1
+
+  goto 81.82,19.77
+  accept 94214 optional -- Craftsman's Writ: Shadow Protection Potion - Kzixx; back to Kzixx, at 60
+  note 94214's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94214 optional -- Craftsman's Writ: Shadow Protection Potion - back to Kzixx
+
+step Kzixx's post - writ: recombobulator (Engineering)
+
+  when skill Engineering 1
+
+  goto 81.82,19.77
+  accept 94232 optional -- Craftsman's Writ: Minor Recombobulator - Kzixx; back to Kzixx, at 60
+  note 94232's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94232 optional -- Craftsman's Writ: Minor Recombobulator - back to Kzixx
+
+step Kzixx's post - writ: pack (Tailoring)
+
+  when skill Tailoring 1
+
+  goto 81.82,19.77
+  accept 94250 optional -- Craftsman's Writ: Small Silk Pack - Kzixx; back to Kzixx, at 60
+  note 94250's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94250 optional -- Craftsman's Writ: Small Silk Pack - back to Kzixx
+
+step The north-west - writ: key (Blacksmithing)
+
+  when skill Blacksmithing 1
+
+  accept 94223 optional -- Craftsman's Writ: Silver Skeleton Key - the Battered Trunk, north-west
+  note 94223's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94223 optional -- Craftsman's Writ: Silver Skeleton Key - the Trunk's word to the Battered Trunk
+
+step Expedition - Redridge, Solomon's word
+
+  zone map 1433
+  turnin 146 -- Messenger to Darkshire - Ello's word to Magistrate Solomon
+  zone map 1431
+
+step Expedition - Elwynn, Farley's word
+
+  zone map 1429
+  turnin 69 -- The Legend of Stalvan - Daltry's word to Innkeeper Farley
+  zone map 1431
+
+step Expedition - Westfall, the Footlocker
+
+  zone map 1436
+  turnin 67 -- The Legend of Stalvan - Daltry's word to the Old Footlocker
+  zone map 1431
+
+step Expedition - Stormwind, three words come home
+
+  zone map 1453
+  turnin 269 -- Seeking Wisdom - Sven's word to Bishop Farthing
+  turnin 1245 -- The Missing Diplomat - Backus' word to Elling Trias
+  turnin 78147 -- Crimes Against Anatomy - the Spellbook's word to Garion Wendell
+  zone map 1431
+
+step Expedition - Darnassus, Thyn'tel's word
+
+  zone map 1457
+  turnin 1044 -- Answered Questions - Carevin's word to Thyn'tel Bladeweaver
+  note Thyn'tel also appears in Teldrassil; this turn-in uses his Darnassus point.
+  zone map 1431
