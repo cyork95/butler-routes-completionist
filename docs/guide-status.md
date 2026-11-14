@@ -57,7 +57,7 @@ _The twin guide. Horde quest lines are already faction-gated inside the Alliance
 - [ ] Lint/playtest clean
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions — 14 rares + fixed containers, 10 recipes, lint 0/0 (pilot pending)
 
 ### Dun Morogh / Coldridge Valley — Dwarf & Gnome (Alliance)
 

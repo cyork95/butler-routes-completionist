@@ -1,4 +1,4 @@
-# Companion unverified (pack 0.9.0)
+# Companion unverified (pack 0.10.0)
 
 Recipe and source candidates for Zephras Isle that could NOT be confirmed from the
 local Forever game data, so they are NOT in the guides. Promote an entry into a
@@ -88,3 +88,49 @@ as above: game-data citation or a named source.
 - Same finding as Zephras: no respawn data for any of the 24 Elwynn rares or any
   fixed container exists in the local build. Every step says the timer is
   unconfirmed.
+
+---
+
+# Westfall (pack 0.10.0)
+
+Recipe and source candidates for Westfall that could NOT be confirmed from the
+local Forever game data, so they are NOT in the guides. Same promotion rule as
+above: game-data citation or a named source.
+
+## Quest-reward recipes: class unverifiable locally
+
+- Quest records in the local build carry no reward data, so no quest-reward
+  recipe in Westfall can be confirmed or denied from the toolchain. The 10
+  shipped recipes are 9 vendor-sold plus 1 exclusive mob drop. If a Westfall
+  quest is later found to reward a recipe, add it as a `note`/`task` step at
+  the relevant hub (the quest itself stays core-only).
+
+## Dropped recipes: world drops, one exclusion argued
+
+- Full scan of every recipe/pattern/plans/schematic/design/manual/formula item
+  against all 179 Westfall-spawning NPC drops and all Westfall object drops:
+  every Westfall-dropping recipe except two is a generic multi-zone world drop.
+  Pattern: Red Woolen Bag (item5772) drops from the Westfall Defias Renegade
+  Mage plus one mob elsewhere — a two-zone world drop, not Westfall content per
+  the Elwynn rule, so not shipped. The one shipped drop is Schematic: Shafety
+  Sheep (item264210), whose sole dropper anywhere is the Westfall Venture Co.
+  Miner.
+
+## Stock class: unverifiable locally
+
+- Same finding as before: local item/vendor records carry no
+  limited-vs-unlimited stock flag, so no Westfall recipe is marked limited.
+  Each vendor step notes that stock class is unconfirmed.
+
+## Tameability: no tame lines shipped
+
+- NPC records carry no family/tame flags, and none of the 14 shipped Westfall
+  rares is drop-evidenced as a tameable beast family (murloc, ghoul/undead,
+  machine, elemental, humanoid). Every rare step is kill-only. If a Westfall
+  rare is later confirmed tameable, add an `only Hunter` task line per the
+  Elwynn pattern.
+
+## Respawn timers: unconfirmed everywhere
+
+- No respawn data for any of the 14 Westfall rares or any fixed container
+  exists in the local build. Every step says the timer is unconfirmed.

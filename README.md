@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.9.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.10.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -21,12 +21,16 @@ Status: **in development (pack v0.9.0), not published yet**. The first release (
 | `zephras-isle-recipes.guide` (pilot companion) | Zephras Isle recipe sources | 1–12 | Alliance (Skyborne) |
 | `elwynn-forest-rares.guide` (companion built, pilot pending) | Elwynn Forest rares and treasures | 1–10 | Alliance |
 | `elwynn-forest-recipes.guide` (companion built, pilot pending) | Elwynn Forest recipe sources | 1–10 | Alliance |
+| `westfall-rares.guide` (companion built, pilot pending) | Westfall rares and treasures | 9–18 | Alliance |
+| `westfall-recipes.guide` (companion built, pilot pending) | Westfall recipe sources | 9–18 | Alliance |
 
 Each quest guide takes every quest on the zone's tracker list exactly once: 145 accepts / 145 turn-ins for Zephras Isle, 83 / 83 for Elwynn Forest, 43 / 43 for Westfall, 105 / 105 for Dun Morogh, 41 / 41 for Loch Modan, 95 / 95 for Teldrassil, 74 / 74 for Darkshore. Class quests for other classes are included and gated with `only`, so they never show for a character they are not for.
 
 The two pilot companions run in their own Polestar tab beside the Zephras core route: the rares guide sweeps all 8 confirmed rares plus the fixed Dented Chest placements (every goal optional, so a rare that is not up never holds the route), and the recipes guide collects the 12 vendor-sold recipe sources on the isle, gated by profession.
 
 The two Elwynn companions run the same way beside the Elwynn core route: the rares guide sweeps 24 confirmed rares plus the fixed world containers (Battered and Solid Chests, stashboxes, Buried Treasure), and the recipes guide collects the 4 vendor-sold recipe sources in Goldshire and Eastvale, gated by profession.
+
+The two Westfall companions run the same way beside the Westfall core route: the rares guide sweeps 14 confirmed rares plus the fixed world containers (Battered and Duskwood Chests, clams, crates, Mech Arms), and the recipes guide collects the 9 vendor-sold recipe sources at the coast, Moonbrook and Sentinel Hill plus one mob-dropped schematic, gated by profession.
 
 ## Planned scope
 
