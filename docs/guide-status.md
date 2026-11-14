@@ -69,7 +69,6 @@ _The lead-in for Loch Modan (build order #2)._
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions — 11 rares + fixed containers, 3 recipes, lint 0/0 (pilot pending)
-- [x] Companions — 11 rares + fixed containers, 3 recipes, lint 0/0 (pilot pending)
 
 ### Loch Modan — second zone (Alliance) · build order #2
 
@@ -78,7 +77,6 @@ _The lead-in for Loch Modan (build order #2)._
 - [x] Lint/playtest clean — 0 errors, playtest 0 stuck
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
 - [ ] Companions
 
 ### Teldrassil — Night Elf (Alliance) · alongside
