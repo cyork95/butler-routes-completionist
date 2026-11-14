@@ -63,28 +63,30 @@ _The twin guide. Horde quest lines are already faction-gated inside the Alliance
 
 _The lead-in for Loch Modan (build order #2)._
 
-- [ ] Census — needs a ForeverDB pull
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census — 105 quests, local-data census (`docs/dun-morogh-census.md`)
+- [x] Core guide — `dun-morogh.guide`
+- [x] Lint/playtest clean — 0 errors, playtest 0 stuck
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
+- [x] Companions — 11 rares + fixed containers, 3 recipes, lint 0/0 (pilot pending)
 - [x] Companions — 11 rares + fixed containers, 3 recipes, lint 0/0 (pilot pending)
 
 ### Loch Modan — second zone (Alliance) · build order #2
 
-- [ ] Census — needs a ForeverDB pull
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census — 41 quests, local-data census (`docs/loch-modan-census.md`)
+- [x] Core guide — `loch-modan.guide`
+- [x] Lint/playtest clean — 0 errors, playtest 0 stuck
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
+- [ ] Companions
 - [ ] Companions
 
 ### Teldrassil — Night Elf (Alliance) · alongside
 
-- [ ] Census — Ferinis is playing the zone now; curation follows
-- [ ] Core guide
-- [ ] Lint/playtest clean
-- [ ] Cody pilot
+- [x] Census — 95 quests, local-data census (`docs/teldrassil-census.md`)
+- [x] Core guide — `teldrassil.guide`
+- [x] Lint/playtest clean — 0 errors, playtest 0 stuck
+- [ ] Cody pilot — Ferinis is playing the zone now
 - [ ] Pilot fixes landed
 - [ ] Companions
 
