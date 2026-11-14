@@ -1,0 +1,40 @@
+# Butler Routes - Teldrassil recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes whose SOURCE is physically in Teldrassil, verified against the
+# local Forever game data (questie-forever item and vendor tables). Six Cooking
+# recipes are sold by the zone's own vendors in Dolanaar and Rut'theran. The
+# Darnassus-city vendors (Ulthir, Elynna, Saenorion, Vaean, Mythrin'dir, Fyldan)
+# also show Teldrassil-zone spawns, but they spawn on the Darnassus city map
+# 1457 as well — per the Teldrassil census city rule they are Darnassus sources,
+# not Teldrassil ones, so none of their recipes ships here. Every dropped recipe
+# with any Teldrassil source also drops elsewhere (generic world drops), and
+# quest records carry no reward data (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover
+# those. Each step is gated to its profession; other characters skip it cleanly.
+guide butler-routes-completionist/teldrassil-recipes
+title Teldrassil - Recipes & Patterns
+levels 1-10
+zone Teldrassil
+faction Alliance
+category Professions
+folder Companions
+keywords teldrassil, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — Dolanaar (Nyoma)
+  when skill Cooking 1
+
+  vendor 4265 -- Nyoma (57.19, 61.26)
+  buy 6325 "Recipe: Brilliant Smallfish"
+  buy 6328 "Recipe: Longjaw Mud Snapper"
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Rut'theran (Nessa Shadowsong)
+  when skill Cooking 1
+
+  vendor 10118 -- Nessa Shadowsong (56.26, 92.44)
+  buy 6326 "Recipe: Slitherskin Mackerel"
+  buy 6368 "Recipe: Rainbow Fin Albacore"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
