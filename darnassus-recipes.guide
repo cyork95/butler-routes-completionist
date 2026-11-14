@@ -1,0 +1,126 @@
+# Butler Routes - Darnassus recipes companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns sold by vendors spawning inside Darnassus (zone
+# 1457), verified against the local Forever game data. 30 recipes across 32
+# vendor links (see docs/city-recipes-inventory.md). Each step is gated to
+# its profession; the one pattern that names no profession anywhere in the
+# data ships ungated with an honest note. No stock-class flag exists in the
+# data, so nothing is marked limited.
+guide butler-routes-completionist/darnassus-recipes
+title Darnassus - Recipes & Patterns
+levels 4-60
+zone Darnassus
+faction Alliance
+category Professions
+folder Companions
+keywords darnassus, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Alchemy — Darnassus (Ulthir)
+  when skill Alchemy 1
+
+  vendor 4226 -- Ulthir (55.84, 24.47)
+  buy 5642 "Recipe: Free Action Potion"
+  buy 5643 "Recipe: Great Rage Potion"
+  buy 13477 "Recipe: Superior Mana Potion"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Darnassus (Marcy Baker)
+  when skill Alchemy 1
+
+  vendor 214101 -- Marcy Baker (59.2, 56.6)
+  buy 217399 "Recipe: Lesser Arcane Elixir"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Darnassus (Fyldan)
+  when skill Cooking 1
+
+  vendor 4223 -- Fyldan (48.53, 21.6)
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Darnassus (Vaean)
+  when skill Enchanting 1
+
+  vendor 4228 -- Vaean (58.57, 14.72)
+  buy 6342 "Formula: Enchant Chest - Minor Mana"
+  buy 20752 "Formula: Minor Mana Oil"
+  buy 20753 "Formula: Lesser Wizard Oil"
+  buy 20758 "Formula: Minor Wizard Oil"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Darnassus (Vaean)
+  when skill Tailoring 1
+
+  vendor 4228 -- Vaean (58.57, 14.72)
+  buy 22307 "Pattern: Enchanted Mageweave Pouch"
+  note The pouch is a Tailoring pattern stocked by the Enchanting supplier. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Darnassus (Mythrin'dir)
+  when skill Enchanting 1
+
+  vendor 4229 -- Mythrin'dir (60.96, 17.67)
+  buy 11223 "Formula: Enchant Bracer - Deflection"
+  buy 16217 "Formula: Enchant Shield - Greater Stamina"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Darnassus (Elynna)
+  when skill Tailoring 1
+
+  vendor 4168 -- Elynna (64.58, 21.58)
+  buy 6272 "Pattern: Blue Linen Robe"
+  buy 6275 "Pattern: Greater Adept's Robe"
+  buy 10311 "Pattern: Orange Martial Shirt"
+  buy 215369 "Pattern: Invoker's Cord"
+  buy 215370 "Pattern: Invoker's Mantle"
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note The Invoker's Cord also drops from the Skeletal Fiend in Duskwood and the Mantle from the Shadowhide Darkweaver in Redridge, but this vendor copy's source is physically in Darnassus. The two reagent-bag patterns are also stocked by Dani'ill. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Darnassus (Dani'ill)
+  when skill Tailoring 1
+
+  vendor 258572 -- Dani'ill (60.73, 28.07)
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note The same two bag patterns are also stocked by Elynna. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Darnassus (Saenorion)
+  when skill Leatherworking 1
+
+  vendor 4225 -- Saenorion (63.69, 22.28)
+  buy 7451 "Pattern: Green Whelp Bracers"
+  buy 18949 "Pattern: Barbaric Bracers"
+  buy 252783 "Pattern: Mystic Medium Armor Kit"
+  buy 252784 "Pattern: Forceful Medium Armor Kit"
+  buy 252811 "Pattern: Mystic Heavy Armor Kit"
+  buy 252812 "Pattern: Forceful Heavy Armor Kit"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Darnassus (Saenorion)
+  when skill Tailoring 1
+
+  vendor 4225 -- Saenorion (63.69, 22.28)
+  buy 277716 "Pattern: Light Leather Reagent Bag"
+  note The bag is a Tailoring pattern stocked by the Leatherworking supplier. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Darnassus (Marcy Baker)
+  when skill Blacksmithing 1
+
+  vendor 214101 -- Marcy Baker (59.2, 56.6)
+  buy 210779 "Plans: Mantle of the Second War"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — Darnassus (Marcy Baker)
+  when skill Engineering 1
+
+  vendor 214101 -- Marcy Baker (59.2, 56.6)
+  buy 212230 "Schematic: Soul Vessel"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Unclassified — Darnassus (Marcy Baker)
+
+  vendor 214101 -- Marcy Baker (59.2, 56.6)
+  buy 211247 "Pattern: Phoenix Bindings"
+  note The data names no profession for this pattern (it also drops from the Burning Blade Augur in Desolace) — every character sees this step; skip it if you cannot learn it. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
