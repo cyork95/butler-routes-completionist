@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.11.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.12.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -25,6 +25,8 @@ Status: **in development (pack v0.11.0), not published yet**. The first release 
 | `westfall-recipes.guide` (companion built, pilot pending) | Westfall recipe sources | 9–18 | Alliance |
 | `dun-morogh-rares.guide` (companion built, pilot pending) | Dun Morogh rares and treasures | 1–12 | Alliance |
 | `dun-morogh-recipes.guide` (companion built, pilot pending) | Dun Morogh recipe sources | 1–12 | Alliance |
+| `loch-modan-rares.guide` (companion built, pilot pending) | Loch Modan rares, figurine and treasures | 10–20 | Alliance |
+| `loch-modan-recipes.guide` (companion built, pilot pending) | Loch Modan recipe sources | 10–20 | Alliance |
 
 Each quest guide takes every quest on the zone's tracker list exactly once: 145 accepts / 145 turn-ins for Zephras Isle, 83 / 83 for Elwynn Forest, 43 / 43 for Westfall, 105 / 105 for Dun Morogh, 41 / 41 for Loch Modan, 95 / 95 for Teldrassil, 74 / 74 for Darkshore. Class quests for other classes are included and gated with `only`, so they never show for a character they are not for.
 
@@ -35,6 +37,8 @@ The two Elwynn companions run the same way beside the Elwynn core route: the rar
 The two Westfall companions run the same way beside the Westfall core route: the rares guide sweeps 14 confirmed rares plus the fixed world containers (Battered and Duskwood Chests, clams, crates, Mech Arms), and the recipes guide collects the 9 vendor-sold recipe sources at the coast, Moonbrook and Sentinel Hill plus one mob-dropped schematic, gated by profession.
 
 The two Dun Morogh companions run the same way beside the Dun Morogh core route: the rares guide sweeps 11 confirmed rares plus the fixed world containers (Battered Chests, caches, footlockers, a strongbox), and the recipes guide collects the 2 vendor-sold recipe sources plus one mob-dropped schematic, gated by profession.
+
+The two Loch Modan companions run the same way beside the Loch Modan core route: the rares guide sweeps 10 confirmed rares plus the Carved Figurine (a level-32 chain starter, banked for later) and the fixed Battered Chest placements, and the recipes guide collects the 10 vendor-sold recipe sources in Thelsamar and Farstrider Lodge, gated by profession.
 
 ## Planned scope
 

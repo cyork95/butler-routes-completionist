@@ -1,4 +1,4 @@
-# Companion unverified (pack 0.11.0)
+# Companion unverified (pack 0.12.0)
 
 Recipe and source candidates for Zephras Isle that could NOT be confirmed from the
 local Forever game data, so they are NOT in the guides. Promote an entry into a
@@ -180,3 +180,52 @@ as above: game-data citation or a named source.
 
 - No respawn data for any of the 11 Dun Morogh rares or any fixed container
   exists in the local build. Every step says the timer is unconfirmed.
+
+---
+
+# Loch Modan (pack 0.12.0)
+
+Recipe and source candidates for Loch Modan that could NOT be confirmed from
+the local Forever game data, so they are NOT in the guides. Same promotion rule
+as above: game-data citation or a named source.
+
+## Quest-reward recipes: class unverifiable locally
+
+- Quest records in the local build carry no reward data, so no quest-reward
+  recipe in Loch Modan can be confirmed or denied from the toolchain. The 10
+  shipped recipes are all vendor-sold. If a Loch Modan quest is later found to
+  reward a recipe, add it as a `note`/`task` step at the relevant hub (the
+  quest itself stays core-only).
+
+## Dropped recipes: all world drops, none shipped
+
+- Full scan of every recipe/pattern/plans/schematic/design/manual/formula item
+  against all 173 Loch Modan-spawning NPC drops and all Loch Modan object
+  drops: every Loch Modan-dropping recipe also drops in 4+ other zones. All are
+  generic multi-zone world drops, none Loch Modan content per the Elwynn rule,
+  so none shipped — unlike Westfall (one exclusive drop) and Dun Morogh (one
+  exclusive drop), Loch Modan has no exclusive-drop recipe. Professions with no
+  Loch Modan source at all (Blacksmithing, Leatherworking, Engineering,
+  Enchanting, First Aid, Fishing) are named as absent in the guide header.
+
+## Stock class: unverifiable locally
+
+- Same finding as before: local item/vendor records carry no
+  limited-vs-unlimited stock flag, so no Loch Modan recipe is marked limited.
+  Each vendor step notes that stock class is unconfirmed.
+
+## Tameability: one task line, one ambiguity logged
+
+- NPC records carry no family/tame flags. The single `only Hunter` tame line
+  (Shanda the Spinner) rests on drop-table evidence — her drops are spider
+  meat, venom sacs, venom and ichor. Lord Condar drops a buzzard beak and his
+  Shaking Egg, which suggest a bird — but a harpy fits that evidence just as
+  well, and harpies are not hunter pets, so his step is kill-only; add a task
+  line only if the game confirms a tameable bird. Every other shipped Loch
+  Modan rare is kill-only.
+
+## Respawn timers: unconfirmed everywhere
+
+- No respawn data for any of the 10 Loch Modan rares, the Carved Figurine, or
+  any fixed container exists in the local build. Every step says the timer is
+  unconfirmed.
