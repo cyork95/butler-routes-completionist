@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.16.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.17.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -19,6 +19,7 @@ Status: **in development (pack v0.16.0), not published yet**. The first release 
 | `darkshore.guide` (core built, pilot pending) | Darkshore (Night Elf second zone) | 10–20 | Alliance |
 | `stormwind.guide` (first city guide built, pilot pending) | Stormwind City (Alliance capital) | 1–60 | Alliance |
 | `ironforge.guide` (second city guide built, pilot pending) | Ironforge (Alliance capital) | 1–60 | Alliance |
+| `darnassus.guide` (third city guide built, pilot pending) | Darnassus (Alliance capital) | 4–60 | Alliance |
 | `zephras-isle-rares.guide` (pilot companion) | Zephras Isle rares and treasures | 1–12 | Alliance (Skyborne) |
 | `zephras-isle-recipes.guide` (pilot companion) | Zephras Isle recipe sources | 1–12 | Alliance (Skyborne) |
 | `elwynn-forest-rares.guide` (companion built, pilot pending) | Elwynn Forest rares and treasures | 1–10 | Alliance |

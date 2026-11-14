@@ -154,9 +154,9 @@ _Cities are in scope as SMALLER guides (Cody, 2026-11-14): a census + core route
 
 _The 19 city-accept quests the Teldrassil census set aside land here._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 132 candidates, 70 IN / 62 OUT
+- [x] Core guide - `darnassus.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 14 persona-plays 0 stuck (R1 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions (only where the data warrants)
