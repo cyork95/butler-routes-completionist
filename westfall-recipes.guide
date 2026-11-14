@@ -1,0 +1,60 @@
+# Butler Routes - Westfall recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics, designs and manuals whose SOURCE is
+# physically in Westfall, verified against the local Forever game data
+# (questie-forever item, vendor and drop tables). Nine recipes are vendor-sold;
+# one schematic drops exclusively from a Westfall mob (see the Engineering step:
+# its source outlevels the zone, so the step says to come back later). Every
+# other dropped recipe is a generic multi-zone world drop, and quest records
+# carry no reward data (see docs/companion-unverified.md). Trainer-taught staples
+# are excluded: Polestar's own profession guides cover those. Each step is gated
+# to its profession; other characters skip it cleanly.
+guide butler-routes-completionist/westfall-recipes
+title Westfall - Recipes & Patterns
+levels 9-18
+zone Westfall
+faction Alliance
+category Professions
+folder Companions
+keywords westfall, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — the southwestern shore (Kriggon Talsone)
+  when skill Cooking 1
+
+  vendor 4305 -- Kriggon Talsone (36.23, 90.18)
+  buy 5528 "Recipe: Clam Chowder"
+  buy 6326 "Recipe: Slitherskin Mackerel"
+  buy 6368 "Recipe: Rainbow Fin Albacore"
+  buy 16111 "Recipe: Spiced Chili Crab"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Moonbrook (Defias Profiteer)
+  when skill Alchemy 1
+
+  vendor 1669 -- Defias Profiteer (43.47, 66.76), the Free Wheeling Merchant
+  buy 5640 "Recipe: Rage Potion"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Sentinel Hill (Gina MacGregor)
+  when skill Leatherworking 1
+
+  vendor 843 -- Gina MacGregor (57.64, 54.05), Trade Supplies
+  buy 5786 "Pattern: Murloc Scale Belt"
+  buy 5787 "Pattern: Murloc Scale Breastplate"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Sentinel Hill (Gina MacGregor)
+  when skill Tailoring 1
+
+  vendor 843 -- Gina MacGregor (57.64, 54.05), Trade Supplies
+  buy 5771 "Pattern: Red Linen Bag"
+  buy 6274 "Pattern: Blue Overalls"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — the southeastern shore (rare drop)
+  when skill Engineering 1
+
+  goto 75.2,88.3
+  collect 264210 "Schematic: Shafety Sheep" optional
+  note Dropped only by the Venture Co. Miner (npc1094) at this point, a level 34 mob far above the zone band: come back at high level rather than fighting it at zone level. The schematic drops nowhere else in the data.
