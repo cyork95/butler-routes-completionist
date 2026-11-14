@@ -1,0 +1,54 @@
+# Butler Routes - Loch Modan recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics, designs and manuals whose SOURCE is
+# physically in Loch Modan, verified against the local Forever game data
+# (questie-forever item, vendor and drop tables). Ten recipes are vendor-sold;
+# every dropped recipe is a generic multi-zone world drop, and quest records
+# carry no reward data (see docs/companion-unverified.md). No Blacksmithing,
+# Leatherworking, Engineering, Enchanting, First Aid or Fishing source is in
+# Loch Modan — trainer staples and world drops cover those. Trainer-taught
+# staples are excluded: Polestar's own profession guides cover those. Each step
+# is gated to its profession; other characters skip it cleanly.
+guide butler-routes-completionist/loch-modan-recipes
+title Loch Modan - Recipes & Patterns
+levels 10-20
+zone Loch Modan
+faction Alliance
+category Professions
+folder Companions
+keywords loch modan, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — Thelsamar (Khara Deepwater)
+  when skill Cooking 1
+
+  vendor 1684 -- Khara Deepwater (40.28, 39.28)
+  buy 6325 "Recipe: Brilliant Smallfish"
+  buy 6328 "Recipe: Longjaw Mud Snapper"
+  buy 6329 "Recipe: Loch Frenzy Delight"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Drac Roughcut
+  when skill Cooking 1
+
+  vendor 1465 -- Drac Roughcut (35.57, 49.15)
+  buy 6892 "Recipe: Smoked Bear Meat"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Thelsamar (Rann Flamespinner)
+  when skill Tailoring 1
+
+  vendor 1474 -- Rann Flamespinner (35.95, 45.87)
+  buy 5772 "Pattern: Red Woolen Bag"
+  buy 6275 "Pattern: Greater Adept's Robe"
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note The Red Woolen Bag pattern also drops from a Westfall mob and one mob elsewhere, but this vendor copy's source is physically in Loch Modan. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Farstrider Lodge (Xandar Goodbeard)
+  when skill Alchemy 1
+
+  vendor 1685 -- Xandar Goodbeard (82.47, 63.35)
+  buy 5640 "Recipe: Rage Potion"
+  buy 6053 "Recipe: Holy Protection Potion"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
