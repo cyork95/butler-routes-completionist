@@ -4917,6 +4917,387 @@
           "name": "Rekindle"
         }
       ]
+    },
+    {
+      "id": "duskwood",
+      "name": "Duskwood",
+      "order": 14,
+      "levelBand": "17-28",
+      "summary": "Set 2 finale (Alliance): Darkshire hub with Night Watch, Stalvan, Sven, Abercrombie, Viktori and Carevin chains, Raven Hill, the custom Nightmare mission board, writs and twins. Leads on to Stranglethorn and Redridge.",
+      "quests": [
+        {
+          "id": 5,
+          "name": "Jitters' Growling Gut"
+        },
+        {
+          "id": 55,
+          "name": "Morbent Fel"
+        },
+        {
+          "id": 56,
+          "name": "The Night Watch"
+        },
+        {
+          "id": 57,
+          "name": "The Night Watch"
+        },
+        {
+          "id": 58,
+          "name": "The Night Watch"
+        },
+        {
+          "id": 66,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 67,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 69,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 79,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 80,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 90,
+          "name": "Seasoned Wolf Kabobs"
+        },
+        {
+          "id": 93,
+          "name": "Dusky Crab Cakes"
+        },
+        {
+          "id": 95,
+          "name": "Sven's Revenge"
+        },
+        {
+          "id": 97,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 98,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 101,
+          "name": "The Totem of Infliction"
+        },
+        {
+          "id": 133,
+          "name": "Ghoulish Effigy"
+        },
+        {
+          "id": 134,
+          "name": "Ogre Thieves"
+        },
+        {
+          "id": 146,
+          "name": "Messenger to Darkshire"
+        },
+        {
+          "id": 148,
+          "name": "Supplies from Darkshire"
+        },
+        {
+          "id": 149,
+          "name": "Ghost Hair Thread"
+        },
+        {
+          "id": 154,
+          "name": "Return the Comb"
+        },
+        {
+          "id": 156,
+          "name": "Gather Rot Blossoms"
+        },
+        {
+          "id": 157,
+          "name": "Deliver the Thread"
+        },
+        {
+          "id": 158,
+          "name": "Zombie Juice"
+        },
+        {
+          "id": 159,
+          "name": "Juice Delivery"
+        },
+        {
+          "id": 160,
+          "name": "Note to the Mayor"
+        },
+        {
+          "id": 163,
+          "name": "Raven Hill"
+        },
+        {
+          "id": 164,
+          "name": "Deliveries to Sven"
+        },
+        {
+          "id": 165,
+          "name": "The Hermit"
+        },
+        {
+          "id": 173,
+          "name": "Worgen in the Woods"
+        },
+        {
+          "id": 174,
+          "name": "Look To The Stars"
+        },
+        {
+          "id": 175,
+          "name": "Look To The Stars"
+        },
+        {
+          "id": 177,
+          "name": "Look To The Stars"
+        },
+        {
+          "id": 181,
+          "name": "Look To The Stars"
+        },
+        {
+          "id": 221,
+          "name": "Worgen in the Woods"
+        },
+        {
+          "id": 222,
+          "name": "Worgen in the Woods"
+        },
+        {
+          "id": 223,
+          "name": "Worgen in the Woods"
+        },
+        {
+          "id": 225,
+          "name": "The Weathered Grave"
+        },
+        {
+          "id": 226,
+          "name": "Wolves at Our Heels"
+        },
+        {
+          "id": 227,
+          "name": "Morgan Ladimore"
+        },
+        {
+          "id": 228,
+          "name": "Mor'Ladim"
+        },
+        {
+          "id": 229,
+          "name": "The Daughter Who Lived"
+        },
+        {
+          "id": 230,
+          "name": "Sven's Camp"
+        },
+        {
+          "id": 231,
+          "name": "A Daughter's Love"
+        },
+        {
+          "id": 236,
+          "name": "Awaiting Word"
+        },
+        {
+          "id": 240,
+          "name": "Return to Jitters"
+        },
+        {
+          "id": 245,
+          "name": "Eight-Legged Menaces"
+        },
+        {
+          "id": 251,
+          "name": "Translate Abercrombie's Note"
+        },
+        {
+          "id": 252,
+          "name": "Translation to Ello"
+        },
+        {
+          "id": 253,
+          "name": "Bride of the Embalmer"
+        },
+        {
+          "id": 254,
+          "name": "Digging Through the Dirt"
+        },
+        {
+          "id": 262,
+          "name": "The Shadowy Figure"
+        },
+        {
+          "id": 265,
+          "name": "The Shadowy Search Continues"
+        },
+        {
+          "id": 266,
+          "name": "Inquire at the Inn"
+        },
+        {
+          "id": 268,
+          "name": "Return to Sven"
+        },
+        {
+          "id": 269,
+          "name": "Seeking Wisdom"
+        },
+        {
+          "id": 323,
+          "name": "Proving Your Worth"
+        },
+        {
+          "id": 377,
+          "name": "Crime and Punishment"
+        },
+        {
+          "id": 401,
+          "name": "Wait for Sirra to Finish"
+        },
+        {
+          "id": 453,
+          "name": "Finding the Shadowy Figure"
+        },
+        {
+          "id": 81730,
+          "name": "Duskwood Mission I: Defeat Worgen"
+        },
+        {
+          "id": 81731,
+          "name": "Duskwood Mission II: Defeat Ogres"
+        },
+        {
+          "id": 81732,
+          "name": "Duskwood Mission III: Defeat Dragonkin"
+        },
+        {
+          "id": 81733,
+          "name": "Duskwood Mission IV: Ogre Intelligence"
+        },
+        {
+          "id": 81734,
+          "name": "Duskwood Mission V: Worgen Intelligence"
+        },
+        {
+          "id": 81735,
+          "name": "Duskwood Mission VI: Dragon Intelligence"
+        },
+        {
+          "id": 81736,
+          "name": "Duskwood Mission VII: Recover Shadowscythe"
+        },
+        {
+          "id": 81737,
+          "name": "Duskwood Mission VIII: Recover Ogre Magi text"
+        },
+        {
+          "id": 81738,
+          "name": "Duskwood Mission IX: Recover Dragon Egg"
+        },
+        {
+          "id": 81739,
+          "name": "Duskwood Mission X: Nightmare Moss"
+        },
+        {
+          "id": 81740,
+          "name": "Duskwood Mission XI: Cold Iron Ore"
+        },
+        {
+          "id": 81741,
+          "name": "Duskwood Mission XII: Dream-Touched Dragonscale"
+        },
+        {
+          "id": 81742,
+          "name": "Duskwood Mission XIII: Defeat Ylanthrius"
+        },
+        {
+          "id": 81743,
+          "name": "Duskwood Mission XIV: Defeat Vvarc'zul"
+        },
+        {
+          "id": 81744,
+          "name": "Duskwood Mission XV: Defeat Amokarok"
+        },
+        {
+          "id": 81745,
+          "name": "Duskwood Mission XVI: Rescue Kroll Mountainshade"
+        },
+        {
+          "id": 81746,
+          "name": "Duskwood Mission XVII: Rescue Alara Grovemender"
+        },
+        {
+          "id": 81747,
+          "name": "Duskwood Mission XVIII: Rescue Elenora Marshwalker"
+        },
+        {
+          "id": 94214,
+          "name": "Craftsman's Writ: Shadow Protection Potion"
+        },
+        {
+          "id": 94223,
+          "name": "Craftsman's Writ: Silver Skeleton Key"
+        },
+        {
+          "id": 94232,
+          "name": "Craftsman's Writ: Minor Recombobulator"
+        },
+        {
+          "id": 94250,
+          "name": "Craftsman's Writ: Small Silk Pack"
+        },
+        {
+          "id": 98372,
+          "name": "An Unfortunate End"
+        },
+        {
+          "id": 99267,
+          "name": "An Unfortunate End"
+        },
+        {
+          "id": 96138,
+          "name": "Merrick's Bow"
+        },
+        {
+          "id": 96139,
+          "name": "The Valor Family"
+        },
+        {
+          "id": 78147,
+          "name": "Crimes Against Anatomy"
+        },
+        {
+          "id": 1042,
+          "name": "The Carevin Family"
+        },
+        {
+          "id": 1043,
+          "name": "The Scythe of Elune"
+        },
+        {
+          "id": 1044,
+          "name": "Answered Questions"
+        },
+        {
+          "id": 1244,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1245,
+          "name": "The Missing Diplomat"
+        }
+      ]
     }
   ]
 }
