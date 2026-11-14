@@ -1,0 +1,430 @@
+# Butler Routes - Elwynn Forest rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 24 confirmed rares and the fixed world containers
+# of Elwynn Forest. Run it in its own Polestar tab at the end of the core route or
+# standalone. EVERY goal is optional: a rare that is not up never holds the route.
+# Spawn points, levels and loot are the local Forever game data (questie-forever);
+# respawn timers are unconfirmed anywhere, so none are stated. Named mobs that are
+# core-route quest targets (Garrick, Goldtooth, Princess, Hogger, Morgan) are NOT
+# here: the core guide covers their quests. See docs/elwynn-companions-inventory.md
+# for the full inventory this guide was built against.
+guide butler-routes-completionist/elwynn-forest-rares
+title Elwynn Forest - Rares & Treasures
+levels 1-10
+zone Elwynn Forest
+faction Alliance
+category Collectibles
+folder Companions
+keywords elwynn, rares, treasures, companions
+coords live
+version 1
+
+step Ada Gelhardt — far southwest Elwynn
+
+  loop
+  goto 23.38,96.13
+  goto 23.53,95.23
+  goto 23.73,94.72
+  goto 24.41,97.42
+  goto 24.57,96.68
+  goto 24.63,95.37
+  goto 25.13,95.83
+  goto 25.32,97.55
+  goto 25.66,97.02
+  goto 25.69,96.39
+  kill 205153 optional
+  note Level 10 rare. No loot recorded in the data; respawn timer unconfirmed.
+
+step Longsnout — the southwest hills
+
+  loop
+  goto 24.28,82.66
+  goto 24.33,83.75
+  goto 24.56,88.49
+  goto 24.65,86.95
+  goto 24.97,85.8
+  goto 25.01,84.77
+  goto 25.48,82.24
+  goto 25.7,79.76
+  goto 26.42,82.31
+  kill 119 optional
+  task "Tame it instead of killing it" optional only Hunter
+  note Level 10 rare boar; his drops are boar meat and tusks. No unique loot recorded.
+  note Also drops ordinary greens (Calico Shoes, Wooden Shield); respawn timer unconfirmed.
+
+step Gruff Swiftbite — the southwest hills
+
+  loop
+  goto 25.39,89.75
+  goto 26.09,91.92
+  goto 26.35,86.68
+  goto 27.72,86.03
+  goto 27.93,88.21
+  kill 100 optional
+  collect 281993 "Gnoll Hide Boots" optional
+  note Level 12 rare gnoll. Also carries a Gold Pickup Schedule (item 1307), which starts the core quest The Collector (123); the core route covers that quest.
+  note Also drops ordinary greens (Ragged Leather Vest, Worn Hatchet); respawn timer unconfirmed.
+
+step Wandering Swordsman — the western patrol
+
+  loop
+  goto 22.2,73.4
+  goto 22.6,73.2
+  goto 25.2,70
+  goto 25.6,69.8
+  goto 30,73
+  goto 36,80.4
+  goto 38.4,75.4
+  goto 40.8,74.6
+  kill 203079 optional
+  note Level 7 rare. Walks a long patrol across the west. No loot recorded in the data.
+  note A Swordsman's Reward cache (object 392029) is confirmed at five points along his patrol: (22.3, 73.3), (25.3, 70.2), (30.0, 73.4), (38.6, 75.6), (40.9, 74.7). Respawn timer unconfirmed.
+
+step Rumbler — the west hollows and central woods
+
+  loop
+  goto 36.08,85.3
+  goto 38.04,82.52
+  goto 38.27,88.74
+  goto 39.21,85.67
+  goto 39.38,80.36
+  goto 40.86,77.51
+  goto 40.95,83.66
+  goto 41.63,81.53
+  goto 42.3,85.62
+  goto 42.41,89.29
+  goto 58.33,57.8
+  goto 58.48,55.86
+  goto 58.81,60.97
+  goto 59.98,49.16
+  goto 60.11,58.71
+  goto 60.64,47.07
+  goto 60.85,54.14
+  goto 61.12,51.3
+  goto 61.9,56.61
+  goto 63.16,53.58
+  goto 63.3,59.37
+  goto 64.42,54.95
+  goto 64.54,57.33
+  goto 65.9,59.13
+  kill 248463 optional
+  note Level 6 rare. His confirmed points fall in two clusters, one in the west hollows and one in the central woods. No loot recorded in the data; respawn timer unconfirmed.
+
+step Narg the Taskmaster — the west
+
+  goto 40.91,77.52
+  kill 79 optional
+  collect 1913 "Studded Blackjack" optional
+  collect 6147 "Ratty Old Belt" optional
+  note Level 10 rare kobold.
+  note Also drops ordinary greens (Ragged Leather Vest, Lumberjack Axe); respawn timer unconfirmed.
+
+step Morgaine the Sly — the western woods
+
+  goto 30.81,64.73
+  kill 99 optional
+  collect 1917 "Jeweled Dagger" optional
+  collect 6201 "Lithe Boots" optional
+  note Level 10 rare.
+  note Also drops ordinary greens (Journeyman's Tunic, Ragged Leather Vest) and shares the generic world-drop table; respawn timer unconfirmed.
+
+step Defias Dockmaster — the west lake
+
+  goto 48.06,86.96
+  kill 6846 optional
+  note Level 10 rare. Carries a Defias Shipping Schedule (item 7675), shared world loot also dropped elsewhere, not unique to him.
+  note Also drops ordinary greens (Ragged Leather Vest, Notched Shortsword); respawn timer unconfirmed.
+
+step Shinyfinder Narf — the north
+
+  goto 49.22,28.01
+  kill 248362 optional
+  collect 247886 "Sack of \"Picture\" Books" optional
+  note Level 3 rare.
+  note Also drops ordinary greens (Ragged Leather Vest, Flimsy Chain Boots); respawn timer unconfirmed.
+
+step Eviatar Achitov — the north
+
+  loop
+  goto 47.07,43.09
+  goto 49.16,42.22
+  goto 49.24,41.47
+  goto 49.25,40.85
+  kill 274909 optional
+  note Level 5 rare. No loot recorded in the data; respawn timer unconfirmed.
+
+step Cutty — central Elwynn
+
+  goto 49.8,52
+  kill 201854 optional
+  note Level 8 rare. No loot recorded in the data; respawn timer unconfirmed.
+
+step Thuros Lightfingers — on the move
+
+  loop
+  goto 28.58,59.92
+  goto 29.23,58
+  goto 30.81,57.12
+  goto 50.51,82.93
+  goto 50.94,83.1
+  goto 52.66,58.91
+  goto 89.3,79.28
+  goto 89.94,79.45
+  kill 61 optional
+  note Level 11 rare. His confirmed points are scattered from the western woods to the far east; check them opportunistically, not as one walk.
+  note Also drops ordinary greens (Calico Tunic, Wooden Shield, Journeyman's Vest) and shares the generic world-drop table; respawn timer unconfirmed.
+
+step Ruklar the Trapper — central Elwynn
+
+  goto 64.64,56.65
+  kill 60 optional
+  note Level 8 rare. No equipment recorded; his pack holds a trapper's gathered goods (Peacebloom, Copper Ore, Forest Mushroom Cap).
+  note Also drops ordinary greens (Journeyman's Robe, Training Sword); respawn timer unconfirmed.
+
+step Mother Fang — central Elwynn
+
+  goto 62.14,48.05
+  kill 471 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 3000 "Brood Mother Carapace" optional
+  collect 6148 "Web-covered Boots" optional
+  collect 22176 "Homemade Bread" optional
+  note Level 7 rare spider; her drops are spider limbs and ichor.
+  note Also drops ordinary greens (Ragged Leather Vest, Notched Shortsword); respawn timer unconfirmed.
+
+step Servant of Azora — the Tower of Azora
+
+  loop
+  goto 64,69.59
+  goto 64.41,69.94
+  goto 64.44,68.4
+  goto 64.74,69.61
+  goto 64.78,69.93
+  goto 64.79,70.62
+  goto 65.07,70.11
+  goto 65.12,69.48
+  goto 65.42,70.11
+  kill 1949 optional
+  note Level 10 rare. Stays by the Tower of Azora.
+  note Also drops ordinary greens (Ragged Leather Vest, Notched Shortsword); respawn timer unconfirmed.
+
+step Matriarch Bristlefur — the central-east woods
+
+  loop
+  goto 46.18,69.43
+  goto 49.62,81.35
+  goto 49.86,76.69
+  goto 50,78.98
+  goto 50.65,72.21
+  goto 51.5,83.73
+  goto 52.96,80.06
+  goto 53.07,76.8
+  goto 55.02,82.92
+  goto 56.45,77.48
+  goto 57.62,80.52
+  goto 59.14,82.94
+  goto 59.6,78.36
+  goto 60.45,76.26
+  goto 60.71,73.9
+  goto 61.8,80.21
+  goto 62.85,73.96
+  goto 62.9,77.06
+  goto 64.39,70.61
+  goto 65.16,74.71
+  goto 65.27,79.17
+  goto 67.29,79.8
+  goto 67.34,77.36
+  goto 69.27,74.94
+  kill 276189 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 286748 "Bristlebark Bow" optional
+  note Level 10 rare bear; the core route's Helene note names her as an errand target outside the tracker.
+  note Besides her bow she drops only bear teeth and scrolls; respawn timer unconfirmed.
+
+step Fedfennel — east-central Elwynn
+
+  loop
+  goto 66.48,40.89
+  goto 67.94,39.57
+  goto 68.13,44.87
+  goto 69.12,38.86
+  kill 472 optional
+  collect 5744 "Pale Skinner" optional
+  note Level 12 rare gnoll.
+  note Also drops ordinary greens (Calico Tunic, Warped Leather Vest, Notched Shortsword); respawn timer unconfirmed.
+
+step Elder Finseer — the east
+
+  loop
+  goto 75.25,56.62
+  goto 76.07,54.22
+  goto 76.28,60.46
+  goto 76.59,42.45
+  goto 76.71,58.4
+  goto 77.27,49.92
+  goto 78.03,51.89
+  goto 78.13,43.56
+  goto 78.23,55.94
+  goto 78.54,61.49
+  goto 78.55,46.09
+  goto 78.96,57.43
+  goto 79.07,59.13
+  goto 79.47,47.79
+  goto 79.49,53.06
+  goto 79.95,55.58
+  goto 80.06,43.5
+  goto 80.69,51.75
+  goto 80.76,49.78
+  goto 80.86,61.46
+  goto 81.24,57.06
+  goto 81.31,46.66
+  goto 82.25,54.75
+  goto 83.54,59.55
+  kill 276180 optional
+  note Level 11 rare murloc. His drops are murloc fins and seashells; not tameable.
+  note Also drops ordinary greens (Warped Leather Belt, Raw Slitherskin Mackerel) and shares the generic world-drop table, including Recipe: Minor Cleric's Elixir (item 250366, also dropped elsewhere, so the recipes guide does not ship it); respawn timer unconfirmed.
+
+step Croaky — the eastern lakes
+
+  loop
+  goto 69.02,81.7
+  goto 71.32,79.03
+  goto 71.48,83.82
+  goto 72.27,85.51
+  goto 73.42,81.65
+  goto 74.17,78.09
+  goto 74.29,84.13
+  goto 75.26,86.94
+  goto 76.11,80.11
+  goto 76.54,71.72
+  goto 76.85,83.22
+  goto 76.91,74.78
+  goto 77.33,85.6
+  goto 77.91,77.94
+  goto 79,87.25
+  goto 79.04,79.86
+  goto 79.25,81.93
+  goto 80.39,75.92
+  goto 80.41,84
+  goto 80.69,86.35
+  goto 81.83,87.83
+  goto 82.91,84.08
+  goto 83.57,81.92
+  goto 83.75,88.77
+  kill 248278 optional
+  collect 247826 "Croaky's Head" optional
+  note Level 11 rare murloc. His drops are murloc fins and seashells; not tameable.
+  note His head starts the quest Croaky's Head (91740), which is not in the core contract, so the core route does not cover it. Also drops ordinary greens (Warped Leather Belt, Worn Hatchet, Wooden Shield); respawn timer unconfirmed.
+
+step Surena Caledon — the east
+
+  goto 71.01,80.77
+  kill 881 optional
+  collect 6810 "Surena's Choker" optional
+  note Level 9 rare.
+  note Also drops ordinary greens (Warrior's Tunic, Ragged Leather Vest); respawn timer unconfirmed.
+
+step Erlan Drudgemoor — the east
+
+  goto 70.95,80.63
+  kill 880 optional
+  note Level 8 rare. Dens with Surena Caledon nearby; the two are separate kills.
+  note Also drops ordinary greens (Ragged Leather Vest, Notched Shortsword) and shares the generic world-drop table; respawn timer unconfirmed.
+
+step James Clark — the eastern woods
+
+  goto 78.62,67.06
+  kill 13159 optional
+  note Level 12 rare. The data records almost no loot on him, only Silverleaf.
+  note His journal (object 178526, James' Journal) sits nearby at (78.52, 67.25), and a Stolen Chest (object 178504) is confirmed at (64.76, 41.42); neither starts a quest in the data. Respawn timer unconfirmed.
+
+step Dead-Tooth Jack — the far east
+
+  goto 89.36,79.03
+  kill 6093 optional
+  collect 6783 "Dead-tooth's Key" optional
+  note Level 11 rare. His key opens Dead-tooth's Strongbox (object 85563) at (89.33, 78.88), right beside him; the strongbox starts no quest in the data.
+  note Also drops ordinary greens (Calico Tunic, Worn Mail Vest); respawn timer unconfirmed.
+
+step Elmpaw — across the east
+
+  loop
+  goto 68.36,39.33
+  goto 68.65,50.43
+  goto 69.78,44.89
+  goto 72.66,36.65
+  goto 74.39,47.08
+  goto 74.94,84.44
+  goto 75.12,72.4
+  goto 75.42,40.78
+  goto 76.92,33.72
+  goto 79.55,42.45
+  goto 79.6,38.26
+  goto 79.9,53.15
+  goto 79.95,84.28
+  goto 80.27,46.3
+  goto 81.28,63.04
+  goto 81.83,79.31
+  goto 82.32,88.67
+  goto 83.06,58.9
+  goto 84.06,83.28
+  goto 85.22,73.87
+  goto 86.34,87.92
+  goto 86.6,78.87
+  goto 88.31,83.62
+  goto 90.4,76.37
+  kill 248299 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 247862 "Elmpaw's Head" optional
+  note Level 12 rare bear; the core route's Helene note names her as an errand target outside the tracker.
+  note Her head starts the quest Elmpaw's Head (91746), which is not in the core contract, so the core route does not cover it. Otherwise she drops only bear parts and trade goods (Bear Meat, Medium Leather); respawn timer unconfirmed.
+
+step Fixed Chests — world containers
+
+  loop
+  goto 49.13,28.23
+  goto 49.31,29.13
+  goto 49.97,26.66
+  goto 52.36,51.89
+  goto 52.99,47.5
+  goto 56.89,43.89
+  goto 57.59,48.45
+  goto 23.82,58.99
+  goto 24.43,93.51
+  goto 26.04,92.11
+  goto 27.85,88.33
+  goto 30.74,64.65
+  goto 36.14,65.7
+  goto 37.85,83.24
+  goto 40.77,77.64
+  goto 41.61,52.69
+  goto 41.72,81.61
+  goto 47.6,86.46
+  goto 48.71,87.88
+  goto 52.39,58.92
+  goto 55.66,67.05
+  goto 61.28,49.52
+  goto 62.26,48.02
+  goto 64.99,56.21
+  goto 66.18,40.7
+  goto 71.18,80.58
+  goto 71.42,76.57
+  goto 74.02,50.14
+  goto 76.47,86.43
+  goto 79.35,54.6
+  goto 79.38,57.01
+  goto 30.5,97.9
+  goto 44.3,65.82
+  goto 52.6,51.8
+  goto 50.6,27.2
+  goto 46.2,62.1
+  goto 80.4,79.4
+  interact 2843 optional
+  interact 106318 optional
+  interact 2850 optional
+  interact 1560 optional
+  interact 387477 optional
+  interact 397987 optional
+  interact 387466 optional
+  interact 386675 optional
+  note Thirty-one fixed Battered Chest placements (objects 2843 and 106318), one Solid Chest (2850) at (30.5, 97.9), one Storage Chest (1560) at (44.3, 65.82), a Defias Stashbox (387477) at (52.6, 51.8), a Kobold Stashbox (397987) at (50.6, 27.2), a Rusty Lockbox (387466) at (46.2, 62.1), and a Buried Treasure (386675) at (80.4, 79.4). All hold ordinary low-level goods; no unique treasure confirmed.
+  note Also confirmed but not a container: Stolen Books (object 83763) at (56.71, 43.96). Respawn timers unconfirmed.
