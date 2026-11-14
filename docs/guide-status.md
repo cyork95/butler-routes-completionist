@@ -14,7 +14,7 @@ _Where every zone stands. Updated 2026-11-13 · Pack v0.2.0 · Repo: `cyork95/bu
 
 Companions (Rares & Treasures · Recipes & Patterns) follow the core guide once the Zephras template is proven.
 
-**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside** → then **Alliance completion** (companions for every Alliance zone, plus all pilots and pilot fixes) → then **Set 2** (Redridge Mountains → Ashenvale → Stonetalon Mountains → Duskwood) → then **Set 3** (Wetlands → Stranglethorn Vale → Riverglades → Thousand Needles → Desolace) → then **Set 4** (Hillsbrad Foothills → Arathi Highlands → Alterac Mountains → Moonglade → Dustwallow Marsh → Feralas → Tanaris) → **Horde last** (Durotar, Mulgore, Tirisfal, Zephras twin).
+**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside** → then **Alliance completion** (companions for every Alliance zone, plus all pilots and pilot fixes) → then **Set 2** (Redridge Mountains → Ashenvale → Stonetalon Mountains → Duskwood) → then **Set 3** (Wetlands → Stranglethorn Vale → Riverglades → Thousand Needles → Desolace) → then **Set 4** (Hillsbrad Foothills → Arathi Highlands → Alterac Mountains → Moonglade → Dustwallow Marsh → Feralas → Tanaris) → then **Set 5** (Badlands → Blasted Lands → Searing Gorge → Felwood → Azshara → Un'Goro Crater) → then **Set 6** (everything left) → **Horde last** (Durotar, Mulgore, Tirisfal, Zephras twin).
 
 ---
 
@@ -300,37 +300,186 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 
 ---
 
+## Set 5 — the next tier (after Set 4, before the Horde block)
+
+### Badlands — contested (Eastern Kingdoms)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Blasted Lands — contested (Eastern Kingdoms)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Searing Gorge — contested (Eastern Kingdoms)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Felwood — contested (Kalimdor)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Azshara — contested (Kalimdor)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Un'Goro Crater — contested (Kalimdor)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+---
+
+## Set 6 — everything left (after Set 5, before the Horde block)
+
+### Silverpine Forest — Horde second zone
+
+_Horde heartland — a Horde-faction route, written here in leveling order, ahead of the Horde starting block._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### The Barrens — Horde second zone
+
+_Horde heartland — a Horde-faction route, written here in leveling order, ahead of the Horde starting block._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Swamp of Sorrows — contested (Eastern Kingdoms)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### The Hinterlands — contested (Eastern Kingdoms)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Western Plaguelands — contested (Eastern Kingdoms)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Eastern Plaguelands — contested (Eastern Kingdoms)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Burning Steppes — contested (Eastern Kingdoms)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Deadwind Pass — contested (Eastern Kingdoms)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Winterspring — contested (Kalimdor)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Silithus — contested (Kalimdor)
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Mount Hyjal — Kalimdor
+
+_Content as the game data dictates._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Shen'dralas — Forever-original zone
+
+_No public rare data yet — its census leans on game data._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+---
+
 ## Beyond v1.0 — every other open-world zone
 
-_Not started. Same pipeline applies when we get there._
-
-### Eastern Kingdoms
-
-- [ ] Badlands
-- [ ] Blasted Lands
-- [ ] Burning Steppes
-- [ ] Deadwind Pass
-- [ ] Eastern Plaguelands
-- [ ] Searing Gorge
-- [ ] Silverpine Forest
-- [ ] Swamp of Sorrows
-- [ ] The Hinterlands
-- [ ] Western Plaguelands
-
-### Kalimdor
-
-- [ ] Azshara
-- [ ] The Barrens
-- [ ] Felwood
-- [ ] Mount Hyjal
-- [ ] Silithus
-- [ ] Un'Goro Crater
-- [ ] Winterspring
-
-### Forever-new lands
-
-- [ ] Shen'dralas
-
-_No public rare data yet for either — their censuses will lean on game data._
+_Every open-world zone is now assigned to a set — nothing remains here._
 
 **Out of scope by design:** capital cities (no zone route to write) and dungeons/raids (Polestar's own journal covers them).
