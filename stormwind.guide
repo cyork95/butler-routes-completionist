@@ -1,0 +1,889 @@
+# Butler Routes - Stormwind City completionist (pack butler-routes-completionist, v1).
+# Every Stormwind City quest in the local census (190 quests,
+# docs/stormwind-census.md) appears exactly once as an accept and once as a
+# turnin. Stormwind is a hub the character returns to across their whole
+# leveling life, so the route is ordered for repeated use: grouped by district
+# with chains kept together, then accept-based expeditions by destination zone.
+# Quest levels run 1-60 (min-levels 1-60); high-level legs carry notes saying
+# which level they belong to. One special: 1716 shows level -1 (the warlock
+# infernal ritual, gated min 20). Coordinates in Stormwind use the era frame;
+# expedition stops use the frames their data carries, set with zone map lines.
+guide butler-routes-completionist/stormwind-city
+title Stormwind City - Completionist
+levels 1-60
+zone Stormwind City
+faction Alliance
+category Leveling
+folder Cities
+keywords stormwind, city, completionist
+coords live
+version 1
+
+step Stormwind Harbor — arrival
+
+  note Stormwind is a hub for the whole leveling life: land at the harbor, and set your hearth at Innkeeper Allison in the Trade District when you pass her.
+  note Quests here span level 1 to 60 — the steps say which legs belong to which level; low-level arrivals do the early steps and come back for the rest.
+  accept 97220 -- Philmor's Favor - Manifest Clerk Philmor; Elaine Trias waits up the hill
+  goto 26.12,47.06
+  accept 95065 optional -- Fishin' Time - Gilbert Gray; shiny baubles and nightcrawlers, whatever the water gives
+  turnin 97220 -- Philmor's Favor - Philmor's word to Elaine Trias
+  accept 97222 -- Gatehouse Goods - Elaine Trias; the Gatehouse Door just up the road
+  complete 97222 @66.48,74.8 era -- the Gatehouse Door
+  turnin 97222 -- Gatehouse Goods - back to Elaine Trias
+  complete 95065 @26.12,47.06 era -- Shiny Baubles and Nightcrawlers for Gilbert Gray optional
+  turnin 95065 optional -- Fishin' Time - back to Gilbert Gray
+
+step Trade District — wine shop errands
+
+  accept 332 -- Wine Shop Advert - Renato Gallina; Suzetta waits across the district
+  accept 333 -- Harlan Needs a Resupply - Harlan Bagley; Rema Schneider takes it
+  turnin 332 -- Wine Shop Advert - the advert to Suzetta Gallina
+  turnin 333 -- Harlan Needs a Resupply - the resupply to Rema Schneider
+  accept 334 -- Package for Thurman - Rema Schneider; young Thurman down by the canals
+  turnin 334 -- Package for Thurman - the package to Thurman Schneider
+
+step Trade District — the town crier
+
+  note Crier Goodman's three calls each leave the city the moment they are taken.
+  accept 1015 -- The New Frontier - Crier Goodman; Arch Druid Fandral Staghelm waits in Darnassus, late
+  accept 5066 -- A Call to Arms: The Plaguelands! - Crier Goodman; Commander Ashlam Valorfist waits in the Western Plaguelands
+  accept 7494 -- Feathermoon Stronghold - Crier Goodman; Latronicus Moonspear waits in Feralas, late
+
+step Trade District — the Colara affair
+
+  accept 8897 -- Dearest Colara, - Lieutenant Jocryn Heldric; Colara Dean just down the row
+  turnin 8897 -- Dearest Colara, - the letter to Colara Dean
+  accept 8903 -- Dangerous Love - Aristan Mottar; a Stormwind Guard's card first
+  complete 8903 @61.92,74.96 era -- a Stormwind Guard's card off the Stormwind Guard
+  turnin 8903 -- Dangerous Love - back to Aristan Mottar
+  accept 9024 -- Aristan's Hunch - Aristan Mottar; cologne and perfume bottles for Morgan Pestle
+  complete 9024 @63.16,74.41 era -- cologne and perfume bottles for Morgan Pestle
+  turnin 9024 -- Aristan's Hunch - the bottles to Morgan Pestle
+  accept 9025 -- Morgan's Discovery - Morgan Pestle; carry it back to Aristan
+  turnin 9025 -- Morgan's Discovery - back to Aristan Mottar
+  accept 9026 -- Tracing the Source - Aristan Mottar; Innkeeper Allison takes it
+  turnin 9026 -- Tracing the Source - the trail to Innkeeper Allison
+  accept 9027 -- Tracing the Source - Innkeeper Allison; Evert Sorisam across town
+  turnin 9027 -- Tracing the Source - the trail to Evert Sorisam
+  accept 9028 -- The Source Revealed - Evert Sorisam; Apothecary Lerent moves between Arathi, Hillsbrad and the Hinterlands, late
+  note Apothecary Lerent's turn-in is an expedition (see the eastern kingdoms step); the data has him at 89.37, 74.94 in Arathi first.
+
+step Trade District — Matron Nightingale's charge
+
+  goto 56.31,53.99
+  note The Matron's parchments come with the world, not from a placed source: check the bags on the way.
+  accept 92415 -- Remember That I Love You - a Blood-Stained Parchment, a Last Scrawling; the Matron takes them
+  note 92415's items (251270, 251520) have no source in the data — presumed granted by the world around the quest, so this accept never wedges. Take it before seeing the Matron.
+  turnin 92415 -- Remember That I Love You - the scrawlings to Orphan Matron Nightingale
+  accept 95161 -- Remember That I Love You - Orphan Matron Nightingale; Avette Fellwood waits in Duskwood
+
+step Trade District — a message for the Arch Druid
+
+  accept 3789 -- Assisting Arch Druid Staghelm - Innkeeper Allison; Arch Druid Fandral Staghelm waits in Darnassus, late
+
+step Cathedral Square — the clerics' court
+
+  accept 3636 -- Bring the Light - Archbishop Benedictus; Amnennar the Coldbringer at the end of Razorfen Downs, with a group
+  zone map 1413
+  complete 3636 @45.83,87.62 era -- Amnennar the Coldbringer, at the end of Razorfen Downs
+  note Amnennar has no fixed point in the data: this goal marks the nearest Razorfen ground, take the quest now, kill him inside Razorfen Downs in the Barrens when ready with a group, hand in on return.
+  zone map 1453
+  turnin 3636 -- Bring the Light - Amnennar's head to Archbishop Benedictus
+  accept 343 -- Speaking of Fortitude - Brother Kristoff; Milton Sheaf takes it
+  turnin 343 -- Speaking of Fortitude - the word to Milton Sheaf
+  accept 344 -- Brother Paxton - Milton Sheaf; Brother Paxton waits in Elwynn
+  accept 538 -- Southshore - Milton Sheaf; Loremaster Dibbs waits in Hillsbrad
+  note An Old History Book (337) is uncontracted: a world-drop start the city rule leaves out, so 538's pre never fills — take 538 on its own.
+  accept 579 -- Stormwind Library - Donyal Tovald; a Library Scrip
+  complete 579 @75.05,30.12 era -- the Library Scrip, from Donyal's shelves
+  turnin 579 -- Stormwind Library - the scrip back to Donyal Tovald
+  accept 97237 -- Shelf Picked - Donyal Tovald; four razed-library books for Roy Lewells
+  accept 97234 -- Reading Room - Roy Lewells; Donyal Tovald takes it
+  turnin 97234 -- Reading Room - Roy's word to Donyal Tovald
+  complete 97237 @76.02,31.01 era -- four razed-library books
+  turnin 97237 -- Shelf Picked - the books to Roy Lewells
+  accept 6141 -- Brother Anton - Brother Crowley; Brother Anton travels Stonetalon and Desolace, late
+
+step Cathedral Square — paladin beginnings (the Tome of Divinity)
+
+  only Human,Paladin
+  goto 50.48,47.49
+  accept 1641 only Human,Paladin -- The Tome of Divinity - Duthorian Rall; the Tome comes from his line
+  turnin 1641 only Human,Paladin -- The Tome of Divinity - back to Duthorian Rall
+  note Duthorian's line grants the Tome elsewhere in the world: check the bags on the way.
+  accept 1642 only Human,Paladin -- The Tome of Divinity - the Tome Duthorian's line grants
+  note The Tome of Divinity (6775) has no source in the data: it comes with Duthorian's line, so this accept never wedges — take it right after 1641.
+  turnin 1642 only Human,Paladin -- The Tome of Divinity - back to Duthorian Rall
+  accept 1643 only Human,Paladin -- The Tome of Divinity - Duthorian Rall; Stephanie Turner takes it
+  goto 63.84,72.21
+  turnin 1643 only Human,Paladin -- The Tome of Divinity - the word to Stephanie Turner
+  accept 1644 only Human,Paladin -- The Tome of Divinity - Stephanie Turner; ten Linen Cloths
+  complete 1644 only Human,Paladin @63.84,72.21 era -- ten Linen Cloths for Stephanie
+  turnin 1644 only Human,Paladin -- The Tome of Divinity - the cloth to Stephanie Turner
+  accept 1780 only Human,Paladin -- The Tome of Divinity - Stephanie Turner; back to Duthorian
+  goto 50.48,47.49
+  turnin 1780 only Human,Paladin -- The Tome of Divinity - back to Duthorian Rall
+  accept 1781 only Human,Paladin -- The Tome of Divinity - Duthorian Rall; Gazin Tenorm takes it
+  goto 49.53,44.99
+  turnin 1781 only Human,Paladin -- The Tome of Divinity - the word to Gazin Tenorm
+  accept 1786 only Human,Paladin -- The Tome of Divinity - Gazin Tenorm; Henze Faulk waits in Elwynn
+  accept 1788 only Human,Paladin -- The Tome of Divinity - Gazin Tenorm; Duthorian takes it
+  note 1788's pre (1787, an Elwynn accept) is uncontracted, so the pre never fills — take 1788 on its own after 1786.
+  goto 50.48,47.49
+  turnin 1788 only Human,Paladin -- The Tome of Divinity - back to Duthorian Rall
+  accept 1790 only Human,Paladin -- The Symbol of Life - Duthorian Rall; back to Duthorian
+  turnin 1790 only Human,Paladin -- The Symbol of Life - back to Duthorian Rall
+
+step Cathedral Square — paladin valor and nobility
+
+  only Paladin
+  goto 50.48,47.49
+  note Duthorian's line grants the Tome elsewhere in the world: check the bags on the way.
+  accept 1649 only Paladin -- The Tome of Valor - the Tome Duthorian's line grants
+  note The Tome of Valor (6776) has no source in the data: it comes with Duthorian's line, so this accept never wedges — take it alongside his work.
+  turnin 1649 only Paladin -- The Tome of Valor - back to Duthorian Rall
+  accept 1650 only Paladin -- The Tome of Valor - Duthorian Rall; Daphne Stilwell waits in Westfall
+  accept 1653 only Paladin -- The Test of Righteousness - Duthorian Rall; Jordan Stilwell waits in Dun Morogh, late
+  note 1653's pre (1652, a Westfall accept) is uncontracted, so the pre never fills — take 1653 on its own.
+  accept 1793 only Paladin -- The Tome of Valor - Duthorian Rall; back to Duthorian
+  turnin 1793 only Paladin -- The Tome of Valor - back to Duthorian Rall
+  accept 1661 only Paladin -- The Tome of Nobility - Duthorian Rall; a level-40 errand, back to Duthorian
+  turnin 1661 only Paladin -- The Tome of Nobility - back to Duthorian Rall
+
+step Cathedral Square — Grayson's call (the epic mount)
+
+  only Paladin
+  note A level-60 chain. Its middle link (7644, the Ancient Equine Spirit) has no spawn in the data and is uncontracted, and the charger and spirit turn-ins have no fixed points either — hand in where they stand.
+  goto 50.48,47.49
+  accept 7638 only Paladin -- Lord Grayson Shadowbreaker - Duthorian Rall; Grayson takes it
+  goto 48.43,50.22
+  turnin 7638 only Paladin -- Lord Grayson Shadowbreaker - Duthorian's word to Lord Grayson Shadowbreaker
+  accept 7637 only Paladin -- Emphasis on Sacrifice - Lord Grayson Shadowbreaker; High Priest Rohan waits in Ironforge, late
+  accept 7640 only Paladin -- Exorcising Terrordale - Lord Grayson Shadowbreaker; twenty-five Terrordale Spirits in the Eastern Plaguelands
+  note 7640's pre (7639, out-of-zone) is uncontracted, so the pre never fills — take 7640 on its own.
+  accept 8415 only Human,Dwarf,Paladin -- Chillwind Point - Lord Grayson Shadowbreaker; Commander Ashlam Valorfist waits in the Western Plaguelands, late
+  accept 7641 only Paladin -- The Work of Grimand Elmore - Lord Grayson Shadowbreaker; Grimand Elmore takes it
+  goto 59.73,33.78
+  turnin 7641 only Paladin -- The Work of Grimand Elmore - Grayson's word to Grimand Elmore
+  accept 7642 only Paladin -- Collection of Goods - Grimand Elmore; holy water, Arthas' Tears, Runecloth and Arcanite Bars
+  complete 7642 only Paladin @59.73,33.78 era -- holy water, tears, runecloth and bars for Grimand
+  turnin 7642 only Paladin -- Collection of Goods - the goods to Grimand Elmore
+  goto 48.43,50.22
+  accept 7643 only Paladin -- Ancient Equine Spirit - Lord Grayson Shadowbreaker; the spirit has no fixed point in the data
+  complete 7643 only Paladin @48.43,50.22 era -- Manna-Enriched Horse Feed for the Ancient Equine Spirit
+  turnin 7643 only Paladin -- Ancient Equine Spirit - the feed to the Ancient Equine Spirit, where it stands
+  accept 7646 only Paladin -- The Divination Scryer - Lord Grayson Shadowbreaker; an Azerothian Diamond and a Pristine Black Diamond
+  note 7646's pre (7644) is uncontracted and unroutable, so the pre never fills — take 7646 on its own after 7643.
+  complete 7646 only Paladin @48.43,50.22 era -- an Azerothian Diamond and a Pristine Black Diamond for Grayson
+  turnin 7646 only Paladin -- The Divination Scryer - the gems to Lord Grayson Shadowbreaker
+  accept 7647 only Paladin -- Judgment and Redemption - Lord Grayson Shadowbreaker; the charger's soul and barding, where Darkreaver's Fallen Charger stands
+  complete 7647 only Paladin @48.43,50.22 era -- the barding and the charger's soul
+  turnin 7647 only Paladin -- Judgment and Redemption - the barding to Darkreaver's Fallen Charger, where it stands
+  goto 59.73,33.78
+  accept 7648 only Paladin -- Grimand's Finest Work - Grimand Elmore; Grayson takes it
+  goto 48.43,50.22
+  turnin 7648 only Paladin -- Grimand's Finest Work - Grimand's word to Lord Grayson Shadowbreaker
+  accept 7666 only Paladin -- Again Into the Great Ossuary - Lord Grayson Shadowbreaker; back to Grayson
+  turnin 7666 only Paladin -- Again Into the Great Ossuary - back to Lord Grayson Shadowbreaker
+
+step Cathedral Square — Laurena's advanced lessons
+
+  goto 49.53,44.6
+  accept 5645 only Dwarf,Priest -- A Lack of Fear - High Priestess Laurena; High Priest Rohan waits in Ironforge, late
+  accept 5673 only NightElf,Priest -- Elune's Grace - High Priestess Laurena; Priestess Alathea waits in Darnassus, late
+  accept 5676 only Human,Priest -- Arcane Feedback - High Priestess Laurena; back to Laurena
+  turnin 5676 only Human,Priest -- Arcane Feedback - back to High Priestess Laurena
+  accept 94819 only Gnome,Priest -- Contingency Plan - High Priestess Laurena; High Priestess Mims waits in Ironforge, late
+
+step Cathedral Square — Katherine's penitents
+
+  goto 48.48,49.09
+  accept 78090 only Paladin -- A Second Opinion - Katherine the Pure; Ursula Deline takes it
+  note 78090's pre (78089, an Ashenvale accept) is uncontracted, so the pre never fills — take 78090 on its own.
+  goto 39.89,84.19
+  turnin 78090 only Paladin -- A Second Opinion - Katherine's word to Ursula Deline
+  accept 78091 only Paladin -- Earning Your Salt - Ursula Deline; fourteen Summoner's Salts
+  zone map 1433
+  complete 78091 only Paladin @64.52,55.79 era -- fourteen Summoner's Salts off Gath'Ilzogg
+  zone map 1453
+  turnin 78091 only Paladin -- Earning Your Salt - the salt to Ursula Deline
+  accept 78092 only Paladin -- It Must Be Destroyed - Ursula Deline; twelve Motes of Mannoroth for the Spear of Mannoroth in Ashenvale, late
+  note Ursula's charge ends at the Spear of Mannoroth itself, not back here. Bring a group.
+  zone map 1440
+  complete 78092 only Paladin @89.46,77.03 era -- twelve Motes of Mannoroth off the Ashenvale demons, at Demon Fall Canyon
+  turnin 78092 only Paladin -- It Must Be Destroyed - the Spear of Mannoroth
+  zone map 1453
+  goto 48.48,49.09
+  goto 48.48,49.09
+  accept 79940 only Paladin -- A Lost Brother - Katherine the Pure; back to Katherine
+  note 79940's pre (79939, out-of-zone) is uncontracted, so the pre never fills — take 79940 on its own.
+  turnin 79940 only Paladin -- A Lost Brother - back to Katherine the Pure
+  accept 96438 only Paladin -- Battle at the Mannoroc Coven - Katherine the Pure; the Broken Warhammer in Desolace, late
+  accept 81762 only Paladin -- Some Good News - Aeonas the Vindicated; Katherine takes it
+  goto 48.63,49.16
+  turnin 81762 only Paladin -- Some Good News - Aeonas's word to Katherine the Pure
+  goto 48.48,49.09
+  accept 81764 only Paladin -- The Mysterious Merchant - Katherine the Pure; Elrick waits in Dustwallow, late
+
+step Mage Quarter — Jennea's mages
+
+  only Mage
+  goto 49.56,85.8
+  accept 1861 only Mage -- Mirror Lake - Jennea Cannon; a Mirror Lake water sample
+  zone map 1429
+  complete 1861 only Mage @28.57,61.39 era -- a Mirror Lake water sample
+  zone map 1453
+  turnin 1861 only Mage -- Mirror Lake - the sample to Jennea Cannon
+  accept 1920 only Mage -- Investigate the Blue Recluse - Jennea Cannon; containment coffers and a cantation
+  note 1920's pre (1919, out-of-zone) is uncontracted, so the pre never fills — take 1920 on its own.
+  complete 1920 only Mage @49.56,85.8 era -- containment coffers and a cantation at Jennea's circle
+  turnin 1920 only Mage -- Investigate the Blue Recluse - the haul to Jennea Cannon
+  accept 1921 only Mage -- Gathering Materials - Jennea Cannon; Linen Cloth and Charged Rift Gems for Wynne Larson
+  goto 51.84,83.51
+  complete 1921 only Mage @49.56,85.8 era -- Linen Cloth and a Charged Rift Gem for Jennea
+  turnin 1921 only Mage -- Gathering Materials - the haul to Wynne Larson
+  accept 1941 only Mage -- Manaweave Robe - Wynne Larson; back to Wynne
+  turnin 1941 only Mage -- Manaweave Robe - the robe to Wynne Larson
+  goto 48.71,87.62
+  accept 1938 only Mage -- Ur's Treatise on Shadow Magic - High Sorcerer Andromath; the Treatise
+  note 1938's pre (1939, out-of-zone) is uncontracted, so the pre never fills — take 1938 on its own.
+  zone map 1433
+  complete 1938 only Mage @73.77,47.61 era -- Ur's Treatise on Shadow Magic
+  zone map 1453
+  turnin 1938 only Mage -- Ur's Treatise on Shadow Magic - the Treatise to High Sorcerer Andromath
+  accept 1940 only Mage -- Pristine Spider Silk - High Sorcerer Andromath; eight silks for Wynne Larson
+  goto 51.84,83.51
+  zone map 1431
+  complete 1940 only Mage @26.23,52.29 era -- Pristine Spider Silk off the Duskwood widows
+  zone map 1453
+  turnin 1940 only Mage -- Pristine Spider Silk - the silk to Wynne Larson
+  accept 1942 only Mage -- Astral Knot Garment - Wynne Larson; back to Wynne
+  turnin 1942 only Mage -- Astral Knot Garment - the garment to Wynne Larson
+
+step Mage Quarter — Andromath's business
+
+  accept 1477 -- Vital Supplies - High Sorcerer Andromath; Watchmaster Sorigal waits in Duskwood
+  accept 92489 -- Power Overwhelming - High Sorcerer Andromath; the Arcanic Enigma in Alterac, late
+  accept 690 -- Malin's Request - Archmage Malin; Skuerto waits in the Arathi Highlands
+
+step Mage Quarter — the Park edge (druids and green samples)
+
+  goto 35.84,67.38
+  accept 94914 only Skyborne,Druid -- Moonglade - Sheldras Moontree; Dendrite Starblaze waits in Moonglade, late
+  accept 92456 -- A Green Sample - Shylamiir; a Fel Infused Blossom
+  complete 92456 @31.5,62.61 era -- the Fel Infused Blossom, from Shylamiir's garden
+  turnin 92456 -- A Green Sample - the blossom to Shylamiir
+  accept 3765 -- The Corruption Abroad - Argos Nightwhisper; Gershala Nightwhisper waits in Darkshore
+  note Argos's corruption report goes north to Darkshore; its turn-in is an expedition below.
+
+step Mage Quarter — Gakin's warlocks
+
+  only Warlock
+  goto 39.22,85.23
+  accept 1688 only Warlock -- Surena Caledon - Gakin the Darkbinder; Surena's Choker
+  note 1688's pres (1685 and 1715, out-of-zone) are uncontracted, so the pres never fill — take 1688 on its own.
+  zone map 1429
+  complete 1688 only Warlock @71.01,80.77 era -- Surena's Choker
+  zone map 1453
+  turnin 1688 only Warlock -- Surena Caledon - the choker to Gakin the Darkbinder
+  accept 1689 only Warlock -- The Binding - Gakin the Darkbinder; summon and slay the Voidwalker at Gakin's circle
+  complete 1689 @25.1,77.4 era -- the Summoned Voidwalker
+  turnin 1689 only Warlock -- The Binding - back to Gakin the Darkbinder
+  accept 1739 only Warlock -- The Binding - Gakin the Darkbinder; summon and slay the Succubus at Gakin's circle
+  note 1739's pre (1738, out-of-zone Barrens) is uncontracted, so the pre never fills — take 1739 on its own.
+  complete 1739 @25.1,77.4 era -- the Summoned Succubus
+  turnin 1739 only Warlock -- The Binding - back to Gakin the Darkbinder
+  accept 65603 only Warlock -- The Binding - Gakin the Darkbinder; summon and slay the Incubus
+  note 65603's pre (65602, out-of-zone Barrens) is uncontracted, so the pre never fills — take 65603 on its own.
+  complete 65603 @39.2,84.4 era -- the Summoned Incubus
+  turnin 65603 only Warlock -- The Binding - back to Gakin the Darkbinder
+  accept 1798 only Warlock -- Seeking Strahad - Gakin the Darkbinder; Strahad Farsan waits in the Barrens
+  note Lago Blackwrench in Ironforge offers the same quest; either accept counts.
+  accept 1716 only Warlock -- Devourer of Souls - Gakin the Darkbinder; a level-20 ritual, Takar the Seer waits in the Barrens
+  note 1716's pre (1717, out-of-zone) is uncontracted, so the pre never fills — take 1716 on its own. The quest shows level -1; min level is 20.
+  goto 39.24,84.96
+  accept 4488 only Warlock -- Summon Felsteed - Demisette Cloyce; Strahad Farsan waits in the Barrens
+  accept 4738 only Warlock -- In Search of Menara Voidrender - Demisette Cloyce; Menara Voidrender waits in the Barrens
+  accept 4968 only Warlock -- Knowledge of the Orb of Orahil - Demisette Cloyce; Menara Voidrender waits in the Barrens
+  goto 39.53,84.53
+  accept 7562 only Warlock -- Mor'zul Bloodbringer - Spackle Thornberry; Mor'zul waits in the Burning Steppes, late
+  accept 8419 only Warlock -- An Imp's Request - Demisette Cloyce; Felcloth for Impsy in Felwood, late
+  note Demisette's Impsy errand is also offered in Ironforge, Gnomeregan and the Barrens; either accept counts.
+
+step Mage Quarter — Angus Stern's table
+
+  accept 212 -- A Meal Served Cold - Angus Stern; a Chilled Basilisk Haunch
+  zone map 1434
+  complete 212 @27.69,42.68 era -- a Chilled Basilisk Haunch off the Stranglethorn basilisks
+  zone map 1453
+  turnin 212 -- A Meal Served Cold - the haunch to Angus Stern
+  accept 1260 -- Morgan Stern - Angus Stern; Morgan Stern waits in Dustwallow, late
+  accept 1271 -- Feast at the Blue Recluse - Angus Stern; back to Angus
+  note 1271's pres (1222 and 1258, out-of-zone) are uncontracted, so the pres never fill — take 1271 on its own.
+  turnin 1271 -- Feast at the Blue Recluse - back to Angus Stern
+
+step Mage Quarter — Clavicus's donations
+
+  note The cloth donations fund the war effort: bring the cloth yourself; nothing here asks you to go get it. Take each tier in order — Runecloth needs the other three done first.
+  accept 7791 -- A Donation of Wool - Clavicus Knavingham; sixty Wool Cloth
+  complete 7791 @53.93,81.69 era -- sixty Wool Cloth for Clavicus Knavingham
+  turnin 7791 -- A Donation of Wool - the wool to Clavicus Knavingham
+  accept 7793 -- A Donation of Silk - Clavicus Knavingham; sixty Silk Cloth
+  complete 7793 @53.93,81.69 era -- sixty Silk Cloth for Clavicus Knavingham
+  turnin 7793 -- A Donation of Silk - the silk to Clavicus Knavingham
+  accept 7794 -- A Donation of Mageweave - Clavicus Knavingham; sixty Mageweave Cloth
+  complete 7794 @53.93,81.69 era -- sixty Mageweave Cloth for Clavicus Knavingham
+  turnin 7794 -- A Donation of Mageweave - the mageweave to Clavicus Knavingham
+  accept 7795 -- A Donation of Runecloth - Clavicus Knavingham; sixty Runecloth
+  complete 7795 @53.93,81.69 era -- sixty Runecloth for Clavicus Knavingham
+  turnin 7795 -- A Donation of Runecloth - the runecloth to Clavicus Knavingham
+
+step Mage Quarter — Jennea's book hunt
+
+  only Mage
+  note Eight book quests, all starting with Jennea Cannon (and the Orgrimmar mage Oran Snakewrithe across the world). Take all eight here; the books themselves are expedition completes, and all eight turn back in to Jennea.
+  goto 49.56,85.8
+  accept 84395 only Mage -- Undead Potatoes - Jennea Cannon; the book in the Western Plaguelands
+  accept 84396 only Mage -- Magma or Lava? - Jennea Cannon; the book in the Burning Steppes
+  accept 84397 only Mage -- Northern Kalimdor - A Comprehensive Guide - Jennea Cannon; the book in Felwood
+  accept 84398 only Mage -- A Study of the Light - Jennea Cannon; the book in the Eastern Plaguelands
+  accept 84399 only Mage -- Ka-Boom! - Jennea Cannon; the book in Winterspring
+  accept 84400 only Mage -- The Knight and the Lady - Jennea Cannon; the book in the Eastern Plaguelands
+  accept 84401 only Mage -- Scourge: Undead Menace or Misunderstood? - Jennea Cannon; the book in the Eastern Plaguelands
+  accept 84402 only Mage -- Necromancy 101 - Jennea Cannon; the book in the Western Plaguelands
+
+step Old Town — SI:7's far assignments
+
+  accept 95194 -- Our Man in Theramore - Master Mathias Shaw; Sully McCleary waits in Dustwallow, late
+  accept 96676 -- Unsealing the Blackthorne Pact - Master Mathias Shaw; Johun Dillas waits at Mount Hyjal, very late
+  note Level-50s business in far corners; take them now, do them when the world lets you.
+
+step Old Town — SI:7, the rogue contracts
+
+  only Rogue
+  goto 78.31,70.74
+  accept 2206 only Rogue -- Snatch and Grab - Master Mathias Shaw; a Defias Shipping Schedule
+  zone map 1429
+  complete 2206 only Rogue @48.06,86.96 era -- the Defias Shipping Schedule off the Dockmaster
+  zone map 1453
+  turnin 2206 only Rogue -- Snatch and Grab - the schedule to Master Mathias Shaw
+  accept 2360 only Rogue -- Mathias and the Defias - Master Mathias Shaw; Agent Kearnen waits in Westfall
+  accept 2607 only Rogue -- The Touch of Zanzil - Master Mathias Shaw; Doc Mixilpixil takes it
+  note 2607's pre (2359, out-of-zone) is uncontracted, so the pre never fills — take 2607 on its own.
+  goto 78.29,71.14
+  accept 2281 only Rogue -- Redridge Rendezvous - Renzik "The Shiv"; Lucius waits in Redridge
+  note 2281's pres (2260, 2298 and 2300, out-of-zone) are uncontracted, so the pres never fill — take 2281 on its own.
+  goto 80.06,69.9
+  turnin 2607 only Rogue -- The Touch of Zanzil - the word to Doc Mixilpixil
+  accept 2608 only Rogue -- The Touch of Zanzil - Doc Mixilpixil; the diagnosis, right here
+  complete 2608 @80.06,70.09 era -- Diagnosis Complete
+  turnin 2608 only Rogue -- The Touch of Zanzil - back to Doc Mixilpixil
+  accept 2609 only Rogue -- The Touch of Zanzil - Doc Mixilpixil; wildflowers, a leaded vial, a bronze tube, chartreuse thread
+  complete 2609 only Rogue @50.58,60.14 era -- wildflowers, a leaded vial, a bronze tube and chartreuse thread
+  turnin 2609 only Rogue -- The Touch of Zanzil - the kit to Doc Mixilpixil
+
+step Old Town — the Stockade, then Baros's favors
+
+  note Do this step before the Defias endgame below: 350 needs 393 turned in first.
+  tip The Stockade is a level-25 dungeon: bring a group for the cells below.
+  accept 389 -- The Stockade Riots - Baros Alexston; Warden Thelwater takes it
+  note 389's pre (373, the Unsent Letter) is uncontracted — a broken world-drop start the city rule leaves out — so the pre never fills. Take 389 on its own.
+  turnin 389 -- The Stockade Riots - Baros's word to Warden Thelwater
+  accept 387 -- Quell the Uprising - Warden Thelwater; ten Defias Prisoners, eight Insurgents, seven Rioters, in the Stockade
+  complete 387 @51.49,69.38 era -- Defias Prisoners, Insurgents and Rioters, in the Stockade cells below
+  turnin 387 -- Quell the Uprising - back to Warden Thelwater
+  accept 388 -- The Color of Blood - Nikova Raskol; ten Red Wool Bandanas off the Stockade inmates
+  complete 388 @51.49,69.38 era -- ten Red Wool Bandanas off the Stockade inmates
+  tip Defias Prisoner is elite: grouping up is advised.
+  turnin 388 -- The Color of Blood - the bandanas to Nikova Raskol
+  accept 391 -- The Missing Dwarf - Warden Thelwater; Bazil Thredd's head, in the Stockade
+  complete 391 @51.49,69.38 era -- Bazil Thredd's head, in the Stockade
+  tip Bazil Thredd is elite: grouping up is advised.
+  turnin 391 -- The Missing Dwarf - the head to Warden Thelwater
+  accept 392 -- Uprising - Warden Thelwater; back to Baros Alexston
+  turnin 392 -- Uprising - Thelwater's word to Baros Alexston
+  accept 393 -- Shadow of the Past - Baros Alexston; Master Mathias Shaw takes it across town
+  turnin 393 -- Shadow of the Past - Baros's word to Master Mathias Shaw
+  accept 399 -- Humble Beginnings - Baros Alexston; a compass for the road
+  zone map 1436
+  complete 399 @36.24,54.52 era -- a Simple Compass from Alexston's Chest
+  zone map 1453
+  turnin 399 -- Humble Beginnings - back to Baros Alexston
+  accept 97926 -- Seeking the Postmaster - Baros Alexston; Postmaster General Thundris Windweaver waits in Darkshore
+  note 97926's pre (97914, a Darkshore accept) is uncontracted, so the pre never fills — take 97926 on its own.
+
+step Old Town — the Defias endgame
+
+  accept 350 -- Look to an Old Friend - Master Mathias Shaw; old friends in the castle keep
+  note 350's pre (393) turned in just above in this chain — keep the order.
+  turnin 350 -- Look to an Old Friend - back to Elling Trias
+  goto 73.23,35.58
+  accept 2745 -- Infiltrating the Castle - Elling Trias; Tyrion takes it
+  turnin 2745 -- Infiltrating the Castle - the word to Tyrion
+  accept 2746 -- Items of Some Consequence - Tyrion; Silk Cloth and Clara's Fresh Apples
+  zone map 1429
+  complete 2746 @33.95,57.16 era -- Silk Cloth and Clara's Fresh Apple
+  zone map 1453
+  turnin 2746 -- Items of Some Consequence - the goods to Tyrion
+  accept 434 -- The Attack! - Tyrion; Lescovar and Marzon in the Keep, and their conversation
+  complete 434 @72.8,35.61 era -- Overhear Lescovar and Marzon's Conversation
+  turnin 434 -- The Attack! - the word to Elling Trias
+  accept 394 -- The Head of the Beast - Elling Trias; Shaw takes it
+  turnin 394 -- The Head of the Beast - the head to Master Mathias Shaw
+  accept 395 -- Brotherhood's End - Master Mathias Shaw; Baros Alexston takes it
+  turnin 395 -- Brotherhood's End - the word to Baros Alexston
+  accept 396 -- An Audience with the King - Baros Alexston; Lady Katrana Prestor in the Keep
+  turnin 396 -- An Audience with the King - the word to Lady Katrana Prestor
+
+step Old Town — the Missing Diplomat
+
+  accept 1274 -- The Missing Diplomat - Thomas; Bishop DeLavey takes it
+  turnin 1274 -- The Missing Diplomat - Thomas's word to Bishop DeLavey
+  accept 1241 -- The Missing Diplomat - Bishop DeLavey; Jorgen takes it
+  turnin 1241 -- The Missing Diplomat - the bishop's word to Jorgen
+  accept 1242 -- The Missing Diplomat - Jorgen; Elling Trias takes it
+  turnin 1242 -- The Missing Diplomat - Jorgen's word to Elling Trias
+  accept 1243 -- The Missing Diplomat - Elling Trias; Watcher Backus waits in Duskwood
+  accept 1246 -- The Missing Diplomat - Elling Trias; Dashel Stonefist takes it
+  note 1246's pre (1245, out-of-zone) is uncontracted, so the pre never fills — take 1246 on its own after 1243.
+  turnin 1246 -- The Missing Diplomat - Trias's word to Dashel Stonefist
+  accept 1447 -- The Missing Diplomat - Dashel Stonefist; Dashel himself, right here
+  complete 1447 @74.26,59.17 era -- Dashel Stonefist, questioned
+  turnin 1447 -- The Missing Diplomat - the answers to Dashel Stonefist
+  accept 1247 -- The Missing Diplomat - Dashel Stonefist; Trias takes it
+  turnin 1247 -- The Missing Diplomat - Dashel's word to Elling Trias
+  accept 1248 -- The Missing Diplomat - Elling Trias; Mikhail waits in the Wetlands
+
+step Old Town — Brohann's temple hunt
+
+  note A level-43 two-parter for much later: Brohann's Sunken Temple business, then the Hinterlands leg.
+  accept 1475 -- Into The Temple of Atal'Hakkar - Brohann Caskbelly; ten Atal'ai Tablets inside the Temple, far to the south
+  note A level-50 hunt: take it now, do the Swamp of Sorrows leg when ready (the turn-in below rides along). 1475's pre (1469, out-of-zone) is uncontracted, so the pre never fills.
+  accept 1448 -- In Search of The Temple - Brohann Caskbelly; search the Temple of Atal'Hakkar, far to the south
+  zone map 1435
+  complete 1448 @70.2,45.2 era -- the search for the Temple of Atal'Hakkar
+  zone map 1453
+  turnin 1448 -- In Search of The Temple - the findings to Brohann Caskbelly
+  accept 1449 -- To The Hinterlands - Brohann Caskbelly; the Falstad estate in Hillsbrad first, the Hinterlands second
+
+step Dwarven District — Furen's warriors
+
+  only Warrior
+  goto 64.62,37.23
+  accept 1701 only Warrior -- Fire Hardened Mail - Furen Longbeard; ten Scorched Spider Fangs, twelve Charred Horns, a Galvanized Horn, a Vial of Phlogiston
+  note 1701's pre (1702, a Redridge accept) is uncontracted, so the pre never fills — take 1701 on its own.
+  zone map 1442
+  complete 1701 only Warrior @33.64,74.66 era -- fangs and horns off the Stonetalon chimaeras, and Roogug's phlogiston vial
+  zone map 1453
+  turnin 1701 only Warrior -- Fire Hardened Mail - the haul to Furen Longbeard
+  accept 1782 only Warrior -- Furen's Armor - Furen Longbeard; back to Furen, right here
+  note 1782's pre (1701, done just above) fills in order — keep the chain.
+  turnin 1782 only Warrior -- Furen's Armor - the armor to Furen Longbeard
+  accept 1700 only Human,Warrior -- Grimand Elmore - Furen Longbeard; Grimand Elmore takes it across the district
+  note 1700's pre (1701, done just above) fills in order — keep the chain.
+  goto 59.73,33.78
+  turnin 1700 only Human,Warrior -- Grimand Elmore - Furen's word to Grimand Elmore
+  accept 1705 only Warrior -- Burning Blood - Grimand Elmore; twenty Burning Blood and a Burning Rock
+  zone map 1431
+  complete 1705 only Warrior @60,45.24 era -- Burning Blood and a Burning Rock off the Duskwood runners
+  zone map 1453
+  turnin 1705 only Warrior -- Burning Blood - the haul to Grimand Elmore
+  accept 1706 only Warrior -- A Warrior's Training - Grimand Elmore; duel Bartleby up top, then back here
+  note 1706 names no objective in the data — no complete line; duel Bartleby where he stands, then return.
+  goto 76.76,52.55
+  goto 59.73,33.78
+  turnin 1706 only Warrior -- A Warrior's Training - back to Grimand Elmore
+  accept 1703 only NightElf,Warrior -- A Warrior's Training - Furen Longbeard; Mathiel waits in Darnassus, late
+  accept 1704 only Dwarf,Gnome,Warrior -- A Warrior's Training - Furen Longbeard; Klockmort Spannerspan waits in Ironforge, late
+
+step Dwarven District — Hank's smithing
+  when skill Blacksmithing 210
+
+  note Hank's smithing work needs Blacksmithing 210; non-smiths skip this step cleanly.
+  accept 2758 -- Origins of Smithing - Hank the Hammer; six Golden Scale Bracers
+  complete 2758 @62.85,36.81 era -- six Golden Scale Bracers for Hank
+  turnin 2758 -- Origins of Smithing - the bracers to Hank the Hammer
+  accept 2759 -- In Search of Galvan - Hank the Hammer; McGavan waits in Stranglethorn, late
+
+step Dwarven District — smiths and tinkers
+
+  accept 2040 -- Gyrodrillmatic Excavationators - Shoni the Shilent; a Gnoam, a Gnome Engineer and the machines
+  zone map 1436
+  complete 2040 @42.0,71.0 era -- Gnoam Sprecklesprocket and the engineers, inside the Deadmines
+  note The gnomes are held inside the Deadmines at Moonbrook; this goal marks the entrance, the group goes in together.
+  tip Sneed's Shredder is elite: grouping up is advised.
+  zone map 1453
+  turnin 2040 -- Gyrodrillmatic Excavationators - the rescue to Shoni the Shilent
+  accept 2928 -- Gyrodrillmatic Excavationators - Shoni the Shilent; Robo-mechanical Guts
+  zone map 1426
+  complete 2928 @19.78,31.93 era -- Robo-mechanical Guts off the Gnomeregan machines
+  tip Techbot is elite: grouping up is advised.
+  zone map 1453
+  turnin 2928 -- Gyrodrillmatic Excavationators - the guts to Shoni the Shilent
+  accept 2923 -- Tinkmaster Overspark - Brother Sarno; Tinkmaster Overspark waits in Ironforge, late
+step Dwarven District — Lilliam's engineering
+  when skill Engineering 200
+
+  note Gnome Engineering needs Engineering 200; others skip this step cleanly. The Goblin twin (4181) stays out — Gnome is the contracted pick.
+  accept 3630 -- Gnome Engineering - Lilliam Sparkspindle; Tinkmaster Overspark waits in Ironforge
+  accept 97894 -- Business in Auberdine - Borgus Steelhand; General Gorbold Steelhand waits in Darkshore
+
+step Stormwind Keep — Bolvar's war council
+
+  goto 80.21,38.35
+  accept 93963 only Skyborne -- Exploring the Alliance - Highlord Bolvar Fordragon; the four Alliance leaders, for Skyborne eyes only
+  note 93963's pre (94947, out-of-zone Arathi) is uncontracted, so the pre never fills — take 93963 on its own. Its targets are the faction leaders: Randal Emerson here in the Keep, Mekkatorque and Magni in Ironforge, Tyrande in Darnassus.
+  complete 93963 only Skyborne @78.98,45 era -- Randal Emerson, in the Keep
+  turnin 93963 only Skyborne -- Exploring the Alliance - back to Highlord Bolvar Fordragon
+  accept 98191 -- Report to Grayson - Highlord Bolvar Fordragon; Grayson takes it
+  note 98191's pre (98190, out-of-zone Wetlands) is uncontracted, so the pre never fills — take 98191 on its own.
+  turnin 98191 -- Report to Grayson - Bolvar's word to Lord Grayson Shadowbreaker
+  accept 7782 -- The Lord of Blackrock - Highlord Bolvar Fordragon; Field Marshal Stonebridge takes it
+  turnin 7782 -- The Lord of Blackrock - the word to Field Marshal Stonebridge
+  accept 98219 -- Report to Farren - Lord Grayson Shadowbreaker; Lieutenant Farren Orinelle waits in Hillsbrad
+  note 7782's pre (7781, the Nefarian head) is uncontracted — a raid-drop accept the city rule leaves out — so the pre never fills. Take 7782 on its own.
+  accept 4185 -- True Masters of the Light - Highlord Bolvar Fordragon; back to Bolvar
+  complete 4185 @80.1,38.17 era -- Lady Katrana Prestor, exposed
+  note 4185's pre (4184, a Redridge accept) is uncontracted, so the pre never fills — take 4185 on its own.
+  turnin 4185 -- True Masters of the Light - back to Highlord Bolvar Fordragon
+  accept 4186 -- True Masters of the Light - Highlord Bolvar Fordragon; Magistrate Solomon waits in Redridge
+  accept 6187 -- An Oath of Humility - Highlord Bolvar Fordragon; Nathanos Marris waits in the Eastern Plaguelands, very late
+  note 6187's pre (6186, out-of-zone) is uncontracted, so the pre never fills — take 6187 on its own.
+
+step Stormwind Keep — the dragon chain
+
+  accept 6182 -- The Great Masquerade - Highlord Bolvar Fordragon; Shaw takes it
+  turnin 6182 -- The Great Masquerade - Bolvar's word to Master Mathias Shaw
+  accept 6183 -- The Great Masquerade - Master Mathias Shaw; back to Shaw
+  turnin 6183 -- The Great Masquerade - back to Master Mathias Shaw
+  accept 6184 -- The Great Masquerade - Master Mathias Shaw; Marshal Windsor waits in the Burning Steppes
+  accept 6403 -- The Dragon's Eye - Reginald Windsor; Reginald's March in the Keep, then Bolvar
+  note 6403's pre (6402, a Redridge accept) is uncontracted, so the pre never fills — take 6403 on its own.
+  complete 6403 @79.69,38.82 era -- Reginald's March through the Keep
+  turnin 6403 -- The Dragon's Eye - the eye to Highlord Bolvar Fordragon
+  accept 6501 -- Drakefire Amulet - Highlord Bolvar Fordragon; Haleh waits in Winterspring, very late
+
+step Stormwind Keep — Mazen's behest
+
+  note A level-41 errand at the Keep's edge: Mazen's essays hunt runs through the Swamp of Sorrows to the Blasted Lands, far to the south — take the pair now, do the legs when ready.
+  accept 1363 -- Mazen's Behest - Mazen Mac'Nadir; Acolyte Dellis takes it just down the row
+  turnin 1363 -- Mazen's Behest - Mazen's word to Acolyte Dellis
+  accept 1364 -- Mazen's Behest - Acolyte Dellis; Khadgar's Essays in the Swamp of Sorrows, then Watcher Mahar Ba in the Blasted Lands
+
+step Nobles' quarter — Ridgewell and company
+
+  goto 77.07,30.21
+  accept 543 -- The Perenolde Tiara - Remy "Two Times" Ridgewell; the tiara
+  zone map 1416
+  collect 3684 quest 543.1 @35.58,54.42 optional
+  tip Grel'borg the Miser is elite: grouping up is advised.
+  zone map 1453
+  turnin 543 -- The Perenolde Tiara - the tiara to Remy Ridgewell
+  accept 4766 -- Mayara Brightwing - Remy Ridgewell; Mayara Brightwing waits in the Burning Steppes, late
+  accept 5048 -- Good Natured Emma - Royal Factor Bathrilor; Ol' Emma takes it
+  note 5048's pre (5022, out-of-zone Dustwallow) is uncontracted, so the pre never fills — take 5048 on its own.
+  turnin 5048 -- Good Natured Emma - Lovely Emma's word to Ol' Emma
+  accept 5050 -- Good Luck Charm - Ol' Emma; Janice Felstone waits in the Western Plaguelands
+  note 5050's pres (5048 and 5049, the latter an Undercity accept) are partly uncontracted — take 5050 after 5048 regardless.
+  note Crier Goodman's Plaguelands call is taken in the Trade District step above; its turn-in is an expedition below.
+
+step Uptown — the flight chain (Humans)
+
+  note Humans fly out of Stormwind through Osric and Dungar; Skyborne use 98021, already routed in the Westfall guide (accept 143/turnin 249), so this step is Humans-only and the guide does not re-route that quest.
+  goto 77.17,60.99
+  accept 6261 only Human -- Osric's Invocation - Osric Strang; Dungar Longdrink takes it
+  note 6261's pre (6281, Westfall-contracted) never fills inside this guide — take 6261 after the Westfall leg.
+  goto 71.29,72.23
+  turnin 6261 only Human -- Osric's Invocation - Osric's word to Dungar Longdrink
+  accept 6285 only Human -- Return to Lewis - Dungar Longdrink; Lewis takes it
+  note Dungar sends Humans on to Lewis; the Lewis leg lands in the Westfall expedition step.
+
+step Old Town edge — Wilder's memorials
+
+  accept 167 -- Oh Brother... - Wilder Thistlenettle; an Aromatic Thistlenettle Badge
+  accept 168 -- Collecting Memories - Wilder Thistlenettle; four Miners' Union Cards
+  note The twins have no pre between them: take both, dig the badge and the cards out of Westfall below.
+  zone map 1436
+  complete 167 @42.22,82.61 era -- Thistlenettle's Badge off Foreman Thistlenettle
+  tip Foreman Thistlenettle is elite: grouping up is advised.
+  complete 168 @40.69,82.29 era -- Miners' Union Cards off the Yorgen Farmstead miners
+  tip Undead Dynamiter is elite: grouping up is advised.
+  zone map 1453
+
+  turnin 167 -- Oh Brother... - the badge to Wilder Thistlenettle
+
+  turnin 168 -- Collecting Memories - the cards to Wilder Thistlenettle
+
+step Cathedral Square — the Doomed Fleet
+
+  accept 270 -- The Doomed Fleet - Bishop Farthing; Glorin Steelbrow waits in the Wetlands
+
+step Dwarven District — Grimand's side errand
+
+  accept 325 -- Armed and Ready - Grimand Elmore; Sven Yorgen waits in Duskwood
+  accept 353 -- Stormpike's Delivery - Grimand Elmore; Mountaineer Stormpike waits in Loch Modan
+  note 353's pre (1097, an Elwynn accept) is uncontracted, so the pre never fills — take 353 on its own.
+
+step Mage Quarter — Zardeth's brews
+
+  accept 335 -- A Noble Brew - Zardeth of the Black Claw; a Tear of Tilloa and a Musquash Root
+  zone map 1431
+  complete 335 @78.35,35.95 era -- a Tear of Tilloa and a Musquash Root
+  zone map 1453
+  turnin 335 -- A Noble Brew - the brew to Zardeth of the Black Claw
+  accept 336 -- A Noble Brew - Zardeth of the Black Claw; a sample for Lord Baurles K. Wishock
+  turnin 336 -- A Noble Brew - the sample to Lord Baurles K. Wishock
+  goto 40.14,85.31
+  accept 397 only Warlock -- You Have Served Us Well - Zardeth of the Black Claw; Zggi takes it next door
+  goto 40.21,85.31
+  turnin 397 only Warlock -- You Have Served Us Well - the word to Zggi
+
+step Mage Quarter — Tannysa's Feralas errand
+
+  note A level-50 errand: take it now, do the far leg when the world lets you.
+  accept 3787 -- Jonespyre's Request - Tannysa; Quintis Jonespyre waits in Feralas, late
+  note 3787's pre (3781, out-of-zone) is uncontracted, so the pre never fills — take 3787 on its own.
+
+step Mage Quarter — Collin Mauren's Westfall debts
+
+  note The NAMED pair: 1076's pre (1075, a Westfall accept) is uncontracted, so the pre never fills — take the pair on its own.
+  accept 1076 -- Devils in Westfall - Collin Mauren; back to Collin
+  zone map 1436
+  complete 1076 @33.27,49.27 era -- Dust Devil Debris off the Westfall dust devils
+  zone map 1453
+  turnin 1076 -- Devils in Westfall - back to Collin Mauren
+  accept 1077 -- Special Delivery for Gaxim - Collin Mauren; Gaxim Rustfizzle waits in Stonetalon
+  accept 1078 -- Retrieval for Mauren - Collin Mauren; back to Collin
+  zone map 1442
+  complete 1078 @30.31,72.12 era -- Crystalized Scales off the Stonetalon basilisks
+  zone map 1453
+  turnin 1078 -- Retrieval for Mauren - back to Collin Mauren
+
+step Old Town — a message for Redridge
+
+  accept 121 -- Messenger to Stormwind - General Marcus Jonathan; Magistrate Solomon waits in Redridge
+
+step Old Town — Stalvan's crate and Harry's errand
+
+  accept 72 -- The Legend of Stalvan - Caretaker Folsom; search the Sealed Crate, right here
+  note 72's pre (70, out-of-zone) is uncontracted, so the pre never fills — take 72 on its own.
+  turnin 72 -- The Legend of Stalvan - the crate's secret
+  accept 74 -- The Legend of Stalvan - the Sealed Crate
+  note 74's pre (72, done just above) fills in order — keep the chain.
+  goto 77.13,53.26
+  accept 1639 only Warrior -- Bartleby the Drunk - Harry Burlguard; Bartleby the Drunk takes it up top
+  note 1639 names no pre in the data — take it on its own, then carry it up top before 1640.
+  goto 76.76,52.55
+  turnin 1639 only Warrior -- Bartleby the Drunk - back to Bartleby the Drunk
+  accept 1640 only Warrior -- Beat Bartleby - Bartleby the Drunk; duel him right here
+  complete 1640 only Warrior @76.76,52.55 era -- Bartleby the Drunk, beaten in the duel
+  note 1640's pre (1639, done just above) fills in order — keep the chain.
+  turnin 1640 only Warrior -- Beat Bartleby - back to Bartleby the Drunk
+  accept 1665 only Warrior -- Bartleby's Mug - Bartleby the Drunk; Harry Burlguard takes it down in Old Town
+  goto 77.13,53.26
+  turnin 1665 only Warrior -- Bartleby's Mug - Bartleby the Drunk's word to Harry Burlguard
+  accept 1666 -- Marshal Haggard - Harry Burlguard; Marshal Haggard waits in Elwynn
+
+step Expedition — Elwynn and Westfall
+
+  zone map 1429
+  turnin 344 -- Brother Paxton - Milton's word to Brother Paxton
+  complete 1786 only Human,Paladin @72.6,51.41 era -- Henze Faulk, for the paladins
+  turnin 1786 only Human,Paladin -- The Tome of Divinity - Henze Faulk, laid to rest
+  turnin 1666 -- The Tome of Nobility - Duthorian's word to Marshal Haggard
+  turnin 74 -- The Legend of Stalvan - the Sealed Crate's word to Marshal Haggard
+  zone map 1436
+  turnin 2360 only Rogue -- Mathias and the Defias - Shaw's word to Agent Kearnen
+  turnin 6285 only Human -- Return to Lewis - Dungar's word to Quartermaster Lewis
+  goto 41.69,89.24
+  turnin 1650 only Paladin -- The Tome of Valor - Duthorian's word to Daphne Stilwell
+  note Skyborne do this leg through 98021 (westfall.guide) instead.
+
+step Expedition — Redridge and Duskwood
+
+  zone map 1433
+  turnin 121 -- Messenger to Stormwind - the General's word to Magistrate Solomon
+  turnin 4186 -- True Masters of the Light - Bolvar's word to Magistrate Solomon
+  turnin 2281 only Rogue -- Redridge Rendezvous - Renzik's word to Lucius
+  zone map 1431
+  turnin 1243 -- The Missing Diplomat - Trias's word to Watcher Backus
+  turnin 95161 -- Remember That I Love You - Matron Nightingale's word to Avette Fellwood
+  turnin 1477 -- Vital Supplies - Andromath's word to Watchmaster Sorigal
+  turnin 325 -- Armed and Ready - Grimand's word to Sven Yorgen
+
+step Expedition — Loch Modan, Dun Morogh and Ironforge
+
+  zone map 1432
+  turnin 353 -- Stormpike's Delivery - Milton's word to Mountaineer Stormpike
+  zone map 1426
+  turnin 1653 only Paladin -- The Test of Righteousness - Duthorian's word to Jordan Stilwell
+  zone map 1455
+  turnin 5645 only Dwarf,Priest -- A Lack of Fear - Laurena's word to High Priest Rohan
+  turnin 1704 only Dwarf,Gnome,Warrior -- A Warrior's Training - Furen's word to Klockmort Spannerspan
+  turnin 94819 only Gnome,Priest -- Contingency Plan - Laurena's word to High Priestess Mims
+  turnin 7637 only Paladin -- Emphasis on Sacrifice - Grayson's word to High Priest Rohan
+  turnin 2923 -- Tinkmaster Overspark - Sarno's word to Tinkmaster Overspark
+  note Lilliam's Ironforge turn-in lives in the step below, gated on carrying it.
+  complete 93963 only Skyborne @68.75,48.97 era -- High Tinker Mekkatorque, for the Skyborne census
+  complete 93963 only Skyborne @39.09,56.2 era -- King Magni Bronzebeard, for the Skyborne census
+
+step Expedition — Ironforge, the Tinkmaster's word
+  when onquest 3630
+
+  note Lilliam's engineers turn in here if the log carries 3630.
+  zone map 1455
+  turnin 3630 -- Gnome Engineering - Lilliam's word to Tinkmaster Overspark
+
+step Expedition — Darnassus and Teldrassil
+
+  zone map 1438
+  turnin 1015 -- The New Frontier - the crier's word to Arch Druid Fandral Staghelm
+  turnin 3789 -- Assisting Arch Druid Staghelm - Allison's word to Arch Druid Fandral Staghelm
+  turnin 5673 only NightElf,Priest -- Elune's Grace - Laurena's word to Priestess Alathea
+  turnin 1703 only NightElf,Warrior -- A Warrior's Training - Furen's word to Mathiel
+  complete 93963 only Skyborne @25.3,63.9 era -- Tyrande Whisperwind, for the Skyborne census
+
+step Expedition — Darkshore
+
+  zone map 1439
+  note Borgus's Darkshore turn-in lives in the step below, gated on carrying it.
+  turnin 97926 -- Seeking the Postmaster - Baros's word to Postmaster General Thundris Windweaver
+  turnin 3765 -- The Corruption Abroad - Argos's word to Gershala Nightwhisper
+
+step Expedition — Darkshore, the general's word
+  when onquest 97894
+
+  note Borgus's business turns in here if the log carries 97894.
+  zone map 1439
+  turnin 97894 -- Business in Auberdine - Borgus's word to General Gorbold Steelhand
+
+step Expedition — the Wetlands
+
+  zone map 1437
+  turnin 270 -- The Doomed Fleet - Farthing's word to Glorin Steelbrow
+  turnin 1248 -- The Missing Diplomat - Trias's word to Mikhail
+
+step Expedition — Arathi and Hillsbrad
+
+  zone map 1417
+  turnin 690 -- The Algaz Gauntlet - Skuerto takes the smoked meats and the note
+  zone map 1424
+  turnin 538 -- Southshore - Milton's word to Loremaster Dibbs
+  turnin 1449 -- The Missing Diplomat - tap the Falstad estate, Hillsbrad first
+  note Falstad's second record is the Hinterlands; Hillsbrad is first per the data.
+  turnin 9028 -- The Source Revealed - Sorisam's trail to Apothecary Lerent
+  note Lerent moves between Arathi, Hillsbrad and the Hinterlands; Arathi is first per the data — hand in where he stands.
+  turnin 98219 -- Report to Farren - Lieutenant Farren Orinelle, Hillsbrad record
+  zone map 1416
+  complete 92489 @20.3,64.2 era -- the Arcanic Enigma, for Andromath
+  zone map 1453
+  turnin 92489 -- Power Overwhelming - the Arcanic Enigma to High Sorcerer Andromath
+
+step Expedition — the Plaguelands
+
+  zone map 1422
+  turnin 5066 -- A Call to Arms: The Plaguelands! - the crier's word to Commander Ashlam Valorfist
+  turnin 5050 -- Good Luck Charm - Ol' Emma's word to Janice Felstone
+  turnin 6184 -- The Great Masquerade - Shaw's word to Flint Shadowmore
+  turnin 8415 only Human,Dwarf,Paladin -- Chillwind Point - Grayson's word to Commander Ashlam Valorfist
+  complete 84395 only Mage @38.2,54.6 era -- Undead Potatoes, one of Jennea's books
+  complete 84402 only Mage @69.41,72.84 era -- Necromancy 101, one of Jennea's books
+  zone map 1423
+  complete 6187 @22.23,63.51 era -- Nathanos Marris
+  complete 7640 only Paladin @8.11,20.86 era -- twenty-five Terrordale Spirits
+  complete 84398 only Mage @71.86,48.27 era -- A Study of the Light, one of Jennea's books
+  complete 84400 only Mage @47.3,42.23 era -- The Knight and the Lady, one of Jennea's books
+  complete 84401 only Mage @26.43,15.13 era -- Scourge: Undead Menace or Misunderstood?, one of Jennea's books
+  zone map 1453
+  turnin 6187 -- An Oath of Humility - back to Highlord Bolvar Fordragon
+  goto 48.43,50.22
+  turnin 7640 only Paladin -- Exorcising Terrordale - the Terrordale Spirits to Lord Grayson Shadowbreaker
+
+step Expedition — Burning Steppes and Winterspring
+
+  zone map 1428
+  turnin 4766 -- Mayara Brightwing - Ridgewell's word to Mayara Brightwing
+  turnin 7562 only Warlock -- Mor'zul Bloodbringer - Spackle's word to Mor'zul Bloodbringer
+  complete 84396 only Mage @26.4,24.45 era -- Magma or Lava?, one of Jennea's books
+  zone map 1452
+  turnin 6501 -- Drakefire Amulet - Bolvar's word to Haleh
+  complete 84399 only Mage @60.7,37.7 era -- Ka-Boom!, one of Jennea's books
+
+step Expedition — Swamp of Sorrows and the Blasted Lands
+
+  note Mazen's and Brohann's far legs share one southern run: essays off the swamp beasts, tablets inside the Temple, then Mahar Ba in the Blasted Lands.
+  zone map 1435
+  complete 1364 @14.92,38.73 era -- Khadgar's Essays off the swamp beasts
+  complete 1475 @74.7,43.84 era -- ten Atal'ai Tablets inside the Temple of Atal'Hakkar
+  turnin 1475 -- Into The Temple of Atal'Hakkar - the tablets to Brohann Caskbelly
+  zone map 1419
+  turnin 1364 -- Mazen's Behest - the essays to Watcher Mahar Ba
+
+step Expedition — Stonetalon and the Barrens
+
+  zone map 1442
+  turnin 1077 -- Special Delivery for Gaxim - Collin's word to Gaxim Rustfizzle
+  turnin 6141 -- Brother Anton - Crowley's word to Brother Anton, Stonetalon first
+  note Anton also travels Desolace; Stonetalon is first per the data.
+  zone map 1413
+  turnin 1798 only Warlock -- Seeking Strahad - Gakin's word to Strahad Farsan
+  turnin 4488 only Warlock -- Summon Felsteed - Demisette's word to Strahad Farsan
+  turnin 4738 only Warlock -- In Search of Menara Voidrender - Demisette's word to Menara Voidrender
+  turnin 4968 only Warlock -- Knowledge of the Orb of Orahil - Demisette's word to Menara Voidrender
+  turnin 1716 only Warlock -- Devourer of Souls - Gakin's word to Takar the Seer
+
+step Expedition — Feralas
+
+  note A far-corner double: both of these turn in to Feralas quest hubs with no city return.
+  zone map 1444
+  turnin 3787 -- Jonespyre's Request - Tannysa's word to Quintis Jonespyre
+  turnin 7494 -- Feathermoon Stronghold - Goodman's word to Latronicus Moonspear
+
+step Expedition — Desolace
+
+  zone map 1443
+  turnin 96438 only Paladin -- Battle at the Mannoroc Coven - the Broken Warhammer at 52.72, 84.76
+
+step Expedition — Felwood and Moonglade
+
+  zone map 1448
+  complete 8419 only Warlock @41.36,45.02 era -- Felcloth for Impsy
+  turnin 8419 only Warlock -- An Imp's Request - Demisette's word to Impsy
+  complete 84397 only Mage @65.2,3.3 era -- Northern Kalimdor, one of Jennea's books
+  zone map 1450
+  turnin 94914 only Skyborne,Druid -- Moonglade - Sheldras's word to Dendrite Starblaze
+
+step Expedition — Dustwallow and Stranglethorn
+
+  zone map 1445
+  turnin 81764 only Paladin -- The Mysterious Merchant - Katherine's word to Elrick
+  turnin 95194 -- Our Man in Theramore - Shaw's word to Sully McCleary
+  turnin 1260 -- Morgan Stern - Angus's word to Morgan Stern
+  zone map 1434
+  note Hank's Stranglethorn turn-in lives in the step below, gated on carrying it.
+
+step Expedition — Stranglethorn, McGavan's word
+  when onquest 2759
+
+  note Hank's smiths turn in here if the log carries 2759.
+  zone map 1434
+  turnin 2759 -- In Search of Galvan - Hank's word to McGavan
+
+step Expedition — Hyjal, very late
+
+  zone map 2482
+  turnin 96676 -- Unsealing the Blackthorne Pact - Shaw's word to Johun Dillas
+  note Level 59 business at Mount Hyjal; do it when the world lets you.
+
+step Mage Quarter — the book returns
+
+  only Mage
+  goto 49.56,85.8
+  turnin 84395 only Mage -- Undead Potatoes - the book to Jennea Cannon
+  turnin 84396 only Mage -- Magma or Lava? - the book to Jennea Cannon
+  turnin 84397 only Mage -- Northern Kalimdor - the book to Jennea Cannon
+  turnin 84398 only Mage -- A Study of the Light - the book to Jennea Cannon
+  turnin 84399 only Mage -- Ka-Boom! - the book to Jennea Cannon
+  turnin 84400 only Mage -- The Knight and the Lady - the book to Jennea Cannon
+  turnin 84401 only Mage -- Scourge: Undead Menace or Misunderstood? - the book to Jennea Cannon
+  turnin 84402 only Mage -- Necromancy 101 - the book to Jennea Cannon
