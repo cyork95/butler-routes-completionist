@@ -1,0 +1,41 @@
+# Butler Routes - Elwynn Forest recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics, designs and manuals whose SOURCE is
+# in Elwynn Forest, verified against the local Forever game data (questie-forever
+# item and vendor tables). Everything here is vendor-sold: the drop scan over all
+# 279 Elwynn-spawning NPCs found no recipe dropped exclusively from Elwynn
+# sources (every dropped recipe is a generic multi-zone world drop), and quest
+# records carry no reward data (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover those.
+# Each step is gated to its profession; other characters skip it cleanly.
+guide butler-routes-completionist/elwynn-forest-recipes
+title Elwynn Forest - Recipes & Patterns
+levels 1-10
+zone Elwynn Forest
+faction Alliance
+category Professions
+folder Companions
+keywords elwynn, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — Goldshire (Tharynn Bouden)
+  when skill Cooking 1
+
+  vendor 66 -- Tharynn Bouden (41.82, 67.16)
+  buy 6325 "Recipe: Brilliant Smallfish"
+  buy 6328 "Recipe: Longjaw Mud Snapper"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Goldshire (Tharynn Bouden)
+  when skill Tailoring 1
+
+  vendor 66 -- Tharynn Bouden (41.82, 67.16)
+  buy 6270 "Pattern: Blue Linen Vest"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Eastvale (Drake Lindgren)
+  when skill Tailoring 1
+
+  vendor 1250 -- Drake Lindgren (83.31, 66.69)
+  buy 6272 "Pattern: Blue Linen Robe"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
