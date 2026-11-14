@@ -25,8 +25,8 @@ Companions (Rares & Treasures · Recipes & Patterns) follow the core guide once 
 - [x] Lint/playtest clean — 0 errors, playtest 0 stuck
 - [ ] Cody pilot — Orinis, week of Nov 16
 - [ ] Pilot fixes landed
-- [ ] Companion: Rares & Treasures — prompt delivered to Muse Build
-- [ ] Companion: Recipes & Patterns — prompt delivered to Muse Build
+- [x] Companion: Rares & Treasures — built, lint clean (0 errors / 0 warnings)
+- [x] Companion: Recipes & Patterns — built, lint clean (0 errors / 0 warnings)
 
 ### Zephras Isle — Skyborne (Horde)
 
