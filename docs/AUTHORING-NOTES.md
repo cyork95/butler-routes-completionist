@@ -149,3 +149,34 @@ The five-quest check (ZEPHRAS-5-CHECK.md) found three of the five were REAL miss
 ## v0.1.2 amendment (2026-11-13, Butler)
 
 Pack id renamed `butler-routes` -> `butler-routes-completionist` to match the polestar.guide Studio draft id exactly (the site refuses mismatched pack/route ids). Guide id is now `butler-routes-completionist/zephras-isle`, guide version 3, pack version 0.1.2. The site upload check also confirmed: pack.json valid, route read correctly; its warning that the pack.json `folder` field is ignored for site installs (always PolestarPack_<id>) is expected — the field stays for local builds. All future guides in this pack use the `butler-routes-completionist/` prefix.
+
+## v0.2.0 fix-round findings (2026-11-14, Butler)
+
+Lint (local forge 0.2.0 + reference data built from client 1.60.1.70938) went 14 errors + 95
+warnings -> 0 site-errors + 12 warnings; contract 145/145 exact; playtest 8 plays, 0 stuck.
+Open questions settled by the compiler data in this round:
+
+- Twin mapping (Alliance/Horde): Welcome 93461/92514, Valanaar 92701/92579, In Service
+  92860/92871, Grand Adventure 92709/92708, What Comes Next 93089/93090, Fate 94369/93836,
+  Lorthuna 93835/92646. Each pair is split with per-line `only Alliance` / `only Horde`.
+- The contract's Shaman intro (92484) and the whole Call of Fire chain (97243/97244/97245/97257)
+  are Horde-race quests, as are Camping 101: Tailoring (97972) and Enchanting (98284). They stay
+  in the guide with correct Horde scoping (zero characters in this Alliance guide, so lint-clean)
+  to keep the 145-coverage exact; the Horde-side Zephras twin guide (later round) picks them up.
+- 92470 Foul Matriarch turns in to Aetheen of the Gales (not Aonda); 96638 The Adventurer is
+  given by Aetheen (not taken in Shen'dar); 96101/96638 end at Raan Wildwind (Shen'dar camp).
+  Steps reordered to match (turnin 92470 and accept 96638 moved to Thendal).
+- False orderings fixed per chain data: 92463 after 92462 turnin; 92469 after 92465; 92472 after
+  92470; order-quest chain before its follow-ups; Aonda batch after Among the Faithful; watchtower
+  after the turn-ins; High Elder backbone after Return to Valanaar (chain, Shrine and fate steps
+  moved with it); Shadowgale prereqs before their dependents; 93459 after Mercy Falls.
+- 94493 A Sacrifice in Vain goes before 94484 Unnerving Silence per the compiler (exclusivity).
+- Leaving Zephras splits into scoped departures: Dalaran (`zone map 1416`) for the Alliance,
+  Mulgore (`zone Mulgore`) for the Horde.
+- Remaining warnings, all accepted: 11 early level warnings (XP-model noise - the route follows
+  the game's offer order, verified playable by playtest); the moved exclusivity note on 94484
+  (local QuestieDB revision lists the excl both ways; the site data behind the build report lists
+  it one way, which the new order satisfies - re-lint on upload will confirm); 2 `train` smart-
+  target lines (local data lacks professions.json; the site build report shows them clean).
+  Guide version 4, pack version 0.2.0.
+
