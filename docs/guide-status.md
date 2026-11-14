@@ -2,6 +2,8 @@
 
 _Where every zone stands. Updated 2026-11-13 · Pack v0.2.0 · Repo: `cyork95/butler-routes-completionist` (`master`)_
 
+**Pack principle (Cody, 2026-11-13): this is a COMPLETIONIST pack, not a leveling guide.** Every guide covers every quest in its zone — including the ones a leveling route would skip as XP-inefficient. The build order follows the sequence a player levels through the content, but that only decides which zone gets written next; inside a zone, efficiency shapes the route's order, never its quest selection.
+
 **The pipeline every zone goes through:**
 
 1. Census — the zone's quest list is pulled and verified
@@ -122,7 +124,7 @@ _The lead-in for Loch Modan (build order #2)._
 - [ ] Pilot fixes landed
 - [ ] Companions
 
-**Publish rule (Cody, 2026-11-13): v1.0.0 waits for ALL of it** — every zone on this checklist, both factions and Set 2 included, done at first pass: core + companions written and lint-clean. Then the `v1.0.0` tag push fires the GitHub Actions publish to polestar.guide. Pilots and pilot-fix rounds continue after publish as v1.x updates. The build order itself follows the sequence a player levels through the content.
+**Publish rule (Cody, 2026-11-13): v1.0.0 waits for ALL of it** — every zone on this checklist, both factions and Set 2 included, done at first pass: core + companions written and lint-clean. Then the `v1.0.0` tag push fires the GitHub Actions publish to polestar.guide. Pilots and pilot-fix rounds continue after publish as v1.x updates. The build order follows zone progression; per the pack principle above, that orders the writing, never the content.
 
 ---
 
