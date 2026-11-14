@@ -2778,6 +2778,770 @@
           "name": "Seeking the Kor Gem"
         }
       ]
+    },
+    {
+      "id": "stormwind-city",
+      "name": "Stormwind City",
+      "order": 8,
+      "levelBand": "1-60",
+      "summary": "The first city guide: the Alliance capital as a repeat-visit hub — districts, class and profession lines, the Defias and Diplomat chains, the Stockade, the Onyxia and epic-mount endgames, and accept-based expeditions to 20+ zones.",
+      "quests": [
+        {
+          "id": 72
+        },
+        {
+          "id": 74,
+          "name": "The Legend of Stalvan"
+        },
+        {
+          "id": 121,
+          "name": "Messenger to Stormwind"
+        },
+        {
+          "id": 167,
+          "name": "Oh Brother. . ."
+        },
+        {
+          "id": 168,
+          "name": "Collecting Memories"
+        },
+        {
+          "id": 212,
+          "name": "A Meal Served Cold"
+        },
+        {
+          "id": 270,
+          "name": "The Doomed Fleet"
+        },
+        {
+          "id": 325,
+          "name": "Armed and Ready"
+        },
+        {
+          "id": 332,
+          "name": "Wine Shop Advert"
+        },
+        {
+          "id": 333,
+          "name": "Harlan Needs a Resupply"
+        },
+        {
+          "id": 334,
+          "name": "Package for Thurman"
+        },
+        {
+          "id": 335,
+          "name": "A Noble Brew"
+        },
+        {
+          "id": 336,
+          "name": "A Noble Brew"
+        },
+        {
+          "id": 343,
+          "name": "Speaking of Fortitude"
+        },
+        {
+          "id": 344,
+          "name": "Brother Paxton"
+        },
+        {
+          "id": 350,
+          "name": "Look to an Old Friend"
+        },
+        {
+          "id": 353,
+          "name": "Stormpike's Delivery"
+        },
+        {
+          "id": 387,
+          "name": "Quell The Uprising"
+        },
+        {
+          "id": 388,
+          "name": "The Color of Blood"
+        },
+        {
+          "id": 389,
+          "name": "Bazil Thredd"
+        },
+        {
+          "id": 391,
+          "name": "The Stockade Riots"
+        },
+        {
+          "id": 392,
+          "name": "The Curious Visitor"
+        },
+        {
+          "id": 393,
+          "name": "Shadow of the Past"
+        },
+        {
+          "id": 394,
+          "name": "The Head of the Beast"
+        },
+        {
+          "id": 395,
+          "name": "Brotherhood's End"
+        },
+        {
+          "id": 396,
+          "name": "An Audience with the King"
+        },
+        {
+          "id": 397,
+          "name": "You Have Served Us Well"
+        },
+        {
+          "id": 399,
+          "name": "Humble Beginnings"
+        },
+        {
+          "id": 434,
+          "name": "The Attack!"
+        },
+        {
+          "id": 538,
+          "name": "Southshore"
+        },
+        {
+          "id": 543,
+          "name": "The Perenolde Tiara"
+        },
+        {
+          "id": 579,
+          "name": "Stormwind Library"
+        },
+        {
+          "id": 690,
+          "name": "Malin's Request"
+        },
+        {
+          "id": 1015,
+          "name": "The New Frontier"
+        },
+        {
+          "id": 1076,
+          "name": "Devils in Westfall"
+        },
+        {
+          "id": 1077,
+          "name": "Special Delivery for Gaxim"
+        },
+        {
+          "id": 1078,
+          "name": "Retrieval for Mauren"
+        },
+        {
+          "id": 1241,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1242,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1243,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1246,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1247,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1248,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1260,
+          "name": "Morgan Stern"
+        },
+        {
+          "id": 1271,
+          "name": "Feast at the Blue Recluse"
+        },
+        {
+          "id": 1274,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1363,
+          "name": "Mazen's Behest"
+        },
+        {
+          "id": 1364,
+          "name": "Mazen's Behest"
+        },
+        {
+          "id": 1447,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1448,
+          "name": "In Search of The Temple"
+        },
+        {
+          "id": 1449,
+          "name": "To The Hinterlands"
+        },
+        {
+          "id": 1475,
+          "name": "Into The Temple of Atal'Hakkar"
+        },
+        {
+          "id": 1477,
+          "name": "Vital Supplies"
+        },
+        {
+          "id": 1639,
+          "name": "Bartleby the Drunk"
+        },
+        {
+          "id": 1640,
+          "name": "Beat Bartleby"
+        },
+        {
+          "id": 1641,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1642,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1643,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1644,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1649,
+          "name": "The Tome of Valor"
+        },
+        {
+          "id": 1650,
+          "name": "The Tome of Valor"
+        },
+        {
+          "id": 1653,
+          "name": "The Test of Righteousness"
+        },
+        {
+          "id": 1661,
+          "name": "The Tome of Nobility"
+        },
+        {
+          "id": 1665,
+          "name": "Bartleby's Mug"
+        },
+        {
+          "id": 1666,
+          "name": "Marshal Haggard"
+        },
+        {
+          "id": 1688,
+          "name": "Surena Caledon"
+        },
+        {
+          "id": 1689,
+          "name": "The Binding"
+        },
+        {
+          "id": 1700,
+          "name": "Grimand Elmore"
+        },
+        {
+          "id": 1701,
+          "name": "Fire Hardened Mail"
+        },
+        {
+          "id": 1703,
+          "name": "Mathiel"
+        },
+        {
+          "id": 1704,
+          "name": "Klockmort Spannerspan"
+        },
+        {
+          "id": 1705,
+          "name": "Burning Blood"
+        },
+        {
+          "id": 1706,
+          "name": "Grimand's Armor"
+        },
+        {
+          "id": 1716,
+          "name": "Devourer of Souls"
+        },
+        {
+          "id": 1739,
+          "name": "The Binding"
+        },
+        {
+          "id": 1780,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1781,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1782,
+          "name": "Furen's Armor"
+        },
+        {
+          "id": 1786,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1788,
+          "name": "The Tome of Divinity"
+        },
+        {
+          "id": 1790,
+          "name": "The Symbol of Life"
+        },
+        {
+          "id": 1793,
+          "name": "The Tome of Valor"
+        },
+        {
+          "id": 1798,
+          "name": "Seeking Strahad"
+        },
+        {
+          "id": 1861,
+          "name": "Mirror Lake"
+        },
+        {
+          "id": 1920,
+          "name": "Investigate the Blue Recluse"
+        },
+        {
+          "id": 1921,
+          "name": "Gathering Materials"
+        },
+        {
+          "id": 1938,
+          "name": "Ur's Treatise on Shadow Magic"
+        },
+        {
+          "id": 1940,
+          "name": "Pristine Spider Silk"
+        },
+        {
+          "id": 1941,
+          "name": "Manaweave Robe"
+        },
+        {
+          "id": 1942,
+          "name": "Astral Knot Garment"
+        },
+        {
+          "id": 2040,
+          "name": "Underground Assault"
+        },
+        {
+          "id": 2206,
+          "name": "Snatch and Grab"
+        },
+        {
+          "id": 2281,
+          "name": "Redridge Rendezvous"
+        },
+        {
+          "id": 2360,
+          "name": "Mathias and the Defias"
+        },
+        {
+          "id": 2607,
+          "name": "The Touch of Zanzil"
+        },
+        {
+          "id": 2608,
+          "name": "The Touch of Zanzil"
+        },
+        {
+          "id": 2609,
+          "name": "The Touch of Zanzil"
+        },
+        {
+          "id": 2745,
+          "name": "Infiltrating the Castle"
+        },
+        {
+          "id": 2746,
+          "name": "Items of Some Consequence"
+        },
+        {
+          "id": 2758,
+          "name": "The Origins of Smithing"
+        },
+        {
+          "id": 2759,
+          "name": "In Search of Galvan"
+        },
+        {
+          "id": 2923,
+          "name": "Tinkmaster Overspark"
+        },
+        {
+          "id": 2928,
+          "name": "Gyrodrillmatic Excavationators"
+        },
+        {
+          "id": 3630,
+          "name": "Gnome Engineering"
+        },
+        {
+          "id": 3636,
+          "name": "Bring the Light"
+        },
+        {
+          "id": 3765,
+          "name": "The Corruption Abroad"
+        },
+        {
+          "id": 3787,
+          "name": "Jonespyre's Request"
+        },
+        {
+          "id": 3789,
+          "name": "Assisting Arch Druid Staghelm"
+        },
+        {
+          "id": 4185,
+          "name": "The True Masters"
+        },
+        {
+          "id": 4186,
+          "name": "The True Masters"
+        },
+        {
+          "id": 4488,
+          "name": "Summon Felsteed"
+        },
+        {
+          "id": 4738,
+          "name": "In Search of Menara Voidrender"
+        },
+        {
+          "id": 4766,
+          "name": "Mayara Brightwing"
+        },
+        {
+          "id": 4968,
+          "name": "Knowledge of the Orb of Orahil"
+        },
+        {
+          "id": 5048,
+          "name": "Good Natured Emma"
+        },
+        {
+          "id": 5050,
+          "name": "Good Luck Charm"
+        },
+        {
+          "id": 5066,
+          "name": "A Call to Arms: The Plaguelands!"
+        },
+        {
+          "id": 5645,
+          "name": "A Lack of Fear"
+        },
+        {
+          "id": 5673,
+          "name": "Elune's Grace"
+        },
+        {
+          "id": 5676,
+          "name": "Arcane Feedback"
+        },
+        {
+          "id": 6141,
+          "name": "Brother Anton"
+        },
+        {
+          "id": 6182,
+          "name": "The First and the Last"
+        },
+        {
+          "id": 6183,
+          "name": "Honor the Dead"
+        },
+        {
+          "id": 6184,
+          "name": "Flint Shadowmore"
+        },
+        {
+          "id": 6187,
+          "name": "Order Must Be Restored"
+        },
+        {
+          "id": 6261,
+          "name": "Dungar Longdrink"
+        },
+        {
+          "id": 6285,
+          "name": "Return to Lewis"
+        },
+        {
+          "id": 6403,
+          "name": "The Great Masquerade"
+        },
+        {
+          "id": 6501,
+          "name": "The Dragon's Eye"
+        },
+        {
+          "id": 7494,
+          "name": "Feathermoon Stronghold"
+        },
+        {
+          "id": 7562,
+          "name": "Mor'zul Bloodbringer"
+        },
+        {
+          "id": 7637,
+          "name": "Emphasis on Sacrifice"
+        },
+        {
+          "id": 7638,
+          "name": "Lord Grayson Shadowbreaker"
+        },
+        {
+          "id": 7640,
+          "name": "Exorcising Terrordale"
+        },
+        {
+          "id": 7641,
+          "name": "The Work of Grimand Elmore"
+        },
+        {
+          "id": 7642,
+          "name": "Collection of Goods"
+        },
+        {
+          "id": 7643,
+          "name": "Ancient Equine Spirit"
+        },
+        {
+          "id": 7646,
+          "name": "The Divination Scryer"
+        },
+        {
+          "id": 7647,
+          "name": "Judgment and Redemption"
+        },
+        {
+          "id": 7648,
+          "name": "Grimand's Finest Work"
+        },
+        {
+          "id": 7666,
+          "name": "Again Into the Great Ossuary"
+        },
+        {
+          "id": 7782,
+          "name": "The Lord of Blackrock"
+        },
+        {
+          "id": 7791,
+          "name": "A Donation of Wool"
+        },
+        {
+          "id": 7793,
+          "name": "A Donation of Silk"
+        },
+        {
+          "id": 7794,
+          "name": "A Donation of Mageweave"
+        },
+        {
+          "id": 7795,
+          "name": "A Donation of Runecloth"
+        },
+        {
+          "id": 8415,
+          "name": "Chillwind Point"
+        },
+        {
+          "id": 8419,
+          "name": "An Imp's Request"
+        },
+        {
+          "id": 8897,
+          "name": "Dearest Colara,"
+        },
+        {
+          "id": 8903,
+          "name": "Dangerous Love"
+        },
+        {
+          "id": 9024,
+          "name": "Aristan's Hunch"
+        },
+        {
+          "id": 9025,
+          "name": "Morgan's Discovery"
+        },
+        {
+          "id": 9026,
+          "name": "Tracing the Source"
+        },
+        {
+          "id": 9027,
+          "name": "Tracing the Source"
+        },
+        {
+          "id": 9028,
+          "name": "The Source Revealed"
+        },
+        {
+          "id": 65603,
+          "name": "The Binding"
+        },
+        {
+          "id": 78090,
+          "name": "A Second Opinion"
+        },
+        {
+          "id": 78091,
+          "name": "Earning Your Salt"
+        },
+        {
+          "id": 78092,
+          "name": "It Must Be Destroyed"
+        },
+        {
+          "id": 79940,
+          "name": "A Lost Brother"
+        },
+        {
+          "id": 81762,
+          "name": "Some Good News"
+        },
+        {
+          "id": 81764,
+          "name": "The Mysterious Merchant"
+        },
+        {
+          "id": 84395,
+          "name": "Undead Potatoes"
+        },
+        {
+          "id": 84396,
+          "name": "Magma or Lava?"
+        },
+        {
+          "id": 84397,
+          "name": "Northern Kalimdor - A Comprehensive Guide"
+        },
+        {
+          "id": 84398,
+          "name": "A Study of the Light"
+        },
+        {
+          "id": 84399,
+          "name": "Ka-Boom!"
+        },
+        {
+          "id": 84400,
+          "name": "The Knight and the Lady"
+        },
+        {
+          "id": 84401,
+          "name": "Scourge: Undead Menace or Misunderstood?"
+        },
+        {
+          "id": 84402,
+          "name": "Necromancy 101"
+        },
+        {
+          "id": 92415,
+          "name": "Remember That I Love You"
+        },
+        {
+          "id": 92456,
+          "name": "A Green Sample"
+        },
+        {
+          "id": 92489,
+          "name": "Power Overwhelming"
+        },
+        {
+          "id": 93963,
+          "name": "Exploring the Alliance"
+        },
+        {
+          "id": 94819,
+          "name": "Contingency Plan"
+        },
+        {
+          "id": 94914,
+          "name": "Moonglade"
+        },
+        {
+          "id": 95065,
+          "name": "Fishin' Time"
+        },
+        {
+          "id": 95161,
+          "name": "Remember That I Love You"
+        },
+        {
+          "id": 95194,
+          "name": "Our Man in Theramore"
+        },
+        {
+          "id": 96438,
+          "name": "Battle at the Mannoroc Coven"
+        },
+        {
+          "id": 96676,
+          "name": "Unsealing Blackthorne Pact"
+        },
+        {
+          "id": 97220,
+          "name": "Philmor's Favor"
+        },
+        {
+          "id": 97222,
+          "name": "Gatehouse Goods"
+        },
+        {
+          "id": 97234,
+          "name": "Reading Room"
+        },
+        {
+          "id": 97237,
+          "name": "Shelf Picked"
+        },
+        {
+          "id": 97894,
+          "name": "Business in Auberdine"
+        },
+        {
+          "id": 97926,
+          "name": "Making Do"
+        },
+        {
+          "id": 98191,
+          "name": "A Friend of the Family"
+        },
+        {
+          "id": 98219,
+          "name": "The Shamed Lieutenant"
+        }
+      ]
     }
   ]
 }
