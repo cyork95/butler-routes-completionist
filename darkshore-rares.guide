@@ -1,0 +1,284 @@
+# Butler Routes - Darkshore rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 18 confirmed rares and the fixed world containers
+# of Darkshore. Run it in its own Polestar tab at the end of the core route or
+# standalone. EVERY goal is optional: a rare that is not up never holds the route.
+# Spawn points, levels and loot are the local Forever game data (questie-forever);
+# respawn timers are unconfirmed anywhere, so none are stated. Named mobs that are
+# core-route quest objectives (Murkdeep, Volcor, Den Mother, Jai'vhanel, Balthule
+# Shadowstrike and his Tower chain, Gelkak and his crew, the beached-creature
+# series and every other contracted quest subject) are NOT here: the core guide
+# covers their quests. The Ghost Saber is summoned at the cat figurines, not a
+# roaming spawn — her step loops the figurines. See
+# docs/darkshore-companions-inventory.md for the full inventory this guide was
+# built against.
+guide butler-routes-completionist/darkshore-rares
+title Darkshore - Rares & Treasures
+levels 10-20
+zone Darkshore
+faction Alliance
+category Collectibles
+folder Companions
+keywords darkshore, rares, treasures, companions
+coords live
+version 1
+
+step Strider Clutchmother — the southern shore
+
+  goto 34.82,87.31
+  kill 2172 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 284176 "Tallstrider Hatchling" optional
+  note Level 20 rare tallstrider; her table holds Strider Meat, so hunters can tame instead. The Hatchling drops only from her.
+  note Also drops ordinary greens (Calico Cloak, Warped Leather Bracers); respawn timer unconfirmed.
+
+step Shadowclaw — central Darkshore
+
+  goto 40.29,40.52
+  kill 2175 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 284174 "Serrated Shadowclaw" optional
+  note Level 13 rare stealthed cat; her table holds a Small Furry Paw, so hunters can tame instead. Her namesake claw drops only from her.
+  note Also drops ordinary greens (Dwarven Hatchet, Priest's Mace); respawn timer unconfirmed.
+
+step Ghost Saber — the Ruins of Mathystra
+
+  loop
+  goto 59.49,23.38
+  goto 60.09,15.24
+  goto 61.17,21.63
+  goto 56.86,21.48
+  interact 13359 optional
+  interact 13873 optional
+  task "Tame it the moment it appears" optional only Hunter
+  collect 5332 "Glowing Cat Figurine" optional
+  note Level 19 rare; she is NOT a roaming spawn — interacting with a cat figurine summons her and she despawns after a while, so tame on sight. Her Glowing Cat Figurine drops only from her.
+  note Spawn points, levels and loot are the data; the summon-and-despawn mechanic is the brief's report. Respawn timer unconfirmed.
+
+step Carnivous the Breaker — central and south
+
+  loop
+  goto 39.37,53.46
+  goto 39.89,78.52
+  goto 40.16,56.57
+  goto 42.83,84.69
+  kill 2186 optional
+  collect 284192 "Furbolg Loincloth" optional
+  note Level 16 rare furbolg; his Loincloth drops only from him.
+  note Also drops ordinary greens (Calico Shoes, Calico Cloak); respawn timer unconfirmed.
+
+step Flagglemurk the Cruel — the coast and the northeast
+
+  loop
+  goto 36.75,67.6
+  goto 45.05,21.12
+  kill 7015 optional
+  collect 284185 "Greymist Gauntlets" optional
+  note Level 16 rare murloc; his Gauntlets drop only from him.
+  note Also drops ordinary greens (Laced Mail Belt, Laced Mail Boots); respawn timer unconfirmed.
+
+step Lady Vespira — the Ruins of Mathystra
+
+  loop
+  goto 57.81,21.43
+  goto 57.85,21.84
+  goto 57.89,18.52
+  goto 58.82,16.65
+  goto 59.88,15.78
+  goto 59.93,23.39
+  goto 60.97,21.82
+  goto 61.52,18.72
+  kill 7016 optional
+  collect 6332 "Black Pearl Ring" optional
+  collect 6333 "Spikelash Dagger" optional
+  note Level 22 rare, above the band but a true Mathystra rare with her own loot. Both pieces drop only from her.
+  note Respawn timer unconfirmed.
+
+step Lord Sinslayer — the east
+
+  loop
+  goto 55.51,36.28
+  goto 55.71,35.94
+  goto 56.6,34.94
+  kill 7017 optional
+  collect 14146 "Gloves of Spell Mastery" optional
+  collect 284177 "Sinslayer's Smasher" optional
+  note Level 16 rare; both pieces drop only from him.
+  note Also drops ordinary greens (Calico Shoes, Calico Cloak); respawn timer unconfirmed.
+
+step Grimclaw — the south
+
+  goto 41.74,81.53
+  kill 3695 optional
+  note Level 13 rare. The data records only foodstuffs on him (Haunch of Meat, Clam Meat) — no collect goal; take what drops. Respawn timer unconfirmed.
+
+step Xabraxxis — the east
+
+  goto 52.48,33.39
+  kill 10373 optional
+  note Level 19 rare demon. The data records no signature loot on him — only ordinary goods (Stout Battlehammer, Forester's Axe); respawn timer unconfirmed.
+
+step Licillin — the east
+
+  goto 45.66,36.38
+  kill 2191 optional
+  collect 284173 "Impcaster's Staff" optional
+  note Level 14 rare; his Staff drops only from him.
+  note Also drops ordinary greens (Calico Shoes, Calico Cloak); respawn timer unconfirmed.
+
+step Lady Moongazer — the center
+
+  goto 42.98,61.11
+  kill 2184 optional
+  collect 284193 "Moongazer's Wand" optional
+  note Level 17 rare; her Wand drops only from her.
+  note Also drops ordinary greens (Laced Mail Belt, Laced Mail Boots); respawn timer unconfirmed.
+
+step Marosh the Devious — the far south
+
+  goto 45.84,90.41
+  kill 11714 optional
+  collect 287 "Scalemail Boots" optional
+  note Level 16 rare; the data shows his Boots dropping nowhere else.
+  note Also drops ordinary greens (Laced Mail Belt, Laced Mail Boots); respawn timer unconfirmed.
+
+step Lady Sedorax — the east
+
+  loop
+  goto 55.2,35.2
+  goto 55.4,36.2
+  goto 55.4,36.8
+  goto 55.6,35.2
+  kill 210451 optional
+  collect 209028 "Spell Notes: BIVOLG NIMB" optional
+  note Level 18 rare. Her Spell Notes drop only from her; her Rune of Endless Rage is shared with seven others per the item data — no collect goal, take it if it drops. Respawn timer unconfirmed.
+
+step Firecaller Radison — the south
+
+  goto 38.69,87.64
+  kill 2192 optional
+  collect 284187 "Crazed Firecaller's Cloak" optional
+  note Level 19 rare; his Cloak drops only from him.
+  note Also drops ordinary greens (Stout Battlehammer, Forester's Axe); respawn timer unconfirmed.
+
+step Delmanis the Hated — by the Tower of Althalaxx
+
+  goto 56.84,27.51
+  kill 3662 optional
+  note Level 17 rare. The data records no signature loot on him and no quest link — only ordinary goods (Stout Battlehammer, Forester's Axe); respawn timer unconfirmed.
+
+step Lunaclaw — central Darkshore
+
+  goto 42.8,45
+  kill 12138 optional
+  task "Tame it instead of killing it" optional only Hunter
+  note Level 12 rare bear; his table holds Haunch of Meat, so hunters can tame instead. The data records no signature loot on him.
+  note Also drops ordinary greens (Calico Shoes, Calico Cloak); respawn timer unconfirmed.
+
+step Shade of Elura — the coast
+
+  goto 31.64,44.86
+  kill 6133 optional
+  collect 6809 "Elura's Medallion" optional
+  note Level 11 rare; her Medallion drops only from her. It is sought by Elanaria's Darnassus-city quest The Shade of Elura (1686, Warrior-only, NOT in the core contract — a city-chain quest the core route does not cover, so take it if you hold that quest).
+  note Also drops ordinary greens (Calico Shoes, Calico Cloak); respawn timer unconfirmed.
+
+step Baron Marinous — the Mathystra coast
+
+  loop
+  goto 57.59,20.83
+  goto 58.07,23.85
+  goto 58.85,23.96
+  goto 59.04,21.74
+  goto 59.17,22.7
+  goto 59.45,21.25
+  goto 59.67,22.78
+  goto 59.94,16.49
+  goto 59.98,23.32
+  goto 60,21.88
+  goto 60.21,22.78
+  kill 270294 optional
+  collect 279275 "Clouded Water Globe" optional
+  note Level 21 rare, above the band but a true coastal rare with his own loot — his Globe drops only from him. The Globe starts the contracted core quest Baron Marinous (98028, turn in to Onu at the Grove), so take it if it drops and hand it in — the core route covers the quest and never waits on the drop.
+  note Respawn timer unconfirmed.
+
+step Fixed Chests, Clams and Footlockers — world containers
+
+  loop
+  goto 34.8,85.1
+  goto 38.39,29.38
+  goto 38.42,86.76
+  goto 42.57,86.71
+  goto 44.15,20.37
+  goto 44.77,86.89
+  goto 55.88,26.08
+  goto 56.31,26.27
+  goto 58.06,19.96
+  goto 58.34,17.66
+  goto 58.79,15.78
+  goto 60.31,18.37
+  goto 60.47,22.35
+  goto 61.53,19.38
+  goto 61.97,21.6
+  goto 36.7,27.39
+  goto 39.67,78.34
+  goto 42.42,61.97
+  goto 43.04,58.69
+  goto 47.16,37.01
+  goto 48.08,36.38
+  goto 50.82,25.61
+  goto 55.65,34.49
+  goto 56.62,35.19
+  goto 25.45,91.54
+  goto 28.2,47.99
+  goto 28.63,52.2
+  goto 29.55,57.75
+  goto 29.63,44.35
+  goto 31.17,88.19
+  goto 31.42,74.8
+  goto 31.67,78.84
+  goto 32.63,52.67
+  goto 32.83,34.97
+  goto 33.23,84.48
+  goto 33.32,45.54
+  goto 34.71,61.58
+  goto 34.92,48.84
+  goto 35.75,57.28
+  goto 36.02,39.28
+  goto 36.44,32.05
+  goto 38.74,24.69
+  goto 42.58,19.81
+  goto 46.29,18.73
+  goto 50.13,18.83
+  goto 50.98,14.92
+  goto 55.78,11.45
+  goto 60.09,7.4
+  goto 29.81,92.62
+  goto 30.41,92.11
+  goto 31.32,91.21
+  goto 31.91,91.26
+  goto 25.2,96.3
+  goto 28.8,95.6
+  goto 29.6,97.7
+  goto 30.8,97
+  goto 31.4,98.1
+  goto 32.2,98.9
+  goto 28.4,99
+  goto 48.87,11.32
+  goto 56.3,34.9
+  goto 32.7,37.1
+  goto 59.2,22.6
+  goto 38.24,28.8
+  goto 39.63,27.46
+  interact 2849 optional
+  interact 106319 optional
+  interact 19017 optional
+  interact 19018 optional
+  interact 179487 optional
+  interact 179489 optional
+  interact 177792 optional
+  interact 414532 optional
+  interact 414624 optional
+  interact 414663 optional
+  interact 175165 optional
+  interact 175166 optional
+  note Twenty-four fixed Battered Chest placements (objects 2849 and 106319), twenty-eight Giant Clams (objects 19017 and 19018) along the coast, seven Waterlogged Footlockers (objects 179487 and 179489) in the Blackfathom shallows, a Strange Lockbox (177792) at (48.87, 11.32), the Cliffspring Chest (414532) at (56.3, 34.9), the Lighthouse Stash (414624) at (32.7, 37.1), a Shatterspear Idol (414663) at (59.2, 22.6), Silver Dawning's Lockbox (175165) at (38.24, 28.8) and Mist Veil's Lockbox (175166) at (39.63, 27.46). None starts a quest in the data; all hold ordinary low-level goods, no unique treasure confirmed. Respawn timers unconfirmed.
