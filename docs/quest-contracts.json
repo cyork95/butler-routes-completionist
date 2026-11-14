@@ -4748,6 +4748,175 @@
           "name": "Craftsman's Writ: Azure Silk Hood"
         }
       ]
+    },
+    {
+      "id": "stonetalon-mountains",
+      "name": "Stonetalon Mountains",
+      "order": 13,
+      "levelBand": "16-30",
+      "summary": "Set 2 third zone (Alliance): Stonetalon Peak hub, the Gaxim/Kaela and Gerenzo chains, Windshear Covert Ops, the Charred Vale, the south-camp Desolace-border finales, and the custom object chain. Leads on to Desolace and the Barrens.",
+      "quests": [
+        {
+          "id": 1057,
+          "name": "Reclaiming the Charred Vale"
+        },
+        {
+          "id": 1059,
+          "name": "Reclaiming the Charred Vale"
+        },
+        {
+          "id": 1071,
+          "name": "A Gnome's Respite"
+        },
+        {
+          "id": 1072,
+          "name": "An Old Colleague"
+        },
+        {
+          "id": 1075,
+          "name": "A Scroll from Mauren"
+        },
+        {
+          "id": 1079,
+          "name": "Covert Ops - Alpha"
+        },
+        {
+          "id": 1080,
+          "name": "Covert Ops - Beta"
+        },
+        {
+          "id": 1082,
+          "name": "Update for Sentinel Thenysil"
+        },
+        {
+          "id": 1083,
+          "name": "Enraged Spirits"
+        },
+        {
+          "id": 1084,
+          "name": "Wounded Ancients"
+        },
+        {
+          "id": 1085,
+          "name": "On Guard in Stonetalon"
+        },
+        {
+          "id": 1090,
+          "name": "Gerenzo's Orders"
+        },
+        {
+          "id": 1091,
+          "name": "Kaela's Update"
+        },
+        {
+          "id": 1092,
+          "name": "Gerenzo's Orders"
+        },
+        {
+          "id": 1093,
+          "name": "Super Reaper 6000"
+        },
+        {
+          "id": 1094,
+          "name": "Further Instructions"
+        },
+        {
+          "id": 1096,
+          "name": "Gerenzo Wrenchwhistle"
+        },
+        {
+          "id": 1382,
+          "name": "Strange Alliance"
+        },
+        {
+          "id": 1385,
+          "name": "Brutal Politics"
+        },
+        {
+          "id": 1387,
+          "name": "Centaur Bounty"
+        },
+        {
+          "id": 1437,
+          "name": "Vahlarriel's Search"
+        },
+        {
+          "id": 1438,
+          "name": "Vahlarriel's Search"
+        },
+        {
+          "id": 1454,
+          "name": "The Karnitol Shipwreck"
+        },
+        {
+          "id": 1456,
+          "name": "The Karnitol Shipwreck"
+        },
+        {
+          "id": 1457,
+          "name": "The Karnitol Shipwreck"
+        },
+        {
+          "id": 1458,
+          "name": "Reagents for Reclaimers Inc."
+        },
+        {
+          "id": 1459,
+          "name": "Reagents for Reclaimers Inc."
+        },
+        {
+          "id": 1466,
+          "name": "Reagents for Reclaimers Inc."
+        },
+        {
+          "id": 1467,
+          "name": "Reagents for Reclaimers Inc."
+        },
+        {
+          "id": 2931,
+          "name": "Castpipe's Task"
+        },
+        {
+          "id": 78149,
+          "name": "Fury of the Land"
+        },
+        {
+          "id": 78270,
+          "name": "Goblin Lockpicks"
+        },
+        {
+          "id": 86574,
+          "name": "Stonetalon Supply Run"
+        },
+        {
+          "id": 94225,
+          "name": "Craftsman's Writ: Rough Bronze Leggings"
+        },
+        {
+          "id": 94234,
+          "name": "Craftsman's Writ: Shadow Goggles"
+        },
+        {
+          "id": 94243,
+          "name": "Craftsman's Writ: Heavy Quiver"
+        },
+        {
+          "id": 94252,
+          "name": "Craftsman's Writ: Red Woolen Boots"
+        },
+        {
+          "id": 79974,
+          "name": "Wet Job"
+        },
+        {
+          "id": 79980,
+          "name": "Scramble"
+        },
+        {
+          "id": 80001,
+          "name": "Rekindle"
+        }
+      ]
     }
   ]
 }
