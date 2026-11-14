@@ -1911,6 +1911,179 @@
           "name": "Treacherous Cold"
         }
       ]
+    },
+    {
+      "id": "loch-modan",
+      "name": "Loch Modan",
+      "order": 5,
+      "levelBand": "10-20",
+      "summary": "Dwarf and Gnome second zone: Thelsamar hub, the Loch shore and Stonewrought Dam, Algaz, Farstrider Lodge, Ironband’s Excavation, and the Mo’grosh stronghold. Leads on to the Wetlands.",
+      "quests": [
+        {
+          "id": 161,
+          "name": "A Dark Threat Looms"
+        },
+        {
+          "id": 199,
+          "name": "A Dark Threat Looms"
+        },
+        {
+          "id": 217,
+          "name": "In Defense of the King's Lands"
+        },
+        {
+          "id": 224,
+          "name": "In Defense of the King's Lands"
+        },
+        {
+          "id": 237,
+          "name": "In Defense of the King's Lands"
+        },
+        {
+          "id": 250,
+          "name": "A Dark Threat Looms"
+        },
+        {
+          "id": 255,
+          "name": "Mercenaries"
+        },
+        {
+          "id": 256,
+          "name": "WANTED: Chok'sul"
+        },
+        {
+          "id": 257,
+          "name": "A Hunter's Boast"
+        },
+        {
+          "id": 258,
+          "name": "A Hunter's Challenge"
+        },
+        {
+          "id": 263,
+          "name": "In Defense of the King's Lands"
+        },
+        {
+          "id": 267,
+          "name": "The Trogg Threat"
+        },
+        {
+          "id": 271,
+          "name": "Vyrin's Revenge"
+        },
+        {
+          "id": 273,
+          "name": "Resupplying the Excavation"
+        },
+        {
+          "id": 278,
+          "name": "A Dark Threat Looms"
+        },
+        {
+          "id": 280,
+          "name": "A Dark Threat Looms"
+        },
+        {
+          "id": 283,
+          "name": "A Dark Threat Looms"
+        },
+        {
+          "id": 297,
+          "name": "Gathering Idols"
+        },
+        {
+          "id": 298,
+          "name": "Excavation Progress Report"
+        },
+        {
+          "id": 301,
+          "name": "Report to Ironforge"
+        },
+        {
+          "id": 307,
+          "name": "Filthy Paws"
+        },
+        {
+          "id": 309,
+          "name": "Protecting the Shipment"
+        },
+        {
+          "id": 385,
+          "name": "Crocolisk Hunting"
+        },
+        {
+          "id": 418,
+          "name": "Thelsamar Blood Sausages"
+        },
+        {
+          "id": 436,
+          "name": "Ironband's Excavation"
+        },
+        {
+          "id": 454,
+          "name": "After the Ambush"
+        },
+        {
+          "id": 455,
+          "name": "The Algaz Gauntlet"
+        },
+        {
+          "id": 531,
+          "name": "Vyrin's Revenge"
+        },
+        {
+          "id": 1338,
+          "name": "Stormpike's Order"
+        },
+        {
+          "id": 2038,
+          "name": "Bingles' Missing Supplies"
+        },
+        {
+          "id": 6387,
+          "name": "Honor Students"
+        },
+        {
+          "id": 86585,
+          "name": "Banner of the Fallen"
+        },
+        {
+          "id": 86613,
+          "name": "Excavation Tools"
+        },
+        {
+          "id": 86614,
+          "name": "Silver of the Waves"
+        },
+        {
+          "id": 86667,
+          "name": "Snowbound"
+        },
+        {
+          "id": 86758,
+          "name": "Twisting the Knife"
+        },
+        {
+          "id": 86776,
+          "name": "Ingredients for the Forge"
+        },
+        {
+          "id": 94466,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 94467,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 94495,
+          "name": "Call of Water"
+        },
+        {
+          "id": 94502,
+          "name": "Call of Water"
+        }
+      ]
     }
   ]
 }
