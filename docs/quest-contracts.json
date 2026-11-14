@@ -1468,6 +1468,449 @@
         }
       ],
       "guideRefs": []
+    },
+    {
+      "id": "dun-morogh",
+      "name": "Dun Morogh",
+      "order": 4,
+      "levelBand": "1-12",
+      "summary": "Dwarf and Gnome starting zone: Coldridge Valley, Kharanos, and the approaches to Ironforge and the Loch Modan road. Ends with the Farsen chain and Stormpike's breadcrumb.",
+      "quests": [
+        {
+          "id": 170,
+          "name": "A New Threat"
+        },
+        {
+          "id": 179,
+          "name": "Dwarven Outfitters"
+        },
+        {
+          "id": 182,
+          "name": "The Troll Cave"
+        },
+        {
+          "id": 183,
+          "name": "The Boar Hunter"
+        },
+        {
+          "id": 218,
+          "name": "The Stolen Journal"
+        },
+        {
+          "id": 233,
+          "name": "Coldridge Valley Mail Delivery"
+        },
+        {
+          "id": 234,
+          "name": "Coldridge Valley Mail Delivery"
+        },
+        {
+          "id": 282,
+          "name": "Senir's Observations",
+          "note": "Same-name variant; see also quest 420. excl[287] looks like data noise — both routed in chain order, playtest-verified."
+        },
+        {
+          "id": 287,
+          "name": "Frostmane Hold",
+          "note": "See 282 note re excl."
+        },
+        {
+          "id": 291,
+          "name": "The Reports"
+        },
+        {
+          "id": 310,
+          "name": "Bitter Rivals"
+        },
+        {
+          "id": 311,
+          "name": "Return to Marleth",
+          "note": "Object-start (Thunder Ale barrels, Kharanos)."
+        },
+        {
+          "id": 312,
+          "name": "Tundra MacGrann's Stolen Stash"
+        },
+        {
+          "id": 313,
+          "name": "The Grizzled Den"
+        },
+        {
+          "id": 314,
+          "name": "Protecting the Herd"
+        },
+        {
+          "id": 315,
+          "name": "The Perfect Stout"
+        },
+        {
+          "id": 317,
+          "name": "Stocking Jetsteam"
+        },
+        {
+          "id": 318,
+          "name": "Evershine"
+        },
+        {
+          "id": 319,
+          "name": "A Favor for Evershine"
+        },
+        {
+          "id": 320,
+          "name": "Return to Bellowfiz"
+        },
+        {
+          "id": 384,
+          "name": "Beer Basted Boar Ribs"
+        },
+        {
+          "id": 400,
+          "name": "Tools for Steelgrill"
+        },
+        {
+          "id": 412,
+          "name": "Operation Recombobulation"
+        },
+        {
+          "id": 413,
+          "name": "Shimmer Stout"
+        },
+        {
+          "id": 414,
+          "name": "Stout to Kadrell"
+        },
+        {
+          "id": 415,
+          "name": "Rejold's New Brew"
+        },
+        {
+          "id": 416,
+          "name": "Rat Catching"
+        },
+        {
+          "id": 417,
+          "name": "A Pilot's Revenge",
+          "note": "Object-start (A Dwarven Corpse)."
+        },
+        {
+          "id": 419,
+          "name": "The Lost Pilot"
+        },
+        {
+          "id": 420,
+          "name": "Senir's Observations",
+          "note": "Same-name variant; see also quest 282."
+        },
+        {
+          "id": 432,
+          "name": "Those Blasted Troggs!"
+        },
+        {
+          "id": 433,
+          "name": "The Public Servant"
+        },
+        {
+          "id": 1339,
+          "name": "Mountaineer Stormpike's Task"
+        },
+        {
+          "id": 1599,
+          "name": "Beginnings"
+        },
+        {
+          "id": 1679,
+          "name": "Muren Stormpike"
+        },
+        {
+          "id": 1784,
+          "name": "The Tome of Divinity",
+          "note": "Pre 1783 (Ironforge) unroutable — structural chain warning expected."
+        },
+        {
+          "id": 1879,
+          "name": "Speak with Bink"
+        },
+        {
+          "id": 2160,
+          "name": "Supplies to Tannok"
+        },
+        {
+          "id": 2218,
+          "name": "Road to Salvation"
+        },
+        {
+          "id": 2239,
+          "name": "Onin's Report",
+          "note": "Pre 2238 (Ironforge) unroutable — structural chain warning expected."
+        },
+        {
+          "id": 2997,
+          "name": "Tome of Divinity"
+        },
+        {
+          "id": 3106,
+          "name": "Simple Rune"
+        },
+        {
+          "id": 3107,
+          "name": "Consecrated Rune"
+        },
+        {
+          "id": 3108,
+          "name": "Etched Rune"
+        },
+        {
+          "id": 3109,
+          "name": "Encrypted Rune"
+        },
+        {
+          "id": 3110,
+          "name": "Hallowed Rune"
+        },
+        {
+          "id": 3112,
+          "name": "Simple Memorandum"
+        },
+        {
+          "id": 3113,
+          "name": "Encrypted Memorandum"
+        },
+        {
+          "id": 3114,
+          "name": "Glyphic Memorandum"
+        },
+        {
+          "id": 3115,
+          "name": "Tainted Memorandum"
+        },
+        {
+          "id": 3361,
+          "name": "A Refugee's Quandary"
+        },
+        {
+          "id": 3364,
+          "name": "Scalding Mornbrew Delivery"
+        },
+        {
+          "id": 3365,
+          "name": "Bring Back the Mug"
+        },
+        {
+          "id": 5541,
+          "name": "Ammo for Rumbleshot"
+        },
+        {
+          "id": 5625,
+          "name": "Garments of the Light"
+        },
+        {
+          "id": 5626,
+          "name": "In Favor of the Light"
+        },
+        {
+          "id": 5630,
+          "name": "Returning Home"
+        },
+        {
+          "id": 5637,
+          "name": "Desperate Prayer"
+        },
+        {
+          "id": 5841,
+          "name": "Welcome!",
+          "note": "Starts from a Coldridge Valley Gift Voucher (14647, sourceless in data) — check bags."
+        },
+        {
+          "id": 6064,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6075,
+          "name": "The Hunter's Path"
+        },
+        {
+          "id": 6084,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6085,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6086,
+          "name": "Training the Beast"
+        },
+        {
+          "id": 6391,
+          "name": "Ride to Ironforge",
+          "note": "Pre 6387 (Loch Modan) unroutable — structural chain warning expected; ends Golnir Bouldertoe (Ironforge)."
+        },
+        {
+          "id": 6722,
+          "name": "The Hunter's Path"
+        },
+        {
+          "id": 94373,
+          "name": "Call of Earth"
+        },
+        {
+          "id": 94374,
+          "name": "Call of Earth"
+        },
+        {
+          "id": 94465,
+          "name": "Call of Fire",
+          "note": "Pre 94449 (Ironforge) unroutable — structural chain warning expected; ends Braldir Ashmantle (Loch Modan)."
+        },
+        {
+          "id": 94776,
+          "name": "Divine Grace"
+        },
+        {
+          "id": 94824,
+          "name": "Confounding Flash",
+          "note": "Chain-consistent Gnome Priest version; see census borderline (a) — 94817 is the unpicked variant."
+        },
+        {
+          "id": 95212,
+          "name": "Never Saddle on Quality"
+        },
+        {
+          "id": 95213,
+          "name": "Stolen Blasting Powder",
+          "note": "Item-start (Empty Powder Keg 268548, Rockjaw troggs) — note + optional kill."
+        },
+        {
+          "id": 95214,
+          "name": "Stolen Blasting Powder"
+        },
+        {
+          "id": 95217,
+          "name": "The Quarry's Smith"
+        },
+        {
+          "id": 96031,
+          "name": "Camping 101: Leatherworking"
+        },
+        {
+          "id": 96044,
+          "name": "Camping 101: Blacksmithing"
+        },
+        {
+          "id": 96046,
+          "name": "Camping 101: Mining"
+        },
+        {
+          "id": 96047,
+          "name": "Camping 101: First Aid"
+        },
+        {
+          "id": 96050,
+          "name": "Camping 101: Fishing"
+        },
+        {
+          "id": 96055,
+          "name": "Camping 101: Herbalism"
+        },
+        {
+          "id": 96056,
+          "name": "Camping 101: Skinning"
+        },
+        {
+          "id": 96057,
+          "name": "Camping 101: Tailoring"
+        },
+        {
+          "id": 96058,
+          "name": "Camping 101: Engineering"
+        },
+        {
+          "id": 96390,
+          "name": "Nip 'Em in the Bud"
+        },
+        {
+          "id": 96391,
+          "name": "Underground Map",
+          "note": "Item-start (Dark Iron Map 274268, Dark Iron Spy / Captain Beld) — note + optional kill."
+        },
+        {
+          "id": 96392,
+          "name": "Farsen's Watch"
+        },
+        {
+          "id": 96393,
+          "name": "Old Ironforge Incursion",
+          "note": "Dungeon objectives (Old Ironforge) placed at entrance per Deadmines precedent; ends King Magni Bronzebeard."
+        },
+        {
+          "id": 96408,
+          "name": "A Visitor to Dun Morogh"
+        },
+        {
+          "id": 96608,
+          "name": "The Great Outdoors"
+        },
+        {
+          "id": 96628,
+          "name": "The Adventurer"
+        },
+        {
+          "id": 96629,
+          "name": "Camping 101: Cooking"
+        },
+        {
+          "id": 97277,
+          "name": "Grund and Gozwin"
+        },
+        {
+          "id": 98319,
+          "name": "Secure the Mountain"
+        },
+        {
+          "id": 98321,
+          "name": "Flintfire's Shipment"
+        },
+        {
+          "id": 98322,
+          "name": "Secure the Mountain"
+        },
+        {
+          "id": 98323,
+          "name": "Secure the Mountain"
+        },
+        {
+          "id": 98326,
+          "name": "Frosthowl"
+        },
+        {
+          "id": 98574,
+          "name": "Hallowed Memorandum"
+        },
+        {
+          "id": 98581,
+          "name": "Archaic Rune"
+        },
+        {
+          "id": 99158,
+          "name": "Dawn in the Mountains"
+        },
+        {
+          "id": 99159,
+          "name": "Finding Warmth"
+        },
+        {
+          "id": 99160,
+          "name": "Rime's Wrath"
+        },
+        {
+          "id": 99161,
+          "name": "Rime's Wrath"
+        },
+        {
+          "id": 99162,
+          "name": "Treacherous Cold"
+        }
+      ]
     }
   ]
 }
