@@ -180,3 +180,53 @@ hunter taming quests. The guide flags the unlisted abbey/Goldshire book quests i
 7. Camping 101: confirm the proficiency gating — that untrained professions' quests are simply
    not offered, so the `optional` lines never block — and pin down the Alchemy/Enchanting
    hand-ins and Herbalist Pomeroy's location.
+
+## v0.2.0 fix-round findings (2026-11-14, Butler)
+
+Lint (local forge 0.2.0 + reference data built from client 1.60.1.70938) is clean:
+0 errors, 5 warnings (all level-model noise), contract 83/83 exact, playtest 8 plays, 0 stuck.
+Disposition of the 13 UNVERIFIED items above:
+
+1. Delicate Instruments mapping - SETTLED (data): 91723 kills 8 Kobold Geomancer (Jasperlode,
+   L8), 91724 kills 8 Defias Rogue Wizard (Stone Cairn Lake, L10). The assignment in the guide
+   was correct; counts are x8 both. Fix applied anyway: 91724 must be accepted after 91723 is
+   turned in (chain data), so its accept moved to the Jasperlode step after the 91723 hand-in.
+2. Taming chain order - SETTLED (data): 94792 (Boar) -> 94863 (Wolf) -> 94864 (Bear) -> 94793,
+   all from Josephine Carson (41.1, 66.2). The guide order was correct; no change.
+3. Divine Grace ID - SETTLED (data): 94774 exists (Human Priest; Priestess Josetta 43.3, 65.7
+   gives it, High Priestess Laurena in the Cathedral takes it back). Sibling IDs are the
+   other-race/class versions. Tracker ID confirmed; no change.
+4. Applejack Still - SETTLED, guide corrected: quest data shows 91736 start=end=the still object
+   (24.55, 58.04 Era frame, matches the map listing to 0.05), objective 4x Shiny Red Apple
+   (count is author-sourced; data count is null), and NO prerequisite either way between 91736
+   and 91738. The compiler rejects `direct` on a quest the chain accepts, so the still is now a
+   normal accept/turnin pair; the Stonefield task is a real `buy 4536 x4` (Homer Stonefield is a
+   data-confirmed apple vendor). Header comment and Westbrook tip updated.
+5. Camping loose ends - SETTLED (data): Sam Sarsaparilla gives every pickup (263399, 44.9, 63.4).
+   Alchemy hands in to Alchemist Mallory (1215, 39.8, 48.4 Elwynn - NOT Stormwind, stays in the
+   Goldshire hand-ins step). Enchanting hands in to Betty Quin (11068, no spawn; Stormwind per the
+   map-frame lint, moved to the Stormwind step). Herbalism hands in to Herbalist Pomeroy (1218,
+   40.0, 48.4 Elwynn - NOT Stormwind; moved to the Goldshire hand-ins step).
+6. Cloth and Leather - SETTLED (data): 59 pre=[39] confirmed; order already satisfied, no change.
+7. Shipment to Stormwind - SETTLED (data): 61 pre=[60] confirmed; order already satisfied,
+   no change.
+8. Gold Dust to Remy - SETTLED (data): Remy "Two Times" (npc 241, Goldshire 42.1, 67.3) both
+   gives and takes back Gold Dust (94735); the HardcoreHelper account was right. No change.
+9. Gerard Tiller - ATTESTED, placement kept: Gerard is npc 255 at 43.1, 85.5 Era frame
+   (far south of Goldshire, NOT the valley). The accept+turnin pair stays in the vineyard step -
+   the arrow points at him wherever he stands and the pair is self-contained - but the walk is
+   long, not "in the valley". Candidate for relocation in a later round with playtest travel data.
+10. Welcome hand-in - SETTLED (data): Merissa Stilwell (npc 11940, abbey 47.4, 41.9) takes back
+    the voucher. Hand-in and spot now attested; no change.
+11. Helene Peltskinner - SETTLED (data): Helene is npc 6306 at 46.2, 62.2, next to Sam's camp.
+    The guide's grouping was correct; no change.
+12. Collector into Manhunt - SETTLED (data): 147 pre=[123] confirmed; order already satisfied,
+    no change.
+13. Beta levels - UNCHANGED: still a first-release note per the round brief.
+
+Other v0.2.0 Elwynn changes: chain fixes (5261 after 783; 15 after 7; 3903/6 after 18; 114 after
+112; 239 after 76; 46 after 39, done on the Eastvale pass); `complete` goals for every
+item-flagged quest (Era-frame data points); `zone Stormwind City` on the Stormwind step;
+`zone Westfall` on the Leaving step. Five level warnings accepted as XP-model noise; 7677/7678
+(level-60 trades) wait for a later round as before. Guide version 3, pack version 0.2.0.
+
