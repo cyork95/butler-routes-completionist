@@ -139,7 +139,7 @@ _Cities are in scope as SMALLER guides (Cody, 2026-11-14): a census + core route
 - [x] Lint/playtest clean
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions (only where the data warrants)
+- [x] Companions (recipes built — 34 vendor recipes; no city rares, so no rares companion)
 
 ### Ironforge — Alliance capital
 
@@ -148,7 +148,7 @@ _Cities are in scope as SMALLER guides (Cody, 2026-11-14): a census + core route
 - [x] Lint/playtest clean - 0 errors, playtest 7 personas 0 stuck
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions (only where the data warrants)
+- [x] Companions (recipes built — 46 vendor recipes; no city rares, so no rares companion)
 
 ### Darnassus — Alliance capital
 
@@ -159,7 +159,7 @@ _The 19 city-accept quests the Teldrassil census set aside land here._
 - [x] Lint/playtest clean - 0 errors, playtest 14 persona-plays 0 stuck (R1 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions (only where the data warrants)
+- [x] Companions (recipes built — 30 vendor recipes; no city rares, so no rares companion)
 
 ---
 

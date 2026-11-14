@@ -356,3 +356,8 @@ as above: game-data citation or a named source.
 - Jai'vhanel pair: contracted quest subject (98025) with an ambient 24-point
   spawn — core-owned. Note: the quest's item objective 28103 does not exist in
   items.json; that is the core route's data gap, reported not fixed.
+
+
+## City recipes: quest-reward candidates (pack 0.18.0)
+
+- The same limitation covers all three capitals: quest records carry no reward data, so no city quest can be confirmed or denied as a recipe source from the toolchain. Nothing shippable was found: every recipe in the three city guides is vendor-confirmed, and no city quest is cited anywhere as a recipe source. Promote a candidate only with a game-data citation or a named source.
