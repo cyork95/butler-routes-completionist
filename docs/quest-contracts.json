@@ -4334,6 +4334,191 @@
           "id": 99205
         }
       ]
+    },
+    {
+      "id": "redridge-mountains",
+      "name": "Redridge Mountains",
+      "order": 11,
+      "levelBand": "14-26",
+      "summary": "Set 2 opener: Lakeshire hub, the gnoll and orc lines, the Rethban and Alther’s Mill chains, the messenger exits to Stormwind, Westfall and Duskwood, and the western oddities. Leads on to Duskwood and the Burning Steppes.",
+      "quests": [
+        {
+          "id": 19,
+          "name": "Tharil'zun"
+        },
+        {
+          "id": 20,
+          "name": "Blackrock Menace"
+        },
+        {
+          "id": 34,
+          "name": "An Unwelcome Guest"
+        },
+        {
+          "id": 89,
+          "name": "The Everstill Bridge"
+        },
+        {
+          "id": 91,
+          "name": "Solomon's Law"
+        },
+        {
+          "id": 92,
+          "name": "Redridge Goulash"
+        },
+        {
+          "id": 115,
+          "name": "Shadow Magic"
+        },
+        {
+          "id": 116,
+          "name": "Dry Times"
+        },
+        {
+          "id": 118,
+          "name": "The Price of Shoes"
+        },
+        {
+          "id": 120,
+          "name": "Messenger to Stormwind"
+        },
+        {
+          "id": 122,
+          "name": "Underbelly Scales"
+        },
+        {
+          "id": 124,
+          "name": "A Baying of Gnolls"
+        },
+        {
+          "id": 125,
+          "name": "The Lost Tools"
+        },
+        {
+          "id": 126,
+          "name": "Howling in the Hills"
+        },
+        {
+          "id": 127,
+          "name": "Selling Fish"
+        },
+        {
+          "id": 128,
+          "name": "Blackrock Bounty"
+        },
+        {
+          "id": 129,
+          "name": "A Free Lunch"
+        },
+        {
+          "id": 130,
+          "name": "Visit the Herbalist"
+        },
+        {
+          "id": 131,
+          "name": "Delivering Daffodils"
+        },
+        {
+          "id": 132,
+          "name": "The Defias Brotherhood"
+        },
+        {
+          "id": 143,
+          "name": "Messenger to Westfall"
+        },
+        {
+          "id": 145,
+          "name": "Messenger to Darkshire"
+        },
+        {
+          "id": 150,
+          "name": "Murloc Poachers"
+        },
+        {
+          "id": 169,
+          "name": "WANTED: Gath'Ilzogg"
+        },
+        {
+          "id": 180,
+          "name": "WANTED: Lieutenant Fangore"
+        },
+        {
+          "id": 244,
+          "name": "Encroaching Gnolls"
+        },
+        {
+          "id": 246,
+          "name": "Assessing the Threat"
+        },
+        {
+          "id": 248,
+          "name": "Looking Further"
+        },
+        {
+          "id": 347,
+          "name": "Rethban Ore"
+        },
+        {
+          "id": 386,
+          "name": "What Comes Around..."
+        },
+        {
+          "id": 1699,
+          "name": "The Rethban Gauntlet"
+        },
+        {
+          "id": 1702,
+          "name": "The Shieldsmith"
+        },
+        {
+          "id": 2282,
+          "name": "Alther's Mill"
+        },
+        {
+          "id": 2358,
+          "name": "Horns of Nez'ra"
+        },
+        {
+          "id": 3741,
+          "name": "Hilary's Necklace"
+        },
+        {
+          "id": 93551,
+          "name": "Praise"
+        },
+        {
+          "id": 95772,
+          "name": "Songblade Search"
+        },
+        {
+          "id": 95795,
+          "name": "Fallen in the Fen"
+        },
+        {
+          "id": 95816,
+          "name": "Sign Me Up!"
+        },
+        {
+          "id": 95999,
+          "name": "WANTED: Incinerator Gar'im"
+        },
+        {
+          "id": 98247,
+          "name": "Shipping Label"
+        },
+        {
+          "id": 98386,
+          "name": "Alther's Mill"
+        },
+        {
+          "id": 98387,
+          "name": "Blackrock Blockade"
+        },
+        {
+          "id": 98407,
+          "name": "Show of Force"
+        }
+      ]
     }
   ]
 }
