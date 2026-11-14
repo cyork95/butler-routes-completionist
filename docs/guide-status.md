@@ -122,7 +122,7 @@ _The lead-in for Loch Modan (build order #2)._
 - [ ] Pilot fixes landed
 - [ ] Companions
 
-**v1.0 publishes when every box above is ticked** — then the `v1.0.0` tag push fires the GitHub Actions publish to polestar.guide.
+**Publish rule (Cody, 2026-11-13): v1.0.0 waits for ALL of it** — every zone on this checklist, both factions and Set 2 included, done at first pass: core + companions written and lint-clean. Then the `v1.0.0` tag push fires the GitHub Actions publish to polestar.guide. Pilots and pilot-fix rounds continue after publish as v1.x updates. The build order itself follows the sequence a player levels through the content.
 
 ---
 
