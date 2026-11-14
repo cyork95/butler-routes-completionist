@@ -1,0 +1,64 @@
+# Butler Routes - Darkshore recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes whose SOURCE is physically in Darkshore, verified against the
+# local Forever game data (questie-forever item and vendor tables). Thirteen
+# recipes are sold by the zone's own vendors in Auberdine, by Heldan Galesong
+# on the shore south of it, and by Bale at the grove. Every dropped recipe
+# with any Darkshore source also drops elsewhere (generic world drops), and
+# quest records carry no reward data (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover
+# those. Each step is gated to its profession; other characters skip it cleanly.
+# Professions with no Darkshore source (Blacksmithing, Engineering, Enchanting,
+# First Aid, Fishing, Alchemy) are named here rather than padded.
+guide butler-routes-completionist/darkshore-recipes
+title Darkshore - Recipes & Patterns
+levels 10-20
+zone Darkshore
+faction Alliance
+category Professions
+folder Companions
+keywords darkshore, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — Auberdine (Laird)
+  when skill Cooking 1
+
+  vendor 4200 -- Laird (36.77, 44.28)
+  buy 5485 "Recipe: Fillet of Frenzy"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Heldan Galesong
+  when skill Cooking 1
+
+  vendor 4307 -- Heldan Galesong (36.97, 56.35)
+  buy 5528 "Recipe: Clam Chowder"
+  buy 6368 "Recipe: Rainbow Fin Albacore"
+  buy 6369 "Recipe: Rockscale Cod"
+  buy 17062 "Recipe: Mithril Head Trout"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Bale (high-level vendor)
+  when skill Cooking 1
+
+  vendor 2806 -- Bale (50.4, 74.2)
+  buy 16110 "Recipe: Monster Omelet"
+  note Bale is far above the zone band and also spawns in Felwood — buy it later if you cannot reach him now. Stock class is not in the local data.
+
+step Tailoring — Auberdine (Valdaron)
+  when skill Tailoring 1
+
+  vendor 4189 -- Valdaron (38.15, 40.6)
+  buy 5771 "Pattern: Red Linen Bag"
+  buy 5772 "Pattern: Red Woolen Bag"
+  buy 6270 "Pattern: Blue Linen Vest"
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Auberdine (Mavralyn)
+  when skill Leatherworking 1
+
+  vendor 4186 -- Mavralyn (37, 41.2)
+  buy 5786 "Pattern: Murloc Scale Belt"
+  buy 5787 "Pattern: Murloc Scale Breastplate"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
