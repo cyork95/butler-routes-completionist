@@ -143,9 +143,9 @@ _Cities are in scope as SMALLER guides (Cody, 2026-11-14): a census + core route
 
 ### Ironforge — Alliance capital
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 345 candidates, 188 IN / 157 OUT
+- [x] Core guide - `ironforge.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 7 personas 0 stuck
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions (only where the data warrants)
