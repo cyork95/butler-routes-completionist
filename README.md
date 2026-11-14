@@ -12,8 +12,14 @@ Status: **in development, not published yet**. The first release (v1.0.0) is pla
 |---|---|---|---|
 | `zephras-isle.guide` | Zephras Isle (Skyborne start) | 1–10 | Alliance (Skyborne) |
 | `elwynn-forest.guide` | Elwynn Forest (Human start) | 1–10 | Alliance |
+| `zephras-isle-rares.guide` (pilot companion) | Zephras Isle rares and treasures | 1–12 | Alliance (Skyborne) |
+| `zephras-isle-recipes.guide` (pilot companion) | Zephras Isle recipe sources | 1–12 | Alliance (Skyborne) |
+| `zephras-isle-rares.guide` (pilot companion) | Zephras Isle rares & treasures | 1–12 | Alliance (Skyborne) |
+| `zephras-isle-recipes.guide` (pilot companion) | Zephras Isle recipe sources | 1–12 | Alliance (Skyborne) |
 
-Each guide takes every quest on the zone's tracker list exactly once: 145 accepts / 145 turn-ins for Zephras Isle, 83 / 83 for Elwynn Forest. Class quests for other classes are included and gated with `only`, so they never show for a character they are not for.
+Each quest guide takes every quest on the zone's tracker list exactly once: 145 accepts / 145 turn-ins for Zephras Isle, 83 / 83 for Elwynn Forest. Class quests for other classes are included and gated with `only`, so they never show for a character they are not for.
+
+The two pilot companions run in their own Polestar tab beside the Zephras core route: the rares guide sweeps all 8 confirmed rares plus the fixed Dented Chest placements (every goal optional, so a rare that is not up never holds the route), and the recipes guide collects the 12 vendor-sold recipe sources on the isle, gated by profession.
 
 ## Planned scope
 

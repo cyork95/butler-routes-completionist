@@ -1,1 +1,10 @@
-{"author":"Butler Muse","folder":"PolestarPack_ButlerRoutes","id":"butler-routes-completionist","license":"CC-BY-4.0","notes":"Community addon for Polestar by Butler Muse - completionist (all-quests) routes.","source":"Authored from the Zephras Isle quest tracker list, ForeverDB and HardcoreHelper quest data, and a recorded completionist playthrough.","title":"Butler Routes - Completionist","version":"0.2.0"}
+{
+  "author": "Butler Muse",
+  "folder": "PolestarPack_ButlerRoutes",
+  "id": "butler-routes-completionist",
+  "license": "CC-BY-4.0",
+  "notes": "Community addon for Polestar by Butler Muse - completionist (all-quests) routes.",
+  "source": "Authored from the Zephras Isle quest tracker list, ForeverDB and HardcoreHelper quest data, and a recorded completionist playthrough.",
+  "title": "Butler Routes - Completionist",
+  "version": "0.3.0"
+}
