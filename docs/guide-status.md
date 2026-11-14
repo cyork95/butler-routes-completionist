@@ -12,7 +12,7 @@ _Where every zone stands. Updated 2026-11-13 · Pack v0.2.0 · Repo: `cyork95/bu
 
 Companions (Rares & Treasures · Recipes & Patterns) follow the core guide once the Zephras template is proven.
 
-**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside** → then **Alliance completion** (companions for every Alliance zone, plus all pilots and pilot fixes) → **Horde last** (Durotar, Mulgore, Tirisfal, Zephras twin).
+**Build order (Cody, 2026-11-13):** Zephras companions → **Westfall → Loch Modan → Darkshore**, with **Teldrassil alongside** → then **Alliance completion** (companions for every Alliance zone, plus all pilots and pilot fixes) → then **Set 2** (Redridge Mountains → Ashenvale → Stonetalon Mountains → Duskwood) → **Horde last** (Durotar, Mulgore, Tirisfal, Zephras twin).
 
 ---
 
@@ -126,6 +126,54 @@ _The lead-in for Loch Modan (build order #2)._
 
 ---
 
+## Set 2 — the third zones (after the Alliance companion rounds, before the Horde block)
+
+### Redridge Mountains — third zone (Alliance)
+
+_Follows Westfall and Loch Modan._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Ashenvale — third zone (Alliance)
+
+_Follows Darkshore._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Stonetalon Mountains — contested (both factions)
+
+_Off Ashenvale. Alliance route first; Horde content handled as the data dictates._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Duskwood — third zone (Alliance)
+
+_Follows Westfall. Raven Hill country._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+---
+
 ## Beyond v1.0 — every other open-world zone
 
 _Not started. Same pipeline applies when we get there._
@@ -138,10 +186,8 @@ _Not started. Same pipeline applies when we get there._
 - [ ] Blasted Lands
 - [ ] Burning Steppes
 - [ ] Deadwind Pass
-- [ ] Duskwood
 - [ ] Eastern Plaguelands
 - [ ] Hillsbrad Foothills
-- [ ] Redridge Mountains
 - [ ] Searing Gorge
 - [ ] Silverpine Forest
 - [ ] Stranglethorn Vale
@@ -152,7 +198,6 @@ _Not started. Same pipeline applies when we get there._
 
 ### Kalimdor
 
-- [ ] Ashenvale
 - [ ] Azshara
 - [ ] The Barrens
 - [ ] Desolace
@@ -162,7 +207,6 @@ _Not started. Same pipeline applies when we get there._
 - [ ] Moonglade
 - [ ] Mount Hyjal
 - [ ] Silithus
-- [ ] Stonetalon Mountains
 - [ ] Tanaris
 - [ ] Thousand Needles
 - [ ] Un'Goro Crater
