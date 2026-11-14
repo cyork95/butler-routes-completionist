@@ -1,0 +1,301 @@
+# Butler Routes - Westfall rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 14 confirmed rares and the fixed world containers
+# of Westfall. Run it in its own Polestar tab at the end of the core route or
+# standalone. EVERY goal is optional: a rare that is not up never holds the route.
+# Spawn points, levels and loot are the local Forever game data (questie-forever);
+# respawn timers are unconfirmed anywhere, so none are stated. Named mobs that are
+# core-route quest objectives or quest givers (Old Murk-Eye, the Defias Messenger,
+# the Defias Traitor, the captains, Alba Fairmoon, Ozwin Ironsprocket and the rest)
+# are NOT here: the core guide covers their quests. See
+# docs/westfall-companions-inventory.md for the full inventory this guide was built
+# against.
+guide butler-routes-completionist/westfall-rares
+title Westfall - Rares & Treasures
+levels 9-18
+zone Westfall
+faction Alliance
+category Collectibles
+folder Companions
+keywords westfall, rares, treasures, companions
+coords live
+version 1
+
+step Master Digger — the Jangolode Mine
+
+  goto 46.42,19.06
+  kill 1424 optional
+  collect 6205 "Burrowing Shovel" optional
+  collect 6206 "Rock Chipper" optional
+  note Level 15 rare kobold, flagged rare in the data.
+  note Also drops ordinary greens (Calico Tunic, Wooden Buckler); respawn timer unconfirmed.
+
+step Benny Blaanco — the north
+
+  goto 49.47,18.99
+  kill 502 optional
+  note Level 15 rare.
+  note Also drops ordinary greens (Calico Tunic, Calico Shoes); respawn timer unconfirmed.
+
+step Slark — the northern shore
+
+  goto 47.01,10.94
+  kill 519 optional
+  collect 3188 "Coral Claymore" optional
+  collect 6180 "Slarkskin" optional
+  note Level 15 rare murloc, flagged rare in the data; not tameable. Also carries Captain Sander's Treasure Map (item 1357), which starts the core quest Captain Sander's Hidden Treasure (136); the core route covers that quest.
+  note Also drops ordinary greens (Calico Tunic, Wooden Buckler); respawn timer unconfirmed.
+
+step Silverspur — the northwest
+
+  loop
+  goto 33.6,40.8
+  goto 34.4,37.2
+  goto 34.8,38.6
+  goto 35,39.6
+  goto 35.6,38.4
+  goto 36,38.8
+  kill 210533 optional
+  note Level 14 rare. The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Brack — the western shore
+
+  goto 27.27,44.54
+  kill 520 optional
+  collect 2235 "Brackclaw" optional
+  collect 6179 "Privateer's Cape" optional
+  note Level 19 rare, flagged rare in the data. Also carries Captain Sander's Treasure Map (item 1357), which starts the core quest Captain Sander's Hidden Treasure (136); the core route covers that quest.
+  note Also drops ordinary greens (Laced Mail Vest, Canvas Shoes); respawn timer unconfirmed.
+
+step Sergeant Brashclaw — central Westfall
+
+  goto 36.88,31.85
+  kill 506 optional
+  collect 2203 "Brashclaw's Chopper" optional
+  collect 2204 "Brashclaw's Skewer" optional
+  note Level 18 rare, flagged rare in the data.
+  note Also drops ordinary greens (Calico Tunic, Warped Leather Boots); respawn timer unconfirmed.
+
+step Foe Reaper 4000 — central Westfall
+
+  loop
+  goto 33.24,52.89
+  goto 38.03,49.4
+  goto 38.39,54.29
+  goto 40.09,51.93
+  goto 42.57,35.49
+  goto 44.47,45.52
+  goto 44.68,38.92
+  goto 44.7,32.66
+  goto 46.21,63.24
+  goto 46.4,66.04
+  goto 46.94,35.53
+  goto 47.67,68.93
+  goto 48.59,30.1
+  goto 49.42,21.94
+  goto 50.46,26.61
+  goto 50.66,19.3
+  goto 50.76,65.24
+  goto 51.38,68.38
+  goto 52.46,22.89
+  goto 53.52,27.56
+  goto 53.94,63.06
+  goto 62.12,62.38
+  goto 62.41,58.04
+  goto 64.95,61.32
+  kill 573 optional
+  collect 933 "Large Rucksack" optional
+  collect 4434 "Scarecrow Trousers" optional
+  note Level 20 rare harvest machine, flagged rare in the data; not tameable. Patrols the farm fields across central and eastern Westfall.
+  note Also drops ordinary greens (Laced Mail Vest, Laced Cloak); respawn timer unconfirmed.
+
+step Dust Devil — across Westfall
+
+  loop
+  goto 33.27,49.27
+  goto 34.31,67.98
+  goto 35.38,34.9
+  goto 38.18,62.31
+  goto 40.13,22.14
+  goto 41.75,59.4
+  goto 42.75,41.95
+  goto 45.61,49.32
+  goto 54.33,40.75
+  goto 60.8,34.97
+  goto 62.8,52.16
+  goto 68.55,73.5
+  kill 832 optional
+  collect 4290 "Dust Bowl" optional
+  collect 5669 "Dust Devil Debris" optional
+  collect 209058 "Elemental Core" optional
+  note Level 18 rare elemental; not tameable. Scattered across the zone; check these points opportunistically, not as one walk.
+  note Its debris only drops while the Stormwind quest Devils in Westfall (1076, not in the core contract) is held. Also drops ordinary greens and shares the generic world-drop table; respawn timer unconfirmed.
+
+step Undying Laborer — across Westfall
+
+  loop
+  goto 27.4,35.6
+  goto 29.4,46.4
+  goto 37.6,37
+  goto 37.8,45.4
+  goto 38.6,24.8
+  goto 41.4,31.8
+  goto 44.6,24.8
+  goto 44.6,64.4
+  goto 45.2,15.8
+  goto 45.8,36.4
+  goto 47,30.6
+  goto 47.2,51.8
+  goto 47.4,45
+  goto 49.6,21.8
+  goto 52.8,14
+  goto 54.4,29.6
+  goto 56.6,54
+  goto 56.8,47
+  goto 57.4,21.8
+  goto 58.4,37.6
+  goto 60.4,8.6
+  goto 60.8,16
+  goto 62.8,21
+  goto 65,46
+  kill 210537 optional
+  collect 208849 "Libram of Blessings" optional
+  note Level 14 rare undead; not tameable. His confirmed points spread from the coast to the eastern mines; check them opportunistically, not as one walk.
+  note The data records nothing else on him besides the libram; respawn timer unconfirmed.
+
+step Leprithus — two haunts
+
+  loop
+  goto 41.93,29.24
+  goto 64.71,66.7
+  kill 572 optional
+  collect 1314 "Ghoul Fingers" optional
+  collect 1387 "Ghoulfang" optional
+  note Level 19 rare ghoul, flagged rare in the data; undead, not tameable. One haunt in the north, one far in the east.
+  note Also drops ordinary greens (Laced Mail Vest, Bright Boots); respawn timer unconfirmed.
+
+step Marisa du'Paige — the southeast
+
+  loop
+  goto 42.23,79.91
+  goto 43.86,79.1
+  goto 44.23,76.83
+  kill 599 optional
+  collect 3019 "Noble's Robe" optional
+  collect 4660 "Walking Boots" optional
+  note Level 18 rare, flagged rare in the data.
+  note Also drops ordinary greens (Veteran Armor, Burnished Tunic); respawn timer unconfirmed.
+
+step Brainwashed Noble — the southeast
+
+  goto 43.98,78.33
+  kill 596 optional
+  collect 3902 "Staff of Nobles" optional
+  collect 5967 "Girdle of Nobility" optional
+  note Level 18 rare, flagged rare in the data.
+  note Also drops ordinary greens (Laced Mail Vest, Laced Cloak); respawn timer unconfirmed.
+
+step Foreman Thistlenettle — the south
+
+  goto 42.22,82.61
+  kill 626 optional
+  collect 1875 "Thistlenettle's Badge" optional
+  collect 2166 "Foreman's Leggings" optional
+  collect 2167 "Foreman's Gloves" optional
+  collect 2168 "Foreman's Boots" optional
+  note Level 20 rare, the Jangolode foreman. His badge and foreman's set drop nowhere else.
+  note The badge only drops while the Stormwind quest Oh Brother... (167, not in the core contract) is held. Also drops ordinary greens (Laced Mail Vest, Laced Cloak); respawn timer unconfirmed.
+
+step Horror of the Deep — the southwest coast
+
+  loop
+  goto 26,69.4
+  goto 26.4,66
+  goto 26.8,69
+  goto 26.8,69.8
+  kill 210487 optional
+  note Level 20 rare. Works the shore off the southwest coast. The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Fixed Chests — world containers
+
+  loop
+  goto 29.13,45.84
+  goto 29.33,49.62
+  goto 30.99,46.25
+  goto 31.05,44.16
+  goto 33.3,56.59
+  goto 36.32,31.89
+  goto 38.73,69.73
+  goto 41.52,40.96
+  goto 42.98,71.67
+  goto 43.97,68.36
+  goto 44.68,25.38
+  goto 44.88,7.71
+  goto 44.96,21.81
+  goto 45.43,70.45
+  goto 45.91,19.17
+  goto 46.73,53.43
+  goto 48.18,47.14
+  goto 48.27,20.25
+  goto 48.47,60.88
+  goto 51.1,39.06
+  goto 53.1,62.29
+  goto 56.37,13.37
+  goto 56.47,19.09
+  goto 60.57,58.23
+  goto 34.73,85.65
+  goto 36.7,82.76
+  goto 40.65,76.96
+  goto 41.44,82.52
+  goto 42.88,80.62
+  goto 44.16,76.56
+  goto 56.26,74.52
+  goto 56.59,70.02
+  goto 65.33,75.04
+  goto 70.41,73.93
+  goto 70.4,73.9
+  goto 36.24,54.52
+  goto 17.94,33.18
+  goto 21.2,37.73
+  goto 22.11,54.71
+  goto 22.27,68.29
+  goto 28.49,89.36
+  goto 35.45,93.56
+  goto 46.82,3.85
+  goto 30.6,27.26
+  goto 41.27,66.41
+  goto 41.8,67.3
+  goto 41.9,67.6
+  goto 42,71
+  goto 42.3,69.6
+  goto 42.4,68.8
+  goto 43.4,68.2
+  goto 43.5,67
+  goto 44.4,68.1
+  goto 44.6,70.8
+  goto 45.4,70.2
+  goto 52.3,40.8
+  goto 52.3,48.9
+  goto 52.5,38.4
+  goto 53.1,40.2
+  goto 53.2,41.3
+  goto 53.3,37.1
+  goto 53.3,41.8
+  goto 53.5,38.7
+  goto 53.5,40.7
+  goto 54.1,41.6
+  goto 54.4,39.8
+  goto 54.8,40
+  goto 49.33,19.28
+  interact 106319 optional
+  interact 2849 optional
+  interact 123214 optional
+  interact 124072 optional
+  interact 1166 optional
+  interact 177790 optional
+  interact 19017 optional
+  interact 19019 optional
+  interact 581777 optional
+  interact 459259 optional
+  interact 290 optional
+  note Thirty-three fixed Battered Chest placements (objects 106319 and 2849), two Duskwood Chests (123214 and 124072) at the same eastern point (70.4, 73.9), Alexston's Chest (1166) at (36.24, 54.52), a Strange Lockbox (177790) at (17.94, 33.18), six Giant Clams (19017) along the coast, two Boxes of Assorted Parts (19019), ten Suspicious Crates (581777) at Moonbrook, twelve Mech Arms (459259) at the northeastern mine, and Furlbrow's Wardrobe (290) at (49.33, 19.28). All hold ordinary low-level goods; no unique treasure confirmed.
+  note The Sander-chain containers (Captain's Footlocker, Broken Barrel, Old Jug, Locked Chest) belong to the contracted core quest Captain Sander's Hidden Treasure and are routed there, not here. Respawn timers unconfirmed.
