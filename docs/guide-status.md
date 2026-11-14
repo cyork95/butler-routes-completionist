@@ -202,9 +202,9 @@ _Off Ashenvale. Alliance route first; Horde content handled as the data dictates
 
 _Follows Westfall. Raven Hill country._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 102 candidates, 93 IN / 9 OUT
+- [x] Core guide - `duskwood.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 3 personas 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
