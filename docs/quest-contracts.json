@@ -2084,6 +2084,395 @@
           "name": "Call of Water"
         }
       ]
+    },
+    {
+      "id": "teldrassil",
+      "name": "Teldrassil",
+      "order": 6,
+      "levelBand": "1-10",
+      "summary": "Night Elf starting zone: Shadowglen, Dolanaar hub, Starbreeze Village, Lake Al’Ameth, the Oracle Glade, Gnarlpine Hold, and the Rut’theran crossing to Darkshore.",
+      "quests": [
+        {
+          "id": 456,
+          "name": "The Balance of Nature"
+        },
+        {
+          "id": 457,
+          "name": "The Balance of Nature"
+        },
+        {
+          "id": 458,
+          "name": "The Woodland Protector"
+        },
+        {
+          "id": 459,
+          "name": "The Woodland Protector"
+        },
+        {
+          "id": 475,
+          "name": "A Troubling Breeze"
+        },
+        {
+          "id": 476,
+          "name": "Gnarlpine Corruption"
+        },
+        {
+          "id": 483,
+          "name": "The Relics of Wakening"
+        },
+        {
+          "id": 486,
+          "name": "Ursal the Mauler"
+        },
+        {
+          "id": 487,
+          "name": "The Road to Darnassus"
+        },
+        {
+          "id": 488,
+          "name": "Zenn's Bidding"
+        },
+        {
+          "id": 489,
+          "name": "Seek Redemption!"
+        },
+        {
+          "id": 490,
+          "name": "Bounty: Gnarlpine Furbolg"
+        },
+        {
+          "id": 916,
+          "name": "Webwood Venom"
+        },
+        {
+          "id": 917,
+          "name": "Webwood Egg"
+        },
+        {
+          "id": 918,
+          "name": "Timberling Seeds"
+        },
+        {
+          "id": 919,
+          "name": "Timberling Sprouts"
+        },
+        {
+          "id": 920,
+          "name": "Tenaron's Summons"
+        },
+        {
+          "id": 921,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 922,
+          "name": "Rellian Greenspyre"
+        },
+        {
+          "id": 927,
+          "name": "The Moss-twined Heart"
+        },
+        {
+          "id": 928,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 929,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 930,
+          "name": "The Glowing Fruit"
+        },
+        {
+          "id": 931,
+          "name": "The Shimmering Frond"
+        },
+        {
+          "id": 932,
+          "name": "Twisted Hatred"
+        },
+        {
+          "id": 933,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 935,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 937,
+          "name": "The Enchanted Glade"
+        },
+        {
+          "id": 938,
+          "name": "Mist"
+        },
+        {
+          "id": 940,
+          "name": "Teldrassil"
+        },
+        {
+          "id": 941,
+          "name": "Planting the Heart"
+        },
+        {
+          "id": 997,
+          "name": "Denalan's Earth"
+        },
+        {
+          "id": 1581,
+          "name": "Elixirs for the Bladeleafs"
+        },
+        {
+          "id": 1684,
+          "name": "Elanaria"
+        },
+        {
+          "id": 2159,
+          "name": "Dolanaar Delivery"
+        },
+        {
+          "id": 2241,
+          "name": "The Apple Falls"
+        },
+        {
+          "id": 2399,
+          "name": "The Sprouted Fronds"
+        },
+        {
+          "id": 2438,
+          "name": "The Emerald Dreamcatcher"
+        },
+        {
+          "id": 2459,
+          "name": "Ferocitas the Dream Eater"
+        },
+        {
+          "id": 2499,
+          "name": "Oakenscowl"
+        },
+        {
+          "id": 2541,
+          "name": "The Sleeping Druid"
+        },
+        {
+          "id": 2561,
+          "name": "Druid of the Claw"
+        },
+        {
+          "id": 3116,
+          "name": "Simple Sigil"
+        },
+        {
+          "id": 3117,
+          "name": "Etched Sigil"
+        },
+        {
+          "id": 3118,
+          "name": "Encrypted Sigil"
+        },
+        {
+          "id": 3119,
+          "name": "Hallowed Sigil"
+        },
+        {
+          "id": 3120,
+          "name": "Verdant Sigil"
+        },
+        {
+          "id": 3519,
+          "name": "A Friend in Need"
+        },
+        {
+          "id": 3521,
+          "name": "Iverron's Antidote"
+        },
+        {
+          "id": 3522,
+          "name": "Iverron's Antidote"
+        },
+        {
+          "id": 4161,
+          "name": "Recipe of the Kaldorei"
+        },
+        {
+          "id": 4495,
+          "name": "A Good Friend"
+        },
+        {
+          "id": 5621,
+          "name": "Garments of the Moon"
+        },
+        {
+          "id": 5622,
+          "name": "In Favor of Elune"
+        },
+        {
+          "id": 5629,
+          "name": "Returning Home"
+        },
+        {
+          "id": 5636,
+          "name": "Desperate Prayer"
+        },
+        {
+          "id": 5842,
+          "name": "Welcome!"
+        },
+        {
+          "id": 5925,
+          "name": "Heeding the Call"
+        },
+        {
+          "id": 6063,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6072,
+          "name": "The Hunter's Path"
+        },
+        {
+          "id": 6101,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6102,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6103,
+          "name": "Training the Beast"
+        },
+        {
+          "id": 6341,
+          "name": "The Bounty of Teldrassil"
+        },
+        {
+          "id": 6342,
+          "name": "Flight to Auberdine"
+        },
+        {
+          "id": 7383,
+          "name": "Crown of the Earth"
+        },
+        {
+          "id": 87288,
+          "name": "Soft Saber Pelts"
+        },
+        {
+          "id": 94775,
+          "name": "Divine Grace"
+        },
+        {
+          "id": 94823,
+          "name": "Confounding Flash"
+        },
+        {
+          "id": 96606,
+          "name": "The Great Outdoors"
+        },
+        {
+          "id": 96630,
+          "name": "The Adventurer"
+        },
+        {
+          "id": 96634,
+          "name": "Camping 101: Cooking"
+        },
+        {
+          "id": 97236,
+          "name": "Fang of Githyiss"
+        },
+        {
+          "id": 97938,
+          "name": "Camping 101: Alchemy"
+        },
+        {
+          "id": 97939,
+          "name": "Camping 101: Blacksmithing"
+        },
+        {
+          "id": 97940,
+          "name": "Camping 101: Enchanting"
+        },
+        {
+          "id": 97941,
+          "name": "Camping 101: Engineering"
+        },
+        {
+          "id": 97942,
+          "name": "Camping 101: First Aid"
+        },
+        {
+          "id": 97943,
+          "name": "Camping 101: Fishing"
+        },
+        {
+          "id": 97944,
+          "name": "Camping 101: Herbalism"
+        },
+        {
+          "id": 97946,
+          "name": "Camping 101: Leatherworking"
+        },
+        {
+          "id": 97948,
+          "name": "Camping 101: Mining"
+        },
+        {
+          "id": 97949,
+          "name": "Camping 101: Skinning"
+        },
+        {
+          "id": 97950,
+          "name": "Camping 101: Tailoring"
+        },
+        {
+          "id": 97977,
+          "name": "Nature's Call"
+        },
+        {
+          "id": 97979,
+          "name": "The Goddess Provides"
+        },
+        {
+          "id": 98391,
+          "name": "The Sisterhood of Elune"
+        },
+        {
+          "id": 98392,
+          "name": "Darkness in the Glade"
+        },
+        {
+          "id": 98398,
+          "name": "The Oracle Tree"
+        },
+        {
+          "id": 98403,
+          "name": "Twisted Hatred"
+        },
+        {
+          "id": 99046,
+          "name": "The Lost Runner"
+        },
+        {
+          "id": 99047,
+          "name": "Not Dead Yet"
+        },
+        {
+          "id": 99050,
+          "name": "The Great Tree Provides"
+        },
+        {
+          "id": 99053,
+          "name": "Escaping Ban'ethil"
+        },
+        {
+          "id": 99073,
+          "name": "Easing Suffering"
+        }
+      ]
     }
   ]
 }
