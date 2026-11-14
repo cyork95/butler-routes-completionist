@@ -1,0 +1,774 @@
+# Butler Routes - Ironforge completionist (pack butler-routes-completionist, v1).
+# Every Ironforge City quest in the local census (188 quests,
+# docs/ironforge-census.md) appears exactly once as an accept; every one is
+# turned in once except 95924/95925, which have no turn-in in the data.
+# Ironforge is a hub the character returns to across their whole
+# leveling life, so the route is ordered for repeated use: grouped by district
+# with chains kept together, then accept-based expeditions by destination zone.
+# Quest levels run 1-60 (min-levels 1-60); high-level legs carry notes saying
+# which level they belong to. Coordinates in Ironforge use the era frame;
+# expedition stops use the frames their data carries, set with zone map lines.
+guide butler-routes-completionist/ironforge-city
+title Ironforge - Completionist
+levels 1-60
+zone Ironforge
+faction Alliance
+category Leveling
+folder Cities
+keywords ironforge, city, completionist
+coords live
+version 1
+
+step Ironforge — arrival at the Gates
+
+  note Ironforge is a hub for the whole leveling life: come in through the Gates, set your hearth at Innkeeper Firebrew in the west when you pass her, and learn the gryphon route at Gryth Thurden. Quests here span level 1 to 60 — the steps say which legs belong to which level; low-level arrivals do the early steps and come back for the rest.
+  goto 51.52,26.31
+  accept 6388 only Dwarf,Gnome -- Gryth Thurden - Golnir Bouldertoe takes it
+  note 6388's pre (6391) lives in the Dun Morogh guide — take 6388 after that leg.
+  goto 55.5,47.74
+  turnin 6388 only Dwarf,Gnome -- Gryth Thurden - Golnir's word to Gryth Thurden
+  accept 6392 only Dwarf,Gnome -- Return to Brock - Gryth Thurden; Brock Stoneseeker waits in Loch Modan
+  note Brock's Loch Modan turn-in is an expedition below.
+
+step Mystic Ward — priest beginnings
+
+  goto 24.42,9.17
+  accept 5633 only NightElf,Priest -- Returning Home - Braenna Flintcrag; Priestess Alathea waits in Darnassus, late
+  note The other-race twins (5627-5632) stay out — Braenna's Night Elf line is the contracted pick.
+  goto 24.73,8.16
+  accept 5639 only Dwarf,Priest -- Desperate Prayer - High Priest Rohan; back to Rohan
+  turnin 5639 only Dwarf,Priest -- Desperate Prayer - back to High Priest Rohan
+  accept 94778 only Human,Priest -- Divine Grace - High Priest Rohan; High Priestess Laurena waits in Stormwind, late
+  accept 5641 only Dwarf,Priest -- A Lack of Fear - High Priest Rohan; back to Rohan
+  note The other-variant twins (5645, 5647) stay out — Rohan's line is the contracted pick.
+  turnin 5641 only Dwarf,Priest -- A Lack of Fear - back to High Priest Rohan
+  accept 5675 only NightElf,Priest -- Elune's Grace - High Priest Rohan; Priestess Alathea waits in Darnassus, late
+  note The other-variant twins (5672-5674) stay out — Rohan's line is the contracted pick.
+  accept 5677 only Human,Priest -- Arcane Feedback - High Priest Rohan; High Priestess Laurena waits in Stormwind, late
+  note The other-variant twins (5676, 5678) stay out — Rohan's line is the contracted pick.
+  accept 8254 only Priest -- Cenarion Aid - High Priest Rohan; Ogtinc waits in Azshara, late
+  goto 24.59,10
+  accept 94817 only Gnome,Priest -- Confounding Flash - High Priestess Mims; back to Mims
+  turnin 94817 only Gnome,Priest -- Confounding Flash - back to High Priestess Mims
+  accept 94818 only Gnome,Priest -- Contingency Plan - High Priestess Mims; back to Mims
+  turnin 94818 only Gnome,Priest -- Contingency Plan - back to High Priestess Mims
+  note 94818's pre (94819, Stormwind-contracted, or the Darnassus alternative 94820) never fills inside this guide — take 94818 on its own.
+
+step Mystic Ward — the Tome of Divinity
+
+  goto 27.63,12.18
+  accept 1645 only Dwarf,Paladin -- The Tome of Divinity - Tiza Battleforge; the Tome comes with the world
+  note The Tome of Divinity (6916) has no source in the data: it comes with the world around the quest, so this accept never wedges — check the bags on the way.
+  accept 1646 only Dwarf,Paladin -- The Tome of Divinity - the Tome the world grants
+  turnin 1646 only Dwarf,Paladin -- The Tome of Divinity - back to Tiza Battleforge
+  turnin 1645 only Dwarf,Paladin -- The Tome of Divinity - back to Tiza Battleforge
+  accept 1647 only Dwarf,Paladin -- The Tome of Divinity - Tiza Battleforge; John Turner takes it
+  goto 23.34,61.86
+  turnin 1647 only Dwarf,Paladin -- The Tome of Divinity - the word to John Turner
+  accept 1648 only Dwarf,Paladin -- The Tome of Divinity - John Turner; ten Linen Cloths
+  complete 1648 only Dwarf,Paladin @23.34,61.86 era -- Linen Cloth x10 for John Turner
+  turnin 1648 only Dwarf,Paladin -- The Tome of Divinity - back to John Turner
+  accept 1778 only Dwarf,Paladin -- The Tome of Divinity - John Turner; back to Tiza
+  goto 27.63,12.18
+  turnin 1778 only Dwarf,Paladin -- The Tome of Divinity - back to Tiza Battleforge
+  accept 1779 only Dwarf,Paladin -- The Tome of Divinity - Tiza Battleforge; Muiredon Battleforge takes it
+  goto 23.54,8.3
+  turnin 1779 only Dwarf,Paladin -- The Tome of Divinity - the word to Muiredon Battleforge
+  accept 1783 only Dwarf,Paladin -- The Tome of Divinity - Muiredon Battleforge; Narm Faulk waits in Dun Morogh
+  accept 1785 only Dwarf,Paladin -- The Tome of Divinity - Muiredon Battleforge; back to Tiza
+  note 1785's pre (1784, a Stormwind accept) is uncontracted anywhere, so the pre never fills — take 1785 on its own.
+  goto 27.63,12.18
+  turnin 1785 only Dwarf,Paladin -- The Tome of Divinity - back to Tiza Battleforge
+  accept 1789 only Dwarf,Paladin -- The Symbol of Life - Tiza Battleforge; back to Tiza
+  turnin 1789 only Dwarf,Paladin -- The Symbol of Life - back to Tiza Battleforge
+  goto 23.13,6.14
+  accept 2999 only Dwarf,Paladin -- Tome of Divinity - Brandur Ironhammer; Tiza Battleforge takes it
+  note The Dun Morogh, Elwynn and Stormwind twins (2997, 2998, 3000) stay out — Brandur's Dwarf line is the contracted pick.
+  goto 27.63,12.18
+  turnin 2999 only Dwarf,Paladin -- Tome of Divinity - the word to Tiza Battleforge
+  accept 1794 only Human,Dwarf,Paladin -- The Tome of Valor - Tiza Battleforge; back to Tiza
+  note The Human twin (1793, Stormwind-contracted) stays out — Tiza's line is the contracted pick.
+  turnin 1794 only Human,Dwarf,Paladin -- The Tome of Valor - back to Tiza Battleforge
+  accept 4485 only Human,Dwarf,Paladin -- The Tome of Nobility - Tiza Battleforge; Duthorian Rall waits in Stormwind, late
+  note Brandur's twin (4486) stays out — same name, same eligibility, same destination; Tiza's line is the contracted pick, take either.
+  note The Stormwind turn-in is an expedition below.
+  goto 24.73,8.16
+  accept 7639 only Human,Dwarf,Paladin -- To Show Due Judgment - High Priest Rohan; Lord Grayson Shadowbreaker waits in Stormwind, very late
+  note 7639's pre (7637, Stormwind-contracted) never fills inside this guide — take 7639 on its own.
+  goto 23.13,6.14
+  accept 7670 only Paladin -- Lord Grayson Shadowbreaker - Brandur Ironhammer; Lord Grayson Shadowbreaker waits in Stormwind, very late
+  note Duthorian's twin (7638, Stormwind-contracted) stays out — Brandur's line is the contracted pick.
+  accept 3681 only Human,Paladin -- Tome of Divinity - Brandur Ironhammer; Duthorian Rall waits in Stormwind, late
+  note Wilhelm's twin (2998, uncontracted) stays out — Brandur's Human line is the contracted pick.
+  accept 8415 only Human,Dwarf,Paladin -- Chillwind Point - Brandur Ironhammer; Commander Ashlam Valorfist waits in the Plaguelands, very late
+  note 8415 also lives in the Stormwind guide (Grayson's accept there); this Ironforge starter is routed here, the Stormwind starter there.
+
+step Mystic Ward — mages
+
+  goto 27.25,8.3
+  accept 1880 only Human,Gnome,Mage -- Mage-tastic Gizmonitor - Bink; the gizmonitor itself
+  complete 1880 only Human,Gnome,Mage @27.25,8.3 era -- the Mage-tastic Gizmonitor for Bink
+  turnin 1880 only Human,Gnome,Mage -- Mage-tastic Gizmonitor - back to Bink
+  goto 27.16,8.57
+  accept 1919 only Human,Gnome,Mage -- Report to Jennea - Dink; Jennea Cannon waits in Stormwind
+  accept 8250 only Mage -- Magecraft - Dink; Sanath Lim-yo waits in Azshara, late
+  goto 27.25,8.3
+  accept 1939 only Human,Gnome,Mage -- High Sorcerer Andromath - Bink; High Sorcerer Andromath waits in Stormwind, late
+  accept 1947 only Mage -- Journey to the Marsh - Bink; Tabetha waits in Dustwallow Marsh, late
+  accept 1953 only Mage -- Return to the Marsh - Bink; Tabetha waits in Dustwallow Marsh, late
+  accept 2861 only Mage -- Tabetha's Task - Bink; Tabetha waits in Dustwallow Marsh, late
+
+step Mystic Ward — Talvash and Tymor
+
+  goto 36.38,3.61
+  note The Shattered Necklace (7666) has no source in the data: it comes with the world around the quest, so this accept never wedges — check the bags on the way.
+  accept 2198 -- The Shattered Necklace - a Shattered Necklace; Talvash del Kissel takes it
+  turnin 2198 -- The Shattered Necklace - the necklace to Talvash del Kissel
+  accept 2199 -- Lore for a Price - Talvash del Kissel; five Silver Bars
+  complete 2199 @36.38,3.61 era -- Silver Bar x5 for Talvash del Kissel
+  turnin 2199 -- Lore for a Price - back to Talvash del Kissel
+  accept 2200 -- Back to Uldaman - Talvash del Kissel; the Remains of a Paladin, inside Uldaman
+  note The Remains have no placed point in the data: take the quest now, find them inside Uldaman in the Badlands with a group, hand in on return.
+  turnin 2200 -- Back to Uldaman - the word to the Remains of a Paladin
+  accept 2204 -- Restoring the Necklace - Talvash del Kissel; the Shattered Necklace Power Source
+  note 2204's pre (2201, an Uldaman accept) is OUT, so the pre never fills — take 2204 on its own.
+  complete 2204 @36.38,3.61 era -- the Shattered Necklace Power Source for Talvash del Kissel
+  turnin 2204 -- Restoring the Necklace - back to Talvash del Kissel
+  accept 2361 -- Restoring the Necklace - Talvash del Kissel; back to Talvash
+  turnin 2361 -- Restoring the Necklace - back to Talvash del Kissel
+  accept 3375 -- Replacement Phial - Talvash del Kissel; a Mana Potion, Coal and Sweet Nectar
+  note 3375's pre (2201) is OUT — take 3375 on its own.
+  complete 3375 @36.38,3.61 era -- Mana Potion, Coal and Sweet Nectar for Talvash del Kissel
+  turnin 3375 -- Replacement Phial - back to Talvash del Kissel
+  accept 2948 -- Gnome Improvement - Talvash del Kissel; a Silver Bar and Moss Agate
+  note 2948's pre (2947, a Gnomeregan accept) is OUT — take 2948 on its own.
+  complete 2948 @36.38,3.61 era -- Silver Bar and Moss Agate for Talvash del Kissel
+  turnin 2948 -- Gnome Improvement - back to Talvash del Kissel
+  accept 3448 -- Passing the Burden - Historian Karnik; Tymor takes it
+  turnin 3448 -- Passing the Burden - Karnik's word to Tymor
+  accept 3449 -- Arcane Runes - Tymor; four rune rubbings, then Xiggs in Azshara
+  complete 3449 @30.96,4.83 era -- the rubbings of Beth'Amara, Jin'yael, Markri and Sael'hai for Tymor
+  note The rubbings have no placed points in the data — gather them where the ruins are, then carry the word to Xiggs in Azshara (expedition below).
+  accept 3450 -- An Easy Pickup - Tymor; Xiggs Fuselighter takes it
+  turnin 3450 -- An Easy Pickup - Tymor's word to Xiggs Fuselighter
+  accept 3451 -- Signal for Pickup - Xiggs Fuselighter; back to Xiggs
+  turnin 3451 -- Signal for Pickup - back to Xiggs Fuselighter
+  accept 3483 -- Signal for Pickup - Xiggs Fuselighter; back to Xiggs
+  turnin 3483 -- Signal for Pickup - back to Xiggs Fuselighter
+
+step The Great Forge — tribute and the king
+
+  goto 63.5,67.3
+  note Sully Balloo's Letter (the Waterlogged Envelope, 4433) has no source in the data: it comes with the world around the quest, so this accept never wedges — check the bags on the way.
+  accept 637 -- Sully Balloo's Letter - a Waterlogged Envelope; Sara Balloo takes it
+  turnin 637 -- Sully Balloo's Letter - the letter to Sara Balloo
+  accept 683 -- Sara Balloo's Plea - Sara Balloo; King Magni Bronzebeard takes it
+  turnin 683 -- Sara Balloo's Plea - Sara's plea to King Magni Bronzebeard
+  accept 686 -- A King's Tribute - King Magni Bronzebeard; Grand Mason Marblesten takes it
+  turnin 686 -- A King's Tribute - the tribute to Grand Mason Marblesten
+  accept 689 -- A King's Tribute - Grand Mason Marblesten; Alterac Granite
+  complete 689 @39.04,88.05 era -- Alterac Granite x5 for Grand Mason Marblesten
+  turnin 689 -- A King's Tribute - back to Grand Mason Marblesten
+  accept 700 -- A King's Tribute - Grand Mason Marblesten; King Magni Bronzebeard takes it
+  turnin 700 -- A King's Tribute - the tribute to King Magni Bronzebeard
+  note The Treaty of Understanding (281030) has no source in the data: it comes with the world around the quest, so this accept never wedges — check the bags on the way.
+  accept 98423 -- The Treaty of Understanding - a Treaty of Understanding; King Magni Bronzebeard takes it
+  turnin 98423 -- The Treaty of Understanding - the treaty to King Magni Bronzebeard
+  accept 4341 -- Kharan Mighthammer - King Magni Bronzebeard; Kharan Mighthammer, in Blackrock Depths, very late
+  note Kharan has no placed point in the data: take the quest now, find him inside Blackrock Depths with a group, hand in on return.
+  turnin 4341 -- Kharan Mighthammer - Magni's word to Kharan Mighthammer
+  note 4362's pre (4361, no usable accept) never fills — take 4362 on its own.
+  accept 4362 -- The Fate of the Kingdom - King Magni Bronzebeard; Emperor Dagran Thaurissan, in Blackrock Depths, very late
+  complete 4362 @39.09,56.2 era -- Emperor Dagran Thaurissan, in Blackrock Depths with a group
+  note Princess Moira Bronzebeard has no placed point in the data — hand in where she stands.
+  turnin 4362 -- The Fate of the Kingdom - the news to Princess Moira Bronzebeard
+
+step The Great Forge — Deliana's tier
+
+  note A level-58 dungeon tier: take the set now, do the Stratholme and Scholomance legs with a group when ready, and hand in on return.
+  goto 43.53,52.64
+  accept 8905 only Druid -- An Earnest Proposition - Deliana; Winterspring blood and Wildheart bracers
+  accept 8906 only Hunter -- An Earnest Proposition - Deliana; Winterspring blood and Beaststalker bindings
+  accept 8907 only Mage -- An Earnest Proposition - Deliana; Winterspring blood and Magister bindings
+  accept 8908 only Paladin -- An Earnest Proposition - Deliana; Winterspring blood and Lightforge bracers
+  accept 8909 only Priest -- An Earnest Proposition - Deliana; Winterspring blood and Devout bracers
+  accept 8910 only Rogue -- An Earnest Proposition - Deliana; Winterspring blood and Shadowcraft bracers
+  accept 8911 only Warlock -- An Earnest Proposition - Deliana; Winterspring blood and Dreadmist bracers
+  accept 8912 only Warrior -- An Earnest Proposition - Deliana; Winterspring blood and Bracers of Valor
+  complete 8905 only Druid @43.53,52.64 era -- Winterspring Blood Sample x15 and Wildheart Bracers for Deliana
+  complete 8906 only Hunter @43.53,52.64 era -- Winterspring Blood Sample x15 and Beaststalker's Bindings for Deliana
+  complete 8907 only Mage @43.53,52.64 era -- Winterspring Blood Sample x15 and Magister's Bindings for Deliana
+  complete 8908 only Paladin @43.53,52.64 era -- Winterspring Blood Sample x15 and Lightforge Bracers for Deliana
+  complete 8909 only Priest @43.53,52.64 era -- Winterspring Blood Sample x15 and Devout Bracers for Deliana
+  complete 8910 only Rogue @43.53,52.64 era -- Winterspring Blood Sample x15 and Shadowcraft Bracers for Deliana
+  complete 8911 only Warlock @43.53,52.64 era -- Winterspring Blood Sample x15 and Dreadmist Bracers for Deliana
+  complete 8912 only Warrior @43.53,52.64 era -- Winterspring Blood Sample x15 and Bracers of Valor for Deliana
+  turnin 8905 only Druid -- An Earnest Proposition - back to Deliana
+  turnin 8906 only Hunter -- An Earnest Proposition - back to Deliana
+  turnin 8907 only Mage -- An Earnest Proposition - back to Deliana
+  turnin 8908 only Paladin -- An Earnest Proposition - back to Deliana
+  turnin 8909 only Priest -- An Earnest Proposition - back to Deliana
+  turnin 8910 only Rogue -- An Earnest Proposition - back to Deliana
+  turnin 8911 only Warlock -- An Earnest Proposition - back to Deliana
+  turnin 8912 only Warrior -- An Earnest Proposition - back to Deliana
+  accept 8922 -- A Supernatural Device - Deliana; Mux Manascrambler waits in Tanaris, late
+  note 8926's pre (8977, Tanaris) is uncontracted, so the pre never fills — take the set on its own.
+  accept 8926 only Druid -- Just Compensation - Deliana; Wildheart belt and gloves
+  accept 8931 only Hunter -- Just Compensation - Deliana; Beaststalker's belt and gloves
+  accept 8932 only Mage -- Just Compensation - Deliana; Magister's belt and gloves
+  accept 8933 only Paladin -- Just Compensation - Deliana; Lightforge belt and gauntlets
+  accept 8934 only Priest -- Just Compensation - Deliana; Devout belt and gloves
+  accept 8935 only Rogue -- Just Compensation - Deliana; Shadowcraft belt and gloves
+  accept 8936 only Warlock -- Just Compensation - Deliana; Dreadmist belt and wraps
+  accept 8937 only Warrior -- Just Compensation - Deliana; belt and gauntlets of Valor
+  complete 8926 only Druid @43.53,52.64 era -- Wildheart Belt and Wildheart Gloves for Deliana
+  complete 8931 only Hunter @43.53,52.64 era -- Beaststalker's Belt and Beaststalker's Gloves for Deliana
+  complete 8932 only Mage @43.53,52.64 era -- Magister's Belt and Magister's Gloves for Deliana
+  complete 8933 only Paladin @43.53,52.64 era -- Lightforge Belt and Lightforge Gauntlets for Deliana
+  complete 8934 only Priest @43.53,52.64 era -- Devout Belt and Devout Gloves for Deliana
+  complete 8935 only Rogue @43.53,52.64 era -- Shadowcraft Belt and Shadowcraft Gloves for Deliana
+  complete 8936 only Warlock @43.53,52.64 era -- Dreadmist Belt and Dreadmist Wraps for Deliana
+  complete 8937 only Warrior @43.53,52.64 era -- Belt of Valor and Gauntlets of Valor for Deliana
+  turnin 8926 only Druid -- Just Compensation - back to Deliana
+  turnin 8931 only Hunter -- Just Compensation - back to Deliana
+  turnin 8932 only Mage -- Just Compensation - back to Deliana
+  turnin 8933 only Paladin -- Just Compensation - back to Deliana
+  turnin 8934 only Priest -- Just Compensation - back to Deliana
+  turnin 8935 only Rogue -- Just Compensation - back to Deliana
+  turnin 8936 only Warlock -- Just Compensation - back to Deliana
+  turnin 8937 only Warrior -- Just Compensation - back to Deliana
+  note 8929's pres (the eight above) fill here — take 8929 after them.
+  accept 8929 -- In Search of Anthion - Deliana; Anthion Harmon waits in the Eastern Plaguelands, late
+  note 8960's pres (8951-8959, Eastern Plaguelands) are uncontracted, so the pres never fill — take 8960 on its own.
+  accept 8960 -- Bodley's Unfortunate Fate - Deliana; Bodley waits in the Plaguelands, late
+  note 8999's pre (8997) is uncontracted — take the set on its own.
+  accept 8999 only Druid -- Saving the Best for Last - Deliana; Wildheart cowl and vest
+  accept 9000 only Hunter -- Saving the Best for Last - Deliana; Beaststalker's cap and tunic
+  accept 9001 only Mage -- Saving the Best for Last - Deliana; Magister's crown and robes
+  accept 9002 only Paladin -- Saving the Best for Last - Deliana; Lightforge helm and breastplate
+  accept 9003 only Priest -- Saving the Best for Last - Deliana; Devout crown and robe
+  accept 9004 only Rogue -- Saving the Best for Last - Deliana; Shadowcraft cap and tunic
+  accept 9005 only Warlock -- Saving the Best for Last - Deliana; Dreadmist mask and robe
+  accept 9006 only Warrior -- Saving the Best for Last - Deliana; Helm and Breastplate of Valor
+  complete 8999 only Druid @43.53,52.64 era -- Wildheart Cowl and Wildheart Vest for Deliana
+  complete 9000 only Hunter @43.53,52.64 era -- Beaststalker's Cap and Beaststalker's Tunic for Deliana
+  complete 9001 only Mage @43.53,52.64 era -- Magister's Crown and Magister's Robes for Deliana
+  complete 9002 only Paladin @43.53,52.64 era -- Lightforge Helm and Lightforge Breastplate for Deliana
+  complete 9003 only Priest @43.53,52.64 era -- Devout Crown and Devout Robe for Deliana
+  complete 9004 only Rogue @43.53,52.64 era -- Shadowcraft Cap and Shadowcraft Tunic for Deliana
+  complete 9005 only Warlock @43.53,52.64 era -- Dreadmist Mask and Dreadmist Robe for Deliana
+  complete 9006 only Warrior @43.53,52.64 era -- Helm of Valor and Breastplate of Valor for Deliana
+  turnin 8999 only Druid -- Saving the Best for Last - back to Deliana
+  turnin 9000 only Hunter -- Saving the Best for Last - back to Deliana
+  turnin 9001 only Mage -- Saving the Best for Last - back to Deliana
+  turnin 9002 only Paladin -- Saving the Best for Last - back to Deliana
+  turnin 9003 only Priest -- Saving the Best for Last - back to Deliana
+  turnin 9004 only Rogue -- Saving the Best for Last - back to Deliana
+  turnin 9005 only Warlock -- Saving the Best for Last - back to Deliana
+  turnin 9006 only Warrior -- Saving the Best for Last - back to Deliana
+
+step The Great Forge — smiths
+
+  accept 1578 -- Supplying the Front - Tormus Deepforge; six Copper Axes and six Copper Chain Belts, then Thorvald in Loch Modan
+  complete 1578 @48.64,42.48 era -- Copper Axe x6 and Copper Chain Belt x6 for Tormus Deepforge
+  note The Loch Modan turn-in is an expedition below.
+  accept 1618 -- Gearing Redridge - Tormus Deepforge; four Runed Copper Belts and four Heavy Copper Mauls, then Verner in Redridge
+  complete 1618 @48.64,42.48 era -- Runed Copper Belt x4 and Heavy Copper Maul x4 for Tormus Deepforge
+  note The Redridge turn-in is an expedition below.
+  accept 5283 -- The Art of the Armorsmith - Grumnus Steelshaper; four Ornate Mithril Helms, two Boots and a Breastplate
+  note The Weaponsmith twin (5284) stays out — same choice, different smith; the guide routes Armorsmith, take either.
+  complete 5283 @49.96,42.81 era -- Ornate Mithril Helm x4, Ornate Mithril Boots x2 and Ornate Mithril Breastplate x1 for Grumnus Steelshaper
+  turnin 5283 -- The Art of the Armorsmith - back to Grumnus Steelshaper
+
+step The Great Forge — cloth donations
+
+  note Cloth comes in tiers: Wool at 12, Silk at 26, Mageweave at 40, Runecloth at 50. Both quartermasters take the same tiers; the repeatable Additional Runecloth stays out.
+  accept 7802 -- A Donation of Wool - Mistina Steelshield; Wool Cloth x60
+  complete 7802 @43.22,31.57 era -- Wool Cloth x60 for Mistina Steelshield
+  turnin 7802 -- A Donation of Wool - back to Mistina Steelshield
+  accept 7803 -- A Donation of Silk - Mistina Steelshield; Silk Cloth x60
+  complete 7803 @43.22,31.57 era -- Silk Cloth x60 for Mistina Steelshield
+  turnin 7803 -- A Donation of Silk - back to Mistina Steelshield
+  accept 7804 -- A Donation of Mageweave - Mistina Steelshield; Mageweave Cloth x60
+  complete 7804 @43.22,31.57 era -- Mageweave Cloth x60 for Mistina Steelshield
+  turnin 7804 -- A Donation of Mageweave - back to Mistina Steelshield
+  accept 7805 -- A Donation of Runecloth - Mistina Steelshield; Runecloth x60
+  note 7805's pres (7802, 7803, 7804 above) fill here — take 7805 after them.
+  complete 7805 @43.22,31.57 era -- Runecloth x60 for Mistina Steelshield
+  turnin 7805 -- A Donation of Runecloth - back to Mistina Steelshield
+  accept 7807 -- A Donation of Wool - Bubulo Acerbus; Wool Cloth x60
+  complete 7807 @74.09,48.22 era -- Wool Cloth x60 for Bubulo Acerbus
+  turnin 7807 -- A Donation of Wool - back to Bubulo Acerbus
+  accept 7808 -- A Donation of Silk - Bubulo Acerbus; Silk Cloth x60
+  complete 7808 @74.09,48.22 era -- Silk Cloth x60 for Bubulo Acerbus
+  turnin 7808 -- A Donation of Silk - back to Bubulo Acerbus
+  accept 7809 -- A Donation of Mageweave - Bubulo Acerbus; Mageweave Cloth x60
+  complete 7809 @74.09,48.22 era -- Mageweave Cloth x60 for Bubulo Acerbus
+  turnin 7809 -- A Donation of Mageweave - back to Bubulo Acerbus
+  accept 7811 -- A Donation of Runecloth - Bubulo Acerbus; Runecloth x60
+  note 7811's pres (7807, 7808, 7809 above) fill here — take 7811 after them.
+  complete 7811 @74.09,48.22 era -- Runecloth x60 for Bubulo Acerbus
+  turnin 7811 -- A Donation of Runecloth - back to Bubulo Acerbus
+
+step Hall of Explorers — Stormpike's league
+
+  accept 302 -- Powder to Ironband - Prospector Stormpike; Jern Hornhelm waits in Loch Modan
+  note 302's pre (301) lives in the Loch Modan guide — take 302 after that leg.
+  accept 525 -- Further Mysteries - Prospector Stormpike; Magistrate Henry Maleb waits in Hillsbrad
+  note 525's pre (514, Hillsbrad) is uncontracted, so the pre never fills — take 525 on its own.
+  accept 707 -- Ironband Wants You! - Prospector Stormpike; Prospector Ironband waits in Loch Modan
+  accept 2398 -- The Lost Dwarves - Prospector Stormpike; Baelog's party, inside Uldaman
+  note Baelog has no placed point in the data: take the quest now, find the party inside Uldaman, hand in on return.
+  turnin 2398 -- The Lost Dwarves - the word to Baelog
+  accept 725 -- Passing Word of a Threat - Historian Karnik; Advisor Belgrum takes it
+  note 725's pre (724, Wetlands) is uncontracted — take 725 on its own.
+  turnin 725 -- Passing Word of a Threat - Karnik's word to Advisor Belgrum
+  accept 726 -- Passing Word of a Threat - Advisor Belgrum; Historian Karnik takes it
+  turnin 726 -- Passing Word of a Threat - back to Historian Karnik
+  accept 762 -- An Ambassador of Evil - Historian Karnik; Ambassador Infernus' Bracer, then Belgrum
+  complete 762 @77.34,9.71 era -- Ambassador Infernus' Bracer for Advisor Belgrum
+  note The bracer has no placed point in the data — take it where the Ambassador falls, then hand in on return.
+  turnin 762 -- An Ambassador of Evil - the bracer to Advisor Belgrum
+  accept 1139 -- The Lost Tablets of Will - Advisor Belgrum; the Tablet of Will
+  complete 1139 @77.34,9.71 era -- Tablet of Will for Advisor Belgrum
+  turnin 1139 -- The Lost Tablets of Will - back to Advisor Belgrum
+  accept 1050 -- Mythology of the Titans - Librarian Mae Paledust; the Mythology of the Titans
+  complete 1050 @74.97,12.48 era -- Mythology of the Titans for Librarian Mae Paledust
+  turnin 1050 -- Mythology of the Titans - back to Librarian Mae Paledust
+  accept 2439 -- The Platinum Discs - High Explorer Magellas; Dinita Stonemantle takes it
+  note 2439's pre (2279, an Uldaman accept) is OUT, so the pre never fills — take 2439 on its own.
+  turnin 2439 -- The Platinum Discs - Magellas's word to Dinita Stonemantle
+  note 2963's pre (2439 above) fills here — take 2963 after it.
+  accept 2963 -- Portents of Uldum - High Explorer Magellas; Historian Karnik takes it
+  turnin 2963 -- Portents of Uldum - Magellas's word to Historian Karnik
+  accept 2964 -- A Future Task - Historian Karnik; High Explorer Magellas takes it
+  note 2964's pre (2977, Tanaris) is uncontracted — take 2964 on its own.
+  turnin 2964 -- A Future Task - Karnik's word to High Explorer Magellas
+  accept 2946 -- Seeing What Happens - Historian Karnik; the Uldum Pedestal in Tanaris, very late
+  note The Tanaris turn-in is an expedition below.
+  accept 1453 -- Reclaimers' Business in Desolace - Roetten Stonehammer; Kreldig Ungor waits in Stonetalon
+  accept 4512 -- A Little Slime Goes a Long Way - Laris Geardawdle; filled Cursed and Tainted Ooze Jars, late
+  complete 4512 @75.77,23.38 era -- Filled Cursed Ooze Jar x6 and Filled Tainted Ooze Jar x6 for Laris Geardawdle
+  note The jars have no placed points in the data — fill them on a late ooze leg, then hand in on return.
+  turnin 4512 -- A Little Slime Goes a Long Way - back to Laris Geardawdle
+  accept 4513 -- A Little Slime Goes a Long Way - Laris Geardawdle; filled Pure Sample Jars, late
+  note 4513's pre (4512 above) fills here — take 4513 after it.
+  complete 4513 @75.77,23.38 era -- Filled Pure Sample Jar x10 for Laris Geardawdle
+  turnin 4513 -- A Little Slime Goes a Long Way - back to Laris Geardawdle
+  note The Library Book (386691) sits on the Hall's shelves: take the quest off it.
+  accept 79091 -- Archmage Antonidas: The Unabridged Autobiography - a Library Book; Garion Wendell waits in Stormwind
+  complete 79091 @76,10.4 era -- Archmage Antonidas: The Unabridged Autobiography for the shelves
+  note The Uldaman and Stormwind co-starters stay out — the book's line is the contracted pick. The Stormwind turn-in is an expedition below.
+
+step Hall of Explorers — Thorius and the titans
+
+  accept 3201 -- At Last! - Curator Thorius; Mountaineer Pebblebitty waits in Loch Modan
+  note 3201's pre (3182, Loch Modan) is uncontracted — take 3201 on its own.
+  accept 3371 -- Dwarven Justice - Curator Thorius; the Dying Archaeologist waits in Searing Gorge, late
+  note 3371's pre (3368) is uncontracted — take 3371 on its own.
+  accept 3702 -- The Smoldering Ruins of Thaurissan - Royal Historian Archesonus; information in Searing Gorge, late
+  complete 3702 @38.37,55.31 era -- Royal Historian Archesonus for the Smoldering Ruins
+  note Work the Searing Gorge leg, then report in person.
+  turnin 3702 -- The Smoldering Ruins of Thaurissan - back to Royal Historian Archesonus
+  accept 3701 -- The Smoldering Ruins of Thaurissan - Royal Historian Archesonus; Information Recovered x12, Searing Gorge, late
+  note 3701's pre (3702 above) fills here — take 3701 after it.
+  complete 3701 @38.37,55.31 era -- Information Recovered x12 for Royal Historian Archesonus
+  turnin 3701 -- The Smoldering Ruins of Thaurissan - back to Royal Historian Archesonus
+  accept 95924 -- Panic at the Digsite - Curator Thorius; Venomridge and ravasaurs, Un'Goro, very late
+  complete 95924 @71.5,15.74 era -- Venomridge, Ravasaur Matriarch x6 and Ironhide Ravasaur x9 for Curator Thorius
+  note The beasts have no placed points in the data — hunt them in Un'Goro when ready. 95924 has no turn-in in the data — the chain ends at the accept.
+  accept 95925 -- Mapping the Way Forward - Curator Thorius
+  note 95925 has no turn-in in the data either — take it and move on.
+  accept 1360 -- Reclaimed Treasures - Krom Stoutarm; Krom Stoutarm's Treasure
+  complete 1360 @74.19,9.39 era -- Krom Stoutarm's Treasure for Krom Stoutarm
+  turnin 1360 -- Reclaimed Treasures - back to Krom Stoutarm
+  accept 1802 only Warlock -- Tome of the Cabal - Krom Stoutarm; a Moldy Tome and a Tattered Manuscript
+  note 1802's pre (1758, Razorfen) is uncontracted — take 1802 on its own.
+  complete 1802 only Warlock @74.19,9.39 era -- Moldy Tome and Tattered Manuscript for Krom Stoutarm
+  turnin 1802 only Warlock -- Tome of the Cabal - back to Krom Stoutarm
+  accept 1804 only Warlock -- Tome of the Cabal - Krom Stoutarm; three Rods of Channeling, then Strahad in the Barrens
+  note 1804's pre (1802 above) fills here — take 1804 after it.
+  complete 1804 only Warlock @74.19,9.39 era -- Rod of Channeling x3 for Krom Stoutarm
+  note The Barrens turn-in is an expedition below.
+  accept 467 -- Stonegear's Search - Pilot Longbeard; Pilot Stonegear waits in Dun Morogh
+  accept 1179 -- The Brassbolts Brothers - Pilot Longbeard; Wizzle Brassbolts waits in Thousand Needles, late
+  note The Brassbolts twins (1179 here, 2769 below) share a name — both are contracted; this is Wizzle's line from Longbeard.
+  note The Black Box (4613) has no source in the data: it comes with the world around the quest, so this accept never wedges — check the bags on the way.
+  accept 708 -- The Black Box - a Corroded Black Box; Pilot Longbeard takes it
+  turnin 708 -- The Black Box - the box to Pilot Longbeard
+
+step Military Ward — rogues and warriors
+
+  goto 51.96,14.84
+  accept 2238 only Rogue -- Simple Subterfugin' - Hulfdan Blackwrench; Onin MacHammar waits in Dun Morogh
+  accept 2298 only Rogue -- Kingly Shakedown - Hulfdan Blackwrench; Renzik the Shiv waits in Stormwind
+  note 2298's pre (2299, Dun Morogh) is uncontracted — take 2298 on its own.
+  accept 8233 only Rogue -- A Simple Request - Hulfdan Blackwrench; Lord Jorach Ravenholdt waits in Alterac, late
+  note The Elegant Letter (17126) comes from pickpocketing the city's rogues — Hulfdan, Ormyr and Fenthwick all stand here; lift it and take the quest.
+  accept 6681 only Rogue -- The Manor, Ravenholdt - an Elegant Letter; Fahrad waits in Alterac, late
+  note The Alterac turn-in is an expedition below.
+  goto 70.77,90.27
+  accept 1678 only Warrior -- Vejrek - Muren Stormpike; Vejrek's Head
+  note The Human twin (1639, Stormwind-contracted) and the Kalimdor twin (1683) stay out — Muren's line is the contracted pick.
+  complete 1678 only Warrior @70.77,90.27 era -- Vejrek's Head for Muren Stormpike
+  note Vejrek has no placed point in the data — take him where he stands, then hand in on return.
+  turnin 1678 only Warrior -- Vejrek - back to Muren Stormpike
+  accept 1680 only Warrior -- Tormus Deepforge - Muren Stormpike; Tormus Deepforge takes it
+  note 1680's pre (1678 above) fills here — take 1680 after it.
+  goto 48.64,42.48
+  turnin 1680 only Warrior -- Tormus Deepforge - Muren's word to Tormus Deepforge
+  accept 1681 only Warrior -- Ironband's Compound - Tormus Deepforge; Umbral Ore
+  note 1681's pre (1680 above) fills here — take 1681 after it.
+  complete 1681 only Warrior @48.64,42.48 era -- Umbral Ore for Tormus Deepforge
+  turnin 1681 only Warrior -- Ironband's Compound - back to Tormus Deepforge
+  accept 1682 only Warrior -- Grey Iron Weapons - Tormus Deepforge; back to Tormus
+  note 1682's pre (1681 above) fills here — take 1682 after it.
+  turnin 1682 only Warrior -- Grey Iron Weapons - back to Tormus Deepforge
+  goto 70.34,90.65
+  accept 1698 only Warrior -- Yorus Barleybrew - Kelv Sternhammer; Yorus Barleybrew waits in Redridge
+  accept 1718 only Warrior -- The Islander - Kelv Sternhammer; Klannoc Macleod waits in the Barrens
+  accept 8417 only Warrior -- A Troubled Spirit - Kelv Sternhammer; the Fallen Hero waits in the Swamp of Sorrows, late
+  accept 1019 -- The New Frontier - Courier Hammerfall; Arch Druid Fandral Staghelm waits in Darnassus, very late
+  note The Stormwind twin (1015, Stormwind-contracted) stays out — Hammerfall's line is the contracted pick.
+  accept 5090 -- A Call to Arms: The Plaguelands! - Courier Hammerfall; Commander Ashlam Valorfist waits in the Plaguelands, very late
+  note The Stormwind twin (5066, Stormwind-contracted) stays out — Hammerfall's line is the contracted pick.
+  accept 7494 -- Feathermoon Stronghold - Courier Hammerfall; Latronicus Moonspear waits in Feralas, very late
+  note 7494 also lives in the Stormwind guide (Goodman's accept there); this Ironforge starter is routed here.
+
+step Military Ward — hunters
+
+  goto 70.89,83.61
+  accept 6074 only Dwarf,Hunter -- The Hunter's Path - Olmin Burningbeard; Grif Wildheart waits in Dun Morogh
+  note The other-race twins (6075, 6076) stay out — Olmin's Dwarf line is the contracted pick.
+  accept 6721 only NightElf,Hunter -- The Hunter's Path - Olmin Burningbeard; Dazalar waits in Darnassus
+  note The other-race twins (6071-6073, 6722) stay out — Olmin's Night Elf line is the contracted pick.
+  accept 8151 only Hunter -- The Hunter's Charm - Olmin Burningbeard; Ogtinc waits in Azshara, late
+
+step Tinker Town — gnomes and gadgets
+
+  accept 2039 -- Find Bingles - Gnoarn; Bingles Blastenheimer waits in Loch Modan
+  accept 2041 -- Speak with Shoni - Gnoarn; Shoni the Shilent waits in Stormwind
+  accept 2927 -- The Day After - Gnoarn; Ozzie Togglevolt waits in Dun Morogh
+  accept 8275 -- Taking Back Silithus - Cenarion Emissary Jademoon; Windcaller Proudhorn waits in Silithus, late
+  note The Silithus turn-in is an expedition below.
+  goto 67.92,46.1
+  accept 1708 only Warrior -- Iron Coral - Klockmort Spannerspan; Searing Coral x20
+  note 1708's pre (1704, Stormwind-contracted) never fills inside this guide — take 1708 on its own.
+  complete 1708 only Warrior @67.92,46.1 era -- Searing Coral x20 for Klockmort Spannerspan
+  note The coral has no placed points in the data — gather it on a late leg, then hand in on return.
+  turnin 1708 only Warrior -- Iron Coral - back to Klockmort Spannerspan
+  accept 1709 only Warrior -- Klockmort's Creation - Klockmort Spannerspan; back to Klockmort
+  note 1709's pre (1708 above) fills here — take 1709 after it.
+  turnin 1709 only Warrior -- Klockmort's Creation - back to Klockmort Spannerspan
+  accept 2769 -- The Brassbolts Brothers - Klockmort Spannerspan; Wizzle Brassbolts waits in Thousand Needles, late
+  note Klockmort's twin (2769 here, 1179 above) shares the name — both are contracted; this is Wizzle's line from Klockmort.
+  accept 2924 -- Essential Artificials - Klockmort Spannerspan; twelve Essential Artificials
+  note 2924's pre (2925, a Darnassus/Desolace accept) is uncontracted — take 2924 on its own.
+  complete 2924 @67.92,46.1 era -- Essential Artificial x12 for Klockmort Spannerspan, from the Gnomeregan machines with a group
+  turnin 2924 -- Essential Artificials - back to Klockmort Spannerspan
+  accept 2930 -- Data Rescue - Master Mechanic Castpipe; a Prismatic Punch Card
+  note 2930's pre (2931, Stonetalon) is uncontracted — take 2930 on its own.
+  complete 2930 @69.83,48.1 era -- Prismatic Punch Card for Master Mechanic Castpipe, from Gnomeregan with a group
+  turnin 2930 -- Data Rescue - back to Master Mechanic Castpipe
+  accept 2922 -- Save Techbot's Brain! - Tinkmaster Overspark; Techbot's Memory Core
+  note 2922's pre (2923, Stormwind-contracted) never fills inside this guide — take 2922 on its own.
+  complete 2922 @69.55,50.33 era -- Techbot's Memory Core for Tinkmaster Overspark, from Gnomeregan with a group
+  turnin 2922 -- Save Techbot's Brain! - back to Tinkmaster Overspark
+  accept 3640 -- The Pledge of Secrecy - Tinkmaster Overspark; Overspark's Signed Pledge
+  note The Tanaris and Horde twins (3638, 3642) stay out — Tinkmaster's line is the contracted pick.
+  complete 3640 @69.55,50.33 era -- Overspark's Signed Pledge for Tinkmaster Overspark
+  turnin 3640 -- The Pledge of Secrecy - back to Tinkmaster Overspark
+  accept 3641 -- Show Your Work - Tinkmaster Overspark; six Mithril Tubes, an Accurate Scope and two Advanced Target Dummies
+  note 3641's pre (3640 above) fills here — take 3641 after it. The Tanaris twin (3639) stays out.
+  complete 3641 @69.55,50.33 era -- Mithril Tube x6, Accurate Scope and Advanced Target Dummy x2 for Tinkmaster Overspark
+  turnin 3641 -- Show Your Work - back to Tinkmaster Overspark
+  accept 3647 -- Membership Card Renewal - Tinkmaster Overspark; back to Tinkmaster
+  note 3647's pre (3643, Stranglethorn) is uncontracted — take 3647 on its own.
+  turnin 3647 -- Membership Card Renewal - back to Tinkmaster Overspark
+  accept 2929 -- The Grand Betrayal - High Tinker Mekkatorque; Mekgineer Thermaplugg
+  complete 2929 @68.75,48.97 era -- Mekgineer Thermaplugg, inside Gnomeregan with a group
+  turnin 2929 -- The Grand Betrayal - back to High Tinker Mekkatorque
+  accept 3632 -- Gnome Engineering - Springspindle Fizzlegear; Tinkmaster Overspark takes it
+  note The Goblin twin (3629) stays out — Gnome is the contracted pick, consistent with the Stormwind guide.
+  turnin 3632 -- Gnome Engineering - the pledge to Tinkmaster Overspark
+  accept 1073 -- Ineptitude + Chemicals = Fun - Lomac Gearstrip; four Minor Mana Potions and two Elixirs of Minor Fortitude
+  note 1073's pre (1072, Stonetalon) is uncontracted — take 1073 on its own.
+  complete 1073 @72.08,51.88 era -- Minor Mana Potion x4 and Elixir of Minor Fortitude x2 for Lomac Gearstrip
+  turnin 1073 -- Ineptitude + Chemicals = Fun - back to Lomac Gearstrip
+  accept 1074 -- Ineptitude + Chemicals = Fun - Lomac Gearstrip; Gaxim Rustfizzle waits in Stonetalon
+  note 1074's pre (1073 above) fills here — take 1074 after it. The Stonetalon turn-in is an expedition below.
+  accept 95041 -- Data Hoarders - Jemma Quikswitch; seven Gnomeregan Archival Data
+  complete 95041 @67.66,44.21 era -- Gnomeregan Archival Data x7 for Jemma Quikswitch
+  note The data has no placed points in the data — pull them where the machines are, then hand in on return.
+  turnin 95041 -- Data Hoarders - back to Jemma Quikswitch
+  accept 97263 -- Your Package Has Arrived - Misplaced Packages; Eldrun Stormbreaker takes them
+  turnin 97263 -- Your Package Has Arrived - the packages to Eldrun Stormbreaker
+
+step Tinker Town — camping lessons
+  when skill Alchemy 1
+
+  note Camping Alchemy needs the profession; others skip this step cleanly.
+  accept 96045 -- Camping 101: Alchemy - Vosur Brakthel; back to Vosur
+  note 96045's pres (the Great Outdoors line, partly Elwynn-contracted) never fully fill here — take 96045 on its own.
+  complete 96045 @66.33,55.69 era -- Vosur Brakthel for Camping 101
+  turnin 96045 -- Camping 101: Alchemy - back to Vosur Brakthel
+
+step Tinker Town — camping lessons, enchanting
+  when skill Enchanting 1
+
+  note Camping Enchanting needs the profession; others skip this step cleanly.
+  accept 96059 -- Camping 101: Enchanting - Thonys Pillarstone; back to Thonys
+  note 96059's pres (the Great Outdoors line, partly Elwynn-contracted) never fully fill here — take 96059 on its own.
+  complete 96059 @60.27,45.37 era -- Thonys Pillarstone for Camping 101
+  turnin 96059 -- Camping 101: Enchanting - back to Thonys Pillarstone
+
+step The north wall — Gerrig and the warlocks
+
+  goto 50.83,5.62
+  note The Powers Below (5352) has no source in the data: it comes with the world around the quest, so this accept never wedges — check the bags on the way.
+  accept 968 -- The Powers Below - a Book: The Powers Below; Gerrig Bonegrip takes it
+  turnin 968 -- The Powers Below - the book to Gerrig Bonegrip
+  accept 687 -- Theldurin the Lost - Gerrig Bonegrip; Theldurin the Lost waits in the Badlands
+  note 687's pres (653, sourceless, and 688, Horde) never fill — take 687 on its own.
+  accept 971 -- Knowledge in the Deeps - Gerrig Bonegrip; the Lorgalis Manuscript
+  complete 971 @50.83,5.62 era -- Lorgalis Manuscript for Gerrig Bonegrip
+  turnin 971 -- Knowledge in the Deeps - back to Gerrig Bonegrip
+  accept 735 -- The Star, the Hand and the Heart - Gerrig Bonegrip; the Star of Xil'yeh, the Hand of Dagun and the Legacy Heart
+  note 735's pre (727, Wetlands) is uncontracted — take 735 on its own.
+  complete 735 @50.83,5.62 era -- Star of Xil'yeh, Hand of Dagun and the Legacy Heart for Gerrig Bonegrip, on the Uldaman leg
+  turnin 735 -- The Star, the Hand and the Heart - back to Gerrig Bonegrip
+  accept 737 -- Forbidden Knowledge - Gerrig Bonegrip; Theldurin the Lost waits in the Badlands
+  note 737's pres (735 above, and the Horde twin 736) never fully fill — take 737 after 735 regardless.
+  goto 47.63,9.26
+  accept 1715 only Warlock -- The Slaughtered Lamb - Lago Blackwrench; Gakin the Darkbinder waits in Stormwind
+  note The Elwynn twin (1685, uncontracted) and the Stormwind twin (1688, Stormwind-contracted) stay out — Lago's line is the contracted pick.
+  accept 1717 only Warlock -- Gakin's Summons - Lago Blackwrench; Gakin the Darkbinder waits in Stormwind
+  note The Stormwind twin (1716, Stormwind-contracted) stays out — Lago's line is the contracted pick.
+  accept 1798 only Warlock -- Seeking Strahad - Lago Blackwrench; Strahad Farsan waits in the Barrens
+  note 1798 also lives in the Stormwind guide (Gakin's accept there); this Ironforge starter is routed here.
+  goto 50.35,5.66
+  accept 4487 only Warlock -- Summon Felsteed - Briarthorn; Strahad Farsan waits in the Barrens
+  note The other-variant twins (3631, 4488, 4489) stay out — Briarthorn's line is the contracted pick.
+  accept 4736 only Warlock -- In Search of Menara Voidrender - Briarthorn; Menara Voidrender waits in the Barrens
+  note The other-variant twins (4737-4739) stay out — Briarthorn's line is the contracted pick.
+  accept 4965 only Warlock -- Knowledge of the Orb of Orahil - Briarthorn; Menara Voidrender waits in the Barrens
+  note The other-variant twins (4967-4969) stay out — Briarthorn's line is the contracted pick.
+  accept 8419 only Warlock -- An Imp's Request - Briarthorn; Impsy waits in Felwood, late
+  complete 8419 only Warlock @50.35,5.66 era -- Felcloth for Briarthorn
+  note The Stormwind co-starter (Demisette, Stormwind-contracted) stays out — Briarthorn's line is the contracted pick. The Felwood turn-in is an expedition below.
+  goto 52.7,6.08
+  accept 7562 only Warlock -- Mor'zul Bloodbringer - Jubahl Corpseseeker; Mor'zul Bloodbringer waits in the Blasted Lands, at 60
+  note 7562 also lives in the Stormwind guide (Spackle's accept there); this Ironforge starter is routed here.
+
+step The Commons — odd errands
+
+  accept 6609 -- I Got Nothin' Left! - Grimnur Stonebrand; Nat Pagle waits in Dustwallow Marsh, late
+  accept 6612 -- I Know A Guy... - Daryl Riknussun; Dirge Quikcleave waits in Tanaris, late
+  accept 6625 -- Alliance Trauma - Nissa Firestone; Doctor Gustaf VanHowzen waits in Dustwallow Marsh, late
+  accept 7261 -- The Sovereign Imperative - Lieutenant Rotimer; Lieutenant Haggerdin waits in Alterac, late
+  accept 7342 -- Arrows Are For Sissies - Artilleryman Sheldonore; Thorium Shells x200
+  complete 7342 @19.61,51.77 era -- Thorium Shells x200 for Artilleryman Sheldonore
+  turnin 7342 -- Arrows Are For Sissies - back to Artilleryman Sheldonore
+  accept 3790 -- Assisting Arch Druid Staghelm - Innkeeper Firebrew; Arch Druid Fandral Staghelm waits in Darnassus, late
+  note The Darnassus and Stormwind twins (3763, 3789) stay out — Firebrew's line is the contracted pick.
+  accept 96394 -- The Restless Dead - Afadra Dunwall; Enraged Apparitions and Tormented Souls, late
+  complete 96394 @33.23,48.01 era -- Enraged Apparition x15 and Tormented Soul x10 for Afadra Dunwall
+  note The dead have no placed points in the data — gather them where they rest, then hand in on return.
+  turnin 96394 -- The Restless Dead - back to Afadra Dunwall
+  accept 96403 -- Important Heirlooms - Thom Filch; Dwarven Heirlooms, late
+  complete 96403 @32.18,44.5 era -- Dwarven Heirloom x8 for Thom Filch
+  note The heirlooms have no placed points in the data — gather them where they lie, then hand in on return.
+  turnin 96403 -- Important Heirlooms - back to Thom Filch
+
+step The north wall — shamans
+
+  goto 47.1,13.79
+  accept 96243 only Dwarf,Gnome,Shaman -- Call of Earth - Eldrun Stormbreaker; Teo Hammerstorm waits in Dun Morogh
+  accept 94449 only Shaman -- Call of Fire - Eldrun Stormbreaker; Bruegs Kindleborn waits in Dun Morogh
+  accept 94494 only Shaman -- Call of Water - Eldrun Stormbreaker; Norric Lochthane waits in Loch Modan
+  accept 94789 only Shaman -- Call of Air - Eldrun Stormbreaker; Veyric Thunderhame takes it
+  turnin 94789 only Shaman -- Call of Air - the word to Veyric Thunderhame
+  accept 96264 only Shaman -- Elemental Aid - Veyric Thunderhame; a Tattered Note
+  complete 96264 only Shaman @47.1,13.79 era -- Tattered Note for Veyric Thunderhame
+  turnin 96264 only Shaman -- Elemental Aid - back to Veyric Thunderhame
+  accept 79358 only Shaman -- Storm, Earth, and Fire - Veyric Thunderhame; Twisted totems, then Rau Cliffrunner in Thousand Needles
+  complete 79358 only Shaman @47.1,13.79 era -- Twisted Water, Earth, Fire and Air Totems x5 for Veyric Thunderhame, on a late leg
+  note Rau takes the turn-in first per the data; Veyric also takes it where he stands — the Thousand Needles turn-in is an expedition below.
+  accept 96135 only Shaman -- Heed My Call - Veyric Thunderhame; the Eye of the Tempest
+  note The Thousand Needles twin (79366) stays out — Veyric's line is the contracted pick.
+  complete 96135 only Shaman @47.1,13.79 era -- Eye of the Tempest for Veyric Thunderhame, on a late leg
+  turnin 96135 only Shaman -- Heed My Call - back to Veyric Thunderhame
+  note 96016's pres (79366 Thousand Needles, uncontracted, or 96135 above) never fully fill — take 96016 after 96135 regardless.
+  accept 96016 only Shaman -- The Tempest's Weapons - Veyric Thunderhame; Bath'rah the Windwatcher waits in Alterac, late
+
+step Expedition — Loch Modan
+
+  note Brock's Loch Modan turn-in lives in the step below, gated on carrying it.
+  zone map 1432
+  turnin 302 -- Powder to Ironband - Stormpike's word to Jern Hornhelm
+  turnin 707 -- Ironband Wants You! - Stormpike's word to Prospector Ironband
+  turnin 1578 -- Supplying the Front - Tormus's axes and belts to Thorvald Deepforge
+  turnin 2039 -- Find Bingles - Gnoarn's word to Bingles Blastenheimer
+  turnin 3201 -- At Last! - Thorius's word to Mountaineer Pebblebitty
+  turnin 94494 only Shaman -- Call of Water - Eldrun's word to Norric Lochthane
+
+step Expedition — Loch Modan, Brock's word
+  when onquest 6392
+
+  note Brock's Loch Modan turn-in lives here if the log carries 6392.
+  zone map 1432
+  turnin 6392 only Dwarf,Gnome -- Return to Brock - Gryth's word to Brock Stoneseeker
+
+step Expedition — Dun Morogh
+
+  zone map 1426
+  turnin 2238 only Rogue -- Simple Subterfugin' - Hulfdan's word to Onin MacHammar
+  turnin 467 -- Stonegear's Search - Longbeard's word to Pilot Stonegear
+  turnin 2927 -- The Day After - Gnoarn's word to Ozzie Togglevolt
+  complete 1783 only Dwarf,Paladin @78.32,58.09 era -- Narm Faulk for the Tome of Divinity
+  turnin 1783 only Dwarf,Paladin -- The Tome of Divinity - Muiredon's word to Narm Faulk
+  turnin 6074 only Dwarf,Hunter -- The Hunter's Path - Olmin's word to Grif Wildheart
+  turnin 96243 only Dwarf,Gnome,Shaman -- Call of Earth - Eldrun's word to Teo Hammerstorm
+  turnin 94449 only Shaman -- Call of Fire - Eldrun's word to Bruegs Kindleborn
+
+step Expedition — Redridge
+
+  zone map 1433
+  turnin 1618 -- Gearing Redridge - Tormus's belts and mauls to Verner Osgood
+  turnin 1698 only Warrior -- Yorus Barleybrew - Kelv's word to Yorus Barleybrew
+
+step Expedition — Stormwind
+
+  zone map 1453
+  turnin 2041 -- Speak with Shoni - Gnoarn's word to Shoni the Shilent
+  turnin 3681 only Human,Paladin -- Tome of Divinity - Brandur's word to Duthorian Rall
+  turnin 4485 only Human,Dwarf,Paladin -- The Tome of Nobility - Tiza's word to Duthorian Rall
+  turnin 7639 only Human,Dwarf,Paladin -- To Show Due Judgment - Rohan's word to Lord Grayson Shadowbreaker
+  turnin 7670 only Paladin -- Lord Grayson Shadowbreaker - Brandur's word to Lord Grayson Shadowbreaker
+  turnin 1715 only Warlock -- The Slaughtered Lamb - Lago's word to Gakin the Darkbinder
+  turnin 1717 only Warlock -- Gakin's Summons - Lago's word to Gakin the Darkbinder
+  turnin 2298 only Rogue -- Kingly Shakedown - Hulfdan's word to Renzik the Shiv
+  turnin 1919 only Human,Gnome,Mage -- Report to Jennea - Dink's word to Jennea Cannon
+  turnin 1939 only Human,Gnome,Mage -- High Sorcerer Andromath - Bink's word to High Sorcerer Andromath
+  turnin 94778 only Human,Priest -- Divine Grace - Rohan's word to High Priestess Laurena
+  turnin 5677 only Human,Priest -- Arcane Feedback - Rohan's word to High Priestess Laurena
+  turnin 79091 -- Archmage Antonidas: The Unabridged Autobiography - the book to Garion Wendell
+
+step Expedition — Darnassus and Teldrassil
+
+  zone map 1438
+  turnin 1019 -- The New Frontier - Hammerfall's word to Arch Druid Fandral Staghelm
+  turnin 3790 -- Assisting Arch Druid Staghelm - Firebrew's word to Arch Druid Fandral Staghelm
+  turnin 5633 only NightElf,Priest -- Returning Home - Braenna's word to Priestess Alathea
+  turnin 5675 only NightElf,Priest -- Elune's Grace - Rohan's word to Priestess Alathea
+  turnin 6721 only NightElf,Hunter -- The Hunter's Path - Olmin's word to Dazalar
+
+step Expedition — Azshara
+
+  zone map 1447
+  turnin 3449 -- Arcane Runes - Tymor's rubbings to Xiggs Fuselighter
+  turnin 8151 only Hunter -- The Hunter's Charm - Olmin's word to Ogtinc
+  turnin 8254 only Priest -- Cenarion Aid - Rohan's word to Ogtinc
+  turnin 8250 only Mage -- Magecraft - Dink's word to Sanath Lim-yo
+
+step Expedition — Alterac and Hillsbrad
+
+  zone map 1416
+  turnin 8233 only Rogue -- A Simple Request - Hulfdan's word to Lord Jorach Ravenholdt
+  note Jorach also stands in Hillsbrad at 84.1, 17.5 — hand in where he stands.
+  turnin 96016 only Shaman -- The Tempest's Weapons - Veyric's word to Bath'rah the Windwatcher
+  note Bath'rah also stands in Hillsbrad at 79.3, 7.0 — hand in where he stands.
+  turnin 7261 -- The Sovereign Imperative - Rotimer's word to Lieutenant Haggerdin
+  note Haggerdin also stands in Hillsbrad at 43.4, 19.5 — hand in where he stands.
+  zone map 1424
+  complete 6681 only Rogue @78.64,17.84 era -- the Rite of Cunning at the Manor
+  turnin 6681 only Rogue -- The Manor, Ravenholdt - the letter to Fahrad
+  note Fahrad takes the turn-in at his Hillsbrad stand above; his Alterac stand is noted with the others.
+  turnin 525 -- Further Mysteries - Stormpike's word to Magistrate Henry Maleb
+
+step Expedition — Dustwallow and the Swamp
+
+  zone map 1445
+  turnin 1947 only Mage -- Journey to the Marsh - Bink's word to Tabetha
+  turnin 1953 only Mage -- Return to the Marsh - Bink's word to Tabetha
+  turnin 2861 only Mage -- Tabetha's Task - Bink's word to Tabetha
+  turnin 6609 -- I Got Nothin' Left! - Grimnur's word to Nat Pagle
+  turnin 6625 -- Alliance Trauma - Nissa's word to Doctor Gustaf VanHowzen
+  zone map 1435
+  turnin 8417 only Warrior -- A Troubled Spirit - Kelv's word to the Fallen Hero of the Horde
+
+step Expedition — Tanaris
+
+  zone map 1446
+  turnin 2946 -- Seeing What Happens - Karnik's word to the Uldum Pedestal
+  turnin 6612 -- I Know A Guy... - Daryl's word to Dirge Quikcleave
+  turnin 8922 -- A Supernatural Device - Deliana's word to Mux Manascrambler
+
+step Expedition — the Plaguelands
+
+  zone map 1422
+  turnin 5090 -- A Call to Arms: The Plaguelands! - Hammerfall's word to Commander Ashlam Valorfist
+  turnin 8415 only Human,Dwarf,Paladin -- Chillwind Point - Brandur's word to Commander Ashlam Valorfist
+  note Chillwind business at 60; do this leg when the world lets you.
+  zone map 1423
+  turnin 8929 -- In Search of Anthion - Deliana's word to Anthion Harmon
+  zone map 1415
+  turnin 8960 -- Bodley's Unfortunate Fate - Deliana's word to Bodley
+  note Plaguelands business at 58; do these legs with a group when ready.
+
+step Expedition — Searing Gorge and the Badlands
+
+  zone map 1427
+  turnin 3371 -- Dwarven Justice - Thorius's word to the Dying Archaeologist
+  zone map 1418
+  turnin 687 -- Theldurin the Lost - Gerrig's word to Theldurin the Lost
+  turnin 737 -- Forbidden Knowledge - Gerrig's word to Theldurin the Lost
+
+step Expedition — Thousand Needles
+
+  zone map 1441
+  turnin 1179 -- The Brassbolts Brothers - Longbeard's word to Wizzle Brassbolts
+  turnin 2769 -- The Brassbolts Brothers - Klockmort's word to Wizzle Brassbolts
+  turnin 79358 only Shaman -- Storm, Earth, and Fire - Veyric's word to Rau Cliffrunner
+
+step Expedition — the Barrens
+
+  zone map 1413
+  turnin 1718 only Warrior -- The Islander - Kelv's word to Klannoc Macleod
+  turnin 1798 only Warlock -- Seeking Strahad - Lago's word to Strahad Farsan
+  turnin 1804 only Warlock -- Tome of the Cabal - Krom's word to Strahad Farsan
+  turnin 4487 only Warlock -- Summon Felsteed - Briarthorn's word to Strahad Farsan
+  turnin 4736 only Warlock -- In Search of Menara Voidrender - Briarthorn's word to Menara Voidrender
+  turnin 4965 only Warlock -- Knowledge of the Orb of Orahil - Briarthorn's word to Menara Voidrender
+
+step Expedition — the Blasted Lands, Mor'zul's word
+  when onquest 7562
+
+  note Mor'zul's Blasted Lands turn-in lives here if the log carries 7562. Level-60 business; do it when the world lets you.
+  zone map 1428
+  turnin 7562 only Warlock -- Mor'zul Bloodbringer - Jubahl's word to Mor'zul Bloodbringer
+
+step Expedition — Silithus, the Emissary's word
+  when onquest 8275
+
+  note The Emissary's Silithus turn-in lives here if the log carries 8275. Level-54 business; do it when the world lets you.
+  zone map 1451
+  turnin 8275 -- Taking Back Silithus - Jademoon's word to Windcaller Proudhorn
+
+step Expedition — Feralas
+
+  zone map 1444
+  turnin 7494 -- Feathermoon Stronghold - Hammerfall's word to Latronicus Moonspear
+  note Level-57 business in Feralas; do it when the world lets you.
+
+step Expedition — Felwood
+
+  zone map 1448
+  turnin 8419 only Warlock -- An Imp's Request - Briarthorn's word to Impsy
+  note Level-52 business in Felwood; do it when the world lets you.
+
+step Expedition — Stonetalon
+
+  zone map 1442
+  turnin 1453 -- Reclaimers' Business in Desolace - Roetten's word to Kreldig Ungor
+  turnin 1074 -- Ineptitude + Chemicals = Fun - Lomac's word to Gaxim Rustfizzle
