@@ -1,0 +1,379 @@
+# Butler Routes - Dun Morogh completionist pilot (pack butler-routes-completionist, v0.5.0).
+# Every Dun Morogh quest in the local census (105 quests, docs/dun-morogh-census.md)
+# appears exactly once as an accept and once as a turnin.
+# Coldridge Valley opens the route at the spawn camp; the class intros are gated
+# per line (only Dwarf / only Gnome + only Class), profession and Camping quests
+# are optional and profession-gated, and chain order is strictly turn-in-before-accept.
+# Ironforge and Loch Modan turn-ins ride at the end per the Elwynn/Westfall precedent.
+# Coordinates on Dun Morogh use the era frame; Ironforge and Loch Modan stops use
+# the frames their data carries (era here), set with zone map lines.
+guide butler-routes-completionist/dun-morogh
+title Dun Morogh - Completionist
+levels 1-12
+zone Dun Morogh
+faction Alliance
+category Leveling
+folder Completionist
+keywords dun morogh, completionist, coldridge, kharanos, ironforge
+coords live
+version 1
+
+step Coldridge Valley — the spawn camp
+
+  tip The spawn camp in Coldridge Valley: Sten Stoutarm (29.9, 71.2) outfits every new dwarf and gnome, Balir Frosthammer (29.7, 71.3) watches the troggs, and the class trainers stand around the campfire. Take your class intro and Dwarven Outfitters before you head out.
+  accept 179 -- Dwarven Outfitters - Sten Stoutarm: eight Tough Wolf Meat from the valley wolves
+  accept 1599 only Warlock -- Beginnings - Alamar Grimm: three Feather Charms off the Frostmane Novices, south
+  accept 3361 -- A Refugee's Quandary - Felix Whindlebolt: his box, his chest and his bucket of bolts, out west
+  accept 94373 only Shaman -- Call of Earth - Teo Hammerstorm: an Iceclaw Bear Pendant off the Frostmanes
+  note Welcome! (5841) starts from a Coldridge Valley Gift Voucher; the data lists no source, so check your bags.
+  accept 5841 -- Welcome! - use the Gift Voucher, then see Yori Crackhelm
+  turnin 5841 -- Welcome! - Yori Crackhelm takes the voucher
+
+step Coldridge Valley — Grelin and Talin
+
+  tip Grelin Whitebeard (25.1, 75.7) hunts the troll cave west; Talin Keeneye (22.6, 71.4) watches the boars. Nori Pridedrift (25.0, 76.0) runs mornbrew out west.
+  accept 182 -- The Troll Cave - Grelin Whitebeard: fourteen Frostmane Troll Whelps
+  accept 183 -- The Boar Hunter - Talin Keeneye: twelve Small Crag Boars
+  accept 3364 -- Scalding Mornbrew Delivery - Nori Pridedrift's delivery for Durnan Furcutter, back at camp
+  accept 97277 -- Grund and Gozwin - Grund Drokda, by the camp: Gozwin's Mechanic's Log and a Snow Leopard Prowler, north
+  complete 182 @20.2,75.9 era -- fourteen Frostmane Troll Whelps at the cave mouth
+  complete 183 @19.5,75.2 era -- twelve Small Crag Boars on the western flats
+  complete 179 @19.5,75.5 era -- eight Tough Wolf Meat off the valley wolves
+  complete 94373 @28.7,83.1 era -- an Iceclaw Bear Pendant off the Frostmane Novices, south
+  complete 97277 @27.3,62.9 era -- Gozwin's Mechanic's Log and a Snow Leopard Prowler
+  turnin 97277 -- Grund and Gozwin - back to Grund Drokda
+  turnin 182 -- The Troll Cave - back to Grelin Whitebeard
+  turnin 183 -- The Boar Hunter - back to Talin Keeneye
+  turnin 3364 -- Scalding Mornbrew Delivery - Nori's delivery to Durnan Furcutter, at camp (hurry — the mornbrew lasts five minutes)
+  accept 3365 -- Bring Back the Mug - Durnan Furcutter; carry the mug back to Nori
+  turnin 3365 -- Bring Back the Mug - back to Nori Pridedrift
+  accept 218 -- The Stolen Journal - Grelin Whitebeard; Grik'nir the Cold has it, in the cave
+
+step Coldridge Valley — the Troll Cave and the south
+
+  complete 218 @30.5,80.2 era -- Grelin Whitebeard's Journal off Grik'nir the Cold
+  turnin 218 -- The Stolen Journal - back to Grelin Whitebeard
+  accept 282 -- Senir's Observations - Grelin Whitebeard; carry the word to Mountaineer Thalos at the valley exit
+  complete 3361 @20.9,76.1 era -- Felix's Box
+  complete 3361 @22.8,80.0 era -- Felix's Chest
+  complete 3361 @26.3,79.3 era -- Felix's Bucket of Bolts
+  complete 1599 @28.7,83.1 era -- three Feather Charms off the Frostmane Novices, south
+
+step Coldridge camp — outfitted
+
+  tip Back at camp: Sten Stoutarm takes Dwarven Outfitters, and every gated errand opens. The trainers take their runes on the spot.
+  turnin 179 -- Dwarven Outfitters - back to Sten Stoutarm
+  accept 3106 only Dwarf,Warrior -- Simple Rune - Sten Stoutarm; Thran Khorman teaches the warrior way
+  accept 3107 only Dwarf,Paladin -- Consecrated Rune - Sten Stoutarm; Bromos Grummner teaches the paladin way
+  accept 3108 only Dwarf,Hunter -- Etched Rune - Sten Stoutarm; Thorgas Grimson teaches the hunter way
+  accept 3109 only Dwarf,Rogue -- Encrypted Rune - Sten Stoutarm; Solm Hargrin teaches the rogue way
+  accept 3110 only Dwarf,Priest -- Hallowed Rune - Sten Stoutarm; Branstock Khalder teaches the priest way
+  accept 98581 only Dwarf,Shaman -- Archaic Rune - Sten Stoutarm; Teo Hammerstorm teaches the shaman way
+  accept 3112 only Gnome,Warrior -- Simple Memorandum - Sten Stoutarm; Thran Khorman teaches the warrior way
+  accept 3113 only Gnome,Rogue -- Encrypted Memorandum - Sten Stoutarm; Solm Hargrin teaches the rogue way
+  accept 3114 only Gnome,Mage -- Glyphic Memorandum - Sten Stoutarm; Marryk Nurribit teaches the mage way
+  accept 3115 only Gnome,Warlock -- Tainted Memorandum - Sten Stoutarm; Alamar Grimm teaches the warlock way
+  accept 98574 only Gnome,Priest -- Hallowed Memorandum - Sten Stoutarm; Branstock Khalder teaches the priest way
+  accept 170 -- A New Threat - Balir Frosthammer: Rockjaw Troggs and Burly Rockjaw Troggs, west
+  accept 233 -- Coldridge Valley Mail Delivery - Sten Stoutarm's mail for Talin Keeneye
+  turnin 1599 only Warlock -- Beginnings - the charms to Alamar Grimm
+  turnin 3361 -- A Refugee's Quandary - Felix's things to Felix Whindlebolt
+  turnin 3106 only Dwarf,Warrior -- Simple Rune - Thran Khorman takes the rune
+  turnin 3107 only Dwarf,Paladin -- Consecrated Rune - Bromos Grummner takes the rune
+  turnin 3108 only Dwarf,Hunter -- Etched Rune - Thorgas Grimson takes the rune
+  turnin 3109 only Dwarf,Rogue -- Encrypted Rune - Solm Hargrin takes the rune
+  turnin 3110 only Dwarf,Priest -- Hallowed Rune - Branstock Khalder takes the rune
+  turnin 98581 only Dwarf,Shaman -- Archaic Rune - Teo Hammerstorm takes the rune
+  turnin 3112 only Gnome,Warrior -- Simple Memorandum - Thran Khorman takes the memorandum
+  turnin 3113 only Gnome,Rogue -- Encrypted Memorandum - Solm Hargrin takes the memorandum
+  turnin 3114 only Gnome,Mage -- Glyphic Memorandum - Marryk Nurribit takes the memorandum
+  turnin 3115 only Gnome,Warlock -- Tainted Memorandum - Alamar Grimm takes the memorandum
+  turnin 98574 only Gnome,Priest -- Hallowed Memorandum - Branstock Khalder takes the memorandum
+  turnin 94373 -- Call of Earth - the pendant to Teo Hammerstorm
+  accept 94374 only Shaman -- Call of Earth - Teo Hammerstorm; the Minor Manifestation of Earth waits southwest
+  turnin 94374 -- Call of Earth - back to Teo Hammerstorm
+  note Call of Earth (94374) is a talk at the manifestation; the turn-in is the action.
+  accept 5626 only Priest -- In Favor of the Light - Branstock Khalder, at camp; Maxan Anvol in Kharanos takes it
+
+step Coldridge west — the mail run
+
+  tip West again for the mail and the troggs: Talin takes Sten's letter, Grelin takes Talin's reply, and Balir's troggs work the flats.
+  turnin 233 -- Coldridge Valley Mail Delivery - Sten's mail to Talin Keeneye
+  accept 234 -- Coldridge Valley Mail Delivery - Talin's reply for Grelin Whitebeard
+  turnin 234 -- Coldridge Valley Mail Delivery - back to Grelin Whitebeard
+  complete 170 @19.4,74.4 era -- six Rockjaw Troggs
+  complete 170 @19.4,72.2 era -- six Burly Rockjaw Troggs
+  turnin 170 -- A New Threat - back to Balir Frosthammer, at camp
+
+step Coldridge exit — Thalos
+
+  tip Out past the camp: follow Mountaineer Thalos (33.5, 71.8) down to Kharanos. Hands Springsprocket (33.9, 72.2) has supplies for Tannok Frosthammer below.
+  turnin 282 -- Senir's Observations - Grelin's word to Mountaineer Thalos
+  accept 96628 -- The Adventurer - Mountaineer Thalos; Eric Brighthammer in Kharanos runs the camp
+  accept 420 -- Senir's Observations - Mountaineer Thalos; carry Thalos's word to Senir Whitebeard in Kharanos
+  accept 2160 -- Supplies to Tannok - Hands Springsprocket's supplies for Tannok Frosthammer in Kharanos
+
+
+  tip Kharanos, the valley town: Senir Whitebeard (46.7, 53.8) holds the mountaineers' hall, Innkeeper Belm (47.4, 52.5) binds your home, and Eric Brighthammer (46.7, 53.9) runs the campers' camp. Take the town's business before heading out.
+  turnin 420 -- Senir's Observations - Thalos's word to Senir Whitebeard
+  turnin 96628 -- The Adventurer - Thalos's word to Eric Brighthammer
+  accept 96608 -- The Great Outdoors - Eric Brighthammer; sit by his campfire
+  turnin 96608 -- The Great Outdoors - back to Eric Brighthammer
+  accept 96629 optional -- Camping 101: Cooking - Eric Brighthammer; Gremlock Pilsnor in town takes it
+  accept 96031 optional -- Camping 101: Leatherworking - Eric Brighthammer
+  accept 96044 optional -- Camping 101: Blacksmithing - Eric Brighthammer
+  accept 96046 optional -- Camping 101: Mining - Eric Brighthammer
+  accept 96047 optional -- Camping 101: First Aid - Eric Brighthammer
+  accept 96050 optional -- Camping 101: Fishing - Eric Brighthammer
+  accept 96055 optional -- Camping 101: Herbalism - Eric Brighthammer
+  accept 96056 optional -- Camping 101: Skinning - Eric Brighthammer
+  accept 96057 optional -- Camping 101: Tailoring - Eric Brighthammer
+  accept 96058 optional -- Camping 101: Engineering - Eric Brighthammer
+  turnin 2160 -- Supplies to Tannok - Hands's supplies to Tannok Frosthammer
+  accept 287 -- Frostmane Hold - Senir Whitebeard: Headhunters at the Hold, west
+  accept 98322 -- Secure the Mountain - Senir Whitebeard; Mountaineer Gretchen waits northwest
+  accept 400 -- Tools for Steelgrill - Tharek Blackstone; Beldin Steelgrill at the airstrip takes them
+  accept 412 -- Operation Recombobulation - Razzle Sprysprocket: cogs and gears off the Leper Gnomes, west
+  accept 384 -- Beer Basted Boar Ribs - Ragnar Thunderbrew: six Crag Boar Ribs and Rhapsody Malt
+  buy 2894 x1 nearest -- Rhapsody Malt from Innkeeper Belm, here in town
+  accept 98321 -- Flintfire's Shipment - Tognus Flintfire; his shipment lies west in Shimmer Ridge
+  accept 99158 -- Dawn in the Mountains - Maxan Anvol and Tannok Frosthammer; Father Gavin waits east
+  accept 5541 -- Ammo for Rumbleshot - Loslor Rudge; the ammo crate stands east of town, Hegnar Rumbleshot far west takes it
+
+step Kharanos — class business
+
+  tip The trainers' row: Granis Swiftaxe, Magis Sparkmantle, Hogral Bakkan and Azar Stronghammer stand around the hall, and Maxan Anvol (47.3, 52.2) tends the priests. Take what your class is offered.
+  accept 1679 only Warrior -- Muren Stormpike - Granis Swiftaxe; Muren waits in Ironforge
+  accept 1879 only Mage -- Speak with Bink - Magis Sparkmantle; Bink waits in Ironforge
+  accept 2218 only Rogue -- Road to Salvation - Hogral Bakkan; Hulfdan Blackbeard waits in Ironforge
+  accept 2997 only Dwarf,Paladin -- Tome of Divinity - Azar Stronghammer; Tiza Battleforge waits in Ironforge
+  accept 5625 only Priest -- Garments of the Light - Maxan Anvol: Mountaineer Dolf, just out of town
+  complete 5625 only Priest @45.8,54.6 era -- Mountaineer Dolf
+  turnin 5625 only Priest -- Garments of the Light - back to Maxan Anvol
+  turnin 5626 only Priest -- In Favor of the Light - Branstock's word to Maxan Anvol
+  accept 5637 only Dwarf,Priest -- Desperate Prayer - Maxan Anvol; High Priest Rohan waits in Ironforge
+  accept 5630 only NightElf,Priest -- Returning Home - Maxan Anvol; Priestess Alathea waits in Darnassus
+  accept 94776 only Human,Priest -- Divine Grace - Maxan Anvol; High Priestess Laurena waits in Stormwind's Cathedral of Light
+  accept 94824 only Gnome,Priest -- Confounding Flash - Maxan Anvol; High Priestess Mims takes it
+
+step West of Kharanos — Shimmer Ridge
+
+  tip The farms west of town: Marleth and Rejold Barleybrew (30.2, 45.5) brew at the western farm, Tristane Shadowstone (31.4, 44.4) watches the ridge, and Onin MacHammar (25.2, 44.5) lurks further west.
+  accept 310 -- Bitter Rivals - Marleth Barleybrew; the Unguarded Thunder Ale Barrel in Kharanos settles it
+  accept 312 -- Tundra MacGrann's Stolen Stash - Tundra MacGrann, west of the farm
+  complete 312 @38.5,53.9 era -- six MacGrann's Dried Meats from the Meat Locker
+  turnin 312 -- Tundra MacGrann's Stolen Stash - back to Tundra MacGrann
+  accept 315 -- The Perfect Stout - Rejold Barleybrew: six Shimmerweed from the Frostmane Seers and their baskets
+  accept 317 -- Stocking Jetsteam - Pilot Bellowfiz, at the airstrip east of town; boar meat and bear fur
+  accept 2239 only Rogue -- Onin's Report - Onin MacHammar; Hulfdan Blackbeard waits in Ironforge (needs 2238, an Ironforge rogue errand outside this tracker's list — see the note below)
+  note Onin's Report (2239) needs Simple Subterfugin (2238) turned in first; 2238 starts in Ironforge and is outside this tracker's list, so pick it up from the Ironforge rogue den on the way through.
+  accept 98326 -- Frosthowl - Gretta Ganter (31.5, 44.6): a Sack of Fish off Frosthowl himself
+  complete 315 @40.6,34.9 era -- six Shimmerweed from the baskets (and the Frostmane Seers)
+  complete 317 @27.0,50.0 era -- four Chunks of Boar Meat off the boars
+  complete 317 @30.4,55.6 era -- two Thick Bear Furs off the Young Black Bears
+  complete 98326 @39.3,48.8 era -- a Sack of Fish off Frosthowl
+  turnin 98326 -- Frosthowl - back to Gretta Ganter
+
+step Frostmane Hold and Brewnall
+
+  tip The western holds: Frostmane Hold (21, 52) below, Brewnall's Hegnar (40.7, 65.1) above, and the Leper Gnomes (24.4, 41.9) between.
+  complete 287 @21.1,52.5 era -- five Frostmane Headhunters; fully explore the Hold
+  complete 384 @27.0,50.0 era -- six Crag Boar Ribs off the boars
+  complete 5541 @44.1,57.0 era -- Rumbleshot's Ammo in the crate, east of town
+  turnin 5541 -- Ammo for Rumbleshot - the ammo to Hegnar Rumbleshot
+  complete 98321 @39.9,47.1 era -- Flintfire's Shipment
+  complete 412 @24.4,41.9 era -- eight Restabilization Cogs and eight Gyromechanic Gears off the Leper Gnomes
+  turnin 98322 -- Secure the Mountain - Senir's word to Mountaineer Gretchen (44.1, 57.1)
+  accept 98319 -- Secure the Mountain - Mountaineer Gretchen; find Mountaineer Cornelius
+  turnin 98319 -- Secure the Mountain - back to Mountaineer Gretchen
+  accept 98323 -- Secure the Mountain - Mountaineer Gretchen; carry her word to Senir Whitebeard
+
+step Kharanos — returns
+
+  turnin 310 -- Bitter Rivals - Marleth's business at the Unguarded Thunder Ale Barrel, in town
+  note Bitter Rivals turns in at the barrel, not at a person; the next errand starts at the same barrel.
+  accept 311 -- Return to Marleth - the barrel in Kharanos points back to Marleth Barleybrew
+  turnin 311 -- Return to Marleth - the barrel's word to Marleth Barleybrew, west
+  turnin 287 -- Frostmane Hold - back to Senir Whitebeard
+  turnin 400 -- Tools for Steelgrill - Tharek's tools to Beldin Steelgrill
+  turnin 384 -- Beer Basted Boar Ribs - the ribs and malt to Ragnar Thunderbrew
+  turnin 98321 -- Flintfire's Shipment - back to Tognus Flintfire
+  turnin 412 -- Operation Recombobulation - back to Razzle Sprysprocket
+  turnin 98323 -- Secure the Mountain - Gretchen's word to Senir Whitebeard
+  accept 291 -- The Reports - Senir Whitebeard; Senator Barin Redstone in Ironforge takes them
+  turnin 96629 optional -- Camping 101: Cooking - Gremlock Pilsnor takes it, here in town
+  turnin 96046 optional -- Camping 101: Mining - Yarr Hammerstone takes it, here in town
+  turnin 96047 optional -- Camping 101: First Aid - Thamner Pol takes it, here in town
+  turnin 96050 optional -- Camping 101: Fishing - Paxton Ganter takes it
+  turnin 96058 optional -- Camping 101: Engineering - Bronk Guzzlegear takes it, here in town
+  turnin 96044 optional -- Camping 101: Blacksmithing - Tognus Flintfire takes it, here in town
+
+step Shimmer Ridge — the taming chain (Hunter, level 10)
+  only Hunter
+
+  tip A hunter's pets, in three tames and a lesson. Grif Wildheart (45.8, 53.0), Kharanos's hunter trainer, lends you the way: Tristane Shadowstone's path first, then a Large Crag Boar, a Snow Leopard and an Ice Claw Bear. Belia Thundergranite in Ironforge teaches the rest of the craft.
+  accept 6075 -- The Hunter's Path - Tristane Shadowstone; Grif Wildheart in Kharanos takes it
+  turnin 6075 -- The Hunter's Path - back to Grif Wildheart
+  accept 6064 -- Taming the Beast - Grif Wildheart; tame a Large Crag Boar
+  complete 6064 @35.0,54.0 era -- tame a Large Crag Boar
+  turnin 6064 -- Taming the Beast - back to Grif Wildheart
+  accept 6084 -- Taming the Beast - Grif Wildheart; tame a Snow Leopard
+  complete 6084 @26.0,50.0 era -- tame a Snow Leopard
+  turnin 6084 -- Taming the Beast - back to Grif Wildheart
+  accept 6085 -- Taming the Beast - Grif Wildheart; tame an Ice Claw Bear
+  complete 6085 @26.0,50.0 era -- tame an Ice Claw Bear
+  turnin 6085 -- Taming the Beast - back to Grif Wildheart
+  accept 6086 -- Training the Beast - Grif Wildheart; Belia Thundergranite in Ironforge takes it
+  accept 6722 only NightElf -- The Hunter's Path - Grif Wildheart; Dazalar in Darnassus takes it
+  note The Night Elf Hunter's Path (6722) ends with Dazalar in Darnassus, far from here; Night Elf hunters turn it in there.
+  zone map 1438
+  turnin 6722 only NightElf -- The Hunter's Path - Dazalar takes it, in Darnassus
+  zone map 1426
+
+step Brewnall and the stout road
+
+  tip The stout circuit: Pilot Bellowfiz (49.4, 48.4) at the airstrip, Rejold Barleybrew back west at the farm. Beldin Steelgrill (50.4, 49.1) sends word east to Earthseer Farsen.
+  turnin 317 -- Stocking Jetsteam - the meat and fur to Pilot Bellowfiz
+  accept 318 -- Evershine - Pilot Bellowfiz; Rejold Barleybrew takes it
+  turnin 315 -- The Perfect Stout - the Shimmerweed to Rejold Barleybrew
+  turnin 318 -- Evershine - back to Rejold Barleybrew
+  accept 319 -- A Favor for Evershine - Rejold Barleybrew; Ice Claw Bears, Elder Crag Boars and Snow Leopards
+  complete 319 @25.3,55.8 era -- six Ice Claw Bears
+  complete 319 @26.6,55.1 era -- eight Elder Crag Boars
+  complete 319 @25.7,46.9 era -- eight Snow Leopards
+  turnin 319 -- A Favor for Evershine - back to Rejold Barleybrew
+  accept 313 -- The Grizzled Den - Pilot Stonegear, at the airstrip; Wendigo Manes west
+  complete 313 @40.0,50.0 era -- eight Wendigo Manes
+  turnin 313 -- The Grizzled Den - back to Pilot Stonegear
+  accept 320 -- Return to Bellowfiz - Rejold Barleybrew; Pilot Bellowfiz takes it
+  turnin 320 -- Return to Bellowfiz - back to Pilot Bellowfiz
+  accept 415 -- Rejold's New Brew - Pilot Bellowfiz (and Tharek Blackstone); Rejold Barleybrew takes it
+  turnin 415 -- Rejold's New Brew - back to Rejold Barleybrew
+  accept 413 -- Shimmer Stout - Rejold Barleybrew; Mountaineer Barleybrew far east takes it
+  accept 96408 -- A Visitor to Dun Morogh - Beldin Steelgrill; Earthseer Farsen far east takes it
+
+step East road — Gavin and Amberstill
+
+  tip Father Gavin (57.7, 44.9) tends the roadside chapel east; Rudra Amberstill (63.1, 49.9) ranches further out. Avala (58.3, 42.1) haunts the rocks below the chapel.
+  turnin 99158 -- Dawn in the Mountains - Maxan and Tannok's word to Father Gavin
+  accept 99159 -- Finding Warmth - Father Gavin; fourteen Mostly Dry Firewood
+  complete 99159 @50.0,51.0 era -- fourteen Mostly Dry Firewood off the Fallen Logs
+  turnin 99159 -- Finding Warmth - back to Father Gavin
+  accept 99160 -- Rime's Wrath - Father Gavin; ten Minor Ice Elementals
+  complete 99160 @49.0,44.0 era -- ten Minor Ice Elementals
+  turnin 99160 -- Rime's Wrath - back to Father Gavin
+  accept 99161 -- Rime's Wrath - Father Gavin; Avala's Core
+  complete 99161 @58.3,42.1 era -- Avala's Core off Avala
+  turnin 99161 -- Rime's Wrath - back to Father Gavin
+  accept 99162 -- Treacherous Cold - Father Gavin; three rifles
+  complete 99162 @52.1,44.0 era -- Coalbeard's Rifle
+  complete 99162 @59.9,50.1 era -- Sunhammer's Rifle
+  complete 99162 @53.2,58.8 era -- Stoneanvil's Rifle
+  turnin 99162 -- Treacherous Cold - the rifles to Father Gavin
+  accept 95212 -- Never Saddle on Quality - Rudra Amberstill: six Pristine Leopard Pelts
+  complete 95212 @64.8,58.4 era -- six Pristine Leopard Pelts off the Elder Snow Leopards
+  turnin 95212 -- Never Saddle on Quality - the pelts to Rudra Amberstill
+  accept 314 -- Protecting the Herd - Rudra Amberstill; the Fang of Vagash
+  complete 314 @62.6,46.1 era -- the Fang of Vagash
+  turnin 314 -- Protecting the Herd - back to Rudra Amberstill
+
+step The ranch and quarry — Gol'Bolar
+
+  tip Gol'Bolar Quarry: Quarrymaster Thesten (69.2, 54.8) and Frast Dokner (69.0, 55.9) work the dig, Foreman Stonebrow (69.1, 56.3) and Senator Mehr Stonehallow (68.7, 56.0) hold it. The Rockjaw troggs are everywhere.
+  note Stolen Blasting Powder (95213) starts from an Empty Powder Keg dropped by the Rockjaw troggs around the quarry.
+  accept 95213 -- Stolen Blasting Powder - use the Empty Powder Keg, then see Quarrymaster Thesten
+  turnin 95213 -- Stolen Blasting Powder - the keg to Quarrymaster Thesten
+  accept 95214 -- Stolen Blasting Powder - Quarrymaster Thesten; sixteen Stolen Blasting Powder
+  complete 95214 @68.0,56.0 era -- sixteen Stolen Blasting Powder off the Rockjaw Ambushers and Backbreakers
+  turnin 95214 -- Stolen Blasting Powder - back to Quarrymaster Thesten
+  accept 432 -- Those Blasted Troggs! - Foreman Stonebrow: six Rockjaw Skullthumpers
+  complete 432 @68.0,58.0 era -- six Rockjaw Skullthumpers
+  turnin 432 -- Those Blasted Troggs! - back to Foreman Stonebrow
+  accept 433 -- The Public Servant - Senator Mehr Stonehallow: ten Rockjaw Bonesnappers
+  complete 433 @70.5,54.0 era -- ten Rockjaw Bonesnappers
+  turnin 433 -- The Public Servant - back to Senator Mehr Stonehallow
+
+step Gol'Bolar — the quarry's smith
+  when skill Blacksmithing 1
+
+  note Blacksmiths only. Frast Dokner wants twelve Copper Bars and four Toughened Boar Hides; the data lists no Dun Morogh pickup source for Copper Bars, so have twelve in your bags before you turn in. Non-smiths skip this step cleanly.
+  accept 95217 only Warrior,Paladin,Shaman -- The Quarry's Smith - Frast Dokner
+  complete 95217 @70.9,61.4 era -- four Toughened Boar Hides off the Scarred Crag Boars
+  turnin 95217 only Warrior,Paladin,Shaman -- The Quarry's Smith - back to Frast Dokner
+
+step Farsen and the Dark Irons
+
+  tip Earthseer Farsen (64.9, 58.5) watches the eastern dig. Narm Faulk (78.3, 58.1) scribes further east by the quarry.
+  turnin 96408 -- A Visitor to Dun Morogh - Beldin's word to Earthseer Farsen
+  accept 96392 -- Farsen's Watch - Earthseer Farsen
+  complete 96392 @64.9,58.5 era -- speak with Earthseer Farsen
+  turnin 96392 -- Farsen's Watch - back to Earthseer Farsen
+  accept 96390 -- Nip 'Em in the Bud - Earthseer Farsen; ten Dark Iron Spies
+  complete 96390 @76.8,62.0 era -- ten Dark Iron Spies
+  turnin 96390 -- Nip 'Em in the Bud - back to Earthseer Farsen
+  note The Underground Map (96391) drops from the Dark Iron Spy and Captain Beld around the eastern quarry.
+  accept 96391 -- Underground Map - use the Dark Iron Map, then see Earthseer Farsen
+  turnin 96391 -- Underground Map - the map to Earthseer Farsen
+  accept 96393 -- Old Ironforge Incursion - Earthseer Farsen; Durgen Dirgehammer's Head, inside Old Ironforge
+  note Old Ironforge Incursion finishes inside Old Ironforge; Durgen Dirgehammer carries the head, and King Magni Bronzebeard in Ironforge takes it.
+  accept 1784 only Dwarf,Paladin -- The Tome of Divinity - Narm Faulk; Muiredon Battleforge waits in Ironforge (needs 1783, an Ironforge paladin errand outside this tracker's list — see the note below)
+  note The Tome of Divinity (1784) needs the first Tome (1783) turned in first; 1783 starts in Ironforge and is outside this tracker's list, so pick it up from the Ironforge paladin trainers on the way through.
+  complete 1784 only Dwarf,Paladin @76.8,62.3 era -- the Dark Iron Script off the Dark Iron Spy
+
+step The far east — Hammerfoot and Kadrell
+
+  tip The tunnel road: Pilot Hammerfoot (83.9, 39.2) crashed east, Mountaineer Barleybrew (86.3, 48.8) holds the crossing, Bruegs Kindleborn (87.9, 44.8) tends the shamans' fire, and Mountaineer Kadrell (95.4, 46.5) and Thorgrum Borrelson (96.1, 47.1) hold the tunnel mouth.
+  note A Pilot's Revenge (417) starts from A Dwarven Corpse by the crash site.
+  accept 419 -- The Lost Pilot - Pilot Hammerfoot; his corpse lies southwest
+  turnin 419 -- The Lost Pilot - at A Dwarven Corpse
+  accept 417 -- A Pilot's Revenge - use the corpse's plea, then see Pilot Hammerfoot
+  complete 417 @78.3,37.8 era -- Mangy Claw off Mangeclaw
+  turnin 417 -- A Pilot's Revenge - the claw to Pilot Hammerfoot
+  turnin 413 -- Shimmer Stout - the stout to Mountaineer Barleybrew
+  accept 414 -- Stout to Kadrell - Mountaineer Barleybrew; Mountaineer Kadrell at the tunnel takes it
+  accept 94465 only Shaman -- Call of Fire - Bruegs Kindleborn; Braldir Ashmantle over the Loch Modan line takes it (needs 94449, an Ironforge shaman errand outside this tracker's list — see the note below)
+  note Call of Fire (94465) needs the earlier Call of Fire (94449) turned in first; 94449 starts in Ironforge and is outside this tracker's list, so pick it up from the Ironforge shaman trainer on the way through.
+  accept 6391 -- Ride to Ironforge - Thorgrum Borrelson; Golnir Bouldertoe in Ironforge takes it (needs 6387, a Loch Modan errand outside this tracker's list — see the note below)
+  note Ride to Ironforge (6391) needs Honor Students (6387) turned in first; 6387 is given over the Loch Modan line and is outside this tracker's list, so pick it up on the Loch Modan leg.
+  accept 416 -- Rat Catching - Mountaineer Kadrell; twelve Tunnel Rat Ears, over the line
+  accept 1339 -- Mountaineer Stormpike's Task - Mountaineer Kadrell; Mountaineer Stormpike over the line takes it
+
+step The Loch Modan road
+  zone map 1432
+
+  tip Over the line into Loch Modan for the tunnel rats, Stormpike and Braldir. All three turn-ins sit just past the tunnel.
+  complete 416 @23.0,28.5 era -- twelve Tunnel Rat Ears
+  turnin 416 -- Rat Catching - the ears to Mountaineer Kadrell
+  turnin 1339 -- Mountaineer Stormpike's Task - Kadrell's word to Mountaineer Stormpike
+  turnin 94465 only Shaman -- Call of Fire - Bruegs's word to Braldir Ashmantle
+
+step Ironforge — the mountain's business
+  zone map 1455
+
+  tip One Ironforge trip closes the zone: Barin, Muren, Muiredon, Hulfdan, Tiza, Bink, Rohan, Mims, Belia, Golnir and Magni all wait in the city, with the profession trainers beside them. Laurena waits in Stormwind's Cathedral of Light and Alathea and Dazalar in Darnassus; their lines turn in there.
+  turnin 291 -- The Reports - Senir's reports to Senator Barin Redstone
+  turnin 1679 only Warrior -- Muren Stormpike - Granis's word to Muren Stormpike
+  turnin 1784 only Dwarf,Paladin -- The Tome of Divinity - the script to Muiredon Battleforge
+  turnin 2218 only Rogue -- Road to Salvation - Hogral's word to Hulfdan Blackbeard
+  turnin 2239 only Rogue -- Onin's Report - Onin's word to Hulfdan Blackbeard
+  turnin 2997 only Dwarf,Paladin -- Tome of Divinity - Azar's word to Tiza Battleforge
+  turnin 1879 only Mage -- Speak with Bink - Magis's word to Bink
+  turnin 5637 only Dwarf,Priest -- Desperate Prayer - Maxan's word to High Priest Rohan
+  turnin 94824 only Gnome,Priest -- Confounding Flash - Maxan's word to High Priestess Mims
+  turnin 6086 only Hunter -- Training the Beast - Grif's word to Belia Thundergranite
+  turnin 6391 -- Ride to Ironforge - Thorgrum's word to Golnir Bouldertoe
+  turnin 96393 -- Old Ironforge Incursion - Durgen's head to King Magni Bronzebeard
+  turnin 96031 optional -- Camping 101: Leatherworking - Gretta Finespindle takes it, here in the city
+  turnin 96055 optional -- Camping 101: Herbalism - Reyna Stonebranch takes it, here in the city
+  turnin 96056 optional -- Camping 101: Skinning - Balthus Stoneflayer takes it, here in the city
+  turnin 96057 optional -- Camping 101: Tailoring - Uthrar Threx takes it, here in the city
+  zone map 1453
+  turnin 94776 only Human,Priest -- Divine Grace - Maxan's word to High Priestess Laurena, in Stormwind's Cathedral of Light
+  zone map 1455
+  turnin 5630 only NightElf,Priest -- Returning Home - Maxan's word to Priestess Alathea, in Darnassus
+
+step The tunnel — muster out
+  zone map 1426
+
+  tip Dun Morogh done: every census quest accepted and handed in. Kadrell holds the tunnel mouth; the Loch Modan road runs south from here.
+  turnin 414 -- Stout to Kadrell - the stout to Mountaineer Kadrell
