@@ -86,7 +86,7 @@ _The lead-in for Loch Modan (build order #2)._
 - [x] Lint/playtest clean — 0 errors, playtest 0 stuck
 - [ ] Cody pilot — Ferinis is playing the zone now
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions
 
 ### Darkshore — second zone (Alliance) · build order #3
 

@@ -229,3 +229,52 @@ as above: game-data citation or a named source.
 - No respawn data for any of the 10 Loch Modan rares, the Carved Figurine, or
   any fixed container exists in the local build. Every step says the timer is
   unconfirmed.
+
+## Teldrassil tameability: three task lines, rest kill-only (pack 0.13.0)
+
+- NPC records carry no family/tame flags. The three `only Hunter` tame lines
+  rest on drop evidence plus core-guide corroboration: Lady Sathrah (spider
+  limbs, spinnerets), Nightscreech (owl bills, feathers, eggs, leg meat),
+  Duskstalker (cat hide; Nightsabers are hunter-tameable and the core route's
+  own taming chain tames a Nightsaber Stalker). Every other shipped Teldrassil
+  rare is kill-only, including Mowgh (rune only) and Sylassa (no loot at all).
+- No Condar call exists for Teldrassil: npc14268 Lord Condar spawns on Loch
+  Modan (1432) only. His Loch Modan kill-only disposition stands as written.
+
+## Teldrassil quest-reward recipes: class unverifiable locally
+
+- Quest records carry no reward data, so no quest-reward recipe on Teldrassil
+  can be confirmed or denied from the toolchain. The 6 shipped recipes are all
+  vendor-sold. If a Teldrassil quest is later found to reward a recipe, add it
+  as a `note`/`task` step at the relevant hub (the quest itself stays
+  core-only).
+
+## Teldrassil dropped recipes: all world drops, none shipped
+
+- Full scan of every recipe/pattern item against all Teldrassil-spawning NPC
+  drops: every Teldrassil-dropping recipe also drops elsewhere. All are generic
+  multi-zone world drops, none Teldrassil content per the Elwynn rule, so none
+  shipped — Teldrassil has no exclusive-drop recipe (no come-back-later drop
+  either, unlike Westfall and Dun Morogh).
+
+## Teldrassil stock class: unverifiable locally
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so no
+  Teldrassil recipe is marked limited. Each vendor step notes that stock class
+  is unconfirmed.
+
+## Teldrassil respawn timers: unconfirmed everywhere
+
+- No respawn data for any of the 19 Teldrassil rares or any fixed container
+  exists in the local build. Every step says the timer is unconfirmed.
+
+## Teldrassil `more` arrays and the Stashbox: excluded with reason
+
+- Nightscreech (npc276101) carries 24 `pts` plus a 49-entry `more` array;
+  Wrathvine (npc276099) carries 24 `pts` plus a 30-entry `more`. The toolchain
+  reads `pts` and nothing reads `more`, so `pts` is authoritative and the
+  `more` entries ship nowhere. If Butler rules `more` are real alternates, the
+  loops grow.
+- No Stashbox of any name (Sordac's included) has a Teldrassil-spawn record in
+  the local build; the named stashboxes sit on maps 1429 and 1411. Nothing
+  secret-stash-like loops in the guide.
