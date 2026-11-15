@@ -558,3 +558,12 @@ as above: game-data citation or a named source.
 
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so none of the 3 vendor recipes is marked limited. All three buy steps note that stock class is unconfirmed.
 - No respawn data for any of the 3 shipped rares or the 9 drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
+
+## Silverpine tame lines (pack 0.64.0)
+
+- The 7 shipped rares may include beasts by name (Gorefang, Snarlmane, Old Vicejaw, Krethis), but the NPC records carry no family flag, so tameability is unassessable from data: no tame line ships. No drop evidence and no core-guide corroboration (the core has no tame lines). If a family flag or tame evidence appears, revisit Gorefang/Snarlmane/Vicejaw/Krethis first.
+
+## Silverpine stock class and respawn timers (pack 0.64.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so none of the 17 vendor recipes is marked limited.
+- No respawn data for any shipped rare exists in the local build. Every rares step says the timer is unconfirmed.

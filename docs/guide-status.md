@@ -418,7 +418,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [x] Alliance addendum — 5 quests (the Alliance-only accepts incl. the Modera trio)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (7 rares + treasures; 17 vendor buys + Rot Hide drop)
 
 ### The Barrens — Horde second zone
 
