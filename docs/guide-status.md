@@ -301,9 +301,9 @@ _Skyborne country._
 
 ### Alterac Mountains — contested
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 164 candidates, 20 IN / 144 OUT (67 Horde set-aside)
+- [x] Core guide - `alterac.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R2+R5 writ residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

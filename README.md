@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.33.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.34.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -38,6 +38,7 @@ Status: **in development (pack v0.33.0), not published yet**. The first release 
 | `desolace.guide` (Set 3 core built, pilot pending) | Desolace | 30–40 | Alliance |
 | `hillsbrad.guide` (Set 4 core built, pilot pending) | Hillsbrad Foothills | 20-32 | Alliance |
 | `arathi.guide` (Set 4 core built, pilot pending) | Arathi Highlands | 30-40 | Alliance |
+| `alterac.guide` (Set 4 core built, pilot pending) | Alterac Mountains | 30-40 | Alliance |
 | `arathi-rares.guide` (companion built, pilot pending) | Arathi Highlands rares and treasures | 30-40 | Alliance |
 | `arathi-recipes.guide` (companion built, pilot pending) | Arathi Highlands recipe sources | 30-40 | Alliance |
 | `hillsbrad-rares.guide` (companion built, pilot pending) | Hillsbrad Foothills rares and treasures | 20-32 | Alliance |
