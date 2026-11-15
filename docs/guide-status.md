@@ -388,9 +388,9 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 
 ### Azshara — contested (Kalimdor)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census — 95 examined, 52-contract Alliance route
+- [x] Core guide — `azshara.guide`
+- [x] Lint/playtest clean — 0 errors, 30 accepted warnings; playtest 0 stuck (R1+R5 expedition residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

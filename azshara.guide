@@ -69,6 +69,7 @@ step South-west landfall - Berdun's range
   complete 89013 @17.25,49.23 -- Wild Honey (Honey Wasp, west hives)
   complete 90813 @16.82,53.81 -- Humongous Crystal (Cliff Walker, west stones)
   note 89228 Winter Squid has no placed source in the data - fish it anywhere and bring ten to Berdun.
+  complete 89228
   turnin 89013 -- Gettin' Buzzed - the honey to Berdun Cliffbrew
   turnin 89228 -- Winter Frontier Fishery - the squid to Berdun Cliffbrew
   turnin 90813 -- Pay Dirt! - the crystal to Berdun Cliffbrew
@@ -232,7 +233,7 @@ step Arkkoroc's shore - the Name of the Beast
   accept 3602 -- Azsharite - Loramus Thalipedes; crystallized azsharite in the south ruins
   complete 3602 @55.46,74.77 -- Crystallized Azsharite (Azsharite Formations, south ruins)
   turnin 3602 -- Azsharite - the crystals to Loramus Thalipedes
-  accept 3621 -- The Formation of Felbane - Loramus Thalipedes; the turn-in rides the Stonetalon expedition below
+  accept 3621 -- The Formation of Felbane - Loramus Thalipedes; the turn-in rides the Stranglethorn expedition below (Galvan spawns on the Stranglethorn map in the data)
 
 step Far east - Hydraxis and the isles
 
@@ -325,12 +326,12 @@ step South-west finale - Truesong's board
   turnin 89470 -- Ill Tidings - the knapsack's word to Commander Truesong
   turnin 88813 -- The Head of the Serpent - Krellian's head to Commander Truesong
 
-step Kalimdor expeditions - Stonetalon, Felwood, Feralas, Darnassus
+step Kalimdor expeditions - Stranglethorn, Felwood, Feralas, Darnassus
 
   zone map 1434
 
   turnin 3621 -- The Formation of Felbane - Loramus's word to Galvan the Ancient (50.62,20.48)
-  tip Expedition leg to Stonetalon; the frame switches on.
+  tip Expedition leg to Stranglethorn; the frame switches on.
 
   zone map 1448
 

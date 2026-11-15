@@ -33,7 +33,7 @@ long-standing rule, not an exception. **Band: 45-55.**
 | 3511 | The Name of the Beast | 58 | 45 | Lord Arkkoroc L60 | turn-in Loramus; next 3602 |
 | 3601 | Kim'jael Indeed! | 53 | 47 | Kim'jael L46 | 4 items, one ground-spawn object, 13 pts |
 | 3602 | Azsharite | 58 | 45 | Loramus Thalipedes L60 | 20x azsharite, 4 objects, south ruins |
-| 3621 | The Formation of Felbane | 58 | 45 | Loramus Thalipedes L60 | turn-in Galvan, Stonetalon |
+| 3621 | The Formation of Felbane | 58 | 45 | Loramus Thalipedes L60 | turn-in Galvan, Stranglethorn (1434, not Stonetalon - data wins) |
 | 5141 | Dragonscale Leatherworking | 55 | 40 | Peter Galen L50 | R5; excl 5143/5144 (other zones); Mageweaver scales in-zone |
 | 5534 | Kim'jael's "Missing" Equipment | 53 | 47 | Kim'jael L46 | Some Rune, Spitelash in-zone |
 | 5535 | Spiritual Unrest | 47 | 45 | Loh'atu L45 | BORDERLINE 1; kills placed Azshara |
@@ -145,5 +145,5 @@ Azure Key (8236), tablets trio (88884), Selwyn staff (88917), Queen's
 mark (89038), Winter Squid (89228, fished), Withermaw/Bonesnout pair
 (92069). Structural pre-warnings: 3141 (2744 Swamp), 8153 (8151),
 8235 (8234 Alterac), 8251 (8250 IF), 8255 (8254 IF), 3461 (3449 IF).
-Expeditions: Ironforge (3461), Stonetalon (3621), Felwood (8257),
+Expeditions: Ironforge (3461), Stranglethorn (3621), Felwood (8257),
 EPL (6804), Feralas (6805), Hillsbrad (8236), Darnassus (92345).
