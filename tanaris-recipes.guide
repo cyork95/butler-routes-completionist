@@ -1,0 +1,354 @@
+# Tanaris - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and manuals whose SOURCE is physically in
+# Tanaris, verified against the local Forever game data (questie-forever
+# item vendor and drop tables). Sixteen recipes are vendor-sold by in-zone
+# Alliance-safe vendors (Alchemist Pestlezugg, Vizzklick, Gikkix, Jabbey,
+# Fizzgrimble and Dirge Quikcleave); nine Leatherworking patterns drop
+# each from named in-zone mobs, seven of them from the Wastewander camps
+# in the east. The two same-title Crimson Silk Robe patterns are both sold
+# by Vizzklick and both ship with a note. Warbear Harness is excluded -
+# its only vendor spawns outside Tanaris (Alterac precedent). Everything
+# else Tanaris-dropping is a generic multi-zone world drop (Elwynn rule),
+# and quest records carry no reward data, so neither ships (see
+# docs/tanaris-companions-inventory.md and docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides
+# cover those. Each step is gated to its profession; other characters skip
+# it cleanly. Blacksmithing, Engineering, Enchanting, First Aid and
+# Fishing have no Tanaris source, so that is stated, not padded.
+guide butler-routes-completionist/tanaris-recipes
+title Tanaris - Recipes & Patterns
+levels 38-50
+zone Tanaris
+faction Alliance
+category Professions
+folder Companions
+keywords tanaris, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Gadgetzan vendors - Pestlezugg's stock (Alchemy)
+
+  zone map 1446
+
+  when skill Alchemy 1
+
+  tip Alchemist Pestlezugg (50.89, 26.96) sells recipes in Gadgetzan.
+  buy 6057 "Recipe: Nature Protection Potion"
+  buy 9303 "Recipe: Philosopher's Stone"
+  buy 9304 "Recipe: Transmute Iron to Gold"
+  buy 9305 "Recipe: Transmute Mithril to Truesilver"
+  buy 12958 "Recipe: Transmute Arcanite"
+
+step Gadgetzan vendors - Vizzklick's stock (Tailoring)
+
+  zone map 1446
+
+  when skill Tailoring 1
+
+  tip Vizzklick (51.01, 27.36) sells patterns in Gadgetzan.
+  buy 7088 "Pattern: Crimson Silk Robe"
+  buy 21358 "Pattern: Soul Pouch"
+  buy 217244 "Pattern: Crimson Silk Robe"
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note Two same-title Crimson Silk Robe patterns share this vendor's stock - both are genuine in-zone sources, so both ship.
+
+step Steamwheedle Port vendors - Gikkix's stock (Cooking)
+
+  zone map 1446
+
+  when skill Cooking 1
+
+  tip Gikkix (66.64, 22.08) sells recipes at Steamwheedle Port.
+  buy 13939 "Recipe: Spotted Yellowtail"
+  buy 13942 "Recipe: Grilled Squid"
+  buy 13945 "Recipe: Nightfin Soup"
+  buy 13946 "Recipe: Poached Sunscale Salmon"
+
+step Steamwheedle Port vendor - Jabbey's chowder (Cooking)
+
+  zone map 1446
+
+  when skill Cooking 1
+
+  tip Jabbey (67.01, 21.99) sells chowder at Steamwheedle Port.
+  buy 16767 "Recipe: Undermine Clam Chowder"
+
+step Gadgetzan vendors - Tender Wolf Steak (Cooking)
+
+  zone map 1446
+
+  when skill Cooking 1
+
+  tip Innkeeper Fizzgrimble (52.51, 27.91) and Dirge Quikcleave (52.63, 28.11) both sell the steak in Gadgetzan.
+  buy 18046 "Recipe: Tender Wolf Steak"
+
+step East - scorpid breastplate (Leatherworking)
+
+  zone map 1446
+
+  when skill Leatherworking 1
+
+  loop
+  goto 59.40,24.71
+  goto 60.41,24.76
+  goto 60.79,24.20
+  goto 60.85,23.48
+  goto 62.66,30.45
+  goto 62.75,33.37
+  goto 63.41,29.35
+  goto 63.59,34.11
+  goto 63.75,29.15
+  goto 63.79,29.78
+  goto 63.90,31.23
+  goto 65.13,32.69
+  goto 65.62,32.11
+  kill 5618 optional
+  collect 8395 "Pattern: Tough Scorpid Breastplate" optional
+  note The Wastewander Bandit (level 41) in the east is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step East - scorpid bracers (Leatherworking)
+
+  zone map 1446
+
+  when skill Leatherworking 1
+
+  loop
+  goto 58.45,37.16
+  goto 58.48,39.41
+  goto 58.80,39.46
+  goto 58.93,35.85
+  goto 59.01,37.08
+  goto 59.90,37.18
+  goto 60.35,32.80
+  goto 60.77,33.46
+  goto 60.79,32.53
+  goto 60.81,38.72
+  goto 60.91,39.40
+  goto 61.76,34.40
+  goto 61.97,35.46
+  goto 61.99,35.10
+  goto 63.71,37.94
+  goto 63.76,40.64
+  goto 65.16,39.53
+  goto 65.21,39.97
+  goto 65.25,39.20
+  goto 65.44,36.95
+  goto 65.69,36.69
+  goto 65.76,36.07
+  kill 5617 optional
+  collect 8397 "Pattern: Tough Scorpid Bracers" optional
+  note The Wastewander Shadow Mage (level 41) in the east is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step East - scorpid gloves (Leatherworking)
+
+  zone map 1446
+
+  when skill Leatherworking 1
+
+  loop
+  goto 59.01,23.42
+  goto 59.79,24.11
+  goto 59.86,22.77
+  goto 59.96,23.42
+  goto 60.31,22.71
+  goto 60.36,23.36
+  goto 60.79,22.72
+  goto 62.69,30.06
+  goto 62.84,30.79
+  goto 62.87,32.89
+  goto 63.27,33.36
+  goto 63.36,32.77
+  goto 63.54,33.07
+  goto 63.56,31.07
+  goto 63.73,33.40
+  goto 63.76,31.40
+  goto 63.93,29.09
+  goto 63.95,29.60
+  goto 65.12,33.34
+  goto 65.37,32.86
+  kill 5616 optional
+  collect 8398 "Pattern: Tough Scorpid Gloves" optional
+  note The Wastewander Thief (level 40) in the east is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step East - scorpid boots (Leatherworking)
+
+  zone map 1446
+
+  when skill Leatherworking 1
+
+  loop
+  goto 58.62,36.68
+  goto 58.96,39.25
+  goto 58.98,38.51
+  goto 60.08,37.03
+  goto 60.39,39.29
+  goto 60.71,39.15
+  goto 60.81,32.87
+  goto 60.90,32.09
+  goto 61.66,38.23
+  goto 61.84,35.02
+  goto 63.27,37.42
+  goto 63.41,40.05
+  goto 63.42,37.93
+  goto 63.68,39.26
+  goto 63.71,38.62
+  goto 64.15,39.41
+  goto 64.64,39.32
+  goto 65.10,36.49
+  goto 65.15,37.01
+  goto 65.62,37.09
+  kill 5615 optional
+  collect 8399 "Pattern: Tough Scorpid Boots" optional
+  note The Wastewander Rogue (level 43) in the east is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step East - scorpid leggings (Leatherworking)
+
+  zone map 1446
+
+  when skill Leatherworking 1
+
+  loop
+  goto 58.62,36.68
+  goto 58.96,39.25
+  goto 58.98,38.51
+  goto 60.08,37.03
+  goto 60.39,39.29
+  goto 60.71,39.15
+  goto 60.81,32.87
+  goto 60.90,32.09
+  goto 61.66,38.23
+  goto 61.84,35.02
+  goto 63.27,37.42
+  goto 63.41,40.05
+  goto 63.42,37.93
+  goto 63.68,39.26
+  goto 63.71,38.62
+  goto 64.15,39.41
+  goto 64.64,39.32
+  goto 65.10,36.49
+  goto 65.15,37.01
+  goto 65.62,37.09
+  kill 5615 optional
+  collect 8401 "Pattern: Tough Scorpid Leggings" optional
+  note The Wastewander Rogue (level 43) in the east is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step East - scorpid shoulders (Leatherworking)
+
+  zone map 1446
+
+  when skill Leatherworking 1
+
+  loop
+  goto 58.53,37.45
+  goto 58.75,36.41
+  goto 58.96,40.01
+  goto 60.09,37.41
+  goto 60.52,38.55
+  goto 60.67,32.76
+  goto 63.78,39.97
+  goto 64.71,40.03
+  goto 65.21,37.89
+  goto 65.51,36.38
+  kill 5623 optional
+  collect 8400 "Pattern: Tough Scorpid Shoulders" optional
+  note The Wastewander Assassin (level 44) in the east is the main in-zone dropper; the Wastewander Scofflaw (66.16, 34.99) and Andre Firebeard (73.37, 47.14) also drop it, all three spawning only in Tanaris. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step East - scorpid helm (Leatherworking)
+
+  zone map 1446
+
+  when skill Leatherworking 1
+
+  loop
+  goto 58.53,37.45
+  goto 58.75,36.41
+  goto 58.96,40.01
+  goto 60.09,37.41
+  goto 60.52,38.55
+  goto 60.67,32.76
+  goto 63.78,39.97
+  goto 64.71,40.03
+  goto 65.21,37.89
+  goto 65.51,36.38
+  kill 5623 optional
+  collect 8402 "Pattern: Tough Scorpid Helm" optional
+  note The Wastewander Assassin (level 44) in the east is the main in-zone dropper; the Wastewander Scofflaw (66.16, 34.99) and Andre Firebeard (73.37, 47.14) also drop it, all three spawning only in Tanaris. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Cove pirates - greatfather gloves (Leatherworking)
+
+  zone map 1446
+
+  when skill Leatherworking 1
+
+  loop
+  goto 70.90,47.33
+  goto 70.95,43.14
+  goto 71.22,43.54
+  goto 71.26,45.94
+  goto 71.43,45.57
+  goto 71.45,47.31
+  goto 71.49,46.60
+  goto 71.89,44.38
+  goto 71.94,45.19
+  goto 72.26,44.17
+  goto 72.39,48.60
+  goto 72.41,47.22
+  goto 72.45,48.15
+  goto 72.79,45.34
+  goto 73.02,47.24
+  goto 73.30,44.96
+  goto 73.39,46.53
+  goto 73.68,47.21
+  goto 75.62,45.11
+  goto 75.83,45.52
+  goto 76.04,45.06
+  goto 76.12,45.41
+  kill 7856 optional
+  collect 17722 "Pattern: Gloves of the Greatfather" optional
+  note The Southsea Freebooter (level 44) at the Lost Rigger Cove is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step South-west - scorpid boots (Leatherworking)
+
+  zone map 1446
+
+  when skill Leatherworking 1
+
+  loop
+  goto 39.09,72.63
+  goto 39.58,74.85
+  goto 40.54,73.40
+  goto 40.55,52.35
+  goto 41.21,55.16
+  goto 41.50,70.48
+  goto 41.98,71.23
+  goto 41.99,72.66
+  goto 42.01,74.10
+  goto 48.29,67.61
+  kill 5471 optional
+  collect 252908 "Pattern: Supple Scorpid Boots" optional
+  note The Dunemaul Ogre (level 45) in the south-west is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Tanaris source - Blacksmithing
+  note Blacksmithing has no recipe source physically in Tanaris in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Tanaris source - Engineering
+  note Engineering has no recipe source physically in Tanaris in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Tanaris source - Enchanting
+  note Enchanting has no recipe source physically in Tanaris in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Tanaris source - First Aid
+  note First Aid has no recipe source physically in Tanaris in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Tanaris source - Fishing
+  note Fishing has no recipe source physically in Tanaris in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
