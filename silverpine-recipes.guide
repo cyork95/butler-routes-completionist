@@ -1,0 +1,145 @@
+# Butler Routes - Silverpine Forest recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics and formulas whose SOURCE is
+# physically in Silverpine Forest (zone key 1421), verified against the
+# local Forever game data (questie-forever item, vendor and drop tables).
+# 17 recipes are vendor-sold (all vendors Horde faction) and one Alchemy
+# recipe drops exclusively in-zone; every other dropped recipe is a
+# generic multi-zone world drop (see docs/silverpine-companions-inventory.md),
+# and quest records carry no reward data (see docs/companion-unverified.md).
+# The three rare-signature world drops (Gorefang, Vicejaw, Krethis) ride
+# the rares companion, not this one. No Blacksmithing plan, Engineering
+# schematic, First Aid manual or Fishing book has a Silverpine source in
+# the data - stated, not padded. Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly.
+guide butler-routes-completionist/silverpine-recipes
+title Silverpine Forest - Recipes & Patterns
+levels 10-20
+zone Silverpine Forest
+faction Horde
+category Professions
+folder Companions
+keywords silverpine forest, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Tailoring - Andrew Hilbert (Sepulcher)
+
+  zone map 1421
+
+  when skill Tailoring 1
+
+  vendor 3556 -- Andrew Hilbert (43.22,40.66)
+  buy 5771 "Pattern: Red Linen Bag"
+  buy 6272 "Pattern: Blue Linen Robe"
+  note Andrew Hilbert (Horde) sells both patterns at the Sepulcher; nothing else in the data sells them. Stock class unconfirmed.
+
+step Leatherworking - Andrew Hilbert (Sepulcher)
+
+  zone map 1421
+
+  when skill Leatherworking 1
+
+  vendor 3556 -- Andrew Hilbert (43.22,40.66)
+  buy 5786 "Pattern: Murloc Scale Belt"
+  buy 5787 "Pattern: Murloc Scale Breastplate"
+  note Andrew Hilbert (Horde) sells both patterns at the Sepulcher; nothing else in the data sells them. Stock class unconfirmed.
+
+step Cooking - Andrew Hilbert (Sepulcher)
+
+  zone map 1421
+
+  when skill Cooking 1
+
+  vendor 3556 -- Andrew Hilbert (43.22,40.66)
+  buy 6892 "Recipe: Smoked Bear Meat"
+  note Andrew Hilbert (Horde) sells the recipe at the Sepulcher; nothing else in the data sells it. Stock class unconfirmed.
+
+step Cooking - Killian Sanatha (west coast)
+
+  zone map 1421
+
+  when skill Cooking 1
+
+  vendor 5748 -- Killian Sanatha (33,17.85)
+  buy 6328 "Recipe: Longjaw Mud Snapper"
+  buy 6368 "Recipe: Rainbow Fin Albacore"
+  note Killian Sanatha (Horde) sells both recipes on the west coast; nothing else in the data sells them. Stock class unconfirmed.
+
+step Enchanting - Lilly (Sepulcher)
+
+  zone map 1421
+
+  when skill Enchanting 1
+
+  vendor 5757 -- Lilly (43.02,50.82)
+  buy 6342 "Formula: Enchant Chest - Minor Mana"
+  buy 6346 "Formula: Enchant Chest - Lesser Mana"
+  buy 20752 "Formula: Minor Mana Oil"
+  buy 20753 "Formula: Lesser Wizard Oil"
+  buy 20758 "Formula: Minor Wizard Oil"
+  note Lilly (Horde) sells the formulas at the Sepulcher; nothing else in the data sells them. Stock class unconfirmed.
+
+step Tailoring - Lilly (Sepulcher)
+
+  zone map 1421
+
+  when skill Tailoring 1
+
+  vendor 5757 -- Lilly (43.02,50.82)
+  buy 22307 "Pattern: Enchanted Mageweave Pouch"
+  note Lilly (Horde) sells the pattern at the Sepulcher; nothing else in the data sells it. Stock class unconfirmed.
+
+step Enchanting - Leo Sarn (Deep Elem)
+
+  zone map 1421
+
+  when skill Enchanting 1
+
+  vendor 5758 -- Leo Sarn (53.89,82.21)
+  buy 6342 "Formula: Enchant Chest - Minor Mana"
+  buy 6349 "Formula: Enchant 2H Weapon - Lesser Intellect"
+  buy 20752 "Formula: Minor Mana Oil"
+  buy 20753 "Formula: Lesser Wizard Oil"
+  buy 20758 "Formula: Minor Wizard Oil"
+  note Leo Sarn (Horde) sells the formulas at the Deep Elem Mine; nothing else in the data sells them. Stock class unconfirmed.
+
+step Tailoring - Leo Sarn (Deep Elem)
+
+  zone map 1421
+
+  when skill Tailoring 1
+
+  vendor 5758 -- Leo Sarn (53.89,82.21)
+  buy 22307 "Pattern: Enchanted Mageweave Pouch"
+  note Leo Sarn (Horde) sells the pattern at the Deep Elem Mine; nothing else in the data sells it. Stock class unconfirmed.
+
+step Alchemy - Algernon (north-east)
+
+  zone map 1421
+
+  when skill Alchemy 1
+
+  vendor 4610 -- Algernon (73.2,9.5)
+  buy 9301 "Recipe: Elixir of Shadow Power"
+  buy 13477 "Recipe: Superior Mana Potion"
+  note Algernon (Horde) sells both recipes in the far north-east; nothing else in the data sells them. Stock class unconfirmed.
+
+step Alchemy - Raging Rot Hide (drop)
+
+  zone map 1421
+
+  when skill Alchemy 1
+
+  loop
+  goto 65.15,23.2
+  goto 65.2,23.87
+  goto 65.21,24.92
+  goto 65.31,23.46
+  goto 65.71,23.78
+  goto 65.75,23.39
+  goto 66.05,23.93
+  goto 66.18,24.78
+  goto 66.33,23.33
+  collect 250983 "Recipe: Lesser Frenzy Potion" optional
+  note Dropped by the Raging Rot Hide of the Rot Hide camp, and by nothing else anywhere in the data.
