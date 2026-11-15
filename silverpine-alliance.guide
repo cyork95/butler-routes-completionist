@@ -1,0 +1,90 @@
+# Silverpine Forest (Alliance) - Completionist (pack butler-routes-completionist, v1).
+# Alliance addendum to the Horde route: the 5 Alliance-acceptable Silverpine
+# accepts the Horde census set aside (docs/silverpine-census.md, Alliance
+# addendum section; contract silverpine-forest-alliance, order 34). The
+# set-aside list named 94501 for the Dwarf/Gnome Shaman link, but the data
+# shows 94501 accepting in the Wetlands (already wetlands.guide's) - the
+# Silverpine link is 94505, contracted here in its place, argued in the
+# census. Levels 20-33 by the data (trio min24/lvl33; 94505 min20/lvl23;
+# 8993 min1/lvl60 Winter Veil event, an anytime pickup while it runs).
+# An Alliance expedition into Horde territory: entry follows the Hillsbrad
+# guide through 92432 (its turnin IS the Modera image), field work crosses
+# into Alterac (remnant kills, the mote, Celindra's turn-in) and closes in
+# Loch Modan (Norric's turn-in). No loop steps: every placed complete rides
+# data-placed coordinates; unplaced objectives ride bag notes, never
+# invented points.
+guide butler-routes-completionist/silverpine-forest-alliance
+title Silverpine Forest (Alliance) - Completionist
+levels 20-33
+zone Silverpine Forest
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Modera's Image - the Kirin Tor trio
+
+  zone map 1421
+
+  note In from the Hillsbrad border: the Hillsbrad guide's 92432 (Emissary Jacques) turns in at the Image of Archmage Modera (68.62,45.18) - this addendum picks up there.
+  accept 92457 -- Starving Arcane - the Image; remnants west in Alterac (needs 92432 Hillsbrad first - take its warning if it is not done)
+  accept 92458 -- Heart of Disruption - the Image; the mote drops in Alterac (needs 92432 Hillsbrad first)
+
+step East woods - Kwee's gift
+
+  zone map 1421
+
+  note East to the Peddlefeet camp (74,13) for the Winter Veil pickup (seasonal - Kwee only trades during the feast).
+  accept 8993 -- Gift Giving - Kwee Q. Peddlefeet; the collection has no placed source in the data (check bags; the route never waits on it)
+  complete 8993
+  note 8993's Alliance Gift Collection has no placed source in the data - have it in your bags.
+  turnin 8993 -- Gift Giving - the collection to Kwee Q. Peddlefeet (74,13)
+
+step West woods - the water manifestation
+
+  zone map 1421
+
+  note West to the manifestation (38.65,44.58) for the Dwarf/Gnome Shaman link.
+  accept 94505 only Shaman -- Call of Water - the Manifestation; Dwarf/Gnome link (races=68); Norric in Loch Modan takes it (needs 94503 Westfall object first - take its warning if it is not done)
+
+step Alterac expedition - remnants and motes
+
+  zone map 1416
+
+  note Over the east border into west Alterac for the trio's field work; the frame switches on.
+  complete 92457 @14.2,68.4 -- Saturated Remnants (west Alterac)
+  complete 92457 @14.3,67.5 -- Mana Echoes (west Alterac)
+  note 92457's Seeking Remnants have no placed spawn in the data - check bags; the route never waits on them.
+  collect 251961 @15,55.4 -- Arcane Mote (Shade of the Archmage, Heart of Disruption)
+  note Rath'mael (the mote's other named dropper) has no placed spawn in the data - work the Shades above.
+  tip Expedition leg to Alterac; the frame switches on.
+
+  zone map 1421
+
+step Modera's Image return - turn-ins
+
+  zone map 1421
+
+  note Back to the Image (68.62,45.18) with the Alterac work done.
+  turnin 92457 -- Starving Arcane - the remnants' word to the Image (68.62,45.18)
+  turnin 92458 -- Heart of Disruption - the mote to the Image (68.62,45.18)
+  accept 92459 -- Friend of the Kirin Tor - the Image; Celindra in Alterac takes it (needs 92458 above first)
+
+step Alterac return - Celindra
+
+  zone map 1416
+
+  note Back over the border to Celindra (14.15,60.05) with 92459; the frame switches on.
+  turnin 92459 -- Friend of the Kirin Tor - the Image's word to Archmage Celindra (14.15,60.05)
+  tip Expedition leg to Alterac; the frame switches on.
+
+  zone map 1421
+
+step Loch Modan - Norric's word
+
+  zone map 1432
+
+  note South to Loch Modan to close the water link; the frame switches on.
+  turnin 94505 only Shaman -- Call of Water - the Manifestation's word to Norric Lochthane (41.76,19.05)
+  tip Expedition leg to Loch Modan; Norric holds the Shaman water line onward. The addendum ends here.
