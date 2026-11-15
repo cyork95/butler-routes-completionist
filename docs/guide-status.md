@@ -126,6 +126,19 @@ _The lead-in for Loch Modan (build order #2)._
 
 **Publish rule (Cody, 2026-11-13): v1.0.0 waits for ALL of it** — every zone on this checklist, both factions and Set 2 included, done at first pass: core + companions written and lint-clean. Then the `v1.0.0` tag push fires the GitHub Actions publish to polestar.guide. Pilots and pilot-fix rounds continue after publish as v1.x updates. The build order follows zone progression; per the pack principle above, that orders the writing, never the content.
 
+## Final QA — the pre-publish gate (Cody, 2026-11-15)
+
+_Everything built is not the same as everything verified together. Before the v1.0.0 tag, the whole pack gets one full QA pass — the per-round checks are local; this pass is where cross-cutting failures would hide._
+
+- [ ] Pack-as-shipped lint — the whole pack linted exactly as the publish workflow will zip it (not isolated per-zone copies): no duplicate IDs, header collisions, or folder mistakes
+- [ ] Dangling-chain audit — every accepted out-of-contract pre-quest warning from every round (the 512/514 class) resolved or documented as genuinely unresolvable; no silent danglers in a completionist pack
+- [ ] Journey playtests — simulated characters following the guides in leveling order across zone boundaries: band continuity, hearth points, and `next` links checked at the handoffs, not just inside zones
+- [ ] Full goto re-audit — the mechanical goto audit re-run over ALL guides against a fresh data build, catching spawn drift from any Forever patch since each zone was written
+- [ ] Public-text review — every guide read for leftover working notes, placeholder text, and references to Cody's characters or play; the pack ships to strangers
+- [ ] Install rehearsal — the publish zip built locally the way the workflow builds it, installed into a clean AddOns folder, and every guide confirmed to load and open in Polestar
+- [ ] In-game spot pilots — at least a sample of never-piloted mid-level zones run in game before strangers trust them
+- [ ] QA fix round(s) landed — anything the pass finds is fixed on master and re-verified before the tag
+
 ---
 
 ## City guides — smaller guides (after the Alliance companion rounds)
