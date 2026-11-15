@@ -449,3 +449,16 @@ as above: game-data citation or a named source.
 
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so no vendor recipe is marked limited. Each vendor step notes that stock class is unconfirmed.
 - No respawn data for any of the 5 shipped Riverglades rares or the Rock Pile exists in the local build. Every step says the timer is unconfirmed.
+
+## Blasted Lands tame lines (pack 0.51.0)
+
+- None of the 5 shipped Blasted Lands rares is drop-evidenced as a tameable beast family (shared tables carry only generic leather gear plus the ordinary greens; Grunter, the one boar, is excluded as quest-significant rather than shipped), npc records carry no tameability flag, and the Blasted Lands core guide (21-contract) carries no tame lines and no references to any of the 10 flagged rares. No only-Hunter task ships; all five steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+
+## Blasted Lands quest-reward recipes (pack 0.51.0)
+
+- Quest records in the local build carry no reward data, so no quest-reward recipe in the Blasted Lands can be confirmed from the toolchain. The 2 shipped recipes are 1 vendor-sold plus 1 exclusive mob drop. If a Blasted Lands quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
+
+## Blasted Lands stock class and respawn timers (pack 0.51.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so the Nina Lightbrew recipe is not marked limited. The vendor step notes that stock class is unconfirmed.
+- No respawn data for any of the 5 shipped Blasted Lands rares or the Solid Chests exists in the local build. Every step says the timer is unconfirmed.
