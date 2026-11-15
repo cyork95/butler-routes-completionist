@@ -209,7 +209,7 @@ _Off Ashenvale. Alliance route first; Horde content handled as the data dictates
 - [x] Lint/playtest clean - 0 errors, playtest 4 personas 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 9 rares (no loot in data) + 56 container placements and Barrow Dens caches, 7 recipes (4 vendor + 3 drops), 0 lint errors/warnings
 
 ### Duskwood — third zone (Alliance)
 

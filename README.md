@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.35.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.36.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -30,6 +30,8 @@ Status: **in development (pack v0.35.0), not published yet**. The first release 
 | `ashenvale-rares.guide` (companion built, pilot pending) | Ashenvale rares and treasures | 18-32 | Alliance |
 | `ashenvale-recipes.guide` (companion built, pilot pending) | Ashenvale recipe sources | 18-32 | Alliance |
 | `stonetalon.guide` (Set 2 core built, pilot pending) | Stonetalon Mountains | 16–30 | Alliance |
+| `stonetalon-rares.guide` (companion built, pilot pending) | Stonetalon Mountains rares and treasures | 16-30 | Alliance |
+| `stonetalon-recipes.guide` (companion built, pilot pending) | Stonetalon Mountains recipe sources | 16-30 | Alliance |
 | `duskwood.guide` (Set 2 core built, pilot pending) | Duskwood | 17–28 | Alliance |
 | `wetlands.guide` (Set 3 core built, pilot pending) | Wetlands | 20–30 | Alliance |
 | `stranglethorn.guide` (Set 3 core built, pilot pending) | Stranglethorn Vale | 30–45 | Alliance |
