@@ -415,6 +415,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [x] Census (67-contract, band 10-20)
 - [x] Core guide (67 accepts, 66 turn-ins + documented 78261)
 - [x] Lint/playtest clean (0 errors; R1/R2/R3 residue only)
+- [x] Alliance addendum — 5 quests (the Alliance-only accepts incl. the Modera trio)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
