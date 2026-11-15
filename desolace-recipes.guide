@@ -1,0 +1,189 @@
+# Desolace - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns whose SOURCE is physically in Desolace,
+# verified against the local Forever game data (questie-forever item vendor
+# and drop tables). Eighteen are vendor-sold by in-zone Alliance-buyable
+# vendors (Super-Seller 680 and Vendor-Tron 1000, both neutral; Janet
+# Hommers, Alliance; the Magram/Gelkis clan quartermasters Gorhak and
+# Molkar, who carry no Horde flag); three are mob drops with sole
+# droppers spawning only in-zone. Everything else Desolace-dropping is a
+# generic multi-zone world drop (Elwynn rule, argued per case in the
+# inventory), four in-zone-sold recipes are Horde-vendor exclusive, one
+# narrow formula belongs to a Badlands-family mob with a single incidental
+# Desolace point, and quest records carry no reward data, so neither ships
+# (see docs/desolace-companions-inventory.md and
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. Blacksmithing, First Aid
+# and Fishing have no Desolace source, so that is stated, not padded.
+guide butler-routes-completionist/desolace-recipes
+title Desolace - Recipes & Patterns
+levels 30-40
+zone Desolace
+faction Alliance
+category Professions
+folder Companions
+keywords desolace, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Super-Seller 680 - bear, buzzard, wolf and chili (Cooking)
+
+  zone map 1443
+
+  when skill Cooking 1
+
+  tip Super-Seller 680 (40.48, 79.27) sells the recipes; the shop is neutral, so Alliance characters can buy.
+  buy 3734 "Recipe: Big Bear Steak"
+  buy 4609 "Recipe: Barbecued Buzzard Wing"
+  buy 12227 "Recipe: Lean Wolf Steak"
+  buy 12229 "Recipe: Hot Wolf Ribs"
+  buy 12239 "Recipe: Dragonbreath Chili"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Vendor-Tron 1000 - chops, venison, raptor and stews (Cooking)
+
+  zone map 1443
+
+  when skill Cooking 1
+
+  tip Vendor-Tron 1000 (60.33, 38.12) sells the recipes; the shop is neutral, so Alliance characters can buy.
+  buy 3735 "Recipe: Hot Lion Chops"
+  buy 5489 "Recipe: Lean Venison"
+  buy 12228 "Recipe: Roast Raptor"
+  buy 12231 "Recipe: Jungle Stew"
+  buy 12232 "Recipe: Carrion Surprise"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Nijel's side - mystery and kodo stews (Cooking)
+
+  zone map 1443
+
+  when skill Cooking 1
+
+  tip Janet Hommers (66.19, 6.57), Food & Drink, sells both recipes; Vendor-Tron 1000 (60.33, 38.12) sells them too and is neutral.
+  buy 12233 "Recipe: Mystery Stew"
+  buy 12240 "Recipe: Heavy Kodo Stew"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Super-Seller 680 - ice deflector (Engineering)
+
+  zone map 1443
+
+  when skill Engineering 1
+
+  tip Super-Seller 680 (40.48, 79.27) sells the schematic; the shop is neutral, so Alliance characters can buy.
+  buy 13308 "Schematic: Ice Deflector"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Super-Seller 680 - enchanter's cowl (Tailoring)
+
+  zone map 1443
+
+  when skill Tailoring 1
+
+  tip Super-Seller 680 (40.48, 79.27) sells the pattern; the shop is neutral, so Alliance characters can buy.
+  buy 217258 "Pattern: Enchanter's Cowl"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Magram quartermaster - bracer formulas (Enchanting)
+
+  zone map 1443
+
+  when skill Enchanting 1
+
+  tip Gorhak (66.25, 79.42), Magram Clan Quartermaster, sells the formula; he carries no Horde flag, so Alliance characters can buy.
+  buy 249486 "Formula: Enchant Bracer - Lesser Agility"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Magram and Gelkis quartermasters - healing formula (Enchanting)
+
+  zone map 1443
+
+  when skill Enchanting 1
+
+  tip Gorhak (66.25, 79.42), Magram Clan Quartermaster, and Molkar (35.68, 92.23), Gelkis Clan Quartermaster, sell the formula; neither carries a Horde flag, so Alliance characters can buy.
+  buy 249489 "Formula: Enchant Bracer - Lesser Healing Power"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Magram quartermaster - saf-t casing and hoofwarmers (Engineering and Leatherworking)
+
+  zone map 1443
+
+  when skill Engineering 1
+
+  tip Gorhak (66.25, 79.42), Magram Clan Quartermaster, sells both; he carries no Horde flag, so Alliance characters can buy.
+  buy 269903 "Schematic: Hoof-Shaped Foot Pedal"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+  when skill Leatherworking 1
+
+  buy 274491 "Pattern: Centaur Hoofwarmers"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Burning Blade augur - phoenix bindings (Tailoring)
+
+  zone map 1443
+
+  when skill Tailoring 1
+
+  loop
+  goto 52.08,28.86
+  goto 52.54,29.98
+  goto 52.90,32.33
+  goto 53.26,29.86
+  goto 54.04,27.86
+  goto 54.66,24.64
+  goto 54.76,23.48
+  goto 55.18,30.05
+  goto 55.28,22.40
+  goto 55.95,27.40
+  kill 4663 optional
+  collect 211247 "Pattern: Phoenix Bindings" optional
+  note The Burning Blade Augur is the sole dropper anywhere in the data and spawns only in Desolace; the Tailoring gate follows the cloth-wrist reading (see the inventory's open inference). No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Mage hunter - agility formula (Enchanting)
+
+  zone map 1443
+
+  when skill Enchanting 1
+
+  loop
+  goto 53.30,79.18
+  goto 53.58,76.87
+  goto 55.74,77.70
+  goto 55.87,72.78
+  goto 56.49,72.97
+  goto 56.66,77.70
+  goto 56.88,75.49
+  goto 58.26,75.54
+  kill 4681 optional
+  collect 249488 "Formula: Enchant Bracer - Agility" optional
+  note The Mage Hunter is the sole dropper anywhere in the data and spawns only in Desolace. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Nether sorceress - predatory senses (Alchemy)
+
+  zone map 1443
+
+  when skill Alchemy 1
+
+  loop
+  goto 50.64,82.57
+  goto 51.74,82.53
+  goto 51.85,84.68
+  goto 52.02,83.96
+  goto 52.36,83.36
+  kill 4684 optional
+  collect 250363 "Recipe: Potion of Predatory Senses" optional
+  note The Nether Sorceress is the sole dropper anywhere in the data and spawns only in Desolace. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Desolace source - Blacksmithing
+  note Blacksmithing has no recipe source physically in Desolace in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Desolace source - First Aid
+  note First Aid has no recipe source physically in Desolace in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Desolace source - Fishing
+  note Fishing has no recipe source physically in Desolace in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
