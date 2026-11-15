@@ -248,9 +248,9 @@ _Skyborne country._
 
 ### Thousand Needles — contested (Kalimdor)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 67 candidates, 34 IN / 33 OUT (27 Horde set-aside)
+- [x] Core guide - `thousand-needles.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1+R2 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
