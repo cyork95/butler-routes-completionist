@@ -9487,6 +9487,35 @@
           "name": "Return to Quinn (Again)"
         }
       ]
+    },
+    {
+      "id": "silverpine-forest-alliance",
+      "name": "Silverpine Forest (Alliance)",
+      "order": 34,
+      "levelBand": "20-33",
+      "summary": "Alliance addendum: the Alliance-only Silverpine accepts the Horde census set aside - the Modera trio (92457/92458/92459, pre 92432 Hillsbrad, kills and Celindra turn-in in Alterac), Kwee seasonal 8993, and the Dwarf/Gnome Shaman link 94505 (pre 94503 Westfall, ends Norric Loch Modan). 94501 excluded: accepts in Wetlands, already Wetlands-contracted.",
+      "quests": [
+        {
+          "id": 92457,
+          "name": "Starving Arcane"
+        },
+        {
+          "id": 92458,
+          "name": "Heart of Disruption"
+        },
+        {
+          "id": 92459,
+          "name": "Friend of the Kirin Tor"
+        },
+        {
+          "id": 8993,
+          "name": "Gift Giving"
+        },
+        {
+          "id": 94505,
+          "name": "Call of Water"
+        }
+      ]
     }
   ]
 }

@@ -190,3 +190,29 @@ pre - a Silverpine starter and ender, unplayable at zone level, barred by
 the minLevel band top (10-20). The Felben NPC stays in the guide's
 geography only as a landmark; no quest line rides him.
 
+## Alliance addendum (order 34, contract `silverpine-forest-alliance`)
+
+The 5 set-asides cross-checked against the data build: 92457 Starving
+Arcane (lvl33/min24), 92458 Heart of Disruption (lvl33/min24,
+excl 96984, next 92459), 92459 Friend of the Kirin Tor (lvl33/min24, pre
+92458+96984) - all races=Alliance mask, accept at the Image of Archmage
+Modera with a 1421 spawn @68.62,45.18; 8993 Gift Giving (lvl60/min1,
+Winter Veil Alliance version, Kwee 1421 @74,13, objective item sourceless
+in the data).
+
+CORRECTION: the set-aside list named 94501 (Call of Water, Dwarf+Gnome).
+The data shows 94501 accepts in the Wetlands (Hervdana 1437-only spawn)
+and it is already contracted in wetlands.guide - it fails the
+accept-in-Silverpine test and stays Wetlands' (no double-contract). The
+Silverpine-accepting Dwarf+Gnome Shaman link the list meant is 94505
+(lvl23/min20, races=68, cls=64, starter Minor Manifestation of Water
+1421 @38.65,44.58, pre 94503 Westfall object, ends Norric Loch Modan).
+Contracted as 94505 in place of 94501, argued here - not silently.
+
+Sweep re-check (Alliance-acceptable touching 1421): 8578/8645/78676/78699
+stay OUT (band/seasonal, as censused), 78261/78307 stay Horde-core's
+(neutral line, already homed). Nothing else missed.
+
+Span: trio min24/lvl33, 94505 min20/lvl23, 8993 min1/lvl60 event.
+Contract levelBand "20-33"; 8993 rides as the min1 anytime-event pickup.
+
