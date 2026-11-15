@@ -11,18 +11,18 @@ and set aside for the Horde block's own census.
   Thousand Needles quests starting from Bath'rah (79361, 79364) — they stay
   with their home zone under the accept rule.
 - Band derivation (quest level draws the low line, minLevel the top): IN-level
-  quests run 33–40 (510/511 at 34, the Modera trio at 33, 603 at 37, 96800 at
+  quests run 33–40 (510/511 at 34, 603 at 37, 96800 at
   38, 97130/1712/1713/1792/79365 at 40); a clean break sits below 30
   (next-lowest Alliance level is 27) and the finales run 41/45/46 with
   minLevels 34/37/39. **Band: 30–40.** Above-band OUT: m44+ (96609, 80411,
   80526, 8234, 96603, 97173, 96772, 96797) plus the level-60 donation chain
   and the unresolvable 96602 (see BORDERLINE). Below-band OUT: quest levels
   13/24/25/27 (94947, 6681, 96779, 79362, 79363, 96137, 94912).
-- IN: **24** (24 accepts, 23 turn-ins — 96783 is an accept-only record with
+- IN: **21** (21 accepts, 20 turn-ins — 96783 is an accept-only record with
   no ender, contracted with an honest note per the Ironforge precedent).
-  OUT: **140** = 66 Horde + 47 Alterac Valley battleground + 4 repeatable +
+  OUT: **143** = 66 Horde + 47 Alterac Valley battleground + 4 repeatable +
   2 seasonal + 1 broken/unplaceable + 8 above-band + 7 below-band + 4 donation
-  chain + 1 pre-chain-above-band.
+  chain + 1 pre-chain-above-band + 3 accept-outside (Silverpine).
 - 512/514 debt cleared: 510 (Foreboding Plans, object-start, ends Maleb)
   feeds Hillsbrad 512, and 511 (Encrypted Letter, object-start, ends Dibbs)
   feeds Hillsbrad 514 → 525 (Ironforge, contracted) → 537 (Hillsbrad,
@@ -38,9 +38,7 @@ and set aside for the Horde block's own census.
 | 1712 | Cyclonian | 40/30 | Warrior; pre 1791 (1413, out) — structural warning + note; Liferoot/Tusk/Exile objectives |
 | 1713 | The Summoning | 40/30 | Warrior; pre 1712; Whirlwind Heart objective |
 | 1792 | Whirlwind Weapon | 40/30 | Warrior; pre 1713; finale |
-| 92457 | Starving Arcane | 33/24 | pre 92432 (Hillsbrad, contracted) — pre-note; Remnant/Mana Echo kills |
-| 92458 | Heart of Disruption | 33/24 | pre 92432 — pre-note; Arcane Mote objective |
-| 92459 | Friend of the Kirin Tor | 33/24 | pre 92458 (in) + 96984 (Horde twin, out) — twin note, possible structural warning; ends Celindra (in-zone) |
+| 92457-92459 | OUT: accept at the Image of Archmage Modera (map 1421 only); Silverpine quests, see BORDERLINE 5 |
 | 96770 | The Witch Doctor's Head | 46/39 | finale, min in band; Zum'rah's Head objective |
 | 96771 | Vengeance of the Highborne | 45/37 | finale, min in band; Zalfan Moonshadow kill |
 | 96773 | The Coldbringer's Eye | 41/34 | finale, min in band; Coldbringer's Eye objective |
@@ -87,6 +85,8 @@ sweep, counted but never a candidate — Hillsbrad precedent).
 Broken/unplaceable (1): 7221 (Speak with Prospector Stonehewer — no start
 NPC, object, or item anywhere; cannot be accepted).
 
+Accept-outside (3, Silverpine): 92457 (Starving Arcane), 92458 (Heart of Disruption), 92459 (Friend of the Kirin Tor): all accept at the Image of Archmage Modera, which spawns only on map 1421 (Silverpine). Zone field says 1416, but the operational accept test decides (Redridge/Ironforge precedent); objectives in-zone with accept elsewhere are OUT. Silverpine census rules on them; see BORDERLINE 5.
+
 Above-band (8): 8234 (52/50), 80411/80526 (50/45), 96603 (60/48), 96609
 (52/44), 97173 (59/52), 96772 (53/46), 96797 (54/45) — all minLevel above the
 40 top.
@@ -115,10 +115,7 @@ see BORDERLINE).
 4. 94912 Child of Nature (10/10, druid, Alfina Nightgaze → Sheldras
    Moontree) — OUT below-band, FLAGGED for the future druid class guide with
    the Darnassus druid-chain list.
-5. 92459's pre includes Horde twin 96984 — IN with the twin note. 96984 is
-   the Horde duplicate of contracted 92458 (same title, Horde races); the
-   chain-consistent one is contracted and 92459 follows it. Any lint warning
-   naming 96984 is accepted as structural.
+5. 92457-92459 (Modera trio, 33/24): OUT accept-outside. All three accept (and 92457/92458 end) at the Image of Archmage Modera, map-1421-only. The zone field (1416) loses to the operational accept test per the Redridge dual-spawn precedent; objectives in-zone with accept elsewhere are OUT by the stated rule. The 96984 twin question is moot here: Silverpine's census inherits it with the full chain (92432 Hillsbrad to 92457/92458 Modera to 92459 Celindra).
 6. 96783 (36/24, no ender, no objectives) — IN with an honest accept-only
    note (Ironforge/Redridge precedent). Not broken: the accept (Myrokos) is
    placed and the chain position is real (pre 6681, feeds 96784 elsewhere).
