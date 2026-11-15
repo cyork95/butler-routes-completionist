@@ -1,0 +1,120 @@
+# Blasted Lands - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 5 confirmed flagged rares of the Blasted
+# Lands and its fixed Solid Chests. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is not
+# up never holds the route. Spawn points and levels are the local Forever
+# game data (questie-forever); signature drops are items whose SOLE dropper
+# is the rare. Two rares above the 40-50 band ship with honest come-back
+# notes (sole signatures argue for them); four above-band rares without
+# signatures, and one in-band rare whose only significance is a core quest
+# item, are excluded with reasons - see
+# docs/blasted-lands-companions-inventory.md. One rare is a single confirmed
+# point, so that step is a plain single-goto step (a loop needs at least
+# two). No tame lines ship (the data has no tameability flag and the core
+# guide carries no tame corroboration - see
+# docs/companion-unverified.md). Respawn timers are unconfirmed anywhere,
+# so none are stated. No shipped rare is a giver, ender, or objective of
+# any core-contracted quest; where a shipped rare also drops a core quest
+# item the note says so and points at the core guide.
+guide butler-routes-completionist/blasted-lands-rares
+title Blasted Lands - Rares & Treasures
+levels 40-50
+zone Blasted Lands
+faction Alliance
+category Collectibles
+folder Companions
+keywords blasted lands, rares, treasures, companions
+coords live
+version 1
+
+step Mojo the Twisted — the north-west
+
+  zone map 1419
+
+  loop
+  goto 41.74,11.80
+  goto 42.06,14.93
+  goto 45.18,16.02
+  goto 45.33,16.45
+  kill 8296 optional
+  collect 282014 "Twisted Shadow Staff" optional
+  note Level 48 rare working its 4 confirmed points in the north-west; its sole drop is the Twisted Shadow Staff. It also drops the Flawless Draenethyst Sphere, which the core guide's Kum'isha chain already routes - this guide only points at the rare.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Deatheye — the west
+
+  zone map 1419
+
+  loop
+  goto 43.48,27.89
+  goto 44.04,25.01
+  goto 44.46,26.36
+  goto 44.53,30.21
+  goto 45.02,19.59
+  goto 45.15,25.14
+  goto 45.17,28.15
+  goto 45.19,18.27
+  goto 45.96,17.80
+  goto 45.99,20.36
+  goto 47.03,22.07
+  goto 48.46,20.34
+  goto 50.17,20.72
+  kill 8302 optional
+  collect 282020 "Stonegaze Wand" optional
+  note Level 49 rare working its 13 confirmed points in the west; its sole drop is the Stonegaze Wand. It also drops Basilisk Brain, which the core guide's Lynnore chain already routes - this guide only points at the rare.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Fingat — the east
+
+  zone map 1419
+
+  goto 71.40,15.00
+  kill 14446 optional
+  note Level 43 rare at its single confirmed point in the east; the data shows no sole drop for it and it drops no quest item, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Solid Chests — the east and center
+
+  zone map 1419
+
+  loop
+  goto 71.30,13.30
+  goto 72.80,13.80
+  goto 73.80,14.80
+  goto 42.50,14.33
+  goto 44.38,12.01
+  goto 62.41,34.26
+  goto 65.46,33.37
+  goto 66.83,29.61
+  interact 4149 optional
+  interact 153451 optional
+  note Two generic Solid Chest objects share the zone, 4149 at three points in the far east and 153451 at five points in the north-west and center; loot is the usual chest fare. No quest takes either.
+  note Respawn timers unconfirmed.
+
+step Akubar the Seer — the center-south (come back later)
+
+  zone map 1419
+
+  loop
+  goto 45.08,48.14
+  goto 46.02,48.04
+  goto 51.31,53.12
+  goto 52.01,51.85
+  goto 58.35,46.03
+  goto 59.04,43.56
+  goto 60.66,43.76
+  goto 60.92,45.23
+  kill 8298 optional
+  collect 282019 "Braided Seer Stones" optional
+  note Level 54 rare working its 8 confirmed points in the center-south; its sole drop is the Braided Seer Stones. No quest takes it. Come back at high level - four over the guide band.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Magronos the Unyielding — the center-south (come back later)
+
+  zone map 1419
+
+  goto 47.20,47.14
+  kill 8297 optional
+  collect 282026 "Unyielding Battle Signet" optional
+  note Level 56 rare at its single confirmed point in the center-south; its sole drop is the Unyielding Battle Signet. It also drops draenethyst spheres and fragments, which the core guide's Kum'isha chain already routes - this guide only points at the rare. Come back at high level - six over the guide band.
+  note Also drops ordinary greens; respawn timer unconfirmed.
