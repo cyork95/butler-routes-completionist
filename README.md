@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.30.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.31.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -35,6 +35,7 @@ Status: **in development (pack v0.30.0), not published yet**. The first release 
 | `thousand-needles.guide` (Set 3 core built, pilot pending) | Thousand Needles | 25–35 | Alliance |
 | `desolace.guide` (Set 3 core built, pilot pending) | Desolace | 30–40 | Alliance |
 | `hillsbrad.guide` (Set 4 core built, pilot pending) | Hillsbrad Foothills | 20-32 | Alliance |
+| `arathi.guide` (Set 4 core built, pilot pending) | Arathi Highlands | 30-40 | Alliance |
 | `hillsbrad-rares.guide` (companion built, pilot pending) | Hillsbrad Foothills rares and treasures | 20-32 | Alliance |
 | `hillsbrad-recipes.guide` (companion built, pilot pending) | Hillsbrad Foothills recipe sources | 20-32 | Alliance |
 | `zephras-isle-rares.guide` (pilot companion) | Zephras Isle rares and treasures | 1–12 | Alliance (Skyborne) |

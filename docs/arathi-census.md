@@ -165,9 +165,9 @@ Eight neutral-giver seafarer quests (Faldir's Cove cluster, SW coast), minLevel 
 
 Starts at Nials/Wanted Board (1417), ends at Demar Brant in Riverglades (2548, already-built route). Expedition turn-in.
 
-### 96784-96786 Mage chain — IN, only-Mage gated
+### 96784-96786 Rogue chain — IN, only-Rogue gated
 
-Rogue-free Mage line (classes=8): Anastasia Miller (1417) to Myrokos Silentform (1416/1424/1425, Ravenholdt — expedition end outside). Chain order kept.
+Hillsbrad-style Rogue line (classes=8): Anastasia Miller (1417) to Myrokos Silentform (1416/1424/1425, Ravenholdt — expedition end outside). Chain order kept.
 
 ### 94221/94230/94239/94248 neutral writs — IN optional (Hillsbrad writ precedent)
 
