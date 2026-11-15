@@ -239,9 +239,9 @@ _Booty Bay country._
 
 _Skyborne country._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 178 candidates, 112 IN / 66 OUT (Horde set-aside)
+- [x] Core guide - `riverglades.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 3 personas 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
