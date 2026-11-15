@@ -275,7 +275,7 @@ _Skyborne country._
 - [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1+R2 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 5 rares (4 sole-drop signatures + kill-note Hissperak; Cursed Centaur excluded above-band), 31-pt treasure (25 chest + 6 battered), 21 recipes (18 vendor + 3 exclusive drops)
 
 ---
 
