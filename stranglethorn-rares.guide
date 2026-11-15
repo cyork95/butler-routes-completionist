@@ -1,0 +1,299 @@
+# Stranglethorn Vale - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 8 confirmed flagged rares of Stranglethorn
+# Vale and its fixed world containers. Run it in its own Polestar tab at
+# the end of the core route or standalone. EVERY goal is optional: a rare
+# that is not up never holds the route. Spawn points and levels are the
+# local Forever game data (questie-forever); signature drops are items
+# whose SOLE dropper is the rare, and two of the eight have none - they
+# ship as kill goals with notes. Four rares are a single confirmed point
+# each (plain single-goto steps - a loop needs at least two); four loop
+# their 2-6 confirmed points. No tame lines ship (the data has no
+# tameability flag and the core guide carries no tame corroboration - see
+# docs/companion-unverified.md). Respawn timers are unconfirmed anywhere,
+# so none are stated. No rare in this guide is a giver, ender, or
+# objective of any core-contracted quest (the 1678/1680 ID collision was
+# checked and cleared - see docs/stranglethorn-companions-inventory.md).
+# Booty Bay sits on this map and counts as zone content.
+guide butler-routes-completionist/stranglethorn-rares
+title Stranglethorn Vale - Rares & Treasures
+levels 30-45
+zone Stranglethorn Vale
+faction Alliance
+category Collectibles
+folder Companions
+keywords stranglethorn, rares, treasures, companions
+coords live
+version 1
+
+step Gluggle — the north-west
+
+  zone map 1434
+
+  loop
+  goto 33.92,22.63
+  goto 34.71,21.90
+  goto 34.87,22.71
+  goto 35.52,23.73
+  kill 14487 optional
+  collect 281750 "Murloc Oracle's Dagger" optional
+  note Level 37 rare looping four confirmed points in the north-west; its sole drop is the Murloc Oracle's Dagger. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Roloch — the north
+
+  zone map 1434
+
+  goto 37.37,31.22
+  kill 14488 optional
+  note Level 38 rare at its single confirmed point in the north; the data shows no sole drop for it, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Mosh'Ogg Butcher — the Kurzen compound
+
+  zone map 1434
+
+  goto 49.83,30.87
+  kill 723 optional
+  collect 1680 "Headchopper" optional
+  note Level 44 rare elite at its single confirmed point in the Kurzen compound north-east; its sole drop is the Headchopper at a 7% rate. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Scale Belly — the north-center
+
+  zone map 1434
+
+  loop
+  goto 41.79,48.36
+  goto 42.61,46.49
+  goto 43.44,45.71
+  goto 43.74,47.50
+  kill 1552 optional
+  collect 1604 "Chromatic Sword" optional
+  collect 4478 "Iridescent Scale Leggings" optional
+  note Level 45 rare looping four confirmed points in the north-center; its sole drops are the Chromatic Sword at a 25% rate and the Iridescent Scale Leggings at a 75% rate. No quest takes them.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Verifonix — the center-west
+
+  zone map 1434
+
+  loop
+  goto 34.89,56.02
+  goto 35.91,54.46
+  goto 36.41,55.94
+  goto 36.52,57.06
+  goto 36.55,55.50
+  goto 36.97,53.82
+  kill 14492 optional
+  collect 281896 "Surveyor's Gloves" optional
+  note Level 42 rare looping six confirmed points in the center-west; its sole drop is the Surveyor's Gloves. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Kurmokk — the center
+
+  zone map 1434
+
+  goto 38.11,61.13
+  kill 14491 optional
+  collect 281746 "Kurmokk's Pelt" optional
+  note Level 42 rare at its single confirmed point in the center; its sole drop is Kurmokk's Pelt. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Lord Sakrasis — the west
+
+  zone map 1434
+
+  loop
+  goto 28.33,62.56
+  goto 28.85,62.04
+  kill 2541 optional
+  collect 5028 "Lord Sakrasis' Scepter" optional
+  collect 5029 "Talisman of the Naga Lord" optional
+  note Level 45 rare looping two confirmed points in the west; its sole drops are Lord Sakrasis' Scepter and the Talisman of the Naga Lord, each at a 50% rate. No quest takes them.
+  note Also drops the generic Star Belt pattern among ordinary greens; respawn timer unconfirmed.
+
+step Rippa — the far south
+
+  zone map 1434
+
+  goto 29.23,84.89
+  kill 14490 optional
+  note Level 44 rare at its single confirmed point in the far south; the data shows no sole drop for it, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Solid Chests — the jungle caches
+
+  zone map 1434
+
+  loop
+  goto 24.33,12.65
+  goto 24.99,23.02
+  goto 25.18,29.71
+  goto 25.71,29.50
+  goto 29.95,19.84
+  goto 33.45,15.51
+  goto 42.66,18.75
+  goto 42.97,19.39
+  goto 43.81,9.37
+  goto 43.90,18.34
+  goto 44.43,10.05
+  goto 45.65,9.77
+  goto 20.39,11.72
+  goto 23.25,7.98
+  goto 25.36,9.61
+  goto 26.22,8.62
+  goto 35.51,23.82
+  goto 36.97,31.31
+  goto 37.59,30.80
+  goto 37.75,22.84
+  goto 41.80,35.59
+  goto 46.23,31.77
+  goto 47.16,5.47
+  goto 47.33,40.04
+  goto 48.53,7.06
+  goto 48.68,6.01
+  goto 49.62,7.90
+  goto 27.18,82.72
+  goto 27.32,69.53
+  goto 27.73,62.38
+  goto 29.43,89.55
+  goto 29.55,80.84
+  goto 30.03,87.11
+  goto 33.72,88.19
+  goto 35.22,50.76
+  goto 38.01,82.28
+  goto 39.20,58.67
+  goto 40.50,80.90
+  goto 40.65,85.66
+  goto 41.52,49.61
+  goto 41.59,42.21
+  goto 42.11,44.52
+  goto 42.19,46.37
+  goto 43.35,47.28
+  goto 43.39,49.03
+  goto 44.33,45.06
+  goto 44.77,41.61
+  goto 45.79,42.84
+  goto 47.66,42.43
+  goto 50.47,30.69
+  goto 51.76,27.67
+  goto 28.06,63.65
+  goto 33.40,88.16
+  goto 34.65,51.55
+  goto 42.41,48.09
+  goto 51.54,28.62
+  goto 52.74,28.29
+  interact 2855 optional
+  interact 2857 optional
+  interact 4149 optional
+  note Three generic Solid Chest objects share the jungle, one north (12 points), one north and east (15 points), one south and center (30 points); loot is the usual chest fare. No quest takes any of them.
+  note Respawn timers unconfirmed.
+
+step Nectar barrels and food crates — the jungle stores
+
+  zone map 1434
+
+  loop
+  goto 18.61,12.37
+  goto 22.75,53.81
+  goto 23.31,18.31
+  goto 25.79,9.16
+  goto 26.35,58.49
+  goto 26.47,73.28
+  goto 26.71,48.25
+  goto 26.88,83.09
+  goto 27.05,38.03
+  goto 29.45,23.97
+  goto 32.31,29.63
+  goto 34.36,73.16
+  goto 35.23,51.32
+  goto 35.36,35.99
+  goto 35.80,11.07
+  goto 37.22,65.34
+  goto 37.74,3.07
+  goto 41.51,57.93
+  goto 42.46,18.25
+  goto 45.32,11.39
+  goto 46.36,43.23
+  goto 47.84,29.65
+  goto 50.40,20.23
+  goto 50.81,36.12
+  goto 21.10,16.07
+  goto 24.91,12.58
+  goto 25.95,11.95
+  goto 26.75,19.81
+  goto 27.30,69.64
+  goto 27.31,42.26
+  goto 27.42,76.83
+  goto 27.61,77.59
+  goto 29.51,81.04
+  goto 29.61,19.00
+  goto 30.10,27.20
+  goto 31.53,27.61
+  goto 31.67,36.78
+  goto 32.52,28.13
+  goto 34.57,31.97
+  goto 43.40,20.32
+  goto 43.94,9.30
+  goto 43.97,18.04
+  goto 44.41,7.81
+  goto 46.48,32.12
+  goto 50.27,30.33
+  interact 3706 optional
+  interact 3707 optional
+  note Barrels of Sweet Nectar and their matching Food Crates sit at the same 45 fixed points across the jungle; they hold ordinary low-level goods. No quest takes them.
+  note Respawn timers unconfirmed.
+
+step Cozzle's Footlocker — the north-east
+
+  zone map 1434
+
+  goto 43.33,20.33
+  interact 20691 optional
+  note A fixed Cozzle's Footlocker at its single confirmed point in the north-east; loot is the usual footlocker fare. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Cuts-N-Bruises — Booty Bay
+
+  zone map 1434
+
+  goto 28.36,75.33
+  interact 59847 optional
+  note A fixed Cuts-N-Bruises object at its single confirmed point in Booty Bay; check it for whatever is inside. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Arena Treasure Chest — the Gurubashi Arena
+
+  zone map 1434
+
+  goto 30.52,47.87
+  interact 179697 optional
+  note The Arena Treasure Chest sits at its single confirmed point in the Gurubashi Arena; loot is the usual chest fare. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Kurzen Supply Crate — the Kurzen compound
+
+  zone map 1434
+
+  goto 49.60,7.70
+  interact 424002 optional
+  note A fixed Kurzen Supply Crate at its single confirmed point in the Kurzen compound; loot is the usual crate fare. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Lost Shipping Crate — the Rebel Camp shore
+
+  zone map 1434
+
+  goto 38.00,3.01
+  interact 658116 optional
+  note A fixed Lost Shipping Crate at its single confirmed point on the Rebel Camp shore; loot is the usual crate fare. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Traveler's Cache — the north-west
+
+  zone map 1434
+
+  goto 14.40,27.20
+  interact 674124 optional
+  note A fixed Traveler's Cache at its single confirmed point in the north-west; loot is the usual cache fare. No quest takes it.
+  note Respawn timer unconfirmed.
