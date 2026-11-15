@@ -1,0 +1,679 @@
+# Butler Routes - Tanaris completionist (pack butler-routes-completionist, v1).
+# Every Tanaris accept in the local census (91 quests, docs/tanaris-census.md)
+# appears exactly once as an accept and once as a turnin. The 10 Horde-accept
+# quests stay with the Horde block's census; 2 Lunar Festival elders, 9
+# repeatables, 49 above-band records (the AQ scepter chain, the ectoplasm
+# chain, one EPL link) and 1 broken record are out with reasons in the census.
+# No race header and no class gates: nothing contracted is race- or
+# class-locked. Profession lines ride `when skill` gates with bag notes;
+# item- and object-started quests never wedge (note at the source, sourcing
+# optional or honest bag notes where the data holds no source). Accepts whose
+# pres sit outside every pack contract ride dedicated `when onquest`
+# mini-steps, each standing alone. Expedition turn-ins
+# (Darnassus, Booty Bay, Thousand Needles, Ironforge, Teldrassil, Un'Goro,
+# Feralas, the Hinterlands, Badlands, Durotar and the 2548 mooring) switch
+# frames with zone map lines and switch back.
+guide butler-routes-completionist/tanaris
+title Tanaris - Completionist
+levels 38-50
+zone Tanaris
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Gadgetzan - landfall
+
+  zone map 1446
+
+  tip Gadgetzan holds the chains: Fizzledowser (50.21, 27.48) runs the water survey, Pestlezugg (50.89, 26.96) the silithid work, Chief Engineer Bilgewhizzle (52.46, 28.51) the Wastewander bounties, Trenton (51.41, 28.75) the mithril work, Marin (51.81, 28.66) the noggenfogger line, Curgle (52.36, 26.91) the coast photography, Dirge (52.63, 28.11) the cooking, Nixx (52.48, 27.33) the engineering, Derotain (51.38, 28.67) the armorsmithing, Tran'rek (51.57, 26.76) the south work, Andi Lynn (52.82, 27.4) the Dunemaul ask, Fizbuz (51.66, 27.83) the Tazzik end, and Fizzgrimble (52.51, 27.91) keeps the inn. The WANTED board (51.83, 27.04) names Caliph Scorpidsting. Take every quest in town before you head out.
+  accept 992 -- Gadgetzan Water Survey - Senior Surveyor Fizzledowser; the Dowsing Widget at the Sandsorrow hole
+  accept 2781 -- WANTED: Caliph Scorpidsting - the board; Caliph roams north-east
+  note 2771, 2772 and 2773 need 2760 (The Mithril Order, from McGavan in Stranglethorn) first - take Trenton's trio in its own soft-pre step once 2760 is done.
+  accept 3042 -- Troll Temper - Trenton Lighthammer; twenty Troll Temper
+  accept 2605 -- The Thirsty Goblin - Marin Noggenfogger; a Laden Dew Gland, south
+  accept 5863 -- The Dunemaul Compound - Andi Lynn; Dunemaul ogres, far south-west
+  accept 3362 -- Thistleshrub Valley - Tran'rek; thistleshrubs, far south-west
+  accept 4504 -- Super Sticky - Tran'rek; Super Sticky Tar, in Un'Goro, late
+  note 2944 needs 2941 (The Borrower, from Daryn Lightwind in Teldrassil) first - take the Snapper in its own soft-pre step once 2941 is done.
+  accept 3022 -- Handle With Care - Curgle Cranklehop; Erelas takes it in Teldrassil, late
+  note 6610 needs 6612 (I Know A Guy, from Daryl Riknussun in Ironforge) first - take the Clamlette in its own soft-pre step once 6612 is done.
+  accept 95144 -- Overseas Delivery - Innkeeper Fizzgrimble; Friz Frazzlespark waits at the 2548 mooring, late
+  accept 2741 -- The Super Egg-O-Matic - the Egg-O-Matic; a Hippogryph Egg, in Feralas, late
+  note 1189 needs 1188 (Safety First, from Razzeric in Thousand Needles) first - take it in its own soft-pre step once 1188 is done.
+  accept 351 -- Find OOX-17/TN! - the Distress Beacon in your bags; the Homing Robot waits far south
+  note The OOX-17/TN Distress Beacon (351's starter) is a zone-wide world drop - the guide never wedges on it: bank one if it drops elsewhere, take the quest at the Homing Robot when you have it.
+  accept 1707 -- Water Pouch Bounty - Spigot Operator Luglunket; Wastewander pouches
+  accept 1690 -- Wastewander Justice - Chief Engineer Bilgewhizzle; bandits and thieves, east
+  accept 2768 -- Divino-matic Rod - Chief Engineer Bilgewhizzle; the rod, off Sergeant Bly
+  note Sergeant Bly (Divino-matic Rod, 2768) has no placed spawn in the data - no complete is plotted; take the quest now, find Bly with a group, hand in on return.
+  complete 2768 -- Divino-matic Rod for Chief Engineer Bilgewhizzle
+  turnin 2768 -- Divino-matic Rod - the rod to Chief Engineer Bilgewhizzle
+  accept 3638 -- The Pledge of Secrecy - Nixx Sprocketspring; his signed pledge
+  note Nixx's Signed Pledge (3638) has no placed source in the data - he signs it at his bench; no complete is plotted.
+  complete 3638 -- Nixx's signed pledge for Nixx Sprocketspring
+  turnin 3638 -- The Pledge of Secrecy - back to Nixx Sprocketspring
+
+step Trenton's mithril trio (soft pre)
+
+  zone map 1446
+
+  when onquest 2760
+
+  when skill Blacksmithing 210
+
+  goto 51.41,28.75
+
+  tip Holding 2760 (The Mithril Order, from McGavan in Stranglethorn): Trenton Lighthammer's mithril set - crafted goods, have the pieces in your bags.
+  accept 2771 optional -- A Good Head On Your Shoulders - Trenton Lighthammer; coif and shoulder for the set
+  complete 2771 -- mithril coif and shoulder for Trenton Lighthammer
+  turnin 2771 -- A Good Head On Your Shoulders - the set to Trenton Lighthammer
+  accept 2772 optional -- The World At Your Feet - Trenton Lighthammer; boots and pants for the set
+  complete 2772 -- mithril boots and pants for Trenton Lighthammer
+  turnin 2772 -- The World At Your Feet - the set to Trenton Lighthammer
+  accept 2773 optional -- The Mithril Kid - Trenton Lighthammer; breastplate and gloves for the set
+  complete 2773 -- mithril breastplate and gloves for Trenton Lighthammer
+  turnin 2773 -- The Mithril Kid - the set to Trenton Lighthammer
+  accept 3321 -- Did You Lose This? - Trenton Lighthammer; settle it with Trenton
+  complete 3321 @51.41,28.75 era -- settle it with Trenton Lighthammer, Gadgetzan
+  turnin 3321 -- Did You Lose This? - back to Trenton Lighthammer
+  note The Sandfury trolls (Troll Temper, 3042) carry no placed spawn in the data - no complete is plotted; take the quest now, find the trolls with a group, hand in on return.
+  complete 3042 -- twenty Troll Temper for Trenton Lighthammer
+  turnin 3042 -- Troll Temper - the temper to Trenton Lighthammer
+
+step Gadgetzan - water and Wastewander work
+
+  zone map 1446
+
+  goto 31.38,45.10
+  goto 39.00,29.00
+  goto 61.77,38.17
+  goto 60.41,24.76
+
+  tip The Sandsorrow hole (39.00, 29.00) takes the widget; the Noxious Lair (31.38, 45.10) holds the Centipaar; Caliph Scorpidsting roams (61.77, 38.17), north-east; Wastewander crews work (60.41, 24.76), east.
+  complete 992 @39.00,29.00 era -- the Dowsing Widget at the Sandsorrow hole
+  turnin 992 -- Gadgetzan Water Survey - the widget to Senior Surveyor Fizzledowser
+  accept 82 -- Noxious Lair Investigation - Senior Surveyor Fizzledowser; Centipaar parts
+  complete 82 @31.38,45.10 era -- five Centipaar Insect Parts, the Noxious Lair
+  turnin 82 -- Noxious Lair Investigation - the parts to Alchemist Pestlezugg
+  accept 10 -- The Scrimshank Redemption - Senior Surveyor Fizzledowser; Scrimshank's gear, far south
+  complete 2781 @61.77,38.17 era -- Caliph Scorpidsting's Head, north-east
+  turnin 2781 -- WANTED: Caliph Scorpidsting - the head to Chief Engineer Bilgewhizzle
+  complete 1690 @60.41,24.76 era -- Wastewander bandits and thieves, east
+  turnin 1690 -- Wastewander Justice - back to Chief Engineer Bilgewhizzle
+  accept 1691 -- More Wastewander Justice - Chief Engineer Bilgewhizzle; rogues, assassins and shadow mages
+  complete 1691 @61.66,38.23 era -- rogues, assassins and shadow mages, east
+  turnin 1691 -- More Wastewander Justice - back to Chief Engineer Bilgewhizzle
+  complete 1707 @60.41,24.76 era -- five Wastewander Water Pouches, east
+  turnin 1707 -- Water Pouch Bounty - the pouches to Spigot Operator Luglunket
+
+step Tran'rek's south work (soft pre)
+
+  zone map 1446
+
+  when onquest 2864
+
+  tip Holding 2864 (Tran'rek, from Krazek in Stranglethorn): Tran'rek's scarab ask in Gadgetzan.
+  accept 2865 -- Scarab Shells - Tran'rek; five Uncracked Scarab Shells
+  note The Scarab droppers (2865) have no placed spawn in the data - no complete is plotted; take the quest now, find Scarabs in the desert, hand in on return.
+  complete 2865 -- five Uncracked Scarab Shells for Tran'rek
+  turnin 2865 -- Scarab Shells - the shells to Tran'rek
+  complete 3362 @29.40,64.58 era -- Gnarled Thistleshrubs and Rootshapers, far south-west
+  turnin 3362 -- Thistleshrub Valley - back to Tran'rek
+
+step The Super Snapper (soft pre)
+
+  zone map 1446
+
+  when onquest 2941
+
+  tip Holding 2941 (The Borrower, from Daryn Lightwind in Teldrassil): Curgle Cranklehop's photography ask in Gadgetzan.
+  accept 2944 -- The Super Snapper FX - Curgle Cranklehop; photograph Gammerita, then Daryn in Teldrassil
+
+step Clamlette Surprise (soft pre)
+
+  zone map 1446
+
+  when onquest 6612
+
+  when skill Cooking 225
+
+  goto 52.63,28.11
+
+  tip Holding 6612 (I Know A Guy, from Daryl Riknussun in Ironforge): Dirge Quikcleave's feast - eggs, clams and cheese, have them in your bags.
+  accept 6610 optional -- Clamlette Surprise - Dirge Quikcleave; eggs, clams and cheese
+  complete 6610 -- Giant Eggs, Zesty Clam Meat and Alterac Swiss for Dirge Quikcleave
+  note The Giant Eggs come off high-level birds, the Clam Meat off clams, the Swiss from any cheese vendor - no complete is plotted; hand in with the bags full.
+  turnin 6610 -- Clamlette Surprise - the feast to Dirge Quikcleave
+
+step Gadgetzan - craft lines
+
+  zone map 1446
+
+  when skill Engineering 200
+
+  goto 52.48,27.33
+  goto 51.38,28.67
+
+  tip Nixx Sprocketspring (52.48, 27.33) runs the engineering line; Derotain Mudsipper (51.38, 28.67) the armorsmithing.
+  accept 3639 optional -- Show Your Work - Nixx Sprocketspring; bombs, dynamite and sheep
+  complete 3639 -- Big Iron Bombs, Solid Dynamite and Explosive Sheep for Nixx Sprocketspring
+  note The bombs, dynamite and sheep (3639) are crafted engineering goods - no complete is plotted; hand in with the bags full.
+  turnin 3639 -- Show Your Work - the goods to Nixx Sprocketspring
+  accept 7652 optional -- A Blue Light Bargain - Derotain Mudsipper; the armorsmith's bargain
+  turnin 7652 -- A Blue Light Bargain - back to Derotain Mudsipper
+  accept 7653 optional -- Imperial Plate Belt - Derotain Mudsipper; Thorium Bars for the belt
+  complete 7653 -- Thorium Bars for the Imperial Plate Belt
+  turnin 7653 -- Imperial Plate Belt - the bars to Derotain Mudsipper
+  accept 7654 optional -- Imperial Plate Boots - Derotain Mudsipper; Thorium Bars for the boots
+  complete 7654 -- Thorium Bars for the Imperial Plate Boots
+  turnin 7654 -- Imperial Plate Boots - the bars to Derotain Mudsipper
+  accept 7655 optional -- Imperial Plate Bracer - Derotain Mudsipper; Thorium Bars for the bracer
+  complete 7655 -- Thorium Bars for the Imperial Plate Bracer
+  turnin 7655 -- Imperial Plate Bracer - the bars to Derotain Mudsipper
+  accept 7656 optional -- Imperial Plate Chest - Derotain Mudsipper; Thorium Bars for the chest
+  complete 7656 -- Thorium Bars for the Imperial Plate Chest
+  turnin 7656 -- Imperial Plate Chest - the bars to Derotain Mudsipper
+  accept 7657 optional -- Imperial Plate Helm - Derotain Mudsipper; Thorium Bars for the helm
+  complete 7657 -- Thorium Bars for the Imperial Plate Helm
+  turnin 7657 -- Imperial Plate Helm - the bars to Derotain Mudsipper
+  accept 7658 optional -- Imperial Plate Leggings - Derotain Mudsipper; Thorium Bars for the leggings
+  complete 7658 -- Thorium Bars for the Imperial Plate Leggings
+  turnin 7658 -- Imperial Plate Leggings - the bars to Derotain Mudsipper
+  accept 7659 optional -- Imperial Plate Shoulders - Derotain Mudsipper; Thorium Bars for the shoulders
+  complete 7659 -- Thorium Bars for the Imperial Plate Shoulders
+  turnin 7659 -- Imperial Plate Shoulders - the bars to Derotain Mudsipper
+
+step Gadgetzan - writs banked
+
+  zone map 1446
+
+  goto 50.89,26.96
+  goto 52.49,28.45
+  goto 52.30,26.89
+
+  tip The level-60 writs turn in to Gadgetzan's crafters: Pestlezugg (50.89, 26.96), Luglunket (52.49, 28.45), Jhordy (52.30, 26.89) and Vizzklick (51.01, 27.36) - the robe goes to Yeh'kinya at the port. The writs and their crafted goods have no placed source in the data - bank them if they turn up, hand in at 60.
+  accept 94265 optional -- Craftsman's Writ: Goblin Rocket Fuel - the writ; Goblin Rocket Fuel to Pestlezugg, at 60
+  complete 94265 -- Goblin Rocket Fuel (engineering) for Alchemist Pestlezugg
+  turnin 94265 -- Craftsman's Writ: Goblin Rocket Fuel - the fuel to Alchemist Pestlezugg
+  accept 94277 optional -- Craftsman's Writ: Truesilver Rod - the writ; Truesilver Rod to Luglunket, at 60
+  complete 94277 -- Truesilver Rod (blacksmithing) for Spigot Operator Luglunket
+  turnin 94277 -- Craftsman's Writ: Truesilver Rod - the rod to Spigot Operator Luglunket
+  accept 94289 optional -- Craftsman's Writ: Gyromatic Micro-Adjuster - the writ; the adjustor to Jhordy, at 60
+  complete 94289 -- Gyromatic Micro-Adjustor (engineering) for Jhordy Lapforge
+  turnin 94289 -- Craftsman's Writ: Gyromatic Micro-Adjuster - the adjustor to Jhordy Lapforge
+  accept 94301 optional -- Craftsman's Writ: Big Voodoo Robe - the writ; Big Voodoo Robe to Yeh'kinya, at 60
+  complete 94301 -- Big Voodoo Robe (tailoring) for Yeh'kinya
+  turnin 94301 -- Craftsman's Writ: Big Voodoo Robe - the robe to Yeh'kinya
+  accept 94313 optional -- Craftsman's Writ: White Bandit Mask - the writ; White Bandit Mask to Vizzklick, at 60
+  complete 94313 -- White Bandit Mask (player-crafted) for Vizzklick
+  turnin 94313 -- Craftsman's Writ: White Bandit Mask - the mask to Vizzklick
+  accept 97536 -- Gnomish Garbage - Jhordy Lapforge; back to Jhordy
+  turnin 97536 -- Gnomish Garbage - back to Jhordy Lapforge
+
+step Gadgetzan - noggenfogger and the coast
+
+  zone map 1446
+
+  goto 27.58,67.86
+  goto 55.96,71.17
+
+  tip The dew collectors work (27.58, 67.86) the far south-west; Scrimshank's gear lies (55.96, 71.17) far south; Sprinkle (51.06, 26.87) waits in town.
+  complete 2605 @27.58,67.86 era -- a Laden Dew Gland off the collectors, far south-west
+  turnin 2605 -- The Thirsty Goblin - the gland to Marin Noggenfogger
+  accept 2606 -- In Good Taste - Marin Noggenfogger; Sprinkle takes it
+  turnin 2606 -- In Good Taste - the word to Sprinkle
+  accept 2641 -- Sprinkle's Secret Ingredient - Sprinkle; Violet Tragan, in the Hinterlands, late
+  complete 10 @55.96,71.17 era -- Scrimshank's Surveying Gear, far south
+  turnin 10 -- The Scrimshank Redemption - the gear to Senior Surveyor Fizzledowser
+  accept 110 -- Insect Part Analysis - Senior Surveyor Fizzledowser; Pestlezugg takes it back in town
+  turnin 110 -- Insect Part Analysis - back to Alchemist Pestlezugg
+  accept 113 -- Insect Part Analysis - Alchemist Pestlezugg; back to Fizzledowser
+  turnin 113 -- Insect Part Analysis - back to Senior Surveyor Fizzledowser
+  accept 162 -- Rise of the Silithid - Senior Surveyor Fizzledowser; Gracina takes it in Darnassus, late
+
+step Dunemaul south-west
+
+  zone map 1446
+
+  goto 40.49,54.34
+  goto 41.50,57.81
+  goto 29.48,60.51
+
+  tip The Dunemaul ogres work (40.49, 54.34) the south-west road; Gor'marok the Ravager holds (41.50, 57.81); Tooga patrols (29.48, 60.51) the south coast.
+  complete 5863 @40.49,54.34 era -- Dunemaul Brutes and Enforcers, south-west
+  complete 5863 @41.50,57.81 era -- Gor'marok the Ravager, south-west
+  turnin 5863 -- The Dunemaul Compound - back to Andi Lynn
+  accept 1560 -- Tooga's Quest - Tooga; Torta waits on the east coast, late
+  accept 97540 -- Oasis - Tooga; back to Tooga
+  turnin 97540 -- Oasis - back to Tooga
+
+step Marvon's circle (soft pre)
+
+  zone map 1446
+
+  when onquest 3445
+
+  tip Holding 3445 (The Sunken Temple, from Angelas Moonbreeze in Feralas): Marvon Rivetseeker's circle at his camp (52.71, 45.92).
+  accept 3444 -- The Stone Circle - Marvon Rivetseeker; the Circle in Durotar, late
+  accept 3161 -- Gahz'ridian - Marvon Rivetseeker; thirty Gahz'ridian Ornaments
+  complete 3161 @36.10,56.40 era -- Gahz'ridian Ornaments, the desert floor
+  turnin 3161 -- Gahz'ridian - the ornaments to Marvon Rivetseeker
+
+step A Grave Situation (soft pre)
+
+  zone map 1446
+
+  when onquest 3912
+
+  goto 53.92,23.33
+  goto 53.81,29.06
+
+  tip Holding 3912 (Meet at the Grave, from Donova Snowden in Winterspring): Gaeriyan (53.92, 23.33) and the Conspicuous Gravestone (53.81, 29.06).
+  accept 3913 -- A Grave Situation - Gaeriyan; the gravestone, south-east
+  turnin 3913 -- A Grave Situation - the word to the Conspicuous Gravestone
+  accept 3914 -- Linken's Sword - the Conspicuous Gravestone; Linken takes it in Un'Goro, late
+
+step Torwa's camp
+
+  zone map 1446
+
+  tip Torwa Pathfinder camps (27.50, 42.70) the south-west; his Un'Goro work rides the expedition leg, late. Only the pre-free asks are up now - each follow-up is taken in Un'Goro after its pre turns in.
+  accept 4289 -- The Apes of Un'Goro - Torwa Pathfinder; gorilla pelts, in Un'Goro
+  accept 4290 -- The Fare of Lar'korwi - Torwa Pathfinder; a Threshadon carcass, in Un'Goro
+  note 9052 needs 9063 (Torwa Pathfinder, from Mathrengyl Bearwalker in Darnassus) first - take the poison in its own soft-pre step once 9063 is done.
+
+step Bloodpetal Poison (soft pre)
+
+  zone map 1446
+
+  when onquest 9063
+
+  tip Holding 9063 (Torwa Pathfinder, from Mathrengyl Bearwalker in Darnassus): Torwa's poison ask at his camp (27.50, 42.70). The follow-ups (9051, 9053) are taken in Un'Goro after the poison turns in.
+  accept 9052 only Druid -- Bloodpetal Poison - Torwa Pathfinder; Gorishi stings and Bloodcap, in Un'Goro
+
+step Bungle in the Jungle (soft pre)
+
+  zone map 1446
+
+  when onquest 4493
+
+  tip Holding 4493 (March of the Silithid, from Gracina Spiritmight in Darnassus): Pestlezugg's silithid ask in Gadgetzan (50.89, 26.96). The follow-ups (4507, then 4508) are taken in Un'Goro after each pre turns in.
+  accept 4496 -- Bungle in the Jungle - Alchemist Pestlezugg; scent gland and soil, in Un'Goro
+
+step Steamwheedle Port - landfall
+
+  zone map 1446
+
+  tip Steamwheedle Port holds the coast chains: Stoley (67.11, 23.98) runs the shipment, Security Chief Bilgewhizzle (67.06, 23.89) the pirates and bounties, Haughty Modiste (66.56, 22.27) the hats, Yeh'kinya (66.99, 22.36) the tablets, Ironboot (66.89, 24.03) the Mosh'aru follow-ups, Marvon's neighbour Yorba (67.04, 24.01) the Yuka word.
+  accept 2875 -- WANTED: Andre Firebeard - the board; Firebeard's head, south camp
+  accept 97530 -- Dunemaul Dues - Security Chief Bilgewhizzle; a bangle off the Dunemaul
+  accept 8365 -- Pirate Hats Ahoy! - Haughty Modiste; twenty pirate hats, south
+  accept 8366 -- Southsea Shakedown - Security Chief Bilgewhizzle; pirates, south
+  accept 3520 -- Screecher Spirits - Yeh'kinya; freed spirits, in Feralas, late
+  note 2873 needs 2872 (Stoley's Debt, from Sea Wolf in Stranglethorn) first - take the shipment in its own soft-pre step once 2872 is done.
+
+step Stoley's Shipment (soft pre)
+
+  zone map 1446
+
+  when onquest 2872
+
+  goto 67.11,23.98
+  goto 72.13,46.73
+
+  tip Holding 2872 (Stoley's Debt, from Sea Wolf in Stranglethorn): Stoley's shipment at the port (67.11, 23.98); the Stolen Cargo lies (72.13, 46.73), south-east.
+  accept 2873 -- Stoley's Shipment - Stoley; the Stolen Cargo, south-east
+  complete 2873 @72.13,46.73 era -- Stoley's Shipment from the Stolen Cargo, south-east
+  turnin 2873 -- Stoley's Shipment - the shipment to Stoley
+
+step Southsea pirates
+
+  zone map 1446
+
+  tip Andre Firebeard holds (73.37, 47.14) the south camp; the Southsea crews work (72.18, 46.65) the shore.
+  complete 2875 @73.37,47.14 era -- Firebeard's Head, south camp
+  turnin 2875 -- WANTED: Andre Firebeard - the head to Security Chief Bilgewhizzle
+  complete 8366 @72.18,46.65 era -- Southsea pirates, freebooters, dock workers and swashbucklers, south shore
+  turnin 8366 -- Southsea Shakedown - back to Security Chief Bilgewhizzle
+  complete 8365 @72.18,46.65 era -- twenty Southsea Pirate Hats, south shore
+  turnin 8365 -- Pirate Hats Ahoy! - the hats to Haughty Modiste
+  complete 97530 @40.49,54.34 era -- a Brilliantly Polished Bangle off the Dunemaul, south-west
+  turnin 97530 -- Dunemaul Dues - the bangle to Security Chief Bilgewhizzle
+  accept 2874 -- Deliver to MacKinley - Stoley; Sea Wolf takes it in Booty Bay, late
+  note The Ship Schedule (2876's starter) rides inside the Pirate's Footlocker, a rare take from the cove's Southsea crews - farm this step until one turns up, then take the quest.
+  collect 9250 @72.95,46.51 era optional -- a Pirate's Footlocker off the Southsea crews, holding the Ship Schedule, south shore
+  accept 2876 -- Ship Schedules - the Ship Schedule in your bags; Security Chief Bilgewhizzle takes it at the port
+  turnin 2876 -- Ship Schedules - the schedule to Security Chief Bilgewhizzle
+
+step Yorba's word
+
+  zone map 1446
+
+  tip Yorba Screwspigot (67.04, 24.01) sends the Yuka word out of the zone.
+  accept 4324 -- Yuka Screwspigot - Yorba Screwspigot; Yuka takes it in the Badlands, late
+
+step Tazzik's dues (soft pre)
+
+  zone map 1446
+
+  when onquest 95296
+
+  goto 67.60,23.15
+  goto 67.35,23.98
+  goto 51.66,27.83
+
+  tip Holding 95296 (Shipping and Handling, from Friz Frazzlespark's 2548 mooring): Wharfmaster Steamfizzle (67.60, 23.15) starts the collection; Tazzik (67.35, 23.98) pays; Fizbuz Mithril (51.66, 27.83) brokers in Gadgetzan.
+  accept 95383 -- Shipping and Handling - Wharfmaster Steamfizzle; Tazzik takes it
+  turnin 95383 -- Shipping and Handling - the handling to Tazzik
+  accept 95312 -- Coming to Collect - Tazzik; Fizbuz takes it in Gadgetzan
+  turnin 95312 -- Coming to Collect - the word to Fizbuz Mithril
+  accept 95321 -- Tazzik's Dues - Fizbuz Mithril; settle Tazzik at the port
+  complete 95321 @67.35,23.98 era -- settle Tazzik at the port
+  turnin 95321 -- Tazzik's Dues - back to Tazzik
+  accept 95472 -- Consolation Prize - Tazzik; Friz takes it at the 2548 mooring, late
+
+step The Desert Wolf and the robot
+
+  zone map 1446
+
+  goto 43.00,41.30
+  goto 45.74,37.74
+  goto 60.23,64.72
+  goto 37.60,81.40
+
+  tip The Odd Totem (43.00, 41.30) sets the wolf challenge ending at the Old Totem (45.73, 37.76); the Homing Robot OOX-17/TN (60.23, 64.72) waits far south; the Stone Watcher (37.60, 81.40) stands at Uldum.
+  accept 95753 -- Challenge of the Desert Wolf - the Odd Totem; reach the Old Totem
+  complete 95753 @45.73,37.76 era -- reach the Old Totem
+  turnin 95753 -- Challenge of the Desert Wolf - back to the Odd Totem
+  turnin 351 -- Find OOX-17/TN! - the beacon to the Homing Robot OOX-17/TN
+  accept 648 -- Rescue OOX-17/TN! - the Homing Robot OOX-17/TN; escort it to the port, then Oglethorpe in Booty Bay
+  complete 648 @67.06,23.16 era -- escort OOX-17/TN to Steamwheedle Port
+  accept 2954 -- The Stone Watcher - the Stone Watcher of Norgannon; kill it, then the pedestal
+  complete 2954 @37.60,81.40 era -- the Stone Watcher of Norgannon, Uldum
+  turnin 2954 -- The Stone Watcher - back to the Uldum Pedestal
+  accept 2977 -- Return to Ironforge - the Uldum Pedestal; Karnik takes it in Ironforge, late
+  complete 1560 @66.58,25.67 era -- Torta, east coast
+  turnin 1560 -- Tooga's Quest - the word to Torta
+
+step Safety First (soft pre)
+
+  zone map 1446
+
+  when onquest 1188
+
+  tip Holding 1188 (Safety First, from Razzeric in Thousand Needles): Shreev's delivery in Gadgetzan (50.96, 27.24); Razzeric takes it back, late.
+  accept 1189 -- Safety First - Shreev; Razzeric takes it in Thousand Needles, late
+
+step Feralas - screechers and the egg
+
+  zone map 1444
+
+  goto 42.01,36.27
+  goto 53.66,74.37
+
+  tip Freed spirits haunt (42.01, 36.27) the Feralas woods; Hippogryph Eggs lie (53.66, 74.37) south-east.
+  complete 3520 @42.01,36.27 era -- three Screecher Spirits freed, Feralas
+  turnin 3520 -- Screecher Spirits - the word back to Yeh'kinya
+  accept 3527 -- The Prophecy of Mosh'aru - Yeh'kinya; the two tablets
+  note The First and Second Mosh'aru Tablets (3527) drop off Theka and Velratha, who carry no placed spawn in the data - no complete is plotted; take the quest now, find them with a group, hand in on return.
+  complete 3527 -- the First and Second Mosh'aru Tablets for Yeh'kinya
+  turnin 3527 -- The Prophecy of Mosh'aru - the tablets to Yeh'kinya
+  accept 4787 -- The Ancient Egg - Yeh'kinya; the Egg, in the Hinterlands, late
+  complete 2741 @53.66,74.37 era -- a Hippogryph Egg, Feralas
+  turnin 2741 -- The Super Egg-O-Matic - the egg back to the machine in Gadgetzan
+  zone map 1446
+
+step The Hinterlands - gammerita, tragan and the egg
+
+  zone map 1425
+
+  goto 80.40,58.23
+  goto 39.50,60.03
+  goto 57.58,86.79
+
+  tip Gammerita swims (80.40, 58.23) the Hinterlands shore; Violet Tragan grows (39.50, 60.03) inland; the Ancient Egg waits (57.58, 86.79) south (the data also shows an Arathi point for the Egg - this one rides the route).
+  complete 2944 @80.40,58.23 era -- photograph Gammerita, the Hinterlands
+  complete 2641 @39.50,60.03 era -- Violet Tragan, the Hinterlands
+  turnin 2641 -- Sprinkle's Secret Ingredient - the tragan back to Sprinkle
+  accept 2661 -- Delivery for Marin - Sprinkle; back to Marin
+  turnin 2661 -- Delivery for Marin - back to Marin Noggenfogger
+  accept 2662 -- Noggenfogger Elixir - Marin Noggenfogger; the elixir
+  turnin 2662 -- Noggenfogger Elixir - back to Marin Noggenfogger
+  complete 4787 @57.58,86.79 era -- the Ancient Egg, the Hinterlands
+  turnin 4787 -- The Ancient Egg - the egg back to Yeh'kinya
+  accept 3528 -- The God Hakkar - Yeh'kinya; the filled Egg
+  note The Filled Egg of Hakkar (3528) has no placed source in the data - no complete is plotted; take the quest now, fill the Egg with a group, hand in on return.
+  complete 3528 -- the Filled Egg of Hakkar for Yeh'kinya
+  turnin 3528 -- The God Hakkar - the filled Egg to Yeh'kinya
+  zone map 1446
+
+step Steamwheedle - the tablets' return
+
+  zone map 1446
+
+  tip Back at the port: Ironboot (66.89, 24.03) digs the follow-ups; Yeh'kinya (66.99, 22.36) reads them.
+  accept 5065 -- The Lost Tablets of Mosh'aru - Prospector Ironboot; the tablets, inside Uldaman
+  note The Third and Fourth Tablets (5065) sit inside Uldaman in the Badlands - no complete is plotted on this frame; take the quest now, find the tablets inside with a group, hand in on return.
+  complete 5065 -- the Third and Fourth Mosh'aru Tablets for Prospector Ironboot
+  turnin 5065 -- The Lost Tablets of Mosh'aru - the tablets to Prospector Ironboot
+  accept 4788 -- The Final Tablets - Prospector Ironboot; the final tablets
+  note The Fifth and Sixth Tablets (4788) have no placed source in the data - no complete is plotted; take the quest now, find the tablets with a group, hand in on return.
+  complete 4788 -- the Fifth and Sixth Mosh'aru Tablets for Prospector Ironboot
+  turnin 4788 -- The Final Tablets - the tablets to Prospector Ironboot
+  accept 8181 -- Confront Yeh'kinya - Prospector Ironboot; Yeh'kinya takes it
+  turnin 8181 -- Confront Yeh'kinya - back to Yeh'kinya
+  accept 8182 -- The Hand of Rastakhan - Prospector Ironboot; Molthor takes it in Stranglethorn, late
+
+step Durotar - the stone circle
+
+  zone map 1413
+
+  tip Marvon's Chest lies (62.50, 38.54) in Durotar.
+  complete 3444 @62.50,38.54 era -- the Stone Circle from Marvon's Chest, Durotar
+  zone map 1446
+
+step The Stone Circle - the return (soft pre)
+
+  zone map 1446
+
+  when onquest 3444
+
+  tip Holding the Circle (3444, taken at Marvon's camp after the Feralas pre): hand it back to Marvon Rivetseeker (52.71, 45.92).
+  turnin 3444 -- The Stone Circle - the circle to Marvon Rivetseeker
+
+step Marvon's return
+
+  zone map 1446
+
+  tip Back at Marvon's camp (52.71, 45.92): take the Temple pair.
+  accept 3446 -- Into the Depths - Marvon Rivetseeker; the Altar, then the Temple, late
+  accept 3447 -- Secret of the Circle - Marvon Rivetseeker; the Idol, then the Temple, late
+  note The Altar and Idol of Hakkar (3446, 3447) sit inside the Sunken Temple and carry no placed point in the data - no completes are plotted; take both quests now, find the shrines inside with a group, hand the word back to Marvon on return.
+
+step Sunken Temple - the shrines
+
+  zone map 1434
+
+  tip The Sunken Temple holds the Altar and the Idol inside - go in with a group.
+  turnin 3446 -- Into the Depths - the Altar's word to Marvon Rivetseeker
+  turnin 3447 -- Secret of the Circle - the Idol's word to Marvon Rivetseeker
+  zone map 1446
+
+step Un'Goro - torwa and the hives
+
+  zone map 1449
+
+  goto 60.40,16.74
+  goto 68.74,56.71
+  goto 58.00,78.00
+  goto 79.65,49.83
+  goto 68.14,12.56
+  goto 31.19,36.42
+  goto 43.32,76.41
+  goto 46.41,35.78
+
+  tip Torwa's Un'Goro work: gorillas (60.40, 16.74) north, the carcass (68.74, 56.71) east, Lar'korwi's mates (58.00, 78.00) and Lar'korwi (79.65, 49.83) south, U'cha (68.14, 12.56) north-east, devilsaurs (31.19, 36.42) west, the Gorishi (43.32, 76.41) south-west, tar beasts (46.41, 35.78) central.
+  complete 4289 @60.40,16.74 era -- gorilla, stomper and thunderer pelts, Un'Goro
+  turnin 4289 -- The Apes of Un'Goro - the pelts to Torwa Pathfinder
+  accept 4301 -- The Mighty U'cha - Torwa Pathfinder; U'cha's pelt, north-east
+  complete 4301 @68.14,12.56 era -- U'cha's pelt, Un'Goro
+  turnin 4301 -- The Mighty U'cha - the pelt to Torwa Pathfinder
+  complete 4290 @68.74,56.71 era -- a Threshadon carcass piece, Un'Goro
+  turnin 4290 -- The Fare of Lar'korwi - the carcass to Torwa Pathfinder
+  accept 4291 -- The Scent of Lar'korwi - Torwa Pathfinder; pheromone glands, south
+  complete 4291 @58.00,78.00 era -- Ravasaur pheromone glands, Un'Goro
+  turnin 4291 -- The Scent of Lar'korwi - the glands to Torwa Pathfinder
+  accept 4292 -- The Bait for Lar'korwi - Torwa Pathfinder; Lar'korwi's Head, south
+  complete 4292 @79.65,49.83 era -- Lar'korwi's Head, Un'Goro
+  turnin 4292 -- The Bait for Lar'korwi - the head to Torwa Pathfinder
+  complete 4504 @46.41,35.78 era -- Super Sticky Tar off the tar beasts, Un'Goro
+  turnin 4504 -- Super Sticky - the tar back to Tran'rek
+  zone map 1446
+
+step Bloodpetal Poison - the Un'Goro work (soft pre)
+
+  zone map 1449
+
+  when onquest 9052
+
+  goto 43.32,76.41
+  goto 24.10,53.79
+  goto 31.19,36.42
+
+  tip Holding the poison (9052, taken at Torwa's camp after the Darnassus pre): Gorishi stings (43.32, 76.41), Bloodcap (24.10, 53.79) and a Devilsaur (31.19, 36.42), Un'Goro.
+  complete 9052 only Druid @43.32,76.41 era -- Gorishi stings, Un'Goro
+  complete 9052 only Druid @24.10,53.79 era -- Bloodcap, Un'Goro
+  turnin 9052 only Druid -- Bloodpetal Poison - the poison to Torwa Pathfinder
+  accept 9051 only Druid -- Toxic Test - Torwa Pathfinder; a Devilsaur, west
+  complete 9051 only Druid @31.19,36.42 era -- a Devilsaur, Un'Goro
+  turnin 9051 only Druid -- Toxic Test - back to Torwa Pathfinder
+  accept 9053 only Druid -- A Better Ingredient - Torwa Pathfinder; a Putrid Vine, south
+  note Atal'alarion (Putrid Vine, 9053) has no placed spawn in the data - no complete is plotted; find Atal'alarion in the south with a group.
+  complete 9053 only Druid -- a Putrid Vine for Torwa Pathfinder
+  turnin 9053 only Druid -- A Better Ingredient - the vine to Torwa Pathfinder
+  zone map 1446
+
+step Bungle in the Jungle - the Un'Goro work (soft pre)
+
+  zone map 1449
+
+  when onquest 4496
+
+  goto 43.32,76.41
+  goto 57.29,61.75
+
+  tip Holding the bungle (4496, taken from Pestlezugg after the Darnassus pre): a scent gland (43.32, 76.41), soil off the devilsaurs (57.29, 61.75) and the queen's brain (43.85, 81.39), Un'Goro.
+  complete 4496 @43.32,76.41 era -- a Gorishi scent gland, Un'Goro
+  complete 4496 @57.29,61.75 era -- Un'Goro soil off the devilsaurs, Un'Goro
+  turnin 4496 -- Bungle in the Jungle - the gland and soil back to Alchemist Pestlezugg
+  accept 4507 -- Pawn Captures Queen - Alchemist Pestlezugg; the queen's brain, south-west
+  complete 4507 @43.85,81.39 era -- the Gorishi Queen's brain, Un'Goro
+  turnin 4507 -- Pawn Captures Queen - the brain back to Alchemist Pestlezugg
+  accept 4508 -- Calm Before the Storm - Alchemist Pestlezugg; Gracina takes it in Darnassus, late
+  zone map 1446
+
+step Linken's Sword - the delivery (soft pre)
+
+  zone map 1449
+
+  when onquest 3914
+
+  tip Holding Linken's Sword (3914, taken at the gravestone after the Winterspring pre): Linken (44.66, 8.10) takes it in Un'Goro.
+  turnin 3914 -- Linken's Sword - the sword to Linken
+  zone map 1446
+
+step Darnassus - the silithid word
+
+  zone map 1457
+
+  tip Gracina Spiritmight (41.83, 85.62) takes the silithid word in Darnassus.
+  turnin 162 -- Rise of the Silithid - the word to Gracina Spiritmight
+  zone map 1446
+
+step Calm Before the Storm - the Darnassus word (soft pre)
+
+  zone map 1457
+
+  when onquest 4508
+
+  tip Holding the storm (4508, taken from Pestlezugg after the Un'Goro bungle): Gracina Spiritmight (41.83, 85.62) takes it in Darnassus.
+  turnin 4508 -- Calm Before the Storm - the word to Gracina Spiritmight
+  zone map 1446
+
+step Teldrassil - the coast photography
+
+  zone map 1438
+
+  tip Erelas Ambersky (55.50, 92.05) takes the handling at Rut'theran, Teldrassil.
+  turnin 3022 -- Handle With Care - the word to Erelas Ambersky
+  zone map 1446
+
+step The Super Snapper - the Teldrassil word (soft pre)
+
+  zone map 1438
+
+  when onquest 2944
+
+  tip Holding the Snapper (2944, taken from Curgle after the Teldrassil pre): Daryn Lightwind (55.41, 92.23) takes the snapshot at Rut'theran.
+  turnin 2944 -- The Super Snapper FX - the snapshot to Daryn Lightwind
+  zone map 1446
+
+step Booty Bay - the coast deliveries
+
+  zone map 1434
+
+  goto 27.78,77.07
+  goto 28.36,76.35
+  goto 15.04,15.13
+
+  tip Sea Wolf MacKinley (27.78, 77.07) takes Stoley's delivery; Oglethorpe Obnoticus (28.36, 76.35) the robot's word; Molthor (15.04, 15.13) the hand, far south.
+  turnin 2874 -- Deliver to MacKinley - the delivery to Sea Wolf MacKinley
+  turnin 648 -- Rescue OOX-17/TN! - the robot to Oglethorpe Obnoticus
+  turnin 8182 -- The Hand of Rastakhan - the hand to Molthor
+  zone map 1446
+
+step Safety First - the Thousand Needles word (soft pre)
+
+  zone map 1441
+
+  when onquest 1189
+
+  tip Holding the delivery (1189, taken from Shreev after the Thousand Needles pre): Razzeric (80.33, 76.09) takes it back in Thousand Needles.
+  turnin 1189 -- Safety First - the delivery to Razzeric
+  zone map 1446
+
+step Ironforge - the pedestal's word
+
+  zone map 1455
+
+  tip Historian Karnik (77.54, 11.82) takes the pedestal's word in Ironforge.
+  turnin 2977 -- Return to Ironforge - the word to Historian Karnik
+  zone map 1446
+
+step Badlands - yuka's word
+
+  zone map 1418
+
+  tip Yuka Screwspigot takes the word here in the Badlands (4.90, 94.70 - the data shows a second Yuka spawn in the Burning Steppes at 66.06, 21.95, but this one carries the chain onward).
+  turnin 4324 -- Yuka Screwspigot - the word to Yuka Screwspigot
+  zone map 1446
+
+step The 2548 mooring - friz
+
+  zone map 2548
+
+  tip Friz Frazzlespark (77.10, 52.90) takes the mooring delivery on the 2548 frame.
+  turnin 95144 -- Overseas Delivery - the delivery to Friz Frazzlespark
+  zone map 1446
+
+step Consolation Prize - the mooring (soft pre)
+
+  zone map 2548
+
+  when onquest 95472
+
+  tip Holding the prize (95472, taken from Tazzik after the Steamwheedle chain): Friz Frazzlespark (77.10, 52.90) takes it at the 2548 mooring.
+  turnin 95472 -- Consolation Prize - the prize to Friz Frazzlespark
+  zone map 1446
