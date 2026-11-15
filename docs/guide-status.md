@@ -375,7 +375,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Lint/playtest clean - 0 errors, 36 warnings (all dispositioned), playtest 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 9 rares (4 sole-drop signatures, 4 kill-note, Quartermaster come-back + bank note), 32-pt treasure (15 chest + 17 footlocker), 9 recipes (all exclusive drops)
 
 ### Felwood — contested (Kalimdor)
 

@@ -30,7 +30,7 @@ Trinkets, Elemental LW) accept in-zone at their minLevel.
 | 3181 | The Horn of the Beast | 48/40 | item 10000 Margol's Horn <- 5833 Margol the Rager, SG-only (73.52,82.31) | item-start IN; ender Pebblebitty is Loch Modan (expedition turn-in); next 3182 lives in Loch Modan (home guide) |
 | 3367 | Suntara Stones | 48/40 | 8284 Dorius Stonetender (63.92,60.99) | escort event @74.47,19.44; next 3368 |
 | 3368 | Suntara Stones | 48/40 | object 175704 Singed Letter (74.45,19.29) | object-start; ender Thorius is Ironforge (expedition turn-in); next 3371 Ironforge (out of scope, noted) |
-| 3372 | Release Them | 52/40 | 8417 Dying Archaeologist (41.14,25.56) | accept-only in data (no end; 10442 artifact sourceless) — contracted with honest note; pre 3371 Ironforge is out-of-contract (structural warning); next 3566 |
+| 3372 | Release Them | 52/40 | 8417 Dying Archaeologist (41.14,25.56) | 10442 artifact sourceless (placeless complete + bag note); pre 3371 Ironforge is out-of-contract (structural warning); next 3566 |
 | 3377 | Prayer to Elune | 50/40 | 8436 Zamael Lunthistle (29.57,26.29) | kill-the-giver objective; next 3378 |
 | 3378 | Prayer to Elune | 50/40 | Zamael (29.57,26.29) | prayer drops off in-zone Twilight cultists; ender Astarii is Teldrassil/Darnassus (expedition turn-in) |
 | 3379 | Shadoweaver | 50/46 | 8439 Nilith Lokrav (40.99,74.95), Tailoring | profession-gated; next 3385 |
@@ -41,15 +41,15 @@ Trinkets, Elemental LW) accept in-zone at their minLevel.
 | 3443 | Forging the Shaft | 48/40 | Kalaran Windblade | 8x Thorium Plated Dagger drops off in-zone Dark Iron mobs per data (normal collect, not R5) |
 | 3452 | The Flame's Casing | 50/40 | Kalaran Windblade | Symbol off in-zone Twilight cultists |
 | 3453 | The Torch of Retribution | 50/40 | Kalaran Windblade | kill-the-giver; next 3454 |
-| 3454 | The Torch of Retribution | 50/40 | Kalaran Windblade | accept-only in data (no end) — contracted with honest note; next 3462 |
+| 3454 | The Torch of Retribution | 50/40 | Kalaran Windblade | completes on the spot; turn-in is object 149047 Torch of Retribution (39.06,39.07); next 3462 |
 | 3462 | Squire Maltrake | 50/40 | Kalaran -> 8509 Squire Maltrake (39.17,39) | next 3463 |
 | 3463 | Set Them Ablaze! | 52/40 | Squire Maltrake | 4 braziers, all in-zone; next 3481 |
-| 3481 | Trinkets... | 50/40 | object 149502 Hoard (38.85,38.99) | object-start, accept-only (no end; next 4022 Burning Steppes, out of scope) — contracted with honest note |
+| 3481 | Trinkets... | 50/40 | object 149502 Hoard (38.85,38.99) | object-start; turn-in is the Hoard object itself; next 4022 Burning Steppes is out of scope (chain named) |
 | 3566 | Rise, Obsidion! | 52/45 | 8417 Dying Archaeologist | heads off Lathoric + Obsidion (both in-zone); ender Thorius is Ironforge (expedition turn-in) |
 | 4264 | A Crumpled Up Note | 58/50 | item 11446 <- 78 droppers incl. in-zone Anvilrage pack | item-start IN (SG is a genuine source); pre 4242 Burning Steppes out-of-contract (structural warning); ender Windsor has no spawn in data (note-only turn-in); next 4282 noted |
-| 4449 | Caught! | 45/43 | object 173265 Wooden Outhouse (65.59,62.17) | object-start, accept-only (no end) — contracted with honest note; next 4450 |
+| 4449 | Caught! | 45/43 | object 173265 Wooden Outhouse (65.59,62.17) | object-start; turn-in is the Outhouse object itself; next 4450 |
 | 4450 | Ledger from Tanaris | 46/43 | outhouse (65.59,62.17) | 20 shafts off in-zone Glassweb Spiders; ledger/package sourceless (chain note); flameberge off 9916 Jarquia, Swamp of Sorrows (expedition); ender Goodsteel is Tanaris (expedition turn-in) |
-| 4451 | The Key to Freedom | 47/43 | item 11818 <- 6 in-zone Dark Iron droppers | item-start, accept-only (no end) — contracted with honest note |
+| 4451 | The Key to Freedom | 47/43 | item 11818 <- 6 in-zone Dark Iron droppers | item-start, completes on the spot; turn-in is the Outhouse object (65.59,62.17) |
 | 5144 | Elemental Leatherworking | 55/40 | 7868 Sarah Tanner (63.56,75.97), LW225 | profession-gated; the SG variant — 5141 accepts Feralas, 5143 accepts TN/Feralas (see BORDERLINE) |
 | 7701 | WANTED: Overseer Maltorius | 50/45 | board 179827 (37.65,26.47) | head off Maltorius (40.77,35.89); ender Longstriker in-zone |
 | 7704 | Look at the Size of It! | 50/45 | item 18950 (sourceless) | item-start with bag note (Stormwind/Westfall handling); ender Sootsmoker in-zone |
@@ -67,7 +67,7 @@ Trinkets, Elemental LW) accept in-zone at their minLevel.
 | 94299 | Craftsman's Writ: Nightscape Shoulders | 60/m1 | item-start (sourceless writ) | R5 Leatherworking; ender Sootsmoker in-zone |
 | 94311 | Craftsman's Writ: Red Mageweave Pants | 60/m1 | item-start (sourceless writ) | R5 Tailoring; ender Longstriker in-zone |
 
-No-turn-in records (5, Ironforge/Redridge precedent): 3372, 3454, 3481, 4449, 4451.
+No-turn-in records: none — all 39 contracted quests end somewhere in the data (four at objects, one note-only at Windsor). Correction history: the first census pass misread empty end-NPC lists as missing turn-ins for 3372/3454/3481/4449/4451; the exact end-object check (149047/148498/173265/149502, all spawning in 1427) corrected this before the guide was written. Only 4264's Windsor turn-in is note-only (no spawn anywhere in the data).
 
 ## OUT - Horde set-aside (19)
 
