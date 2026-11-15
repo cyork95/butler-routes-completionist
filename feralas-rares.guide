@@ -1,0 +1,137 @@
+# Feralas - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 9 confirmed flagged rares of Feralas and
+# its fixed world containers. Run it in its own Polestar tab at the end of
+# the core route or standalone. EVERY goal is optional: a rare that is not
+# up never holds the route. Spawn points and levels are the local Forever
+# game data (questie-forever); signature drops are items whose SOLE dropper
+# is the rare, and two of the nine have none - they ship as kill goals with
+# notes. Every rare here is a single confirmed point, so every step is a
+# plain single-goto step (a loop needs at least two). No tame lines ship
+# (the data has no tameability flag and the core guide carries no tame
+# corroboration - see docs/companion-unverified.md). Respawn timers are
+# unconfirmed anywhere, so none are stated. No rare in this guide is a
+# giver, ender, or objective of any core-contracted quest. The three
+# above-band Dire Maul rares (Mushgog, The Razza, Skarr) are deliberately
+# excluded - see docs/feralas-companions-inventory.md.
+guide butler-routes-completionist/feralas-rares
+title Feralas - Rares & Treasures
+levels 38-50
+zone Feralas
+faction Alliance
+category Collectibles
+folder Companions
+keywords feralas, rares, treasures, companions
+coords live
+version 1
+
+step Arash-ethis — the north-center
+
+  zone map 1444
+
+  goto 44.79,25.02
+  kill 5349 optional
+  collect 284866 "Windserpent Scaled Cloak" optional
+  note Level 49 rare wind serpent at its single confirmed point north of the center; its sole drop is the Windserpent Scaled Cloak. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Snarler — the east
+
+  zone map 1444
+
+  goto 80.22,39.57
+  kill 5356 optional
+  collect 285043 "Snarling Fang" optional
+  note Level 42 rare at its single confirmed point in the east; its sole drop is the Snarling Fang. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Old Grizzlegut — the east
+
+  zone map 1444
+
+  goto 59.46,59.44
+  kill 5352 optional
+  collect 284843 "Sturdy Bearhide Legguards" optional
+  note Level 43 rare bear at its single confirmed point in the east; its sole drop is the Sturdy Bearhide Legguards. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Diamond Head — the center
+
+  zone map 1444
+
+  goto 36.60,51.41
+  kill 5345 optional
+  note Level 45 rare at its single confirmed point in the center; the data shows no sole drop for it, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Lady Szallah — the far south
+
+  zone map 1444
+
+  goto 28.20,67.60
+  kill 5343 optional
+  collect 284850 "Naga Caster's Staff" optional
+  note Level 46 rare naga at its single confirmed point in the far south; its sole drop is the Naga Caster's Staff. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Bloodroar the Stalker — the south
+
+  zone map 1444
+
+  goto 52.03,60.91
+  kill 5346 optional
+  collect 285047 "Yeti Hide Stompers" optional
+  note Level 48 rare at its single confirmed point in the south; its sole drop is the Yeti Hide Stompers. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Antilus the Soarer — the south-east
+
+  zone map 1444
+
+  goto 55.60,74.15
+  kill 5347 optional
+  collect 284847 "Hippogryph Down Leggings" optional
+  note Level 48 rare at its single confirmed point in the south-east; its sole drop is the Hippogryph Down Leggings. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Gnarl Leafbrother — the east
+
+  zone map 1444
+
+  goto 69.24,57.31
+  kill 5354 optional
+  note Level 44 rare treant at its single confirmed point in the east; the data shows no sole drop for it, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Qirot — the far east
+
+  zone map 1444
+
+  goto 76.65,66.24
+  kill 5350 optional
+  collect 284859 "Silithid Sinew Crossbow" optional
+  note Level 47 rare silithid at its single confirmed point in the far east; its sole drop is the Silithid Sinew Crossbow. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Old Crate — the east
+
+  zone map 1444
+
+  goto 76.60,48.00
+  interact 442688 optional
+  note A lone crate in the east; no loot table is confirmed in the data, so check it for whatever is inside.
+
+step Grimtotem Chest — the east
+
+  zone map 1444
+
+  goto 69.60,43.30
+  interact 443727 optional
+  note A lone chest in the east; no loot table is confirmed in the data, so check it for whatever is inside.
+
+step Old Chest — the far east
+
+  zone map 1444
+
+  goto 79.20,49.35
+  interact 642451 optional
+  note A lone chest in the far east - it is the turn-in object of The Old Key, a quest with no accept in the data that no guide routes; no loot table is confirmed, so check it for whatever is inside.
