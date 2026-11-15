@@ -8318,6 +8318,120 @@
           "name": "The Super Egg-O-Matic"
         }
       ]
+    },
+    {
+      "id": "badlands",
+      "name": "Badlands",
+      "order": 27,
+      "levelBand": "28-40",
+      "summary": "Set 5 contested-zone Alliance route: the Theldurin/Myzrael and Lost Fragments chains, the Rigglefuzz gadgetzan outpost lines, the Lotwil/Lucien elemental chains with the Hard triple finale, the Tremors of the Earth chain, the Ryedol/Hammertoe survey chain, the Martek on-ramp, the Yagyin Ironforge delivery, the Murdaloc object-start, the four Craftsman writs, and the Dorgaron Safety Checks; expedition turn-ins to Arathi, Ironforge and Loch Modan.",
+      "quests": [
+        {
+          "id": 656
+        },
+        {
+          "id": 692
+        },
+        {
+          "id": 703
+        },
+        {
+          "id": 705
+        },
+        {
+          "id": 706
+        },
+        {
+          "id": 709
+        },
+        {
+          "id": 710
+        },
+        {
+          "id": 711
+        },
+        {
+          "id": 712
+        },
+        {
+          "id": 713
+        },
+        {
+          "id": 714
+        },
+        {
+          "id": 715
+        },
+        {
+          "id": 716
+        },
+        {
+          "id": 717
+        },
+        {
+          "id": 718
+        },
+        {
+          "id": 719
+        },
+        {
+          "id": 720
+        },
+        {
+          "id": 721
+        },
+        {
+          "id": 724
+        },
+        {
+          "id": 727
+        },
+        {
+          "id": 732
+        },
+        {
+          "id": 733
+        },
+        {
+          "id": 734
+        },
+        {
+          "id": 739
+        },
+        {
+          "id": 777
+        },
+        {
+          "id": 778
+        },
+        {
+          "id": 1108
+        },
+        {
+          "id": 1137
+        },
+        {
+          "id": 1559
+        },
+        {
+          "id": 2418
+        },
+        {
+          "id": 94256
+        },
+        {
+          "id": 94268
+        },
+        {
+          "id": 94292
+        },
+        {
+          "id": 94304
+        },
+        {
+          "id": 97617
+        }
+      ]
     }
   ]
 }
