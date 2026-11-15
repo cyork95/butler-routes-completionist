@@ -436,3 +436,16 @@ as above: game-data citation or a named source.
 
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so neither vendor recipe (10602, 10858) is marked limited. Each vendor step notes that stock class is unconfirmed.
 - No respawn data for any of the 6 shipped Badlands rares or any fixed container exists in the local build. Every step says the timer is unconfirmed.
+
+## Riverglades tame lines (pack 0.49.0)
+
+- None of the 5 shipped Riverglades rares is drop-evidenced as a tameable beast family (scrolls, Waylaid Crates, hides, javelins, cultist robes, pendants, forge gear - no meat/fang-family evidence), npc records carry no tameability flag, and the Riverglades core guide (112-contract) carries no tame lines and no references to any Riverglades rare. No only-Hunter task ships; all five steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+
+## Riverglades quest-reward recipes (pack 0.49.0)
+
+- Quest records in the local build carry no reward data, so no quest-reward recipe in Riverglades can be confirmed from the toolchain. The 15 shipped recipes are all vendor-sold. If a Riverglades quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
+
+## Riverglades stock class and respawn timers (pack 0.49.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so no vendor recipe is marked limited. Each vendor step notes that stock class is unconfirmed.
+- No respawn data for any of the 5 shipped Riverglades rares or the Rock Pile exists in the local build. Every step says the timer is unconfirmed.
