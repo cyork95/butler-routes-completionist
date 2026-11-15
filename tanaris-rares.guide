@@ -1,0 +1,245 @@
+# Tanaris - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 10 confirmed flagged rares of Tanaris and
+# its fixed world containers. Run it in its own Polestar tab at the end of
+# the core route or standalone. EVERY goal is optional: a rare that is not
+# up never holds the route. Spawn points and levels are the local Forever
+# game data (questie-forever); signature drops are items whose SOLE dropper
+# is the rare, and four of the ten have none - they ship as kill goals with
+# notes. Nine rares are a single confirmed point each, so those steps are
+# plain single-goto steps (a loop needs at least two); Zopilote loops its
+# 38 confirmed points in the east. No tame lines ship (the data has no
+# tameability flag and the core guide carries no tame corroboration - see
+# docs/companion-unverified.md). Respawn timers are unconfirmed anywhere,
+# so none are stated. No rare in this guide is a giver, ender, or
+# objective of any core-contracted quest (the 94301/8200 item-ID collision
+# was checked and cleared - see docs/tanaris-companions-inventory.md).
+guide butler-routes-completionist/tanaris-rares
+title Tanaris - Rares & Treasures
+levels 38-50
+zone Tanaris
+faction Alliance
+category Collectibles
+folder Companions
+keywords tanaris, rares, treasures, companions
+coords live
+version 1
+
+step Greater Firebird — the center
+
+  zone map 1446
+
+  goto 49.39,36.04
+  kill 8207 optional
+  collect 286569 "Firebird Leggings" optional
+  note Level 46 rare at its single confirmed point in the center; its sole drop is the Firebird Leggings. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Murderous Blisterpaw — the east-center
+
+  zone map 1446
+
+  goto 52.32,33.29
+  kill 8208 optional
+  note Level 43 rare at its single confirmed point in the east-center; the data shows no sole drop for it, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Chest — the center
+
+  zone map 1446
+
+  goto 45.80,37.60
+  interact 442728 optional
+  note A fixed container named Chest at its single confirmed point in the center; loot is the usual chest fare. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Zopilote — the east
+
+  zone map 1446
+
+  loop
+  goto 43.77,32.00
+  goto 44.83,33.79
+  goto 45.01,30.95
+  goto 45.57,32.67
+  goto 45.61,29.89
+  goto 45.76,28.92
+  goto 46.61,32.52
+  goto 46.65,30.80
+  goto 46.71,33.96
+  goto 47.48,28.40
+  goto 47.71,32.01
+  goto 48.50,31.79
+  goto 48.67,32.75
+  goto 48.82,33.82
+  goto 49.38,29.64
+  goto 49.44,32.06
+  goto 49.79,34.60
+  goto 49.83,33.44
+  goto 49.93,31.16
+  goto 51.19,33.81
+  goto 51.68,37.91
+  goto 51.75,35.11
+  goto 53.99,37.69
+  goto 54.08,38.72
+  goto 45.00,32.85
+  goto 45.57,30.64
+  goto 46.43,29.22
+  goto 46.55,30.11
+  goto 47.23,30.53
+  goto 49.65,34.06
+  goto 49.88,31.71
+  goto 50.31,34.40
+  goto 50.34,33.80
+  goto 50.43,34.97
+  goto 51.71,33.79
+  goto 51.72,35.80
+  goto 51.75,37.25
+  goto 53.52,37.92
+  kill 222243 optional
+  collect 220687 "Rune of the Raptor" optional
+  note Level 43 rare elite working its 38 confirmed points in the east; its sole in-zone mob drop is the Rune of the Raptor. No quest takes it.
+  note Rune Broker vendors outside Tanaris also sell the Rune; Zopilote is the only mob that drops it. Respawn timer unconfirmed.
+
+step Warleader Krazzilak — the northeast
+
+  zone map 1446
+
+  goto 38.79,21.72
+  kill 8199 optional
+  collect 286554 "Warleader's Signet" optional
+  note Level 45 rare elite at its single confirmed point in the northeast; its sole drop is the Warleader's Signet. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Jin'Zallah the Sandbringer — the northeast
+
+  zone map 1446
+
+  goto 36.57,24.61
+  kill 8200 optional
+  note Level 46 rare elite at its single confirmed point in the northeast; the data shows no sole drop for it, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Cyclok the Mad — the north-center
+
+  zone map 1446
+
+  goto 41.26,54.70
+  kill 8202 optional
+  collect 286572 "Ogre Casting Cloak" optional
+  note Level 48 rare at its single confirmed point in the north-center; its sole drop is the Ogre Casting Cloak. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Omgorn the Lost — the northeast ruins
+
+  zone map 1446
+
+  goto 38.72,55.59
+  kill 8201 optional
+  collect 17055 "Changuk Smasher" optional
+  note Level 50 rare at its single confirmed point by the northeast ruins; its sole drop is the Changuk Smasher at a 20% rate. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Solid Chests — the desert caches
+
+  zone map 1446
+
+  loop
+  goto 37.53,24.28
+  goto 40.03,28.65
+  goto 42.17,22.55
+  goto 58.66,36.39
+  goto 58.70,39.38
+  goto 60.65,32.69
+  goto 60.76,39.14
+  goto 62.66,30.55
+  goto 63.26,33.46
+  goto 63.84,29.09
+  goto 63.96,40.12
+  goto 65.03,39.82
+  goto 65.41,32.82
+  goto 65.45,36.42
+  goto 38.69,56.87
+  goto 39.95,54.34
+  goto 41.20,57.02
+  goto 41.52,54.52
+  goto 42.21,53.16
+  goto 71.13,45.70
+  goto 71.57,43.89
+  goto 72.29,44.06
+  goto 72.61,46.71
+  goto 72.86,45.33
+  goto 72.94,47.92
+  goto 73.75,48.21
+  goto 75.33,46.08
+  interact 4149 optional
+  interact 153451 optional
+  note Two generic Solid Chest objects share the desert, one west and east (14 points) and one north-center and cove-side (13 points); loot is the usual chest fare. No quest takes either.
+  note Respawn timers unconfirmed.
+
+step Soriid the Devourer — the west coast
+
+  zone map 1446
+
+  goto 34.07,44.72
+  kill 8204 optional
+  note Level 50 rare at its single confirmed point on the west coast; the data shows no sole drop for it, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Haarka the Ravenous — the far south
+
+  zone map 1446
+
+  goto 53.30,73.79
+  kill 8205 optional
+  collect 286570 "Silithid Flesh Bindings" optional
+  note Level 50 rare at its single confirmed point in the far south; its sole drop is the Silithid Flesh Bindings. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Pirate's Treasure — the south island
+
+  zone map 1446
+
+  loop
+  goto 50.70,90.78
+  goto 52.16,94.39
+  goto 53.09,95.89
+  goto 54.06,93.03
+  goto 54.54,95.09
+  goto 55.56,92.28
+  interact 142194 optional
+  note Pirate's Treasure caches sit at six fixed points on the far-south island where the Treasure Hunting Pirates work; loot is the usual cache fare. No quest takes them.
+  note Respawn timers unconfirmed.
+
+step Kregg Keelhaul — the cove
+
+  zone map 1446
+
+  goto 73.22,48.71
+  kill 8203 optional
+  note Level 47 rare at its single confirmed point at the Lost Rigger Cove; the data shows no sole drop for it, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Captain's Chest — the cove
+
+  zone map 1446
+
+  goto 76.47,45.73
+  interact 142184 optional
+  note A fixed Captain's Chest at its single confirmed point at the Lost Rigger Cove; loot is the usual chest fare. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Dented Footlocker — the cove
+
+  zone map 1446
+
+  loop
+  goto 70.86,47.39
+  goto 71.28,48.37
+  goto 72.87,45.86
+  goto 74.20,46.96
+  goto 74.64,47.31
+  goto 74.82,45.51
+  goto 75.63,45.10
+  interact 179496 optional
+  note Dented Footlockers sit at seven fixed points around the Lost Rigger Cove; loot is the usual footlocker fare. No quest takes them.
+  note Respawn timers unconfirmed.
