@@ -1,0 +1,354 @@
+# Butler Routes - Ashenvale recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and formulas whose SOURCE is physically in
+# Ashenvale, verified against the local Forever game data (questie-forever item
+# vendor and drop tables). Nine recipes are vendor-sold in-zone; ten more drop
+# each from a single Ashenvale mob and nowhere else in the data. Every other
+# Ashenvale-dropping recipe is a generic multi-zone world drop, and quest
+# records carry no reward data (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover
+# those. Each step is gated to its profession; other characters skip it
+# cleanly. Tailoring, First Aid, Engineering and Fishing have no Ashenvale
+# source, so that is stated, not padded.
+guide butler-routes-completionist/ashenvale-recipes
+title Ashenvale - Recipes & Patterns
+levels 18-32
+zone Ashenvale
+faction Alliance
+category Professions
+folder Companions
+keywords ashenvale, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — the southeast (Ulthaan)
+
+  when skill Cooking 1
+
+  vendor 3960 -- Ulthaan (50.01, 66.64), Butcher
+  buy 3734 "Recipe: Big Bear Steak"
+  buy 5489 "Recipe: Lean Venison"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — the center (Lardan)
+
+  when skill Leatherworking 1
+
+  vendor 3958 -- Lardan (34.79, 49.84), Leatherworking Supplies
+  buy 5973 "Pattern: Barbaric Leggings"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — the southeast (Harklan Moongrove)
+
+  when skill Alchemy 1
+
+  vendor 3956 -- Harklan Moongrove (50.84, 67), Alchemy Supplies
+  buy 6054 "Recipe: Shadow Protection Potion"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — the west coast (Wik'Tar)
+
+  when skill Cooking 1
+
+  vendor 12962 -- Wik'Tar (11.71, 34.1), Fish Merchant & Supplies
+  buy 6369 "Recipe: Rockscale Cod"
+  buy 17062 "Recipe: Mithril Head Trout"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — the southwest (Harlown Darkweave)
+
+  when skill Leatherworking 1
+
+  vendor 6731 -- Harlown Darkweave (18.23, 60.04), Leatherworking Supplies
+  buy 7361 "Pattern: Herbalist's Gloves"
+  note Harlown is the only vendor anywhere in the data selling this pattern (he also works the Stonetalon side; this is his Ashenvale point). Stock class is not in the local data; if out of stock, come back later.
+
+step Enchanting — the center (Dalria)
+
+  when skill Enchanting 1
+
+  vendor 3954 -- Dalria (35.12, 52.12), Trade Goods
+  buy 11039 "Formula: Enchant Cloak - Minor Agility"
+  buy 11101 "Formula: Enchant Bracer - Lesser Strength"
+  note The Minor Agility formula also drops as a generic world drop, but Dalria sells it here. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — the far north (rare drop)
+
+  when skill Enchanting 1
+
+  loop
+  goto 30.38,31.76
+  goto 30.39,30.99
+  goto 30.8,31.61
+  goto 30.99,30.89
+  goto 31.11,30.25
+  goto 31.47,29.3
+  goto 32.59,29.31
+  collect 249475 "Formula: Enchant Bracer - Minor Healing Power" optional
+  note Dropped only by the Dark Strand Cultist (level 18); the formula drops nowhere else in the data.
+
+step Cooking — across the zone (rare drop)
+
+  when skill Cooking 1
+
+  loop
+  goto 32.52,42.45
+  goto 33.69,35.82
+  goto 36.68,68.29
+  goto 37.44,71.52
+  goto 37.79,39.36
+  goto 37.88,62.21
+  goto 39.8,67.19
+  goto 41.06,71.13
+  goto 41.32,43.87
+  goto 43.09,62.91
+  goto 44.39,51.3
+  goto 44.63,66.73
+  goto 45.52,54.58
+  goto 45.92,59.59
+  goto 45.94,42.61
+  goto 48.71,63.33
+  goto 50.64,47.54
+  goto 50.77,53.4
+  goto 51.61,44
+  goto 54.77,51.33
+  goto 56.97,55.84
+  goto 63.73,77.22
+  goto 67.17,78.19
+  goto 67.87,85.51
+  goto 31.55,40.68
+  goto 36.5,70.02
+  goto 37.61,60.23
+  goto 38.28,62.77
+  goto 38.45,37.53
+  goto 38.52,70.3
+  goto 38.85,64.14
+  goto 39.29,40.81
+  goto 39.31,70.43
+  goto 39.39,69.33
+  goto 39.53,40.52
+  goto 39.54,62.23
+  goto 39.62,65.21
+  goto 39.65,63.31
+  goto 40.37,42.6
+  goto 40.57,66.65
+  goto 40.64,66.15
+  goto 41.01,66.6
+  goto 41.27,61.95
+  goto 41.37,69.73
+  goto 41.44,66.93
+  goto 41.89,61.36
+  goto 41.98,43.13
+  goto 42.04,70.04
+  goto 42.13,64.49
+  goto 42.42,44.27
+  goto 42.46,61.26
+  goto 42.85,59.83
+  goto 42.92,44.06
+  goto 43.22,58.6
+  goto 43.46,45.96
+  goto 44.13,63.83
+  goto 44.3,65.86
+  goto 44.68,62.52
+  goto 44.95,57.97
+  goto 45,53.44
+  goto 45.14,61.34
+  goto 45.81,64.96
+  goto 45.82,63.31
+  goto 45.9,60.75
+  goto 45.91,60.38
+  goto 46.78,61.85
+  goto 47.22,52.76
+  goto 47.34,53.27
+  goto 47.71,53.62
+  goto 48.26,65.08
+  goto 48.36,53.46
+  goto 49.35,51.05
+  goto 50.06,51.82
+  goto 50.13,45.09
+  goto 50.36,56.15
+  goto 50.42,55.09
+  goto 50.45,44.96
+  goto 51.28,56.21
+  goto 51.43,55.27
+  goto 51.48,50.26
+  goto 52.27,54.4
+  goto 52.67,53.9
+  goto 55.03,53.82
+  goto 55.25,55.1
+  goto 55.47,53.31
+  goto 56.25,54.56
+  goto 66.13,86.51
+  goto 66.47,78.7
+  goto 66.76,83.87
+  goto 66.98,76.78
+  collect 250182 "Recipe: Bear Brisket" optional
+  note Dropped only by the Ashenvale Bear (level 21), which roams the whole forest; the recipe drops nowhere else in the data.
+
+step Alchemy — the east (rare drop)
+
+  when skill Alchemy 1
+
+  loop
+  goto 77.73,44.78
+  goto 77.8,42.52
+  goto 77.85,44.43
+  goto 78.23,44.8
+  goto 78.67,45.35
+  goto 79.06,45.55
+  collect 250368 "Recipe: Cleric's Elixir" optional
+  note Dropped only by the Xavian Hellcaller (level 29); the recipe drops nowhere else in the data.
+
+step Alchemy — the southeast (rare drop)
+
+  when skill Alchemy 1
+
+  goto 66.66,82.17
+  collect 250385 "Recipe: Elixir of Strength" optional
+  note Dropped only by the Shadethicket Oracle (level 30); the recipe drops nowhere else in the data.
+
+step Blacksmithing — the northwest shore (rare drop)
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 4.95,14.49
+  goto 6.02,11
+  goto 6.09,12.7
+  goto 6.46,11.84
+  goto 6.62,16.17
+  goto 7.06,15.46
+  goto 7.18,13.74
+  goto 7.2,12.93
+  goto 7.21,14.28
+  goto 7.83,16.06
+  goto 7.84,12.61
+  goto 7.97,15.18
+  goto 8.34,15.18
+  goto 11.25,31.02
+  collect 251337 "Plans: Sterling Silver Gauntlet" optional
+  note Dropped only by the Wrathtail Myrmidon (level 20); the plans drop nowhere else in the data.
+
+step Blacksmithing — the far-east edge (rare drop)
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 98.2,47
+  goto 99.1,46.2
+  collect 251438 "Plans: Blessed Plate Pauldrons" optional
+  note Dropped only by the Highborne Lichling (level 46) on the far-east edge, far above the zone band — come back at a much higher level for this one; the plans drop nowhere else in the data.
+
+step Blacksmithing — the far north (rare drop)
+
+  when skill Blacksmithing 1
+
+  goto 31.62,30.68
+  collect 251455 "Plans: Bronze Dory" optional
+  note Dropped only by the Dark Strand Enforcer (level 20); the plans drop nowhere else in the data.
+
+step Blacksmithing — the east (rare drop)
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 79.54,50.12
+  goto 79.64,49.29
+  goto 79.93,50.78
+  goto 79.97,49.01
+  goto 80.63,50.88
+  goto 82.39,49.96
+  goto 82.4,51.7
+  goto 82.97,49.89
+  collect 251456 "Plans: Iron Fists" optional
+  note Dropped only by the Bleakheart Hellcaller (level 26); the plans drop nowhere else in the data.
+
+step Leatherworking — across the zone (rare drop)
+
+  when skill Leatherworking 1
+
+  loop
+  goto 36.82,71.59
+  goto 37.58,61.82
+  goto 38.66,66.44
+  goto 39.95,63.48
+  goto 40.01,69.23
+  goto 40.59,72.88
+  goto 41.53,59.34
+  goto 42.89,68.5
+  goto 43,64.19
+  goto 45.4,60.42
+  goto 46.09,66.29
+  goto 46.29,63.64
+  goto 47.49,52.29
+  goto 48.64,55.94
+  goto 48.77,62.31
+  goto 49.79,48.7
+  goto 50.23,51.2
+  goto 51.81,53.31
+  goto 52.05,45.36
+  goto 52.2,64.06
+  goto 52.27,56.57
+  goto 54.26,51.74
+  goto 55.56,55.18
+  goto 57.96,57.73
+  goto 35.86,69.29
+  goto 37.03,67.49
+  goto 37.57,61.08
+  goto 37.83,71.49
+  goto 38.37,68.09
+  goto 38.45,60.29
+  goto 38.61,67.57
+  goto 39.07,63.76
+  goto 39.23,62.94
+  goto 39.43,65.66
+  goto 39.52,70.3
+  goto 41.1,64.42
+  goto 41.25,68.11
+  goto 41.36,61.91
+  goto 41.51,71.08
+  goto 42.03,65.77
+  goto 42.11,70.04
+  goto 42.5,60.96
+  goto 43.01,58.75
+  goto 43.13,62.83
+  goto 43.57,63.4
+  goto 44.43,62.64
+  goto 44.75,59.36
+  goto 45.38,64.49
+  goto 45.77,62.09
+  goto 46.5,61.25
+  goto 47,53.5
+  goto 47.34,60.93
+  goto 48.17,63.07
+  goto 49.47,62.95
+  goto 49.91,46.73
+  goto 50.22,50.4
+  goto 50.31,52.78
+  goto 51.03,49.95
+  goto 51.07,45.2
+  goto 51.14,54.34
+  goto 51.52,48.64
+  goto 52.57,54.52
+  goto 54.16,53.07
+  goto 54.22,54.17
+  goto 54.87,55.67
+  goto 55.47,52.69
+  goto 56,51.82
+  goto 56.3,56.42
+  goto 56.3,57.9
+  collect 252804 "Pattern: Hillman's Leather Boots" optional
+  note Dropped only by the Shadowhorn Stag (level 22), which roams the whole forest; the pattern drops nowhere else in the data.
+
+step Leatherworking — the far-east edge (rare drop)
+
+  when skill Leatherworking 1
+
+  loop
+  goto 98.6,45.8
+  goto 99.1,46.2
+  collect 252858 "Pattern: Tooled Leather Belt" optional
+  note Dropped only by the Highborne Apparition (level 45) on the far-east edge, far above the zone band — come back at a much higher level for this one; the pattern drops nowhere else in the data.
+
+step Tailoring, First Aid, Engineering, Fishing — no Ashenvale source
+
+  note The data holds no Tailoring, First Aid, Engineering or Fishing recipe sourced in Ashenvale: no in-zone vendor sells one and no in-zone mob drops one. Polestar's own profession guides cover those professions' progression.
