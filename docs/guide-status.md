@@ -321,9 +321,9 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 
 ### Dustwallow Marsh — contested (Kalimdor)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census
+- [x] Core guide - `dustwallow.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1/R2/R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
