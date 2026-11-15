@@ -384,7 +384,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Lint/playtest clean (0 errors; 45 accepted warnings; playtest 0 stuck, residue R1x47/R2x36/R5x33)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 7 rares (2 sole-drop signatures, 5 kill-note), 19-pt treasure (13 troll + 3 battered + 2 solid + worn + Arko chest), 9 recipes (8 exclusive drops + Meilosh vendor-or-drop)
 
 ### Azshara — contested (Kalimdor)
 
