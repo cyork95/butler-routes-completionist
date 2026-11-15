@@ -1,0 +1,188 @@
+# Searing Gorge - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 9 confirmed flagged rares of Searing
+# Gorge and its fixed containers. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is
+# not up never holds the route. Spawn points and levels are the local
+# Forever game data (questie-forever); signature drops are items whose SOLE
+# dropper is the rare. The four in-band rares without sole drops ship as
+# kill-note rares (Fingat pattern); the one above-band rare ships with an
+# honest come-back note (its three sole signatures argue for it) plus a
+# bank-it-for-later note for the drop that starts an endgame chain the pack
+# does not route yet (Loch Modan figurine precedent). No tame lines ship
+# (the data has no tameability flag and the core guide carries no tame
+# corroboration — see docs/companion-unverified.md). Respawn timers are
+# unconfirmed anywhere, so none are stated. No shipped rare is a giver,
+# ender, or objective of any core-contracted quest; where a shipped rare
+# also drops a core quest item the note says so and points at the core
+# guide.
+guide butler-routes-completionist/searing-gorge-rares
+title Searing Gorge - Rares & Treasures
+levels 40-52
+zone Searing Gorge
+faction Alliance
+category Collectibles
+folder Companions
+keywords searing gorge, rares, treasures, companions
+coords live
+version 1
+
+step Highlord Mastrogonde — the west
+
+  zone map 1427
+
+  loop
+  goto 14.54,37.20
+  goto 29.32,27.99
+  goto 29.47,26.42
+  goto 30.48,25.91
+  kill 8282 optional
+  collect 282633 "Mastrogonde's Sinister Gown" optional
+  note Level 51 rare working its 4 confirmed points in the west; its sole drop is Mastrogonde's Sinister Gown. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Rekk'tilac — crater roamer
+
+  zone map 1427
+
+  loop
+  goto 30.33,72.99
+  goto 35.04,27.96
+  goto 53.02,70.90
+  goto 59.75,29.31
+  goto 61.92,73.23
+  kill 8277 optional
+  note Level 48 rare working its 5 confirmed points around the crater; the data shows no sole drop for it and it drops no quest item, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Faulty War Golem — golem circuit
+
+  zone map 1427
+
+  loop
+  goto 32.07,61.36
+  goto 33.17,46.46
+  goto 43.37,41.84
+  goto 45.88,67.84
+  goto 60.27,57.98
+  kill 8279 optional
+  note Level 46 rare working its 5 confirmed points through the golem fields; the data shows no sole drop for it and it drops no quest item, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Smoldar — the south slope
+
+  zone map 1427
+
+  goto 29.53,62.44
+  kill 8278 optional
+  note Level 50 rare at its single confirmed point on the south slope; the data shows no sole drop for it. It also drops Cores of Earth, which the core guide's Elemental Leatherworking chain already routes alongside many other sources — this guide only points at the rare.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Shleipnarr — the east
+
+  zone map 1427
+
+  goto 58.57,56.55
+  kill 8280 optional
+  collect 282631 "Xorothian Footwraps" optional
+  note Level 47 rare at its single confirmed point in the east; its sole drop is the Xorothian Footwraps. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Scald — cinder roamer
+
+  zone map 1427
+
+  loop
+  goto 35.95,55.74
+  goto 51.15,46.84
+  kill 8281 optional
+  note Level 49 rare working its 2 confirmed points; the data shows no sole drop for it. It also drops Hearts of Fire and Hearts of Flame, which the core guide's Elemental Leatherworking and Flawless Flame chains already route alongside many other sources — this guide only points at the rare.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Slave Master Blackheart — the north
+
+  zone map 1427
+
+  loop
+  goto 41.44,43.64
+  goto 41.89,36.94
+  goto 42.43,23.10
+  goto 42.83,35.48
+  goto 46.23,25.65
+  kill 8283 optional
+  collect 282094 "Blackheart's Vest" optional
+  note Level 50 rare working its 5 confirmed points in the north; its sole drop is Blackheart's Vest. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step The Behemoth — the far south-west
+
+  zone map 1427
+
+  goto 25.60,87.70
+  kill 8924 optional
+  collect 11603 "Vilerend Slicer" optional
+  note Level 50 rare at its single confirmed point in the far south-west; its sole drop is the Vilerend Slicer. It also drops the Crumpled Up Note, which the core guide's Onyxia-note chain already routes alongside dozens of other droppers — this guide only points at the rare.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Scarshield Quartermaster — Blackrock (come back later)
+
+  zone map 1427
+
+  goto 43.30,99.20
+  kill 9046 optional
+  collect 13248 "Burstshot Harquebus" optional
+  collect 13254 "Astral Guard" optional
+  collect 18987 "Blackhand's Command" optional
+  note Level 55 rare at its single confirmed point up at Blackrock; its three sole drops are the Burstshot Harquebus, the Astral Guard, and the Blackhand's Command. No quest takes it. Come back at high level - three over the guide band.
+  note The Command starts an endgame chain the pack does not route yet - bank it for later. The companion never accepts or turns in.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Solid Chests — crater to Cauldron
+
+  zone map 1427
+
+  loop
+  goto 17.64,38.08
+  goto 25.87,24.70
+  goto 28.66,24.83
+  goto 35.93,58.81
+  goto 37.58,49.18
+  goto 37.92,38.98
+  goto 40.12,41.51
+  goto 41.71,21.12
+  goto 44.30,62.76
+  goto 44.34,33.81
+  goto 44.77,52.01
+  goto 45.46,38.78
+  goto 46.84,24.87
+  goto 48.85,55.05
+  goto 62.27,62.60
+  interact 4149 optional
+  note One generic Solid Chest object at fifteen fixed points from the western crater to the Cauldron; loot is the usual chest fare. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Dented Footlockers — Thorium to the Cauldron
+
+  zone map 1427
+
+  loop
+  goto 35.91,45.23
+  goto 36.90,39.89
+  goto 38.00,45.86
+  goto 38.43,50.83
+  goto 39.07,24.43
+  goto 40.40,38.18
+  goto 40.61,52.84
+  goto 40.73,31.17
+  goto 42.28,29.48
+  goto 42.30,54.08
+  goto 42.36,44.09
+  goto 42.91,31.17
+  goto 43.93,30.88
+  goto 44.58,54.15
+  goto 45.75,28.33
+  goto 46.85,43.84
+  goto 46.89,25.69
+  interact 179494 optional
+  interact 179496 optional
+  note Two generic Dented Footlocker objects share the zone, 179494 at twelve points and 179496 at five, all between Thorium Point and the Cauldron; loot is the usual container fare. No quest takes either.
+  note Respawn timers unconfirmed.
