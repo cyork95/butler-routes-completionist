@@ -1,0 +1,127 @@
+# Thousand Needles - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 7 confirmed flagged rares of Thousand
+# Needles and its fixed Solid Chests. Run it in its own Polestar tab at the
+# end of the core route or standalone. EVERY goal is optional: a rare that
+# is not up never holds the route. Spawn points and levels are the local
+# Forever game data (questie-forever); signature drops are items whose SOLE
+# dropper is the rare. Two rares above the 25-35 band ship with honest
+# come-back notes (sole signatures argue for them); no flagged rare is
+# excluded. Single-point rares get plain single-goto steps (a loop needs at
+# least two); the one multi-point rare loops all 3. No tame lines ship
+# (the data has no tameability flag and the core guide carries no tame
+# corroboration — see docs/companion-unverified.md). Respawn timers are
+# unconfirmed anywhere, so none are stated. No shipped rare is a giver,
+# ender, or objective of any core-contracted quest; where a shipped rare
+# also drops a core quest item the note says so and points at the core
+# guide.
+guide butler-routes-completionist/thousand-needles-rares
+title Thousand Needles - Rares & Treasures
+levels 25-35
+zone Thousand Needles
+faction Alliance
+category Collectibles
+folder Companions
+keywords thousand needles, rares, treasures, companions
+coords live
+version 1
+
+step Heartrazor — the west
+
+  zone map 1441
+
+  goto 16.75,41.49
+  kill 5934 optional
+  collect 285190 "Wyvern Heart Band" optional
+  note Level 32 rare at its single confirmed point in the west; its sole drop is the Wyvern Heart Band. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Achellios the Banished — the north-west
+
+  zone map 1441
+
+  goto 22.73,37.46
+  kill 5933 optional
+  collect 285191 "Banished Centaur's Pauldrons" optional
+  note Level 31 rare at its single confirmed point in the north-west; its sole drop is the Banished Centaur's Pauldrons. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Harb Foulmountain — the north
+
+  zone map 1441
+
+  goto 32.55,26.78
+  kill 14426 optional
+  collect 285212 "Foulmountain Family Hammer" optional
+  note Level 27 rare at its single confirmed point in the north; its sole drop is the Foulmountain Family Hammer. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Gibblesnik — the center
+
+  zone map 1441
+
+  goto 55.62,50.45
+  kill 14427 optional
+  collect 285192 "Kobold Firestarter" optional
+  note Level 28 rare at its single confirmed point in the center; its sole drop is the Kobold Firestarter. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Solid Chests — the west, north and flats
+
+  zone map 1441
+
+  loop
+  goto 13.94,38.82
+  goto 17.63,41.79
+  goto 17.84,21.29
+  goto 18.56,20.90
+  goto 18.92,23.23
+  goto 19.36,21.74
+  goto 26.58,54.02
+  goto 27.18,52.55
+  goto 42.21,31.70
+  goto 42.24,37.39
+  goto 42.94,39.31
+  goto 43.02,36.81
+  goto 43.45,33.28
+  goto 44.91,32.27
+  goto 65.25,87.00
+  goto 68.47,82.95
+  goto 69.69,85.84
+  goto 71.20,85.19
+  interact 2852 optional
+  interact 2855 optional
+  note Two generic Solid Chest objects share the zone, 2852 at fourteen points in the west, north and east-center and 2855 at four points on the Shimmering Flats; loot is the usual chest fare. No quest takes either.
+  note Respawn timers unconfirmed.
+
+step Silithid Ravager — Shimmering Flats east (come back later)
+
+  zone map 1441
+
+  loop
+  goto 67.26,86.10
+  goto 68.38,82.32
+  goto 70.03,86.22
+  kill 4132 optional
+  collect 8224 "Silithid Ripper" optional
+  note Level 37 rare working its 3 confirmed points on the eastern Flats; its sole drop is the Silithid Ripper. No quest takes it. Come back at high level - two over the guide band.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Vile Sting — the east
+
+  zone map 1441
+
+  goto 70.55,72.92
+  kill 5937 optional
+  collect 285177 "Nature's Sting Legguards" optional
+  note Level 35 rare at its single confirmed point in the east; its sole drop is the Nature's Sting Legguards. It also drops Salty Scorpid Venom, which the core guide's Salt Flat Venom chain already routes alongside two common scorpid droppers — this guide only points at the rare.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Ironeye the Invincible — the far east (come back later)
+
+  zone map 1441
+
+  goto 87.19,78.39
+  kill 5935 optional
+  collect 8223 "Blade of the Basilisk" optional
+  note Level 37 rare at its single confirmed point in the far east; its sole drop is the Blade of the Basilisk. No quest takes it. Come back at high level - two over the guide band.
+  note Also drops ordinary greens; respawn timer unconfirmed.
