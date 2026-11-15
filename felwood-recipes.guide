@@ -1,0 +1,298 @@
+# Felwood - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns whose SOURCE is physically in Felwood,
+# verified against the local Forever game data (questie-forever item
+# drop/vendor tables). All nine ship as mob drops with droppers
+# spawning only in Felwood; one (Warbear Woolies) is also bought from
+# Meilosh at Timbermaw Hold, so it gets a buy step plus a drop step.
+# Everything else Felwood-dropping is a generic multi-zone world drop
+# (Elwynn rule, argued per case in the inventory - including the
+# two-dropper Mongoose and the dual-zone single-dropper patterns
+# shared with Darkshore's ground). Quest records carry no reward data,
+# so no quest-reward recipe ships (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides
+# cover those. Each step is gated to its profession; other characters
+# skip it cleanly. Alchemy, Cooking, First Aid and Fishing have no
+# Felwood source, so that is stated, not padded.
+guide butler-routes-completionist/felwood-recipes
+title Felwood - Recipes & Patterns
+levels 45-55
+zone Felwood
+faction Alliance
+category Professions
+folder Companions
+keywords felwood, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Deadwood north - living leggings (Leatherworking)
+
+  zone map 1448
+
+  when skill Leatherworking 1
+
+  loop
+  goto 60.14,7.39
+  goto 60.27,5.91
+  goto 60.37,8.82
+  goto 61.37,10.61
+  goto 61.46,11.15
+  goto 62.33,9.25
+  goto 62.41,6.31
+  goto 62.42,12.69
+  goto 62.48,11.56
+  goto 62.63,11.22
+  goto 62.71,7.14
+  goto 63.06,10.9
+  goto 63.64,9.11
+  goto 63.66,12.34
+  goto 64.01,6.79
+  kill 7158 optional
+  collect 15752 "Pattern: Living Leggings" optional
+  note The Deadwood Shaman is the sole dropper anywhere in the data and spawns only in Felwood. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Meilosh - warbear woolies (buy)
+
+  zone map 1448
+
+  when skill Leatherworking 1
+
+  vendor 11557 -- Meilosh (65.69, 2.81)
+  buy 15754 "Pattern: Warbear Woolies"
+  note Meilosh (Timbermaw, neutral) sells the pattern at his Felwood hold; Deadwood furbolgs below also drop it. Stock class unconfirmed.
+
+step Deadwood north - warbear woolies (drop)
+
+  zone map 1448
+
+  when skill Leatherworking 1
+
+  loop
+  goto 60.07,8.15
+  goto 60.11,5.79
+  goto 61.14,5.84
+  goto 61.26,7.41
+  goto 61.43,10.04
+  goto 61.74,6.32
+  goto 62.08,7.12
+  goto 62.54,13.21
+  goto 62.56,10.26
+  goto 62.67,9.94
+  goto 62.76,8.01
+  goto 63.68,6.05
+  goto 60.14,7.39
+  goto 60.27,5.91
+  goto 60.37,8.82
+  goto 61.37,10.61
+  goto 61.46,11.15
+  goto 62.33,9.25
+  goto 62.41,6.31
+  goto 62.42,12.69
+  goto 62.48,11.56
+  goto 62.63,11.22
+  goto 62.71,7.14
+  goto 63.06,10.9
+  goto 63.64,9.11
+  goto 63.66,12.34
+  goto 64.01,6.79
+  kill 7156 optional
+  kill 7158 optional
+  collect 15754 "Pattern: Warbear Woolies" optional
+  note The Deadwood Den Watcher and Deadwood Shaman are the placed droppers and both spawn only in Felwood; the table also names 11663 and 13021 with NO spawns in the data, so they are disclosed and not relied on. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Deadwood south - greater agility (Enchanting)
+
+  zone map 1448
+
+  when skill Enchanting 1
+
+  loop
+  goto 46.24,89.98
+  goto 46.3,90.62
+  goto 46.76,88.31
+  goto 47.38,92.62
+  goto 47.68,88.76
+  goto 48.26,91.45
+  goto 48.42,89.84
+  goto 48.77,88.88
+  goto 48.99,92.57
+  goto 49.23,91.44
+  kill 7154 optional
+  collect 249514 "Formula: Enchant Bracer - Greater Agility" optional
+  note The Deadwood Gardener is the sole dropper anywhere in the data and spawns only in Felwood. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Deadwood north - blessed plate gauntlet (Blacksmithing)
+
+  zone map 1448
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 46.14,89.87
+  goto 46.37,88.94
+  goto 47.42,93.41
+  goto 48.3,89.46
+  goto 49.22,91.69
+  kill 7155 optional
+  collect 251440 "Plans: Blessed Plate Gauntlet" optional
+  note The Deadwood Pathfinder is the sole dropper anywhere in the data and spawns only in Felwood. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Deadwood north - tooled leather boots (Leatherworking)
+
+  zone map 1448
+
+  when skill Leatherworking 1
+
+  loop
+  goto 60.14,7.39
+  goto 60.27,5.91
+  goto 60.37,8.82
+  goto 61.37,10.61
+  goto 61.46,11.15
+  goto 62.33,9.25
+  goto 62.41,6.31
+  goto 62.42,12.69
+  goto 62.48,11.56
+  goto 62.63,11.22
+  goto 62.71,7.14
+  goto 63.06,10.9
+  goto 63.64,9.11
+  goto 63.66,12.34
+  goto 64.01,6.79
+  kill 7158 optional
+  collect 252865 "Pattern: Tooled Leather Boots" optional
+  note The Deadwood Shaman is the sole dropper anywhere in the data and spawns only in Felwood. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Deadwood south - blue suede gloves (Leatherworking)
+
+  zone map 1448
+
+  when skill Leatherworking 1
+
+  loop
+  goto 46.26,89.24
+  goto 46.63,91.98
+  goto 47.75,94.03
+  goto 47.92,89.29
+  goto 48.09,93.73
+  goto 48.17,92.95
+  goto 48.34,90.89
+  goto 48.39,91.4
+  goto 48.59,93.96
+  goto 48.66,91.93
+  goto 48.72,92.61
+  goto 48.76,88.92
+  goto 48.85,90.49
+  goto 48.97,91.43
+  goto 48.98,90.97
+  goto 49.67,91.62
+  goto 49.73,88.18
+  kill 7153 optional
+  collect 252866 "Pattern: Blue Suede Gloves" optional
+  note The Deadwood Warrior is the sole dropper anywhere in the data and spawns only in Felwood. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Shatter Scar - wicked leather boots (Leatherworking)
+
+  zone map 1448
+
+  when skill Leatherworking 1
+
+  loop
+  goto 40.14,43.45
+  goto 40.33,38.98
+  goto 40.35,41.18
+  goto 40.47,42.17
+  goto 40.98,39.65
+  goto 41.23,37.83
+  goto 41.25,43.75
+  goto 41.62,41.37
+  goto 41.73,40.15
+  goto 42.04,37.74
+  goto 42.46,41.17
+  goto 42.66,38.19
+  goto 42.77,41.4
+  goto 43.35,38.75
+  goto 43.45,40.38
+  goto 43.91,40.81
+  goto 44.45,40.39
+  goto 44.46,38.6
+  goto 44.64,40.98
+  goto 45.11,40.97
+  goto 45.7,38.6
+  kill 9878 optional
+  collect 252879 "Pattern: Wicked Leather Boots" optional
+  note The Entropic Beast is the sole dropper anywhere in the data and spawns only in Felwood. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Irontree Vale - earthenweave leggings (Tailoring)
+
+  zone map 1448
+
+  when skill Tailoring 1
+
+  loop
+  goto 46.03,24.08
+  goto 46.71,25.09
+  goto 46.78,23.91
+  goto 47.08,22.86
+  goto 47.84,26.45
+  goto 47.99,27.98
+  goto 48.43,29.16
+  goto 48.51,29.84
+  goto 48.52,21.15
+  goto 48.78,19.44
+  goto 49.23,20.16
+  goto 49.47,17.99
+  goto 49.83,29.1
+  goto 50.34,18.61
+  goto 50.56,20.75
+  goto 51,24.93
+  goto 51.01,19.31
+  goto 51.5,21.67
+  goto 51.76,25.47
+  goto 51.77,24.17
+  goto 52.53,24.57
+  goto 52.58,21.23
+  goto 53.09,23.6
+  goto 53.23,22.11
+  kill 7139 optional
+  collect 254126 "Pattern: Earthenweave Leggings" optional
+  note The Irontree Stomper is the sole dropper anywhere in the data and spawns only in Felwood. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Shadow Hold - EZ-Thro mana bomb (Engineering)
+
+  zone map 1448
+
+  when skill Engineering 1
+
+  loop
+  goto 36.08,46.28
+  goto 36.23,45.87
+  goto 36.34,55.64
+  goto 37.69,45.9
+  goto 37.76,53.25
+  goto 37.9,54.68
+  goto 38.6,50.88
+  goto 40.01,49.15
+  kill 9862 optional
+  collect 264228 "Schematic: EZ-Thro Mana Bomb" optional
+  note The Jaedenar Legionnaire is the sole dropper anywhere in the data and spawns only in Felwood. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Felwood source - Alchemy
+  note Alchemy has no recipe source physically in Felwood in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Felwood source - Cooking
+  note Cooking has no recipe source physically in Felwood in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Felwood source - First Aid
+  note First Aid has no recipe source physically in Felwood in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Felwood source - Fishing
+  note Fishing has no recipe source physically in Felwood in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
