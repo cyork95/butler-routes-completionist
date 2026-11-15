@@ -1,0 +1,123 @@
+# Desolace - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 5 shipped flagged rares of Desolace and
+# its fixed containers. Run it in its own Polestar tab at the end of the
+# core route or standalone. EVERY goal is optional: a rare that is not up
+# never holds the route. Spawn points and levels are the local Forever
+# game data (questie-forever); signature drops are items whose SOLE
+# dropper is the rare. The flagged Cursed Centaur is excluded (above-band,
+# no sole drop, no quest link — Spiteflayer end of the precedent); the
+# in-band Hissperak ships as a kill-note rare (Fingat pattern). No tame
+# lines ship (the data has no tameability flag and the core guide carries
+# no tame corroboration — see docs/companion-unverified.md). Respawn
+# timers are unconfirmed anywhere, so none are stated. No shipped rare is
+# a giver, ender, or objective of any core-contracted quest, and none
+# drops a core quest item — so this round carries no overlap notes at all.
+guide butler-routes-completionist/desolace-rares
+title Desolace - Rares & Treasures
+levels 30-40
+zone Desolace
+faction Alliance
+category Collectibles
+folder Companions
+keywords desolace, rares, treasures, companions
+coords live
+version 1
+
+step Accursed Slitherblade — the north-west
+
+  zone map 1443
+
+  goto 42.17,19.01
+  kill 14229 optional
+  collect 284713 "Accursed Legguards" optional
+  note Level 35 rare at its single confirmed point in the north-west; its sole drop is the Accursed Legguards. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Giggler — the center
+
+  zone map 1443
+
+  goto 61.29,28.91
+  kill 14228 optional
+  collect 284712 "Hyena Hide Helm" optional
+  note Level 34 rare at its single confirmed point in the center; its sole drop is the Hyena Hide Helm. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Hissperak — the center-south
+
+  zone map 1443
+
+  goto 52.86,50.08
+  kill 14227 optional
+  note Level 37 rare at its single confirmed point in the center-south; the data shows no sole drop for it and it drops no quest item, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Prince Kellen — the far east
+
+  zone map 1443
+
+  goto 78.93,21.25
+  kill 14225 optional
+  collect 284717 "Royal Satyr Slicer" optional
+  note Level 33 rare at its single confirmed point in the far east; its sole drop is the Royal Satyr Slicer. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Kaskk — the far south (band top)
+
+  zone map 1443
+
+  goto 51.15,86.13
+  kill 14226 optional
+  collect 284708 "Demonstrike Emblem" optional
+  note Level 40 rare at its single confirmed point in the far south, sitting exactly at the band top; its sole drop is the Demonstrike Emblem. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Solid Chests — kodo country and the coast
+
+  zone map 1443
+
+  loop
+  goto 29.30,60.58
+  goto 29.57,58.02
+  goto 30.53,54.82
+  goto 32.63,61.12
+  goto 32.74,55.11
+  goto 32.75,59.55
+  goto 34.23,52.90
+  goto 35.16,61.44
+  goto 35.75,92.10
+  goto 39.82,94.24
+  goto 40.58,94.62
+  goto 52.42,28.53
+  goto 54.35,28.12
+  goto 54.82,26.09
+  goto 55.14,30.00
+  goto 65.94,80.75
+  goto 71.45,71.67
+  goto 71.94,78.63
+  goto 73.47,41.59
+  goto 73.89,73.72
+  goto 74.57,47.14
+  goto 74.62,49.11
+  goto 74.82,19.33
+  goto 77.19,17.89
+  goto 78.88,23.34
+  interact 2855 optional
+  interact 2857 optional
+  note Two generic Solid Chest objects share the zone, 2855 at ten points on the east side and 2857 at fifteen points in the west, north and far south; loot is the usual chest fare. No quest takes either.
+  note Respawn timers unconfirmed.
+
+step Battered Chests — the eastern ruins
+
+  zone map 1443
+
+  loop
+  goto 81.00,48.40
+  goto 82.40,53.80
+  goto 84.50,72.10
+  goto 84.80,73.00
+  goto 86.30,78.20
+  goto 86.60,78.30
+  interact 106318 optional
+  note One generic Battered Chest object at six fixed points among the eastern ruins; loot is the usual container fare. No quest takes it.
+  note Respawn timer unconfirmed.
