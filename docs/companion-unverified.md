@@ -511,3 +511,16 @@ as above: game-data citation or a named source.
 ## Desolace core-contract observation (pack 0.55.0, for Butler)
 
 - The Desolace core contracted 1455 (The Karnitol Shipwreck) but not 1454, and 1465 (Vahlarriel's Search) but not 1437 - same-name twin pairs split across the contract line. The settled precedent (Harvesting the Harvesters 92910/92911, Attunement 7487/7848) routes both twins. This round did not touch the core; Butler rules whether 1454/1437 belong in.
+
+## Felwood tame lines (pack 0.57.0)
+
+- None of the 7 shipped rares is drop-evidenced as a tameable beast family (sole drops are the two Sinslayer signatures; shared tables carry only generic gear, profession mats and the ordinary greens), npc records carry no tameability flag, and the Felwood core guide (59-contract) carries zero only-Hunter lines and no references to any of the 7 flagged rares. No only-Hunter task ships; all seven steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+
+## Felwood quest-reward recipes (pack 0.57.0)
+
+- Quest records in the local build carry no reward data, so no quest-reward recipe in Felwood can be confirmed from the toolchain. The 9 shipped recipes are 8 exclusive mob drops plus 1 drop-or-vendor (Warbear Woolies, Meilosh). If a Felwood quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
+
+## Felwood stock class and respawn timers (pack 0.57.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so the Meilosh-sold Warbear Woolies is not marked limited. The buy step notes that stock class is unconfirmed.
+- No respawn data for any of the 7 shipped rares, the 19 container points, or the 9 drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
