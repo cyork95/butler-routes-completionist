@@ -1,0 +1,185 @@
+# Silverpine Forest census (pack butler-routes-completionist)
+
+Zone key 1421. 124 candidates swept: every quest with zone==1421 plus every
+quest whose start NPC/object spawns on the 1421 map (giver-spawn rule), plus
+an item-drop sweep for in-zone item-starts of out-of-zone quests. Faction
+read off the races bitmask (Alliance 1+4+8+64 [+Skyborne 2^32], Horde
+2+16+32+128 [+Skyborne-Horde 2^33]; null = all). **This is the pack's first
+Horde route: IN = Horde or neutral (fac HORDE/ALL); Alliance-only = set
+aside, listed for reconciliation.** Race token for Undead-only records
+(races=16) is `only Undead` (data race key "Scourge"; format doc: Undead
+compiles to Scourge). Class bits: 64 = Shaman (Call of Water), 8 = Rogue
+(Dead Drop line), 2 = Paladin (Scourge-compatible; Shaman impossible for
+races=16, classic bitmask confirms).
+
+Band 10-20 from the minLevel cluster (bulk min9-12, seconds min14-20, gap
+above 20). Single min24+ records are outliers and go out by the minLevel
+rule (finale quests are IN only if their minLevel is in band).
+
+## IN (68)
+
+Dalar Dawnweaver chain (Sepulcher north): 421 Prove Your Worth (min12),
+422/423/424 Arugal's Folly (min9), 99 Arugal's Folly (min9, ends Dalar),
+98298 Arugal's Folly (min9, ends Dalar), 98299 Stop the Spread (min9, ends
+Dalar). 421 min12 over lvl10 is a data quirk, routed as-is.
+
+Quinn/Yorick chain (Sepulcher): 428 Lost Deathstalkers, 429 Wild Hearts,
+430 Return to Quinn, 91920 Wild Eyes (min10), 91921 Return to Quinn (Again),
+425 Ivar the Foul (pre 430). Erland escort: 435 Escorting Erland (event),
+449 The Deathstalkers' Report (pre 435), 3221 Speak with Renferrel (pre
+449), 1359 Zinge's Delivery (pre 3221, ends Undercity 1458).
+
+Rot Hide ferry chain (Hadrec, Sepulcher): 437 The Dead Fields, 438 The
+Decrepit Ferry, 439 Rot Hide Clues (boat object both ends), 443 Rot Hide
+Ichor, 444 Rot Hide Origins (ends Bethor 1420/1458), 440 The Engraved Ring
+(ends Sevren, Tirisfal 1420). 448 Report to Hadrec (pre 446 Thule
+Ravenclaw, Tirisfal - SOFT-PRE, note + mini) -> 442 Assault on Fenris Isle
+(min10, lvl24 finale, minLevel rule IN).
+
+Apothecary chain (Renferrel, Sepulcher): 447 A Recipe For Death,
+450 (pre 447, pointer), 451 A Recipe For Death (pre 450), 95216 The New
+Plague (pre 451; starter Griffs dual-spawns 1421 @71.90,8.90 / Undercity -
+accept at the Silverpine spawn, ends Undercity).
+
+Faerleia: 452 Pyrewood Ambush (min12). Grave chain (Fenris): 460 Resting in
+Pieces (item-start 3317 Talking Head, drops in-zone; ends Shallow Grave
+object), 461 The Hidden Niche (grave/shelf objects), 491 Wand to Bethor
+(ends Bethor, Tirisfal).
+
+Shadow Priest chain (Allister, Sepulcher): 477 Border Crossings, 478 Maps
+and Runes (crate object both ends), 481 Dalar's Analysis, 482 Dalaran's
+Intentions, 479 Ambermill Investigations (pre 482), 480 The Weaver
+(min10), 95981 Watching the Roads (pre 482).
+
+Misc hub: 516 Beren's Peril (min16), 1014 Arugal Must Die (min18,
+Shadowfang), 1098 Deathstalkers in Shadowfang (min18; ender Vincent 4444
+has NO spawn in the data - IN with honest note, turnin written to Vincent,
+never an invented point), 493 Journey to Hillsbrad Foothills (min19,
+breadcrumb, ends Lydon Hillsbrad/Alterac).
+
+Shaman Call of Water (cls 64, only Shaman): 100 Call of Water (brazier
+object start @38.26,44.56 in-zone; pre 63 Barrens - SOFT-PRE, note +
+mini; no objectives; turnin rides a when-100 mini), 96 Call of Water
+(pre 100, ends Islen Barrens 1413), 1103 Call of Water (pre 100, Tiev in-
+zone both ends).
+
+Varimathras (dual-spawn 1421 @74.20,13.50 / Undercity): 5725 The Power to
+Destroy (min9; objectives 14395/14396 have NO source anywhere - bag-note
+record like 3845's trio).
+
+Dalaran objects (BORDERLINE B3, IN argued): 78127 The Dalaran Digest
+(Digest object @63.50,63.20 in-zone; ends Undercity/Stormwind), 79096
+Ataeric: On Arcane Curiosities (Arcane Secrets @43.40,41.20 in-zone; ends
+Undercity/Stormwind). Min1, neutral, chain ends outside - object-start is
+an item-start by analogy.
+
+Rogue Horn of Xelthos (cls 8, only Rogue, neutral): 78261 The Horn of
+Xelthos (min1, Dead Drop @47.12,70.99 both ends), 78307 The Horn of Xelthos
+(EMPTY start record - chain link after 78261; accept as pointer with note,
+turnin at the Dead Drop).
+
+Paladin Earthen Ring line (cls 2, only Paladin; races=16 records also only
+Undead): 91859 A Curious Pair (pre 91858 Tirisfal - SOFT-PRE), 91860 A
+Grim Fate, 91861 Into Fenris Keep (Undead; Charred Remains object),
+91862 Lumina Windsinger (Undead; same-NPC accept/turnin at Fenris Lumina),
+96204 The Windshaper's Wrath (Undead; pre 91862; Fenris Lumina to
+Sepulcher Lumina), 95034 The Debt (Undead; pre 96204; kill objective names
+the turn-in NPC 259620 - written from data with a note), 95036 A
+Moon-Kissed Blade (Undead; pre 95034; ends Trevan, dual 1421/1424),
+95111 An Underrated Talent (pre 95036; ends Ott, Hillsbrad/Alterac),
+95140 Old Fire-Eye (Undead; pre 95126 Hillsbrad - SOFT-PRE).
+
+Offering Stone line (min20): 95884 The Offering Stone (item-start 271343
+Note Scrap, drops in-zone), 95883 The Tortured Soul (pre 95884), 95885
+The Offering of Blood (pre 95883; event objectives null in data - written
+with note, lint judges).
+
+Tabitha: 92401 A Frightened Request (min15, event objective at Tabitha).
+
+Undead-only hub (races=16, only Undead): 6321 Supplying the Sepulcher
+(min10), 6323 Ride to the Undercity (pre 6321; ends Wendham, Undercity -
+chain continues out).
+
+Felben: 96988 Source of Power (min1; starter Felben dual-spawns 1421
+@72.00,9.40 / Undercity - accept at the Silverpine spawn).
+
+No profession quests in contract (every candidate skill field null) -
+stated, not padded. No trainer-taught content. No same-name twin IDs.
+
+## OUT
+
+Alliance set-asides (5, for reconciliation): 92457 Starving Arcane,
+92458 Heart of Disruption, 92459 Friend of the Kirin Tor (the Modera
+trio - NAMED CHECK: all races=Alliance bitmask, accept at the Modera
+image @68.62,45.18 on the Silverpine map; OUT of this Horde contract,
+named here as ruled), 94501 Call of Water (races=68 Dwarf+Gnome), 8993
+Gift Giving (Winter Veil, Alliance version).
+
+Seasonal/event (2 + 8993 above): 8645 Obsidian the Elder (Lunar Festival
+elder pattern, lvl60 min1), 8981 Gift Giving (Winter Veil, Horde
+version; giver Kwee multi-spawns incl. 1421).
+
+Battleground repeatables (29): 8367/8368/8369/8370/8387/8388/8389/8390,
+8426-8435 (Warsong Gulch brackets), 8436-8443 (Arathi Basin brackets),
+8566/8568/8570 (Past Victories/Efforts hand-ins), 98887/98888/98889/
+98891 (Darkspear Islands brackets). All start at the multi-zone Horde
+Warbringer (1421 spawn verified); out as PvP repeatables even where the
+band would allow (8368/8370/8426 min10-20). 98890 Conflict at Darkspear
+Islands is a null/null broken husk - out broken.
+
+Pylon repeatables (5): 4293/4294 (Fuely, min48), 4561 Testing for
+Impurities, 4642 Melding of Influences, 4661 Testing for Corruption
+(min48-55; equipment objects dual-spawn 1421/1458 but the chain is the
+Un'Goro/Felwood repeatable set). Out as repeatables + above-band.
+
+Above-band (12): 495 Crown of Will (min34), 1048 Into the Scarlet
+Monastery (min33), 6521/6522 An Unholy Alliance (min28; 6522's Small
+Scroll 17008 has no source anywhere), 78676 The Eye of Bhossca (min30),
+78699 The Eye of Bhossca (min25, empty-start twin of 78676), 6145 The
+Crimson Courier (min56, pre outside), 5961 Champion of the Banshee Queen
+(min54; starter Sylvanas has no 1421 spawn - accepts outside too), 8578
+Scrying Goggles (min60; Tanaris pre chain 8577), 97049 Essence of Seeping
+Slimes (min55), 96984 Heart of Disruption (min24 - see BORDERLINE B1).
+
+Accepts/item-source outside (3): 361 A Letter Undelivered (Tirisfal quest;
+letter drops in-zone - home-zone owns, no double-contract), 635 Crystal
+in the Mountains (ALREADY contracted in Arathi as a documented no-turn-in
+record; pendant drops in-zone - stays Arathi's, noted for a future
+sourcing line), 5961 (as above, Undercity accept).
+
+## BORDERLINE
+
+B1 - 96984 Heart of Disruption (Horde twin of the Modera pair, min24
+lvl33, pre 92434 Hillsbrad, ends Wordeen Alterac/Hillsbrad): OUT. Argued:
+the minLevel rule bars min24 from a 10-20 band; at lvl33 it cannot be
+played at zone level; its pre accepts outside Silverpine. The
+chain-consistent pick over 92458 would be 96984, but band beats chain.
+Butler may revisit it as a high-level return leg; the census does not
+contract it.
+
+B2 - 78676/78699 (same-name twin IDs, "The Eye of Bhossca", min30/min25):
+both OUT above-band. The twin rule (both routed) does not override the
+band rule; neither is in band, so there is nothing to route. 78676's pre
+(78307) is contracted and the chain reads whole to 78307.
+
+B3 - 78127 The Dalaran Digest + 79096 Ataeric (object
+start pins verified in-zone @63.50,63.20 / @43.40,41.20; NPC starters in
+Undercity/Stormwind; min1 neutral; chains end 1458/1453): IN. Argued: an
+object-start is an item-start by analogy, and item-starts are IN by pack
+rule; the accept CAN happen in Silverpine. The dual-spawn city logic
+would orphan them (no city guides contracted); the accept rule keeps
+them. Turn-ins ride expeditions.
+
+B4 - 361/635 cross-zone item-starts: OUT (home-zone owns; 635 already
+Arathi's documented record; 361 belongs to Tirisfal's future census).
+Argued: no double-contract; the drop zone does not claim the quest.
+
+B5 - 92458/96984 mutual exclusion (excl flags both ways): 92458 OUT by
+faction, 96984 OUT by band (B1). Both out on independent grounds; no
+chain-consistent contracting is possible in-band.
+
+B6 - 1098 Deathstalkers in Shadowfang (ender Vincent 4444 unplaced):
+IN with honest note. Argued: the turn-in EXISTS in the data (quest.end),
+only the spawn is missing - this is not an accept-only record and the
+turnin is not invented (no coords). Lint judges the goal.
+

@@ -9210,6 +9210,287 @@
           "name": "Craftsman's Writ: Earthen Silk Belt"
         }
       ]
+    },
+    {
+      "id": "silverpine-forest",
+      "name": "Silverpine Forest",
+      "order": 33,
+      "levelBand": "10-20",
+      "summary": "Set 6 Horde route: the Sepulcher hub chains (Dalar, Quinn/Yorick, Rot Hide ferry, apothecary, shadow priests, Beren, Arugal, Hillsbrad breadcrumb), the Fenris Isle legs, the Shaman Call of Water, the Rogue Horn of Xelthos, the Undead Paladin Earthen Ring line, the Offering Stone, Tabitha, the Undead-only hub quests, the Dalaran object-starts and the Undercity ends, plus soft-pre minis for the Tirisfal/Hillsbrad/Barrens pres.",
+      "quests": [
+        {
+          "id": 96,
+          "name": "Call of Water"
+        },
+        {
+          "id": 99,
+          "name": "Arugal's Folly"
+        },
+        {
+          "id": 100,
+          "name": "Call of Water"
+        },
+        {
+          "id": 421,
+          "name": "Prove Your Worth"
+        },
+        {
+          "id": 422,
+          "name": "Arugal's Folly"
+        },
+        {
+          "id": 423,
+          "name": "Arugal's Folly"
+        },
+        {
+          "id": 424,
+          "name": "Arugal's Folly"
+        },
+        {
+          "id": 425,
+          "name": "Ivar the Foul"
+        },
+        {
+          "id": 428,
+          "name": "Lost Deathstalkers"
+        },
+        {
+          "id": 429,
+          "name": "Wild Hearts"
+        },
+        {
+          "id": 430,
+          "name": "Return to Quinn"
+        },
+        {
+          "id": 435,
+          "name": "Escorting Erland"
+        },
+        {
+          "id": 437,
+          "name": "The Dead Fields"
+        },
+        {
+          "id": 438,
+          "name": "The Decrepit Ferry"
+        },
+        {
+          "id": 439,
+          "name": "Rot Hide Clues"
+        },
+        {
+          "id": 440,
+          "name": "The Engraved Ring"
+        },
+        {
+          "id": 442,
+          "name": "Assault on Fenris Isle"
+        },
+        {
+          "id": 443,
+          "name": "Rot Hide Ichor"
+        },
+        {
+          "id": 444,
+          "name": "Rot Hide Origins"
+        },
+        {
+          "id": 447,
+          "name": "A Recipe For Death"
+        },
+        {
+          "id": 448,
+          "name": "Report to Hadrec"
+        },
+        {
+          "id": 449,
+          "name": "The Deathstalkers' Report"
+        },
+        {
+          "id": 450,
+          "name": "A Recipe For Death"
+        },
+        {
+          "id": 451,
+          "name": "A Recipe For Death"
+        },
+        {
+          "id": 452,
+          "name": "Pyrewood Ambush"
+        },
+        {
+          "id": 460,
+          "name": "Resting in Pieces"
+        },
+        {
+          "id": 461,
+          "name": "The Hidden Niche"
+        },
+        {
+          "id": 477,
+          "name": "Border Crossings"
+        },
+        {
+          "id": 478,
+          "name": "Maps and Runes"
+        },
+        {
+          "id": 479,
+          "name": "Ambermill Investigations"
+        },
+        {
+          "id": 480,
+          "name": "The Weaver"
+        },
+        {
+          "id": 481,
+          "name": "Dalar's Analysis"
+        },
+        {
+          "id": 482,
+          "name": "Dalaran's Intentions"
+        },
+        {
+          "id": 491,
+          "name": "Wand to Bethor"
+        },
+        {
+          "id": 493,
+          "name": "Journey to Hillsbrad Foothills"
+        },
+        {
+          "id": 516,
+          "name": "Beren's Peril"
+        },
+        {
+          "id": 1014,
+          "name": "Arugal Must Die"
+        },
+        {
+          "id": 1098,
+          "name": "Deathstalkers in Shadowfang"
+        },
+        {
+          "id": 3221,
+          "name": "Speak with Renferrel"
+        },
+        {
+          "id": 1359,
+          "name": "Zinge's Delivery"
+        },
+        {
+          "id": 5725,
+          "name": "The Power to Destroy..."
+        },
+        {
+          "id": 6321,
+          "name": "Supplying the Sepulcher"
+        },
+        {
+          "id": 6323,
+          "name": "Ride to the Undercity"
+        },
+        {
+          "id": 91859,
+          "name": "A Curious Pair"
+        },
+        {
+          "id": 91860,
+          "name": "A Grim Fate"
+        },
+        {
+          "id": 91861,
+          "name": "Into Fenris Keep"
+        },
+        {
+          "id": 91862,
+          "name": "Lumina Windsinger"
+        },
+        {
+          "id": 95034,
+          "name": "The Debt"
+        },
+        {
+          "id": 95036,
+          "name": "A Moon-Kissed Blade"
+        },
+        {
+          "id": 95111,
+          "name": "An Underrated Talent"
+        },
+        {
+          "id": 95140,
+          "name": "Old Fire-Eye"
+        },
+        {
+          "id": 95883,
+          "name": "The Tortured Soul"
+        },
+        {
+          "id": 95884,
+          "name": "The Offering Stone"
+        },
+        {
+          "id": 95885,
+          "name": "The Offering of Blood"
+        },
+        {
+          "id": 96204,
+          "name": "The Windshaper's Wrath"
+        },
+        {
+          "id": 96988,
+          "name": "Source of Power"
+        },
+        {
+          "id": 95216,
+          "name": "The New Plague"
+        },
+        {
+          "id": 95981,
+          "name": "Watching the Roads"
+        },
+        {
+          "id": 98298,
+          "name": "Arugal's Folly"
+        },
+        {
+          "id": 98299,
+          "name": "Stop the Spread"
+        },
+        {
+          "id": 78261,
+          "name": "The Horn of Xelthos"
+        },
+        {
+          "id": 78307,
+          "name": "The Horn of Xelthos"
+        },
+        {
+          "id": 78127,
+          "name": "The Dalaran Digest"
+        },
+        {
+          "id": 79096,
+          "name": "Ataeric: On Arcane Curiosities"
+        },
+        {
+          "id": 92401,
+          "name": "A Frightened Request"
+        },
+        {
+          "id": 1103,
+          "name": "Call of Water"
+        },
+        {
+          "id": 91920,
+          "name": "Wild Eyes"
+        },
+        {
+          "id": 91921,
+          "name": "Return to Quinn (Again)"
+        }
+      ]
     }
   ]
 }
