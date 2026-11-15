@@ -1,0 +1,151 @@
+# Wetlands - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and manuals whose SOURCE is physically in
+# the Wetlands, verified against the local Forever game data (questie-forever
+# item vendor and drop tables). Twelve recipes are vendor-sold by in-zone
+# Alliance vendors (Jennabink Powerseam, Stuart Fleming, Wenna Silkbeard,
+# Fradd Swiftgear - no Horde-only vendor stock exists here); four more drop
+# each from named in-zone mobs, three of them honestly noted as also
+# dropping in one neighboring zone each. Everything else Wetlands-dropping
+# is a generic multi-zone world drop, and quest records carry no reward
+# data, so neither ships (see docs/wetlands-companions-inventory.md and
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. Blacksmithing, First Aid
+# and Fishing have no Wetlands source, so that is stated, not padded.
+guide butler-routes-completionist/wetlands-recipes
+title Wetlands - Recipes & Patterns
+levels 20-30
+zone Wetlands
+faction Alliance
+category Professions
+folder Companions
+keywords wetlands, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Menethil Harbor vendors - Jennabink's stock (Tailoring)
+
+  zone map 1437
+
+  when skill Tailoring 1
+
+  tip Jennabink Powerseam (8.12, 55.84) sells patterns in Menethil Harbor.
+  buy 5772 "Pattern: Red Woolen Bag"
+  buy 6275 "Pattern: Greater Adept's Robe"
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+
+step Menethil Harbor vendors - Stuart's stock (Cooking)
+
+  zone map 1437
+
+  when skill Cooking 1
+
+  tip Stuart Fleming (8.02, 58.35) sells recipes in Menethil Harbor.
+  buy 6368 "Recipe: Rainbow Fin Albacore"
+  buy 6369 "Recipe: Rockscale Cod"
+  buy 17062 "Recipe: Mithril Head Trout"
+
+step Dun Modr vendors - Wenna's stock (Tailoring, Leatherworking)
+
+  zone map 1437
+
+  when skill Tailoring 1
+
+  tip Wenna Silkbeard (25.61, 25.80) sells patterns at Dun Modr.
+  buy 7114 "Pattern: Azure Silk Gloves"
+
+step Dun Modr vendors - Wenna's leather stock (Leatherworking)
+
+  zone map 1437
+
+  when skill Leatherworking 1
+
+  tip Wenna Silkbeard (25.61, 25.80) sells patterns at Dun Modr.
+  buy 7290 "Pattern: Red Whelp Gloves"
+  buy 7613 "Pattern: Green Leather Armor"
+
+step Dun Modr vendors - Fradd's stock (Engineering)
+
+  zone map 1437
+
+  when skill Engineering 1
+
+  tip Fradd Swiftgear (26.40, 25.76) sells schematics at Dun Modr.
+  buy 13309 "Schematic: Lovingly Crafted Boomstick"
+  buy 14639 "Schematic: Minor Recombobulator"
+
+step North-west - murloc armor (Leatherworking)
+
+  zone map 1437
+
+  when skill Leatherworking 1
+
+  goto 15.45,23.61
+  kill 1160 optional
+  collect 5788 "Pattern: Thick Murloc Armor" optional
+  note Captain Halyndor (level 30) in the north-west is the named in-zone dropper; the same pattern also drops in Stranglethorn, so this is a genuine Wetlands source, not the only one. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Dun Modr - mining enchant (Enchanting)
+
+  zone map 1437
+
+  when skill Enchanting 1
+
+  loop
+  goto 47.19,15.69
+  goto 47.59,16.97
+  goto 48.01,16.61
+  goto 46.44,16.18
+  goto 46.74,17.21
+  goto 46.81,16.44
+  goto 45.65,16.85
+  goto 45.68,16.19
+  goto 45.95,16.85
+  goto 46.50,18.74
+  goto 47.39,14.99
+  goto 47.57,14.73
+  kill 1051 optional
+  kill 1052 optional
+  kill 1053 optional
+  kill 1054 optional
+  collect 11150 "Formula: Enchant Gloves - Mining" optional
+  note The Dark Iron clan at Dun Modr (levels 27-30) are the named in-zone droppers; the same formula also drops in Arathi, so this is a genuine Wetlands source, not the only one - and the above-band Balgaras the Foul is not routed. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step South-center - raptor bites (Cooking)
+
+  zone map 1437
+
+  when skill Cooking 1
+
+  loop
+  goto 19.77,52.47
+  goto 20.72,48.80
+  goto 21.37,51.91
+  kill 1020 optional
+  collect 250187 "Recipe: Tasty Raptor Bites" optional
+  note The Mottled Raptor (level 22) in the south-center is the named in-zone dropper; the same recipe also drops in Durotar, so this is a genuine Wetlands source, not the only one. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Dun Modr - jumbo dynamite (Engineering)
+
+  zone map 1437
+
+  when skill Engineering 1
+
+  loop
+  goto 46.50,18.74
+  goto 47.39,14.99
+  goto 47.57,14.73
+  kill 1054 optional
+  collect 264208 "Schematic: SAF-T Jumbo Dynamite" optional
+  note The Dark Iron Demolitionist (level 30) at Dun Modr is the sole placed dropper in the data - the other listed dropper has no spawn points anywhere, so it is not routed. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Wetlands source — other professions
+
+  zone map 1437
+
+  note Blacksmithing, First Aid and Fishing have no recipe source physically in the Wetlands in the data — no vendor sells them here and no in-zone mob drops them — so this guide carries nothing for them. Polestar's own profession guides cover trainer-taught staples.
