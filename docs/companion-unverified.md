@@ -524,3 +524,23 @@ as above: game-data citation or a named source.
 
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so the Meilosh-sold Warbear Woolies is not marked limited. The buy step notes that stock class is unconfirmed.
 - No respawn data for any of the 7 shipped rares, the 19 container points, or the 9 drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
+
+## Azshara tame lines (pack 0.59.0)
+
+- None of the 8 shipped rares is drop-evidenced as a tameable beast family (the only sole drop anywhere is Joonho's Mercy off General Fangferror, a naga; every other table carries only generic gear and ordinary greens), npc records carry no tameability flag, and the Azshara core guide (52-contract) carries zero only-Hunter lines and no references to any of the 8 flagged rares. No only-Hunter task ships; all eight steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+
+## Azshara quest-reward recipes (pack 0.59.0)
+
+- Quest records in the local build carry no reward data, so no quest-reward recipe in Azshara can be confirmed from the toolchain. The 21 shipped recipes are 17 exclusive mob drops plus 4 neutral-vendor buys. If an Azshara quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
+
+## Azshara stock class and respawn timers (pack 0.59.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so none of the 4 vendor recipes is marked limited. Both buy steps note that stock class is unconfirmed.
+- No respawn data for any of the 8 shipped rares, the 46 container points, or the 19 drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
+
+## Azshara adjudication log (pack 0.59.0, for Butler)
+
+- Rank-2 elites 6646 Monnos the Elder and 13896 Scalebeard carry roles ["rare"] but rank 2, not rank 4 - excluded per the Felwood precedent (rank rules). If roles is ever ruled sufficient, both are in-band single-point steps.
+- Unflagged but named (no rank flag, none shipped, named for review): 14462 Thundering Invader, 14464 Avalanchion, 244188 Scalebeard, 235906 Elder Bramblesnap, 235909 Furze, 236770 Korsa. Above-band and unflagged: 6109 Azuregos, 15481 Spirit of Azuregos, 15571 Maws.
+- Dual-zone single-droppers 251438 (6117, also Ashenvale) and 252858 (6116, also Ashenvale) stay out per the Felwood precedent, as do 13491 (Felwood second dropper) and 14477 (EPL second dropper). 9295 Recipe: Invisibility Potion drops off rare Hawkhelm but has 560 droppers across 26 zones - generic world drop, out.
+- 235645 Legashi Firewater Recipe ships ungated: six placed droppers are all Azshara Legashi (a seventh dropper record has no spawns and is disclosed, not shipped), but the data carries no profession skill tag, so no when-skill gate is possible.

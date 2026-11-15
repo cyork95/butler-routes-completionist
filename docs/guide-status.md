@@ -393,7 +393,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Lint/playtest clean — 0 errors, 30 accepted warnings; playtest 0 stuck (R1+R5 expedition residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions — 8 rares (1 sole-drop signature Joonho’s Mercy, 7 kill-note, incl. Varo’then core pointer; Feardred loops 3 pts), 46-pt treasure (13 + 12 solid chests + 21 mossy footlockers), 21 recipes (17 exclusive drops + 4 neutral-vendor)
 
 ### Un'Goro Crater — contested (Kalimdor)
 
