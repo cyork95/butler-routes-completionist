@@ -38,7 +38,7 @@ pointer note where a chain needs it):
 
 | ID | Quest | L/m | Disposition |
 |----|-------|-----|-------------|
-| 29 | Trial of the Sea Lion | 16/16 | pre 26 (Darnassus, homed) — pre-note; Shrine of Remulos objective (36, 41.42) |
+| 29 | Trial of the Lake | 16/16 | pre 26 (Darnassus, homed) — pre-note; Shrine of Remulos objective (36, 41.42) |
 | 272 | Trial of the Sea Lion | 16/16 | pre 29; Pendant of the Sea Lion from the shrine |
 | 5061 | Aquatic Form | 16/16 | pre 272; ends Mathrengyl Bearwalker (Darnassus expedition) |
 | 5924 | Heeding the Call | 10/10 | Stormwind accept (Theridran); ends Bearwalker; feeds homed 5921 — pointer note |

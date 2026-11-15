@@ -1,0 +1,166 @@
+# Butler Routes - Moonglade druid class guide (pack butler-routes-completionist, v0.37.0).
+# The pack's one class guide: the Alliance druid chains centred on Moonglade,
+# organised BY CHAIN in level order. Every contracted quest
+# (docs/moonglade-census.md, contract moonglade-druid) appears exactly once
+# as an accept and once as a turnin. The accept-in-zone rule is relaxed here
+# by design: the territory is the druid class chains, so Stormwind, Alterac
+# and Tanaris accepts open chains that the Moonglade legs finish.
+# Already-contracted chain links stay in their home guides (26, 5921, 5923,
+# 6001, 6121, 6123, 6124, 9063, 98393, 3763/3764/3781/3785) - notes point at
+# them where a chain needs the pointer, never accept/turnin lines.
+# Coordinates use the era frame the data carries, set with zone map lines.
+guide butler-routes-completionist/moonglade-druid
+title Moonglade - Druid Class Quests
+levels 10-52
+zone Moonglade
+faction Alliance
+class Druid
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Stormwind Park - Heeding the Call
+
+  zone map 1453
+
+  tip Theridran (36.11, 64.39) in the Park holds the bear-summon for young druids; Sheldras Moontree (35.84, 67.38) keeps the Child of Nature word for later. Take the Call, then carry it to Darnassus.
+  accept 5924 only NightElf,Druid -- Heeding the Call - Theridran; Mathrengyl Bearwalker waits in Darnassus
+  zone map 1457
+  turnin 5924 only NightElf,Druid -- Heeding the Call - the word to Mathrengyl Bearwalker
+  note The bear line continues as 5921 (Great Bear Spirit) in the Darnassus guide - run its bear block before the Moonglade rite below.
+
+step Darnassus to Alterac - Child of Nature
+
+  zone map 1416
+
+  tip Archmage Ansirem Runeweaver (14.16, 59.73) in Alterac holds a word for druids; Sheldras Moontree back in Stormwind Park (35.84, 67.38) takes it. No objectives - carry and deliver.
+  accept 94912 only Skyborne,Druid -- Child of Nature - Ansirem; Sheldras Moontree waits in Stormwind
+  zone map 1453
+  turnin 94912 only Skyborne,Druid -- Child of Nature - the word to Sheldras Moontree
+
+step Moonglade - Great Bear Spirit
+
+  zone map 1450
+
+  tip Dendrite Starblaze (56.21, 30.64) speaks the bear rite. The Darnassus bear line 5921 must be turned in first - run the Darnassus guide's bear block before this step.
+  accept 5929 only NightElf,Druid -- Great Bear Spirit - Dendrite Starblaze; the rite at his side
+  complete 5929 only NightElf,Druid @56.21,30.64 era -- the Great Bear Spirit rite with Dendrite Starblaze
+  turnin 5929 only NightElf,Druid -- Great Bear Spirit - the rite to Dendrite Starblaze
+  accept 5931 only NightElf,Druid -- Back to Darnassus - Dendrite Starblaze; carry the word to Mathrengyl Bearwalker
+  zone map 1457
+  turnin 5931 only NightElf,Druid -- Back to Darnassus - the word to Mathrengyl Bearwalker
+  note The cure line continues as 6001 in the Darnassus guide - its bear block picks up here.
+
+step Moonglade - the sea trials
+
+  zone map 1450
+
+  tip Dendrite Starblaze (56.21, 30.64) sets the lake trial; Tajarri (36.52, 40.10) keeps the shrine at the Shrine of Remulos (36.00, 41.42) in the north-west. The waters line 26 lives in the Darnassus guide - turn it in before accepting here. Have the Shrine Bauble (15877) ready for the shrine rite.
+  accept 29 only NightElf,Skyborne,Druid -- Trial of the Lake - Dendrite Starblaze; the shrine rite in the north-west
+  complete 29 only NightElf,Skyborne,Druid @36.00,41.42 era -- the shrine rite at the Shrine of Remulos
+  turnin 29 only NightElf,Skyborne,Druid -- Trial of the Lake - the rite to Tajarri
+  accept 272 only NightElf,Skyborne,Druid -- Trial of the Sea Lion - Tajarri; the pendant at the shrine
+  complete 272 only NightElf,Skyborne,Druid @36.00,41.42 era -- the pendant rite at the Shrine of Remulos
+  turnin 272 only NightElf,Skyborne,Druid -- Trial of the Sea Lion - the pendant to Dendrite Starblaze
+  accept 5061 only NightElf,Skyborne,Druid -- Aquatic Form - Dendrite Starblaze; Mathrengyl Bearwalker takes the word
+  zone map 1457
+  turnin 5061 only NightElf,Skyborne,Druid -- Aquatic Form - the word to Mathrengyl Bearwalker
+
+step Moonglade - Power over Poison
+
+  zone map 1450
+
+  tip Dendrite Starblaze (56.21, 30.64) sends the cure south. The Darnassus line 6121 must be turned in first - run the Darnassus guide's cure block before accepting. The Filled Cliffspring Falls Sampler (15845) has no source in the data - have it in your bags (auction house or an alchemist) before you travel.
+  accept 6122 only NightElf,Skyborne,Druid -- The Principal Source - Dendrite Starblaze; Alanndarian Nightsong waits in Darkshore
+  zone map 1439
+  complete 6122 only NightElf,Skyborne,Druid @37.69,40.66 era -- the sampler to Alanndarian Nightsong in the grove
+  turnin 6122 only NightElf,Skyborne,Druid -- The Principal Source - the sampler to Alanndarian Nightsong
+  note The cure line continues as 6123 in the Darkshore guide - its grove block picks up here.
+  zone map 1450
+  note The Darkshore line 6124 must be turned in first - run the Darkshore guide's cure block before accepting.
+  accept 6125 only NightElf,Skyborne,Druid -- Power over Poison - Dendrite Starblaze; Mathrengyl Bearwalker takes the word
+  zone map 1457
+  turnin 6125 only NightElf,Skyborne,Druid -- Power over Poison - the word to Mathrengyl Bearwalker
+
+step Moonglade - the Great Cat Spirit
+
+  zone map 1450
+
+  tip Dendrite Starblaze (56.21, 30.64) opens the cat trials; the Great Cat Spirit (54.50, 75.00) waits in the south. The Darnassus line 98393 must be turned in first - run the Darnassus guide's cat block before accepting. The relics (280502, 280679, 280680) have no source in the data - have them in your bags before you travel south.
+  accept 98394 only NightElf,Druid -- The Great Cat Spirit - Dendrite Starblaze; the Great Cat Spirit waits south
+  turnin 98394 only NightElf,Druid -- The Great Cat Spirit - the word to the Great Cat Spirit
+  accept 98396 only NightElf,Druid -- The Great Cat Spirit - the Spirit; three relics for its blessing
+  complete 98396 only NightElf,Druid @54.50,75.00 era -- the three relics to the Great Cat Spirit
+  turnin 98396 only NightElf,Druid -- The Great Cat Spirit - the relics to the Great Cat Spirit
+  accept 98731 only NightElf,Druid -- Blessings of the Great Cat Spirit - the Spirit; Dendrite takes the word
+  turnin 98731 only NightElf,Druid -- Blessings of the Great Cat Spirit - the word to Dendrite Starblaze
+
+step Moonglade - the Windborne Cat Spirit
+
+  zone map 1450
+
+  tip The Avatar of Saeyleenan (43.92, 73.44) keeps the windborne trials in the south-west; Dendrite Starblaze (56.21, 30.64) opens them. 98393 (Darnassus-contracted, also pre for the Horde twin 98340) must be turned in first - run the Darnassus guide's cat block before accepting. The relics (280502, 280679, 280680) have no source in the data - have them in your bags before you travel.
+  accept 98341 only Skyborne,Druid -- The Great Windborne Cat Spirit - Dendrite Starblaze; the Avatar waits south-west
+  turnin 98341 only Skyborne,Druid -- The Great Windborne Cat Spirit - the word to the Avatar of Saeyleenan
+  accept 98404 only Skyborne,Druid -- The Great Windborne Cat Spirit - the Avatar; three relics for its blessing
+  complete 98404 only Skyborne,Druid @43.92,73.44 era -- the three relics to the Avatar of Saeyleenan
+  turnin 98404 only Skyborne,Druid -- The Great Windborne Cat Spirit - the relics to the Avatar of Saeyleenan
+  accept 98738 only Skyborne,Druid -- Blessings of the Great Windborne Cat Spirit - the Avatar; Dendrite takes the word
+  turnin 98738 only Skyborne,Druid -- Blessings of the Great Windborne Cat Spirit - the word to Dendrite Starblaze
+
+step Moonglade - To Darnassus
+
+  zone map 1450
+
+  tip Both cat blessings end here: Dendrite Starblaze (56.21, 30.64) sends the word to Mathrengyl Bearwalker in Darnassus. Night Elf druids arrive by the Great Cat blessings, Skyborne druids by either chain.
+  accept 98397 only NightElf,Skyborne,Druid -- To Darnassus - Dendrite Starblaze; Mathrengyl Bearwalker takes the word
+  zone map 1457
+  turnin 98397 only NightElf,Skyborne,Druid -- To Darnassus - the word to Mathrengyl Bearwalker
+
+step Tanaris - Bloodpetal Poison
+
+  zone map 1446
+
+  tip Torwa Pathfinder (27.50, 42.70) in Tanaris opens the venom work. The Darnassus line 9063 must be turned in first - Loganaar (52.53, 40.57) in Moonglade offers it in the Darnassus guide, so run that block before accepting here. The work itself happens in Un'Goro.
+  accept 9052 -- Bloodpetal Poison - Torwa Pathfinder; Gorishi Stings and Bloodcaps in Un'Goro
+
+step Un'Goro - Bloodpetal Poison (field work)
+
+  zone map 1449
+
+  loop
+  goto 43.55,81.23
+  goto 43.99,81.99
+  goto 44.02,80.75
+  goto 45.05,83.71
+  goto 45.32,82.61
+  goto 45.85,84.57
+  goto 46.53,81.83
+  kill 6551 optional
+  tip The Gorishi hives hum in the north-east wastes; Torwa Pathfinder (71.64, 75.96) takes the venom in the south-west. Eight Gorishi Stings (22435) come off the hive wasps above; the eight Bloodcaps (22434) have no source in the data - have them in your bags before you hunt.
+  complete 9052 @45.05,83.71 era -- eight Gorishi Stings off the hive wasps
+  turnin 9052 -- Bloodpetal Poison - the venom to Torwa Pathfinder
+
+step Un'Goro - Toxic Test
+
+  zone map 1449
+
+  loop
+  goto 31.19,36.42
+  goto 34.60,22.37
+  goto 57.26,23.68
+  kill 6498 optional
+  tip The Devilsaurs walk the western wastes and the far north-east; Torwa Pathfinder (71.64, 75.96) takes the test in the south-west.
+  accept 9051 -- Toxic Test - Torwa Pathfinder; a Devilsaur in the wastes
+  complete 9051 @31.19,36.42 era -- a Devilsaur brought down in the western wastes
+  turnin 9051 -- Toxic Test - the test to Torwa Pathfinder
+
+step Un'Goro - A Better Ingredient
+
+  zone map 1449
+
+  tip The Putrid Vine (22444) has no placed source in the data - Atal'alarion carries it but has no spawn, so have the vine in your bags before you close the chain. Torwa Pathfinder (71.64, 75.96) finishes the work.
+  accept 9053 -- A Better Ingredient - Torwa Pathfinder; the Putrid Vine for the cure
+  complete 9053 @71.64,75.96 era -- the Putrid Vine to Torwa Pathfinder
+  turnin 9053 -- A Better Ingredient - the vine to Torwa Pathfinder
