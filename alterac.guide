@@ -1,0 +1,208 @@
+# Alterac Mountains - Completionist (pack butler-routes-completionist, v1).
+# Alliance route through the mountain crossing between Hillsbrad and the
+# Plaguelands: the Dalaran crater wizards west, the writ turn-ins central, the
+# Syndicate documents south, Bath'rah and Myrokos south-east, then expedition
+# legs to Hillsbrad and Stranglethorn. Contract: 20 quests
+# (19 turn-ins; 96783 is an accept-only record with no turn-in in the data).
+# This round clears the Hillsbrad debt: 510 feeds contracted 512 and 511 feeds
+# contracted 514 (both Hillsbrad), so those chains now read end to end. Soft-pre
+# accepts whose blocking pre-quest sits outside the contract (602 for 603,
+# 1791 for 1712, 6681 for 96781/96783) carry a note at the accept; the Cyclonian
+# and Ravenholdt completes stand alone in `when onquest` mini-steps. R2/R5
+# accepted classes: sourceless writ starters (bag notes), off-zone Bloodscalp
+# Tusks for 1712 (Stranglethorn bag note), spawnless objective sources
+# (Zum'rah, Zalfan Moonshadow, Coldbringer's Eye, Gurubashi Idol, Blade/Aegis —
+# bag notes with bare completes). No race header: no quest is race-locked
+# (races are Alliance or neutral throughout) — per-line class gates only
+# (Warrior, Rogue). See docs/alterac-census.md for the full ledger.
+guide butler-routes-completionist/alterac-mountains
+title Alterac Mountains - Completionist
+levels 30-40
+zone Alterac Mountains
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step The Dalaran crater — Ansirem's key
+
+  tip Archmage Ansirem Runeweaver (14.16, 59.73) works the crater west.
+  goto 14.16,59.73
+  note 603's pre (602 Magical Analysis, Stranglethorn, out of contract) fills outside this route - take 603 here.
+  accept 603 only Alliance -- Ansirem's Key - Archmage Ansirem Runeweaver; Catelyn takes it in Stranglethorn, late
+
+step The Dalaran crater — Olvek and Nightstride
+
+  goto 9.51,62.25
+  accept 96800 only Alliance -- Past Due - Magus Olvek; the Runemasters' magic
+  note The Lost Magic of the Runemasters names no placed source in the data - have it in your bags.
+  complete 96800 only Alliance
+  turnin 96800 only Alliance -- Past Due - the Runemasters' magic to Magus Olvek
+  goto 17.8,65.95
+  accept 96771 only Alliance -- Vengeance of the Highborne - Ranath Nightstride; Zalfan Moonshadow, at 37
+  note Zalfan Moonshadow has no placed spawn in the data - take him if he is up by the post.
+  complete 96771 only Alliance
+  turnin 96771 only Alliance -- Vengeance of the Highborne - to Ranath Nightstride
+
+step The Dalaran crater — the high wizards
+
+  goto 15.3,73.93
+  accept 96770 only Alliance -- The Witch Doctor's Head - Archmage Lan'dalock; Zum'rah's Head, at 39
+  note Zum'rah has no placed spawn in the data - have his Head in your bags.
+  complete 96770 only Alliance
+  turnin 96770 only Alliance -- The Witch Doctor's Head - to Archmage Lan'dalock
+  accept 96773 only Alliance -- The Coldbringer's Eye - Archmage Lan'dalock; the Eye, at 34
+  note The Coldbringer's Eye names no placed source in the data - have it in your bags.
+  complete 96773 only Alliance
+  turnin 96773 only Alliance -- The Coldbringer's Eye - to Archmage Lan'dalock
+  goto 15.37,74.09
+  accept 97130 only Alliance -- Ancient Gurubashi Secrets - Archmage Timear; the Idol, at 34
+  note The Ancient Gurubashi Idol's only dropper has no placed spawn in the data - have it in your bags.
+  complete 97130 only Alliance
+  turnin 97130 only Alliance -- Ancient Gurubashi Secrets - to Archmage Timear
+
+step Central Alterac — writ: elixir (Alchemy)
+
+  when skill Alchemy 1
+
+  goto 38.4,61.13
+  accept 94004 optional -- Craftsman's Writ: Elixir of Ogre's Strength - Sos'mol; back to Sos'mol, at 60
+  note 94004's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94004 optional -- Craftsman's Writ: Elixir of Ogre's Strength - back to Sos'mol
+
+step Central Alterac — writ: leather ball (Leatherworking)
+
+  when skill Leatherworking 1
+
+  goto 38.4,61.13
+  accept 94238 optional -- Craftsman's Writ: Heavy Leather Ball - Sos'mol; back to Sos'mol, at 60
+  note 94238's starter (the writ) has no placed source in the data - have it in your bags.
+  note The Heavy Leather Ball is a Leatherworking craft, or bought off Flik (Elwynn/Mulgore) - have the Ball in your bags.
+  turnin 94238 optional -- Craftsman's Writ: Heavy Leather Ball - back to Sos'mol
+
+step Central Alterac — writ: dagger (Blacksmithing)
+
+  when skill Blacksmithing 1
+
+  goto 30.62,61.02
+  accept 94220 optional -- Craftsman's Writ: Pearl-Handled Dagger - Alan Sneeks; back to Alan Sneeks, at 60
+  note 94220's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94220 optional -- Craftsman's Writ: Pearl-Handled Dagger - back to Alan Sneeks
+
+step Central Alterac — writ: spyglass (Engineering)
+
+  when skill Engineering 1
+
+  goto 30.62,61.02
+  accept 94229 optional -- Craftsman's Writ: Ornate Spyglass - Alan Sneeks; back to Alan Sneeks, at 60
+  note 94229's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94229 optional -- Craftsman's Writ: Ornate Spyglass - back to Alan Sneeks
+
+step Central Alterac — writ: robe (Tailoring)
+
+  when skill Tailoring 1
+
+  goto 30.62,61.02
+  accept 94247 optional -- Craftsman's Writ: Lesser Wizard's Robe - Alan Sneeks; back to Alan Sneeks, at 60
+  note 94247's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94247 optional -- Craftsman's Writ: Lesser Wizard's Robe - back to Alan Sneeks
+
+step The Syndicate cache — documents
+
+  tip The Syndicate Documents (58.28, 67.92) sit in the cache south.
+  goto 58.28,67.92
+  accept 510 only Alliance -- Foreboding Plans - the Syndicate Documents; Maleb takes them in Hillsbrad, late
+  accept 511 only Alliance -- Encrypted Letter - the Syndicate Documents; Dibbs takes it in Hillsbrad, late
+
+step The south-east — Bath'rah
+
+  tip Bath'rah the Windwatcher (80.5, 66.92) holds the south-east.
+  goto 80.5,66.92
+  note 1712's pre (1791 The Windwatcher, out of contract — ends here) fills outside this route - take 1712 here.
+  accept 1712 only Warrior -- Cyclonian - Bath'rah the Windwatcher; Liferoot, Tusks and Exile
+  note Bloodscalp Tusks drop off the Bloodscalps in Stranglethorn, none on 1416 - take thirty Tusks and have them in your bags.
+  note The Essence of the Exile names no placed source in the data - have it in your bags.
+  collect 3357 x8 quest 1712.1 @13.54,55.4 era -- Liferoot off the nodes west for Bath'rah the Windwatcher
+
+step The south-east — writ: pants (Leatherworking)
+
+  when skill Leatherworking 1
+
+  goto 80.5,66.92
+  accept 94251 optional -- Craftsman's Writ: Phoenix Pants - Bath'rah the Windwatcher; back to Bath'rah, at 60
+  note 94251's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94251 optional -- Craftsman's Writ: Phoenix Pants - back to Bath'rah the Windwatcher
+
+step The far south-east — Myrokos
+
+  tip Myrokos Silentform (84.93, 80.38) runs the Ravenholdt cell far south-east.
+  goto 84.93,80.38
+  note 96781's pre (6681 The Manor, Ravenholdt, out of contract — below band) fills outside this route - take 96781 here.
+  accept 96781 only Rogue -- What's the Big Idea? - Myrokos Silentform; Barton's Scouting Report
+  collect 275482 quest 96781.1 @60.23,46.53 era -- Barton's Scouting Report off Barton for Myrokos Silentform
+  note 96783's pre (6681, out of contract) fills outside this route - take 96783 here.
+  accept 96783 only Rogue -- A Way In - Myrokos Silentform; accept-only, no turn-in in the data
+  note 96783 has no ender and no objectives in the data - bank the accept; there is nothing to turn in.
+
+step Bath'rah — the Cyclonian line
+
+  when onquest 1712
+
+  goto 80.5,66.92
+  complete 1712 only Warrior
+  turnin 1712 only Warrior -- Cyclonian - Liferoot, Tusks and Exile to Bath'rah the Windwatcher
+  note 1713's pre (1712 above) fills at this turn-in - take 1713 here.
+  accept 1713 only Warrior -- The Summoning - Bath'rah the Windwatcher; the Whirlwind Heart off Cyclonian
+  complete 1713 only Warrior @80.32,62.14 era -- the Whirlwind Heart off Cyclonian for Bath'rah the Windwatcher
+  turnin 1713 only Warrior -- The Summoning - the Heart to Bath'rah the Windwatcher
+  note 1792's pre (1713 above) fills at this turn-in - take 1792 here.
+  accept 1792 only Warrior -- Whirlwind Weapon - Bath'rah the Windwatcher; no objectives
+  turnin 1792 only Warrior -- Whirlwind Weapon - back to Bath'rah the Windwatcher
+
+step Myrokos — extraction
+
+  when onquest 96781
+
+  goto 84.93,80.38
+  complete 96781 only Rogue
+  turnin 96781 only Rogue -- What's the Big Idea? - the Report to Myrokos Silentform
+  note 96782's pre (96781 above) fills at this turn-in - take 96782 here.
+  accept 96782 only Rogue -- Covert Extraction - Myrokos Silentform; the Blade and the Aegis
+  note The Blade of House Perenolde and the Royal Aegis of Perenolde name no placed source in the data - have them in your bags.
+  complete 96782 only Rogue
+  turnin 96782 only Rogue -- Covert Extraction - the Blade and Aegis to Myrokos Silentform
+
+step Expedition — Hillsbrad, Maleb's rings
+
+  when onquest 510
+
+  zone map 1424
+
+  tip Magistrate Henry Maleb (48.14, 59.11) holds Southshore.
+  goto 48.14,59.11
+  turnin 510 only Alliance -- Foreboding Plans - the Documents to Magistrate Henry Maleb
+  zone map 1416
+
+step Expedition — Hillsbrad, Dibbs's letter
+
+  when onquest 511
+
+  zone map 1424
+
+  tip Loremaster Dibbs (50.57, 57.09) studies in Southshore.
+  goto 50.57,57.09
+  turnin 511 only Alliance -- Encrypted Letter - the Documents to Loremaster Dibbs
+  zone map 1416
+
+step Expedition — Stranglethorn, Catelyn's blade
+
+  when onquest 603
+
+  zone map 1434
+
+  tip Catelyn the Blade (27.28, 77.53) waits down the cape.
+  goto 27.28,77.53
+  turnin 603 only Alliance -- Ansirem's Key - the Key to Catelyn the Blade
+  zone map 1416
+

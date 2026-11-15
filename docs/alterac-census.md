@@ -18,9 +18,9 @@ and set aside for the Horde block's own census.
   80526, 8234, 96603, 97173, 96772, 96797) plus the level-60 donation chain
   and the unresolvable 96602 (see BORDERLINE). Below-band OUT: quest levels
   13/24/25/27 (94947, 6681, 96779, 79362, 79363, 96137, 94912).
-- IN: **21** (21 accepts, 20 turn-ins — 96783 is an accept-only record with
+- IN: **20** (20 accepts, 19 turn-ins — 96783 is an accept-only record with
   no ender, contracted with an honest note per the Ironforge precedent).
-  OUT: **143** = 66 Horde + 47 Alterac Valley battleground + 4 repeatable +
+  OUT: **144** = 67 Horde + 47 Alterac Valley battleground + 4 repeatable +
   2 seasonal + 1 broken/unplaceable + 8 above-band + 7 below-band + 4 donation
   chain + 1 pre-chain-above-band + 3 accept-outside (Silverpine).
 - 512/514 debt cleared: 510 (Foreboding Plans, object-start, ends Maleb)
@@ -44,7 +44,6 @@ and set aside for the Horde block's own census.
 | 96773 | The Coldbringer's Eye | 41/34 | finale, min in band; Coldbringer's Eye objective |
 | 96800 | Past Due | 38/30 | standalone; Runemasters objective |
 | 97130 | Ancient Gurubashi Secrets | 40/34 | standalone; Gurubashi Idol objective |
-| 79365 | With Wind Beneath Your Wings | 40/30 | Shaman; no objectives, delivery to Rau Cliffrunner (Thousand Needles expedition) |
 | 96781 | What's the Big Idea? | 36/24 | Rogue; pre 6681 (out, below-band) — structural warning + note; Scouting Report objective |
 | 96782 | Covert Extraction | 36/24 | Rogue; pre 96781; Blade + Aegis objectives |
 | 96783 | A Way In | 36/24 | Rogue; pre 6681 (out) — warning + note; accept-only, no ender/objectives — honest note, never an invented turn-in |
@@ -67,7 +66,7 @@ Horde set-aside (66, for the Horde block's reconciliation): 496, 498, 499,
 529, 532, 533, 535, 539, 541, 544, 545, 546, 547, 549, 550, 552, 553, 556, 557,
 566, 567, 676, 1051, 1066, 1067, 1361, 2480, 2934, 2935, 2938, 6983, 7082,
 7101, 7124, 7142, 7161, 7163, 7164, 7165, 7166, 7167, 7181, 7222, 7321, 7381,
-8272, 8411, 8412, 8413, 96984.
+8272, 8411, 8412, 8413, 96984, 79365.
 
 Battleground brackets (47, Alterac Valley + BG heralds, repeatable or not —
 all out of scope for a leveling route): 7081, 7102, 7122, 7141, 7162, 7168,
@@ -119,3 +118,5 @@ see BORDERLINE).
 6. 96783 (36/24, no ender, no objectives) — IN with an honest accept-only
    note (Ironforge/Redridge precedent). Not broken: the accept (Myrokos) is
    placed and the chain position is real (pre 6681, feeds 96784 elsewhere).
+
+79365 note: With Wind Beneath Your Wings (40/30, Shaman) is Horde-only (races=34, Orc+Tauren per races.json) — caught by the compiler, not the census mask read. Moved to the Horde set-aside on the lint pass.
