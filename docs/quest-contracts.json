@@ -9516,6 +9516,643 @@
           "name": "Call of Water"
         }
       ]
+    },
+    {
+      "id": "the-barrens",
+      "name": "The Barrens",
+      "order": 35,
+      "levelBand": "10-25",
+      "summary": "Set 6 Horde route: the Crossroads hub chains (Sergra, Thorn Hill, Grol'dom, Regthar, Wenikee, Jorn, Devrak, Darsok, Varoot, Rahauro, Grunt Logmar, Thork, Apothecary Jorell, Melor), the Wailing Caverns druid line, the Hunter beasts and Rogue Shaw chain, the Camp Taurajo and Sun Rock Retreat legs, the Ratchet goblins, the Samophlange and Blueleaf quests, the Ashenvale/Durotan/Mulgore/Stonetalon/Dustwallow/Thousand Needles border chains, the Shaman Call of Water finales, Tear of the Moons, and the Freewind/Thunder Bluff exits, plus soft-pre minis for the Mulgore/Moonglade/Durotar pres.",
+      "quests": [
+        {
+          "id": 63,
+          "name": "Call of Water"
+        },
+        {
+          "id": 96,
+          "name": "Call of Water"
+        },
+        {
+          "id": 220,
+          "name": "Call of Water"
+        },
+        {
+          "id": 775,
+          "name": "Journey into Thunder Bluff"
+        },
+        {
+          "id": 819,
+          "name": "Chen's Empty Keg"
+        },
+        {
+          "id": 821,
+          "name": "Chen's Empty Keg"
+        },
+        {
+          "id": 822,
+          "name": "Chen's Empty Keg"
+        },
+        {
+          "id": 833,
+          "name": "A Sacred Burial"
+        },
+        {
+          "id": 842,
+          "name": "Crossroads Conscription"
+        },
+        {
+          "id": 843,
+          "name": "Gann's Reclamation"
+        },
+        {
+          "id": 844,
+          "name": "Plainstrider Menace"
+        },
+        {
+          "id": 845,
+          "name": "The Zhevra"
+        },
+        {
+          "id": 846,
+          "name": "Revenge of Gann"
+        },
+        {
+          "id": 848,
+          "name": "Fungal Spores"
+        },
+        {
+          "id": 849,
+          "name": "Revenge of Gann"
+        },
+        {
+          "id": 850,
+          "name": "Kolkar Leaders"
+        },
+        {
+          "id": 851,
+          "name": "Verog the Dervish"
+        },
+        {
+          "id": 852,
+          "name": "Hezrul Bloodmark"
+        },
+        {
+          "id": 853,
+          "name": "Apothecary Zamah"
+        },
+        {
+          "id": 854,
+          "name": "Journey to the Crossroads"
+        },
+        {
+          "id": 855,
+          "name": "Centaur Bracers"
+        },
+        {
+          "id": 857,
+          "name": "The Tear of the Moons"
+        },
+        {
+          "id": 858,
+          "name": "Ignition"
+        },
+        {
+          "id": 862,
+          "name": "Dig Rat Stew"
+        },
+        {
+          "id": 863,
+          "name": "The Escape"
+        },
+        {
+          "id": 865,
+          "name": "Raptor Horns"
+        },
+        {
+          "id": 866,
+          "name": "Root Samples"
+        },
+        {
+          "id": 867,
+          "name": "Harpy Raiders"
+        },
+        {
+          "id": 868,
+          "name": "Egg Hunt"
+        },
+        {
+          "id": 869,
+          "name": "Raptor Thieves"
+        },
+        {
+          "id": 870,
+          "name": "The Forgotten Pools"
+        },
+        {
+          "id": 871,
+          "name": "Disrupt the Attacks"
+        },
+        {
+          "id": 872,
+          "name": "The Disruption Ends"
+        },
+        {
+          "id": 873,
+          "name": "Isha Awak"
+        },
+        {
+          "id": 874,
+          "name": "Mahren Skyseer"
+        },
+        {
+          "id": 875,
+          "name": "Harpy Lieutenants"
+        },
+        {
+          "id": 876,
+          "name": "Serena Bloodfeather"
+        },
+        {
+          "id": 877,
+          "name": "The Stagnant Oasis"
+        },
+        {
+          "id": 878,
+          "name": "Tribes at War"
+        },
+        {
+          "id": 879,
+          "name": "Betrayal from Within"
+        },
+        {
+          "id": 880,
+          "name": "Altered Beings"
+        },
+        {
+          "id": 881,
+          "name": "Echeyakee"
+        },
+        {
+          "id": 882,
+          "name": "Ishamuhale"
+        },
+        {
+          "id": 887,
+          "name": "Southsea Freebooters"
+        },
+        {
+          "id": 888,
+          "name": "Stolen Booty"
+        },
+        {
+          "id": 889,
+          "name": "Spirit of the Wind"
+        },
+        {
+          "id": 890,
+          "name": "The Missing Shipment"
+        },
+        {
+          "id": 891,
+          "name": "The Guns of Northwatch"
+        },
+        {
+          "id": 892,
+          "name": "The Missing Shipment"
+        },
+        {
+          "id": 893,
+          "name": "Weapons of Choice"
+        },
+        {
+          "id": 894,
+          "name": "Samophlange"
+        },
+        {
+          "id": 895,
+          "name": "WANTED: Baron Longshore"
+        },
+        {
+          "id": 896,
+          "name": "Miner's Fortune"
+        },
+        {
+          "id": 898,
+          "name": "Free From the Hold"
+        },
+        {
+          "id": 899,
+          "name": "Consumed by Hatred"
+        },
+        {
+          "id": 900,
+          "name": "Samophlange"
+        },
+        {
+          "id": 901,
+          "name": "Samophlange"
+        },
+        {
+          "id": 902,
+          "name": "Samophlange"
+        },
+        {
+          "id": 903,
+          "name": "Prowlers of the Barrens"
+        },
+        {
+          "id": 905,
+          "name": "The Angry Scytheclaws"
+        },
+        {
+          "id": 906,
+          "name": "Betrayal from Within"
+        },
+        {
+          "id": 907,
+          "name": "Enraged Thunder Lizards"
+        },
+        {
+          "id": 913,
+          "name": "Cry of the Thunderhawk"
+        },
+        {
+          "id": 924,
+          "name": "The Demon Seed"
+        },
+        {
+          "id": 926,
+          "name": "Flawed Power Stone"
+        },
+        {
+          "id": 959,
+          "name": "Trouble at the Docks"
+        },
+        {
+          "id": 972,
+          "name": "Water Sapta"
+        },
+        {
+          "id": 1060,
+          "name": "Letter to Jin'Zil"
+        },
+        {
+          "id": 1062,
+          "name": "Goblin Invaders"
+        },
+        {
+          "id": 1063,
+          "name": "The Elder Crone"
+        },
+        {
+          "id": 1068,
+          "name": "Shredding Machines"
+        },
+        {
+          "id": 1069,
+          "name": "Deepmoss Spider Eggs"
+        },
+        {
+          "id": 1095,
+          "name": "Further Instructions"
+        },
+        {
+          "id": 1130,
+          "name": "Melor Sends Word"
+        },
+        {
+          "id": 1153,
+          "name": "A New Ore Sample"
+        },
+        {
+          "id": 1221,
+          "name": "Blueleaf Tubers"
+        },
+        {
+          "id": 1464,
+          "name": "Fire Sapta"
+        },
+        {
+          "id": 1483,
+          "name": "Ziz Fizziks"
+        },
+        {
+          "id": 1486,
+          "name": "Deviate Hides"
+        },
+        {
+          "id": 1487,
+          "name": "Deviate Eradication"
+        },
+        {
+          "id": 1489,
+          "name": "Hamuul Runetotem"
+        },
+        {
+          "id": 1491,
+          "name": "Smart Drinks"
+        },
+        {
+          "id": 1492,
+          "name": "Wharfmaster Dizzywig"
+        },
+        {
+          "id": 1498,
+          "name": "Path of Defense"
+        },
+        {
+          "id": 1502,
+          "name": "Thun'grim Firegaze"
+        },
+        {
+          "id": 1503,
+          "name": "Forged Steel"
+        },
+        {
+          "id": 1510,
+          "name": "News of Dogran"
+        },
+        {
+          "id": 1512,
+          "name": "Love's Gift"
+        },
+        {
+          "id": 1515,
+          "name": "Dogran's Captivity"
+        },
+        {
+          "id": 1518,
+          "name": "Call of Earth"
+        },
+        {
+          "id": 1521,
+          "name": "Call of Earth"
+        },
+        {
+          "id": 1524,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 1525,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 1526,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 1530,
+          "name": "Call of Water"
+        },
+        {
+          "id": 1534,
+          "name": "Call of Water"
+        },
+        {
+          "id": 1535,
+          "name": "Call of Water"
+        },
+        {
+          "id": 1536,
+          "name": "Call of Water"
+        },
+        {
+          "id": 1740,
+          "name": "The Orb of Soran'ruk"
+        },
+        {
+          "id": 1824,
+          "name": "Trial at the Field of Giants"
+        },
+        {
+          "id": 1825,
+          "name": "Speak with Thun'grim"
+        },
+        {
+          "id": 1838,
+          "name": "Brutal Armor"
+        },
+        {
+          "id": 1839,
+          "name": "Ula'elek and the Brutal Gauntlets"
+        },
+        {
+          "id": 1840,
+          "name": "Orm Stonehoof and the Brutal Helm"
+        },
+        {
+          "id": 1841,
+          "name": "Velora Nitely and the Brutal Legguards"
+        },
+        {
+          "id": 1848,
+          "name": "Brutal Hauberk"
+        },
+        {
+          "id": 2381,
+          "name": "Plundering the Plunderers"
+        },
+        {
+          "id": 2478,
+          "name": "Mission: Possible But Not Probable"
+        },
+        {
+          "id": 3261,
+          "name": "Jorn Skyseer"
+        },
+        {
+          "id": 3281,
+          "name": "Stolen Silver"
+        },
+        {
+          "id": 3301,
+          "name": "Mura Runetotem"
+        },
+        {
+          "id": 3366,
+          "name": "The Glowing Shard"
+        },
+        {
+          "id": 3369,
+          "name": "In Nightmares"
+        },
+        {
+          "id": 3514,
+          "name": "Horde Presence"
+        },
+        {
+          "id": 3921,
+          "name": "Wenikee Boltbucket"
+        },
+        {
+          "id": 3922,
+          "name": "Nugget Slugs"
+        },
+        {
+          "id": 3923,
+          "name": "Rilli Greasygob"
+        },
+        {
+          "id": 4021,
+          "name": "Counterattack!"
+        },
+        {
+          "id": 4542,
+          "name": "Message to Freewind Post"
+        },
+        {
+          "id": 4904,
+          "name": "Free at Last"
+        },
+        {
+          "id": 4921,
+          "name": "Lost in Battle"
+        },
+        {
+          "id": 5041,
+          "name": "Supplies for the Crossroads"
+        },
+        {
+          "id": 5042,
+          "name": "Agamaggan's Strength"
+        },
+        {
+          "id": 5043,
+          "name": "Agamaggan's Agility"
+        },
+        {
+          "id": 5044,
+          "name": "Wisdom of Agamaggan"
+        },
+        {
+          "id": 5045,
+          "name": "Rising Spirit"
+        },
+        {
+          "id": 5046,
+          "name": "Razorhide"
+        },
+        {
+          "id": 5052,
+          "name": "Blood Shards of Agamaggan"
+        },
+        {
+          "id": 6128,
+          "name": "Gathering the Cure"
+        },
+        {
+          "id": 6129,
+          "name": "Curing the Sick"
+        },
+        {
+          "id": 6361,
+          "name": "A Bundle of Hides"
+        },
+        {
+          "id": 6362,
+          "name": "Ride to Thunder Bluff"
+        },
+        {
+          "id": 6365,
+          "name": "Meats to Orgrimmar"
+        },
+        {
+          "id": 6382,
+          "name": "The Ashenvale Hunt"
+        },
+        {
+          "id": 6384,
+          "name": "Ride to Orgrimmar"
+        },
+        {
+          "id": 6401,
+          "name": "Kaya's Alive"
+        },
+        {
+          "id": 6541,
+          "name": "Report to Kadrak"
+        },
+        {
+          "id": 6543,
+          "name": "The Warsong Reports"
+        },
+        {
+          "id": 6548,
+          "name": "Avenge My Village"
+        },
+        {
+          "id": 6629,
+          "name": "Kill Grundig Darkcloud"
+        },
+        {
+          "id": 6981,
+          "name": "The Glowing Shard"
+        },
+        {
+          "id": 78143,
+          "name": "Secrets of the Dreamers"
+        },
+        {
+          "id": 78145,
+          "name": "Arcanic Systems Manual"
+        },
+        {
+          "id": 79007,
+          "name": "... and that note you found"
+        },
+        {
+          "id": 79097,
+          "name": "Baxtan: On Destructive Magics"
+        },
+        {
+          "id": 79192,
+          "name": "Stepping Stones"
+        },
+        {
+          "id": 91899,
+          "name": "A Sealed Crate"
+        },
+        {
+          "id": 92706,
+          "name": "WANTED: Bruuz"
+        },
+        {
+          "id": 95494,
+          "name": "Bruised Pride and Lion Hides"
+        },
+        {
+          "id": 95495,
+          "name": "The Hermit Tanner"
+        },
+        {
+          "id": 95507,
+          "name": "Vrang's Game"
+        },
+        {
+          "id": 95508,
+          "name": "Unwelcome Guests"
+        },
+        {
+          "id": 95621,
+          "name": "Trouble in the Valley"
+        },
+        {
+          "id": 95774,
+          "name": "Her Name Is Olgra"
+        },
+        {
+          "id": 97003,
+          "name": "Chol'aruk the Ravener"
+        },
+        {
+          "id": 97250,
+          "name": "Wrongly Blamed, Justly Corrected"
+        },
+        {
+          "id": 97253,
+          "name": "Parts and Pieces"
+        }
+      ]
     }
   ]
 }
