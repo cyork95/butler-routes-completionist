@@ -1,0 +1,160 @@
+# Felwood - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# Every rank-flagged rare spawning in Felwood (7, zone key 1448) and
+# every fixed treasure object (5), verified against the local Forever
+# game data (questie-forever NPC/object/item dumps). Rares with 2+
+# points loop over ALL data-confirmed points; single-point rares get
+# plain steps. Every goal is optional - a missing spawn never wedges
+# the guide. Signature drops (Sinslayer's two sole drops) ride as
+# optional collects; everything else gets a kill-note, with a pointer
+# to the core guide where the rare drops a core quest item (Death Howl
+# and Mongress drop Silvery Claws for core 4084; no core quest takes
+# any of these rares as giver, ender, or kill objective). No tame lines:
+# tameability has no data flag and the core guide carries no tame
+# corroboration (logged in docs/companion-unverified.md). Respawn
+# timers are unconfirmed everywhere. No accept/turnin lines anywhere.
+guide butler-routes-completionist/felwood-rares
+title Felwood - Rares & Treasures
+levels 45-55
+zone Felwood
+faction Alliance
+category Collectibles
+folder Companions
+keywords felwood, rares, treasures, collectibles, companions
+coords live
+version 1
+
+step The northern wilds - Lord Sinslayer
+
+  zone map 1448
+
+  goto 40.5,9.5
+  kill 7017 optional
+  collect 14146 "Gloves of Spell Mastery" optional
+  collect 284177 "Sinslayer's Smasher" optional
+  note Lord Sinslayer (level 16) is far below the 45-55 band - any band-level character one-shots him. Both drops are his sole drops anywhere in the data.
+  note Respawn timer unconfirmed.
+
+step Battered Chest run - north
+
+  zone map 1448
+
+  loop
+  goto 39.7,10.8
+  goto 40.6,10
+  goto 41.9,8.8
+  interact 106319 optional
+  note The Battered Chest is one generic object at three fixed northern points - usual chest fare, nothing unique.
+  note Respawn timer unconfirmed.
+
+step Timbermaw road - Olm the Wise
+
+  zone map 1448
+
+  goto 50.17,32.81
+  kill 14343 optional
+  note Olm the Wise (level 52) patrols the Timbermaw road. No signature loot, no core quest takes him.
+  note Respawn timer unconfirmed.
+
+step Irontree edge - The Ongar
+
+  zone map 1448
+
+  goto 42.22,49.9
+  kill 14345 optional
+  note The Ongar (level 51) works the Irontree edge. No signature loot, no core quest takes it.
+  note Respawn timer unconfirmed.
+
+step Shadow Hold - Arko'niran's Chest
+
+  zone map 1448
+
+  goto 37.84,52.75
+  interact 176225 optional
+  note Arko'niran's Chest sits in Shadow Hold by Captured Arko'narin (core 5202/5203 ground). Its loot is not in the data - check in game, nothing invented here.
+  note Respawn timer unconfirmed.
+
+step Irontree Vale - Mongress
+
+  zone map 1448
+
+  loop
+  goto 39.77,80.34
+  goto 42.15,75.22
+  goto 43.32,76.62
+  goto 47.05,83.96
+  kill 14344 optional
+  note Mongress (level 50) drops Silvery Claws, which the core guide farms for 4084 Silver Heart - no core quest takes the rare itself.
+  note Respawn timer unconfirmed.
+
+step Emerald Sanctuary south - Alshirr Banebreath
+
+  zone map 1448
+
+  goto 40.25,85.21
+  kill 14340 optional
+  note Alshirr Banebreath (level 54) haunts the woods south of Emerald Sanctuary. No signature loot, no core quest takes him.
+  note Respawn timer unconfirmed.
+
+step South wilds - Death Howl
+
+  zone map 1448
+
+  loop
+  goto 47.86,74.82
+  goto 48.34,78.18
+  goto 50.03,77.11
+  goto 56.16,89.26
+  kill 14339 optional
+  note Death Howl (level 49) drops Silvery Claws, which the core guide farms for 4084 Silver Heart - no core quest takes the rare itself.
+  note Respawn timer unconfirmed.
+
+step Deadwood south - Ragepaw
+
+  zone map 1448
+
+  goto 47.74,93.06
+  kill 14342 optional
+  note Ragepaw (level 51) works Deadwood's south village. No signature loot, no core quest takes him (core 6032's objective 14342 is the Mooncloth item, same number, different table).
+  note Respawn timer unconfirmed.
+
+step Troll Chest run - far south
+
+  zone map 1448
+
+  loop
+  goto 38.8,97.2
+  goto 39.1,97.4
+  goto 39.3,95.3
+  goto 39.5,97.5
+  goto 39.6,96.5
+  goto 39.6,98.7
+  goto 39.9,97.1
+  goto 40,97.9
+  goto 40.1,95.9
+  goto 40.4,98.5
+  goto 40.6,99
+  goto 40.8,100
+  goto 41.2,98.4
+  interact 178144 optional
+  note The Troll Chest is one generic object at thirteen fixed far-south points - usual chest fare, nothing unique.
+  note Respawn timer unconfirmed.
+
+step Solid Chest run - south edge
+
+  zone map 1448
+
+  loop
+  goto 39.6,96.1
+  goto 41.4,99.1
+  interact 2850 optional
+  note The Solid Chest is one generic object at two fixed south-edge points - usual chest fare, nothing unique.
+  note Respawn timer unconfirmed.
+
+step Worn Chest - south-east
+
+  zone map 1448
+
+  goto 53.6,99.7
+  interact 19022 optional
+  note The Worn Chest sits at one fixed south-east point - usual chest fare, nothing unique.
+  note Respawn timer unconfirmed.
