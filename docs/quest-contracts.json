@@ -8630,6 +8630,192 @@
           "id": 94311
         }
       ]
+    },
+    {
+      "id": "felwood",
+      "name": "Felwood",
+      "order": 30,
+      "levelBand": "45-55",
+      "summary": "Set 5 contested-zone Alliance route: the Emerald Sanctuary Eridan chains (Jadefire, Felbound, Aquementas with Tanaris/UnGoro legs), the Timbermaw/Winterfall split with Winterspring expedition farms, the Warlock Niby/Impsy chains (Azshara + Dark Portal expeditions), the Greta Shadow Hold chain with Barrens/Hyjal ends, the Arko/Trey rescue, the Gorn peace chain via Winterspring to Ironforge, the Meilosh turn-ins, the Paladin custom quest, the Stag Bauble, the Lunar elder, and the six Craftsman writs.",
+      "quests": [
+        {
+          "id": 939
+        },
+        {
+          "id": 968
+        },
+        {
+          "id": 4005
+        },
+        {
+          "id": 4084
+        },
+        {
+          "id": 4101
+        },
+        {
+          "id": 4261
+        },
+        {
+          "id": 4421
+        },
+        {
+          "id": 4441
+        },
+        {
+          "id": 4442
+        },
+        {
+          "id": 4906
+        },
+        {
+          "id": 5083
+        },
+        {
+          "id": 5085
+        },
+        {
+          "id": 5155
+        },
+        {
+          "id": 5156
+        },
+        {
+          "id": 5157
+        },
+        {
+          "id": 5158
+        },
+        {
+          "id": 5165
+        },
+        {
+          "id": 5202
+        },
+        {
+          "id": 5203
+        },
+        {
+          "id": 5204
+        },
+        {
+          "id": 5242
+        },
+        {
+          "id": 5249
+        },
+        {
+          "id": 5385
+        },
+        {
+          "id": 5882
+        },
+        {
+          "id": 5883
+        },
+        {
+          "id": 5884
+        },
+        {
+          "id": 5885
+        },
+        {
+          "id": 5886
+        },
+        {
+          "id": 6031
+        },
+        {
+          "id": 6032
+        },
+        {
+          "id": 6131
+        },
+        {
+          "id": 6221
+        },
+        {
+          "id": 6241
+        },
+        {
+          "id": 7601
+        },
+        {
+          "id": 7602
+        },
+        {
+          "id": 7603
+        },
+        {
+          "id": 8420
+        },
+        {
+          "id": 8421
+        },
+        {
+          "id": 8422
+        },
+        {
+          "id": 8460
+        },
+        {
+          "id": 8461
+        },
+        {
+          "id": 8462
+        },
+        {
+          "id": 8464
+        },
+        {
+          "id": 8465
+        },
+        {
+          "id": 8470
+        },
+        {
+          "id": 8471
+        },
+        {
+          "id": 8481
+        },
+        {
+          "id": 8484
+        },
+        {
+          "id": 86577
+        },
+        {
+          "id": 86611
+        },
+        {
+          "id": 8723
+        },
+        {
+          "id": 81790
+        },
+        {
+          "id": 91952
+        },
+        {
+          "id": 94259
+        },
+        {
+          "id": 94271
+        },
+        {
+          "id": 94283
+        },
+        {
+          "id": 94295
+        },
+        {
+          "id": 94307
+        },
+        {
+          "id": 94308
+        }
+      ]
     }
   ]
 }
