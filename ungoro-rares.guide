@@ -1,0 +1,59 @@
+# Un'Goro Crater - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 3 rank-flagged rares of Un'Goro (zone
+# key 1449), verified against the local Forever game data (questie-forever
+# npc/object/item dumps). Every goal is optional - a missing spawn never
+# wedges the guide. All three rares hold single points, so every step is a
+# plain single-goto step; no step loops. No rare drops signature loot (all
+# tables are shared world drops), so no collect goals ship here. No quests
+# take any shipped rare as a target, and no core quest names any shipped
+# rare. Rank-2 elites Gruff and King Mosh carry roles ["rare"] but stay out
+# per the Felwood/Azshara rank rule (see the inventory doc - Mosh's
+# sole-source Devilcore patterns still ship in the recipes companion).
+# No tame lines: no data flag, no drop evidence, no core-guide corroboration
+# (see docs/companion-unverified.md). No treasure ships: the data holds no
+# chest-named object in 1449 besides core-owned 164910 Ornate Chest, and the
+# fixed dirt piles, bones, carcasses and crystal formations carry no
+# lootability flag - the guide is rares-only and says so (see
+# docs/ungoro-companions-inventory.md).
+guide butler-routes-completionist/ungoro-rares
+title Un'Goro Crater - Rares & Treasures
+levels 47-54
+zone Un'Goro Crater
+faction Alliance
+category Collectibles
+folder Companions
+keywords ungoro, rares, treasures, companions
+coords live
+version 1
+
+step East crater - Ravasaur Matriarch
+
+  zone map 1449
+
+  goto 62.35,65.95
+  kill 6581 optional
+  note Ravasaur Matriarch (level 50 raptor) holds a single east-crater point. No signature loot in the data - shared world drops only.
+  note Respawn timer unconfirmed.
+
+step South crater - Clutchmother Zavas
+
+  zone map 1449
+
+  goto 48.73,85.35
+  kill 6582 optional
+  note Clutchmother Zavas (level 54 ravasaur) holds a single south-crater point. No signature loot in the data - shared world drops only.
+  note Respawn timer unconfirmed.
+
+step East coast - Uhk'loc
+
+  zone map 1449
+
+  goto 68.48,12.66
+  kill 6585 optional
+  note Uhk'loc (level 53 gorilla) holds a single east-coast point. No signature loot in the data - shared world drops only (gems, ore, generic world-drop recipes).
+  note Respawn timer unconfirmed.
+
+# Rank-2 elites Gruff and King Mosh carry roles ["rare"] but rank 2, not
+# rank 4 - excluded from this sweep per the Felwood/Azshara rank rule (see
+# the inventory doc). Mosh's sole-source Devilcore patterns still ship in
+# the recipes companion.
