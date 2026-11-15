@@ -1,0 +1,287 @@
+# Alterac Mountains - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics, manuals and formulas whose SOURCE
+# is physically in Alterac Mountains, verified against the local Forever game
+# data (questie-forever item vendor and drop tables). Twenty-two recipes are
+# vendor-sold in-zone; four more drop each from an in-zone mob and (almost)
+# nowhere else. Every other Alterac-dropping recipe is a generic multi-zone
+# world drop, and in-zone recipes sold only by Horde-faction vendors are
+# excluded with reasons (see docs/alterac-companions-inventory.md and
+# docs/companion-unverified.md). Quest records carry no reward data, so no
+# quest-reward recipe ships. Trainer-taught staples are excluded: Polestar's
+# own profession guides cover those. Each step is gated to its profession;
+# other characters skip it cleanly. Fishing has no Alterac source, so it is
+# stated, not padded.
+guide butler-routes-completionist/alterac-recipes
+title Alterac Mountains - Recipes & Patterns
+levels 30-40
+zone Alterac Mountains
+faction Alliance
+category Professions
+folder Companions
+keywords alterac, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Tailoring — the far south (Zixil)
+
+  when skill Tailoring 1
+
+  vendor 3537 -- Zixil (53.6, 98.7), Merchant Supreme
+  buy 5772 "Pattern: Red Woolen Bag"
+  note Zixil also works the Hillsbrad side; this is his Alterac point. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — the far south (Zixil)
+
+  when skill Enchanting 1
+
+  vendor 3537 -- Zixil (53.6, 98.7), Merchant Supreme
+  buy 6377 "Formula: Enchant Boots - Minor Agility"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — the far south (Zixil)
+
+  when skill Leatherworking 1
+
+  vendor 3537 -- Zixil (53.6, 98.7), Merchant Supreme
+  buy 7362 "Pattern: Earthen Leather Shoulders"
+  note Zixil is the only vendor anywhere in the data selling this pattern. Stock class is not in the local data; if out of stock, come back later.
+
+step Engineering — the far south (Zixil)
+
+  when skill Engineering 1
+
+  vendor 3537 -- Zixil (53.6, 98.7), Merchant Supreme
+  buy 7561 "Schematic: Goblin Jumper Cables"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — the far south (Zixil)
+
+  when skill Alchemy 1
+
+  vendor 3537 -- Zixil (53.6, 98.7), Merchant Supreme
+  buy 210709 "Recipe: Elixir of Coalesced Regret"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — the west (Norvin Alderman)
+
+  when skill Tailoring 1
+
+  vendor 251997 -- Norvin Alderman (16.02, 65.54), Cloaks
+  buy 7087 "Pattern: Crimson Silk Cloak"
+  buy 7089 "Pattern: Azure Silk Cloak"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — the west (Dominique Stefano)
+
+  when skill Tailoring 1
+
+  vendor 251973 -- Dominique Stefano (17.63, 60.2), Tailoring Supplies
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note The reagent-bag patterns are sold by dozens of vendors worldwide; Mallen Swain stocks them in-zone too but is Horde-faction. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — the west (Derek Odds)
+
+  when skill Cooking 1
+
+  vendor 252083 -- Derek Odds (11.7, 66.25), Cooking Supplies
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  note Paige stocks both recipes in-zone as well; Derak Nightfall stocks them too but is Horde-faction. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — the southwest (Paige)
+
+  when skill Cooking 1
+
+  vendor 267000 -- Paige (20.82, 74.69), Chef
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  note Derek Odds stocks both recipes in-zone as well. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — the center (Rizz Loosebolt)
+
+  when skill Engineering 1
+
+  vendor 2684 -- Rizz Loosebolt (47.3, 35.16), Engineering Supplies
+  buy 13308 "Schematic: Ice Deflector"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — the center (Bro'kin)
+
+  when skill Alchemy 1
+
+  vendor 2480 -- Bro'kin (38.24, 38.87), Alchemy Supplies
+  buy 14634 "Recipe: Frost Oil"
+  note Bro'kin is the only vendor anywhere in the data selling this recipe. Stock class is not in the local data; if out of stock, come back later.
+
+step Engineering — the far south-east (Zan Shivsproket)
+
+  when skill Engineering 1
+
+  vendor 6777 -- Zan Shivsproket (85.95, 79.96), Specialty Engineer
+  buy 7742 "Schematic: Gnomish Cloaking Device"
+  note Zan is the only vendor anywhere in the data selling this schematic. Stock class is not in the local data; if out of stock, come back later.
+
+step Cooking — the far south-east (Smudge Thunderwood)
+
+  when skill Cooking 1
+
+  vendor 6779 -- Smudge Thunderwood (86.12, 79.58), Poison Vendor
+  buy 18160 "Recipe: Thistle Tea"
+  note Smudge is the only vendor anywhere in the data selling this recipe. Stock class is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — the west (Archmage Alvareaux)
+
+  when skill Blacksmithing 1
+
+  vendor 32287 -- Archmage Alvareaux (13.22, 64.21), Quartermaster
+  buy 276984 "Plans: Azure Skyforged Helm"
+  buy 276985 "Plans: Azure Skyforged Pauldrons"
+  note Alvareaux is a level-55 quartermaster selling a high-level set - come back at a much higher level for these plans. Stock class is not in the local data; if out of stock, come back later.
+
+step Tailoring — the west (Archmage Alvareaux)
+
+  when skill Tailoring 1
+
+  vendor 32287 -- Archmage Alvareaux (13.22, 64.21), Quartermaster
+  buy 276986 "Pattern: Azure Gustwoven Hood"
+  buy 276987 "Pattern: Azure Gustwoven Spaulders"
+  buy 276988 "Pattern: Azure Windraveled Cover"
+  buy 276989 "Pattern: Azure Windraveled Drapes"
+  buy 276990 "Pattern: Azure Stormsewn Cowl"
+  buy 276991 "Pattern: Azure Stormsewn Epaulets"
+  note Alvareaux is a level-55 quartermaster selling a high-level set - come back at a much higher level for these patterns. Stock class is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — the center (rare drop)
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 41.53,30.59
+  goto 43.93,36.52
+  goto 44.92,60.2
+  goto 45.18,29.41
+  goto 46.33,32.8
+  goto 46.35,39.85
+  goto 47.42,60.37
+  goto 47.54,63.59
+  goto 48.61,54.25
+  goto 48.9,43.25
+  goto 48.93,36.94
+  goto 49.98,31.5
+  goto 50.26,59.28
+  goto 51,56.38
+  goto 51.04,34.95
+  goto 51.1,40.31
+  goto 51.74,45.41
+  goto 52.47,38.16
+  goto 52.49,52.61
+  goto 53.3,47.95
+  goto 53.64,36.04
+  goto 54.49,43.33
+  goto 55.5,40.57
+  goto 55.75,54.32
+  goto 43.92,32.81
+  goto 45.33,37.86
+  goto 45.39,61.33
+  goto 46.18,63.06
+  goto 46.47,35.21
+  goto 48.75,54.9
+  goto 49.05,61.32
+  goto 49.15,39.08
+  goto 49.88,38.16
+  goto 49.91,32.81
+  goto 49.93,42.09
+  goto 49.95,34.53
+  goto 50.15,52.74
+  goto 51.21,46.76
+  goto 51.43,36.55
+  goto 52.38,40.2
+  goto 52.6,42.07
+  goto 53.02,45.47
+  goto 53.2,45.08
+  goto 53.59,41.89
+  goto 53.72,54.38
+  goto 54.53,52.75
+  goto 54.84,54.53
+  collect 251391 "Plans: Hard Gold Pauldrons" optional
+  note Dropped only by the Crushridge Ogre (level 34); the plans drop nowhere else in the data.
+
+step First Aid — the north (rare drop)
+
+  when skill First Aid 1
+
+  loop
+  goto 46.32,20.4
+  goto 46.88,18.03
+  goto 47.35,16.86
+  goto 47.68,18.19
+  goto 47.78,16
+  goto 48.18,16.79
+  goto 48.43,17.76
+  goto 51.14,29.58
+  goto 51.88,30.63
+  goto 52.75,23.17
+  goto 52.95,25.43
+  goto 53.27,20.25
+  goto 53.9,21.6
+  goto 55.39,30.52
+  goto 56.03,34.37
+  goto 56.12,26.08
+  goto 56.17,27.8
+  goto 57.29,30.97
+  goto 57.55,29.37
+  goto 58.28,30.68
+  goto 58.33,36.14
+  goto 58.85,29.27
+  goto 59.1,29.94
+  goto 60.12,32.39
+  goto 46.07,19.77
+  goto 47.36,17.42
+  goto 53.34,21.22
+  goto 55.48,26.39
+  goto 55.56,27.46
+  goto 57.9,28.83
+  goto 58.42,29.29
+  collect 255727 "Manual: Superior Poultice" optional
+  note Dropped only by the Syndicate Sentry (level 36); the manual drops nowhere else in the data.
+
+step Engineering — the center (rare drop)
+
+  when skill Engineering 1
+
+  loop
+  goto 34.94,53.45
+  goto 35.56,53.19
+  goto 35.69,55.52
+  goto 35.71,51.04
+  goto 35.77,53.86
+  goto 35.83,54.31
+  goto 35.91,52.76
+  goto 36.16,54.95
+  goto 36.25,53.62
+  goto 36.32,52.51
+  goto 36.37,53.93
+  goto 36.75,58.02
+  goto 36.83,49.08
+  goto 37.03,53.15
+  goto 37.04,54.46
+  goto 38.08,55.98
+  goto 38.36,57.8
+  goto 39.16,54.5
+  goto 39.24,59.55
+  goto 40.53,52.96
+  collect 284870 "Schematic: Unsanctified Grenade" optional
+  note Dropped only by the Crushridge Warmonger (level 39); the schematic drops nowhere else in the data.
+
+step Alchemy — the east (rare drop)
+
+  when skill Alchemy 1
+
+  goto 85.8,29.5
+  collect 9296 "Recipe: Gift of Arthas" optional
+  note Dropped by the Skeletal Flayer (level 50) far above the zone band - come back at a much higher level for this one; one of only two droppers anywhere, the other off-zone.
+
+step Fishing — no Alterac source
+
+  note The data holds no Fishing recipe sourced in Alterac Mountains: no in-zone vendor sells one and no in-zone mob drops one. Polestar's own profession guides cover that profession's progression.
