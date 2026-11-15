@@ -1,0 +1,382 @@
+# Butler Routes - Desolace completionist pilot (pack butler-routes-completionist).
+# Every Desolace quest in the local census (56 quests, docs/desolace-census.md)
+# appears exactly once as an accept; every one with a turn-in in the data turns in
+# once (92754 has no turn-in in the data and is accept-only, documented).
+# Nijel's Point opens in the north (Vahlarriel, Kreldig, the Karnitol and Rackmore
+# finds), then the Magram (east) and Gelkis (west) clan chains run through the one
+# Kolkar camp they share, then the kodo country, the coast and the south. Expedition
+# legs carry the chains that leave the zone. Chain order is strictly turn-in-before-
+# accept; the complete for the quest whose pre sits outside every contract rides in
+# a dedicated when onquest mini-step. Coordinates on Desolace use the era frame;
+# expedition stops use the era frame too, set with zone map lines. The Horde side
+# belongs to the Horde block.
+guide butler-routes-completionist/desolace
+title Desolace - Completionist
+levels 30-40
+zone Desolace
+faction Alliance
+category Leveling
+folder Completionist
+keywords desolace, completionist, nijel's point, maraudon, centaur
+coords live
+version 1
+
+step Nijel's Point - arrival
+
+  tip Nijel's Point (66.66, 10.93): Captain Pentigast holds the north wall, Kreldig Ungor (66.2, 9.63) and Vahlarriel Demonslayer (66.44, 11.82) work beside him. Dalinda Malem (54.86, 26.13) waits down the slope.
+  note 1439's pre (1438 Vahlarriel's Search, done in Stonetalon) fills before this route - take 1439 here.
+  accept 1439 only Alliance -- Search for Tyranis - Dalinda Malem; Tyranis' Pendant, the slope below
+  accept 93224 only Alliance -- Carved Centaur Totems - Captain Pentigast; Kolkar totems, the camp below
+  note 1465's starter (the Malem Chest) and 1455's starter (Karnitol's Chest) lie on the slope below - take them there.
+  note 6161's starter (Rackmore's Log) lies on the slope below - take it there.
+
+step The north slope - Tyranis and Malem
+
+  complete 1439 only Alliance @53.01,29.08 era -- Tyranis' Pendant off Tyranis Malem for Dalinda Malem
+  turnin 1439 only Alliance -- Search for Tyranis - the Pendant to Dalinda Malem
+  accept 1440 only Alliance -- Return to Vahlarriel - Dalinda Malem; escort her to Vahlarriel, north
+  complete 1440 only Alliance @58.27,30.91 era -- escort Dalinda Malem to Vahlarriel for Dalinda Malem
+  accept 1465 only Alliance -- Vahlarriel's Search - the Malem Chest @56.52,17.84 era; Vahlarriel takes it, north
+  note 1465's pre (1437 Vahlarriel's Search, done in Stonetalon) fills before this route.
+  accept 1455 only Alliance -- The Karnitol Shipwreck - Karnitol's Chest @36.11,30.45 era; Kreldig takes it, north
+  note 1455's pre (1454 The Karnitol Shipwreck, done in Stonetalon) fills before this route.
+  accept 6161 -- Claim Rackmore's Treasure! - Rackmore's Log @36.07,30.41 era; the Chest takes it, far west
+
+step Nijel's Point - Vahlarriel's return
+
+  turnin 1465 only Alliance -- Vahlarriel's Search - the word to Vahlarriel Demonslayer
+  turnin 1440 only Alliance -- Return to Vahlarriel - Dalinda's word to Vahlarriel Demonslayer
+  note 97284's pre (1465 above) fills at this return - take the vengeance here.
+  accept 97284 only Alliance -- Vahlarriel's Vengeance - Vahlarriel Demonslayer; Burning Blade, the slope below
+  complete 97284 only Alliance @52.08,28.86 era -- Burning Blade Augurs for Vahlarriel Demonslayer
+  complete 97284 only Alliance @52.29,28.22 era -- Burning Blade Reavers for Vahlarriel Demonslayer
+  turnin 97284 only Alliance -- Vahlarriel's Vengeance - back to Vahlarriel Demonslayer
+
+step Nijel's Point - Kreldig's word
+
+  turnin 1455 only Alliance -- The Karnitol Shipwreck - the word to Kreldig Ungor
+
+step Azore's study - sceptre and book
+
+  tip Azore Aldamort (38.88, 27.16) studies above the north slope.
+  accept 5741 -- Sceptre of Light - Azore Aldamort; the Sceptre, the Burning Blade camp
+  complete 5741 @55.17,30.15 era -- the Sceptre of Light off the Burning Blade Seer for Azore Aldamort
+  turnin 5741 -- Sceptre of Light - the Sceptre to Azore Aldamort
+  accept 6027 -- Book of the Ancients - Azore Aldamort; the Book, Lord Kragaru's camp
+  complete 6027 @28.24,6.67 era -- the Book of the Ancients off Lord Kragaru for Azore Aldamort
+  turnin 6027 -- Book of the Ancients - the Book to Azore Aldamort
+  note 93465's pre (93464 The Visiting Mage, a Swamp of Sorrows errand) fills outside this route - take 93465 here.
+  accept 93465 -- Notes on Draenethyst - Azore Aldamort; Gimashi's Findings, far east
+
+step Gimashi's findings - the far east
+
+  when onquest 93465
+  collect 258774 quest 93465.1 @79.05,76.84 era -- Gimashi's Findings off Gimashi for Azore Aldamort
+
+step Azore's study - the abridged notes
+
+  turnin 93465 -- Notes on Draenethyst - the Findings to Azore Aldamort
+  accept 93678 -- Abridged Notes on Draenethyst - Azore Aldamort; Magtoor takes it in the Swamp of Sorrows, late
+
+step Uthek's stand - the raid
+
+  tip Uthek the Wise (36.22, 79.25) holds the Gelkis west.
+  note 1384's pre (1382 Strange Alliance, done in Stonetalon) fills before this route - take 1384 here.
+  accept 1384 only Alliance -- Raid on the Kolkar - Uthek the Wise; Kolkar charms, the camp east
+
+step Warug's stand - the assault
+
+  tip Warug (74.97, 68.16) holds the Magram east.
+  note 1386's pre (1385 Brutal Politics, done in Stonetalon) fills before this route - take 1386 here.
+  accept 1386 only Alliance -- Assault on the Kolkar - Warug; Kolkar dead, the camp below
+
+step The Kolkar camp - charms, kills and totems
+
+  collect 6079 x10 quest 1384.1 @68.55,52.17 era -- Crude Charms off the Kolkar Centaurs for Uthek the Wise
+  collect 6079 x10 quest 1384.1 @68.47,38.82 era -- Crude Charms off the Kolkar Scouts for Uthek the Wise
+  complete 1386 only Alliance @68.55,52.17 era -- Kolkar Centaurs for Warug
+  complete 1386 only Alliance @68.47,38.82 era -- Kolkar Scouts for Warug
+  complete 1386 only Alliance @70.75,43.6 era -- Kolkar Maulers for Warug
+  collect 254432 x5 quest 93224.1 @68.55,52.17 era -- Carved Centaur Totems off the Kolkar for Captain Pentigast
+
+step Nijel's Point - Pentigast paid
+
+  turnin 93224 only Alliance -- Carved Centaur Totems - the totems to Captain Pentigast
+  note 93226's pre (93224 above) fills at this board - take 93226 here.
+  accept 93226 only Alliance -- Buying Friendship: Magram - Captain Pentigast; Gorhak takes it, far east
+
+step The far east - Gorhak's price
+
+  tip Gorhak (66.25, 79.42) waits at the Magram east edge.
+  turnin 93226 only Alliance -- Buying Friendship: Magram - Pentigast's word to Gorhak
+  accept 92811 optional -- Economic Warfare - Gorhak; a Carved Centaur Totem, the camp below
+  note 92811's pre (93226 above, with the Horde twin) fills at this price.
+
+step The Kolkar camp - the totem
+
+  collect 254432 quest 92811.1 @68.55,52.17 era -- a Carved Centaur Totem off the Kolkar for Gorhak
+
+step The far east - Gorhak paid
+
+  turnin 92811 optional -- Economic Warfare - the Totem to Gorhak
+
+step Warug's return - Broken Tears
+
+  turnin 1386 only Alliance -- Assault on the Kolkar - back to Warug
+  note 1369's pre (1386 above, with the Horde twin) fills at this return - take 1369 here.
+  accept 1369 -- Broken Tears - Warug; Broken Tears, far west
+
+step Warug's board - gizmo and crown
+
+  collect 6083 x3 quest 1369.1 @38.53,93.35 era -- Broken Tears off the Tears for Warug
+  turnin 1369 -- Broken Tears - the Tears to Warug
+  note 1371's pre (1369 above) fills at this board - take 1371 here.
+  accept 1371 -- Gizmo for Warug - Warug; an Advanced Target Dummy, crafted
+  note The Dummy is crafted-only (no source in the data) - have one in your bags.
+  note 92743's pre (1369 above) fills at this board - take it here.
+  accept 92743 -- A Conqueror's Crown - Warug; a word, right here
+  turnin 92743 -- A Conqueror's Crown - back to Warug
+  note 92818's pre (1369 above) fills at this board - take it here with Grolkar (69.83, 77.92).
+  accept 92818 -- Big, No, MASSIVE Iron Axes - Grolkar; a word, right here
+  turnin 92818 -- Big, No, MASSIVE Iron Axes - back to Grolkar
+
+step Warug's gizmo - the dummy (Engineering)
+
+  when skill Engineering 1
+
+  complete 1371 optional
+
+step Warug's board - heads and meat
+
+  turnin 1371 -- Gizmo for Warug - the Dummy to Warug
+  note 1375's pre (1371 above) fills at this board - take 1375 here.
+  accept 1375 -- Khan Shaka - Warug; Khan Shaka's Head, the southwest camp
+  complete 1375 @40.49,95.49 era -- Khan Shaka's Head off Khan Shaka for Warug
+  turnin 1375 -- Khan Shaka - the Head to Warug
+  note 1381's pre (1375 above) fills at this board - take 1381 here.
+  accept 1381 -- Khan Hratha - Warug; a Maraudine Key Fragment, the west ruins
+
+step Uthek's return - Stealing Supplies
+
+  turnin 1384 only Alliance -- Raid on the Kolkar - the charms to Uthek the Wise
+  note 1370's pre (1384 above, with the Horde twin) fills at this return - take 1370 here.
+  accept 1370 -- Stealing Supplies - Uthek the Wise; Sacks of Meat, far east
+  note The Meat waits at the Magram camp east - gathered below.
+step Uthek's stores - meat and followers
+
+  collect 6069 x6 quest 1370.1 @65.82,80.54 era -- Sacks of Meat off the Sacks for Uthek the Wise
+  turnin 1370 -- Stealing Supplies - the Meat to Uthek the Wise
+  note 1373's pre (1370 above) fills at these stores - take 1373 here.
+  accept 1373 -- Ongeku - Uthek the Wise; a Draenethyst Shard, the Swamp of Sorrows, late
+  note 92755's pre (1370 above) fills at these stores - take it here with Halea (69.83, 77.96).
+  accept 92755 -- Mysterious Mysticism - Halea; a word, right here
+  turnin 92755 -- Mysterious Mysticism - back to Halea
+  note 92814's pre (1370 above) fills at these stores - take it here with Molkar (35.68, 92.23).
+  accept 92814 -- I Need a Tailor - Molkar; a word, right here
+  turnin 92814 -- I Need a Tailor - back to Molkar
+  note 92817's pre (1370 above) fills at these stores - take it here with Talra (34.46, 86.93).
+  accept 92817 -- Leather Technique - Talra; a word, right here
+  turnin 92817 -- Leather Technique - back to Talra
+
+step Expedition - Swamp of Sorrows, shard and notes
+
+  zone map 1435
+
+  tip Ongeku (65.07, 21.97) works the Swamp; Magtoor (25.98, 31.4) waits west.
+  complete 1373 @65.07,21.97 era -- the Draenethyst Shard off Ongeku for Uthek the Wise
+  turnin 93678 -- Abridged Notes on Draenethyst - Azore's word to Magtoor
+  zone map 1443
+
+step Uthek's hunt - Shard home and the fragment
+
+  turnin 1373 -- Ongeku - the Shard to Uthek the Wise
+  note 1374's pre (1373 above) fills at this hunt - take 1374 here.
+  accept 1374 -- Khan Jehn - Uthek the Wise; Khan Jehn's Head, the east camp
+  complete 1374 @65.95,80.41 era -- Khan Jehn's Head off Khan Jehn for Uthek the Wise
+  turnin 1374 -- Khan Jehn - the Head to Uthek the Wise
+  note 1380's pre (1374 above) fills at this hunt - take 1380 here.
+  accept 1380 -- Khan Hratha - Uthek the Wise; a Maraudine Key Fragment, the west ruins
+  accept 96222 -- Khan Hratha - Uthek the Wise; a Maraudine Key Fragment for Umarak, west
+  note 93034's pre (1373 above) fills at this hunt - take 93034 here.
+  accept 93034 -- Valley of Bones - Uthek the Wise; Nerlokh takes it inside Maraudon, late
+  note 93044's pre (93041 Facing the Truth, inside Maraudon) fills outside this route - take 93044 here.
+  accept 93044 -- A Cleansing Cry - Uthek the Wise; a word, right here
+  turnin 93044 -- A Cleansing Cry - back to Uthek the Wise
+  complete 1380 @29.55,52 era -- the Maraudine Key Fragment off Khan Hratha for Uthek the Wise
+  turnin 1380 -- Khan Hratha - the Fragment to Uthek the Wise
+  complete 1381 @29.55,52 era -- the Maraudine Key Fragment off Khan Hratha for Warug
+  complete 96222 @29.55,52 era -- the Maraudine Key Fragment off Khan Hratha for Umarak
+  turnin 96222 -- Khan Hratha - the Fragment to Umarak (43.47, 78.96)
+
+step Warug's heads - Shaka's fragment
+
+  turnin 1381 -- Khan Hratha - the Fragment to Warug
+
+step The west coast - Melizza out
+
+  tip Melizza Brimbuzzle (33.95, 53.5) waits the west coast; Hornizz Brimbuzzle (47.83, 61.83) watches inland.
+  accept 6132 -- Get Me Out of Here! - Melizza Brimbuzzle; escort her to Hornizz, inland
+  complete 6132 @40.15,61.58 era -- Melizza Brimbuzzle escorted to safety for Hornizz Brimbuzzle
+  turnin 6132 -- Get Me Out of Here! - Melizza to Hornizz Brimbuzzle
+  accept 6134 -- Ghost-o-plasm Round Up - Hornizz Brimbuzzle; Ghost-o-plasm, far east
+  note The plasm waits at the Magram east edge - take it on the Orgrul leg below.
+
+step Orgrul's rise - the Valley chain
+
+  tip Orgrul (65.4, 84.23) holds the Valley of Bones; the 2652 spawn is his dungeon phase.
+  note 92841's pre (92743 above) fills at Warug - take 92841 here.
+  accept 92841 only Alliance -- Valley of Bones - Warug; Orgrul takes it, south
+  turnin 92841 only Alliance -- Valley of Bones - Warug's word to Orgrul
+  accept 92844 only Alliance -- Mountain of Bones - Orgrul; a word, right here
+  turnin 92844 only Alliance -- Mountain of Bones - back to Orgrul
+  accept 92846 only Alliance -- Outcast Necromancers - Orgrul; a word, right here
+  turnin 92846 only Alliance -- Outcast Necromancers - back to Orgrul
+  note 92847's pre (92844 and 92846 above) fills at this rise - take 92847 here.
+  accept 92847 -- Corrupting Tears - Orgrul; a word, right here
+  turnin 92847 -- Corrupting Tears - back to Orgrul
+  note 92873's pre (92847 above) fills at this rise - take 92873 here.
+  accept 92873 -- Proof of Concept - Orgrul; a word, right here
+  turnin 92873 -- Proof of Concept - back to Orgrul
+  note 92893 and 92894's pre (92873 above) fills at this rise - take them here.
+  accept 92893 -- No Mercy for the Weak - Orgrul; a word, right here
+  turnin 92893 -- No Mercy for the Weak - back to Orgrul
+  accept 92894 -- Bone Raising - Orgrul; a word, right here
+  turnin 92894 -- Bone Raising - back to Orgrul
+  note 93066's pre (92893 and 92894 above) fills at this rise - take 93066 here.
+  accept 93066 -- Bristleback Retreat - Orgrul; Hagiak takes it inside Maraudon, late
+  note 93196's pre (93188 Return to Orgrul, inside Maraudon) fills outside this route - take 93196 here.
+  accept 93196 -- Khan Jehn - Orgrul; Khan Jehn takes it, east
+  complete 6134 @64.18,91.63 era -- Ghost-o-plasm off the Magrami Spectre for Hornizz Brimbuzzle
+
+step The far east - Khan Jehn's word
+
+  turnin 93196 -- Khan Jehn - Orgrul's word to Khan Jehn
+
+step The kodo country - bones and roundup
+
+  tip Bibbly F'utzbuckle (62.33, 38.99) and Smeed Scrabblescrew (60.86, 61.86) work the kodo country.
+  accept 5501 -- Bone Collector - Bibbly F'utzbuckle; Kodo Bones, the graveyard below
+  collect 13703 x10 quest 5501.1 @46.18,61.34 era -- Kodo Bones off the Kodo Bones for Bibbly F'utzbuckle
+  collect 13703 x10 quest 5501.1 @47.41,57.67 era -- Kodo Bones off the Kodo Bones for Bibbly F'utzbuckle
+  turnin 5501 -- Bone Collector - the Bones to Bibbly F'utzbuckle
+  accept 5561 -- Kodo Roundup - Smeed Scrabblescrew; aged kodo, the flats
+  complete 5561 @44.82,19.81 era -- Aged Kodo off the aged kodo for Smeed Scrabblescrew
+  complete 5561 @45.14,18.46 era -- Dying Kodo for Smeed Scrabblescrew
+  complete 5561 @49.45,59.73 era -- Ancient Kodo for Smeed Scrabblescrew
+  turnin 5561 -- Kodo Roundup - back to Smeed Scrabblescrew
+  accept 5821 -- Bodyguard for Hire - Cork Gizelton (66.54, 37.51); escort the caravan past the Kolkar village
+  complete 5821 @67.17,56.62 era -- escort Gizelton Caravan past Kolkar Centaur Village to Smeed Scrabblescrew
+  turnin 5821 -- Bodyguard for Hire - the caravan to Smeed Scrabblescrew
+  turnin 6134 -- Ghost-o-plasm Round Up - the plasm to Hornizz Brimbuzzle (47.83, 61.83)
+
+step The kodo country - Rigger's caravan and the campfire
+
+  accept 5943 -- Gizelton Caravan - Rigger Gizelton (45.4, 75.29); escort the caravan past Mannoroc Coven
+  complete 5943 @55.69,67.79 era -- escort Gizelton Caravan past Mannoroc Coven to Smeed Scrabblescrew
+  turnin 5943 -- Gizelton Caravan - the caravan to Smeed Scrabblescrew
+  accept 79229 -- Highway Robbery - the Extinguished Campfire @47.52,54.61 era; Bibbly takes it
+  turnin 79229 -- Highway Robbery - the word to Bibbly F'utzbuckle
+  note 79235's pre (79229 above) fills at this caravan - take 79235 here.
+  accept 79235 -- On the Lam - Bibbly F'utzbuckle; Tokal takes it in Booty Bay, late
+
+step The far west - Rackmore's keys
+
+  tip Rackmore's Chest (30, 8.71) waits the far west shore.
+  collect 15878 quest 6161.1 @17.98,75.4 era -- Rackmore's Silver Key off the Drysnap Crawlers for Rackmore's Chest
+  collect 15878 quest 6161.1 @17.5,79.53 era -- Rackmore's Silver Key off the Drysnap Pincers for Rackmore's Chest
+  collect 15881 quest 6161.2 @32.74,23.92 era -- Rackmore's Golden Key off the Slitherblade Naga for Rackmore's Chest
+  turnin 6161 -- Claim Rackmore's Treasure! - the keys to Rackmore's Chest
+
+step The south - the Pariah's instructions
+
+  tip The Centaur Pariah (50.42, 86.65) waits the far south.
+  accept 7067 -- The Pariah's Instructions - the Centaur Pariah; the Amulet of Union, carried in
+  note The Amulet of Union has no placed source in the data - have it in your bags.
+  complete 7067
+  turnin 7067 -- The Pariah's Instructions - the Amulet to the Centaur Pariah
+  accept 92754 -- A New Need for Shadow Protection - Mirda (70.47, 70.4); it completes on the spot, no turn-in in the data
+
+step The south - the paladin's hammer
+
+  tip The Broken Warhammer (52.72, 84.76) lies in the south.
+  accept 79939 only Paladin -- The Broken Hammer - the Broken Warhammer @52.72,84.76 era; Katherine the Pure takes it in Stormwind, late
+
+step Bibbly's corner - the cylinder writ
+
+  when skill Engineering 1
+
+  accept 94269 optional -- Craftsman's Writ: Inlaid Mithril Cylinder - Bibbly F'utzbuckle; the writ and a cylinder, farmed below
+  note The cylinder drops off-zone (Clunk in Searing Gorge, 7:XT in the Badlands) - bring one with the writ.
+  note 94269's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94269 optional
+  turnin 94269 optional -- Craftsman's Writ: Inlaid Mithril Cylinder - the writ and cylinder to Bibbly F'utzbuckle
+
+step Bibbly's corner - the dummy writ
+
+  when skill Engineering 1
+
+  accept 94281 optional -- Craftsman's Writ: Advanced Target Dummy - Bibbly F'utzbuckle; the writ and a dummy, farmed below
+  note 94281's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94281 optional
+  turnin 94281 optional -- Craftsman's Writ: Advanced Target Dummy - the writ and dummy to Bibbly F'utzbuckle
+
+step Azore's corner - the cloak writ
+
+  when skill Tailoring 1
+
+  accept 94293 optional -- Craftsman's Writ: Guardian Cloak - Azore Aldamort; the writ and a cloak, farmed below
+  note 94293's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94293 optional
+  turnin 94293 optional -- Craftsman's Writ: Guardian Cloak - the writ and cloak to Azore Aldamort
+
+step The Pariah's corner - the potion writ
+
+  when skill Alchemy 1
+
+  accept 94257 optional -- Craftsman's Writ: Lesser Invisibility Potion - the Centaur Pariah; the writ and a potion, farmed below
+  note 94257's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94257 optional
+  turnin 94257 optional -- Craftsman's Writ: Lesser Invisibility Potion - the writ and potion to the Centaur Pariah
+
+step Willow's corner - the gloves writ
+
+  tip Willow (62.2, 39.63) works the kodo country east edge.
+  when skill Tailoring 1
+
+  accept 94305 optional -- Craftsman's Writ: Shadoweave Gloves - Willow; the writ and gloves, farmed below
+  note 94305's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94305 optional
+  turnin 94305 optional -- Craftsman's Writ: Shadoweave Gloves - the writ and gloves to Willow
+
+step Maraudon doors - two words inside
+
+  tip The Maraudon Portal (29.24, 61.18) opens west of the kodo country; Nerlokh and Hagiak wait inside.
+  note 93034 (accepted at Uthek above) and 93066 (accepted at Orgrul above) descend here.
+
+step Expedition - Maraudon, Nerlokh and Hagiak
+
+  zone map 2652
+
+  turnin 93034 -- Valley of Bones - Uthek's word to Nerlokh
+  turnin 93066 -- Bristleback Retreat - Orgrul's word to Hagiak
+  zone map 1443
+
+step Expedition - Booty Bay, Tokal's word
+
+  zone map 1434
+
+  tip Tokal (26.98, 77.29) works Booty Bay.
+  turnin 79235 -- On the Lam - Bibbly's word to Tokal
+  zone map 1443
+
+step Expedition - Stormwind, the Broken Hammer
+
+  zone map 1453
+
+  tip Katherine the Pure (48.48, 49.09) works Stormwind.
+  turnin 79939 only Paladin -- The Broken Hammer - the warhammer to Katherine the Pure
+  zone map 1443
+
+step Desolace - done
+
+  note Desolace is run: Nijel's holds, the clans are befriended, the kodo are counted, the words are carried south and out. The Horde side belongs to the Horde block.
