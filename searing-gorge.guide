@@ -1,0 +1,326 @@
+# Searing Gorge - Completionist (pack butler-routes-completionist, v1).
+# Every Searing Gorge accept in the local census (39 quests,
+# docs/searing-gorge-census.md) appears exactly once as an accept; 38
+# turnins close every record that ends anywhere in the data, including
+# four object turn-ins (the Torch, the Altar of Suntara, the Outhouse,
+# the Hoard). Only 4264's Windsor turn-in has no placed end in the data
+# (note-only, nothing invented). The Bodley endgame chain, the
+# Attunement twins, Blackhand's Command, the four Thorium rep turn-ins,
+# the Horde Kargath side (19 set aside) and the 1458 Mind of Metal are out
+# with reasons in the census. No race header and no class gates: nothing
+# contracted is race- or class-locked; profession lines are when-skill
+# gated (Tailoring 230, Leatherworking 225, writs at 1 per the
+# Thousand Needles pattern). Ungateable outside pres (3371 Ironforge for
+# 3372, 4242 Burning Steppes for 4264) ride as structural warnings with
+# the chain named. Expedition legs switch frames deliberately and switch
+# back. The Lunar elder rides optional with its seasonal note.
+guide butler-routes-completionist/searing-gorge
+title Searing Gorge - Completionist
+levels 40-52
+zone Searing Gorge
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Thorium Point - arrival and the hub
+
+  zone map 1427
+
+  accept 7701 -- WANTED: Overseer Maltorius - the bounty board; Maltorius himself waits northeast
+  accept 7722 -- What the Flux? - Master Smith Burninate; the plans have no placed source in the data - check the Slag Pit of the Cauldron per the objective text (honest note)
+  complete 7722 -- What the Flux? (no placed source - honest note above)
+  turnin 7722 -- What the Flux? - the word back to Master Smith Burninate
+  accept 7723 -- Curse These Fat Fingers - Hansel Heavyhands; twenty Heavy War Golems
+  accept 7724 -- Fiery Menace! - Hansel Heavyhands; twenty Greater Lava Spiders
+  accept 7727 -- Incendosaurs? Whateverosaur is More Like It - Hansel Heavyhands; twenty Incendosaurs
+  accept 7728 -- STOLEN: Smithing Tuyere and Lookout's Spyglass - the bounty board; a tuyere and a spyglass off Dark Iron crews
+  accept 7729 -- JOB OPPORTUNITY: Culling the Competition - the bounty board; Taskmasters and Slavers
+  accept 7704 -- Look at the Size of It! - Evonice Sootsmoker; the pillow starter has no placed source in the data - have it in your bags
+  accept 94275 optional -- Craftsman's Writ: Solid Sharpening Stone - Master Smith Burninate; the writ has no placed source in the data - have it in your bags
+  accept 94299 optional -- Craftsman's Writ: Nightscape Shoulders - Evonice Sootsmoker; the writ has no placed source in the data - have it in your bags
+  accept 94311 optional -- Craftsman's Writ: Red Mageweave Pants - Lookout Captain Lolo Longstriker; the writ has no placed source in the data - have it in your bags
+  tip Thorium Point is the hub: the bounty board, the smiths and the flight point live here; the writs below are profession work (Blacksmithing, Leatherworking, Tailoring).
+
+step Thorium Point - bounties and smith work
+
+  zone map 1427
+
+  complete 7701 @40.77,35.89 -- Overseer Maltorius, northeast of the Point
+  turnin 7701 -- WANTED: Overseer Maltorius - the head to Lookout Captain Lolo Longstriker
+  complete 7723 @32.45,52.55 -- Heavy War Golems, west of the Point
+  turnin 7723 -- Curse These Fat Fingers - the golem count to Hansel Heavyhands
+  complete 7724 @22.03,77.29 -- Greater Lava Spiders, down in the Cauldron
+  turnin 7724 -- Fiery Menace! - the spider count to Hansel Heavyhands
+  complete 7727 @43.38,28.26 -- Incendosaurs, east of the Point
+  turnin 7727 -- Incendosaurs? Whateverosaur is More Like It - the scale count to Hansel Heavyhands
+  complete 7728 @37.69,49.65 -- Smithing Tuyere off the Dark Iron Steamsmiths, north of the Point
+  complete 7728 @32.49,54.86 -- Lookout's Spyglass off the Dark Iron Lookouts
+  turnin 7728 -- STOLEN: Smithing Tuyere and Lookout's Spyglass - both pieces to Taskmaster Scrange
+  complete 7729 @34.28,46.33 -- Dark Iron Taskmasters and Slavers, north of the Point
+  turnin 7729 -- JOB OPPORTUNITY: Culling the Competition - the count to Taskmaster Scrange
+  turnin 7704 -- Look at the Size of It! - the pillow to Evonice Sootsmoker
+
+step Thorium Point - the hub writs
+
+  zone map 1427
+
+  when skill Blacksmithing 1
+
+  turnin 94275 optional -- Craftsman's Writ: Solid Sharpening Stone - the writ and stone to Master Smith Burninate
+
+  when skill Leatherworking 1
+
+  turnin 94299 optional -- Craftsman's Writ: Nightscape Shoulders - the writ and shoulders to Evonice Sootsmoker
+
+  when skill Tailoring 1
+
+  turnin 94311 optional -- Craftsman's Writ: Red Mageweave Pants - the writ and pants to Lookout Captain Lolo Longstriker
+  tip The writs' crafted pieces come from your profession; the starters have no placed source in the data.
+
+step Zamael - prayer in the west
+
+  zone map 1427
+
+  accept 3377 -- Prayer to Elune - Zamael Lunthistle; the rite needs Zamael himself struck down
+  complete 3377 @29.57,26.29 -- Zamael Lunthistle, at his point in the west
+  turnin 3377 -- Prayer to Elune - the word back to Zamael Lunthistle
+  accept 3378 -- Prayer to Elune - Zamael Lunthistle; the prayer drops off the Twilight cultists further west
+  complete 3378 @19.09,35.77 -- Twilight cultists, in the western camps
+  tip The prayer page also drops off the Fire Guards and Geomancers working the same camps.
+
+step Weathered etching - the burning beast
+
+  zone map 1427
+
+  accept 81900 -- The Burning Beast - the Weathered Etching on the western slope (14.54,35.80); it completes on the spot, no turn-in chain here
+  tip The chain continues with Bloodmage Lynnore in the Blasted Lands (the Blasted Lands core routes 81917) - expedition below.
+
+step Kalaran - divine retribution
+
+  zone map 1427
+
+  accept 3441 -- Divine Retribution - Kalaran Windblade; the rite needs Kalaran himself struck down
+  complete 3441 @39.06,38.99 -- Kalaran Windblade, at his circle in the center
+  turnin 3441 -- Divine Retribution - the word back to Kalaran Windblade
+  accept 3442 -- The Flawless Flame - Kalaran Windblade; hearts off the elementals, oil off the golems
+  complete 3442 @40.69,36.73 -- Hearts of Flame off the Blazing elementals around the circle
+  complete 3442 @61.01,61.92 -- Golem Oil off the Tempered War Golems to the east
+  turnin 3442 -- The Flawless Flame - hearts and oil to Kalaran Windblade
+  accept 3443 -- Forging the Shaft - Kalaran Windblade; eight daggers off the Dark Iron crews
+  complete 3443 @37.69,49.65 -- Thorium Plated Daggers off the Steamsmiths and neighboring crews
+  turnin 3443 -- Forging the Shaft - the daggers to Kalaran Windblade
+  accept 3452 -- The Flame's Casing - Kalaran Windblade; the Symbol drops off the Twilight cultists west
+  complete 3452 @19.09,35.77 -- Symbol of Ragnaros off the cultists in the western camps
+  turnin 3452 -- The Flame's Casing - the Symbol to Kalaran Windblade
+  accept 3453 -- The Torch of Retribution - Kalaran Windblade; the rite needs Kalaran himself struck down again
+  complete 3453 @39.06,38.99 -- Kalaran Windblade, at his circle
+  turnin 3453 -- The Torch of Retribution - the word back to Kalaran Windblade
+  accept 3454 -- The Torch of Retribution - Kalaran Windblade; it completes on the spot
+  turnin 3454 @39.06,39.07 -- The Torch of Retribution - the torch to the Torch of Retribution beside the circle
+  tip The chain continues below.
+
+step Kalaran - braziers and the hoard
+
+  zone map 1427
+
+  accept 3462 -- Squire Maltrake - Kalaran Windblade; the squire waits beside the circle
+  turnin 3462 -- Squire Maltrake - the word to Squire Maltrake
+  accept 3463 -- Set Them Ablaze! - Squire Maltrake; four braziers across the south
+  complete 3463 @35.67,60.68 -- the western brazier lit
+  complete 3463 @44.03,60.91 -- the southern brazier lit
+  complete 3463 @50.07,54.74 -- the eastern brazier lit
+  complete 3463 @33.30,54.48 -- the far western brazier lit
+  turnin 3463 -- Set Them Ablaze! - the word back to Squire Maltrake
+  accept 3481 -- Trinkets... - the Hoard of the Black Dragonflight; its next (4022 A Taste of Flame) lives in Burning Steppes, out of scope (chain named)
+  turnin 3481 @38.85,38.99 -- Trinkets... - the word back at the Hoard itself
+
+step Dying Archaeologist - release and obsidion
+
+  zone map 1427
+
+  accept 3372 -- Release Them - Dying Archaeologist; its pre (3371 Dwarven Justice, Ironforge) sits outside this route - structural, chain named. The Mysterious Artifact has no placed source anywhere in the data - have it in your bags (honest note)
+  complete 3372 -- Release Them (no placed source - honest note above)
+  turnin 3372 @41.25,25.41 -- Release Them - the word at the Altar of Suntara in the ruins
+  accept 3566 -- Rise, Obsidion! - Dying Archaeologist; two heads off the north ruins
+  complete 3566 @41.32,25.53 -- Head of Lathoric the Black, at the northern ruins
+  complete 3566 @41.76,24.33 -- Heart of Obsidion, beside him
+  tip Both turn-ins land with Curator Thorius in Ironforge - expedition below.
+
+step Dorius - suntara escort and letter
+
+  zone map 1427
+
+  accept 3367 -- Suntara Stones - Dorius Stonetender; the escort starts at the stones
+  complete 3367 @74.47,19.44 -- the Dorius escort, east at the stones (the quest's own event record; the Singed Letter below sits at 74.45,19.29)
+  turnin 3367 @74.45,19.29 -- Suntara Stones - the escort's word at the Singed Letter
+  accept 3368 -- Suntara Stones - the Singed Letter where the escort ends (74.45,19.29); it completes on the spot
+  tip Both legs turn in with Curator Thorius in Ironforge, and 3368's next (3371 Dwarven Justice) lives there too - expedition below.
+
+step Outhouse - caught and the ledger
+
+  zone map 1427
+
+  accept 4449 -- Caught! - the Wooden Outhouse east; geologists and silk
+  complete 4449 @62.76,62.27 -- Dark Iron Geologists around the east dig
+  complete 4449 @62.76,62.27 -- Silk Cloth off the same crews
+  turnin 4449 @65.59,62.17 -- Caught! - the word back at the Wooden Outhouse
+  accept 4450 -- Ledger from Tanaris - the outhouse again; shafts off the Glassweb Spiders, and the ledger pieces arrive with the chain
+  complete 4450 @58.92,52.63 -- Solid Crystal Leg Shafts off the Glassweb Spiders
+  complete 4450 -- Goodsteel Ledger and Overdue Package (no placed source in the data - they arrive with the outhouse chain, honest note)
+  accept 4451 -- The Key to Freedom - a Grimesilt Outhouse Key off the Dark Iron crews; it completes on the spot
+  turnin 4451 @65.59,62.17 -- The Key to Freedom - the key back at the Wooden Outhouse
+  tip The Balanced Flameberge waits on Jarquia in the Swamp of Sorrows and both this chain and the Undermarket end in Tanaris - expeditions below.
+
+step Nilith - the tailoring undermarket
+
+  zone map 1427
+
+  when skill Tailoring 230
+
+  accept 3379 -- Shadoweaver - Nilith Lokrav; five Shadowsilk Poachers far north
+  complete 3379 @59.46,25.37 -- Shadowsilk Poachers at the northern camp
+  turnin 3379 -- Shadoweaver - the word back to Nilith Lokrav
+  accept 3385 -- The Undermarket - Nilith Lokrav; Kovic, Clunk and the satchel
+  complete 3385 @34.71,51.99 -- Trade Master Kovic and the Trader's Satchel, at his camp
+  complete 3385 @34.69,51.89 -- Clunk, beside Kovic
+  turnin 3385 -- The Undermarket - the word back to Nilith Lokrav
+  accept 3402 -- The Undermarket - Nilith Lokrav; the word rides to Vizzklick in Tanaris
+  tip 3402 turns in with Vizzklick in Tanaris - expedition below.
+
+step Margol - the horn of the beast
+
+  zone map 1427
+
+  accept 3181 -- The Horn of the Beast - Margol's Horn off Margol the Rager himself, far east above the Cauldron (73.52,82.31); it completes on the spot
+  tip The horn rides to Mountaineer Pebblebitty in Loch Modan (its next, 3182 Proof of Deed, lives there too) - expedition below.
+
+step Sarah Tanner - elemental leatherworking
+
+  zone map 1427
+
+  when skill Leatherworking 225
+
+  accept 5144 optional -- Elemental Leatherworking - Sarah Tanner; hearts, water, earth and wind, farmed below
+  complete 5144 @40.69,36.73 -- Hearts of Fire off the Blazing elementals
+  complete 5144 @13.52,35.95 -- Globes of Water off Muck Splash in the west
+  complete 5144 @79.60,73.50 -- Cores of Earth off the Greater Rock Elementals far east
+  complete 5144 @29.53,62.44 -- Core of Earth off Smoldar, south of the center
+  tip The Breath of Wind waits on the Cyclonian in Alterac - expedition below; the turn-in lands here after.
+
+step Durganon - the fire writs
+
+  zone map 1427
+
+  when skill Alchemy 1
+
+  accept 94263 optional -- Craftsman's Writ: Fire Protection Potion - Durganon; the writ has no placed source in the data - have it in your bags
+  turnin 94263 optional -- Craftsman's Writ: Fire Protection Potion - the writ and potion to Durganon
+
+  when skill Engineering 1
+
+  accept 94287 optional -- Craftsman's Writ: Fire Goggles - Durganon; the writ has no placed source in the data - have it in your bags
+  turnin 94287 optional -- Craftsman's Writ: Fire Goggles - the writ and goggles to Durganon
+  tip Durganon works the Thorium Point forge lines; the crafted pieces come from your profession.
+
+step Anvilrage - the crumpled note
+
+  zone map 1427
+
+  accept 4264 -- A Crumpled Up Note - off the Anvilrage crews in the southwest (25.20,75.20 and neighboring points); it completes on the spot. Its pre (4242 Abandoned Hope, Burning Steppes) sits outside this route - structural, chain named
+  turnin 4264 -- A Crumpled Up Note - the note to Marshal Windsor; the data holds no spawn point for Windsor anywhere (Stormwind, per the chain) - note-only turn-in, nothing invented
+  tip The chain runs on through 4282 outside this zone; this route carries it as far as the data goes.
+
+step Ironband the Elder - lunar elder
+
+  zone map 1427
+
+  accept 8651 optional -- Ironband the Elder - Elder Ironband; Lunar Festival seasonal, only up during the festival
+  turnin 8651 optional -- Ironband the Elder - the word back to Elder Ironband
+
+step Ironforge expedition - the Thorius turn-ins
+
+  zone map 1427
+
+  zone map 1455
+
+  turnin 3368 -- Suntara Stones - the letter to Curator Thorius in the Hall of Explorers
+  turnin 3566 -- Rise, Obsidion! - the heads to Curator Thorius
+  tip Expedition leg to Ironforge; the frame switches back after.
+
+  zone map 1427
+
+step Tanaris expedition - the Gadgetzan turn-ins
+
+  zone map 1427
+
+  zone map 1446
+
+  turnin 4450 -- Ledger from Tanaris - the ledger to Krinkle Goodsteel in Gadgetzan
+
+  when skill Tailoring 230
+
+  turnin 3402 -- The Undermarket - the word to Vizzklick in Gadgetzan
+  tip Expedition leg to Tanaris; the frame switches back after.
+
+  zone map 1427
+
+step Swamp expedition - the flameberge
+
+  zone map 1427
+
+  zone map 1435
+
+  complete 4450 @91.20,65.40 -- Goodsteel's Balanced Flameberge off Jarquia in the Swamp of Sorrows
+  tip Expedition leg to the Swamp; the frame switches back after.
+
+  zone map 1427
+
+step Loch Modan expedition - the horn delivery
+
+  zone map 1427
+
+  zone map 1432
+
+  turnin 3181 -- The Horn of the Beast - the horn to Mountaineer Pebblebitty
+  tip Expedition leg to Loch Modan; the frame switches back after.
+
+  zone map 1427
+
+step Blasted Lands expedition - the burning beast
+
+  zone map 1427
+
+  zone map 1419
+
+  turnin 81900 -- The Burning Beast - the etching's word to Bloodmage Lynnore; the Blasted Lands core continues her chain (81917)
+  tip Expedition leg to the Blasted Lands; the frame switches back after.
+
+  zone map 1427
+
+step Alterac expedition - breath of wind
+
+  zone map 1427
+
+  zone map 1416
+
+  when skill Leatherworking 225
+
+  complete 5144 @80.32,62.14 -- Breath of Wind off the Cyclonian in Alterac
+  tip Expedition leg to Alterac; the frame switches back after.
+
+  zone map 1427
+
+  turnin 5144 optional -- Elemental Leatherworking - all four elements to Sarah Tanner
+
+step Teldrassil expedition - the prayer finale
+
+  zone map 1427
+
+  zone map 1438
+
+  turnin 3378 -- Prayer to Elune - the prayer to Astarii Starseeker
+  tip Expedition leg to Teldrassil; the frame switches back after.
+
+  zone map 1427
