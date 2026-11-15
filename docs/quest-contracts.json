@@ -7708,6 +7708,243 @@
           "name": "Sword in the Slime"
         }
       ]
+    },
+    {
+      "id": "feralas",
+      "name": "Feralas",
+      "order": 25,
+      "levelBand": "38-50",
+      "summary": "Set 4 contested-zone Alliance route: the Feathermoon Hatecrest and courier chains, the Kindal and Troyas lines, the Wild Leather profession chain, the OOX and Zorbin neutral chains, the druid quest, the WANTED poster, the below-band stragglers and the level-60 writs; expedition legs to Darnassus, Booty Bay, Thousand Needles, Tanaris and Stormwind.",
+      "quests": [
+        {
+          "id": 2766,
+          "name": "Find OOX-22/FE!"
+        },
+        {
+          "id": 2767,
+          "name": "Rescue OOX-22/FE!"
+        },
+        {
+          "id": 2821,
+          "name": "The Mark of Quality"
+        },
+        {
+          "id": 2844,
+          "name": "The Giant Guardian"
+        },
+        {
+          "id": 2845,
+          "name": "Wandering Shay"
+        },
+        {
+          "id": 2847,
+          "name": "Wild Leather Armor"
+        },
+        {
+          "id": 2848,
+          "name": "Wild Leather Shoulders"
+        },
+        {
+          "id": 2849,
+          "name": "Wild Leather Vest"
+        },
+        {
+          "id": 2850,
+          "name": "Wild Leather Helmet"
+        },
+        {
+          "id": 2851,
+          "name": "Wild Leather Boots"
+        },
+        {
+          "id": 2852,
+          "name": "Wild Leather Leggings"
+        },
+        {
+          "id": 2853,
+          "name": "Master of the Wild Leather"
+        },
+        {
+          "id": 2866,
+          "name": "The Ruins of Solarsal"
+        },
+        {
+          "id": 2867,
+          "name": "Return to Feathermoon Stronghold"
+        },
+        {
+          "id": 2869,
+          "name": "Against the Hatecrest"
+        },
+        {
+          "id": 2870,
+          "name": "Against Lord Shalzaru"
+        },
+        {
+          "id": 2871,
+          "name": "Delivering the Relic"
+        },
+        {
+          "id": 2879,
+          "name": "The Stave of Equinex"
+        },
+        {
+          "id": 2939,
+          "name": "In Search of Knowledge"
+        },
+        {
+          "id": 2942,
+          "name": "The Morrow Stone"
+        },
+        {
+          "id": 2969,
+          "name": "Freedom for All Creatures"
+        },
+        {
+          "id": 2970,
+          "name": "Doling Justice"
+        },
+        {
+          "id": 2972,
+          "name": "Doling Justice"
+        },
+        {
+          "id": 2982,
+          "name": "The High Wilderness"
+        },
+        {
+          "id": 3130,
+          "name": "Against the Hatecrest"
+        },
+        {
+          "id": 3445,
+          "name": "The Sunken Temple"
+        },
+        {
+          "id": 3567,
+          "name": "To the Top"
+        },
+        {
+          "id": 3788,
+          "name": "Jonespyre's Request"
+        },
+        {
+          "id": 3791,
+          "name": "The Mystery of Morrowgrain"
+        },
+        {
+          "id": 3792,
+          "name": "Morrowgrain to Feathermoon Stronghold"
+        },
+        {
+          "id": 3841,
+          "name": "An Orphan Looking For a Home"
+        },
+        {
+          "id": 4041,
+          "name": "The Videre Elixir"
+        },
+        {
+          "id": 4124,
+          "name": "The Missing Courier"
+        },
+        {
+          "id": 4125,
+          "name": "The Missing Courier"
+        },
+        {
+          "id": 4127,
+          "name": "Boat Wreckage"
+        },
+        {
+          "id": 4129,
+          "name": "The Knife Revealed"
+        },
+        {
+          "id": 4130,
+          "name": "Psychometric Reading"
+        },
+        {
+          "id": 4131,
+          "name": "The Woodpaw Gnolls"
+        },
+        {
+          "id": 4135,
+          "name": "The Writhing Deep"
+        },
+        {
+          "id": 4143,
+          "name": "Haze of Evil"
+        },
+        {
+          "id": 4265,
+          "name": "Freed from the Hive"
+        },
+        {
+          "id": 4266,
+          "name": "A Hero's Welcome"
+        },
+        {
+          "id": 4267,
+          "name": "Rise of the Silithid"
+        },
+        {
+          "id": 7003,
+          "name": "Zapped Giants"
+        },
+        {
+          "id": 7721,
+          "name": "Fuel for the Zapping"
+        },
+        {
+          "id": 7725,
+          "name": "Again With the Zapped Giants"
+        },
+        {
+          "id": 7726,
+          "name": "Refuel for the Zapping"
+        },
+        {
+          "id": 7733,
+          "name": "Improved Quality"
+        },
+        {
+          "id": 7735,
+          "name": "Pristine Yeti Hide"
+        },
+        {
+          "id": 81924,
+          "name": "Wisdom of the Guardians"
+        },
+        {
+          "id": 92858,
+          "name": "WANTED: Ohk'zi"
+        },
+        {
+          "id": 94260,
+          "name": "Craftsman's Writ: Catseye Draught"
+        },
+        {
+          "id": 94272,
+          "name": "Craftsman's Writ: Blue Glittering Axe"
+        },
+        {
+          "id": 94284,
+          "name": "Craftsman's Writ: Catseye Ultra Goggles"
+        },
+        {
+          "id": 94296,
+          "name": "Craftsman's Writ: Wild Leather Shoulders"
+        },
+        {
+          "id": 98155,
+          "name": "Pristine Pesterhide Pelts"
+        },
+        {
+          "id": 98156,
+          "name": "Packaged Pristine Pelts"
+        }
+      ]
     }
   ]
 }
