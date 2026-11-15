@@ -335,7 +335,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Lint/playtest clean - 0 errors, playtest 3 personas 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 9 rares (7 with sole-drop signatures) + 3 fixed containers, 24 recipes (13 vendor + 11 drops), 0 lint errors/warnings
 
 ### Tanaris — contested (Kalimdor)
 
