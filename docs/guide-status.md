@@ -257,7 +257,7 @@ _Skyborne country._
 - [x] Lint/playtest clean - 0 errors, playtest 3 personas 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 5 rares (5 with sole-drop signatures) + rock-pile container loop, 15 recipes (all vendor), 0 lint errors/warnings
 
 ### Thousand Needles — contested (Kalimdor)
 
