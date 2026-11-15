@@ -1,0 +1,139 @@
+# Riverglades - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns and schematics whose SOURCE is physically in
+# Riverglades, verified against the local Forever game data (questie-forever
+# item vendor tables). Fifteen recipes are vendor-sold by in-zone vendors:
+# the Powderfuse Port (neutral east-hub) vendors Fimbo Greasemitz, Gritta
+# Chumwater, Grizzek, Innkeeper Zizplink, Stitch Pinwizzle, Kor'gar and
+# Fizzix Boomshot, and the southern Turner-farm (Alliance) vendors Miranda
+# Turner and Martha Wellsworth - Martha is the only vendor anywhere for her
+# two plans. No mob-dropped recipe has an in-zone dropper anywhere in the
+# data, so this guide is vendor-only. The Horde-hub vendor Naluk's sole
+# stock is excluded (Alterac precedent - see
+# docs/riverglades-companions-inventory.md and docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides
+# cover those. Each step is gated to its profession; other characters skip
+# it cleanly. Alchemy, Enchanting, First Aid, Fishing and Leatherworking
+# have no Riverglades source, so that is stated, not padded.
+guide butler-routes-completionist/riverglades-recipes
+title Riverglades - Recipes & Patterns
+levels 36-45
+zone Riverglades
+faction Alliance
+category Professions
+folder Companions
+keywords riverglades, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Powderfuse Port vendors - Fimbo's stock (Cooking)
+
+  zone map 2548
+
+  when skill Cooking 1
+
+  tip Fimbo Greasemitz (79.02, 54.20) sells recipes at Powderfuse Port; Miranda Turner at the southern Turner farm sells the same two.
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Powderfuse Port vendors - Gritta's stock (Cooking)
+
+  zone map 2548
+
+  when skill Cooking 1
+
+  tip Gritta Chumwater (around 77-80, 52-54) sells recipes at Powderfuse Port.
+  buy 6330 "Recipe: Bristle Whisker Catfish"
+  buy 6368 "Recipe: Rainbow Fin Albacore"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Powderfuse Port vendor - Grizzek's chowder (Cooking)
+
+  zone map 2548
+
+  when skill Cooking 1
+
+  tip Grizzek (around 74-77, 51-54) sells chowder at Powderfuse Port.
+  buy 16767 "Recipe: Undermine Clam Chowder"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Powderfuse Port vendor - Zizplink's steak (Cooking)
+
+  zone map 2548
+
+  when skill Cooking 1
+
+  tip Innkeeper Zizplink (78.77, 53.98) sells the steak at Powderfuse Port.
+  buy 18046 "Recipe: Tender Wolf Steak"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Turner farm vendor - Miranda's stock (Cooking)
+
+  zone map 2548
+
+  when skill Cooking 1
+
+  tip Miranda Turner (around 62-64, 82-84) sells recipes at the southern Turner farm; Fimbo Greasemitz at Powderfuse Port sells the same two.
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Powderfuse Port vendor - Stitch's stock (Tailoring)
+
+  zone map 2548
+
+  when skill Tailoring 1
+
+  tip Stitch Pinwizzle (around 77-79, 51-53) sells patterns at Powderfuse Port.
+  buy 7088 "Pattern: Crimson Silk Robe"
+  buy 21358 "Pattern: Soul Pouch"
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Powderfuse Port vendor - Kor'gar's stock (Engineering)
+
+  zone map 2548
+
+  when skill Engineering 1
+
+  tip Kor'gar (around 77-79, 51-54) sells schematics at Powderfuse Port.
+  buy 16046 "Schematic: Masterwork Target Dummy"
+  buy 16047 "Schematic: Thorium Tube"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Powderfuse Port vendor - Fizzix's dynamite (Engineering)
+
+  zone map 2548
+
+  when skill Engineering 1
+
+  tip Fizzix Boomshot (around 77-80, 51-55) sells dynamite at Powderfuse Port.
+  buy 18650 "Schematic: EZ-Thro Dynamite II"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Turner farm vendor - Martha's stock (Blacksmithing)
+
+  zone map 2548
+
+  when skill Blacksmithing 1
+
+  tip Martha Wellsworth (around 63-65, 82-86) sells plans at the southern Turner farm; she is the only vendor anywhere for both.
+  buy 251460 "Plans: Mithril Warhammer"
+  buy 274977 "Recipe: Plain Ol' Paletusk"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step No Riverglades source - Alchemy
+  note Alchemy has no recipe source physically in Riverglades in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Riverglades source - Enchanting
+  note Enchanting has no recipe source physically in Riverglades in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Riverglades source - First Aid
+  note First Aid has no recipe source physically in Riverglades in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Riverglades source - Fishing
+  note Fishing has no recipe source physically in Riverglades in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Riverglades source - Leatherworking
+  note Leatherworking has no recipe source physically in Riverglades in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
