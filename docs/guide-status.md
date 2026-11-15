@@ -412,9 +412,9 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 
 _Horde heartland — a Horde-faction route, written here in leveling order, ahead of the Horde starting block._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (67-contract, band 10-20)
+- [x] Core guide (67 accepts, 66 turn-ins + documented 78261)
+- [x] Lint/playtest clean (0 errors; R1/R2/R3 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
