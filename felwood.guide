@@ -1,0 +1,507 @@
+# Felwood - Completionist (pack butler-routes-completionist, v1).
+# Every Felwood accept in the local census (59 quests,
+# docs/felwood-census.md) appears exactly once as an accept; 59
+# turnins close every record that has one in the data. The 38
+# repeatables (corrupted-plant turn-ins, the Salve even-numbered
+# follow-ups, Timbermaw/Winterfall feather-and-bead turn-ins), the 7
+# min60 endgame class quests (Warlock dreadsteed links, Hunter ancient
+# bow chain), and the 4 accepts-elsewhere records (Stormwind 84397,
+# Darkshore 994/995/5713) are out with reasons in the census; 21 Horde
+# quests are set aside by ID for the Horde block. No race header and no
+# race gates: nothing contracted is race-locked. Class gates: the
+# Niby/Impsy lines are Warlock-only (7601/7602/7603/8420/8421/8422) and
+# 81790 is Paladin-only. Profession lines ride optional + when-skill
+# gates. Ungateable outside pres (3942 Un'Goro for 4084, 5084
+# Winterspring for 5085, 5159 Barrens for 5165) are contracted with
+# honest notes and reported as structural warnings, not silently
+# dropped. The 5250 Starfall variant accepts in Teldrassil and stays
+# out; the Stormwind variant 8419 stays home while the Felwood leg
+# 8420 is contracted chain-consistent.
+
+guide butler-routes-completionist/felwood
+title Felwood - Completionist
+levels 45-55
+zone Felwood
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Emerald Sanctuary - arrival and the Eridan hub
+
+  zone map 1448
+
+  accept 4421 -- The Corruption of the Jadefire - Eridan Bluewind; the Jadefire Run opens
+  tip Emerald Sanctuary is the hub: Eridan Bluewind (51.35,81.51), Greta Mosshoof (51.21,82.11), Taronn Redfeather (50.89,81.62), Ivy Leafrunner (50.96,81.58) and Jessir Moonbow (51.35,82.01) all live here. 4084 Silver Heart and 4005 Aquementas need 3942 Linken's Memory (Un'Goro, contracted nowhere) done first - the Un'Goro leg below unlocks them. 4441 Felbound Ancients needs the Flute quest 939 done first - hunt Xavaric in the north run below.
+  tip Eridan also holds a Tailoring writ - the dedicated writ step below carries it.
+
+step Emerald Sanctuary - Greta, Taronn, Ivy and the west briefing
+
+  zone map 1448
+
+  accept 5155 -- Forces of Jaedenar - Greta Mosshoof; the Shadow Hold offensive
+  accept 91952 -- The Source of the Corruption - Greta Mosshoof; a delivery for Ketharas in Mount Hyjal (far expedition below)
+  tip Greta, Taronn, Ivy and Jessir also hold profession writs - the dedicated writ steps below carry them.
+  accept 5156 -- Verifying the Corruption - Taronn Redfeather; Entropics and craters in Shatter Scar Vale
+
+  accept 5249 -- To Winterspring! - Ivy Leafrunner; a delivery for Wynd Nightchaser in Winterspring (expedition below, and note 5250 Starfall is the Teldrassil-accepting twin - not contracted here)
+
+
+  accept 86577 -- A Sampling of Putrescence - Kelek Skykeeper; organs off Felwood bears and wolves (Deadwood south below)
+  tip 5158 Seeking Spiritual Aid opens after 5157's turn-in below, and 5165 Dousing the Flames needs 5159 Cleansed Water (accepts in the Barrens, contracted nowhere) done first - the Barrens leg below unlocks it; until then the braziers wait.
+
+step Emerald Sanctuary - Arathandris and the Salve line
+
+  zone map 1448
+
+  accept 4101 -- Cleansing Felwood - Arathandris Silversky; Blood Amber off the Warpwood, east
+  tip Turning in 4101 unlocks the one-time Salve feeders 5882 (hunting, open) and 5883/5884/5885/5886 (Mining/Herbalism/Skinning/Enchanting, optional + profession-gated); their repeatable even-numbered follow-ups are OUT of contract - the one-time feeders above are the whole chain here.
+
+step Timbermaw Hold - Grazle's twin writs
+
+  zone map 1448
+
+  accept 6131 -- Timbermaw Ally - Grazle; Deadwood south village, seven kills
+  accept 8460 -- Timbermaw Ally - Grazle; Deadwood south village, six kills (twin counts x7/x5, both routed with this note)
+  accept 6221 -- Deadwood of the North - Grazle; Deadwood north village, five kills (forward pointer to the north gate below; twin with 8461, both routed with a note there)
+
+step Emerald Sanctuary - writ: potion (Alchemy)
+
+  zone map 1448
+
+  when skill Alchemy 1
+  accept 94259 optional -- Craftsman's Writ: Nature Protection Potion - Greta Mosshoof; the writ item starts it, craft the potion from bags
+  note 94259's starter (the writ) has no placed source in the data - have it in your bags.
+
+step Emerald Sanctuary - writ: shoulders (Blacksmithing)
+
+  zone map 1448
+
+  when skill Blacksmithing 1
+  accept 94271 optional -- Craftsman's Writ: Ornate Mithril Shoulders - Taronn Redfeather; the writ item starts it, craft the shoulders from bags
+  note 94271's starter (the writ) has no placed source in the data - have it in your bags.
+
+step Emerald Sanctuary - writ: helmet (Leatherworking)
+
+  zone map 1448
+
+  when skill Leatherworking 1
+  accept 94295 optional -- Craftsman's Writ: Wild Leather Helmet - Ivy Leafrunner; the writ item starts it, craft the helmet from bags
+  note 94295's starter (the writ) has no placed source in the data - have it in your bags.
+
+step Emerald Sanctuary - writ: mine (Engineering)
+
+  zone map 1448
+
+  when skill Engineering 1
+  accept 94283 optional -- Craftsman's Writ: Goblin Land Mine - Jessir Moonbow; the writ item starts it, craft the mine from bags
+  note 94283's starter (the writ) has no placed source in the data - have it in your bags.
+
+step Emerald Sanctuary - writ: robe (Tailoring)
+
+  zone map 1448
+
+  when skill Tailoring 1
+  accept 94307 optional -- Craftsman's Writ: Shadoweave Robe - Eridan Bluewind; the writ item starts it, craft the robe from bags
+  note 94307's starter (the writ) has no placed source in the data - have it in your bags.
+
+step Emerald Sanctuary - Gregory the Paladin (Paladin only)
+
+  zone map 1448
+
+  accept 81790 only Paladin -- Materials of Significance - Gregory; four Forever-minted materials
+  note Gregory's list mixes placed and sourceless goods: the Fiery Infernal Core drops off Shatter Scar infernals and Entropics below, but the Shimmering Grave Dust (Grave Mound object 441222 has NO spawns in the data), the Triple-Brewed Molten Lager (vendor 9499 Plugger Spazzring has NO spawn in the data) and the Symbol of Faith (no source anywhere in the data) cannot be placed - check bags and the auction house; this line never wedges on them.
+
+step Jadefire Run south - the corruption kills
+
+  zone map 1448
+
+  complete 4421 @33.38,66.72 -- Jadefire Felsworn (south run concentration)
+  complete 4421 @37.13,67.29 -- Jadefire Shadowstalker (south run)
+  complete 4421 @35.52,66.76 -- Jadefire Rogue (south run)
+  complete 4421 @32.23,67.11 -- Xavathras (south run)
+  tip Jadefire Felbinds (939 Flute of Xavaric) drop off these same south-run satyrs - bank five while here.
+
+step Eridan return - further corruption opens
+
+  zone map 1448
+
+  turnin 4421 -- The Corruption of the Jadefire - the word back to Eridan Bluewind
+  accept 4906 -- Further Corruption - Eridan Bluewind; the north Jadefire pockets
+
+step Shatter Scar Vale - Taronn's verification
+
+  zone map 1448
+
+  complete 5156 @41.62,41.37 -- Entropic Beast and Entropic Horror (crater field)
+  complete 5156 @41.03,41.96 -- Explore the craters in Shatter Scar Vale
+  turnin 5156 -- Verifying the Corruption - the word back to Taronn Redfeather
+  tip Paladins: Fiery Infernal Cores (81790) drop off the Infernal Bodyguards and Sentries sharing this crater field (@41.47,42.16) - bank one while here.
+  complete 81790 only Paladin @41.47,42.16 -- Fiery Infernal Core (Infernal Bodyguard and Sentry, crater field)
+
+step Shatter Scar - Niby and Impsy (Warlock only)
+
+  zone map 1448
+
+  accept 7601 only Warlock -- What Niby Commands - Niby the Almighty; no field work, carry the word to Impsy
+  turnin 7601 only Warlock -- What Niby Commands - the word to Impsy
+  accept 7602 only Warlock -- Flawless Fel Essence - Impsy; three essences: Jaedenar in-zone below, Azshara and the Dark Portal on far expeditions below
+  accept 8420 only Warlock -- Hot and Itchy - Impsy; Felcloth off Jadefire Tricksters in the north run below (note 8419 An Imp's Request is the Stormwind-accepting twin - contracted in stormwind-city, this is the Felwood leg)
+  tip Impsy also holds an Enchanting writ - the dedicated writ step below carries it.
+
+step Shatter Scar - writ: pouch (Enchanting)
+
+  zone map 1448
+
+  when skill Enchanting 1
+  accept 94308 optional -- Craftsman's Writ: Enchanted Mageweave Pouch - Impsy; the writ item starts it, craft the pouch from bags
+  note 94308's starter (the writ) has no placed source in the data - have it in your bags.
+
+step Shadow Hold - forces of Jaedenar and the moonwell
+
+  zone map 1448
+
+  complete 5155 @36.46,61.41 -- Jaedenar Hound, Guardian, Adept and Cultist (Shadow Hold concentration)
+  complete 5155 @34.97,59.40 -- Jaedenar Guardian (Shadow Hold)
+  complete 5155 @38.23,60.40 -- Jaedenar Adept and Cultist (Shadow Hold)
+  turnin 5155 -- Forces of Jaedenar - the word back to Greta Mosshoof
+  accept 5157 -- Collection of the Corrupt Water - Greta Mosshoof; the moonwell below is already in reach
+
+step Shadow Hold - the moonwell and the Arko'narin rescue
+
+  zone map 1448
+
+  complete 5157 @35.17,59.79 -- Corrupt Moonwell Water (Corrupt Jaedenar Moonwell)
+  note The Blood Red Key (5202) drops off Jaedenar Enforcers, Darkweavers, Warlocks, Legionnaires and Ulathek across Shadow Hold - check bags; this line never wedges on the drop.
+  accept 5202 -- A Strange Red Key - the key starts it; carry it to Captured Arko'narin
+  turnin 5202 -- A Strange Red Key - the key to Captured Arko'narin (36.21,55.47)
+  accept 5203 -- Rescue From Jaedenar - Arko'narin; the escort out of Shadow Hold
+  complete 5203 @35.45,59.06 -- Protect Arko'narin out of Shadow Hold
+  turnin 5203 -- Rescue From Jaedenar - Arko'narin to Jessir Moonbow
+  accept 5204 -- Retribution of the Light - Jessir Moonbow; Rakaiah answers for Trey
+  complete 5204 @38.30,50.51 -- Rakaiah (Shadow Hold summit approach)
+  turnin 5204 -- Retribution of the Light - the word to the Remains of Trey Lightforge (38.50,50.41)
+  accept 5385 -- The Remains of Trey Lightforge - the Remains; carry them home to Jessir
+  turnin 5385 -- The Remains of Trey Lightforge - the Remains to Jessir Moonbow
+  turnin 5157 -- Collection of the Corrupt Water - the water to Greta Mosshoof
+  accept 5158 -- Seeking Spiritual Aid - Greta Mosshoof; water for Islen in the Barrens (pre 5157 now done, and Greta's next link 5159 Cleansed Water accepts in the Barrens, contracted nowhere - the Barrens leg below carries the pointer)
+
+step Jadefire Run north - further corruption and the Flute
+
+  zone map 1448
+
+  complete 4906 @39.39,21.00 -- Jadefire Hellcaller (north pockets)
+  complete 4906 @41.78,19.13 -- Jadefire Betrayer (north pockets)
+  complete 4906 @42.68,17.98 -- Jadefire Trickster (north pockets)
+  complete 4906 @39.07,22.35 -- Xavaric (north pockets)
+  note The Flute of Xavaric (939) drops off Xavaric above - check bags; this line never wedges on the drop.
+  accept 939 -- Flute of Xavaric - the flute starts it; Felbinds are already banked from the south run
+  complete 939 @33.38,66.72 -- Jadefire Felbind (south-run satyrs, banked above)
+  complete 8420 only Warlock @42.68,17.98 -- Felcloth (Jadefire Trickster, north pockets)
+
+step Eridan's reckoning - Felbound, purified, and the Ancient
+
+  zone map 1448
+
+  turnin 4906 -- Further Corruption - the word back to Eridan Bluewind
+  turnin 939 -- Flute of Xavaric - the flute and Felbinds to Eridan Bluewind
+  accept 4441 -- Felbound Ancients - Eridan Bluewind; the Vial comes from a Temple of the Moon fountain far south (expedition next)
+  tip The Vial of Blessed Water (4441) comes from object 138498, which spawns ONLY in Teldrassil (25.4,64.7) and Darnassus - the Teldrassil expedition below fetches it.
+
+step Teldrassil expedition - the Blessed Water
+
+  zone map 1438
+
+  complete 4441 @25.40,64.70 -- Vial of Blessed Water (Temple of the Moon Fountain)
+  tip Expedition leg south to Teldrassil; the frame switches back after.
+
+  zone map 1448
+
+  turnin 4441 -- Felbound Ancients - the Vial to Eridan Bluewind
+  accept 4442 -- Purified! - Eridan Bluewind; no field work, the rite is here
+  turnin 4442 -- Purified! - the word back to Eridan Bluewind
+  accept 4261 -- Ancient Spirit - Eridan Bluewind; guide Arei out of Irontree Vale
+  complete 4261 @49.42,14.54 -- Help Arei get to Safety (Arei stands 49.57,29.6)
+  tip Arei's spirit walks to Kayneth Stillwind in Ashenvale - the Ashenvale leg below closes it.
+
+step Ashenvale expedition - the Ancient Spirit
+
+  zone map 1440
+
+  turnin 4261 -- Ancient Spirit - Arei's spirit to Kayneth Stillwind (85.24,44.71)
+  tip Expedition leg south into Ashenvale; the frame switches back after.
+
+  zone map 1448
+
+step Warpwood east - Blood Amber and soul shards
+
+  zone map 1448
+
+  complete 4101 @56.55,17.91 -- Blood Amber (Warpwood Moss Flayer and Shredder concentration, Dessecus @57.76,22.33)
+  turnin 4101 -- Cleansing Felwood - the amber to Arathandris Silversky
+  accept 5882 -- Salve via Hunting - Arathandris Silversky; Corrupted Soul Shards off these same Warpwood mobs
+  tip The Mining and Herbalism Salve feeders ride their own dedicated steps below.
+  when skill Skinning 1
+  accept 5885 optional -- Salve via Skinning - Arathandris Silversky; the Patch of Tainted Skin has NO source anywhere in the data - check bags and the auction house
+  turnin 5885 optional -- Salve via Skinning - the skin to Arathandris Silversky
+  when skill Enchanting 1
+  accept 5886 optional -- Salve via Disenchanting - Arathandris Silversky; the Lesser Nether Essence has NO source anywhere in the data - check bags and the auction house
+  turnin 5886 optional -- Salve via Disenchanting - the essence to Arathandris Silversky
+  complete 5882 @56.55,17.91 -- Corrupted Soul Shard (Warpwood mobs, banked above)
+  turnin 5882 -- Salve via Hunting - the shards to Arathandris Silversky
+  tip 5882's repeatable follow-up 4103 (and the 4104/4105/4106/4107 follow-ups to the Mining/Gathering/Skinning/Disenchanting feeders) are OUT of contract - the one-time feeders above are the whole chain here.
+
+step Warpwood east - Salve via Mining
+
+  zone map 1448
+
+  when skill Mining 1
+  accept 5883 optional -- Salve via Mining - Arathandris Silversky; Tainted Vitriol from a Small Thorium Vein in Shadow Hold (Greta's finale below)
+  note Salve mining/smelting rides the Shadow Hold visit below.
+
+step Warpwood east - Salve via Gathering
+
+  zone map 1448
+
+  when skill Herbalism 1
+  accept 5884 optional -- Salve via Gathering - Arathandris Silversky; Fel Creep herb in Shadow Hold (Greta's finale below)
+
+step Deadwood south - the Timbermaw entry
+
+  zone map 1448
+
+  complete 6131 @47.92,89.29 -- Deadwood Warrior, Gardener and Pathfinder (south village)
+  complete 8460 @47.92,89.29 -- Deadwood Warrior, Gardener and Pathfinder (south village, twin count)
+  complete 86577 @43.78,82.83 -- Putrescent Bear Organs (Angerclaw Bear, south wilds)
+  complete 86577 @43.33,80.43 -- Putrescent Wolf Organs (Felpaw Wolf, south wilds)
+  turnin 6131 -- Timbermaw Ally - the word to Grazle (50.93,85.01)
+  turnin 8460 -- Timbermaw Ally - the word to Grazle (twin counts x7/x5, both routed with this note)
+  accept 8462 -- Speak to Nafien - Grazle; carry the word north to Nafien (turn-in at the north gate below)
+  turnin 86577 -- A Sampling of Putrescence - the organs to Kelek Skykeeper
+
+
+step Statue of Malorne - the Stag Lord's Bauble
+
+  zone map 1448
+
+  note The Stag Lord's Bauble (86611) starts from the Statue of Malorne - check the statue; this line never wedges on the find.
+  accept 86611 -- Stag Lord's Bauble - the statue starts it; Golhine waits on the north road
+  turnin 86611 -- Stag Lord's Bauble - the bauble to Golhine the Hooded (61.93,24.54)
+
+step Irontree Vale - Silver Heart
+
+  zone map 1448
+
+  tip 4084 Silver Heart needs 3942 Linken's Memory (Un'Goro, contracted nowhere) done first - detour there before this step lands, or this accept stays dark until the pre is done.
+  accept 4084 -- Silver Heart - Eridan Bluewind; Silvery Claws off the southern wilds, the Irontree Heart in the vale
+  complete 4084 @47.86,74.82 -- Silvery Claws (Death Howl and Mongress packs, south-central)
+  complete 4084 @46.58,23.75 -- Irontree Heart (Irontree Wanderer, Irontree Vale)
+  turnin 4084 -- Silver Heart - the claws and heart to Eridan Bluewind
+  accept 4005 -- Aquementas - Eridan Bluewind; the Silver Totem waits off Aquementas in Tanaris (expedition next, then Un'Goro)
+
+step Tanaris expedition - Aquementas
+
+  zone map 1446
+
+  complete 4005 @70.40,49.90 -- Silver Totem of Aquementas (Aquementas, Tanaris)
+  tip Expedition leg to Tanaris; the frame switches back after.
+
+  zone map 1448
+
+step Un'Goro expedition - Collie's delivery
+
+  zone map 1449
+
+  turnin 4005 -- Aquementas - the totem to J.D. Collie (41.92,2.70)
+  tip 4005's follow-up 3961 Linken's Adventure accepts here in Un'Goro (contracted nowhere) - noted, out of scope.
+  tip Expedition leg to Un'Goro; the frame switches back after.
+
+  zone map 1448
+
+step Timbermaw north gate - writ: cloth (Tailoring)
+
+  zone map 1448
+
+  when skill Tailoring 1
+  accept 6032 optional -- Sacred Cloth - Meilosh; two Mooncloth, crafted, have it in your bags
+  turnin 6032 optional -- Sacred Cloth - the cloth to Meilosh
+
+step Timbermaw north gate - Meilosh, Nafien, Gorn and the holds
+
+  zone map 1448
+
+  accept 6031 -- Runecloth - Meilosh; thirty Runecloth, have it in your bags (Meilosh also trades in Winterspring - this Felwood spawn contracts it here)
+  turnin 6031 -- Runecloth - the cloth to Meilosh
+  tip Meilosh also trades Sacred Cloth for tailors - the dedicated step below carries it.
+  accept 8461 -- Deadwood of the North - Nafien; Deadwood north village, six kills (twin with 6221, both routed with this note)
+  complete 8461 @60.11,5.79 -- Deadwood Den Watcher, Avenger and Shaman (north village)
+  complete 6221 @60.11,5.79 -- Deadwood Den Watcher, Avenger and Shaman (north village, twin count)
+  turnin 8461 -- Deadwood of the North - the word to Nafien
+  accept 8465 -- Speak to Salfa - Nafien; carry the word to Salfa
+  turnin 8465 -- Speak to Salfa - the word to Salfa
+  turnin 8462 -- Speak to Nafien - Grazle's word to Nafien
+  accept 8481 -- The Root of All Evil - Gorn One Eye; the Essence of Xandivious waits in Winterspring (expedition below)
+  note The Deadwood Ritual Totem (8470) drops off Deadwood Den Watchers, Avengers and Shamans in this north village - check bags; this line never wedges on the drop.
+  accept 8470 -- Deadwood Ritual Totem - the totem starts it; Kernda waits at the hold mouth
+  turnin 8470 -- Deadwood Ritual Totem - the totem to Kernda (65.50,3.52)
+  note The Winterfall Ritual Totem (8471) drops off Winterfall furbolgs here and south (the Runner below runs both sides) - check bags; this line never wedges on the drop.
+  accept 8471 -- Winterfall Ritual Totem - the totem starts it; Kernda takes it
+  turnin 8471 -- Winterfall Ritual Totem - the totem to Kernda
+  accept 6241 -- Winterfall Activity - Salfa; Winterfall kills in Winterspring (expedition below)
+  accept 8464 -- Winterfall Activity - Salfa; Winterfall kills in Winterspring, eight-count twin (twin counts x6/x8, both routed with this note)
+  note The Empty Firewater Flask (5083) drops off the Winterfall Runner circling this hold (@60.23,5.75) - check bags and accept on the spot; Donova in Winterspring takes the turn-in below.
+  accept 5083 -- Winterfall Firewater - the flask starts it; Donova Snowden waits in Winterspring (expedition below)
+  note The Powers Below (968) starts from the Book off Twilight Thugs in the northern wilds (@40.50,9.60) - check bags and accept on the spot; Gerrig in Ironforge takes the turn-in on the Ironforge leg below.
+  accept 968 -- The Powers Below - the book starts it; Gerrig Bonegrip waits in Ironforge
+  note The Deadwood Cauldron (5085) bubbles in this north village (@60.20,5.84) but its pre 5084 Falling to Corruption accepts in Winterspring (contracted nowhere) - do 5084 on the Winterspring leg below first, then accept 5085 on the shuttle back.
+
+step Winterspring expedition - Winterfall, Xandivious and Wynd
+
+  zone map 1452
+
+  tip 5084 Falling to Corruption accepts here in Winterspring (contracted nowhere) - do it now; it unlocks 5085's Cauldron accept back in Felwood.
+  complete 6241 @30.61,35.62 -- Winterfall Den Watcher, Totemic and Pathfinder (Winterfall village south)
+  complete 8464 @67.51,35.91 -- Winterfall Den Watcher, Totemic and Shaman (Winterfall village east)
+  complete 8481 @69.80,38.20 -- Essence of Xandivious (Xandivious, Winterspring)
+  turnin 5249 -- To Winterspring! - Ivy's word to Wynd Nightchaser (51.97,30.39)
+  tip 5249's follow-up 5244 The Ruins of Kel'Theril accepts here in Winterspring (contracted nowhere) - noted, out of scope.
+  when onquest 5083
+  turnin 5083 -- Winterfall Firewater - the flask to Donova Snowden (31.27,45.16)
+  tip Expedition leg to Winterspring; the frame switches back after.
+
+  zone map 1448
+
+step North gate return - Gorn's peace and Salfa's count
+
+  zone map 1448
+
+  turnin 8481 -- The Root of All Evil - the essence to Gorn One Eye
+  accept 8484 -- The Brokering of Peace - Gorn One Eye; the word rides to King Magni in Ironforge (Ironforge leg below)
+  turnin 6241 -- Winterfall Activity - the count to Salfa
+  turnin 8464 -- Winterfall Activity - the twin count to Salfa
+  turnin 6221 -- Deadwood of the North - the word to Grazle (50.93,85.01)
+  tip 5084 is done and Winterspring is behind - the shuttle below re-enters through the Cauldron.
+
+step Tunnel shuttle - the Cauldron and Donova
+
+  zone map 1448
+
+  accept 5085 -- Mystery Goo - the Deadwood Cauldron (60.20,5.84) starts it; Donova Snowden waits in Winterspring
+  tip 5085's pre 5084 is done (Winterspring leg above) so this accept lands; its follow-up 5086 Toxic Horrors accepts in Winterspring (contracted nowhere) - noted, out of scope.
+
+  zone map 1452
+
+  turnin 5085 -- Mystery Goo - the goo to Donova Snowden
+  tip Shuttle leg back into Winterspring; the frame switches back after.
+
+  zone map 1448
+
+step Barrens expedition - Islen's aid
+
+  zone map 1413
+
+  turnin 5158 -- Seeking Spiritual Aid - Greta's water to Islen Waterseer (65.83,43.78)
+  tip 5158's follow-up 5159 Cleansed Water Returns to Felwood accepts here from Islen (contracted nowhere) - do it now; it unlocks 5165 back in Felwood.
+  tip Expedition leg to the Barrens; the frame switches back after.
+
+  zone map 1448
+
+step Greta's finale - braziers, the Final Blow, and the writs
+
+  zone map 1448
+
+  tip 5159 is done (Barrens leg above) so 5165 lands - this accept carries the structural pre-quest warning for the record.
+  accept 5165 -- Dousing the Flames of Protection - Greta Mosshoof; the Jaedenar braziers
+  complete 5165 @36.27,56.30 -- Extinguish the Brazier of Pain (Shadow Hold)
+  complete 5165 @37.68,52.69 -- Extinguish the Brazier of Malice (Shadow Hold)
+  complete 5165 @36.73,53.27 -- Extinguish the Brazier of Suffering (Shadow Hold)
+  turnin 5165 -- Dousing the Flames of Protection - the word back to Greta Mosshoof
+  accept 5242 -- A Final Blow - Greta Mosshoof; Moora, Salia and Fel'dan answer on the summit
+  complete 5242 @38.81,46.87 -- Moora (Jaedenar summit)
+  complete 5242 @38.82,46.78 -- Salia and Shadow Lord Fel'dan (Jaedenar summit)
+  complete 7602 only Warlock @36.08,46.28 -- Flawless Fel Essence, Jaedenar (Jaedenar Legionnaire - Azshara and Dark Portal essences ride the far expedition below)
+  complete 5883 @34.69,61.76 -- Tainted Vitriol (Small Thorium Vein, Shadow Hold)
+  complete 5884 @37.26,61.42 -- Fel Creep (Arthas' Tears, Shadow Hold)
+  turnin 5242 -- A Final Blow - Fel'dan's head to Greta Mosshoof
+  when skill Mining 1
+  turnin 5883 optional -- Salve via Mining - the vitriol to Arathandris Silversky
+  when skill Herbalism 1
+  turnin 5884 optional -- Salve via Gathering - the creep to Arathandris Silversky
+  when skill Alchemy 1
+  turnin 94259 optional -- Craftsman's Writ: Nature Protection Potion - the potion to Greta Mosshoof
+  when skill Blacksmithing 1
+  turnin 94271 optional -- Craftsman's Writ: Ornate Mithril Shoulders - the shoulders to Taronn Redfeather
+  when skill Leatherworking 1
+  turnin 94295 optional -- Craftsman's Writ: Wild Leather Helmet - the helmet to Ivy Leafrunner
+  when skill Engineering 1
+  turnin 94283 optional -- Craftsman's Writ: Goblin Land Mine - the mine to Jessir Moonbow
+  when skill Tailoring 1
+  turnin 94307 optional -- Craftsman's Writ: Shadoweave Robe - the robe to Eridan Bluewind
+
+step Impsy's warlock close-out (Warlock only)
+
+  zone map 1448
+
+  turnin 8420 only Warlock -- Hot and Itchy - the Felcloth to Impsy
+  accept 8421 only Warlock -- The Wrong Stuff - Impsy; Rotting Wood off the Irontree, Bloodvenom off Jaedenar's ooze (note 8419 An Imp's Request is the Stormwind-accepting twin - contracted in stormwind-city, the Felwood leg is 8420 above)
+  complete 8421 only Warlock @51.55,24.95 -- Rotting Wood (Withered Protector, Irontree Vale)
+  complete 8421 only Warlock @34.18,48.46 -- Bloodvenom Essence (Tainted Ooze, Jaedenar edge)
+  turnin 8421 only Warlock -- The Wrong Stuff - the wood and venom to Impsy
+  accept 8422 only Warlock -- Trolls of a Feather - Impsy; voodoo feathers off trolls with NO spawns anywhere in the data
+  note 8422's feathers (Amber, Blue and Green Voodoo Feathers) drop off mobs 5712-5717 and 221759-223588, none of which have spawn points in the data - check bags and the auction house; this line never wedges on them.
+  turnin 8422 only Warlock -- Trolls of a Feather - the feathers to Impsy
+
+step Far expeditions - Azshara, the Dark Portal, and Hyjal
+
+  zone map 1447
+
+  complete 7602 only Warlock @51.42,18.25 -- Flawless Fel Essence, Azshara (Legashi Satyr)
+  tip Expedition leg to Azshara; the frame switches on.
+
+  zone map 1419
+
+  complete 7602 only Warlock @54.88,51.54 -- Flawless Fel Essence, Dark Portal (Felguard Sentry, Blasted Lands)
+  tip Expedition leg to the Blasted Lands; the frame switches on.
+
+  zone map 2482
+
+  turnin 91952 -- The Source of the Corruption - Greta's word to Ketharas (73.34,81.88)
+  tip Expedition leg to Mount Hyjal, far above band - bank this turn-in for later rather than riding there at 45-55; the frame switches back after.
+
+  zone map 1448
+
+step Shatter Scar - Kroshius and the pouch
+
+  zone map 1448
+
+  turnin 7602 only Warlock -- Flawless Fel Essence - the three essences to Impsy
+  accept 7603 only Warlock -- Kroshius' Infernal Core - Impsy; Kroshius walks the Scar's south edge
+  complete 7603 only Warlock @45.70,34.76 -- Kroshius (Shatter Scar Vale)
+  turnin 7603 only Warlock -- Kroshius' Infernal Core - the core to Niby the Almighty
+  when skill Enchanting 1
+  turnin 94308 optional -- Craftsman's Writ: Enchanted Mageweave Pouch - the pouch to Impsy
+
+step Ironforge expedition - Gerrig and Magni
+
+  zone map 1455
+
+  turnin 968 -- The Powers Below - the book to Gerrig Bonegrip (50.83,5.62)
+  turnin 8484 -- The Brokering of Peace - Gorn's word to King Magni Bronzebeard (39.09,56.20)
+  tip Expedition leg to Ironforge; the frame switches back after.
+
+  zone map 1448
+
+step Lunar festival - Nightwind the Elder
+
+  zone map 1448
+
+  accept 8723 optional -- Nightwind the Elder - Elder Nightwind (37.64,53.00)
+  turnin 8723 optional -- Nightwind the Elder - the word back to Elder Nightwind
+  note 8723 is a Lunar Festival elder (seasonal event flag) - optional and seasonal; catch it when the festival runs.
+
+step Gregory's delivery (Paladin only)
+
+  zone map 1448
+
+  turnin 81790 only Paladin -- Materials of Significance - the materials to Gregory
