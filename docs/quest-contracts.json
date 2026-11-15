@@ -7345,6 +7345,111 @@
           "name": "The Syndicate Sting"
         }
       ]
+    },
+    {
+      "id": "alterac-mountains",
+      "name": "Alterac Mountains",
+      "order": 22,
+      "levelBand": "30-40",
+      "summary": "Set 4 second zone (Alliance route in a contested zone): the mountain crossing between Hillsbrad and the Plaguelands, the Syndicate documents that clear the Hillsbrad 512/514 debt, the Ansirem and Modera chains, the warrior Cyclonian line, rogue Ravenholdt follow-ups, high finales to 46, and optional writ turn-ins.",
+      "quests": [
+        {
+          "id": 510,
+          "name": "Foreboding Plans"
+        },
+        {
+          "id": 511,
+          "name": "Encrypted Letter"
+        },
+        {
+          "id": 603,
+          "name": "Ansirem's Key"
+        },
+        {
+          "id": 1712,
+          "name": "Cyclonian"
+        },
+        {
+          "id": 1713,
+          "name": "The Summoning"
+        },
+        {
+          "id": 1792,
+          "name": "Whirlwind Weapon"
+        },
+        {
+          "id": 92457,
+          "name": "Starving Arcane"
+        },
+        {
+          "id": 92458,
+          "name": "Heart of Disruption"
+        },
+        {
+          "id": 92459,
+          "name": "Friend of the Kirin Tor"
+        },
+        {
+          "id": 96770,
+          "name": "The Witch Doctor's Head"
+        },
+        {
+          "id": 96771,
+          "name": "Vengeance of the Highborne"
+        },
+        {
+          "id": 96773,
+          "name": "The Coldbringer's Eye"
+        },
+        {
+          "id": 96800,
+          "name": "Past Due"
+        },
+        {
+          "id": 97130,
+          "name": "Ancient Gurubashi Secrets"
+        },
+        {
+          "id": 79365,
+          "name": "With Wind Beneath Your Wings"
+        },
+        {
+          "id": 96781,
+          "name": "What's the Big Idea?"
+        },
+        {
+          "id": 96782,
+          "name": "Covert Extraction"
+        },
+        {
+          "id": 96783,
+          "name": "A Way In"
+        },
+        {
+          "id": 94004,
+          "name": "Craftsman's Writ: Elixir of Ogre's Strength"
+        },
+        {
+          "id": 94220,
+          "name": "Craftsman's Writ: Pearl-Handled Dagger"
+        },
+        {
+          "id": 94229,
+          "name": "Craftsman's Writ: Ornate Spyglass"
+        },
+        {
+          "id": 94238,
+          "name": "Craftsman's Writ: Heavy Leather Ball"
+        },
+        {
+          "id": 94247,
+          "name": "Craftsman's Writ: Lesser Wizard's Robe"
+        },
+        {
+          "id": 94251,
+          "name": "Craftsman's Writ: Phoenix Pants"
+        }
+      ]
     }
   ]
 }
