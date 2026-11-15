@@ -370,3 +370,8 @@ as above: game-data citation or a named source.
 ## Redridge tame lines: nothing to corroborate (pack 0.30.0)
 
 - All 8 shipped Redridge rares have zero loot records in the data, so no drop-evidence beast typing exists for any of them, and the only "Tame" hits in the Redridge core guide are the NPC name Tamelyn. No only-Hunter task ships; all eight steps are kill-or-skip. Promote only with drop evidence plus core-guide corroboration or a named source.
+
+
+## Arathi tame lines: nothing to corroborate (pack 0.32.0)
+
+- All 11 Arathi rares have zero loot records in the data, so no drop-evidence beast typing exists for any of them, and the Arathi core guide carries no tame lines or references to any Arathi rare. No only-Hunter task ships; all nine steps are kill-or-skip. Promote only with drop evidence plus core-guide corroboration or a named source.

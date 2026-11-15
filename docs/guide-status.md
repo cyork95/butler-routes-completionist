@@ -284,7 +284,7 @@ _Skyborne country._
 - [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1+R2+R5 accepted only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 9 rares (no loot in data) + containers incl. Illari cache, 23 recipes (15 vendor + 8 drops), 0 lint errors/warnings
 
 ### Alterac Mountains — contested
 
