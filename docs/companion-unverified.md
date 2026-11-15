@@ -418,3 +418,8 @@ as above: game-data citation or a named source.
 ## Tanaris tame lines (pack 0.45.0)
 
 - Several of the 10 shipped Tanaris rares read as beasts by name in the data (8207 Greater Firebird, 8208 Murderous Blisterpaw, 8204 Soriid the Devourer, 8205 Haarka the Ravenous, 222243 Zopilote), but npc records carry no tameability flag and the Tanaris core guide (91-contract) carries no tame lines and no references to any Tanaris rare. Name alone is not the bar (precedent needs drop evidence plus core-guide corroboration). No only-Hunter task ships; all ten steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+
+## Stranglethorn tame lines and boss patterns (pack 0.46.0)
+
+- Two of the 8 shipped Stranglethorn rares read as beasts by name in the data (1552 Scale Belly the crocolisk, 14490 Rippa the raptor), but npc records carry no tameability flag and the Stranglethorn core guide (123-contract) carries no tame lines and no references to any Stranglethorn rare. Name alone is not the bar (precedent needs drop evidence plus core-guide corroboration). No only-Hunter task ships; all eight steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+- 14510 Pattern: Bottomless Bag, 14509 Pattern: Mooncloth Circlet, 14511 Pattern: Gloves of Spell Mastery and 228317 Pattern: Incandescent Mooncloth Circlet drop in-zone only from the level-63 world boss Lord Kazzak (npc12397, zones 1419/1434) among a dozen-plus cross-zone droppers each - out of reach for a 30-45 guide and generic besides. Logged, never shipped.
