@@ -257,9 +257,9 @@ _Skyborne country._
 
 ### Desolace — contested (Kalimdor)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 89 candidates, 56 IN / 33 OUT (29 Horde set-aside)
+- [x] Core guide - `desolace.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1+R2 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
