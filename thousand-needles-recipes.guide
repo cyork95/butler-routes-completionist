@@ -1,0 +1,214 @@
+# Thousand Needles - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns whose SOURCE is physically in Thousand Needles,
+# verified against the local Forever game data (questie-forever item vendor
+# and drop tables). Four are vendor-sold by in-zone Alliance-buyable vendors
+# (Brienna Starglow at Freewind Post side, Jinky Twizzlefixxit and
+# Maximillian at Mirage Raceway); five are mob drops with sole droppers
+# spawning in-zone (two of them narrow 2-zone drops, shipped with both
+# zones named). Everything else Thousand-Needles-dropping is a generic
+# multi-zone world drop (Elwynn rule, argued per case in the inventory —
+# including the Green Iron Shoulders, which names in-zone Heartrazor among
+# 382 droppers), two in-zone-sold patterns are Horde-vendor exclusive, two
+# more are 34-vendor generic stock, and quest records carry no reward data,
+# so neither ships (see docs/thousand-needles-companions-inventory.md and
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. Cooking, Enchanting, First
+# Aid and Fishing have no Thousand Needles source, so that is stated, not
+# padded.
+guide butler-routes-completionist/thousand-needles-recipes
+title Thousand Needles - Recipes & Patterns
+levels 25-35
+zone Thousand Needles
+faction Alliance
+category Professions
+folder Companions
+keywords thousand needles, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Freewind Post vendor - Brienna's stock (Tailoring)
+
+  zone map 1441
+
+  when skill Tailoring 1
+
+  tip Brienna Starglow (7, 18), Tailoring Supplies, sells the pattern.
+  buy 7089 "Pattern: Azure Silk Cloak"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Mirage Raceway - Jinky's schematics (Engineering)
+
+  zone map 1441
+
+  when skill Engineering 1
+
+  tip Jinky Twizzlefixxit (77.68, 77.9) at Mirage Raceway sells both schematics; the shop is neutral, so Alliance characters can buy.
+  buy 7560 "Schematic: Gnomish Universal Remote"
+  buy 13309 "Schematic: Lovingly Crafted Boomstick"
+  note Stock class is unconfirmed in the data (no limited flag either way). The Remote also lists a drop off Mekgineer Thermaplugg, who has no spawn point in any zone in the data — unplaceable, so buy-only.
+
+step Mirage Raceway - Maximillian's helmet (Engineering)
+
+  zone map 1441
+
+  when skill Engineering 1
+
+  tip Maximillian "The Greaser" (79.8, 77.2) at Mirage Raceway sells the schematic; the shop is neutral, and no other vendor anywhere sells it.
+  buy 221336 "Schematic: Goblin Mining Helmet"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Roguefeather nests - hard gold cuirass (Blacksmithing)
+
+  zone map 1441
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 26.27,52.64
+  goto 26.58,53.40
+  goto 26.67,47.49
+  goto 26.72,56.01
+  goto 27.06,55.19
+  goto 27.17,52.24
+  goto 27.35,51.00
+  goto 27.40,47.38
+  goto 27.84,50.23
+  goto 27.86,48.17
+  goto 28.46,50.24
+  kill 4101 optional
+  collect 251385 "Plans: Hard Gold Cuirass" optional
+  note The Screeching Roguefeather is the sole dropper anywhere in the data and spawns only in Thousand Needles. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Saltstone flats - steel spear (Blacksmithing)
+
+  zone map 1441
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 69.00,77.68
+  goto 72.38,77.17
+  goto 72.46,80.06
+  goto 73.81,76.19
+  goto 75.40,66.28
+  goto 76.06,69.68
+  goto 76.45,87.87
+  goto 76.92,64.67
+  goto 76.94,84.68
+  goto 77.46,89.64
+  goto 77.53,87.98
+  goto 77.67,85.95
+  goto 77.84,67.30
+  goto 77.87,90.23
+  goto 78.30,86.54
+  goto 78.52,89.00
+  goto 78.52,89.58
+  goto 78.85,86.91
+  goto 79.06,70.11
+  goto 79.26,67.57
+  goto 79.35,55.96
+  goto 79.35,85.68
+  goto 79.42,89.61
+  goto 79.49,88.87
+  goto 79.73,88.19
+  goto 79.87,87.15
+  goto 80.01,70.49
+  goto 80.04,51.72
+  goto 80.57,55.27
+  goto 82.92,64.30
+  goto 83.23,62.09
+  goto 83.53,65.15
+  goto 83.67,69.36
+  goto 85.93,58.46
+  goto 86.38,60.07
+  goto 86.68,72.03
+  goto 86.69,63.07
+  goto 87.01,79.59
+  goto 88.30,74.38
+  kill 4151 optional
+  collect 251457 "Plans: Steel Spear" optional
+  note The Saltstone Crystalhide is the sole dropper anywhere in the data and spawns only in Thousand Needles. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Galak camps - elixir of intellect (Alchemy)
+
+  zone map 1441
+
+  when skill Alchemy 1
+
+  loop
+  goto 16.60,22.61
+  goto 17.02,22.20
+  goto 17.18,18.83
+  goto 17.83,21.65
+  goto 18.68,22.17
+  goto 20.75,22.00
+  goto 41.66,32.42
+  goto 41.94,34.33
+  goto 42.55,32.52
+  goto 42.74,33.19
+  goto 42.95,30.87
+  goto 42.99,34.58
+  goto 43.12,33.33
+  goto 43.23,30.98
+  goto 43.27,33.62
+  goto 43.63,31.18
+  goto 43.93,32.77
+  goto 44.28,34.47
+  goto 44.35,32.63
+  goto 44.44,33.82
+  goto 44.93,32.80
+  kill 4095 optional
+  collect 250389 "Recipe: Elixir of Intellect" optional
+  note The Galak Mauler is the sole dropper anywhere in the data; it spawns here and in one more zone (1413), so this is a narrow 2-zone drop rather than a world drop. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Grimtotem camp - sterling silver breastplate (Blacksmithing)
+
+  zone map 1441
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 33.21,38.11
+  goto 33.35,27.43
+  goto 33.87,38.96
+  goto 37.02,32.35
+  goto 37.39,32.49
+  goto 37.91,35.16
+  goto 38.04,35.70
+  kill 10758 optional
+  collect 251339 "Plans: Sterling Silver Breastplate" optional
+  note The Grimtotem Bandit is the sole dropper anywhere in the data; it spawns here and in one more zone (1413), so this is a narrow 2-zone drop rather than a world drop. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Gravelsnout survey - earthen leggings (Leatherworking)
+
+  zone map 1441
+
+  when skill Leatherworking 1
+
+  loop
+  goto 11.66,22.79
+  goto 12.88,14.74
+  goto 64.05,46.90
+  goto 66.27,49.56
+  goto 67.49,60.12
+  kill 4116 optional
+  collect 254000 "Pattern: Earthen Leggings" optional
+  note The Gravelsnout Surveyor is the sole dropper anywhere in the data; five of its points are here and a sixth sits in Feralas. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Thousand Needles source - Cooking
+  note Cooking has no recipe source physically in Thousand Needles in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Thousand Needles source - Enchanting
+  note Enchanting has no recipe source physically in Thousand Needles in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Thousand Needles source - First Aid
+  note First Aid has no recipe source physically in Thousand Needles in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Thousand Needles source - Fishing
+  note Fishing has no recipe source physically in Thousand Needles in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
