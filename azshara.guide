@@ -1,0 +1,385 @@
+# Azshara - Completionist (pack butler-routes-completionist, v1).
+# Every Azshara accept in the local census (52 quests,
+# docs/azshara-census.md) appears exactly once as an accept; 49
+# turnins close every record that has one in the data - 89015 Deadliest
+# Catch, 91877 Demon Hunter's Hunter and 94316 Craftsman's Writ are
+# accept-only records with no turn-in in the data (Ironforge/Redridge
+# precedent: contracted with honest notes, never invented turn-ins),
+# while 86747 Legashi Horns and 90813 Pay Dirt! are turn-in-only
+# records carried with accept+turnin at their ender (Redridge 95795
+# mirror). The 30 Horde quests, 9 above-band records and 3 repeatables
+# are out with reasons in the census, plus the broken null pointer
+# 96246. No race header and no race gates: nothing contracted is
+# race-locked. Class gates: Hunter (8153/8231/8232), Rogue
+# (8235/8236), Mage (8251/8252/8253), Priest (8255/8256/8257).
+# Profession lines ride optional + when-skill gates. Soft-pre accepts
+# whose blocking pre-quest sits outside the contract carry a note at
+# the accept; their completes and turn-ins stand alone in when onquest
+# mini-steps. Ungateable outside pres (2744 Swamp for 3141, 8151 for
+# 8153, 8234 Alterac for 8235, 8250/8254 Ironforge for 8251/8255, 3449
+# Ironforge for 3461) are reported as structural warnings.
+guide butler-routes-completionist/azshara
+title Azshara - Completionist
+levels 45-55
+zone Azshara
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step South-west landfall - Truesong camp briefing
+
+  zone map 1447
+
+  note In from Ashenvale along the west coast: Commander Truesong (11.81,78.36), Berdun Cliffbrew (12.6,77.36) and Loh'atu (11.37,78.17) hold the landing. The Ekkal, Saria and Kim'jael legs below run east from here.
+  accept 88807 -- Slay the Spitelash - Commander Truesong; warriors and screamers on the rise north-east
+  complete 88807 @25.33,52.07 -- Spitelash Warriors for Truesong, the rise
+  complete 88807 @25.68,50.93 -- Spitelash Screamers for Truesong, the rise
+  turnin 88807 -- Slay the Spitelash - the word to Commander Truesong
+  accept 88812 -- Reclaiming Ravencrest - Commander Truesong; a pointer with no field work
+  turnin 88812 -- Reclaiming Ravencrest - the word back to Commander Truesong
+  accept 88809 -- Preserving Eldarath - Commander Truesong; relics and Sarthiss in the south-center camps
+  accept 88821 -- Making Contact - Commander Truesong; carry the word to Saria Fairmoon, central
+  accept 92345 -- Beneath Nordrassil - Commander Truesong; the turn-in rides the Darnassus expedition below
+  accept 5535 -- Spiritual Unrest - Loh'atu; apparitions and lichlings in the ruins north
+  accept 5536 -- A Land Filled with Hatred - Loh'atu; Haldarr satyrs further north-east
+  complete 5535 @14.51,72.3 -- Highborne Apparitions for Loh'atu, west ruins
+  complete 5535 @14.58,72.62 -- Highborne Lichlings for Loh'atu, west ruins
+  complete 5536 @19.22,62.67 -- Haldarr Satyrs for Loh'atu, north-east rise
+  complete 5536 @19.35,61.81 -- Haldarr Tricksters and Felsworn for Loh'atu, same rise
+  turnin 5535 -- Spiritual Unrest - the news to Loh'atu
+  turnin 5536 -- A Land Filled with Hatred - the news to Loh'atu
+  complete 88809 @37.72,54.35 -- Eldarath Relics (Spitelash camps, south-center)
+  complete 88809 @35.85,58.52 -- Sarthiss (south-center camp)
+  turnin 88809 -- Preserving Eldarath - relics and head to Commander Truesong
+  accept 88813 -- The Head of the Serpent - Commander Truesong; Krellian waits in the central camp below
+
+step South-west landfall - Berdun's range
+
+  zone map 1447
+
+  accept 89001 -- Home on the Range - Berdun Cliffbrew; hides off the Mosshoof herds west
+  complete 89001 @15.98,52.88 -- Mosshoof Hides (Mosshoof Runner, west herds)
+  turnin 89001 -- Home on the Range - the hides to Berdun Cliffbrew
+  accept 89013 -- Gettin' Buzzed - Berdun Cliffbrew; honey off the wasps (note 91488 Home on the Range is the Horde twin listed as an alt pre - the Alliance route satisfies it via 89001 just turned in)
+  accept 89228 -- Winter Frontier Fishery - Berdun Cliffbrew; squid have no placed source in the data (note 91488 as above)
+  accept 90813 -- Pay Dirt! - Berdun Cliffbrew; the data carries no accept for this record, so the accept rides here at the ender with this note (Redridge 95795 mirror)
+  accept 89015 optional -- Deadliest Catch - Berdun Cliffbrew; an accept-only record with no turn-in in the data (honest note, never an invented turn-in) - sharks below
+  complete 89013 @17.25,49.23 -- Wild Honey (Honey Wasp, west hives)
+  complete 90813 @16.82,53.81 -- Humongous Crystal (Cliff Walker, west stones)
+  note 89228 Winter Squid has no placed source in the data - fish it anywhere and bring ten to Berdun.
+  turnin 89013 -- Gettin' Buzzed - the honey to Berdun Cliffbrew
+  turnin 89228 -- Winter Frontier Fishery - the squid to Berdun Cliffbrew
+  turnin 90813 -- Pay Dirt! - the crystal to Berdun Cliffbrew
+
+step West tower - Xylem, Sanath and Keldara
+
+  zone map 1447
+
+  accept 8235 only Rogue -- Encoded Fragments - Archmage Xylem; ooze fragments central (note 8234 Sealed Azure Bag accepts in Alterac, contracted nowhere - the complete and turn-in stand alone in the when onquest mini-step below)
+  accept 8251 only Mage -- Magic Dust - Archmage Xylem; dust off the Blood Elf camp east (note 8250 Magecraft accepts in Ironforge, contracted nowhere - mini-step below)
+  accept 3381 -- A Meeting with the Master - Sanath Lim-yo; feathers off the hippogryphs west
+  accept 88857 -- Saving a Sentinel - Sentinel Keldara Sunblade; carry the word to Truesong (finale below)
+  complete 3381 @16.01,49.15 -- Undamaged Hippogryph Feathers (Thunderhead Hippogryph, west roosts)
+  turnin 3381 -- A Meeting with the Master - the feathers to Sanath Lim-yo
+
+step Xylem's writ - Demonslaying (Alchemy)
+
+  zone map 1447
+
+  when skill Alchemy 1
+
+  accept 94316 optional -- Craftsman's Writ: Potion of Demonslaying - Archmage Xylem; an accept-only writ with no turn-in in the data (honest note, never an invented turn-in)
+  note 94316 is a crafted turn-in: the writ item plus Elixirs of Demonslaying (world drops with no Azshara source in the data - farm or buy them wherever suits).
+  complete 94316 optional @29.25,40.21 -- Potion of Demonslaying writ work at Xylem's tower
+
+step Central camp - Ogtinc and Galen
+
+  zone map 1447
+
+  accept 8153 only Hunter -- Courser Antlers - Ogtinc; antlers off the Mosshoof coursers (note 8151 The Hunter's Charm accepts in Orgrimmar, contracted nowhere - the complete and turn-in stand alone in the when onquest mini-step below)
+  accept 8255 only Priest -- Of Coursers We Know - Ogtinc; glands off the same coursers (note 8254 Cenarion Aid accepts in Ironforge, contracted nowhere - mini-step below)
+  accept 92069 -- Claws That Rend, Tusks that Gore - Ogtinc; both droppers (Withermaw, Bonesnout the Unbroken) have no placed spawns in the data
+  note 92069 is a null-min record past the band top whose sources are unplaced - turn in if the drops come; the route never waits on it.
+
+step Galen's speculation - Dragonscale (Leatherworking)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  accept 5141 optional -- Dragonscale Leatherworking - Peter Galen; crafted turn-ins plus scales (note 5143/5144 are the data-marked exclusive variants in other zones - this is the Azshara leg)
+  complete 5141 optional @40.28,85.31 -- Worn Dragonscale (Draconic Mageweaver, south-east run)
+  note 5141 also wants crafted Tough Scorpid Breastplates and Gloves - have them in your bags; the turn-in below takes what you carry.
+  turnin 5141 -- Dragonscale Leatherworking - the scales and craftwork to Peter Galen
+
+step Soft pre - Courser Antlers (Hunter)
+
+  zone map 1447
+
+  when onquest 8153
+
+  complete 8153 only Hunter @40.27,71.71 -- Perfect Courser Antlers (Mosshoof Courser, central herds)
+  turnin 8153 only Hunter -- Courser Antlers - the antlers to Ogtinc
+  accept 8231 only Hunter -- Wavethrashing - Ogtinc; scales off the wavethrashers, north and east coasts
+
+step Soft pre - Of Coursers We Know (Priest)
+
+  zone map 1447
+
+  when onquest 8255
+
+  complete 8255 only Priest @40.27,71.71 -- Healthy Courser Glands (Mosshoof Courser, central herds)
+  turnin 8255 only Priest -- Of Coursers We Know - the glands to Ogtinc
+  accept 8256 only Priest -- The Ichor of Undeath - Ogtinc; ichor off the Azshara ghosts, west ruins
+
+step Soft pre - Encoded Fragments (Rogue)
+
+  zone map 1447
+
+  when onquest 8235
+
+  complete 8235 only Rogue @41.77,69.83 -- Encoded Fragments (Forest Ooze, central woods)
+  turnin 8235 only Rogue -- Encoded Fragments - the fragments to Archmage Xylem
+  accept 8236 only Rogue -- The Azure Key - Archmage Xylem; the key's only dropper (Morphaz) has no placed spawn in the data - the turn-in rides the Ravenholdt expedition below
+
+step Soft pre - Magic Dust (Mage)
+
+  zone map 1447
+
+  when onquest 8251
+
+  complete 8251 only Mage @55.35,26.45 -- Glittering Dust (Blood Elf camp, east)
+  turnin 8251 only Mage -- Magic Dust - the dust to Archmage Xylem
+  accept 8252 only Mage -- The Siren's Coral - Archmage Xylem; coral off the Spitelash sirens, south-center
+
+step Saria's court - the tablets chain
+
+  zone map 1447
+
+  note Saria Fairmoon (50.56,42.7) holds the central court: Truesong's word lands here, and the tablets below all come back here.
+  turnin 88821 -- Making Contact - Truesong's word to Saria Fairmoon
+  accept 88917 -- Slithering Looters - Saria Fairmoon; the staff's only source object has no placed spawn in the data
+  note 88917 Staff of Archmage Selwyn comes from an object the data never places - turn in on the word alone; the route never waits on it.
+  complete 88917
+  turnin 88917 -- Slithering Looters - the word to Saria Fairmoon
+  accept 88884 -- Highborne Tablets - Saria Fairmoon; all three tablets come from objects with no placed spawns in the data
+  note 88884 Tablets of Creation, Manipulation and Power are unplaced in the data - turn in on the word alone.
+  complete 88884
+  turnin 88884 -- Highborne Tablets - the word to Saria Fairmoon
+  accept 89037 -- Murloc Thieves - Saria Fairmoon; the crystal sits with the Razorgill far east below
+
+step Ekkal's rock - Legashi and Blackmaw
+
+  zone map 1447
+
+  accept 86746 -- The Legashi Threat - Ekkal; satyrs, rogues and hellcallers in the east camps
+  accept 97327 -- Blackmaw Pouches - Ekkal; pouches off the Blackmaw, north-center (note 96246 Blackmaw Pouches is a broken null-zone record the data points at as next - examined and out, so this chain ends here)
+  complete 86746 @52.07,18.66 -- Legashi Satyrs, Rogues and Hellcallers for Ekkal, east camps
+  complete 97327 @35.92,26.36 -- Blackmaw Pouches for Ekkal, north-center
+  complete 88813 @41.02,53.05 -- Krellian's Head (Warlord Krellian, central camp)
+  turnin 86746 -- The Legashi Threat - the word to Ekkal
+  accept 86747 -- Legashi Horns - Ekkal; the data carries no accept for this record, so the accept rides here at the ender with this note (Redridge 95795 mirror)
+  turnin 86747 -- Legashi Horns - the horns to Ekkal
+  turnin 97327 -- Blackmaw Pouches - the pouches to Ekkal
+
+step Eastward - Kim'jael's salvage
+
+  zone map 1447
+
+  accept 3601 -- Kim'jael Indeed! - Kim'jael; his four lost things sit in one cache field, east
+  complete 3601 @57,28.4 -- Kim'jael's Equipment (ground caches, east field)
+  turnin 3601 -- Kim'jael Indeed! - the salvage to Kim'jael
+  accept 5534 -- Kim'jael's Missing Equipment - Kim'jael; the rune sits with the Spitelash, south-center (south return below)
+
+step Loramus landing - the demon hunter
+
+  zone map 1447
+
+  accept 3141 -- Loramus - Loramus Thalipedes; the demon hunter's errand (note 2744 The Demon Hunter accepts in the Swamp of Sorrows, contracted nowhere - the complete and turn-in stand alone in the when onquest mini-step below)
+  accept 91877 optional -- Demon Hunter's Hunter - Loramus Thalipedes; an accept-only record with no objectives and no turn-in in the data (honest note, never an invented turn-in)
+
+step Soft pre - Loramus (open)
+
+  zone map 1447
+
+  when onquest 3141
+
+  complete 3141 @60.82,66.35 -- Loramus Thalipedes himself, his landing
+  turnin 3141 -- Loramus - the word to Loramus Thalipedes
+  accept 3508 -- Breaking the Ward - Loramus Thalipedes; a pointer with no field work
+
+step Soft pre - Breaking the Ward
+
+  zone map 1447
+
+  when onquest 3508
+
+  turnin 3508 -- Breaking the Ward - the word to Loramus Thalipedes
+
+step Arkkoroc's shore - the Name of the Beast
+
+  zone map 1447
+
+  accept 3509 -- The Name of the Beast - Loramus Thalipedes; carry the name to Lord Arkkoroc, south-east
+  turnin 3509 -- The Name of the Beast - the name to Lord Arkkoroc
+  accept 3510 -- The Name of the Beast - Lord Arkkoroc; three heads off Hetaera, west
+  complete 3510 @56.73,44.79 -- Hetaera's heads for Arkkoroc, west shore
+  turnin 3510 -- The Name of the Beast - the heads to Lord Arkkoroc
+  accept 3511 -- The Name of the Beast - Lord Arkkoroc; carry the last name back to Loramus
+  turnin 3511 -- The Name of the Beast - the name to Loramus Thalipedes
+  accept 3602 -- Azsharite - Loramus Thalipedes; crystallized azsharite in the south ruins
+  complete 3602 @55.46,74.77 -- Crystallized Azsharite (Azsharite Formations, south ruins)
+  turnin 3602 -- Azsharite - the crystals to Loramus Thalipedes
+  accept 3621 -- The Formation of Felbane - Loramus Thalipedes; the turn-in rides the Stonetalon expedition below
+
+step Far east - Hydraxis and the isles
+
+  zone map 1447
+
+  accept 6804 -- Poisoned Water - Duke Hydraxis; bracers off the plagued, far east in the Plaguelands (expedition below)
+  accept 6805 -- Stormers and Rumblers - Duke Hydraxis; stormers and rumblers in Feralas (expedition below)
+
+step Far south-east - Xiggs, Skygleam and the east coast run
+
+  zone map 1447
+
+  accept 3461 -- Return to Tymor - Pilot Xiggs Fuselighter; a delivery for Ironforge (note 3449 Arcane Runes accepts in Ironforge, contracted in ironforge-city - the turn-in rides the Ironforge expedition below)
+  accept 8720 optional -- Skygleam the Elder - Elder Skygleam (seasonal timing; Lunar Festival elder, catch it when the festival runs)
+  turnin 8720 optional -- Skygleam the Elder - the word back to Elder Skygleam
+  complete 89037 @88.09,33.27 -- Memory Crystal (Razorgill, far east coast)
+  complete 8231 only Hunter @83.54,12.7 -- Wavethrasher Scales (north-east coast)
+  complete 89015 @61.11,52.25 -- Mammoth Shark Steak (Mammoth Shark, east waters)
+
+step South return - rune, coral and ichor
+
+  zone map 1447
+
+  complete 5534 @39.56,56.96 -- Some Rune (Spitelash, south-center camps)
+  complete 8252 only Mage @44.37,53.93 -- Enchanted Coral (Spitelash Siren, south-center camps)
+  complete 8256 only Priest @36.31,47.97 -- Ichor of Undeath (Azshara ghosts, west ruins)
+
+step Returns - Kim'jael's rune and Ogtinc's word
+
+  zone map 1447
+
+  turnin 5534 -- Kim'jael's Missing Equipment - the rune to Kim'jael
+  complete 92069
+  note 92069 claws and tusks are unplaced in the data - turn in if the drops come; the route never waits on it.
+  turnin 92069 -- Claws That Rend, Tusks that Gore - the word to Ogtinc
+
+step Returns - Wavethrashing (Hunter)
+
+  zone map 1447
+
+  when onquest 8231
+
+  turnin 8231 only Hunter -- Wavethrashing - the scales to Ogtinc
+  accept 8232 only Hunter -- The Green Drake - Ogtinc; the tooth's only dropper (Morphaz) has no placed spawn in the data
+  note 8232 Tooth of Morphaz is unplaced in the data - turn in if it comes; the route never waits on it.
+  complete 8232 only Hunter
+  turnin 8232 only Hunter -- The Green Drake - the word to Ogtinc
+
+step Returns - Ichor (Priest)
+
+  zone map 1447
+
+  when onquest 8256
+
+  turnin 8256 only Priest -- The Ichor of Undeath - the ichor to Ogtinc
+  accept 8257 only Priest -- Blood of Morphaz - Ogtinc; the blood's only dropper (Morphaz) is unplaced too - the turn-in rides the Felwood expedition below
+  note 8257 Blood of Morphaz is unplaced in the data - turn in if it comes.
+  complete 8257 only Priest
+
+step Returns - Coral (Mage)
+
+  zone map 1447
+
+  when onquest 8252
+
+  turnin 8252 only Mage -- The Siren's Coral - the coral to Archmage Xylem
+  accept 8253 only Mage -- Destroy Morphaz - Archmage Xylem; the shard's only dropper (Morphaz) is unplaced too
+  note 8253 Arcane Shard is unplaced in the data - turn in if it comes; the route never waits on it.
+  complete 8253 only Mage
+  turnin 8253 only Mage -- Destroy Morphaz - the word to Archmage Xylem
+
+step Saria return - the monument and the knapsack
+
+  zone map 1447
+
+  turnin 89037 -- Murloc Thieves - the crystal to Saria Fairmoon
+  accept 89038 -- A Monumental Task - Saria Fairmoon; the mark's only source object has no placed spawn in the data
+  note 89038 Mark of the Queen is unplaced in the data - turn in on the word alone.
+  complete 89038
+  turnin 89038 -- A Monumental Task - the word to Saria Fairmoon
+  accept 89053 -- Your Final Reward - Saria Fairmoon; the hand-off waits at her knapsack, north-east
+  turnin 89053 -- Your Final Reward - the word to Saria's Knapsack (49.43,41.88)
+  accept 89470 -- Ill Tidings - Saria's Knapsack; the object hand-off from 89053 above, carried to Truesong (finale below)
+
+step South-west finale - Truesong's board
+
+  zone map 1447
+
+  turnin 88857 -- Saving a Sentinel - Keldara's word to Commander Truesong
+  turnin 89470 -- Ill Tidings - the knapsack's word to Commander Truesong
+  turnin 88813 -- The Head of the Serpent - Krellian's head to Commander Truesong
+
+step Kalimdor expeditions - Stonetalon, Felwood, Feralas, Darnassus
+
+  zone map 1434
+
+  turnin 3621 -- The Formation of Felbane - Loramus's word to Galvan the Ancient (50.62,20.48)
+  tip Expedition leg to Stonetalon; the frame switches on.
+
+  zone map 1448
+
+  when onquest 8257
+
+  turnin 8257 only Priest -- Blood of Morphaz - the word to Greta Mosshoof (51.21,82.11)
+  tip Expedition leg to Felwood; the frame switches on.
+
+  zone map 1444
+
+  complete 6805 @58.5,84 -- Dust Stormers for Hydraxis, Feralas
+  complete 6805 @52.6,82.5 -- Desert Rumblers for Hydraxis, Feralas
+  tip Expedition leg to Feralas (the Silithus cluster holds the same mobs, but Feralas carries the Alliance hub); the frame switches on.
+
+  zone map 1457
+
+  turnin 92345 -- Beneath Nordrassil - Truesong's word to Mathrengyl Bearwalker (35.37,8.4)
+  tip Expedition leg to Darnassus (the Cenarion Enclave spawn); the frame switches on.
+
+  zone map 1447
+
+step Eastern Kingdoms expeditions - Plaguelands, Ironforge, Hillsbrad
+
+  zone map 1423
+
+  complete 6804 @53.15,71.34 -- Discordant Bracers (plagued, Eastern Plaguelands)
+  tip Expedition leg to the Eastern Plaguelands; the frame switches on.
+
+  zone map 1455
+
+  when onquest 3461
+
+  turnin 3461 -- Return to Tymor - Xiggs's word to Tymor (30.96,4.83)
+  tip Expedition leg to Ironforge, gated on holding 3461; the frame switches on.
+
+  zone map 1424
+
+  when onquest 8236
+
+  complete 8236 only Rogue
+  note 8236 Azure Key is unplaced in the data - turn in if it comes.
+  turnin 8236 only Rogue -- The Azure Key - the word to Lord Jorach Ravenholdt (84.1,17.5, Ravenholdt Manor)
+  tip Expedition leg to Hillsbrad (Ravenholdt Manor); the frame switches on.
+
+  zone map 1447
+
+step Duke's return - Hydraxis closes
+
+  zone map 1447
+
+  turnin 6804 -- Poisoned Water - the bracers to Duke Hydraxis
+  turnin 6805 -- Stormers and Rumblers - the word to Duke Hydraxis
