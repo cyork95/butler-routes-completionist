@@ -7945,6 +7945,379 @@
           "name": "Packaged Pristine Pelts"
         }
       ]
+    },
+    {
+      "id": "tanaris",
+      "name": "Tanaris",
+      "order": 26,
+      "levelBand": "38-50",
+      "summary": "Set 4 contested-zone Alliance route: the Gadgetzan water/silithid chains, the Trenton mithril trio, Stoley and Tranarek lines, the Yehkinya Sunken Temple chain, the Noggenfogger and Torwa UnGoro lines, the Marvon circle and Linken chains, the OOX rescue, the Tazzik Steamwheedle chain, the writ and armorsmith profession lines, and the below-band on-ramps; expedition legs to Darnassus, Booty Bay, Thousand Needles, Ironforge, Teldrassil, UnGoro and zone 2548.",
+      "quests": [
+        {
+          "id": 992,
+          "name": "Gadgetzan Water Survey"
+        },
+        {
+          "id": 82,
+          "name": "Noxious Lair Investigation"
+        },
+        {
+          "id": 10,
+          "name": "The Scrimshank Redemption"
+        },
+        {
+          "id": 110,
+          "name": "Insect Part Analysis"
+        },
+        {
+          "id": 113,
+          "name": "Insect Part Analysis"
+        },
+        {
+          "id": 162,
+          "name": "Rise of the Silithid"
+        },
+        {
+          "id": 2781,
+          "name": "WANTED: Caliph Scorpidsting"
+        },
+        {
+          "id": 1560,
+          "name": "Tooga's Quest"
+        },
+        {
+          "id": 97540,
+          "name": "Oasis"
+        },
+        {
+          "id": 1690,
+          "name": "Wastewander Justice"
+        },
+        {
+          "id": 1691,
+          "name": "More Wastewander Justice"
+        },
+        {
+          "id": 1707,
+          "name": "Water Pouch Bounty"
+        },
+        {
+          "id": 2768,
+          "name": "Divino-matic Rod"
+        },
+        {
+          "id": 2771,
+          "name": "A Good Head On Your Shoulders"
+        },
+        {
+          "id": 2772,
+          "name": "The World At Your Feet"
+        },
+        {
+          "id": 2773,
+          "name": "The Mithril Kid"
+        },
+        {
+          "id": 3321,
+          "name": "Did You Lose This?"
+        },
+        {
+          "id": 2865,
+          "name": "Scarab Shells"
+        },
+        {
+          "id": 2873,
+          "name": "Stoley's Shipment"
+        },
+        {
+          "id": 2874,
+          "name": "Deliver to MacKinley"
+        },
+        {
+          "id": 2875,
+          "name": "WANTED: Andre Firebeard"
+        },
+        {
+          "id": 2876,
+          "name": "Ship Schedules"
+        },
+        {
+          "id": 3042,
+          "name": "Troll Temper"
+        },
+        {
+          "id": 8365,
+          "name": "Pirate Hats Ahoy!"
+        },
+        {
+          "id": 8366,
+          "name": "Southsea Shakedown"
+        },
+        {
+          "id": 97530,
+          "name": "Dunemaul Dues"
+        },
+        {
+          "id": 3520,
+          "name": "Screecher Spirits"
+        },
+        {
+          "id": 3527,
+          "name": "The Prophecy of Mosh'aru"
+        },
+        {
+          "id": 4787,
+          "name": "The Ancient Egg"
+        },
+        {
+          "id": 3528,
+          "name": "The God Hakkar"
+        },
+        {
+          "id": 5065,
+          "name": "The Lost Tablets of Mosh'aru"
+        },
+        {
+          "id": 4788,
+          "name": "The Final Tablets"
+        },
+        {
+          "id": 8181,
+          "name": "Confront Yeh'kinya"
+        },
+        {
+          "id": 8182,
+          "name": "The Hand of Rastakhan"
+        },
+        {
+          "id": 2605,
+          "name": "The Thirsty Goblin"
+        },
+        {
+          "id": 2606,
+          "name": "In Good Taste"
+        },
+        {
+          "id": 2641,
+          "name": "Sprinkle's Secret Ingredient"
+        },
+        {
+          "id": 2661,
+          "name": "Delivery for Marin"
+        },
+        {
+          "id": 2662,
+          "name": "Noggenfogger Elixir"
+        },
+        {
+          "id": 5863,
+          "name": "The Dunemaul Compound"
+        },
+        {
+          "id": 2954,
+          "name": "The Stone Watcher"
+        },
+        {
+          "id": 2977,
+          "name": "Return to Ironforge"
+        },
+        {
+          "id": 3362,
+          "name": "Thistleshrub Valley"
+        },
+        {
+          "id": 3444,
+          "name": "The Stone Circle"
+        },
+        {
+          "id": 3446,
+          "name": "Into the Depths"
+        },
+        {
+          "id": 3447,
+          "name": "Secret of the Circle"
+        },
+        {
+          "id": 3913,
+          "name": "A Grave Situation"
+        },
+        {
+          "id": 3914,
+          "name": "Linken's Sword"
+        },
+        {
+          "id": 4289,
+          "name": "The Apes of Un'Goro"
+        },
+        {
+          "id": 4290,
+          "name": "The Fare of Lar'korwi"
+        },
+        {
+          "id": 4291,
+          "name": "The Scent of Lar'korwi"
+        },
+        {
+          "id": 4292,
+          "name": "The Bait for Lar'korwi"
+        },
+        {
+          "id": 4301,
+          "name": "The Mighty U'cha"
+        },
+        {
+          "id": 9052,
+          "name": "Bloodpetal Poison"
+        },
+        {
+          "id": 9051,
+          "name": "Toxic Test"
+        },
+        {
+          "id": 9053,
+          "name": "A Better Ingredient"
+        },
+        {
+          "id": 4324,
+          "name": "Yuka Screwspigot"
+        },
+        {
+          "id": 4504,
+          "name": "Super Sticky"
+        },
+        {
+          "id": 4496,
+          "name": "Bungle in the Jungle"
+        },
+        {
+          "id": 4507,
+          "name": "Pawn Captures Queen"
+        },
+        {
+          "id": 4508,
+          "name": "Calm Before the Storm"
+        },
+        {
+          "id": 351,
+          "name": "Find OOX-17/TN!"
+        },
+        {
+          "id": 648,
+          "name": "Rescue OOX-17/TN!"
+        },
+        {
+          "id": 3161,
+          "name": "Gahz'ridian"
+        },
+        {
+          "id": 2944,
+          "name": "The Super Snapper FX"
+        },
+        {
+          "id": 3022,
+          "name": "Handle With Care"
+        },
+        {
+          "id": 6610,
+          "name": "Clamlette Surprise"
+        },
+        {
+          "id": 95144,
+          "name": "Overseas Delivery"
+        },
+        {
+          "id": 1189,
+          "name": "Safety First"
+        },
+        {
+          "id": 95383,
+          "name": "Shipping and Handling"
+        },
+        {
+          "id": 95312,
+          "name": "Coming to Collect"
+        },
+        {
+          "id": 95321,
+          "name": "Tazzik's Dues"
+        },
+        {
+          "id": 95472,
+          "name": "Consolation Prize"
+        },
+        {
+          "id": 95753,
+          "name": "Challenge of the Desert Wolf"
+        },
+        {
+          "id": 3638,
+          "name": "The Pledge of Secrecy"
+        },
+        {
+          "id": 3639,
+          "name": "Show Your Work"
+        },
+        {
+          "id": 7652,
+          "name": "A Blue Light Bargain"
+        },
+        {
+          "id": 7653,
+          "name": "Imperial Plate Belt"
+        },
+        {
+          "id": 7654,
+          "name": "Imperial Plate Boots"
+        },
+        {
+          "id": 7655,
+          "name": "Imperial Plate Bracer"
+        },
+        {
+          "id": 7656,
+          "name": "Imperial Plate Chest"
+        },
+        {
+          "id": 7657,
+          "name": "Imperial Plate Helm"
+        },
+        {
+          "id": 7658,
+          "name": "Imperial Plate Leggings"
+        },
+        {
+          "id": 7659,
+          "name": "Imperial Plate Shoulders"
+        },
+        {
+          "id": 97536,
+          "name": "Gnomish Garbage"
+        },
+        {
+          "id": 94265,
+          "name": "Craftsman's Writ: Goblin Rocket Fuel"
+        },
+        {
+          "id": 94277,
+          "name": "Craftsman's Writ: Truesilver Rod"
+        },
+        {
+          "id": 94289,
+          "name": "Craftsman's Writ: Gyromatic Micro-Adjuster"
+        },
+        {
+          "id": 94301,
+          "name": "Craftsman's Writ: Big Voodoo Robe"
+        },
+        {
+          "id": 94313,
+          "name": "Craftsman's Writ: White Bandit Mask"
+        },
+        {
+          "id": 2741,
+          "name": "The Super Egg-O-Matic"
+        }
+      ]
     }
   ]
 }
