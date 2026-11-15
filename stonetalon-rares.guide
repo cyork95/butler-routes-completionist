@@ -1,0 +1,170 @@
+# Stonetalon Mountains - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 9 confirmed in-band rares and the fixed world
+# containers of Stonetalon Mountains. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is not
+# up never holds the route. Spawn points and levels are the local Forever game
+# data (questie-forever); the data records no loot on any of these nine
+# rares, so there are no signature drops to chase and no tame lines ship
+# either (no loot evidence, no core-guide corroboration — see
+# docs/companion-unverified.md). Respawn timers are unconfirmed anywhere, so
+# none are stated. The Barrow Cache and the Talon Den Hoard belong to
+# Stranglethorn's Pebble of Kajaro quests and are not covered here. No rare in
+# this guide is a giver, ender, or objective of any core-contracted quest. See
+# docs/stonetalon-companions-inventory.md for the full inventory this guide was
+# built against.
+guide butler-routes-completionist/stonetalon-rares
+title Stonetalon Mountains - Rares & Treasures
+levels 16-30
+zone Stonetalon Mountains
+faction Alliance
+category Collectibles
+folder Companions
+keywords stonetalon, rares, treasures, companions
+coords live
+version 1
+
+step Pridewing Patriarch — the center
+
+  loop
+  goto 47.75,46.75
+  goto 53.79,36.31
+  kill 4015 optional
+  note Level 25 rare, flagged rare in the data, working the center.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Vengeful Ancient — the far southwest
+
+  goto 30.45,68.08
+  kill 4030 optional
+  note Level 30 rare, flagged rare in the data; at the top of the zone band.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Nal'taszar — the northwest
+
+  goto 25.57,11.48
+  kill 4066 optional
+  note Level 30 rare, flagged rare in the data; at the top of the zone band.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Brother Ravenoak — the north
+
+  goto 28.05,12.23
+  kill 5915 optional
+  note Level 29 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Sentinel Amarassan — the northeast
+
+  goto 35.25,15.04
+  kill 5916 optional
+  note Level 27 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Sorrow Wing — the east
+
+  goto 49.27,36.18
+  kill 5928 optional
+  note Level 27 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Sister Riven — the southwest
+
+  goto 29.64,69.43
+  kill 5930 optional
+  note Level 28 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Foreman Rigger — the far east
+
+  goto 66.69,52.33
+  kill 5931 optional
+  note Level 24 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Taskmaster Whipfang — the southeast
+
+  goto 64.55,54.19
+  kill 5932 optional
+  note Level 22 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Fixed containers — world chests, crates, barrels and footlockers
+
+  loop
+  goto 43.26,38.71
+  goto 63.56,40.17
+  goto 66.57,50.79
+  goto 72.2,60.3
+  goto 73.07,59.97
+  goto 73.3,58.9
+  goto 74.08,59.35
+  goto 77.07,91.62
+  goto 80.65,89.41
+  goto 84.32,84.19
+  goto 28.35,64.23
+  goto 29.14,70.26
+  goto 31.69,58.82
+  goto 32.61,65.99
+  goto 34.53,61.97
+  goto 35.02,68.87
+  goto 36.99,68.79
+  goto 36.64,6.72
+  goto 45.67,59.07
+  goto 47.47,62.49
+  goto 59.08,62.6
+  goto 66.47,51.58
+  goto 71.31,94.3
+  goto 72.64,95.48
+  goto 73.33,85.7
+  goto 73.62,95.03
+  goto 74.36,85.84
+  goto 76.49,91.95
+  goto 76.91,89.76
+  goto 78.35,85.22
+  goto 78.67,86.09
+  goto 80.75,88.78
+  goto 82.51,88
+  goto 84.92,84.6
+  goto 25.44,11.72
+  goto 28.38,12.29
+  goto 29.78,15.27
+  goto 30.41,15.37
+  goto 59.73,53.51
+  goto 61.36,55.56
+  goto 61.9,51.51
+  goto 62.91,53.18
+  goto 63.3,51.21
+  goto 66.09,50.89
+  goto 67.84,56.58
+  goto 70.18,48.74
+  goto 71.37,52.63
+  goto 71.5,56.79
+  goto 71.86,49.53
+  goto 72.15,61.04
+  goto 72.51,63.13
+  goto 73.67,60.02
+  goto 74.15,59.15
+  goto 74.24,59.54
+  goto 40.7,52.4
+  goto 40.7,52.7
+  interact 2849 optional
+  interact 2850 optional
+  interact 3659 optional
+  interact 3695 optional
+  interact 3662 optional
+  interact 3705 optional
+  interact 3715 optional
+  interact 179486 optional
+  interact 179488 optional
+  interact 674126 optional
+  note Ten Battered Chest placements, seven Solid Chest placements, one Barrel of Melon Juice with its matching Food Crate, sixteen Food Crate placements with matching Barrels of Milk, four Alliance Chests, sixteen Battered Footlocker placements, and two Hidden Stashes. All hold ordinary low-level goods; no unique treasure confirmed.
+  note Respawn timers unconfirmed.
+
+step The Barrow Dens caches — Sleepers' and Druids'
+
+  goto 25.55,11.36
+  goto 29.55,15.84
+  interact 19596 optional
+  interact 19597 optional
+  note The Sleepers' Cache and the Druids' Cache, the two Barrow Dens caches with no quest attached. Their neighbours the Barrow Cache and the Talon Den Hoard belong to Stranglethorn's Pebble of Kajaro quests and are not covered here.
+  note Respawn timers unconfirmed.
