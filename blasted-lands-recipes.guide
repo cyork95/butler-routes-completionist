@@ -1,0 +1,72 @@
+# Blasted Lands - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns whose SOURCE is physically in the Blasted Lands,
+# verified against the local Forever game data (questie-forever item vendor
+# and drop tables). One recipe is vendor-sold by the in-zone Alliance-safe
+# vendor Nina Lightbrew at Nethergarde; one pattern drops each from two
+# named in-zone mobs that spawn nowhere else, so it is genuinely zone
+# content. Everything else Blasted-Lands-dropping is a generic multi-zone
+# world drop (Elwynn rule, argued per case in the inventory - including the
+# Lord Kazzak-table plans, which span up to 32 zones), and quest records
+# carry no reward data, so neither ships (see
+# docs/blasted-lands-companions-inventory.md and
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. Blacksmithing, Cooking,
+# Enchanting, Engineering, First Aid, Fishing and Tailoring have no
+# Blasted Lands source, so that is stated, not padded.
+guide butler-routes-completionist/blasted-lands-recipes
+title Blasted Lands - Recipes & Patterns
+levels 40-50
+zone Blasted Lands
+faction Alliance
+category Professions
+folder Companions
+keywords blasted lands, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Nethergarde vendor - Nina's stock (Alchemy)
+
+  zone map 1419
+
+  when skill Alchemy 1
+
+  tip Nina Lightbrew (66.87, 18.24), Alchemy Supplies, sells the recipe at Nethergarde.
+  buy 9300 "Recipe: Elixir of Demonslaying"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step North-west and center hunters - heavy scorpid vest (Leatherworking)
+
+  zone map 1419
+
+  when skill Leatherworking 1
+
+  loop
+  goto 44.31,33.60
+  goto 62.59,40.81
+  kill 5981 optional
+  kill 6005 optional
+  collect 15727 "Pattern: Heavy Scorpid Vest" optional
+  note The Portal Seeker (north-west) and the Shadowsworn Thug (center) are the sole droppers anywhere in the data, and both spawn only in the Blasted Lands. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Blasted Lands source - Blacksmithing
+  note Blacksmithing has no recipe source physically in the Blasted Lands in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Blasted Lands source - Cooking
+  note Cooking has no recipe source physically in the Blasted Lands in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Blasted Lands source - Enchanting
+  note Enchanting has no recipe source physically in the Blasted Lands in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Blasted Lands source - Engineering
+  note Engineering has no recipe source physically in the Blasted Lands in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Blasted Lands source - First Aid
+  note First Aid has no recipe source physically in the Blasted Lands in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Blasted Lands source - Fishing
+  note Fishing has no recipe source physically in the Blasted Lands in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Blasted Lands source - Tailoring
+  note Tailoring has no recipe source physically in the Blasted Lands in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
