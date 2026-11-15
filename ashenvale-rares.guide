@@ -1,0 +1,263 @@
+# Butler Routes - Ashenvale rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 12 confirmed in-band rares and the fixed world
+# containers of Ashenvale. Run it in its own Polestar tab at the end of the
+# core route or standalone. EVERY goal is optional: a rare that is not up never
+# holds the route. Spawn points and levels are the local Forever game data
+# (questie-forever); the data records no loot on any of these twelve rares, so
+# there are no signature drops to chase and no tame lines ship either (no loot
+# evidence, no core-guide corroboration — see docs/companion-unverified.md).
+# Respawn timers are unconfirmed anywhere, so none are stated. Apothecary
+# Falthis is Horde-aligned but attackable; Varo'then's Ghost (level 48) lives
+# far above the zone band and is not covered here. No rare in this guide is a
+# giver, ender, or objective of any core-contracted quest; the Tome of
+# Mel'Thandris and the Tower soul objects are quest-owned and live in the core
+# route, not here. See docs/ashenvale-companions-inventory.md for the full
+# inventory this guide was built against.
+guide butler-routes-completionist/ashenvale-rares
+title Ashenvale - Rares & Treasures
+levels 18-32
+zone Ashenvale
+faction Alliance
+category Collectibles
+folder Companions
+keywords ashenvale, rares, treasures, companions
+coords live
+version 1
+
+step Apothecary Falthis — the far north
+
+  loop
+  goto 32.64,21.98
+  goto 33.17,21.91
+  goto 33.2,21.1
+  kill 3735 optional
+  note Level 22 rare, flagged rare in the data. Horde-aligned, but attackable — kill it like any other rare.
+  note The data records no loot on this rare at all, and no quest references it; respawn timer unconfirmed.
+
+step Akkrilus — the southwest
+
+  goto 25.62,63.54
+  kill 3773 optional
+  note Level 26 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Terrowulf Packlord — east of center
+
+  goto 49.77,39.61
+  kill 3792 optional
+  note Level 32 rare, flagged rare in the data; at the top of the zone band.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Lady Vespia — the northwest shore
+
+  loop
+  goto 9.87,14.34
+  goto 13.63,24.73
+  kill 10559 optional
+  note Level 22 rare, flagged rare in the data, working the shore.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Rorgish Jowl — the north
+
+  goto 35.82,36.61
+  kill 10639 optional
+  note Level 25 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Oakpaw — the southeast
+
+  goto 56.01,62.75
+  kill 10640 optional
+  note Level 27 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Branch Snapper — the center
+
+  goto 46.51,44.27
+  kill 10641 optional
+  note Level 25 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Eck'alom — the far southeast
+
+  goto 52.76,70.05
+  kill 10642 optional
+  note Level 27 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Mugglefin — the west
+
+  goto 19.38,42.73
+  kill 10643 optional
+  note Level 23 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Mist Howler — the northwest
+
+  loop
+  goto 20.93,36.92
+  goto 26.8,18.35
+  kill 10644 optional
+  note Level 22 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Prince Raze — the far east
+
+  loop
+  goto 78.08,46.35
+  goto 81.56,48.51
+  kill 10647 optional
+  note Level 32 rare, flagged rare in the data; at the top of the zone band.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Ursol'lok — the far-east edge
+
+  goto 83.37,48.51
+  kill 12037 optional
+  note Level 31 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Fixed containers — world chests, crates and barrels
+
+  loop
+  goto 7.05,12.27
+  goto 11.55,31.81
+  goto 18.5,31.59
+  goto 22.43,36.33
+  goto 33.44,67.55
+  goto 35.46,36.54
+  goto 37.9,33.78
+  goto 39.65,36.01
+  goto 40.47,31.86
+  goto 42.29,34.83
+  goto 46.14,69.89
+  goto 49.93,59.63
+  goto 50.89,69.68
+  goto 54.1,61.14
+  goto 54.33,64.26
+  goto 56.26,63.26
+  goto 68.77,49.59
+  goto 74.81,74.45
+  goto 75.58,46.44
+  goto 77.43,72.86
+  goto 79.41,49.59
+  goto 81.21,50.09
+  goto 81.79,49.39
+  goto 12.3,34.38
+  goto 17.56,49.98
+  goto 26.65,22.32
+  goto 26.78,40.84
+  goto 27.25,36.9
+  goto 31.33,45.03
+  goto 31.67,39.24
+  goto 32.63,42.51
+  goto 34.34,38.84
+  goto 35.51,36.72
+  goto 39.91,36.54
+  goto 50.08,59.55
+  goto 54.31,64.38
+  goto 54.34,61.17
+  goto 64.73,75.56
+  goto 66.81,57.28
+  goto 75.32,72.31
+  goto 85.03,64.63
+  goto 87.14,64.56
+  goto 88.66,59.33
+  goto 88.95,56.36
+  goto 89.1,77.04
+  goto 89.53,58.89
+  goto 89.53,76.47
+  goto 67.8,89.2
+  goto 75.07,74.29
+  goto 75.18,73.03
+  goto 75.29,71.76
+  goto 77.87,74.49
+  goto 88.8,86.1
+  goto 91.1,86
+  goto 68.24,77.68
+  goto 69.29,82.67
+  goto 69.87,74.11
+  goto 69.89,85.32
+  goto 70.1,76.08
+  goto 71.04,73.8
+  goto 71.29,83.83
+  goto 71.45,76.97
+  goto 72.51,75.12
+  goto 72.63,76.86
+  goto 73.09,73.23
+  goto 74.23,69.47
+  goto 74.34,77.92
+  goto 74.41,73.38
+  goto 74.46,75.56
+  goto 75.87,69.99
+  goto 75.88,73.52
+  goto 76.22,67.48
+  goto 76.77,72.19
+  goto 77.03,73.8
+  goto 77.97,65.82
+  goto 78.26,64.58
+  goto 78.31,69.73
+  goto 79.08,74.48
+  goto 68.94,84.86
+  goto 70.53,73.58
+  goto 70.68,85.06
+  goto 70.72,75.24
+  goto 70.77,75.99
+  goto 73.68,76.95
+  goto 74.36,70.21
+  goto 74.58,77.19
+  goto 74.77,69.6
+  goto 76.62,70.67
+  goto 76.67,68.46
+  goto 77.06,68.3
+  goto 77.38,69.77
+  goto 77.68,72.63
+  goto 78.3,73.6
+  goto 54.42,35.4
+  goto 39.69,32.95
+  goto 39.88,34.17
+  goto 40.19,30.99
+  goto 40.39,33.24
+  goto 40.46,34.44
+  goto 40.51,32.27
+  goto 40.76,32.81
+  goto 40.86,33.64
+  goto 40.95,31.6
+  goto 41.2,35.35
+  goto 41.34,34.18
+  goto 41.51,34.77
+  goto 41.67,35.7
+  goto 41.72,34.48
+  goto 7.14,14.18
+  goto 11.18,13.38
+  goto 12.05,15.73
+  goto 13.39,27.08
+  goto 13.45,14.97
+  goto 13.63,30.95
+  goto 14.15,16.22
+  goto 14.44,23.07
+  goto 14.77,20.18
+  goto 15.08,17.11
+  goto 15.61,18.96
+  goto 10.69,17.25
+  goto 88.4,55.4
+  goto 88.5,55.1
+  goto 91,58.1
+  interact 2849 optional
+  interact 2850 optional
+  interact 2852 optional
+  interact 3659 optional
+  interact 3695 optional
+  interact 3662 optional
+  interact 3705 optional
+  interact 3689 optional
+  interact 3690 optional
+  interact 3702 optional
+  interact 19021 optional
+  interact 19022 optional
+  interact 178144 optional
+  interact 179487 optional
+  interact 179489 optional
+  interact 441128 optional
+  note Four Battered Chest placements, nineteen Solid Chest placements, twenty-four Barrel of Melon Juice placements with matching Food Crates, one Food Crate with its Barrel of Milk, four Weapon Crate placements with matching Armor Crates, two eastern Food Crates, thirty-nine Rusty Chest placements, one Worn Chest, fourteen Troll Chest placements, twelve Waterlogged Footlocker placements, and three Vibrating Crates. All hold ordinary low-level goods; no unique treasure confirmed.
+  note The Tome of Mel'Thandris and the Tower soul objects are quest-owned and routed in the core guide, not here. Respawn timers unconfirmed.
