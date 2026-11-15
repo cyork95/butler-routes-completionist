@@ -6991,6 +6991,163 @@
           "name": "The Pariah's Instructions"
         }
       ]
+    },
+    {
+      "id": "hillsbrad-foothills",
+      "name": "Hillsbrad Foothills",
+      "order": 20,
+      "levelBand": "20-32",
+      "summary": "Set 4 opener (Alliance route in a contested zone): Southshore hub, the Syndicate north, the murloc coast, the Dibbs scholar chain and the seasonal pair; expedition legs to Ironforge, Stormwind, the Wetlands, Arathi, Silverpine, Alterac and Booty Bay.",
+      "quests": [
+        {
+          "id": 500,
+          "name": "Crushridge Bounty"
+        },
+        {
+          "id": 504,
+          "name": "Crushridge Warmongers"
+        },
+        {
+          "id": 505,
+          "name": "Syndicate Assassins"
+        },
+        {
+          "id": 512,
+          "name": "Noble Deaths"
+        },
+        {
+          "id": 514,
+          "name": "Letter to Stormpike"
+        },
+        {
+          "id": 522,
+          "name": "Assassin's Contract"
+        },
+        {
+          "id": 523,
+          "name": "Baron's Demise"
+        },
+        {
+          "id": 536,
+          "name": "Down the Coast"
+        },
+        {
+          "id": 537,
+          "name": "Dark Council"
+        },
+        {
+          "id": 540,
+          "name": "Preserving Knowledge"
+        },
+        {
+          "id": 542,
+          "name": "Return to Milton"
+        },
+        {
+          "id": 554,
+          "name": "Stormpike's Deciphering"
+        },
+        {
+          "id": 555,
+          "name": "Soothing Turtle Bisque"
+        },
+        {
+          "id": 559,
+          "name": "Farren's Proof"
+        },
+        {
+          "id": 560,
+          "name": "Farren's Proof"
+        },
+        {
+          "id": 561,
+          "name": "Farren's Proof"
+        },
+        {
+          "id": 562,
+          "name": "Stormwind Ho!"
+        },
+        {
+          "id": 563,
+          "name": "Reassignment"
+        },
+        {
+          "id": 564,
+          "name": "Costly Menace"
+        },
+        {
+          "id": 565,
+          "name": "Bartolo's Yeti Fur Cloak"
+        },
+        {
+          "id": 659,
+          "name": "Hints of a New Plague?"
+        },
+        {
+          "id": 92432,
+          "name": "An Alarming Request"
+        },
+        {
+          "id": 94215,
+          "name": "Craftsman's Writ: Free Action Potion"
+        },
+        {
+          "id": 94224,
+          "name": "Craftsman's Writ: Heavy Bronze Mace"
+        },
+        {
+          "id": 94233,
+          "name": "Craftsman's Writ: Practice Lock"
+        },
+        {
+          "id": 94242,
+          "name": "Craftsman's Writ: Pilferer's Gloves"
+        },
+        {
+          "id": 95534,
+          "name": "Strahnbrad Mystery"
+        },
+        {
+          "id": 95787,
+          "name": "Take Two With Water"
+        },
+        {
+          "id": 95788,
+          "name": "Magics of the Drowned City"
+        },
+        {
+          "id": 95798,
+          "name": "The Web of Magic"
+        },
+        {
+          "id": 95799,
+          "name": "Findings for the Explorer's League"
+        },
+        {
+          "id": 98059,
+          "name": "Hillsbrad's Hoard"
+        },
+        {
+          "id": 98071,
+          "name": "Brewer's Trade"
+        },
+        {
+          "id": 98459,
+          "name": "A Lack of Virtue"
+        },
+        {
+          "id": 98463,
+          "name": "Talk of the Town"
+        },
+        {
+          "id": 1658,
+          "name": "Crashing the Wickerman Festival"
+        },
+        {
+          "id": 8373,
+          "name": "The Power of Pine"
+        }
+      ]
     }
   ]
 }
