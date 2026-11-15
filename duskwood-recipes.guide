@@ -1,0 +1,158 @@
+# Duskwood - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and manuals whose SOURCE is physically in
+# Duskwood, verified against the local Forever game data (questie-forever
+# item vendor and drop tables). Nine recipes are vendor-sold by in-zone
+# Alliance and neutral vendors; five more drop each from a single named
+# in-zone mob (noted honestly where the same recipe also drops in a few
+# other zones). Every other Duskwood-dropping recipe is a generic multi-zone
+# world drop, and quest records carry no reward data, so neither ships (see
+# docs/duskwood-companions-inventory.md and docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides
+# cover those. Each step is gated to its profession; other characters skip
+# it cleanly. Leatherworking, Cooking, Fishing and Enchanting have no
+# Duskwood source, so that is stated, not padded.
+guide butler-routes-completionist/duskwood-recipes
+title Duskwood - Recipes & Patterns
+levels 17-28
+zone Duskwood
+faction Alliance
+category Professions
+folder Companions
+keywords duskwood, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Darkshire tailors — Sheri's stock (Tailoring)
+
+  zone map 1431
+
+  when skill Tailoring 1
+
+  tip Sheri Zipstitch (75.68, 45.57) sells patterns in Darkshire.
+  buy 6275 "Pattern: Greater Adept's Robe"
+  buy 6401 "Pattern: Dark Silk Shirt"
+  note The Dark Silk Shirt is also sold by Horde vendors elsewhere; the Alliance source is Sheri.
+
+step Darkshire tailors — Danielle's stock (Tailoring)
+
+  zone map 1431
+
+  when skill Tailoring 1
+
+  tip Danielle Zipstitch (75.87, 45.56) sells patterns in Darkshire.
+  buy 14627 "Pattern: Bright Yellow Shirt"
+  note Duskwood is the only zone in the data where this pattern is sold.
+
+step Darkshire tailors — reagent bags (Tailoring)
+
+  zone map 1431
+
+  when skill Tailoring 1
+
+  tip Lohgan Eva (75.71, 44.56), Danielle Zipstitch (75.87, 45.56) and Sheri Zipstitch (75.68, 45.57) all sell these in Darkshire.
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+
+step Kzixx's stock — north-east (Alchemy, Engineering)
+
+  zone map 1431
+
+  when skill Alchemy 1
+
+  tip Kzixx (81.82, 19.77), neutral, sells recipes in the north-east.
+  buy 6053 "Recipe: Holy Protection Potion"
+  buy 210709 "Recipe: Elixir of Coalesced Regret"
+
+step Kzixx's stock — north-east (Engineering)
+
+  zone map 1431
+
+  when skill Engineering 1
+
+  tip Kzixx (81.82, 19.77), neutral, sells schematics in the north-east.
+  buy 7561 "Schematic: Goblin Jumper Cables"
+
+step Bliztik's stock — the west (Alchemy)
+
+  zone map 1431
+
+  when skill Alchemy 1
+
+  tip Bliztik (18.04, 54.36), neutral, sells recipes in the west.
+  buy 6068 "Recipe: Shadow Oil"
+
+step Raven Hill crypt — sterling silver (Blacksmithing)
+
+  zone map 1431
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 76.88,70.25
+  goto 76.91,72.20
+  kill 48 optional
+  collect 251336 "Plans: Sterling Silver Leggings" optional
+  note The Skeletal Warrior (level 21) at Raven Hill is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step West coast — clever poultice (First Aid)
+
+  zone map 1431
+
+  when skill First Aid 1
+
+  loop
+  goto 21.27,71.96
+  goto 21.35,73.36
+  kill 910 optional
+  collect 255724 "Manual: Clever Poultice" optional
+  note The Defias Enchanter (level 26) on the west coast is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step West coast — robes of arcana (Tailoring)
+
+  zone map 1431
+
+  when skill Tailoring 1
+
+  loop
+  goto 21.27,71.96
+  goto 21.35,73.36
+  kill 910 optional
+  collect 5773 "Pattern: Robes of Arcana" optional
+  note The Defias Enchanter (level 26) on the west coast is the named in-zone dropper; the same pattern also drops in a few other zones, so this is a genuine Duskwood source, not the only one. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step North — invoker's cord (Tailoring)
+
+  zone map 1431
+
+  when skill Tailoring 1
+
+  loop
+  goto 15.04,42.00
+  goto 15.28,46.38
+  kill 531 optional
+  collect 215369 "Pattern: Invoker's Cord" optional
+  note The Skeletal Fiend (level 24) in the north is the named in-zone dropper; the same pattern also drops in a few other zones, so this is a genuine Duskwood source, not the only one. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step North-east shore — cleric's elixir (Alchemy)
+
+  zone map 1431
+
+  when skill Alchemy 1
+
+  loop
+  goto 58.60,9.80
+  goto 62.20,11.10
+  kill 46 optional
+  collect 250366 "Recipe: Minor Cleric's Elixir" optional
+  note The Murloc Forager (level 9) on the north-east shore is the named in-zone dropper; the same recipe also drops in Elwynn Forest and Redridge, so this is a genuine Duskwood source, not the only one. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Duskwood source — other professions
+
+  zone map 1431
+
+  note Leatherworking, Cooking, Fishing and Enchanting have no recipe source physically in Duskwood in the data — no vendor sells them here and no in-zone mob drops them — so this guide carries nothing for them. Polestar's own profession guides cover trainer-taught staples.
