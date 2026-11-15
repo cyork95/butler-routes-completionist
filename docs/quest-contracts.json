@@ -6613,6 +6613,151 @@
           "name": "An Ogre's Captive"
         }
       ]
+    },
+    {
+      "id": "thousand-needles",
+      "name": "Thousand Needles",
+      "order": 18,
+      "levelBand": "25-35",
+      "summary": "Set 3 (Alliance-accessible route in a contested zone): Whitereach, the Mirage Raceway chains, the Shimmering Flats pilots, the mage line and the Geomancy scroll; expedition legs to Ratchet, Booty Bay, Badlands, Dustwallow, Gadgetzan, Undercity and STV Hemet.",
+      "quests": [
+        {
+          "id": 1100,
+          "name": "Lonebrow's Journal"
+        },
+        {
+          "id": 1101,
+          "name": "The Crone of the Kraul"
+        },
+        {
+          "id": 1104,
+          "name": "Salt Flat Venom"
+        },
+        {
+          "id": 1105,
+          "name": "Hardened Shells"
+        },
+        {
+          "id": 1106,
+          "name": "Martek the Exiled"
+        },
+        {
+          "id": 1107,
+          "name": "Encrusted Tail Fins"
+        },
+        {
+          "id": 1110,
+          "name": "Rocket Car Parts"
+        },
+        {
+          "id": 1111,
+          "name": "Wharfmaster Dizzywig"
+        },
+        {
+          "id": 1114,
+          "name": "Delivery to the Gnomes"
+        },
+        {
+          "id": 1115,
+          "name": "The Rumormonger"
+        },
+        {
+          "id": 1118,
+          "name": "Back to Booty Bay"
+        },
+        {
+          "id": 1120,
+          "name": "Get the Gnomes Drunk"
+        },
+        {
+          "id": 1122,
+          "name": "Report Back to Fizzlebub"
+        },
+        {
+          "id": 1175,
+          "name": "A Bump in the Road"
+        },
+        {
+          "id": 1176,
+          "name": "Load Lightening"
+        },
+        {
+          "id": 1178,
+          "name": "Goblin Sponsorship"
+        },
+        {
+          "id": 1186,
+          "name": "The Eighteenth Pilot"
+        },
+        {
+          "id": 1187,
+          "name": "Razzeric's Tweaking"
+        },
+        {
+          "id": 1188,
+          "name": "Safety First"
+        },
+        {
+          "id": 1190,
+          "name": "Keeping Pace"
+        },
+        {
+          "id": 1191,
+          "name": "Zamek's Distraction"
+        },
+        {
+          "id": 1192,
+          "name": "Indurium Ore"
+        },
+        {
+          "id": 1194,
+          "name": "Rizzle's Schematics"
+        },
+        {
+          "id": 1950,
+          "name": "Get the Scoop"
+        },
+        {
+          "id": 1951,
+          "name": "Rituals of Power"
+        },
+        {
+          "id": 5762,
+          "name": "Hemet Nesingwary"
+        },
+        {
+          "id": 8682,
+          "name": "Skyseer the Elder"
+        },
+        {
+          "id": 8724,
+          "name": "Morningdew the Elder"
+        },
+        {
+          "id": 94218,
+          "name": "Craftsman's Writ: Elixir of Defense"
+        },
+        {
+          "id": 94227,
+          "name": "Craftsman's Writ: Big Bronze Knife"
+        },
+        {
+          "id": 94236,
+          "name": "Craftsman's Writ: Big Bronze Bomb"
+        },
+        {
+          "id": 94245,
+          "name": "Craftsman's Writ: Barbaric Gloves"
+        },
+        {
+          "id": 94254,
+          "name": "Craftsman's Writ: Greater Adept's Robe"
+        },
+        {
+          "id": 79947,
+          "name": "Geomancy: The Stone-Cold Truth"
+        }
+      ]
     }
   ]
 }
