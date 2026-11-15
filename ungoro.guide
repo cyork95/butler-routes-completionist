@@ -1,0 +1,381 @@
+# Un'Goro Crater - Completionist (pack butler-routes-completionist, v1).
+# Every Un'Goro accept in the local census (42 quests,
+# docs/ungoro-census.md) appears exactly once as an accept and once as a
+# turnin - the data holds a turn-in for every record this round, so there
+# are no accept-only honest notes (87494's mirror and the four ender writs
+# all close normally). Band 47-54 by minLevel cluster (zone id 1449, order
+# 32). The 8 Horde quests, 6 repeatables, 3 seasonal/events, 2 above-band
+# records and the broken 92021/94904/95647 are out with reasons in the
+# census, plus the Tanaris-owned Torwa twin pylon legs. The compiler's
+# reference data placed every pickup the QuestieDB dump left sourceless:
+# 3881's crates, 3883's hive hatchery, 87492's crystal and 3962's Ornate
+# Chest all ride data-placed completes; only 3845's compass/chart/key trio
+# stays a bag-note record (no placed source anywhere). 4244's casing routes
+# through a Searing Gorge expedition (Clunk) with a craft-or-buy note. No race
+# header and no class gates: nothing contracted is race- or class-locked.
+# Profession lines ride optional + when-skill gates (four ender writs in
+# dedicated steps). Soft-pre accepts whose blocking pre-quest sits outside
+# the contract (3914 Tanaris for 3941, 4005 Felwood for 3961, 4143 Feralas
+# for 4144, 1124 Moonglade for 1125, 8285 Silithus for 8279) carry a note
+# at the accept; their completes and turn-ins stand alone in when onquest
+# mini-steps. Expedition turn-ins: Donova Snowden (Winterspring, 980 and
+# 3908), Eridan Bluewind (Felwood, 3942), Gregan Brewspewer (Feralas,
+# 4142), Umber (Moonglade, 6844), Tiala Whitemane (Hyjal, 92020); the
+# Silithus tower block completes and closes in-zone at Mar'alith.
+# Seasonal: 8681 Elder Thunderhorn answers only during the Feast of Winter
+# Veil - optional, never blocking. No loop steps: every placed complete
+# rides data-placed coordinates.
+guide butler-routes-completionist/ungoro-crater
+title Un'Goro Crater - Completionist
+levels 47-54
+zone Un'Goro Crater
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Marshal's Refuge - expedition base
+
+  zone map 1449
+
+  note Marshal's Refuge holds the crater's Alliance cluster: Williden Marshal (43.95,7.14), Hol'anyee Marshal (43.89,7.24), Spark Nilminer (43.5,7.42), Petra Grossen (43.7,7.24) and Nergal (43.27,7.73), with Spraggle Frock (43.62,8.5) and the wall poster (43.53,8.44) on the same rise.
+  accept 3881 -- Expedition Salvation - Williden Marshal; supply crates, east and central
+  accept 3883 -- Alien Ecology - Hol'anyee Marshal; the hive hatchery stands south
+  complete 3881 @68.54,36.54 -- Crate of Foodstuffs (east crater cache)
+  complete 3881 @38.45,66.06 -- Research Equipment (central crater cache)
+  complete 3883 @48.69,85.32 -- Hive Wall Sample (Gorishi Hive Hatchery, south crater)
+  turnin 3881 -- Expedition Salvation - the word to Williden Marshal
+  turnin 3883 -- Alien Ecology - the word to Hol'anyee Marshal
+  accept 3882 -- Roll the Bones - Spark Nilminer; dinosaur bones off the west and central herds
+  complete 3882 @28.28,64.53 -- Dinosaur Bones (Stegodon, west herd)
+  complete 3882 @43.03,65.23 -- Dinosaur Bones (Diemetradon, central herd)
+  turnin 3882 -- Roll the Bones - the bones to Spark Nilminer
+  collect 11116 optional @31.19,36.42 -- A Mangled Journal (Devilsaur, west herd - accept when it drops)
+  accept 3884 -- Williden's Journal - loot A Mangled Journal off the crater's beasts; the turn-in rides Williden below
+  turnin 3884 -- Williden's Journal - the journal to Williden Marshal
+  accept 92020 -- Hol'anyee's Big Book of Big Lizards - Hol'anyee Marshal; a pointer with no field work - the turn-in rides the Hyjal expedition below
+
+step Marshal's Refuge - Shizzle and the poster
+
+  zone map 1449
+
+  accept 4503 -- Shizzle's Flyer - Shizzle (44.23,11.59); scales off diemetradons and pterrordax, east flats
+  complete 4503 @58.06,33.9 -- Webbed Diemetradon Scales (Young Diemetradon, east flats)
+  complete 4503 @57.68,35.32 -- Webbed Pterrordax Scales (Fledgling Pterrordax, east flats)
+  turnin 4503 -- Shizzle's Flyer - the scales to Shizzle
+  accept 4501 -- Beware of Pterrordax - the poster on the Refuge wall (43.53,8.44); pterrordax south, frenzied west
+  complete 4501 @42.8,85.4 -- Pterrordax (south crater)
+  complete 4501 @20.2,40 -- Frenzied Pterrordax (west flats)
+  turnin 4501 -- Beware of Pterrordax - the word to Spraggle Frock
+  accept 4492 -- Lost! - Spraggle Frock; Ringo waits at the east camp (below)
+
+step Raft run - the Linken chain opens
+
+  zone map 1449
+
+  note East to the wrecked raft (63.02,68.6) and the small pack beside it (63.11,69.06).
+  accept 3844 -- It's a Secret to Everybody - A Wrecked Raft; the turn-in is the pack beside it
+  turnin 3844 -- It's a Secret to Everybody - the word to A Small Pack
+  accept 3845 -- It's a Secret to Everybody - A Small Pack; the three relics have no placed source in the data (bag note below)
+  complete 3845
+  note 3845's Large Compass, Curled Map Parchment and Lion-headed Key have no placed source in the data - check bags; the route never waits on them.
+
+step Linken's corner - the chain lands
+
+  zone map 1449
+
+  note Back west to Linken (44.66,8.1) at the Refuge's edge.
+  turnin 3845 -- It's a Secret to Everybody - the word to Linken
+  accept 3908 -- It's a Secret to Everybody - Linken; carry the word to Donova Snowden (Winterspring expedition below)
+  accept 3941 -- A Gnome's Assistance - Linken; a pointer for Eridan (note 3914 Homemade Delight accepts in Tanaris, contracted in tanaris - the turn-in rides the mini-step below)
+
+step Soft pre - Linken's Memory (open)
+
+  zone map 1449
+
+  when onquest 3941
+
+  turnin 3941 -- A Gnome's Assistance - the word to Eridan Bluewind (41.92,2.7)
+  accept 3942 -- Linken's Memory - Eridan Bluewind; carry the word to Eridan in Felwood (expedition below)
+
+step Collie camp - crystals, pylons and Muigin
+
+  zone map 1449
+
+  note North-west to the Collie camp: Eridan Bluewind (41.92,2.7) and Muigin (42.94,9.64).
+  accept 4284 -- Crystals of Power - Eridan Bluewind; power crystals off devilsaurs and stegodons
+  complete 4284 @31.19,36.42 -- Red Power Crystals (Devilsaur, west herd)
+  complete 4284 @28.28,64.53 -- Yellow Power Crystals (Stegodon, west herd)
+  complete 4284 @50.13,60.71 -- Green Power Crystals (Tyrant Devilsaur, central crater)
+  complete 4284 @57.29,61.75 -- Blue Power Crystals (Ironhide Devilsaur, east crater)
+  turnin 4284 -- Crystals of Power - the crystals to Eridan Bluewind
+  accept 4285 -- The Northern Pylon - Eridan Bluewind; the pylon stands north (56.52,12.54)
+  accept 4287 -- The Eastern Pylon - Eridan Bluewind; the pylon stands east (77.16,49.98)
+  accept 4288 -- The Western Pylon - Eridan Bluewind; the pylon stands west (23.86,59.19)
+  complete 4285 @56.52,12.54 -- Northern Crystal Pylon work, north crater
+  complete 4287 @77.16,49.98 -- Eastern Crystal Pylon work, east crater
+  complete 4288 @23.86,59.19 -- Western Crystal Pylon work, west crater
+  turnin 4285 -- The Northern Pylon - the word to Eridan Bluewind
+  turnin 4287 -- The Eastern Pylon - the word to Eridan Bluewind
+  turnin 4288 -- The Western Pylon - the word to Eridan Bluewind
+  accept 4321 -- Making Sense of It - Eridan Bluewind; a pointer with no field work
+  turnin 4321 -- Making Sense of It - the word to Eridan Bluewind
+  accept 4141 -- Muigin and Larion - Muigin; bloodpetals off the crater's lashers and trappers
+  complete 4141 @56.69,33.15 -- Bloodpetals (Bloodpetal Lasher, east flats)
+  complete 4141 @24.83,52.22 -- Bloodpetals (Bloodpetal Trapper, west crater)
+  turnin 4141 -- Muigin and Larion - the petals to Muigin
+  accept 4142 -- A Visit to Gregan - Muigin; carry the word to Gregan Brewspewer (Feralas expedition below)
+  accept 4144 -- Bloodpetal Sprouts - Muigin; sprouts off devilsaurs and stegodons (note 4143 Larion's Song accepts in Feralas, contracted in feralas - the complete and turn-in stand alone in the when onquest mini-step below)
+  accept 3961 -- Linken's Adventure - Eridan Bluewind; carry the word to Linken (note 4005 Aquementas accepts in Felwood, contracted in felwood - the turn-in rides the mini-step below)
+
+step Soft pre - Bloodpetal Sprouts (open)
+
+  zone map 1449
+
+  when onquest 4144
+
+  complete 4144 @31.19,36.42 -- Bloodpetal Sprouts (Devilsaur, west herd)
+  complete 4144 @28.28,64.53 -- Bloodpetal Sprouts (Stegodon, west herd)
+  turnin 4144 -- Bloodpetal Sprouts - the sprouts to Muigin
+
+step Soft pre - Linken's Adventure (open)
+
+  zone map 1449
+
+  when onquest 3961
+
+  turnin 3961 -- Linken's Adventure - the word to Linken
+  accept 3962 -- It's Dangerous to Go Alone - Linken; the Blazerunner runs central, the flame has no source (bag note below)
+
+step Linken's close - Blazerunner
+
+  zone map 1449
+
+  when onquest 3962
+
+  complete 3962 @49.41,49.33 -- Blazerunner (central crater)
+  complete 3962 @50.28,49.97 -- Golden Flame (Ornate Chest, central crater)
+  turnin 3962 -- It's Dangerous to Go Alone - the word to Linken
+
+step A-Me chain - Karna to the coast
+
+  zone map 1449
+
+  note East to Karna Remtravel (46.38,13.44), then out to A-Me 01 on the east coast (67.66,16.76).
+  accept 4243 -- Chasing A-Me 01 - Karna Remtravel; A-Me 01 waits east
+  turnin 4243 -- Chasing A-Me 01 - the word to A-Me 01
+  accept 4244 -- Chasing A-Me 01 - A-Me 01; the casing rides the Searing expedition below (or craft or buy it anywhere)
+
+step Searing expedition - the casing
+
+  zone map 1427
+
+  complete 4244 @34.69,51.89 -- Mithril Casing (Clunk, Searing Gorge - or craft or buy it anywhere)
+  tip Expedition leg to Searing Gorge for the casing (skipped if the casing is already in your bags); the frame switches on.
+
+  zone map 1449
+
+step A-Me chain - the escort home
+
+  zone map 1449
+
+  note Back to A-Me 01 on the east coast, then escort duty to Karna.
+  turnin 4244 -- Chasing A-Me 01 - the casing to A-Me 01
+  accept 4245 -- Chasing A-Me 01 - A-Me 01; escort A-Me 01 back to Karna
+  complete 4245 @46.43,13.78 -- Protect A-Me 01 until you reach Karna Remtravel
+  turnin 4245 -- Chasing A-Me 01 - the word to Karna Remtravel
+
+step Ringo run - Lost and found
+
+  zone map 1449
+
+  note East to Ringo's camp (51.9,49.85), then escort him back to the Refuge.
+  turnin 4492 -- Lost! - the word to Ringo
+  accept 4491 -- A Little Help From My Friends - Ringo; escort Ringo to Spraggle Frock at Marshal's Refuge
+  complete 4491 @43.71,8.29 -- Escort Ringo to Spraggle Frock at Marshal's Refuge
+  turnin 4491 -- A Little Help From My Friends - Ringo to Spraggle Frock
+
+step West - Krakle and the springs
+
+  zone map 1449
+
+  note West to Krakle (30.93,50.44) on the crater floor.
+  accept 974 -- Finding the Source - Krakle; the hot spot steams south-east (49.69,45.64)
+  complete 974 @49.69,45.64 -- Fire Plume Ridge Hot Spot work, south-center
+  turnin 974 -- Finding the Source - the word to Krakle
+  accept 980 -- The New Springs - Krakle; carry the word to Donova Snowden (Winterspring expedition below)
+
+step South-west - Layo and the tower
+
+  zone map 1449
+
+  note Far south-west to Layo Starstrike (22.9,17.5).
+  accept 1125 -- The Spirits of Southwind - Layo Starstrike; druids and sentinels in Silithus (note 1124 Spirits of the Wind Rider accepts in Moonglade, contracted in moonglade-druid - the complete and turn-in stand alone in the when onquest mini-step below)
+
+step Soft pre - Spirits of Southwind (open)
+
+  zone map 1451
+
+  when onquest 1125
+
+  complete 1125 @58.83,52.76 -- Tortured Druids (north-west Silithus)
+  complete 1125 @60.1,55.73 -- Tortured Sentinels (north-west Silithus)
+  turnin 1125 -- The Spirits of Southwind - the word to Layo Starstrike (81.87,18.93)
+  accept 1126 -- Hive in the Tower - Layo Starstrike; the encrusted object has no placed source (bag note below)
+
+step North-west - the Hermit
+
+  zone map 1449
+
+  note North-west to Hermit Ortell (9.1,65.4).
+  accept 8279 -- The Twilight Lexicon - Hermit Ortell; three chapters off the Silithus Twilight keepers (note 8285 The Twilight Lexicon accepts in Silithus, contracted nowhere - the complete and turn-in stand alone in the when onquest mini-step below)
+
+step Soft pre - Twilight Lexicon (open)
+
+  zone map 1451
+
+  when onquest 8279
+
+  complete 8279 @26.35,36.62 -- Twilight Lexicon Chapter 1 (Twilight Keeper Mayna, east Silithus)
+  complete 8279 @16.09,86.37 -- Twilight Lexicon Chapter 2 (Twilight Keeper Exeter, south Silithus)
+  complete 8279 @40.86,42.22 -- Twilight Lexicon Chapter 3 (Twilight Keeper Havunth, central Silithus)
+  turnin 8279 -- The Twilight Lexicon - the word to Hermit Ortell (67.19,69.76)
+  accept 8323 -- True Believers - Hermit Ortell; encrypted texts off the Silithus Twilight forces
+
+step Silithus expedition - tower, texts, purpose
+
+  zone map 1451
+
+  accept 8287 -- A Terrible Purpose - Hermit Ortell (67.19,69.76); carry the word to Commander Mar'alith
+  turnin 8287 -- A Terrible Purpose - the word to Commander Mar'alith (49.2,34.18)
+  tip Expedition leg to Silithus; the frame switches on.
+
+  zone map 1449
+
+step Soft pre - Hive in the Tower (close)
+
+  zone map 1451
+
+  when onquest 1126
+
+  complete 1126 @60.2,52.4 -- Encrusted Silithid Object (Hive'Ashi Ambusher, north-west Silithus)
+  turnin 1126 -- Hive in the Tower - the word to Layo Starstrike
+  tip Silithus close for the tower chain; the frame switches on.
+
+  zone map 1449
+
+step Soft pre - True Believers (close)
+
+  zone map 1451
+
+  when onquest 8323
+
+  complete 8323 @40.86,42.22 -- Encrypted Twilight Texts (Twilight Keeper Havunth, central Silithus)
+  turnin 8323 -- True Believers - the word to Hermit Ortell
+  tip Silithus close for the lexicon chain; the frame switches on.
+
+  zone map 1449
+
+step Layo's close - Umber
+
+  zone map 1449
+
+  note Back to Layo Starstrike (22.9,17.5) in the south-west.
+  accept 6844 -- Umber, Archivist - Layo Starstrike; carry the word to Umber in Moonglade (expedition below)
+
+step East - Torwa, crystals and Thunderhorn
+
+  zone map 1449
+
+  note East to Torwa Pathfinder's camp (71.64,75.96), with Elder Thunderhorn (50.35,76.07) on the way.
+  accept 87492 -- Uncanny Crystal - Torwa Pathfinder; the damaged crystal has no placed source in the data (bag note below)
+  complete 87492 @66.3,75.2 -- Damaged Blue Crystal (east crater crystal)
+  turnin 87492 -- Uncanny Crystal - the crystal to Torwa Pathfinder
+  accept 87494 -- Microcrystal Contamination - Torwa Pathfinder; a turn-in-only record (no accept in the data) - carry the crystal-infused scale to Torwa
+  complete 87494 @57.36,77.14 -- Crystal Infused Scale (Ravasaur, east crater)
+  turnin 87494 -- Microcrystal Contamination - the scale to Torwa Pathfinder
+  accept 8681 optional -- Thunderhorn the Elder - Elder Thunderhorn; a Feast of Winter Veil turn-in - Thunderhorn only answers during the feast
+  turnin 8681 optional -- Thunderhorn the Elder - the word to Elder Thunderhorn
+
+step Refuge writ - potion (Alchemy)
+
+  zone map 1449
+
+  when skill Alchemy 1
+  accept 94267 optional -- Craftsman's Writ: Wildvine Potion - Spark Nilminer; the writ item starts it, the potion has no Un'Goro source (farm or buy it wherever suits)
+  note 94267's starter (the writ) has no placed source in the data - have it in your bags. The Wildvine Potion drops in Alterac, the Blasted Lands, Ashenvale and Felwood, or comes off the auction house.
+  complete 94267 optional @43.5,7.42 -- Wildvine Potion writ work at Spark's bench
+  turnin 94267 optional -- Craftsman's Writ: Wildvine Potion - the potion to Spark Nilminer
+
+step Refuge writ - ammo pouch (Leatherworking)
+
+  zone map 1449
+
+  when skill Leatherworking 1
+  accept 94303 optional -- Craftsman's Writ: Thick Leather Ammo Pouch - Nergal; the writ item starts it, craft the pouch from bags
+  note 94303's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94303 optional @43.27,7.73 -- Thick Leather Ammo Pouch writ work at Nergal's bench
+  turnin 94303 optional -- Craftsman's Writ: Thick Leather Ammo Pouch - the pouch to Nergal
+
+step Refuge writ - belt (Tailoring)
+
+  zone map 1449
+
+  when skill Tailoring 1
+  accept 94315 optional -- Craftsman's Writ: Earthen Silk Belt - Petra Grossen; the writ item starts it, craft the belt from bags
+  note 94315's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94315 optional @43.7,7.24 -- Earthen Silk Belt writ work at Petra's bench
+  turnin 94315 optional -- Craftsman's Writ: Earthen Silk Belt - the belt to Petra Grossen
+
+step East writ - axe (Blacksmithing)
+
+  zone map 1449
+
+  when skill Blacksmithing 1
+  accept 94279 optional -- Craftsman's Writ: Heavy Mithril Axe - Torwa Pathfinder; the writ item starts it, craft the axe from bags
+  note 94279's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94279 optional @71.64,75.96 -- Heavy Mithril Axe writ work at Torwa's camp
+  turnin 94279 optional -- Craftsman's Writ: Heavy Mithril Axe - the axe to Torwa Pathfinder
+
+step Northern expeditions - Winterspring, Feralas, Moonglade
+
+  zone map 1452
+
+  turnin 980 -- The New Springs - Krakle's word to Donova Snowden (31.27,45.16)
+  turnin 3908 -- It's a Secret to Everybody - Linken's word to Donova Snowden (31.27,45.16)
+  tip Expedition leg to Winterspring; the frame switches on.
+
+  zone map 1444
+
+  turnin 4142 -- A Visit to Gregan - Muigin's word to Gregan Brewspewer (45.12,25.57)
+  tip Expedition leg to Feralas; the frame switches on.
+
+  zone map 1450
+
+  turnin 6844 -- Umber, Archivist - Layo's word to Umber (44.88,35.6)
+  tip Expedition leg to Moonglade; the frame switches on.
+
+  zone map 1449
+
+step Expedition - Hyjal
+
+  zone map 2482
+
+  turnin 92020 -- Hol'anyee's Big Book of Big Lizards - Hol'anyee's word to Tiala Whitemane (68.85,50.6)
+  tip Expedition leg to Hyjal; the frame switches on.
+
+  zone map 1449
+
+step Soft pre - Linken's Memory (close)
+
+  zone map 1448
+
+  when onquest 3942
+
+  turnin 3942 -- Linken's Memory - the word to Eridan Bluewind (51.35,81.51)
+  tip Felwood close for the memory chain, gated on holding 3942; the frame switches on.
+
+  zone map 1449
+
+
