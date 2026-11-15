@@ -140,7 +140,7 @@ step The far south-east — Myrokos
   goto 84.93,80.38
   note 96781's pre (6681 The Manor, Ravenholdt, out of contract — below band) fills outside this route - take 96781 here.
   accept 96781 only Rogue -- What's the Big Idea? - Myrokos Silentform; Barton's Scouting Report
-  collect 275482 quest 96781.1 @60.23,46.53 era -- Barton's Scouting Report off Barton for Myrokos Silentform
+  collect 275482 only Rogue quest 96781.1 @60.23,46.53 era -- Barton's Scouting Report off Barton for Myrokos Silentform
   note 96783's pre (6681, out of contract) fills outside this route - take 96783 here.
   accept 96783 only Rogue -- A Way In - Myrokos Silentform; accept-only, no turn-in in the data
   note 96783 has no ender and no objectives in the data - bank the accept; there is nothing to turn in.
