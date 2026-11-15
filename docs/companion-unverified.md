@@ -365,3 +365,8 @@ as above: game-data citation or a named source.
 ## Hillsbrad tame lines: drop evidence without corroboration (pack 0.29.0)
 
 - Creepthess (npc14279, spider: drops Crisp Spider Meat item1081 + Spider's Silk item3182) and Big Samras (npc14280, bear: drops Big Bear Meat item3730 + Durable Bearhide Pauldrons item282717) have drop evidence for a tameable beast type, but the Hillsbrad core guide carries no tame lines and no references to any Hillsbrad rare, so the corroboration half of the tame rule is unmet. No only Hunter task ships for either; both stay kill-or-skip. Promote only with core-guide corroboration or a named source.
+
+
+## Redridge tame lines: nothing to corroborate (pack 0.30.0)
+
+- All 8 shipped Redridge rares have zero loot records in the data, so no drop-evidence beast typing exists for any of them, and the only "Tame" hits in the Redridge core guide are the NPC name Tamelyn. No only-Hunter task ships; all eight steps are kill-or-skip. Promote only with drop evidence plus core-guide corroboration or a named source.
