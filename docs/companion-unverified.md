@@ -414,3 +414,7 @@ as above: game-data citation or a named source.
 ## Wetlands tame lines (pack 0.43.0)
 
 - Two of the 8 shipped Wetlands rares read as beasts by name in the data (Leech Widow the spider, Razormaw Matriarch the raptor), but npc records carry no tameability flag and the Wetlands core guide (87-contract) carries no tame lines and no references to any Wetlands rare. Name alone is not the bar (precedent needs drop evidence plus core-guide corroboration). No only-Hunter task ships; all eight steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+
+## Tanaris tame lines (pack 0.45.0)
+
+- Several of the 10 shipped Tanaris rares read as beasts by name in the data (8207 Greater Firebird, 8208 Murderous Blisterpaw, 8204 Soriid the Devourer, 8205 Haarka the Ravenous, 222243 Zopilote), but npc records carry no tameability flag and the Tanaris core guide (91-contract) carries no tame lines and no references to any Tanaris rare. Name alone is not the bar (precedent needs drop evidence plus core-guide corroboration). No only-Hunter task ships; all ten steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
