@@ -8432,6 +8432,78 @@
           "id": 97617
         }
       ]
+    },
+    {
+      "id": "blasted-lands",
+      "name": "Blasted Lands",
+      "order": 28,
+      "levelBand": "40-50",
+      "summary": "Set 5 contested-zone Alliance route: the Kum'isha draenethyst chain (2521/3501/93685), the Drazial/Lynnore beast-reagent chain, the Grimshade medallion chain with Hinterlands finale, the Ardalan/Ragnar delivery finales, the Lynnore Forever pair, the Nethergarde orphan chain with Alterac finale, the Bernie basilisk-scale quest, and the Grand Alliance Hyjal breadcrumb.",
+      "quests": [
+        {
+          "id": 2521
+        },
+        {
+          "id": 2581
+        },
+        {
+          "id": 2583
+        },
+        {
+          "id": 2585
+        },
+        {
+          "id": 2601
+        },
+        {
+          "id": 2603
+        },
+        {
+          "id": 3501
+        },
+        {
+          "id": 2991
+        },
+        {
+          "id": 2992
+        },
+        {
+          "id": 2993
+        },
+        {
+          "id": 2783
+        },
+        {
+          "id": 4128
+        },
+        {
+          "id": 81917
+        },
+        {
+          "id": 81919
+        },
+        {
+          "id": 96798
+        },
+        {
+          "id": 96799
+        },
+        {
+          "id": 96811
+        },
+        {
+          "id": 96812
+        },
+        {
+          "id": 87295
+        },
+        {
+          "id": 91882
+        },
+        {
+          "id": 93685
+        }
+      ]
     }
   ]
 }
