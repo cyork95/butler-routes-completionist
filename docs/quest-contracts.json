@@ -5655,6 +5655,507 @@
           "name": "Prehistoric Prism"
         }
       ]
+    },
+    {
+      "id": "stranglethorn-vale",
+      "name": "Stranglethorn Vale",
+      "order": 16,
+      "levelBand": "30-45",
+      "summary": "Set 3 (Alliance): two-pass route - northern jungle (Nesingwary camp, Rebel Camp, Kurzen compound, east jungle) then Booty Bay and the cape; expedition legs to Badlands, Swamp of Sorrows, Arathi, Tanaris, Hillsbrad, Duskwood, Dustwallow, Alterac, Thousand Needles, Hinterlands and Riverglades. Leads on to the next Set 3 zone.",
+      "quests": [
+        {
+          "id": 185,
+          "name": "Tiger Mastery"
+        },
+        {
+          "id": 186,
+          "name": "Tiger Mastery"
+        },
+        {
+          "id": 187,
+          "name": "Tiger Mastery"
+        },
+        {
+          "id": 188,
+          "name": "Tiger Mastery"
+        },
+        {
+          "id": 189,
+          "name": "Bloodscalp Ears"
+        },
+        {
+          "id": 190,
+          "name": "Panther Mastery"
+        },
+        {
+          "id": 191,
+          "name": "Panther Mastery"
+        },
+        {
+          "id": 192,
+          "name": "Panther Mastery"
+        },
+        {
+          "id": 193,
+          "name": "Panther Mastery"
+        },
+        {
+          "id": 194,
+          "name": "Raptor Mastery"
+        },
+        {
+          "id": 195,
+          "name": "Raptor Mastery"
+        },
+        {
+          "id": 196,
+          "name": "Raptor Mastery"
+        },
+        {
+          "id": 197,
+          "name": "Raptor Mastery"
+        },
+        {
+          "id": 198,
+          "name": "Supplies to Private Thorsen"
+        },
+        {
+          "id": 200,
+          "name": "Bookie Herod"
+        },
+        {
+          "id": 201,
+          "name": "Investigate the Camp"
+        },
+        {
+          "id": 202,
+          "name": "Colonel Kurzen"
+        },
+        {
+          "id": 203,
+          "name": "The Second Rebellion"
+        },
+        {
+          "id": 204,
+          "name": "Bad Medicine"
+        },
+        {
+          "id": 205,
+          "name": "Troll Witchery"
+        },
+        {
+          "id": 206,
+          "name": "Mai'Zoth"
+        },
+        {
+          "id": 207,
+          "name": "Kurzen's Mystery"
+        },
+        {
+          "id": 208,
+          "name": "Big Game Hunter"
+        },
+        {
+          "id": 209,
+          "name": "Skullsplitter Tusks"
+        },
+        {
+          "id": 210,
+          "name": "Krazek's Cookery"
+        },
+        {
+          "id": 213,
+          "name": "Hostile Takeover"
+        },
+        {
+          "id": 215,
+          "name": "Jungle Secrets"
+        },
+        {
+          "id": 328,
+          "name": "The Hidden Key"
+        },
+        {
+          "id": 329,
+          "name": "The Spy Revealed!"
+        },
+        {
+          "id": 330,
+          "name": "Patrol Schedules"
+        },
+        {
+          "id": 331,
+          "name": "Report to Doren"
+        },
+        {
+          "id": 338,
+          "name": "The Green Hills of Stranglethorn"
+        },
+        {
+          "id": 339,
+          "name": "Chapter I"
+        },
+        {
+          "id": 340,
+          "name": "Chapter II"
+        },
+        {
+          "id": 341,
+          "name": "Chapter III"
+        },
+        {
+          "id": 342,
+          "name": "Chapter IV"
+        },
+        {
+          "id": 348,
+          "name": "Stranglethorn Fever"
+        },
+        {
+          "id": 574,
+          "name": "Special Forces"
+        },
+        {
+          "id": 575,
+          "name": "Supply and Demand"
+        },
+        {
+          "id": 576,
+          "name": "Keep An Eye Out"
+        },
+        {
+          "id": 577,
+          "name": "Some Assembly Required"
+        },
+        {
+          "id": 578,
+          "name": "The Stone of the Tides"
+        },
+        {
+          "id": 580,
+          "name": "Whiskey Slim's Lost Grog"
+        },
+        {
+          "id": 583,
+          "name": "Welcome to the Jungle"
+        },
+        {
+          "id": 587,
+          "name": "Up to Snuff"
+        },
+        {
+          "id": 594,
+          "name": "Message in a Bottle"
+        },
+        {
+          "id": 595,
+          "name": "The Bloodsail Buccaneers"
+        },
+        {
+          "id": 597,
+          "name": "The Bloodsail Buccaneers"
+        },
+        {
+          "id": 599,
+          "name": "The Bloodsail Buccaneers"
+        },
+        {
+          "id": 600,
+          "name": "Venture Company Mining"
+        },
+        {
+          "id": 601,
+          "name": "Water Elementals"
+        },
+        {
+          "id": 602,
+          "name": "Magical Analysis"
+        },
+        {
+          "id": 604,
+          "name": "The Bloodsail Buccaneers"
+        },
+        {
+          "id": 605,
+          "name": "Singing Blue Shards"
+        },
+        {
+          "id": 606,
+          "name": "Scaring Shaky"
+        },
+        {
+          "id": 607,
+          "name": "Return to MacKinley"
+        },
+        {
+          "id": 608,
+          "name": "The Bloodsail Buccaneers"
+        },
+        {
+          "id": 609,
+          "name": "Voodoo Dues"
+        },
+        {
+          "id": 610,
+          "name": "\"Pretty Boy\" Duncan"
+        },
+        {
+          "id": 611,
+          "name": "The Curse of the Tides"
+        },
+        {
+          "id": 613,
+          "name": "Cracking Maury's Foot"
+        },
+        {
+          "id": 616,
+          "name": "The Haunted Isle"
+        },
+        {
+          "id": 617,
+          "name": "Akiris by the Bundle"
+        },
+        {
+          "id": 621,
+          "name": "Zanzil's Secret"
+        },
+        {
+          "id": 622,
+          "name": "Return to Corporal Kaleb"
+        },
+        {
+          "id": 623,
+          "name": "Akiris by the Bundle"
+        },
+        {
+          "id": 627,
+          "name": "Favor for Krazek"
+        },
+        {
+          "id": 628,
+          "name": "Excelsior"
+        },
+        {
+          "id": 630,
+          "name": "Message in a Bottle"
+        },
+        {
+          "id": 670,
+          "name": "Sunken Treasure"
+        },
+        {
+          "id": 1041,
+          "name": "The Caravan Road"
+        },
+        {
+          "id": 1116,
+          "name": "Dream Dust in the Swamp"
+        },
+        {
+          "id": 1117,
+          "name": "Rumors for Kravel"
+        },
+        {
+          "id": 1119,
+          "name": "Zanzil's Mixture and a Fool's Stout"
+        },
+        {
+          "id": 1181,
+          "name": "Goblin Sponsorship"
+        },
+        {
+          "id": 1182,
+          "name": "Goblin Sponsorship"
+        },
+        {
+          "id": 1183,
+          "name": "Goblin Sponsorship"
+        },
+        {
+          "id": 2760,
+          "name": "The Mithril Order"
+        },
+        {
+          "id": 2761,
+          "name": "Smelt On, Smelt Off"
+        },
+        {
+          "id": 2762,
+          "name": "The Great Silver Deceiver"
+        },
+        {
+          "id": 2763,
+          "name": "The Art of the Imbue"
+        },
+        {
+          "id": 2764,
+          "name": "Galvan's Finest Pupil"
+        },
+        {
+          "id": 2765,
+          "name": "Expert Blacksmith!"
+        },
+        {
+          "id": 2864,
+          "name": "Tran'rek"
+        },
+        {
+          "id": 2872,
+          "name": "Stoley's Debt"
+        },
+        {
+          "id": 2904,
+          "name": "A Fine Mess"
+        },
+        {
+          "id": 3625,
+          "name": "Enchanted Azsharite Fel Weaponry"
+        },
+        {
+          "id": 3626,
+          "name": "Return to the Blasted Lands"
+        },
+        {
+          "id": 3721,
+          "name": "An OOX of Your Own"
+        },
+        {
+          "id": 4782,
+          "name": "Components for the Enchanted Gold Bloodrobe"
+        },
+        {
+          "id": 7810,
+          "name": "Arena Master"
+        },
+        {
+          "id": 8551,
+          "name": "The Captain's Chest"
+        },
+        {
+          "id": 8552,
+          "name": "The Monogrammed Sash"
+        },
+        {
+          "id": 8553,
+          "name": "The Captain's Cutlass"
+        },
+        {
+          "id": 8554,
+          "name": "Facing Negolash"
+        },
+        {
+          "id": 78823,
+          "name": "Terror of the Desert Skies"
+        },
+        {
+          "id": 78830,
+          "name": "Terror of the Desert Skies"
+        },
+        {
+          "id": 79236,
+          "name": "Cherry for Your Thoughts?"
+        },
+        {
+          "id": 79242,
+          "name": "No Honor Among Thieves"
+        },
+        {
+          "id": 79731,
+          "name": "The Troll Scroll"
+        },
+        {
+          "id": 93443,
+          "name": "Lost Shipping Crate"
+        },
+        {
+          "id": 94217,
+          "name": "Craftsman's Writ: Lesser Troll's Blood Elixir"
+        },
+        {
+          "id": 94226,
+          "name": "Craftsman's Writ: Green Iron Gauntlets"
+        },
+        {
+          "id": 94235,
+          "name": "Craftsman's Writ: Gnomish Universal Remote"
+        },
+        {
+          "id": 94244,
+          "name": "Craftsman's Writ: Dark Leather Shoulders"
+        },
+        {
+          "id": 94253,
+          "name": "Craftsman's Writ: Colorful Kilt"
+        },
+        {
+          "id": 95322,
+          "name": "Get the Goods"
+        },
+        {
+          "id": 95325,
+          "name": "We've Been Robbed!"
+        },
+        {
+          "id": 95326,
+          "name": "The Big Payback"
+        },
+        {
+          "id": 95327,
+          "name": "All's Well That Ends Well"
+        },
+        {
+          "id": 95384,
+          "name": "Partial Mystical Notes"
+        },
+        {
+          "id": 95385,
+          "name": "Torn Mystical Scroll"
+        },
+        {
+          "id": 95786,
+          "name": "An Acquaintance in Southshore"
+        },
+        {
+          "id": 95789,
+          "name": "Shady Saltseers"
+        },
+        {
+          "id": 95791,
+          "name": "The Saltseer Captain"
+        },
+        {
+          "id": 97047,
+          "name": "The Cook in the Cage"
+        },
+        {
+          "id": 97048,
+          "name": "Returning to Port"
+        },
+        {
+          "id": 97328,
+          "name": "Anything of Value"
+        },
+        {
+          "id": 97329,
+          "name": "Where's the Key?"
+        },
+        {
+          "id": 97331,
+          "name": "Zimmix's Great Escape"
+        },
+        {
+          "id": 97332,
+          "name": "Twice Misplaced Trust"
+        },
+        {
+          "id": 97405,
+          "name": "Noise Complaints"
+        },
+        {
+          "id": 97420,
+          "name": "Reduce, Reuse, Reconcile"
+        }
+      ]
     }
   ]
 }
