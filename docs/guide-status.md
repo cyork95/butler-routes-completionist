@@ -246,7 +246,7 @@ _Booty Bay country._
 - [x] Lint/playtest clean - 0 errors, playtest 4 personas + Rogue spot 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 8 rares (6 with sole-drop signatures) + 9 fixed containers, 39 recipes (36 vendor + 3 drops), 0 lint errors/warnings
 
 ### Riverglades — Forever-original zone
 
