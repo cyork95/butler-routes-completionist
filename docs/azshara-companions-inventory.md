@@ -49,7 +49,7 @@ formations, Kim'jael's Equipment, Saria's Knapsack, Hydraxis' Coffer
 and furniture objects (no loot). Never inventoried a spawn point: every
 point above is a data point.
 
-## Recipes - 23 shipped (19 drops + 4 vendor)
+## Recipes - 21 shipped (17 drops + 4 vendor)
 
 Vendors (both neutral AH, 1447-only spawns): 8678 Jubie Gadgetspring
 (45.28,90.95) sells 10607 Schematic: Deepdive Helmet (vendor-exclusive,
@@ -70,7 +70,6 @@ Every shipped drop is a SOLE in-zone dropper with zero object drops:
 | 15763 Pattern: Blue Dragonscale Shoulders | Leatherworking | 6146 Cliff Breaker |
 | 15764 Pattern: Stormshroud Shoulders | Leatherworking | 6144 Son of Arkkoroc |
 | 227899 Pattern: Honed Blue Dragonscale Shoulders | Leatherworking | 6146 Cliff Breaker |
-| 252858 Pattern: Tooled Leather Belt | Leatherworking | 6116 Highborne Apparition |
 | 252886 Pattern: Blue Suede Belt | Leatherworking | 7885 Spitelash Battlemaster |
 | 252929 Pattern: Supple Scorpid Belt | Leatherworking | 6198 Blood Elf Surveyor |
 | 252932 Pattern: Charged Scorpid Vest | Leatherworking | 6195 Spitelash Siren |
@@ -79,14 +78,15 @@ Every shipped drop is a SOLE in-zone dropper with zero object drops:
 | 250189 Recipe: Clam Linguine | Cooking | 7886 Spitelash Enchantress |
 | 235645 Legashi Firewater Recipe | unknown (no skill tag in data, ungated with disclosure) | 6200/6201/6202/236867/236874/236876 Legashi (all 1447) + 244129 phantom record with no spawns (disclosed) |
 | 250980 Recipe: Superior Spellblasting Potion | Alchemy | 6193 Spitelash Screamer |
-| 251438 Plans: Blessed Plate Pauldrons | Blacksmithing | 6117 Highborne Lichling |
-| 251441 Plans: Imperial Plate Gauntlets | Blacksmithing | 6199 Blood Elf Reclaimer |
+| 251441 Plans: Imperial Plate Gauntlets | Blacksmithing | 6199 Blood Elf Reclaimer | (sole Blacksmithing source in-zone)
 | 16045 Schematic: Spellpower Goggles Xtreme Plus | Engineering | 6195 Spitelash Siren |
 
 First Aid and Fishing have NO Azshara source - stated in the guide, not
 padded. Excluded: ~150 generic multi-zone world drops (Elwynn rule -
 including every Varo'then-table recipe: 7989/7992/12683/14479/11225/16043
 at 400-650 droppers across ~25 zones, and 9295 at 560 droppers despite
-rare Hawkhelm dropping it); near-misses 13491 (Felwood second dropper)
-and 14477 (EPL second dropper); quest-reward recipes (unverifiable -
+rare Hawkhelm dropping it); near-misses 13491 (Felwood second dropper),
+14477 (EPL second dropper), 251438 and 252858 (sole droppers 6117/6116
+spawn Ashenvale as well as Azshara - dual-zone single-droppers stay out
+per the Felwood precedent); quest-reward recipes (unverifiable -
 no reward data in quest records); trainer-taught staples.

@@ -1,0 +1,286 @@
+# Azshara - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics and formulas whose SOURCE is
+# physically in Azshara (zone key 1447), verified against the local Forever
+# game data (questie-forever item drop/vendor tables). Four are vendor-sold
+# by the zone's two neutral gadget vendors; nineteen drop exclusively from
+# in-zone mobs (each a sole in-zone dropper, zero object drops). Every
+# shipped step is gated to its profession; other characters skip it cleanly.
+# First Aid and Fishing have no Azshara source - stated here, not padded.
+# Quest records carry no reward data, so no quest-reward recipe ships (see
+# docs/companion-unverified.md). Trainer-taught staples are excluded.
+# Stock class (limited vs unlimited) is not in the data; no line is marked
+# limited. One recipe (Legashi Firewater) has no profession tag in the data
+# and ships ungated with that disclosed.
+guide butler-routes-completionist/azshara-recipes
+title Azshara - Recipes & Patterns
+levels 45-55
+zone Azshara
+faction Alliance
+category Professions
+folder Companions
+keywords azshara, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Blimo Gadgetspring - dragonscale (buy)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  vendor 12957 -- Blimo Gadgetspring (45.21,90.85)
+  buy 15729 "Pattern: Chimeric Gloves"
+  buy 15751 "Pattern: Blue Dragonscale Breastplate"
+  buy 227898 "Pattern: Honed Blue Dragonscale Breastplate"
+  note Blimo Gadgetspring (neutral) sells all three patterns at the south-east camp; nothing else in the data sells them. Stock class unconfirmed.
+  note Respawn timer unconfirmed.
+
+step Jubie Gadgetspring - deepdive helmet (buy)
+
+  zone map 1447
+
+  when skill Engineering 1
+
+  vendor 8678 -- Jubie Gadgetspring (45.28,90.95)
+  buy 10607 "Schematic: Deepdive Helmet"
+  note Jubie Gadgetspring (neutral) sells the schematic at the south-east camp; nothing else in the data sells it. Stock class unconfirmed.
+  note Respawn timer unconfirmed.
+
+step West ruins - ghostweave belt (Tailoring)
+
+  zone map 1447
+
+  when skill Tailoring 1
+
+  loop
+  goto 35.24,51.76
+  goto 36.31,47.97
+  goto 38.83,60.57
+  kill 7864 optional
+  collect 14473 "Pattern: Ghostweave Belt" optional
+  note The Lingering Highborne is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Haldarr rise - ghostweave cord (Tailoring)
+
+  zone map 1447
+
+  when skill Tailoring 1
+
+  loop
+  goto 19.35,61.81
+  goto 19.69,63.84
+  goto 20.27,62.23
+  kill 6126 optional
+  collect 254074 "Pattern: Ghostweave Cord" optional
+  note The Haldarr Trickster is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Legashi camps - wicked bracers (Leatherworking)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 50.79,17.63
+  goto 51.84,20.73
+  goto 52.06,19.08
+  kill 6201 optional
+  collect 15728 "Pattern: Wicked Leather Bracers" optional
+  note The Legashi Rogue is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Legashi camps - greater agility (Enchanting)
+
+  zone map 1447
+
+  when skill Enchanting 1
+
+  loop
+  goto 50.79,17.63
+  goto 51.84,20.73
+  goto 52.06,19.08
+  kill 6201 optional
+  collect 16219 "Formula: Enchant Gloves - Greater Agility" optional
+  note The Legashi Rogue is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Legashi camps - firewater recipe (no profession tag)
+
+  zone map 1447
+
+  loop
+  goto 50.79,17.63
+  goto 51.84,20.73
+  goto 52.06,19.08
+  kill 6201 optional
+  collect 235645 "Legashi Firewater Recipe" optional
+  note The Legashi (satyr, rogue, hellcaller, soulstealer, hellraiser, blackguard - all Azshara-only) are the only placed droppers anywhere in the data; one further dropper record has no spawns and is disclosed, not shipped. The data carries no profession tag for this recipe, so this step has no skill gate - no quest takes it either.
+  note Respawn timer unconfirmed.
+
+step Arkkoroc shore - stormshroud armor (Leatherworking)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 72.70,40.92
+  goto 73.65,37.51
+  goto 74.50,40.17
+  kill 6138 optional
+  collect 15753 "Pattern: Stormshroud Armor" optional
+  note The Arkkoran Oracle is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step South-east run - blue dragonscale (Leatherworking)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 46.34,83.36
+  goto 47.68,85.73
+  goto 48.52,70.85
+  kill 6146 optional
+  collect 15763 "Pattern: Blue Dragonscale Shoulders" optional
+  collect 227899 "Pattern: Honed Blue Dragonscale Shoulders" optional
+  note The Cliff Breaker is the sole dropper of both patterns anywhere in the data and spawns only in Azshara. No quest takes either.
+  note Respawn timer unconfirmed.
+
+step Arkkoroc shore - stormshroud shoulders (Leatherworking)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 53.77,56.80
+  goto 54.05,60.53
+  goto 56.45,57.82
+  kill 6144 optional
+  collect 15764 "Pattern: Stormshroud Shoulders" optional
+  note The Son of Arkkoroc is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Spitelash south - advanced skinning (Enchanting)
+
+  zone map 1447
+
+  when skill Enchanting 1
+
+  loop
+  goto 40.20,53.08
+  goto 41.45,48.14
+  goto 43.14,61.95
+  kill 6196 optional
+  collect 249516 "Formula: Enchant Gloves - Advanced Skinning" optional
+  note The Spitelash Myrmidon is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step South-east isles - clam linguine (Cooking)
+
+  zone map 1447
+
+  when skill Cooking 1
+
+  loop
+  goto 66.01,91.40
+  goto 66.21,77.80
+  goto 67.07,82.68
+  kill 7886 optional
+  collect 250189 "Recipe: Clam Linguine" optional
+  note The Spitelash Enchantress is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Spitelash west - spellblasting potion (Alchemy)
+
+  zone map 1447
+
+  when skill Alchemy 1
+
+  loop
+  goto 23.76,60.01
+  goto 25.68,50.93
+  goto 26.07,57.19
+  kill 6193 optional
+  collect 250980 "Recipe: Superior Spellblasting Potion" optional
+  note The Spitelash Screamer is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step East camp - imperial plate (Blacksmithing)
+
+  zone map 1447
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 55.29,27.59
+  goto 55.47,28.48
+  goto 55.60,30.13
+  kill 6199 optional
+  collect 251441 "Plans: Imperial Plate Gauntlets" optional
+  note The Blood Elf Reclaimer is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step South-east isles - blue suede belt (Leatherworking)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 65.36,91.65
+  goto 65.74,76.95
+  goto 66.04,77.08
+  kill 7885 optional
+  collect 252886 "Pattern: Blue Suede Belt" optional
+  note The Spitelash Battlemaster is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step East camp - supple scorpid belt (Leatherworking)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 55.35,26.45
+  goto 55.46,29.50
+  goto 55.82,30.78
+  kill 6198 optional
+  collect 252929 "Pattern: Supple Scorpid Belt" optional
+  note The Blood Elf Surveyor is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Spitelash south - charged vest (Leatherworking)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 34.95,56.17
+  goto 35.00,52.01
+  goto 36.33,48.02
+  kill 6195 optional
+  collect 252932 "Pattern: Charged Scorpid Vest" optional
+  note The Spitelash Siren is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Spitelash south - spellpower goggles (Engineering)
+
+  zone map 1447
+
+  when skill Engineering 1
+
+  loop
+  goto 34.95,56.17
+  goto 35.00,52.01
+  goto 36.33,48.02
+  kill 6195 optional
+  collect 16045 "Schematic: Spellpower Goggles Xtreme Plus" optional
+  note The Spitelash Siren is the sole dropper anywhere in the data and spawns only in Azshara. No quest takes it.
+  note Respawn timer unconfirmed.
