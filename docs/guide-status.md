@@ -366,7 +366,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Lint/playtest clean - 0 errors, playtest 3 personas 0 stuck (R1 expedition residue, all documented)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 5 rares (3 sole-drop signatures + come-back notes for above-band), 8-pt Solid Chest loop, 2 recipes (1 vendor + 1 exclusive drop)
 
 ### Searing Gorge — contested (Eastern Kingdoms)
 
