@@ -1,0 +1,601 @@
+guide butler-routes-completionist/riverglades
+title Riverglades - Completionist
+levels 36-45
+zone Riverglades
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+# The Glades are done in passes: Farholde Keep first (the command hub),
+# then the western Twilight front (Dalton farm, Riftan, the coast),
+# the central farms (Turner, Cornelius, Wheeler, Holmsby, Claire),
+# Powderfuse Port and the Eastsea coast in the east, the northern
+# ogres, and the expedition legs for the chains that leave the zone.
+# Krom'rosh and the Horde chains are not routed here - the Horde
+# block owns them.
+
+step Farholde Keep - arrival
+
+  accept 94613 -- My Kingdom for a Horse - Demar Brant; Benjy Wheeler takes it west
+  accept 94877 -- Saving Sunnyglade - Demar Brant; Twilight raiders, west
+  accept 94879 -- Scraps of Knowledge - Ashe Amberhall; Twilight pages, west
+  note 94879's pages have no placed source in the data - gather five off the Twilight at the west camp below.
+  accept 94881 -- Curious Trinkets - Ashe Amberhall; Twilight charms, west
+  note 94907's pre (94881 above) fills at the first return - take it there.
+  accept 94926 -- Drop the Hammer - Demar Brant; Komuk's warmaul, central
+  note 94926 names no giver in the data - Demar offers it at the Keep.
+  accept 94982 -- Eye of Mugg - Demar Brant and Ashe Amberhall; the Eye, farmed with the pages below
+  note Overlord Mugg has no spawn in the data - have his Eye in your bags.
+
+step Farholde Keep - the town
+
+  accept 95603 -- Bats in the Belfry - Sister Rowland; roosting duskbats, the chapel yard
+  note 95613's pre (95603 above) fills in the chapel below - take it there with Rowland.
+  note 95913's pre (95561 below) fills at the first return - take it there with Tessa.
+  accept 95156 -- Stuff 'Em and Stick 'Em - Ember Bladewhisper; hay bales, the stables
+  note 95156's hay has no placed source in the data - gather it and have three bundles in your bags.
+  complete 95156
+  note 95184's pre (95156 above) fills in the close below - take it there with Ember.
+  accept 95943 -- Foreman's Plight - Bertrand Ironbrow; his crate, the worksite
+  note 96009's pre (95943 above) fills in the close below - take it there with Bertrand.
+  note 95943's crate has no placed source in the data - work the site and have it in your bags.
+  complete 95943
+  accept 95912 -- WANTED: Blademaster Kaijo - the wanted board; Kaijo's banner, central
+  accept 95991 -- WANTED: Ghostmaw - the wanted board; Ghostmaw's fang, central
+
+step The west Twilight camp - raiders and pages
+
+  complete 94877 @33.61,43.39 -- Twilight Raiders off the raiders for Demar Brant
+  complete 94877 @40.32,48.69 -- Twilight Shadowmancers off the shadowmancers for Demar Brant
+  complete 94877 @37.16,44.95 -- Twilight Neophytes off the neophytes for Demar Brant
+  collect 266425 x25 quest 94881.1 @40.32,48.69 -- Twilight Charms off the Twilight Shadowmancers for Ashe Amberhall
+  complete 94879
+  complete 94982
+  note The Marshal's Log (94885's starter) drops off the Twilight here - take one.
+  kill 256952 -- Twilight Raider, for the Marshal's Log
+  accept 94885 -- Field Marshal's Log - the log; Demar takes it
+
+step Farholde Keep - the first return
+
+  turnin 94879 -- Scraps of Knowledge - the pages to Demar Brant
+  turnin 94877 -- Saving Sunnyglade - back to Demar Brant
+  note 95561's pre (94877 above) fills here - take 95561 after it.
+  accept 95561 -- Apple of My Eye - Tessa Dawnbright; fresh apples, farmed with the pages above
+  note 95561's apples have no placed source in the data - gather them and have six in your bags.
+  complete 95561
+  turnin 95561 -- Apple of My Eye - the apples to Tessa Dawnbright
+  note 95913's pre (95561 above) fills here - take 95913 after it.
+  accept 95913 -- Fit for a Princess - Tessa Dawnbright; coyote pelts, the north fields
+  turnin 94885 -- Field Marshal's Log - back to Demar Brant
+  turnin 94881 -- Curious Trinkets - the charms to Ashe Amberhall
+  note 94907's pre (94881 above) fills here - take 94907 after it.
+  accept 94907 -- A Small Favor - Demar Brant and Ashe Amberhall; a Twilight thrall, west
+  turnin 94982 -- Eye of Mugg - the Eye to Demar Brant
+  note 94886's pre (94879 above) fills here - take 94886 after it.
+  accept 94886 -- The Western Front - Demar Brant; Riftan takes it west
+  note 94887's pre (94885 above) fills here - take 94887 after it.
+  accept 94887 -- Saving Marshal Ryan - Demar Brant; Ryan takes it west
+
+step The western front - Riftan and the fanatics
+
+  turnin 94886 -- The Western Front - Demar's word to Sergeant Riftan
+  kill 258652 quest 94907.1 -- Twilight Thrall, for Demar Brant and Ashe Amberhall
+  note 94888's and 94889's pres (94886 above) fill here - take both after it.
+  accept 94888 -- No Soldier Left Behind - Sergeant Riftan; the lines, west
+  accept 94889 -- Carving a Path - Sergeant Riftan; fanatics and corrupters, west
+  complete 94889 @24.89,43.58 -- Twilight Fanatics off the fanatics for Sergeant Riftan
+  complete 94889 @25.07,43.07 -- Twilight Corrupters off the corrupters for Sergeant Riftan
+  complete 94889 @25.82,40.31 -- Twilight Champions off the champions for Sergeant Riftan
+  turnin 94888 -- No Soldier Left Behind - back to Sergeant Riftan
+  turnin 94889 -- Carving a Path - back to Sergeant Riftan
+  note 94890's pre (94888 and 94889 above) fills here - take 94890 after it.
+  accept 94890 -- Bring Me His Head - Sergeant Riftan; Kilgar's head, west
+  note Overlord Kilgar is elite: grouping is advised.
+  collect 265837 quest 94890.1 @25.79,43.59 optional -- Kilgar's Head off Overlord Kilgar for Sergeant Riftan
+  turnin 94890 -- Bring Me His Head - back to Sergeant Riftan
+  note 94891's and 94983's pres (94890 above) fill here - take both after it.
+  accept 94891 -- News to Farholde - Sergeant Riftan; Ashe takes it east
+  accept 94983 -- Twilight Mementos - Sergeant Riftan; the Bangle, farmed below
+  note The Twilight Bangle's holders have no spawn in the data - have it in your bags.
+  complete 94983
+  turnin 94983 -- Twilight Mementos - back to Sergeant Riftan
+  note 94997's pre (94983 above) fills here - take 94997 after it.
+  accept 94997 -- Lingering Essence - Sergeant Riftan; Ashe takes it east
+  note 96015's pre (94886 above) fills here - take 96015 after it.
+  accept 96015 -- A Miner Problem - Sergeant Riftan; ogre miners and subjugators, north-west
+  complete 96015 @25.95,33.49 -- Ogre Miners off the miners for Sergeant Riftan
+  complete 96015 @26.06,34.43 -- Twilight Subjugators off the subjugators for Sergeant Riftan
+  turnin 96015 -- A Miner Problem - back to Sergeant Riftan
+
+step The Dalton farm - gnolls and scouts
+
+  accept 94678 -- Gnoll Infestation - Cedric Dalton; Redridge gnolls, north
+  note 94678's Horde twin runs from Neza Bloodsnout - ours is Dalton's.
+  accept 94679 -- Snargl's Snout - Cedric Dalton; Snargl's snout, north
+  note 94679's Horde twin runs from Neza Bloodsnout - ours is Dalton's.
+  accept 95147 -- The Lost Scout - Scout Bolain; Dalton takes the word, east
+  accept 95935 -- Hail the Dragonslayer - Cedric Dalton; Scaldaron's head, the far coast
+  note 95935 names no giver in the data - Dalton offers it at the Southern Watch.
+  complete 94678 @16.12,68.24 -- Redridge Mystics off the mystics for Cedric Dalton
+  complete 94678 @16.08,68.48 -- Redridge Trappers off the trappers for Cedric Dalton
+  complete 94678 @16.15,73.23 -- Redridge Brutes off the brutes for Cedric Dalton
+  note Snargl is elite: grouping is advised.
+  collect 265357 quest 94679.1 @16.02,71.89 optional -- Snargl's Snout off Snargl for Cedric Dalton
+  turnin 94678 -- Gnoll Infestation - back to Cedric Dalton
+  turnin 94679 -- Snargl's Snout - back to Cedric Dalton
+  turnin 95147 -- The Lost Scout - Bolain's word to Cedric Dalton
+  note 95148's pre (95147 above) fills here - take 95148 after it.
+  accept 95148 -- Southern Watch Gnoll Report - Cedric Dalton; Demar takes it east
+
+step The far west coast - Gelinda and Scaldaron
+
+  accept 95792 -- Clear 'em Out - Gelinda Coppergleam; cinderscale whelps and warriors, the shore
+  accept 95934 -- Proof of Profit - Gelinda Coppergleam; cubic draconia, the shore
+  note 95934's draconia has no placed source in the data - have it in your bags.
+  complete 95934
+  complete 95792 @28.72,67.16 -- Cinderscale Whelps off the whelps for Gelinda Coppergleam
+  complete 95792 @28.68,67.11 -- Cinderscale Warriors off the warriors for Gelinda Coppergleam
+  turnin 95792 -- Clear 'em Out - back to Gelinda Coppergleam
+  turnin 95934 -- Proof of Profit - back to Gelinda Coppergleam
+  note Scaldaron is rare elite: grouping is advised.
+  kill 263141 optional -- Scaldaron, for the Head of Scaldaron
+  collect 271612 quest 95935.1 @29.24,70.42 optional -- Head of Scaldaron off Scaldaron for Cedric Dalton
+  turnin 95935 -- Hail the Dragonslayer - the Head to Cedric Dalton, back east
+
+step Marshal Ryan - the dying wish
+
+  turnin 94887 -- Saving Marshal Ryan - Demar's word to Marshal Ryan
+  note 94892's pre (94887 above) fills here - take 94892 after it.
+  accept 94892 -- Dying Wish - Marshal Ryan; Demar takes it east
+
+step Farholde Keep - the second return
+
+  turnin 94891 -- News to Farholde - Riftan's word to Ashe Amberhall
+  turnin 94997 -- Lingering Essence - Riftan's word to Ashe Amberhall
+  note 94998's pre (94997 above) fills here - take 94998 after it.
+  accept 94998 -- Curios of Curiosity - Ashe Amberhall; Melanie takes it
+  turnin 94892 -- Dying Wish - Ryan's word to Demar Brant
+  turnin 94907 -- A Small Favor - the thrall's word to Ashe Amberhall
+  note 94984's pre (94907 above) fills here - take 94984 after it.
+  accept 94984 -- Tome of Twilight - Demar Brant and Ashe Amberhall; the Tome, farmed above
+  note Nar'gurk has no spawn in the data - have his Tome in your bags.
+  complete 94984
+  turnin 94984 -- Tome of Twilight - the Tome to Ashe Amberhall
+  note 94893's pre (94892 above) fills here - take 94893 after it.
+  accept 94893 -- Delivering Closure - Demar Brant; Abigail takes it in Stormwind, late
+  note 94894's pre (94891 far above) fills here - take 94894 after it.
+  accept 94894 -- The Twilight Threat - Demar Brant; Bolvar takes it in Stormwind, late
+  turnin 94998 -- Curios of Curiosity - Ashe's word to Melanie Sable
+
+step Curly and Hurley - the fallen tree
+
+  accept 94857 -- If a Tree Falls, and No One Hears... - Curly; Hurley takes the word, south
+  turnin 94857 -- If a Tree Falls, and No One Hears... - Curly's word to Hurley
+
+step Turner farm - crawfish and manure
+
+  note 94861's pre (94857 far above) fills here - take 94861 after the Curly step.
+  accept 94842 -- Unsavory Plant Food - Halligan Turner; shells, manure and heads, the shore
+  collect 266157 x4 quest 94842.1 @37.39,50.24 -- Jumbo Crawfish Shells off the crawfish for Halligan Turner
+  collect 267266 x8 quest 94842.3 @41.07,62.41 -- Mudfin Murloc Heads off the mudfins for Halligan Turner
+  note 94842's manure has no placed source in the data - have four in your bags.
+  complete 94842 @37.39,50.24
+  turnin 94842 -- Unsavory Plant Food - back to Halligan Turner
+  note 94843's pre (94842 above) fills here - take 94843 after it.
+  accept 94843 -- From Seed to Sprout - Halligan Turner; the sprout, south
+  turnin 94843 -- From Seed to Sprout - back to Halligan Turner
+  accept 94931 -- Stolen Saws - Halligan Turner; saw blades, the mill
+  note 94931's blades have no placed source in the data - work the mill and have eight in your bags.
+  complete 94931
+  turnin 94931 -- Stolen Saws - back to Halligan Turner
+  accept 95330 -- Love Thy Neighbor - Cassandra Wheeler; Turner takes the word, south
+  turnin 95330 -- Love Thy Neighbor - Cassandra's word to Halligan Turner
+  accept 94861 -- Helping Hands - Halligan Turner; Hurley's hand, south
+  note Turner and Hurley both offer 94861 - Turner's copy is the one to take.
+  turnin 94861 -- Helping Hands - back to Halligan Turner
+
+step Elbrim farm - what was lost
+
+  accept 94829 -- What We Lost - Farmer Elbrim; the farmstead, south
+  turnin 94829 -- What We Lost - back to Farmer Elbrim
+  note 94858's pre (94829 above) fills here - take 94858 after it.
+  accept 94858 -- All That's Left - Farmer Elbrim; the doll and the locket, south
+  note 94858's doll has no placed source in the data - have it in your bags.
+  collect 266252 quest 94858.2 @52.27,43.5 -- Damaged Locket off the Converted Farmer for Farmer Elbrim
+  complete 94858 @52.27,43.5
+  turnin 94858 -- All That's Left - back to Farmer Elbrim
+
+step Holmsby farm - hats and watchmen
+
+  accept 94923 -- Hats Off - Robbie Holmsby; his hat, the fields
+  note 94923's hat has no placed source in the data - work the fields and have it in your bags.
+  complete 94923
+  accept 94999 -- Eyes for the Watchman - Robbie Holmsby and Eleanor Holmsby; Fredericks takes the word, west
+  collect 271432 x3 quest 95913.1 @46.57,84.12 -- Coyote Pelts off the Plains Coyotes for Tessa Dawnbright
+  turnin 94923 -- Hats Off - back to Robbie Holmsby
+  turnin 94999 -- Eyes for the Watchman - the Holmsbys' word to Watcher Fredericks
+
+step The picked carcass - buzzards and tallstriders
+
+  accept 95983 -- A Feast for Buzzards - the Picked Carcass; Cornelius takes the word, east
+  turnin 95983 -- A Feast for Buzzards - the carcass's word to Watcher Cornelius
+  note 95984's pre (95983 above) fills here - take 95984 after it.
+  accept 95984 -- Song of the Strider - Watcher Cornelius; a tallstrider beak, the plains
+  collect 271778 quest 95984.1 @52.2,59.53 -- Intact Tallstrider Beak off the Roving Tallstrider for Watcher Cornelius
+  turnin 95984 -- Song of the Strider - back to Watcher Cornelius
+  note 95986's pre (95984 above) fills here - take 95986 after it.
+  accept 95986 -- King of the Wild Plains - Watcher Cornelius; Ombassa's hide, the plains
+  note Ombassa is elite: grouping is advised.
+  kill 263315 optional -- Ombassa, for the Hide of Ombassa
+  collect 281052 quest 95986.1 @55.12,70.37 optional -- Ombassa's Hide off Ombassa for Watcher Cornelius
+  turnin 95986 -- King of the Wild Plains - back to Watcher Cornelius
+
+step Cornelius outpost - hunters and supplies
+
+  accept 94924 -- Hunting the Hunters - Watcher Cornelius; Rog'mar poachers, south
+  accept 94925 -- A Fur Trade - Watcher Cornelius; prized lion hides, the plains
+  note 94928's and 96125's pres (94925 above, 94924 above) fill here - take both after the plains.
+  complete 94924 @52.91,57.39 -- Rog'mar Poachers off the poachers for Watcher Cornelius
+  collect 266888 x8 quest 94925.1 @49.06,57.76 -- Prized Lion Hides off the Wildplains Patriarch for Watcher Cornelius
+  turnin 94924 -- Hunting the Hunters - back to Watcher Cornelius
+  turnin 94925 -- A Fur Trade - back to Watcher Cornelius
+  note 94928's pre (94925 above) fills here - take 94928 after it.
+  accept 94928 -- A Few Furs for Friz - Watcher Cornelius; Friz takes it at the port, east
+  note 95064's pre (94924 above) fills here - take 95064 after it.
+  accept 95064 -- Preventative Measures - Watcher Cornelius; Rog'mar trainees, south
+  complete 95064 @52.28,51.83 -- Rog'mar Trainees off the trainees for Watcher Cornelius
+  turnin 95064 -- Preventative Measures - back to Watcher Cornelius
+  note 95426's pre (94924 above) fills here - take 95426 after it.
+  accept 95426 -- Rog'mar Supplies - Watcher Cornelius; the supply crate, south
+  note 95426's crate has no placed source in the data - have it in your bags.
+  complete 95426
+  turnin 95426 -- Rog'mar Supplies - back to Watcher Cornelius
+  note 95066's pre (95064 and 95426 above) fills here - take 95066 after it.
+  accept 95066 -- The Rog'mar Situation - Watcher Cornelius; Demar takes it east
+  note 96125's pre (94924 and 94925 above) fills here - take 96125 after it.
+  accept 96125 -- In Need of Relief - Watcher Cornelius; Dunston takes it north
+  note 95329's pre (94615 below and 94877 above) will fill at Wheeler's - take 95329 there.
+
+step Wheeler ranch - horses and coyotes
+
+  turnin 94613 -- My Kingdom for a Horse - Demar's word to Benjy Wheeler
+  accept 94614 -- Freshwater Fiends - Benjy Wheeler; mudfin warriors and oracles, the shore
+  accept 94615 -- Foal Play - Benjy Wheeler; the pawprint tracing, the plains
+  note 94615's tracing has no placed source in the data - have it in your bags.
+  complete 94615
+  turnin 94615 -- Foal Play - back to Benjy Wheeler
+  note 94617's and 94618's pres (94615 above) fill here - take both after it.
+  accept 94617 -- Coyote Huntin' - Benjy Wheeler; Sootfur's pelt, north
+  accept 94618 -- Wheeler's Fleeing Steeds - Benjy Wheeler; the lost horse, the paddock
+  complete 94614 @41.07,62.41 -- Mudfin Warriors off the warriors for Benjy Wheeler
+  complete 94614 @41.38,59.08 -- Mudfin Oracles off the oracles for Benjy Wheeler
+  turnin 94614 -- Freshwater Fiends - back to Benjy Wheeler
+  collect 265738 quest 94617.1 @51.68,85.04 -- Sootfur's Pelt off Sootfur for Benjy Wheeler
+  turnin 94617 -- Coyote Huntin' - back to Benjy Wheeler
+  turnin 94618 -- Wheeler's Fleeing Steeds - the steeds to the Lost Horse
+  note 94992's pre (94618 above) fills here - take 94992 after it.
+  accept 94992 -- Rescue Roundup - the Lost Horse; Wheeler takes the word
+  turnin 94992 -- Rescue Roundup - the Horse's word to Benjy Wheeler
+  note 95329's pre (94615 above and 94877 far above) fills here - take 95329 after it.
+  accept 95329 -- Out in the Field - Demar Brant; Cornelius takes it east
+  turnin 95329 -- Out in the Field - Demar's word to Watcher Cornelius
+
+step Fuzzle and Claire - bones and heads
+
+  accept 94961 -- Biting the Hand - Fuzzle; Twilight finger bones, west
+  collect 267073 x20 quest 94961.1 @40.32,48.69 -- Twilight Finger Bones off the Twilight Shadowmancers for Fuzzle
+  turnin 94961 -- Biting the Hand - back to Fuzzle
+  note 94963's pre (94961 above) fills here - take 94963 after it.
+  accept 94963 -- Biting the Hand - Fuzzle; the follow-up
+  note 94963 has no turn-in in the data - take it and carry on.
+  accept 95642 -- Abominable Magics - Apprentice Claire; the Twilight, west
+  accept 95643 -- Indiscriminate Purge - Apprentice Claire; brutes and ritualists, west
+  complete 95643 @44.14,49.67 -- Empowered Brutes off the brutes for Apprentice Claire
+  complete 95643 @44.96,51.18 -- Twilight Ritualists off the ritualists for Apprentice Claire
+  turnin 95642 -- Abominable Magics - back to Apprentice Claire
+  turnin 95643 -- Indiscriminate Purge - back to Apprentice Claire
+  note 95562's pre (95642 and 95643 above) fills here - take 95562 after it.
+  accept 95562 -- Cut Off the Heads - Apprentice Claire; Chogg'Zac's heads, the ogre camp
+  note Chogg'Zac is elite: grouping is advised.
+  kill 256899 optional -- Chogg'Zac, for the Heads of Chogg'Zac
+  collect 265750 quest 95562.1 @44.33,50.01 optional -- Chogg's Head off Chogg'Zac for Apprentice Claire
+  collect 265751 quest 95562.2 @44.33,50.01 optional -- Zac's Head off Chogg'Zac for Apprentice Claire
+  turnin 95562 -- Cut Off the Heads - back to Apprentice Claire
+  note 94884's pre (95562 above) fills here - take 94884 after it.
+  accept 94884 -- An Unsettling Discovery - Apprentice Claire; Ashe takes it east
+
+step The central hunt - Komuk, Kaijo and Ghostmaw
+
+  note Komuk is elite: grouping is advised.
+  kill 259056 optional -- Komuk, for Komuk's Warmaul
+  collect 266889 quest 94926.1 @57.76,49.71 optional -- Komuk's Warmaul off Komuk for Demar Brant
+  note Blademaster Kaijo is elite: grouping is advised.
+  kill 263071 optional -- Blademaster Kaijo, for the Blademaster's Banner
+  collect 271425 quest 95912.1 @52.33,51.81 optional -- Blademaster's Banner off Blademaster Kaijo for Ember Bladewhisper
+  note Ghostmaw is elite: grouping is advised.
+  kill 263380 optional -- Ghostmaw, for Ghostmaw's Fang
+  collect 271828 quest 95991.1 @40.37,65.36 optional -- Ghostmaw's Fang off Ghostmaw for Wheatley
+  turnin 95912 -- WANTED: Blademaster Kaijo - the Banner to Ember Bladewhisper
+  turnin 95991 -- WANTED: Ghostmaw - the Fang to Wheatley
+
+step Dumas - the moulding and the key
+
+  note The Krol'dok Moulding's only dropper Tunk has no spawn in the data - have the mould in your bags.
+  accept 94980 -- Krol'dok Moulding - the mould; Dumas takes it
+  turnin 94980 -- Krol'dok Moulding - the mould to Alphonse Dumas
+  turnin 95913 -- Fit for a Princess - the pelts to Tessa Dawnbright
+  note 94981's pre (94980 above) fills here - take 94981 after it.
+  accept 94981 optional -- Key Ingredients - Alphonse Dumas; leather and iron bars, farmed below
+  note 94981 needs Blacksmithing to finish - take it with the trade.
+  note Thick Leather has no vendor in the Glades (Lhara sells it, Dustwallow) and Iron Bars come off no line here - have four leather and twelve bars in your bags.
+  when skill Blacksmithing 1
+  turnin 94981 optional -- Key Ingredients - the leather and iron to Alphonse Dumas
+
+step Rowland chapel - wound dressings and water
+
+  complete 95603 @60.15,84.41 -- Roosting Duskbats off the duskbats for Sister Rowland
+  turnin 95603 -- Bats in the Belfry - back to Sister Rowland
+  note 95613's pre (95603 above) fills here - take 95613 after it.
+  accept 95613 -- Keeping the Light On - Sister Rowland; holy candles, farmed below
+  note 95613's candles have no vendor in the Glades - buy five off-zone and have them in your bags.
+  turnin 95613 -- Keeping the Light On - the candles to Sister Rowland
+  note 95615's pre (95613 above) fills here - take 95615 after it.
+  accept 95615 -- In Memoriam - Sister Rowland; the memorial, the chapel
+  turnin 95615 -- In Memoriam - back to Sister Rowland
+  accept 96081 -- Wound Dressings - Brother Lowley; mageweave cloth, the chapel
+  note 96081's cloth has no placed source in the Glades - have twenty Mageweave Cloth in your bags.
+  complete 96081 @65.55,78.97
+  turnin 96081 -- Wound Dressings - the cloth to Brother Lowley
+  note 96082's pre (96081 above) fills here - take 96082 after it.
+  accept 96082 -- Doctor's Orderly - Brother Lowley; wounded soldiers, the ward
+  complete 96082 @65.43,79.21 -- Wounded Soldiers off the wounded for Brother Lowley
+  turnin 96082 -- Doctor's Orderly - back to Brother Lowley
+  note 96083's pre (96082 above) fills here - take 96083 after it.
+  accept 96083 -- Clerical Quarantine - Brother Lowley; Rowland takes the word, the chapel
+  turnin 96083 -- Clerical Quarantine - Lowley's word to Sister Rowland
+  note 96084's pre (96083 above) fills here - take 96084 after it.
+  accept 96084 -- Something's in the Water - Sister Rowland; fill the phial, the plains
+  note Rowland hands an Empty Phial with the quest - fill it at the plains water.
+  use 281229 quest 96084.1 @41.5,60 -- Fill the Empty Phial at the water for Sister Rowland
+  turnin 96084 -- Something's in the Water - the filled phial to Sister Rowland
+  note 96085's pre (96084 above) fills here - take 96085 after it.
+  accept 96085 -- Upstream Contamination - Sister Rowland; the headwaters, north
+  turnin 96085 -- Upstream Contamination - back to Sister Rowland
+
+step Powderfuse Port - Friz and the smugglers
+
+  accept 95059 -- Frazzlespark's Crate - Friz Frazzlespark; Demar takes it east
+  accept 95219 -- From Port to Port - Friz Frazzlespark; Mardrack takes it in Tanaris, late
+  accept 95288 -- Smuggler's Paradise - Friz Frazzlespark; smuggled goods off the Eastsea, east
+  note 94928's pre was paid at Cornelius's - Friz takes the furs here.
+  turnin 94928 -- A Few Furs for Friz - Cornelius's word to Friz Frazzlespark
+  complete 95288 @79.04,49.14 -- Smuggled Goods off the Eastsea Buccaneers for Friz Frazzlespark
+  turnin 95288 -- Smuggler's Paradise - back to Friz Frazzlespark
+  note 95293's pre (95288 above) fills here - take 95293 after it.
+  accept 95293 -- Smuggler's Special - Friz Frazzlespark; Bentcoin takes it on the north-east isle
+
+step Powderfuse Port - Whizzbuzz and the Eastsea
+
+  accept 95118 -- Saltwater Savages - Wharfmaster Whizzbuzz; murloc warriors and oracles, the shore
+  accept 95119 -- Unfriendly Competition - Wharfmaster Whizzbuzz; buccaneers and musketeers, east
+  note 95122's and 95123's pres (95119 above) fill here - take both after the coast.
+  accept 95120 -- WANTED: Old Rot-Chum - the wanted board; Rot-Chum's harpoon, the lake
+  note Old Rot-Chum is elite: grouping is advised.
+  accept 95254 -- WANTED: Trapclaw - the wanted board; Trapclaw's pincer, the shore
+  complete 95118 @64.88,73.52 -- Murloc Warriors off the warriors for Wharfmaster Whizzbuzz
+  complete 95118 @66.36,76.95 -- Murloc Oracles off the oracles for Wharfmaster Whizzbuzz
+  complete 95119 @79.04,49.14 -- Eastsea Buccaneers off the buccaneers for Wharfmaster Whizzbuzz
+  complete 95119 @80.45,43.11 -- Eastsea Musketeers off the musketeers for Wharfmaster Whizzbuzz
+  turnin 95118 -- Saltwater Savages - back to Wharfmaster Whizzbuzz
+  turnin 95119 -- Unfriendly Competition - back to Wharfmaster Whizzbuzz
+  note 95122's pre (95119 above) fills here - take 95122 after it.
+  accept 95122 -- Unchecked Expansion - Wharfmaster Whizzbuzz; raiders and bombardiers, east
+  note 95123's pre (95119 above) fills here - take 95123 after it.
+  accept 95123 -- A Blast Ye Scurvy Dogs! - Wharfmaster Whizzbuzz; powder kegs, the wrecks
+  note 95123's kegs have no placed source in the data - work the wrecks and have five in your bags.
+  complete 95123
+  complete 95122 @69.65,34.86 -- Eastsea Raiders off the raiders for Wharfmaster Whizzbuzz
+  complete 95122 @76.11,32.93 -- Eastsea Bombardiers off the bombardiers for Wharfmaster Whizzbuzz
+  turnin 95122 -- Unchecked Expansion - back to Wharfmaster Whizzbuzz
+  turnin 95123 -- A Blast Ye Scurvy Dogs! - back to Wharfmaster Whizzbuzz
+  note 95124's and 95165's pres (95123 above) fill here - take both after it.
+  accept 95124 -- Admiral Lamora - Wharfmaster Whizzbuzz; Lamora and her loot, the far east
+  accept 95165 -- See Ya, Scallywags! - Wharfmaster Whizzbuzz; the all-clear, east
+  note Lamora is elite: grouping is advised.
+  kill 257861 optional -- Admiral Lamora, for Lamora's head and loot
+  note 95124's loot has no other placed source in the data - have it in your bags with Lamora's head.
+  complete 95124 @88.51,32.63
+  turnin 95124 -- Admiral Lamora - back to Wharfmaster Whizzbuzz
+  turnin 95165 -- See Ya, Scallywags! - back to Wharfmaster Whizzbuzz
+  kill 257001 optional -- Old Rot-Chum, for the Rot-Covered Harpoon
+  collect 268341 quest 95120.1 @72.66,70.78 optional -- Rot-Covered Harpoon off Old Rot-Chum for Wharfmaster Whizzbuzz
+  turnin 95120 -- WANTED: Old Rot-Chum - the Harpoon to Wharfmaster Whizzbuzz
+  kill 260235 optional -- Trapclaw, for Trapclaw's Pincer
+  collect 268586 quest 95254.1 @78.99,53.12 -- Trapclaw's Pincer off Trapclaw for Fimbo Greasemitz
+  turnin 95254 -- WANTED: Trapclaw - the Pincer to Fimbo Greasemitz
+
+step Powderfuse Port - Fimbo, Argo and the port quests
+
+  accept 95121 -- A Taste of the Sea - Fimbo Greasemitz; murloc eyes and crawler meat, the shore
+  accept 95982 -- Not My Circus - Jasper Geartoggle; ten briny seafood stews, the port
+  note 95982 needs Cooking to finish - take it with the trade.
+  note 95982's stews have no source in the data - cook or bring ten in your bags.
+  when skill Cooking 1
+  turnin 95982 optional -- Not My Circus - the stews to Jasper Geartoggle
+  accept 95260 -- Terrors From the Deep - the painted hide; Argo takes the word
+  accept 96063 -- Gaseous Gold - Sleebo Fizzlespout; marsh gas vials, the marsh
+  note 96063's gas has no placed source in the data - work the marsh and have five vials in your bags.
+  complete 96063
+  turnin 96063 -- Gaseous Gold - back to Sleebo Fizzlespout
+  note 96067's pre (96063 above) fills here - take 96067 after it.
+  accept 96067 -- Rock 'em and Sock 'em - Sleebo Fizzlespout; the slugfest, the marsh
+  turnin 96067 -- Rock 'em and Sock 'em - back to Sleebo Fizzlespout
+  turnin 95260 -- Terrors From the Deep - the hide's word to Argo Brinewhistle
+  note 95261's pre (95260 above) fills here - take 95261 after it.
+  accept 95261 -- It Takes Guts - Argo Brinewhistle; entrails and mushrooms, the shore
+  collect 268632 x15 quest 95261.1 @36.93,43.93 -- Beast Entrails off the Mature Paletusk for Argo Brinewhistle
+  note 95261's mushrooms have no placed source in the data - have eight Rotflesh Mushrooms in your bags.
+  complete 95261 @36.93,43.93
+  turnin 95261 -- It Takes Guts - back to Argo Brinewhistle
+  note 95267's pre (95261 above) fills here - take 95267 after it.
+  accept 95267 -- The Monster Surfaces - Argo Brinewhistle; the Threshadon's head, the lake
+  collect 268633 quest 95267.1 @70.97,73.73 -- Sea Monster's Head off the Monstrous Threshadon for Argo Brinewhistle
+  turnin 95267 -- The Monster Surfaces - back to Argo Brinewhistle
+  collect 268344 x12 quest 95121.1 @66.36,76.95 -- Saltwater Murloc Eyes off the Murloc Oracles for Fimbo Greasemitz
+  collect 268345 x6 quest 95121.2 @56.02,87.05 -- Sand Crawler Meat off the Sand Crawlers for Fimbo Greasemitz
+  turnin 95121 -- A Taste of the Sea - back to Fimbo Greasemitz
+  note This step ends the port passes - the north and the Gray chain follow.
+
+step The northern ogres - Dunston and Gronok
+
+  turnin 96125 -- In Need of Relief - Cornelius's word to Dunston Willis
+  note 96126's pre (96125 above) fills here - take 96126 after it.
+  accept 96126 -- An Ogre's Captive - Dunston Willis; Gronok's key, the ogre mound
+  collect 272190 quest 96126.1 @65.19,18.72 -- Gronok's Key off Gronok the Butcher for Dunston Willis
+  turnin 96126 -- An Ogre's Captive - back to Dunston Willis
+  note 94927's pre (96126 above) fills here - take 94927 after it.
+  accept 94927 -- Dunston Checks Out - Dunston Willis; Cornelius takes it south
+
+step The north-east isle - Bentcoin and Haynes
+
+  turnin 95293 -- Smuggler's Special - Friz's word to Captain Bentcoin
+  accept 95294 -- Smuggler's Bargain - Captain Haynes; Friz takes it at the port
+  turnin 95294 -- Smuggler's Bargain - Haynes's word to Friz Frazzlespark
+  note 95295's and 95296's pres (95294 above) fill here - take both after it.
+  accept 95295 -- I Know a Guy - Friz Frazzlespark; Ruzzgot takes it in Stranglethorn, late
+  accept 95296 -- Shipping and Handling - Friz Frazzlespark; Steamfizzle takes it on the Thunder Bluff map, late
+  note Steamfizzle stands on the Thunder Bluff map per the data - the expedition leg covers him.
+
+step Powderfuse Port - the Gray chain, part one
+
+  note 95961's pre (95913 far above, turned in at Dumas's) fills here - take 95961 after it.
+  accept 95961 -- Stepped Out - Gray Dawnbright; Tessa takes the word, west
+
+step Powderfuse Port - writ: potion (Alchemy)
+
+  when skill Alchemy 1
+
+  goto 76.91,54.07
+  accept 94262 optional -- Craftsman's Writ: Mana Potion - Spek; the writ and a potion, farmed below
+  note 94262's starter (the writ) has no placed source in the data - have it in your bags.
+  note The Mana Potion is bought off-zone (Glyx Brewright, Stranglethorn, sells them) - bring one.
+  turnin 94262 optional -- Craftsman's Writ: Mana Potion - the writ and potion to Spek
+
+step Powderfuse Port - writ: coif (Blacksmithing)
+
+  when skill Blacksmithing 1
+
+  goto 76.91,54.07
+  accept 94274 optional -- Craftsman's Writ: Golden Scale Coif - Spek; the writ and a coif, farmed below
+  note 94274's starter (the writ) has no placed source in the data - have it in your bags.
+  note The Golden Scale Coif has no vendor in the data - craft or bring one.
+  turnin 94274 optional -- Craftsman's Writ: Golden Scale Coif - the writ and coif to Spek
+
+step Powderfuse Port - writ: bomb (Engineering)
+
+  when skill Engineering 1
+
+  goto 76.91,54.07
+  accept 94286 optional -- Craftsman's Writ: Flash Bomb - Spek; the writ and a bomb, farmed below
+  note 94286's starter (the writ) has no placed source in the data - have it in your bags.
+  note The Flash Bomb has no vendor in the data - craft or bring one.
+  turnin 94286 optional -- Craftsman's Writ: Flash Bomb - the writ and bomb to Spek
+
+step Powderfuse Port - writ: boots (Leatherworking)
+
+  when skill Leatherworking 1
+
+  goto 76.91,54.07
+  accept 94298 optional -- Craftsman's Writ: Swift Boots - Spek; the writ and boots, farmed below
+  note 94298's starter (the writ) has no placed source in the data - have it in your bags.
+  note Swift Boots have no vendor in the data - craft or bring a pair.
+  turnin 94298 optional -- Craftsman's Writ: Swift Boots - the writ and boots to Spek
+
+step Powderfuse Port - writ: vest (Tailoring)
+
+  when skill Tailoring 1
+
+  goto 76.91,54.07
+  accept 94310 optional -- Craftsman's Writ: Black Mageweave Vest - Spek; the writ and a vest, farmed below
+  note 94310's starter (the writ) has no placed source in the data - have it in your bags.
+  note The vest has no vendor in the data - craft or bring one.
+  turnin 94310 optional -- Craftsman's Writ: Black Mageweave Vest - the vest to Spek
+
+step Riverglades - the close
+
+  turnin 95156 -- Stuff 'Em and Stick 'Em - the hay to Ember Bladewhisper
+  turnin 95943 -- Foreman's Plight - the crate to Bertrand Ironbrow
+  note 96009's pre (95943 above) fills here - take 96009 after it.
+  accept 96009 -- High Stakes - Bertrand Ironbrow; wood bundles, farmed above
+  note 96009's wood has no placed source in the data - have ten Wood Bundles in your bags.
+  complete 96009
+  turnin 96009 -- High Stakes - the wood to Bertrand Ironbrow
+  note 95184's pre (95156 far above) fills here - take 95184 after it.
+  accept 95184 optional -- The Sharpest of Blades - Ember Bladewhisper; sharpening stones, farmed below
+  note 95184 needs Blacksmithing to finish - take it with the trade.
+  note Sharpening stones have no vendor in the data - craft or bring eight in your bags.
+  when skill Blacksmithing 1
+  turnin 95184 optional -- The Sharpest of Blades - the stones to Ember Bladewhisper
+  turnin 94884 -- An Unsettling Discovery - Claire's word to Ashe Amberhall
+  turnin 95059 -- Frazzlespark's Crate - Friz's word to Demar Brant
+  turnin 95066 -- The Rog'mar Situation - Cornelius's word to Demar Brant
+  turnin 94926 -- Drop the Hammer - the warmaul to Demar Brant
+  turnin 95148 -- Southern Watch Gnoll Report - Cedric's word to Demar Brant
+  turnin 95961 -- Stepped Out - Gray's word to Tessa Dawnbright
+  turnin 94927 -- Dunston Checks Out - Dunston's word to Watcher Cornelius
+
+step Powderfuse Port - the Gray chain, part two
+
+  note 95988's pre (95961 far above, turned in at the close) fills here - take 95988 after it.
+  accept 95988 -- Goes Down Smooth - Innkeeper Zizplink and Wharfmaster Whizzbuzz; spittle and fixings, east
+  collect 271650 x3 quest 95988.1 @73.35,17.1 -- Crawler Spittle off the Shore Crawlers for Innkeeper Zizplink
+  buy 271657 -- Fresh Chum - Gritta Chumwater's stock, the port
+  buy 271653 -- Goblin Degreaser - Kor'gar's stock, the port
+  buy 271654 -- Expired Poison - Krikshank's stock, the port
+  turnin 95988 -- Goes Down Smooth - back to Innkeeper Zizplink
+  note 95957's pre (95988 above) fills here - take 95957 after it.
+  accept 95957 -- Drink Up! - Innkeeper Zizplink; Gray takes the word, the port
+  turnin 95957 -- Drink Up! - Zizplink's word to Gray Dawnbright
+  note 95975's pre (95957 above) fills here - take 95975 after it.
+  accept 95975 -- Her World - Gray Dawnbright; wildflowers, the hills
+  note 95975's flowers have no placed source in the data - gather twenty and have them in your bags.
+  complete 95975
+
+step Farholde - Gray's word delivered
+
+  turnin 95975 -- Her World - Gray's word to Tessa Dawnbright
+
+step Expedition - Stormwind, the caravan road home
+
+  zone map 1453
+
+  turnin 94893 -- Delivering Closure - the port to Abigail Lawson
+  turnin 94894 -- The Twilight Threat - the word to Highlord Bolvar Fordragon
+  zone map 2548
+
+step Expedition - Tanaris, Mardrack's word
+
+  zone map 1444
+
+  turnin 95219 -- From Port to Port - Friz's word to Mardrack Greenwell
+  zone map 2548
+
+step Expedition - Stranglethorn, Ruzzgot's word
+
+  zone map 1434
+
+  turnin 95295 -- I Know a Guy - Friz's word to Caravaneer Ruzzgot
+  zone map 2548
+
+step Expedition - Thunder Bluff, Steamfizzle's word
+
+  zone map 1446
+
+  turnin 95296 -- Shipping and Handling - Friz's word to Wharfmaster Steamfizzle
+  zone map 2548
+
+step Riverglades - done
+
+  note The Glades are done: Farholde holds, the front holds, the port ships. The Horde side belongs to the Horde block.
