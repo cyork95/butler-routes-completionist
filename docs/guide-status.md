@@ -370,9 +370,9 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 
 ### Searing Gorge — contested (Eastern Kingdoms)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 88 candidates, 39 IN / 49 OUT (19 Horde set aside)
+- [x] Core guide - `searing-gorge.guide`
+- [x] Lint/playtest clean - 0 errors, 36 warnings (all dispositioned), playtest 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
