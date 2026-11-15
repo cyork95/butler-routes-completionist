@@ -275,7 +275,7 @@ _Skyborne country._
 - [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 7 rares + containers, 29 recipes (25 vendor + 4 exclusive drops), 0 lint errors/warnings
 
 ### Arathi Highlands — contested
 
