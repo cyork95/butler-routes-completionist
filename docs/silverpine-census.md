@@ -16,7 +16,7 @@ Band 10-20 from the minLevel cluster (bulk min9-12, seconds min14-20, gap
 above 20). Single min24+ records are outliers and go out by the minLevel
 rule (finale quests are IN only if their minLevel is in band).
 
-## IN (68)
+## IN (67; was 68 before 96988 moved to OUT - see BORDERLINE B7)
 
 Dalar Dawnweaver chain (Sepulcher north): 421 Prove Your Worth (min12),
 422/423/424 Arugal's Folly (min9), 99 Arugal's Folly (min9, ends Dalar),
@@ -100,8 +100,8 @@ Undead-only hub (races=16, only Undead): 6321 Supplying the Sepulcher
 (min10), 6323 Ride to the Undercity (pre 6321; ends Wendham, Undercity -
 chain continues out).
 
-Felben: 96988 Source of Power (min1; starter Felben dual-spawns 1421
-@72.00,9.40 / Undercity - accept at the Silverpine spawn).
+Felben: 96988 Source of Power - REMOVED to OUT (min24, not min1 as first
+transcribed; see BORDERLINE B7).
 
 No profession quests in contract (every candidate skill field null) -
 stated, not padded. No trainer-taught content. No same-name twin IDs.
@@ -137,7 +137,8 @@ Monastery (min33), 6521/6522 An Unholy Alliance (min28; 6522's Small
 Scroll 17008 has no source anywhere), 78676 The Eye of Bhossca (min30),
 78699 The Eye of Bhossca (min25, empty-start twin of 78676), 6145 The
 Crimson Courier (min56, pre outside), 5961 Champion of the Banshee Queen
-(min54; starter Sylvanas has no 1421 spawn - accepts outside too), 8578
+(min54; starter Sylvanas has no 1421 spawn - accepts outside too), 96988
+Source of Power (min24 - see BORDERLINE B7), 8578
 Scrying Goggles (min60; Tanaris pre chain 8577), 97049 Essence of Seeping
 Slimes (min55), 96984 Heart of Disruption (min24 - see BORDERLINE B1).
 
@@ -182,4 +183,10 @@ B6 - 1098 Deathstalkers in Shadowfang (ender Vincent 4444 unplaced):
 IN with honest note. Argued: the turn-in EXISTS in the data (quest.end),
 only the spawn is missing - this is not an accept-only record and the
 turnin is not invented (no coords). Lint judges the goal.
+
+B7 - 96988 Source of Power (min24 lvl33, no pre, ends Felben dual-spawn
+Silverpine/Undercity): OUT. Argued: same shape as B1 without the outside
+pre - a Silverpine starter and ender, unplayable at zone level, barred by
+the minLevel band top (10-20). The Felben NPC stays in the guide's
+geography only as a landmark; no quest line rides him.
 
