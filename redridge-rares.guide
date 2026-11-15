@@ -1,0 +1,280 @@
+# Butler Routes - Redridge rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 8 confirmed rares and the fixed world
+# containers of Redridge Mountains. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is not
+# up never holds the route. Spawn points and levels are the local Forever game
+# data (questie-forever); the data records no loot on any of these eight rares,
+# so there are no signature drops to chase. Respawn timers are unconfirmed
+# anywhere, so none are stated. No rare in this guide is a giver, ender, or
+# objective of any core-contracted quest. See
+# docs/redridge-companions-inventory.md for the full inventory this guide was
+# built against.
+guide butler-routes-completionist/redridge-rares
+title Redridge Mountains - Rares & Treasures
+levels 14-26
+zone Redridge Mountains
+faction Alliance
+category Collectibles
+folder Companions
+keywords redridge, rares, treasures, companions
+coords live
+version 1
+
+step Kazon — the northern hills
+
+  loop
+  goto 29.81,8.27
+  goto 29.92,6.72
+  goto 31.31,9.38
+  goto 31.78,11.98
+  kill 584 optional
+  note Level 27 rare, flagged rare in the data, just above the zone band but killable on the way past.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Chatter — central Redridge
+
+  loop
+  goto 43.12,41.11
+  goto 45.21,36.88
+  goto 45.48,34.63
+  goto 46.33,38.66
+  goto 47.04,32.58
+  goto 47.04,45.24
+  goto 47.38,36.15
+  goto 47.4,43.11
+  goto 48.26,46.07
+  goto 48.28,49.12
+  goto 49.71,41.76
+  goto 50.12,37.74
+  goto 51.4,47.08
+  goto 53.21,48.29
+  kill 616 optional
+  note Level 23 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Rohh the Silent — the eastern ridge
+
+  loop
+  goto 68.8,35.5
+  goto 70.38,39.59
+  goto 70.71,29.71
+  goto 70.98,47.29
+  goto 71.36,37.75
+  goto 73.6,35.54
+  goto 73.72,40.75
+  goto 76.2,55.68
+  goto 77.36,56.21
+  goto 77.59,53.91
+  goto 78.76,57.52
+  goto 78.84,59.33
+  goto 79.16,51.01
+  kill 947 optional
+  note Level 26 rare, flagged rare in the data, out along the eastern ridge.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Seeker Aqualon — the southern shore
+
+  loop
+  goto 55,56.24
+  goto 57.29,61.19
+  goto 62.03,71.41
+  kill 14269 optional
+  note Level 21 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Squiddic — Lake Everstill
+
+  loop
+  goto 30.7,56.46
+  goto 32.55,58.83
+  goto 33.13,54.34
+  goto 33.6,56.29
+  goto 34.38,61.71
+  goto 34.56,53.2
+  goto 35.78,64.86
+  goto 35.79,67.63
+  goto 36.14,62.16
+  goto 37.12,50.55
+  goto 39.26,63.44
+  goto 40.23,50.36
+  goto 40.45,65.55
+  goto 40.76,68.06
+  goto 42.08,52.4
+  goto 42.67,54.13
+  goto 42.94,70.7
+  goto 43.54,56.28
+  goto 44.16,72.14
+  goto 44.71,68.91
+  goto 44.8,65.34
+  goto 45.12,55.29
+  goto 45.23,67.22
+  goto 46.32,56.3
+  goto 33.32,52.74
+  goto 36.74,51.07
+  goto 38.1,51.45
+  goto 40.59,50.65
+  goto 41.37,68.81
+  goto 43.27,68.82
+  goto 44.12,70.79
+  kill 14270 optional
+  note Level 19 rare, flagged rare in the data, working the lake.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Ribchaser — the west and the southern shore
+
+  loop
+  goto 8.48,62.54
+  goto 8.96,65.52
+  goto 9.25,61.11
+  goto 9.74,61.09
+  goto 10.29,66.42
+  goto 11.05,65.3
+  goto 11.36,62.97
+  goto 14.46,61.75
+  goto 22.61,84.37
+  goto 24.39,83.97
+  goto 25.67,80.46
+  goto 25.82,83.91
+  goto 27.21,82.99
+  goto 27.32,82.5
+  goto 29.35,83.22
+  kill 14271 optional
+  note Level 17 rare, flagged rare in the data, in two clusters: the far west and the southern shore.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Snarlflare — the lake edge and the eastern hills
+
+  loop
+  goto 29.12,68.74
+  goto 29.42,66.16
+  goto 30.99,64.29
+  goto 31.47,65.28
+  goto 35.11,32.67
+  goto 37.39,30.99
+  goto 37.61,33.35
+  goto 38.86,29.68
+  goto 39.14,33.34
+  goto 42.62,33.54
+  goto 42.92,35.13
+  goto 44.54,33.12
+  kill 14272 optional
+  note Level 18 rare, flagged rare in the data, in two clusters: the lake's west edge and the eastern hills.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Boulderheart — the far east
+
+  goto 83.77,66.84
+  kill 14273 optional
+  note Level 25 rare, flagged rare in the data, out in the far east.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Fixed Chests — world containers
+
+  loop
+  goto 9.48,61.88
+  goto 9.92,64.12
+  goto 11.89,63.51
+  goto 12.05,18.25
+  goto 14.8,21.3
+  goto 15.87,36.18
+  goto 18.2,27.02
+  goto 22.08,21.36
+  goto 22.78,83.99
+  goto 22.93,28.32
+  goto 24.61,84.56
+  goto 27.14,83.21
+  goto 28.95,25.87
+  goto 34.06,31.84
+  goto 38.82,70.98
+  goto 47.26,46.73
+  goto 50.9,57.36
+  goto 20.68,15.23
+  goto 21.29,8.27
+  goto 23.83,17.7
+  goto 28.55,7.71
+  goto 30.25,10.03
+  goto 31.47,7.73
+  goto 36.44,10.46
+  goto 52.95,51.79
+  goto 56.09,43.91
+  goto 61.15,57.44
+  goto 63.18,54.48
+  goto 64.14,60.09
+  goto 68.52,55.12
+  goto 68.8,80.52
+  goto 69.65,50.24
+  goto 70.39,29.9
+  goto 70.55,47.39
+  goto 71.12,37.47
+  goto 74.05,40.28
+  goto 74.58,44.81
+  goto 75.07,54.73
+  goto 76.33,60.48
+  goto 78.6,58.17
+  goto 80,46.4
+  goto 22.78,15.03
+  goto 64.4,55.12
+  goto 30.18,10.74
+  goto 31.13,7.28
+  goto 54.92,42.85
+  goto 58,48.63
+  goto 64.55,55.03
+  goto 68.41,78.4
+  goto 68.65,54.93
+  goto 70.5,46.63
+  goto 71.38,37.34
+  goto 72.67,66.04
+  goto 74.14,48.12
+  goto 10.13,64.39
+  goto 11.87,62.9
+  goto 16.5,36.81
+  goto 16.54,45.54
+  goto 17.33,44.44
+  goto 18.34,27.18
+  goto 18.79,41.59
+  goto 21.88,42.53
+  goto 22.79,22.06
+  goto 25.28,59.79
+  goto 25.92,84.43
+  goto 26.83,83.01
+  goto 28.36,52.69
+  goto 33.87,32.08
+  goto 32.71,58.85
+  goto 34.28,61.92
+  goto 38.32,64.46
+  goto 39.63,55.99
+  goto 39.78,59.05
+  goto 42.82,54.28
+  goto 45.16,55.12
+  goto 47.08,61.3
+  goto 36.43,54.66
+  interact 2849 optional
+  interact 2850 optional
+  interact 3659 optional
+  interact 3662 optional
+  interact 3695 optional
+  interact 3705 optional
+  interact 179487 optional
+  interact 32 optional
+  note Seventeen Battered Chest placements, twenty-six Solid Chest placements, eleven Barrel of Melon Juice placements (the matching Food Crate set shares those points), fourteen further Food Crate and Barrel of Milk placements, eight Waterlogged Footlockers in the lake, and one Sunken Chest. All hold ordinary low-level goods; no unique treasure confirmed.
+  note The contracted quest Alther's Mill (98386) takes a Tarantula Egg objective; that egg is routed in the core guide, not here. Respawn timers unconfirmed.
+
+step Lucius's Lockbox — Alther's Mill
+
+  goto 46.95,44.69
+  interact 121264 optional
+  note A one-off lockbox by Alther's Mill. No quest in the data sends you to it; the contracted Rogue quest Alther's Mill (2282, core-routed) names no source for its token, and no link between the two is in the data. Respawn timer unconfirmed.
+
+step Practice Lockboxes — Lakeshire
+
+  loop
+  goto 46.65,44.92
+  goto 46.86,45.35
+  goto 47.01,45.49
+  goto 51.7,44.9
+  goto 52,45.3
+  goto 52.3,45.4
+  interact 178244 optional
+  interact 178245 optional
+  interact 178246 optional
+  note Three lockbox objects in six placements around Lakeshire. No quest in the data sends you to them. Respawn timers unconfirmed.
