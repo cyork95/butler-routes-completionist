@@ -217,9 +217,9 @@ _Follows Westfall. Raven Hill country._
 
 _Menethil Harbor. Sorinis is questing here now._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 90 candidates, 87 IN / 3 OUT
+- [x] Core guide - `wetlands.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 4 personas 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
