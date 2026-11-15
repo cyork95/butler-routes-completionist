@@ -1,0 +1,189 @@
+# Blasted Lands - Completionist (pack butler-routes-completionist, v1).
+# Every Blasted Lands accept in the local census (21 quests,
+# docs/blasted-lands-census.md) appears exactly once as an accept; 21
+# turnins close every record that has one in the data. The 8 repeatables
+# (the Lost Supplies + the even Drazial/Lynnore/Kum'isha follow-ups), the
+# Lunar Festival elder, and the min60 Warlock Dreadsteed chain are out with
+# reasons in the census; no Horde quest accepts here (0 set aside, verified
+# both ways). No race header and no class gates: nothing contracted is
+# race- or class-locked. Zone-finale records above the band by level ride
+# their minLevel anchor (2521/3501 min45, 2783/4128 min50); the three
+# null-minLevel records (87295/91882/93685) are contracted on structural
+# grounds argued in the census. Ungateable outside pres (2990 Hillsbrad,
+# 96797 Alterac, 81900 Searing Gorge, 93684 Swamp) ride dedicated
+# `when onquest` mini-steps or structural warnings with the chain named -
+# none invented. Expedition turn-ins (Hinterlands, Swamp of Sorrows, Dun
+# Morogh, Alterac, Mount Hyjal) switch frames deliberately and switch back.
+guide butler-routes-completionist/blasted-lands
+title Blasted Lands - Completionist
+levels 40-50
+zone Blasted Lands
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Nethergarde Keep - arrival and the keep hub
+
+  zone map 1419
+
+  accept 96798 -- Into the Darkness - Lieutenant Connar; the orphan chain opens (needs 96797 The Orphan, Alterac, done - structural, chain named)
+  accept 2783 -- Petty Squabbles - Ambassador Ardalan; a delivery for the Fallen Hero, south in the Swamp
+  accept 4128 -- Ragnar Thunderbrew - Enohar Thunderbrew; a delivery for Ragnar, north in Dun Morogh
+  accept 2991 -- Nekrum's Medallion - Thadius Grimshade; the medallion hunt (needs 2990 Thadius Grimshade, Hillsbrad, done - soft-pre mini-step below)
+  accept 91882 -- The Grand Alliance - Ambassador Ardalan; a breadcrumb for Sefira Everbright in Mount Hyjal (endgame leg below)
+  tip Nethergarde Keep is the hub: flight point, inn and vendors in the data live here; the orphan chain (96798/96811/96799/96812) resolves inside the keep except its Alterac finale.
+
+step Nethergarde Keep - the Grimshade chain opens
+
+  zone map 1419
+
+  when onquest 2990
+
+  complete 2991 -- Nekrum's Medallion (Nekrum Gutchewer carries it at 100%, but the data holds no spawn point for him anywhere; this complete carries no place - honest note, Badlands bag-note handling)
+  turnin 2991 -- Nekrum's Medallion - the medallion back to Thadius Grimshade
+  accept 2992 -- The Divination - Thadius Grimshade; the vision needs Grimshade himself struck down
+  complete 2992 @66.90,19.47 -- Thadius Grimshade, at his point in the keep
+  turnin 2992 -- The Divination - the word back to Thadius Grimshade
+  accept 2993 -- Return to the Hinterlands - Thadius Grimshade; the word rides north to the Hinterlands
+  tip Holding 2991 without 2990 (Thadius Grimshade, Hillsbrad - contracted nowhere) leaves this step dark until the pre is done.
+
+step Drazial and Lynnore - the reagent chain opens
+
+  zone map 1419
+
+  accept 2581 -- Snickerfang Jowls - Bloodmage Drazial; jowls, lungs and a pincer
+  accept 2583 -- A Boar's Vitality - Bloodmage Drazial; lungs, pincers and a brain
+  accept 2585 -- The Decisive Striker - Bloodmage Drazial; pincers, gizzards and a lung
+  accept 2601 -- The Basilisk's Bite - Bloodmage Lynnore; brains and gizzards
+  accept 2603 -- Vulture's Vigor - Bloodmage Lynnore; gizzards and jowls
+  tip All five one-times accept freely (their repeatable even-numbered follow-ups are OUT of contract); hunt the circuit below, then turn everything in here.
+
+step Snickerfang flats - jowls and lungs
+
+  zone map 1419
+
+  complete 2581 @43.93,25.55 -- Snickerfang Jowl (Starving Snickerfang, west flats)
+  complete 2603 @44.91,33.79 -- Snickerfang Jowl (Snickerfang Hyena, center)
+  complete 2581 @44.40,32.40 -- Blasted Boar Lung (Helboar, center)
+  complete 2583 @52.27,27.39 -- Blasted Boar Lung (Grunter, east-center)
+  complete 2585 @44.40,32.40 -- Blasted Boar Lung (Helboar, center)
+  complete 2581 @43.40,26.40 -- Scorpok Pincer (Scorpok Stinger, west flats)
+  complete 2583 @47.58,35.67 -- Scorpok Pincer (Clack the Reaver, center)
+
+step Basilisk and vulture grounds - brains and gizzards
+
+  zone map 1419
+
+  complete 2583 @55.02,29.05 -- Basilisk Brain (Redstone Basilisk, east)
+  complete 2601 @43.48,27.89 -- Basilisk Brain (Deatheye, west flats)
+  complete 2585 @46.20,18.40 -- Vulture Gizzard (Black Slayer, south-center)
+  complete 2601 @57.55,33.60 -- Vulture Gizzard (Spiteflayer, east)
+  complete 2603 @45.42,35.57 -- Vulture Gizzard (Bonepicker, center)
+  complete 2585 @47.58,35.67 -- Scorpok Pincer (Clack the Reaver, center)
+  turnin 2581 -- Snickerfang Jowls - the set back to Bloodmage Drazial
+  turnin 2583 -- A Boar's Vitality - the set back to Bloodmage Drazial
+  turnin 2585 -- The Decisive Striker - the set back to Bloodmage Drazial
+  turnin 2601 -- The Basilisk's Bite - the set back to Bloodmage Lynnore
+  turnin 2603 -- Vulture's Vigor - the set back to Bloodmage Lynnore
+
+step Kum'isha - the draenethyst chain
+
+  zone map 1419
+
+  accept 2521 -- To Serve Kum'isha - Kum'isha the Collector; a flawless sphere (needs nothing before it)
+  accept 3501 -- Everything Counts In Large Amounts - Kum'isha the Collector; an imperfect fragment
+  accept 93685 -- To Serve Kum'isha - Kum'isha the Collector; the check-in (needs 93684 The Found One, Swamp of Sorrows, done - structural, chain named; same title as 2521, different chain, both routed)
+  complete 2521 @41.14,12.45 -- Flawless Draenethyst Sphere (Dreadmaul Ogre, north-west camp)
+  complete 3501 @41.21,11.71 -- Imperfect Draenethyst Fragment (Dreadmaul Brute, north-west camp)
+  turnin 2521 -- To Serve Kum'isha - the sphere to Kum'isha the Collector
+  turnin 3501 -- Everything Counts In Large Amounts - the fragment to Kum'isha the Collector
+  turnin 93685 -- To Serve Kum'isha - the word back to Kum'isha the Collector
+
+step Lynnore's Forever pair - chains and the lasso
+
+  zone map 1419
+
+  accept 81917 -- Chains That Bind - Bloodmage Lynnore; chain links off the Shadowsworn (needs 81900 The Burning Beast, Searing Gorge, done - soft-pre mini-step below)
+  note 81919 Brought to Heel starts from item 220216 Infernal Lasso, which has NO source anywhere in the data (no drops, no vendors) - check bags and the auction house; this line never wedges on the drop.
+  accept 81919 -- Brought to Heel - Bloodmage Lynnore; fel lifeblood off Calefactus
+  complete 81919 @43.74,34.38 -- Fel Lifeblood (Calefactus the Unleashed, sole dropper, center)
+  turnin 81919 -- Brought to Heel - the lifeblood to Bloodmage Lynnore
+
+step Shadowsworn camps - infernal chain links
+
+  zone map 1419
+
+  when onquest 81900
+
+  complete 81917 @61.81,42.11 -- Infernal Chain Link (Shadowsworn Cultist, east camp)
+  complete 81917 @38.50,30.64 -- Infernal Chain Link (Shadowsworn Enforcer, west camp)
+  turnin 81917 -- Chains That Bind - the links to Bloodmage Lynnore
+  tip Holding 81917 without 81900 (The Burning Beast, Searing Gorge - contracted nowhere) leaves this step dark until the pre is done.
+
+step Bernie Heisten - basilisk scales
+
+  zone map 1419
+
+  accept 87295 -- Deflective Surface - Bernie Heisten; ten Redstone scales (lvl52, just over the band top - contracted on structural grounds, census argued)
+  complete 87295 @55.02,29.05 -- Redstone Basilisk Scale (Redstone Basilisk, east)
+  complete 87295 @45.31,54.95 -- Redstone Basilisk Scale (Redstone Crystalhide, south)
+  turnin 87295 -- Deflective Surface - the scales back to Bernie Heisten
+
+step Nethergarde Keep - the orphan chain resolves
+
+  zone map 1419
+
+  turnin 96798 -- Into the Darkness - the word to Sergeant Danneth
+  accept 96811 -- Escaping the Shadows - Sergeant Danneth; the shadows close in (needs 96798)
+  turnin 96811 -- Escaping the Shadows - the word to Lieutenant Connar
+  accept 96799 -- A Heavy Responsibility - Lieutenant Connar; the weight passes on (needs 96811)
+  turnin 96799 -- A Heavy Responsibility - the word to Sergeant Danneth
+  accept 96812 -- Thicker Than Water - Sergeant Danneth; the finale rides to Alterac (needs 96799)
+  tip The whole chain resolves inside the keep except its Alterac finale below; holding 96798 needs 96797 The Orphan (Alterac - contracted nowhere) done first.
+
+step Hinterlands expedition - the Grimshade finale
+
+  zone map 1425
+
+  when onquest 2990
+
+  turnin 2993 -- Return to the Hinterlands - the word to Gryphon Master Talonaxe
+  tip Expedition leg north to the Hinterlands; the frame switches back after.
+
+step Swamp expedition - the Fallen Hero
+
+  zone map 1419
+
+  zone map 1435
+
+  turnin 2783 -- Petty Squabbles - the word to the Fallen Hero of the Horde
+  tip Expedition leg south into the Swamp of Sorrows; the frame switches back after.
+
+step Dun Morogh expedition - Ragnar's delivery
+
+  zone map 1419
+
+  zone map 1426
+
+  turnin 4128 -- Ragnar Thunderbrew - the delivery to Ragnar Thunderbrew
+  tip Expedition leg to Dun Morogh; the frame switches back after.
+
+step Alterac expedition - the orphan finale
+
+  zone map 1419
+
+  zone map 1416
+
+  turnin 96812 -- Thicker Than Water - the finale to Orphan Matron Aria
+  tip Expedition leg to Alterac; the frame switches back after.
+
+step Mount Hyjal expedition - the Grand Alliance (endgame leg)
+
+  zone map 1419
+
+  zone map 2482
+
+  turnin 91882 -- The Grand Alliance - the breadcrumb to Sefira Everbright
+  tip Endgame expedition leg to Mount Hyjal, far above band - Sefira's follow-ups (min54-57) live here; bank this turn-in for later rather than riding there at 40-50.
