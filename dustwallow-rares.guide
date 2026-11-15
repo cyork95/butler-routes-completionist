@@ -1,0 +1,259 @@
+# Dustwallow Marsh - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 10 confirmed in-band rares and the fixed world
+# containers of Dustwallow Marsh. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is not
+# up never holds the route. Spawn points and levels are the local Forever game
+# data (questie-forever); signature drops are items whose SOLE dropper is the
+# rare. Ordinary greens get a note, not a goal. No tame lines ship (the data
+# has no tameability flag and the core guide carries no tame corroboration —
+# see docs/companion-unverified.md). Respawn timers are unconfirmed anywhere,
+# so none are stated. No rare in this guide is a giver, ender, or objective
+# of any core-contracted quest (the Darkmist Widow's shared Darkmist Eye drop
+# feeds the core 1206 hunt — noted, never accepted here). See
+# docs/dustwallow-companions-inventory.md for the full inventory.
+guide butler-routes-completionist/dustwallow-rares
+title Dustwallow Marsh - Rares & Treasures
+levels 35-45
+zone Dustwallow Marsh
+faction Alliance
+category Collectibles
+folder Companions
+keywords dustwallow, rares, treasures, companions
+coords live
+version 1
+
+step Burgle Eye — the north-east shore
+
+  zone map 1445
+
+  goto 59.04,9.37
+  kill 14230 optional
+  collect 285095 "Twitching Eye" optional
+  note Level 38 rare on the far north-east shore; its sole drop is the Twitching Eye. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Drogoth the Roamer — the west
+
+  zone map 1445
+
+  goto 39.50,18.92
+  kill 14231 optional
+  collect 285089 "Swamp Roamer's Band" optional
+  note Level 37 rare in the west; its sole drop is the Swamp Roamer's Band. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Dart — the west
+
+  zone map 1445
+
+  goto 47.27,18.38
+  kill 14232 optional
+  collect 285100 "Serrated Raptor Teeth" optional
+  collect 285283 "Serrated Axes" optional
+  note Level 38 rare in the west; its sole drops are the Serrated Raptor Teeth and the Serrated Axes. No quest takes either in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Darkmist Widow — the west
+
+  zone map 1445
+
+  goto 31.15,20.40
+  kill 4380 optional
+  collect 285102 "Darkmist Dirk" optional
+  note Level 40 rare spider in the west; its sole drop is the Darkmist Dirk. It also drops Unpopped Darkmist Eyes — the core guide's 1206 hunt lives in dustwallow.guide, which owns that quest; this guide never accepts it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Ripscale — the south-center
+
+  zone map 1445
+
+  loop
+  goto 37.80,50.29
+  goto 42.35,55.00
+  goto 44.08,50.17
+  goto 47.26,54.65
+  goto 49.06,57.33
+  kill 14233 optional
+  note Level 39 rare roaming the south-center; its drops are ordinary greens (no sole drop in the data), so there is nothing signature to chase.
+  note Respawn timer unconfirmed.
+
+step Oozeworm — the far south
+
+  zone map 1445
+
+  loop
+  goto 34.95,70.86
+  goto 36.03,63.07
+  goto 39.12,63.05
+  kill 14237 optional
+  note Level 42 rare in the far south; its drops are ordinary greens (no sole drop in the data), so there is nothing signature to chase.
+  note Respawn timer unconfirmed.
+
+step Brimgore — the far south
+
+  zone map 1445
+
+  goto 42.12,75.94
+  kill 4339 optional
+  collect 285063 "Black Brood Battleguards" optional
+  note Level 45 rare at the top of the band, far south by the goblin camp; its sole drop is the Black Brood Battleguards. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Hayoc — the south
+
+  zone map 1445
+
+  goto 52.02,62.87
+  kill 14234 optional
+  collect 285103 "Marsh Serpent's Scales" optional
+  note Level 41 rare in the south; its sole drop is the Marsh Serpent's Scales. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step The Rot — the south
+
+  zone map 1445
+
+  goto 52.90,57.40
+  kill 14235 optional
+  collect 285101 "Rot-Fused Greaves" optional
+  note Level 43 rare in the south; its sole drop is the Rot-Fused Greaves. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Lord Angler — the south-east
+
+  zone map 1445
+
+  goto 57.83,61.62
+  kill 14236 optional
+  collect 285094 "Ravaged Fishing Pole" optional
+  note Level 44 rare in the south-east; its sole drop is the Ravaged Fishing Pole (a fishing pole, flavor as much as gear). No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Fixed containers — the whole marsh
+
+  zone map 1445
+
+  loop
+  goto 30.62,22.40
+  goto 31.43,21.51
+  goto 57.28,15.12
+  goto 57.66,16.47
+  goto 57.99,13.35
+  goto 59.08,9.70
+  goto 61.64,18.15
+  goto 62.93,9.31
+  goto 63.08,19.03
+  goto 63.19,27.27
+  goto 63.23,7.20
+  goto 64.43,26.89
+  goto 37.71,67.61
+  goto 37.85,69.64
+  goto 38.70,64.62
+  goto 42.93,65.71
+  goto 44.09,64.94
+  goto 44.86,66.89
+  goto 44.99,65.42
+  goto 49.12,72.87
+  goto 53.41,73.51
+  goto 55.54,62.58
+  goto 55.56,63.89
+  goto 55.99,63.24
+  goto 56.12,62.85
+  goto 56.94,87.55
+  goto 57.32,69.51
+  goto 58.77,45.73
+  goto 58.83,46.23
+  goto 58.97,68.02
+  goto 59.94,68.94
+  goto 26.80,57.30
+  goto 27.20,57.20
+  goto 27.50,58.10
+  goto 51.70,5.20
+  goto 71.53,51.19
+  goto 32.89,64.33
+  goto 35.42,38.30
+  goto 35.88,54.27
+  goto 44.20,66.19
+  goto 46.14,56.90
+  goto 53.99,56.75
+  goto 56.12,62.52
+  goto 59.78,68.05
+  goto 35.10,31.07
+  goto 36.29,31.93
+  goto 36.65,30.30
+  goto 38.17,26.13
+  goto 42.78,30.40
+  goto 43.28,27.97
+  goto 45.09,24.68
+  goto 46.87,24.23
+  goto 56.98,21.14
+  goto 58.25,15.58
+  goto 58.91,11.32
+  goto 59.61,40.92
+  goto 61.64,18.30
+  goto 62.34,8.28
+  goto 26.20,58.40
+  goto 26.40,57.60
+  goto 26.40,58.70
+  goto 26.60,58.00
+  goto 26.90,58.60
+  goto 27.00,57.60
+  goto 27.20,58.00
+  goto 27.30,58.50
+  goto 51.40,4.80
+  goto 54.08,55.90
+  interact 2857 optional
+  interact 4149 optional
+  interact 3714 optional
+  interact 3715 optional
+  interact 111095 optional
+  interact 20925 optional
+  interact 153470 optional
+  interact 3707 optional
+  interact 3702 optional
+  interact 3689 optional
+  interact 3695 optional
+  interact 3662 optional
+  interact 3705 optional
+  interact 174728 optional
+  note One sweep of the marsh's fixed world containers (68 unique points, said plainly): Solid Chests north-east and far south, Alliance Strongboxes and the Chest at the dwarf camp and the north dock, the Captain's Footlocker far east, Food Crates scattered south and center, the Armor/Weapon/Food crate cluster at the dwarf camp, the Food Crate and Barrel of Milk at the north dock, and the Damaged Crate south-center. All ordinary low-level goods.
+  note The quest-owned containers are NOT covered here: Onyxia eggs (Horde quest), the Black Shield, Guard Badge, Musty Scroll, Waterlogged Book and Sweet Nectar barrel (all start quests elsewhere), catalogued in the inventory doc.
+
+step Twinbraid's Strongbox — the dwarf camp
+
+  zone map 1445
+
+  goto 26.30,58.50
+  note General Twinbraid's Strongbox at the western dwarf camp. No quest takes anything from it in the data; ordinary goods.
+
+step Mok'Morokk's cache — the ogre mound
+
+  zone map 1445
+
+  loop
+  goto 44.53,66.04
+  goto 38.66,65.57
+  goto 36.64,69.57
+  interact 19904 optional
+  interact 19905 optional
+  interact 19906 optional
+  note Mok'Morokk's Snuff, Grog and Strongbox around the ogre mound. No quest takes anything from them in the data; ordinary goods.
+
+step Seaworn Altar — the east coast
+
+  zone map 1445
+
+  loop
+  goto 59.36,9.63
+  goto 59.35,9.60
+  interact 2871 optional
+  interact 2872 optional
+  note The Seaworn Altar and the Enchanted Sea Kelp on the east coast. No quest takes anything from them in the data.
+
+step Orc Spy Report — Theramore
+
+  zone map 1445
+
+  goto 68.18,48.63
+  interact 21128 optional
+  note The Orc Spy Report by the Theramore road. No loot and no quest in the data — a point of interest, not a prize.
