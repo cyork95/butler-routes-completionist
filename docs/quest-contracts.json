@@ -5298,6 +5298,363 @@
           "name": "The Missing Diplomat"
         }
       ]
+    },
+    {
+      "id": "wetlands",
+      "name": "Wetlands",
+      "order": 15,
+      "levelBand": "20-30",
+      "summary": "Set 3 opener (Alliance): Menethil Harbor hub with the Halloran, Boran barrel, Third Fleet, Lightforge, Dragonmaw and Diplomat chains, the digsite and Dun Modr south, Rethiel east, the Shaman water chain, Villard far south and Kixxle writs. Leads on to Arathi, Dustwallow and the city expedition legs.",
+      "quests": [
+        {
+          "id": 274,
+          "name": "A Dark Threat Looms"
+        },
+        {
+          "id": 275,
+          "name": "Blisters on The Land"
+        },
+        {
+          "id": 276,
+          "name": "Tramping Paws"
+        },
+        {
+          "id": 277,
+          "name": "Fire Taboo"
+        },
+        {
+          "id": 279,
+          "name": "Claws from the Deep"
+        },
+        {
+          "id": 281,
+          "name": "Reclaiming Goods"
+        },
+        {
+          "id": 284,
+          "name": "The Search Continues"
+        },
+        {
+          "id": 285,
+          "name": "Search More Hovels"
+        },
+        {
+          "id": 286,
+          "name": "Return the Statuette"
+        },
+        {
+          "id": 288,
+          "name": "The Third Fleet"
+        },
+        {
+          "id": 289,
+          "name": "The Cursed Crew"
+        },
+        {
+          "id": 290,
+          "name": "Lifting the Curse"
+        },
+        {
+          "id": 292,
+          "name": "The Eye of Paleth"
+        },
+        {
+          "id": 293,
+          "name": "Cleansing the Eye"
+        },
+        {
+          "id": 294,
+          "name": "Ormer's Revenge"
+        },
+        {
+          "id": 295,
+          "name": "Ormer's Revenge"
+        },
+        {
+          "id": 296,
+          "name": "Ormer's Revenge"
+        },
+        {
+          "id": 299,
+          "name": "Uncovering the Past"
+        },
+        {
+          "id": 303,
+          "name": "The Dark Iron War"
+        },
+        {
+          "id": 304,
+          "name": "A Grim Task"
+        },
+        {
+          "id": 305,
+          "name": "In Search of The Excavation Team"
+        },
+        {
+          "id": 306,
+          "name": "In Search of The Excavation Team"
+        },
+        {
+          "id": 321,
+          "name": "Lightforge Iron"
+        },
+        {
+          "id": 322,
+          "name": "Blessed Arm"
+        },
+        {
+          "id": 324,
+          "name": "The Lost Ingots"
+        },
+        {
+          "id": 378,
+          "name": "The Fury Runs Deep"
+        },
+        {
+          "id": 463,
+          "name": "The Greenwarden"
+        },
+        {
+          "id": 464,
+          "name": "War Banners"
+        },
+        {
+          "id": 465,
+          "name": "Nek'rosh's Gambit"
+        },
+        {
+          "id": 469,
+          "name": "Daily Delivery"
+        },
+        {
+          "id": 470,
+          "name": "Digging Through the Ooze"
+        },
+        {
+          "id": 471,
+          "name": "Apprentice's Duties"
+        },
+        {
+          "id": 472,
+          "name": "Fall of Dun Modr"
+        },
+        {
+          "id": 473,
+          "name": "Report to Captain Stoutfist"
+        },
+        {
+          "id": 474,
+          "name": "Defeat Nek'rosh"
+        },
+        {
+          "id": 484,
+          "name": "Young Crocolisk Skins"
+        },
+        {
+          "id": 526,
+          "name": "Lightforge Ingots"
+        },
+        {
+          "id": 631,
+          "name": "The Thandol Span"
+        },
+        {
+          "id": 633,
+          "name": "The Thandol Span"
+        },
+        {
+          "id": 634,
+          "name": "Plea To The Alliance"
+        },
+        {
+          "id": 943,
+          "name": "The Absent Minded Prospector"
+        },
+        {
+          "id": 1132,
+          "name": "Fiora Longears"
+        },
+        {
+          "id": 1249,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1250,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1264,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1302,
+          "name": "James Hyal"
+        },
+        {
+          "id": 87318,
+          "name": "Hearts of the Lost"
+        },
+        {
+          "id": 87491,
+          "name": "Spark of Freedom"
+        },
+        {
+          "id": 88756,
+          "name": "Bring Back a Bang"
+        },
+        {
+          "id": 88757,
+          "name": "Accessories of the Lost"
+        },
+        {
+          "id": 88758,
+          "name": "Sentiments of the Lost"
+        },
+        {
+          "id": 94219,
+          "name": "Craftsman's Writ: Draught of Water Breathing"
+        },
+        {
+          "id": 94228,
+          "name": "Craftsman's Writ: Green Iron Boots"
+        },
+        {
+          "id": 94237,
+          "name": "Craftsman's Writ: Crafted Solid Shot"
+        },
+        {
+          "id": 94246,
+          "name": "Craftsman's Writ: Red Whelp Gloves"
+        },
+        {
+          "id": 94255,
+          "name": "Craftsman's Writ: Spider Silk Slippers"
+        },
+        {
+          "id": 94497,
+          "name": "Call of Water"
+        },
+        {
+          "id": 94499,
+          "name": "Call of Water"
+        },
+        {
+          "id": 94500,
+          "name": "Call of Water"
+        },
+        {
+          "id": 94501,
+          "name": "Call of Water"
+        },
+        {
+          "id": 95646,
+          "name": "Horrors in the Highland"
+        },
+        {
+          "id": 95647,
+          "name": "Lost in the Thicket Things"
+        },
+        {
+          "id": 95809,
+          "name": "Heartwoven"
+        },
+        {
+          "id": 95810,
+          "name": "Lost Relic Carry"
+        },
+        {
+          "id": 98072,
+          "name": "Crocs of the Sky"
+        },
+        {
+          "id": 98189,
+          "name": "Return the Statuette"
+        },
+        {
+          "id": 98190,
+          "name": "A Friend of the Family"
+        },
+        {
+          "id": 98197,
+          "name": "Spoils of War"
+        },
+        {
+          "id": 98208,
+          "name": "Bloom of the Heavens"
+        },
+        {
+          "id": 98209,
+          "name": "Bloom of the Heavens"
+        },
+        {
+          "id": 98216,
+          "name": "Understanding Our Present"
+        },
+        {
+          "id": 98221,
+          "name": "From the Ashes"
+        },
+        {
+          "id": 98223,
+          "name": "Old Habits"
+        },
+        {
+          "id": 98230,
+          "name": "This Land Was Their Land"
+        },
+        {
+          "id": 98240,
+          "name": "Crimson Crate Delivery"
+        },
+        {
+          "id": 98245,
+          "name": "Razormaw Needling"
+        },
+        {
+          "id": 98246,
+          "name": "Trying Times"
+        },
+        {
+          "id": 98282,
+          "name": "Alchemical Hazards"
+        },
+        {
+          "id": 98283,
+          "name": "Carnage"
+        },
+        {
+          "id": 98291,
+          "name": "Death to the Dragonmaw"
+        },
+        {
+          "id": 98293,
+          "name": "Forced Disarmament"
+        },
+        {
+          "id": 98297,
+          "name": "Stopping the Cycle"
+        },
+        {
+          "id": 98300,
+          "name": "Word to Ironforge"
+        },
+        {
+          "id": 98310,
+          "name": "Gleaning Our Future"
+        },
+        {
+          "id": 98313,
+          "name": "For Further Study"
+        },
+        {
+          "id": 98815,
+          "name": "Highland Hides"
+        },
+        {
+          "id": 98824,
+          "name": "Prehistoric Prism"
+        }
+      ]
     }
   ]
 }
