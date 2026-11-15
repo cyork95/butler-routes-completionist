@@ -280,7 +280,7 @@ _Skyborne country._
 ### Arathi Highlands — contested
 
 - [x] Census - 117 candidates, 47 IN / 70 OUT (50 Horde set-aside)
-- [x] Core guide - rathi.guide\r
+- [x] Core guide - `arathi.guide`
 - [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1+R2+R5 accepted only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
