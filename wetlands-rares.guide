@@ -1,0 +1,344 @@
+# Wetlands - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 8 confirmed flagged rares of the Wetlands
+# and its fixed world containers. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is
+# not up never holds the route. Spawn points and levels are the local
+# Forever game data (questie-forever); signature drops are items whose SOLE
+# dropper is the rare. Single-point rares get plain steps; the two
+# multi-point rares loop over ALL their confirmed points (a loop needs at
+# least two). Razormaw Matriarch sits one level above the core band
+# (31 vs 20-30) and says so plainly - come back at a higher level. No tame
+# lines ship (the data has no tameability flag and the core guide carries no
+# tame corroboration - see docs/companion-unverified.md). Respawn timers are
+# unconfirmed anywhere, so none are stated. No rare in this guide is a
+# giver, ender, or objective of any core-contracted quest; the zone's named
+# quest mobs without the flag (Balgaras, Captain Halyndor) are deliberately
+# excluded - see docs/wetlands-companions-inventory.md.
+guide butler-routes-completionist/wetlands-rares
+title Wetlands - Rares & Treasures
+levels 20-30
+zone Wetlands
+faction Alliance
+category Collectibles
+folder Companions
+keywords wetlands, rares, treasures, companions
+coords live
+version 1
+
+step Ma'ruk Wyrmscale — the south
+
+  zone map 1437
+
+  goto 48.06,74.70
+  kill 2090 optional
+  collect 5749 "Scythe Axe" optional
+  collect 5750 "Warchief's Girdle" optional
+  note Level 23 rare at its single confirmed point in the south; its sole drops are the Scythe Axe and the Warchief's Girdle. No quest takes either in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Leech Widow — the south-center
+
+  zone map 1437
+
+  goto 47.27,59.22
+  kill 1112 optional
+  collect 4444 "Black Husk Shield" optional
+  collect 6199 "Black Widow Band" optional
+  note Level 24 rare spider at its single confirmed point in the south-center; its sole drops are the Black Husk Shield and the Black Widow Band. No quest takes either in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Gnawbone — the north-center
+
+  zone map 1437
+
+  loop
+  goto 30.08,30.74
+  goto 31.42,32.92
+  goto 31.54,29.66
+  goto 35.19,27.36
+  goto 37.84,29.73
+  goto 38.89,34.13
+  kill 14425 optional
+  collect 282654 "Gnawed Bone" optional
+  note Level 24 rare looping six confirmed points in the north-center; its sole drop is the Gnawed Bone. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Mirelow — the north-west marsh
+
+  zone map 1437
+
+  loop
+  goto 16.00,31.80
+  goto 16.96,32.21
+  goto 17.36,26.68
+  goto 17.38,30.51
+  goto 18.48,30.33
+  goto 19.19,22.77
+  goto 19.38,24.20
+  goto 19.56,27.64
+  goto 20.16,31.74
+  goto 20.73,33.25
+  goto 20.93,24.00
+  goto 21.23,35.41
+  goto 21.52,29.20
+  goto 22.32,25.31
+  goto 23.46,35.60
+  goto 23.66,29.45
+  goto 24.18,26.17
+  goto 25.43,37.79
+  goto 25.74,27.67
+  goto 26.81,30.45
+  goto 27.52,32.48
+  kill 14424 optional
+  collect 282655 "Bog Pickers" optional
+  note Level 25 rare looping twenty-one confirmed points through the north-west marsh; its sole drop is the Bog Pickers. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Garneg Charskull — the center
+
+  zone map 1437
+
+  goto 38.42,46.06
+  kill 2108 optional
+  collect 3392 "Ringed Helm" optional
+  collect 6200 "Garneg's War Belt" optional
+  note Level 29 rare at its single confirmed point in the center; its sole drops are the Ringed Helm and Garneg's War Belt. No quest takes either in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Dragonmaw Battlemaster — the center
+
+  zone map 1437
+
+  goto 45.34,44.41
+  kill 1037 optional
+  collect 282658 "Dragonmaw Battle Shroud" optional
+  note Level 30 rare at its single confirmed point in the center - the top of the core band, no come-back needed. Its sole drop is the Dragonmaw Battle Shroud. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Sludginn — the far west
+
+  zone map 1437
+
+  goto 12.62,67.50
+  kill 14433 optional
+  collect 282653 "Dissolved Locket" optional
+  note Level 30 rare ooze at its single confirmed point in the far west - the top of the core band, no come-back needed. Its sole drop is the Dissolved Locket. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Razormaw Matriarch — the east (above the band)
+
+  zone map 1437
+
+  goto 69.93,29.22
+  kill 1140 optional
+  collect 4463 "Beaded Raptor Collar" optional
+  collect 6198 "Jurassic Wristguards" optional
+  note Level 31 rare raptor at its single confirmed point in the east — ABOVE the core band (20-30), so come back at a higher level. Its sole drops are the Beaded Raptor Collar and the Jurassic Wristguards. No quest takes either in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Fixed containers — solid chests
+
+  zone map 1437
+
+  loop
+  goto 13.46,41.33
+  goto 13.56,38.16
+  goto 14.11,32.76
+  goto 14.82,23.68
+  goto 16.18,30.61
+  goto 16.20,36.21
+  goto 18.30,39.63
+  goto 31.63,29.83
+  goto 35.14,27.68
+  goto 38.96,34.32
+  goto 42.73,32.25
+  goto 43.55,34.85
+  goto 45.21,32.01
+  goto 46.91,76.09
+  goto 47.14,66.11
+  goto 47.84,58.85
+  goto 48.30,74.21
+  goto 48.61,78.34
+  goto 51.64,30.75
+  goto 52.91,27.22
+  goto 61.26,58.18
+  goto 61.92,72.32
+  goto 62.95,69.67
+  goto 64.86,55.94
+  goto 13.89,30.28
+  goto 13.89,34.83
+  goto 15.31,38.62
+  goto 38.51,45.91
+  goto 44.00,43.23
+  goto 45.64,46.15
+  goto 45.71,42.59
+  goto 46.60,46.63
+  goto 47.59,15.12
+  goto 48.22,15.91
+  goto 48.55,17.74
+  goto 49.30,46.03
+  goto 51.17,46.11
+  goto 53.69,54.72
+  goto 59.75,24.53
+  goto 71.28,30.32
+  interact 2850 optional
+  interact 2852 optional
+  note The zone's generic Solid Chests looped as one sweep: two chest objects over 40 fixed points. Ordinary low-level goods; check whatever is up.
+  note These are generic world containers, not unique treasures — no signature loot is confirmed in the data.
+
+step Fixed containers — melon barrels and food crates
+
+  zone map 1437
+
+  loop
+  goto 5.51,64.23
+  goto 5.55,57.08
+  goto 12.15,55.52
+  goto 12.75,35.23
+  goto 13.55,41.12
+  goto 14.54,29.10
+  goto 15.21,63.69
+  goto 17.77,22.94
+  goto 18.16,39.28
+  goto 18.31,51.08
+  goto 21.59,57.04
+  goto 23.13,32.67
+  goto 23.56,19.60
+  goto 26.27,25.64
+  goto 28.83,16.63
+  goto 39.13,29.59
+  goto 45.35,45.32
+  goto 47.17,75.83
+  goto 48.95,16.39
+  goto 49.57,47.22
+  goto 53.09,54.35
+  goto 61.79,72.70
+  goto 61.89,25.95
+  goto 63.74,44.98
+  goto 4.93,62.67
+  goto 6.85,63.29
+  goto 6.89,57.81
+  goto 7.64,57.03
+  goto 8.32,61.93
+  goto 8.78,59.17
+  goto 11.23,58.16
+  goto 12.35,65.21
+  goto 12.60,42.44
+  goto 13.36,38.26
+  goto 14.46,32.61
+  goto 15.17,39.06
+  goto 16.15,36.42
+  goto 16.20,49.32
+  goto 16.33,25.21
+  goto 16.40,30.45
+  goto 40.25,27.38
+  goto 45.43,42.03
+  goto 47.96,73.80
+  goto 49.64,18.30
+  goto 61.76,44.74
+  goto 62.63,69.16
+  interact 3659 optional
+  interact 3695 optional
+  note A Barrel of Melon Juice sharing all 46 of its fixed points with a Food Crate — one sweep for both. Ordinary low-level goods; check whatever is up.
+  note These are generic world containers, not unique treasures — no signature loot is confirmed in the data.
+
+step Fixed containers — giant clams
+
+  zone map 1437
+
+  loop
+  goto 5.44,48.87
+  goto 5.53,40.96
+  goto 7.30,36.34
+  goto 8.13,41.61
+  goto 10.54,66.11
+  goto 11.35,32.87
+  goto 11.70,41.01
+  goto 11.99,25.77
+  goto 12.43,30.70
+  goto 12.76,63.18
+  goto 14.18,26.55
+  goto 15.42,60.61
+  goto 17.80,19.78
+  goto 17.84,58.94
+  goto 18.94,18.30
+  goto 20.72,18.09
+  goto 21.18,13.37
+  goto 22.19,13.40
+  goto 23.11,17.56
+  goto 23.74,13.74
+  goto 26.23,13.00
+  goto 26.48,16.95
+  goto 28.03,14.99
+  interact 19018 optional
+  note The zone's Giant Clams looped as one sweep over 23 fixed points along the coast. Ordinary low-level goods; check whatever is up.
+  note These are generic world containers, not unique treasures — no signature loot is confirmed in the data.
+
+step Fixed containers — battered footlockers
+
+  zone map 1437
+
+  loop
+  goto 12.55,41.71
+  goto 14.32,35.95
+  goto 15.31,36.68
+  goto 17.04,40.38
+  goto 17.21,36.16
+  goto 19.03,37.71
+  goto 20.25,35.99
+  goto 20.59,35.41
+  goto 21.44,34.27
+  goto 21.96,31.16
+  goto 23.18,31.91
+  goto 13.35,38.10
+  goto 13.39,41.34
+  goto 13.72,41.13
+  goto 14.32,32.76
+  goto 15.26,38.95
+  goto 15.32,38.50
+  goto 16.25,35.73
+  goto 18.09,39.67
+  interact 179486 optional
+  interact 179488 optional
+  note Two same-name Battered Footlocker objects looped together as one sweep over 19 fixed points. Ordinary low-level goods; check whatever is up.
+  note These are generic world containers, not unique treasures — no signature loot is confirmed in the data.
+
+step Half-buried Barrel — the north-west
+
+  zone map 1437
+
+  goto 13.94,34.81
+  interact 259 optional
+  note A lone barrel in the north-west; no loot table is confirmed in the data, so check it for whatever is inside.
+
+step Damaged Crate — the north-west
+
+  zone map 1437
+
+  goto 13.52,41.38
+  interact 261 optional
+  note A lone crate in the north-west; no loot table is confirmed in the data, so check it for whatever is inside.
+
+step Waterlogged Chest — the west
+
+  zone map 1437
+
+  goto 12.11,64.19
+  interact 2734 optional
+  note A lone chest in the west; no loot table is confirmed in the data, so check it for whatever is inside.
+
+step Intrepid's Locked Strongbox — the north-west
+
+  zone map 1437
+
+  goto 14.38,24.04
+  interact 112948 optional
+  note A lone strongbox in the north-west; no loot table is confirmed in the data, so check it for whatever is inside.
+
+step Sealed Barrel — the north-west
+
+  zone map 1437
+
+  goto 13.60,38.22
+  interact 142151 optional
+  note A lone sealed barrel in the north-west; no loot table is confirmed in the data, so check it for whatever is inside.
