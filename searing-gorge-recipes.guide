@@ -1,0 +1,227 @@
+# Searing Gorge - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns whose SOURCE is physically in Searing Gorge,
+# verified against the local Forever game data (questie-forever item drop
+# tables). All nine are mob drops with sole droppers spawning in-zone (two
+# Cindercloth patterns share one dropper, so one step carries both). No
+# recipe is sold by any in-zone vendor. Everything else Searing-Gorge-
+# dropping is a generic multi-zone world drop (Elwynn rule, argued per case
+# in the inventory — including the Dark Iron Shoulders, which names
+# in-zone Anvilrage droppers among 14, and the 228xxx endgame world-boss
+# series, which names in-zone droppers among world bosses), one narrow
+# formula belongs to a Badlands-family mob with a single incidental Gorge
+# point, and quest records carry no reward data, so neither ships (see
+# docs/searing-gorge-companions-inventory.md and
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. Cooking, Enchanting, First
+# Aid and Fishing have no Searing Gorge source, so that is stated, not
+# padded.
+guide butler-routes-completionist/searing-gorge-recipes
+title Searing Gorge - Recipes & Patterns
+levels 40-52
+zone Searing Gorge
+faction Alliance
+category Professions
+folder Companions
+keywords searing gorge, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Twilight cultists - cindercloth (Tailoring)
+
+  zone map 1427
+
+  when skill Tailoring 1
+
+  loop
+  goto 14.42,38.73
+  goto 16.00,33.39
+  goto 16.70,33.82
+  goto 16.80,44.61
+  goto 17.54,43.84
+  goto 18.09,35.57
+  goto 18.53,36.89
+  goto 19.21,37.06
+  goto 19.65,38.60
+  goto 20.81,35.85
+  kill 5861 optional
+  collect 14471 "Pattern: Cindercloth Vest" optional
+  collect 14476 "Pattern: Cindercloth Gloves" optional
+  note The Twilight Fire Guard is the sole dropper anywhere in the data for both patterns and spawns only in Searing Gorge. No quest takes them.
+  note Respawn timer unconfirmed.
+
+step Dark Iron crews - greater firepower (Alchemy)
+
+  zone map 1427
+
+  when skill Alchemy 1
+
+  loop
+  goto 35.32,58.48
+  goto 36.22,41.88
+  goto 38.39,38.04
+  goto 38.56,45.09
+  goto 38.77,50.52
+  goto 39.14,37.86
+  goto 39.88,54.47
+  goto 40.25,32.04
+  goto 40.52,51.14
+  goto 41.01,43.82
+  goto 34.28,46.33
+  goto 35.53,42.91
+  goto 37.49,39.64
+  goto 38.03,31.95
+  goto 38.56,45.09
+  goto 38.77,50.52
+  goto 39.88,54.47
+  goto 40.52,51.14
+  goto 41.01,43.82
+  goto 41.21,23.33
+  goto 62.34,62.39
+  goto 62.44,61.66
+  goto 62.73,58.13
+  goto 62.89,58.50
+  kill 5844 optional
+  kill 5846 optional
+  kill 8637 optional
+  collect 21547 "Recipe: Elixir of Greater Firepower" optional
+  note The Slaver, the Taskmaster and the Watchman are the only droppers anywhere in the data and all three spawn only in Searing Gorge. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Lookouts - blessed plate boots (Blacksmithing)
+
+  zone map 1427
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 32.49,54.86
+  goto 32.63,55.52
+  goto 33.19,53.54
+  goto 33.71,51.92
+  goto 35.15,62.12
+  goto 37.12,60.80
+  goto 42.72,62.57
+  goto 42.73,62.93
+  goto 49.78,55.97
+  goto 51.92,58.69
+  kill 8566 optional
+  collect 251439 "Plans: Blessed Plate Boots" optional
+  note The Dark Iron Lookout is the sole dropper anywhere in the data and spawns only in Searing Gorge. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Taskmasters - blue suede shoes (Leatherworking)
+
+  zone map 1427
+
+  when skill Leatherworking 1
+
+  loop
+  goto 34.28,46.33
+  goto 35.53,42.91
+  goto 37.49,39.64
+  goto 38.03,31.95
+  goto 38.56,45.09
+  goto 38.77,50.52
+  goto 39.88,54.47
+  goto 40.52,51.14
+  goto 41.01,43.82
+  goto 41.21,23.33
+  kill 5846 optional
+  collect 252859 "Pattern: Blue Suede Shoes" optional
+  note The Dark Iron Taskmaster is the sole dropper anywhere in the data and spawns only in Searing Gorge. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Incendosaurs - charged scorpid helm (Leatherworking)
+
+  zone map 1427
+
+  when skill Leatherworking 1
+
+  loop
+  goto 43.38,28.26
+  goto 44.57,24.85
+  goto 45.15,21.49
+  goto 46.32,20.07
+  goto 47.80,21.56
+  goto 48.46,26.48
+  goto 49.49,23.40
+  goto 49.88,39.01
+  goto 50.14,32.72
+  goto 50.44,25.98
+  kill 9318 optional
+  collect 252915 "Pattern: Charged Scorpid Helm" optional
+  note The Incendosaur is the sole dropper anywhere in the data and spawns only in Searing Gorge. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Inferno elementals - earthenweave gloves (Tailoring)
+
+  zone map 1427
+
+  when skill Tailoring 1
+
+  loop
+  goto 27.79,64.43
+  goto 29.94,76.90
+  goto 30.95,43.86
+  goto 39.20,55.92
+  goto 39.69,58.58
+  goto 52.42,62.08
+  kill 5852 optional
+  collect 254076 "Pattern: Earthenweave Gloves" optional
+  note The Inferno Elemental is the sole dropper anywhere in the data and spawns only in Searing Gorge. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Glassweb spiders - stormcloth shoulders (Tailoring)
+
+  zone map 1427
+
+  when skill Tailoring 1
+
+  loop
+  goto 58.92,52.63
+  goto 60.04,69.93
+  goto 60.58,68.75
+  goto 61.72,51.10
+  goto 62.43,71.03
+  goto 62.82,54.21
+  goto 63.53,50.79
+  goto 64.01,67.98
+  goto 64.62,75.26
+  goto 64.98,38.26
+  kill 5856 optional
+  collect 254685 "Pattern: Stormcloth Shoulders" optional
+  note The Glassweb Spider is the sole dropper anywhere in the data and spawns only in Searing Gorge. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Geologists - saf-t casing (Engineering)
+
+  zone map 1427
+
+  when skill Engineering 1
+
+  loop
+  goto 62.76,62.27
+  goto 63.06,59.56
+  goto 63.14,61.34
+  goto 63.66,59.26
+  goto 63.90,60.39
+  goto 68.87,33.24
+  goto 69.20,34.20
+  goto 69.35,32.70
+  kill 5839 optional
+  collect 264214 "Schematic: SAF-T Casing" optional
+  note The Dark Iron Geologist is the sole dropper anywhere in the data and spawns only in Searing Gorge. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Searing Gorge source - Cooking
+  note Cooking has no recipe source physically in Searing Gorge in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Searing Gorge source - Enchanting
+  note Enchanting has no recipe source physically in Searing Gorge in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Searing Gorge source - First Aid
+  note First Aid has no recipe source physically in Searing Gorge in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Searing Gorge source - Fishing
+  note Fishing has no recipe source physically in Searing Gorge in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
