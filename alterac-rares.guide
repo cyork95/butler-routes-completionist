@@ -1,0 +1,179 @@
+# Alterac Mountains - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 7 confirmed in-band rares and the fixed world
+# containers of Alterac Mountains. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is not
+# up never holds the route. Spawn points and levels are the local Forever game
+# data (questie-forever); the data records no loot on any of these seven
+# rares, so there are no signature drops to chase and no tame lines ship
+# either (no loot evidence, no core-guide corroboration — see
+# docs/companion-unverified.md). Respawn timers are unconfirmed anywhere, so
+# none are stated. Jimmy the Bleeder also roams Hillsbrad Foothills, where the
+# Hillsbrad companions guide already covers him. Narillasanz (level 44) lives
+# above the zone band and is not covered here. No rare in this guide is a
+# giver, ender, or objective of any core-contracted quest; the Weathered
+# Bookcase is quest-owned and lives in the Hillsbrad core route, not here. See
+# docs/alterac-companions-inventory.md for the full inventory this guide was
+# built against.
+guide butler-routes-completionist/alterac-rares
+title Alterac Mountains - Rares & Treasures
+levels 30-40
+zone Alterac Mountains
+faction Alliance
+category Collectibles
+folder Companions
+keywords alterac, rares, treasures, companions
+coords live
+version 1
+
+step Stone Fury — the east
+
+  goto 64.68,44.77
+  kill 2258 optional
+  note Level 37 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Skhowl — the west
+
+  goto 31.43,51.51
+  kill 2452 optional
+  note Level 36 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Lo'Grosh — the center
+
+  loop
+  goto 47.52,32.31
+  goto 52.09,46.94
+  kill 2453 optional
+  note Level 39 rare, flagged rare in the data, working the center.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Gravis Slipknot — east of center
+
+  goto 58.2,41.91
+  kill 14221 optional
+  note Level 36 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Araga — the southwest
+
+  goto 30.2,72.11
+  kill 14222 optional
+  note Level 35 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Cranky Benj — the north
+
+  goto 37.29,19.83
+  kill 14223 optional
+  note Level 32 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Jimmy the Bleeder — the south
+
+  goto 58.58,69.3
+  kill 14281 optional
+  note Level 23 rare, flagged rare in the data; the same Jimmy roams Hillsbrad Foothills too, where the Hillsbrad companions guide covers him. Below the zone band - take him while passing, if he is up.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Fixed containers — world chests, crates and barrels
+
+  loop
+  goto 39.18,14.66
+  goto 10.67,77.53
+  goto 11.48,75.13
+  goto 12.8,76.49
+  goto 15.42,76.4
+  goto 18.39,76.95
+  goto 18.56,74.51
+  goto 18.75,54.87
+  goto 19.51,75.52
+  goto 20.7,60.26
+  goto 20.94,63.32
+  goto 20.97,56.52
+  goto 21.33,64.35
+  goto 21.17,53.74
+  goto 21.6,57.65
+  goto 21.79,60.75
+  goto 22.63,60.49
+  goto 4.9,59.5
+  goto 38.54,46.96
+  goto 39.89,52.96
+  goto 41.45,40.06
+  goto 42.51,47.95
+  goto 61.06,44.07
+  goto 61.23,43.01
+  goto 63.38,44.17
+  goto 63.54,45.3
+  goto 35.29,53.4
+  goto 35.82,55.85
+  goto 36.12,55.03
+  goto 37.5,15.09
+  goto 38.86,14.8
+  goto 39.64,15.25
+  goto 40.29,20.6
+  goto 53.67,20.99
+  goto 56.4,26.93
+  goto 11.53,79.08
+  goto 14.22,78.19
+  goto 18,82.78
+  goto 18.66,82.44
+  goto 18.95,74.7
+  goto 19.3,85.72
+  goto 20.21,70.87
+  goto 20.38,85.96
+  goto 20.7,53.35
+  goto 21.25,63.69
+  goto 22.67,60.26
+  goto 40.04,79.75
+  goto 47.75,82.83
+  goto 58.17,68.33
+  goto 62.42,58.39
+  goto 36.99,15.37
+  goto 38.2,49.52
+  goto 38.64,58.24
+  goto 38.96,39.09
+  goto 39.06,15.75
+  goto 39.22,44.03
+  goto 41.28,45.61
+  goto 46.69,46.3
+  goto 47.91,16.97
+  goto 48.55,34.54
+  goto 48.66,44.35
+  goto 49.04,56.57
+  goto 49.66,56.59
+  goto 57.35,45.65
+  goto 62.69,41.43
+  goto 63.26,42.88
+  goto 26.8,98.4
+  goto 11.8,73.8
+  goto 12.4,79.4
+  goto 14.8,75.2
+  goto 17.7,56.6
+  goto 18.1,77.2
+  goto 20.1,57.6
+  goto 21.3,62.4
+  goto 21.6,59.5
+  goto 11.75,73.83
+  goto 14.84,75.16
+  goto 18.11,77.21
+  goto 20.06,57.6
+  goto 21.34,62.36
+  goto 21.61,59.49
+  goto 52.3,96.9
+  goto 52.3,97.3
+  interact 1765 optional
+  interact 2039 optional
+  interact 2849 optional
+  interact 2855 optional
+  interact 2857 optional
+  interact 3659 optional
+  interact 3695 optional
+  interact 3706 optional
+  interact 3707 optional
+  interact 3715 optional
+  interact 105570 optional
+  interact 105579 optional
+  interact 181302 optional
+  note One Worn Wooden Chest, sixteen Hidden Strongboxes, one Battered Chest, seventeen Solid Chest placements, fifteen Barrel of Melon Juice placements with matching Food Crates, sixteen Barrel of Sweet Nectar placements with matching Food Crates, one Alliance Chest, eight Alliance Strongboxes, six Alliance Chests, and two Camp Crates. All hold ordinary low-level goods; no unique treasure confirmed.
+  note The Weathered Bookcase is quest-owned (Hillsbrad's Preserving Knowledge) and routed in the Hillsbrad core guide, not here. Respawn timers unconfirmed.
