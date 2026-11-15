@@ -7519,6 +7519,195 @@
           "name": "A Better Ingredient"
         }
       ]
+    },
+    {
+      "id": "dustwallow-marsh",
+      "name": "Dustwallow Marsh",
+      "order": 24,
+      "levelBand": "35-45",
+      "summary": "Set 4 contested-zone Alliance route: the Theramore chains, the Jarl and Tabetha lines, Nat Pagle and town content, the writs and the goblin trio; expedition legs to Astranaar, Uldaman and Stormwind.",
+      "quests": [
+        {
+          "id": 1133,
+          "name": "Journey to Astranaar"
+        },
+        {
+          "id": 1135,
+          "name": "Highperch Venom"
+        },
+        {
+          "id": 1203,
+          "name": "Jarl Needs a Blade"
+        },
+        {
+          "id": 1204,
+          "name": "Mudrock Soup and Bugs"
+        },
+        {
+          "id": 1206,
+          "name": "Jarl Needs Eyes"
+        },
+        {
+          "id": 1218,
+          "name": "Soothing Spices"
+        },
+        {
+          "id": 1219,
+          "name": "The Orc Report"
+        },
+        {
+          "id": 1220,
+          "name": "Captain Vimes"
+        },
+        {
+          "id": 1222,
+          "name": "Stinky's Escape"
+        },
+        {
+          "id": 1258,
+          "name": "... and Bugs"
+        },
+        {
+          "id": 1259,
+          "name": "Lieutenant Paval Reethe"
+        },
+        {
+          "id": 1265,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1266,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1267,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1282,
+          "name": "They Call Him Smiling Jim"
+        },
+        {
+          "id": 1285,
+          "name": "Daelin's Men"
+        },
+        {
+          "id": 1286,
+          "name": "The Deserters"
+        },
+        {
+          "id": 1288,
+          "name": "Vimes's Report"
+        },
+        {
+          "id": 1319,
+          "name": "The Black Shield"
+        },
+        {
+          "id": 1320,
+          "name": "The Black Shield"
+        },
+        {
+          "id": 1324,
+          "name": "The Missing Diplomat"
+        },
+        {
+          "id": 1948,
+          "name": "Items of Power"
+        },
+        {
+          "id": 1949,
+          "name": "Hidden Secrets"
+        },
+        {
+          "id": 1952,
+          "name": "Mage's Wand"
+        },
+        {
+          "id": 1954,
+          "name": "The Infernal Orb"
+        },
+        {
+          "id": 1955,
+          "name": "The Exorcism"
+        },
+        {
+          "id": 1956,
+          "name": "Power in Uldaman"
+        },
+        {
+          "id": 1957,
+          "name": "Mana Surges"
+        },
+        {
+          "id": 1958,
+          "name": "Celestial Power"
+        },
+        {
+          "id": 2846,
+          "name": "Tiara of the Deep"
+        },
+        {
+          "id": 4961,
+          "name": "Cleansing of the Orb of Orahil"
+        },
+        {
+          "id": 4976,
+          "name": "Returning the Cleansed Orb"
+        },
+        {
+          "id": 6607,
+          "name": "Nat Pagle, Angler Extreme"
+        },
+        {
+          "id": 6624,
+          "name": "Triage"
+        },
+        {
+          "id": 7070,
+          "name": "Shadowshard Fragments"
+        },
+        {
+          "id": 81765,
+          "name": "Elrick, Paladin of the Silver Hand"
+        },
+        {
+          "id": 94258,
+          "name": "Craftsman's Writ: Lesser Stoneshield Potion"
+        },
+        {
+          "id": 94270,
+          "name": "Craftsman's Writ: Steel Weapon Chain"
+        },
+        {
+          "id": 94282,
+          "name": "Craftsman's Writ: Craftsman's Monocle"
+        },
+        {
+          "id": 94294,
+          "name": "Craftsman's Writ: Dusky Bracers"
+        },
+        {
+          "id": 94306,
+          "name": "Craftsman's Writ: Crimson Silk Robe"
+        },
+        {
+          "id": 98205,
+          "name": "Whelps are the Worst!"
+        },
+        {
+          "id": 98215,
+          "name": "Dragon Scales, Post Burnt Tails"
+        },
+        {
+          "id": 98231,
+          "name": "Active Ingredient"
+        },
+        {
+          "id": 98233,
+          "name": "Sword in the Slime"
+        }
+      ]
     }
   ]
 }
