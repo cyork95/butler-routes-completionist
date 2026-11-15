@@ -312,12 +312,12 @@ _Skyborne country._
 
 _Not a standard zone route: Moonglade is the druid class hub. This guide covers the druid class content centred there — the form quests and class chains — written for druids, not a general completionist route._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census
+- [x] Core guide - `moonglade.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1 expedition residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - none in data (0 rares, 1 seasonal event barrel, 8 vendor recipes logged in census; small recipes round later, not this one)
 
 ### Dustwallow Marsh — contested (Kalimdor)
 
