@@ -1,0 +1,127 @@
+# Dustwallow Marsh - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and formulas whose SOURCE is physically in
+# Dustwallow Marsh, verified against the local Forever game data
+# (questie-forever item vendor and drop tables). Four recipes are vendor-sold
+# by the Alliance vendor Helenia Olden in Theramore; five more drop each from
+# a single in-zone mob (two also drop in the Barrens, noted honestly). In-zone
+# recipes sold only by Horde-faction vendors are excluded (Alterac precedent —
+# see docs/dustwallow-companions-inventory.md), every other Dustwallow-dropping
+# recipe is a generic multi-zone world drop, and quest records carry no reward
+# data (see docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. Engineering, First Aid,
+# Fishing and Alchemy have no Dustwallow source, so that is stated, not padded.
+guide butler-routes-completionist/dustwallow-recipes
+title Dustwallow Marsh - Recipes & Patterns
+levels 35-45
+zone Dustwallow Marsh
+faction Alliance
+category Professions
+folder Companions
+keywords dustwallow, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Theramore - Helenia's stock (Leatherworking)
+
+  zone map 1445
+
+  when skill Leatherworking 1
+
+  tip Helenia Olden (66.44, 51.46) sells patterns in Theramore.
+  buy 5789 "Pattern: Murloc Scale Bracers"
+  note Also sold by Horde vendors elsewhere; the Alliance source is Helenia.
+
+step Theramore - Helenia's stock (Cooking)
+
+  zone map 1445
+
+  when skill Cooking 1
+
+  tip Helenia Olden (66.44, 51.46) sells recipes in Theramore; the Roast Raptor and Dragonbreath Chili are also sold by Horde vendors elsewhere.
+  buy 12228 "Recipe: Roast Raptor"
+  buy 12233 "Recipe: Mystery Stew"
+  buy 12239 "Recipe: Dragonbreath Chili"
+
+step Mirefin shore - the Shortsword (Blacksmithing)
+
+  zone map 1445
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 53.96,15.18
+  goto 54.19,15.66
+  kill 4362 optional
+  collect 251459 "Plans: Mithril Shortsword" optional
+  note The Mirefin Coastrunner (level 36) on the north-west shore is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Mirefin shore - silk cuffs (Tailoring)
+
+  zone map 1445
+
+  when skill Tailoring 1
+
+  loop
+  goto 53.78,15.15
+  goto 54.19,15.66
+  kill 4359 optional
+  collect 254020 "Pattern: Earthen Silk Cuffs" optional
+  note The Mirefin Murloc (level 35) on the north-west shore is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Firemane - the headband (Tailoring)
+
+  zone map 1445
+
+  when skill Tailoring 1
+
+  loop
+  goto 48.16,76.29
+  goto 48.54,73.17
+  kill 4334 optional
+  collect 254684 "Pattern: Stormcloth Headband" optional
+  note The Firemane Flamecaller (level 43), far south, is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Firemane - the formula (Enchanting)
+
+  zone map 1445
+
+  when skill Enchanting 1
+
+  loop
+  goto 36.80,69.00
+  goto 38.20,66.80
+  goto 42.20,66.20
+  goto 44.80,69.20
+  goto 47.00,77.80
+  goto 51.00,71.60
+  kill 4329 optional
+  collect 249511 "Formula: Enchant 2H Weapon - Lesser Agility" optional
+  note The Firemane Scout (level 41), far south, is the sole dropper anywhere — but the same scout also drops it in the Barrens, so this is a dual-zone drop, not Dustwallow-exclusive. No quest takes it in the data.
+  note Respawn timer unconfirmed.
+
+step Bloodfen - rouladen (Cooking)
+
+  zone map 1445
+
+  when skill Cooking 1
+
+  loop
+  goto 31.26,66.01
+  goto 32.71,64.41
+  goto 33.53,72.05
+  goto 36.31,66.10
+  goto 37.54,67.84
+  kill 4357 optional
+  collect 250184 "Recipe: Raptor Rouladen" optional
+  note The Bloodfen Lashtail (level 40), far south, is the sole dropper anywhere — but the same lashtail also drops it in the Barrens, so this is a dual-zone drop, not Dustwallow-exclusive. No quest takes it in the data.
+  note Respawn timer unconfirmed.
+
+step No source here
+
+  zone map 1445
+
+  note Engineering, First Aid, Fishing and Alchemy have no Dustwallow Marsh recipe source in the data — that is stated, not padded. Trainer-taught staples live in Polestar's own profession guides.
