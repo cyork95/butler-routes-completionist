@@ -9033,6 +9033,183 @@
           "name": "Blackmaw Pouches"
         }
       ]
+    },
+    {
+      "id": "ungoro-crater",
+      "name": "Un'Goro Crater",
+      "order": 32,
+      "levelBand": "47-54",
+      "summary": "Set 5 contested-zone Alliance route: the Krakle springs with Winterspring ends, the Layo southwind pair and Umber Moonglade link, the Linken raft-to-Winterspring chain, the Marshal expedition trio plus journal, the Muigin bloodpetal chain with Feralas ends, the A-Me escort chain, the Collie crystal pylons, the Ringo escort, the Pterrordax boards, the Hermit Twilight Silithus block, the Lunar elder, Torwa Uncanny pair, the Hyjal book pointer, and four Craftsman writs.",
+      "quests": [
+        {
+          "id": 974,
+          "name": "Finding the Source"
+        },
+        {
+          "id": 980,
+          "name": "The New Springs"
+        },
+        {
+          "id": 1125,
+          "name": "The Spirits of Southwind"
+        },
+        {
+          "id": 1126,
+          "name": "Hive in the Tower"
+        },
+        {
+          "id": 3844,
+          "name": "It's a Secret to Everybody"
+        },
+        {
+          "id": 3845,
+          "name": "It's a Secret to Everybody"
+        },
+        {
+          "id": 3881,
+          "name": "Expedition Salvation"
+        },
+        {
+          "id": 3882,
+          "name": "Roll the Bones"
+        },
+        {
+          "id": 3883,
+          "name": "Alien Ecology"
+        },
+        {
+          "id": 3884,
+          "name": "Williden's Journal"
+        },
+        {
+          "id": 3908,
+          "name": "It's a Secret to Everybody"
+        },
+        {
+          "id": 3941,
+          "name": "A Gnome's Assistance"
+        },
+        {
+          "id": 3942,
+          "name": "Linken's Memory"
+        },
+        {
+          "id": 3961,
+          "name": "Linken's Adventure"
+        },
+        {
+          "id": 3962,
+          "name": "It's Dangerous to Go Alone"
+        },
+        {
+          "id": 4141,
+          "name": "Muigin and Larion"
+        },
+        {
+          "id": 4142,
+          "name": "A Visit to Gregan"
+        },
+        {
+          "id": 4144,
+          "name": "Bloodpetal Sprouts"
+        },
+        {
+          "id": 4243,
+          "name": "Chasing A-Me 01"
+        },
+        {
+          "id": 4244,
+          "name": "Chasing A-Me 01"
+        },
+        {
+          "id": 4245,
+          "name": "Chasing A-Me 01"
+        },
+        {
+          "id": 4284,
+          "name": "Crystals of Power"
+        },
+        {
+          "id": 4285,
+          "name": "The Northern Pylon"
+        },
+        {
+          "id": 4287,
+          "name": "The Eastern Pylon"
+        },
+        {
+          "id": 4288,
+          "name": "The Western Pylon"
+        },
+        {
+          "id": 4321,
+          "name": "Making Sense of It"
+        },
+        {
+          "id": 4491,
+          "name": "A Little Help From My Friends"
+        },
+        {
+          "id": 4492,
+          "name": "Lost!"
+        },
+        {
+          "id": 4501,
+          "name": "Beware of Pterrordax"
+        },
+        {
+          "id": 4503,
+          "name": "Shizzle's Flyer"
+        },
+        {
+          "id": 6844,
+          "name": "Umber, Archivist"
+        },
+        {
+          "id": 8279,
+          "name": "The Twilight Lexicon"
+        },
+        {
+          "id": 8287,
+          "name": "A Terrible Purpose"
+        },
+        {
+          "id": 8323,
+          "name": "True Believers"
+        },
+        {
+          "id": 8681,
+          "name": "Thunderhorn the Elder"
+        },
+        {
+          "id": 87492,
+          "name": "Uncanny Crystal"
+        },
+        {
+          "id": 87494,
+          "name": "Microcrystal Contamination"
+        },
+        {
+          "id": 92020,
+          "name": "Hol'anyee's Big Book of Big Lizards"
+        },
+        {
+          "id": 94267,
+          "name": "Craftsman's Writ: Wildvine Potion"
+        },
+        {
+          "id": 94279,
+          "name": "Craftsman's Writ: Heavy Mithril Axe"
+        },
+        {
+          "id": 94303,
+          "name": "Craftsman's Writ: Thick Leather Ammo Pouch"
+        },
+        {
+          "id": 94315,
+          "name": "Craftsman's Writ: Earthen Silk Belt"
+        }
+      ]
     }
   ]
 }
