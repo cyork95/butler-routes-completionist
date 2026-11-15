@@ -402,7 +402,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Lint/playtest clean (42/42, 0 errors)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions — 3 rares (no signature loot; rank-2 Gruff/Mosh excluded per rank rule), no confirmed treasure (rares-only), 10 recipes (LW 9 + Cooking 1)
 
 ---
 
