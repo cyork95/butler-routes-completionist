@@ -1,0 +1,142 @@
+# Un'Goro Crater - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns and plans whose SOURCE is physically in Un'Goro
+# (zone key 1449), verified against the local Forever game data
+# (questie-forever item drop/vendor tables). Three are vendor-sold by the
+# crater's two both-faction vendors; seven drop from in-zone mobs (six sole
+# sources, one four-source all-in-zone ooze family). Every shipped step is
+# gated to its profession; other characters skip it cleanly. Alchemy,
+# Blacksmithing, Tailoring, Enchanting, Engineering, First Aid and Fishing
+# have no Un'Goro source - stated here, not padded. Quest records carry no
+# reward data, so no quest-reward recipe ships (see
+# docs/companion-unverified.md). Trainer-taught staples are excluded. Stock
+# class (limited vs unlimited) is not in the data; no line is marked
+# limited.
+guide butler-routes-completionist/ungoro-recipes
+title Un'Goro Crater - Recipes & Patterns
+levels 47-54
+zone Un'Goro Crater
+faction Alliance
+category Professions
+folder Companions
+keywords ungoro, recipes, patterns, professions, companions
+coords live
+version 1
+
+step South-west crater - scorpid patterns (buy)
+
+  zone map 1449
+
+  when skill Leatherworking 1
+
+  vendor 12956 -- Zannok Hidepiercer (23.0,16.4)
+  buy 15724 "Pattern: Heavy Scorpid Bracers"
+  buy 15762 "Pattern: Heavy Scorpid Helm"
+  note Zannok Hidepiercer (both-faction) sells both patterns at the south-west camp; nothing else in the data sells them. Stock class unconfirmed.
+  note Respawn timer unconfirmed.
+
+step Marshal's Refuge - devilsaur gauntlets (buy)
+
+  zone map 1449
+
+  when skill Leatherworking 1
+
+  vendor 12959 -- Nergal (43.27,7.73)
+  buy 15758 "Pattern: Devilsaur Gauntlets"
+  note Nergal (both-faction) sells the pattern at Marshal's Refuge; nothing else in the data sells it. Stock class unconfirmed.
+  note Respawn timer unconfirmed.
+
+step Ooze pits - devilsaur leggings (Leatherworking)
+
+  zone map 1449
+
+  when skill Leatherworking 1
+
+  loop
+  goto 57.19,38.36
+  goto 60.92,37.6
+  goto 38.52,17.34
+  goto 43.47,65.21
+  goto 25.62,45.47
+  goto 28.21,35.87
+  goto 45.44,66.04
+  goto 56.2,18.13
+  kill 6556 optional
+  kill 6557 optional
+  kill 6559 optional
+  kill 9477 optional
+  collect 15772 "Pattern: Devilsaur Leggings" optional
+  note The four Un'Goro oozes (Muculent, Primal, Glutinous, Cloned) are the only droppers anywhere in the data and spawn only here. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step North-west crater - devilcore patterns (Leatherworking)
+
+  zone map 1449
+
+  when skill Leatherworking 1
+
+  goto 35.3,35.99
+  kill 6584 optional
+  collect 228119 "Pattern: Devilcore Gauntlets" optional
+  collect 228120 "Pattern: Devilcore Leggings" optional
+  note King Mosh (level 60 devilsaur, rank-2 elite) is the sole dropper anywhere in the data - come back after the core route (skull-level to a fresh 54). No quest takes either pattern. (Mosh stays out of the rares companion per the rank rule; this recipes hunt is his coverage.)
+  note Respawn timer unconfirmed.
+
+step East crater - raging raptor ribs (Cooking)
+
+  zone map 1449
+
+  when skill Cooking 1
+
+  loop
+  goto 62.43,50.52
+  goto 64.45,50.48
+  goto 65.46,46.81
+  kill 6508 optional
+  collect 250181 "Recipe: Raging Raptor Ribs" optional
+  note The Venomhide Ravasaur is the sole dropper anywhere in the data and spawns only in the east crater. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Central crater - tooled leather crown (Leatherworking)
+
+  zone map 1449
+
+  when skill Leatherworking 1
+
+  loop
+  goto 45.71,51.58
+  goto 47.35,53.23
+  goto 49.74,44.05
+  kill 6520 optional
+  collect 252882 "Pattern: Tooled Leather Crown" optional
+  note The Scorching Elemental is the sole dropper anywhere in the data and spawns only in the central crater. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step East crater - supple scorpid leggings (Leatherworking)
+
+  zone map 1449
+
+  when skill Leatherworking 1
+
+  loop
+  goto 57.36,77.14
+  goto 59.16,74.72
+  goto 60.6,78.14
+  kill 6505 optional
+  collect 252914 "Pattern: Supple Scorpid Leggings" optional
+  note The Ravasaur is the sole dropper anywhere in the data and spawns only in the east crater. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Central crater - charged scorpid bracers (Leatherworking)
+
+  zone map 1449
+
+  when skill Leatherworking 1
+
+  loop
+  goto 47.2,31.91
+  goto 48.57,33.12
+  goto 49.12,33.9
+  kill 6527 optional
+  collect 252927 "Pattern: Charged Scorpid Bracers" optional
+  note The Tar Creeper is the sole dropper anywhere in the data and spawns only in the central crater. No quest takes it.
+  note Respawn timer unconfirmed.
