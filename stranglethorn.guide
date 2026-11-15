@@ -1,0 +1,716 @@
+guide butler-routes-completionist/stranglethorn-vale
+title Stranglethorn Vale - Completionist
+levels 30-45
+zone Stranglethorn Vale
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+# The Vale is done in two passes: the northern jungle first (Rebel
+# Camp, Nesingwary's camp, the Kurzen compound, the west-north), then
+# Booty Bay and the cape, with expedition legs for the chains that
+# leave the zone. Krazek and Kebok stand in Booty Bay in the data, not
+# at the Rebel Camp - their errands belong to the second pass.
+
+step The Duskwood road - Rebel Camp arrival
+
+  accept 215 @38,3.4 -- Jungle Secrets - Private Thorsen; Doren takes it at the camp
+  accept 203 -- The Second Rebellion - Sergeant Yohwa; Kurzen Jungle Fighters, the compound
+  accept 204 -- Bad Medicine - Sergeant Yohwa; remedies and fern extract, the compound
+  accept 210 -- Krazek's Cookery - Corporal Kaleb; carry the crock pot to Krazek in Booty Bay, south
+  note Thorsen walks two points ([38,3.4] + [40.34,8.44]) - this step uses his camp point.
+  accept 93443 -- Lost Shipping Crate - the crate on the north shore; Friz takes it in Riverglades, late
+  note 93443's twins (94841/94895/94930) are the Desolace and Thousand Needles versions of the same crate - ours is the Vale's.
+
+step Rebel Camp - secrets and the camp records
+
+  turnin 215 -- Jungle Secrets - Thorsen's word to Lieutenant Doren
+  accept 200 -- Bookie Herod - Lieutenant Doren; his records, the compound
+  turnin 200 -- Bookie Herod - back to Bookie Herod's Records
+  accept 328 -- The Hidden Key - the records; the strongbox, east
+  turnin 328 -- The Hidden Key - the records' word to Bookie Herod's Strongbox
+  accept 329 -- The Spy Revealed! - the strongbox; the muddy note, Doren takes it
+  turnin 329 -- The Spy Revealed! - the strongbox's word to Lieutenant Doren
+  accept 330 -- Patrol Schedules - Lieutenant Doren; Sethman takes it
+  turnin 330 -- Patrol Schedules - Doren's word to Corporal Sethman
+  accept 331 -- Report to Doren - Corporal Sethman; carry it back
+  turnin 331 -- Report to Doren - Sethman's word to Lieutenant Doren
+
+step The Kurzen compound - Yohwa's war
+
+  complete 203 @43.57,9.73 era -- Kurzen Jungle Fighters for Sergeant Yohwa
+  complete 204 @43.7,9.53 era -- Jungle Remedies off the Kurzen Medicine Men for Sergeant Yohwa
+  complete 204 @44.1,9.54 era -- Venom Fern Extract off the Kurzen supplies for Sergeant Yohwa
+  turnin 203 -- The Second Rebellion - back to Sergeant Yohwa
+  turnin 204 -- Bad Medicine - back to Sergeant Yohwa
+  note 207's pres (203 and 204 above) fill here - take 207 after them.
+  accept 207 -- Kurzen's Mystery - Brother Nimetz; the four troll legends, west
+  note 574's pres (203 and 204 above) fill here - take 574 after them.
+  accept 574 -- Special Forces - Sergeant Yohwa; commandos and headshrinkers, Doren takes it
+  complete 574 @44.15,7.91 era -- Kurzen Commandos for Sergeant Yohwa
+  complete 574 @46.33,6.96 era -- Kurzen Headshrinkers for Sergeant Yohwa
+  turnin 574 -- Special Forces - Yohwa's word to Lieutenant Doren
+  note 202's pre (574 above) fills here - take 202 after it.
+  accept 202 -- Colonel Kurzen - Lieutenant Doren; elites, subchiefs and the Colonel's head
+  complete 202 @46.69,6.21 era -- Kurzen Elites for Lieutenant Doren
+  complete 202 @48.71,5.37 era -- Kurzen Subchiefs for Lieutenant Doren
+  complete 202 @49.94,3.95 era -- Colonel Kurzen's head for Lieutenant Doren
+  turnin 202 -- Colonel Kurzen - back to Lieutenant Doren
+  accept 97047 -- The Cook in the Cage - Wendel Mathers, east; the cage key and a uniform
+  complete 97047 @46.69,6.21 era -- the Compound Cage Key off the Colonel's guard for Wendel Mathers
+  complete 97047 @49.6,7.7 era -- a Kurzen Fighter's Uniform from the supply crate for Wendel Mathers
+  turnin 97047 -- The Cook in the Cage - back to Wendel Mathers
+  note 97047's pre (79235, On the Lam, accepts in Desolace) lives outside this tracker's list.
+  accept 97048 -- Returning to Port - Wendel Mathers; Aransas takes it in Booty Bay, south
+
+step Nesingwary's camp - the welcome
+
+  accept 583 -- Welcome to the Jungle - Barnil Stonepot; Hemet takes it
+  turnin 583 -- Welcome to the Jungle - Barnil's word to Hemet Nesingwary
+  note 185's, 190's and 194's pre (583 above) fills here - take the mastery lines after it.
+  accept 338 -- The Green Hills of Stranglethorn - Barnil Stonepot; the four chapters, pages off the western trolls
+  accept 339 -- Chapter I - Barnil Stonepot; pages 1, 4, 6 and 8, west
+  accept 340 -- Chapter II - Barnil Stonepot; pages 10, 11, 14 and 16, west
+  accept 341 -- Chapter III - Barnil Stonepot; pages 18, 20, 21 and 24, west
+  accept 342 -- Chapter IV - Barnil Stonepot; pages 25, 26 and 27, west
+  accept 79731 only Priest -- The Troll Scroll - the scroll; Hemet takes it
+  note 79731's starter (the Deciphered Troll Scroll) has no placed source in the data - have it in your bags.
+  turnin 79731 only Priest -- The Troll Scroll - the scroll's word to Hemet Nesingwary
+  note 78823 names no starter in the data - the drawing (off Badlands Dustbelchers, expedition leg below) starts it; take it there.
+
+step Nesingwary's camp - mastery, tigers
+
+  accept 185 -- Tiger Mastery - Ajeck Rouack; young tigers, north
+  complete 185 @30.64,7.56 era -- Young Stranglethorn Tigers for Ajeck Rouack
+  turnin 185 -- Tiger Mastery - back to Ajeck Rouack
+  note 186's pre (185 above) fills here - take 186 after it.
+  accept 186 -- Tiger Mastery - Ajeck Rouack; tigers, north
+  complete 186 @27.8,9.6 era -- Stranglethorn Tigers for Ajeck Rouack
+  turnin 186 -- Tiger Mastery - back to Ajeck Rouack
+  note 187's pre (186 above) fills here - take 187 after it.
+  accept 187 -- Tiger Mastery - Ajeck Rouack; elder tigers
+  complete 187 @31.29,16.62 era -- Elder Stranglethorn Tigers for Ajeck Rouack
+  turnin 187 -- Tiger Mastery - back to Ajeck Rouack
+  note 188's pre (187 above) fills here - take 188 after it.
+  accept 188 -- Tiger Mastery - Ajeck Rouack; Sin'Dall's paw
+  complete 188 @31.47,15.5 era -- Sin'Dall's Paw off Sin'Dall for Ajeck Rouack
+  turnin 188 -- Tiger Mastery - back to Ajeck Rouack
+
+step Nesingwary's camp - mastery, panthers
+
+  accept 190 -- Panther Mastery - Sir S. J. Erlgadin; young panthers
+  complete 190 @35.03,14.16 era -- Young Panthers for Sir S. J. Erlgadin
+  turnin 190 -- Panther Mastery - back to Sir S. J. Erlgadin
+  note 191's pre (190 above) fills here - take 191 after it.
+  accept 191 -- Panther Mastery - Sir S. J. Erlgadin; panthers
+  complete 191 @28.17,16.55 era -- Panthers for Sir S. J. Erlgadin
+  turnin 191 -- Panther Mastery - back to Sir S. J. Erlgadin
+  note 192's pre (191 above) fills here - take 192 after it.
+  accept 192 -- Panther Mastery - Sir S. J. Erlgadin; shadowmaws, south
+  complete 192 @35.49,38.01 era -- Shadowmaw Panthers for Sir S. J. Erlgadin
+  turnin 192 -- Panther Mastery - back to Sir S. J. Erlgadin
+  note 193's pre (192 above) fills here - take 193 after it.
+  accept 193 -- Panther Mastery - Sir S. J. Erlgadin; Bhag'thera's fang, east
+  complete 193 @47.2,28.4 era -- Bhag'thera's Fang off Bhag'thera for Sir S. J. Erlgadin
+  turnin 193 -- Panther Mastery - back to Sir S. J. Erlgadin
+
+step Nesingwary's camp - mastery, raptors
+
+  accept 194 -- Raptor Mastery - Hemet Nesingwary; stranglethorn raptors, west
+  complete 194 @23.72,15.41 era -- Stranglethorn Raptors for Hemet Nesingwary
+  turnin 194 -- Raptor Mastery - back to Hemet Nesingwary
+  note 195's pre (194 above) fills here - take 195 after it.
+  accept 195 -- Raptor Mastery - Hemet Nesingwary;lashtail raptors
+  complete 195 @30.27,24.66 era -- Lashtail Raptors for Hemet Nesingwary
+  turnin 195 -- Raptor Mastery - back to Hemet Nesingwary
+  note 196's pre (195 above) fills here - take 196 after it.
+  accept 196 -- Raptor Mastery - Hemet Nesingwary; jungle stalkers, south
+  complete 196 @23,49.68 era -- Jungle Stalkers for Hemet Nesingwary
+  turnin 196 -- Raptor Mastery - back to Hemet Nesingwary
+  note 197's pre (196 above) fills here - take 197 after it.
+  accept 197 -- Raptor Mastery - Hemet Nesingwary; Tethis's talon
+  complete 197 @28.74,44.85 era -- Tethis's Talon off Tethis for Hemet Nesingwary
+  turnin 197 -- Raptor Mastery - back to Hemet Nesingwary
+  note 208's pres (188, 193 and 197 above) fill here - take 208 after them.
+  accept 208 -- Big Game Hunter - Hemet Nesingwary; Bangalash's head, east
+  complete 208 @38.21,35.58 era -- King Bangalash's Head off King Bangalash for Hemet Nesingwary
+  turnin 208 -- Big Game Hunter - back to Hemet Nesingwary
+
+step The west-north - Zimmix and the tablets
+
+  accept 97329 -- Where's the Key? - Zimmix Sputterspark; a primitive key off the western trolls
+  accept 97328 -- Anything of Value - the thoroughly scavenged supplies; stolen shipments, Lozgil takes them
+  note 97328's shipments name no placed source besides the supplies - work them off the supplies.
+  complete 97328 @31.5,12.85 era -- Stolen Shipments from the scavenged supplies for Wharfmaster Lozgil
+  complete 207 @22.95,12.02 era -- the First Troll Legend off the Fall of Gurubashi tablet for Brother Nimetz
+  complete 207 @24.7,8.93 era -- the Fourth Troll Legend off the Emperor's Tomb tablet for Brother Nimetz
+  complete 207 @29.48,19.14 era -- the Second Troll Legend off the Moon Over the Vale tablet for Brother Nimetz
+  complete 207 @24.82,23.03 era -- the Third Troll Legend off the Gri'lek tablet for Brother Nimetz
+  turnin 207 -- Kurzen's Mystery - back to Brother Nimetz
+  note 205's pre (207 above) fills here - take 205 after it.
+  accept 205 -- Troll Witchery - Brother Nimetz; skullsplitter fetishes, east, carried
+  note 205's fetishes wait for the Skullsplitter detour below - carry it.
+
+step The Skullsplitter detour - Nimetz's fetishes
+
+  note East of the compound the Skullsplitters gather - take Nimetz's fetishes off their mystics, then head back north.
+  complete 205 @41.93,36.28 era -- Skullsplitter Fetishes off the Skullsplitter Mystics for Brother Nimetz
+
+step The south road - to Booty Bay
+
+  turnin 205 -- Troll Witchery - the fetishes to Brother Nimetz
+  note 206's pre (205 above) fills here - take 206 after it.
+  accept 206 -- Mai'Zoth - Brother Nimetz; the Mind's Eye off Mai'Zoth, east, carried
+  note 95786's pre (205 above) fills here - take 95786 after it.
+  accept 95786 -- An Acquaintance in Southshore - Brother Nimetz; Dibbs takes it in Hillsbrad, late
+  note The road south passes the Skullsplitter grounds, but their errands (tusks, notes) wait for Booty Bay accepts below - carry on.
+  turnin 97048 -- Returning to Port - Wendel's word to Captain Aransas
+  turnin 210 -- Krazek's Cookery - Kaleb's crock pot to Krazek
+  note 627's pre (210 above) fills here - take 627 after it.
+  accept 627 -- Favor for Krazek - Krazek; lesser bloodstone ore, Arathi and Hinterlands, late
+
+step Booty Bay - Krazek and Kebok
+
+  accept 198 -- Supplies to Private Thorsen - Krazek; carry them north, returned late
+  accept 201 -- Investigate the Camp - Krazek; find the hunters' camp, completed north late
+  accept 616 -- The Haunted Isle - Krazek; Revilgaz takes it
+  accept 1116 -- Dream Dust in the Swamp - Krazek; dream dust, Swamp of Sorrows, late
+  note 1116's pre (1115, the Rumormonger, accepts in Thousand Needles) lives outside this tracker's list.
+  accept 189 -- Bloodscalp Ears - Kebok; ears off the western trolls
+  accept 213 -- Hostile Takeover - Kebok; tumbled crystals off the venture geologists
+  accept 95789 -- Shady Saltseers - Krazek and Kebok; a voodoo-infused artifact
+  note The Saltseer mobs name no spawn in the data - have the artifact in your bags.
+  complete 95789 @26.95,77.21 era -- the Voodoo-Infused Artifact for Krazek; the Saltseers name no source in the data, so have it in your bags
+  turnin 95789 -- Shady Saltseers - back to Krazek
+  accept 95791 -- The Saltseer Captain - Krazek and Kebok; the captain and his coroners
+  note The Saltseer mobs name no spawn in the data - have the kills in your bags.
+  complete 95791 @26.95,77.21 era -- Captain Dreadrise and his coroners for Krazek; the Saltseers name no source in the data, so have them in your bags
+  turnin 95791 -- The Saltseer Captain - back to Krazek
+  accept 2864 -- Tran'rek - Krazek; carry it to Tran'rek in Tanaris, late
+
+step Booty Bay - Crank and the venture
+
+  accept 605 -- Singing Blue Shards - Crank Fizzlebub; crystal shards off the southern basilisks
+  accept 621 -- Zanzil's Secret - Crank Fizzlebub; Zanzil's mixture off the southern trolls
+
+step Booty Bay - MacKinley and Shaky
+
+  accept 606 -- Scaring Shaky - "Sea Wolf" MacKinley; mistvale giblets off the southern gorillas
+  accept 2872 -- Stoley's Debt - "Sea Wolf" MacKinley; carry it to Stoley in Tanaris, late
+
+step Booty Bay - writ: gauntlets (Blacksmithing)
+
+  when skill Blacksmithing 1
+
+  goto 27.78,77.07
+  accept 94226 optional -- Craftsman's Writ: Green Iron Gauntlets - "Sea Wolf" MacKinley; back to MacKinley, at 60
+  note 94226's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94226 optional -- Craftsman's Writ: Green Iron Gauntlets - back to "Sea Wolf" MacKinley
+
+step Booty Bay - writ: remote (Engineering)
+
+  when skill Engineering 1
+
+  goto 27.6,77.48
+  accept 94235 optional -- Craftsman's Writ: Gnomish Universal Remote - Scooty; back to Scooty, at 60
+  note 94235's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94235 optional -- Craftsman's Writ: Gnomish Universal Remote - back to Scooty
+
+step Booty Bay - writ: shoulders (Leatherworking)
+
+  when skill Leatherworking 1
+
+  goto 28.13,74.42
+  accept 94244 optional -- Craftsman's Writ: Dark Leather Shoulders - Narkk; back to Narkk, at 60
+  note 94244's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94244 optional -- Craftsman's Writ: Dark Leather Shoulders - back to Narkk
+
+step Booty Bay - Smotts and the chest
+
+  accept 8551 -- The Captain's Chest - Captain Hecklebury Smotts; his chest off Gorlash, south
+  note The legacy Smotts chain (614, 615, 618, 620) is the same story told twice - this guide routes the 855x telling; same points either way.
+
+step Booty Bay - the Bloodsail
+
+  accept 595 -- The Bloodsail Buccaneers - First Mate Crazz; the correspondence, west
+  note 599's pre (597 below) fills here - take 599 after the correspondence.
+  note 604's pre (599 below) fills here - take 604 after it.
+  note 608's pre (604 below) fills here - take 608 after it.
+
+step Booty Bay - Revilgaz and Catelyn
+
+  note 610's pre (603, Ansirem's Key, accepts in Alterac) lives outside this tracker's list.
+  accept 610 -- "Pretty Boy" Duncan - Catelyn the Blade; her blade off Duncan, south
+  accept 617 -- Akiris by the Bundle - Privateer Bloads; akiris reed off the western naga
+
+step Booty Bay - Lozgil, Ruzzgot and Drizzlik
+
+  note 1041's pre (1040, Passage to Booty Bay, accepts in the Barrens) lives outside this tracker's list.
+  accept 1041 -- The Caravan Road - Caravaneer Ruzzgot; Daltry takes it in Duskwood, late
+  note 1042 continues in Duskwood from Daltry.
+  note 95322's pre (95295, I Know a Guy, accepts in Riverglades) lives outside this tracker's list.
+  accept 95322 -- Get the Goods - Caravaneer Ruzzgot; Ruzzgot takes it
+  turnin 95322 -- Get the Goods - back to Caravaneer Ruzzgot
+  note 95325's pre (95322 above) fills here - take 95325 after it.
+  accept 95325 -- We've Been Robbed! - Caravaneer Ruzzgot; the venture ledger, east
+  note 1181's pre (1180, Goblin Sponsorship, accepts in the Barrens) lives outside this tracker's list.
+  accept 1181 -- Goblin Sponsorship - Wharfmaster Lozgil; Revilgaz takes it
+  turnin 1181 -- Goblin Sponsorship - Lozgil's word to Baron Revilgaz
+  note 1182's pre (1181 above) fills here - take 1182 after it.
+  accept 1182 -- Goblin Sponsorship - Baron Revilgaz; fuel regulator blueprints, east
+  turnin 97328 -- Anything of Value - the shipments to Wharfmaster Lozgil
+  accept 575 -- Supply and Demand - Drizzlik; river crocolisk skins, north, returned late
+
+step Booty Bay - Mithril, Scooty and the odds
+
+  accept 2904 -- A Fine Mess - Kernobee; the rescue, Scooty takes it
+  note Kernobee has no placed spawn in the data - take it where he appears.
+  complete 2904 @27.6,77.48 era -- the Kernobee rescue for Scooty; Kernobee names no source in the data, so have it in your bags
+  turnin 2904 -- A Fine Mess - back to Scooty
+  note 3721's pres (648, 836 and 2767, all outside) live outside this tracker's list.
+  accept 3721 -- An OOX of Your Own - Oglethorpe Obnoticus; his contraption, Oglethorpe takes it
+  turnin 3721 -- An OOX of Your Own - back to Oglethorpe Obnoticus
+  accept 4782 only Warlock -- Components for the Enchanted Gold Bloodrobe - Xizk Goodstitch; Menara takes it in the Barrens, late
+  note 4782's pre (4781, accepts in the Barrens) lives outside this tracker's list.
+  accept 348 -- Stranglethorn Fever - Fin Fizracket; the Heart of Mokk, south
+  accept 580 -- Whiskey Slim's Lost Grog - Whiskey Slim; Pupellyverbos port, the Hinterlands, late
+  accept 79236 -- Cherry for Your Thoughts? - Tokal; a cherry grog off Nixxrax
+  note 79236's pre (79235, On the Lam, accepts in Desolace) lives outside this tracker's list.
+  note Nixxrax in Booty Bay sells the Cherry Grog - buy a bottle for Tokal.
+  complete 79236 @27.04,77.17 era -- a Cherry Grog off Nixxrax Fillamug for Tokal
+  turnin 79236 -- Cherry for Your Thoughts? - back to Tokal
+  note 79242's pre (79236 above) fills here - take 79242 after it.
+  accept 79242 -- No Honor Among Thieves - Tokal; Illari's cache in Arathi, late
+  accept 670 -- Sunken Treasure - Fleet Master Seahorn; Seahorn's letter, Shakes takes it in Arathi, late
+  note 670's pre (669, outside) lives outside this tracker's list.
+
+step The west dash - the correspondence
+
+  note The Bloodsail chain hinges on this paper: grab it, run it home, and the rest of the chain opens.
+  turnin 595 -- The Bloodsail Buccaneers - the word to the Bloodsail Correspondence
+  accept 597 -- The Bloodsail Buccaneers - the correspondence; Crazz takes it
+  complete 610 @27.39,69.42 era -- Catelyn's Blade off "Pretty Boy" Duncan for Catelyn the Blade
+
+step The north, returned - first pass
+
+  note Back north for the errands that need Rebel hands: Thorsen, the camp and the river.
+  turnin 198 -- Supplies to Private Thorsen - Krazek's word to Private Thorsen
+  complete 201 @35.65,10.59 era -- the hunters' camp for Krazek
+  complete 575 @32.46,8.92 era -- Large River Crocolisk Skins off the River Crocolisks for Drizzlik
+  complete 213 @27.62,8.09 era -- Tumbled Crystals off the Venture Co. Geologists for Kebok
+
+step Booty Bay, the north pays
+
+  turnin 575 -- Supply and Demand - the skins to Drizzlik
+  note 577's pre (575 above) fills here - take 577 after it.
+  accept 577 -- Some Assembly Required - Drizzlik; snapjaw skins, east
+
+step Booty Bay, returned - the Bloodsail opens
+
+  turnin 597 -- The Bloodsail Buccaneers - the correspondence's word to First Mate Crazz
+  note 599's pre (597 above) fills here - take 599 after it.
+  accept 599 -- The Bloodsail Buccaneers - First Mate Crazz; Seahorn takes it
+  turnin 599 -- The Bloodsail Buccaneers - Crazz's word to Fleet Master Seahorn
+  note 604's pre (599 above) fills here - take 604 after it.
+  accept 604 -- The Bloodsail Buccaneers - Fleet Master Seahorn; swashbucklers west, charts and orders south
+  turnin 616 -- The Haunted Isle - Krazek's word to Baron Revilgaz
+  note 578's pre (616 above) fills here - take 578 after it.
+  accept 578 -- The Stone of the Tides - Baron Revilgaz; the haunted isle, west
+  turnin 610 -- "Pretty Boy" Duncan - the blade to Catelyn the Blade
+  note 611's pre (610 above) fills here - take 611 after it.
+  accept 611 -- The Curse of the Tides - Catelyn the Blade; the stone off Gazban, west
+  note 576's and 587's pre (595 above) fills here - take them after the correspondence run.
+  accept 576 -- Keep An Eye Out - Dizzy One-Eye; Dizzy's eye off the western Bloodsail
+  accept 587 -- Up to Snuff - Deeg; snuff off the western Bloodsail
+
+step The west coast - Bloodsail, elementals and reeds
+
+  complete 576 @27.29,69.97 era -- Dizzy's Eye off the Bloodsail Raiders for Dizzy One-Eye
+  complete 587 @25.76,66.03 era -- Snuff off the Bloodsail Mages for Deeg
+  complete 604 @23.16,52.79 era -- Bloodsail Swashbucklers for Fleet Master Seahorn
+  complete 578 @20.79,23.15 era -- the haunted isle for Baron Revilgaz
+  complete 611 @19.84,22.52 era -- the Stone of the Tides off Gazban for Catelyn the Blade
+  complete 617 @23.97,63.62 era -- Akiris Reed off the Naga Explorers for Privateer Bloads
+  complete 617 @13.12,17.3 era -- Akiris Reed off the Brinescale Skirmishers for Privateer Bloads
+  complete 189 @22.26,13.08 era -- Bloodscalp Ears off the Bloodscalp Scouts for Kebok
+  complete 339 @22.26,13.08 era -- Green Hills page 1 off the Bloodscalp for Barnil Stonepot
+  complete 339 @22.26,13.08 era -- Green Hills page 4 off the Bloodscalp for Barnil Stonepot
+  complete 339 @22.26,13.08 era -- Green Hills page 6 off the Bloodscalp for Barnil Stonepot
+  complete 339 @22.26,13.08 era -- Green Hills page 8 off the Bloodscalp for Barnil Stonepot
+  complete 340 @22.35,12.8 era -- Green Hills page 10 off the Bloodscalp Hunters for Barnil Stonepot
+  complete 340 @22.35,12.8 era -- Green Hills page 11 off the Bloodscalp Hunters for Barnil Stonepot
+  complete 340 @22.35,12.8 era -- Green Hills page 14 off the Bloodscalp Hunters for Barnil Stonepot
+  complete 340 @22.35,12.8 era -- Green Hills page 16 off the Bloodscalp Hunters for Barnil Stonepot
+  complete 341 @19.37,12.84 era -- Green Hills page 18 off the Bloodscalp Berserkers for Barnil Stonepot
+  complete 341 @19.37,12.84 era -- Green Hills page 20 off the Bloodscalp Berserkers for Barnil Stonepot
+  complete 341 @19.37,12.84 era -- Green Hills page 21 off the Bloodscalp Berserkers for Barnil Stonepot
+  complete 341 @19.37,12.84 era -- Green Hills page 24 off the Bloodscalp Berserkers for Barnil Stonepot
+  complete 342 @19.87,12.13 era -- Green Hills page 25 off the Bloodscalp Witch Doctors for Barnil Stonepot
+  complete 342 @19.87,12.13 era -- Green Hills page 26 off the Bloodscalp Witch Doctors for Barnil Stonepot
+  complete 342 @19.87,12.13 era -- Green Hills page 27 off the Bloodscalp Witch Doctors for Barnil Stonepot
+  complete 97329 @22.26,13.08 era -- the Primitive Key off the Bloodscalp for Zimmix Sputterspark
+  turnin 97329 -- Where's the Key? - back to Zimmix Sputterspark
+  note 97331's pre (97329 above) fills here - take 97331 after it.
+  accept 97331 -- Zimmix's Great Escape - Zimmix Sputterspark; Lozgil takes it in Booty Bay, south
+  note The Monogrammed Sash (8552's starter) drops from Mok'rash on this coast - take one off him.
+  kill 1493 optional -- Mok'rash, for the Monogrammed Sash
+  accept 8552 -- The Monogrammed Sash - the sash; Smotts takes it
+
+step Booty Bay, returned - the west pays
+
+  turnin 576 -- Keep An Eye Out - back to Dizzy One-Eye
+  turnin 587 -- Up to Snuff - back to Deeg
+  turnin 578 -- The Stone of the Tides - back to Baron Revilgaz
+  note 601's pre (578 above) fills here - take 601 after it.
+  accept 601 -- Water Elementals - Baron Revilgaz; bracers off the elementals, returned late
+  turnin 611 -- The Curse of the Tides - Catelyn's word to Baron Revilgaz
+  turnin 617 -- Akiris by the Bundle - back to Privateer Bloads
+  note 623's pre (617 above) fills here - take 623 after it.
+  accept 623 -- Akiris by the Bundle - Privateer Bloads; the bundle, Groy takes it in Dustwallow, late
+  note 623 is Alliance-only; the Horde twin is not routed here.
+  turnin 8552 -- The Monogrammed Sash - the sash to Captain Hecklebury Smotts
+  note 8553's pre (8552 above) fills here - take 8553 after it.
+  accept 8553 -- The Captain's Cutlass - Captain Hecklebury Smotts; Sprogger takes it
+  turnin 8553 -- The Captain's Cutlass - Smotts's word to Sprogger
+  note 8554's pre (8553 above) fills here - take 8554 after it.
+  accept 8554 -- Facing Negolash - Sprogger; Smotts's cutlass off Negolash, south
+  turnin 189 -- Bloodscalp Ears - back to Kebok
+  note 209's pre (189 above) fills here - take 209 after it.
+  accept 209 -- Skullsplitter Tusks - Kebok; tusks off the eastern trolls
+  turnin 97331 -- Zimmix's Great Escape - Zimmix's word to Wharfmaster Lozgil
+  note 97332's pres (97328 and 97331 above) fill here - take 97332 after them.
+  accept 97332 -- Twice Misplaced Trust - Wharfmaster Lozgil; Whizzbuzz takes it in Riverglades, late
+  note Done out west: ears, pages, key, reeds, eye, snuff, Gazban, sash - the coast run ends here. The elder, the elementals and the miners wait for the south-west return below.
+
+step The cape loop - bottles, charts and the cutlass
+
+  complete 610 @27.39,69.42 era -- Catelyn's Blade off "Pretty Boy" Duncan for Catelyn the Blade
+  note The Half-Buried Bottles (2560) hold the Carefully Folded Note (594's starter) - work one open.
+  collect 4098 @33.79,77.68 era optional
+  accept 594 -- Message in a Bottle - the note; Poobah takes it on Jaguero Isle
+  complete 604 @26.96,82.5 era -- the Bloodsail Charts off Cozzle's footlocker for Fleet Master Seahorn
+  complete 604 @26.96,82.56 era -- the Bloodsail Orders off Cozzle's footlocker for Fleet Master Seahorn
+  complete 8554 @32.45,81.57 era -- Smotts's Cutlass off Negolash for Sprogger
+  turnin 594 -- Message in a Bottle - the note's word to Princess Poobah
+  note 630's pre (594 above) fills here - take 630 after it.
+  accept 630 -- Message in a Bottle - Princess Poobah; Mukla's key, Poobah takes it
+  complete 630 @40.95,83.9 era -- the Shackle Key off King Mukla for Princess Poobah
+  turnin 630 -- Message in a Bottle - back to Princess Poobah
+  complete 8551 @36.95,69.73 era -- Smotts's Chest off Gorlash for Captain Hecklebury Smotts
+  complete 348 @35.05,60.88 era -- the Heart of Mokk off Mokk the Savage for Fin Fizracket
+  complete 621 @34.46,50.98 era -- Zanzil's Mixture off the Zanzil Zombies for Crank Fizzlebub
+  complete 605 @37.85,49.87 era -- Singing Crystal Shards off the Thrashtail Basilisks for Crank Fizzlebub
+  complete 606 @30.85,60.03 era -- Mistvale Giblets off the Elder Mistvale Gorillas for "Sea Wolf" MacKinley
+step The arena camp - the Master writ
+
+  note The arena chest (179697) holds the Arena Master writ (7810's starter) - work it open.
+  interact 179697 @30.52,47.87 era
+  accept 7810 -- Arena Master - the writ out of the chest; Short John Mithril takes the word
+  note 7810's chain continues to a repeatable (7838, the Grandmaster) - not routed.
+  turnin 7810 -- Arena Master - back to Short John Mithril
+
+step The arena - writ: elixir (Alchemy)
+
+  when skill Alchemy 1
+
+  goto 29.59,47.38
+  accept 94217 optional -- Craftsman's Writ: Lesser Troll's Blood Elixir - Short John Mithril; back to Mithril, at 60
+  note 94217's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94217 optional -- Craftsman's Writ: Lesser Troll's Blood Elixir - back to Short John Mithril
+
+step Booty Bay, returned - the cape pays
+
+  turnin 604 -- The Bloodsail Buccaneers - back to Fleet Master Seahorn
+  note 608's pre (604 above) fills here - take 608 after it.
+  accept 608 -- The Bloodsail Buccaneers - Fleet Master Seahorn; the three captains at the cape tip
+  turnin 348 -- Stranglethorn Fever - back to Fin Fizracket
+  turnin 605 -- Singing Blue Shards - back to Crank Fizzlebub
+  note 600's pre (605 above) fills here - take 600 after it.
+  accept 600 -- Venture Company Mining - Crank Fizzlebub; singing blue crystals, returned late
+  turnin 621 -- Zanzil's Secret - back to Crank Fizzlebub
+  turnin 606 -- Scaring Shaky - back to "Sea Wolf" MacKinley
+  note 607's pre (606 above) fills here - take 607 after Shaky hears it.
+  accept 607 -- Return to MacKinley - "Shaky" Phillipe; carry his payment to MacKinley
+  turnin 607 -- Return to MacKinley - Shaky's payment to "Sea Wolf" MacKinley
+  note 609's pre (607 above) fills here - take 609 after it.
+  accept 609 -- Voodoo Dues - "Sea Wolf" MacKinley; Maury's foot, Jon-Jon's spyglass and Chucky's ring, south, late
+  turnin 8551 -- The Captain's Chest - the chest to Captain Hecklebury Smotts
+  turnin 8554 -- Facing Negolash - the cutlass to Captain Hecklebury Smotts
+
+step The cape tip - the three captains
+
+  complete 608 @32.87,88.2 era -- Captain Stillwater for Fleet Master Seahorn
+  complete 608 @29.32,88.29 era -- Captain Keelhaul for Fleet Master Seahorn
+  complete 608 @30.58,90.63 era -- Fleet Master Firallon for Fleet Master Seahorn
+  complete 609 @35.26,51.27 era -- Maury's Clubbed Foot off Maury "Club Foot" Wilkins for "Sea Wolf" MacKinley
+  complete 609 @34.92,51.84 era -- Jon-Jon's Golden Spyglass off Jon-Jon the Crow for "Sea Wolf" MacKinley
+  complete 609 @40,58.24 era -- Chucky's Huge Ring off Chucky "Ten Thumbs" for "Sea Wolf" MacKinley
+
+step Booty Bay, the tip pays
+
+  turnin 608 -- The Bloodsail Buccaneers - back to Fleet Master Seahorn
+  turnin 609 -- Voodoo Dues - Maury's foot, Jon-Jon's spyglass and Chucky's ring to "Sea Wolf" MacKinley
+  note 613's pre (609 above) fills here - take 613 after it.
+  accept 613 -- Cracking Maury's Foot - "Sea Wolf" MacKinley; Maury's key off the eastern Mosh'Ogg
+
+step The east jungle - Skullsplitter tusks, notes and the ledger
+
+  complete 209 @41.93,36.28 era -- Skullsplitter Tusks off the Skullsplitter Warriors for Kebok
+  note 205's fetishes came home on the northern detour - Mai'Zoth below is the last of Nimetz's line.
+  note The Partial Notes (95384's item) drop from the Mystics here - take the set off them.
+  kill 780 optional -- a Skullsplitter Mystic, for the Partial Mystical Notes
+  accept 95384 -- Partial Mystical Notes - the notes; Dudd takes it
+  complete 95384 @41.93,36.28 era -- Partial Mystical Notes off the Skullsplitter Mystics for Dudd Fizzlescroll
+  note The Torn Scroll (95385's item) drops from the Mystics here and the Bloodsail Warlocks west - take one off them.
+  kill 780 optional -- a Skullsplitter Mystic, for the Mystical Scroll
+  accept 95385 -- Torn Mystical Scroll - the scroll; Dudd takes it
+  complete 577 @37.86,32.63 era -- Snapjaw Crocolisk Skins off the Snapjaw Crocolisks for Drizzlik
+  turnin 95325 -- We've Been Robbed! - the ledger's word from the Venture Co. Ledger
+  note 95326's pre (95325 above) fills here - take 95326 after it.
+  accept 95326 -- The Big Payback - the ledger; Ruzzgot's shipment off the venture agents, Ruzzgot takes it
+  complete 95326 @42.03,21.54 era -- Ruzzgot's Shipment off the Venture Co. Agents for Caravaneer Ruzzgot
+  complete 1182 @43.33,20.33 era -- the Fuel Regulator Blueprints off Cozzle's footlocker for Baron Revilgaz
+  complete 613 @50.34,31.03 era -- Maury's Key off the Mosh'Ogg Spellcrafters for "Sea Wolf" MacKinley
+
+step The east - writ: kilt (Tailoring)
+
+  when skill Tailoring 1
+
+  goto 50.66,19.26
+  accept 94253 optional -- Craftsman's Writ: Colorful Kilt - Hekshi; back to Hekshi, at 60
+  note 94253's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94253 optional -- Craftsman's Writ: Colorful Kilt - back to Hekshi
+
+step Galvan's forge - the mithril order (Blacksmithing)
+
+  when skill Blacksmithing 1
+
+  note 2760's pres (2757, Booty Bay or Bust in Orgrimmar, and 2759, In Search of Galvan in Stormwind) live outside this tracker's list.
+  goto 28.87,75.42
+  accept 2760 optional -- The Mithril Order - McGavan; Galvan takes it, east
+  turnin 2760 optional -- The Mithril Order - McGavan's word to Galvan the Ancient
+  note 2761's, 2762's and 2763's pre (2760 above) fills here - take them after it.
+  accept 2761 optional -- Smelt On, Smelt Off - Galvan the Ancient; iron and mithril bars
+  note Smelt the bars and have a full set in your bags: 40 iron, 40 mithril.
+  complete 2761 optional @50.62,20.48 era -- iron and mithril bars for Galvan the Ancient; smelted before you came, so have them in your bags
+  turnin 2761 optional -- Smelt On, Smelt Off - back to Galvan the Ancient
+  accept 2762 optional -- The Great Silver Deceiver - Galvan the Ancient; mithril and truesilver bars
+  note Smelt the bars and have a full set in your bags: 40 mithril, 5 truesilver.
+  complete 2762 optional @50.62,20.48 era -- mithril and truesilver bars for Galvan the Ancient; smelted before you came, so have them in your bags
+  turnin 2762 optional -- The Great Silver Deceiver - back to Galvan the Ancient
+  accept 2763 optional -- The Art of the Imbue - Galvan the Ancient; mithril bars and citrines
+  note Smelt the bars and have a full set in your bags: 40 mithril, 4 citrines.
+  complete 2763 optional @50.62,20.48 era -- mithril bars and citrines for Galvan the Ancient; smelted before you came, so have them in your bags
+  turnin 2763 optional -- The Art of the Imbue - back to Galvan the Ancient
+  note 2764's pre (2761 above) fills here - take 2764 after it.
+  accept 2764 optional -- Galvan's Finest Pupil - Galvan the Ancient; Trenton takes it in Tanaris, late
+  note 2765's pres (2761, 2762 and 2763 above) fill here - take 2765 after them.
+  accept 2765 optional -- Expert Blacksmith! - Galvan the Ancient; Galvan himself
+  complete 2765 optional @50.62,20.48 era -- Galvan the Ancient for Galvan the Ancient
+  turnin 2765 optional -- Expert Blacksmith! - back to Galvan the Ancient
+  note 3625's pre (3621, the Formation of Felbane, accepts in Azshara) lives outside this tracker's list.
+  accept 3625 optional -- Enchanted Azsharite Fel Weaponry - Galvan the Ancient; Galvan takes it
+  complete 3625 optional @50.62,20.48 era -- Galvan the Ancient for Galvan the Ancient
+  turnin 3625 optional -- Enchanted Azsharite Fel Weaponry - back to Galvan the Ancient
+  note 3626's pre (3625 above) fills here - take 3626 after it.
+  accept 3626 optional -- Return to the Blasted Lands - Galvan the Ancient; the Fallen Hero takes it in the Swamp of Sorrows, late
+
+step The east jungle - Gnaz, Knaz and Mai'Zoth
+
+  accept 97420 -- Reduce, Reuse, Reconcile - Gnaz Blunderflame; drums off the venture mechanics
+  complete 97420 @42.05,18.29 era -- Drums of Crude Oil off the Venture Co. Mechanics for Gnaz Blunderflame
+  turnin 97420 -- Reduce, Reuse, Reconcile - back to Gnaz Blunderflame
+  accept 97405 -- Noise Complaints - Knaz Blunderflame; Mosh'Ogg spellcrafters, warmongers, maulers and shamans
+  complete 97405 @50.34,31.03 era -- Mosh'Ogg Spellcrafters for Knaz Blunderflame
+  complete 97405 @46.4,25.34 era -- Mosh'Ogg Warmongers for Knaz Blunderflame
+  complete 97405 @50.19,27.73 era -- Mosh'Ogg Maulers for Knaz Blunderflame
+  complete 97405 @50.14,27.94 era -- Mosh'Ogg Shamans for Knaz Blunderflame
+  turnin 97405 -- Noise Complaints - back to Knaz Blunderflame
+  complete 206 @52.93,27.6 era -- the Mind's Eye off Mai'Zoth for Brother Nimetz
+
+step Booty Bay, returned - the east pays
+
+  turnin 209 -- Skullsplitter Tusks - back to Kebok
+  turnin 95384 -- Partial Mystical Notes - back to Dudd Fizzlescroll
+  turnin 95385 -- Torn Mystical Scroll - back to Dudd Fizzlescroll
+  turnin 577 -- Some Assembly Required - back to Drizzlik
+  note 628's pre (577 above) fills here - take 628 after it.
+  accept 628 -- Excelsior - Drizzlik; an elder crocolisk skin, west, late
+  turnin 95326 -- The Big Payback - the shipment to Caravaneer Ruzzgot
+  note 95327's pre (95326 above) fills here - take 95327 after it.
+  accept 95327 -- All's Well That Ends Well - Caravaneer Ruzzgot; Friz takes it in Riverglades, late
+  turnin 1182 -- Goblin Sponsorship - the blueprints to Baron Revilgaz
+  note 1183's pre (1182 above) fills here - take 1183 after it.
+  accept 1183 -- Goblin Sponsorship - Baron Revilgaz; Pozzik takes it in Thousand Needles, late
+  note 613's pre (609, paid at the tip above) fills here - take 613 after it.
+  turnin 613 -- Cracking Maury's Foot - the key to "Sea Wolf" MacKinley
+
+step The south-west, returned - elder, elementals and miners
+
+  note Back west for what the early runs left: the elder croc, the elementals and the venture miners.
+  complete 628 @25.35,19.22 era -- the Elder Crocolisk Skin off the Elder Saltwater Crocolisk for Drizzlik
+  complete 601 @19.43,22.31 era -- Water Elemental Bracers off the Lesser Water Elementals for Baron Revilgaz
+  complete 600 @40.35,43.27 era -- Singing Blue Crystals off the Venture Strip Miners for Crank Fizzlebub
+
+step Booty Bay, the south-west pays
+
+  turnin 628 -- Excelsior - back to Drizzlik
+  turnin 601 -- Water Elementals - back to Baron Revilgaz
+  note 602's pre (601 above) fills here - take 602 after it.
+  accept 602 -- Magical Analysis - Baron Revilgaz; the bracers, Ansirem takes them in Alterac, late
+  turnin 600 -- Venture Company Mining - back to Crank Fizzlebub
+  note 1119's pres (621, paid at the cape above, plus 1118 Back to Booty Bay, accepts in Thousand Needles) fill here - take 1119 after them.
+  accept 1119 -- Zanzil's Mixture and a Fool's Stout - Crank Fizzlebub; the stout, Kravel takes it in Thousand Needles, late
+
+step Expedition - Badlands, the drawing
+
+  zone map 1418
+
+  note The Dustbelchers work the Badlands east of the Vale - take the drawing off them.
+  kill 2701 optional -- a Dustbelcher Ogre, for the Primitive Drawing
+  accept 78823 -- Terror of the Desert Skies - the drawing; Hemet takes it
+  complete 78823 @29.39,56.79 era -- the Primitive Drawing off the Dustbelcher Ogres for Hemet Nesingwary
+  zone map 1434
+
+step Expedition - the Swamp of Sorrows, dust and a fallen hero
+
+  zone map 1435
+
+  complete 1116 @11.12,62.67 era -- Specks of Dream Dust off the Adolescent Whelps for Krazek
+  complete 1116 @11.41,57.32 era -- Specks of Dream Dust off the Dreaming Whelps for Krazek
+  turnin 1116 -- Dream Dust in the Swamp - back to Krazek
+  note 1117's pre (1116 above) fills here - take 1117 after it.
+  accept 1117 -- Rumors for Kravel - Krazek; Kravel takes it in Thousand Needles, late
+  zone map 1434
+
+step Expedition - the Swamp, the Fallen Hero (Blacksmithing)
+
+  zone map 1435
+
+  when onquest 3626
+  turnin 3626 optional -- Return to the Blasted Lands - Galvan's word to the Fallen Hero of the Horde
+  zone map 1434
+
+step Expedition - Thousand Needles, three words west
+
+  zone map 1441
+
+  turnin 1117 -- Rumors for Kravel - Krazek's word to Kravel Koalbeard
+  turnin 1183 -- Goblin Sponsorship - Revilgaz's word to Pozzik
+  turnin 1119 -- Zanzil's Mixture and a Fool's Stout - Crank's word to Kravel Koalbeard
+  zone map 1434
+
+step Expedition - Arathi, three errands
+
+  zone map 1417
+
+  complete 627 @82.81,33.53 era -- Lesser Bloodstone Ore off the deposits for Krazek
+  turnin 670 -- Sunken Treasure - Seahorn's letter to Shakes O'Breen
+  turnin 79242 -- No Honor Among Thieves - Tokal's word to Illari's Loot Cache
+  zone map 1434
+
+step Expedition - Tanaris, three words south
+
+  zone map 1446
+
+  turnin 2864 -- Tran'rek - Krazek's word to Tran'rek
+  turnin 2872 -- Stoley's Debt - MacKinley's word to Stoley
+  zone map 1434
+
+step Expedition - Tanaris, Galvan's pupil (Blacksmithing)
+
+  zone map 1446
+
+  when onquest 2764
+  turnin 2764 optional -- Galvan's Finest Pupil - Galvan's word to Trenton Lighthammer
+  zone map 1434
+
+step Expedition - Alterac and Hillsbrad, two words north
+
+  zone map 1416
+
+  turnin 602 -- Magical Analysis - the bracers to Archmage Ansirem Runeweaver
+  note Ansirem walks two zones - this step uses his Alterac point.
+  zone map 1424
+
+  turnin 95786 -- An Acquaintance in Southshore - Nimetz's word to Loremaster Dibbs
+  zone map 1434
+
+step Expedition - Duskwood, the caravan road home
+
+  zone map 1431
+
+  turnin 1041 -- The Caravan Road - Ruzzgot's word to Clerk Daltry
+  zone map 1434
+
+step Expedition - Dustwallow, Groy's word
+
+  zone map 1445
+
+  turnin 623 -- Akiris by the Bundle - the bundle to Privateer Groy
+  zone map 1434
+
+step Expedition - the Hinterlands, Slim's grog
+
+  zone map 1425
+
+  note Pupellyverbos Port (2068) sits in the Hinterlands - work one open for Slim.
+  collect 3900 @73.25,95.47 era optional
+  zone map 1434
+
+step Expedition - Riverglades, three words across the water
+
+  zone map 2548
+
+  turnin 93443 -- Lost Shipping Crate - the crate's word to Friz Frazzlespark
+  turnin 95327 -- All's Well That Ends Well - Ruzzgot's word to Friz Frazzlespark
+  turnin 97332 -- Twice Misplaced Trust - Lozgil's word to Wharfmaster Whizzbuzz
+  zone map 1434
+
+step Expedition - the Barrens, Xizk's word (Warlock)
+
+  zone map 1413
+
+  only Warlock
+
+  turnin 4782 only Warlock -- Components for the Enchanted Gold Bloodrobe - Xizk's word to Menara Voidrender
+  zone map 1434
+
+step Booty Bay, the east ore home
+
+  turnin 627 -- Favor for Krazek - the ore to Krazek
+  note 622's pre (627 above) fills here - take 622 after it.
+  accept 622 -- Return to Corporal Kaleb - Krazek; carry it north, returned late
+  turnin 580 -- Whiskey Slim's Lost Grog - the port to Whiskey Slim
+
+step The north, returned - Rebel Camp and the camp
+
+  turnin 206 -- Mai'Zoth - the Mind's Eye to Brother Nimetz
+  turnin 622 -- Return to Corporal Kaleb - Krazek's word to Corporal Kaleb
+  turnin 78823 -- Terror of the Desert Skies - the drawing to Hemet Nesingwary
+  accept 78830 only Hunter -- Terror of the Desert Skies - Hemet Nesingwary; an empty bait cage, Badlands, late
+  note Each chapter combines from its four pages (right-click a page with its set) - Barnil takes the four chapters.
+  complete 338
+  turnin 338 -- The Green Hills of Stranglethorn - the chapters to Barnil Stonepot
+  turnin 339 -- Chapter I - the pages to Barnil Stonepot
+  turnin 340 -- Chapter II - the pages to Barnil Stonepot
+  turnin 341 -- Chapter III - the pages to Barnil Stonepot
+  turnin 342 -- Chapter IV - the pages to Barnil Stonepot
+
+step Expedition - Badlands, the quill (Hunter)
+
+  zone map 1418
+
+  only Hunter
+
+  complete 78830 only Hunter @21.12,70.56 era -- the Crimson Trophy Quill off Gharrik for Hemet Nesingwary
+  turnin 78830 only Hunter -- Terror of the Desert Skies - the quill to Hemet Nesingwary
+  zone map 1434
+
+step Booty Bay, the boats - close
+
+  turnin 213 -- Hostile Takeover - the crystals to Kebok
+  turnin 201 -- Investigate the Camp - the camp's word to Krazek
+  note The Vale is done: the north jungle, Booty Bay and the cape, every chain home - take the boats south for wherever next.
