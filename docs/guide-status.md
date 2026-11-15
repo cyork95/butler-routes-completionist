@@ -352,9 +352,9 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 
 ### Badlands — contested (Eastern Kingdoms)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 77 candidates, 35 IN / 42 OUT (35 Horde set aside)
+- [x] Core guide - `badlands.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 3 personas 0 stuck (R1/R2/R5 residue, all documented)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
