@@ -339,9 +339,9 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 
 ### Tanaris — contested (Kalimdor)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 162 candidates, 91 IN / 71 OUT (10 Horde set aside)
+- [x] Core guide - `tanaris.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 7 personas 0 stuck (R1+R2 residue + 1 R3 warning, all documented)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
