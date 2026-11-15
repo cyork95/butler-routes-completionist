@@ -1,0 +1,223 @@
+# Butler Routes - Hillsbrad rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 7 confirmed in-band rares and the fixed world
+# containers of Hillsbrad Foothills. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is not
+# up never holds the route. Spawn points, levels and loot are the local Forever
+# game data (questie-forever); respawn timers are unconfirmed anywhere, so none
+# are stated. Four higher-level rares (Narillasanz, Old Cliff Jumper, Araga,
+# Lady Zephris) live above the zone band and are not covered here. No rare in
+# this guide is a giver, ender, or objective of any core-contracted quest. See
+# docs/hillsbrad-companions-inventory.md for the full inventory this guide was
+# built against.
+guide butler-routes-completionist/hillsbrad-rares
+title Hillsbrad Foothills - Rares & Treasures
+levels 20-32
+zone Hillsbrad Foothills
+faction Alliance
+category Collectibles
+folder Companions
+keywords hillsbrad, rares, treasures, companions
+coords live
+version 1
+
+step Dalaran Spellscribe — the far west
+
+  goto 8.9,23.8
+  kill 1920 optional
+  collect 4436 "Jewel-encrusted Sash" optional
+  collect 4437 "Channeler's Staff" optional
+  note Level 21 rare caster, flagged rare in the data, out by the Dalaran crater.
+  note The sash and staff drop nowhere else; also shares the generic world-drop table. Respawn timer unconfirmed.
+
+step Tamra Stormpike — the southeastern hills
+
+  loop
+  goto 70.68,78.05
+  goto 72.31,82.34
+  goto 73.25,81.09
+  kill 14275 optional
+  collect 282710 "Dun Garok Rifle" optional
+  note Level 28 rare, flagged rare in the data.
+  note The rifle drops nowhere else; also shares the generic world-drop table. Respawn timer unconfirmed.
+
+step Scargil — the southwest shore
+
+  goto 29.08,73.56
+  kill 14276 optional
+  collect 282716 "Imbued Scaled Cuffs" optional
+  note Level 30 rare murloc, flagged rare in the data; not tameable.
+  note The cuffs drop nowhere else; also shares the generic world-drop table. Respawn timer unconfirmed.
+
+step Ro'Bark — the eastern gnolls
+
+  goto 65.72,60.15
+  kill 14278 optional
+  collect 282721 "Gnoll Shaman's Staff" optional
+  note Level 28 rare gnoll, flagged rare in the data; not tameable.
+  note The staff drops nowhere else; also shares the generic world-drop table. Respawn timer unconfirmed.
+
+step Creepthess — the western fields
+
+  goto 38.6,58.37
+  kill 14279 optional
+  collect 282720 "Spider Swarm" optional
+  note Level 24 rare spider, flagged rare in the data. Drops spider meat and silk.
+  note The swarm drops nowhere else; also shares the generic world-drop table. Respawn timer unconfirmed.
+
+step Big Samras — the Dun Garok approach
+
+  goto 86.03,39.93
+  kill 14280 optional
+  collect 282717 "Durable Bearhide Pauldrons" optional
+  note Level 27 rare bear, flagged rare in the data, on the far-eastern approach to Dun Garok. Drops bear meat.
+  note The pauldrons drop nowhere else; also shares the generic world-drop table. Respawn timer unconfirmed.
+
+step Jimmy the Bleeder — the northern hills
+
+  goto 60.1,9.1
+  kill 14281 optional
+  collect 282713 "Bloodstained Pants" optional
+  note Level 23 rare, flagged rare in the data, up in the northern hills.
+  note The pants drop nowhere else; also shares the generic world-drop table. Respawn timer unconfirmed.
+
+step Fixed Chests — world containers
+
+  loop
+  goto 18.2,16.3
+  goto 18.9,14.2
+  goto 20.1,15.4
+  goto 22.4,15.3
+  goto 24.9,15.8
+  goto 25.1,13.6
+  goto 25.9,14.5
+  goto 75.19,37.7
+  goto 75.32,41.4
+  goto 77.35,38.8
+  goto 79.2,39.49
+  goto 23.21,64.08
+  goto 27.88,72.79
+  goto 29.87,73.64
+  goto 62.52,63.24
+  goto 64.69,61.75
+  goto 66.22,60.47
+  goto 32.37,72.38
+  goto 35.79,68.82
+  goto 40.71,69.01
+  goto 42.49,31.64
+  goto 43.66,27.72
+  goto 43.93,28.22
+  goto 44.92,67.32
+  goto 45.15,30.19
+  goto 25.58,59.23
+  goto 29.56,39.51
+  goto 30.14,73.73
+  goto 33.43,34.55
+  goto 36.63,44.54
+  goto 36.64,69.61
+  goto 40.95,69.72
+  goto 44.76,67.92
+  goto 47.03,50.36
+  goto 50.96,59.5
+  goto 56.7,66.57
+  goto 58.02,72.07
+  goto 60.21,26.31
+  goto 61.38,19.22
+  goto 62.31,77.34
+  goto 63.02,62.97
+  goto 66.2,85.75
+  goto 66.43,61.43
+  goto 67.72,46.81
+  goto 70.2,78.57
+  goto 71.86,81.84
+  goto 74.73,40.79
+  goto 81.77,39.29
+  goto 81.91,44.13
+  goto 26.68,59.82
+  goto 32.49,72.7
+  goto 50.68,61.48
+  goto 63.3,21.52
+  goto 76.07,42.88
+  goto 78.73,40.75
+  goto 79.05,46.28
+  goto 80.46,47.26
+  goto 83.94,40.64
+  goto 7.3,41
+  goto 7.6,22.6
+  goto 8.1,30.3
+  goto 9.1,17.5
+  goto 9.5,15.5
+  goto 7.5,40.8
+  goto 8,23.7
+  goto 8.1,22.1
+  goto 8.1,29.3
+  goto 8.3,22.7
+  goto 8.4,25.8
+  goto 8.6,17
+  goto 8.6,17.7
+  goto 8.7,15.8
+  goto 9,25.1
+  goto 29.28,39.36
+  goto 29.9,41.65
+  goto 30.2,43.45
+  goto 32.32,45.32
+  goto 35.25,37.33
+  goto 36.51,44.69
+  goto 36.63,39.7
+  goto 29.23,52.6
+  goto 31.29,56.3
+  goto 31.54,58.25
+  goto 72.27,82.42
+  goto 72.95,80.35
+  goto 9.1,26.3
+  goto 19.1,13
+  goto 19.7,17.9
+  goto 21.8,14.2
+  goto 24.7,16
+  goto 95.4,9.6
+  goto 98.7,2.2
+  goto 98.7,15
+  goto 99.4,0.5
+  goto 99.7,3.2
+  goto 99.9,0.8
+  goto 75.8,39.87
+  goto 77.49,44.32
+  goto 78.97,44.53
+  goto 78.98,45.95
+  goto 79.4,46.14
+  goto 79.57,46.45
+  goto 80.7,44.11
+  goto 81.9,41.71
+  goto 82.6,41.04
+  goto 82.87,42.56
+  goto 75.09,37.73
+  goto 77.48,39.04
+  goto 77.87,39.1
+  goto 78.3,43.55
+  goto 79.35,41.15
+  goto 80.54,40.53
+  goto 82.92,44.01
+  goto 83.07,39.96
+  goto 54.61,33.23
+  goto 54.68,33.59
+  goto 55.57,35.22
+  interact 2039 optional
+  interact 2850 optional
+  interact 2852 optional
+  interact 2855 optional
+  interact 3659 optional
+  interact 3694 optional
+  interact 3695 optional
+  interact 3705 optional
+  interact 3715 optional
+  interact 4096 optional
+  interact 103815 optional
+  interact 105570 optional
+  interact 105579 optional
+  interact 111095 optional
+  interact 153470 optional
+  interact 179486 optional
+  interact 179488 optional
+  interact 181302 optional
+  interact 181620 optional
+  note Seven Hidden Strongbox placements in the far west, eighteen Solid Chest placements across the zone, thirty-three Barrel of Melon Juice and forty-four Food Crate placements, five Barrel of Milk placements, twenty-six Alliance Chest placements, four Alliance Strongbox placements, one Ambermill Strongbox, eighteen Battered Footlocker placements at the Syndicate camp, two Camp Crates and one Unopened Crate. All hold ordinary low-level goods; no unique treasure confirmed.
+  note No contract quest takes an object objective from any of these containers. Respawn timers unconfirmed.
