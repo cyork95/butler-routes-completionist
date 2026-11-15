@@ -1,0 +1,173 @@
+# Riverglades - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 5 confirmed flagged rares of Riverglades and
+# its one lootable fixed container. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is not
+# up never holds the route. Spawn points and levels are the local Forever
+# game data (questie-forever); signature drops are items whose SOLE dropper
+# is the rare. All five rares work multi-point patrols, so every rare step is
+# a loop (a loop needs at least two points). No tame lines ship (the data has
+# no tameability flag and the core guide carries no tame corroboration - see
+# docs/companion-unverified.md). Respawn timers are unconfirmed anywhere,
+# so none are stated. No rare in this guide is a giver, ender, or objective
+# of any core-contracted quest - see docs/riverglades-companions-inventory.md.
+guide butler-routes-completionist/riverglades-rares
+title Riverglades - Rares & Treasures
+levels 36-45
+zone Riverglades
+faction Alliance
+category Collectibles
+folder Companions
+keywords riverglades, rares, treasures, companions
+coords live
+version 1
+
+step Kargra the Blind — the west-center
+
+  zone map 2548
+
+  loop
+  goto 26.70,47.70
+  goto 26.85,47.02
+  goto 27.14,48.36
+  goto 27.22,41.32
+  goto 27.87,47.61
+  goto 27.93,47.07
+  goto 30.23,48.59
+  kill 256892 optional
+  collect 281666 "Robes of the Blind Cultist" optional
+  note Level 46 rare working its 7 confirmed points in the west-center - one above the guide band; its sole drop is the Robes of the Blind Cultist. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Twilight Forgemaster — the west
+
+  zone map 2548
+
+  loop
+  goto 27.03,51.99
+  goto 27.33,54.31
+  goto 27.43,49.61
+  goto 27.63,46.54
+  goto 27.90,57.06
+  goto 28.17,47.14
+  goto 28.34,42.90
+  goto 28.34,49.71
+  goto 28.43,43.81
+  goto 28.44,45.44
+  goto 28.89,47.83
+  goto 29.10,44.65
+  goto 29.13,46.74
+  goto 29.28,45.95
+  goto 29.48,48.91
+  goto 29.59,48.17
+  goto 30.17,45.37
+  goto 30.22,49.56
+  goto 30.29,46.88
+  goto 30.66,48.65
+  goto 31.05,45.24
+  goto 31.68,43.58
+  goto 37.06,45.77
+  goto 42.00,44.66
+  goto 27.83,53.90
+  goto 28.05,46.11
+  goto 28.53,44.67
+  goto 28.65,46.31
+  goto 29.19,45.39
+  goto 29.22,43.92
+  goto 29.59,46.37
+  goto 30.17,48.80
+  goto 41.32,44.35
+  kill 258032 optional
+  collect 281665 "Twilight Forgehammer" optional
+  note Level 46 rare elite working its 33 confirmed points in the west - one above the guide band; its sole drop is the Twilight Forgehammer. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Mad Marrius — the center
+
+  zone map 2548
+
+  loop
+  goto 43.69,54.96
+  goto 44.63,56.46
+  goto 44.89,53.40
+  goto 45.35,55.83
+  goto 45.46,55.26
+  goto 45.87,53.61
+  goto 46.44,55.68
+  goto 46.67,56.57
+  goto 46.74,54.62
+  goto 47.15,55.97
+  kill 257034 optional
+  collect 281657 "Corrupted Riverglades Pendant" optional
+  note Level 41 rare elite working its 10 confirmed points in the center; its sole drop is the Corrupted Riverglades Pendant. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Scaldaron — the far west coast
+
+  zone map 2548
+
+  loop
+  goto 29.24,70.42
+  goto 29.46,72.75
+  goto 29.79,74.21
+  goto 29.96,70.75
+  goto 29.96,71.32
+  goto 30.14,73.49
+  goto 30.18,69.90
+  goto 30.25,69.10
+  goto 30.63,72.22
+  goto 30.75,73.67
+  goto 30.97,72.68
+  goto 31.43,73.04
+  goto 31.47,73.93
+  goto 32.72,68.57
+  kill 263141 optional
+  collect 271612 "Head of Scaldaron" optional
+  collect 271613 "Head of Scaldaron" optional
+  collect 281650 "Dragonscale Buckler" optional
+  note Level 43 rare elite working its 14 confirmed points on the far west coast; the twin Heads of Scaldaron are its sole drops alongside the Dragonscale Buckler. The 271612 head is the objective of Hail the Dragonslayer - contracted in the core guide, which owns the accept and turn-in; the 271613 head is the same-title Horde twin's version, not yours. The buckler has no quest taking it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Rock Piles — the east-center
+
+  zone map 2548
+
+  loop
+  goto 65.20,25.00
+  goto 66.40,25.50
+  goto 67.10,29.00
+  goto 68.40,29.20
+  goto 74.80,39.60
+  interact 649094 optional
+  note Rock Piles sit at five fixed points in the east-center; they hold Good Rock and Bad Rock. No quest takes either - this is the zone's only lootable fixed container, said plainly as one.
+  note Respawn timers unconfirmed.
+
+step Mosh'gra — the Rog'mar east-center
+
+  zone map 2548
+
+  loop
+  goto 58.36,33.95
+  goto 58.65,33.29
+  goto 59.07,32.71
+  goto 59.72,29.84
+  goto 60.89,35.53
+  goto 61.12,34.19
+  goto 61.29,36.79
+  goto 61.72,35.11
+  goto 61.81,37.48
+  goto 61.88,35.61
+  goto 62.25,36.45
+  goto 62.46,37.35
+  goto 62.61,35.43
+  goto 62.88,36.14
+  goto 62.97,34.83
+  goto 63.03,36.72
+  goto 63.34,35.43
+  goto 63.94,34.79
+  goto 64.49,34.54
+  goto 64.55,47.92
+  goto 66.53,34.08
+  kill 259801 optional
+  collect 281676 "Rog'mar Trainee Shoulderpads" optional
+  note Level 41 rare working its 21 confirmed points in the Rog'mar east-center; its sole drop is the Rog'mar Trainee Shoulderpads. Mosh'gra is Horde-aligned and hostile to Alliance characters. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
