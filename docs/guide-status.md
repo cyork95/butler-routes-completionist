@@ -270,9 +270,9 @@ _Skyborne country._
 
 ### Hillsbrad Foothills — contested
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 60 candidates, 37 IN / 23 OUT (10 Horde set-aside)
+- [x] Core guide - `hillsbrad.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
