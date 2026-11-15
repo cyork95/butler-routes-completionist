@@ -1,0 +1,237 @@
+# Feralas - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and manuals whose SOURCE is physically in
+# Feralas, verified against the local Forever game data (questie-forever
+# item vendor and drop tables). Thirteen recipes are vendor-sold by in-zone
+# Alliance or neutral vendors (Logannas, Brienna Starglow, Pratt McGrubben,
+# Vivianna, Zorbin Fandazzle); eleven more drop each from a single named
+# in-zone mob, ten of them Feralas-only, one honestly noted as also dropping
+# in Thousand Needles. The six Jangdor-only patterns are excluded - he is a
+# Horde-faction vendor (Alterac precedent). Two high-level world-boss drops
+# are excluded as out of reach. Everything else Feralas-dropping is a
+# generic multi-zone world drop, and quest records carry no reward data, so
+# neither ships (see docs/feralas-companions-inventory.md and
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. Fishing has no Feralas
+# source, so that is stated, not padded.
+guide butler-routes-completionist/feralas-recipes
+title Feralas - Recipes & Patterns
+levels 38-50
+zone Feralas
+faction Alliance
+category Professions
+folder Companions
+keywords feralas, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Feathermoon vendors - Logannas's stock (Alchemy)
+
+  zone map 1444
+
+  when skill Alchemy 1
+
+  tip Logannas (32.67, 44.03) sells recipes in Feathermoon Stronghold.
+  buy 6057 "Recipe: Nature Protection Potion"
+  buy 9302 "Recipe: Ghost Dye"
+
+step Far east vendor - Brienna's stock (Tailoring)
+
+  zone map 1444
+
+  when skill Tailoring 1
+
+  tip Brienna Starglow (88.96, 45.95) sells patterns at the far east edge.
+  buy 7089 "Pattern: Azure Silk Cloak"
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+
+step Feathermoon vendors - Pratt's stock (Leatherworking)
+
+  zone map 1444
+
+  when skill Leatherworking 1
+
+  tip Pratt McGrubben (30.63, 42.71) sells patterns in Feathermoon Stronghold (a Horde vendor elsewhere sells the same stock; the Alliance source is Pratt).
+  buy 7451 "Pattern: Green Whelp Bracers"
+  buy 8385 "Pattern: Turtle Scale Gloves"
+  buy 15734 "Pattern: Living Shoulders"
+
+step Feathermoon vendors - Vivianna's stock (Cooking)
+
+  zone map 1444
+
+  when skill Cooking 1
+
+  tip Vivianna (31.30, 43.46) sells recipes in Feathermoon Stronghold (a Horde vendor elsewhere sells the same stock; the Alliance source is Vivianna).
+  buy 12229 "Recipe: Hot Wolf Ribs"
+  buy 13947 "Recipe: Lobster Stew"
+  buy 13948 "Recipe: Mightfish Steak"
+  buy 13949 "Recipe: Baked Salmon"
+
+step Center vendor - Zorbin's stock (Engineering)
+
+  zone map 1444
+
+  when skill Engineering 1
+
+  tip Zorbin Fandazzle (44.81, 43.42), neutral, sells schematics in the center.
+  buy 19027 "Schematic: Snake Burst Firework"
+
+step North coast - enchanted Sorceress (Enchanting)
+
+  zone map 1444
+
+  when skill Enchanting 1
+
+  loop
+  goto 23.78,62.42
+  goto 24.35,65.39
+  kill 5336 optional
+  collect 249513 "Formula: Enchant 2H Weapon - Lesser Strength" optional
+  note The Hatecrest Sorceress (level 43) on the north coast is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step East - triage tea (First Aid)
+
+  zone map 1444
+
+  when skill First Aid 1
+
+  loop
+  goto 65.13,52.68
+  goto 65.29,51.89
+  kill 5254 optional
+  collect 249882 "Recipe: Triage Tea" optional
+  note The Woodpaw Mystic (level 42) in the east is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step North - frenzy potion (Alchemy)
+
+  zone map 1444
+
+  when skill Alchemy 1
+
+  loop
+  goto 37.44,15.62
+  goto 38.18,12.08
+  kill 5363 optional
+  collect 250986 "Recipe: Superior Frenzy Potion" optional
+  note The Northspring Roguefeather (level 48) in the north is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step East - mithril claymore (Blacksmithing)
+
+  zone map 1444
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 69.37,51.35
+  goto 69.74,50.85
+  kill 5249 optional
+  collect 251462 "Plans: Mithril Claymore" optional
+  note The Woodpaw Mongrel (level 40) in the east is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step South-east - charged battleaxe (Blacksmithing)
+
+  zone map 1444
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 58.58,64.94
+  goto 59.31,63.63
+  kill 5232 optional
+  collect 251464 "Plans: Charged Mithril Battleaxe" optional
+  note The Gordunni Brute (level 42) in the south-east is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step North-west - scorpid belt (Leatherworking)
+
+  zone map 1444
+
+  when skill Leatherworking 1
+
+  loop
+  goto 51.80,30.79
+  goto 52.38,29.74
+  kill 5296 optional
+  collect 252909 "Pattern: Charged Scorpid Belt" optional
+  note The Rage Scar Yeti (level 46) in the north-west is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step North - scorpid bracers (Leatherworking)
+
+  zone map 1444
+
+  when skill Leatherworking 1
+
+  loop
+  goto 37.68,23.38
+  goto 39.92,18.65
+  kill 5262 optional
+  collect 252916 "Pattern: Supple Scorpid Bracers" optional
+  note The Groddoc Thunderer (level 49) in the north is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Far east edge - earthen leggings (Tailoring)
+
+  zone map 1444
+
+  when skill Tailoring 1
+
+  goto 91.90,49.00
+  kill 4116 optional
+  collect 254000 "Pattern: Earthen Leggings" optional
+  note The Gravelsnout Surveyor (level 29) at the far east edge is the named in-zone dropper; the same pattern also drops in Thousand Needles, so this is a genuine Feralas source, not the only one. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step North-west - earthenweave boots (Tailoring)
+
+  zone map 1444
+
+  when skill Tailoring 1
+
+  loop
+  goto 54.05,32.51
+  goto 54.89,33.52
+  kill 5297 optional
+  collect 254094 "Pattern: Earthenweave Boots" optional
+  note The Elder Rage Scar (level 48) in the north-west is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step South coast - stormcloth boots (Tailoring)
+
+  zone map 1444
+
+  when skill Tailoring 1
+
+  loop
+  goto 24.75,72.57
+  goto 25.17,72.74
+  kill 5333 optional
+  collect 254686 "Pattern: Stormcloth Boots" optional
+  note The Hatecrest Serpent Guard (level 44) on the south coast is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step South-east - healing draught manual (First Aid)
+
+  zone map 1444
+
+  when skill First Aid 1
+
+  loop
+  goto 58.44,67.55
+  goto 58.98,69.92
+  kill 5236 optional
+  collect 255725 "Manual: Superior Healing Potion" optional
+  note The Gordunni Shaman (level 44) in the south-east is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Feralas source — Fishing
+
+  zone map 1444
+
+  note Fishing has no recipe source physically in Feralas in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
