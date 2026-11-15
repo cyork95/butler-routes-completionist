@@ -397,9 +397,9 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 
 ### Un'Goro Crater — contested (Kalimdor)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census
+- [x] Core guide
+- [x] Lint/playtest clean (42/42, 0 errors)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
