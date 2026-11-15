@@ -1,0 +1,275 @@
+# Butler Routes - Thousand Needles completionist pilot (pack butler-routes-completionist).
+# Every Thousand Needles quest in the local census (34 quests, docs/thousand-needles-census.md)
+# appears exactly once as an accept; every one with a turn-in in the data turns in
+# once (1190 Keeping Pace has no turn-in in the data and is accept-only, documented).
+# The canyon floor (Whitereach, the journal, the Geomancy scroll, Skyseer) runs first,
+# then the Shimmering Flats as one coherent block (Raceway, Brassbolts, Zherin, Pozzik,
+# Razzeric, Tirth, the pit bosses, Morningdew), then the expedition legs for the chains
+# that leave the zone. Chain order is strictly turn-in-before-accept; the complete for
+# the quest whose pre sits outside the contract rides in a dedicated when onquest mini-step.
+# Coordinates on Thousand Needles use the era frame; expedition stops use the era frame too,
+# set with zone map lines. The Horde side belongs to the Horde block.
+guide butler-routes-completionist/thousand-needles
+title Thousand Needles - Completionist
+levels 25-35
+zone Thousand Needles
+faction Alliance
+category Leveling
+folder Completionist
+keywords thousand needles, completionist, mirage raceway, shimmering flats
+coords live
+version 1
+
+step Whitereach Runestone - arrival
+
+  tip Whitereach Runestone (8.1, 19): Falfindel Waywarder watches the western canyon mouth. The canyon floor runs east from here - the journal, the Geomancy scroll and Skyseer all lie ahead.
+  note 1100's starter (Henrig Lonebrow's Journal) lies on the canyon floor below - take it there.
+  note 79947's starter (the Scrolls) lies on the canyon floor below - take it there.
+
+step The canyon floor - journal and scroll
+
+  collect 5791 @30.73,24.35 era -- Henrig Lonebrow's Journal for Falfindel Waywarder
+  accept 1100 only Alliance -- Lonebrow's Journal - Henrig Lonebrow's Journal, the canyon floor; Falfindel takes it west
+  accept 79947 -- Geomancy: The Stone-Cold Truth - the Scrolls @34.4,40.1 era; Owen Thadd takes it in Durotar, late
+  collect 215683 quest 79947.1 @34.4,40.1 era -- the Geomancy scroll for Owen Thadd, Durotar
+  accept 8682 optional -- Skyseer the Elder - Elder Skyseer @45.29,50 era; the Lunar Festival elder
+  note The Lunar Festival comes once a year - Skyseer waits if it is not running.
+  turnin 8682 optional -- Skyseer the Elder - back to Elder Skyseer
+
+step Whitereach Runestone - the return
+
+  turnin 1100 only Alliance -- Lonebrow's Journal - the journal to Falfindel Waywarder
+  accept 1101 only Alliance -- The Crone of the Kraul - Falfindel Waywarder; Razorflank's Medallion, Razorfen Kraul
+  note Razorflank has no spawn in the data - kill him in Razorfen Kraul (Barrens) and have his Medallion in your bags.
+  complete 1101 only Alliance
+  turnin 1101 only Alliance -- The Crone of the Kraul - the Medallion to Falfindel Waywarder
+
+step The Mirage Raceway - Kravel's board
+
+  tip Kravel Koalbeard (77.79, 77.27) runs the board at the Mirage Raceway. Fizzle (78.06, 77.13) and Wizzle Brassbolts (78.14, 77.12) stand beside him.
+  accept 1110 -- Rocket Car Parts - Kravel Koalbeard; car rubble, all over the Flats below
+  accept 1111 -- Wharfmaster Dizzywig - Kravel Koalbeard; Dizzywig takes it in Ratchet, north
+  note 1114's pre (1112 Parts for Kravel, a Barrens quest from Dizzywig) fills at the Ratchet leg below - take 1112 there.
+  accept 1114 -- Delivery to the Gnomes - Kravel Koalbeard; Fizzle takes it here
+  accept 5762 -- Hemet Nesingwary - Kravel Koalbeard; Hemet takes it in Stranglethorn, late
+  note 1118's pre (1117 Rumors for Kravel, done in Stranglethorn) fills before this route - take 1118 here.
+  accept 1118 -- Back to Booty Bay - Kravel Koalbeard; Crank takes it in Booty Bay, late
+  note 1120's pre (1119 Zanzil's Mixture, done in Stranglethorn) fills before this route - take 1120 here.
+  accept 1120 -- Get the Gnomes Drunk - Kravel Koalbeard; the Gnome Pit Boss takes it here
+  note 1120 and 1121 are mutually exclusive twins - this route sabotages the gnomes and reports back to the goblin (1122).
+
+step Shimmering Flats - rocket car parts
+
+  complete 1110 @70.15,61.92 era -- Rocket Car Parts off the rubble west for Kravel Koalbeard
+  complete 1110 @77.8,84.15 era -- Rocket Car Parts off the rubble central for Kravel Koalbeard
+  complete 1110 @88.42,81.04 era -- Rocket Car Parts off the rubble east for Kravel Koalbeard
+  turnin 1110 -- Rocket Car Parts - the parts to Kravel Koalbeard
+  turnin 1114 -- Delivery to the Gnomes - the delivery to Fizzle Brassbolts
+
+step Kravel's board - the rumormonger
+
+  note 1115's pre (1114 above) fills at the board - take 1115 here.
+  accept 1115 -- The Rumormonger - Kravel Koalbeard; Krazek takes it in Booty Bay, late
+
+step The Brassbolts - venom and shells
+
+  accept 1104 -- Salt Flat Venom - Fizzle Brassbolts; scorpid venom, the Flats
+  accept 1105 -- Hardened Shells - Wizzle Brassbolts; tortoise shells, the Flats
+  complete 1104 @70,79.13 era -- Salty Scorpid Venom off the Scorpid Terrors for Fizzle Brassbolts
+  complete 1104 @69.31,65.33 era -- Salty Scorpid Venom off the Scorpid Reavers for Fizzle Brassbolts
+  turnin 1104 -- Salt Flat Venom - the venom to Fizzle Brassbolts
+  complete 1105 @69.2,65.62 era -- Hardened Tortoise Shells off the Sparkleshell Tortoises for Wizzle Brassbolts
+  complete 1105 @70.22,77.98 era -- Hardened Tortoise Shells off the Sparkleshell Snappers for Wizzle Brassbolts
+  complete 1105 @72.42,88.83 era -- Hardened Tortoise Shells off the Sparkleshell Borers for Wizzle Brassbolts
+  turnin 1105 -- Hardened Shells - the shells to Wizzle Brassbolts
+  accept 1106 -- Martek the Exiled - Fizzle Brassbolts; Martek takes it in the Badlands, late
+  accept 1107 -- Encrusted Tail Fins - Wizzle Brassbolts; Saltscale fins, Stranglethorn coast
+  note 1107's fins drop off Saltscale murlocs on the Stranglethorn coast (a prior zone) - take ten on the Stranglethorn leg below.
+
+step Trackmaster Zherin - basilisks
+
+  tip Trackmaster Zherin (81.63, 77.95) watches the track's east end from the pit wall.
+  accept 1175 -- A Bump in the Road - Trackmaster Zherin; Saltstone basilisks, the Flats
+  complete 1175 @68.71,61.92 era -- Saltstone Basilisks off the basilisks for Trackmaster Zherin
+  complete 1175 @69,77.68 era -- Saltstone Crystalhides off the crystalhides for Trackmaster Zherin
+  complete 1175 @71.19,90.71 era -- Saltstone Gazers off the gazers for Trackmaster Zherin
+  turnin 1175 -- A Bump in the Road - back to Trackmaster Zherin
+
+step Pozzik's pit crew
+
+  tip Pozzik (80.18, 75.88) runs the crew; Razzeric (80.33, 76.09) tunes next door and Zamek (79.81, 77.03) watches.
+  accept 1176 -- Load Lightening - Pozzik; vulture bones, the Flats
+  complete 1176 @70.44,69.01 era -- Hollow Vulture Bones off the Salt Flats Scavengers for Pozzik
+  complete 1176 @70.99,75.35 era -- Hollow Vulture Bones off the Salt Flats Vultures for Pozzik
+  turnin 1176 -- Load Lightening - the bones to Pozzik
+  accept 1178 -- Goblin Sponsorship - Pozzik; Gazlowe takes it in Ratchet, north
+  note 1186's pre (1183 Goblin Sponsorship, done in Stranglethorn) fills before this route - take 1186 here.
+  accept 1186 -- The Eighteenth Pilot - Pozzik; Razzeric takes it here
+  note 1190's pre (1137 News for Fizzle, a Badlands errand from Martek) fills outside this route - take 1190 here.
+  accept 1190 -- Keeping Pace - Pozzik; it completes on the spot, no turn-in in the data
+  accept 1191 -- Zamek's Distraction - Zamek; a word, right here
+  turnin 1191 -- Zamek's Distraction - back to Zamek
+  note 1194's pre (1190 above) fills at this board - take 1194 after it.
+  accept 1194 -- Rizzle's Schematics - the schematics object is unmapped in the data; Pozzik takes them
+  turnin 1194 -- Rizzle's Schematics - the schematics to Pozzik
+  accept 1192 -- Indurium Ore - Pozzik; four Indurium Ore, Uldaman
+  note Indurium Ore has no placed source in the data (the vein and the Uldaman mobs are unmapped) - have four in your bags.
+  complete 1192
+  turnin 1192 -- Indurium Ore - the ore to Pozzik
+
+step Razzeric's garage - the tweaking
+
+  turnin 1186 -- The Eighteenth Pilot - Pozzik's word to Razzeric
+  accept 1187 -- Razzeric's Tweaking - Razzeric; a Seaforium Booster, Dustwallow, late
+  note The Booster rides the Dustwallow leg below with the mage errand.
+
+step Razzeric's garage - the bomb writ
+
+  tip Razzeric tunes for anyone carrying the writ and the bomb.
+  when skill Engineering 1
+
+  accept 94236 optional -- Craftsman's Writ: Big Bronze Bomb - Razzeric; the writ and a bomb, farmed below
+  note 94236's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94236 optional
+  turnin 94236 optional -- Craftsman's Writ: Big Bronze Bomb - the writ and bomb to Razzeric
+
+step Tirth's circle - the mage line
+
+  tip Magus Tirth (78.29, 75.7) holds the circle; "Plucky" Johnson (79.61, 75.63) spars beside him.
+  note 1950's pre (1949 Hidden Secrets, a Dustwallow errand from Tabetha) fills outside this route - take 1950 here.
+  accept 1950 only Mage -- Get the Scoop - Magus Tirth; "Plucky" Johnson, right here
+
+step The scoop, taken - Plucky
+
+  when onquest 1950
+  complete 1950 only Mage @79.61,75.63 era -- "Plucky" Johnson for Magus Tirth
+
+step Tirth's circle - the scoop delivered
+
+  turnin 1950 only Mage -- Get the Scoop - back to Magus Tirth
+  accept 1951 only Mage -- Rituals of Power - Magus Tirth; Tabetha takes it in Dustwallow, late
+  note The Rituals of Power have no placed source in the data - have them in your bags.
+  complete 1951 only Mage
+
+step Tirth's circle - the robe writ
+
+  when skill Tailoring 1
+
+  accept 94254 optional -- Craftsman's Writ: Greater Adept's Robe - Magus Tirth; the writ and a robe, farmed below
+  note 94254's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94254 optional
+  turnin 94254 optional -- Craftsman's Writ: Greater Adept's Robe - the writ and robe to Magus Tirth
+
+step Plucky's corner - the knife writ
+
+  when skill Blacksmithing 1
+
+  accept 94227 optional -- Craftsman's Writ: Big Bronze Knife - "Plucky" Johnson; the writ and a knife, farmed below
+  note 94227's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94227 optional
+  turnin 94227 optional -- Craftsman's Writ: Big Bronze Knife - the writ and knife to "Plucky" Johnson
+
+step The pit bosses - gnomes drunk
+
+  tip The Gnome Pit Boss (77.56, 76.94) and the Goblin Pit Boss (79.9, 76.74) call the race from opposite walls.
+  turnin 1120 -- Get the Gnomes Drunk - the word to the Gnome Pit Boss
+
+step The pit bosses - the gloves writ
+
+  when skill Leatherworking 1
+
+  accept 94245 optional -- Craftsman's Writ: Barbaric Gloves - the Goblin Pit Boss; the writ and gloves, farmed below
+  note 94245's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94245 optional
+  turnin 94245 optional -- Craftsman's Writ: Barbaric Gloves - the writ and gloves to the Goblin Pit Boss
+
+step Kravel's board - the report
+
+  note 1122's pre (1120 above, with 1119 from Stranglethorn) fills at the board - take 1122 here.
+  accept 1122 -- Report Back to Fizzlebub - Kravel Koalbeard; Crank takes it in Booty Bay, late
+
+step Rizzle's corner - the defense writ
+
+  tip Rizzle Brassbolts (77.22, 77.4) holds the Raceway's west corner.
+  when skill Alchemy 1
+
+  accept 94218 optional -- Craftsman's Writ: Elixir of Defense - Rizzle Brassbolts; the writ and an elixir, farmed below
+  note 94218's starter (the writ) has no placed source in the data - have it in your bags.
+  complete 94218 optional
+  turnin 94218 optional -- Craftsman's Writ: Elixir of Defense - the writ and elixir to Rizzle Brassbolts
+
+step Expedition - Ratchet, two words north
+
+  zone map 1413
+
+  tip Wharfmaster Dizzywig (63.35, 38.45) works the Ratchet docks; Gazlowe (62.68, 36.23) runs the town.
+  turnin 1111 -- Wharfmaster Dizzywig - Kravel's word to Wharfmaster Dizzywig
+  note 1112 Parts for Kravel (a Barrens quest, not in this route) starts here - take it for the Gnomes delivery above.
+  turnin 1178 -- Goblin Sponsorship - Pozzik's word to Gazlowe
+  zone map 1441
+
+step Expedition - Badlands, Martek's word
+
+  zone map 1418
+
+  tip Martek the Exiled (42.22, 52.69) holds out in the Badlands.
+  turnin 1106 -- Martek the Exiled - Fizzle's word to Martek the Exiled
+  zone map 1441
+
+step Expedition - Stranglethorn, Booty Bay and Hemet
+
+  zone map 1434
+
+  tip Krazek (26.95, 77.21) and Crank Fizzlebub (27.12, 77.21) work Booty Bay; Hemet Nesingwary (35.66, 10.81) camps the north.
+  turnin 1115 -- The Rumormonger - Kravel's word to Krazek
+  turnin 1118 -- Back to Booty Bay - Kravel's word to Crank Fizzlebub
+  turnin 1122 -- Report Back to Fizzlebub - Kravel's word to Crank Fizzlebub
+  turnin 5762 -- Hemet Nesingwary - Kravel's word to Hemet Nesingwary
+  complete 1107 @23.2,25 era -- Encrusted Tail Fins off the Saltscale Warriors for Wizzle Brassbolts
+  zone map 1441
+
+step The Brassbolts - fins delivered
+
+  turnin 1107 -- Encrusted Tail Fins - the fins to Wizzle Brassbolts
+
+step Expedition - Dustwallow, Tabetha and the crate
+
+  zone map 1445
+
+  tip Tabetha (46.06, 57.09) keeps her hut in Dustwallow; the Gizmorium crate (54.07, 56.49) sits east.
+  complete 1951 only Mage @46.06,57.09 era -- the Rituals for Magus Tirth, carried in
+  turnin 1951 only Mage -- Rituals of Power - the Rituals to Tabetha
+  complete 1187 @54.07,56.49 era -- the Seaforium Booster off the Gizmorium Shipping Crate for Razzeric
+  zone map 1441
+
+step Razzeric's garage - the handoff
+
+  turnin 1187 -- Razzeric's Tweaking - the Booster to Razzeric
+  accept 1188 -- Safety First - Razzeric; Shreev takes it in Gadgetzan, late
+
+step Expedition - Gadgetzan, Shreev's word
+
+  zone map 1446
+
+  tip Shreev (50.96, 27.24) works Gadgetzan.
+  turnin 1188 -- Safety First - Razzeric's word to Shreev
+  zone map 1441
+
+step Expedition - Undercity, the Geomancy scroll
+
+  zone map 1458
+
+  tip Owen Thadd (73.4, 33) works Undercity; Garion Wendell in Stormwind takes the scroll too.
+  turnin 79947 -- Geomancy: The Stone-Cold Truth - the scroll to Owen Thadd
+  note Garion Wendell (Stormwind) offers the same turn-in - bank the choice if Durotar runs late.
+  zone map 1441
+
+step The Flats at rest - Morningdew
+
+  accept 8724 optional -- Morningdew the Elder - Elder Morningdew @79.2,77.05 era; the Lunar Festival elder
+  note The Lunar Festival comes once a year - Morningdew waits if it is not running.
+  turnin 8724 optional -- Morningdew the Elder - back to Elder Morningdew
+
+step Thousand Needles - done
+
+  note The Needles are run: the canyon holds, the Flats race, the words are carried north, south and east. The Horde side belongs to the Horde block.
