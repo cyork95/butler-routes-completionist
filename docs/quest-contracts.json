@@ -6758,6 +6758,239 @@
           "name": "Geomancy: The Stone-Cold Truth"
         }
       ]
+    },
+    {
+      "id": "desolace",
+      "name": "Desolace",
+      "order": 19,
+      "levelBand": "30-40",
+      "summary": "Set 3 closer (Alliance route in a contested zone): Nijel's Point, the Magram and Gelkis clan chains, the kodo country, the coast and the mage line; expedition legs to Maraudon, the Swamp of Sorrows, Booty Bay and Stormwind.",
+      "quests": [
+        {
+          "id": 1369,
+          "name": "Broken Tears"
+        },
+        {
+          "id": 1370,
+          "name": "Stealing Supplies"
+        },
+        {
+          "id": 1371,
+          "name": "Gizmo for Warug"
+        },
+        {
+          "id": 1373,
+          "name": "Ongeku"
+        },
+        {
+          "id": 1374,
+          "name": "Khan Jehn"
+        },
+        {
+          "id": 1375,
+          "name": "Khan Shaka"
+        },
+        {
+          "id": 1380,
+          "name": "Khan Hratha"
+        },
+        {
+          "id": 1381,
+          "name": "Khan Hratha"
+        },
+        {
+          "id": 1384,
+          "name": "Raid on the Kolkar"
+        },
+        {
+          "id": 1386,
+          "name": "Assault on the Kolkar"
+        },
+        {
+          "id": 1439,
+          "name": "Search for Tyranis"
+        },
+        {
+          "id": 1440,
+          "name": "Return to Vahlarriel"
+        },
+        {
+          "id": 1455,
+          "name": "The Karnitol Shipwreck"
+        },
+        {
+          "id": 1465,
+          "name": "Vahlarriel's Search"
+        },
+        {
+          "id": 97284,
+          "name": "Vahlarriel's Vengeance"
+        },
+        {
+          "id": 5501,
+          "name": "Bone Collector"
+        },
+        {
+          "id": 5561,
+          "name": "Kodo Roundup"
+        },
+        {
+          "id": 5821,
+          "name": "Bodyguard for Hire"
+        },
+        {
+          "id": 5943,
+          "name": "Gizelton Caravan"
+        },
+        {
+          "id": 6132,
+          "name": "Get Me Out of Here!"
+        },
+        {
+          "id": 6134,
+          "name": "Ghost-o-plasm Round Up"
+        },
+        {
+          "id": 6161,
+          "name": "Claim Rackmore's Treasure!"
+        },
+        {
+          "id": 5741,
+          "name": "Sceptre of Light"
+        },
+        {
+          "id": 6027,
+          "name": "Book of the Ancients"
+        },
+        {
+          "id": 93465,
+          "name": "Notes on Draenethyst"
+        },
+        {
+          "id": 93678,
+          "name": "Abridged Notes on Draenethyst"
+        },
+        {
+          "id": 79229,
+          "name": "Highway Robbery"
+        },
+        {
+          "id": 79235,
+          "name": "On the Lam"
+        },
+        {
+          "id": 79939,
+          "name": "The Broken Hammer"
+        },
+        {
+          "id": 92743,
+          "name": "A Conqueror's Crown"
+        },
+        {
+          "id": 92754,
+          "name": "A New Need for Shadow Protection"
+        },
+        {
+          "id": 92755,
+          "name": "Mysterious Mysticism"
+        },
+        {
+          "id": 92814,
+          "name": "I Need a Tailor"
+        },
+        {
+          "id": 92817,
+          "name": "Leather Technique"
+        },
+        {
+          "id": 92818,
+          "name": "Big, No, MASSIVE Iron Axes"
+        },
+        {
+          "id": 92841,
+          "name": "Valley of Bones"
+        },
+        {
+          "id": 92844,
+          "name": "Mountain of Bones"
+        },
+        {
+          "id": 92846,
+          "name": "Outcast Necromancers"
+        },
+        {
+          "id": 92847,
+          "name": "Corrupting Tears"
+        },
+        {
+          "id": 92873,
+          "name": "Proof of Concept"
+        },
+        {
+          "id": 92893,
+          "name": "No Mercy for the Weak"
+        },
+        {
+          "id": 92894,
+          "name": "Bone Raising"
+        },
+        {
+          "id": 93034,
+          "name": "Valley of Bones"
+        },
+        {
+          "id": 93044,
+          "name": "A Cleansing Cry"
+        },
+        {
+          "id": 93066,
+          "name": "Bristleback Retreat"
+        },
+        {
+          "id": 93196,
+          "name": "Khan Jehn"
+        },
+        {
+          "id": 96222,
+          "name": "Khan Hratha"
+        },
+        {
+          "id": 93224,
+          "name": "Carved Centaur Totems"
+        },
+        {
+          "id": 93226,
+          "name": "Buying Friendship: Magram"
+        },
+        {
+          "id": 92811,
+          "name": "Economic Warfare"
+        },
+        {
+          "id": 94257,
+          "name": "Craftsman's Writ: Lesser Invisibility Potion"
+        },
+        {
+          "id": 94269,
+          "name": "Craftsman's Writ: Inlaid Mithril Cylinder"
+        },
+        {
+          "id": 94281,
+          "name": "Craftsman's Writ: Advanced Target Dummy"
+        },
+        {
+          "id": 94293,
+          "name": "Craftsman's Writ: Guardian Cloak"
+        },
+        {
+          "id": 94305,
+          "name": "Craftsman's Writ: Shadoweave Gloves"
+        },
+        {
+          "id": 7067,
+          "name": "The Pariah's Instructions"
+        }
+      ]
     }
   ]
 }
