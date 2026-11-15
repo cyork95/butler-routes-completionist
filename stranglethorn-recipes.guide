@@ -1,0 +1,247 @@
+# Stranglethorn Vale - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns and plans whose SOURCE is physically in
+# Stranglethorn Vale (Booty Bay sits on this map and counts as zone
+# content), verified against the local Forever game data (questie-forever
+# item vendor and drop tables). Thirty-six recipes are vendor-sold by
+# in-zone Alliance-safe vendors (Kelsey Yance, Glyx Brewright, Xizk
+# Goodstitch, Cowardly Crosby, Narkk, Corporal Bluth, Rikqiz, Rin'wosho
+# the Trader, Pix Xizzix, Blixrez Goodstitch); three more drop each from
+# a single named in-zone mob. The two same-title Enchanter's Cowl
+# patterns are both sold by Xizk Goodstitch and both ship with a note.
+# The Omelet and Spiced Chili Crab are excluded - their only in-zone
+# vendors are Horde-faction (Alterac precedent). Everything else
+# Stranglethorn-dropping is a generic multi-zone world drop (Elwynn rule),
+# the world-boss patterns are out of reach for a 30-45 guide (Feralas
+# precedent), and quest records carry no reward data, so none of those
+# ships (see docs/stranglethorn-companions-inventory.md and
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to
+# its profession; other characters skip it cleanly. Blacksmithing,
+# Engineering, First Aid and Fishing have no Stranglethorn source, so
+# that is stated, not padded.
+guide butler-routes-completionist/stranglethorn-recipes
+title Stranglethorn Vale - Recipes & Patterns
+levels 30-45
+zone Stranglethorn Vale
+faction Alliance
+category Professions
+folder Companions
+keywords stranglethorn, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Booty Bay vendors - Kelsey's stock (Cooking)
+
+  zone map 1434
+
+  when skill Cooking 1
+
+  tip Kelsey Yance (28.23, 74.34) sells recipes in Booty Bay.
+  buy 6039 "Recipe: Giant Clam Scorcho"
+  buy 6369 "Recipe: Rockscale Cod"
+  buy 13940 "Recipe: Cooked Glossy Mightfish"
+  buy 13941 "Recipe: Filet of Redgill"
+  buy 13943 "Recipe: Hot Smoked Bass"
+  buy 17062 "Recipe: Mithril Head Trout"
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+
+step Booty Bay vendors - Glyx's stock (Alchemy)
+
+  zone map 1434
+
+  when skill Alchemy 1
+
+  tip Glyx Brewright (28.14, 78.11) sells recipes in Booty Bay.
+  buy 6056 "Recipe: Frost Protection Potion"
+  buy 6057 "Recipe: Nature Protection Potion"
+
+step Booty Bay vendors - Xizk's stock (Tailoring)
+
+  zone map 1434
+
+  when skill Tailoring 1
+
+  tip Xizk Goodstitch (28.71, 76.89) sells patterns in Booty Bay.
+  buy 7087 "Pattern: Crimson Silk Cloak"
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+
+step Booty Bay vendors - Xizk's stock (Enchanting)
+
+  zone map 1434
+
+  when skill Enchanting 1
+
+  tip Xizk Goodstitch (28.71, 76.89) sells patterns in Booty Bay.
+  buy 14630 "Pattern: Enchanter's Cowl"
+  buy 217258 "Pattern: Enchanter's Cowl"
+  note Two same-title Enchanter's Cowl patterns share this vendor's stock - both are genuine in-zone sources, so both ship.
+
+step Cape vendor - Crosby's hat (Tailoring)
+
+  zone map 1434
+
+  when skill Tailoring 1
+
+  tip Cowardly Crosby (27.00, 82.48) sells the pattern at the southern cape.
+  buy 10318 "Pattern: Admiral's Hat"
+
+step Booty Bay vendors - Narkk's shirt (Tailoring)
+
+  zone map 1434
+
+  when skill Tailoring 1
+
+  tip Narkk (28.13, 74.42) sells the pattern in Booty Bay.
+  buy 10728 "Pattern: Black Swashbuckler's Shirt"
+
+step Rebel Camp vendors - Bluth's stock (Cooking)
+
+  zone map 1434
+
+  when skill Cooking 1
+
+  tip Corporal Bluth (37.96, 2.99) sells recipes at the Rebel Camp in the north.
+  buy 12228 "Recipe: Roast Raptor"
+  buy 12231 "Recipe: Jungle Stew"
+
+step Booty Bay vendors - Rikqiz's stock (Leatherworking)
+
+  zone map 1434
+
+  when skill Leatherworking 1
+
+  tip Rikqiz (28.49, 76.05) sells patterns in Booty Bay.
+  buy 14635 "Pattern: Gem-studded Leather Belt"
+  buy 18239 "Pattern: Shadowskin Gloves"
+
+step Yojamba Isle vendors - Rin'wosho's stock (Leatherworking)
+
+  zone map 1434
+
+  when skill Leatherworking 1
+
+  tip Rin'wosho the Trader (15.07, 16.00) sells patterns on Yojamba Isle in the north-west.
+  buy 19764 "Pattern: Bloodvine Vest"
+  buy 19765 "Pattern: Bloodvine Leggings"
+  buy 19766 "Pattern: Bloodvine Boots"
+  buy 19769 "Pattern: Primal Batskin Jerkin"
+  buy 19770 "Pattern: Primal Batskin Gloves"
+  buy 19771 "Pattern: Primal Batskin Bracers"
+  buy 19772 "Pattern: Blood Tiger Breastplate"
+  buy 19773 "Pattern: Blood Tiger Shoulders"
+
+step Yojamba Isle vendors - Rin'wosho's stock (Alchemy)
+
+  zone map 1434
+
+  when skill Alchemy 1
+
+  tip Rin'wosho the Trader (15.07, 16.00) sells recipes on Yojamba Isle in the north-west.
+  buy 20011 "Recipe: Mageblood Potion"
+  buy 20012 "Recipe: Greater Dreamless Sleep"
+  buy 20013 "Recipe: Living Action Potion"
+  buy 20014 "Recipe: Major Troll's Blood Potion"
+
+step Booty Bay vendors - Pix's bag (Tailoring)
+
+  zone map 1434
+
+  when skill Tailoring 1
+
+  tip Pix Xizzix (28.52, 75.86) sells the pattern in Booty Bay.
+  buy 228121 "Pattern: Leather-Reinforced Runecloth Bag"
+
+step Booty Bay vendors - Blixrez's stock (Leatherworking)
+
+  zone map 1434
+
+  when skill Leatherworking 1
+
+  tip Blixrez Goodstitch (28.25, 77.54) sells patterns in Booty Bay.
+  buy 5788 "Pattern: Thick Murloc Armor"
+  buy 5789 "Pattern: Murloc Scale Bracers"
+
+step North-west raptors - spiced raptor slice (Cooking)
+
+  zone map 1434
+
+  when skill Cooking 1
+
+  loop
+  goto 24.01,15.73
+  goto 24.16,16.26
+  goto 24.75,16.04
+  kill 855 optional
+  collect 250185 "Recipe: Twice-Spiced Raptor Slice" optional
+  note The Young Stranglethorn Raptor (level 30) in the north-west is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step North-west mystics - earthen silk gloves (Tailoring)
+
+  zone map 1434
+
+  when skill Tailoring 1
+
+  loop
+  goto 22.54,13.37
+  goto 22.93,12.23
+  goto 23.13,13.15
+  goto 23.38,12.61
+  goto 23.89,12.20
+  goto 24.23,13.24
+  goto 24.70,11.50
+  goto 24.79,12.18
+  goto 25.05,9.72
+  goto 25.18,11.27
+  goto 25.35,12.24
+  goto 25.39,9.96
+  goto 25.43,9.20
+  goto 25.45,9.59
+  goto 25.72,10.03
+  goto 25.88,11.03
+  goto 26.00,11.50
+  goto 26.11,8.95
+  goto 26.11,12.17
+  goto 26.11,13.42
+  goto 26.17,8.33
+  goto 26.46,11.42
+  goto 27.21,11.26
+  goto 27.58,11.00
+  goto 23.90,13.22
+  goto 25.12,9.30
+  goto 26.35,13.24
+  kill 701 optional
+  collect 254018 "Pattern: Earthen Silk Gloves" optional
+  note The Bloodscalp Mystic (level 34) in the north-west is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Saltscale oracles - gilded handwraps (Tailoring)
+
+  zone map 1434
+
+  when skill Tailoring 1
+
+  loop
+  goto 24.29,24.28
+  goto 24.52,25.01
+  goto 24.56,23.99
+  goto 24.80,23.42
+  goto 25.10,23.79
+  kill 873 optional
+  collect 254022 "Pattern: Gilded Handwraps" optional
+  note The Saltscale Oracle (level 36) is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Stranglethorn source - Blacksmithing
+  note Blacksmithing has no recipe source physically in Stranglethorn Vale in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Stranglethorn source - Engineering
+  note Engineering has no recipe source physically in Stranglethorn Vale in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Stranglethorn source - First Aid
+  note First Aid has no recipe source physically in Stranglethorn Vale in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Stranglethorn source - Fishing
+  note Fishing has no recipe source physically in Stranglethorn Vale in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
