@@ -494,3 +494,20 @@ as above: game-data citation or a named source.
 
 - searing-gorge.guide step 1 says the Secret Plans: Fiery Flux (7722) have no placed source and carries a placeless complete. Object 179826 is literally named Secret Plans: Fiery Flux and sits at (40.45,35.74) in the Slag Pit, next to Maltorius (40.77,35.89) - exactly where the objective text sends the player. The complete should point at the object. Untouched this round per the no-modify rule; fix in the next fix round.
 - Object 179828 Dark Iron Pillow (6 pts at 44-46,27-32) may or may not be the source of item 18950 for 7704 - the names do not match, so it stays unconfirmed and is shipped nowhere. Verify in game before using.
+
+## Desolace tame lines (pack 0.55.0)
+
+- None of the 5 shipped rares is drop-evidenced as a tameable beast family (shared tables carry only generic gear plus the ordinary greens), npc records carry no tameability flag, and the Desolace core guide (56-contract) carries zero only-Hunter lines and no references to any of the 6 flagged rares. No only-Hunter task ships; all five steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+
+## Desolace quest-reward recipes (pack 0.55.0)
+
+- Quest records in the local build carry no reward data, so no quest-reward recipe in Desolace can be confirmed from the toolchain. The 21 shipped recipes are 18 vendor-sold plus 3 exclusive mob drops. If a Desolace quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
+
+## Desolace stock class and respawn timers (pack 0.55.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so none of the 18 vendor recipes is marked limited. The vendor steps note that stock class is unconfirmed.
+- No respawn data for any of the 5 shipped rares, the 31 container points, or the 3 drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
+
+## Desolace core-contract observation (pack 0.55.0, for Butler)
+
+- The Desolace core contracted 1455 (The Karnitol Shipwreck) but not 1454, and 1465 (Vahlarriel's Search) but not 1437 - same-name twin pairs split across the contract line. The settled precedent (Harvesting the Harvesters 92910/92911, Attunement 7487/7848) routes both twins. This round did not touch the core; Butler rules whether 1454/1437 belong in.
