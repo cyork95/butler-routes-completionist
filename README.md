@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.49.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.50.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -60,6 +60,7 @@ Status: **in development (pack v0.49.0), not published yet**. The first release 
 | `badlands.guide` (Set 5 core built, pilot pending) | Badlands | 28–40 | Alliance |
 | `badlands-rares.guide` (companion built, pilot pending) | Badlands rares and treasures | 28-40 | Alliance |
 | `badlands-recipes.guide` (companion built, pilot pending) | Badlands recipe sources | 28-40 | Alliance |
+| `blasted-lands.guide` (Set 5 core built, pilot pending) | Blasted Lands | 40–50 | Alliance |
 | `dustwallow-rares.guide` (companion built, pilot pending) | Dustwallow Marsh rares and treasures | 35-45 | Alliance |
 | `dustwallow-recipes.guide` (companion built, pilot pending) | Dustwallow Marsh recipe sources | 35-45 | Alliance |
 | `alterac-rares.guide` (companion built, pilot pending) | Alterac Mountains rares and treasures | 30-40 | Alliance |

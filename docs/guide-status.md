@@ -361,9 +361,9 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 
 ### Blasted Lands — contested (Eastern Kingdoms)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 33 candidates, 21 IN / 12 OUT (0 Horde set aside)
+- [x] Core guide - `blasted-lands.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 3 personas 0 stuck (R1 expedition residue, all documented)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
