@@ -423,3 +423,16 @@ as above: game-data citation or a named source.
 
 - Two of the 8 shipped Stranglethorn rares read as beasts by name in the data (1552 Scale Belly the crocolisk, 14490 Rippa the raptor), but npc records carry no tameability flag and the Stranglethorn core guide (123-contract) carries no tame lines and no references to any Stranglethorn rare. Name alone is not the bar (precedent needs drop evidence plus core-guide corroboration). No only-Hunter task ships; all eight steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
 - 14510 Pattern: Bottomless Bag, 14509 Pattern: Mooncloth Circlet, 14511 Pattern: Gloves of Spell Mastery and 228317 Pattern: Incandescent Mooncloth Circlet drop in-zone only from the level-63 world boss Lord Kazzak (npc12397, zones 1419/1434) among a dozen-plus cross-zone droppers each - out of reach for a 30-45 guide and generic besides. Logged, never shipped.
+
+## Badlands tame lines (pack 0.48.0)
+
+- Broken Tooth (npc2850, lvl 37 rare, 4 pts east) drops 4580 Sabertooth Fang at 9.3% - drop evidence of a sabertooth-cat beast family, stronger than name alone. But npc records carry no tameability flag and the Badlands core guide (35-contract) carries no tame lines and no references to any Badlands rare, so the corroboration half of the rule is unmet. No only-Hunter task ships; all six steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+
+## Badlands quest-reward recipes (pack 0.48.0)
+
+- Quest records in the local build carry no reward data, so no quest-reward recipe in the Badlands can be confirmed from the toolchain. The 8 shipped recipes are 2 vendor-sold plus 6 exclusive mob drops. If a Badlands quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
+
+## Badlands stock class and respawn timers (pack 0.48.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so neither vendor recipe (10602, 10858) is marked limited. Each vendor step notes that stock class is unconfirmed.
+- No respawn data for any of the 6 shipped Badlands rares or any fixed container exists in the local build. Every step says the timer is unconfirmed.
