@@ -544,3 +544,17 @@ as above: game-data citation or a named source.
 - Unflagged but named (no rank flag, none shipped, named for review): 14462 Thundering Invader, 14464 Avalanchion, 244188 Scalebeard, 235906 Elder Bramblesnap, 235909 Furze, 236770 Korsa. Above-band and unflagged: 6109 Azuregos, 15481 Spirit of Azuregos, 15571 Maws.
 - Dual-zone single-droppers 251438 (6117, also Ashenvale) and 252858 (6116, also Ashenvale) stay out per the Felwood precedent, as do 13491 (Felwood second dropper) and 14477 (EPL second dropper). 9295 Recipe: Invisibility Potion drops off rare Hawkhelm but has 560 droppers across 26 zones - generic world drop, out.
 - 235645 Legashi Firewater Recipe ships ungated: six placed droppers are all Azshara Legashi (a seventh dropper record has no spawns and is disclosed, not shipped), but the data carries no profession skill tag, so no when-skill gate is possible.
+
+
+## Un'Goro tame lines (pack 0.61.0)
+
+- The three shipped rares are all beasts (Matriarch and Zavas raptors, Uhk'loc gorilla), but no tame line ships: taming has no data flag, none drops taming evidence, and the core guide corroborates no taming (it kills these families). Excluded Gruff/Mosh are beasts too - same finding.
+
+## Un'Goro quest-reward recipes (pack 0.61.0)
+
+- Quest records in the local build carry no reward data, so no quest-reward recipe in Un'Goro can be confirmed from the toolchain. The 10 shipped recipes are 3 vendor buys plus 7 mob drops. If an Un'Goro quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
+
+## Un'Goro stock class and respawn timers (pack 0.61.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so none of the 3 vendor recipes is marked limited. All three buy steps note that stock class is unconfirmed.
+- No respawn data for any of the 3 shipped rares or the 9 drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
