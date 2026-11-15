@@ -8504,6 +8504,132 @@
           "id": 93685
         }
       ]
+    },
+    {
+      "id": "searing-gorge",
+      "name": "Searing Gorge",
+      "order": 29,
+      "levelBand": "40-52",
+      "summary": "Set 5 contested-zone Alliance route: the Suntara escort, the Prayer to Elune twilight cultists, the Tailoring Undermarket, the Kalaran Windblade weapon chain with tower finale, the Dying Archaeologist finale duo, the Onyxia-note delivery, the Outhouse/Caught chain with Tanaris finale, the Thorium Point hub with bounty board, the Burning Beast etching with Blasted Lands finale, the Lunar elder, and the five Craftsman writs.",
+      "quests": [
+        {
+          "id": 3181
+        },
+        {
+          "id": 3367
+        },
+        {
+          "id": 3368
+        },
+        {
+          "id": 3372
+        },
+        {
+          "id": 3377
+        },
+        {
+          "id": 3378
+        },
+        {
+          "id": 3379
+        },
+        {
+          "id": 3385
+        },
+        {
+          "id": 3402
+        },
+        {
+          "id": 3441
+        },
+        {
+          "id": 3442
+        },
+        {
+          "id": 3443
+        },
+        {
+          "id": 3452
+        },
+        {
+          "id": 3453
+        },
+        {
+          "id": 3454
+        },
+        {
+          "id": 3462
+        },
+        {
+          "id": 3463
+        },
+        {
+          "id": 3481
+        },
+        {
+          "id": 3566
+        },
+        {
+          "id": 4264
+        },
+        {
+          "id": 4449
+        },
+        {
+          "id": 4450
+        },
+        {
+          "id": 4451
+        },
+        {
+          "id": 5144
+        },
+        {
+          "id": 7701
+        },
+        {
+          "id": 7704
+        },
+        {
+          "id": 7722
+        },
+        {
+          "id": 7723
+        },
+        {
+          "id": 7724
+        },
+        {
+          "id": 7727
+        },
+        {
+          "id": 7728
+        },
+        {
+          "id": 7729
+        },
+        {
+          "id": 81900
+        },
+        {
+          "id": 8651
+        },
+        {
+          "id": 94263
+        },
+        {
+          "id": 94275
+        },
+        {
+          "id": 94287
+        },
+        {
+          "id": 94299
+        },
+        {
+          "id": 94311
+        }
+      ]
     }
   ]
 }
