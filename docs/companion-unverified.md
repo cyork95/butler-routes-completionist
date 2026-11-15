@@ -375,3 +375,10 @@ as above: game-data citation or a named source.
 ## Arathi tame lines: nothing to corroborate (pack 0.32.0)
 
 - All 11 Arathi rares have zero loot records in the data, so no drop-evidence beast typing exists for any of them, and the Arathi core guide carries no tame lines or references to any Arathi rare. No only-Hunter task ships; all nine steps are kill-or-skip. Promote only with drop evidence plus core-guide corroboration or a named source.
+
+
+## Ashenvale lookalikes and tame lines (pack 0.33.0)
+
+- Samophlange Manual Cover (item11147, sole dropper Boss Copperplug npc9336) and Samophlange Manual Page (item11148, droppers Venture Co. Enforcer npc3283 and Overseer npc3286) matched the Manual regex but carry `questItem:true` — they are quest items, not recipes. No quest in the data references either item, so their chain is unverifiable; neither ships anywhere. Promote only with a quest record or a named source.
+- Formula: Enchant Gloves - Herbalism (item11151): 5 droppers across three zone maps (Ashenvale/Stonetalon ancients) — a multi-zone world drop, not Ashenvale content under the Elwynn rule. Not shipped. Promote only with data showing an Ashenvale-exclusive source.
+- All 13 Ashenvale rare-flagged NPCs have zero loot records in the data, so no drop-evidence beast typing exists for any of them (npc records carry no classification flag), and the Ashenvale core guide carries no tame lines or references to any Ashenvale rare. No only-Hunter task ships; all twelve steps are kill-or-skip. Promote only with drop evidence plus core-guide corroboration or a named source.
