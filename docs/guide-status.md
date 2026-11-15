@@ -220,7 +220,7 @@ _Follows Westfall. Raven Hill country._
 - [x] Lint/playtest clean - 0 errors, playtest 3 personas 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 6 rares (4 above-band with come-back-later notes) + 86-pt container loop and unique/marker steps, 14 recipes (9 vendor + 5 drops), 0 lint errors/warnings
 
 ---
 

@@ -399,3 +399,8 @@ as above: game-data citation or a named source.
 ## Dustwallow tame lines (pack 0.39.0)
 
 - The 10 shipped Dustwallow rares DO have loot records, and some drops suggest beast typing (Darkmist Widow npc4380: Thick Spider's Silk item4337, Dripping Spider Mandible item4585), but npc records carry no classification flag and the Dustwallow core guide carries no tame lines and no references to any Dustwallow rare. Drop evidence alone is not the bar (Stonetalon/Teldrassil precedent needs core-guide corroboration too). No only-Hunter task ships; all ten steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+
+## Duskwood tame lines and lookalikes (pack 0.40.0)
+
+- The 6 shipped Duskwood rares DO have loot records, and two drops suggest beast typing (Lupos npc521: Lean Wolf Flank item1015, Sharp Claw item5635; Naraxis npc574: Fist-sized Spinneret item878, Gooey Spider Leg item2251), but npc records carry no classification flag and the Duskwood core guide (93-contract) carries no tame lines and no references to any Duskwood rare. Drop evidence alone is not the bar (Stonetalon/Teldrassil/Dustwallow precedent needs core-guide corroboration too). No only-Hunter task ships; all six steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+- Classic Duskwood names without the rare flag in the data (Mor'Ladim npc522 L35, Stitches npc412 L35, Stalvan Mistmantle npc315 L32, Eliza npc314 L31, Morbent Fel npc1200 L32; all roles=undefined) are quest-target lookalikes, not companion content: the flag is the rule and the data wins over community memory. Promote only with data showing the flag.
