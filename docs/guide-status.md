@@ -344,7 +344,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Lint/playtest clean - 0 errors, playtest 7 personas 0 stuck (R1+R2 residue + 1 R3 warning, all documented)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 10 rares (6 with sole-drop signatures) + 6 fixed containers, 25 recipes (16 vendor + 9 drops), 0 lint errors/warnings
 
 ---
 
