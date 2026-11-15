@@ -228,9 +228,9 @@ _Menethil Harbor. Sorinis is questing here now._
 
 _Booty Bay country._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 258 candidates, 123 IN / 135 OUT
+- [x] Core guide - `stranglethorn.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 4 personas + Rogue spot 0 stuck (R1+R2+R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
