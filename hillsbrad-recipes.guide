@@ -1,0 +1,257 @@
+# Butler Routes - Hillsbrad recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics and formulas whose SOURCE is
+# physically in Hillsbrad Foothills, verified against the local Forever game
+# data (questie-forever item vendor and drop tables). Twenty-five recipes are
+# vendor-sold; four more drop exclusively from Hillsbrad mobs (two of those
+# droppers outlevel the zone, so those steps say to come back later). Every
+# other Hillsbrad-dropping recipe is a generic multi-zone world drop, and quest
+# records carry no reward data (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover
+# those. Each step is gated to its profession; other characters skip it
+# cleanly. First Aid and Fishing have no Hillsbrad source, so they are stated,
+# not padded.
+guide butler-routes-completionist/hillsbrad-recipes
+title Hillsbrad Foothills - Recipes & Patterns
+levels 20-32
+zone Hillsbrad Foothills
+faction Alliance
+category Professions
+folder Companions
+keywords hillsbrad, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Tailoring — Southshore (Micha Yance)
+  when skill Tailoring 1
+
+  vendor 2381 -- Micha Yance (48.94, 55.03)
+  buy 4355 "Pattern: Icy Cloak"
+  buy 5788 "Pattern: Thick Murloc Armor"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Southshore (Micha Yance)
+  when skill Cooking 1
+
+  vendor 2381 -- Micha Yance (48.94, 55.03)
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Southshore (Micha Yance)
+  when skill Enchanting 1
+
+  vendor 2381 -- Micha Yance (48.94, 55.03)
+  buy 11163 "Formula: Enchant Bracer - Lesser Deflection"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Southshore (Nandar Branson)
+  when skill Alchemy 1
+
+  vendor 2380 -- Nandar Branson (50.93, 57.1), Alchemy Supplies
+  buy 6055 "Recipe: Fire Protection Potion"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — the north shore (Christoph Jeffcoat)
+  when skill Alchemy 1
+
+  vendor 2393 -- Christoph Jeffcoat (62.29, 19.04), Tradesman
+  buy 6054 "Recipe: Shadow Protection Potion"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — the north shore (Mallen Swain)
+  when skill Tailoring 1
+
+  vendor 2394 -- Mallen Swain (61.9, 20.98), Tailoring Supplies
+  buy 6274 "Pattern: Blue Overalls"
+  buy 6401 "Pattern: Dark Silk Shirt"
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — the Southshore shore (Lindea Rabonne)
+  when skill Cooking 1
+
+  vendor 2383 -- Lindea Rabonne (50.63, 60.95), Tackle and Bait
+  buy 6330 "Recipe: Bristle Whisker Catfish"
+  buy 6369 "Recipe: Rockscale Cod"
+  buy 17062 "Recipe: Mithril Head Trout"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — the hills (Zixil)
+  when skill Tailoring 1
+
+  vendor 3537 -- Zixil (55.38, 34.71), Merchant Supreme
+  buy 5772 "Pattern: Red Woolen Bag"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — the hills (Zixil)
+  when skill Leatherworking 1
+
+  vendor 3537 -- Zixil (55.38, 34.71), Merchant Supreme
+  buy 7362 "Pattern: Earthen Leather Shoulders"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — the hills (Zixil)
+  when skill Engineering 1
+
+  vendor 3537 -- Zixil (55.38, 34.71), Merchant Supreme
+  buy 7561 "Schematic: Goblin Jumper Cables"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — the hills (Zixil)
+  when skill Alchemy 1
+
+  vendor 3537 -- Zixil (55.38, 34.71), Merchant Supreme
+  buy 210709 "Recipe: Elixir of Coalesced Regret"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — the east (George Candarte)
+  when skill Leatherworking 1
+
+  vendor 2698 -- George Candarte (92.02, 38.23), Leatherworking Supplies
+  buy 7613 "Pattern: Green Leather Armor"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — the far east (Nioma)
+  when skill Leatherworking 1
+
+  vendor 8160 -- Nioma (98.5, 2.2), Leatherworking Supplies
+  buy 8409 "Pattern: Nightscape Shoulders"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — the east (Zan Shivsproket)
+  when skill Engineering 1
+
+  vendor 6777 -- Zan Shivsproket (84.1, 18.4), Specialty Engineer
+  buy 7742 "Schematic: Gnomish Cloaking Device"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — the far east (Harggan)
+  when skill Blacksmithing 1
+
+  vendor 8161 -- Harggan (98.7, 3.1), Blacksmithing Supplies
+  buy 7995 "Plans: Mithril Scale Bracers"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — the east (Smudge Thunderwood)
+  when skill Cooking 1
+
+  vendor 6779 -- Smudge Thunderwood (84.2, 18.1), Poison Vendor
+  buy 18160 "Recipe: Thistle Tea"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — the far east (Truk Wildbeard)
+  when skill Cooking 1
+
+  vendor 4782 -- Truk Wildbeard (99.8, 0.9), Bartender
+  buy 18046 "Recipe: Tender Wolf Steak"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — the southwest shore (rare drop)
+  when skill Cooking 1
+
+  loop
+  goto 35.68,66.4
+  goto 36.06,68.74
+  goto 36.53,69.41
+  goto 37.24,69.14
+  goto 37.39,66.18
+  goto 38.02,72.83
+  goto 40.4,71.23
+  goto 40.68,69.22
+  goto 40.88,68.81
+  goto 42.73,69.21
+  goto 43.95,68.65
+  goto 44.15,71.11
+  goto 44.34,67.87
+  goto 44.37,66.47
+  goto 45.05,67.38
+  goto 45.98,66.75
+  goto 46.14,69.13
+  goto 46.25,63.04
+  goto 47.15,68.34
+  goto 48.29,66.37
+  collect 249881 "Recipe: Root Tea" optional
+  note Dropped only by the Torn Fin Oracle (level 30), which patrols these points; the recipe drops nowhere else in the data.
+
+step Blacksmithing — the Syndicate camp (rare drop)
+  when skill Blacksmithing 1
+
+  loop
+  goto 65.78,48.49
+  goto 67.05,46.24
+  goto 67.07,47.7
+  goto 67.2,50.21
+  goto 74.37,40.5
+  goto 75.15,37.95
+  goto 75.23,42.07
+  goto 75.73,44.05
+  goto 76.23,40.83
+  goto 76.66,46.77
+  goto 76.67,42.74
+  goto 77.16,45.25
+  goto 77.25,39.01
+  goto 77.91,41.35
+  goto 78.18,43.19
+  goto 78.8,47.58
+  goto 79.54,45.55
+  goto 79.61,39.37
+  goto 80.75,43.81
+  goto 81.16,41.95
+  goto 81.74,47.53
+  goto 82.07,39.63
+  goto 82.9,44.42
+  goto 83.82,40.9
+  goto 67.6,47.59
+  goto 74.77,39.11
+  goto 75.36,39.7
+  goto 75.97,41.48
+  goto 76.36,46.41
+  goto 76.39,41.16
+  goto 76.74,44.19
+  goto 77.84,40.37
+  goto 78.14,46.5
+  goto 78.19,44.45
+  goto 78.31,41.36
+  goto 78.75,45.24
+  goto 79.21,40.19
+  goto 79.37,46.8
+  goto 79.55,40.06
+  goto 79.71,43.17
+  goto 79.75,44.57
+  goto 79.83,40.76
+  goto 80.11,45.43
+  goto 80.41,40.72
+  goto 80.6,46.02
+  goto 81.65,39.8
+  goto 81.68,41.27
+  goto 81.76,44.62
+  goto 82.01,43.22
+  goto 82.68,41.52
+  goto 82.88,40.33
+  collect 251335 "Plans: Sterling Silver Boots" optional
+  note Dropped only by the Syndicate Watchman (level 20) at the Syndicate camp; the plans drop nowhere else in the data.
+
+step Blacksmithing — the far north (rare drop, come back later)
+  when skill Blacksmithing 1
+
+  loop
+  goto 48.2,1.1
+  goto 48.6,2.1
+  goto 50.5,1
+  goto 50.5,3.7
+  goto 49.3,3.7
+  goto 51.6,2.3
+  collect 251391 "Plans: Hard Gold Pauldrons" optional
+  note Dropped only by the Crushridge Ogre (level 34) at the far-north Alterac edge, well above the zone band: come back at high level rather than fighting it at zone level. The plans drop nowhere else in the data.
+
+step Engineering — the far north (rare drop, come back later)
+  when skill Engineering 1
+
+  goto 43.2,0.5
+  collect 284870 "Schematic: Unsanctified Grenade" optional
+  note Dropped only by the Crushridge Warmonger (level 39) at the far-north Alterac edge, well above the zone band: come back at high level rather than fighting it at zone level. The schematic drops nowhere else in the data.
+
+step First Aid and Fishing — no Hillsbrad source
+
+  note The data holds no First Aid or Fishing recipe sourced in Hillsbrad Foothills: no in-zone vendor sells one and no in-zone mob drops one. Polestar's own profession guides cover those professions' progression.
