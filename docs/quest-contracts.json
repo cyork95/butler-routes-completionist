@@ -7148,6 +7148,203 @@
           "name": "The Power of Pine"
         }
       ]
+    },
+    {
+      "id": "arathi-highlands",
+      "name": "Arathi Highlands",
+      "order": 21,
+      "levelBand": "30-40",
+      "summary": "Set 4 second zone (Alliance route in a contested zone): Refuge Pointe hub, Stromgarde streets, the Myzrael binding stones, the Faldir's Cove seafarer chain, the Shaman and Mage class lines; expedition legs to the Wetlands, Hillsbrad, Ironforge, Stormwind, Stranglethorn, Desolace, Razorfen Kraul and Ravenholdt.",
+      "quests": [
+        {
+          "id": 632,
+          "name": "The Thandol Span"
+        },
+        {
+          "id": 635,
+          "name": "Crystal in the Mountains"
+        },
+        {
+          "id": 642,
+          "name": "The Princess Trapped"
+        },
+        {
+          "id": 647,
+          "name": "MacKreel's Moonshine"
+        },
+        {
+          "id": 651,
+          "name": "Stones of Binding"
+        },
+        {
+          "id": 652,
+          "name": "Breaking the Keystone"
+        },
+        {
+          "id": 653,
+          "name": "Myzrael's Allies"
+        },
+        {
+          "id": 657,
+          "name": "Hints of a New Plague?"
+        },
+        {
+          "id": 658,
+          "name": "Hints of a New Plague?"
+        },
+        {
+          "id": 660,
+          "name": "Hints of a New Plague?"
+        },
+        {
+          "id": 661,
+          "name": "Hints of a New Plague?"
+        },
+        {
+          "id": 662,
+          "name": "Deep Sea Salvage"
+        },
+        {
+          "id": 663,
+          "name": "Land Ho!"
+        },
+        {
+          "id": 664,
+          "name": "Drowned Sorrows"
+        },
+        {
+          "id": 665,
+          "name": "Sunken Treasure"
+        },
+        {
+          "id": 666,
+          "name": "Sunken Treasure"
+        },
+        {
+          "id": 667,
+          "name": "Death From Below"
+        },
+        {
+          "id": 668,
+          "name": "Sunken Treasure"
+        },
+        {
+          "id": 669,
+          "name": "Sunken Treasure"
+        },
+        {
+          "id": 681,
+          "name": "Northfold Manor"
+        },
+        {
+          "id": 682,
+          "name": "Stromgarde Badges"
+        },
+        {
+          "id": 684,
+          "name": "WANTED: Marez Cowl"
+        },
+        {
+          "id": 685,
+          "name": "WANTED: Otto and Falconcrest"
+        },
+        {
+          "id": 691,
+          "name": "Worth Its Weight in Gold"
+        },
+        {
+          "id": 693,
+          "name": "Wand over Fist"
+        },
+        {
+          "id": 694,
+          "name": "Trelane's Defenses"
+        },
+        {
+          "id": 695,
+          "name": "An Apprentice's Enchantment"
+        },
+        {
+          "id": 696,
+          "name": "Attack on the Tower"
+        },
+        {
+          "id": 697,
+          "name": "Malin's Request"
+        },
+        {
+          "id": 79358,
+          "name": "Storm, Earth, and Fire"
+        },
+        {
+          "id": 79624,
+          "name": "Anyone Can Cook"
+        },
+        {
+          "id": 79677,
+          "name": "A Quick Grocery Run"
+        },
+        {
+          "id": 79678,
+          "name": "Taste Testing"
+        },
+        {
+          "id": 79976,
+          "name": "This Must Be The Place"
+        },
+        {
+          "id": 92867,
+          "name": "Ground to Keep"
+        },
+        {
+          "id": 92872,
+          "name": "Dutiful Steps"
+        },
+        {
+          "id": 94221,
+          "name": "Craftsman's Writ: Golden Rod"
+        },
+        {
+          "id": 94230,
+          "name": "Craftsman's Writ: Explosive Sheep"
+        },
+        {
+          "id": 94239,
+          "name": "Craftsman's Writ: Fine Leather Pants"
+        },
+        {
+          "id": 94248,
+          "name": "Craftsman's Writ: Blue Overalls"
+        },
+        {
+          "id": 95315,
+          "name": "The Riverglades Report"
+        },
+        {
+          "id": 96016,
+          "name": "The Tempest's Weapons"
+        },
+        {
+          "id": 96135,
+          "name": "Heed My Call"
+        },
+        {
+          "id": 96264,
+          "name": "Elemental Aid"
+        },
+        {
+          "id": 96784,
+          "name": "Master of Disguise"
+        },
+        {
+          "id": 96785,
+          "name": "Ain't No Telling"
+        },
+        {
+          "id": 96786,
+          "name": "The Syndicate Sting"
+        }
+      ]
     }
   ]
 }
