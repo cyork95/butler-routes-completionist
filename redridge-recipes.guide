@@ -1,0 +1,510 @@
+# Butler Routes - Redridge recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics and formulas whose SOURCE is
+# physically in Redridge Mountains, verified against the local Forever game
+# data (questie-forever item vendor and drop tables). Most vendor stock sits
+# with the trade-skill vendors camped in the southwest; Lakeshire's own traders
+# carry the rest. Four more recipes drop exclusively from Redridge mobs. Every
+# other Redridge-dropping recipe is a generic multi-zone world drop, and quest
+# records carry no reward data (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover
+# those. Each step is gated to its profession; other characters skip it
+# cleanly. First Aid and Fishing have no Redridge source, so they are stated,
+# not padded.
+guide butler-routes-completionist/redridge-recipes
+title Redridge Mountains - Recipes & Patterns
+levels 14-26
+zone Redridge Mountains
+faction Alliance
+category Professions
+folder Companions
+keywords redridge, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Tailoring — Lakeshire (Amy Davenport)
+  when skill Tailoring 1
+
+  vendor 777 -- Amy Davenport (24.04, 47.32)
+  buy 5772 "Pattern: Red Woolen Bag"
+  buy 20576 "Pattern: Black Whelp Tunic"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — the east (Clyde Ranthal)
+  when skill Tailoring 1
+
+  vendor 2697 -- Clyde Ranthal (83.93, 70.87), Leatherworking Supplies
+  buy 7289 "Pattern: Black Whelp Cloak"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Lakeshire (Gloria Femmel)
+  when skill Cooking 1
+
+  vendor 3085 -- Gloria Femmel (21.55, 43.48), Cooking Supplies
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — the southwest camp (Kalsey Sanden)
+  when skill Cooking 1
+
+  vendor 256731 -- Kalsey Sanden (7.98, 73.77), Chef
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  buy 249885 "Recipe: Venomous Smoothie"
+  buy 249886 "Recipe: Slimy Smoothie"
+  buy 249887 "Recipe: Mrrggl Smrrthle"
+  buy 249888 "Recipe: Calcified Smoothie"
+  buy 249889 "Recipe: Spicy Smoothie"
+  buy 249890 "Recipe: Wicked Smoothie"
+  note The Chef works a small camp in the southwest with many placements; this point is one of them. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — the southwest camp (Alynsia)
+  when skill Enchanting 1
+
+  vendor 256732 -- Alynsia (7.23, 71.29), Enchanter
+  buy 249476 "Formula: Mystic Mushroom"
+  buy 249477 "Formula: Tenets of the Silver Hand"
+  buy 249478 "Formula: Polished Driftwood Icon"
+  buy 249479 "Formula: Enchant Weapon - Insight"
+  buy 249480 "Formula: Enchant Weapon - Recovery"
+  buy 249481 "Formula: Enchant Weapon - Revelation"
+  buy 249482 "Formula: Glimmering Staff"
+  buy 249483 "Formula: Soulstaff"
+  buy 249484 "Formula: Orb of Mystic Insight"
+  buy 249485 "Formula: Orb of Souls"
+  buy 249493 "Formula: Talons of Wrath"
+  buy 249494 "Formula: Libram of Invocation"
+  buy 249495 "Formula: Totem of Ancestral Protection"
+  buy 249496 "Formula: Enchant Necklace - Strength"
+  buy 249502 "Formula: Enchant Necklace - Spell Power"
+  buy 249503 "Formula: Enchant Necklace - Healing Power"
+  buy 249504 "Formula: Enchant Necklace - Agility"
+  buy 249505 "Formula: Enchant Necklace - Deflection"
+  buy 249506 "Formula: Radiant Staff"
+  buy 249507 "Formula: Dreamstaff"
+  buy 249508 "Formula: Truesilver Conduit"
+  buy 249509 "Formula: Twisting Essence Jar"
+  buy 249510 "Formula: Enchant Chest - Absorption"
+  buy 249525 "Formula: Enchant 2H Weapon - Mighty Spell Power"
+  buy 249526 "Formula: Enchant 2H Weapon - Mighty Healing Power"
+  buy 249529 "Formula: Idol of the Dream"
+  buy 249530 "Formula: Libram of Holy Alacrity"
+  buy 249532 "Formula: Totem of Thunder"
+  buy 249534 "Formula: Enchant Gloves - Arcane Power"
+  buy 249535 "Formula: Enchant Gloves - Natural Power"
+  buy 249536 "Formula: Enchant Gloves - Holy Power"
+  buy 249537 "Formula: Brilliant Wand"
+  buy 249538 "Formula: Enchant Bracer - Superior Intellect"
+  buy 249539 "Formula: Enchant Bracer - Superior Deflection"
+  buy 274393 "Formula: Enchant Off-Hand - Wisdom"
+  buy 274394 "Formula: Enchant 2H Weapon - Spellblasting"
+  buy 274398 "Formula: Enchant Gloves - Superior Strength"
+  buy 274399 "Formula: Enchant Cloak - Agility"
+  buy 274401 "Formula: Enchant Bracer - Greater Spellpower"
+  buy 289560 "Formula: Enchant Boots - Speed"
+  note The Enchanter works a small camp in the southwest with many placements; this point is one of them. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — the southwest camp (Nina Surefire)
+  when skill Alchemy 1
+
+  vendor 256729 -- Nina Surefire (7.96, 71.06), Alchemist
+  buy 250364 "Recipe: Elixir of Cunning"
+  buy 250365 "Recipe: Elixir of the Phalanx"
+  buy 250367 "Recipe: Lesser Cleric's Elixir"
+  buy 250369 "Recipe: Greater Cleric's Elixir"
+  buy 250371 "Recipe: Elixir of Greater Fortitude"
+  buy 250372 "Recipe: Elixir of Wicked Regeneration"
+  buy 250373 "Recipe: Elixir of the Owl"
+  buy 250374 "Recipe: Elixir of Sages"
+  buy 250376 "Recipe: Lesser Mageblood Elixir"
+  buy 250377 "Recipe: Greater Mageblood Elixir"
+  buy 250378 "Recipe: Lesser Arcane Elixir"
+  buy 250379 "Recipe: Elixir of Nature Power"
+  buy 250381 "Recipe: Elixir of Lesser Spirit"
+  buy 250383 "Recipe: Elixir of Greater Spirit"
+  buy 250384 "Recipe: Elixir of the Whale"
+  buy 250386 "Recipe: Elixir of Ferocity"
+  buy 250387 "Recipe: Elixir of the Grizzly"
+  buy 250388 "Recipe: Elixir of Lesser Intellect"
+  buy 250978 "Recipe: Spellblasting Potion"
+  buy 250981 "Recipe: Major Spellblasting Potion"
+  buy 250984 "Recipe: Frenzy Potion"
+  buy 250987 "Recipe: Major Frenzy Potion"
+  buy 250990 "Recipe: Mender's Potion"
+  buy 250993 "Recipe: Major Mender's Potion"
+  buy 250994 "Recipe: Potion of Venomous Blood"
+  buy 250995 "Recipe: Caustic Smog Potion"
+  buy 250996 "Recipe: Disorienting Smog Potion"
+  buy 250997 "Recipe: Dragonfire Potion"
+  buy 250998 "Recipe: Potion of Elemental Purging"
+  note The Alchemist works a small camp in the southwest with many placements; this point is one of them. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — the southwest camp (Stondry Darkhammer)
+  when skill Blacksmithing 1
+
+  vendor 256730 -- Stondry Darkhammer (7.92, 74.78), Blacksmith
+  buy 251355 "Plans: Veteran's Boots"
+  buy 251356 "Plans: Guard's Boots"
+  buy 251357 "Plans: Protector's Boots"
+  buy 251358 "Plans: Acolyte's Boots"
+  buy 251359 "Plans: Crusader's Boots"
+  buy 251360 "Plans: Veteran's Gloves"
+  buy 251361 "Plans: Guard's Gloves"
+  buy 251362 "Plans: Protector's Gloves"
+  buy 251363 "Plans: Acolyte's Gloves"
+  buy 251364 "Plans: Crusader's Gloves"
+  buy 251365 "Plans: Veteran's Chain Belt"
+  buy 251366 "Plans: Guard's Chain Belt"
+  buy 251367 "Plans: Protector's Chain Belt"
+  buy 251368 "Plans: Acolyte's Chain Belt"
+  buy 251369 "Plans: Crusader's Chain Belt"
+  buy 251370 "Plans: Veteran's Silvered Chain Shirt"
+  buy 251371 "Plans: Guard's Silvered Chain Shirt"
+  buy 251372 "Plans: Protector's Silvered Chain Shirt"
+  buy 251373 "Plans: Acolyte's Silvered Chain Shirt"
+  buy 251374 "Plans: Crusader's Silvered Chain Shirt"
+  buy 251375 "Plans: Veteran's Silvered Chain Leggings"
+  buy 251376 "Plans: Guard's Silvered Chain Leggings"
+  buy 251377 "Plans: Protector's Silvered Chain Leggings"
+  buy 251378 "Plans: Acolyte's Silvered Chain Leggings"
+  buy 251379 "Plans: Crusader's Silvered Chain Leggings"
+  buy 251380 "Plans: Veteran's Silvered Chain Helm"
+  buy 251381 "Plans: Guard's Silvered Chain Helm"
+  buy 251382 "Plans: Protector's Silvered Chain Helm"
+  buy 251383 "Plans: Acolyte's Silvered Chain Helm"
+  buy 251384 "Plans: Crusader's Silvered Chain Helm"
+  buy 251413 "Plans: Officer's Sabatons"
+  buy 251414 "Plans: Sentinel's Sabatons"
+  buy 251415 "Plans: Warder's Sabatons"
+  buy 251416 "Plans: Prefect's Sabatons"
+  buy 251417 "Plans: Justicar's Sabatons"
+  buy 251418 "Plans: Officer's Gauntlet"
+  buy 251419 "Plans: Sentinel's Gauntlet"
+  buy 251420 "Plans: Warder's Gauntlet"
+  buy 251421 "Plans: Prefect's Gauntlet"
+  buy 251422 "Plans: Justicar's Gauntlet"
+  buy 251423 "Plans: Officer's Waistguard"
+  buy 251424 "Plans: Sentinel's Waistguard"
+  buy 251425 "Plans: Warder's Waistguard"
+  buy 251426 "Plans: Prefect's Waistguard"
+  buy 251427 "Plans: Justicar's Waistguard"
+  buy 251428 "Plans: Officer's Pauldrons"
+  buy 251429 "Plans: Sentinel's Pauldrons"
+  buy 251430 "Plans: Warder's Pauldrons"
+  buy 251431 "Plans: Prefect's Pauldrons"
+  buy 251432 "Plans: Justicar's Pauldrons"
+  buy 251433 "Plans: Officer's Wristguard"
+  buy 251434 "Plans: Sentinel's Wristguard"
+  buy 251435 "Plans: Warder's Wristguard"
+  buy 251436 "Plans: Prefect's Wristguard"
+  buy 251437 "Plans: Justicar's Wristguards"
+  buy 251447 "Plans: Enriched Thorium Breastplate"
+  buy 251448 "Plans: Enriched Thorium Leggings"
+  buy 251449 "Plans: Enriched Thorium Helm"
+  buy 251465 "Plans: Thorium Greatmace"
+  buy 251466 "Plans: Thorium Cestus"
+  buy 251471 "Plans: Legionite Glaive"
+  note The Blacksmith works a small camp in the southwest with many placements; this point is one of them. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — the southwest camp (Daniel Stitchsong)
+  when skill Leatherworking 1
+
+  vendor 256734 -- Daniel Stitchsong (7.1, 68.7), Leatherworker
+  buy 252765 "Pattern: Brawler's Leather Belt"
+  buy 252766 "Pattern: Trapper's Leather Belt"
+  buy 252767 "Pattern: Defender's Leather Belt"
+  buy 252768 "Pattern: Totemic Leather Belt"
+  buy 252769 "Pattern: Stormrider's Leather Belt"
+  buy 252770 "Pattern: Wisdom's Leather Belt"
+  buy 252777 "Pattern: Brawler's Leather Gloves"
+  buy 252778 "Pattern: Trapper's Leather Gloves"
+  buy 252779 "Pattern: Defender's Leather Gloves"
+  buy 252780 "Pattern: Totemic Leather Gloves"
+  buy 252781 "Pattern: Stormrider's Leather Gloves"
+  buy 252782 "Pattern: Wisdom's Leather Gloves"
+  buy 252786 "Pattern: Brawler's Leather Boots"
+  buy 252787 "Pattern: Trapper's Leather Boots"
+  buy 252788 "Pattern: Defender's Leather Boots"
+  buy 252789 "Pattern: Totemic Leather Boots"
+  buy 252790 "Pattern: Stormrider's Leather Boots"
+  buy 252791 "Pattern: Wisdom's Leather Boots"
+  buy 252798 "Pattern: Brawler's Leather Hood"
+  buy 252799 "Pattern: Trapper's Leather Hood"
+  buy 252800 "Pattern: Defender's Leather Hood"
+  buy 252801 "Pattern: Totemic Leather Hood"
+  buy 252802 "Pattern: Stormrider's Leather Hood"
+  buy 252803 "Pattern: Wisdom's Leather Hood"
+  buy 252805 "Pattern: Brawler's Leather Tunic"
+  buy 252806 "Pattern: Trapper's Leather Tunic"
+  buy 252807 "Pattern: Defender's Leather Tunic"
+  buy 252808 "Pattern: Totemic Leather Tunic"
+  buy 252809 "Pattern: Stormrider's Leather Tunic"
+  buy 252810 "Pattern: Wisdom's Leather Tunic"
+  buy 252820 "Pattern: Brawler's Leather Legguards"
+  buy 252821 "Pattern: Trapper's Leather Legguards"
+  buy 252822 "Pattern: Defender's Leather Kilt"
+  buy 252823 "Pattern: Totemic Leather Leggings"
+  buy 252824 "Pattern: Stormrider's Leather Kilt"
+  buy 252825 "Pattern: Wisdom's Leather Leggings"
+  buy 252834 "Pattern: Forceful Thick Armor Kit"
+  buy 252836 "Pattern: Prowler's Leather Gloves"
+  buy 252837 "Pattern: Skulker's Leather Gloves"
+  buy 252838 "Pattern: Stalker's Leather Gloves"
+  buy 252839 "Pattern: Warden's Leather Gloves"
+  buy 252840 "Pattern: Skirmisher's Leather Gloves"
+  buy 252841 "Pattern: Skycaller's Leather Gloves"
+  buy 252842 "Pattern: Mender's Leather Gloves"
+  buy 252848 "Pattern: Prowler's Leather Shoulders"
+  buy 252849 "Pattern: Skulker's Leather Shoulder"
+  buy 252850 "Pattern: Warden's Leather Shoulders"
+  buy 252851 "Pattern: Skycaller's Leather Shoulders"
+  buy 252852 "Pattern: Mender's Leather Shoulders"
+  buy 252853 "Pattern: Prowler's Leather Bracers"
+  buy 252854 "Pattern: Skulker's Leather Bracers"
+  buy 252855 "Pattern: Warden's Leather Bracers"
+  buy 252856 "Pattern: Skycaller's Leather Bracers"
+  buy 252857 "Pattern: Mender's Leather Bracers"
+  buy 252860 "Pattern: Prowler's Leather Boots"
+  buy 252861 "Pattern: Skulker's Leather Boots"
+  buy 252862 "Pattern: Warden's Leather Boots"
+  buy 252863 "Pattern: Skycaller's Leather Boots"
+  buy 252864 "Pattern: Mender's Leather Boots"
+  buy 252872 "Pattern: Prowler's Leather Waistguard"
+  buy 252873 "Pattern: Skulker's Leather Waistguard"
+  buy 252874 "Pattern: Warden's Leather Waistguard"
+  buy 252875 "Pattern: Skycaller's Leather Waistguard"
+  buy 252876 "Pattern: Mender's Leather Waistguard"
+  buy 252900 "Pattern: Stalker's Mail Shoulders"
+  buy 252901 "Pattern: Skycaller's Mail Shoulders"
+  buy 252902 "Pattern: Skirmisher's Mail Shoulders"
+  buy 252903 "Pattern: Mender's Mail Shoulders"
+  buy 252904 "Pattern: Stalker's Mail Bracers"
+  buy 252905 "Pattern: Skycaller's Mail Bracers"
+  buy 252906 "Pattern: Skirmisher's Mail Bracers"
+  buy 252907 "Pattern: Mender's Mail Bracers"
+  buy 252910 "Pattern: Stalker's Mail Sabatons"
+  buy 252911 "Pattern: Skycaller's Mail Sabatons"
+  buy 252912 "Pattern: Skirmisher's Mail Sabatons"
+  buy 252913 "Pattern: Mender's Mail Sabatons"
+  buy 252922 "Pattern: Stalker's Mail Belt"
+  buy 252923 "Pattern: Skycaller's Mail Belt"
+  buy 252924 "Pattern: Skirmisher's Mail Belt"
+  buy 252925 "Pattern: Mender's Mail Belt"
+  buy 252941 "Pattern: Mystic Rugged Armor Kit"
+  note The Leatherworker works a small camp in the southwest with many placements; this point is one of them. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — the southwest camp (Mivin Shadowweave)
+  when skill Tailoring 1
+
+  vendor 256735 -- Mivin Shadowweave (8.79, 74.12), Tailor
+  buy 253890 "Pattern: Pristine Boots"
+  buy 253892 "Pattern: Silky Boots"
+  buy 253894 "Pattern: Flame Boots"
+  buy 253896 "Pattern: Shadow Boots"
+  buy 253898 "Pattern: Pearly Boots"
+  buy 253900 "Pattern: Shining Boots"
+  buy 253914 "Pattern: Pristine Gloves"
+  buy 253916 "Pattern: Silky Gloves"
+  buy 253918 "Pattern: Flame Gloves"
+  buy 253920 "Pattern: Shadow Gloves"
+  buy 253922 "Pattern: Pearly Gloves"
+  buy 253924 "Pattern: Shining Gloves"
+  buy 253926 "Pattern: Pristine Sash"
+  buy 253928 "Pattern: Silky Sash"
+  buy 253930 "Pattern: Flame Sash"
+  buy 253932 "Pattern: Shadow Sash"
+  buy 253934 "Pattern: Pearly Sash"
+  buy 253936 "Pattern: Shining Sash"
+  buy 253950 "Pattern: Pristine Circlet"
+  buy 253952 "Pattern: Silky Circlet"
+  buy 253954 "Pattern: Flame Circlet"
+  buy 253956 "Pattern: Shadow Circlet"
+  buy 253958 "Pattern: Pearly Circlet"
+  buy 253960 "Pattern: Shining Circlet"
+  buy 253962 "Pattern: Pristine Gown"
+  buy 253964 "Pattern: Silky Gown"
+  buy 253966 "Pattern: Flame Gown"
+  buy 253968 "Pattern: Shadow Gown"
+  buy 253970 "Pattern: Pearly Gown"
+  buy 253972 "Pattern: Shining Gown"
+  buy 253988 "Pattern: Pristine Leggings"
+  buy 253990 "Pattern: Silky Leggings"
+  buy 253992 "Pattern: Flame Leggings"
+  buy 253994 "Pattern: Shadow Leggings"
+  buy 253996 "Pattern: Pearly Leggings"
+  buy 253998 "Pattern: Shining Leggings"
+  buy 254024 "Pattern: Frothing Handwraps"
+  buy 254026 "Pattern: Fiery Handwraps"
+  buy 254028 "Pattern: Black Handwraps"
+  buy 254030 "Pattern: Golden Handwraps"
+  buy 254032 "Pattern: Radiant Handwraps"
+  buy 254036 "Pattern: Mageweave Reagent Bag"
+  buy 254050 "Pattern: Nethergeld Shoulders"
+  buy 254052 "Pattern: Netherfroth Shoulders"
+  buy 254054 "Pattern: Netherflame Shoulders"
+  buy 254056 "Pattern: Netherpearl Shoulders"
+  buy 254058 "Pattern: Nethershine Shoulders"
+  buy 254060 "Pattern: Netherlight Shoulders"
+  buy 254062 "Pattern: Nethergeld Cuffs"
+  buy 254064 "Pattern: Netherfroth Cuffs"
+  buy 254066 "Pattern: Netherflame Cuffs"
+  buy 254068 "Pattern: Netherpearl Cuffs"
+  buy 254070 "Pattern: Nethershine Cuffs"
+  buy 254072 "Pattern: Netherlight Cuffs"
+  buy 254080 "Pattern: Runecloth Reagent Bag"
+  buy 254082 "Pattern: Gilded Waistcord"
+  buy 254084 "Pattern: Frothing Waistcord"
+  buy 254086 "Pattern: Fiery Waistcord"
+  buy 254088 "Pattern: Black Waistcord"
+  buy 254090 "Pattern: Golden Waistcord"
+  buy 254092 "Pattern: Radiant Waistcord"
+  buy 254108 "Pattern: Gilded Sandals"
+  buy 254110 "Pattern: Frothing Sandals"
+  buy 254112 "Pattern: Fiery Sandals"
+  buy 254114 "Pattern: Black Sandals"
+  buy 254116 "Pattern: Golden Sandals"
+  buy 254118 "Pattern: Radiant Sandals"
+  note The Tailor works a small camp in the southwest with many placements; this point is one of them. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — the southwest camp (Fritz Fizzle)
+  when skill Engineering 1
+
+  vendor 256733 -- Fritz Fizzle (6.74, 76.11), Engineer
+  buy 264201 "Schematic: SAF-T Tabs"
+  buy 264202 "Schematic: SAF-T Dynamite"
+  buy 264203 "Schematic: SAF-T Copper Bomb"
+  buy 264204 "Schematic: EZ-Thro Wrap"
+  buy 264205 "Schematic: EZ-Thro Copper Bomb XL"
+  buy 264206 "Schematic: No Slip SAF-T Padding"
+  buy 264209 "Schematic: SAF-T Bell"
+  buy 264211 "Schematic: EZ-Thro Fireproof Fuse"
+  buy 264216 "Schematic: Emergency Field Cloak"
+  buy 264217 "Schematic: Compact Critter Carrier"
+  buy 264220 "Schematic: SAF-T Disposable Parachute"
+  buy 264221 "Schematic: Gnomish Army Knife"
+  buy 264222 "Schematic: Loot-A-Rang"
+  buy 264232 "Schematic: Ultrasafe Rechargeable Battery"
+  buy 264234 "Schematic: Gnomish Poultryizer"
+  buy 264235 "Schematic: Ultralight Goblin Glider"
+  buy 264237 "Schematic: Stealthman 52"
+  buy 280321 "Schematic: Whimsical Waistwrap"
+  buy 280322 "Schematic: Gizmo Girdle"
+  buy 280323 "Schematic: Clanking Cord"
+  buy 280325 "Schematic: Floppy Goggles"
+  buy 280326 "Schematic: Bent Goggles"
+  buy 280327 "Schematic: Stuckbutton Goggles"
+  buy 280328 "Schematic: Dented Goggles"
+  buy 285285 "Schematic: Satchel of Copper Bombs"
+  buy 285286 "Schematic: Satchel of Bronze Bombs"
+  buy 285287 "Schematic: Satchel of Iron Bombs"
+  buy 285288 "Schematic: Satchel of Dark Iron Bombs"
+  note The Engineer works a small camp in the southwest with many placements; this point is one of them. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Lakeshire (Franklin Hamar)
+  when skill Tailoring 1
+
+  vendor 3091 -- Franklin Hamar (22.09, 45.54), Tailoring Supplies
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note The Captured Servant of Azora (69.37, 79.51) stocks these two bags as well. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Render's Valley (rare drop)
+  when skill Blacksmithing 1
+
+  loop
+  goto 12.15,17.83
+  goto 20.63,23.41
+  goto 21.37,21.25
+  goto 22.15,23.11
+  goto 22.34,21.75
+  goto 22.46,21.36
+  goto 22.88,21.6
+  collect 17706 "Plans: Edge of Winter" optional
+  note Dropped only by the Redridge Alpha (level 21) in Render's Valley; the plans drop nowhere else in the data.
+
+step Tailoring — the east (rare drop)
+  when skill Tailoring 1
+
+  loop
+  goto 68.92,35.88
+  goto 70.67,30.32
+  goto 71.15,34.67
+  goto 73.89,49.42
+  goto 73.96,48.69
+  goto 74,47.63
+  goto 74.43,48.83
+  goto 74.59,45.17
+  goto 74.72,46.35
+  goto 74.72,54.29
+  goto 74.86,38.63
+  goto 74.87,44.25
+  goto 74.93,49.78
+  goto 75.13,52.75
+  goto 75.19,54.3
+  goto 75.2,49.48
+  goto 75.35,55.16
+  goto 75.97,54.83
+  goto 76.2,56.46
+  goto 77.33,53.35
+  goto 78.32,57.92
+  goto 79.71,52.67
+  goto 80.38,48.07
+  collect 215370 "Pattern: Invoker's Mantle" optional
+  note Dropped only by the Shadowhide Darkweaver (level 25) in the east; the pattern drops nowhere else in the data.
+
+step Cooking — the lake and hills (rare drop)
+  when skill Cooking 1
+
+  loop
+  goto 30.37,70.23
+  goto 37.07,32.38
+  goto 40.68,35.81
+  goto 40.87,77.49
+  goto 42.19,32.49
+  goto 43.52,34.95
+  goto 44.99,33.94
+  goto 45.58,74.67
+  goto 47.32,38.79
+  goto 49.25,40.28
+  goto 50.09,46.11
+  goto 50.17,73.4
+  goto 50.17,76.78
+  goto 51.97,76.24
+  goto 52.01,41.58
+  goto 52.19,44.92
+  goto 54.7,76.07
+  goto 55.7,78.28
+  goto 56.42,76.42
+  goto 59.03,76.42
+  collect 250188 "Recipe: Breakfast Omelette" optional
+  note Dropped only by the Dire Condor (level 18); the recipe drops nowhere else in the data.
+
+step Blacksmithing — the Gnoll camp (rare drop)
+  when skill Blacksmithing 1
+
+  loop
+  goto 63.63,45.71
+  goto 66.42,58.9
+  goto 66.85,43.86
+  goto 67.19,51.47
+  goto 67.45,58.95
+  goto 68.2,54.82
+  goto 68.29,55.71
+  goto 68.45,55.36
+  goto 69.04,40.75
+  goto 69.16,49.17
+  goto 69.6,44.13
+  goto 69.82,52.17
+  goto 70.14,49.82
+  goto 70.58,47.17
+  goto 70.73,47.53
+  goto 70.83,51.06
+  goto 71.48,45.29
+  goto 71.75,45.67
+  goto 72.28,54.54
+  collect 251338 "Plans: Sterling Silver Shoulders" optional
+  note Dropped only by the Shadowhide Gnoll (level 22); the plans drop nowhere else in the data.
+
+step First Aid and Fishing — no Redridge source
+
+  note The data holds no First Aid or Fishing recipe sourced in Redridge Mountains: no in-zone vendor sells one and no in-zone mob drops one. Polestar's own profession guides cover those professions' progression.
