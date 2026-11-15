@@ -1,0 +1,181 @@
+# Butler Routes - Silverpine Forest rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 7 rank-flagged rares of Silverpine Forest
+# (zone key 1421), verified against the local Forever game data
+# (questie-forever npc/object/item dumps). Every goal is optional - a
+# missing spawn never wedges the guide. All 7 rares hold single points,
+# so every rare step is a plain single-goto step; no rare loops. The three
+# in-band rares (Gorefang, Old Vicejaw, Krethis Shadowspinner) drop
+# signature recipes that ride as optional collects with notes; the four
+# above-band rares (levels 21-23, band top 20) ship with honest
+# come-back-later notes. Varimathras (rank 3, no rare role) stays out:
+# a core-contracted quest NPC, not a rare. No tame lines: the NPC records
+# carry no family flag (see docs/companion-unverified.md). Treasures ride
+# loop steps over their fixed data points (two Battered Chest objects get
+# one loop each), single-point objects get their own steps.
+guide butler-routes-completionist/silverpine-rares
+title Silverpine Forest - Rares & Treasures
+levels 10-20
+zone Silverpine Forest
+faction Horde
+category Collectibles
+folder Companions
+keywords silverpine forest, rares, treasures, collectibles, companions
+coords live
+version 1
+
+step North shore - Gorefang
+
+  zone map 1421
+
+  goto 59.53,7.64
+  kill 12431 optional
+  collect 2555 "Recipe: Swiftness Potion" optional
+  note Gorefang (level 13 rare) holds a single north-shore point. The Swiftness Potion recipe is its signature loot in the data (a world-drop table elsewhere - the recipes companion does not list it as zone content).
+  note Respawn timer unconfirmed.
+
+step West woods - Krethis Shadowspinner
+
+  zone map 1421
+
+  goto 35.7,8.25
+  kill 12433 optional
+  collect 2407 "Pattern: White Leather Jerkin" optional
+  note Krethis Shadowspinner (level 15 rare) holds a single west-woods point. The White Leather Jerkin pattern is its signature loot in the data (a world-drop table elsewhere - the recipes companion does not list it as zone content).
+  note Respawn timer unconfirmed.
+
+step Central woods - Old Vicejaw
+
+  zone map 1421
+
+  goto 53.85,51.93
+  kill 12432 optional
+  collect 2406 "Pattern: Fine Leather Boots" optional
+  collect 2881 "Plans: Runed Copper Breastplate" optional
+  note Old Vicejaw (level 14 rare) holds a single central-woods point. The Fine Leather Boots pattern and the Runed Copper Breastplate plans are its signature loot in the data (world-drop tables elsewhere - the recipes companion does not list them as zone content).
+  note Respawn timer unconfirmed.
+
+step Beren's Peril - Ravenclaw Regent
+
+  zone map 1421
+
+  goto 56.83,70.18
+  kill 2283 optional
+  note Ravenclaw Regent (level 22 rare) holds a single Beren's Peril point. Above the core band - come back at 22. No signature loot in the data - shared world drops only.
+  note Respawn timer unconfirmed.
+
+step Ambermill - Dalaran Spellscribe
+
+  zone map 1421
+
+  goto 63.54,63.35
+  kill 1920 optional
+  note Dalaran Spellscribe (level 21 Alliance rare) holds a single Ambermill point (it also spawns in Hillsbrad - only the Silverpine point is routed). Above the core band - come back at 21. No signature loot in the data - shared world drops only.
+  note Respawn timer unconfirmed.
+
+step Rot Hide camp - Rot Hide Bruiser
+
+  zone map 1421
+
+  goto 64.67,23.05
+  kill 1944 optional
+  note Rot Hide Bruiser (level 22 rare) holds a single Rot Hide camp point. Above the core band - come back at 22. No signature loot in the data - shared world drops only.
+  note Respawn timer unconfirmed.
+
+step Rot Hide camp - Snarlmane
+
+  zone map 1421
+
+  goto 65.1,25.1
+  kill 1948 optional
+  note Snarlmane (level 23 rare) holds a single Rot Hide camp point. Above the core band - come back at 23. No signature loot in the data - shared world drops only.
+  note Respawn timer unconfirmed.
+
+step Battered Chests - west and central woods
+
+  zone map 1421
+
+  loop
+  goto 43.56,22.5
+  goto 43.57,31.73
+  goto 44,21.86
+  goto 44.1,71.61
+  goto 44.64,20.46
+  goto 44.73,23.95
+  goto 44.84,23.55
+  goto 45.25,75.14
+  goto 45.43,54.33
+  goto 46.05,71.53
+  goto 46.27,54.71
+  goto 47.2,73.87
+  goto 48.21,24.45
+  goto 52.97,24.9
+  goto 53.57,24.39
+  goto 55.78,19.69
+  goto 56.19,27.54
+  goto 59.15,18.16
+  goto 59.95,17.53
+  goto 60.79,16.36
+  goto 64.78,12.24
+  goto 66.31,13.14
+  interact 106319 optional
+  note One Battered Chest object, 23 fixed points across the west and central woods - generic chests, said plainly.
+
+step Battered Chests - east shore
+
+  zone map 1421
+
+  loop
+  goto 64.95,42.05
+  goto 65.02,23.24
+  goto 65.49,23.83
+  goto 66.78,45.61
+  goto 78.19,30.76
+  goto 80.21,28.52
+  interact 2849 optional
+  note A second Battered Chest object (distinct loot table), 6 fixed points along the east shore - generic chests, said plainly.
+
+step Alliance Chests - Pyrewood arc
+
+  zone map 1421
+
+  loop
+  goto 62.47,76.31
+  goto 62.85,63.31
+  goto 62.92,67.59
+  goto 63.27,58.7
+  goto 63.35,57.28
+  goto 63.59,64.35
+  goto 63.86,56.89
+  interact 111095 optional
+  note One Alliance Chest object, 7 fixed points around Pyrewood - generic chests, said plainly.
+
+step Hidden Strongbox - south-east
+
+  zone map 1421
+
+  loop
+  goto 70.6,57.6
+  goto 71.1,56
+  interact 2039 optional
+  note Hidden Strongbox, 2 fixed points south-east of the Deep Elem Mine.
+
+step Alliance cache - south-east ruins
+
+  zone map 1421
+
+  goto 71.3,55.2
+  note An Alliance Strongbox and an Alliance Chest share this single south-east point - two objects, one location.
+
+step Ambermill Strongbox
+
+  zone map 1421
+
+  goto 63.71,65.24
+  note Ambermill Strongbox, a single fixed point at Ambermill.
+
+step Rusty Chest - Pyrewood
+
+  zone map 1421
+
+  goto 45.2,67.2
+  note Rusty Chest, a single fixed point south of Pyrewood.
