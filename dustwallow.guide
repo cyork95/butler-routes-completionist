@@ -1,0 +1,417 @@
+# Butler Routes - Dustwallow Marsh completionist (pack butler-routes-completionist, v0.38.0).
+# Every Dustwallow Marsh quest in the local census (45 quests, docs/dustwallow-census.md)
+# appears exactly once as an accept and once as a turnin.
+# No race header: nothing contracted is race-locked, so per-line `only` class
+# gates carry the rest (Mage chain, Warlock pair, one Paladin quest).
+# Chain order is strictly turn-in-before-accept; out-of-contract pres become
+# notes plus listed structural warnings. Item- and object-started quests never
+# wedge (note at the source, sourcing optional); writs and the crafted blade
+# take the Ashenvale R5 handling (optional + when skill + bag note).
+# Coordinates use the era frame the data carries, set with zone map lines.
+guide butler-routes-completionist/dustwallow-marsh
+title Dustwallow Marsh - Completionist
+levels 35-45
+zone Dustwallow Marsh
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Theramore - landfall
+
+  zone map 1445
+
+  tip Theramore Isle is the hub: Fiora (66.46, 45.15) posts the Astranaar board, Samaul (68.02, 48.71) opens the diplomat line, Tervosh (66.42, 49.26) works the tower, Byron (66.15, 46.07) watches the gate, VanHowzen (67.76, 48.97) runs triage, Janene (66.59, 45.22) keeps the inn, Helenia (66.44, 51.46) sells spices, Jameson (65.50, 45.39) drills the guard, and Elrick (66.45, 45.35) holds a paladin word. Take every quest in town before you head out.
+  note 1133's pre (1132, a Wetlands accept) lives outside this guide - take 1133 on its own and carry the word north.
+  accept 1133 -- Journey to Astranaar - Fiora Longears; Shindrell Swiftfire waits in Astranaar
+  accept 1135 -- Highperch Venom - Fiora Longears; ten Venom Sacs off the Thousand Needles wyverns
+  note 1265's pre (1264, a Wetlands accept) lives outside this guide - take the diplomat line on its own.
+  accept 1265 -- The Missing Diplomat - Commander Samaul; Archmage Tervosh takes the word
+  complete 1265 @66.42,49.26 era -- the diplomat word to Archmage Tervosh in the tower
+  turnin 1265 -- The Missing Diplomat - the word to Archmage Tervosh
+  accept 1282 -- They Call Him Smiling Jim - Guard Byron; Captain Vimes takes the word
+  accept 81765 only Paladin -- Elrick, Paladin of the Silver Hand - Elrick; Innkeeper Janene takes the word
+  turnin 81765 only Paladin -- Elrick, Paladin of the Silver Hand - the word to Innkeeper Janene
+  accept 98233 -- Sword in the Slime - Guard Jameson; a training sword off the corrosive ooze south
+  accept 7070 -- Shadowshard Fragments - Archmage Tervosh; ten fragments off the Desolace rumblers
+
+step Theramore - triage (First Aid)
+
+  zone map 1445
+
+  when skill First Aid 1
+
+  note 6624's pre (6625, an Ironforge accept) lives outside this guide - take triage on its own.
+  accept 6624 -- Triage - Doctor Gustaf VanHowzen; the wounded in the infirmary
+  complete 6624 @67.76,48.97 era -- the triage in VanHowzen's infirmary
+  turnin 6624 -- Triage - the triage to Doctor Gustaf VanHowzen
+
+step Astranaar - Journey's end
+
+  zone map 1440
+
+  tip Shindrell Swiftfire (34.67, 48.84) holds the Astranaar end of Fiora's board. Turn in, ride back to the marsh.
+  turnin 1133 -- Journey to Astranaar - Fiora's word to Shindrell Swiftfire
+  zone map 1445
+
+step North post - Hendel's line
+
+  zone map 1445
+
+  goto 45.24,24.65
+
+  tip The north post: Hendel (45.24, 24.65) holds the line, Tervosh (45.20, 24.40) works the tower tent, Jaina (45.20, 24.30) keeps the command. Hendel's death is the job - Tervosh and Jaina close it.
+  accept 1266 -- The Missing Diplomat - Private Hendel; carry the word
+  turnin 1266 -- The Missing Diplomat - the word to Private Hendel
+  accept 1324 -- The Missing Diplomat - Private Hendel; Hendel's end at the post
+  complete 1324 @45.24,24.65 era -- Private Hendel brought down at the north post
+  turnin 1324 -- The Missing Diplomat - the news to Archmage Tervosh
+  accept 1267 -- The Missing Diplomat - Lady Jaina Proudmoore; the line closes with her
+  turnin 1267 -- The Missing Diplomat - the line to Lady Jaina Proudmoore
+
+step West road - Jarl and the dirt
+
+  zone map 1445
+
+  tip The west road: Loose Dirt (55.44, 25.92) by Jarl's camp starts the Orc report; Jarl (55.44, 26.27) wants spices, eyes and a blade; Stinky (46.88, 17.52) plans his escape in the west. Buy three Soothing Spices from Helenia Olden in Theramore (66.44, 51.46) before you close Jarl's first ask.
+  note The Loose Dirt sits by Jarl's camp; the report goes to the Theramore Lieutenant back east.
+  accept 1219 -- The Orc Report - the Loose Dirt; the Theramore Lieutenant takes it
+  accept 1218 -- Soothing Spices - "Swamp Eye" Jarl; three Soothing Spices from Helenia Olden
+  accept 1222 -- Stinky's Escape - "Stinky" Ignatz; the escape at his camp
+  complete 1222 @46.88,17.52 era -- Stinky's escape at his western camp
+
+step Theramore - the board
+
+  zone map 1445
+
+  tip The Lieutenant (65.00, 47.00) takes the Orc report; Vimes (68.21, 48.62) holds the deserters board; Tesoran (68.05, 48.11) musters Daelin's men; Caz (64.75, 50.43) checks the Black Shield; Stern (66.34, 45.47) stews the soup. Work the board before the western hunt.
+  turnin 1219 -- The Orc Report - the report to the Theramore Lieutenant
+  accept 1220 -- Captain Vimes - the Theramore Lieutenant; Captain Vimes takes the word
+  turnin 1220 -- Captain Vimes - the word to Captain Garran Vimes
+  note 1319's pre (1253, a Barrens accept) lives outside this guide - take the shield line on its own.
+  accept 1319 -- The Black Shield - Captain Garran Vimes; Caz Twosprocket takes it
+  turnin 1319 -- The Black Shield - the shield to Caz Twosprocket
+  accept 1320 -- The Black Shield - Caz Twosprocket; Captain Vimes closes it
+  turnin 1320 -- The Black Shield - the shield to Captain Garran Vimes
+  turnin 1282 -- They Call Him Smiling Jim - the word to Captain Garran Vimes
+  complete 1218 @66.44,51.46 era -- three Soothing Spices from Helenia Olden in town
+  note 1259's pre (1252, a Barrens accept) lives outside this guide - take Daelin's line on its own.
+  accept 1259 -- Lieutenant Paval Reethe - Captain Garran Vimes; Adjutant Tesoran takes it
+  turnin 1259 -- Lieutenant Paval Reethe - the word to Adjutant Tesoran
+  accept 1285 -- Daelin's Men - Captain Garran Vimes; Adjutant Tesoran musters them
+  turnin 1285 -- Daelin's Men - the muster to Adjutant Tesoran
+  accept 1286 -- The Deserters - Captain Garran Vimes; Balos Jacken waits in the west
+  turnin 1222 -- Stinky's Escape - the escape to Morgan Stern
+  note 1204's pre (1260, a Stormwind accept) lives outside this guide - take the soup on its own.
+  accept 1204 -- Mudrock Soup and Bugs - Morgan Stern; eight tongues off the northern tortoises
+
+step West - Balos and the writs
+
+  zone map 1445
+
+  tip Balos Jacken (36.09, 54.31) deserts in the far west; Mudcrush Durtfeet (35.15, 38.26) and Ugbert (40.99, 27.88) take writs out here. Vimes's Report (6075) has no placed source in the data - have it in your bags before this leg.
+  turnin 1286 -- The Deserters - the deserters to Balos Jacken
+  note 1288's pre (1287, a Barrens accept) lives outside this guide; its starter Vimes's Report has no placed source - have it in your bags.
+  accept 1288 -- Vimes's Report - use the report, then carry it to Lady Jaina
+
+step West writ - potion (Alchemy)
+
+  zone map 1445
+
+  when skill Alchemy 1
+
+  goto 35.15,38.26
+  accept 94258 optional -- Craftsman's Writ: Lesser Stoneshield Potion - Mudcrush Durtfeet; have the potion in your bags
+  note 94258's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94258 optional -- Craftsman's Writ: Lesser Stoneshield Potion - back to Mudcrush Durtfeet
+
+step West writ - chain (Blacksmithing)
+
+  zone map 1445
+
+  when skill Blacksmithing 1
+
+  goto 40.99,27.88
+  accept 94270 optional -- Craftsman's Writ: Steel Weapon Chain - Ugbert; have the chain in your bags
+  note 94270's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94270 optional -- Craftsman's Writ: Steel Weapon Chain - back to Ugbert
+
+step North flats - tortoises and Darkmist
+
+  zone map 1445
+
+  loop
+  goto 53.60,11.40
+  goto 55.60,15.40
+  goto 57.40,8.60
+  goto 59.40,7.00
+  goto 60.20,17.00
+  goto 61.60,27.80
+  kill 4396 optional
+  tip The Mudrock tortoises graze the northern flats. Eight Forked tongues for the soup.
+  complete 1204 @55.60,15.40 era -- eight Forked Mudrock Tongues off the northern tortoises
+
+step Jarl - spices in, eyes out
+
+  zone map 1445
+
+  tip Jarl (55.44, 26.27) takes the spices; forty Darkmist eyes next, in the west.
+  turnin 1218 -- Soothing Spices - the spices to "Swamp Eye" Jarl
+  accept 1206 -- Jarl Needs Eyes - "Swamp Eye" Jarl; forty Darkmist eyes in the west
+
+step Darkmist - Jarl's eyes
+
+  zone map 1445
+
+  loop
+  goto 30.23,21.27
+  goto 32.32,22.29
+  goto 34.36,25.59
+  goto 35.12,24.32
+  kill 4376 optional
+  tip The Darkmist spiders nest in the north-west. Forty Unpopped eyes for Jarl back at his camp.
+  complete 1206 @32.32,22.29 era -- forty Unpopped Darkmist Eyes off the western spiders
+
+step Jarl - the eyes and the blade
+
+  zone map 1445
+
+  tip Jarl (55.44, 26.27) takes the eyes. The Moonsteel Broadsword (3853) has no source in the data - have it in your bags (auction house or a blacksmith) before this step.
+  turnin 1206 -- Jarl Needs Eyes - the eyes to "Swamp Eye" Jarl
+
+step Jarl - the blade (Blacksmithing)
+
+  zone map 1445
+
+  when skill Blacksmithing 1
+
+  goto 55.44,26.27
+  accept 1203 optional -- Jarl Needs a Blade - "Swamp Eye" Jarl; a Moonsteel Broadsword in your bags
+  note The Moonsteel Broadsword (3853) has no source in the data - have it in your bags (auction house or a blacksmith).
+  turnin 1203 optional -- Jarl Needs a Blade - the blade to "Swamp Eye" Jarl
+
+step South - Tabetha's circle
+
+  zone map 1445
+
+  tip Tabetha (46.06, 57.09) works the southern marsh: the mage line (Jade and a Bramble from Arathi), the warlock orb, Hidden Secrets for the Needles, Rituals, and Tiara work. Her pres (1947 Mulgore, 1953 Durotar, 1799 Barrens, 2861 Mulgore) live outside this guide - take each line on its own.
+  accept 1948 only Mage -- Items of Power - Tabetha; a Jade and a Bolt Charged Bramble
+  accept 1954 only Mage -- The Infernal Orb - Tabetha; an Infernal Orb off the Desolace summoners
+  accept 1949 only Mage -- Hidden Secrets - Tabetha; Magus Tirth waits in Thousand Needles
+  accept 4961 only Warlock -- Cleansing of the Orb of Orahil - Tabetha; a Demon of the Orb by her hut
+  accept 2846 -- Tiara of the Deep - Tabetha; the tiara for her finale
+
+step Desolace - the summoner
+
+  zone map 1443
+
+  loop
+  goto 49.59,77.24
+  goto 51.50,81.89
+  goto 53.49,78.35
+  goto 54.92,71.68
+  kill 4668 optional
+  tip The Burning Blade summoners work the south-west wastes; Tabetha (46.06, 57.09) back in the marsh takes the orb.
+  complete 1954 only Mage @51.50,81.89 era -- an Infernal Orb off the waste summoners
+
+step Arathi - the bramble
+
+  zone map 1417
+
+  tip The Bolt Charged Bramble (103662) sits alone in the Arathi highlands (52.00, 50.80); Tabetha back in the marsh takes it for the mage work.
+  complete 1948 only Mage @52.00,50.80 era -- the Bolt Charged Bramble in the Arathi highlands
+
+step South - Tabetha closes
+
+  zone map 1445
+
+  tip Tabetha (46.06, 57.09) closes the circle: the Demon of the Orb (45.79, 56.97) and the Mana Surge (45.83, 56.94) stand by her hut. The Obsidian Power Source (8053) and the Tiara of the Deep (9234) have no placed source in the data - their droppers are unmapped, so have both in your bags.
+  turnin 1954 only Mage -- The Infernal Orb - the orb to Tabetha
+  accept 1955 only Mage -- The Exorcism - Tabetha; a Demon of the Orb by her hut
+  complete 1955 only Mage @45.79,56.97 era -- a Demon of the Orb brought down by her hut
+  turnin 1955 only Mage -- The Exorcism - the exorcism to Tabetha
+  accept 1956 only Mage -- Power in Uldaman - Tabetha; an Obsidian Power Source for the work
+  complete 1956 only Mage -- an Obsidian Power Source for Tabetha's work
+  turnin 1956 only Mage -- Power in Uldaman - the source to Tabetha
+  accept 1957 only Mage -- Mana Surges - Tabetha; twelve Mana Surges by her hut
+  complete 1957 only Mage @45.83,56.94 era -- twelve Mana Surges by Tabetha's hut
+  turnin 1957 only Mage -- Mana Surges - the surges to Tabetha
+  accept 1958 only Mage -- Celestial Power - Tabetha; the circle closes
+  turnin 1958 only Mage -- Celestial Power - the circle to Tabetha
+  complete 4961 only Warlock @45.79,56.97 era -- a Demon of the Orb brought down by her hut
+  turnin 4961 only Warlock -- Cleansing of the Orb of Orahil - the orb to Tabetha
+  accept 4976 only Warlock -- Returning the Cleansed Orb - Tabetha; Menara Voidrender waits in the Barrens
+  complete 2846 -- the Tiara of the Deep for Tabetha's finale
+  turnin 2846 -- Tiara of the Deep - the tiara to Tabetha
+
+step Thousand Needles - venom and secrets
+
+  zone map 1441
+
+  loop
+  goto 9.21,34.40
+  goto 10.34,35.67
+  goto 11.15,34.55
+  goto 11.93,33.24
+  goto 11.87,35.79
+  goto 10.01,33.96
+  goto 11.53,33.94
+  goto 16.75,41.49
+  kill 4107 optional
+  tip The Highperch wyverns ride the north-west mesas; Magus Tirth (78.29, 75.70) keeps the far south. Ten Venom Sacs for Fiora back in the marsh, and Tirth closes the mage secrets.
+  complete 1135 @10.34,35.67 era -- ten Highperch Venom Sacs off the mesa wyverns
+  turnin 1949 only Mage -- Hidden Secrets - the secrets to Magus Tirth
+
+step Barrens - Menara's orb
+
+  zone map 1413
+
+  tip Menara Voidrender (62.51, 35.45) holds the Barrens end of the warlock orb. Turn in, ride back to the marsh.
+  turnin 4976 only Warlock -- Returning the Cleansed Orb - the orb to Menara Voidrender
+  zone map 1445
+
+step Desolace - shadowshards
+
+  zone map 1443
+
+  loop
+  goto 26.51,57.01
+  goto 27.23,57.68
+  goto 28.13,55.59
+  goto 29.76,56.17
+  kill 11777 optional
+  tip The Shadowshard rumblers shake the eastern wastes; Tervosh back in Theramore (66.42, 49.26) takes the fragments.
+  complete 7070 @27.23,57.68 era -- ten Shadowshard Fragments off the eastern rumblers
+
+step South shore - Nat's challenge (Fishing)
+
+  zone map 1445
+
+  when skill Fishing 1
+
+  tip Nat Pagle (58.61, 60.06) angles the deep south - take his challenge on its own (its pres, 6608 a Durotar accept and 6609 an Ironforge accept, live outside this guide). Fishing 225 to work the waters.
+  accept 6607 -- Nat Pagle, Angler Extreme - Nat Pagle; four rare fish in four far waters
+
+step South shore - the ooze
+
+  zone map 1445
+
+  tip The Corrosive Ooze (44.25, 58.62) drifts the mire; Jameson (65.50, 45.39) drills back in town.
+  loop
+  goto 44.25,58.62
+  goto 47.62,51.70
+  goto 50.97,50.28
+  goto 54.13,57.73
+  kill 4392 optional
+  complete 98233 @47.62,51.70 era -- Jameson's Training Sword off the southern ooze
+
+step The four waters - Nat's fish
+
+  when skill Fishing 1
+
+  zone map 1444
+
+  complete 6607 @62.40,52.40 era -- the Feralas Ahi off the southern Sar'theris coast
+  zone map 1435
+  complete 6607 @74.50,3.30 era -- the Misty Reed Mahi Mahi off the northern Misty Reed shore
+  zone map 1443
+  complete 6607 @24.30,82.50 era -- the Sar'theris Striker off the western Sar'theris strand
+  zone map 1434
+  complete 6607 @22.20,19.80 era -- the Savage Coast Blue Sailfin off the Savage coast
+  zone map 1445
+  turnin 6607 -- Nat Pagle, Angler Extreme - the four fish to Nat Pagle
+
+step Far south - the goblin trio
+
+  zone map 1445
+
+  loop
+  goto 37.20,74.60
+  goto 41.00,63.60
+  goto 42.40,81.80
+  goto 44.20,71.00
+  goto 45.00,63.40
+  kill 4323 optional
+  tip The Searing whelps nest the far south; Drazzit Dripvalve (41.01, 75.73) and Gizzix Grimegurgle (40.97, 75.68) work the same camp. Eight of each whelp for Drazzit, twenty scales and ten wyrmtails for the pair, and a Jade for Tabetha's mage work. The Wyrmtail source (671644) is unmapped in the data - have ten in your bags.
+  accept 98205 -- Whelps are the Worst! - Drazzit Dripvalve; eight of each southern whelp
+  accept 98215 -- Dragon Scales, Post Burnt Tails - Drazzit Dripvalve; twenty scales off the southern whelps
+  accept 98231 -- Active Ingredient - Gizzix Grimegurgle; ten Wyrmtails from your bags
+  complete 98205 @41.00,63.60 era -- eight Searing Hatchlings and eight Searing Whelps in the southern nests
+  complete 98215 @41.00,63.60 era -- twenty Shed Dark Dragonscales off the southern whelps
+  complete 98231 -- ten Wyrmtails for Gizzix Grimegurgle
+  complete 1948 only Mage @41.00,63.60 era -- a Jade off the southern whelps for the mage work
+  turnin 98205 -- Whelps are the Worst! - the whelps to Drazzit Dripvalve
+  turnin 98215 -- Dragon Scales, Post Burnt Tails - the scales to Drazzit Dripvalve
+  turnin 98231 -- Active Ingredient - the tails to Gizzix Grimegurgle
+
+step Tabetha - the wand at last
+
+  zone map 1445
+
+  tip Back at Tabetha's hut (46.06, 57.09): the Jade and the Bramble close the mage's first work, and the wand follows now that 1948 fills (1951, the other pre, is a Thousand Needles accept outside this guide).
+  turnin 1948 only Mage -- Items of Power - the Jade and the Bramble to Tabetha
+  accept 1952 only Mage -- Mage's Wand - Tabetha; the wand she offers
+  turnin 1952 only Mage -- Mage's Wand - the wand to Tabetha
+
+step South writ - monocle (Engineering)
+
+  zone map 1445
+
+  when skill Engineering 1
+
+  goto 54.00,56.48
+  accept 94282 optional -- Craftsman's Writ: Craftsman's Monocle - The Ravenous; have the monocle in your bags
+  note 94282's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94282 optional -- Craftsman's Writ: Craftsman's Monocle - back to The Ravenous
+
+step South writ - bracers (Leatherworking)
+
+  zone map 1445
+
+  when skill Leatherworking 1
+
+  goto 54.00,56.48
+  accept 94294 optional -- Craftsman's Writ: Dusky Bracers - The Ravenous; have the bracers in your bags
+  note 94294's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94294 optional -- Craftsman's Writ: Dusky Bracers - back to The Ravenous
+
+step South writ - robe (Tailoring)
+
+  zone map 1445
+
+  when skill Tailoring 1
+
+  goto 46.06,57.09
+  accept 94306 optional -- Craftsman's Writ: Crimson Silk Robe - Tabetha; have the robe in your bags
+  note 94306's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94306 optional -- Craftsman's Writ: Crimson Silk Robe - back to Tabetha
+
+step Theramore - last words
+
+  zone map 1445
+
+  tip Last words in town: Stern (66.34, 45.47) takes the soup and the crawlers, Jaina (66.27, 49.04) takes Vimes's report, Fiora (66.46, 45.15) takes the venom, Tervosh (66.42, 49.26) takes the shards. The soup's pre (1204) fills here, so take the bug hunt after it.
+  turnin 1204 -- Mudrock Soup and Bugs - the soup to Morgan Stern
+  accept 1258 -- ... and Bugs - Morgan Stern; twelve Pristine Crawler Legs, Swamp of Sorrows
+  turnin 1288 -- Vimes's Report - the report to Lady Jaina Proudmoore
+  turnin 1135 -- Highperch Venom - the venom to Fiora Longears
+  turnin 7070 -- Shadowshard Fragments - the fragments to Archmage Tervosh
+  turnin 98233 -- Sword in the Slime - the sword to Guard Jameson
+
+step Swamp of Sorrows - crawler legs
+
+  zone map 1435
+
+  loop
+  goto 73.66,5.34
+  goto 75.99,5.19
+  goto 76.04,3.02
+  goto 77.49,5.22
+  goto 78.68,8.00
+  goto 78.91,5.28
+  kill 922 optional
+  tip The Silt Crawlers work the north shore; the Monstrous Crawlers walk the same ground. Twelve Pristine legs for Stern's pot back in the marsh.
+  complete 1258 @76.04,3.02 era -- twelve Pristine Crawler Legs off the north-shore crawlers
+  zone map 1445
+  turnin 1258 -- ... and Bugs - the legs to Morgan Stern
