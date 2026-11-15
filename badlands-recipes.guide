@@ -1,0 +1,178 @@
+# Badlands - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics and manuals whose SOURCE is
+# physically in the Badlands, verified against the local Forever game data
+# (questie-forever item vendor and drop tables). Two recipes are vendor-sold
+# by in-zone Alliance-safe vendors (Yuka Screwspigot, Jazzrik); six plans,
+# patterns, manuals and formulae drop each from a single named in-zone mob,
+# five of them single-zone exclusives, the sixth from a mob that also spawns
+# in two other zones and ships with a come-back note. Everything else
+# Badlands-dropping is a generic multi-zone world drop (Elwynn rule), and
+# quest records carry no reward data, so neither ships (see
+# docs/badlands-companions-inventory.md and docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides
+# cover those. Each step is gated to its profession; other characters skip
+# it cleanly. Alchemy, Cooking, Fishing and Leatherworking have no Badlands
+# source, so that is stated, not padded.
+guide butler-routes-completionist/badlands-recipes
+title Badlands - Recipes & Patterns
+levels 28-40
+zone Badlands
+faction Alliance
+category Professions
+folder Companions
+keywords badlands, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Far south-west vendor - Yuka's stock (Engineering)
+
+  zone map 1418
+
+  when skill Engineering 1
+
+  tip Yuka Screwspigot (4.90, 94.70) sells schematics in the far south-west.
+  buy 10602 "Schematic: Deadly Scope"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Kargath-area vendor - Jazzrik's stock (Blacksmithing)
+
+  zone map 1418
+
+  when skill Blacksmithing 1
+
+  tip Jazzrik (42.47, 52.50), Blacksmithing Supplies, sells plans in the center.
+  buy 10858 "Plans: Solid Iron Maul"
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step East - hard gold coif (Blacksmithing)
+
+  zone map 1418
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 64.36,23.75
+  goto 65.52,22.05
+  goto 65.66,23.49
+  goto 67.13,22.09
+  goto 68.08,25.08
+  kill 2906 optional
+  collect 251389 "Plans: Hard Gold Coif" optional
+  note The Dustbelcher Warrior (level 36) in the east is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step South-center - shining mithril boots (Blacksmithing)
+
+  zone map 1418
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 48.27,68.28
+  goto 49.53,69.80
+  goto 49.66,66.49
+  goto 49.89,68.38
+  goto 50.94,67.25
+  kill 2894 optional
+  collect 251394 "Plans: Shining Mithril Boots" optional
+  note The Stonevault Shaman (level 40) in the south-center is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step South-center - mithril claws (Blacksmithing)
+
+  zone map 1418
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 47.30,69.89
+  goto 48.27,69.95
+  goto 48.72,71.93
+  goto 49.66,64.31
+  goto 49.70,71.70
+  goto 50.17,67.12
+  goto 50.92,64.36
+  goto 50.93,67.70
+  goto 51.01,66.09
+  goto 51.18,71.65
+  goto 51.35,69.72
+  goto 52.31,68.06
+  goto 52.46,65.96
+  goto 52.48,69.61
+  kill 2893 optional
+  collect 251461 "Plans: Mithril Claws" optional
+  note The Stonevault Bonesnapper (level 39) in the south-center is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step East and south-west - earthen silk shoulders (Tailoring)
+
+  zone map 1418
+
+  when skill Tailoring 1
+
+  loop
+  goto 12.87,73.34
+  goto 64.69,25.55
+  goto 66.33,22.05
+  goto 66.67,23.29
+  kill 2907 optional
+  collect 254034 "Pattern: Earthen Silk Shoulders" optional
+  note The Dustbelcher Mystic (level 36) in the east and south-west is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Center - leather tourniquet (First Aid)
+
+  zone map 1418
+
+  when skill First Aid 1
+
+  loop
+  goto 51.89,31.79
+  goto 52.32,32.71
+  goto 52.43,31.19
+  goto 52.56,32.02
+  goto 53.33,32.70
+  goto 53.43,33.44
+  goto 53.71,30.65
+  goto 54.06,33.44
+  goto 54.09,34.11
+  goto 54.52,31.42
+  goto 54.52,33.89
+  kill 2739 optional
+  collect 255726 "Manual: Leather Tourniquet" optional
+  note The Shadowforge Tunneler (level 35) in the center is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step South-west - dreambough wand (Enchanting, come back later)
+
+  zone map 1418
+
+  when skill Enchanting 1
+
+  loop
+  goto 7.10,90.78
+  goto 7.57,85.70
+  goto 7.66,89.53
+  goto 7.85,88.13
+  goto 8.00,92.38
+  goto 8.06,90.89
+  goto 8.55,88.25
+  goto 8.64,91.00
+  goto 9.62,89.29
+  goto 9.68,88.25
+  kill 2720 optional
+  collect 249512 "Formula: Dreambough Wand" optional
+  note The Dustbelcher Ogre Mage (level 43) in the south-west is the sole dropper anywhere in the data, though the same mob also spawns in two other zones. No quest takes it. Come back at high level - three over the guide band.
+  note Respawn timer unconfirmed.
+
+step No Badlands source - Alchemy
+  note Alchemy has no recipe source physically in the Badlands in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Badlands source - Cooking
+  note Cooking has no recipe source physically in the Badlands in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Badlands source - Fishing
+  note Fishing has no recipe source physically in the Badlands in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Badlands source - Leatherworking
+  note Leatherworking has no recipe source physically in the Badlands in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
