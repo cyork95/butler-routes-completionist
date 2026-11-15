@@ -1,0 +1,270 @@
+# Butler Routes - Badlands completionist (pack butler-routes-completionist, v1).
+# Every Badlands accept in the local census (35 quests, docs/badlands-census.md)
+# appears exactly once as an accept and once as a turnin. The 35 Horde-accept
+# quests stay with the Horde block's census; 1 repeatable (Seal of the Earth),
+# 1 spawnless record (the Platinum Discs), 3 above-band records (Ribbly, the
+# two Kibler pets) and 2 broken records (Supplies and Studies, Mirage Mirror)
+# are out with reasons in the census. No race header and no class gates:
+# nothing contracted is race- or class-locked. Writ and crafted-piece lines
+# ride optional goals with honest bag notes (the data carries no skill fields
+# for them, so no invented when-gates). Item- and object-started quests never
+# wedge (note at the source; honest bag notes where the data holds no source).
+# Accepts whose pres sit outside every pack contract ride dedicated
+# `when onquest` mini-steps, each standing alone. Expedition legs and
+# turn-ins (Arathi, Ironforge, Loch Modan, Thousand Needles) switch frames
+# deliberately and switch back.
+guide butler-routes-completionist/badlands
+title Badlands - Completionist
+levels 28-40
+zone Badlands
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Loch Modan border - Dorgaron's Safety Checks
+
+  zone map 1418
+
+  tip Dorgaron (54.63, 12.87) works the Loch Modan border in the north; the Shadowforge dig site (43.80, 10.60) sits north-west of him.
+  accept 97617 -- Safety Checks - Dorgaron; artifacts and relics, north
+  complete 97617 @43.80,10.60 era -- Unstudied Artifacts off the Shadowforge surveyors and diggers, north
+  note The Explorers' League Mining Helmet and the Pristine Mattock have no placed source in the data (their objects are not in the dumps) - bank them if they turn up; the artifacts farm here.
+  turnin 97617 -- Safety Checks - the finds back to Dorgaron
+  note The Craftsman's Writ: Steel Plate Helm (94268) starts from a writ item with no placed source - have it in your bags; Furious Shadowforge Digger (44.29, 11.42) takes it, at 60.
+  accept 94268 optional -- Craftsman's Writ: Steel Plate Helm - the writ; the helm to the digger, at 60
+  turnin 94268 optional -- Craftsman's Writ: Steel Plate Helm - the helm to Furious Shadowforge Digger
+
+step West camp - Studies and Coolant begin
+
+  zone map 1418
+
+  tip Lotwil Veriatus (25.95, 44.87) and Lucien Tosselwrench (25.82, 44.24) run the western camp; the lesser elementals work (13.14, 39.20) south-west and the Rock Elementals (11.98, 34.27) west.
+  accept 710 -- Study of the Elements: Rock - Lotwil Veriatus; small shards, south-west
+  complete 710 @13.14,39.20 era -- Small Stone Shards off the Lesser Rock Elementals, south-west
+  turnin 710 -- Study of the Elements: Rock - the shards to Lotwil Veriatus
+  accept 711 -- Study of the Elements: Rock - Lotwil Veriatus; large slabs, west
+  complete 711 @11.98,34.27 era -- Large Stone Slabs off the Rock Elementals, west
+  turnin 711 -- Study of the Elements: Rock - the slabs to Lotwil Veriatus
+  accept 712 -- Study of the Elements: Rock - Lotwil Veriatus; bracers, far west
+  accept 713 -- Coolant Heads Prevail - Lotwil Veriatus; Frost Oil, from outside
+  complete 713 -- Frost Oil for Lotwil Veriatus
+  note Frost Oil has no Badlands source in the data (Hinterlands, Feralas and Felwood mobs at 0.02%) - bring one; the rest of this camp is local.
+  turnin 713 -- Coolant Heads Prevail - the oil to Lotwil Veriatus
+  accept 714 -- Gyro... What? - Lotwil Veriatus; a gyrochronatom, south-west
+
+step West-south leg - bracers and the gyro buy
+
+  zone map 1418
+
+  tip The Greater Rock Elementals hold (0.93, 78.67) at the far west edge; Yuka Screwspigot (4.90, 94.70) sells at the south-west corner.
+  complete 712 @0.93,78.67 era -- Bracers of Rock Binding off the Greater Rock Elementals, far west
+  note The Gyrochronatom (714's objective) is vendor-sold: buy it from Yuka Screwspigot at (4.90, 94.70) on this leg.
+  complete 714 @4.90,94.70 era -- the Gyrochronatom from Yuka Screwspigot, south-west
+
+step West camp - Liquid, Bronze and the Hard triple
+
+  zone map 1418
+
+  tip Holding the bracers and the gyro: the Hard triple and the Liquid chain close at the camp; Fam'retor Guardian (26.01, 45.78) stands next door.
+  turnin 712 -- Study of the Elements: Rock - the bracers to Lotwil Veriatus
+  turnin 714 -- Gyro... What? - the gyrochronatom to Lotwil Veriatus
+  accept 715 -- Liquid Stone - Lucien Tosselwrench; a Healing Potion and Lesser Invisibility, from outside
+  complete 715 -- liquids for Lucien Tosselwrench
+  note Neither liquid is Badlands-sourced in the data (Healing Potions from any alchemy supplier anywhere; Lesser Invisibility has no placed source at all) - bring both; the camp work stays local.
+  turnin 715 -- Liquid Stone - the liquids to Lucien Tosselwrench
+  accept 716 -- Stone Is Better than Cloth - Lucien Tosselwrench; Patterned Bronze Bracers, crafted
+  complete 716 optional -- Patterned Bronze Bracers for Lucien Tosselwrench
+  note The Patterned Bronze Bracers are a crafted Blacksmithing piece with no placed source - bring a pair or skip this turn-in; the route never wedges on it.
+  turnin 716 optional -- Stone Is Better than Cloth - the bracers to Lucien Tosselwrench
+  accept 734 -- This Is Going to Be Hard - Lotwil Veriatus; Lucien takes the word, in camp
+  turnin 734 -- This Is Going to Be Hard - the word to Lucien Tosselwrench
+  accept 777 -- This Is Going to Be Hard - Lucien Tosselwrench; Lotwil takes the word, in camp
+  turnin 777 -- This Is Going to Be Hard - the word to Lotwil Veriatus
+  accept 778 -- This Is Going to Be Hard - Lotwil Veriatus; Fam'retor's shackles, next door
+  complete 778 @26.01,45.78 era -- Lotwil's Shackles off Fam'retor Guardian, next door
+  turnin 778 -- This Is Going to Be Hard - the shackles to Lotwil Veriatus
+  note The Craftsman's Writ: Frost Protection Potion (94256) starts from a writ item with no placed source - have it in your bags; Lotwil takes it, at 60.
+  accept 94256 optional -- Craftsman's Writ: Frost Protection Potion - the writ; the potion to Lotwil, at 60
+  turnin 94256 optional -- Craftsman's Writ: Frost Protection Potion - the potion to Lotwil Veriatus
+
+step Center hub - Ryedol, Sigrun and Rigglefuzz
+
+  zone map 1418
+
+  tip Prospector Ryedol (53.42, 43.39) and Sigrun Ironhew (53.80, 43.30) hold the center; Rigglefuzz (42.39, 52.93) and Martek the Exiled (42.22, 52.69) work the west side; the Crumpled Map lies (53.03, 33.94) north of them and the Excavation Supply Crate (66.60, 22.00) north-east.
+  accept 719 -- A Dwarf and His Tools - Prospector Ryedol; Ryedol's pick, north-west
+  complete 719 @51.89,31.79 era -- Ryedol's Lucky Pick off the Shadowforge Tunnelers, north-west
+  turnin 719 -- A Dwarf and His Tools - the pick to Prospector Ryedol
+  accept 720 -- A Sign of Hope - the Crumpled Map; Ryedol reads it, south
+  turnin 720 -- A Sign of Hope - the map to Prospector Ryedol
+  accept 721 -- A Sign of Hope - Prospector Ryedol; Hammertoe takes the word, north-west
+  accept 718 -- Mirages - Sigrun Ironhew; the supply crate, north-east
+  complete 718 @66.60,22.00 era -- the Supply Crate from the excavation, north-east
+  turnin 718 -- Mirages - the crate back to Sigrun Ironhew
+  accept 733 -- Scrounging - Sigrun Ironhew; scrap from the Dustbelchers, east and west
+  accept 703 -- Barbecued Buzzard Wings - Rigglefuzz; buzzard wings, center
+  complete 703 @48.91,27.41 era -- Buzzard Wings off the Starving Buzzards, center
+  turnin 703 -- Barbecued Buzzard Wings - the wings to Rigglefuzz
+  accept 705 -- Pearl Diving - Rigglefuzz; Blue Pearls, from the coast
+  complete 705 -- Blue Pearls for Rigglefuzz
+  note Blue Pearls have no Badlands source in the data (Stranglethorn murlocs at under 1% and the Giant Clam there at 100%) - bring 9; the rest of this hub is local.
+  turnin 705 -- Pearl Diving - the pearls to Rigglefuzz
+  accept 2418 -- Power Stones - Rigglefuzz; Dentrium stones, north dig site
+  note The Craftsman's Writ: Mageweave Bag (94304) starts from a writ item with no placed source - have it in your bags; Rigglefuzz takes it, at 60.
+  accept 94304 optional -- Craftsman's Writ: Mageweave Bag - the writ; the bag to Rigglefuzz, at 60
+  turnin 94304 optional -- Craftsman's Writ: Mageweave Bag - the bag to Rigglefuzz
+
+step North dig site - Power Stones
+
+  zone map 1418
+
+  tip The Shadowforge surveyors work (43.80, 10.60) at the north dig site.
+  complete 2418 @43.80,10.60 era -- Dentrium Power Stones off the Shadowforge Surveyors, north dig site
+  turnin 2418 -- Power Stones - the stones back to Rigglefuzz
+
+step Rigglefuzz's recipe (Engineering)
+
+  zone map 1418
+
+  when skill Engineering 1
+
+  tip Rigglefuzz (42.39, 52.93) teaches the Flash Bomb Recipe to engineers.
+  accept 1559 optional -- Flash Bomb Recipe - Rigglefuzz; the recipe is the reward, in camp
+  turnin 1559 optional -- Flash Bomb Recipe - the word back to Rigglefuzz
+
+step North-west pass - Hammertoe's word
+
+  zone map 1418
+
+  tip Hammertoe Grez (37.90, 10.59) holds the north-west.
+  turnin 721 -- A Sign of Hope - the word to Hammertoe Grez
+
+step Martek's camp - Indurium (soft pre)
+
+  zone map 1418
+
+  when onquest 1106
+
+  tip Holding 1106 (Martek the Exiled, from Foreman Stonebrow in Thousand Needles): Martek's Indurium ask at his camp (42.22, 52.69); the Stonevault troggs work (47.30, 69.89) south-east.
+  accept 1108 -- Indurium - Martek the Exiled; Indurium Flakes, south-east
+  complete 1108 @47.30,69.89 era -- Indurium Flakes off the Stonevault Bonesnappers, south-east
+  turnin 1108 -- Indurium - the flakes to Martek the Exiled
+  accept 1137 -- News for Fizzle - Martek the Exiled; Fizzle takes the word in Thousand Needles, late
+
+step East - Garek's Tremors and the whelps
+
+  zone map 1418
+
+  tip Garek (61.94, 54.26) holds the east; Blacklash (81.88, 49.46) and Hematus (82.03, 49.93) far east, the Dustbelchers work (61.95, 70.18) south, and the Scalding Whelps (69.67, 53.81) south-east.
+  accept 732 -- Tremors of the Earth - Garek; Tho'grun's Sign, far west
+  complete 733 @61.95,70.18 era -- Scrap Metal off the Dustbelcher Ogres, south
+  turnin 733 -- Scrounging - the scrap back to Sigrun Ironhew
+  accept 706 -- Fiery Blaze Enchantments - Sigrun Ironhew; a Black Drake's Heart, south-east
+  complete 706 @69.67,53.81 era -- a Black Drake's Heart off the Scalding Whelps, south-east
+  turnin 706 -- Fiery Blaze Enchantments - the heart to Sigrun Ironhew
+  note The Craftsman's Writ: Comfortable Leather Hat (94292) starts from a writ item with no placed source - have it in your bags; Garek takes it, at 60.
+  accept 94292 optional -- Craftsman's Writ: Comfortable Leather Hat - the writ; the hat to Garek, at 60
+  turnin 94292 optional -- Craftsman's Writ: Comfortable Leather Hat - the hat to Garek
+
+step Far west - Tho'grun's Sign
+
+  zone map 1418
+
+  tip Boss Tho'grun (12.62, 75.49) holds the far west edge.
+  complete 732 @12.62,75.49 era -- the Sign of the Earth off Boss Tho'grun, far west
+
+step East return - Tremors finale
+
+  zone map 1418
+
+  tip Holding Tho'grun's Sign: the Tremors finale runs at Garek's camp (61.94, 54.26); Blacklash (81.88, 49.46) and Hematus (82.03, 49.93) hold the far east.
+  turnin 732 -- Tremors of the Earth - the sign to Garek
+  accept 717 -- Tremors of the Earth - Garek; Blacklash and Hematus, far east
+  complete 717 @81.88,49.46 era -- Blacklash's Bindings and the Chains of Hematus, far east
+  turnin 717 -- Tremors of the Earth - the bindings to Garek
+
+step Theldurin's camp - fragments (soft pre)
+
+  zone map 1418
+
+  when onquest 687
+
+  tip Holding 687 (Theldurin the Lost, from an Ironforge contact): Theldurin's fragment ask at his camp (51.39, 76.87); the Enraged Rock Elementals hold (52.59, 85.55) south of him.
+  accept 692 -- The Lost Fragments - Theldurin the Lost; scroll fragments, south
+  complete 692 @52.59,85.55 era -- Torn, Crumpled and Singed Scroll Fragments off the Enraged Rock Elementals, south
+  turnin 692 -- The Lost Fragments - the fragments to Theldurin the Lost
+
+step Theldurin's camp - summoning and solutions
+
+  zone map 1418
+
+  tip Theldurin the Lost (51.39, 76.87) holds the south; the Ancient Chest (39.34, 18.82) sits far north-center.
+  note The Scroll of Myzrael (656's sourceItem) has no placed source in the data - the quest comes from Theldurin; if the accept doesn't show, move on.
+  accept 656 -- Summoning the Princess - Theldurin the Lost; Myzrael and the Shards, in Arathi, late
+  accept 709 -- Solution to Doom - Theldurin the Lost; the Ryun'eh tablet, north-center
+  complete 709 @39.34,18.82 era -- the Tablet of Ryun'eh from the Ancient Chest, north-center
+  turnin 709 -- Solution to Doom - the tablet to Theldurin the Lost
+  accept 727 -- To Ironforge for Yagyin's Digest - Theldurin the Lost; Gerrig takes it in Ironforge, late
+
+step Battered Dwarven Skeleton - Murdaloc (soft pre)
+
+  zone map 1418
+
+  when onquest 738
+
+  tip Holding 738 (Find Agmond, from Prospector Ironband in Loch Modan): the skeleton lies (50.89, 62.40) south-east; Murdaloc (49.63, 66.31) and the Stonevault Bonesnappers (47.30, 69.89) work the same ground.
+  accept 739 -- Murdaloc - the Battered Dwarven Skeleton; Murdaloc's head, south-east
+  complete 739 @49.63,66.31 era -- Murdaloc and the Stonevault Bonesnappers, south-east
+
+step Ryedol's shipment - Prospect of Faith (soft pre)
+
+  zone map 1418
+
+  when onquest 723
+
+  tip Holding 723 (Prospect of Faith, from Prospector Ironband in Loch Modan): Ryedol's shipment at his camp (53.42, 43.39).
+  accept 724 -- Prospect of Faith - Prospector Ryedol; Historian Karnik takes it in Ironforge, late
+
+step Arathi expedition - Myzrael and the Shards
+
+  zone map 1417
+
+  tip Holding 656 (Summoning the Princess, from Theldurin the Lost): Myzrael (62.62, 34.06) and the Shards of Myzrael (62.50, 33.73) sit together in Arathi.
+  complete 656 @62.62,34.06 era -- the Eldritch Shackles off Myzrael, Arathi
+  turnin 656 -- Summoning the Princess - the shackles to the Shards of Myzrael
+
+step Ironforge expedition - Yagyin's Digest
+
+  zone map 1455
+
+  tip Holding 727 (To Ironforge for Yagyin's Digest, from Theldurin the Lost): Gerrig Bonegrip (50.83, 5.62) takes the digest in Ironforge.
+  turnin 727 -- To Ironforge for Yagyin's Digest - the digest to Gerrig Bonegrip
+
+step Historian Karnik's word (soft pre)
+
+  zone map 1455
+
+  when onquest 724
+
+  tip Holding 724 (Prospect of Faith, from Prospector Ryedol): Historian Karnik (77.54, 11.82) takes the word in Ironforge.
+  turnin 724 -- Prospect of Faith - the word to Historian Karnik
+
+step Loch Modan expedition - Murdaloc's head (soft pre)
+
+  zone map 1432
+
+  when onquest 739
+
+  tip Holding 739 (Murdaloc, from the Badlands skeleton): Prospector Ironband (65.93, 65.62) takes the head in Loch Modan.
+  turnin 739 -- Murdaloc - the head to Prospector Ironband
+
+step Thousand Needles expedition - Fizzle's news
+
+  zone map 1441
+
+  when onquest 1137
+
+  tip Holding 1137 (News for Fizzle, from Martek the Exiled): Fizzle Brassbolts (78.06, 77.13) takes the word in Thousand Needles.
+  turnin 1137 -- News for Fizzle - the word to Fizzle Brassbolts
