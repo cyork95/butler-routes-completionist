@@ -1,0 +1,235 @@
+# Butler Routes - Arathi rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 9 confirmed in-band rares and the fixed world
+# containers of Arathi Highlands. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is not
+# up never holds the route. Spawn points and levels are the local Forever game
+# data (questie-forever); the data records no loot on any of these nine rares,
+# so there are no signature drops to chase. Respawn timers are unconfirmed
+# anywhere, so none are stated. Two higher-level rares (Foulbelly, Prince
+# Nazjak) live above the zone band and are not covered here. No rare in this
+# guide is a giver, ender, or objective of any core-contracted quest; the
+# Trelane containers, the Sealed Barrel, the Messenger Bag and satchel, the
+# Syndicate Footlocker and the Cache of Explosives are all quest-owned and
+# live in the core routes, not here. See
+# docs/arathi-companions-inventory.md for the full inventory this guide was
+# built against.
+guide butler-routes-completionist/arathi-rares
+title Arathi Highlands - Rares & Treasures
+levels 30-40
+zone Arathi Highlands
+faction Alliance
+category Collectibles
+folder Companions
+keywords arathi, rares, treasures, companions
+coords live
+version 1
+
+step Darbel Montrose — Stromgarde
+
+  loop
+  goto 25.23,62.19
+  goto 25.27,63.16
+  goto 26.06,62.29
+  goto 26.51,60.74
+  goto 27.08,62.22
+  goto 27.39,64.91
+  goto 27.71,65.7
+  goto 28.01,60.51
+  goto 28.03,62.38
+  goto 28.28,63.16
+  goto 28.66,65.85
+  goto 29.27,63.03
+  goto 29.71,64.61
+  goto 29.78,60.67
+  kill 2598 optional
+  note Level 39 rare Shadow Council warlock, flagged rare in the data, working Stromgarde.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Singer — north of the circle
+
+  goto 32.31,30.99
+  kill 2600 optional
+  note Level 34 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Ruul Onestone — the far west
+
+  goto 17.96,68.56
+  kill 2602 optional
+  note Level 39 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Kovork — the center
+
+  loop
+  goto 30.37,43.77
+  goto 31.76,46.21
+  goto 33,44.04
+  kill 2603 optional
+  note Level 36 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Molok the Crusher — the south
+
+  loop
+  goto 53.23,80.18
+  goto 54.62,79.71
+  goto 54.88,81.51
+  kill 2604 optional
+  note Level 39 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Zalas Witherbark — the southeast
+
+  loop
+  goto 61.09,72.35
+  goto 64.83,73.45
+  goto 66.37,81.78
+  goto 66.77,81.73
+  goto 67.43,80.66
+  goto 67.89,78.47
+  goto 68.33,79.4
+  goto 69.09,81.4
+  goto 69.27,79.62
+  goto 70.23,77.85
+  kill 2605 optional
+  note Level 40 rare Warband Leader, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Nimar the Slayer — the east
+
+  loop
+  goto 60.2,72.26
+  goto 61.33,72.54
+  goto 63.23,67.67
+  goto 63.86,68.58
+  goto 64.36,74.68
+  goto 64.64,73.25
+  goto 65.64,63.48
+  goto 66.41,63.95
+  goto 68.86,73.72
+  goto 69.59,61.33
+  goto 69.65,66.18
+  goto 70.28,70.24
+  goto 70.67,69.27
+  goto 72.45,65.8
+  goto 73.5,64.91
+  kill 2606 optional
+  note Level 37 rare Warband Leader, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Geomancer Flintdagger — the far east
+
+  goto 82.8,32.23
+  kill 2609 optional
+  note Level 40 rare, flagged rare in the data.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Tamra Stormpike — the far west
+
+  loop
+  goto 9.1,47.2
+  goto 10.6,51
+  goto 11.4,49.9
+  kill 14275 optional
+  note Level 28 rare, flagged rare in the data; the same Tamra roams Hillsbrad Foothills too.
+  note The data records no loot on this rare in this data build at all; respawn timer unconfirmed.
+
+step Fixed Chests — world containers
+
+  loop
+  goto 31.09,25.91
+  goto 32.28,26.8
+  goto 33.4,31.03
+  goto 33.76,27.49
+  goto 61.17,72.93
+  goto 66.04,63.78
+  goto 68.44,80.38
+  goto 70.64,69.99
+  goto 73.55,65.24
+  goto 16.74,87.37
+  goto 18.22,66.65
+  goto 18.7,64.97
+  goto 19.84,68.99
+  goto 20.69,89.58
+  goto 20.96,84.8
+  goto 22.65,67.35
+  goto 23.39,84.86
+  goto 25.07,64.35
+  goto 25.75,65.81
+  goto 28.31,65.85
+  goto 53.2,77.2
+  goto 53.44,74.37
+  goto 53.61,79.93
+  goto 53.8,75.71
+  goto 82.78,33.39
+  goto 85.61,30.38
+  goto 85.62,32.28
+  goto 88,22.7
+  goto 8.7,47.6
+  goto 10.2,50.5
+  goto 21.5,67.94
+  goto 22.29,59.85
+  goto 23.55,63.6
+  goto 24.49,56.81
+  goto 27.98,60.19
+  goto 29.17,65.77
+  goto 30.91,26.26
+  goto 31.95,31.01
+  goto 33.59,27.03
+  goto 35.39,43.91
+  goto 46.07,47.96
+  goto 48.61,87.39
+  goto 54.35,38.04
+  goto 56.17,35.8
+  goto 56.66,39.13
+  goto 57.89,74.81
+  goto 60.19,59.49
+  goto 60.83,72.65
+  goto 62.05,56.15
+  goto 64.75,74.06
+  goto 65.95,64.44
+  goto 70.87,70.01
+  goto 74.56,31.51
+  goto 75.36,37.04
+  goto 23.23,65.22
+  goto 26.88,65.1
+  goto 27.4,62.53
+  goto 29.62,62
+  goto 45.56,45.83
+  goto 60.66,55.43
+  goto 62.96,55.97
+  goto 73.98,33.96
+  goto 8.5,48.5
+  goto 10,48.2
+  goto 10.5,51
+  goto 54.04,38.09
+  goto 56.38,36.4
+  goto 57.07,40.54
+  goto 57.36,39.72
+  goto 21.62,61.16
+  goto 22.63,63.62
+  goto 22.87,57.35
+  goto 24.58,58.81
+  goto 60.11,55.91
+  goto 60.18,58.71
+  goto 62.72,56.43
+  interact 2855 optional
+  interact 2857 optional
+  interact 153451 optional
+  interact 3659 optional
+  interact 3695 optional
+  interact 3706 optional
+  interact 3707 optional
+  interact 4096 optional
+  interact 105579 optional
+  interact 105581 optional
+  interact 105578 optional
+  note Twenty-seven Solid Chest placements, two Barrel of Melon Juice and matching Food Crate placements, thirty-two Barrel of Sweet Nectar and matching Food Crate placements, eleven Alliance Chest placements, and three Horde Chest placements (contested-zone supply chests; anyone can open them). All hold ordinary low-level goods; no unique treasure confirmed.
+  note The Trelane containers, the Sealed Barrel, the Messenger Bag and satchel, the Syndicate Footlocker and the Cache of Explosives are all quest-owned and routed in the core guides, not here. Respawn timers unconfirmed.
+
+step Illari's Loot Cache — the far east
+
+  goto 94.15,69.28
+  interact 418855 optional
+  note A one-off loot cache far east past the Iridescent Shards. No quest in the data sends you to it. Contents unconfirmed in the data; respawn timer unconfirmed.
