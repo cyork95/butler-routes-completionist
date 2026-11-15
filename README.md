@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.29.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.30.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -24,6 +24,8 @@ Status: **in development (pack v0.29.0), not published yet**. The first release 
 | `darnassus-recipes.guide` (companion built, pilot pending) | Darnassus recipes & patterns | 4–60 | Alliance |
 | `darnassus.guide` (third city guide built, pilot pending) | Darnassus (Alliance capital) | 4–60 | Alliance |
 | `redridge.guide` (Set 2 core built, pilot pending) | Redridge Mountains | 14–26 | Alliance |
+| `redridge-rares.guide` (companion built, pilot pending) | Redridge Mountains rares and treasures | 14-26 | Alliance |
+| `redridge-recipes.guide` (companion built, pilot pending) | Redridge Mountains recipe sources | 14-26 | Alliance |
 | `ashenvale.guide` (Set 2 core built, pilot pending) | Ashenvale | 18–32 | Alliance |
 | `stonetalon.guide` (Set 2 core built, pilot pending) | Stonetalon Mountains | 16–30 | Alliance |
 | `duskwood.guide` (Set 2 core built, pilot pending) | Duskwood | 17–28 | Alliance |
@@ -63,6 +65,7 @@ The two Darkshore companions run the same way beside the Darkshore core route: t
 The two Teldrassil companions run the same way beside the Teldrassil core route: the rares guide sweeps 19 confirmed rares (including the Moss-twined Heart hunt on Blackmoss, which feeds the contracted core quest) plus the fixed world containers (Battered Chests, Buried Treasure, Lunar Chest, harpy chests, Gnarlpine caches, Velinde's Locker), and the recipes guide collects the 6 vendor-sold Cooking recipe sources in Dolanaar and Rut'theran, gated by profession.
 
 The two Hillsbrad companions run the same way beside the Hillsbrad core route: the rares guide sweeps 7 confirmed rares plus the fixed world containers (Hidden Strongboxes, Solid and Alliance Chests, melon-juice barrels, food crates, Syndicate footlockers), and the recipes guide collects the 25 vendor-sold recipe sources from Southshore to Dun Garok plus 4 mob-dropped exclusives, gated by profession.
+The two Redridge companions run the same way beside the Redridge core route: the rares guide sweeps 8 confirmed rares (none with loot in the data - pure kills) plus the fixed world containers (Battered and Solid Chests, food and milk crates, Waterlogged Footlockers, Lucius's Lockbox and the Lakeshire practice lockboxes), and the recipes guide collects the 321 vendor-sold recipe sources at Lakeshire and the southwestern trade-skill camp plus 4 mob-dropped exclusives, gated by profession.
 
 The first city guide covers Stormwind City: 189 quests that accept inside the city at every level, grouped by district with the chains kept together, plus expedition steps that run the out-of-city objectives at their data-placed locations.
 

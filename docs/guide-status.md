@@ -174,7 +174,7 @@ _Follows Westfall and Loch Modan._
 - [x] Lint/playtest clean - 0 errors, playtest 5 personas 0 stuck (R1+R2 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 8 rares (no loot in data) + containers incl. Lucius lockbox, 325 recipes (321 vendor + 4 exclusive drops), 0 lint errors/warnings
 
 ### Ashenvale — third zone (Alliance)
 
