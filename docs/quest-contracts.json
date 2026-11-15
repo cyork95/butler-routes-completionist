@@ -8816,6 +8816,223 @@
           "id": 94308
         }
       ]
+    },
+    {
+      "id": "azshara",
+      "name": "Azshara",
+      "order": 31,
+      "levelBand": "45-55",
+      "summary": "Set 5 contested-zone Alliance route: the Loramus/Arkkoroc Name of the Beast chain with the Felwood and Stonetalon ends, the Truesong/Saria/Berdun hub chains (Spitelash, tablets, Mosshoof, honey, fishery, Blackmaw), Kimjael equipment and Lohuatu ghost/satyr pairs, the Ogtinc/Xylem Hunter/Rogue/Mage/Priest class chains with Ravenholdt and Felwood ends, the Hydraxis EPL/Feralas expeditions, the Tymor Ironforge return, the Lunar elder and the Demonslaying writ.",
+      "quests": [
+        {
+          "id": 3141,
+          "name": "Loramus"
+        },
+        {
+          "id": 3381,
+          "name": "A Meeting with the Master"
+        },
+        {
+          "id": 3461,
+          "name": "Return to Tymor"
+        },
+        {
+          "id": 3508,
+          "name": "Breaking the Ward"
+        },
+        {
+          "id": 3509,
+          "name": "The Name of the Beast"
+        },
+        {
+          "id": 3510,
+          "name": "The Name of the Beast"
+        },
+        {
+          "id": 3511,
+          "name": "The Name of the Beast"
+        },
+        {
+          "id": 3601,
+          "name": "Kim'jael Indeed!"
+        },
+        {
+          "id": 3602,
+          "name": "Azsharite"
+        },
+        {
+          "id": 3621,
+          "name": "The Formation of Felbane"
+        },
+        {
+          "id": 5141,
+          "name": "Dragonscale Leatherworking"
+        },
+        {
+          "id": 5534,
+          "name": "Kim'jael's \"Missing\" Equipment"
+        },
+        {
+          "id": 5535,
+          "name": "Spiritual Unrest"
+        },
+        {
+          "id": 5536,
+          "name": "A Land Filled with Hatred"
+        },
+        {
+          "id": 6804,
+          "name": "Poisoned Water"
+        },
+        {
+          "id": 6805,
+          "name": "Stormers and Rumblers"
+        },
+        {
+          "id": 8153,
+          "name": "Courser Antlers"
+        },
+        {
+          "id": 8231,
+          "name": "Wavethrashing"
+        },
+        {
+          "id": 8232,
+          "name": "The Green Drake"
+        },
+        {
+          "id": 8235,
+          "name": "Encoded Fragments"
+        },
+        {
+          "id": 8236,
+          "name": "The Azure Key"
+        },
+        {
+          "id": 8251,
+          "name": "Magic Dust"
+        },
+        {
+          "id": 8252,
+          "name": "The Siren's Coral"
+        },
+        {
+          "id": 8253,
+          "name": "Destroy Morphaz"
+        },
+        {
+          "id": 8255,
+          "name": "Of Coursers We Know"
+        },
+        {
+          "id": 8256,
+          "name": "The Ichor of Undeath"
+        },
+        {
+          "id": 8257,
+          "name": "Blood of Morphaz"
+        },
+        {
+          "id": 86746,
+          "name": "The Legashi Threat"
+        },
+        {
+          "id": 86747,
+          "name": "Legashi Horns"
+        },
+        {
+          "id": 8720,
+          "name": "Skygleam the Elder"
+        },
+        {
+          "id": 88807,
+          "name": "Slay the Spitelash"
+        },
+        {
+          "id": 88809,
+          "name": "Preserving Eldarath"
+        },
+        {
+          "id": 88812,
+          "name": "Reclaiming Ravencrest"
+        },
+        {
+          "id": 88813,
+          "name": "The Head of the Serpent"
+        },
+        {
+          "id": 88821,
+          "name": "Making Contact"
+        },
+        {
+          "id": 88857,
+          "name": "Saving a Sentinel"
+        },
+        {
+          "id": 88884,
+          "name": "Highborne Tablets"
+        },
+        {
+          "id": 88917,
+          "name": "Slithering Looters"
+        },
+        {
+          "id": 89001,
+          "name": "Home on the Range"
+        },
+        {
+          "id": 89013,
+          "name": "Gettin' Buzzed"
+        },
+        {
+          "id": 89015,
+          "name": "Deadliest Catch"
+        },
+        {
+          "id": 89037,
+          "name": "Murloc Thieves"
+        },
+        {
+          "id": 89038,
+          "name": "A Monumental Task"
+        },
+        {
+          "id": 89053,
+          "name": "Your Final Reward"
+        },
+        {
+          "id": 89228,
+          "name": "Winter Frontier Fishery"
+        },
+        {
+          "id": 89470,
+          "name": "Ill Tidings"
+        },
+        {
+          "id": 90813,
+          "name": "Pay Dirt!"
+        },
+        {
+          "id": 91877,
+          "name": "Demon Hunter's Hunter"
+        },
+        {
+          "id": 92069,
+          "name": "Claws That Rend, Tusks that Gore"
+        },
+        {
+          "id": 92345,
+          "name": "Beneath Nordrassil"
+        },
+        {
+          "id": 94316,
+          "name": "Craftsman's Writ: Potion of Demonslaying"
+        },
+        {
+          "id": 97327,
+          "name": "Blackmaw Pouches"
+        }
+      ]
     }
   ]
 }
