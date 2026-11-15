@@ -7434,6 +7434,91 @@
           "name": "Craftsman's Writ: Phoenix Pants"
         }
       ]
+    },
+    {
+      "id": "moonglade-druid",
+      "name": "Moonglade (Druid)",
+      "order": 23,
+      "levelBand": "10-52",
+      "summary": "Set 4 druid class guide (Alliance route): the bear, aquatic, cure and cat chains in level order plus the level-50 Torwa chain; expedition legs to Stormwind, Darnassus, Darkshore, Alterac and Un’Goro.",
+      "quests": [
+        {
+          "id": 29,
+          "name": "Trial of the Lake"
+        },
+        {
+          "id": 272,
+          "name": "Trial of the Sea Lion"
+        },
+        {
+          "id": 5061,
+          "name": "Aquatic Form"
+        },
+        {
+          "id": 5924,
+          "name": "Heeding the Call"
+        },
+        {
+          "id": 5929,
+          "name": "Great Bear Spirit"
+        },
+        {
+          "id": 5931,
+          "name": "Back to Darnassus"
+        },
+        {
+          "id": 6122,
+          "name": "The Principal Source"
+        },
+        {
+          "id": 6125,
+          "name": "Power over Poison"
+        },
+        {
+          "id": 94912,
+          "name": "Child of Nature"
+        },
+        {
+          "id": 98394,
+          "name": "The Great Cat Spirit"
+        },
+        {
+          "id": 98396,
+          "name": "The Great Cat Spirit"
+        },
+        {
+          "id": 98731,
+          "name": "Blessings of the Great Cat Spirit"
+        },
+        {
+          "id": 98341,
+          "name": "The Great Windborne Cat Spirit"
+        },
+        {
+          "id": 98404,
+          "name": "The Great Windborne Cat Spirit"
+        },
+        {
+          "id": 98738,
+          "name": "Blessings of the Great Windborne Cat Spirit"
+        },
+        {
+          "id": 98397,
+          "name": "To Darnassus"
+        },
+        {
+          "id": 9052,
+          "name": "Bloodpetal Poison"
+        },
+        {
+          "id": 9051,
+          "name": "Toxic Test"
+        },
+        {
+          "id": 9053,
+          "name": "A Better Ingredient"
+        }
+      ]
     }
   ]
 }
