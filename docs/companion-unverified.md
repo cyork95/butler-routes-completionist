@@ -476,3 +476,21 @@ as above: game-data citation or a named source.
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so none of the 4 vendor recipes is marked limited. The vendor steps note that stock class is unconfirmed.
 - No respawn data for any of the 7 shipped rares, the 18 Solid Chest points, or the 5 drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
 - Schematic 7560 additionally lists dropper 7800 Mekgineer Thermaplugg, which has no spawn point in any zone in the local build; the guide ships it buy-only and says the drop is unplaceable from data.
+
+## Searing Gorge tame lines (pack 0.54.0)
+
+- None of the 9 shipped rares is drop-evidenced as a tameable beast family (shared tables carry only generic gear plus the ordinary greens), npc records carry no tameability flag, and the Searing Gorge core guide (39-contract) carries zero only-Hunter lines and no references to any of the 9 flagged rares. No only-Hunter task ships; all nine steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+
+## Searing Gorge quest-reward recipes (pack 0.54.0)
+
+- Quest records in the local build carry no reward data, so no quest-reward recipe in Searing Gorge can be confirmed from the toolchain. The 9 shipped recipes are all mob drops. If a Searing Gorge quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
+
+## Searing Gorge stock class and respawn timers (pack 0.54.0)
+
+- No recipe is sold by any in-zone vendor, so there is no stock class to confirm. The recipes guide is drops-only; this is stated in the guide, not a gap.
+- No respawn data for any of the 9 shipped rares, the 15 Solid Chest points, the 17 footlocker points, or the 9 drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
+
+## Searing Gorge core-guide correction (pack 0.54.0, for Butler/fix round)
+
+- searing-gorge.guide step 1 says the Secret Plans: Fiery Flux (7722) have no placed source and carries a placeless complete. Object 179826 is literally named Secret Plans: Fiery Flux and sits at (40.45,35.74) in the Slag Pit, next to Maltorius (40.77,35.89) - exactly where the objective text sends the player. The complete should point at the object. Untouched this round per the no-modify rule; fix in the next fix round.
+- Object 179828 Dark Iron Pillow (6 pts at 44-46,27-32) may or may not be the source of item 18950 for 7704 - the names do not match, so it stays unconfirmed and is shipped nowhere. Verify in game before using.
