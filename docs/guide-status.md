@@ -306,7 +306,7 @@ _Skyborne country._
 - [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R2+R5 writ residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 7 rares (no loot in data, incl. dual-zone Jimmy) + 52 container placements, 26 recipes (22 vendor + 4 drops), 0 lint errors/warnings
 
 ### Moonglade — the druid thing (special handling)
 
