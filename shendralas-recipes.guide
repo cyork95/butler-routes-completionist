@@ -1,0 +1,33 @@
+# Shen'dralas - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes whose SOURCE is physically in Shen'dralas, verified against
+# the local Forever game data (questie-forever item drop tables). One ships:
+# a Blacksmithing plan with a narrow two-dropper table, one of them in-zone.
+# Nothing is sold by any in-zone vendor, and every other in-zone-dropping
+# recipe is a generic multi-zone world drop; quest records carry no reward
+# data (see docs/companion-unverified.md). Trainer-taught staples are
+# excluded: Polestar's own profession guides cover those. The step is gated
+# to its profession; other characters skip it cleanly. Every other profession
+# has no Shen'dralas source, so that is stated, not padded.
+guide butler-routes-completionist/shendralas-recipes
+title Shen'dralas - Recipes
+levels 30-49
+zone Shen'dralas
+faction Alliance
+category Professions
+folder Companions
+keywords shendralas, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Blacksmithing - Shining Mithril Breastplate plan (drop)
+
+  zone map 2652
+
+  when skill Blacksmithing 1
+
+  goto 24.55,24.24
+  collect 251392 "Plans: Shining Mithril Breastplate" optional
+  note Magram Necromancers prowl the west; only two mobs drop this plan anywhere in the data, one of them here (the other is an Outcast Necromancer in Desolace). The drop rate is not in the data. No quest takes the plan in the data.
+
+step Every other profession - no Shen'dralas source
+  note No Alchemy recipe, Cooking recipe, Enchanting formula, Engineering schematic, Fishing, First Aid, Leatherworking pattern, Tailoring pattern, or other profession recipe has a source physically in Shen'dralas in the data; trainer-taught staples live in Polestar's own profession guides.
