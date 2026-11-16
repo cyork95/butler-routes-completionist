@@ -1,0 +1,194 @@
+# Mount Hyjal - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes whose source is physically in Mount Hyjal (zone 2482),
+# verified against the local Forever game data: 78 vendor-sold (6 from Pexmit,
+# 72 from Aisarra Nightmeadow) and 2 dropped narrowly by in-zone mobs (see
+# docs/mount-hyjal-companions-inventory.md). Profession labels follow name
+# convention (Plans=Blacksmithing, Pattern=Leatherworking except the
+# cloth-named Tailoring sets, Schematic=Engineering, Manual/Alchemy
+# recipe=Alchemy); the data carries no profession flag. Each step is gated to
+# its profession; other characters skip it cleanly. Every buy line carries an
+# npc pin to its in-zone vendor. No stock-class flag exists in the data, so
+# nothing is marked limited. Cooking, Fishing, First Aid, Enchanting, Mining,
+# Herbalism and Skinning have no in-zone source and say so below instead of
+# padding. This guide never accepts or turns in.
+guide butler-routes-completionist/mount-hyjal-recipes
+title Mount Hyjal - Recipes & Patterns
+levels 54-60
+zone Mount Hyjal
+faction Alliance
+category Professions
+folder Companions
+keywords mount hyjal, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Blacksmithing - Pexmit's stock
+
+  zone map 2482
+
+  when skill Blacksmithing 1
+
+  vendor 266901 -- Pexmit (45.74, 82.52)
+  buy 251468 "Plans: Bold Dirk" npc 266901
+  note Pexmit also roams the northern front (48.22, 33.77) and (48.81, 34.11); he is a rare too - see the rares companion. Buy first, hunt after.
+
+step Leatherworking - Pexmit's stock
+
+  zone map 2482
+
+  when skill Leatherworking 1
+
+  vendor 266901 -- Pexmit (45.74, 82.52)
+  buy 252877 "Pattern: Tooled Leather Armor" npc 266901
+  buy 252933 "Pattern: Supple Scorpid Vest" npc 266901
+  note Pexmit also roams the northern front (48.22, 33.77) and (48.81, 34.11); he is a rare too - see the rares companion. Buy first, hunt after.
+
+step Tailoring - Pexmit's stock
+
+  zone map 2482
+
+  when skill Tailoring 1
+
+  vendor 266901 -- Pexmit (45.74, 82.52)
+  buy 254124 "Pattern: Runecloth Cuffs" npc 266901
+  note Pexmit also roams the northern front (48.22, 33.77) and (48.81, 34.11); he is a rare too - see the rares companion. Buy first, hunt after.
+
+step Alchemy - Pexmit's stock
+
+  zone map 2482
+
+  when skill Alchemy 1
+
+  vendor 266901 -- Pexmit (45.74, 82.52)
+  buy 255729 "Manual: Major Healing Potion" npc 266901
+  note Pexmit also roams the northern front (48.22, 33.77) and (48.81, 34.11); he is a rare too - see the rares companion. Buy first, hunt after.
+
+step Engineering - Pexmit's stock
+
+  zone map 2482
+
+  when skill Engineering 1
+
+  vendor 266901 -- Pexmit (45.74, 82.52)
+  buy 264233 "Schematic: Dimensional Transporter: Mt. Hyjal" npc 266901
+  note Pexmit also roams the northern front (48.22, 33.77) and (48.81, 34.11); he is a rare too - see the rares companion. Buy first, hunt after.
+
+step Leatherworking - Aisarra's stock
+
+  zone map 2482
+
+  when skill Leatherworking 1
+
+  vendor 264797 -- Aisarra Nightmeadow (71, 51.27)
+  buy 273952 "Pattern: Grovekeeper Trousers" npc 264797
+  buy 273953 "Pattern: Grovekeeper Grips" npc 264797
+  buy 273954 "Pattern: Grovekeeper Shoulderpads" npc 264797
+  buy 273955 "Pattern: Grovekeeper Stompers" npc 264797
+  buy 273956 "Pattern: Grovekeeper Kilt" npc 264797
+  buy 273957 "Pattern: Grovekeeper Mitts" npc 264797
+  buy 273958 "Pattern: Grovekeeper Mantle" npc 264797
+  buy 273959 "Pattern: Grovekeeper Sandals" npc 264797
+  buy 273960 "Pattern: Grovekeeper Legguards" npc 264797
+  buy 273961 "Pattern: Grovekeeper Handguards" npc 264797
+  buy 273962 "Pattern: Grovekeeper Pauldrons" npc 264797
+  buy 273963 "Pattern: Grovekeeper Boots" npc 264797
+  buy 273964 "Pattern: Grovekeeper Leggings" npc 264797
+  buy 273965 "Pattern: Grovekeeper Gauntlets" npc 264797
+  buy 273966 "Pattern: Grovekeeper Spaulders" npc 264797
+  buy 273967 "Pattern: Grovekeeper Treads" npc 264797
+  buy 273968 "Pattern: Wildstalker's Legguards" npc 264797
+  buy 273969 "Pattern: Wildstalker's Gauntlets" npc 264797
+  buy 273970 "Pattern: Wildstalker's Spaulders" npc 264797
+  buy 273971 "Pattern: Wildstalker's Greaves" npc 264797
+  buy 274000 "Pattern: Spiritcaller Leggings" npc 264797
+  buy 274001 "Pattern: Spiritcaller Grips" npc 264797
+  buy 274002 "Pattern: Spiritcaller Spaulders" npc 264797
+  buy 274003 "Pattern: Spiritcaller Treads" npc 264797
+  buy 274004 "Pattern: Spiritcaller Pants" npc 264797
+  buy 274005 "Pattern: Spiritcaller Gauntlets" npc 264797
+  buy 274006 "Pattern: Spiritcaller Epaulets" npc 264797
+  buy 274007 "Pattern: Spiritcaller Greaves" npc 264797
+  buy 274008 "Pattern: Demonheart Leggings" npc 264797
+  buy 274009 "Pattern: Demonheart Gloves" npc 264797
+  buy 274010 "Pattern: Demonheart Spaulders" npc 264797
+  buy 274011 "Pattern: Demonheart Boots" npc 264797
+  buy 276542 "Pattern: Spiritcaller Kilt" npc 264797
+  buy 276543 "Pattern: Spiritcaller Gloves" npc 264797
+  buy 276544 "Pattern: Spiritcaller Mantle" npc 264797
+  buy 276545 "Pattern: Spiritcaller Boots" npc 264797
+
+step Tailoring - Aisarra's stock
+
+  zone map 2482
+
+  when skill Tailoring 1
+
+  vendor 264797 -- Aisarra Nightmeadow (71, 51.27)
+  buy 273972 "Pattern: Manaflare Pants" npc 264797
+  buy 273973 "Pattern: Manaflare Gloves" npc 264797
+  buy 273974 "Pattern: Manaflare Mantle" npc 264797
+  buy 273975 "Pattern: Manaflare Boots" npc 264797
+  buy 273988 "Pattern: Pants of Conviction" npc 264797
+  buy 273989 "Pattern: Gloves of Conviction" npc 264797
+  buy 273990 "Pattern: Mantle of Conviction" npc 264797
+  buy 273991 "Pattern: Treads of Conviction" npc 264797
+  buy 273992 "Pattern: Leggings of Conviction" npc 264797
+  buy 273993 "Pattern: Handguards of Conviction" npc 264797
+  buy 273994 "Pattern: Pauldrons of Conviction" npc 264797
+  buy 273995 "Pattern: Boots of Conviction" npc 264797
+  buy 273996 "Pattern: Grimstitch Pants" npc 264797
+  buy 273997 "Pattern: Grimstitch Gloves" npc 264797
+  buy 273998 "Pattern: Grimstitch Spaulders" npc 264797
+  buy 273999 "Pattern: Grimstitch Boots" npc 264797
+
+step Blacksmithing - Aisarra's stock
+
+  zone map 2482
+
+  when skill Blacksmithing 1
+
+  vendor 264797 -- Aisarra Nightmeadow (71, 51.27)
+  buy 273976 "Plans: Justice Leggings" npc 264797
+  buy 273977 "Plans: Justice Gauntlets" npc 264797
+  buy 273978 "Plans: Justice Spaulders" npc 264797
+  buy 273979 "Plans: Justice Greaves" npc 264797
+  buy 273980 "Plans: Justice Legplates" npc 264797
+  buy 273981 "Plans: Justice Gloves" npc 264797
+  buy 273982 "Plans: Justice Epaulets" npc 264797
+  buy 273983 "Plans: Justice Treads" npc 264797
+  buy 273984 "Plans: Justice Legguards" npc 264797
+  buy 273985 "Plans: Justice Handguards" npc 264797
+  buy 273986 "Plans: Justice Pauldrons" npc 264797
+  buy 273987 "Plans: Justice Sabatons" npc 264797
+  buy 274012 "Plans: Legplates of Glory" npc 264797
+  buy 274013 "Plans: Gauntlets of Glory" npc 264797
+  buy 274014 "Plans: Shoulders of Glory" npc 264797
+  buy 274015 "Plans: Greaves of Glory" npc 264797
+  buy 274016 "Plans: Legguards of Glory" npc 264797
+  buy 274017 "Plans: Handguards of Glory" npc 264797
+  buy 274018 "Plans: Pauldrons of Glory" npc 264797
+  buy 274019 "Plans: Sabatons of Glory" npc 264797
+
+step Blacksmithing - wormwing drop
+
+  zone map 2482
+
+  when skill Blacksmithing 1
+
+  collect 251446 "Plans: Blessed Plate Chest" optional
+  note Drops narrowly from the wormwing harpies, windwitches, ambushers and Zarrat Wormwing on the (44-56, 53-63) grounds - four droppers total in the data. Respawn timer unconfirmed.
+
+step Alchemy - demon grounds drop
+
+  zone map 2482
+
+  when skill Alchemy 1
+
+  collect 284871 "Recipe: Transmute Legionite" optional
+  note Drops narrowly from Felguard Sentinels around (43.89, 32.63) and Mazzogore the Weak around (50.68, 37.77) - two droppers total in the data, both core-guide kills, so check bags after the core route. Respawn timer unconfirmed.
+
+step No in-zone source - Cooking, Fishing, First Aid, Enchanting, Mining, Herbalism, Skinning
+
+  zone map 2482
+
+  note Cooking, Fishing, First Aid, Enchanting, Mining, Herbalism and Skinning have no recipe source physically in Mount Hyjal in the data - trainer staples and out-of-zone vendors are out of scope for this companion.
