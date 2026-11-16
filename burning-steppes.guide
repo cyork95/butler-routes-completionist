@@ -1,0 +1,345 @@
+# Burning Steppes - Completionist (pack butler-routes-completionist, v1).
+# Every Burning Steppes accept in the local census (59 quests,
+# docs/burning-steppes-census.md, key 1428, band 48-60) appears exactly once
+# as an accept; 59 turnins close every record that ends anywhere in the data,
+# including note-only turn-ins where the end has no placed spawn (the Spirit,
+# Drakkisath's Brand). Set aside with reasons in the census: the Horde trio
+# 4121/3822/8998, the 4023 twin, 5 repeatable Librams, 2 Lunar elders, 11
+# unpicked Bodley variants. No race header: nothing contracted is
+# race-locked; the 9-quest Dreadsteed chain carries only Warlock gates.
+# Interior and spawnless objectives ride bare completes at the data-placed
+# Blackrock anchors (the Meeting Stones, the Orb of Command) or bare with an
+# honest note - nothing invented. Ungateable outside pres (4223 Redridge for
+# 4224, 4282 for 4322, 5001 for 5002, 4907 Winterspring for 4734, 4324 Tanaris
+# for 4136, 7625 Darkshore for 7629, 9032 Horde-side for 8961) ride as
+# structural warnings with the chain named; their completes and turn-ins
+# stand alone in `when onquest` mini-steps. Expedition legs switch frames
+# deliberately and switch back.
+guide butler-routes-completionist/burning-steppes
+title Burning Steppes
+levels 48-60
+zone Burning Steppes
+faction Alliance
+category Leveling
+folder Eastern Kingdoms
+coords live
+version 1
+
+step Keeshan's Post - Missing in Action
+
+  zone map 1428
+
+  accept 219 -- Missing In Action - Corporal Keeshan; the escort runs to Redridge, below the band but contracted as the in-zone accept
+  zone map 1433
+  complete 219 @28.27,48.7 -- escort Corporal Keeshan back to Redridge
+  turnin 219 -- Missing In Action - Keeshan to Marshal Marris
+  zone map 1428
+  tip 219 accepts in-zone at minLevel 19 and walks far below the band; the completionist rule keeps it, flagged outlier in the census.
+
+step The north camp - Tinkee, Maxwort and Ragged John
+
+  zone map 1428
+
+  accept 4726 -- Broodling Essence - Tinkee Steamboil; essences off the broodlings across the zone
+  complete 4726 @57.59,31.63 -- Broodling Essence, east of the camp
+  complete 4726 @64.36,60.61 -- Broodling Essence, south on the Keeshan road
+  turnin 4726 -- Broodling Essence - the essences to Tinkee Steamboil
+  accept 4808 -- Felnok Steelspring - Tinkee Steamboil; the word goes to Felnok in Winterspring (expedition below)
+  note Leonid Barthalomew (5522) needs 4735 done first - it rides the egg-shelf mini-step below.
+  accept 4123 -- The Heart of the Mountain - Maxwort Uberglint; the Heart object has no placed spawn in the data - honest note
+  complete 4123 -- The Heart of the Mountain (no placed objective in the data - honest note above)
+  turnin 4123 -- The Heart of the Mountain - the word back to Maxwort Uberglint
+  accept 4296 -- Tablet of the Seven - Maxwort Uberglint; the tablet waits west (below)
+  accept 4866 -- Mother's Milk - Ragged John; the rite needs Ragged John himself struck down
+  complete 4866 @65.01,23.76 -- Ragged John, at his camp
+  turnin 4866 -- Mother's Milk - the word back to Ragged John
+  accept 4136 -- Ribbly Screwspigot - Yuka Screwspigot; its pre (4324 Yuka Screwspigot, a Tanaris quest) sits outside this route - structural, chain named
+  accept 4729 -- Kibler's Exotic Pets - Kibler; the Caged Worg Pup has no placed source in the data - have it in your bags
+  accept 4862 -- En-Ay-Es-Tee-Why - Kibler; the Spire Spider Egg objects have no placed spawn in the data - honest note
+  complete 4862 -- En-Ay-Es-Tee-Why (no placed egg objective in the data - honest note above)
+  turnin 4729 -- Kibler's Exotic Pets - the pup to Kibler
+  turnin 4862 -- En-Ay-Es-Tee-Why - the eggs to Kibler
+  tip 4729 and 4862 complete on sourcing the pup and eggs; 4136's Ribbly kill rides the Tanaris-pre mini-step below.
+
+step Firegut fields - Oralius and the brutes
+
+  zone map 1428
+
+  accept 3823 -- Extinguish the Firegut - Oralius; mages, ogres and brutes in the fields southwest
+  complete 3823 @74.6,43.3 -- Firegut Ogre Mages, in the western fields
+  complete 3823 @74.44,38.44 -- Firegut Ogres, in the western fields
+  complete 3823 @78.17,40.37 -- Firegut Brutes, in the western fields
+  turnin 3823 -- Extinguish the Firegut - the count to Oralius
+  accept 3824 -- Gor'tesh the Brute Lord - Oralius; Gor'tesh waits west
+  complete 3824 @39.33,55.3 -- Gor'tesh, west on the mountain road
+  turnin 3824 -- Gor'tesh the Brute Lord - the head to Oralius
+  accept 3825 -- Ogre Head On A Stick = Party - Oralius; plant the head in the east fields
+  complete 3825 @81.0,46.79 -- plant Gor'tesh's head on the Soft Dirt Mound
+  turnin 3825 -- Ogre Head On A Stick = Party - the word back to Oralius
+  accept 4283 -- FIFTY! YEP! - Oralius; fifty Blackrock Medallions off the Blackrock crews and worgs
+  complete 4283 @55.4,54.37 -- Blackrock Medallions off the crews on the mountain road
+  complete 4283 @39.82,32.8 -- Blackrock Medallions off the crews in the west
+  turnin 4283 -- FIFTY! YEP! - the medallions to Oralius
+  accept 4286 -- The Good Stuff - Oralius; twenty Dark Iron Fanny Packs off the Dark Iron crews west
+  complete 4286 @24.6,20.7 -- Dark Iron Fanny Packs off the Anvilrage crews in the west
+  complete 4286 @35.8,19.8 -- Dark Iron Fanny Packs off the travelers west
+  turnin 4286 -- The Good Stuff - the packs to Oralius
+
+step Morgan's Vigil - Maxwell, Helendis and Jalinda
+
+  zone map 1428
+
+  accept 4224 -- The True Masters - Marshal Maxwell; its pre (4223, Redridge) sits outside this route - structural, chain named
+  note Marshal Windsor (4241) needs 4224 done first - it rides the out-of-zone-pre mini-step below.
+  accept 4182 -- Dragonkin Menace - Helendis Riverhorn; broodlings, dragonspawn, a drake and wyrmkin east
+  complete 4182 @81.01,28.2 -- Black Broodlings, in the eastern rookeries
+  complete 4182 @82.35,26.62 -- Black Dragonspawn, in the eastern rookeries
+  complete 4182 @84.9,28.47 -- Black Drake, in the eastern rookeries
+  complete 4182 @83.99,26.9 -- Black Wyrmkin, in the eastern rookeries
+  turnin 4182 -- Dragonkin Menace - the count to Helendis Riverhorn
+  accept 4183 -- The True Masters - Helendis Riverhorn; the word goes to Magistrate Solomon in Redridge (expedition below)
+  accept 4701 -- Put Her Down - Helendis Riverhorn; Halycon has no outdoor spawn in the data - she lives inside Lower Blackrock Spire, work the Meeting Stone anchor below
+  complete 4701 -- Put Her Down (Halycon, inside Lower Blackrock Spire - no outdoor spawn, honest note above)
+  turnin 4701 -- Put Her Down - the word back to Helendis Riverhorn
+  accept 4764 -- Doomrigger's Clasp - Mayara Brightwing; its pre (4766 Stormwind Rendezvous, routed in the Stormwind core) comes first - reference, not a warning
+  complete 4764 -- Doomrigger's Clasp (the Coffer has no placed spawn in the data - honest note)
+  turnin 4764 -- Doomrigger's Clasp - the clasp to Mayara Brightwing
+  accept 4765 -- Delivery to Ridgewell - Mayara Brightwing; the word goes to Count Ridgewell in Stormwind (expedition below)
+  accept 4262 -- Overmaster Pyron - Jalinda Sprig; Pyron patrols inside Blackrock Mountain (map 1415) - expedition below
+  zone map 1415
+  complete 4262 @46.82,67.71 -- Overmaster Pyron, inside Blackrock Mountain
+  zone map 1428
+  turnin 4262 -- Overmaster Pyron - the word back to Jalinda Sprig
+  accept 4263 -- Incendius! - Jalinda Sprig; Lord Incendius has no outdoor spawn in the data - he lives inside Blackrock Depths, work the mountain anchor below
+  complete 4263 -- Incendius! (Lord Incendius, inside Blackrock Depths - no outdoor spawn, honest note above)
+  turnin 4263 -- Incendius! - the word back to Jalinda Sprig
+
+step The Pillar of Ash - Cyrus Therepentous
+
+  zone map 1428
+
+  accept 4022 -- A Taste of Flame - Cyrus Therepentous; the rite needs the molt and Cyrus himself struck down (the fuller main twin; 4023 is the set-aside variant). Its chain-data pre (3481 Trinkets..., Searing Gorge, contracted there) sits outside this route - structural, chain named
+  complete 4022 @94.4,31.8 -- Black Dragonflight Molt off the Frenzied Black Drake
+  complete 4022 @95.09,31.56 -- Cyrus Therepentous himself, at the Pillar
+  turnin 4022 -- A Taste of Flame - the word back to Cyrus Therepentous
+  accept 4024 -- A Taste of Flame - Cyrus Therepentous; the Encased Fiery Essence comes off Bael'Gar inside Blackrock Depths (no outdoor spawn in the data) - work the mountain anchor below
+  complete 4024 -- A Taste of Flame (Bael'Gar, inside Blackrock Depths - honest note above)
+  turnin 4024 -- A Taste of Flame - the essence to Cyrus Therepentous
+
+step The west road - Franclorn, Lothos and the tablet
+
+  zone map 1428
+
+  complete 4296 @54.12,40.76 -- the Tablet of the Seven, west of the mountain road
+  turnin 4296 -- Tablet of the Seven - the transcript back to Maxwort Uberglint
+  accept 3801 -- Dark Iron Legacy - Franclorn Forgewright; it completes on the spot
+  turnin 3801 -- Dark Iron Legacy - the word back to Franclorn Forgewright
+  accept 3802 -- Dark Iron Legacy - Franclorn Forgewright; the Ironfel comes off Fineous Darkvire inside Blackrock Depths (no outdoor spawn in the data) - honest note
+  complete 3802 -- Dark Iron Legacy (Fineous Darkvire, inside Blackrock Depths - honest note above)
+  turnin 3802 -- Dark Iron Legacy - the Ironfel to Franclorn Forgewright
+  accept 7487 -- Attunement to the Core - Lothos Riftwaker; the Core Fragment object has no placed spawn in the data - honest note (Searing Gorge above-band deferral, homed here by the band)
+  complete 7487 -- Attunement to the Core (no placed fragment in the data - honest note above)
+  turnin 7487 -- Attunement to the Core - the word back to Lothos Riftwaker
+  accept 7848 -- Attunement to the Core - Lothos Riftwaker; same fragment, Alliance-side twin - honest note as above
+  complete 7848 -- Attunement to the Core (no placed fragment in the data - honest note above)
+  turnin 7848 -- Attunement to the Core - the word back to Lothos Riftwaker
+  goto 34.9,27.9
+  collect 18987 -- Blackhand's Command off the Scarshield Quartermaster (100% drop, data-placed)
+  accept 7761 -- Blackhand's Command - the Blackhand's Command off the Scarshield Quartermaster; Drakkisath's Brand (the turn-in) has no placed spawn in the data - note-only turn-in, nothing invented
+  turnin 7761 -- Blackhand's Command - the command to Drakkisath's Brand (no placed spawn - note-only, honest note above)
+
+step Marshal Maxwell - the out-of-zone pre
+
+  when onquest 4223
+
+  zone map 1428
+
+  complete 4224 @65.01,23.76 -- Ragged John, at his camp
+  turnin 4224 -- The True Masters - the word to Marshal Maxwell
+  accept 4241 -- Marshal Windsor - Marshal Maxwell
+  goto 32.77,30.43
+  note Marshal Windsor has no outdoor spawn in the data; this Meeting Stone is the data-placed anchor - head inside Blackrock Spire for the handoff.
+  turnin 4241 -- Marshal Windsor - the word to Marshal Windsor inside Blackrock Spire (no outdoor spawn - note-only turn-in, nothing invented)
+
+step Blackrock Mountain - the interior handoffs
+
+  zone map 1428
+
+  goto 32.77,30.43
+  note Bijou and the Spire bosses below have no outdoor spawn points in the data; this Meeting Stone is the data-placed anchor - head inside for each leg. (Windsor's 4241 turn-in rides the mini-step below, after 4224.)
+  accept 4242 -- Abandoned Hope - Marshal Windsor, inside the Spire
+  accept 4322 -- Jail Break! - Marshal Windsor, inside the Spire; its pre (4282, an instance quest) sits outside this route - structural, chain named
+  accept 5002 -- Message to Maxwell - Bijou, inside Lower Blackrock Spire; its pre (5001) sits outside this route - structural, chain named
+
+step The cell block - Jail Break
+
+  when onquest 4282
+
+  zone map 1428
+
+  complete 4322 -- Jail Break! (scripted event inside Blackrock Spire - no placed event point, honest note)
+  turnin 4322 -- Jail Break! - the word to Marshal Maxwell
+
+step Bijou's word - the out-of-zone pre
+
+  when onquest 5001
+
+  zone map 1428
+
+  turnin 5002 -- Message to Maxwell - Bijou's word to Marshal Maxwell
+
+step The egg shelf - the Winterspring pre
+
+  when onquest 4810
+
+  zone map 1428
+
+  note The compiler's chain data wants 4810 (Return to Tinkee, Winterspring, uncontracted) turned in first; the quest record names 4907 (also Winterspring, uncontracted). Both sit outside this route - structural, chains named.
+  accept 4734 -- Egg Freezing - Tinkee Steamboil; the Rookery Egg has no placed spawn in the data - honest note
+  complete 4734 -- Egg Freezing (the Rookery Egg has no placed spawn in the data - honest note above)
+  turnin 4734 -- Egg Freezing - the word to Tinkee Steamboil
+  accept 4735 -- Egg Collection - Tinkee Steamboil; same spawnless egg - honest note as above
+  complete 4735 -- Egg Collection (the Rookery Egg has no placed spawn in the data - honest note above)
+  turnin 4735 -- Egg Collection - the word to Tinkee Steamboil
+  accept 5522 -- Leonid Barthalomew - Tinkee Steamboil; the word goes to Leonid in the Plaguelands - expedition now
+  zone map 1423
+  turnin 5522 -- Leonid Barthalomew - the word to Leonid Barthalomew the Revered
+  zone map 1428
+
+step Yuka's headhunt - the Tanaris pre
+
+  when onquest 4324
+
+  zone map 1428
+
+  complete 4136 -- Ribbly Screwspigot (Ribbly has no outdoor spawn in the data - honest note)
+  turnin 4136 -- Ribbly Screwspigot - the head to Yuka Screwspigot
+
+step Morgan's Vigil, returns - Maxwell's mission chain
+
+  zone map 1428
+
+  turnin 4242 -- Abandoned Hope - the word to Marshal Maxwell
+  accept 6402 -- Stormwind Rendezvous - Marshal Maxwell; the word goes to Reginald Windsor in Stormwind (expedition below)
+  accept 5081 -- Maxwell's Mission - Marshal Maxwell; War Master Voone, Highlord Omokk and Overlord Wyrmthalak have no outdoor spawns in the data - all three live inside Blackrock Spire, work the mountain anchor above
+  complete 5081 -- Maxwell's Mission (Voone, Omokk and Wyrmthalak, inside the Spire - honest note above)
+  accept 5089 -- General Drakkisath's Command - the Blood of the Black Dragon Champion off Overlord Wyrmthalak inside Upper Blackrock Spire (100% drop, no outdoor spawn) - have it in your bags
+  turnin 5081 -- Maxwell's Mission - the word to Marshal Maxwell
+  turnin 5089 -- General Drakkisath's Command - the blood to Marshal Maxwell
+  accept 5102 -- General Drakkisath's Demise - Marshal Maxwell; Drakkisath has no outdoor spawn in the data - inside Upper Blackrock Spire, work the mountain anchor above
+  complete 5102 -- General Drakkisath's Demise (General Drakkisath, inside the Spire - honest note above)
+  turnin 5102 -- General Drakkisath's Demise - the word to Marshal Maxwell
+
+step The warlock enclave - the Dreadsteed chain
+
+  zone map 1428
+
+  goto 12.69,31.64
+  accept 7563 only Warlock -- Rage of Blood - Mor'zul Bloodbringer; its pre (7562, a Stormwind-city quest routed in the Stormwind core) comes first - reference, not a warning; thirty Raging Beast's Bloods off the owlbeasts (Winterspring expedition below)
+  zone map 1452
+  complete 7563 only Warlock @51.32,33.83 -- Raging Beast's Blood off the Winterspring owlbeasts
+  complete 7563 only Warlock @58.3,59.39 -- Raging Beast's Blood off the Winterspring owlbeasts
+  turnin 4808 -- Felnok Steelspring - the word to Felnok Steelspring
+  zone map 1428
+  tip 4808 accepted at the north camp; its pre (4726) is done there, so the Winterspring blood leg closes it too.
+  goto 12.69,31.64
+  turnin 7563 only Warlock -- Rage of Blood - the bloods to Mor'zul Bloodbringer
+  accept 7564 only Warlock -- Wildeyes - Mor'zul Bloodbringer
+  goto 12.44,31.63
+  turnin 7564 only Warlock -- Wildeyes - the word to Gorzeeki Wildeyes
+  goto 12.69,31.64
+  accept 7626 only Warlock -- Bell of Dethmoora - Mor'zul Bloodbringer; the Elixirs of Shadow Power have no placed source in the data - have them in your bags
+  accept 7627 only Warlock -- Wheel of the Black March - Mor'zul Bloodbringer; the Large Brilliant Shards have no placed source in the data - have them in your bags; Dark Iron Ore waits on the Cyrus road
+  complete 7627 only Warlock @80.96,37.18 -- Dark Iron Ore, on the Cyrus road east
+  accept 7628 only Warlock -- Doomsday Candle - Mor'zul Bloodbringer; Black Dragonscales off the eastern dragonkin
+  complete 7628 only Warlock @82.35,26.62 -- Black Dragonscales off the eastern dragonkin
+  complete 7628 only Warlock @84.9,28.47 -- Black Dragonscales off the eastern dragonkin
+  turnin 7626 only Warlock -- Bell of Dethmoora - the word to Gorzeeki Wildeyes
+  turnin 7627 only Warlock -- Wheel of the Black March - the word to Gorzeeki Wildeyes
+  turnin 7628 only Warlock -- Doomsday Candle - the word to Gorzeeki Wildeyes
+  accept 7630 only Warlock -- Arcanite - Gorzeeki Wildeyes; the Arcanite Bars have no placed source in the data - have them in your bags
+  turnin 7630 only Warlock -- Arcanite - the bars to Gorzeeki Wildeyes
+  accept 7629 only Warlock -- Imp Delivery - Gorzeeki Wildeyes; its pre (7625, Darkshore) sits outside this route - structural, chain named; J'eevee has no outdoor spawn in the data - she works the Scholomance laboratory, honest note
+
+step J'eevee's delivery - the Darkshore pre
+
+  when onquest 7625
+
+  zone map 1428
+
+  complete 7629 only Warlock -- Imp Delivery (J'eevee, in the Scholomance laboratory - no outdoor spawn, honest note above)
+  turnin 7629 only Warlock -- Imp Delivery - the word to Gorzeeki Wildeyes
+
+step The dreadsteed - Xoroth
+
+  zone map 1428
+
+  goto 12.69,31.64
+  accept 7631 only Warlock -- Dreadsteed of Xoroth - Mor'zul Bloodbringer; the Xorothian Dreadsteed has no outdoor spawn in the data - honest note
+  complete 7631 only Warlock -- Dreadsteed of Xoroth (the dreadsteed has no placed spawn - honest note above)
+  turnin 7631 only Warlock -- Dreadsteed of Xoroth - the word to the Dreadsteed Spirit (no placed spawn - note-only turn-in, nothing invented)
+  goto 12.44,31.63
+  accept 7623 only Warlock -- Lord Banehollow - Gorzeeki Wildeyes; the chain ends outside the zone - expedition below
+  zone map 1439
+  turnin 7623 only Warlock -- Lord Banehollow - the word to Lord Banehollow
+  zone map 1428
+  tip Banehollow also shows on the Felwood map (35.93,44.42); Darkshore is the nearer leg.
+
+step Bodley - the endgame chain
+
+  zone map 1428
+
+  accept 8961 -- Three Kings of Flame - Bodley; its pres (8960, routed in the Ironforge core - reference; 9032, Horde-side - structural, chain named) come first
+  goto 32.77,30.43
+  note The Incendicite (Lord Incendius) and the Ember (Pyroguard Emberseer) have no outdoor spawns in the data - both live inside Blackrock Depths; this Meeting Stone is the data-placed anchor.
+  complete 8961 -- Three Kings of Flame (Incendius and Emberseer, inside the Depths - honest note above)
+  zone map 1451
+  complete 8961 @17.21,84.81 -- Cinder of Cynders off the Duke of Cynders, in Silithus
+  zone map 1428
+  note The Hallowed Brazier is sold by Argent quartermasters (Hasana and Lightspark in the Plaguelands, Miranda in the Western Plaguelands) - buy it when a finale leg passes through, or have it in your bags.
+  turnin 8961 -- Three Kings of Flame - the three fires and the brazier to Bodley
+  accept 8962 -- Components of Importance - Bodley; Druidical Remains off the Silithus hive crews (lowest-ID path of the four variant legs - census argues the pick)
+  zone map 1451
+  complete 8962 @48.54,76.24 -- Druidical Remains off the Hive'Regal crews
+  zone map 1428
+  turnin 8962 -- Components of Importance - the remains to Bodley
+  accept 8966 -- The Left Piece of Lord Valthalak's Amulet - Bodley; Mor Grayhoof has no outdoor spawn in the data - honest note
+  complete 8966 -- The Left Piece of Lord Valthalak's Amulet (Mor Grayhoof, no placed spawn - honest note above)
+  turnin 8966 -- The Left Piece of Lord Valthalak's Amulet - the piece to Bodley
+  accept 8970 -- I See Alcaz Island In Your Future... - Bodley; twenty Bloodkelp (Dustwallow expedition below)
+  zone map 1445
+  complete 8970 @75.1,14.98 -- Bloodkelp from the baskets and naga crews
+  complete 8970 @75.81,21.83 -- Bloodkelp from the baskets and naga crews
+  zone map 1428
+  turnin 8970 -- I See Alcaz Island In Your Future... - the kelp to Bodley
+  accept 8985 -- More Components of Importance - Bodley; the Starbreeze Village Relic off the Winterspring frostmauls (expedition below)
+  zone map 1452
+  complete 8985 @58.06,68.7 -- Starbreeze Village Relic off the Frostmaul giants
+  zone map 1428
+  turnin 8985 -- More Components of Importance - the relic to Bodley
+  accept 8990 -- The Right Piece of Lord Valthalak's Amulet - Bodley; Isalien has no outdoor spawn in the data - honest note
+  complete 8990 -- The Right Piece of Lord Valthalak's Amulet (Isalien, no placed spawn - honest note above)
+  turnin 8990 -- The Right Piece of Lord Valthalak's Amulet - the piece to Bodley
+  accept 8994 -- Final Preparations - Bodley; forty Blackrock Bracers off the Scarshield crews west, and a Flask of Supreme Power with no placed source in the data - have it in your bags
+  complete 8994 @32.6,31.8 -- Blackrock Bracers off the Scarshield crews
+  turnin 8994 -- Final Preparations - the bracers and flask to Bodley
+  accept 8995 -- Mea Culpa, Lord Valthalak - Bodley; Lord Valthalak has no outdoor spawn in the data - inside Upper Blackrock Spire, work the mountain anchor above; the reassembled amulet has no placed source - have it in your reconstructions
+  goto 32.77,30.43
+  complete 8995 -- Mea Culpa, Lord Valthalak (Lord Valthalak, inside the Spire - honest note above)
+  turnin 8995 -- Mea Culpa, Lord Valthalak - the word to the Spirit of Lord Valthalak (no placed spawn - note-only turn-in, nothing invented)
+  accept 8996 -- Return to Bodley - the Spirit of Lord Valthalak (no placed spawn - note-only accept, nothing invented); the Brazier of Beckoning has no placed source in the data - have it in your bags
+  turnin 8996 -- Return to Bodley - the word to Bodley
+  accept 8997 -- Back to the Beginning - Bodley; the word goes to Deliana in Ironforge (expedition below)
+  zone map 1455
+  turnin 8997 -- Back to the Beginning - the word to Deliana
+  zone map 1428
+
+step Expedition - Stormwind, the Plaguelands and Redridge
+
+  zone map 1453
+  turnin 4765 -- Delivery to Ridgewell - the clasp to Count Remington Ridgewell
+  turnin 6402 -- Stormwind Rendezvous - Maxwell's word to Reginald Windsor
+  zone map 1433
+  turnin 4183 -- The True Masters - the word to Magistrate Solomon
+  zone map 1428
+  tip 4183's pre (4182) is done at Morgan's Vigil; Solomon closes the chain in Redridge.
