@@ -448,7 +448,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [x] Lint/playtest clean (0 errors; 7 XP-noise + 1 structural pre-quest warning)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (10 rares, 1 generic-containers loop; 15 recipes: 8 vendor, 7 drop)
 
 ### Western Plaguelands — contested (Eastern Kingdoms)
 

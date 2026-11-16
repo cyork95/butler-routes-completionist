@@ -580,3 +580,16 @@ as above: game-data citation or a named source.
 
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so neither vendor recipe is marked limited.
 - No respawn data for any of the 5 shipped rares or the 5 drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
+
+## Hinterlands tame lines (pack 0.72.0)
+
+- None of the 10 shipped rares carries a tame line. NPC records have no family flag, so beast status is unassessable from data. Old Cliff Jumper (wolf: Red Wolf Meat / Tender Wolf Meat) and Ironback (turtle: Turtle Meat) have beast-drop evidence, but the core guide never sends the player at wolves or turtles (core kills are sludges, Witherbark trolls, Soothsayers, rocs, bears, apes, Skylord), so there is no corroboration. Razortalon has bird-drop evidence (Giant Egg, feathers) and the core has an optional roc kill (2659 Razorbeak Skylord), but the Razortalon family link is unverifiable from the data. Revisit if a family flag or tame evidence appears.
+
+## Hinterlands objects without loot evidence (pack 0.72.0)
+
+- Present on map 1425 with fixed points but no contents or quest linkage in the data, so no step can be built: 181645 Gryphon Egg (22 pts - NOT the source of 86620's eggs; the data sources those to missing object 669115), 181643 Featherbeard's Remains, 181649 Featherbeard's Journal, 442397/442398 Treasure of the Bat (same-spot pair), 441946 Shrine of the Moon, 445039 Extraplanar Eye, 441140 Humming Box (4 pts), 441141 Dreampearl (2 pts), 142716 Shadra'Alor Altar, 142698/142700 Witherbark Village + Spell Focus, 142191 Horde Supply Crate (food contents but no quest linkage; name alone does not make it shippable), 179910 Lard's Picnic Basket (no contents), 441252 Book (no contents), 2068 Pupellyverbos Port (42 pts; gives item 3900, referenced by quests in 6 other zones - the 452 Pyrewood Ambush "link" is NPC 2068 Lord Mayor Morrison, a numeric collision across entity types, not this object; purpose unknown).
+
+## Hinterlands stock class and respawn timers (pack 0.72.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so none of the 8 vendor recipes is marked limited.
+- No respawn data for any of the 10 shipped rares or the 6 drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
