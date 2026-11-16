@@ -424,9 +424,9 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 
 _Horde heartland — a Horde-faction route, written here in leveling order, ahead of the Horde starting block._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (157 IN, 141 OUT)
+- [x] Core guide (157 accepts, 157 turn-ins)
+- [x] Lint/playtest clean (0 errors; R1/R2/R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
