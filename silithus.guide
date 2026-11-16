@@ -1,0 +1,336 @@
+# Silithus - Completionist (pack butler-routes-completionist, v1).
+# Every Silithus accept in the local census (52 quests, band 54-60,
+# docs/silithus-census.md) appears exactly once as an accept; 52 turnins
+# close every record that has one in the data (all 52 do). The 35 event-gated
+# records (AQ gate cluster ev85/86, hive phases ev62/63/64, Lunar Festival
+# ev7), the 18 repeatables and the 9 Horde set-asides are out with reasons in
+# the census. No race header and no race gates: nothing contracted is
+# race-locked (9415/9419 are Alliance-only by faction and ride inline). Class
+# gates: the 7 contracted Armaments of War variants ride only-gated per line
+# (Warrior, Paladin, Hunter, Rogue, Priest, Mage+Warlock, Druid; the Shaman
+# twin is Horde and set aside). Profession lines ride optional + when-skill
+# Cooking (8307/8313/8317). Soft pres ride dedicated when-onquest minis: 8275
+# (Ironforge accept), 1124 (Moonglade accept), 8279 (event-gated Twilight
+# Lexicon), 8305 (Tanaris accept). The Horde twin 8276 is a structural note.
+# Objectives with no data placement ship as honest note-only namings (BWL head
+# 8288, MC mats + crafted bars 7786, satchel 8282, rubbings 8309) or gate
+# completes (ZG venom 9023); crafted turn-ins ride the R5 handling.
+guide butler-routes-completionist/silithus
+title Silithus
+levels 54-60
+zone Silithus
+faction Alliance
+category Leveling
+folder Kalimdor
+coords live
+version 1
+
+step Cenarion Hold arrival - the Bluewall report
+
+  zone map 1451
+
+  tip Cenarion Hold is the hub: flight point, inn and most givers below. This opening leg rides west to the Bluewall post and back.
+  accept 9415 -- Report to Marshal Bluewall - Rifleman Torrig (50.68, 34.71); a min-level-1 breadcrumb below the band, routed here as the zone entry
+  turnin 9415 -- Report to Marshal Bluewall - to Marshal Bluewall (33.29, 51.06)
+  accept 9419 -- Scouring the Desert - Marshal Bluewall; the dust doodad beside him
+  complete 9419 @32.95,50.81 -- the Silithus Dust turnin doodad
+  turnin 9419 -- Scouring the Desert - back to Marshal Bluewall
+
+step Cenarion Hold - Beetix venom and Noggle's hope
+
+  zone map 1451
+
+  accept 8277 -- Deadly Desert Venom - Beetix Ficklespragg (51.61, 38.63); scorpids north, skitterers nearer
+  complete 8277 @48.87,13.42 -- Stonelash Scorpid stingers off the scorpids
+  complete 8277 @50.46,16.76 -- Sand Skitterer fangs off the skitterers
+  turnin 8277 -- Deadly Desert Venom - back to Beetix Ficklespragg
+  accept 8278 -- Noggle's Last Hope - Beetix Ficklespragg; flayers and rock stalkers south, pincers nearer
+  complete 8278 @25.88,78.43 -- Stonelash Flayer stingers in the south
+  complete 8278 @28.53,43.23 -- Stonelash Pincer stingers off the pincers
+  complete 8278 @27.22,75.26 -- Rock Stalker fangs in the south
+  turnin 8278 -- Noggle's Last Hope - back to Beetix Ficklespragg
+  accept 8282 -- Noggle's Lost Satchel - Noggle Ficklespragg (51.63, 38.5); the satchel has no placed spawn in the data - check the hives and crannies, then turn in here
+  turnin 8282 -- Noggle's Lost Satchel - back to Noggle Ficklespragg
+
+step Cenarion Hold - Taking Back Silithus handoff (when onquest 8275)
+
+  zone map 1451
+
+  when onquest 8275
+
+  note Taking Back Silithus (8275) accepts from Cenarion Emissary Jademoon in Ironforge, outside this pack's contracts; 8276 is its Horde twin from Orgrimmar and stays out. This step carries the handoff and nothing else.
+  turnin 8275 -- Taking Back Silithus - to Windcaller Proudhorn (51.15, 38.29)
+
+step Cenarion Hold - Proudhorn security
+
+  zone map 1451
+
+  accept 8280 -- Securing the Supply Lines - Windcaller Proudhorn; its pres turned in on the step above - holders proceed, others detour to Ironforge first
+  complete 8280 @31.44,25.79 -- Dredge Strikers off the strikers
+  turnin 8280 -- Securing the Supply Lines - back to Windcaller Proudhorn
+  accept 8281 -- Stepping Up Security - Windcaller Proudhorn; crushers, wider grounds
+  complete 8281 @26.57,27.8 -- Dredge Crushers off the crushers
+  turnin 8281 -- Stepping Up Security - back to Windcaller Proudhorn
+
+step Cenarion Hold - tablets, texts and the Natalia dispatch
+
+  zone map 1451
+
+  accept 8284 -- The Twilight Mystery - Geologist Larksbane (49.67, 37.46); tablet fragments off the western stormers and rumblers
+  complete 8284 @20.4,17.4 -- Twilight Tablet Fragments off the dust stormers
+  complete 8284 @22.4,14.2 -- Twilight Tablet Fragments off the desert rumblers
+  turnin 8284 -- The Twilight Mystery - back to Geologist Larksbane
+  accept 8285 -- The Deserter - Geologist Larksbane; for Hermit Ortell far southeast - carried south on the deep-south leg below
+  accept 8318 -- Secret Communication - Bor Wildmane (48.57, 37.78); encrypted texts off the Twilight camps
+  complete 8318 @40.86,42.22 -- Encrypted Twilight Texts off the Twilight keepers and western camps
+  turnin 8318 -- Secret Communication - back to Bor Wildmane; its repeatable follow-up stays out per the census
+  accept 8304 -- Dearest Natalia - Commander Mar'alith (49.2, 34.18); the two glyph lords far south
+  accept 8283 -- Wanted - Deathclasp, Terror of the Sands - the Wanted Poster (51.35, 38.27); Deathclasp waits far south - carried on the deep-south leg below
+
+step Cenarion Hold - Dirk's poison and the council openers
+
+  zone map 1451
+
+  accept 9023 -- The Perfect Poison - Dirk Thunderwood (52.13, 39.14); the venom sacs drop inside Zul'Gurub, whose gates the data places at 53.9,17.6 in Stranglethorn Vale - run it with your group, then turn in here
+  turnin 9023 -- The Perfect Poison - back to Dirk Thunderwood
+  accept 8320 -- Twilight Geolords - Huum Wildmane (48.62, 37.87); ten geolords off the Twilight grounds
+  complete 8320 @17.58,85.37 -- Twilight Geolords off the southern geolords
+  turnin 8320 -- Twilight Geolords - back to Huum Wildmane
+  accept 8321 -- Vyral the Vile - Huum Wildmane; Vyral nests far northeast - carried on the east leg below
+  accept 8331 -- Aurel Goldleaf - Huum Wildmane; for Aurel Goldleaf beside the Hold
+  turnin 8331 -- Aurel Goldleaf - to Aurel Goldleaf (51.96, 38.16)
+  accept 8343 -- Goldleaf's Discovery - Huum Wildmane; for Aurel Goldleaf beside the Hold
+  turnin 8343 -- Goldleaf's Discovery - to Aurel Goldleaf
+
+step Cenarion Hold - Calandrath's kitchen (Cooking)
+
+  zone map 1451
+
+  when skill Cooking 1
+
+  accept 8307 optional -- Desert Recipe - Calandrath (51.89, 39.16); the Sandy Cookbook waits west
+  turnin 8307 optional -- Desert Recipe - to the Sandy Cookbook (37.94, 45.31)
+  accept 8313 optional -- Sharing the Knowledge - the Sandy Cookbook; Calandrath wants the lesson back
+  turnin 8313 optional -- Sharing the Knowledge - to Calandrath
+  accept 8317 optional -- Kitchen Assistance - Calandrath; the dumplings are player-crafted (R5) - cook ten, then turn in here
+  turnin 8317 optional -- Kitchen Assistance - back to Calandrath
+
+step Far south - glyph lords down
+
+  zone map 1451
+
+  tip First far-south trip: the glyph lords only. Their neighbors open up once Mar'alith has her report - the second sweep follows below.
+  complete 8304 @40.81,88.86 -- Frankal Stonebridge far south
+  complete 8304 @41.28,88.45 -- Rutgar Glyphshaper far south
+
+step Cenarion Hold - Natalia dispatch
+
+  zone map 1451
+
+  turnin 8304 -- Dearest Natalia - to Commander Mar'alith
+  accept 8306 -- Into The Maw of Madness - Commander Mar'alith; Mistress Natalia Mar'alith waits far south - carried on the deep-south sweep below
+
+step Deep south sweep - brains, rubbings, Natalia
+
+  zone map 1451
+
+  tip Second far-south trip: 8304 turned in above unlocks the glyph neighbors. Work the hives, Natalia, the Hermit and Deathclasp in one sweep.
+  accept 8309 -- Glyph Chasing - Rutgar Glyphshaper (41.28, 88.45); the three hive rubbings have no placed spawns in the data - check the Ashi, Zora and Regal hives, then turn in here
+  accept 8310 -- Breaking the Code - Frankal Stonebridge (40.81, 88.86); silithid brains off all three hives
+  complete 8310 @46.44,22.98 -- Hive'Ashi Silithid Brain off the Ashi hives
+  complete 8310 @24.1,61.68 -- Hive'Zora Silithid Brain off the Zora hives
+  complete 8310 @54.29,78.9 -- Hive'Regal Silithid Brain off the Regal hives
+  turnin 8309 -- Glyph Chasing - back to Rutgar Glyphshaper
+  turnin 8310 -- Breaking the Code - back to Frankal Stonebridge
+  note Brann Bronzebeard's Lost Letter (8308) starts from the letter off Hive'Ashi silithids - rare drop, Ashi grounds above. Take it if it drops; the route never wraps around it.
+  accept 8308 -- Brann Bronzebeard's Lost Letter - the Letter to Rutgar Glyphshaper
+  turnin 8308 -- Brann Bronzebeard's Lost Letter - to Rutgar Glyphshaper
+  accept 8314 -- Unraveling the Mystery - Rutgar Glyphshaper; Larksbane closes it back at the Hold
+  complete 8306 @44.4,86.11 -- Mistress Natalia Mar'alith far south
+  turnin 8285 -- The Deserter - to Hermit Ortell (67.19, 69.76)
+  complete 8283 @45.07,92.31 -- Deathclasp's Pincer off Deathclasp far south
+
+step Cenarion Hold - Larksbane research
+
+  zone map 1451
+
+  turnin 8314 -- Unraveling the Mystery - to Geologist Larksbane (49.67, 37.46)
+  accept 8315 -- The Calling - Geologist Larksbane; the unlocking mechanism off the Emissary
+  complete 8315 @48.77,58.14 -- Crystal Unlocking Mechanism off Emissary Roman'khan
+  turnin 8315 -- The Calling - back to Geologist Larksbane
+
+step Cenarion Hold - Armaments of War (class-gated)
+
+  zone map 1451
+
+  accept 8316 only Warrior -- Armaments of War - Geologist Larksbane (49.67, 37.46); the Calling turned in above
+  turnin 8316 only Warrior -- Armaments of War - back to Geologist Larksbane
+  accept 8376 only Paladin -- Armaments of War - Geologist Larksbane; the Calling turned in above
+  turnin 8376 only Paladin -- Armaments of War - back to Geologist Larksbane
+  accept 8377 only Hunter -- Armaments of War - Geologist Larksbane; the Calling turned in above
+  turnin 8377 only Hunter -- Armaments of War - back to Geologist Larksbane
+  accept 8378 only Rogue -- Armaments of War - Geologist Larksbane; the Calling turned in above
+  turnin 8378 only Rogue -- Armaments of War - back to Geologist Larksbane
+  accept 8379 only Priest -- Armaments of War - Geologist Larksbane; the Calling turned in above
+  turnin 8379 only Priest -- Armaments of War - back to Geologist Larksbane
+  accept 8381 only Mage,Warlock -- Armaments of War - Geologist Larksbane; the Calling turned in above
+  turnin 8381 only Mage,Warlock -- Armaments of War - back to Geologist Larksbane
+  accept 8382 only Druid -- Armaments of War - Geologist Larksbane; the Calling turned in above
+  turnin 8382 only Druid -- Armaments of War - back to Geologist Larksbane
+
+step Southern wilds - the Hermit's purpose (when onquest 8279)
+
+  zone map 1451
+
+  when onquest 8279
+
+  note A Terrible Purpose (8287) needs the Twilight Lexicon (8279) turned in first, and 8279 is event-gated out of this contract per the census - holders carrying 8279 proceed, others skip both. This step carries that handoff and nothing else.
+  accept 8287 -- A Terrible Purpose - Hermit Ortell (67.19, 69.76)
+  turnin 8287 -- A Terrible Purpose - to Commander Mar'alith (49.2, 34.18)
+
+step Far east - Vyral and the Pterrordax
+
+  zone map 1451
+
+  tip The far east corner: Vyral's nest, then the Pterrordax grounds. Layo Starstrike's chain rides the gated mini below.
+  complete 8321 @72.39,15.58 -- Vyral's Signet Ring off Vyral the Vile northeast
+  note Williden's Journal (3884) starts from A Mangled Journal off the Frenzied Pterrordax - rare eastern spawn (79, 43.2) and (80, 62.7). Take it if it drops, hand it to Williden Marshal in Un'Goro on the expedition leg below; the route never waits on it.
+  accept 3884 -- Williden's Journal - the Journal to Williden Marshal
+
+step Layo Starstrike chain (when onquest 1124)
+
+  zone map 1451
+
+  when onquest 1124
+
+  note Wasteland (1124) accepts from Rabine Saturna in Moonglade, outside this pack's contracts. This step carries that handoff and nothing else besides Layo's own chain.
+  turnin 1124 -- Wasteland - to Layo Starstrike (81.87, 18.93)
+  accept 1125 -- The Spirits of Southwind - Layo Starstrike; tortured spirits at Southwind Village
+  complete 1125 @60.36,50.13 -- Tortured Druids off the Southwind druids
+  complete 1125 @61.75,58.46 -- Tortured Sentinels off the Southwind sentinels
+  turnin 1125 -- The Spirits of Southwind - back to Layo Starstrike
+  accept 1126 -- Hive in the Tower - Layo Starstrike; the encrusted object off the Ashi ambusher
+  complete 1126 @60.2,52.4 -- Encrusted Silithid Object off Hive'Ashi Ambusher
+  turnin 1126 -- Hive in the Tower - back to Layo Starstrike
+  accept 6844 -- Umber, Archivist - Layo Starstrike; for Umber in Moonglade - carried on the expedition leg below
+
+step Northwest corner - Demitrian and the Vessel
+
+  zone map 1451
+
+  note The Vessel of Rebirth drops off Highlord Demitrian himself in the northwest corner - kill him if he is up, then hand it back; the route never waits on the drop.
+  accept 7785 -- Examine the Vessel - the Vessel to Highlord Demitrian (21.71, 8.57)
+  turnin 7785 -- Examine the Vessel - to Highlord Demitrian
+  accept 7786 -- Thunderaan the Windseeker - Highlord Demitrian; the Firelord's Essence and both Bindings drop inside Molten Core with no data placement, and the Elementium Bars are player-crafted (R5) - run the raid with your group, then turn in here
+  turnin 7786 -- Thunderaan the Windseeker - back to Highlord Demitrian
+
+step Cenarion Hold - What Tomorrow Brings
+
+  zone map 1451
+
+  accept 8286 -- What Tomorrow Brings - Baristolth of the Shifting Sands (49.45, 36.45); Anachronos and the Brood discovery wait in Tanaris - carried on the expedition leg below
+
+step Tanaris expedition - Caverns of Time
+
+  zone map 1451
+
+  note Leaving Silithus for the Caverns of Time in Tanaris: the 8286 completes below. Frames switch there and back.
+  complete 8286 @64.6,50.42 -- Discover the Brood of Nozdormu at the Caverns of Time
+
+  zone map 1446
+
+  complete 8286 @65.27,50.03 -- Anachronos himself at the Caverns of Time
+
+  zone map 1451
+
+step Cenarion Hold - Only One May Rise and the Righteous path
+
+  zone map 1451
+
+  turnin 8286 -- What Tomorrow Brings - to Baristolth of the Shifting Sands
+  accept 8288 -- Only One May Rise - Baristolth of the Shifting Sands; its pre turned in above; the Broodlord's head drops inside Blackwing Lair with no data placement - run it with your group, then turn in here
+  turnin 8288 -- Only One May Rise - back to Baristolth of the Shifting Sands
+  accept 8301 -- The Path of the Righteous - Baristolth of the Shifting Sands; two hundred carapace fragments off the Ashi hives
+  complete 8301 @46.44,22.98 -- Silithid Carapace Fragments off the Hive'Ashi grounds
+  turnin 8301 -- The Path of the Righteous - back to Baristolth of the Shifting Sands
+  accept 8303 -- Anachronos - Baristolth of the Shifting Sands; for Anachronos in Tanaris - carried on the expedition leg below
+
+step Tanaris expedition - Anachronos and the Crystalline Tear
+
+  zone map 1446
+
+  turnin 8303 -- Anachronos - to Anachronos (65.27, 50.03)
+  accept 8305 -- Long Forgotten Memories - Anachronos; it ends at the Crystalline Tear back in Silithus - non-contract accept, documented here so the Pawn chain below can unlock
+
+  zone map 1451
+
+  turnin 8305 -- Long Forgotten Memories - to the Crystalline Tear (28.68, 89.14)
+  accept 8519 -- A Pawn on the Eternal Board - the Crystalline Tear; its Tanaris pre turned in above - holders proceed
+  complete 8519 @29.04,92.09 -- The War of the Shifting Sands at the Tear
+
+step Tanaris return - the Pawn's turn-in
+
+  zone map 1446
+
+  tip Second Tanaris trip: the Pawn's turn-in only. Hold turn-ins close on the step below.
+  turnin 8519 -- A Pawn on the Eternal Board - to Anachronos (65.27, 50.03); holders of the Tear chain only
+
+  zone map 1451
+
+step Cenarion Hold - loose ends
+
+  zone map 1451
+
+  turnin 8306 -- Into The Maw of Madness - to Commander Mar'alith
+  turnin 8283 -- Wanted - Deathclasp, Terror of the Sands - to Vish Kozus (50.75, 33.65)
+
+step Umber turn-in (when onquest 6844)
+
+  zone map 1450
+
+  when onquest 6844
+
+  note Umber, Archivist (6844) accepts from Layo on the gated chain step above; holders turn in here, others skip. This step carries that handoff and nothing else.
+  turnin 6844 -- Umber, Archivist - to Umber (44.88, 35.6)
+
+  zone map 1451
+
+step Expedition leg - Un'Goro
+
+  zone map 1449
+
+  turnin 3884 -- Williden's Journal - to Williden Marshal (43.95, 7.14); holders of the Journal only
+
+  zone map 1451
+
+step Cenarion Hold - the Abyssal council
+
+  zone map 1451
+
+  tip The council grind: Templars, Dukes and Barons share three grounds - west, central and south. Work all three clusters, then close the chain at Aurel and Bor.
+  accept 8332 -- Dukes of the Council - Aurel Goldleaf (51.96, 38.16); crests off the Templars, and a Large Brilliant Shard - buy or disenchant one, then turn in here
+  complete 8332 @24.44,36 -- Abyssal Crests off the western Templars
+  complete 8332 @38.29,46.46 -- Abyssal Crests off the central Templars
+  complete 8332 @18.23,81.12 -- Abyssal Crests off the southern Templars
+  turnin 8332 -- Dukes of the Council - back to Aurel Goldleaf
+  accept 8349 -- Bor Wildmane - Aurel Goldleaf; for Bor Wildmane beside the Hold
+  turnin 8349 -- Bor Wildmane - to Bor Wildmane (48.57, 37.78)
+  accept 8348 -- Signet of the Dukes - Bor Wildmane; a signet off the Dukes
+  complete 8348 @24.7,32.65 -- Abyssal Signet off the western Dukes
+  complete 8348 @37.63,44.8 -- Abyssal Signet off the central Dukes
+  turnin 8348 -- Signet of the Dukes - back to Bor Wildmane
+  accept 8341 -- Lords of the Council - Aurel Goldleaf; signets off the Dukes, and five Large Brilliant Shards - buy or disenchant them, then turn in here
+  complete 8341 @24.7,32.65 -- Abyssal Signets off the western Dukes
+  complete 8341 @17.21,84.81 -- Abyssal Signets off the southern Dukes
+  turnin 8341 -- Lords of the Council - back to Aurel Goldleaf
+  accept 8351 -- Bor Wishes to Speak - Aurel Goldleaf; for Bor Wildmane beside the Hold
+  turnin 8351 -- Bor Wishes to Speak - to Bor Wildmane
+  accept 8352 -- Scepter of the Council - Bor Wildmane; a scepter off the council lords
+  complete 8352 @25.56,34.04 -- Abyssal Scepter off the western council lords
+  complete 8352 @39.6,45.08 -- Abyssal Scepter off the central council lords
+  complete 8352 @18.55,83.52 -- Abyssal Scepter off the southern council lords
+  turnin 8352 -- Scepter of the Council - back to Bor Wildmane
+  accept 9248 -- A Humble Offering - Aurel Goldleaf; a scepter off the same council lords
+  complete 9248 @25.56,34.04 -- Abyssal Scepter off the western council lords
+  turnin 9248 -- A Humble Offering - back to Aurel Goldleaf
+  turnin 8321 -- Vyral the Vile - to Huum Wildmane
