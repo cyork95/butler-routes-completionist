@@ -1,0 +1,352 @@
+# Butler Routes - The Barrens recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics and formulas whose SOURCE
+# is physically in The Barrens (zone key 1413), verified against the
+# local Forever game data (questie-forever item, vendor and drop
+# tables). 25 recipes are vendor-sold (no Alliance-only vendor among
+# them) and 5 drop from named in-zone mobs; every other dropped recipe
+# is a generic multi-zone world drop (see
+# docs/barrens-companions-inventory.md), and quest records carry no
+# reward data (see docs/companion-unverified.md). The three
+# rare-signature world drops (Gesharahan, Trigore, Dishu) ride the
+# rares companion, not this one. No Blacksmithing plan and no
+# Fishing-specific recipe has a Barrens source in the data - stated,
+# not padded. Trainer-taught staples are excluded: Polestar's own
+# profession guides cover those. Each step is gated to its profession;
+# other characters skip it cleanly.
+guide butler-routes-completionist/barrens-recipes
+title The Barrens - Recipes & Patterns
+levels 10-25
+zone The Barrens
+faction Horde
+category Professions
+folder Companions
+keywords barrens, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking - Tari'qa (Crossroads)
+
+  zone map 1413
+
+  when skill Cooking 1
+
+  vendor 3482 -- Tari'qa (51.68,30.04)
+  buy 5486 "Recipe: Strider Stew"
+  buy 5488 "Recipe: Crispy Lizard Tail"
+  note Tari'qa (Horde) sells both recipes at the Crossroads; nothing else in the data sells them. Stock class unconfirmed.
+
+step Cooking - Zargh (Crossroads)
+
+  zone map 1413
+
+  when skill Cooking 1
+
+  vendor 3489 -- Zargh (52.62,29.84)
+  buy 3735 "Recipe: Hot Lion Chops"
+  note Zargh (Horde) sells the recipe at the Crossroads (also sold by one vendor outside the zone). Stock class unconfirmed.
+
+step Cooking - Ogg'marr (south)
+
+  zone map 1413
+
+  when skill Cooking 1
+
+  vendor 4879 -- Ogg'marr (54.5,70)
+  buy 12228 "Recipe: Roast Raptor"
+  buy 12232 "Recipe: Carrion Surprise"
+  buy 12239 "Recipe: Dragonbreath Chili"
+  buy 20075 "Recipe: Heavy Crocolisk Stew"
+  note Ogg'marr (Horde) sells all four recipes in the south (also spawns in Dustwallow). The Heavy Crocolisk Stew is Ogg'marr-exclusive in the data. Stock class unconfirmed.
+
+step Cooking - Kilxx (Ratchet)
+
+  zone map 1413
+
+  when skill Cooking 1
+
+  vendor 3497 -- Kilxx (62.77,38.24)
+  buy 6330 "Recipe: Bristle Whisker Catfish"
+  buy 6368 "Recipe: Rainbow Fin Albacore"
+  note Kilxx (neutral) sells both fish recipes at Ratchet (also sold elsewhere). Stock class unconfirmed.
+
+step Cooking - Ratchet fish vendors
+
+  zone map 1413
+
+  when skill Cooking 1
+
+  vendor 8307 -- Tarban Hearthgrain (55.16,32.08)
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  vendor 248198 -- Aza'bek (48.26,28.32)
+  buy 21099 "Recipe: Smoked Sagefish"
+  buy 21219 "Recipe: Sagefish Delight"
+  note Tarban Hearthgrain (Horde) sells both recipes by the Ratchet road; Aza'bek (Horde, Forever vendor) sells the same two while patrolling the Crossroads road camp (also at 49.2,28.61 / 49.77,29.25 / 50.35,28.56 / 50.43,29.2). Both recipes are widely sold elsewhere. Stock class unconfirmed.
+
+step Alchemy - Ranik (Ratchet)
+
+  zone map 1413
+
+  when skill Alchemy 1
+
+  vendor 3499 -- Ranik (61.93,38.7)
+  buy 5640 "Recipe: Rage Potion"
+  note Ranik (neutral) sells the recipe at Ratchet (also sold elsewhere). Stock class unconfirmed.
+
+step Alchemy - Hula'mahi (Crossroads)
+
+  zone map 1413
+
+  when skill Alchemy 1
+
+  vendor 3490 -- Hula'mahi (51.39,30.2)
+  buy 6053 "Recipe: Holy Protection Potion"
+  note Hula'mahi (Horde) sells the recipe at the Crossroads (also sold elsewhere). Stock class unconfirmed.
+
+step Tailoring - Wrahk (Crossroads)
+
+  zone map 1413
+
+  when skill Tailoring 1
+
+  vendor 3485 -- Wrahk (52.25,31.69)
+  buy 5772 "Pattern: Red Woolen Bag"
+  buy 6270 "Pattern: Blue Linen Vest"
+  buy 6272 "Pattern: Blue Linen Robe"
+  note Wrahk (Horde) sells all three patterns at the Crossroads (all also sold elsewhere). Stock class unconfirmed.
+
+step Tailoring - Ranik (Ratchet)
+
+  zone map 1413
+
+  when skill Tailoring 1
+
+  vendor 3499 -- Ranik (61.93,38.7)
+  buy 6272 "Pattern: Blue Linen Robe"
+  buy 6275 "Pattern: Greater Adept's Robe"
+  note Ranik (neutral) sells both patterns at Ratchet (both also sold elsewhere). Stock class unconfirmed.
+
+step Tailoring - Yonada (Camp Taurajo)
+
+  zone map 1413
+
+  when skill Tailoring 1
+
+  vendor 5944 -- Yonada (45.01,59.33)
+  buy 6274 "Pattern: Blue Overalls"
+  buy 5772 "Pattern: Red Woolen Bag"
+  note Yonada (Horde) sells both patterns at Camp Taurajo (both also sold elsewhere). Stock class unconfirmed.
+
+step Tailoring - Kiknikle (west)
+
+  zone map 1413
+
+  when skill Tailoring 1
+
+  vendor 3683 -- Kiknikle (41.79,38.69)
+  buy 5772 "Pattern: Red Woolen Bag"
+  note Kiknikle (neutral) sells the pattern in the west (also sold elsewhere). Stock class unconfirmed.
+
+step Tailoring - Ghok'kah (Camp Taurajo)
+
+  zone map 1413
+
+  when skill Tailoring 1
+
+  vendor 6567 -- Ghok'kah (53.7,69.9)
+  buy 4355 "Pattern: Icy Cloak"
+  note Ghok'kah (Horde) sells the pattern at Camp Taurajo (also spawns in Dustwallow; the pattern is also sold elsewhere). Stock class unconfirmed.
+
+step Tailoring - Grimtotem Geomancer (drop)
+
+  zone map 1413
+
+  when skill Tailoring 1
+
+  loop
+  goto 44.1,95.6
+  goto 44.4,94.4
+  goto 44.5,94.7
+  goto 45.3,96
+  goto 46.2,96.6
+  goto 46.6,94.2
+  goto 46.6,97.9
+  goto 46.9,94.3
+  collect 5773 "Pattern: Robes of Arcana" optional
+  note Dropped by Grimtotem Geomancers in the far south (also drops in 3 other zones) - the core's Protect Kaya chain already fights Grimtotem. No vendor sells it.
+
+step Tailoring - Theramore Infiltrator (drop)
+
+  zone map 1413
+
+  when skill Tailoring 1
+
+  loop
+  goto 55,68
+  goto 55.2,66.2
+  goto 55.2,67.2
+  goto 55.2,71.6
+  goto 55.2,73.3
+  collect 5775 "Pattern: Black Silk Pack" optional
+  note Dropped by Theramore Infiltrators in the south (also drops in 4 other zones). No vendor sells it.
+
+step Leatherworking - Kalldan Felmoon
+
+  zone map 1413
+
+  when skill Leatherworking 1
+
+  vendor 5783 -- Kalldan Felmoon (45.89,35.7)
+  buy 6474 "Pattern: Deviate Scale Cloak"
+  buy 6475 "Pattern: Deviate Scale Gloves"
+  note Kalldan Felmoon (neutral) sells both patterns; nothing else in the data sells them. Stock class unconfirmed.
+
+step Leatherworking - Theramore Marines (drop)
+
+  zone map 1413
+
+  when skill Leatherworking 1
+
+  loop
+  goto 60.12,54.17
+  goto 60.24,52.07
+  goto 60.43,54.93
+  goto 60.69,55.58
+  goto 60.8,52.59
+  goto 60.86,54.88
+  goto 61.06,53.64
+  goto 61.19,52.08
+  goto 61.27,55.69
+  goto 61.35,53.11
+  goto 61.48,53.94
+  goto 61.56,54.84
+  goto 61.62,56.05
+  goto 61.86,54.42
+  goto 61.94,52.41
+  goto 62.01,51.66
+  goto 62.07,55.14
+  goto 62.15,53.14
+  goto 62.18,56.32
+  goto 62.19,54.02
+  goto 62.28,52.17
+  goto 62.52,56.85
+  goto 62.53,52.56
+  goto 63.05,56.6
+  collect 5786 "Pattern: Murloc Scale Belt" optional
+  note Dropped by Theramore Marines at Northwatch (also drops in Dustwallow) - the core's Guns of Northwatch chain already fights Northwatch. No vendor sells it.
+
+step Leatherworking - Theramore Preservers (drop)
+
+  zone map 1413
+
+  when skill Leatherworking 1
+
+  loop
+  goto 60.45,54.83
+  goto 60.48,55.46
+  goto 61.04,53.73
+  goto 61.31,53.43
+  goto 61.37,55.7
+  goto 61.75,53.44
+  goto 61.8,54.93
+  goto 61.99,55.21
+  goto 62.19,56.45
+  goto 62.21,54.14
+  goto 63.09,56.74
+  collect 5787 "Pattern: Murloc Scale Breastplate" optional
+  note Dropped by Theramore Preservers at Northwatch (also drops in Dustwallow) - the core's Guns of Northwatch chain already fights Northwatch. No vendor sells it.
+
+step Engineering - Gagsprocket (Ratchet)
+
+  zone map 1413
+
+  when skill Engineering 1
+
+  vendor 3495 -- Gagsprocket (62.64,36.27)
+  buy 14639 "Schematic: Minor Recombobulator"
+  buy 18648 "Schematic: Green Firework"
+  note Gagsprocket (neutral) sells both schematics at Ratchet (both also sold elsewhere). Stock class unconfirmed.
+
+step First Aid - Balai Lok'Wein (south)
+
+  zone map 1413
+
+  when skill First Aid 1
+
+  vendor 13476 -- Balai Lok'Wein (54.4,69.7)
+  buy 16112 "Manual: Heavy Silk Bandage"
+  buy 16113 "Manual: Mageweave Bandage"
+  note Balai Lok'Wein (Horde) sells both manuals in the south (also spawns in Dustwallow; both also sold elsewhere). Stock class unconfirmed.
+
+step Enchanting - Beneris (Crossroads road camp)
+
+  zone map 1413
+
+  when skill Enchanting 1
+
+  vendor 248199 -- Beneris (48.3,32.84)
+  buy 249476 "Formula: Mystic Mushroom"
+  buy 249477 "Formula: Tenets of the Silver Hand"
+  buy 249478 "Formula: Polished Driftwood Icon"
+  buy 249479 "Formula: Enchant Weapon - Insight"
+  buy 249480 "Formula: Enchant Weapon - Recovery"
+  buy 249481 "Formula: Enchant Weapon - Revelation"
+  buy 249482 "Formula: Glimmering Staff"
+  buy 249483 "Formula: Soulstaff"
+  buy 249484 "Formula: Orb of Mystic Insight"
+  buy 249485 "Formula: Orb of Souls"
+  buy 249493 "Formula: Talons of Wrath"
+  buy 249494 "Formula: Libram of Invocation"
+  buy 249495 "Formula: Totem of Ancestral Protection"
+  buy 249496 "Formula: Enchant Necklace - Strength"
+  buy 249502 "Formula: Enchant Necklace - Spell Power"
+  buy 249503 "Formula: Enchant Necklace - Healing Power"
+  buy 249504 "Formula: Enchant Necklace - Agility"
+  buy 249505 "Formula: Enchant Necklace - Deflection"
+  buy 249506 "Formula: Radiant Staff"
+  buy 249507 "Formula: Dreamstaff"
+  buy 249508 "Formula: Truesilver Conduit"
+  buy 249509 "Formula: Twisting Essence Jar"
+  buy 249510 "Formula: Enchant Chest - Absorption"
+  buy 249525 "Formula: Enchant 2H Weapon - Mighty Spell Power"
+  buy 249526 "Formula: Enchant 2H Weapon - Mighty Healing Power"
+  buy 249529 "Formula: Idol of the Dream"
+  buy 249530 "Formula: Libram of Holy Alacrity"
+  buy 249532 "Formula: Totem of Thunder"
+  buy 249534 "Formula: Enchant Gloves - Arcane Power"
+  buy 249535 "Formula: Enchant Gloves - Natural Power"
+  buy 249536 "Formula: Enchant Gloves - Holy Power"
+  buy 249537 "Formula: Brilliant Wand"
+  buy 249538 "Formula: Enchant Bracer - Superior Intellect"
+  buy 249539 "Formula: Enchant Bracer - Superior Deflection"
+  buy 274393 "Formula: Enchant Off-Hand - Wisdom"
+  buy 274394 "Formula: Enchant 2H Weapon - Spellblasting"
+  buy 274398 "Formula: Enchant Gloves - Superior Strength"
+  buy 274399 "Formula: Enchant Cloak - Agility"
+  buy 274401 "Formula: Enchant Bracer - Greater Spellpower"
+  buy 289560 "Formula: Enchant Boots - Speed"
+  note Beneris (Horde, Forever vendor) sells all 40 Forever-original formulas while patrolling the Crossroads road camp (also at 49.42,30.19 / 49.72,29.69 / 49.73,31.07 / 49.83,29.19 / 50.24,30.4 / 50.31,29.06); Alynsia in Redridge sells the same stock. Stock class unconfirmed.
+
+step Enchanting - Firemane Scout (drop)
+
+  zone map 1413
+
+  when skill Enchanting 1
+
+  loop
+  goto 55.3,88.4
+  goto 55.3,89.3
+  collect 249511 "Formula: Enchant 2H Weapon - Lesser Agility" optional
+  note Dropped by Firemane Scouts in the far south (also drops in Dustwallow). No vendor sells it.
+
+step Blacksmithing - no Barrens source
+
+  zone map 1413
+
+  note No Blacksmithing plan has a Barrens source in the data - stated, not padded. Trainer-taught staples live in Polestar's own profession guides.
+
+step Fishing - no Barrens source
+
+  zone map 1413
+
+  note No Fishing-specific recipe has a Barrens source in the data - the fish recipes above are Cooking food - stated, not padded.
