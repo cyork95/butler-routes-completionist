@@ -1,0 +1,130 @@
+# Mount Hyjal companions inventory (accept-zone key 2482, Alliance route)
+
+Built from local Forever game data (`--product wowf` + QuestieDB); the data
+wins everywhere below. Core contract: 123 quests, band 54-60
+(`docs/mount-hyjal-census.md`). Rank flags follow the Winterspring precedent
+(rank 4 = Rare, rank 2 = Rare Elite); rank-1 elites were examined Silithus-style
+and only shipped where loot or exclusivity marks a genuine rare.
+
+## Rares: 5 rank-flagged + 12 rank-1 examined, 8 shipped
+
+Shipped (spawn points are 2482 data points):
+
+- Death Wailer (249226, lvl61, rank 2) — 5 pts: (21,58.57) / (21.03,75.42) /
+  (21.67,57.47) / (22.32,56.73) / (23.93,57.93). One level above the band top:
+  ships with a come-back-later note. No exclusive loot (Drop of Stolen Life,
+  shared with 3 other droppers); the step notes it because core quest 92317
+  seeks that drop — informational note only, no collect (not exclusive).
+- Legion Hulk (249238, lvl60, rank 2) — 22 pts across (56-68, 29-46), loop over
+  all. No drops in the data. Kill-only.
+- Bannerwing Survivor (256830, lvl60, rank 2) — 2 pts: (57.22,35.05) /
+  (72.38,49.98), loop over both. No drops in the data. Kill-only.
+- Overseer Myoleth (260823, lvl58, rank 4) — 4 pts: (49.83,72.07) /
+  (50.91,73.36) / (51.41,72.44) / (52.43,71.93), loop over all. Only drop is
+  Waylaid Crate: Artisan Textiles (115 droppers, generic) — no collect.
+  Kill-only.
+- Pexmit (266901, lvl60, rank 4, roles=vendor, "Someone's Minion") — 4 pts:
+  (45.74,82.52) / (46.84,80.67) / (48.22,33.77) / (48.81,34.11), loop over all.
+  No mob drops in the data. Kill-only in the rares guide; he is ALSO a
+  6-recipe vendor (see Recipes) — the step tells the player to buy first.
+- Head Scratcher (251199, lvl60, rank 1) — 4 pts: (33.82,72.86) /
+  (35.32,71.3) / (36.02,73.39) / (36.56,72.13), loop over all. Signature:
+  Head Scratcher's Scratchers (251781), sole dropper anywhere in the data —
+  ships as an optional collect.
+- Ghansurok (251488 + 264867, lvl61, rank 1, "Blight of the Hills") — 10 pts
+  across both ids: east cluster (59-61, 61-64) and north cluster
+  (69.1-69.4, 21.5-23), loop over all. One level above band: come-back-later
+  note. Signature: Venom-dripping Heart (274162), sole dropper (264867) —
+  ships as an optional collect.
+- Doomguard Xarkul (267439, lvl61, rank 1) — 15 pts across (58-64, 25-43),
+  loop over all. One level above band: come-back-later note. Drops are shared
+  (Demon Dust, 4 droppers; Scrap of Horde Heraldry, 6) — no collect. Kill-only.
+
+Excluded, each with its reason:
+
+- Core-contracted quest significance (Dun Morogh precedent): Celastrus the
+  Bitter (core 91923 names its frond; evident source), Blackthorne Courier
+  (264508; core 93422 kill target), Blackthorne Outrunner / Priest
+  (275173/275174; the evident source of core 92533's Kris/Staff, drops shared
+  between the pair with no exclusivity — their only data-established
+  significance is sourcing contracted objectives).
+- Generic mob type, not a rare individual: Doomguard (249236; generic name,
+  24-pt spread, shared loot only).
+- No loot in the data at all + rank 1 alone marks elites, not rares:
+  Sunderbark (248709, 18 pts), Grimroot (264333, 13 pts), Loren Ravenlock
+  (268044, 2 pts), Hyjal Sentinel (279414, 3 guard-like pts). Rank 1 is shared
+  by 30 NPCs including all quest givers and a vendor; without loot or quest
+  refs there is no data evidence these four are rares rather than static
+  elites. Documented here for review.
+- Friendly/service: Aisarra Nightmeadow (264797; AH-faction repair+vendor —
+  a recipe vendor, see Recipes).
+- All core quest givers, turn-ins and objective NPCs (Fraxinus, Crow,
+  Ketharas, Johun, Omnuron, veterans, Jereman, Marrosis, Yashiro, Maerion,
+  Fayran, Toron, Rhylin, Sebelia, Tiala, Thisalee, Marn, Kaylaena, Phoebe,
+  Lisbael, Witherbeard, Elaena, Daythor, Sefira, Hnaz, Mirt, Kal'tinzan,
+  Zet'gan, Eluneth, Brerufa, Osi, Mistpaw, Suma, Thobon, Pinespeaker, Fenwick,
+  Shalla'kal, Hyacinth, Felflick, Velician, Quintus, Renalard, Kala'th,
+  Galvinquam, Thylaen, Tergar, Kav Gee).
+
+Tame lines shipped: none. Tameability has no data flag. Head Scratcher and
+Ghansurok are the only shipped rares where a beast family is plausible, but
+the data carries no family flag and no core quest kills a corroborating beast
+family (core kills owls, foxes, stags, ancients — no scratcher/blight overlap
+confirmable), so both tame questions go to `docs/companion-unverified.md`;
+no tame line is guessed. The demons, wailer, overseer and Pexmit are not
+beast-shaped; no tame question arises.
+
+## Treasures: none in data — honest none-shipped outcome
+
+All 17 fixed-spawn objects on 2482 were checked against items.json drop
+sources. Seven are core-contract points (Loose Cog, Unmarked Grave,
+Corrupted Growth, Bone Pile, Embroidered Scabbard, Bookshelf, Battle Cache).
+The rest are scenery/amenities with no loot in the data: Mailbox x2, Well,
+Gravestone, Grave Marker, Broken Fishing Basket, Troll Remains. Fel-Tainted
+Journal (660984) drops its own readable item (277533) and Mysterious Letter
+(660999) stands alone — both start no quest and teach no recipe in the data,
+so neither ships as treasure or recipe content; noted here. No generic
+chests exist on 2482. Per the Deadwind/Moonglade precedent the rares guide
+carries no treasure steps and the checklist is annotated none-in-data.
+
+## Recipes: 80 shipped (78 vendor + 2 zone-narrow drops), 0 excluded
+
+Profession labels follow name convention (Plans=Blacksmithing,
+Pattern=Leatherworking except cloth-named Tailoring sets below,
+Schematic=Engineering, Manual/Alchemy-recipe=Alchemy, food Recipe=Cooking);
+the data carries no profession flag. No stock-class flag exists in the data,
+so nothing is marked limited. Every buy line carries an npc pin to its
+in-zone vendor (both vendors spawn on 2482; neither is Horde-flagged, so no
+Alterac-exclusion).
+
+Vendor-sold (78):
+
+- Pexmit (266901) at (45.74,82.52) / (46.84,80.67) / (48.22,33.77) /
+  (48.81,34.11) — Blacksmithing (1): 251468 Plans: Bold Dirk; Leatherworking
+  (2): 252877 Pattern: Tooled Leather Armor, 252933 Pattern: Supple Scorpid
+  Vest; Tailoring (1): 254124 Pattern: Runecloth Cuffs; Alchemy (1): 255729
+  Manual: Major Healing Potion; Engineering (1): 264233 Schematic:
+  Dimensional Transporter: Mt. Hyjal.
+- Aisarra Nightmeadow (264797, fac AH) at (71,51.27) — Leatherworking (36):
+  Grovekeeper 16 (273952-273967), Wildstalker 4 (273968-273971), Spiritcaller
+  12 (274000-274007 + 276542-276545), Demonheart 4 (274008-274011);
+  Tailoring (16): Manaflare 4 (273972-273975), Conviction 8 (273988-273995),
+  Grimstitch 4 (273996-273999); Blacksmithing (20): Justice 12
+  (273976-273987), Glory 8 (274012-274019).
+
+Zone-narrow drops (2):
+
+- 251446 Plans: Blessed Plate Chest (Blacksmithing) — 4 droppers, all
+  in-zone wormwings: 249220 Wormwing Harpy, 249221 Wormwing Windwitch,
+  249222 Wormwing Ambusher, 260826 Zarrat Wormwing (44-56, 53-63 grounds).
+- 284871 Recipe: Transmute Legionite (Alchemy) — 2 droppers, both in-zone:
+  249229 Felguard Sentinel and 252457 Mazzogore the Weak (core 95793/96003
+  kill targets — players meet them on the core route).
+
+Excluded: every other recipe-name match (hundreds of droppers = generic
+world drops per the Elwynn rule; no in-zone vendor or narrow in-zone
+dropper); deprecated/[PH] records; trainer-taught staples (OUT by scope);
+quest-reward recipes (UNVERIFIABLE — no reward data in quest records).
+Professions with no Hyjal source get a plain note in the guide (Cooking,
+Fishing, First Aid, Enchanting, Mining, Herbalism, Skinning — Dun Morogh
+precedent).
