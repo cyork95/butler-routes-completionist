@@ -1,0 +1,54 @@
+# Butler Routes - Moonglade recipes companion (pack butler-routes-completionist, v1).
+# The 8 year-round vendor-sold recipes on the Moonglade map (zone 1450),
+# verified against the local Forever game data: 6 Tailoring patterns from
+# Darnall and Lorelae Wintersong, 2 Enchanting formulae from Lorelae
+# Wintersong (see the Moonglade census companions answer; this is the
+# micro-round it deferred). Both vendors are neutral and spawn only in
+# Moonglade. No seasonal stock ships (Lunar Festival content stays out per
+# the core census). Each step is gated to its profession; every goal is a
+# buy and optional. No stock-class flag exists in the data, so nothing is
+# marked limited. No accept/turnin lines anywhere.
+guide butler-routes-completionist/moonglade-recipes
+title Moonglade - Recipes
+levels 10-52
+zone Moonglade
+category Professions
+folder Companions
+keywords moonglade, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Tailoring - Moonglade (Darnall)
+
+  zone map 1450
+
+  when skill Tailoring 1
+
+  vendor 7940 -- Darnall (51.47, 33.25)
+  buy 14469 "Pattern: Runecloth Robe"
+  buy 14472 "Pattern: Runecloth Cloak"
+  buy 14488 "Pattern: Runecloth Boots"
+  buy 253665 "Pattern: Linen Reagent Bag"
+  buy 253668 "Pattern: Woolen Reagent Bag"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring - Moonglade (Lorelae Wintersong)
+
+  zone map 1450
+
+  when skill Tailoring 1
+
+  vendor 12022 -- Lorelae Wintersong (48.24, 40.14)
+  buy 14483 "Pattern: Felcloth Pants"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting - Moonglade (Lorelae Wintersong)
+
+  zone map 1450
+
+  when skill Enchanting 1
+
+  vendor 12022 -- Lorelae Wintersong (48.24, 40.14)
+  buy 16224 "Formula: Enchant Cloak - Superior Defense"
+  buy 16243 "Formula: Runed Arcanite Rod"
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
