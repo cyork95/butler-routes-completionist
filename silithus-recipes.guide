@@ -1,0 +1,167 @@
+# Silithus - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes whose source is physically in Silithus (zone 1451), verified
+# against the local Forever game data: 50 vendor-sold (Kania, Aendel
+# Windspear, Mishta, Vargus, Zannok Hidepiercer, Enkles) and 2 dropped solely
+# or narrowly by in-zone mobs (see docs/silithus-companions-inventory.md).
+# Each step is gated to its profession; other characters skip it cleanly.
+# Every buy line carries an npc pin to its in-zone vendor. No stock-class
+# flag exists in the data, so nothing is marked limited. Quinard's matching
+# stock is excluded: he is Horde-flagged and the Alliance buys from Enkles.
+# Engineering, Mining, Herbalism, Skinning, Fishing and Alchemy have no
+# in-zone source and say so below instead of padding. This guide never
+# accepts or turns in.
+guide butler-routes-completionist/silithus-recipes
+title Silithus - Recipes & Patterns
+levels 54-60
+zone Silithus
+faction Alliance
+category Professions
+folder Companions
+coords live
+version 1
+
+step Enchanting - Cenarion Hold (Kania)
+
+  zone map 1451
+
+  when skill Enchanting 1
+
+  vendor 15419 -- Kania (51.97, 39.7)
+  buy 6342 "Formula: Enchant Chest - Minor Mana" npc 15419
+  buy 20732 "Formula: Enchant Cloak - Greater Fire Resistance" npc 15419
+  buy 20733 "Formula: Enchant Cloak - Greater Nature Resistance" npc 15419
+  buy 20752 "Formula: Minor Mana Oil" npc 15419
+  buy 20753 "Formula: Lesser Wizard Oil" npc 15419
+  buy 20754 "Formula: Lesser Mana Oil" npc 15419
+  buy 20755 "Formula: Wizard Oil" npc 15419
+  buy 20758 "Formula: Minor Wizard Oil" npc 15419
+  buy 234271 "Formula: Scroll: Wrath of the Swarm" npc 15419
+  buy 234272 "Formula: Enchanted Repellent" npc 15419
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring - Cenarion Hold (Kania's bags)
+
+  zone map 1451
+
+  when skill Tailoring 1
+
+  vendor 15419 -- Kania (51.97, 39.7)
+  buy 22307 "Pattern: Enchanted Mageweave Pouch" npc 15419
+  buy 22308 "Pattern: Enchanted Runecloth Bag" npc 15419
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking - eastern wastes (Aendel Windspear)
+
+  zone map 1451
+
+  when skill Leatherworking 1
+
+  vendor 15293 -- Aendel Windspear (62.57, 49.79)
+  buy 20382 "Pattern: Dreamscale Breastplate" npc 15293
+  buy 20506 "Pattern: Spitfire Bracers" npc 15293
+  buy 20507 "Pattern: Spitfire Gauntlets" npc 15293
+  buy 20508 "Pattern: Spitfire Breastplate" npc 15293
+  buy 20509 "Pattern: Sandstalker Bracers" npc 15293
+  buy 20510 "Pattern: Sandstalker Gauntlets" npc 15293
+  buy 20511 "Pattern: Sandstalker Breastplate" npc 15293
+  buy 22769 "Pattern: Bramblewood Belt" npc 15293
+  buy 22770 "Pattern: Bramblewood Boots" npc 15293
+  buy 22771 "Pattern: Bramblewood Helm" npc 15293
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring - Cenarion Hold (Mishta)
+
+  zone map 1451
+
+  when skill Tailoring 1
+
+  vendor 15179 -- Mishta (49.88, 36.33)
+  buy 22310 "Pattern: Cenarion Herb Bag" npc 15179
+  buy 22312 "Pattern: Satchel of Cenarius" npc 15179
+  buy 22683 "Pattern: Gaea's Embrace" npc 15179
+  buy 22772 "Pattern: Sylvan Shoulders" npc 15179
+  buy 22773 "Pattern: Sylvan Crown" npc 15179
+  buy 22774 "Pattern: Sylvan Vest" npc 15179
+  buy 275580 "Pattern: Venomspew Gloves" npc 15179
+  buy 275581 "Pattern: Venomspew Cord" npc 15179
+  buy 275582 "Pattern: Venomspew Footpads" npc 15179
+  buy 275583 "Pattern: Swarmtender's Gloves" npc 15179
+  buy 275584 "Pattern: Swarmtender's Cord" npc 15179
+  buy 275585 "Pattern: Swarmtender's Footpads" npc 15179
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing - Cenarion Hold (Vargus)
+
+  zone map 1451
+
+  when skill Blacksmithing 1
+
+  vendor 15176 -- Vargus (51.23, 38.86)
+  buy 22209 "Plans: Heavy Obsidian Belt" npc 15176
+  buy 22214 "Plans: Light Obsidian Belt" npc 15176
+  buy 22766 "Plans: Ironvine Breastplate" npc 15176
+  buy 22767 "Plans: Ironvine Gloves" npc 15176
+  buy 22768 "Plans: Ironvine Belt" npc 15176
+  buy 275598 "Plans: Goregasher Grips" npc 15176
+  buy 275599 "Plans: Goregasher Support" npc 15176
+  buy 275600 "Plans: Goregasher Stompers" npc 15176
+  buy 275601 "Plans: Clutchlord's Grips" npc 15176
+  buy 275602 "Plans: Clutchlord's Support" npc 15176
+  buy 275603 "Plans: Clutchlord's Stompers" npc 15176
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking - far east (Zannok Hidepiercer)
+
+  zone map 1451
+
+  when skill Leatherworking 1
+
+  vendor 12956 -- Zannok Hidepiercer (82, 17.74)
+  buy 15724 "Pattern: Heavy Scorpid Bracers" npc 12956
+  buy 15762 "Pattern: Heavy Scorpid Helm" npc 12956
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring - Twilight grounds (Geolord drop)
+
+  zone map 1451
+
+  when skill Tailoring 1
+
+  collect 20546 "Pattern: Runed Stygian Leggings" optional
+  note Drops solely from Twilight Geolords anywhere in the data - farm the Templar grounds west, central or south. Respawn timer unconfirmed.
+
+step Leatherworking - north-central wastes (Windreaver drop)
+
+  zone map 1451
+
+  when skill Leatherworking 1
+
+  collect 21548 "Pattern: Stormshroud Gloves" optional
+  note Drops from The Windreaver (28.66, 26.85) - see the rares companion - and otherwise only from Princess Tempestria in Winterspring. Respawn timer unconfirmed.
+
+step First Aid - Bluewall post (Enkles)
+
+  zone map 1451
+
+  when skill First Aid 1
+
+  vendor 17068 -- Chief Expeditionary Requisitioner Enkles (33.33, 51.08)
+  buy 232434 "Manual: Dense Runecloth Bandage" npc 17068
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking - Bluewall post (Enkles)
+
+  zone map 1451
+
+  when skill Cooking 1
+
+  vendor 17068 -- Chief Expeditionary Requisitioner Enkles (33.33, 51.08)
+  buy 232437 "Recipe: Darkclaw Bisque" npc 17068
+  buy 232443 "Recipe: Smoked Redgill" npc 17068
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step No in-zone source - Engineering, Mining, Herbalism, Skinning, Fishing, Alchemy
+
+  zone map 1451
+
+  note Engineering, Mining, Herbalism, Skinning, Fishing and Alchemy have no recipe source physically in Silithus in the data: schematics and transmutes here are generic world drops, and no in-zone vendor stocks the rest.
