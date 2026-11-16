@@ -1,0 +1,165 @@
+# Eastern Plaguelands - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and formulae whose SOURCE is physically in the
+# Eastern Plaguelands, verified against the local Forever game data
+# (questie-forever item vendor and drop tables). Nineteen ship as vendor buys
+# off four in-zone vendors (Magnus Frostwake at Light's Hope, the two Argent
+# Quartermasters at Chillwind Camp and Light's Hope, Leonard Porter at Light's
+# Hope); two ship as drop collects off sole in-zone droppers. Every other
+# in-zone-dropping recipe is a generic multi-zone world drop, and quest records
+# carry no reward data (see docs/companion-unverified.md). Trainer-taught staples
+# are excluded: Polestar's own profession guides cover those. Each step is gated
+# to its profession; other characters skip it cleanly. Engineering, Cooking and
+# Fishing have no Eastern Plaguelands source, so that is stated, not padded.
+guide butler-routes-completionist/eastern-plaguelands-recipes
+title Eastern Plaguelands - Recipes
+levels 50-60
+zone Eastern Plaguelands
+faction Alliance
+category Professions
+folder Companions
+keywords eastern plaguelands, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Blacksmithing — Light's Hope (Magnus Frostwake)
+  when skill Blacksmithing 1
+
+  vendor 11278 -- Magnus Frostwake (68.12, 77.57)
+  buy 8030 "Plans: Ebon Shiv" npc 11278
+  buy 12703 "Plans: Storm Gauntlets" npc 11278
+  buy 12819 "Plans: Ornate Thorium Handaxe" npc 11278
+  buy 12823 "Plans: Huge Thorium Battleaxe" npc 11278
+  buy 228313 "Plans: Tempest Gauntlets" npc 11278
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Light's Hope (Magnus Frostwake)
+  when skill Alchemy 1
+
+  vendor 11278 -- Magnus Frostwake (68.12, 77.57)
+  buy 13485 "Recipe: Transmute Water to Air" npc 11278
+  buy 13501 "Recipe: Major Mana Potion" npc 11278
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Chillwind Camp (Argent Quartermaster Hasana)
+  when skill Alchemy 1
+
+  vendor 10856 -- Argent Quartermaster Hasana (26.6, 55.2)
+  buy 13482 "Recipe: Transmute Air to Fire" npc 10856
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Chillwind Camp (Argent Quartermaster Hasana)
+  when skill Blacksmithing 1
+
+  vendor 10856 -- Argent Quartermaster Hasana (26.6, 55.2)
+  buy 19203 "Plans: Girdle of the Dawn" npc 10856
+  buy 19205 "Plans: Gloves of the Dawn" npc 10856
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Chillwind Camp (Argent Quartermaster Hasana)
+  when skill Leatherworking 1
+
+  vendor 10856 -- Argent Quartermaster Hasana (26.6, 55.2)
+  buy 19216 "Pattern: Argent Boots" npc 10856
+  buy 19217 "Pattern: Argent Shoulders" npc 10856
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Chillwind Camp (Argent Quartermaster Hasana)
+  when skill Tailoring 1
+
+  vendor 10856 -- Argent Quartermaster Hasana (26.6, 55.2)
+  buy 19328 "Pattern: Dawn Treaders" npc 10856
+  buy 19329 "Pattern: Golden Mantle of the Dawn" npc 10856
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step First Aid — Chillwind Camp (Argent Quartermaster Hasana)
+  when skill First Aid 1
+
+  vendor 10856 -- Argent Quartermaster Hasana (26.6, 55.2)
+  buy 19442 "Recipe: Powerful Anti-Venom" npc 10856
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Chillwind Camp (Argent Quartermaster Hasana)
+  when skill Enchanting 1
+
+  vendor 10856 -- Argent Quartermaster Hasana (26.6, 55.2)
+  buy 19446 "Formula: Enchant Bracer - Mana Regeneration" npc 10856
+  buy 19447 "Formula: Enchant Bracer - Healing" npc 10856
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Light's Hope (Argent Quartermaster Lightspark)
+  when skill Alchemy 1
+
+  vendor 10857 -- Argent Quartermaster Lightspark (42.84, 83.72)
+  buy 13482 "Recipe: Transmute Air to Fire" npc 10857
+  note Lightspark also anchors the core guide's paladin line; this step only buys.
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Light's Hope (Argent Quartermaster Lightspark)
+  when skill Blacksmithing 1
+
+  vendor 10857 -- Argent Quartermaster Lightspark (42.84, 83.72)
+  buy 19203 "Plans: Girdle of the Dawn" npc 10857
+  buy 19205 "Plans: Gloves of the Dawn" npc 10857
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Light's Hope (Argent Quartermaster Lightspark)
+  when skill Leatherworking 1
+
+  vendor 10857 -- Argent Quartermaster Lightspark (42.84, 83.72)
+  buy 19216 "Pattern: Argent Boots" npc 10857
+  buy 19217 "Pattern: Argent Shoulders" npc 10857
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Light's Hope (Argent Quartermaster Lightspark)
+  when skill Tailoring 1
+
+  vendor 10857 -- Argent Quartermaster Lightspark (42.84, 83.72)
+  buy 19328 "Pattern: Dawn Treaders" npc 10857
+  buy 19329 "Pattern: Golden Mantle of the Dawn" npc 10857
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step First Aid — Light's Hope (Argent Quartermaster Lightspark)
+  when skill First Aid 1
+
+  vendor 10857 -- Argent Quartermaster Lightspark (42.84, 83.72)
+  buy 19442 "Recipe: Powerful Anti-Venom" npc 10857
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Light's Hope (Argent Quartermaster Lightspark)
+  when skill Enchanting 1
+
+  vendor 10857 -- Argent Quartermaster Lightspark (42.84, 83.72)
+  buy 19446 "Formula: Enchant Bracer - Mana Regeneration" npc 10857
+  buy 19447 "Formula: Enchant Bracer - Healing" npc 10857
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Light's Hope (Leonard Porter)
+  when skill Leatherworking 1
+
+  vendor 12942 -- Leonard Porter (43.08, 84.31)
+  buy 15725 "Pattern: Wicked Leather Gauntlets" npc 12942
+  buy 15741 "Pattern: Stormshroud Pants" npc 12942
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Foreman Marcrid's plans (drop)
+
+  zone map 1422
+
+  when skill Blacksmithing 1
+
+  goto 49.04,32.73
+  collect 12836 "Plans: Frostguard" optional
+  note Foreman Marcrid (level 58 rare) is the sole dropper anywhere in the data. No quest takes the plans in the data.
+
+step Blacksmithing — Scarlet Smith's plans (drop)
+
+  zone map 1422
+
+  when skill Blacksmithing 1
+
+  goto 44.36,13.54
+  collect 12719 "Plans: Runic Plate Leggings" optional
+  note The Scarlet Smith (level 59 rare, Tyr's Hand) is the sole dropper anywhere in the data. No quest takes the plans in the data.
+
+step Engineering, Cooking, Fishing — no Eastern Plaguelands source
+  note No Engineering schematic, Cooking recipe, or Fishing lure has a source physically in the Eastern Plaguelands in the data; trainer-taught staples live in Polestar's own profession guides.
