@@ -1,0 +1,157 @@
+# Swamp of Sorrows - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns and formulas whose SOURCE is physically in the Swamp
+# of Sorrows, verified against the local Forever game data (questie-forever
+# item vendor and drop tables). Two patterns are vendor-sold by the neutral
+# vendor Masat T'andr in the north; five more drop each from in-zone mobs
+# (three sole-droppers found nowhere else in the data, one five-mob in-zone
+# family, one above-band sole dropper noted honestly as come-back-later).
+# In-zone recipes sold only by Horde-faction vendors are excluded (Alterac
+# precedent - see docs/swamp-of-sorrows-companions-inventory.md), every other
+# Swamp-dropping recipe is a generic multi-zone world drop, and quest records
+# carry no reward data (see docs/companion-unverified.md). Trainer-taught
+# staples are excluded: Polestar's own profession guides cover those. Each step
+# is gated to its profession; other characters skip it cleanly. Tailoring,
+# Engineering, Alchemy and Fishing have no Swamp source, so that is stated, not
+# padded.
+guide butler-routes-completionist/swamp-of-sorrows-recipes
+title Swamp of Sorrows - Recipes & Patterns
+levels 30-38
+zone Swamp of Sorrows
+faction Alliance
+category Professions
+folder Companions
+keywords swamp of sorrows, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Stagal Bog - Masat T'andr's stock (Leatherworking)
+
+  zone map 1435
+
+  when skill Leatherworking 1
+
+  tip Masat T'andr (26.46, 31.47) in the north sells both patterns; he is the sole vendor for each anywhere in the data.
+  buy 15726 "Pattern: Green Dragonscale Breastplate"
+  buy 228309 "Pattern: Living Green Dragonscale Breastplate"
+  note Stock class is unconfirmed in the data.
+
+step Fallow Sanctuary - the Cook's recipe (Cooking)
+
+  zone map 1435
+
+  when skill Cooking 1
+
+  loop
+  goto 60.93,24.28
+  goto 61.82,21.85
+  goto 62.39,20.9
+  goto 62.5,23.31
+  goto 63.98,22.8
+  goto 65.23,22.8
+  kill 1106 optional
+  collect 250186 "Recipe: Giant Scrambled Eggs" optional
+  note The Lost One Cook (level 37) in the Fallow Sanctuary is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Fallow Sanctuary - the stiletto (Blacksmithing)
+
+  zone map 1435
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 55.13,30.32
+  goto 55.15,25.15
+  goto 55.78,29.12
+  goto 56.81,25.23
+  goto 57.27,24.65
+  goto 57.63,23.97
+  goto 57.79,24.74
+  goto 58.08,26.76
+  goto 61.93,22.74
+  goto 62,23.53
+  goto 62.62,24.07
+  goto 64.75,23.02
+  kill 759 optional
+  collect 251463 "Plans: Mithril Stiletto" optional
+  note The Lost One Hunter (level 36) in the Fallow Sanctuary is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Fallow Sanctuary - the anti-venom (First Aid)
+
+  zone map 1435
+
+  when skill First Aid 1
+
+  loop
+  goto 55.75,34.07
+  goto 55.89,34.37
+  goto 56.06,31.86
+  goto 57.7,29.92
+  goto 58.41,28.46
+  goto 59.02,23.56
+  goto 60.87,28.44
+  goto 61.17,25.27
+  goto 62.25,19.42
+  goto 62.34,26.7
+  goto 63.45,17.41
+  goto 63.45,21.88
+  goto 64.66,26.17
+  kill 760 optional
+  collect 255728 "Manual: Potent Anti-Venom" optional
+  note The Lost One Muckdweller (level 36) in the Fallow Sanctuary is the sole dropper anywhere in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Western swamp - the herbalism formula (Enchanting)
+
+  zone map 1435
+
+  when skill Enchanting 1
+
+  loop
+  goto 11.43,38.66
+  goto 13,37.04
+  goto 14.37,34.71
+  goto 14.92,38.73
+  goto 15.77,40.78
+  goto 15.81,36.55
+  goto 16.87,38.78
+  goto 46.88,37.1
+  goto 49.28,35.27
+  goto 51.17,36.76
+  goto 54.74,32.1
+  kill 764 optional
+  collect 11205 "Formula: Enchant Gloves - Advanced Herbalism" optional
+  note The Swampwalker (level 38) in the west is one of five in-zone droppers - the others are the Swampwalker Elder, Tangled Horror, Mire Lord, and the rare Molt Thorn. All five spawn only in the Swamp.
+  note Respawn timer unconfirmed.
+
+step Marsh Oracle - sunny tea, come back later (Cooking)
+
+  zone map 1435
+
+  when skill Cooking 1
+
+  loop
+  goto 60.48,86.56
+  goto 60.9,83.58
+  goto 61.41,84.34
+  goto 61.99,87.28
+  goto 62.37,88.13
+  goto 62.76,87.05
+  goto 63.15,80.42
+  goto 63.59,86.78
+  goto 89.05,78.45
+  goto 94.18,30.52
+  goto 94.86,61
+  goto 94.89,60.05
+  goto 95.05,51.06
+  kill 752 optional
+  collect 249883 "Recipe: Sunny Tea" optional
+  note The Marsh Oracle (level 44) is the sole dropper anywhere in the data; come back in the mid 40s. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Professions with no Swamp source
+
+  zone map 1435
+
+  note Tailoring, Engineering, Alchemy, and Fishing have no recipe source in the Swamp of Sorrows in the data. Trainer-taught staples are covered by Polestar's own profession guides.
