@@ -524,7 +524,7 @@ _No public rare data yet — its census leans on game data._
 - [x] Lint/playtest clean (lint 0 errors; playtest residue R1x2 + R5x1 only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (0 rares in data, treasures-only rares guide: 1 loop + 1 single; 1 recipe: Blacksmithing drop)
 
 ## The Horde block — Horde sides, Horde cities, and addenda
 

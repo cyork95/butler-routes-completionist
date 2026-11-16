@@ -651,3 +651,8 @@ as above: game-data citation or a named source.
 ## Mount Hyjal stock class and timers (pack 0.86.0)
 
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so no buy line carries a limited marking; stock class is unconfirmed. No respawn data for any rare exists in the local build; every step says the timer is unconfirmed.
+
+## Shen'dralas tame lines (pack 0.88.0)
+
+- No rares shipped (10 rank-1s examined, all excluded in docs/shendralas-companions-inventory.md). Beast-plausible mobs on the key: Prowler 255207 (drops the core collar 259461 - not tameability evidence) and Bear 263681 (no drops at all). Neither presents beast-drop evidence with a core-guide beast-family kill to corroborate (core kills are Outcasts, flowers, Pylon Protectors, Necromancers and Woodwyrd), and NPC records carry no family/tame flags, so no tame line ships. Revisit if a family flag or tame evidence appears.
+
