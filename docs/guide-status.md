@@ -429,7 +429,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [x] Lint/playtest clean (0 errors; R1/R2/R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (32 rares + treasures; 70 recipes)
 
 ### Swamp of Sorrows — contested (Eastern Kingdoms)
 

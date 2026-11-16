@@ -195,7 +195,7 @@ checked - none Alliance-only; stock class unconfirmed everywhere):
 - First Aid (2): Balai Lok'Wein 13476 (Horde, 54.4,69.7, also spawns
   Dustwallow) - Manual: Heavy Silk Bandage 16112, Manual: Mageweave
   Bandage 16113.
-- Enchanting (41): Beneris 248199-custom (Horde, Crossroads road camp
+- Enchanting (40): Beneris 248199-custom (Horde, Crossroads road camp
   patrol 48.3,32.84 + 4 nearby points) - 41 Forever-original
   formulas 249476-249510, 249525/249526, 249529/249530, 249532,
   249534-249539, 271624, 274393/274394, 274398/274399, 274401,
@@ -224,10 +224,10 @@ rare-signature patterns 2406/2407/2408/2409 (which ride the rares
 guide instead), Cooked Crab Claw 2698 (8 zones), Star Belt 4356 (8),
 Barbaric Belt 4301 (9), Rich Purple Silk Shirt 4354 (13), Golden
 Scale Boots 3875 (13), Dusky Boots 7452 (16), Black Silk-adjacent
-and Mithril-plan tables. Quest-reward recipes: unverifiable (quest
+and Mithril-plan tables. Enchanting Certification 271624 (sold by Beneris) is not a recipe/pattern/plan/schematic/design/manual/formula - out of scope, logged here. Quest-reward recipes: unverifiable (quest
 records carry no reward data) - none shipped. Snufflenose Owner's
 Manual 5897 (object 21530 source, no NPC/vendor source) - logged in
 docs/companion-unverified.md.
 
-TOTAL shipped: 71 (Cooking 11, Alchemy 2, Tailoring 8, Leatherworking
-4, Engineering 2, First Aid 2, Enchanting 42).
+TOTAL shipped: 70 (Cooking 11, Alchemy 2, Tailoring 8, Leatherworking
+4, Engineering 2, First Aid 2, Enchanting 41).
