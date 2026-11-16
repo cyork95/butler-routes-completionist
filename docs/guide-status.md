@@ -519,9 +519,9 @@ _Content as the game data dictates._
 
 _No public rare data yet — its census leans on game data._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (28 quests, band 30-49, accept key 2652)
+- [x] Core guide
+- [x] Lint/playtest clean (lint 0 errors; playtest residue R1x2 + R5x1 only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
