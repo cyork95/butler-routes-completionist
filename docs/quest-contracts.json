@@ -12187,6 +12187,439 @@
           "name": "Tattered Journal"
         }
       ]
+    },
+    {
+      "id": "durotar",
+      "name": "Durotar",
+      "order": 46,
+      "levelBand": "1-13",
+      "summary": "Horde route: Valley of Trials, Sen'jin Village and Razor Hill hubs, Skull Rock and the Kolkar/Tiara sides, Shaman totem and Hunter taming chains, camping profession pass, soft-pre minis for Orgrimmar/Barrens pres, expeditions to Orgrimmar/Barrens/Mulgore/Tirisfal.",
+      "quests": [
+        {
+          "id": 784,
+          "name": "Vanquish the Betrayers"
+        },
+        {
+          "id": 786,
+          "name": "Thwarting Kolkar Aggression"
+        },
+        {
+          "id": 788,
+          "name": "Cutting Teeth"
+        },
+        {
+          "id": 789,
+          "name": "Sting of the Scorpid"
+        },
+        {
+          "id": 790,
+          "name": "Sarkoth"
+        },
+        {
+          "id": 791,
+          "name": "Carry Your Weight"
+        },
+        {
+          "id": 792,
+          "name": "Vile Familiars"
+        },
+        {
+          "id": 794,
+          "name": "Burning Blade Medallion"
+        },
+        {
+          "id": 804,
+          "name": "Sarkoth"
+        },
+        {
+          "id": 805,
+          "name": "Report to Sen'jin Village"
+        },
+        {
+          "id": 806,
+          "name": "Dark Storms"
+        },
+        {
+          "id": 808,
+          "name": "Minshina's Skull"
+        },
+        {
+          "id": 812,
+          "name": "Need for a Cure"
+        },
+        {
+          "id": 815,
+          "name": "Break a Few Eggs"
+        },
+        {
+          "id": 816,
+          "name": "Lost But Not Forgotten"
+        },
+        {
+          "id": 817,
+          "name": "Practical Prey"
+        },
+        {
+          "id": 818,
+          "name": "A Solvent Spirit"
+        },
+        {
+          "id": 823,
+          "name": "Report to Orgnil"
+        },
+        {
+          "id": 825,
+          "name": "From The Wreckage...."
+        },
+        {
+          "id": 826,
+          "name": "Zalazane"
+        },
+        {
+          "id": 827,
+          "name": "Skull Rock"
+        },
+        {
+          "id": 828,
+          "name": "Margoz"
+        },
+        {
+          "id": 829,
+          "name": "Neeru Fireblade"
+        },
+        {
+          "id": 830,
+          "name": "The Admiral's Orders"
+        },
+        {
+          "id": 831,
+          "name": "The Admiral's Orders"
+        },
+        {
+          "id": 834,
+          "name": "Winds in the Desert"
+        },
+        {
+          "id": 835,
+          "name": "Securing the Lines"
+        },
+        {
+          "id": 837,
+          "name": "Encroachment"
+        },
+        {
+          "id": 840,
+          "name": "Conscript of the Horde"
+        },
+        {
+          "id": 1463,
+          "name": "Earth Sapta"
+        },
+        {
+          "id": 1485,
+          "name": "Vile Familiars"
+        },
+        {
+          "id": 1499,
+          "name": "Vile Familiars"
+        },
+        {
+          "id": 1505,
+          "name": "Veteran Uzzek"
+        },
+        {
+          "id": 1506,
+          "name": "Gan'rul's Summons"
+        },
+        {
+          "id": 1516,
+          "name": "Call of Earth"
+        },
+        {
+          "id": 1517,
+          "name": "Call of Earth"
+        },
+        {
+          "id": 1518,
+          "name": "Call of Earth"
+        },
+        {
+          "id": 1525,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 1526,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 1527,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 1859,
+          "name": "Therzok"
+        },
+        {
+          "id": 1883,
+          "name": "Speak with Un'thuwa"
+        },
+        {
+          "id": 1884,
+          "name": "Ju-Ju Heaps"
+        },
+        {
+          "id": 2161,
+          "name": "A Peon's Burden"
+        },
+        {
+          "id": 2383,
+          "name": "Simple Parchment"
+        },
+        {
+          "id": 2983,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 3065,
+          "name": "Simple Tablet"
+        },
+        {
+          "id": 3082,
+          "name": "Etched Tablet"
+        },
+        {
+          "id": 3083,
+          "name": "Encrypted Tablet"
+        },
+        {
+          "id": 3084,
+          "name": "Rune-Inscribed Tablet"
+        },
+        {
+          "id": 3085,
+          "name": "Hallowed Tablet"
+        },
+        {
+          "id": 3086,
+          "name": "Glyphic Tablet"
+        },
+        {
+          "id": 3087,
+          "name": "Etched Parchment"
+        },
+        {
+          "id": 3088,
+          "name": "Encrypted Parchment"
+        },
+        {
+          "id": 3089,
+          "name": "Rune-Inscribed Parchment"
+        },
+        {
+          "id": 3090,
+          "name": "Tainted Parchment"
+        },
+        {
+          "id": 4402,
+          "name": "Galgar's Cactus Apple Surprise"
+        },
+        {
+          "id": 4641,
+          "name": "Your Place In The World"
+        },
+        {
+          "id": 5441,
+          "name": "Lazy Peons"
+        },
+        {
+          "id": 5648,
+          "name": "Garments of Spirituality"
+        },
+        {
+          "id": 5649,
+          "name": "In Favor of Spirituality"
+        },
+        {
+          "id": 5652,
+          "name": "Hex of Weakness"
+        },
+        {
+          "id": 5654,
+          "name": "Hex of Weakness"
+        },
+        {
+          "id": 5660,
+          "name": "Touch of Weakness"
+        },
+        {
+          "id": 5662,
+          "name": "Touch of Weakness"
+        },
+        {
+          "id": 5843,
+          "name": "Welcome!"
+        },
+        {
+          "id": 6062,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6067,
+          "name": "The Hunter's Path"
+        },
+        {
+          "id": 6069,
+          "name": "The Hunter's Path"
+        },
+        {
+          "id": 6081,
+          "name": "Training the Beast"
+        },
+        {
+          "id": 6082,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6083,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6394,
+          "name": "Thazz'ril's Pick"
+        },
+        {
+          "id": 9263,
+          "name": "Investigate the Scourge of Orgrimmar"
+        },
+        {
+          "id": 96102,
+          "name": "Camping 101: Tailoring"
+        },
+        {
+          "id": 96604,
+          "name": "The Great Outdoors"
+        },
+        {
+          "id": 96652,
+          "name": "The Adventurer"
+        },
+        {
+          "id": 96655,
+          "name": "Camping 101: Cooking"
+        },
+        {
+          "id": 96821,
+          "name": "Legging It"
+        },
+        {
+          "id": 96822,
+          "name": "For Honor"
+        },
+        {
+          "id": 96825,
+          "name": "This Fruit Could Bite Back"
+        },
+        {
+          "id": 96873,
+          "name": "A Pain in the Neck"
+        },
+        {
+          "id": 96876,
+          "name": "Ukor's Lost Pack"
+        },
+        {
+          "id": 97223,
+          "name": "Bloodtalon Matriarch"
+        },
+        {
+          "id": 97225,
+          "name": "Forgotten Loa Idols"
+        },
+        {
+          "id": 97279,
+          "name": "Wayward Weapons"
+        },
+        {
+          "id": 97281,
+          "name": "A Simmering Storm"
+        },
+        {
+          "id": 97282,
+          "name": "Stormy Potential"
+        },
+        {
+          "id": 97899,
+          "name": "Camping 101: Alchemy"
+        },
+        {
+          "id": 97900,
+          "name": "Camping 101: Blacksmithing"
+        },
+        {
+          "id": 97901,
+          "name": "Camping 101: Enchanting"
+        },
+        {
+          "id": 97902,
+          "name": "Camping 101: Engineering"
+        },
+        {
+          "id": 97903,
+          "name": "Camping 101: First Aid"
+        },
+        {
+          "id": 97904,
+          "name": "Camping 101: Fishing"
+        },
+        {
+          "id": 97905,
+          "name": "Camping 101: Herbalism"
+        },
+        {
+          "id": 97906,
+          "name": "Camping 101: Leatherworking"
+        },
+        {
+          "id": 97907,
+          "name": "Camping 101: Mining"
+        },
+        {
+          "id": 97908,
+          "name": "Camping 101: Skinning"
+        },
+        {
+          "id": 98517,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 98575,
+          "name": "Tainted Tablet"
+        },
+        {
+          "id": 98576,
+          "name": "Glyphic Parchment"
+        },
+        {
+          "id": 99048,
+          "name": "A Missing Hand"
+        },
+        {
+          "id": 99049,
+          "name": "Threat from Below"
+        },
+        {
+          "id": 99051,
+          "name": "Threat from Below"
+        },
+        {
+          "id": 99052,
+          "name": "Threat from Below"
+        },
+        {
+          "id": 99123,
+          "name": "Lost in the Shadows"
+        }
+      ]
     }
   ]
 }
