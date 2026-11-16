@@ -502,7 +502,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [x] Lint/playtest clean (0 errors, 41 warnings in 3 argued classes; R1 + R2 + R5 residue, 0 stuck)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (4 rares, 3 unique treasures; 52 recipes: 50 vendor + 2 zone-narrow drops)
 
 ### Mount Hyjal — Kalimdor
 
