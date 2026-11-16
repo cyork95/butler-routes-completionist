@@ -497,9 +497,9 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 
 ### Silithus — contested (Kalimdor)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (52 quests, band 54-60)
+- [x] Core guide (52 accepts / 52 turn-ins)
+- [x] Lint/playtest clean (0 errors, 41 warnings in 3 argued classes; R1 + R2 + R5 residue, 0 stuck)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
