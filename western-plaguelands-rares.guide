@@ -1,0 +1,190 @@
+# Western Plaguelands - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 10 shippable rares and the fixed world
+# containers of the Western Plaguelands. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is
+# not up never holds the route. Spawn points and levels are the local
+# Forever game data (questie-forever); signature drops are items whose SOLE
+# dropper anywhere in the data is the rare. Ordinary goods and generic
+# multi-zone world drops get a note, not a goal. No tame lines ship (the
+# data has no tameability flag and no rare here presents beast-drop evidence
+# with a core-guide beast-family kill to corroborate - see
+# docs/companion-unverified.md). Respawn timers are unconfirmed anywhere, so
+# none are stated. Lord Darkscythe is also a core-quest target (9126); his
+# step points at the core guide and never accepts. Quest-owned containers
+# (doll parts, skull, sword, chest, receipt book) live in the core guide -
+# see docs/western-plaguelands-companions-inventory.md for the full inventory. This
+# guide never accepts or turns in.
+guide butler-routes-completionist/western-plaguelands-rares
+title Western Plaguelands - Rares & Treasures
+levels 50-58
+zone Western Plaguelands
+faction Alliance
+category Collectibles
+folder Companions
+keywords western plaguelands, rares, treasures, companions
+coords live
+version 1
+
+step Duggan Wildhammer - the western wilds
+
+  zone map 1423
+
+  loop
+  goto 9.72,61.39
+  goto 12.67,51.75
+  goto 18.2,68.53
+  goto 23.6,65.02
+  goto 31.22,52.4
+  goto 32.52,52.85
+  goto 33.7,59.69
+  kill 10817 optional
+  note Level 55 rare dwarf ranging the western wilds; no sole drop in the data, so there is nothing signature to chase. He is Alliance-aligned in the data; the step states that and takes no position beyond it.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Baron Bloodbane - the northern road
+
+  zone map 1423
+
+  goto 39.4,27
+  kill 10819 optional
+  collect 2043 "Ring of Forlorn Spirits" optional
+  collect 16999 "Royal Seal of Alexis" optional
+  note Level 45 rare on the northern road - gray at band, a quick stop on the way past. Both drops are sole-source in the data (Ring 20%, Seal 60%) and neither is used by any quest in the data: pure loot.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Lord Darkscythe - the north field
+
+  zone map 1423
+
+  goto 21.95,25.76
+  kill 10826 optional
+  collect 16039 "Ta'Kierthan Songblade" optional
+  note Level 57 rare in the north field; its sole drop is the Ta'Kierthan Songblade (50%), used by no quest in the data. This is also the kill point of core-contracted 9126 (Bonescythe Digs) - the core guide owns that quest, this step never accepts it.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Warlord Thresh'jin - the far north
+
+  zone map 1423
+
+  goto 63.33,8.81
+  kill 10822 optional
+  note Level 58 rare troll at the far north edge; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Zul'Brin Warpbranch - the northeast corner
+
+  zone map 1423
+
+  goto 63.31,11.45
+  kill 10823 optional
+  note Level 59 rare troll in the northeast corner; come back at 59 or later. No sole drop in the data.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Ranger Lord Hawkspear - Quel'Lithien edge
+
+  zone map 1423
+
+  goto 45.28,12.86
+  kill 10824 optional
+  note Level 60 rare elf at the Quel'Lithien edge; come back at 60 or later. He is Alliance-aligned in the data; the step states that and takes no position beyond it. No sole drop in the data.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Hed'mush the Rotting - the plague field
+
+  zone map 1423
+
+  loop
+  goto 34.02,64.1
+  goto 48.16,18.65
+  goto 58.13,40.72
+  goto 59.49,42.2
+  kill 10821 optional
+  note Level 57 rare roaming the plague field; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Gish the Unmoving - the east rise
+
+  zone map 1423
+
+  goto 65.23,43.94
+  kill 10825 optional
+  note Level 56 rare on the east rise; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Deathspeaker Selendre - the southeast shore
+
+  zone map 1423
+
+  goto 75.42,36.98
+  kill 10827 optional
+  note Level 56 rare on the southeast shore; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step High General Abbendis - Tyr's Hand
+
+  zone map 1423
+
+  goto 77.99,74.12
+  kill 10828 optional
+  note Level 59 rare elite at Tyr's Hand; come back at 59 or later. No sole drop in the data.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Fixed containers - Solid Chests west
+
+  zone map 1423
+
+  loop
+  goto 22.64,23.18
+  goto 22.73,72.88
+  goto 32.68,79.31
+  goto 34.0,64.42
+  goto 34.22,26.59
+  goto 51.56,56.62
+  goto 51.59,60.25
+  goto 53.33,58.06
+  interact 153453 optional
+  note Eight fixed Solid Chest points in the west; no contents listed in the data, interact-only. Quest-owned containers (doll parts, skull, sword, chest, receipt book) live in the core guide.
+
+step Fixed containers - Solid Chests east
+
+  zone map 1423
+
+  loop
+  goto 33.67,40.01
+  goto 33.78,44.5
+  goto 35.99,41.33
+  goto 55.41,17.46
+  goto 59.27,39.45
+  goto 61.13,24.0
+  goto 61.89,8.11
+  goto 63.33,23.37
+  goto 63.78,12.48
+  goto 68.66,64.96
+  goto 71.11,72.98
+  goto 73.15,31.23
+  goto 73.31,67.62
+  goto 73.44,72.66
+  goto 73.49,74.41
+  goto 75.69,38.03
+  goto 76.59,31.77
+  interact 153454 optional
+  note Seventeen fixed Solid Chest points in the east; no contents listed in the data, interact-only.
+
+step Fixed containers - Scarlet Footlockers
+
+  zone map 1423
+
+  loop
+  goto 68.07,68.37
+  goto 68.48,64.91
+  goto 69.43,69.14
+  goto 70.86,72.25
+  goto 72.14,68.21
+  goto 72.93,71.43
+  goto 74.14,69.23
+  goto 74.55,67.97
+  goto 76.72,69.44
+  goto 77.38,74.41
+  interact 179498 optional
+  note Ten fixed Scarlet Footlocker points around Tyr's Hand; no contents listed in the data, interact-only.
+
