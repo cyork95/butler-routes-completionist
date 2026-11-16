@@ -475,7 +475,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [x] Lint/playtest clean (0 errors; XP-noise + structural + sourceless-craft warnings argued)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (11 rares + 4 fixed-container loops + 2 singles; 10 recipes: 1 vendor, 9 drop)
 
 ### Deadwind Pass — contested (Eastern Kingdoms)
 

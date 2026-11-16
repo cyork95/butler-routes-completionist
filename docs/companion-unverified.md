@@ -610,3 +610,15 @@ as above: game-data citation or a named source.
 ## Eastern Plaguelands tame lines (pack 0.76.0)
 
 - None of the 11 shipped rares carries a tame line. NPC records have no family flag, so beast status is unassessable from data. Ten are humanoid/undead by name and structure (Scarlet humanoids, Lord Maldazzar, Putridius, The Husk). Foulmane (1847, level 52, 46.27,52.43) is the only possibly-tameable-shaped name, but it presents no beast-drop evidence (table is generic greens plus food/scroll consumables) with a core-guide beast-family kill to corroborate (no core quest targets Foulmane or an asserted same family), so no tame line ships. Revisit if a family flag or tame evidence appears.
+
+## Burning Steppes tame lines (pack 0.78.0)
+
+- None of the 11 shipped rares carries a tame line. NPC records have no family flag, so beast status is unassessable from data; the core guide sends the player to kill dragonkin, orcs, ogres and elementals, none of them a tameable beast family matching any rare. Kazon (584), Hahk'Zor (9602), Gorgon'och (9604), Deathmaw (10077), Terrorspark (10078) and Volchan (10119) are the plausibly-beast-shaped names, but none presents drop evidence for the beast plus a core-guide beast-family kill to corroborate, so no tame line ships. Hematos, Balgarr and Gruklash read humanoid/ogre; the Reaver (8981) is mechanical; the Quartermaster (9046) is humanoid. Revisit if a family flag or tame evidence appears.
+
+## Burning Steppes generic-drop exclusions (pack 0.78.0)
+
+- ~150 in-zone-dropping recipes are generic multi-zone world drops (hundreds of droppers each at 0.02%) and ship nowhere per the Elwynn rule. 11615 Plans: Dark Iron Shoulders (14 droppers) is not narrow enough to be zone content. 223163 Formula: Scroll of Spatial Mending (4 Fel Interloper droppers across 9 zones: 1425/1427/1428/1432/1433/1434/1446/1447/1452) is multi-zone, not narrow. Quest-reward recipes are unverifiable as a class (quest records carry no reward data).
+
+## Burning Steppes stock class and timers (pack 0.78.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so the Yuka buy carries no limited marking; stock class is unconfirmed. No respawn data for any rare or container exists in the local build; every step says the timer is unconfirmed.

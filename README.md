@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.77.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.78.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -111,6 +111,8 @@ Status: **in development (pack v0.77.0), not published yet**. The first release 
 | western-plaguelands.guide (Set 6 core built, pilot pending) | Western Plaguelands | 50-58 | Alliance |
 | eastern-plaguelands.guide (Set 6 core built, pilot pending) | Eastern Plaguelands | 50-60 | Alliance |
 | burning-steppes.guide (Set 6 core built, pilot pending) | Burning Steppes | 48-60 | Alliance |
+| urning-steppes-rares.guide (companion built, pilot pending) | Burning Steppes rares and treasures | 48-60 | Alliance |
+| urning-steppes-recipes.guide (companion built, pilot pending) | Burning Steppes recipe sources | 48-60 | Alliance |
 
 Each quest guide takes every quest on the zone's tracker list exactly once: 145 accepts / 145 turn-ins for Zephras Isle, 83 / 83 for Elwynn Forest, 43 / 43 for Westfall, 105 / 105 for Dun Morogh, 41 / 41 for Loch Modan, 96 / 96 for Teldrassil, 74 / 74 for Darkshore, 189 / 189 for Stormwind City, and 188 accepts / 186 turn-ins for Ironforge (two contracted quests have no turn-in in the data and ship accept-only with a note). Class quests for other classes are included and gated with `only`, so they never show for a character they are not for.
 
