@@ -10307,6 +10307,275 @@
           "name": "Craftsman's Writ: Turtle Scale Breastplate"
         }
       ]
+    },
+    {
+      "id": "western-plaguelands",
+      "name": "Western Plaguelands",
+      "order": 38,
+      "levelBand": "50-58",
+      "summary": "Alliance route: Darrowshire chain out of Pamela/Carlin, Light’s Hope Argent hub with Stratholme/Scholomance dungeon legs, Aurora Skycaller chain with Azshara/Feralas/Darnassus expedition legs, Menethil chain exiting to Andorhal, Anthion tier-0.5 chain with Ironforge turn-ins, armor-scrap heads, world-drop Front letters, and the northwest roaming quests.",
+      "quests": [
+        {
+          "id": 5149,
+          "name": "Pamela's Doll"
+        },
+        {
+          "id": 5152,
+          "name": "Auntie Marlene"
+        },
+        {
+          "id": 5168,
+          "name": "Heroes of Darrowshire"
+        },
+        {
+          "id": 5181,
+          "name": "Villains of Darrowshire"
+        },
+        {
+          "id": 5206,
+          "name": "Marauders of Darrowshire"
+        },
+        {
+          "id": 5211,
+          "name": "Defenders of Darrowshire"
+        },
+        {
+          "id": 5241,
+          "name": "Uncle Carlin"
+        },
+        {
+          "id": 5941,
+          "name": "Return to Chromie"
+        },
+        {
+          "id": 5942,
+          "name": "Hidden Treasures"
+        },
+        {
+          "id": 5212,
+          "name": "The Flesh Does Not Lie"
+        },
+        {
+          "id": 5213,
+          "name": "The Active Agent"
+        },
+        {
+          "id": 5214,
+          "name": "The Great Ezra Grimm"
+        },
+        {
+          "id": 5243,
+          "name": "Houses of the Holy"
+        },
+        {
+          "id": 5251,
+          "name": "The Archivist"
+        },
+        {
+          "id": 5262,
+          "name": "The Truth Comes Crashing Down"
+        },
+        {
+          "id": 5263,
+          "name": "Above and Beyond"
+        },
+        {
+          "id": 5264,
+          "name": "Lord Maxwell Tyrosus"
+        },
+        {
+          "id": 5265,
+          "name": "The Argent Hold"
+        },
+        {
+          "id": 5246,
+          "name": "Fragments of the Past"
+        },
+        {
+          "id": 5247,
+          "name": "Fragments of the Past"
+        },
+        {
+          "id": 5248,
+          "name": "Tormented By the Past"
+        },
+        {
+          "id": 5503,
+          "name": "Argent Dawn Commission"
+        },
+        {
+          "id": 5513,
+          "name": "Mantles of the Dawn"
+        },
+        {
+          "id": 5517,
+          "name": "Chromatic Mantle of the Dawn"
+        },
+        {
+          "id": 5529,
+          "name": "Plagued Hatchlings"
+        },
+        {
+          "id": 5531,
+          "name": "Betina Bigglezink"
+        },
+        {
+          "id": 4771,
+          "name": "Dawn's Gambit"
+        },
+        {
+          "id": 5463,
+          "name": "Menethil's Gift"
+        },
+        {
+          "id": 5464,
+          "name": "Menethil's Gift"
+        },
+        {
+          "id": 5465,
+          "name": "Soulbound Keepsake"
+        },
+        {
+          "id": 8945,
+          "name": "Dead Man's Plea"
+        },
+        {
+          "id": 8946,
+          "name": "Proof of Life"
+        },
+        {
+          "id": 8947,
+          "name": "Anthion's Strange Request"
+        },
+        {
+          "id": 8948,
+          "name": "Anthion's Old Friend"
+        },
+        {
+          "id": 8951,
+          "name": "Anthion's Parting Words"
+        },
+        {
+          "id": 8952,
+          "name": "Anthion's Parting Words"
+        },
+        {
+          "id": 8953,
+          "name": "Anthion's Parting Words"
+        },
+        {
+          "id": 8954,
+          "name": "Anthion's Parting Words"
+        },
+        {
+          "id": 8955,
+          "name": "Anthion's Parting Words"
+        },
+        {
+          "id": 8956,
+          "name": "Anthion's Parting Words"
+        },
+        {
+          "id": 8958,
+          "name": "Anthion's Parting Words"
+        },
+        {
+          "id": 8959,
+          "name": "Anthion's Parting Words"
+        },
+        {
+          "id": 9015,
+          "name": "The Challenge"
+        },
+        {
+          "id": 9141,
+          "name": "They Call Me \"The Rooster\""
+        },
+        {
+          "id": 9124,
+          "name": "Cryptstalker Armor Doesn't Make Itself..."
+        },
+        {
+          "id": 9126,
+          "name": "Bonescythe Digs"
+        },
+        {
+          "id": 9128,
+          "name": "The Elemental Equation"
+        },
+        {
+          "id": 9131,
+          "name": "Binding the Dreadnaught"
+        },
+        {
+          "id": 9136,
+          "name": "Savage Flora"
+        },
+        {
+          "id": 9295,
+          "name": "Letter from the Front"
+        },
+        {
+          "id": 9299,
+          "name": "Note from the Front"
+        },
+        {
+          "id": 9300,
+          "name": "Page from the Front"
+        },
+        {
+          "id": 9301,
+          "name": "Envelope from the Front"
+        },
+        {
+          "id": 9302,
+          "name": "Missive from the Front"
+        },
+        {
+          "id": 9304,
+          "name": "Document from the Front"
+        },
+        {
+          "id": 9247,
+          "name": "The Keeper's Call"
+        },
+        {
+          "id": 6021,
+          "name": "Zaeldarr the Outcast"
+        },
+        {
+          "id": 6024,
+          "name": "Hameya's Plea"
+        },
+        {
+          "id": 6026,
+          "name": "That's Asking A Lot"
+        },
+        {
+          "id": 6041,
+          "name": "When Smokey Sings, I Get Violent"
+        },
+        {
+          "id": 6164,
+          "name": "Augustus' Receipt Book"
+        },
+        {
+          "id": 84318,
+          "name": "Oi!"
+        },
+        {
+          "id": 84330,
+          "name": "A Wee Bit O' Necromancy"
+        },
+        {
+          "id": 5281,
+          "name": "The Restless Souls"
+        },
+        {
+          "id": 5282,
+          "name": "The Restless Souls"
+        }
+      ]
     }
   ]
 }
