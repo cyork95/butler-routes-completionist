@@ -1,0 +1,501 @@
+# Western Plaguelands - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics and formulae whose SOURCE is physically
+# in the Western Plaguelands, verified against the local Forever game data
+# (questie-forever item drop tables). No recipe vendor spawns in the zone - all
+# sixteen ship as drop collects off narrow in-zone droppers. Every other
+# in-zone-dropping recipe is a generic multi-zone world drop, and quest records
+# carry no reward data (see docs/companion-unverified.md). Trainer-taught staples
+# are excluded: Polestar's own profession guides cover those. Each step is gated
+# to its profession; other characters skip it cleanly. First Aid and Fishing have
+# no Western Plaguelands source, so that is stated, not padded.
+guide butler-routes-completionist/western-plaguelands-recipes
+title Western Plaguelands - Recipes
+levels 50-58
+zone Western Plaguelands
+faction Alliance
+category Professions
+folder Companions
+keywords western plaguelands, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Tyr's Hand scarlets - the Sages elixir (Alchemy)
+
+  zone map 1423
+
+  when skill Alchemy 1
+
+  loop
+  goto 59.32,71.07
+  goto 59.59,71.79
+  goto 67.36,65.15
+  goto 67.90,69.05
+  goto 67.99,71.13
+  goto 68.35,63.50
+  goto 68.76,70.61
+  goto 68.86,66.73
+  goto 69.44,67.36
+  goto 69.86,69.73
+  goto 70.24,72.97
+  goto 70.26,71.36
+  goto 70.58,72.16
+  goto 71.31,73.69
+  goto 71.65,72.04
+  goto 73.29,72.77
+  goto 73.36,68.41
+  goto 73.59,65.88
+  goto 73.65,66.66
+  goto 73.95,67.54
+  goto 74.08,69.32
+  goto 74.19,65.42
+  goto 74.91,66.44
+  goto 74.99,68.86
+  goto 74.46,74.55
+  goto 75.20,74.60
+  goto 75.35,73.78
+  goto 75.73,71.01
+  goto 76.07,68.18
+  goto 76.31,71.06
+  goto 76.41,70.24
+  goto 76.69,73.79
+  goto 76.94,74.87
+  goto 76.97,70.21
+  goto 77.28,68.93
+  goto 77.44,73.79
+  goto 77.90,73.33
+  goto 74.89,72.42
+  goto 75.08,73.92
+  goto 75.47,70.89
+  goto 75.88,74.58
+  goto 76.22,71.05
+  goto 76.57,69.35
+  goto 76.72,73.69
+  goto 76.84,74.85
+  goto 77.36,73.49
+  goto 77.45,70.80
+  goto 59.22,71.25
+  goto 59.65,71.88
+  goto 67.95,69.95
+  goto 67.99,68.29
+  goto 69.09,68.87
+  goto 69.16,74.04
+  goto 70.78,71.40
+  goto 70.89,73.33
+  goto 71.92,71.96
+  goto 72.00,70.28
+  goto 72.07,67.96
+  goto 72.56,70.12
+  goto 72.72,66.63
+  goto 72.90,71.30
+  goto 73.13,72.66
+  goto 73.20,67.78
+  goto 73.40,66.88
+  goto 73.52,74.03
+  goto 73.54,65.97
+  goto 73.57,70.23
+  goto 74.05,67.00
+  goto 74.46,68.20
+  goto 74.54,63.41
+  goto 75.31,64.15
+  goto 70.83,73.29
+  goto 70.99,72.93
+  kill 9449 optional
+  kill 9450 optional
+  kill 9451 optional
+  kill 9452 optional
+  kill 15162 optional
+  collect 13479 "Recipe: Elixir of the Sages" optional
+  note Five Tyr's Hand scarlets share this drop (Cleric 54, Curate 55, Archmage 55, Enchanter 53, Inquisitor 61). No quest takes the recipe in the data.
+  note Respawn timer unconfirmed.
+
+step Tyr's Hand - the Superior Spirit formula (Enchanting)
+
+  zone map 1423
+
+  when skill Enchanting 1
+
+  loop
+  goto 58.73,72.37
+  goto 59.87,70.37
+  goto 60.18,72.19
+  goto 67.68,70.95
+  goto 67.81,68.42
+  goto 68.14,72.56
+  goto 68.53,65.94
+  goto 68.54,67.43
+  goto 68.80,70.18
+  goto 69.73,74.77
+  goto 70.28,69.93
+  goto 70.45,68.72
+  goto 71.02,72.42
+  goto 71.26,73.66
+  goto 71.34,71.01
+  goto 72.03,68.07
+  goto 72.78,69.32
+  goto 72.80,71.99
+  goto 73.18,67.69
+  goto 73.45,73.93
+  goto 73.63,64.57
+  goto 74.12,67.11
+  goto 74.18,69.34
+  goto 74.89,65.45
+  kill 9447 optional
+  collect 16222 "Formula: Enchant Shield - Superior Spirit" optional
+  note The Scarlet Warder (level 53) at Tyr's Hand is the sole dropper anywhere in the data. No quest takes the formula in the data.
+  note Respawn timer unconfirmed.
+
+step Tyr's Hand - the Major Mana formula (Enchanting)
+
+  zone map 1423
+
+  when skill Enchanting 1
+
+  loop
+  goto 59.22,71.25
+  goto 59.65,71.88
+  goto 67.95,69.95
+  goto 67.99,68.29
+  goto 69.09,68.87
+  goto 69.16,74.04
+  goto 70.78,71.40
+  goto 70.89,73.33
+  goto 71.92,71.96
+  goto 72.00,70.28
+  goto 72.07,67.96
+  goto 72.56,70.12
+  goto 72.72,66.63
+  goto 72.90,71.30
+  goto 73.13,72.66
+  goto 73.20,67.78
+  goto 73.40,66.88
+  goto 73.52,74.03
+  goto 73.54,65.97
+  goto 73.57,70.23
+  goto 74.05,67.00
+  goto 74.46,68.20
+  goto 74.54,63.41
+  goto 75.31,64.15
+  kill 9452 optional
+  collect 16242 "Formula: Enchant Chest - Major Mana" optional
+  note The Scarlet Enchanter (level 53) at Tyr's Hand is the sole dropper anywhere in the data. No quest takes the formula in the data.
+  note Respawn timer unconfirmed.
+
+step Tyr's Hand - the Crusader formula (Enchanting)
+
+  zone map 1423
+
+  when skill Enchanting 1
+
+  loop
+  goto 74.89,72.42
+  goto 75.08,73.92
+  goto 75.47,70.89
+  goto 75.88,74.58
+  goto 76.22,71.05
+  goto 76.57,69.35
+  goto 76.72,73.69
+  goto 76.84,74.85
+  goto 77.36,73.49
+  goto 77.45,70.80
+  kill 9451 optional
+  collect 16252 "Formula: Enchant Weapon - Crusader" optional
+  note The Scarlet Archmage (level 55) at Tyr's Hand drops this; the only other dropper in the data spawns at the Scholomance door (map 1422), so this step hunts the in-zone one. No quest takes the formula in the data.
+  note Respawn timer unconfirmed.
+
+step Andorhal necromancers - the Shadow Protection potion (Alchemy)
+
+  zone map 1423
+
+  when skill Alchemy 1
+
+  loop
+  goto 32.29,41.23
+  goto 33.43,44.53
+  goto 33.62,40.24
+  goto 33.64,42.32
+  goto 33.65,44.87
+  goto 34.29,42.49
+  goto 34.77,45.61
+  goto 35.14,41.75
+  goto 35.92,44.84
+  goto 36.10,41.26
+  goto 36.13,39.39
+  goto 57.63,30.30
+  goto 58.26,29.68
+  goto 72.07,38.16
+  goto 73.07,35.06
+  goto 73.12,31.37
+  goto 73.52,32.28
+  goto 73.57,34.08
+  goto 75.44,35.55
+  goto 75.48,37.63
+  kill 8546 optional
+  kill 8550 optional
+  collect 13499 "Recipe: Greater Shadow Protection Potion" optional
+  note The Dark Adept and Shadowmage (both level 59) share this drop and nothing else in the data drops it; come back at 59 or later. No quest takes the recipe in the data.
+  note Respawn timer unconfirmed.
+
+step Scholomance shadow casters - Wizardweave Robe and Turban (Tailoring)
+
+  zone map 1423
+
+  when skill Tailoring 1
+
+  loop
+  goto 50.54,58.14
+  goto 51.33,57.25
+  goto 51.47,56.32
+  goto 51.60,60.12
+  goto 51.62,57.60
+  goto 52.20,59.67
+  goto 52.46,56.31
+  goto 53.85,56.48
+  kill 8526 optional
+  collect 14500 "Pattern: Wizardweave Robe" optional
+  collect 14505 "Pattern: Wizardweave Turban" optional
+  note The Dark Caster (level 56) is the sole dropper of both patterns anywhere in the data. No quest takes either pattern in the data.
+  note Respawn timer unconfirmed.
+
+step Scholomance summoners - Wizardweave Leggings (Tailoring)
+
+  zone map 1423
+
+  when skill Tailoring 1
+
+  loop
+  goto 22.69,29.18
+  goto 27.91,17.66
+  goto 34.90,30.60
+  goto 37.47,19.39
+  goto 52.03,59.31
+  goto 52.39,60.00
+  goto 52.68,60.08
+  goto 53.74,58.25
+  kill 8551 optional
+  collect 14485 "Pattern: Wizardweave Leggings" optional
+  note The Dark Summoner (level 55) is the sole dropper anywhere in the data. No quest takes the pattern in the data.
+  note Respawn timer unconfirmed.
+
+step Andorhal unseen - Ghostweave Gloves and Vest (Tailoring)
+
+  zone map 1423
+
+  when skill Tailoring 1
+
+  loop
+  goto 51.27,60.13
+  goto 52.20,53.21
+  goto 52.90,55.80
+  goto 53.04,58.10
+  goto 55.29,55.36
+  kill 8538 optional
+  collect 14477 "Pattern: Ghostweave Gloves" optional
+  collect 14480 "Pattern: Ghostweave Vest" optional
+  note The Unseen Servant (level 55) at Andorhal drops both; the Gloves also drop in Azshara, so this step hunts the in-zone one. No quest takes either pattern in the data.
+  note Respawn timer unconfirmed.
+
+step Plaguehounds - the Frost Power elixir (Alchemy)
+
+  zone map 1423
+
+  when skill Alchemy 1
+
+  loop
+  goto 16.32,16.68
+  goto 16.72,20.39
+  goto 18.91,28.03
+  goto 26.34,29.41
+  goto 26.39,33.96
+  goto 30.25,32.70
+  goto 38.81,31.74
+  goto 41.64,23.08
+  goto 43.84,33.69
+  goto 44.45,28.28
+  goto 49.05,37.67
+  goto 49.53,22.44
+  goto 50.49,14.40
+  goto 50.68,27.48
+  goto 54.49,23.41
+  goto 54.62,18.22
+  goto 55.19,39.41
+  goto 55.88,30.29
+  goto 57.28,36.36
+  goto 59.26,19.89
+  goto 60.27,28.84
+  goto 61.22,40.84
+  goto 61.71,36.49
+  goto 63.88,32.72
+  kill 8598 optional
+  collect 17709 "Recipe: Elixir of Frost Power" optional
+  note The Frenzied Plaguehound (level 57) is the sole dropper anywhere in the data. No quest takes the recipe in the data.
+  note Respawn timer unconfirmed.
+
+step Plaguebats - the Blessed Plate Belt (Blacksmithing)
+
+  zone map 1423
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 12.67,53.54
+  goto 13.48,67.43
+  goto 15.23,59.75
+  goto 17.98,52.10
+  goto 20.13,56.23
+  goto 20.27,79.86
+  goto 20.62,72.97
+  goto 23.85,60.49
+  goto 26.43,54.05
+  goto 27.76,73.02
+  goto 28.35,58.44
+  goto 30.01,64.24
+  goto 32.05,72.06
+  goto 34.33,57.58
+  goto 36.23,70.61
+  goto 38.24,65.70
+  goto 38.48,76.31
+  goto 40.06,59.32
+  goto 43.55,68.76
+  goto 47.80,64.37
+  goto 48.52,68.99
+  goto 53.44,74.84
+  goto 57.25,65.51
+  goto 64.95,71.82
+  kill 8600 optional
+  collect 251444 "Plans: Blessed Plate Belt" optional
+  note The Plaguebat (level 53) is the sole dropper anywhere in the data. No quest takes the plans in the data.
+  note Respawn timer unconfirmed.
+
+step Plaguebats - the Bat Hachee (Cooking)
+
+  zone map 1423
+
+  when skill Cooking 1
+
+  loop
+  goto 15.54,17.01
+  goto 15.64,28.97
+  goto 15.88,21.46
+  goto 24.99,33.90
+  goto 28.50,31.71
+  goto 37.51,34.93
+  goto 41.81,28.18
+  goto 42.91,18.77
+  goto 44.81,31.04
+  goto 44.89,36.19
+  goto 48.41,25.81
+  goto 48.59,34.72
+  goto 50.30,15.04
+  goto 52.47,23.04
+  goto 52.92,27.01
+  goto 54.27,40.14
+  goto 54.35,30.61
+  goto 55.35,19.69
+  goto 56.95,35.84
+  goto 58.41,22.87
+  goto 59.23,42.01
+  goto 61.27,31.38
+  goto 62.75,35.24
+  goto 66.58,26.63
+  kill 8602 optional
+  collect 250175 "Recipe: Bat Hachee" optional
+  note The Monstrous Plaguebat (level 56) is the sole dropper anywhere in the data. No quest takes the recipe in the data.
+  note Respawn timer unconfirmed.
+
+step Gargoyles - the Tooled Leather Bracers (Leatherworking)
+
+  zone map 1423
+
+  when skill Leatherworking 1
+
+  loop
+  goto 11.09,66.16
+  goto 13.42,55.96
+  goto 16.74,67.86
+  goto 18.72,12.45
+  goto 20.27,60.79
+  goto 21.14,78.22
+  goto 21.23,25.39
+  goto 29.80,70.59
+  goto 30.80,24.99
+  goto 31.02,61.83
+  goto 33.46,15.57
+  goto 35.06,26.31
+  goto 35.97,18.93
+  goto 36.45,65.52
+  goto 38.34,71.07
+  goto 39.82,59.85
+  goto 42.40,68.12
+  goto 42.70,50.54
+  goto 45.64,44.48
+  goto 50.35,68.05
+  goto 53.41,49.08
+  goto 55.57,73.65
+  goto 62.11,48.12
+  goto 68.77,55.79
+  kill 8534 optional
+  collect 252885 "Pattern: Tooled Leather Bracers" optional
+  note The Putrid Gargoyle (level 54) is the sole dropper anywhere in the data. No quest takes the pattern in the data.
+  note Respawn timer unconfirmed.
+
+step Mossflayers - the Scorpid Leggings (Leatherworking)
+
+  zone map 1423
+
+  when skill Leatherworking 1
+
+  loop
+  goto 22.26,72.45
+  goto 22.86,73.62
+  goto 22.92,73.07
+  goto 23.07,71.16
+  goto 23.20,74.89
+  goto 23.42,73.12
+  goto 23.92,72.38
+  goto 23.93,73.72
+  goto 24.56,72.58
+  kill 11291 optional
+  collect 252934 "Pattern: Charged Scorpid Leggings" optional
+  note The Unliving Mossflayer (level 53) is the sole dropper anywhere in the data. No quest takes the pattern in the data.
+  note Respawn timer unconfirmed.
+
+step Mossflayer hunters - the Arcanite Rifle (Engineering)
+
+  zone map 1423
+
+  when skill Engineering 1
+
+  loop
+  goto 56.61,15.41
+  goto 57.00,15.84
+  goto 57.31,16.26
+  goto 58.66,15.36
+  goto 59.97,14.18
+  goto 61.15,8.62
+  goto 61.30,13.66
+  goto 62.25,8.11
+  goto 62.31,10.29
+  goto 62.68,11.53
+  goto 62.71,13.24
+  goto 62.79,9.55
+  goto 62.84,7.99
+  goto 63.20,6.95
+  goto 63.50,7.36
+  goto 63.76,12.40
+  goto 63.86,10.52
+  goto 63.87,9.61
+  goto 63.87,10.06
+  goto 63.90,9.21
+  goto 64.27,8.55
+  goto 64.62,9.04
+  kill 8561 optional
+  collect 16056 "Schematic: Flawless Arcanite Rifle" optional
+  note The Mossflayer Shadowhunter (level 58) is the sole dropper anywhere in the data. No quest takes the schematic in the data.
+  note Respawn timer unconfirmed.
+
+step Professions with no Western Plaguelands source
+
+  zone map 1423
+
+  note First Aid and Fishing have no Western Plaguelands source in the data: no in-zone vendor sells either profession's recipes, and no in-zone mob drops them as zone-exclusive or narrow stock. Polestar's own profession guides cover those progressions.
+
