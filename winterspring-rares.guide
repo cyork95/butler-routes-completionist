@@ -1,0 +1,114 @@
+# Winterspring - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 7 rares and the fixed Solid Chests of
+# Winterspring. Run it in its own Polestar tab at the end of the core route
+# or standalone. EVERY goal is optional: a rare that is not up never holds
+# the route. Spawn points and levels are the local Forever game data
+# (questie-forever); signature drops are items whose SOLE dropper anywhere in
+# the data is the rare. Ordinary goods and generic multi-zone world drops get
+# a note, not a goal. Mezzir the Howler and Rak'shiri are beast-shaped but
+# carry no tame line: the data has no tameability flag and no contract quest
+# kills wolves or cats to corroborate, so both tame questions are logged in
+# docs/companion-unverified.md. Respawn timers are unconfirmed anywhere, so
+# none are stated. Core-quest and quest-start objects live in the core guide -
+# see docs/winterspring-companions-inventory.md for the full inventory. This
+# guide never accepts or turns in.
+guide butler-routes-completionist/winterspring-rares
+title Winterspring - Rares & Treasures
+levels 47-60
+zone Winterspring
+faction Alliance
+category Collectibles
+folder Companions
+keywords winterspring, rares, treasures, companions
+coords live
+version 1
+
+step General Colbatann - south of Mazthoril
+
+  zone map 1452
+
+  loop
+  goto 54.20,50.29
+  goto 55.34,49.81
+  goto 59.67,49.52
+  kill 10196 optional
+  note Level 57 rare elite south of Mazthoril; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Mezzir the Howler - east of the Winterfall village
+
+  zone map 1452
+
+  goto 45.03,37.37
+  kill 10197 optional
+  note Level 55 rare east of the Winterfall village; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed. The tame question (wolf) is logged in docs/companion-unverified.md.
+
+step Kashoch the Reaver - the far south
+
+  zone map 1452
+
+  goto 63.36,70.19
+  kill 10198 optional
+  note Level 60 rare elite in the far south, at the top of the band; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Grizzle Snowpaw - the eastern furbolgs
+
+  zone map 1452
+
+  goto 66.90,35.60
+  kill 10199 optional
+  collect 284268 "Furbolg Shaman's Girdle" optional
+  note Level 59 rare with the eastern furbolgs; the Girdle comes only from Grizzle anywhere in the data.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Rak'shiri - the northern edge
+
+  zone map 1452
+
+  goto 51.13,10.81
+  kill 10200 optional
+  note Level 57 rare on the northern edge; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed. The tame question (cat) is logged in docs/companion-unverified.md.
+
+step Lady Hederine - the deep south (come back later)
+
+  zone map 1452
+
+  goto 65.03,80.28
+  kill 10201 optional
+  note Level 61 rare elite in the deep south, one level above the band: bank it and come back at 61; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Azurous - southeast of the Altar
+
+  zone map 1452
+
+  goto 66.74,53.81
+  kill 10202 optional
+  collect 284261 "Magically Fortified Legguards" optional
+  note Level 59 rare elite southeast of the Altar of Elune; the Legguards come only from Azurous anywhere in the data.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Solid Chests - fixed placements
+
+  zone map 1452
+
+  loop
+  goto 29.27,46.90
+  goto 30.50,35.71
+  goto 33.09,36.69
+  goto 39.66,43.13
+  goto 41.51,42.52
+  goto 46.02,35.97
+  goto 53.02,40.48
+  goto 55.84,44.69
+  goto 66.36,35.89
+  goto 66.64,37.06
+  goto 67.63,35.28
+  goto 68.08,36.70
+  goto 71.30,81.90
+  interact 153454 optional
+  interact 153453 optional
+  note The zone's generic chests: Solid Chests at fixed placements (two chest objects sharing the name, thirteen points between them). Loot is level-appropriate coin and goods; respawn timer unconfirmed.
