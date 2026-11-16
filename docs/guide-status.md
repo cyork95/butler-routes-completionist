@@ -526,6 +526,324 @@ _No public rare data yet — its census leans on game data._
 - [ ] Pilot fixes landed
 - [ ] Companions
 
+## The Horde block — Horde sides, Horde cities, and addenda
+
+_Per Cody's build order, the Horde block runs last: the Horde starting zones (tracked in their own sections above — Durotar, Mulgore, Tirisfal Glades, the Zephras Isle twin) plus ALL the Horde guides below. Every Horde guide is its own file and its own contract (the Silverpine precedent: `silverpine.guide` for the Horde route, `silverpine-alliance.guide` for the other faction's piece) — never merged into the Alliance file. Each Horde census reconciles against the set-aside IDs its zone's Alliance census banked. The Horde heartland zones written Horde-first (Silverpine Forest, The Barrens) are tracked in their own sections above. **Blasted Lands has NO Horde side** — its census proved zero Horde quests in the data, double-evidenced — so it has no section here._
+
+### Orgrimmar — Horde capital
+
+_City guide per the Alliance city pattern: a census + compact core for the quests that accept inside the city. Companions only where the data warrants._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions (only where the data warrants)
+
+### Thunder Bluff — Horde capital
+
+_City guide per the Alliance city pattern: a census + compact core for the quests that accept inside the city. Companions only where the data warrants._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions (only where the data warrants)
+
+### Undercity — Horde capital
+
+_City guide per the Alliance city pattern: a census + compact core for the quests that accept inside the city. Companions only where the data warrants._
+
+- [ ] Census
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions (only where the data warrants)
+
+### Ashenvale — Horde
+
+- [ ] Census (reconcile against 39 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Stonetalon Mountains — Horde
+
+- [ ] Census (reconcile against 32 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Duskwood — Horde
+
+- [ ] Census (reconcile against 5 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Stranglethorn Vale — Horde
+
+- [ ] Census (reconcile against 39 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Riverglades — Horde
+
+- [ ] Census (reconcile against 66 set-asides banked by the Alliance census — the mirrored hub chains)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Thousand Needles — Horde
+
+- [ ] Census (reconcile against 27 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Desolace — Horde
+
+- [ ] Census (reconcile against 29 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Hillsbrad Foothills — Horde
+
+- [ ] Census (reconcile against 10 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Arathi Highlands — Horde
+
+- [ ] Census (reconcile against 50 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Alterac Mountains — Horde
+
+- [ ] Census (reconcile against 67 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Dustwallow Marsh — Horde
+
+- [ ] Census (reconcile against 15 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Feralas — Horde
+
+- [ ] Census (reconcile against 41 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Tanaris — Horde
+
+- [ ] Census (reconcile against 10 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Badlands — Horde
+
+- [ ] Census (reconcile against 35 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Searing Gorge — Horde
+
+- [ ] Census (reconcile against 19 set-asides banked by the Alliance census — 18 of them accept in the Badlands at Kargath)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Felwood — Horde
+
+- [ ] Census (reconcile against 21 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Azshara — Horde
+
+- [ ] Census (reconcile against 30 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Un'Goro Crater — Horde
+
+- [ ] Census (reconcile against 8 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Swamp of Sorrows — Horde
+
+- [ ] Census (reconcile against 17 set-asides banked by the Alliance census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### The Hinterlands — Horde
+
+- [ ] Census (reconcile against 25 set-asides banked by the Alliance census — the Revantusk block)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Wetlands — Horde
+
+- [ ] Census (reconcile against a single set-aside banked by the Alliance census (95682) — the census decides whether it ships as a micro-addendum rather than a full guide)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Moonglade — Horde (Druid)
+
+- [ ] Census (reconcile against 18 Horde druid set-asides banked by the Moonglade census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Western Plaguelands — Horde
+
+- [ ] Census (set-asides counted when the zone's Alliance census runs)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Eastern Plaguelands — Horde
+
+- [ ] Census (set-asides counted when the zone's Alliance census runs)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Burning Steppes — Horde
+
+- [ ] Census (set-asides counted when the zone's Alliance census runs)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Deadwind Pass — Horde
+
+- [ ] Census (set-asides counted when the zone's Alliance census runs)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Winterspring — Horde
+
+- [ ] Census (set-asides counted when the zone's Alliance census runs)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Silithus — Horde
+
+- [ ] Census (set-asides counted when the zone's Alliance census runs)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Mount Hyjal — Horde
+
+- [ ] Census (set-asides counted when the zone's Alliance census runs)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### Shen'dralas — Horde
+
+- [ ] Census (set-asides counted when the zone's Alliance census runs)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
+### The Barrens — Alliance addendum
+
+_The mirror of the Silverpine Alliance addendum: the Alliance quests the Barrens' Horde census set aside._
+
+- [ ] Census (reconcile against 17 set-asides banked by the Barrens census)
+- [ ] Core guide
+- [ ] Lint/playtest clean
+- [ ] Cody pilot
+- [ ] Pilot fixes landed
+- [ ] Companions
+
 ---
 
 ## Beyond v1.0 — every other open-world zone
