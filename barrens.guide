@@ -1,0 +1,1127 @@
+# The Barrens - Completionist (pack butler-routes-completionist, v1).
+# The pack's second HORDE route and its first large heartland zone: every
+# Barrens accept in the local census (157 quests, docs/barrens-census.md)
+# appears exactly once as an accept and once as a turnin. Band 10-25 by
+# minLevel cluster (zone id 1413, order 35). Ratchet sits on the zone map
+# (the Booty Bay precedent) so its accepts are zone content. 17 Alliance
+# set-asides, 56 above-band records, 46 repeatable/battleground records and
+# the broken/seasonal/out-of-zone rest are out with reasons in the census.
+# 1144 Willix the Importer is OUT: its giver has no placed spawn anywhere
+# and its objective is the in-instance Razorfen Kraul escape.
+# No race header: Tauren, Orc, Troll and Undead all play this route, with
+# per-line gates where the data is exclusive - only Tauren on 854/6361/
+# 6362, only Orc,Troll on 6365/6384, only Druid,Tauren on 6128. Class
+# gates ride the data: only Warrior on the Thun'grim/Ruga line, only
+# Rogue on 2381/2478, only Shaman on the Telf/Islen/Brine lines, only
+# Druid on 6128/6129, only Warlock on the Dogran chain and 1740. The
+# hunter chain (Sergra/Jorn) carries no class gate in the data, and
+# neither does Ak'Zeloth's line - both ship ungated per the data-wins
+# rule. One profession quest: 866 Root Samples (skill 182 Herbalism),
+# optional and when-skill gated. Soft-pre accepts whose blocking
+# pre-quest sits outside the contract carry a note at the accept (860
+# Mulgore for 844, 773 Mulgore for 775, 840 Durotar for 842, 809
+# Orgrimmar for 924, 1061 Orgrimmar for 1062, 1094 Stonetalon for 1095,
+# 1509 Orgrimmar for 1510, 1511 Stonetalon for 1515, 1517 Durotar for
+# 1518, 1520 Mulgore for 1521, 1522/1523/2983/2984 Orgrimmar/Durotar/
+# Mulgore for 1524, 1528/1529/2985/2986 Orgrimmar/Mulgore for 1530,
+# 1823 Orgrimmar for 1824, 2382 Orgrimmar for 2381, 2458 Orgrimmar for
+# 2478, 3513 Ashenvale for 3514, 6127 Moonglade for 6128, 6523
+# Stonetalon for 6401, 6542 Stonetalon for 6543, 79008 Hillsbrad for
+# 79192, 100 Silverpine for 96); their turn-ins stand alone in when
+# onquest mini-steps. R2 bag-note records (no source anywhere in the
+# data): 6981's Shard (Mutanus unplaced), 91899's crate, 4021's banner,
+# 1221's tubers, 1740's fragments, 6543's Warsong updates, 1838's vial
+# (Roogug unplaced). R5: 1838's turnin is optional - its Iron Bars are
+# crafted and its vial has no placed source. Dungeon work (1487, and
+# 1486's Ravagers) rides bare completes at the Wailing Caverns mouth
+# with a note - the data places no spawns for those mobs. No loop steps:
+# every placed complete rides data-placed coordinates. Expedition
+# turn-ins and legs: Thunder Bluff, Orgrimmar, Undercity, Durotar,
+# Mulgore, Ashenvale, Stonetalon, Thousand Needles, Hillsbrad,
+# Silverpine, Moonglade and Westfall.
+guide butler-routes-completionist/the-barrens
+title The Barrens - Completionist
+levels 10-25
+zone The Barrens
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Crossroads - the hub
+
+  zone map 1413
+
+  note The Crossroads holds the route's hub: Sergra Darkthorn (52.23,31.01), Thork (51.5,30.87), Darsok Swiftdagger (51.62,30.9), Tonga Runetotem (52.26,31.93), Korran (51.07,29.63), Gazrog (51.93,30.32), Apothecary Helbrim (51.44,30.15), Mankrik (51.95,31.58), Jahan Hawkwing (51.21,29.05), Zargh (52.62,29.84), Devrak (51.5,30.34), Gur'ak (52.65,29.06) and Grub (55.31,31.79).
+  accept 854 only Tauren -- Journey to the Crossroads - Kirge Sternhorn; Thork's word at the Crossroads, FIRST (Journey is not offered once 844 below is in the log - Crossroads return below)
+  accept 844 -- Plainstrider Menace - Sergra Darkthorn; plainstrider beaks, west savannah (note 860 Sergra Darkthorn accepts in Mulgore, not contracted here - the turn-in rides the mini-step below)
+  accept 871 -- Disrupt the Attacks - Thork; Razormane water seekers, thornweavers and hunters east
+  accept 867 -- Harpy Raiders - Darsok Swiftdagger; witchwing talons, north-west rock
+  accept 870 -- The Forgotten Pools - Tonga Runetotem; the waters west at the Forgotten Pools
+  accept 868 -- Egg Hunt - Korran; silithid eggs and a digging claw, far south hives
+  accept 869 -- Raptor Thieves - Gazrog; raptor heads, west and north savannah
+  accept 848 -- Fungal Spores - Apothecary Helbrim; laden mushrooms, north-west flats
+  accept 899 -- Consumed by Hatred - Mankrik; bristleback tusks, south quilboar country
+  accept 4921 -- Lost in Battle - Mankrik; the Beaten Corpse, south-center flats
+  accept 5041 -- Supplies for the Crossroads - Thork; supply crates, Razormane east camp
+  accept 97003 -- Chol'aruk the Ravener - Gur'ak; Chol'aruk's head, east flats
+  accept 1510 only Warlock -- News of Dogran - Gazrog; Ken'zigla's word at Malaka'jin (note 1509 accepts in Orgrimmar, not contracted here - the turn-in rides the mini-step below)
+  accept 6361 only Tauren -- A Bundle of Hides - Jahan Hawkwing; the bundle to Devrak
+  turnin 6361 only Tauren -- A Bundle of Hides - the bundle to Devrak
+  accept 6362 only Tauren -- Ride to Thunder Bluff - Devrak; wind rider to Thunder Bluff, bundle to Ahanu (Thunder Bluff expedition below)
+  accept 6365 only Orc,Troll -- Meats to Orgrimmar - Zargh; the meats to Devrak
+  turnin 6365 only Orc,Troll -- Meats to Orgrimmar - the meats to Devrak
+  accept 6384 only Orc,Troll -- Ride to Orgrimmar - Devrak; wind rider to Orgrimmar, meats to Gryshka (Orgrimmar expedition below)
+  accept 862 -- optional - Dig Rat Stew - Grub; dig rats at Bael Modan, far south (Bael Modan leg below)
+  accept 1492 -- Wharfmaster Dizzywig - Apothecary Helbrim; the secure crate to Dizzywig in Ratchet (Ratchet return below)
+  accept 6541 -- Report to Kadrak - Thork; report to Kadrak at the north watch tower
+
+step West - Kolkar and the Pools
+
+  zone map 1413
+
+  note West to Regthar Deathgate (45.34,28.41): Barak Kodobane (42.8,23.52), kolkar camps west, the Forgotten Pools (45.06,22.53), laden mushrooms (43.87-45.67,21.84-25.62).
+  accept 850 -- Kolkar Leaders - Regthar Deathgate; Barak's head, west camp
+  accept 855 -- Centaur Bracers - Regthar Deathgate; bracers off the kolkar, west and south-center
+  complete 844 @47.58,13.75 -- Plainstrider Beaks (Greater Plainstrider, north-west flats)
+  complete 844 @37.26,28.4 -- Plainstrider Beaks (Ornery Plainstrider, west flats)
+  complete 850 @42.8,23.52 -- Barak's Head (Barak Kodobane, west camp)
+  complete 855 @41.98,24.77 -- Centaur Bracers (Kolkar Wrangler, west camp)
+  complete 870 @45.06,22.53 -- Explore the Forgotten Pools
+  complete 848 @43.87,24.43 -- Fungal Spores (Laden Mushroom, north-west flats)
+  complete 848 @44.6,25.62 -- Fungal Spores (Laden Mushroom, north-west flats)
+  turnin 850 -- Kolkar Leaders - Barak's head to Regthar Deathgate
+  accept 851 -- Verog the Dervish - Regthar Deathgate; Verog's head, south-center
+
+step East - Razormane, harpies and crates
+
+  zone map 1413
+
+  note East to the Razormane grounds (53-58,24-27) and the harpy rock (37-40,12-20): Kreenig Snarlsnout (58.52,27.04), supply crates (58.37-59.18,24.43-27.4), Chol'aruk (56.96-57.68,26.19-28.79).
+  complete 871 @53.05,25.05 -- Razormane Water Seeker (east grounds)
+  complete 871 @53.76,25.29 -- Razormane Hunter (east grounds)
+  complete 871 @54.06,25.52 -- Razormane Thornweaver (east grounds)
+  complete 867 @39.9,18.86 -- Witchwing Talon (Witchwing Harpy, harpy rock)
+  complete 867 @37.57,15.61 -- Witchwing Talon (Witchwing Ambusher, harpy rock)
+  complete 5041 @58.37,27.01 -- Crossroads' Supply Crates (Razormane east camp)
+  complete 5041 @58.82,27.4 -- Crossroads' Supply Crates (Razormane east camp)
+  complete 97003 @56.96,26.19 -- Chol'aruk's Head (Chol'aruk, east flats)
+
+step Crossroads return - first turns
+
+  zone map 1413
+
+  note Back to the hub with the west and east field work.
+  turnin 867 -- Harpy Raiders - the talons to Darsok Swiftdagger
+  accept 875 -- Harpy Lieutenants - Darsok Swiftdagger; lieutenant rings off Witchwing Slayers, harpy rock
+  turnin 871 -- Disrupt the Attacks - the Razormane dead to Thork
+  accept 872 -- The Disruption Ends - Thork; geomancers, defenders and Kreenig east
+  turnin 870 -- The Forgotten Pools - the findings to Tonga Runetotem
+  accept 877 -- The Stagnant Oasis - Tonga Runetotem; the Stagnant Oasis south-center
+  turnin 5041 -- Supplies for the Crossroads - the crates to Thork
+  turnin 97003 -- Chol'aruk the Ravener - the head to Gur'ak
+  accept 91899 -- A Sealed Crate - Dokimi (50.13,29.37); the sealed apprentice crate has no placed source in the data - have it in your bags
+  complete 91899
+  turnin 91899 -- A Sealed Crate - the crate to Dokimi
+
+step Soft pre - Sergra's pointer (open)
+
+  zone map 1413
+
+  when onquest 844
+
+  turnin 844 -- Plainstrider Menace - the beaks to Sergra Darkthorn
+
+step West and east - zhevra, disruption, rings, heads
+
+  zone map 1413
+
+  note Out again from the hub: zhevra west, Razormane east, Slayers at the harpy rock, raptor heads west and north.
+  accept 845 -- The Zhevra - Sergra Darkthorn; zhevra hooves, west flats
+  complete 845 @42.21,23.47 -- Zhevra Hooves (Zhevra Runner, west flats)
+  complete 845 @36.3,28.05 -- Zhevra Hooves (Zhevra Charger, west flats)
+  complete 872 @56.76,25.08 -- Razormane Geomancer (east grounds)
+  complete 872 @56.7,24.57 -- Razormane Defender (east grounds)
+  complete 872 @58.52,27.04 -- Kreenig Snarlsnout's Tusk (Kreenig Snarlsnout, east camp)
+  complete 875 @37.25,15.72 -- Harpy Lieutenant Ring (Witchwing Slayer, harpy rock)
+  complete 877 @55.61,42.75 -- Bubbling Fissure (Stagnant Oasis)
+  complete 869 @47.71,14.48 -- Raptor Head (Sunscale Lashtail, north-west flats)
+  complete 869 @39.81,31.54 -- Raptor Head (Sunscale Screecher, west flats)
+
+step Crossroads return - second turns
+
+  zone map 1413
+
+  note Back to the hub with the second sweep.
+  turnin 845 -- The Zhevra - the hooves to Sergra Darkthorn
+  accept 903 -- Prowlers of the Barrens - Sergra Darkthorn; prowler claws, west flats
+  turnin 877 -- The Stagnant Oasis - the findings to Tonga Runetotem
+  accept 880 -- Altered Beings - Tonga Runetotem; altered snapjaw shells, the Oasis
+  turnin 875 -- Harpy Lieutenants - the rings to Darsok Swiftdagger
+  accept 876 -- Serena Bloodfeather - Darsok Swiftdagger; Serena's head, harpy rock
+  turnin 872 -- The Disruption Ends - the geomancers, defenders and tusk to Thork
+  turnin 869 -- Raptor Thieves - the heads to Gazrog
+  accept 3281 -- Stolen Silver - Gazrog; the silver at Northwatch (Northwatch leg below)
+
+step South-center - prowlers, oasis, Verog, Serena
+
+  zone map 1413
+
+  note South-center sweep: prowlers west, the Oasis (45.73-45.93,39.03-40.41) and fissure (55.61,42.75), Verog (53.06,41.74), Hezrul (46.04,41.14), the harpy rock, the Corpse (49.33,50.32), tusks south.
+  complete 903 @40.4,20.16 -- Prowler Claws (Savannah Prowler, west flats)
+  complete 880 @45.73,39.03 -- Altered Snapjaw Shell (Oasis Snapjaw, the Oasis)
+  complete 880 @48.2,40.2 -- Altered Snapjaw Shell (Oasis Snapjaw Hatchling, the Oasis)
+  complete 851 @53.06,41.74 -- Verog's Head (Verog the Dervish, south-center)
+  complete 876 @39.16,12.17 -- Serena's Head (Serena Bloodfeather, harpy rock)
+  complete 4921 @49.33,50.32 -- Beaten Corpse (south-center flats)
+  complete 899 @40.6,45.37 -- Bristleback Quilboar Tusk (Bristleback Hunter, south country)
+  complete 899 @42.87,55.25 -- Bristleback Quilboar Tusk (Bristleback Water Seeker, south country)
+  accept 775 -- Journey into Thunder Bluff - the Ancestral Spirit; Cairne's word in Thunder Bluff (note 773 accepts in Mulgore, not contracted here - the turn-in rides the mini-step below)
+
+step Crossroads return - third turns
+
+  zone map 1413
+
+  note Back to the hub with the south-center field work.
+  turnin 903 -- Prowlers of the Barrens - the claws to Sergra Darkthorn
+  accept 881 -- Echeyakee - Sergra Darkthorn; Echeyakee's hide, north flats
+  turnin 880 -- Altered Beings - the shells to Tonga Runetotem
+  accept 1489 -- Hamuul Runetotem - Tonga Runetotem; Hamuul's word in Thunder Bluff (Thunder Bluff expedition below)
+  accept 3301 -- Mura Runetotem - Tonga Runetotem; Mura's word in the Sepulcher (Silverpine expedition below)
+  accept 6128 only Druid,Tauren -- Gathering the Cure - Tonga Runetotem; earthroot and kodo horns (note 6127 accepts in Moonglade, not contracted here - the turn-in rides the mini-step below)
+  turnin 876 -- Serena Bloodfeather - the head to Darsok Swiftdagger
+  accept 1060 -- Letter to Jin'Zil - Darsok Swiftdagger; Darsok's letter for Jin'Zil in Stonetalon (Stonetalon expedition below)
+  turnin 4921 -- Lost in Battle - the findings to Mankrik
+  accept 95774 -- Her Name Is Olgra - Mankrik; Olgra's adornments off Razormane raiders, south-center
+  turnin 899 -- Consumed by Hatred - the tusks to Mankrik
+  turnin 848 -- Fungal Spores - the spores to Apothecary Helbrim
+  accept 853 -- Apothecary Zamah - Apothecary Helbrim; the rendered spores to Zamah in Thunder Bluff (Thunder Bluff expedition below - the spores last 45 minutes; if they expire, abandon 853 and re-take it here on a later Crossroads pass)
+
+step North - Far Watch
+
+  zone map 1413
+
+  note North to Far Watch: Kargal Battlescar (62.26,19.38), Uzzek (61.38,21.12), Thun'grim Firegaze (57.23,30.34), Ak'Zeloth (62.34,20.07), Kranal Fiss (56.03,19.89), the Altar of Fire (47.98,19.07), Echeyakee (55.86,17.19).
+  accept 842 -- Crossroads Conscription - Kargal Battlescar; west road to Sergra (note 840 accepts in Durotar, not contracted here - the turn-in rides the mini-step below)
+  accept 1498 only Warrior -- Path of Defense - Uzzek; singed scales off Durotar thunder lizards (Durotar expedition below)
+  accept 924 -- The Demon Seed - Ak'Zeloth; a flawed power stone for the Altar of Fire (note 809 accepts in Orgrimmar, not contracted here - the turn-in rides the mini-step below)
+  complete 924 @47.98,19.07 -- The Altar of Fire (west of Far Watch)
+  accept 1524 only Shaman -- Call of Fire - Kranal Fiss; the torch to Telf Joolam (note 1522/1523/2983/2984 accept in Orgrimmar, Durotar and Mulgore, not contracted here - the turn-in rides the mini-step below)
+  complete 881 @55.86,17.19 -- Echeyakee's Hide (Echeyakee, north flats)
+  complete 6128 only Druid,Tauren @40.51,26.13 -- Earthroot (north flats)
+  complete 6128 only Druid,Tauren @40.14,24.25 -- Kodo Horn (Lost Barrens Kodo, north-west flats)
+
+step Crossroads return - Echeyakee's hide
+
+  zone map 1413
+
+  note Back to Sergra with the hide.
+  turnin 881 -- Echeyakee - the hide to Sergra Darkthorn
+  accept 905 -- The Angry Scytheclaws - Sergra Darkthorn; scytheclaw feathers and nests, south-center
+
+step Soft pre - Durotar's conscript (open)
+
+  zone map 1413
+
+  when onquest 842
+
+  turnin 842 -- Crossroads Conscription - the word to Sergra Darkthorn
+
+step Soft pre - Orgrimmar's demon (open)
+
+  zone map 1413
+
+  when onquest 924
+
+  turnin 924 -- The Demon Seed - the word to Ak'Zeloth
+
+step North - the flawed stones
+
+  zone map 1413
+
+  note The flawed stones hum at Far Watch (62.34,20.03).
+  accept 926 -- Flawed Power Stone - the Flawed Power Stone (follows 924 in the chain)
+  turnin 926 -- Flawed Power Stone - the stone to the Flawed Power Stone
+
+step South-center return - scytheclaws
+
+  zone map 1413
+
+  note South-center again for the scytheclaw work: nests (52.02-52.6,46.11-46.56), Sunscale Scytheclaws west (36.19-39.27,25.65-28.79).
+  complete 905 @52.6,46.11 -- Blue Raptor Nest (south-center nests)
+  complete 905 @52.02,46.47 -- Yellow Raptor Nest (south-center nests)
+  complete 905 @52.46,46.56 -- Red Raptor Nest (south-center nests)
+
+step Soft pre - Moonglade's cure (open)
+
+  zone map 1413
+
+  when onquest 6128
+
+  turnin 6128 only Druid,Tauren -- Gathering the Cure - the earthroot and horns to Tonga Runetotem
+
+
+step Ratchet - the goblin port
+
+  zone map 1413
+
+  note Ratchet holds the port: Brewmaster Drohn (62.26,38.39), Sputtervalve (62.98,37.22), Gazlowe (62.68,36.23), Wharfmaster Dizzywig (63.35,38.45), Mebok Mizzyrix (62.37,37.62), Wrenix the Wretched (63.07,36.32), Taskmaster Fizzule's post north (55.44,5.56), Captain Thalo'thas Brightsun (62.29,39.03), Crane Operator Bigglefuzz (63.09,37.61), Telf Joolam (65.4,27.9), Falla Sagewind south-center (48.18,32.78).
+  note Chen's Empty Keg (item 4926) turns up in loot while questing in the Barrens - the data names no placed drop source, so accept 819 below when the keg drops.
+  accept 819 -- Chen's Empty Keg - Brewmaster Drohn; find who knows about the keg
+  turnin 819 -- Chen's Empty Keg - the word to Brewmaster Drohn
+  accept 821 -- Chen's Empty Keg - Brewmaster Drohn; tusks, kidneys and a thunder lizard horn, north and west
+  accept 887 -- Southsea Freebooters - Gazlowe; brigands and cannoneers, pirate camp south
+  complete 887 @62.69,49.66 -- Southsea Brigand (pirate camp south)
+  complete 887 @62.55,49.5 -- Southsea Cannoneer (pirate camp south)
+  turnin 887 -- Southsea Freebooters - the pirates dead to Gazlowe
+  accept 895 -- WANTED: Baron Longshore - the WANTED poster; Baron's head, pirate camp south (Northwatch leg below)
+  accept 896 -- Miner's Fortune - Wharfmaster Dizzywig; a cats eye emerald off the Venture overseers and enforcers north (Venture leg below)
+  accept 865 -- Raptor Horns - Mebok Mizzyrix; intact horns off Sunscale Scytheclaws, Ishamuhale and Takk
+  accept 1069 -- Deepmoss Spider Eggs - Mebok Mizzyrix; deepmoss eggs in Stonetalon (Stonetalon expedition below)
+  accept 959 -- Trouble at the Docks - Crane Operator Bigglefuzz; 99-year-old port off Mad Magglish at the Wailing Caverns mouth (caverns leg below)
+  accept 891 -- The Guns of Northwatch - Captain Thalo'thas Brightsun; medals and the Northwatch officers (Northwatch leg below)
+  accept 898 -- Free From the Hold - Gilthares Firebough; escort Gilthares back to Ratchet (Northwatch leg below)
+  accept 2381 only Rogue -- Plundering the Plunderers - Wrenix the Wretched; the Southsea treasure off Polly, pirate camp south (note 2382 accepts in Orgrimmar, not contracted here - the turn-in rides the mini-step below)
+  accept 2478 only Rogue -- Mission: Possible But Not Probable - Taskmaster Fizzule; Silixiz's key, drones, lookouts and patrollers at the north post (note 2458 accepts in Orgrimmar, not contracted here - the turn-in rides the mini-step below)
+  accept 1095 -- Further Instructions - Sputtervalve; new orders to Ziz Fizziks in Stonetalon (note 1094 accepts in Stonetalon, not contracted here - the turn-in rides the mini-step below)
+  accept 1483 -- Ziz Fizziks - Sputtervalve; Ziz's word at Windshear Crag (Stonetalon expedition below)
+  accept 1221 -- Blueleaf Tubers - Mebok Mizzyrix; tubers with no placed source in the data - have them in your bags; crate, stick and manual at Ratchet
+  complete 1221 @62.31,37.63 -- Crate with Holes (Ratchet)
+  complete 1221 @62.33,37.62 -- Snufflenose Owner's Manual (Ratchet)
+  complete 1221 @62.34,37.60 -- Snufflenose Command Sticks (Ratchet)
+  accept 97253 -- Parts and Pieces - Wrenix the Wretched; handfuls of complicated parts, upper pirate camp south (Northwatch leg below)
+  accept 92706 -- WANTED: Bruuz - the WANTED poster; Bruuz's dorsal fin, Ratchet docks
+  complete 92706 @62.07,37.98 -- Bruuz's Dorsal Fin (Bruuz, Ratchet docks)
+  turnin 92706 -- WANTED: Bruuz - the fin to Gazlowe
+  accept 1464 only Shaman -- Fire Sapta - Telf Joolam; Telf's word, same stone
+  turnin 1464 only Shaman -- Fire Sapta - the word to Telf Joolam
+  accept 78143 -- Secrets of the Dreamers - the Scrolls south-center (49.3,32.88); Owen Thadd's word in Undercity (Undercity expedition below)
+  accept 79097 -- Baxtan: On Destructive Magics - the Goblin Tome in Ratchet (62.7,36.3); Owen Thadd's word in Undercity (Undercity expedition below)
+  complete 79097 @62.70,36.30 -- Baxtan: On Destructive Magics (Goblin Tome, Ratchet)
+  accept 894 -- Samophlange - Sputtervalve; the control console at the Venture site north (Venture leg below)
+
+step North - the Venture site
+
+  zone map 1413
+
+  note North to the Venture site: Wizzlecrank's Shredder (56.52,7.45), Supervisor Lugwizzle (56.27,8.58), the escort road (55.36,7.68), the Samophlange console (52.4,11.65), Tinkerer Sniggles (52.84,10.39), Taskmaster Fizzule's post (55.44-55.8,5.56-5.97), Tool Buckets (55.5-56,6.83-9.46), the Manual (56.3,8.8).
+  accept 858 -- Ignition - Wizzlecrank's Shredder; the ignition key off Supervisor Lugwizzle
+  complete 858 @56.27,8.58 -- Ignition Key (Supervisor Lugwizzle, Venture site)
+  turnin 858 -- Ignition - the key to Wizzlecrank's Shredder
+  accept 863 -- The Escape - Wizzlecrank's Shredder; escort Wizzlecrank out to Sputtervalve in Ratchet (Ratchet return below)
+  complete 863 @55.36,7.68 -- Escort Wizzlecrank out to Ratchet
+  turnin 894 -- Samophlange - the console accessed
+  accept 900 -- Samophlange - the Control Console; close the fuel, regulator and main valves
+  complete 900 @52.33,11.56 -- Main Control Valve (Venture site)
+  complete 900 @52.4,11.41 -- Fuel Control Valve (Venture site)
+  complete 900 @52.3,11.42 -- Regulator Valve (Venture site)
+  turnin 900 -- Samophlange - the valves closed
+  accept 901 -- Samophlange - the Control Console; the console key off Tinkerer Sniggles
+  complete 901 @52.84,10.39 -- Console Key (Tinkerer Sniggles, Venture site)
+  turnin 901 -- Samophlange - the key turned
+  accept 902 -- Samophlange - the Control Console; the Samophlange to Sputtervalve in Ratchet (Ratchet return below)
+  complete 896 @59.62,2.85 -- Cats Eye Emerald (Venture Co. Enforcer, north site)
+  complete 896 @59.54,3.06 -- Cats Eye Emerald (Venture Co. Overseer, north site)
+  complete 865 @59.62,8.34 -- Intact Raptor Horn (Takk the Leaper, north site)
+  complete 821 @43.1,15.03 -- Savannah Lion Tusk (Savannah Patriarch, north flats)
+  complete 821 @49.64,16.05 -- Savannah Lion Tusk (Savannah Highmane, north flats)
+  complete 821 @47.58,13.75 -- Plainstrider Kidney (Greater Plainstrider, north flats)
+  accept 78145 -- Arcanic Systems Manual - the Manual at the Venture site (56.3,8.8); Owen Thadd's word in Undercity (Undercity expedition below)
+  complete 78145 @56.30,8.80 -- Arcanic Systems Manual (Venture site)
+  complete 2478 only Rogue @54.7,5.7 -- Mutated Venture Co. Drone (north post)
+  complete 2478 only Rogue @54.64,5.77 -- Venture Co. Lookout (north post)
+  complete 2478 only Rogue @54.66,5.68 -- Venture Co. Patroller (north post)
+  complete 2478 only Rogue @54.8,5.97 -- Silixiz's Tower Key (Foreman Silixiz, north post)
+  complete 2478 only Rogue @54.75,5.59 -- Gallywix's Head (Grand Foreman Puzik Gallywix, north post)
+  complete 2478 only Rogue @54.76,5.56 -- Cache of Zanzil's Altered Mixture (Gallywix's Lockbox, north post)
+
+step West - Kadrak and the Stonetalon border
+
+  zone map 1413
+
+  note West to Kadrak's tower (48.12,5.42) and the border camp: Makaba Flathoof (35.19,27.76), Seereth Stonebreak (35.26,27.88), Grimtotem camps (30.5-32.7,20.7-26.4), Ornery Plainstriders west (37.26-39.91,24.72-28.4), Regthar's swing east (45.34,28.41).
+  turnin 6541 -- Report to Kadrak - the report to Kadrak
+  accept 6543 -- The Warsong Reports - Kadrak; Warsong updates with no placed source in the data - have them in your bags (note 6542 accepts in Stonetalon, not contracted here - the turn-in rides the mini-step below)
+  accept 3514 -- Horde Presence - Kadrak; Rynthariel the Keymaster in Stonetalon (note 3513 accepts in Ashenvale, not contracted here - the turn-in rides the mini-step below)
+  accept 6548 -- Avenge My Village - Makaba Flathoof; ruffians and mercenaries, west camps
+  complete 6548 @31.5,24.4 -- Grimtotem Ruffian (west camp)
+  complete 6548 @32.2,23.4 -- Grimtotem Mercenary (west camp)
+  turnin 6548 -- Avenge My Village - the Grimtotem dead to Makaba Flathoof
+  accept 6629 -- Kill Grundig Darkcloud - Makaba Flathoof; Grundig in Stonetalon and brutes west (Stonetalon expedition below)
+  complete 6629 @30.5,20.7 -- Grimtotem Brute (west camp)
+  complete 6629 @31.2,21.9 -- Grimtotem Brute (west camp)
+  turnin 851 -- Verog the Dervish - Verog's head to Regthar Deathgate
+  accept 852 -- Hezrul Bloodmark - Regthar Deathgate; Hezrul's head, south-center
+  complete 852 @46.04,41.14 -- Hezrul's Head (Hezrul Bloodmark, south-center)
+  turnin 852 -- Hezrul Bloodmark - Hezrul's head to Regthar Deathgate
+  turnin 855 -- Centaur Bracers - the bracers to Regthar Deathgate
+  accept 4021 -- Counterattack! - Regthar Deathgate; Krom'zar's banner has no placed source in the data - have it in your bags
+  complete 4021
+  turnin 4021 -- Counterattack! - the banner piece to Regthar Deathgate
+  complete 865 @36.19,28.79 -- Intact Raptor Horn (Sunscale Scytheclaw, west flats)
+  accept 1062 -- Goblin Invaders - Seereth Stonebreak; Venture loggers in Stonetalon (note 1061 accepts in Orgrimmar, not contracted here - the turn-in rides the mini-step below)
+  accept 6401 -- Kaya's Alive - Makaba Flathoof; Tammra's word at Sun Rock Retreat (note 6523 accepts in Stonetalon, not contracted here - the turn-in rides the mini-step below)
+  complete 821 @37.26,28.4 -- Plainstrider Kidney (Ornery Plainstrider, west flats)
+  complete 821 @40.4,20.16 -- Savannah Lion Tusk (Savannah Prowler, west flats)
+
+step Soft pre - Stonetalon's reports (open)
+
+  zone map 1413
+
+  when onquest 6543
+
+  complete 6543
+  note The Warsong updates come from the Warsong NPCs in Ashenvale (Ashenvale expedition below); the data names no placed source for the update items.
+  turnin 6543 -- The Warsong Reports - the updates to Kadrak
+
+step Soft pre - the dormant torch (open)
+
+  zone map 1413
+
+  when onquest 1524
+
+  turnin 1524 only Shaman -- Call of Fire - the torch to Telf Joolam
+
+step Ratchet return - Samophlange and ledgers
+
+  zone map 1413
+
+  note Back to Ratchet with the north field work.
+  turnin 863 -- The Escape - Wizzlecrank to Sputtervalve
+  turnin 902 -- Samophlange - the Samophlange to Sputtervalve
+  accept 3921 -- Wenikee Boltbucket - Sputtervalve; the broken Samophlange to Wenikee west (Wenikee leg below)
+  complete 865 @59.8,30.6 -- Intact Raptor Horn (Ishamuhale, east flats)
+  turnin 865 -- Raptor Horns - the horns to Mebok Mizzyrix
+  accept 1491 -- Smart Drinks - Mebok Mizzyrix; wailing essence at the Wailing Caverns mouth (caverns leg below)
+  turnin 896 -- Miner's Fortune - the emerald to Wharfmaster Dizzywig
+  turnin 1492 -- Wharfmaster Dizzywig - the crate to Wharfmaster Dizzywig
+  accept 890 -- The Missing Shipment - Gazlowe; Gazlowe's ledger to Wharfmaster Dizzywig
+  turnin 890 -- The Missing Shipment - the ledger to Wharfmaster Dizzywig
+  accept 892 -- The Missing Shipment - Wharfmaster Dizzywig; the ledger back to Gazlowe
+  turnin 892 -- The Missing Shipment - the ledger to Gazlowe
+  accept 888 -- Stolen Booty - Gazlowe; the boots and lens at the pirate camp south (Northwatch leg below)
+  accept 1525 only Shaman -- Call of Fire - Telf Joolam; fire tar west and south, a reagent pouch in Durotar (Durotar expedition below)
+
+step North - root samples (Herbalism)
+
+  zone map 1413
+
+  when skill Herbalism 1
+
+  note Northern herb nodes: Peacebloom (41.38,57.29) and Silverleaf (45.31,30.91).
+  accept 866 optional -- Root Samples - Mebok Mizzyrix; root samples off the herb nodes
+  complete 866 @41.38,57.29 -- Root Sample (Peacebloom, north flats)
+  complete 866 @45.31,30.91 -- Root Sample (Silverleaf, north-center flats)
+  turnin 866 optional -- Root Samples - the samples to Mebok Mizzyrix
+
+step North - Vrang Wildgore
+
+  zone map 1413
+
+  note North to Vrang Wildgore (43.8,12.21): Patriarchs north (43.1-44.4,15-16.7), Walton (42.02,11.45), Sprung Traps (42.7-43.9,13.9-21.2).
+  accept 95494 -- Together in Death? - Vrang Wildgore; hides off Patriarchs north and Matriarchs east (east leg below)
+  accept 95507 -- Trapped Game - Vrang Wildgore; the trapped game in the Sprung Traps
+  complete 95494 @43.1,15.03 -- Savannah Lion Hide (Savannah Patriarch, north flats)
+  complete 95494 @43.92,16.66 -- Savannah Lion Hide (Savannah Patriarch, north flats)
+  complete 95507 @43.90,14.40 -- Trapped Game (Sprung Traps, north flats)
+  complete 95507 @42.90,15.00 -- Trapped Game (Sprung Traps, north flats)
+  turnin 95507 -- Trapped Game - the game to Vrang Wildgore
+
+step West - Wenikee Boltbucket
+
+  zone map 1413
+
+  note West to Wenikee Boltbucket (49.05,11.17): Tool Buckets north (55.5-56,6.83-9.46).
+  turnin 3921 -- Wenikee Boltbucket - the broken Samophlange to Wenikee Boltbucket
+  accept 3922 -- Nugget Slugs - Wenikee Boltbucket; nugget slugs off the Tool Buckets north
+  complete 3922 @55.5,7.99 -- Nugget Slug (Tool Bucket, Venture site)
+  complete 3922 @55.71,9.46 -- Nugget Slug (Tool Bucket, Venture site)
+  turnin 3922 -- Nugget Slugs - the slugs to Wenikee Boltbucket
+  accept 3923 -- Rilli Greasygob - Wenikee Boltbucket; the battered Samophlange to Rilli in Orgrimmar (Orgrimmar expedition below)
+
+step Crossroads return - the scytheclaw chain turns
+
+  zone map 1413
+
+  note Back to Sergra with the scytheclaw work.
+  turnin 905 -- The Angry Scytheclaws - the feathers and nests to Sergra Darkthorn
+  accept 3261 -- Jorn Skyseer - Sergra Darkthorn; Jorn's word at Camp Taurajo (Camp Taurajo leg below)
+
+step Camp Taurajo - the south hub
+
+  zone map 1413
+
+  note Camp Taurajo holds the south hub: Jorn Skyseer (44.86,59.14), Kirge Sternhorn (44.88,58.61), Tatternack Steelforge (45.1,57.68), Ruga Ragetotem (44.67,59.42), Mangletooth (44.55,59.26), Grunt Logmar (44.62,59.27), Lorekeeper Raintotem's south camp (36,40.9).
+  turnin 3261 -- Jorn Skyseer - the word to Jorn Skyseer
+  accept 882 -- Ishamuhale - Jorn Skyseer; Ishamuhale's fang, east flats (east leg below)
+  accept 893 -- Weapons of Choice - Tatternack Steelforge; a backstabber, a wand and a shield off the south Razormane (far south leg below)
+  accept 1824 only Warrior -- Trial at the Field of Giants - Ruga Ragetotem; twitching antennae off the Field of Giants silithids (note 1823 accepts in Orgrimmar, not contracted here - the turn-in rides the mini-step below)
+  accept 97250 -- Wrongly Blamed, Justly Corrected - Grunt Logmar; Alliance soldiers at the Dustwallow border, far south (far south leg below)
+  accept 878 -- Tribes at War - Mangletooth; bristleback water seekers, thornweavers and geomancers south
+  accept 1515 only Warlock -- Dogran's Captivity - Grunt Logmar; Ken'zigla's draught to Dogran (note 1511 accepts in Stonetalon, not contracted here - the turn-in rides the mini-step below)
+  accept 843 -- Gann's Reclamation - Gann Stonespire; excavators, foremen and Khazgorm's journal at Bael Modan (far south leg below)
+  accept 833 -- A Sacred Burial - Lorekeeper Raintotem; Bristleback interlopers at Red Rocks (Mulgore expedition below)
+  accept 1740 only Warlock -- The Orb of Soran'ruk - Doan Karhan; soran'ruk fragments with no placed source in the data - have them in your bags
+  complete 1740 only Warlock
+  note 1740's Twilight Acolyte and Shadowfang Darksoul fragments have no placed source in the data - check bags; the route never waits on them.
+  turnin 1740 only Warlock -- The Orb of Soran'ruk - the fragments to Doan Karhan
+
+step South - pirates and Northwatch
+
+  zone map 1413
+
+  note South to the pirate camp (62.6-64.2,43.3-50.2) and Northwatch (60-63,52-56): Polly (64.78,45.5), piles (61.4-62.2,44-49.1), Drizzlik's Emporium (62.63,49.63), the Fragile (63.58,49.25), Baron Longshore (62.6-64.22,47.13-49.8), Fairmount (61.85,54.65), Smythe (63.18,56.64), Whessan (60.43,54.77), Gilthares (61.96,54.96), the silver (58.04,53.87).
+  complete 2381 only Rogue @64.78,45.5 -- Southsea Treasure (Polly, pirate camp south)
+  complete 97253 @61.4,44.3 -- Handful of Complicated Parts (Pile of Complicated Parts, upper camp)
+  complete 97253 @62.2,44 -- Handful of Complicated Parts (Pile of Complicated Parts, upper camp)
+  complete 888 @62.63,49.63 -- Shipment of Boots (Drizzlik's Emporium, pirate camp south)
+  complete 888 @63.58,49.25 -- Telescopic Lens (Fragile - Do Not Drop, pirate camp south)
+  complete 895 @62.6,49.8 -- Baron Longshore's Head (Baron Longshore, pirate camp south)
+  complete 891 @61.85,54.65 -- Captain Fairmount (Northwatch Hold)
+  complete 891 @60.43,54.77 -- Cannoneer Whessan (Northwatch Hold)
+  complete 891 @63.18,56.64 -- Cannoneer Smythe (Northwatch Hold)
+  complete 891 @60.12,54.17 -- Theramore Medal (Theramore Marine, Northwatch Hold)
+  complete 898 @62.27,39.09 -- Escort Gilthares Firebough back to Ratchet
+  complete 3281 @58.04,53.87 -- Stolen Silver (Northwatch Hold)
+
+step Ratchet return - pirates and Northwatch
+
+  zone map 1413
+
+  note Back to Ratchet with the southern field work.
+  turnin 97253 -- Parts and Pieces - the parts to Wrenix the Wretched
+  turnin 888 -- Stolen Booty - the boots and lens to Gazlowe
+  turnin 895 -- WANTED: Baron Longshore - the head to Gazlowe
+  turnin 898 -- Free From the Hold - Gilthares to Captain Thalo'thas Brightsun
+  turnin 891 -- The Guns of Northwatch - the medals and officers dead to Captain Thalo'thas Brightsun
+  turnin 1221 -- Blueleaf Tubers - the tubers, crate, stick and manual to Mebok Mizzyrix
+
+step Wailing Caverns mouth - deviates and the Shard
+
+  zone map 1413
+
+  note The caverns mouth (45.99-46.01,35.66-35.74): Nalpak, Ebru, Mad Magglish (45.69,33.62), devouring ectoplasms (45.86-47.55,33.36-34.28), deviate clusters (44.6-48.1,32.87-36.4); Falla Sagewind south-center (48.18,32.78), the Scrolls (49.3,32.88).
+  accept 1486 -- Deviate Hides - Nalpak; deviate hides, caverns mouth
+  complete 1486 @44.6,35.6 -- Deviate Hide (Deviate Coiler, caverns mouth)
+  complete 1486 @47.09,32.87 -- Deviate Hide (Deviate Stinglash, caverns mouth)
+  complete 1486 @45.79,34.09 -- Deviate Hide (Deviate Creeper, caverns mouth)
+  complete 1486 @47.38,32.78 -- Deviate Hide (Deviate Slayer, caverns mouth)
+  complete 1486 @46,35.7 -- Deviate Ravager (no placed spawn in the data - deeper in the Wailing Caverns)
+  turnin 1486 -- Deviate Hides - the hides to Nalpak
+  accept 1487 -- Deviate Eradication - Ebru; ravagers, vipers, shamblers and dreadfangs with no placed spawns in the data - deeper in the Wailing Caverns
+  complete 1487 @46,35.7 -- Deviate Eradication (Wailing Caverns mouth; the packs live deeper inside)
+  turnin 1487 -- Deviate Eradication - the packs dead to Ebru
+  complete 959 @45.69,33.62 -- 99-Year-Old Port (Mad Magglish, caverns mouth)
+  complete 1491 @45.86,33.36 -- Wailing Essence (Devouring Ectoplasm, caverns mouth)
+  complete 1491 @47.55,34.28 -- Wailing Essence (Devouring Ectoplasm, caverns mouth)
+  complete 78143 @49.3,32.88 -- Secrets of the Dreamers (Scrolls, south-center flats)
+  accept 3366 -- The Glowing Shard - Falla Sagewind; the shard's meaning (the shard's own start has no placed point in the data - Falla holds the chain, flagged for review)
+  turnin 3366 -- The Glowing Shard - the word to Falla Sagewind
+  accept 6981 -- The Glowing Shard - the Glowing Shard itself, dropped by the unplaced Mutanus the Devourer - have it in your bags
+  turnin 6981 -- The Glowing Shard - the shard to Falla Sagewind
+  accept 3369 -- In Nightmares - Falla Sagewind; the nightmare shard to Hamuul in Thunder Bluff (Thunder Bluff expedition below)
+
+step Soft pre - Orgrimmar's treasure (open)
+
+  zone map 1413
+
+  when onquest 2381
+
+  turnin 2381 only Rogue -- Plundering the Plunderers - the treasure to Wrenix the Wretched
+
+step Ratchet return - caverns mouth
+
+  zone map 1413
+
+  note Back to Ratchet with the caverns mouth work.
+  turnin 959 -- Trouble at the Docks - the port to Crane Operator Bigglefuzz
+  turnin 1491 -- Smart Drinks - the essence to Mebok Mizzyrix
+
+step South - Mangletooth's blessing
+
+  zone map 1413
+
+  note South to Mangletooth (44.55,59.26): bristlebacks (40.4-44,45.5-55.7), Blood Shards off hunters, seekers, thornweavers, geomancers, defenders and windcallers.
+  complete 878 @42.87,55.25 -- Bristleback Water Seeker (south country)
+  complete 878 @43.03,52.26 -- Bristleback Thornweaver (south country)
+  complete 878 @40.37,45.41 -- Bristleback Geomancer (south country)
+  turnin 878 -- Tribes at War - the bristlebacks dead to Mangletooth
+  accept 5052 -- Blood Shards of Agamaggan - Mangletooth; a blood shard, south country
+  complete 5052 @40.6,45.37 -- Blood Shard (Bristleback Hunter, south country)
+  turnin 5052 -- Blood Shards of Agamaggan - the shard to Mangletooth
+  accept 879 -- Betrayal from Within - Mangletooth; Nak, Kuz and Lok Orcbane, far south (far south leg below)
+  accept 889 -- Spirit of the Wind - Mangletooth; blood shards, south country
+  accept 5042 -- Agamaggan's Strength - Mangletooth; blood shards, south country
+  accept 5043 -- Agamaggan's Agility - Mangletooth; blood shards, south country
+  accept 5044 -- Wisdom of Agamaggan - Mangletooth; blood shards, south country
+  accept 5045 -- Rising Spirit - Mangletooth; blood shards, south country
+  accept 5046 -- Razorhide - Mangletooth; blood shards, south country
+  complete 889 @41.45,44.43 -- Blood Shard (Bristleback Hunter, south country)
+  complete 889 @43.09,54.88 -- Blood Shard (Bristleback Water Seeker, south country)
+  complete 5042 @40.75,45.51 -- Blood Shard (Bristleback Geomancer, south country)
+  complete 5043 @41.45,44.43 -- Blood Shard (Bristleback Hunter, south country)
+  complete 5044 @43.27,52.5 -- Blood Shard (Bristleback Thornweaver, south country)
+  complete 5045 @43.41,51.6 -- Blood Shard (Bristleback Thornweaver, south country)
+  complete 5046 @42.80,51.59 -- Blood Shard (Bristleback Hunter, south country)
+
+step Soft pre - Stonetalon's draught (open)
+
+  zone map 1413
+
+  when onquest 1515
+
+  turnin 1515 only Warlock -- Dogran's Captivity - Ken'zigla's draught to Grunt Dogran
+
+step East - Ishamuhale and the water call
+
+  zone map 1413
+
+  note East to Ishamuhale (59.8,30.6), Islen Waterseer (65.83,43.78) and the Manifestation (68.2,36.9).
+  complete 882 @59.8,30.6 -- Ishamuhale's Fang (Ishamuhale, east flats)
+  complete 95494 @59.54,32.02 -- Savannah Lion Hide (Savannah Matriarch, east flats)
+  accept 1530 only Shaman -- Call of Water - Islen Waterseer; find Brine in the south (note 1528/1529/2985/2986 accept in Orgrimmar and Mulgore, not contracted here - the turn-in rides the mini-step below)
+  accept 1518 only Shaman -- Call of Earth - the Minor Manifestation of Earth; the rough quartz to Canaga in Durotar (note 1517 accepts in Durotar, not contracted here - the turn-in rides the mini-step below)
+  accept 1521 only Shaman -- Call of Earth - the Minor Manifestation of Earth; the rough quartz to Seer Ravenfeather in Mulgore (note 1520 accepts in Mulgore, not contracted here - the turn-in rides the mini-step below)
+
+step North return - the Wildgore chain
+
+  zone map 1413
+
+  note Back north to Vrang Wildgore and Walton (42.02,11.45): Benedict's orders off Corporal Adamore (38.63-40.72,12.45-19.31), Terry Longdrink (41.18-41.96,10.49-11.71).
+  turnin 95494 -- Together in Death? - the hides to Vrang Wildgore
+  accept 95495 -- A Thousand Spells - Vrang Wildgore; the bundle of readings to Walton
+  turnin 95495 -- A Thousand Spells - the bundle to Walton
+  accept 95621 -- Trapped Game - Walton; Benedict's orders off Corporal Adamore
+  complete 95621 @38.63,12.45 -- Corporal Adamore's Orders (Corporal Adamore, north flats)
+  complete 95621 @40.10,14.67 -- Corporal Adamore's Orders (Corporal Adamore, north flats)
+  turnin 95621 -- Trapped Game - the orders to Walton
+  accept 95508 -- The Trapped and the Furious - Walton; Terry Longdrink's word, same camp
+  complete 95508 @41.04,10.50 -- Terry Longdrink (north camp)
+  turnin 95508 -- The Trapped and the Furious - the word to Walton
+
+step Far south - Gann, Brine and the giants
+
+  zone map 1413
+
+  note Far south: Gann Stonespire (45.89,77), Bael Modan (46.9-49.2,83.8-85.9), the machine (46.97,85.63), dig rats (47.34-48.05,84.99-85.97), hives (42.6-44.1,69.9-72.2), Feegly (48.97,86.31), the strongbox (49.13,84.25), skulls (40.15-45.12,80.07-83.26), razormane south (40.5-43.8,78.7-81.3), Moonhorn (44.2,92.2), Lakota Windsong (46.6,94.1), the Remains (46.36,73.9), Brine's hut (43.42,77.41), the Field of Giants (41.9-45.5,69-72.5), Dogran's hut (43.3,47.89).
+  turnin 882 -- Ishamuhale - the fang to Jorn Skyseer
+  accept 6382 -- The Ashenvale Hunt - Jorn Skyseer; Senani's word at Splintertree Post (Ashenvale expedition below)
+  accept 907 -- Enraged Thunder Lizards - Jorn Skyseer; thunder lizard blood, far south
+  complete 907 @43.19,78.39 -- Thunder Lizard Blood (Stormhide, far south)
+  complete 907 @42.54,60.21 -- Thunder Lizard Blood (Thunderhead, south road)
+  turnin 907 -- Enraged Thunder Lizards - the blood to Jorn Skyseer
+  accept 913 -- Cry of the Thunderhawk - Jorn Skyseer; thunderhawk wings, south
+  complete 913 @42.81,46.04 -- Thunderhawk Wings (Thunderhawk Hatchling, south road)
+  complete 913 @44.77,63.05 -- Thunderhawk Wings (Thunderhawk Cloudscraper, south road)
+  complete 913 @43.66,75.05 -- Thunderhawk Wings (Greater Thunderhawk, far south)
+  turnin 913 -- Cry of the Thunderhawk - the wings to Jorn Skyseer
+  accept 874 -- Mahren Skyseer - Jorn Skyseer; Mahren's word far east (east leg below)
+  complete 1824 only Warrior @42.11,69.38 -- Twitching Antenna (Silithid Creeper, Field of Giants)
+  complete 1824 only Warrior @42.53,69.58 -- Twitching Antenna (Silithid Grub, Field of Giants)
+  complete 1824 only Warrior @41.88,69.02 -- Twitching Antenna (Silithid Swarmer, Field of Giants)
+  complete 843 @46.86,85.57 -- Bael'dun Excavator (Bael Modan)
+  complete 843 @47.41,84.32 -- Bael'dun Foreman (Bael Modan)
+  complete 843 @47.44,85.75 -- Khazgorm's Journal (Prospector Khazgorm, Bael Modan)
+  turnin 843 -- Gann's Reclamation - the excavators, foremen and journal to Gann Stonespire
+  accept 846 -- Revenge of Gann - Gann Stonespire; nitroglycerin, wood pulp and sodium nitrate off the Bael soldiers
+  complete 846 @48.34,84.16 -- Nitroglycerin (Bael'dun Soldier, Bael Modan)
+  complete 846 @48.34,84.16 -- Wood Pulp (Bael'dun Soldier, Bael Modan)
+  complete 846 @48.34,84.16 -- Sodium Nitrate (Bael'dun Soldier, Bael Modan)
+  turnin 846 -- Revenge of Gann - the components to Gann Stonespire
+  accept 849 -- Revenge of Gann - Gann Stonespire; destroy the flying machine at Bael Modan
+  complete 849 @46.97,85.63 -- Bael Modan Flying Machine
+  turnin 849 -- Revenge of Gann - the machine destroyed to Gann Stonespire
+  complete 862 @47.34,84.99 -- optional - Dig Rat (Bael Modan)
+  complete 868 @42.63,69.87 -- Silithid Egg (Silithid Mound, far south hives)
+  complete 868 @42.93,71.1 -- Silithid Egg (Silithid Mound, far south hives)
+  complete 893 @42.56,80.45 -- Razormane Backstabber (Razormane Pathfinder, far south)
+  complete 893 @40.5,80.82 -- Charred Razormane Wand (Razormane Seer, far south)
+  complete 893 @40.77,81.46 -- Razormane War Shield (Razormane Warfrenzy, far south)
+  complete 97250 @46.1,71.03 -- Encroaching Soldier (Dustwallow border, far south)
+  complete 97250 @45.96,75.96 -- Outraged Pillager (Dustwallow border, far south)
+  accept 857 -- The Tear of the Moons - Feegly the Exiled; the Tear in General Twinbraid's strongbox
+  complete 857 @49.13,84.25 -- Tear of the Moons (General Twinbraid's Strongbox, far south)
+  turnin 857 -- The Tear of the Moons - the Tear to Feegly the Exiled
+  complete 879 @45.12,80.07 -- Kuz's Skull (Kuz, far south)
+  complete 879 @43.75,83.26 -- Nak's Skull (Nak, far south)
+  complete 879 @40.15,80.54 -- Lok's Skull (Lok Orcbane, far south)
+  complete 889 @43.09,54.88 -- Blood Shard (Bristleback Water Seeker, south country)
+  complete 5042 @40.89,44.81 -- Blood Shard (Bristleback Geomancer, south country)
+  complete 5043 @41.45,44.43 -- Blood Shard (Bristleback Hunter, south country)
+  complete 5044 @43.27,52.5 -- Blood Shard (Bristleback Thornweaver, south country)
+  complete 5045 @43.41,51.6 -- Blood Shard (Bristleback Thornweaver, south country)
+  complete 5046 @40.89,44.81 -- Blood Shard (Bristleback Geomancer, south country)
+  complete 95774 @45.59,44.12 -- Olgra's Adornments (Razormane Raider, south-center)
+  complete 821 @43.19,78.39 -- Thunder Lizard Horn (Stormhide, far south)
+  complete 1525 only Shaman @40.5,80.82 -- Fire Tar (Razormane Seer, far south)
+  accept 4542 -- Message to Freewind Post - Brave Moonhorn; the urgent message to Freewind Post (Thousand Needles expedition below)
+  accept 4904 -- Free at Last - Lakota Windsong; escort Lakota Windsong from the Darkcloud Pinnacle (Thousand Needles expedition below)
+  accept 79007 -- ... and that note you found - the Burned-Out Remains; the charred note's trail (Westfall leg below)
+
+step Soft pre - Orgrimmar's trial (open)
+
+  zone map 1413
+
+  when onquest 1824
+
+  turnin 1824 only Warrior -- Trial at the Field of Giants - the antennae to Ruga Ragetotem
+
+step Camp Taurajo return - the south turns
+
+  zone map 1413
+
+  note Back to Taurajo with the far south field work.
+  turnin 879 -- Betrayal from Within - the skulls to Mangletooth
+  accept 906 -- Betrayal from Within - Mangletooth; Lok's skull to Thork at the Crossroads (Crossroads return below)
+  turnin 97250 -- Wrongly Blamed, Justly Corrected - the soldiers dead to Grunt Logmar
+  turnin 893 -- Weapons of Choice - the backstabber, wand and shield to Tatternack Steelforge
+  accept 1153 -- A New Ore Sample - Tatternack Steelforge; an unrefined ore sample off the Thousand Needles gravelsnouts (Thousand Needles expedition below)
+  accept 1512 only Warlock -- Love's Gift - Grunt Dogran; the dirt-caked pendant to Gan'rul in Orgrimmar (Orgrimmar expedition below)
+  turnin 889 -- Spirit of the Wind - the shards to Mangletooth
+  turnin 5042 -- Agamaggan's Strength - the shards to Mangletooth
+  turnin 5043 -- Agamaggan's Agility - the shards to Mangletooth
+  turnin 5044 -- Wisdom of Agamaggan - the shards to Mangletooth
+  turnin 5045 -- Rising Spirit - the shards to Mangletooth
+  turnin 5046 -- Razorhide - the shards to Mangletooth
+  accept 1825 only Warrior -- Speak with Thun'grim - Ruga Ragetotem; Thun'grim's word at Far Watch (Far Watch return below)
+  accept 1130 -- Melor Sends Word - Jorn Skyseer; Melor's word in Thunder Bluff (Thunder Bluff expedition below)
+
+step Ratchet swing - Chen's keg turns
+
+  zone map 1413
+
+  note North to Drohn with the keg work.
+  turnin 821 -- Chen's Empty Keg - the tusks, kidneys and horn to Brewmaster Drohn
+  accept 822 -- Chen's Empty Keg - Brewmaster Drohn; lightning glands, a saliva gland and a kodo liver, far south
+
+step Far south return - Chen's keg finishes
+
+  zone map 1413
+
+  note Back far south for the keg's last ingredients.
+  complete 822 @43.19,78.39 -- Lightning Gland (Stormhide, far south)
+  complete 822 @43.66,75.05 -- Thunderhawk Saliva Gland (Greater Thunderhawk, far south)
+  complete 822 @40.14,24.25 -- Kodo Liver (Lost Barrens Kodo, north-west flats)
+  turnin 822 -- Chen's Empty Keg - the glands and liver to Brewmaster Drohn
+
+step East - Mahren and the water call
+
+  zone map 1413
+
+  note East to Mahren Skyseer (65.84,43.86) and Islen Waterseer (65.83,43.78): Isha Awak south-east (63-63.4,50.2-53.4).
+  turnin 874 -- Mahren Skyseer - the word to Mahren Skyseer
+  accept 873 -- Isha Awak - Mahren Skyseer; the Heart of Isha Awak south-east
+
+step East - the Heart of Isha Awak
+
+  zone map 1413
+
+  note South-east to Isha Awak.
+  complete 873 @63,52.4 -- Heart of Isha Awak (Isha Awak, south-east)
+  turnin 873 -- Isha Awak - the heart to Mahren Skyseer
+
+step Soft pre - the southern waters (open)
+
+  zone map 1413
+
+  when onquest 1530
+
+  turnin 1530 only Shaman -- Call of Water - the word to Brine
+
+step South - Brine's waterskins
+
+  zone map 1413
+
+  note South to Brine's hut (43.42,77.41): the watering hole below (44.28,76.75).
+  accept 1535 only Shaman -- Call of Water - Islen's word carried south; the brown waterskin at the hole below the hut
+  complete 1535 only Shaman @44.28,76.75 -- Filled Brown Waterskin (Quilboar Watering Hole)
+  turnin 1535 only Shaman -- Call of Water - the filled skin to Brine
+  accept 1536 only Shaman -- Call of Water - Brine; the red waterskin at the well in Tarren Mill (Hillsbrad expedition below)
+
+step Westfall leg - the burned note
+
+  zone map 1436
+
+  tip Expedition leg to Westfall for the burned note (the plank's turn-in sits in Westfall in the data); the frame switches on.
+
+  note The Burned-Out Remains point on to Westfall (37.41,50.7).
+  turnin 79007 -- ... and that note you found - the charred note to the Burned-Out Remains
+
+  zone map 1413
+
+step Far Watch return - the warrior chain turns
+
+  zone map 1413
+
+  note Back north to Thun'grim Firegaze (57.23,30.34) with the field work.
+  turnin 1825 only Warrior -- Speak with Thun'grim - the word to Thun'grim Firegaze
+  accept 1838 only Warrior -- Brutal Armor - Thun'grim Firegaze; smoky iron ingots in Stonetalon, powdered azurite in Hillsbrad, iron bars and a vial of phlogiston with no placed sources - have them in your bags (Stonetalon and Hillsbrad expeditions below)
+
+step Hillsbrad expedition - the red waterskin
+
+  zone map 1424
+
+  tip Expedition leg to Hillsbrad Foothills for the waterskin fill and the azurite (both data-placed in Hillsbrad); the frame switches on.
+
+  note Tarren Mill's well (62.18,20.79) and the Hillsbrad miners (27-28.1,51.2-58).
+  complete 1536 only Shaman @62.18,20.79 -- Filled Red Waterskin (Spring Well, Tarren Mill)
+  complete 1838 only Warrior @27.99,54.14 -- Powdered Azurite (Hillsbrad Miner, Hillsbrad fields)
+
+  zone map 1413
+
+step Post-Hillsbrad - Brine's chain and the plank
+
+  zone map 1413
+
+  note Back to Brine's hut (43.42,77.41) and the Nailed Plank (46.39,73.82).
+  turnin 1536 only Shaman -- Call of Water - the filled skin to Brine
+  accept 1534 only Shaman -- Call of Water - Brine; the blue waterskin at the Ruins of Stardust in Ashenvale (Ashenvale expedition below)
+  accept 79192 -- Stepping Stones - the Nailed Plank; the pocket litter in Stonetalon (note 79008 accepts in Hillsbrad, not contracted here - the turn-in rides the mini-step below)
+
+step Stonetalon expedition - crags and warrens
+
+  zone map 1442
+
+  tip Expedition leg to Stonetalon for the border chains (all data-placed on the Stonetalon map); the frame switches on.
+
+  note Windshear mobs (71.7-73.8,58.3-62.4), Venture loggers (59.44-64.02,46.13-55.31), XT:4 (67.2,46.69), XT:9 (64.09,56.62), deepmoss eggs (44.87-52.59,40.51-46.51), Grundig Darkcloud (73.65,86.12), Rynthariel the Keymaster (29.71,16.91), Tammra Windfield (47.46,58.38), Jin'Zil (74.54,97.94), Ken'zigla (73.25,95.13), Ziz Fizziks (58.99,62.6), the Pocket Litter (40.75,52.57).
+  complete 1062 @59.44,52.26 -- Venture Co. Logger (Stonetalon crags)
+  complete 1062 @63.11,46.13 -- Venture Co. Logger (Stonetalon crags)
+  complete 1069 @44.87,42.74 -- Deepmoss Egg (Stonetalon warrens)
+  complete 1069 @48.11,44.44 -- Deepmoss Egg (Stonetalon warrens)
+  complete 6629 @73.65,86.12 -- Grundig Darkcloud (south Stonetalon)
+  complete 3514 @29.71,16.91 -- Rynthariel the Keymaster (Talon Den, Stonetalon)
+  complete 1838 only Warrior @71.76,60.29 -- Smoky Iron Ingot (Windshear Vermin, Windshear Crag)
+  complete 1838 only Warrior @72.42,62.41 -- Smoky Iron Ingot (Windshear Overlord, Windshear Crag)
+  zone map 1413
+
+step Soft pre - Orgrimmar's spirits (open)
+
+  zone map 1442
+
+  when onquest 1062
+
+  note Seereth's border camp copy (85.9,97.9).
+  turnin 1062 -- Goblin Invaders - the loggers dead to Seereth Stonebreak
+
+  zone map 1413
+
+step Stonetalon expedition - Windshear and Sun Rock
+
+  zone map 1442
+
+  note Seereth's word at the border camp (85.9,97.9): shredders XT:4 (67.2,46.69) and XT:9 (64.09,56.62), Makaba Flathoof (30,26.3), Jin'Zil (74.54,97.94), Ziz Fizziks (58.99,62.6).
+  accept 1063 -- The Elder Crone - Seereth Stonebreak; Magatha's word in Thunder Bluff (Thunder Bluff expedition below)
+  accept 1068 -- Shredding Machines - Seereth Stonebreak; the shredders XT:4 and XT:9
+  complete 1068 @67.2,46.69 -- XT:4 (Windshear Crag)
+  complete 1068 @64.09,56.62 -- XT:9 (Windshear Crag)
+  turnin 1068 -- Shredding Machines - the shredders dead to Seereth Stonebreak
+  turnin 6629 -- Kill Grundig Darkcloud - Grundig and the brutes dead to Makaba Flathoof
+  turnin 1060 -- Letter to Jin'Zil - Darsok's letter to Witch Doctor Jin'Zil
+  turnin 1483 -- Ziz Fizziks - Sputtervalve's word to Ziz Fizziks
+
+  zone map 1413
+
+step Soft pre - the Keymaster's fall (open)
+
+  zone map 1413
+
+  when onquest 3514
+
+  turnin 3514 -- Horde Presence - the Keymaster dead to Kadrak
+
+step Soft pre - Malaka'jin's news (open)
+
+  zone map 1442
+
+  when onquest 1510
+
+  turnin 1510 only Warlock -- News of Dogran - the word to Ken'zigla
+
+  zone map 1413
+
+step Soft pre - Windshear's orders (open)
+
+  zone map 1442
+
+  when onquest 1095
+
+  turnin 1095 -- Further Instructions - the orders to Ziz Fizziks
+
+  zone map 1413
+
+step Soft pre - Stonetalon's litter (open)
+
+  zone map 1442
+
+  when onquest 79192
+
+  turnin 79192 -- Stepping Stones - the plank's word to the Pocket Litter
+
+  zone map 1413
+
+step Soft pre - Sun Rock's news (open)
+
+  zone map 1442
+
+  when onquest 6401
+
+  turnin 6401 -- Kaya's Alive - the good news to Tammra Windfield
+
+  zone map 1413
+
+step Ratchet return - the deepmoss eggs
+
+  zone map 1413
+
+  note Back to Mebok Mizzyrix (62.37,37.62) with the Stonetalon eggs.
+  turnin 1069 -- Deepmoss Spider Eggs - the eggs to Mebok Mizzyrix
+
+step Ashenvale expedition - Stardust and Splintertree
+
+  zone map 1440
+
+  tip Expedition leg to Ashenvale for the Stardust fill and Senani (both data-placed in Ashenvale); the frame switches on. The Warsong updates for 6543 come from the Warsong NPCs here; the data names no placed source for the update items.
+
+  note The Ruins of Stardust fountain (33.55,67.47) and Senani Thunderheart at Splintertree Post (73.78,61.46).
+  complete 1534 only Shaman @33.55,67.47 -- Filled Blue Waterskin (Ruins of Stardust Fountain)
+  turnin 6382 -- The Ashenvale Hunt - Jorn's word to Senani Thunderheart
+
+  zone map 1413
+
+step Post-Ashenvale - Brine's chain and Islen
+
+  zone map 1413
+
+  note Back to Brine's hut and east to Islen Waterseer (65.83,43.78).
+  turnin 1534 only Shaman -- Call of Water - the filled skin to Brine
+  accept 220 only Shaman -- Call of Water - Brine; the vial of purest water to Islen
+  turnin 220 only Shaman -- Call of Water - the vial to Islen Waterseer
+  accept 63 only Shaman -- Call of Water - Islen Waterseer; the corrupt manifestation at the Silverpine brazier (Silverpine expedition below)
+
+step Silverpine expedition - Everfount and the Sepulcher
+
+  zone map 1421
+
+  tip Expedition leg to Silverpine for the Everfount brazier and Mura (both data-placed in Silverpine); the frame switches on.
+
+  note The Brazier of Everfount (38.26,44.56), the Minor Manifestation (38.65,44.58) and Mura Runetotem in the Sepulcher (42.91,41.99).
+  complete 63 only Shaman @38.26,44.56 -- Corrupt Manifestation's Bracers (Brazier of Everfount)
+  accept 96 only Shaman -- Call of Water - the Minor Manifestation of Water; the shard to Islen in the Barrens (note 100 accepts in Silverpine, routed in the Silverpine guide - the turn-in rides the mini-step below)
+  turnin 3301 -- Mura Runetotem - Tonga's word to Mura Runetotem
+
+  zone map 1413
+
+step Soft pre - Silverpine's shard (open)
+
+  zone map 1413
+
+  when onquest 96
+
+  turnin 96 only Shaman -- Call of Water - the shard to Islen Waterseer
+
+step Barrens return - the brazier word
+
+  zone map 1413
+
+  note East to Islen Waterseer (65.83,43.78) with the Everfount work.
+  turnin 63 only Shaman -- Call of Water - the bracers and drops to Islen Waterseer
+
+step East - Islen's sapta
+
+  zone map 1413
+
+  note Islen Waterseer's errand ends at the same stone (65.83,43.78).
+  accept 972 only Shaman -- Water Sapta - Islen Waterseer; Islen's word, same stone
+  turnin 972 only Shaman -- Water Sapta - the word to Islen Waterseer
+
+step Far Watch - the brutal armor
+
+  zone map 1413
+
+  note Back to Thun'grim Firegaze (57.23,30.34) with the Stonetalon ingots and Hillsbrad azurite.
+  turnin 1838 only Warrior optional -- Brutal Armor - the ingots, azurite, bars and vial to Thun'grim Firegaze (the bars are crafted and the vial has no placed source - have them in your bags)
+  accept 1848 only Warrior -- Brutal Hauberk - Thun'grim Firegaze; the hauberk, same anvil
+  turnin 1848 only Warrior -- Brutal Hauberk - the word to Thun'grim Firegaze
+  accept 1839 only Warrior -- Ula'elek and the Brutal Gauntlets - Thun'grim Firegaze; Ula'elek's word in Durotar (Durotar expedition below)
+  accept 1840 only Warrior -- Orm Stonehoof and the Brutal Helm - Thun'grim Firegaze; Orm's word in Thunder Bluff (Thunder Bluff expedition below)
+  accept 1841 only Warrior -- Velora Nitely and the Brutal Legguards - Thun'grim Firegaze; Velora's word in Undercity (Undercity expedition below)
+
+step Durotar expedition - scales, pouches and embers
+
+  zone map 1411
+
+  tip Expedition leg to Durotar for the thunder lizard scales, the reagent pouch, the ember and Ula'elek (all data-placed in Durotar); the frame switches on.
+
+  note Northern thunder lizards (39,23-31), Burning Blade cultists (51.89,25.71), the Minor Manifestation of Fire (38.72,58.29), the Brazier of the Dormant Flame (38.96,58.22), Ula'elek (56.31,74.33), Canaga Earthcaller (42.4,69.17).
+  complete 1498 only Warrior @39.1,25.27 -- Singed Scale (Thunder Lizard, Durotar north)
+  complete 1498 only Warrior @39.36,24.9 -- Singed Scale (Lightning Hide, Durotar north)
+  complete 1525 only Shaman @51.89,25.71 -- Reagent Pouch (Burning Blade Cultist, Durotar)
+  turnin 1839 only Warrior -- Ula'elek and the Brutal Gauntlets - Thun'grim's word to Ula'elek
+  turnin 1525 only Shaman -- Call of Fire - the tar and pouch to Telf Joolam
+  accept 1526 only Shaman -- Call of Fire - Telf Joolam; the ember to the brazier atop the Shrine of Eternal Flame
+  complete 1526 only Shaman @38.72,58.58 -- Glowing Ember (Minor Manifestation of Fire, Durotar)
+  turnin 1526 only Shaman -- Call of Fire - the ember to the Brazier of the Dormant Flame
+
+  zone map 1413
+
+step Soft pre - Durotar's earth (open)
+
+  zone map 1411
+
+  when onquest 1518
+
+  turnin 1518 only Shaman -- Call of Earth - the rough quartz to Canaga Earthcaller
+
+  zone map 1413
+
+step Far Watch return - forged steel
+
+  zone map 1413
+
+  note Back to Far Watch with the Durotar scales: Uzzek (61.38,21.12), Thun'grim Firegaze (57.23,30.34), the Stolen Iron Chest (55.05,26.65).
+  turnin 1498 only Warrior -- Path of Defense - the scales to Uzzek
+  accept 1502 only Warrior -- Thun'grim Firegaze - Uzzek; Thun'grim's word at Far Watch
+  turnin 1502 only Warrior -- Thun'grim Firegaze - the word to Thun'grim Firegaze
+  accept 1503 only Warrior -- Forged Steel - Thun'grim Firegaze; the forged steel bars in the Stolen Iron Chest
+  complete 1503 only Warrior @55.05,26.65 -- Forged Steel Bars (Stolen Iron Chest, north flats)
+  turnin 1503 only Warrior -- Forged Steel - the bars to Thun'grim Firegaze
+
+step Mulgore expedition - Red Rocks
+
+  zone map 1412
+
+  tip Expedition leg to Mulgore for the Red Rocks interlopers and Seer Ravenfeather (both data-placed in Mulgore); the frame switches on.
+
+  note Red Rocks (57.2,29.87-31.21), Lorekeeper Raintotem (56.98,34.55), Seer Ravenfeather in Camp Narache (44.35,76.77).
+  complete 833 @57.2,29.87 -- Bristleback Interloper (Red Rocks, Mulgore)
+  complete 833 @57.2,30.6 -- Bristleback Interloper (Red Rocks, Mulgore)
+  turnin 833 -- A Sacred Burial - the interlopers dead to Lorekeeper Raintotem
+
+  zone map 1413
+
+step Soft pre - Mulgore's earth (open)
+
+  zone map 1412
+
+  when onquest 1521
+
+  turnin 1521 only Shaman -- Call of Earth - the rough quartz to Seer Ravenfeather
+
+  zone map 1413
+
+step Druid tail - curing the sick
+
+  zone map 1413
+
+  note Back to Tonga Runetotem and the northern gazelles (41.18-43.74,15.28-39.33) for the druid tail.
+  accept 6129 only Druid -- Curing the Sick - Tonga Runetotem; the curative salve on ten sickly gazelles, northern flats (the Moonglade leg below)
+  complete 6129 only Druid @41.18,25.68 -- Sickly Gazelle (northern flats)
+  complete 6129 only Druid @42.47,20.49 -- Sickly Gazelle (northern flats)
+
+  zone map 1450
+
+  tip Expedition leg to Moonglade for Dendrite (data-placed in Moonglade); the frame switches on.
+  turnin 6129 only Druid -- Curing the Sick - the cured gazelles to Dendrite Starblaze (6130 accepts in Moonglade, not contracted here)
+
+  zone map 1413
+
+step Thunder Bluff expedition - the south words
+
+  zone map 1456
+
+  tip Expedition leg to Thunder Bluff for the south words (all data-placed in Thunder Bluff); the frame switches on.
+
+  note Apothecary Zamah (34.4,21.1), Hamuul Runetotem (45.8,22.7), Melor Stonehoof (42.3,33.3), Ahanu (39.1,28.2), Magatha Grimtotem (44,23.1), Orm Stonehoof (37.7,28.2), Cairne Bloodhoof (42.1,27.3).
+  turnin 853 -- Apothecary Zamah - the rendered spores to Apothecary Zamah
+  turnin 1489 -- Hamuul Runetotem - Tonga's word to Arch Druid Hamuul Runetotem
+  turnin 3369 -- In Nightmares - the nightmare shard to Arch Druid Hamuul Runetotem
+  turnin 1130 -- Melor Sends Word - Jorn's word to Melor Stonehoof
+  turnin 6362 only Tauren -- Ride to Thunder Bluff - the bundle to Ahanu
+  turnin 1063 -- The Elder Crone - Seereth's word to Magatha Grimtotem
+  turnin 1840 only Warrior -- Orm Stonehoof and the Brutal Helm - Thun'grim's word to Orm Stonehoof
+
+  zone map 1413
+
+step Soft pre - Thunder Bluff's rite (open)
+
+  zone map 1456
+
+  when onquest 775
+
+  turnin 775 -- Journey into Thunder Bluff - the word to Cairne Bloodhoof
+
+  zone map 1413
+
+step Orgrimmar expedition - the city words
+
+  zone map 1454
+
+  tip Expedition leg to Orgrimmar for the city words (all data-placed in Orgrimmar); the frame switches on.
+
+  note Gryshka (54.1,68.41), Rilli Greasygob (76.52,24.41), Gan'rul Bloodeye (48.25,45.28), Shenthul (43.05,53.74).
+  turnin 6384 only Orc,Troll -- Ride to Orgrimmar - the meats to Innkeeper Gryshka
+  turnin 3923 -- Rilli Greasygob - the battered Samophlange to Rilli Greasygob
+  turnin 1512 only Warlock -- Love's Gift - the pendant to Gan'rul Bloodeye
+
+  zone map 1413
+
+step Soft pre - Orgrimmar's cover (open)
+
+  zone map 1454
+
+  when onquest 2478
+
+  turnin 2478 only Rogue -- Mission: Possible But Not Probable - Silixiz's key and Gallywix's head to Shenthul
+
+  zone map 1413
+
+step Undercity expedition - the tomes and the legguards
+
+  zone map 1458
+
+  tip Expedition leg to Undercity for the tomes and Velora (all data-placed in Undercity); the frame switches on.
+
+  note Owen Thadd (73.4,33) and Velora Nitely (62.14,39.14).
+  turnin 1841 only Warrior -- Velora Nitely and the Brutal Legguards - Thun'grim's word to Velora Nitely
+  turnin 78143 -- Secrets of the Dreamers - the secrets to Owen Thadd
+  turnin 78145 -- Arcanic Systems Manual - the manual to Owen Thadd
+  turnin 79097 -- Baxtan: On Destructive Magics - Baxtan to Owen Thadd
+
+  zone map 1413
+
+step Thousand Needles expedition - Freewind Post
+
+  zone map 1441
+
+  tip Expedition leg to Thousand Needles for the Freewind words and the Lakota escort (all data-placed in Thousand Needles); the frame switches on.
+
+  note Gravelsnout diggers and surveyors (11.66-12.94,14.01-22.79), Gibblesnik (55.62,50.45), Cliffwatcher Longhorn (45.67,50.74), the Darkcloud Pinnacle escort (30.93,37.12), Thalia Amberhide (45.97,51.61).
+  complete 1153 @11.85,21.31 -- Unrefined Ore Sample (Gravelsnout Digger, Thousand Needles)
+  complete 1153 @11.66,22.79 -- Unrefined Ore Sample (Gravelsnout Surveyor, Thousand Needles)
+  complete 1153 @55.62,50.45 -- Unrefined Ore Sample (Gibblesnik, Thousand Needles)
+  turnin 4542 -- Message to Freewind Post - the urgent message to Cliffwatcher Longhorn
+  complete 4904 @30.93,37.12 -- Escort Lakota Windsong from the Darkcloud Pinnacle
+  turnin 4904 -- Free at Last - Lakota to Thalia Amberhide
+
+  zone map 1413
+
+step Camp Taurajo return - the ore sample
+
+  zone map 1413
+
+  note Back to Tatternack Steelforge (45.1,57.68) with the ore.
+  turnin 1153 -- A New Ore Sample - the ore sample to Tatternack Steelforge
+
+step Crossroads return - the last turns
+
+  zone map 1413
+
+  note Last walk back to the Crossroads with the travel chains.
+  turnin 854 only Tauren -- Journey to the Crossroads - the word to Thork
+  turnin 906 -- Betrayal from Within - Lok's skull to Thork
+  turnin 868 -- Egg Hunt - the eggs to Korran
+  turnin 862 -- optional - Dig Rat Stew - the dig rats to Grub
+  turnin 95774 -- Her Name Is Olgra - the adornments to Mankrik
+  turnin 3281 -- Stolen Silver - the silver to Gazrog
