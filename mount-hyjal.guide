@@ -1,0 +1,453 @@
+# Mount Hyjal - Completionist (pack butler-routes-completionist, v1).
+# Every Hyjal accept in the local census (123 quests, band 54-60,
+# docs/mount-hyjal-census.md, accept key 2482 verified by spawn counts) appears
+# exactly once as an accept; 123 turnins close every record that has one in the
+# data (121 do; 91696 Open Season and 96077 Belle's Ring are accept-only and ride
+# with honest no-turn-in notes, Ironforge precedent). The 13 Horde set-asides and
+# the broken 93925 are out with reasons in the census. No race header and no race
+# gates: the 20 quests carrying the 4294967373 race mask (Human/Dwarf/Night Elf/
+# Gnome + bit 32) are Alliance-only by faction and ride inline, Silithus shape.
+# No class or skill gates anywhere in the contract (all null). Item objectives
+# with no data-placed source ship as honest area notes naming the thing (R2);
+# kill objectives and the handful of data-placed objects ride real completes.
+# Soft pres ride dedicated when-onquest minis: 93773 (Moonglade accept, turnin
+# Ketharas here) and 92009 (Winterspring accept, timed Hyjal delivery to
+# Kaylaena). Expedition tails group by destination with frame switches (R1):
+# Winterspring, Stormwind, Thousand Needles, Redridge, Moonglade. The
+# 90750/90854 pre lists name the Zet'gan Horde twin 95026 of Blight No More
+# alongside the Alliance 92449 routed here; the Alliance pre satisfies the chain.
+guide butler-routes-completionist/mount-hyjal
+title Mount Hyjal
+levels 54-60
+zone Mount Hyjal
+faction Alliance
+category Leveling
+folder Kalimdor
+coords live
+version 1
+
+step Western post arrival - Blight No More
+
+  zone map 2482
+
+  tip The western post is the hub: Sefira, Daythor, Hnaz and Mirt below. This leg clears the post's own chains.
+  accept 92449 -- Blight No More - Sefira Everbright (15.67, 54.66); soldiers and raveners south and east of the post
+  complete 92449 @22.26,56.56 -- Forgotten Soldiers south of the post
+  complete 92449 @22.22,53.34 -- Fleshflay Raveners east of the post
+  turnin 92449 -- Blight No More - back to Sefira Everbright
+  accept 92591 -- Final Death - Sefira Everbright; Reanimator's Amulets off the Scourge Reanimators
+  complete 92591 @26.75,58.76 -- Scourge Reanimators east of the post
+  turnin 92591 -- Final Death - back to Sefira Everbright
+  accept 90750 -- More Work? - Sefira Everbright; the listed Zet'gan twin prequest 95026 is the Horde twin of Blight No More and out of contract - the Alliance 92449 above satisfies this chain
+  turnin 90750 -- More Work? - to Daythor Brellan (15.55, 52.07)
+  accept 90854 -- Leather for Inclement Weather - Zet'gan (13.82, 54.75); same twin note as More Work? above
+  turnin 90854 -- Leather for Inclement Weather - back to Zet'gan
+  accept 95769 -- Threading a Solution - Kal'tinzan (13.77, 53.06); bring a Bolt of Runecloth in your bags - Tailoring-made, Auction House, or banked - the R5 bag-note shape
+  turnin 95769 -- Threading a Solution - back to Kal'tinzan
+  accept 92433 -- Now We're Cooking - Hnaz Blunderflame (15.64, 49.99)
+  turnin 92433 -- Now We're Cooking - back to Hnaz Blunderflame
+  accept 95027 -- Feathers in Flight - Hnaz Blunderflame; Hyjal Owl Feathers off the owls northwest
+  complete 95027 @18.98,60.98 -- Hyjal Owls northwest of the post
+  turnin 95027 -- Feathers in Flight - back to Hnaz Blunderflame
+  accept 96674 -- Ewe Wandered Off - Mirt (15.93, 52.72); the escaped sheep west of the post
+  complete 96674 @11.28,51.08 -- Escaped Sheep west of the post
+  turnin 96674 -- Ewe Wandered Off - back to Mirt
+  accept 95218 -- More of the Same - Daythor Brellan (15.55, 52.07); for Sefira at the post
+  turnin 95218 -- More of the Same - to Sefira Everbright
+  accept 94832 -- Belle's Ring - Sefira Everbright; for Daythor Brellan
+  turnin 94832 -- Belle's Ring - to Daythor Brellan
+  accept 96077 -- Belle's Ring - Daythor Brellan (15.55, 52.07); accept-only - no turn-in exists anywhere in the data, contracted with this honest note, never an invented turn-in
+  accept 90865 -- Eyes of the Watchers - Eluneth (18.78, 62.01); the Watcher's Eye has no placed source in the data - check the watchers north, then turn in here
+  turnin 90865 -- Eyes of the Watchers - back to Eluneth
+  accept 90702 -- Disturbed Grave - the Unmarked Grave (22.46, 48.66); the Ring of the Fallen Soldier has no placed source in the data - check the grounds, then carry it to Eluneth
+  turnin 90702 -- Disturbed Grave - to Eluneth (18.78, 62.01)
+  accept 91688 -- To the Summit of Eternity - Sefira Everbright; for Thisalee Crow at the northeast summit - carried on the summit leg below
+
+step Furbolg den - Balance Through Strength
+
+  zone map 2482
+
+  tip The Barkskin den clusters southwest: Brerufa, Osi, Mistpaw and the elders below.
+  accept 93952 -- Balance Through Strength - Brerufa (20.56, 71.73); Deadwood Den Guardians around the den
+  complete 93952 @24.24,63.59 -- Deadwood Den Guardians around the den
+  turnin 93952 -- Balance Through Strength - back to Brerufa
+  accept 92111 -- Of Friend and Fur - Brerufa; for Osi Mistpaw deeper in the den
+  turnin 92111 -- Of Friend and Fur - to Osi Mistpaw (21.08, 80.19)
+  accept 93831 -- Sweetpaw Jam - Osi Mistpaw; Bear Berries have no placed source in the data - gather around the den, then turn in here
+  turnin 93831 -- Sweetpaw Jam - back to Osi Mistpaw
+  accept 91697 -- Meet the Elders - Osi Mistpaw; for Elder Mistpaw
+  turnin 91697 -- Meet the Elders - to Elder Mistpaw (21.77, 78.98)
+  accept 93825 -- Barkbound Blessings - Suma Mossmane (20.82, 79.81); Moonveil Moss has no placed source in the data - gather around the den, then turn in here
+  turnin 93825 -- Barkbound Blessings - back to Suma Mossmane
+  accept 93826 -- Deal Dread to Deadwood - Elder Mistpaw; for Elder Pinespeaker - Totemics and Fel-Tenders around the den
+  complete 93826 @24.09,66.33 -- Deadwood Totemics around the den
+  complete 93826 @24.08,66.54 -- Deadwood Fel-Tenders around the den
+  turnin 93826 -- Deal Dread to Deadwood - to Elder Pinespeaker (21.77, 79.37)
+  accept 93827 -- Windswept Wards - Thobon Sapclaw (18.52, 78.6); the Enchanted Harpy Amulet has no placed source in the data - check the harpies, then turn in here
+  turnin 93827 -- Windswept Wards - back to Thobon Sapclaw
+  accept 94504 -- Barkskin Beginnings - Elder Mistpaw (21.77, 78.98)
+  turnin 94504 -- Barkskin Beginnings - back to Elder Mistpaw
+
+step Fenwick's grove - Branch Out
+
+  zone map 2482
+
+  tip Fenwick's survival camp sits south; the Matriarch dens west. This leg clears both before the elder grove.
+  accept 92702 -- Branch Out - Fenwick Togglespring (25.31, 75.87); the Sturdy Tree Branch has no placed source in the data - the Tree Branch ancients at the grove are the evident match, never waited on
+  turnin 92702 -- Branch Out - back to Fenwick Togglespring
+  accept 92064 -- Tree Free - Fenwick Togglespring; the Tree Branch ancient at the grove
+  complete 92064 @25.27,76.34 -- the Tree Branch ancient
+  turnin 92064 -- Tree Free - back to Fenwick Togglespring
+  accept 96559 -- Supply Drop - Fenwick Togglespring; for the Personal Survival Pack
+  turnin 96559 -- Supply Drop - to the Personal Survival Pack (25.46, 74.62)
+  accept 93383 -- Contents Under Pressure - the Personal Survival Pack (25.46, 74.62)
+  turnin 93383 -- Contents Under Pressure - back to the Personal Survival Pack
+  accept 91698 -- Barkskin Breakout - Barkskin Matriarch (31.5, 58.59); the Deadwood Key has no placed source in the data - check the Deadwood, then turn in here
+  turnin 91698 -- Barkskin Breakout - back to Barkskin Matriarch
+  accept 91696 -- Open Season - Barkskin Matriarch (31.5, 58.59); accept-only - no turn-in exists anywhere in the data, contracted with this honest note, never an invented turn-in
+  accept 93615 -- Kits and Cats - Shalla'kal (31.3, 50.3)
+  turnin 93615 -- Kits and Cats - back to Shalla'kal
+
+step Elder grove - Rub Some Dirt In It
+
+  zone map 2482
+
+  tip The elder grove stands south: Hyacinth and Fraxinus below. Fine Feathered Friend accepts here for the Crow below.
+  accept 91754 -- Rub Some Dirt In It - Hyacinth (54.05, 84.39); Untainted Soil has no placed source in the data - dig around the grove, then turn in here
+  turnin 91754 -- Rub Some Dirt In It - back to Hyacinth
+  accept 91755 -- Leaves to Ligatures - Hyacinth; Verdant Leaves have no placed source in the data - gather around the grove, then turn in here
+  turnin 91755 -- Leaves to Ligatures - back to Hyacinth
+  accept 91770 -- Bark Bite - Hyacinth; Fraxinus beside the grove - flagged a kill in the data, treated as a visit, never attacked
+  complete 91770 @53.4,84.33 -- visit Fraxinus
+  turnin 91770 -- Bark Bite - to Fraxinus (53.4, 84.33)
+  accept 92959 -- The Dying Ancients - Fraxinus (53.4, 84.33)
+  turnin 92959 -- The Dying Ancients - back to Fraxinus
+  accept 95766 -- Fine Feathered Friend - Fraxinus; for the Curious Crow far south - carried on the Crow leg below
+
+step The Pact handoff (when onquest 93773)
+
+  zone map 2482
+
+  when onquest 93773
+  note The Pact (93773) accepts from Dendrite Starblaze in Moonglade, outside this pack's contracts. This step carries that handoff and nothing else.
+  turnin 93773 -- The Pact - to Ketharas (73.34, 81.88); holders turn in here, others skip - this unlocks the Ketharas and Corvid chains below
+
+step Ketharas hub - Seeds for a New Season
+
+  zone map 2482
+
+  tip Ketharas anchors the southeast: Quintus far east first, then the hub's own chains. The Corvid and the summit chain accept here for legs below.
+  accept 96833 -- Venom Maws - Quintus Wainworth (79.85, 70.69); for Ketharas
+  turnin 96833 -- Venom Maws - to Ketharas (73.34, 81.88)
+  accept 95568 -- Seeds for a New Season - Ketharas; the Untainted Seed has no placed source in the data - check the grounds, then turn in here
+  turnin 95568 -- Seeds for a New Season - back to Ketharas
+  accept 95569 -- Hope for Hatchlings - Ketharas; Hyjal Owl Eggs off the eastern owls
+  complete 95569 @72.69,75.1 -- Hyjal Owls east of the hub
+  turnin 95569 -- Hope for Hatchlings - back to Ketharas
+  accept 93747 -- Violence Into Verdure - Ketharas
+  turnin 93747 -- Violence Into Verdure - back to Ketharas
+  accept 94479 -- One Person's Trash - the Loose Cog (75.28, 77.38); for Ketharas
+  turnin 94479 -- One Person's Trash - to Ketharas (73.34, 81.88)
+  accept 93759 -- The Bounty of Nature - Ketharas; Hyjal Venison Cuts and Scarlet Dart Tubers have no placed sources in the data - hunt and gather around the hub, then turn in here
+  turnin 93759 -- The Bounty of Nature - back to Ketharas
+  accept 95611 -- Rites of Respect - Ketharas
+  turnin 95611 -- Rites of Respect - back to Ketharas
+  accept 90487 -- Ancient Allies - Ketharas; for Fraxinus back at the elder grove - carried on the closing sweep below
+  accept 96796 -- Woods Workshop - Ketharas; for Kaylaena Springwhisper in the center - carried on the Kaylaena leg below
+  accept 92171 -- Taking to New Heights - Ketharas; for Skylord Omnuron in the center - carried on the Ketharas return below
+  accept 96930 -- The Capricious Corvid - Ketharas; for the Curious Crow far south - carried on the Crow leg below
+
+step Crow and Felflick - A Curious Question
+
+  zone map 2482
+
+  tip The southern hub splits: Velician southwest of the Crow, the Crow himself far south, Felflick mid-south - with a return to the Crow. The Corvid chain turns in here for the Jereman branch below.
+  accept 96321 -- The Dying God - Velician (36.69, 78.25); for the Curious Crow
+  turnin 96321 -- The Dying God - to the Curious Crow (48.26, 85.72)
+  accept 95320 -- A Curious Question - the Curious Crow; for Felflick mid-south
+  turnin 95320 -- A Curious Question - to Felflick (48.58, 73.54)
+  accept 95317 -- Notation, Notation, Notation - Felflick
+  turnin 95317 -- Notation, Notation, Notation - back to Felflick
+  accept 95380 -- A Prolific Source - Felflick; Fel-Slime Ooze off the slimes at the Bone Pile grounds southwest
+  complete 95380 @39.65,77.76 -- Awakened Fel Ash Slimes at the Bone Pile grounds
+  turnin 95380 -- A Prolific Source - back to Felflick
+  accept 96262 -- Prickly Pinecones - Felflick; the pinecones have no placed source in the data - check the pines, then turn in here
+  turnin 96262 -- Prickly Pinecones - back to Felflick
+  accept 95316 -- The Experimental Method - Felflick
+  turnin 95316 -- The Experimental Method - back to Felflick
+  accept 95318 -- Taste of Ash - Felflick; Ashen Acolytes on the ash grounds
+  complete 95318 @44.32,78.77 -- Ashen Acolytes on the ash grounds
+  turnin 95318 -- Taste of Ash - back to Felflick
+  accept 95319 -- Crystalline Collection - Felflick; Fel-Slime Crystals and one Pristine crystal have no placed sources in the data - work the slime grounds, then turn in here
+  turnin 95319 -- Crystalline Collection - back to Felflick
+  accept 95378 -- The Hydra's Head - Felflick; the three sets of bones have no placed sources in the data - search the ash grounds, then turn in here
+  turnin 95378 -- The Hydra's Head - back to Felflick
+  accept 95379 -- A Revenge So Sweet - Felflick; Brashann Grimdark on the ash grounds
+  complete 95379 @48.63,73.42 -- Brashann Grimdark on the ash grounds
+  turnin 95379 -- A Revenge So Sweet - back to Felflick
+  accept 96435 -- A Fitting End - Felflick; Eve's Rose turns in at the Bone Pile itself
+  turnin 96435 -- A Fitting End - at the Bone Pile (40.83, 80.24)
+  accept 96255 -- Amalgamated Marrow - the Bone Pile (40.83, 80.24); Awakened Fel Ash Slimes around it - needs A Fitting End above
+  complete 96255 @39.65,77.76 -- Awakened Fel Ash Slimes around the Bone Pile
+  turnin 96255 -- Amalgamated Marrow - to Felflick (48.58, 73.54)
+  accept 96322 -- A Revenge Now Bitter - Felflick (48.58, 73.54)
+  turnin 96322 -- A Revenge Now Bitter - to the Curious Crow (48.26, 85.72)
+  turnin 95766 -- Fine Feathered Friend - to the Curious Crow; from Fraxinus at the elder grove above
+  turnin 96930 -- The Capricious Corvid - to the Curious Crow; from Ketharas above - this opens the Jereman branch below
+  accept 96931 -- Heading Up the Mountain - the Curious Crow; for Jereman in the center
+  accept 96131 -- An Oldstone But An Old Friend - the Curious Crow; for Ketharas - carried on the Ketharas return below
+  accept 91881 -- The Western Post - the Curious Crow; for Sefira Everbright at the western post - carried on the closing sweep below
+
+step Jereman branch - Heading Up the Mountain
+
+  zone map 2482
+
+  tip Jereman works the center: Marrosis west, Renalard east, Kala'th back west. Both Ketharas turn-ins below ride the Ketharas return.
+  turnin 96931 -- Heading Up the Mountain - to Jereman (41.27, 45.33)
+  accept 96939 -- The Balance of Life and Death - Jereman; for Marrosis west
+  turnin 96939 -- The Balance of Life and Death - to Marrosis (27.1, 49.99)
+  accept 96957 -- Bone Sweet Bone - Marrosis; Sun-Bleached Bones have no placed source in the data - search the grounds, then turn in here
+  turnin 96957 -- Bone Sweet Bone - back to Marrosis
+  accept 92317 -- Stolen Life - Marrosis; the Drop of Stolen Life has no placed source in the data - check the grounds, then carry it to Ketharas on the return below
+  accept 96964 -- A Clever Creature - Jereman; for Renalard east
+  turnin 96964 -- A Clever Creature - to Renalard (60.04, 49.35)
+  accept 92335 -- Ashes of the Legion Ascent - Renalard; Azgalor's Ashes have no placed source in the data - check the grounds, then carry it to Ketharas on the return below
+  accept 96971 -- To Outfox a Demon - Renalard; the Abandoned Supplies have no placed source in the data - search the grounds, then turn in here
+  turnin 96971 -- To Outfox a Demon - back to Renalard
+  accept 96978 -- Violent Venison - Jereman; for Kala'th west - carried on the Phoebe leg below
+  accept 96979 -- Sacred Refreshment - Galvinquam Leafsyre (32.89, 54.44)
+  turnin 96979 -- Sacred Refreshment - back to Galvinquam Leafsyre
+  accept 96991 -- Trail Assist - Galvinquam Leafsyre; for Marn Euhorn at the summit - carried on the Marn leg below
+
+step Remembrance - Anywhere But Here
+
+  zone map 2482
+
+  tip The Third War veterans stand west and center: two turn-ins ride out-of-zone expeditions below, the rest close here.
+  accept 92100 -- Anywhere But Here - Veteran of the Third War (20.49, 60.08); for the Embroidered Scabbard west
+  turnin 92100 -- Anywhere But Here - at the Embroidered Scabbard (8.73, 46.45)
+  accept 96550 -- Battle Recall - the Embroidered Scabbard (8.73, 46.45); for the Veteran of the Third War
+  turnin 96550 -- Battle Recall - to the Veteran of the Third War (8.8, 46.48)
+  accept 92101 -- Lifted by Legacy - the Veteran of the Third War (8.8, 46.48); Tobin's spot sits in Thousand Needles - carried on the expedition below
+  accept 93510 -- Wake Memories - the Veteran of the Third War (8.8, 46.48); Tobin's spot on Lake Everstill sits in Redridge - carried on the expedition below
+  accept 93567 -- Ends Meet - Veteran of the Third War (27.5, 50.9)
+  turnin 93567 -- Ends Meet - back to the Veteran of the Third War
+  accept 96558 -- Soldier's Solace - Veteran of the Third War (27.5, 50.9); the Battle Cache stands beside him
+  turnin 96558 -- Soldier's Solace - at the Battle Cache (29, 52.8)
+
+step Ketharas return - Taking to New Heights
+
+  zone map 2482
+
+  tip Back to Ketharas with the branch's turn-ins, then the summit handoff through Omnuron. Thylaen's bitter quest rides here too.
+  turnin 92317 -- Stolen Life - to Ketharas (73.34, 81.88); from Marrosis on the Jereman branch above
+  turnin 92335 -- Ashes of the Legion Ascent - to Ketharas; from Renalard on the Jereman branch above
+  turnin 96131 -- An Oldstone But An Old Friend - to Ketharas; from the Curious Crow above
+  accept 92612 -- Aid from Moonglade - Ketharas; for Dendrite Starblaze in Moonglade - carried on the Moonglade expedition below
+  turnin 92171 -- Taking to New Heights - to Skylord Omnuron (54.31, 63.95); from Ketharas above
+  accept 92500 -- A Bit of the Sky - Skylord Omnuron; the Jewel of the Horizon has no placed source in the data - check the skies, then carry it back to Ketharas
+  turnin 92500 -- A Bit of the Sky - to Ketharas (73.34, 81.88)
+  accept 90647 -- The Staff of the Mountain - Ketharas; for Tiala Whitemane at the northeast summit - carried on the summit leg below
+  accept 91883 -- Spear of the Skylord - Skylord Omnuron (54.31, 63.95); Omnuron's Spear has no placed source in the data - check the grounds, then turn in here
+  turnin 91883 -- Spear of the Skylord - back to Skylord Omnuron
+  accept 91923 -- Celastrus the Bitter - Thylaen (54.83, 84.56); the Broken Frond of Celastrus has no placed source in the data - check the grounds, then turn in here
+  turnin 91923 -- Celastrus the Bitter - back to Thylaen
+
+step Northern demon front - Stemming the Demon Tide
+
+  zone map 2482
+
+  tip The demon front runs north-center: Witherbeard and Elaena share a post, Maerion far north, Yashiro east of them.
+  accept 95793 -- Stemming the Demon Tide - Witherbeard (43.77, 32.09); Felguard Sentinels around the post
+  complete 95793 @43.89,32.63 -- Felguard Sentinels around the post
+  turnin 95793 -- Stemming the Demon Tide - to Witherbeard
+  turnin 95793 -- Stemming the Demon Tide - to Elaena Moonwhisper (43.77, 32.24)
+  accept 92960 -- Siphoned Ephemeral Essence - Elaena Moonwhisper; the Ephemeral Essence has no placed source in the data - siphon around the demon grounds, then turn in here
+  turnin 92960 -- Siphoned Ephemeral Essence - back to Elaena Moonwhisper
+  accept 96003 -- Drawing Down the Malevolent - Elaena Moonwhisper; Bethra'zel and Mazzogore the Weak on the demon grounds
+  complete 96003 @58.06,32.61 -- Bethra'zel on the demon grounds
+  complete 96003 @50.68,37.77 -- Mazzogore the Weak on the demon grounds
+  turnin 96003 -- Drawing Down the Malevolent - back to Elaena Moonwhisper
+  accept 96025 -- As the Crow Flies - Elaena Moonwhisper; for Thisalee Crow at the northeast summit - carried on the Thisalee leg below
+  accept 97009 -- Maerion's Misery - Maerion Thaelemaches (63.28, 25.85); Felhound Spikes have no placed spawn in the data - no felhounds spawn in Hyjal, the nearest data-confirmed felhounds are in Winterspring - check there if you go, then turn in here
+  turnin 97009 -- Maerion's Misery - back to Maerion Thaelemaches
+  accept 97010 -- Blind Vengeance - Maerion Thaelemaches (63.28, 25.85)
+  turnin 97010 -- Blind Vengeance - back to Maerion Thaelemaches
+  accept 96959 -- Blademaster's Bonfires - Yashiro (49.33, 32.63); the fel-tankers have no placed spawns in the data - track them east of the post, then turn in here
+  turnin 96959 -- Blademaster's Bonfires - back to Yashiro
+  accept 96983 -- Yashiro's Windwalk - Yashiro (49.33, 32.63)
+  turnin 96983 -- Yashiro's Windwalk - back to Yashiro
+
+step Tiala summit - Paying Back the Pact
+
+  zone map 2482
+
+  tip Tiala Whitemane anchors the northeast summit: the staff chain lands here, Ve'han falls east, Jereman's return rides out west.
+  accept 93521 -- Challenger of the Gods - the Bookshelf (76.92, 35.36); for Tiala Whitemane
+  turnin 93521 -- Challenger of the Gods - to Tiala Whitemane (68.85, 50.6)
+  turnin 90647 -- The Staff of the Mountain - to Tiala Whitemane; from Ketharas above
+  accept 92169 -- Paying Back the Pact - Tiala Whitemane
+  turnin 92169 -- Paying Back the Pact - back to Tiala Whitemane
+  accept 92833 -- Ve'han's Fall - Tiala Whitemane; Ve'han Talongrasp roosts east
+  complete 92833 @74.75,34.12 -- Ve'han Talongrasp roosts east
+  turnin 92833 -- Ve'han's Fall - back to Tiala Whitemane
+  accept 93848 -- Work Well Done - Tiala Whitemane; for Ketharas - carried on the closing sweep below
+  accept 93127 -- Summit Sentries - Tiala Whitemane (68.85, 50.6)
+  turnin 93127 -- Summit Sentries - back to Tiala Whitemane
+  accept 93407 -- A Thorn in the Paw - Tiala Whitemane; the Thorn Seed has no placed source in the data - check the grounds, then turn in here
+  turnin 93407 -- A Thorn in the Paw - back to Tiala Whitemane
+  accept 93547 -- A Thorny Solution - Tiala Whitemane (68.85, 50.6)
+  turnin 93547 -- A Thorny Solution - back to Tiala Whitemane
+  accept 99670 -- Return to Jereman - Tiala Whitemane; for Jereman in the center - turn in on the center leg below
+
+step Thisalee's rise - Cult Closure
+
+  zone map 2482
+
+  tip Thisalee Crow works the rise beside the summit: cultists and adepts around, Marn just below.
+  accept 93584 -- Cult Closure - Thisalee Crow (68.99, 49.99); Blackthorne Cultists and Adepts around the rise
+  complete 93584 @69.8,46.72 -- Blackthorne Cultists around the rise
+  complete 93584 @69.22,28.75 -- Blackthorne Adepts around the rise
+  turnin 93584 -- Cult Closure - back to Thisalee Crow
+  accept 96303 -- Memory Mist - Thisalee Crow (68.99, 49.99)
+  turnin 96303 -- Memory Mist - back to Thisalee Crow
+  turnin 91688 -- To the Summit of Eternity - to Thisalee Crow; from Sefira at the western post above
+  turnin 96025 -- As the Crow Flies - to Thisalee Crow; from Elaena on the northern front above
+
+step Marn's perch - Cleansing Winds
+
+  zone map 2482
+
+  tip Marn Euhorn perches below the summit: feathers, roots and the chimaera heart below.
+  accept 92017 -- Cleansing Winds - Marn Euhorn (68.3, 46.71); the Grand Hippogryph Feather and Oily Chimaera Hair have no placed sources in the data - hunt hippogryphs and chimaeras, then turn in here
+  turnin 92017 -- Cleansing Winds - back to Marn Euhorn
+  accept 92016 -- Rootwork - Marn Euhorn; Nordrassil's deep roots have no placed objective in the data - examine the roots, then turn in here
+  turnin 92016 -- Rootwork - back to Marn Euhorn
+  accept 96301 -- Power Wash - Marn Euhorn; the Vacant Heart and the Well of Eternity visit have no placed sources in the data - check the grounds, then turn in here
+  turnin 96301 -- Power Wash - back to Marn Euhorn
+  accept 96302 -- Arch Absolution - Marn Euhorn (68.3, 46.71)
+  turnin 96302 -- Arch Absolution - back to Marn Euhorn
+  turnin 96991 -- Trail Assist - to Marn Euhorn; from Galvinquam Leafsyre on the center leg below
+
+step Summit slopes - Fayran, Rhylin, Toron, Sebelia
+
+  zone map 2482
+
+  tip The summit's eastern slopes: Fayran and Toron side by side, Rhylin and Sebelia just above. Sebelia's letter rides to Winterspring below.
+  accept 93444 -- Bait the Beast - Fayran Elthas (68.71, 46.8)
+  turnin 93444 -- Bait the Beast - back to Fayran Elthas
+  accept 92533 -- Twisted Tools - Toron Rockhoof (68.88, 48.35); the Wicked Ritualist's Kris and Recoiling Gnarlybark Staff have no placed sources in the data - check the ritualists, then turn in here
+  turnin 92533 -- Twisted Tools - back to Toron Rockhoof
+  accept 93422 -- Blackthorne Blackout - Rhylin Stonethorn (70.66, 51.25); Blackthorne Couriers run the slopes and their Intelligence has no placed source - intercept them, then turn in here
+  complete 93422 @69.42,30.06 -- Blackthorne Couriers run the slopes
+  turnin 93422 -- Blackthorne Blackout - back to Rhylin Stonethorn
+  accept 93197 -- Mending Communications - Sebelia (70.87, 51.55); for Innkeeper Vizzie in Winterspring - carried on the expedition below
+
+step Crate Expectations handoff (when onquest 92009)
+
+  zone map 2482
+
+  when onquest 92009
+  note Crate Expectations (92009) accepts from Nami in Winterspring, outside this pack's contracts - the timed delivery below is its whole Hyjal leg. This step carries that handoff and nothing else.
+  complete 92009 @60.51,62.11 -- the crate delivered to Mount Hyjal before it expires
+  turnin 92009 -- Crate Expectations - to Kaylaena Springwhisper (60.1, 61.18); holders turn in here, others skip - this unlocks Rubble Rummage below
+
+step Center front - Johun, Kaylaena, Phoebe
+
+  zone map 2482
+
+  tip The center front: Johun's skunks and siege chain, Kaylaena's workshop, Galvinquam west, Phoebe and Kala'th south of her. Jereman's and Kala'th's turn-ins from the branch land here.
+  accept 92015 -- Area Denial Skunks - Johun "Punchy" Dillas (43.91, 37.81)
+  turnin 92015 -- Area Denial Skunks - back to Johun "Punchy" Dillas
+  accept 92014 -- Fox Hole - Johun "Punchy" Dillas; Rustleaf Fox Tails off the foxes
+  complete 92014 @43.7,38.18 -- Rustleaf Foxes near the post
+  turnin 92014 -- Fox Hole - back to Johun "Punchy" Dillas
+  accept 96992 -- Resupply - Johun "Punchy" Dillas; Nails and Metal Brackets have no placed sources in the data - resupply around the front, then turn in here
+  turnin 96992 -- Resupply - back to Johun "Punchy" Dillas
+  accept 92593 -- Avalanche of Corruption - Johun "Punchy" Dillas; Dae'gun Horde Tower scouting has no placed objective in the data - scout the tower, then turn in here
+  turnin 92593 -- Avalanche of Corruption - back to Johun "Punchy" Dillas
+  accept 96494 -- Gathering Storm - Johun "Punchy" Dillas; the Hyjal Summit entrance has no placed objective in the data - find the entrance, then turn in here
+  turnin 96494 -- Gathering Storm - back to Johun "Punchy" Dillas
+  accept 96529 -- A Shaw Deal - Johun "Punchy" Dillas; for Master Mathias Shaw in Stormwind - carried on the expedition below
+  accept 92008 -- Premiere Parts - Kaylaena Springwhisper (60.1, 61.18); for Nami in Winterspring - carried on the expedition below
+  accept 92011 -- Rubble Rummage - Kaylaena Springwhisper; the Frayed Wire, Calcified Excrement and Warped Metal Scrap have no placed sources in the data - rummage the rubble, then turn in here
+  turnin 92011 -- Rubble Rummage - back to Kaylaena Springwhisper
+  accept 92328 -- Siegecraft - Kaylaena Springwhisper (60.1, 61.18)
+  turnin 92328 -- Siegecraft - back to Kaylaena Springwhisper
+  accept 92329 -- Drum Up Trouble - Kaylaena Springwhisper (60.1, 61.18)
+  turnin 92329 -- Drum Up Trouble - back to Kaylaena Springwhisper
+  accept 92594 -- Kindling, Kinda - Kaylaena Springwhisper; Tainted Shrubbery on the slopes
+  complete 92594 @60.09,72.76 -- Tainted Shrubbery on the slopes
+  turnin 92594 -- Kindling, Kinda - back to Kaylaena Springwhisper
+  turnin 96796 -- Woods Workshop - to Kaylaena Springwhisper; from Ketharas above
+  accept 92147 -- Highfeather Helper - Phoebe Highfeather (54.48, 63.91); Wormwing Pinfeathers have no placed source in the data - check the wormwings, then turn in here
+  turnin 92147 -- Highfeather Helper - back to Phoebe Highfeather
+  accept 96252 -- Tarnished Treasures - Phoebe Highfeather; the Tarnished Highfeather Bangle has no placed source in the data - check the grounds, then turn in here
+  turnin 96252 -- Tarnished Treasures - back to Phoebe Highfeather
+  accept 96296 -- Fetid Corruption - the Corrupted Growth (48.55, 56.4); for Phoebe Highfeather
+  complete 96296 @48.55,56.4 -- the Corrupted Growth
+  turnin 96296 -- Fetid Corruption - to Phoebe Highfeather (54.48, 63.91)
+  accept 96145 -- Past Wing and Claw - Lisbael Highfeather (42.07, 52.05); for Phoebe Highfeather
+  turnin 96145 -- Past Wing and Claw - to Phoebe Highfeather (54.48, 63.91)
+  turnin 96978 -- Violent Venison - to Kala'th; from Jereman on the branch above
+  accept 93617 -- Prey and Predator - Kala'th (28.68, 43.04); Predatory Hyjal Stags on the grounds
+  complete 93617 @27.75,43.43 -- Predatory Hyjal Stags on the grounds
+  turnin 93617 -- Prey and Predator - back to Kala'th
+  turnin 99670 -- Return to Jereman - to Jereman (41.27, 45.33); from Tiala at the summit above
+
+step Closing sweep - Ketharas, the grove, the western post
+
+  zone map 2482
+
+  tip Three carried turn-ins close the route: Ketharas southeast, Fraxinus at the elder grove, Sefira back west where it started.
+  turnin 93848 -- Work Well Done - to Ketharas (73.34, 81.88); from Tiala at the summit above
+  turnin 90487 -- Ancient Allies - to Fraxinus (53.4, 84.33); from Ketharas above
+  turnin 91881 -- The Western Post - to Sefira Everbright (15.67, 54.66); from the Curious Crow above
+
+step Winterspring expedition - Nami and Vizzie
+
+  zone map 1452
+
+  tip The Winterspring leg: Nami's parts and Vizzie's letter. Frames switch there and back.
+  turnin 92008 -- Premiere Parts - to Nami (61.33, 36.92); from Kaylaena above
+  turnin 93197 -- Mending Communications - to Innkeeper Vizzie (61.36, 38.83); from Sebelia at the summit above
+
+  zone map 2482
+
+step Stormwind expedition - A Shaw Deal
+
+  zone map 1453
+
+  tip The Stormwind leg: Shaw's deal. Frames switch there and back.
+  turnin 96529 -- A Shaw Deal - to Master Mathias Shaw (78.31, 70.74); from Johun above
+
+  zone map 2482
+
+step Thousand Needles expedition - Lifted by Legacy
+
+  zone map 1441
+
+  tip The Thousand Needles leg: Tobin's spot. Frames switch there and back.
+  complete 92101 @31.93,24.11 -- Tobin's spot visited
+  turnin 92101 -- Lifted by Legacy - at the Carving (31.93, 24.11); from the Veteran of the Third War above
+
+  zone map 2482
+
+step Redridge expedition - Wake Memories
+
+  zone map 1433
+
+  tip The Redridge leg: Tobin's spot on Lake Everstill. Frames switch there and back.
+  complete 93510 @30.44,56.98 -- Tobin's spot on Lake Everstill visited
+  turnin 93510 -- Wake Memories - at the Weathered Anchor (30.44, 56.98); from the Veteran of the Third War above
+
+  zone map 2482
+
+step Moonglade expedition - Aid from Moonglade
+
+  zone map 1450
+
+  tip The Moonglade leg: Dendrite's aid. Frames switch there and back.
+  turnin 92612 -- Aid from Moonglade - to Dendrite Starblaze (56.21, 30.64); from Ketharas above
+
+  zone map 2482
