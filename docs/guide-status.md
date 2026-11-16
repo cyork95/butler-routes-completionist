@@ -479,9 +479,9 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 
 ### Deadwind Pass — contested (Eastern Kingdoms)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (1 quest, band 60-60)
+- [x] Core guide (1 accept / 1 turn-in)
+- [x] Lint/playtest clean (0 errors, 0 warnings; R2 + R5 sourceless-writ residue argued)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
