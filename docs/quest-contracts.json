@@ -10889,6 +10889,251 @@
           "name": "A Cousin Abroad"
         }
       ]
+    },
+    {
+      "id": "burning-steppes",
+      "name": "Burning Steppes",
+      "order": 40,
+      "levelBand": "48-60",
+      "summary": "Alliance route: Morgan/Maxwell hub chains with Blackrock interior legs, warlock Dreadsteed chain, Bodley endgame chain (lowest-ID path), deferred Badlands/Searing Gorge above-band pickups, Maxwell-to-Stormwind and Leonid finales",
+      "quests": [
+        {
+          "id": 219,
+          "name": "Missing In Action"
+        },
+        {
+          "id": 3801,
+          "name": "Dark Iron Legacy"
+        },
+        {
+          "id": 3802,
+          "name": "Dark Iron Legacy"
+        },
+        {
+          "id": 3823,
+          "name": "Extinguish the Firegut"
+        },
+        {
+          "id": 3824,
+          "name": "Gor'tesh the Brute Lord"
+        },
+        {
+          "id": 3825,
+          "name": "Ogre Head On A Stick = Party"
+        },
+        {
+          "id": 4022,
+          "name": "A Taste of Flame"
+        },
+        {
+          "id": 4024,
+          "name": "A Taste of Flame"
+        },
+        {
+          "id": 4123,
+          "name": "The Heart of the Mountain"
+        },
+        {
+          "id": 4182,
+          "name": "Dragonkin Menace"
+        },
+        {
+          "id": 4183,
+          "name": "The True Masters"
+        },
+        {
+          "id": 4224,
+          "name": "The True Masters"
+        },
+        {
+          "id": 4241,
+          "name": "Marshal Windsor"
+        },
+        {
+          "id": 4242,
+          "name": "Abandoned Hope"
+        },
+        {
+          "id": 4262,
+          "name": "Overmaster Pyron"
+        },
+        {
+          "id": 4263,
+          "name": "Incendius!"
+        },
+        {
+          "id": 4283,
+          "name": "FIFTY! YEP!"
+        },
+        {
+          "id": 4286,
+          "name": "The Good Stuff"
+        },
+        {
+          "id": 4296,
+          "name": "Tablet of the Seven"
+        },
+        {
+          "id": 4322,
+          "name": "Jail Break!"
+        },
+        {
+          "id": 4701,
+          "name": "Put Her Down"
+        },
+        {
+          "id": 4726,
+          "name": "Broodling Essence"
+        },
+        {
+          "id": 4734,
+          "name": "Egg Freezing"
+        },
+        {
+          "id": 4735,
+          "name": "Egg Collection"
+        },
+        {
+          "id": 4764,
+          "name": "Doomrigger's Clasp"
+        },
+        {
+          "id": 4765,
+          "name": "Delivery to Ridgewell"
+        },
+        {
+          "id": 4808,
+          "name": "Felnok Steelspring"
+        },
+        {
+          "id": 4866,
+          "name": "Mother's Milk"
+        },
+        {
+          "id": 5002,
+          "name": "Message to Maxwell"
+        },
+        {
+          "id": 5081,
+          "name": "Maxwell's Mission"
+        },
+        {
+          "id": 5089,
+          "name": "General Drakkisath's Command"
+        },
+        {
+          "id": 5102,
+          "name": "General Drakkisath's Demise"
+        },
+        {
+          "id": 5522,
+          "name": "Leonid Barthalomew"
+        },
+        {
+          "id": 6402,
+          "name": "Stormwind Rendezvous"
+        },
+        {
+          "id": 4136,
+          "name": "Ribbly Screwspigot"
+        },
+        {
+          "id": 4729,
+          "name": "Kibler's Exotic Pets"
+        },
+        {
+          "id": 4862,
+          "name": "En-Ay-Es-Tee-Why"
+        },
+        {
+          "id": 7487,
+          "name": "Attunement to the Core"
+        },
+        {
+          "id": 7848,
+          "name": "Attunement to the Core"
+        },
+        {
+          "id": 7761,
+          "name": "Blackhand's Command"
+        },
+        {
+          "id": 8961,
+          "name": "Three Kings of Flame"
+        },
+        {
+          "id": 8962,
+          "name": "Components of Importance"
+        },
+        {
+          "id": 8966,
+          "name": "The Left Piece of Lord Valthalak's Amulet"
+        },
+        {
+          "id": 8970,
+          "name": "I See Alcaz Island In Your Future..."
+        },
+        {
+          "id": 8985,
+          "name": "More Components of Importance"
+        },
+        {
+          "id": 8990,
+          "name": "The Right Piece of Lord Valthalak's Amulet"
+        },
+        {
+          "id": 8994,
+          "name": "Final Preparations"
+        },
+        {
+          "id": 8995,
+          "name": "Mea Culpa, Lord Valthalak"
+        },
+        {
+          "id": 8996,
+          "name": "Return to Bodley"
+        },
+        {
+          "id": 8997,
+          "name": "Back to the Beginning"
+        },
+        {
+          "id": 7563,
+          "name": "Rage of Blood"
+        },
+        {
+          "id": 7564,
+          "name": "Wildeyes"
+        },
+        {
+          "id": 7623,
+          "name": "Lord Banehollow"
+        },
+        {
+          "id": 7626,
+          "name": "Bell of Dethmoora"
+        },
+        {
+          "id": 7627,
+          "name": "Wheel of the Black March"
+        },
+        {
+          "id": 7628,
+          "name": "Doomsday Candle"
+        },
+        {
+          "id": 7629,
+          "name": "Imp Delivery"
+        },
+        {
+          "id": 7630,
+          "name": "Arcanite"
+        },
+        {
+          "id": 7631,
+          "name": "Dreadsteed of Xoroth"
+        }
+      ]
     }
   ]
 }
