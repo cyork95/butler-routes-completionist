@@ -508,9 +508,9 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 
 _Content as the game data dictates._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (123 quests, band 54-60, accept key 2482)
+- [x] Core guide (123 accepts / 121 turn-ins + 2 non-contract soft-pre turn-ins 93773/92009; 95793 rides both turn-in lines)
+- [x] Lint/playtest clean (0 errors, 35 warnings in 3 argued classes; R1 + R5 residue, 0 stuck)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
