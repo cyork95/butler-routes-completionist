@@ -1,0 +1,71 @@
+# Silithus - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# Opportunistic sweep for the 4 data-confirmed rares and 3 fixed unique
+# objects on map 1451 (see docs/silithus-companions-inventory.md). Every goal
+# is optional: a rare that is not up never holds the route. No accept/turnin
+# lines anywhere - quest-starting drops point at the core guide in notes.
+guide butler-routes-completionist/silithus-rares
+title Silithus - Rares & Treasures
+levels 54-60
+zone Silithus
+faction Alliance
+category Collectibles
+folder Companions
+coords live
+version 1
+
+step The Windreaver - north-central wastes
+
+  zone map 1451
+
+  goto 28.66,26.85
+  kill 14454 optional
+  collect 18676 "Sash of the Windreaver" optional
+  collect 18677 "Zephyr Cloak" optional
+  note Level 60 rare air elemental; the Sash and the Cloak come only from the Windreaver anywhere in the data.
+  note It also drops Pattern: Stormshroud Gloves, shared with Princess Tempestria in Winterspring - see the recipes companion. Respawn timer unconfirmed.
+
+step Twilight Marauder Morna - northeastern wastes
+
+  zone map 1451
+
+  goto 57.57,17.9
+  kill 15541 optional
+  note Level 60 rare; no sole drop in the data, so there is nothing signature to chase.
+  note Its Encrypted Twilight Texts feed the core guide's Secret Communication; the companion never accepts. Respawn timer unconfirmed.
+
+step Nelson the Nice - western dunes
+
+  zone map 1451
+
+  goto 24.72,76.02
+  kill 14536 optional
+  note Level 60 rare; no sole drop in the data, so there is nothing signature to chase. Respawn timer unconfirmed.
+
+step Twilight Prophet - central hive fringe
+
+  zone map 1451
+
+  loop
+  goto 18.28,31.4
+  goto 22.82,68.66
+  kill 15308 optional
+  note Level 60 rare over two points; its only exclusive drop, Twilight Battle Orders, drops only while already held per the playtest sim, so it rides as a note rather than a collect - and no quest in the data takes it anyway.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Dusty Reliquary - southern hive road
+
+  zone map 1451
+
+  goto 63.23,55.35
+  interact 179565 optional
+  note Unique container at a fixed point; loot is level-appropriate coin and goods; respawn timer unconfirmed.
+
+step Brawler's ring manuals - Hold and far southwest
+
+  zone map 1451
+
+  goto 38.1,45.4
+  interact 457096 optional
+  goto 20,85.1
+  interact 457100 optional
+  note Two readable lore books at fixed points (a brawler's guide near the Hold, Renzik's thoughts far southwest). No quest takes them; read and move on.
