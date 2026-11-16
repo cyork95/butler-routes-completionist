@@ -1,0 +1,107 @@
+# Burning Steppes - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and formulae whose SOURCE is physically in the
+# Burning Steppes, verified against the local Forever game data
+# (questie-forever item vendor and drop tables). One ships as a vendor buy off
+# the neutral auctioneer Yuka Screwspigot inside Blackrock Mountain; nine ship
+# as drop collects off sole in-zone droppers (the Firegut Brute carries two,
+# the Thaurissan Firewalker carries two). Every other in-zone-dropping recipe
+# is a generic multi-zone world drop, and quest records carry no reward data
+# (see docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. Cooking, Fishing, First Aid
+# and Enchanting have no Burning Steppes source, so that is stated, not
+# padded.
+guide butler-routes-completionist/burning-steppes-recipes
+title Burning Steppes - Recipes
+levels 48-60
+zone Burning Steppes
+faction Alliance
+category Professions
+folder Companions
+keywords burning steppes, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Engineering — Blackrock Mountain (Yuka Screwspigot)
+  when skill Engineering 1
+
+  zone map 1428
+
+  vendor 9544 -- Yuka Screwspigot (66.06, 21.95)
+  buy 10602 "Schematic: Deadly Scope" npc 9544
+  note Yuka is a neutral auctioneer inside Blackrock Mountain; Alliance engineers buy freely. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Volchan's plans (drop)
+
+  zone map 1428
+
+  when skill Blacksmithing 1
+
+  goto 74.3,37.82
+  collect 12828 "Plans: Volcanic Hammer" optional
+  note Volchan (level 60 rare, Pillar of Ash) is the sole dropper anywhere in the data, at about two in three kills. No quest takes the plans in the data.
+
+step Alchemy — Mighty Rage Potion (drop)
+
+  zone map 1428
+
+  when skill Alchemy 1
+
+  goto 55.29,53.96
+  collect 13476 "Recipe: Mighty Rage Potion" optional
+  note A Blackrock Slayer ranging the Stoneform village is the sole dropper anywhere in the data, at about one in twenty-five kills. No quest takes the recipe in the data.
+
+step Tailoring — Cindercloth pair (drop)
+
+  zone map 1428
+
+  when skill Tailoring 1
+
+  goto 61.11,41.95
+  collect 14482 "Pattern: Cindercloth Cloak" optional
+  collect 14490 "Pattern: Cindercloth Pants" optional
+  note A Thaurissan Firewalker ranging the Stronghold terraces is the sole dropper of both patterns anywhere in the data, at about one in fifty kills each. No quest takes either pattern in the data.
+
+step Leatherworking — Volcanic pair (drop)
+
+  zone map 1428
+
+  when skill Leatherworking 1
+
+  goto 78.17,40.37
+  collect 15732 "Pattern: Volcanic Leggings" optional
+  collect 227908 "Pattern: Masterwork Volcanic Leggings" optional
+  note A Firegut Brute ranging the Pillar of Ash approach is the sole dropper of both patterns anywhere in the data; the Volcanic Leggings drop about one in twenty-five kills and the Masterwork drop rate is not in the data. No quest takes either pattern in the data.
+
+step Leatherworking — Scorpid Gauntlets (drop)
+
+  zone map 1428
+
+  when skill Leatherworking 1
+
+  goto 42.33,56.02
+  collect 15738 "Pattern: Heavy Scorpid Gauntlets" optional
+  note A Blackrock Soldier ranging the Slag Pit road is the sole dropper anywhere in the data, at about one in twenty-five kills. No quest takes the pattern in the data.
+
+step Leatherworking — Scorpid Leggings (drop)
+
+  zone map 1428
+
+  when skill Leatherworking 1
+
+  goto 39.33,55.58
+  collect 15748 "Pattern: Heavy Scorpid Leggings" optional
+  note A Blackrock Slayer ranging the Slag Pit road is the sole dropper anywhere in the data, at about one in twenty-five kills. No quest takes the pattern in the data.
+
+step Leatherworking — Scorpid Shoulders (drop)
+
+  zone map 1428
+
+  when skill Leatherworking 1
+
+  goto 39.82,32.8
+  collect 15774 "Pattern: Heavy Scorpid Shoulders" optional
+  note A Blackrock Battlemaster ranging the Ruins of Thaurissan is the sole dropper anywhere in the data, at about one in a hundred kills. No quest takes the pattern in the data.
+
+step Cooking, Fishing, First Aid, Enchanting — no Burning Steppes source
+  note No Cooking recipe, Fishing lure, First Aid manual, or Enchanting formula has a source physically in the Burning Steppes in the data; trainer-taught staples live in Polestar's own profession guides.
