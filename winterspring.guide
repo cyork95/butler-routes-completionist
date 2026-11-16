@@ -1,0 +1,398 @@
+# Winterspring - Completionist (pack butler-routes-completionist, v1).
+# Every Winterspring accept in the local census (48 quests, band 47-60,
+# docs/winterspring-census.md) appears exactly once as an accept; 48 turnins
+# close every record that has one in the data. The 16 repeatables (E'ko
+# turn-ins, Rivern chain, Argent catalogue, Timbermaw tails, Making Amends),
+# the 2 Lunar Festival elders, the 3 unplaced records (Pip, Human Remains,
+# Awbee) and the 10 accepts contracted elsewhere (8 Felwood Timbermaw links,
+# Stormwind Ka-Boom!) are out with reasons in the census; 7 Horde quests are
+# set aside by ID for the Horde block. No race header and no race gates:
+# nothing contracted is race-locked. Class gates: 5126 is
+# Warrior/Paladin/Shaman-only. Profession lines ride optional + when-skill
+# gates (Blacksmithing x6, Engineering x1). Ungateable outside pres (5103 for
+# 5124, 5160 for 5161/5162) are structural notes; soft pres that turn in here
+# (978, 979, 93197, 92008, 5250) ride dedicated when-onquest minis; cross-guide
+# contracted pres (3908, 980, 4808, 5083, 5085, 5249, 5248, 6501) are reference
+# notes. Dungeon-interior objectives (BRD x3, Sunken Temple, UBRS) have no data
+# placement and ship as honest note-only namings, the BS-4241 precedent.
+guide butler-routes-completionist/winterspring
+title Winterspring
+levels 47-60
+zone Winterspring
+faction Alliance
+category Leveling
+folder Kalimdor
+coords live
+version 1
+
+step Everlook arrival - the Everlook Report
+
+  zone map 1452
+
+  tip Everlook is the hub: flight point, inn and the whole east-side cast below.
+  accept 6028 -- The Everlook Report - Gregor Greystone (61.35, 38.97); for the Argent Officer Pureheart in the Eastern Plaguelands
+  accept 6030 -- Duke Nicholas Zverenhoff - Gregor Greystone; for Duke Nicholas Zverenhoff in the Western Plaguelands
+  note 6029 is the same report addressed to the Horde and stays out of this Alliance route.
+  accept 6603 -- Trouble in Winterspring! - Meggi Peppinrocker (60.66, 38.17); Meggi sends word to Donova Snowden in the west
+  accept 6606 -- A Little Luck - Harlo Wigglesworth (61.12, 38.43); Harlo sends word to Witch Doctor Mau'ari
+  accept 6604 -- Enraged Wildkin - Harlo Wigglesworth; Harlo sends word to Jaron Stoneshaper in the southwest
+
+step Everlook - Nami's shipment and Vizzie's post
+
+  zone map 1452
+
+  when onquest 92008
+
+  note Premiere Parts (92008) accepts outside this pack's contracts and turns in at Nami below; this step carries that handoff and nothing else.
+  turnin 92008 -- Premiere Parts - to Nami (61.33, 36.92)
+  accept 92009 -- Crate Expectations - Nami; a timed shipment for Mount Hyjal, delivered on the 2482 leg below
+
+step Everlook - Vizzie's post and the Shroud twins
+
+  zone map 1452
+
+  when onquest 93197
+
+  note Mending Communications (93197) accepts outside this pack's contracts and turns in at Vizzie below; this step carries that handoff and nothing else.
+  turnin 93197 -- Mending Communications - to Innkeeper Vizzie (61.36, 38.83)
+  accept 93406 -- Unfrozen Deliveries - Innkeeper Vizzie; Vizzie's own delivery, no objectives
+  turnin 93406 -- Unfrozen Deliveries - back to Innkeeper Vizzie
+  accept 93269 -- Top of the Post - Innkeeper Vizzie; a delivery for Sebelia on the 2482 leg below
+  accept 92859 -- Shroud of the Winter Wilds - Evie Whirlbrew (60.75, 37.78); furs and feathers below
+  complete 92859 @55.2,46.62 -- Chillwind Chimaera fur off the chimaeras
+  complete 92859 @50.76,32.79 -- Winterspring Owl feathers off the owls
+  turnin 92859 -- Shroud of the Winter Wilds - back to Evie Whirlbrew
+  accept 98462 -- Shroud of the Winter Wilds - Evie Whirlbrew; the second Shroud, same sourcing
+  complete 98462 @55.2,46.62 -- Chillwind Chimaera fur off the chimaeras
+  complete 98462 @50.76,32.79 -- Winterspring Owl feathers off the owls
+  turnin 98462 -- Shroud of the Winter Wilds - back to Evie Whirlbrew
+
+step Everlook east - Umaron, Malyfous and the Thorium trio
+
+  zone map 1452
+
+  accept 97490 -- Halt the Hail - Umaron Stragarelm (61.86, 38.23); Hailspite below
+  complete 97490 @65.58,58.24 -- Hailspite Frostmoss off Hailspite in the east
+  turnin 97490 -- Halt the Hail - back to Umaron Stragarelm
+  accept 5601 -- Sister Pamela - Jessica Redpath (61.28, 38.98); for Pamela Redpath in the Western Plaguelands
+
+step Everlook east - Malyfous plate (Blacksmithing)
+
+  zone map 1452
+
+  when skill Blacksmithing 1
+
+  accept 5124 optional -- Fiery Plate Gauntlets - Malyfous Darkhammer (60.99, 38.78); Malyfous wants plate the data can only half place
+  note 5124's pre (5103, the Hot Fiery Death object) has no placed spawn anywhere in the data and is not contracted; the structural gap is recorded, nothing invented.
+  note The Unfired Plate Gauntlets and Enchanted Thorium Bars are player-crafted (R5); the Soul Stained Pike's dropper Goraluk Anvilcrack has no placed spawn in the data (Blackrock Depths interior, no data placement) and the Essence of Fire drops only outside the zone - buy or farm both, then turn in here.
+  turnin 5124 optional -- Fiery Plate Gauntlets - back to Malyfous Darkhammer
+
+step Everlook east - Thorium trio (Blacksmithing)
+
+  zone map 1452
+
+  when skill Blacksmithing 1
+
+  accept 5305 optional -- Sweet Serenity - Lilith the Lithe (61.33, 37.13); the Hammersmith's Apron drops inside Blackrock Depths, which has no data placement - run it with your group, then turn in here
+  turnin 5305 optional -- Sweet Serenity - back to Lilith the Lithe
+  accept 5306 optional -- Snakestone of the Shadow Huntress - Kilram (61.3, 37.07); Vosh'gajin's Snakestone drops inside the Sunken Temple, which has no data placement - run it with your group, then turn in here
+  turnin 5306 optional -- Snakestone of the Shadow Huntress - back to Kilram
+  accept 5307 optional -- Corruption - Seril Scourgebane (61.33, 37.19); the Black Guard insignia drops inside Blackrock Depths, which has no data placement - run it with your group, then turn in here
+  turnin 5307 optional -- Corruption - back to Seril Scourgebane
+
+step Everlook - Mau'ari's luck and cache
+
+  zone map 1452
+
+  turnin 6606 -- A Little Luck - to Witch Doctor Mau'ari (61.92, 38.3)
+  accept 969 -- Luck Be With You - Witch Doctor Mau'ari; Frostmaul shards below; its pre 6606 (Harlo) turned in above
+  complete 969 @58.06,68.7 -- Frostmaul Shards off the Frostmaul giants in the south
+  complete 969 @58.3,67.47 -- Frostmaul Shards off the Frostmaul preservers
+  turnin 969 -- Luck Be With You - back to Witch Doctor Mau'ari
+  accept 975 -- Cache of Mau'ari - Witch Doctor Mau'ari
+  turnin 975 -- Cache of Mau'ari - back to Witch Doctor Mau'ari
+  note The seven E'ko turn-ins Mau'ari also offers are repeatable and live outside this contract.
+
+step Everlook - Umi's yeti chain
+
+  zone map 1452
+
+  accept 3783 -- Are We There, Yeti? - Umi Rumplesnicker (60.88, 37.62); thick fur below
+  complete 3783 @28.91,46.54 -- Thick Yeti Fur off the Rogue Ice Thistles in the west
+  complete 3783 @52.41,32.44 -- Thick Yeti Fur off the Ice Thistle yetis
+  turnin 3783 -- Are We There, Yeti? - back to Umi Rumplesnicker
+  accept 977 -- Are We There, Yeti? - Umi Rumplesnicker; pristine horns below
+  complete 977 @64.88,40.39 -- Pristine Yeti Horns off the Ice Thistle matriarchs in the east
+  complete 977 @64.7,40.59 -- Pristine Yeti Horns off the Ice Thistle patriarchs
+  turnin 977 -- Are We There, Yeti? - back to Umi Rumplesnicker
+  accept 5163 -- Are We There, Yeti? - Umi Rumplesnicker; three named yetis, two of them far away
+  complete 5163 @61.54,38.61 -- Legacki, the Everlook yeti
+  note Sprinkle (Tanaris) and Quixxil (Un'Goro) ride the expedition legs below; the chain closes back here.
+  turnin 5163 -- Are We There, Yeti? - back to Umi Rumplesnicker
+
+step Everlook - Umi's tame (Engineering)
+
+  zone map 1452
+
+  when skill Engineering 1
+
+  accept 8798 optional -- A Yeti of Your Own - Umi Rumplesnicker
+  turnin 8798 optional -- A Yeti of Your Own - back to Umi Rumplesnicker
+
+step Everlook east - Felnok's chillwinds
+
+  zone map 1452
+
+  note 4809's pre (4808, Tinkee's favor) is Burning-Steppes-contracted and turns in at Felnok himself; the cross-guide reference, not a warning.
+  accept 4809 -- Chillwind Horns - Felnok Steelspring (61.63, 38.61); uncracked horns below
+  complete 4809 @29.56,48.5 -- Uncracked Chillwind Horns off the fledglings in the west
+  complete 4809 @55.2,46.62 -- Uncracked Chillwind Horns off the chimaeras
+  complete 4809 @54.4,21.83 -- Uncracked Chillwind Horns off the ravagers in the north
+  turnin 4809 -- Chillwind Horns - back to Felnok Steelspring
+  accept 4810 -- Return to Tinkee - Felnok Steelspring; for Tinkee Steamboil in the Burning Steppes
+  accept 4907 -- Tinkee Steamboil - Felnok Steelspring; for Tinkee Steamboil in the Burning Steppes; its pre 4810 turns in on the same trip
+
+step Donova Snowden - the Videre Elixir
+
+  zone map 1452
+
+  note 6603 (Meggi's trouble) turns in here; 3909's pre (3908, Linken's secret) is Ungoro-contracted and turns in out there - the cross-guide reference, not a warning.
+  turnin 6603 -- Trouble in Winterspring! - to Donova Snowden (31.27, 45.16)
+  accept 3909 -- The Videre Elixir - Donova Snowden; Gregan Brewspewer in Feralas carries the elixir, expedition below; turn in on return
+  accept 3912 -- Meet at the Grave - Donova Snowden; for Gaeriyan in Tanaris, expedition below
+  note 3912 turns in at Gaeriyan in Tanaris, on the expedition leg below.
+  note 4842's pre (980, the new springs) is Ungoro-contracted and turns in out there; the cross-guide reference, not a warning.
+  accept 4842 -- Strange Sources - Donova Snowden; a discovery event, no farming needed
+  complete 4842 -- Strange Sources (discovery event, note above)
+  turnin 4842 -- Strange Sources - back to Donova Snowden
+  accept 5082 -- Threat of the Winterfall - Donova Snowden; its pre 6603 turned in above; Winterfall scouts below
+  complete 5082 @30.05,35.6 -- Winterfall Pathfinders in the west
+  complete 5082 @30.34,36.33 -- Winterfall Den Watchers in the west
+  complete 5082 @29.71,37 -- Winterfall Totemics in the west
+  turnin 5082 -- Threat of the Winterfall - back to Donova Snowden
+  note 5084's pre (5083, the Firewater flask) is Felwood-contracted and its sourcing lives in that guide; the cross-guide reference, not a warning.
+  accept 5084 -- Falling to Corruption - Donova Snowden
+  note 5084 turns in at the Deadwood Cauldron in Felwood, on the expedition leg below.
+  note 5086's pre (5085, the corrupt cauldron) is Felwood-contracted and turns in at Donova herself; the cross-guide reference, not a warning.
+  accept 5086 -- Toxic Horrors - Donova Snowden; droplets in Felwood, expedition below
+  accept 5087 -- Winterfall Runners - Donova Snowden; its pre 5086 needs the Felwood droplets first; the runner's crate below
+  complete 5087 @27.9,34.48 -- the Winterfall Runner's crate
+  turnin 5087 -- Winterfall Runners - back to Donova Snowden
+  accept 5121 -- High Chief Winterfall - Donova Snowden; its pre 5087 turned in above; the chief holds court in the east
+  complete 5121 @69.56,38.31 -- High Chief Winterfall in the east
+  turnin 5121 -- High Chief Winterfall - back to Donova Snowden
+  collect 12842 @69.56,38.31 optional -- Crudely-written Log off High Chief Winterfall fallen above; the log starts the Final Piece below
+  tip High Chief Winterfall is elite: grouping up is advised.
+  accept 5123 -- The Final Piece - the Crudely-written Log off the fallen chief; its pre 5087 turned in above
+  turnin 5123 -- The Final Piece - back to Donova Snowden
+  accept 5128 -- Words of the High Chief - Donova Snowden; for Kelek Skykeeper in Felwood, expedition below
+
+step Jaron Stoneshaper - the wildkin wreck
+
+  zone map 1452
+
+  turnin 6604 -- Enraged Wildkin - to Jaron Stoneshaper (52.14, 30.43)
+  accept 4861 -- Enraged Wildkin - Jaron Stoneshaper; Jaron's wrecked camp and supplies in the southeast; its pre 6604 (Harlo) turned in above
+  turnin 4861 @58.99,59.79 -- Enraged Wildkin - the Damaged Crate in the southeast
+  accept 4863 -- Enraged Wildkin - Jaron's Damaged Crate; the wagon nearby
+  turnin 4863 @61.44,60.68 -- Enraged Wildkin - Jaron's Wagon in the southeast
+  accept 4864 -- Enraged Wildkin - Jaron's Wagon; the owl amulet and Jaron's supplies
+  complete 4864 @58.65,60.31 -- the Blue-feathered Amulet off the owlbeasts in the southeast
+  complete 4864 @61.41,60.73 -- Jaron's Supplies in the supply pile beside the wagon
+  turnin 4864 -- Enraged Wildkin - back to Jaron Stoneshaper
+
+step Wynd Nightchaser - Kel'Theril and the remorseful
+
+  zone map 1452
+
+  when onquest 5250
+
+  note Starfall (5250) accepts from Daryn Lightwind in Rut'theran Village (Teldrassil), outside this pack's contracts, and turns in at Wynd below; this step carries that handoff and nothing else.
+  turnin 5250 -- Starfall - to Wynd Nightchaser (51.97, 30.39)
+  accept 5244 -- The Ruins of Kel'Theril - Wynd Nightchaser; its pres are 5249 (Felwood-contracted, reference) and 5250 (turned in above)
+  turnin 5244 -- The Ruins of Kel'Theril - to Jaron Stoneshaper (52.14, 30.43)
+  accept 5245 -- Troubled Spirits of Kel'Theril - Jaron Stoneshaper; four relic fragments in the ruins below; its pre 5244 turned in above
+
+step The Ruins of Kel'Theril - four fragments
+
+  zone map 1452
+
+  accept 5252 -- Remorseful Highborne - the Remorseful Highborne (56.14, 44.36); its pre 5248 accepts from Aurora Skycaller in the Western Plaguelands (contracted there, turning in at the Remorseful Highborne here) - the cross-guide reference, not a warning
+  complete 5245 @55.14,42.98 -- the First Relic Fragment off its plinth
+  complete 5245 @50.88,41.71 -- the Second Relic Fragment off its plinth
+  complete 5245 @53.31,43.44 -- the Third Relic Fragment off its plinth
+  complete 5245 @52.42,41.5 -- the Fourth Relic Fragment off its plinth
+
+step Wynd Nightchaser - the Remorseful turn-in (when onquest 5252)
+
+  zone map 1452
+
+  when onquest 5252
+
+  turnin 5252 -- Remorseful Highborne - to Wynd Nightchaser (51.97, 30.39); its pre 5248 turned in at the Remorseful Highborne above
+  accept 5253 -- The Crystal of Zin-Malor - Wynd Nightchaser; for Arch Druid Fandral Staghelm in Darnassus, expedition below; its pre 5252 turned in above
+
+step Erelas Ambersky - the Moontouched pre (soft pre, when onquest 978)
+
+  zone map 1452
+
+  when onquest 978
+
+  note Moontouched Wildkin (978) accepts from and turns in at Erelas Ambersky in Rut'theran Village, outside this pack's contracts (its own pre 3661 lives outside them too); finishing it unblocks Find Ranshalla (979, likewise outside contracts), which turns in at Ranshalla below. This step carries that handoff and nothing else.
+  complete 978 @33.08,44.01 -- Moontouched Feathers off the feather objects west of Donova
+
+  zone map 1438
+
+  turnin 978 -- Moontouched Wildkin - to Erelas Ambersky in Rut'theran Village (55.5, 92.05)
+
+  zone map 1452
+
+step Ranshalla - Find Ranshalla turn-in (when onquest 979)
+
+  zone map 1452
+
+  when onquest 979
+
+  turnin 979 -- Find Ranshalla - to Ranshalla (63.07, 59.48); holders accepted it from Erelas in Rut'theran after the soft-pre step above
+
+step Ranshalla - the Altar of Elune
+
+  zone map 1452
+
+  accept 4901 -- Guardians of the Altar - Ranshalla; a discovery event at the altar, no farming needed; its pre 979 accepts from Erelas in Rut'theran (outside contracts) and turns in on the dedicated step above - holders proceed, others detour to Erelas first
+  complete 4901 -- Guardians of the Altar (discovery event, note above)
+  note 4901 turns in at Erelas Ambersky in Rut'theran Village, on the Teldrassil expedition leg below.
+
+step Haleh - the blue flight
+
+  zone map 1452
+
+  note 5161's pre (5160, the Matron Protectorate) has no placed giver anywhere in the data and is not contracted; the structural gap is recorded, nothing invented.
+  accept 5161 -- Wrath of the Blue Flight - Haleh (54.55, 51.2)
+  turnin 5161 -- Wrath of the Blue Flight - back to Haleh
+  accept 5162 -- Wrath of the Blue Flight - Haleh; for Jeziba in the Eastern Plaguelands, expedition below; its pre 5161 turned in above
+  note 6502's pre (6501, the Dragon's Eye) is Stormwind-contracted and turns in at Haleh herself; the cross-guide reference, not a warning.
+  accept 6502 -- Drakefire Amulet - Haleh; the Black Dragon Champion's blood drops inside Upper Blackrock Spire, which has no data placement - run it with your group, then turn in here
+  turnin 6502 -- Drakefire Amulet - back to Haleh
+
+step Lorax - tale and Demon Forge (Blacksmithing)
+
+  zone map 1452
+
+  when skill Blacksmithing 270
+
+  accept 5126 only Warrior,Paladin,Shaman optional -- Lorax's Tale - Lorax (63.79, 73.76); Lorax himself, below
+  complete 5126 @63.79,73.76 -- Lorax in the south
+  turnin 5126 only Warrior,Paladin,Shaman optional -- Lorax's Tale - back to Lorax
+  accept 5127 optional -- The Demon Forge - Lorax; its pre 5126 turned in above; the Soul Stained Pike's dropper has no placed spawn in the data (Blackrock Depths interior, no data placement) and the Unforged Rune-Covered Breastplate is player-crafted (R5) - buy or farm both, then turn in here
+  turnin 5127 optional -- The Demon Forge - back to Lorax
+
+step Expedition - Feralas, Gregan's elixir
+
+  zone map 1444
+
+  complete 3909 @45.12,25.57 -- the Videre Elixir off Gregan Brewspewer in Feralas
+
+  zone map 1452
+
+  turnin 3909 @31.27,45.16 -- The Videre Elixir - to Donova Snowden back home; the elixir came from Gregan above
+
+step Expedition - Felwood, droplets and Kelek
+
+  zone map 1448
+
+  complete 5086 @48.08,23.82 -- Toxic Horror Droplets off the Toxic Horrors in Felwood
+  turnin 5084 -- Falling to Corruption - to the Deadwood Cauldron in Felwood
+  turnin 5128 -- Words of the High Chief - to Kelek Skykeeper in Felwood
+
+  zone map 1452
+
+  turnin 5086 @31.27,45.16 -- Toxic Horrors - to Donova Snowden back home; the droplets came from Felwood above
+
+step Expedition - Tanaris and Un'Goro, the far yetis
+
+  zone map 1446
+
+  complete 5163 @51.06,26.87 -- Sprinkle in Tanaris
+  turnin 3912 -- Meet at the Grave - to Gaeriyan in Tanaris
+
+  zone map 1449
+
+  complete 5163 @43.66,9.37 -- Quixxil in Un'Goro
+
+  zone map 1452
+
+step Expedition - Burning Steppes, Tinkee's handoffs
+
+  zone map 1428
+
+  turnin 4810 -- Return to Tinkee - to Tinkee Steamboil (65.24, 24)
+  turnin 4907 -- Tinkee Steamboil - to Tinkee Steamboil; its pre 4810 turned in above
+
+  zone map 1452
+
+step Expedition - Teldrassil, Fandral and Erelas
+
+  zone map 1438
+
+  turnin 4901 -- Guardians of the Altar - to Erelas Ambersky in Rut'theran Village
+
+  zone map 1452
+
+step Expedition - Teldrassil, the Crystal (when onquest 5253)
+
+  zone map 1438
+
+  when onquest 5253
+
+  turnin 5253 -- The Crystal of Zin-Malor - to Arch Druid Fandral Staghelm in Darnassus (24.4, 48.9); the crystal leaves Winterspring with you
+
+  zone map 1452
+
+step Expedition - Eastern Plaguelands, Jeziba and Pureheart
+
+  zone map 1422
+
+  turnin 5162 -- Wrath of the Blue Flight - to Jeziba
+  turnin 6028 -- The Everlook Report - to the Argent Officer Pureheart
+
+  zone map 1452
+
+step Expedition - Western Plaguelands, Pamela, Duke and Aurora
+
+  zone map 1423
+
+  turnin 5601 -- Sister Pamela - to Pamela Redpath
+  turnin 6030 -- Duke Nicholas Zverenhoff - to Duke Nicholas Zverenhoff
+
+  zone map 1452
+
+step Expedition - Western Plaguelands, Aurora's spirits (when onquest 5245)
+
+  zone map 1423
+
+  when onquest 5245
+
+  turnin 5245 -- Troubled Spirits of Kel'Theril - to Aurora Skycaller (46.49, 16.03); the fragments were gathered in the ruins above
+
+  zone map 1452
+
+step Expedition - Mount Hyjal, the crate (when onquest 92009)
+
+  zone map 2482
+
+  when onquest 92009
+
+  turnin 92009 -- Crate Expectations - to Kaylaena Springwhisper (70.87, 51.55); the timed shipment ends here
+
+  zone map 1452
+
+step Expedition - Mount Hyjal, the post (when onquest 93269)
+
+  zone map 2482
+
+  when onquest 93269
+
+  turnin 93269 -- Top of the Post - to Sebelia (70.87, 51.55)
+
+  zone map 1452
