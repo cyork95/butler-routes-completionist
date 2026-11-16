@@ -1,0 +1,301 @@
+# Eastern Plaguelands - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 11 shippable rares and the fixed world
+# containers of the Eastern Plaguelands. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is
+# not up never holds the route. Spawn points and levels are the local
+# Forever game data (questie-forever); signature drops are items whose SOLE
+# dropper anywhere in the data is the rare. Ordinary goods and generic
+# multi-zone world drops get a note, not a goal. No tame lines ship (the
+# data has no tameability flag and no rare here presents beast-drop evidence
+# with a core-guide beast-family kill to corroborate - Foulmane's tame
+# question is logged in docs/companion-unverified.md). Respawn timers are
+# unconfirmed anywhere, so none are stated. Quest-owned containers (the
+# Andorhal Watch lockboxes, the Termite Barrel) live in the core guide -
+# see docs/eastern-plaguelands-companions-inventory.md for the full inventory. This
+# guide never accepts or turns in.
+guide butler-routes-completionist/eastern-plaguelands-rares
+title Eastern Plaguelands - Rares & Treasures
+levels 50-60
+zone Eastern Plaguelands
+faction Alliance
+category Collectibles
+folder Companions
+keywords eastern plaguelands, rares, treasures, companions
+coords live
+version 1
+
+step Foulmane - the plague field
+
+  zone map 1422
+
+  goto 46.27,52.43
+  kill 1847 optional
+  note Level 52 rare ranging the plague field; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Lord Maldazzar - the southern rise
+
+  zone map 1422
+
+  goto 54.16,80.43
+  kill 1848 optional
+  collect 284065 "Crown of Maldazzar" optional
+  note The crown drops only from Maldazzar anywhere in the data; it starts no quest.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Foreman Marcrid - the north field edge
+
+  zone map 1422
+
+  goto 49.04,32.73
+  kill 1844 optional
+  collect 12836 "Plans: Frostguard" optional
+  note The plans drop only from Marcrid anywhere in the data; the recipes companion routes the same drop as a Blacksmithing source.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Putridius - the eastern blight
+
+  zone map 1422
+
+  goto 48.05,67.39
+  kill 1850 optional
+  note Level 58 rare elite on the eastern blight; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Scarlet Smith - Tyr's Hand
+
+  zone map 1422
+
+  goto 44.36,13.54
+  kill 1885 optional
+  collect 12719 "Plans: Runic Plate Leggings" optional
+  note The plans drop only from the Smith anywhere in the data; the recipes companion routes the same drop as a Blacksmithing source.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Scarlet Judge - Hearthglen
+
+  zone map 1422
+
+  goto 42.21,18.5
+  kill 1837 optional
+  note Level 60 rare in Hearthglen; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Scarlet Executioner - Hearthglen
+
+  zone map 1422
+
+  goto 45.71,18.78
+  kill 1841 optional
+  note Level 60 rare elite in Hearthglen; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Scarlet Interrogator - Hearthglen (come back later)
+
+  zone map 1422
+
+  goto 45.15,15.27
+  kill 1838 optional
+  note Level 61 rare elite, a level above the core band's top: come back at 61+.
+  note No sole drop in the data; ordinary goods and generic world greens only; respawn timer unconfirmed.
+
+step Foreman Jerris - Tyr's Hand (come back later)
+
+  zone map 1422
+
+  goto 45.56,9.21
+  kill 1843 optional
+  note Level 62 rare elite, two above the core band's top: come back at 62+.
+  note No sole drop in the data; ordinary goods and generic world greens only; respawn timer unconfirmed.
+
+step The Husk - the eastern crater (come back later)
+
+  zone map 1422
+
+  goto 62.15,36.31
+  kill 1851 optional
+  note Level 62 rare by the eastern crater, two above the core band's top: come back at 62+.
+  note No sole drop in the data; ordinary goods and generic world greens only; respawn timer unconfirmed.
+
+step Scarlet High Clerist - Hearthglen and the north (come back later)
+
+  zone map 1422
+
+  loop
+  goto 42.34,18.9
+  goto 44.5,19.3
+  goto 56.94,34.81
+  kill 1839 optional
+  note Level 63 rare elite, three above the core band's top: come back at 63+. Three confirmed points, looped.
+  note No sole drop in the data; ordinary goods and generic world greens only; respawn timer unconfirmed.
+
+step Fixed containers - Solid Chests scattered
+
+  zone map 1422
+
+  loop
+  goto 37.93,54.35
+  goto 39.35,66.73
+  goto 40.79,51.96
+  goto 41.94,73.08
+  goto 43.15,72.91
+  goto 45.1,65.22
+  goto 45.19,34.09
+  goto 46.65,66.53
+  goto 47.36,49.66
+  goto 49.16,67.71
+  goto 50.79,40.7
+  goto 53.8,65.07
+  goto 54.87,23.1
+  goto 64.63,59.41
+  interact 153453 optional
+  note Fourteen fixed Solid Chest placements across the zone; these are generic fixed-spawn containers, said plainly.
+
+step Fixed containers - Food Crates scattered
+
+  zone map 1422
+
+  loop
+  goto 38.8,55.7
+  goto 39.21,67.92
+  goto 40.66,51.87
+  goto 41.9,72.22
+  goto 42.96,18.61
+  goto 43.14,20.64
+  goto 43.2,63.45
+  goto 44.35,33.87
+  goto 44.51,12.4
+  goto 45.61,18.9
+  goto 45.88,62.39
+  goto 46.54,73.17
+  goto 47.34,50.86
+  goto 47.76,22.79
+  goto 47.95,69.38
+  goto 48.31,32.81
+  goto 51.18,40.43
+  goto 51.84,28.2
+  goto 51.91,44.13
+  goto 52.05,65.4
+  goto 53.11,36.62
+  goto 62.71,60.29
+  goto 65.93,47.71
+  interact 153471 optional
+  note Twenty-three fixed Food Crate placements across the zone; generic fixed-spawn containers, said plainly.
+
+step Fixed containers - Hearthglen large chests
+
+  zone map 1422
+
+  loop
+  goto 41.69,14.92
+  goto 42.32,17.96
+  goto 46.94,13.17
+  interact 153463 optional
+  interact 153468 optional
+  note Large Solid Chests and Large Mithril Bound Chests share these three Hearthglen points; generic fixed-spawn containers, said plainly.
+
+step Fixed containers - Dalson farmsteads barrels and crates
+
+  zone map 1422
+
+  loop
+  goto 20.3,49.2
+  goto 26.8,55.2
+  goto 26.8,59.5
+  goto 26.9,56.7
+  interact 3658 optional
+  interact 153472 optional
+  note Water Barrels and Food Crates share these four farmstead points; generic fixed-spawn containers, said plainly.
+
+step Fixed containers - far west edge crate and milk
+
+  zone map 1422
+
+  loop
+  goto 8,66.7
+  goto 8.3,64.6
+  interact 3662 optional
+  interact 3705 optional
+  note A Food Crate and a Barrel of Milk share these two far-west points; generic fixed-spawn containers, said plainly.
+
+step Fixed containers - southern nectar and crate
+
+  zone map 1422
+
+  loop
+  goto 32.3,92.1
+  goto 32.7,93
+  goto 32.8,93.7
+  interact 3706 optional
+  interact 3707 optional
+  note Barrels of Sweet Nectar and Food Crates share these three southern points; generic fixed-spawn containers, said plainly.
+
+step Fixed containers - Solid Chests south of Uther's Tomb
+
+  zone map 1422
+
+  loop
+  goto 31.5,91.4
+  goto 32.3,91.6
+  goto 32.5,93.3
+  goto 32.7,93.9
+  goto 32.8,94.6
+  goto 32.9,93.4
+  interact 2855 optional
+  note Six fixed Solid Chest placements south of Uther's Tomb; generic fixed-spawn containers, said plainly.
+
+step Box of Incendiaries - Darrowshire edge
+
+  zone map 1422
+
+  goto 26.5,56.2
+  interact 176092 optional
+  note A single fixed Box of Incendiaries; the data holds one point, so no loop.
+
+step Northridge Lumber Mill Crate - the mill
+
+  zone map 1422
+
+  goto 48.35,32
+  interact 177490 optional
+  note A single fixed lumber mill crate; the data holds one point, so no loop.
+
+step Dark Cleric Salem's Chest - the farm
+
+  zone map 1422
+
+  goto 30.6,28.9
+  interact 178464 optional
+  note A single fixed chest with a named owner; the data holds one point, so no loop.
+
+step Box of Scarlet Dye - Hearthglen
+
+  zone map 1422
+
+  goto 45.2,15.2
+  interact 442742 optional
+  note A single fixed dye box in Hearthglen; the data holds one point, so no loop.
+
+step Marked Crate - Hearthglen
+
+  zone map 1422
+
+  goto 45.8,18.4
+  interact 461632 optional
+  note A single fixed marked crate in Hearthglen; the data holds one point, so no loop.
+
+step Belavus' Safe Box - Hearthglen
+
+  zone map 1422
+
+  goto 46.5,14.1
+  interact 461633 optional
+  note A single fixed safe box in Hearthglen; the data holds one point, so no loop.
+
+step Scarlet Toolbox - Hearthglen
+
+  zone map 1422
+
+  goto 45,14.1
+  interact 463540 optional
+  note A single fixed toolbox in Hearthglen; the data holds one point, so no loop.
