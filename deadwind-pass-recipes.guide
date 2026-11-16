@@ -1,0 +1,45 @@
+# Deadwind Pass - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes whose SOURCE is physically in Deadwind Pass, verified against
+# the local Forever game data (questie-forever item drop tables). Two ship,
+# both as drop collects off sole in-zone sources: a Deadwind Warlock carries
+# the Enchanting formula, and a fixed recipe object above the northern road
+# holds the Cooking recipe. Nothing is sold by any in-zone vendor, and every
+# other in-zone-dropping recipe is a generic multi-zone world drop; quest
+# records carry no reward data (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover
+# those. Each step is gated to its profession; other characters skip it
+# cleanly. Every other profession has no Deadwind Pass source, so that is
+# stated, not padded.
+guide butler-routes-completionist/deadwind-pass-recipes
+title Deadwind Pass - Recipes
+levels 60-60
+zone Deadwind Pass
+faction Alliance
+category Professions
+folder Companions
+keywords deadwind pass, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Enchanting — Superior Strength bracer formula (drop)
+
+  zone map 1430
+
+  when skill Enchanting 1
+
+  goto 60.51,61.69
+  collect 16246 "Formula: Enchant Bracer - Superior Strength" optional
+  note A Deadwind Warlock ranging the broken road is the sole dropper anywhere in the data, at about one in a hundred kills. No quest takes the formula in the data.
+
+step Cooking — Plated Armorfish recipe (drop)
+
+  zone map 1430
+
+  when skill Cooking 1
+
+  goto 52.4,34.5
+  collect 286153 "Recipe: Plated Armorfish" optional
+  note The fixed recipe object above the northern road is the sole source anywhere in the data; the drop rate is not in the data. No quest takes the recipe in the data.
+
+step Blacksmithing, Alchemy, Tailoring and the rest — no Deadwind Pass source
+  note No Blacksmithing plan, Alchemy recipe, Tailoring pattern, Engineering schematic, Fishing lure, or First Aid manual has a source physically in Deadwind Pass in the data; trainer-taught staples live in Polestar's own profession guides.
