@@ -484,7 +484,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [x] Lint/playtest clean (0 errors, 0 warnings; R2 + R5 sourceless-writ residue argued)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (no rares in data; 3 treasure singles; 2 recipes, both sole-source drops)
 
 ### Winterspring — contested (Kalimdor)
 

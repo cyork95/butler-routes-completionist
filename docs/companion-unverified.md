@@ -622,3 +622,8 @@ as above: game-data citation or a named source.
 ## Burning Steppes stock class and timers (pack 0.78.0)
 
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so the Yuka buy carries no limited marking; stock class is unconfirmed. No respawn data for any rare or container exists in the local build; every step says the timer is unconfirmed.
+
+## Deadwind Pass (pack 0.80.0)
+
+- No rare-flagged NPC spawns on key 1430 (all 34 scanned; the only ranked NPC is the rank-1 normal Mistmantle Prowler), so no tame question arises and none is logged. The three shipped treasure singles and both shipped recipes are all the zone holds.
+- 65 in-zone-dropped recipes are generic multi-zone world drops (72-646 droppers each) and ship nowhere per the Elwynn rule. Quest-reward recipes are unverifiable as a class (quest records carry no reward data). The Plated Armorfish recipe object drops at a null rate in the data; no respawn data exists for any Deadwind object or dropper - every step says so.
