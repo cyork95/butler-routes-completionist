@@ -1,0 +1,160 @@
+# Mount Hyjal - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 8 data-confirmed rares of Mount Hyjal. Run it
+# in its own Polestar tab at the end of the core route or standalone. EVERY
+# goal is optional: a rare that is not up never holds the route. Spawn points
+# and levels are the local Forever game data (questie-forever); signature
+# drops are items whose SOLE dropper anywhere in the data is the rare.
+# Ordinary goods and generic multi-zone world drops get a note, not a goal.
+# No tame lines ship: tameability has no data flag and no core quest kills a
+# corroborating beast family for the two beast-plausible rares, so both tame
+# questions are logged in docs/companion-unverified.md. Respawn timers are
+# unconfirmed anywhere, so none are stated. No fixed treasure containers
+# exist in the data (all 17 objects on key 2482 are core-contract points or
+# scenery with no loot), so this guide ships no treasure steps - said plainly
+# here and below. Core-quest mobs and vendors are cross-referenced, never
+# duplicated: see docs/mount-hyjal-companions-inventory.md. This guide never
+# accepts or turns in.
+guide butler-routes-completionist/mount-hyjal-rares
+title Mount Hyjal - Rares & Treasures
+levels 54-60
+zone Mount Hyjal
+faction Alliance
+category Collectibles
+folder Companions
+keywords mount hyjal, rares, treasures, companions
+coords live
+version 1
+
+step Death Wailer - the western wilds (come back later)
+
+  zone map 2482
+
+  note No fixed treasure containers exist anywhere in the data for Mount Hyjal, so this sweep is rares only.
+  loop
+  goto 21,58.57
+  goto 21.03,75.42
+  goto 21.67,57.47
+  goto 22.32,56.73
+  goto 23.93,57.93
+  kill 249226 optional
+  note Level 61 rare elite roaming the western wilds - one level above the 54-60 band, so come back at 61.
+  note Shares the Drop of Stolen Life with three other droppers; core quest 92317 (Stolen Life) seeks that drop - see the core guide. Respawn timer unconfirmed.
+
+step Legion Hulk - the northern demon grounds
+
+  zone map 2482
+
+  loop
+  goto 56.7,36.11
+  goto 57.94,36.32
+  goto 58.81,29.23
+  goto 58.89,35.1
+  goto 58.97,35.79
+  goto 59.56,30.88
+  goto 60.66,30.38
+  goto 61.3,33.25
+  goto 61.36,31.2
+  goto 61.44,32.14
+  goto 61.94,31.13
+  goto 62.17,40.34
+  goto 62.41,38.37
+  goto 62.51,34.62
+  goto 63.28,43.02
+  goto 63.31,32.67
+  goto 63.53,29.89
+  goto 64.03,37.97
+  goto 64.25,39.75
+  goto 64.59,41.9
+  goto 65.42,37.11
+  goto 67.85,38.29
+  kill 249238 optional
+  note Level 60 rare elite on the northern demon grounds; no drops in the data, so there is nothing signature to chase. Respawn timer unconfirmed.
+
+step Bannerwing Survivor - demon grounds and summit road
+
+  zone map 2482
+
+  loop
+  goto 57.22,35.05
+  goto 72.38,49.98
+  kill 256830 optional
+  note Level 60 rare elite split between the demon grounds and the summit road; no drops in the data. Respawn timer unconfirmed.
+
+step Overseer Myoleth - ash grounds west of the Crow
+
+  zone map 2482
+
+  loop
+  goto 49.83,72.07
+  goto 50.91,73.36
+  goto 51.41,72.44
+  goto 52.43,71.93
+  kill 260823 optional
+  note Level 58 rare on the ash grounds west of the Crow. Its only drop is the generic Waylaid Crate: Artisan Textiles, so there is nothing signature to chase. Respawn timer unconfirmed.
+
+step Pexmit - south of the Crow and the northern front
+
+  zone map 2482
+
+  loop
+  goto 45.74,82.52
+  goto 46.84,80.67
+  goto 48.22,33.77
+  goto 48.81,34.11
+  kill 266901 optional
+  note Level 60 rare peddling south of the Crow and on the northern front. Buy his six recipes FIRST - see the recipes companion (Blacksmithing, Leatherworking, Tailoring, Alchemy, Engineering) - then kill him. No mob drops in the data. Respawn timer unconfirmed.
+
+step Head Scratcher - the wormwing grounds
+
+  zone map 2482
+
+  loop
+  goto 33.82,72.86
+  goto 35.32,71.3
+  goto 36.02,73.39
+  goto 36.56,72.13
+  kill 251199 optional
+  note Level 60 elite on the wormwing grounds. Its signature drop, Head Scratcher's Scratchers, drops solely from him anywhere in the data - but only while holding the Horde-only quest 92446 (Head Scratcher), so Alliance players will never see it lootable; hunt him for the kill. Beast-shaped but no tame line: the data has no tameability flag and no core quest corroborates the family - logged in docs/companion-unverified.md. Respawn timer unconfirmed.
+
+step Ghansurok - the eastern blight and the north (come back later)
+
+  zone map 2482
+
+  loop
+  goto 59.16,64.15
+  goto 59.9,63.1
+  goto 60.55,62.56
+  goto 61.16,62.46
+  goto 61.16,63.11
+  goto 61.17,61.85
+  goto 61.78,61.76
+  goto 69.12,21.48
+  goto 69.22,22.93
+  goto 69.4,22.26
+  kill 251488 optional
+  kill 264867 optional
+  collect 274162 "Venom-dripping Heart" optional
+  note Level 61 elite, Blight of the Hills, roaming the eastern blight and a northern cluster - one level above the 54-60 band, so come back at 61. The Heart drops solely from the northern Ghansurok anywhere in the data. Beast-plausible but no tame line: no data flag and no core corroboration - logged in docs/companion-unverified.md. Respawn timer unconfirmed.
+
+step Doomguard Xarkul - northern demon grounds (come back later)
+
+  zone map 2482
+
+  loop
+  goto 58.53,29.52
+  goto 59.64,35.34
+  goto 59.65,30.67
+  goto 60.35,30.71
+  goto 61.22,29.48
+  goto 61.22,31.25
+  goto 61.39,33.47
+  goto 61.84,32.54
+  goto 61.85,31.84
+  goto 61.91,31.14
+  goto 62.41,27.95
+  goto 62.42,32.4
+  goto 62.54,25.77
+  goto 63.25,29.07
+  goto 63.58,31.11
+  kill 267439 optional
+  note Level 61 elite on the northern demon grounds - one level above the 54-60 band, so come back at 61. Its drops are shared (Demon Dust, Horde-heraldry scraps), so nothing signature. Respawn timer unconfirmed.
