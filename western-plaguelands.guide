@@ -1,0 +1,451 @@
+# Western Plaguelands completionist (pack butler-routes-completionist, v1).
+# Every Western Plaguelands Alliance quest in the local census (65 quests,
+# docs/western-plaguelands-census.md) appears exactly once as an accept.
+# Turn-ins ride once each except 5463 (Menethil's Gift), 8948 (Anthion's
+# Old Friend) and 6024 (Hameya's Plea), which have no reachable turn-in in
+# the data and ship with honest notes, never invented turn-ins (Ironforge
+# precedent). No class, race, or profession gates anywhere: the census found
+# no clazz/skill fields and no exclusive race masks in-zone. Chain order is
+# strictly turn-in-before-accept in file order: follow-up accepts always
+# come after their pre's turn-in, and every complete sits between its
+# accept and its turn-in. Accepts whose pres sit outside the contract ride
+# inline with notes plus listed structural warnings, and their completes
+# ride in when onquest mini-steps standing alone (Darkshore technique).
+# The three crafted turn-in groups (6026, 8947, 5247's bar and crystal)
+# take the Ashenvale R5 handling (optional bag goods, never invented
+# sources). Sourceless or spawnless objectives ride as bare completes with
+# honest notes, never invented points. Dungeon work goes to data-placed
+# faces: the Scholomance Door (EPL 69.4,73.2) for 5251/4771 and the four
+# in-zone "Stratholme" markers for 5243/5263, each with a note saying
+# exactly that. Coordinates use the pack era qualifier, set with zone map
+# lines; every coordinate belowpassed a mechanical audit against spawn
+# data (141/141 placed, one invented point caught and replaced).
+guide butler-routes-completionist/western-plaguelands
+title Western Plaguelands
+levels 50-58
+zone Western Plaguelands
+faction Alliance
+category Leveling
+folder Eastern Kingdoms
+coords live
+version 1
+
+step West road - Augustus
+
+  zone map 1423
+
+  accept 6164 -- Augustus' Receipt Book - Augustus the Touched (ground receipt below)
+  complete 6164 @14.04,24.22 era -- Augustus' Receipt Book off the ground at the receipt
+  turnin 6164 @11.36,26.37 -- Augustus' Receipt Book - Augustus
+
+step Darrowshire - Pamela's stand
+
+  zone map 1423
+
+  accept 5149 -- Pamela's Doll - Pamela Redpath; needs Little Pamela (EPL) and Sister Pamela (Darnassus) turned in first (not in any guide - above their bands); listed structural warning
+  accept 5942 -- Hidden Treasures - Pamela; needs the Battle of Darrowshire (EPL, uncontracted) first; listed structural warning
+  turnin 5942 @30.92,77.78 era -- Hidden Treasures - Joseph's Chest (accept-only record: the chest IS the turn-in; honest note, never an invented NPC)
+
+step Darrowshire - the doll (soft pre)
+
+  zone map 1423
+
+  when onquest 5149
+
+  complete 5149 -- Pamela's Doll (item 12885 has no source anywhere in the data: no droppers, objects, or vendors)
+  turnin 5149 @31.15,77.98 -- Pamela's Doll - Pamela
+
+step Darrowshire - Pamela's follow-ups
+
+  zone map 1423
+
+  accept 5241 -- Uncle Carlin - Pamela's word for Carlin at Light's Hope (pre turned in above)
+  accept 5152 -- Auntie Marlene - Pamela's plea for Marlene's ghost in Andorhal (pre turned in above; EPL expedition below)
+
+step Darrowshire south - Orthas and Zaeldarr
+
+  zone map 1423
+
+  accept 84318 -- Oi! - Orthas (warhammer note below)
+  complete 84318 -- Ornate Warhammer (object 461639 has no spawns in the data, so this complete carries no place)
+  accept 84330 -- A Wee Bit O' Necromancy - Orthas (runestone and tooth notes below)
+  complete 84330 -- Necrotic Runestone and Gold Tooth (the runestone's only dropper Maleki has no spawns in the data, so this complete carries no place)
+  note The Gold Tooth is sold by Rix Xizzix in Booty Bay (1434, expedition below) - buy it there or bring one.
+  accept 6021 -- Zaeldarr the Outcast - Alen's writ from Light's Hope (below)
+  kill 12247 -- eight Scourge Structures at the cauldron field
+  complete 6021 @23.07,72.63 era -- Zaeldarr's Head off Zaeldarr
+  turnin 6021 @23.58,73.79 era -- Zaeldarr the Outcast - the head in the Mound of Dirt
+  turnin 84318 @24.33,69.07 -- Oi! - Orthas (with the warhammer in the bags)
+  turnin 84330 @23.1,73.32 -- A Wee Bit O' Necromancy - the Rotting Dwarf (with tooth and runestone in the bags)
+  accept 6024 -- Hameya's Plea - the Torn Scroll off the ground at 22.9,72.96; needs Hameya's Key (see note)
+  kill 12248 -- Infiltrator Hameya at the north fence for her key
+  note Hameya's Key comes from Infiltrator Hameya at 61.96,11.11 (placed); 6024 has no turnin anywhere in the data (accept-only record, honest note, never an invented turnin).
+
+step Light's Hope - the chapel
+
+  zone map 1423
+
+  note Light's Hope Chapel is the hub: Carlin Redpath, Leonid Barthalomew, Duke Nicholas Zverenhoff, Lord Maxwell Tyrosus, Betina Bigglezink, Smokey LaRue and Miranda Breechlock all stand in the chapel yard. No flight or inn data exists in the build, so none is named.
+  turnin 5241 @71.7,50.04 -- Uncle Carlin - Pamela's word delivered
+  accept 5168 -- Heroes of Darrowshire - Carlin; needs Brother Carlin (EPL, uncontracted) first; listed structural warning
+  accept 5181 -- Villains of Darrowshire - Carlin; same EPL pre; listed structural warning
+  accept 5211 -- Defenders of Darrowshire - Carlin (pre turned in above)
+
+step Andorhal - the libram (soft pre)
+
+  zone map 1422
+
+  when onquest 5168
+
+  complete 5168 @42.52,18.99 era -- Heroes of Darrowshire: Davil's Libram in Andorhal
+
+step Andorhal - the shield (soft pre)
+
+  zone map 1422
+
+  when onquest 5181
+
+  complete 5181 @63.79,57.19 era -- Villains of Darrowshire: Redpath's Shield in east Andorhal
+
+step Light's Hope - Leonid's row
+
+  zone map 1423
+
+  accept 5243 -- Houses of the Holy - Leonid (the holy-water crates are spawnless; the Strat markers below are the honest face)
+  accept 5531 -- Betina Bigglezink - Leonid; needs his EPL errand (zone 1428, uncontracted) first; listed structural warning
+  accept 5463 -- Menethil's Gift - Leonid; needs the EPL pre (Ras Frostwhisper, uncontracted) first; listed structural warning
+  note Menethil's Gift (object 176631) has no spawns in the data: the turnin is unplaced (honest note, never an invented point).
+  accept 5464 -- Menethil's Gift - the gift itself is unplaced in the data (see note); its pre 5463 never turns in (accept-only chain - listed structural warning)
+  turnin 5464 @71.89,48.29 -- Menethil's Gift - Leonid
+  accept 5465 -- Soulbound Keepsake - Leonid (pre turned in above); Marduke in Andorhal takes the turnin (expedition below)
+
+step Light's Hope - the Duke's table
+
+  zone map 1423
+
+  accept 5503 -- Argent Dawn Commission - the Duke (repeatable scourgestone turn-ins are out of contract, noted)
+  turnin 5503 @71.63,50.09 -- Argent Dawn Commission - Duke Nicholas Zverenhoff
+  accept 5251 -- The Archivist - the Duke (Galford and the archive are spawnless; the Scholomance Door expedition below is the honest face)
+
+step Scholomance expedition - the door
+
+  zone map 1422
+
+  complete 5251 @69.4,73.2 era -- The Archivist: Archivist Galford and the archive burn (both spawnless in data; the door is the honest face, group goes in together)
+
+step Light's Hope - after the door
+
+  zone map 1423
+
+  turnin 5251 @71.63,50.09 -- The Archivist - the Duke back home
+  accept 5262 optional -- The Truth Comes Crashing Down - starts from the Head of Balnazzar (item 13250), whose droppers have no spawns in the data; check the bags (R2 note)
+  note The Strat markers below are the honest face of both Strat heads: no Stratholme entrance is placed in the data, and the four in-zone "Stratholme" objects carry no quest linkage, so the steps say exactly that.
+
+step Light's Hope - the markers closeout
+
+  zone map 1423
+
+  goto 26.84,19.23 -- north marker
+  complete 5243 @26.84,19.23 era -- Stratholme Holy Water (the crates are spawnless; this marker is the in-zone face of the Strat run)
+  turnin 5243 @71.89,48.29 -- Houses of the Holy - Leonid
+  turnin 5262 @71.63,50.09 optional -- The Truth Comes Crashing Down - the Duke (with the head in the bags)
+  accept 5263 -- Above and Beyond - the Duke (pre turned in above)
+  goto 52.37,57.4 -- southeast marker
+  complete 5263 @52.37,57.4 era -- the Head of Baron Rivendare (Rivendare has no spawns in the data; markers are the honest face)
+  turnin 5263 @71.63,50.09 -- Above and Beyond - the Duke
+  accept 5264 -- Lord Maxwell Tyrosus - the Duke's word (pre turned in above)
+  turnin 5264 @71.9,48.41 -- Lord Maxwell Tyrosus - Maxwell
+  accept 5265 -- The Argent Hold - Maxwell's hold
+  turnin 5265 @71.96,48.41 era -- The Argent Hold - the hold itself (object turnin, Cortello precedent)
+
+step Light's Hope - Betina's work
+
+  zone map 1423
+
+  accept 5212 -- The Flesh Does Not Lie - Betina (ten flesh samples, see note)
+  complete 5212 -- Plagued Flesh Samples (all 21 droppers have no spawns in the data, so this complete carries no place); check the plagued wildlife by hand
+  turnin 5212 @71.66,49.94 -- The Flesh Does Not Lie - Betina
+  accept 5213 -- The Active Agent - Betina (pre turned in above)
+  complete 5213 -- Scourge Data (object 176249 has no spawns in the data, so this complete carries no place)
+  turnin 5213 @71.66,49.94 -- The Active Agent - Betina
+  accept 5529 -- Plagued Hatchlings - Betina (twenty hatchlings, see note)
+  complete 5529 -- Plagued Hatchlings (the hatchling has no spawns in the data, so this complete carries no place); the northeastern hatchery is the honest face of it
+  turnin 5529 @71.66,49.94 -- Plagued Hatchlings - Betina (her next, 5582, is an out-of-contract repeatable - noted, not routed)
+  turnin 5531 @71.66,49.94 -- Betina Bigglezink - Leonid's word delivered
+  accept 4771 -- Dawn's Gambit - Betina (pre turned in above); Vectus at the Scholomance Door (expedition below)
+
+step Scholomance expedition - Vectus
+
+  zone map 1422
+
+  complete 4771 @69.4,73.2 era -- Dawn's Gambit: Vectus and the Dawn's Gambit placement (Vectus spawnless in data; the door is the honest face)
+
+step Light's Hope - after Vectus
+
+  zone map 1423
+
+  turnin 4771 @71.66,49.94 -- Dawn's Gambit - Betina back home
+
+step Light's Hope - Smokey and the smiths
+
+  zone map 1423
+
+  accept 5214 -- The Great Ezra Grimm - Smokey (Grimm's tobacco, see note)
+  complete 5214 -- Grimm's Premium Tobacco (its only dropper Ezra Grimm has no spawns in the data, so this complete carries no place)
+  turnin 5214 @70.88,48.43 -- The Great Ezra Grimm - Smokey (with the tobacco in the bags)
+  accept 6026 -- That's Asking A Lot - Smokey (four crafted trade goods, bag note below)
+  note The four goods are crafted trade goods, not drops: bring them in the bags (Ashenvale R5 handling). No placed source exists in the data for any of them.
+  complete 6026 -- Thorium Bar, Unstable Trigger, Hi-Explosive Bomb and Golden Rod (all four crafted; the bag note above covers them)
+  turnin 6026 @70.88,48.43 -- That's Asking A Lot - Smokey (with the goods in the bags)
+  accept 6041 -- When Smokey Sings, I Get Violent - Smokey (pre turned in above)
+
+step Light's Hope - mantles and tokens
+
+  zone map 1423
+
+  accept 5513 -- Mantles of the Dawn - Miranda (ten Valor Tokens, see note)
+  complete 5513 -- Argent Dawn Valor Tokens (item 12844 has no source in the data; tokens come from the out-of-contract repeatable turn-ins, so this complete carries no place)
+  turnin 5513 @71.79,50.25 -- Mantles of the Dawn - Miranda
+  accept 5517 -- Chromatic Mantle of the Dawn - Miranda (thirty Valor Tokens, same note)
+  complete 5517 -- Argent Dawn Valor Tokens (see 5513 note)
+  turnin 5517 @71.79,50.25 -- Chromatic Mantle of the Dawn - Miranda
+  accept 9141 -- They Call Me "The Rooster" - Metz (twenty-five Valor Tokens, same note; its next, 9142, is an out-of-contract repeatable - noted, not routed)
+  complete 9141 -- Argent Dawn Valor Tokens (see 5513 note)
+  turnin 9141 @71.28,48.04 -- They Call Me "The Rooster" - Metz
+
+step Light's Hope - the armor heads
+
+  zone map 1423
+
+  accept 9124 -- Cryptstalker Armor Doesn't Make Itself... - Leopold (fiend parts in the west, sweep below)
+  accept 9126 -- Bonescythe Digs - Rohan (bone fragments in the wilds, sweep below)
+  accept 9128 -- The Elemental Equation - Angela (elemental cores in the wilds, sweep below)
+  accept 9131 -- Binding the Dreadnaught - Korfax (dark iron scraps in EPL, expedition below)
+  accept 9136 -- Savage Flora - Rayne (savage fronds, see note)
+  complete 9136 -- Savage Fronds (fronds drop only on Kalimdor - Feralas, Un'Goro, Felwood - with no EK source in the data, so this complete carries no place)
+  turnin 9136 @71.41,49.35 -- Savage Flora - Rayne (with the fronds in the bags)
+
+step Light's Hope - the Keeper's rolls
+
+  zone map 1423
+
+  note The Keeper's rolls quests all start from world-drop letters with spawnless droppers in the data - check the bags (R2 notes); every turnin below rides the Keeper.
+  accept 9247 optional -- The Keeper's Call - sourceless writ in the bags (min-1 special class, never sets the band)
+  accept 9295 optional -- Letter from the Front - spawnless droppers in the data
+  accept 9299 optional -- Note from the Front - spawnless droppers in the data
+  accept 9300 optional -- Page from the Front - spawnless droppers in the data
+  accept 9301 optional -- Envelope from the Front - spawnless droppers in the data
+  accept 9302 optional -- Missive from the Front - spawnless droppers in the data
+  accept 9304 optional -- Document from the Front - spawnless droppers in the data
+  turnin 9247 @71.15,50.55 optional -- The Keeper's Call - the Keeper
+  turnin 9295 @71.15,50.55 optional -- Letter from the Front - the Keeper
+  turnin 9299 @71.15,50.55 optional -- Note from the Front - the Keeper
+  turnin 9300 @71.15,50.55 optional -- Page from the Front - the Keeper
+  turnin 9301 @71.15,50.55 optional -- Envelope from the Front - the Keeper
+  turnin 9302 @71.15,50.55 optional -- Missive from the Front - the Keeper
+  turnin 9304 @71.15,50.55 optional -- Document from the Front - the Keeper
+
+step Light's Hope - Alen's errand
+
+  zone map 1423
+
+  accept 5281 -- The Restless Souls - Alen (Egan in the west takes the turnin, last return below)
+
+step Plaguelands wilds - the armor scraps
+
+  zone map 1423
+
+  goto 5.52,31.27 -- west edge
+  goto 8.33,27.51 -- west edge
+  goto 11.27,23.69 -- west edge
+  complete 9124 @8.33,27.51 era -- thirty Crypt Fiend Parts off the Crypt Fiends at the west edge
+  goto 11.59,25.22 -- Scourge Soldiers
+  goto 14.22,28.38 -- Cursed Mages
+  goto 25.62,19.13 -- Scourge Warders
+  complete 9126 @14.22,28.38 era -- thirty Bone Fragments off the west-edge scourge (Soldiers, Mages, Warders)
+  goto 21.95,25.76 -- Lord Darkscythe
+  goto 50.54,58.14 -- Dark Casters
+  complete 9126 @50.54,58.14 era -- fragments off the Dark Casters south of the chapel
+  goto 43.31,42.14 -- Blighted Horrors
+  goto 51.88,67.29 -- Blighted Surges
+  complete 9128 @51.88,67.29 era -- twelve Cores of Elements off the blighted in the north-center
+  turnin 9124 @71.69,48.94 -- Cryptstalker Armor Doesn't Make Itself... - Leopold at the chapel
+  turnin 9126 @71.62,48.91 -- Bonescythe Digs - Rohan at the chapel
+  turnin 9128 @71.7,48.69 -- The Elemental Equation - Angela at the chapel
+
+step Plaguelands wilds - Darrowshire closeout
+
+  zone map 1423
+
+  turnin 5168 @71.7,50.04 -- Heroes of Darrowshire - Carlin at the chapel
+  turnin 5181 @71.7,50.04 -- Villains of Darrowshire - Carlin at the chapel
+  accept 5206 -- Marauders of Darrowshire - Carlin (pres turned in above)
+  complete 5206 -- Resonating Skulls (item 13155 has no source anywhere in the data, so this complete carries no place); Scholomance also drops them per classic, unplaced in the build
+  turnin 5206 @71.7,50.04 -- Marauders of Darrowshire - Carlin
+  accept 5941 -- Return to Chromie - Carlin (pre turned in above; Chromie in Andorhal takes the turnin, expedition below)
+  goto 11.14,25.43 -- Darrowshire west field
+  goto 15.04,27.06 -- Darrowshire west field
+  goto 21.51,24.8 -- Darrowshire west field
+  complete 5211 @18.54,13.03 era -- fifteen Darrowshire Spirits on the west field
+  turnin 5211 @71.7,50.04 -- Defenders of Darrowshire - Carlin at the chapel
+  goto 19.51,15.93 -- cauldron field
+  goto 22.69,29.17 -- cauldron field
+  goto 27.37,23.92 -- cauldron field
+  complete 6041 @27.37,23.92 era -- eight Scourge Structures at the northwest cauldrons
+  turnin 6041 @70.88,48.43 -- When Smokey Sings, I Get Violent - Smokey
+
+step EPL Andorhal expedition - Marlene, Chromie, Marduke
+
+  zone map 1422
+
+  turnin 5152 @49.17,78.57 -- Auntie Marlene - Marlene's ghost in Andorhal
+  turnin 5941 @39.46,66.76 -- Return to Chromie - Chromie (her chain exits to EPL 5721, out of contract - noted, not routed)
+  turnin 5465 @70.57,74.11 -- Soulbound Keepsake - Marduke (its chain exits to EPL 5466, out of contract - noted, not routed)
+
+step EPL Blackrock expedition - the scraps
+
+  zone map 1428
+
+  complete 9131 @42.44,54.68 era -- thirty Dark Iron Scraps off the Blackrock golems (nearest placed source to the zone; Searing Gorge also has them)
+
+step Light's Hope - Korfax's turnin
+
+  zone map 1423
+
+  turnin 9131 @71.95,48.52 -- Binding the Dreadnaught - Korfax at the chapel
+
+step Sorrow Hill - Anthion's chain
+
+  zone map 1423
+
+  accept 8945 -- Dead Man's Plea - Anthion Harmon; needs the Ironforge and Stormwind Anthion pres (uncontracted city quests) first; listed structural warning
+  accept 9015 -- The Challenge - Anthion; needs the Dire Maul pre (zone 234, uncontracted) first; listed structural warning (Falrin unplaced, see note)
+
+step Sorrow Hill - Ysida freed (soft pre)
+
+  zone map 1423
+
+  when onquest 8945
+
+  complete 8945 -- Ysida Freed (Ysida Harmon has no spawns in the data, so this complete carries no place); Ysida's Locket (item 14674) drops from hundreds of undead across the world - bring one
+  turnin 8945 @26.11,11.3 -- Dead Man's Plea - Anthion (with the locket in the bags)
+
+step Sorrow Hill - proof of life
+
+  zone map 1423
+
+  accept 8946 -- Proof of Life - Ysida has no spawns in the data (accept unplaced, honest note; pre turned in above)
+  turnin 8946 @26.11,11.3 -- Proof of Life - Anthion
+
+step Sorrow Hill - the strange request
+
+  zone map 1423
+
+  accept 8947 -- Anthion's Strange Request - Anthion (pre turned in above; four crafted mats, bag note below)
+  complete 8947 -- Dark Iron Bar, Enchanted Leather, Mooncloth and Cured Rugged Hide (all four crafted; the bag note below covers them)
+  note The four goods (Dark Iron Bar, Enchanted Leather, Mooncloth, Cured Rugged Hide) are crafted trade goods, not drops: bring them in the bags (Ashenvale R5 handling). No placed source exists in the data for any of them; the only vendor in the data, Lhara, stands in Elwynn/Dun Morogh - buy it there or bring it.
+  turnin 8947 @26.11,11.3 -- Anthion's Strange Request - Anthion (with the goods in the bags)
+  accept 8948 -- Anthion's Old Friend - Anthion (pre turned in above; Falrin has no spawns in the data - turnin unplaced, honest note, never an invented turnin)
+
+step Dire Maul - Theldren (soft pre)
+
+  zone map 1423
+
+  when onquest 9015
+
+  complete 9015 -- Theldren and the Amulet of Union (both unplaced in the data, so this complete carries no place)
+  turnin 9015 @26.11,11.3 -- The Challenge - Anthion
+
+step Sorrow Hill - parting words
+
+  zone map 1423
+
+  accept 8951 -- Anthion's Parting Words - Anthion (pre turned in above; Deliana in Ironforge takes all eight turnins, expedition below)
+  complete 8951 -- Wildheart Boots and Spaulders (all three dungeon bosses per set have no spawns in the data, so these completes carry no place); bring the pieces
+  accept 8952 -- Anthion's Parting Words
+  complete 8952 -- Beaststalker's Boots, Belt and Gloves (see 8951 note)
+  accept 8953 -- Anthion's Parting Words
+  complete 8953 -- Magister's Boots, Belt and Gloves (see 8951 note)
+  accept 8954 -- Anthion's Parting Words
+  complete 8954 -- Lightforge Boots, Belt and Bracers (see 8951 note)
+  accept 8955 -- Anthion's Parting Words
+  complete 8955 -- Devout Sandals, Belt and Bracers (see 8951 note)
+  accept 8956 -- Anthion's Parting Words
+  complete 8956 -- Shadowcraft Boots, Belt and Bracers (see 8951 note)
+  accept 8958 -- Anthion's Parting Words
+  complete 8958 -- Dreadmist Sandals, Belt and Wraps (see 8951 note)
+  accept 8959 -- Anthion's Parting Words
+  complete 8959 -- Boots, Belt and Bracers of Valor (see 8951 note)
+
+step North - Aurora's chain
+
+  zone map 1423
+
+  accept 5246 -- Fragments of the Past - Aurora Skycaller; needs the Darnassus pre (uncontracted) first; listed structural warning
+
+step Azshara - the writings (soft pre)
+
+  zone map 1447
+
+  when onquest 5246
+
+  complete 5246 @41.52,52.54 era -- Fragments of the Past: the Sacred Highborne Writings (Kalimdor expedition leg)
+  note Writings done; the turnin rides Aurora back home (below).
+
+step North - Aurora's return
+
+  zone map 1423
+
+  turnin 5246 @46.49,16.03 -- Fragments of the Past - Aurora
+  accept 5247 -- Fragments of the Past - Aurora (pre turned in above; bar, crystal and vial notes below)
+  complete 5247 -- Enchanted Thorium Bar and Crystal Restore (neither has any source in the data; the bag note below covers them)
+  note The bar and crystal are bag goods, not drops: bring them (Ashenvale R5 handling).
+
+step Feralas expedition - the vial
+
+  zone map 1444
+
+  complete 5247 @58.94,35.97 era -- Fragments of the Past: the Vial of Dire Water (Kalimdor expedition leg)
+
+step North - Aurora's farewell
+
+  zone map 1423
+
+  turnin 5247 @46.49,16.03 -- Fragments of the Past - Aurora back home
+  accept 5248 -- Tormented By the Past - Aurora (pre turned in above; Darnassus takes the turnin, expedition below)
+
+step Darnassus expedition - the Highborne
+
+  zone map 1452
+
+  turnin 5248 @56.14,44.36 -- Tormented By the Past - the Remorseful Highborne at the Temple of the Moon
+
+step Ironforge expedition - Deliana
+
+  zone map 1455
+
+  turnin 8951 @43.53,52.64 optional -- Anthion's Parting Words - Deliana (with the three dungeon pieces in the bags)
+  turnin 8952 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
+  turnin 8953 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
+  turnin 8954 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
+  turnin 8955 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
+  turnin 8956 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
+  turnin 8958 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
+  turnin 8959 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
+  note Anthion's chain exits to Ironforge 8960 (out of contract) - noted, not routed.
+
+step Booty Bay expedition - Rix
+
+  zone map 1434
+
+  goto 28.51,75.8 era -- Rix Xizzix
+  note Rix Xizzix sells Orthas' Favorite Gold Tooth for 84330 (above) - buy it here or bring one. Nothing else in this guide needs Booty Bay.
+
+step West road - Egan's last return
+
+  zone map 1423
+
+  turnin 5281 @11.36,26.6 -- The Restless Souls - Egan closes the book
+  accept 5282 -- The Restless Souls - Egan (pre turned in above)
+  complete 5282 -- the freed souls the data does not place (Restless Soul has no spawns anywhere in the build); Egan's field is the honest face of it
+  turnin 5282 @11.36,26.6 -- The Restless Souls - Egan
