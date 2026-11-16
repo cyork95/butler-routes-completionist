@@ -1,0 +1,187 @@
+# The Hinterlands - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 10 shippable rares and the fixed world
+# containers of the Hinterlands. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional: a rare that is
+# not up never holds the route. Spawn points and levels are the local
+# Forever game data (questie-forever); signature drops are items whose SOLE
+# dropper anywhere in the data is the rare. Ordinary goods and generic
+# multi-zone world drops get a note, not a goal. No tame lines ship (the
+# data has no tameability flag and the core guide never sends the player at
+# wolves, turtles, or the Razortalon family - see
+# docs/companion-unverified.md). Respawn timers are unconfirmed anywhere, so
+# none are stated. No rare in this guide is a giver, ender, or objective of
+# any core-contracted quest. Quest-owned containers (Cortello's Treasure,
+# Witherbark and Sharpbeak cages, Highvale set, Call to Arms, Jintha'Alor
+# altar, Slagtree's tools, bloodstone, feathers, eggs, supply crates) live
+# in the core guides that own those quests or are excluded with reason -
+# see docs/hinterlands-companions-inventory.md for the full inventory. This
+# guide never accepts or turns in.
+guide butler-routes-completionist/the-hinterlands-rares
+title The Hinterlands - Rares & Treasures
+levels 38-51
+zone The Hinterlands
+faction Alliance
+category Collectibles
+folder Companions
+keywords hinterlands, rares, treasures, companions
+coords live
+version 1
+
+step Razortalon - Agol'watha approach
+
+  zone map 1425
+
+  goto 37.06,45.33
+  kill 8210 optional
+  collect 283545 "Moonchaser's Headdress" optional
+  note Level 44 rare bird on the Agol'watha approach; its sole drop is the Moonchaser's Headdress. It also drops the OOX-09/HL Distress Beacon, which starts the core-contracted Find OOX-09/HL (485) - the core guide owns that quest, this step never accepts it.
+  note Also drops ordinary bird goods (meat, feathers, eggs) and generic world greens; respawn timer unconfirmed.
+
+step Old Cliff Jumper - the west edge
+
+  zone map 1425
+
+  goto 11.92,53.7
+  kill 8211 optional
+  note Level 42 rare wolf on the far west edge; its drops are wolf meat, pelts and paws (no sole drop in the data), so there is nothing signature to chase. It also spawns across the zone line in Hillsbrad (96.9,14.6 on map 1424).
+  note Respawn timer unconfirmed.
+
+step The Reak - the ooze flats
+
+  zone map 1425
+
+  goto 58.88,43.12
+  kill 8212 optional
+  collect 284043 "Dissolved Link Legguards" optional
+  note Level 49 rare ooze on the eastern flats; its sole drop is the Dissolved Link Legguards. Otherwise ordinary ooze goods.
+  note Respawn timer unconfirmed.
+
+step Ironback - the east shore
+
+  zone map 1425
+
+  goto 81.48,49.19
+  kill 8213 optional
+  note Level 51 rare turtle on the far east shore; its drops are turtle meat, scales and shell pieces (no sole drop in the data), so there is nothing signature to chase.
+  note Respawn timer unconfirmed.
+
+step Jalinde Summerdrake - Agol'watha
+
+  zone map 1425
+
+  goto 30.25,47.95
+  kill 8214 optional
+  collect 284050 "High Elf's Recurve" optional
+  note Level 49 rare at Agol'watha; its sole drop is the High Elf's Recurve. She is Alliance-aligned in the data; the step states that and takes no position beyond it. She also drops the OOX-09/HL Distress Beacon for core-contracted 485 - the core guide owns that quest.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Grimungous - the serpent grounds
+
+  zone map 1425
+
+  goto 70.19,55.38
+  kill 8215 optional
+  collect 284064 "Cliffbreaker's Pauldrons" optional
+  note Level 50 rare elite in the serpent grounds east of Jintha'Alor; its sole drop is the Cliffbreaker's Pauldrons. Otherwise ordinary stone and lockbox goods.
+  note Respawn timer unconfirmed.
+
+step Retherokk the Berserker - Shadra'Alor
+
+  zone map 1425
+
+  goto 50.54,64.13
+  kill 8216 optional
+  collect 284061 "Berserker's Wraps" optional
+  note Level 48 rare troll at Shadra'Alor; its sole drop is the Berserker's Wraps. It also drops the Troll Tribal Necklace for the core-contracted Troll Necklace Bounty (2880/2881) - the core guide owns those quests - and the Wildvine Potion recipe, whose hunt the recipes companion covers.
+  note Also drops ordinary troll goods and generic world greens; respawn timer unconfirmed.
+
+step Mith'rethis the Enchanter - Jintha'Alor rise
+
+  zone map 1425
+
+  goto 63.86,77.61
+  kill 8217 optional
+  collect 17050 "Chan's Imperial Robes" optional
+  note Level 52 rare elite above Jintha'Alor; come back at 52 or later. Its sole drop is Chan's Imperial Robes. It also drops the OOX-09/HL Distress Beacon (core 485), the Troll Tribal Necklace (core 2880/2881) and the Wildvine Potion recipe (recipes companion) - this step never accepts any quest.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Witherheart the Stalker - the west wilds
+
+  zone map 1425
+
+  goto 33.12,70.29
+  kill 8218 optional
+  collect 284046 "Witherheart's Stabber" optional
+  note Level 45 rare troll in the western wilds; its sole drop is Witherheart's Stabber. It also drops the Troll Tribal Necklace (core 2880/2881) and the Wildvine Potion recipe (recipes companion) - noted, never accepted here.
+  note Also drops ordinary troll goods and generic world greens; respawn timer unconfirmed.
+
+step Zul'arek Hatefowler - Agol'watha south
+
+  zone map 1425
+
+  goto 32.42,56.9
+  kill 8219 optional
+  collect 284063 "Witherbark Hatecleaver" optional
+  note Level 43 rare troll south of Agol'watha; its sole drop is the Witherbark Hatecleaver. It also drops the OOX-09/HL Distress Beacon (core 485), the Troll Tribal Necklace (core 2880/2881) and the Wildvine Potion recipe (recipes companion) - noted, never accepted here.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Fixed containers - the whole zone
+
+  zone map 1425
+
+  loop
+  goto 23.48,58.82
+  goto 25.36,66.86
+  goto 31.61,67.61
+  goto 32.1,58.75
+  goto 32.19,75.75
+  goto 37.23,72.06
+  goto 40.15,66.24
+  goto 41.24,59.38
+  goto 47.46,69.05
+  goto 49.26,68.63
+  goto 45.37,39.79
+  goto 50.26,53.3
+  goto 53.11,38.56
+  goto 57.39,63.42
+  goto 57.47,42.26
+  goto 58.34,67.14
+  goto 58.43,72.84
+  goto 60.87,68.11
+  goto 60.89,64.53
+  goto 62.07,65.12
+  goto 63.39,73.41
+  goto 63.9,83.58
+  goto 64.26,64.94
+  goto 65,70.99
+  goto 66.49,44.59
+  goto 67.53,79.92
+  goto 67.64,66.71
+  goto 67.67,77.32
+  goto 68.25,73.36
+  goto 71.1,48.82
+  goto 10.69,49.53
+  goto 13.44,43.4
+  goto 13.45,54.02
+  goto 13.99,41.97
+  goto 14.22,44.18
+  goto 14.42,42.25
+  goto 16.33,47.77
+  goto 23.05,58.86
+  goto 26.96,48.82
+  goto 31.92,58.18
+  goto 32.57,43.01
+  goto 33.19,47.99
+  goto 45.54,38.72
+  goto 50.21,52.8
+  goto 53.28,39.43
+  goto 57.26,42.6
+  goto 67.95,66.43
+  goto 68.64,71.77
+  goto 73.36,52.56
+  goto 77.53,84
+  goto 78.77,67.53
+  interact 4149 optional
+  interact 153451 optional
+  interact 153470 optional
+  note One sweep of the zone's fixed world containers (51 points, said plainly): Solid Chests west and center, Solid Chests east and south, Food Crates scattered across the zone. All ordinary goods; the chests may also hold generic world-drop recipes, which are not zone content. No contents are listed in the data for the Food Crates. No quest takes any of them.
