@@ -12066,6 +12066,127 @@
           "name": "Return to Jereman"
         }
       ]
+    },
+    {
+      "id": "shendralas",
+      "name": "Shen'dralas",
+      "order": 45,
+      "levelBand": "30-49",
+      "summary": "Alliance route: Nerlokh camp west, Orgrul/Hagiak north, Mordent pylons and the Magister/Mithera/Woodwyrd/Kog'thug chains in the elven halls, item-starts sequenced at their sources, soft-pre minis for Desolace pres, Uthek expedition south.",
+      "quests": [
+        {
+          "id": 92914,
+          "name": "Strange Pylons"
+        },
+        {
+          "id": 96010,
+          "name": "Fragments of the Pylons"
+        },
+        {
+          "id": 96018,
+          "name": "Powering the Pylons"
+        },
+        {
+          "id": 93016,
+          "name": "A Brief History Lesson"
+        },
+        {
+          "id": 93394,
+          "name": "Meeting the Magister"
+        },
+        {
+          "id": 93341,
+          "name": "Forlorn Gardens"
+        },
+        {
+          "id": 93362,
+          "name": "What They've Done to My Peonies"
+        },
+        {
+          "id": 93594,
+          "name": "Word of the Woods"
+        },
+        {
+          "id": 93404,
+          "name": "Rot and Regret"
+        },
+        {
+          "id": 93601,
+          "name": "Passing the Blame"
+        },
+        {
+          "id": 93604,
+          "name": "Agamaggan's Blood"
+        },
+        {
+          "id": 93606,
+          "name": "Not on Squealing Terms"
+        },
+        {
+          "id": 93450,
+          "name": "Phantasmal Problems"
+        },
+        {
+          "id": 93546,
+          "name": "Spectral Iron Ore"
+        },
+        {
+          "id": 96060,
+          "name": "Tempered Expectations"
+        },
+        {
+          "id": 99257,
+          "name": "A Heart of Crystal"
+        },
+        {
+          "id": 99258,
+          "name": "Mana Mania"
+        },
+        {
+          "id": 93035,
+          "name": "Ravaging Ravagers"
+        },
+        {
+          "id": 93037,
+          "name": "Outing Outcasts"
+        },
+        {
+          "id": 93041,
+          "name": "Facing the Truth"
+        },
+        {
+          "id": 93125,
+          "name": "Going Home"
+        },
+        {
+          "id": 93072,
+          "name": "Long-Term Solutions"
+        },
+        {
+          "id": 93129,
+          "name": "Threat of Starvation"
+        },
+        {
+          "id": 93188,
+          "name": "Return to Orgrul"
+        },
+        {
+          "id": 93568,
+          "name": "Partially Digested Collar"
+        },
+        {
+          "id": 93574,
+          "name": "Corpsefeeder's Carapace"
+        },
+        {
+          "id": 93609,
+          "name": "Forlorn Necklace"
+        },
+        {
+          "id": 93644,
+          "name": "Tattered Journal"
+        }
+      ]
     }
   ]
 }
