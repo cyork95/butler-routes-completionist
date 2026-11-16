@@ -493,7 +493,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [x] Lint/playtest clean (0 errors, 59 warnings in 4 argued classes; R1 + R5 residue, 0 stuck)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (7 rares, 1 chest loop; 23 recipes: 13 vendor + 10 zone-exclusive drops)
 
 ### Silithus — contested (Kalimdor)
 
