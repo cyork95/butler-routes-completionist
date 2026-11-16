@@ -567,3 +567,16 @@ as above: game-data citation or a named source.
 
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so none of the 17 vendor recipes is marked limited.
 - No respawn data for any shipped rare exists in the local build. Every rares step says the timer is unconfirmed.
+
+## Swamp of Sorrows tame lines (pack 0.68.0)
+
+- None of the 5 shipped rares (Lost One Cook, Lost One Chieftain, Molt Thorn, Fingat, Gilmorian) carries a tame line: NPC records have no family flag, so beast status is unassessable from data, and the core guide never mentions any of the 9 rare-flagged NPCs, so there is no tame corroboration either. Revisit if a family flag or tame evidence appears.
+
+## Swamp of Sorrows quest-reward recipes (pack 0.68.0)
+
+- Quest records in the local build carry no reward data, so no quest-reward recipe in the Swamp can be confirmed from the toolchain. The 7 shipped recipes are 2 vendor buys plus 5 mob drops. If a Swamp quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
+
+## Swamp of Sorrows stock class and respawn timers (pack 0.68.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so neither vendor recipe is marked limited.
+- No respawn data for any of the 5 shipped rares or the 5 drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
