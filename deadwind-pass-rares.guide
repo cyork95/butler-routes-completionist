@@ -1,0 +1,42 @@
+# Deadwind Pass - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# The data holds no rare-flagged spawns in Deadwind Pass - all 34 NPCs on the
+# key were scanned and none carries the rare flag - so this guide is treasures
+# only, said plainly: three fixed unique objects, each a single confirmed
+# point, no loops. Run it in its own Polestar tab at the end of the core route
+# or standalone. EVERY goal is optional. Spawn points are the local Forever
+# game data (questie-forever). No tame lines ship (no rares, no beast-drop
+# evidence, and the core quest kills nothing - see
+# docs/deadwind-pass-companions-inventory.md for the full inventory, including
+# why quest 9205 stays out). Respawn timers are unconfirmed anywhere, so none
+# are stated. This guide never accepts or turns in.
+guide butler-routes-completionist/deadwind-pass-rares
+title Deadwind Pass - Rares & Treasures
+levels 60-60
+zone Deadwind Pass
+faction Alliance
+category Collectibles
+folder Companions
+keywords deadwind pass, rares, treasures, companions
+coords live
+version 1
+
+step Charred Bone Fragment - the crypts approach
+
+  zone map 1430
+
+  goto 45,78.96
+  note A fixed bone fragment on the approach to the crypts. Contents are unconfirmed in the data; respawn timer unconfirmed.
+
+step Advanced Swordplay - the crypts approach
+
+  zone map 1430
+
+  goto 43,74.4
+  note A fixed book on the approach to the crypts. Contents are unconfirmed in the data; respawn timer unconfirmed.
+
+step Raw Plated Armorfish recipe object - the Scenic overlook
+
+  zone map 1430
+
+  goto 52.4,34.5
+  note A fixed recipe object above the northern road. The recipe itself is routed as a Cooking source in the Deadwind Pass recipes companion; nothing else here to collect. Respawn timer unconfirmed.
