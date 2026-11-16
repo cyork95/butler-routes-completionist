@@ -318,7 +318,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1 expedition residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [x] Companions - none in data (0 rares, 1 seasonal event barrel, 8 vendor recipes logged in census; small recipes round later, not this one)
+- [x] Companions - recipes shipped (8 vendor buys in `moonglade-recipes.guide`); rares/treasures none in data (0 rares, 1 seasonal event barrel)
 
 ### Dustwallow Marsh — contested (Kalimdor)
 
