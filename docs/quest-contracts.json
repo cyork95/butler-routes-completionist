@@ -11565,6 +11565,507 @@
           "name": "Scouring the Desert"
         }
       ]
+    },
+    {
+      "id": "mount-hyjal",
+      "name": "Mount Hyjal",
+      "order": 44,
+      "levelBand": "54-60",
+      "summary": "Alliance route: western post chains, furbolg/barkskin west, elder grove, Ketharas summit chain, Tiala/Thisalee northeast, remembrance veterans, demon front, soft-pre minis for Winterspring/Moonglade pres, grouped expeditions (TN/Redridge/Stormwind/Winterspring), note-only sourceless objectives",
+      "quests": [
+        {
+          "id": 90487,
+          "name": "Ancient Allies"
+        },
+        {
+          "id": 90647,
+          "name": "The Staff of the Mountain"
+        },
+        {
+          "id": 90702,
+          "name": "Disturbed Grave"
+        },
+        {
+          "id": 90750,
+          "name": "More Work?"
+        },
+        {
+          "id": 90854,
+          "name": "Leather for Inclement Weather"
+        },
+        {
+          "id": 90865,
+          "name": "Eyes of the Watchers"
+        },
+        {
+          "id": 91688,
+          "name": "To the Summit of Eternity"
+        },
+        {
+          "id": 91696,
+          "name": "Open Season"
+        },
+        {
+          "id": 91697,
+          "name": "Meet the Elders"
+        },
+        {
+          "id": 91698,
+          "name": "Barkskin Breakout"
+        },
+        {
+          "id": 91754,
+          "name": "Rub Some Dirt In It"
+        },
+        {
+          "id": 91755,
+          "name": "Leaves to Ligatures"
+        },
+        {
+          "id": 91770,
+          "name": "Bark Bite"
+        },
+        {
+          "id": 91881,
+          "name": "The Western Post"
+        },
+        {
+          "id": 91883,
+          "name": "Spear of the Skylord"
+        },
+        {
+          "id": 91923,
+          "name": "Celastrus the Bitter"
+        },
+        {
+          "id": 92008,
+          "name": "Premiere Parts"
+        },
+        {
+          "id": 92011,
+          "name": "Rubble Rummage"
+        },
+        {
+          "id": 92014,
+          "name": "Fox Hole"
+        },
+        {
+          "id": 92015,
+          "name": "Area Denial Skunks"
+        },
+        {
+          "id": 92016,
+          "name": "Rootwork"
+        },
+        {
+          "id": 92017,
+          "name": "Cleansing Winds"
+        },
+        {
+          "id": 92064,
+          "name": "Tree Free"
+        },
+        {
+          "id": 92100,
+          "name": "Anywhere But Here"
+        },
+        {
+          "id": 92101,
+          "name": "Lifted by Legacy"
+        },
+        {
+          "id": 92111,
+          "name": "Of Friend and Fur"
+        },
+        {
+          "id": 92147,
+          "name": "Highfeather Helper"
+        },
+        {
+          "id": 92169,
+          "name": "Paying Back the Pact"
+        },
+        {
+          "id": 92171,
+          "name": "Taking to New Heights"
+        },
+        {
+          "id": 92317,
+          "name": "Stolen Life"
+        },
+        {
+          "id": 92328,
+          "name": "Siegecraft"
+        },
+        {
+          "id": 92329,
+          "name": "Drum Up Trouble"
+        },
+        {
+          "id": 92335,
+          "name": "Ashes of the Legion Ascent"
+        },
+        {
+          "id": 92433,
+          "name": "Now We're Cooking"
+        },
+        {
+          "id": 92449,
+          "name": "Blight No More"
+        },
+        {
+          "id": 92500,
+          "name": "A Bit of the Sky"
+        },
+        {
+          "id": 92533,
+          "name": "Twisted Tools"
+        },
+        {
+          "id": 92591,
+          "name": "Final Death"
+        },
+        {
+          "id": 92593,
+          "name": "Avalanche of Corruption"
+        },
+        {
+          "id": 92594,
+          "name": "Kindling, Kinda"
+        },
+        {
+          "id": 92612,
+          "name": "Aid from Moonglade"
+        },
+        {
+          "id": 92702,
+          "name": "Branch Out"
+        },
+        {
+          "id": 92833,
+          "name": "Ve'han's Fall"
+        },
+        {
+          "id": 92959,
+          "name": "The Dying Ancients"
+        },
+        {
+          "id": 92960,
+          "name": "Siphoned Ephemeral Essence"
+        },
+        {
+          "id": 93127,
+          "name": "Summit Sentries"
+        },
+        {
+          "id": 93197,
+          "name": "Mending Communications"
+        },
+        {
+          "id": 93383,
+          "name": "Contents Under Pressure"
+        },
+        {
+          "id": 93407,
+          "name": "A Thorn in the Paw"
+        },
+        {
+          "id": 93422,
+          "name": "Blackthorne Blackout"
+        },
+        {
+          "id": 93444,
+          "name": "Bait the Beast"
+        },
+        {
+          "id": 93510,
+          "name": "Wake Memories"
+        },
+        {
+          "id": 93521,
+          "name": "Challenger of the Gods"
+        },
+        {
+          "id": 93547,
+          "name": "A Thorny Solution"
+        },
+        {
+          "id": 93567,
+          "name": "Ends Meet"
+        },
+        {
+          "id": 93584,
+          "name": "Cult Closure"
+        },
+        {
+          "id": 93615,
+          "name": "Kits and Cats"
+        },
+        {
+          "id": 93617,
+          "name": "Prey and Predator"
+        },
+        {
+          "id": 93747,
+          "name": "Violence Into Verdure"
+        },
+        {
+          "id": 93759,
+          "name": "The Bounty of Nature"
+        },
+        {
+          "id": 93825,
+          "name": "Barkbound Blessings"
+        },
+        {
+          "id": 93826,
+          "name": "Deal Dread to Deadwood"
+        },
+        {
+          "id": 93827,
+          "name": "Windswept Wards"
+        },
+        {
+          "id": 93831,
+          "name": "Sweetpaw Jam"
+        },
+        {
+          "id": 93848,
+          "name": "Work Well Done"
+        },
+        {
+          "id": 93952,
+          "name": "Balance Through Strength"
+        },
+        {
+          "id": 94479,
+          "name": "One Person's Trash"
+        },
+        {
+          "id": 94504,
+          "name": "Barkskin Beginnings"
+        },
+        {
+          "id": 94832,
+          "name": "Belle's Ring"
+        },
+        {
+          "id": 95027,
+          "name": "Feathers in Flight"
+        },
+        {
+          "id": 95218,
+          "name": "More of the Same"
+        },
+        {
+          "id": 95316,
+          "name": "The Experimental Method"
+        },
+        {
+          "id": 95317,
+          "name": "Notation, Notation, Notation"
+        },
+        {
+          "id": 95318,
+          "name": "Taste of Ash"
+        },
+        {
+          "id": 95319,
+          "name": "Crystalline Collection"
+        },
+        {
+          "id": 95320,
+          "name": "A Curious Question"
+        },
+        {
+          "id": 95378,
+          "name": "The Hydra's Head"
+        },
+        {
+          "id": 95379,
+          "name": "A Revenge So Sweet"
+        },
+        {
+          "id": 95380,
+          "name": "A Prolific Source"
+        },
+        {
+          "id": 95568,
+          "name": "Seeds for a New Season"
+        },
+        {
+          "id": 95569,
+          "name": "Hope for Hatchlings"
+        },
+        {
+          "id": 95611,
+          "name": "Rites of Respect"
+        },
+        {
+          "id": 95766,
+          "name": "Fine Feathered Friend"
+        },
+        {
+          "id": 95769,
+          "name": "Threading a Solution"
+        },
+        {
+          "id": 95793,
+          "name": "Stemming the Demon Tide"
+        },
+        {
+          "id": 96003,
+          "name": "Drawing Down the Malevolent"
+        },
+        {
+          "id": 96025,
+          "name": "As the Crow Flies"
+        },
+        {
+          "id": 96077,
+          "name": "Belle's Ring"
+        },
+        {
+          "id": 96131,
+          "name": "An Oldstone But An Old Friend"
+        },
+        {
+          "id": 96145,
+          "name": "Past Wing and Claw"
+        },
+        {
+          "id": 96252,
+          "name": "Tarnished Treasures"
+        },
+        {
+          "id": 96255,
+          "name": "Amalgamated Marrow"
+        },
+        {
+          "id": 96262,
+          "name": "Prickly Pinecones"
+        },
+        {
+          "id": 96296,
+          "name": "Fetid Corruption"
+        },
+        {
+          "id": 96301,
+          "name": "Power Wash"
+        },
+        {
+          "id": 96302,
+          "name": "Arch Absolution"
+        },
+        {
+          "id": 96303,
+          "name": "Memory Mist"
+        },
+        {
+          "id": 96321,
+          "name": "The Dying God"
+        },
+        {
+          "id": 96322,
+          "name": "A Revenge Now Bitter"
+        },
+        {
+          "id": 96435,
+          "name": "A Fitting End"
+        },
+        {
+          "id": 96494,
+          "name": "Gathering Storm"
+        },
+        {
+          "id": 96529,
+          "name": "A Shaw Deal"
+        },
+        {
+          "id": 96550,
+          "name": "Battle Recall"
+        },
+        {
+          "id": 96558,
+          "name": "Soldier's Solace"
+        },
+        {
+          "id": 96559,
+          "name": "Supply Drop"
+        },
+        {
+          "id": 96674,
+          "name": "Ewe Wandered Off"
+        },
+        {
+          "id": 96796,
+          "name": "Woods Workshop"
+        },
+        {
+          "id": 96833,
+          "name": "Venom Maws"
+        },
+        {
+          "id": 96930,
+          "name": "The Capricious Corvid"
+        },
+        {
+          "id": 96931,
+          "name": "Heading Up the Mountain"
+        },
+        {
+          "id": 96939,
+          "name": "The Balance of Life and Death"
+        },
+        {
+          "id": 96957,
+          "name": "Bone Sweet Bone"
+        },
+        {
+          "id": 96959,
+          "name": "Blademaster's Bonfires"
+        },
+        {
+          "id": 96964,
+          "name": "A Clever Creature"
+        },
+        {
+          "id": 96971,
+          "name": "To Outfox a Demon"
+        },
+        {
+          "id": 96978,
+          "name": "Violent Venison"
+        },
+        {
+          "id": 96979,
+          "name": "Sacred Refreshment"
+        },
+        {
+          "id": 96983,
+          "name": "Yashiro's Windwalk"
+        },
+        {
+          "id": 96991,
+          "name": "Trail Assist"
+        },
+        {
+          "id": 96992,
+          "name": "Resupply"
+        },
+        {
+          "id": 97009,
+          "name": "Maerion's Misery"
+        },
+        {
+          "id": 97010,
+          "name": "Blind Vengeance"
+        },
+        {
+          "id": 99670,
+          "name": "Return to Jereman"
+        }
+      ]
     }
   ]
 }
