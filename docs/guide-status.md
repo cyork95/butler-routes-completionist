@@ -461,9 +461,9 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 
 ### Eastern Plaguelands — contested (Eastern Kingdoms)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (76 quests, band 50-60)
+- [x] Core guide (76 accepts / 76 turn-ins)
+- [x] Lint/playtest clean (0 errors; XP-noise + structural + door-face warnings argued)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
