@@ -10576,6 +10576,319 @@
           "name": "The Restless Souls"
         }
       ]
+    },
+    {
+      "id": "eastern-plaguelands",
+      "name": "Eastern Plaguelands",
+      "order": 39,
+      "levelBand": "50-60",
+      "summary": "Alliance route: Chillwind cauldron chain with tower legs, Tirion Fordring redemption chain, Chromie Andorhal chain feeding WPL, Scholomance key/fragment chain with Tanaris turn-in, Ras Frostwhisper chain feeding WPL Leonid, Argent commission, paladin line, plague-upon-thee below-band chain",
+      "quests": [
+        {
+          "id": 211,
+          "name": "Alas, Andorhal"
+        },
+        {
+          "id": 4971,
+          "name": "A Matter of Time"
+        },
+        {
+          "id": 4972,
+          "name": "Counting Out Time"
+        },
+        {
+          "id": 4973,
+          "name": "Counting Out Time"
+        },
+        {
+          "id": 4984,
+          "name": "The Wildlife Suffers Too"
+        },
+        {
+          "id": 4985,
+          "name": "The Wildlife Suffers Too"
+        },
+        {
+          "id": 4986,
+          "name": "Glyphed Oaken Branch"
+        },
+        {
+          "id": 5021,
+          "name": "Better Late Than Never"
+        },
+        {
+          "id": 5022,
+          "name": "Better Late Than Never"
+        },
+        {
+          "id": 5051,
+          "name": "Two Halves Become One"
+        },
+        {
+          "id": 5058,
+          "name": "Mrs. Dalson's Diary"
+        },
+        {
+          "id": 5059,
+          "name": "Locked Away"
+        },
+        {
+          "id": 5060,
+          "name": "Locked Away"
+        },
+        {
+          "id": 5092,
+          "name": "Clear the Way"
+        },
+        {
+          "id": 5097,
+          "name": "All Along the Watchtowers"
+        },
+        {
+          "id": 5142,
+          "name": "Little Pamela"
+        },
+        {
+          "id": 5153,
+          "name": "A Strange Historian"
+        },
+        {
+          "id": 5154,
+          "name": "The Annals of Darrowshire"
+        },
+        {
+          "id": 5164,
+          "name": "Catalogue of the Wayward"
+        },
+        {
+          "id": 5166,
+          "name": "Breastplate of the Chromatic Flight"
+        },
+        {
+          "id": 5167,
+          "name": "Legplates of the Chromatic Defier"
+        },
+        {
+          "id": 5210,
+          "name": "Brother Carlin"
+        },
+        {
+          "id": 5215,
+          "name": "The Scourge Cauldrons"
+        },
+        {
+          "id": 5216,
+          "name": "Target: Felstone Field"
+        },
+        {
+          "id": 5217,
+          "name": "Return to Chillwind Camp"
+        },
+        {
+          "id": 5218,
+          "name": "Felstone Field Cauldron"
+        },
+        {
+          "id": 5219,
+          "name": "Target: Dalson's Tears"
+        },
+        {
+          "id": 5220,
+          "name": "Return to Chillwind Camp"
+        },
+        {
+          "id": 5221,
+          "name": "Dalson's Tears Cauldron"
+        },
+        {
+          "id": 5222,
+          "name": "Target: Writhing Haunt"
+        },
+        {
+          "id": 5223,
+          "name": "Return to Chillwind Camp"
+        },
+        {
+          "id": 5224,
+          "name": "Writhing Haunt Cauldron"
+        },
+        {
+          "id": 5225,
+          "name": "Target: Gahrron's Withering"
+        },
+        {
+          "id": 5226,
+          "name": "Return to Chillwind Camp"
+        },
+        {
+          "id": 5227,
+          "name": "Gahrron's Withering Cauldron"
+        },
+        {
+          "id": 5237,
+          "name": "Mission Accomplished!"
+        },
+        {
+          "id": 5343,
+          "name": "Barov Family Fortune"
+        },
+        {
+          "id": 5344,
+          "name": "The Last Barov"
+        },
+        {
+          "id": 5382,
+          "name": "Doctor Theolen Krastinov, the Butcher"
+        },
+        {
+          "id": 5384,
+          "name": "Kirtonos the Herald"
+        },
+        {
+          "id": 5401,
+          "name": "Argent Dawn Commission"
+        },
+        {
+          "id": 5461,
+          "name": "The Human, Ras Frostwhisper"
+        },
+        {
+          "id": 5462,
+          "name": "The Dying, Ras Frostwhisper"
+        },
+        {
+          "id": 5466,
+          "name": "The Lich, Ras Frostwhisper"
+        },
+        {
+          "id": 5505,
+          "name": "The Key to Scholomance"
+        },
+        {
+          "id": 5507,
+          "name": "Mantles of the Dawn"
+        },
+        {
+          "id": 5515,
+          "name": "Krastinov's Bag of Horrors"
+        },
+        {
+          "id": 5521,
+          "name": "Chromatic Mantle of the Dawn"
+        },
+        {
+          "id": 5533,
+          "name": "Scholomance"
+        },
+        {
+          "id": 5537,
+          "name": "Skeletal Fragments"
+        },
+        {
+          "id": 5538,
+          "name": "Mold Rhymes With..."
+        },
+        {
+          "id": 5542,
+          "name": "Demon Dogs"
+        },
+        {
+          "id": 5543,
+          "name": "Blood Tinged Skies"
+        },
+        {
+          "id": 5544,
+          "name": "Carrion Grubbage"
+        },
+        {
+          "id": 5721,
+          "name": "The Battle of Darrowshire"
+        },
+        {
+          "id": 5742,
+          "name": "Redemption"
+        },
+        {
+          "id": 5781,
+          "name": "Of Forgotten Memories"
+        },
+        {
+          "id": 5803,
+          "name": "Araj's Scarab"
+        },
+        {
+          "id": 5845,
+          "name": "Of Lost Honor"
+        },
+        {
+          "id": 5846,
+          "name": "Of Love and Family"
+        },
+        {
+          "id": 5848,
+          "name": "Of Love and Family"
+        },
+        {
+          "id": 5861,
+          "name": "Find Myranda"
+        },
+        {
+          "id": 5862,
+          "name": "Scarlet Subterfuge"
+        },
+        {
+          "id": 5903,
+          "name": "A Plague Upon Thee"
+        },
+        {
+          "id": 5904,
+          "name": "A Plague Upon Thee"
+        },
+        {
+          "id": 5944,
+          "name": "In Dreams"
+        },
+        {
+          "id": 6004,
+          "name": "Unfinished Business"
+        },
+        {
+          "id": 6023,
+          "name": "Unfinished Business"
+        },
+        {
+          "id": 6025,
+          "name": "Unfinished Business"
+        },
+        {
+          "id": 6185,
+          "name": "The Eastern Plagues"
+        },
+        {
+          "id": 6186,
+          "name": "The Blightcaller Cometh"
+        },
+        {
+          "id": 6389,
+          "name": "A Plague Upon Thee"
+        },
+        {
+          "id": 8414,
+          "name": "Dispelling Evil"
+        },
+        {
+          "id": 8416,
+          "name": "Inert Scourgestones"
+        },
+        {
+          "id": 8418,
+          "name": "Forging the Mightstone"
+        },
+        {
+          "id": 92842,
+          "name": "A Cousin Abroad"
+        }
+      ]
     }
   ]
 }
