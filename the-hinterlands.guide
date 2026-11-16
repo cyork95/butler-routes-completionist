@@ -1,0 +1,148 @@
+# Butler Routes - The Hinterlands completionist (pack butler-routes-completionist, v1).
+# Every Hinterlands Alliance quest in the local census (14 quests,
+# docs/the-hinterlands-census.md) appears exactly once as an accept and once
+# as a turnin. No race header: nothing contracted is race-locked, and there
+# are no class or profession quests in the set, so no per-line gates either.
+# Chain order is strictly turn-in-before-accept; the one out-of-contract pre
+# (1451 for 1452) is a note plus a listed structural warning. The item-started
+# beacon never wedges (note at Skulk Rock, sourcing optional); the three
+# sourceless writs and the three crafted turn-ins take the Ashenvale R5
+# handling (optional + bag note). Jammal'an, the satchel, and the gryphon eggs
+# have no placed spawns in the data, so those three completes carry no place -
+# honest notes, never invented points. Coordinates use the era frame the data
+# carries, set with zone map lines.
+guide butler-routes-completionist/the-hinterlands
+title The Hinterlands - Completionist
+levels 38-51
+zone The Hinterlands
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Aerie Peak - landfall
+
+  note Aerie Peak is the hub: Gryphon Master Talonaxe holds the flight point, Innkeeper Thulfram the inn. Set hearth at Thulfram when you pass him.
+  goto 9.75,44.47 -- Gryphon Master Talonaxe
+
+step Aerie Peak - bounties and errands
+
+  accept 2877 -- Skulk Rock Clean-up - Fraggar Thundermantle; sludges and oozes at Skulk Rock, east (below)
+  accept 2880 -- Troll Necklace Bounty - Fraggar Thundermantle; tribal necklaces off the Witherbark west and the Vilebranch east (below)
+  note The twin 2881 accepts after 2880 turns in (below) - same bounty, second round.
+  accept 86615 -- Treaty Obligations - Tove Redstone; her satchel in Wildhammer Keep (below)
+  accept 86616 -- Repurposed Totems - Farseer Maret Firetend; totems off the Vilebranch Soothsayers north-center (below)
+  accept 86620 -- Fledgling Rescue - Gryphon Master Talonaxe; lost gryphon eggs (below)
+
+step Wildhammer Keep - satchel and eggs
+
+  complete 86615 -- Diplomatic Satchel (Wildhammer Keep; the satchel object is not in the data, so this complete carries no place)
+  note Tove Redstone's satchel should be in Wildhammer Keep, but no satchel object exists in the local data - check the keep halls by hand.
+  complete 86620 -- Lost Gryphon Eggs (no egg object exists in the local data, so this complete carries no place)
+  note The lost gryphon eggs have no placed spawns in the data - check around the Aerie Peak razorbeak grounds by hand.
+  turnin 86615 -- Treaty Obligations - the satchel to Tove Redstone
+  turnin 86620 -- Fledgling Rescue - the eggs to Gryphon Master Talonaxe
+
+step Rhapsody's camp - the kocktail
+
+  note Rhapsody's chain starts outside this guide: pick up 1450/1451 from Falstad Wildhammer and Gryphon Master Talonaxe first (not routed in any guide - above Hillsbrad's band). This guide continues from 1452.
+  accept 1452 -- Rhapsody's Kalimdor Kocktail - Rhapsody Shindigger; rocs in Tanaris, bears and apes in Feralas (expedition below)
+  accept 94290 optional -- Craftsman's Writ: Mechanical Repair Kit - sourceless writ in the bags; the kit is crafted (bag note below)
+  note Writ 94290 starts from a writ item with no source in the data - check the bags; its turnin rides the Rhapsody closing step below.
+
+step Witherbark - necklaces, first round
+
+  goto 21.75,57.54 -- Witherbark Scalper ground (west)
+  goto 23.69,56.62 -- Witherbark Scalper ground (west)
+  kill 2649 optional -- Witherbark Scalper for Troll Tribal Necklaces
+  complete 2880 @21.75,57.54 -- Troll Tribal Necklaces (Witherbark, west)
+  turnin 2880 -- Troll Necklace Bounty - the necklaces to Fraggar Thundermantle (Aerie Peak)
+  accept 2881 -- Troll Necklace Bounty - Fraggar Thundermantle; same bounty, second round
+  complete 2881 @23.69,56.62 -- Troll Tribal Necklaces, second round (Witherbark, west)
+  turnin 2881 -- Troll Necklace Bounty - the necklaces to Fraggar Thundermantle
+
+step Jintha'Alor - the exile
+
+  accept 1446 -- Jammal'an the Prophet - Atal'ai Exile; the Head of Jammal'an (below)
+  complete 1446 -- Head of Jammal'an (Jammal'an has no spawn point in the data anywhere, so this complete carries no place - honest note; the fight belongs to Jintha'Alor)
+  note Jammal'an the Prophet carries the head, but the data holds no spawn point for him anywhere - check the Jintha'Alor altar by hand.
+  turnin 1446 -- Jammal'an the Prophet - the head to the Atal'ai Exile
+
+step Skulk Rock - sludges and the robot
+
+  goto 43.8,43.8 -- Green Sludge ground (Skulk Rock)
+  goto 44.66,42.92 -- Jade Ooze ground (Skulk Rock)
+  kill 2655 optional -- Green Sludge
+  kill 2656 optional -- Jade Ooze
+  complete 2877 @43.8,43.8 -- Green Sludges and Jade Oozes (Skulk Rock)
+  goto 49.35,37.66 -- Homing Robot OOX-09/HL
+  note The OOX-09/HL Distress Beacon drops from Hinterlands trolls, wolves, owls, and snapjaws - kill anything on the way; the sourcing below is one convenient cluster.
+  kill 2659 optional -- Razorbeak Skylord for the OOX-09/HL Distress Beacon
+  accept 485 -- Find OOX-09/HL! - the beacon; the homing robot waits here
+  turnin 485 -- Find OOX-09/HL! - the beacon to the Homing Robot OOX-09/HL
+  accept 836 -- Rescue OOX-09/HL! - the homing robot; escort east, then Booty Bay (below)
+
+step North - vilebranch totems
+
+  goto 44.57,65.48 -- Vilebranch Soothsayer ground (north-center)
+  goto 47.56,66.49 -- Vilebranch Soothsayer ground (north-center)
+  kill 4467 optional -- Vilebranch Soothsayer for Vilebranch Totems
+  complete 86616 @44.57,65.48 -- Vilebranch Totems (north-center)
+
+step East - escort and writs
+
+  complete 836 @79.14,61.36 -- Escort OOX-09/HL to the shoreline beyond Overlook Cliff
+  note The robot walks itself; meet it at the shoreline, then report to Oglethorpe in Booty Bay (below).
+  accept 94266 optional -- Craftsman's Writ: Elixir of Agility - sourceless writ in the bags; the elixir is crafted (bag note below)
+  accept 94302 optional -- Craftsman's Writ: Turtle Scale Breastplate - sourceless writ in the bags; the breastplate is crafted (bag note below)
+  note Writs 94266 and 94302 start from writ items with no source in the data - check the bags. Their crafted goods ride the bags too (Ashenvale R5 handling).
+  goto 80.13,55.39 -- Juo
+  turnin 94266 optional -- Craftsman's Writ: Elixir of Agility - the goods to Juo
+  turnin 94302 optional -- Craftsman's Writ: Turtle Scale Breastplate - the goods to Juo
+
+step Booty Bay expedition - OOX delivery
+
+  zone map 1434
+
+  turnin 836 -- Rescue OOX-09/HL! - the robot's word to Oglethorpe Obnoticus
+  note The follow-up 3721 accepts here in Booty Bay - the Stranglethorn guide owns it, not this one.
+
+step Aerie Peak return - loose ends
+
+  zone map 1425
+
+  turnin 2877 -- Skulk Rock Clean-up - the sludge word to Fraggar Thundermantle (Aerie Peak)
+  turnin 86616 -- Repurposed Totems - the totems to Farseer Maret Firetend (Aerie Peak)
+
+step Kalimdor expedition - Rhapsody's ingredients
+
+  zone map 1446
+
+  goto 36.71,34.84 -- Roc ground (Tanaris)
+  goto 40.37,35.58 -- Roc ground (Tanaris)
+  kill 5429 optional -- Fire Roc for Roc Gizzards
+  complete 1452 @36.71,34.84 -- Roc Gizzards (Tanaris)
+
+  zone map 1444
+
+  goto 54.73,52.75 -- Ironfur Bear ground (Feralas)
+  goto 57.09,60.06 -- Ironfur Bear ground (Feralas)
+  kill 5268 optional -- Ironfur Bear for Ironfur Livers
+  complete 1452 @54.73,52.75 -- Ironfur Livers (Feralas)
+  goto 56.3,54.93 -- Groddoc Ape ground (Feralas)
+  goto 56.51,60.11 -- Groddoc Ape ground (Feralas)
+  kill 5260 optional -- Groddoc Ape for Groddoc Livers
+  complete 1452 @56.3,54.93 -- Groddoc Livers (Feralas)
+
+step Rhapsody closing - kocktail, tale, and Stormwind
+
+  zone map 1425
+
+  turnin 1452 -- Rhapsody's Kalimdor Kocktail - the ingredients to Rhapsody Shindigger
+  turnin 94290 optional -- Craftsman's Writ: Mechanical Repair Kit - the kit to Rhapsody Shindigger
+  accept 1469 -- Rhapsody's Tale - Rhapsody Shindigger; the tablet fragment to Brohann Caskbelly in Stormwind (below)
+
+  zone map 1453
+
+  turnin 1469 -- Rhapsody's Tale - the fragment to Brohann Caskbelly
