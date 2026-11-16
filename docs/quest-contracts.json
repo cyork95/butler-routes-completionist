@@ -10153,6 +10153,91 @@
           "name": "Parts and Pieces"
         }
       ]
+    },
+    {
+      "id": "swamp-of-sorrows",
+      "name": "Swamp of Sorrows",
+      "order": 36,
+      "levelBand": "30-38",
+      "summary": "Set 6 Alliance route: the Nethergarde caravan chain (Biggs), the Harborage draenethyst line (Magtoor), Galen, the Fallow Sanctuary legs, Cortello's Riddle, the entomology specimens, four Craftsman's Writs, and the Blasted Lands / Riverglades / Desolace / Dustwallow expedition turn-ins.",
+      "quests": [
+        {
+          "id": 624,
+          "name": "Cortello's Riddle"
+        },
+        {
+          "id": 625,
+          "name": "Cortello's Riddle"
+        },
+        {
+          "id": 1389,
+          "name": "Draenethyst Crystals"
+        },
+        {
+          "id": 1392,
+          "name": "Noboru the Cudgel"
+        },
+        {
+          "id": 1393,
+          "name": "Galen's Escape"
+        },
+        {
+          "id": 1396,
+          "name": "Encroaching Wildlife"
+        },
+        {
+          "id": 1398,
+          "name": "Driftwood"
+        },
+        {
+          "id": 1421,
+          "name": "The Lost Caravan"
+        },
+        {
+          "id": 1425,
+          "name": "Deliver the Shipment"
+        },
+        {
+          "id": 94929,
+          "name": "Deliver the Second Shipment"
+        },
+        {
+          "id": 93176,
+          "name": "My Little Friends"
+        },
+        {
+          "id": 93429,
+          "name": "Blood of My Blood"
+        },
+        {
+          "id": 93430,
+          "name": "Taking the Bait Back"
+        },
+        {
+          "id": 93464,
+          "name": "The Visiting Mage"
+        },
+        {
+          "id": 93585,
+          "name": "This Light of Mine"
+        },
+        {
+          "id": 94264,
+          "name": "Craftsman's Writ: Shadow Oil"
+        },
+        {
+          "id": 94288,
+          "name": "Craftsman's Writ: Mithril Frag Bomb"
+        },
+        {
+          "id": 94300,
+          "name": "Craftsman's Writ: Big Voodoo Mask"
+        },
+        {
+          "id": 94312,
+          "name": "Craftsman's Writ: Orange Martial Shirt"
+        }
+      ]
     }
   ]
 }
