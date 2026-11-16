@@ -46,7 +46,9 @@ step Fallow Sanctuary - the caravan chest
   accept 1393 -- Galen's Escape - Galen Goodward; escort out of the Fallow Sanctuary (@65.47,18.16, same ground)
   complete 1393 @53.08,29.55 -- Escort Galen out of the Fallow Sanctuary
   turnin 1393 -- Galen's Escape - Galen's Strongbox (@47.81,39.76, his camp west)
-  note Noboru's Cudgel (item 6196) drops off Noboru the Cudgel at 54.9,34.1, south of here - accept 1392 below when it drops.
+  goto 54.9,34.1 -- Noboru the Cudgel (south of the Fallow Sanctuary)
+  collect 6196 "Noboru's Cudgel" optional
+  note Noboru's Cudgel drops off Noboru the Cudgel here - accept 1392 below when it drops.
   accept 1392 -- Noboru the Cudgel - the cudgel to the Harborage leader (Harborage leg below)
 
 step Harborage - draenethyst and the mage's word
