@@ -1,0 +1,46 @@
+# Shen'dralas - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# The data holds no rare-flagged spawns in Shen'dralas - all 56 NPCs on the
+# key were scanned and none carries the rare flag (no rank 2/4, no rare role;
+# the ten rank-1s are quest givers, core targets, or lootless elites - see
+# docs/shendralas-companions-inventory.md) - so this guide is treasures only,
+# said plainly: one generic multi-point object looped over its fixed points
+# plus one fixed unique, no kills. Run it in its own Polestar tab at the end
+# of the core route or standalone. EVERY goal is optional. Spawn points are
+# the local Forever game data (questie-forever). No tame lines ship (no rares,
+# no beast-drop evidence, no core beast-family kills). Respawn timers are
+# unconfirmed anywhere, so none are stated. This guide never accepts or turns
+# in.
+guide butler-routes-completionist/shendralas-rares
+title Shen'dralas - Rares & Treasures
+levels 30-49
+zone Shen'dralas
+faction Alliance
+category Collectibles
+folder Companions
+keywords shendralas, rares, treasures, companions
+coords live
+version 1
+
+step Centaur Supplies - southwestern caches
+
+  zone map 2652
+
+  loop
+  goto 29.4,69.9
+  goto 29.5,72.1
+  goto 29.6,73.7
+  goto 29.9,69.4
+  goto 30,73
+  goto 30,74.5
+  goto 30.3,70.8
+  goto 30.7,70.6
+  goto 34.8,77.8
+  interact 602101 optional
+  note One supply object with nine fixed points in the southwest; check each. Contents are unconfirmed in the data; respawn timer unconfirmed.
+
+step Evenshade's Journal - the halls
+
+  zone map 2652
+
+  goto 35.07,46.53
+  note A fixed journal beside Mordent Evenshade's halls. Contents are unconfirmed in the data; respawn timer unconfirmed.
