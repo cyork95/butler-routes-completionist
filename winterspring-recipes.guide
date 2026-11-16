@@ -1,0 +1,337 @@
+# Winterspring - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes whose source is physically in Winterspring (zone 1452),
+# verified against the local Forever game data: 13 vendor-sold in Everlook
+# and 10 dropped solely by in-zone mobs (see
+# docs/winterspring-companions-inventory.md). Each step is gated to its
+# profession; other characters skip it cleanly. Every buy line carries an npc
+# pin to its in-zone vendor. No stock-class flag exists in the data, so
+# nothing is marked limited. Meilosh's Timbermaw stock is excluded: he is
+# Felwood-contracted and his recipes belong to the Felwood recipes companion.
+# Blacksmithing, First Aid and Fishing have no in-zone source and say so
+# below instead of padding. This guide never accepts or turns in.
+guide butler-routes-completionist/winterspring-recipes
+title Winterspring - Recipes & Patterns
+levels 47-60
+zone Winterspring
+faction Alliance
+category Professions
+folder Companions
+keywords winterspring, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Alchemy — Everlook (Evie Whirlbrew)
+
+  zone map 1452
+
+  when skill Alchemy 1
+
+  vendor 11188 -- Evie Whirlbrew (60.75, 37.78)
+  buy 13480 "Recipe: Major Healing Potion" npc 11188
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Everlook (Evie Whirlbrew)
+
+  zone map 1452
+
+  when skill Tailoring 1
+
+  vendor 11188 -- Evie Whirlbrew (60.75, 37.78)
+  buy 14526 "Pattern: Mooncloth" npc 11188
+  note Qia nearby also stocks Mooncloth. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Everlook (Qia)
+
+  zone map 1452
+
+  when skill Tailoring 1
+
+  vendor 11189 -- Qia (61.20, 37.21)
+  buy 14468 "Pattern: Runecloth Bag" npc 11189
+  buy 14481 "Pattern: Runecloth Gloves" npc 11189
+  buy 14526 "Pattern: Mooncloth" npc 11189
+  buy 15740 "Pattern: Frostsaber Boots" npc 11189
+  note Evie Whirlbrew nearby also stocks Mooncloth. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Everlook (Qia)
+
+  zone map 1452
+
+  when skill Enchanting 1
+
+  vendor 11189 -- Qia (61.20, 37.21)
+  buy 16221 "Formula: Enchant Chest - Major Health" npc 11189
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — Everlook (Xizzer Fizzbolt)
+
+  zone map 1452
+
+  when skill Engineering 1
+
+  vendor 11185 -- Xizzer Fizzbolt (60.80, 38.60)
+  buy 16046 "Schematic: Masterwork Target Dummy" npc 11185
+  buy 16047 "Schematic: Thorium Tube" npc 11185
+  buy 16050 "Schematic: Delicate Arcanite Converter" npc 11185
+  buy 18652 "Schematic: Gyrofreeze Ice Reflector" npc 11185
+  buy 18656 "Schematic: Powerful Seaforium Charge" npc 11185
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Everlook (Himmik)
+
+  zone map 1452
+
+  when skill Cooking 1
+
+  vendor 11187 -- Himmik (61.33, 39.16)
+  buy 16110 "Recipe: Monster Omelet" npc 11187
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Frostmaul Giants (drop)
+
+  zone map 1452
+
+  when skill Alchemy 1
+
+  loop
+  goto 58.06,68.70
+  goto 58.19,67.35
+  goto 58.73,69.29
+  goto 59.53,69.56
+  goto 60.61,65.09
+  goto 61.06,67.34
+  goto 62.56,69.55
+  goto 62.90,69.98
+  goto 63.43,69.35
+  goto 63.79,71.60
+  goto 64.27,68.93
+  goto 64.28,66.24
+  goto 65.66,69.28
+  kill 7428 optional
+  collect 13495 "Recipe: Greater Frost Protection Potion" optional
+  note The Frostmaul Giant is the sole dropper anywhere in the data and spawns only in Winterspring. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Alchemy — Cobalt Mageweavers (drop)
+
+  zone map 1452
+
+  when skill Alchemy 1
+
+  loop
+  goto 53.94,54.53
+  goto 54.31,50.51
+  goto 54.47,49.94
+  goto 54.75,52.23
+  goto 57.39,53.05
+  goto 57.72,49.27
+  goto 58.11,49.50
+  goto 58.44,48.21
+  goto 58.74,54.53
+  goto 58.95,51.14
+  goto 59.56,51.90
+  goto 59.61,53.03
+  goto 59.69,49.22
+  kill 7437 optional
+  collect 13497 "Recipe: Greater Arcane Protection Potion" optional
+  note The Cobalt Mageweaver is the sole dropper anywhere in the data and spawns only in Winterspring. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Tailoring — Cobalt Mageweavers (drop)
+
+  zone map 1452
+
+  when skill Tailoring 1
+
+  loop
+  goto 53.94,54.53
+  goto 54.31,50.51
+  goto 54.47,49.94
+  goto 54.75,52.23
+  goto 57.39,53.05
+  goto 57.72,49.27
+  goto 58.11,49.50
+  goto 58.44,48.21
+  goto 58.74,54.53
+  goto 58.95,51.14
+  goto 59.56,51.90
+  goto 59.61,53.03
+  goto 59.69,49.22
+  kill 7437 optional
+  collect 14493 "Pattern: Robe of Winter Night" optional
+  note The Cobalt Mageweaver is the sole dropper anywhere in the data and spawns only in Winterspring. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Engineering — Cobalt Mageweavers (drop)
+
+  zone map 1452
+
+  when skill Engineering 1
+
+  loop
+  goto 53.94,54.53
+  goto 54.31,50.51
+  goto 54.47,49.94
+  goto 54.75,52.23
+  goto 57.39,53.05
+  goto 57.72,49.27
+  goto 58.11,49.50
+  goto 58.44,48.21
+  goto 58.74,54.53
+  goto 58.95,51.14
+  goto 59.56,51.90
+  goto 59.61,53.03
+  goto 59.69,49.22
+  kill 7437 optional
+  collect 16054 "Schematic: Arcanite Dragonling" optional
+  note The Cobalt Mageweaver is the sole dropper anywhere in the data and spawns only in Winterspring. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Leatherworking — Winterfall Den Watchers (drop)
+
+  zone map 1452
+
+  when skill Leatherworking 1
+
+  loop
+  goto 30.34,36.33
+  goto 30.50,36.92
+  goto 30.61,35.62
+  goto 41.60,42.64
+  goto 65.95,34.97
+  goto 66.14,35.48
+  goto 66.23,34.30
+  goto 66.54,35.92
+  goto 66.97,34.49
+  goto 67.08,34.06
+  goto 67.13,36.24
+  goto 67.51,35.91
+  goto 68.00,34.37
+  goto 68.13,35.66
+  goto 68.54,35.09
+  kill 7440 optional
+  collect 15747 "Pattern: Frostsaber Leggings" optional
+  collect 252890 "Pattern: Blue Suede Hat" optional
+  note The Winterfall Den Watcher is the sole dropper of both patterns anywhere in the data and spawns only in Winterspring; the core route kills these furbolgs anyway. No quest takes either pattern.
+  note Respawn timer unconfirmed.
+
+step Leatherworking — Winterfall Totemics (drop)
+
+  zone map 1452
+
+  when skill Leatherworking 1
+
+  loop
+  goto 29.71,37.00
+  goto 30.01,36.23
+  goto 30.61,35.87
+  goto 32.41,37.65
+  goto 33.03,36.83
+  goto 33.35,36.42
+  goto 39.36,44.10
+  goto 39.42,44.68
+  goto 39.75,42.66
+  goto 39.76,43.03
+  goto 40.07,43.41
+  goto 40.07,43.98
+  goto 41.44,42.67
+  kill 7441 optional
+  collect 15761 "Pattern: Frostsaber Gloves" optional
+  note The Winterfall Totemic is the sole dropper anywhere in the data and spawns only in Winterspring. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Leatherworking — Winterfall Ursas (drop)
+
+  zone map 1452
+
+  when skill Leatherworking 1
+
+  loop
+  goto 65.11,37.18
+  goto 65.24,37.81
+  goto 65.79,37.64
+  goto 66.04,38.50
+  goto 66.64,38.86
+  goto 66.66,37.07
+  goto 67.29,39.96
+  goto 67.68,39.41
+  goto 68.00,38.05
+  goto 68.08,36.86
+  goto 68.79,37.84
+  kill 7438 optional
+  collect 15779 "Pattern: Frostsaber Tunic" optional
+  note The Winterfall Ursa is the sole dropper anywhere in the data and spawns only in Winterspring. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Enchanting — Anguished Highborne (drop)
+
+  zone map 1452
+
+  when skill Enchanting 1
+
+  loop
+  goto 50.31,42.72
+  goto 50.66,45.39
+  goto 50.86,46.70
+  goto 51.11,46.05
+  goto 51.19,46.93
+  goto 52.05,41.82
+  goto 52.14,40.40
+  goto 52.15,44.67
+  goto 53.44,39.82
+  goto 55.34,43.35
+  goto 55.45,44.01
+  goto 55.83,44.70
+  goto 55.96,43.97
+  goto 56.34,42.51
+  goto 56.84,44.67
+  goto 56.88,42.50
+  kill 7524 optional
+  collect 16223 "Formula: Enchant Weapon - Icy Chill" optional
+  note The Anguished Highborne is the sole dropper anywhere in the data and spawns only in Winterspring. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Cooking — Rabid Shardtooths (drop)
+
+  zone map 1452
+
+  when skill Cooking 1
+
+  loop
+  goto 56.39,71.41
+  goto 56.74,69.27
+  goto 56.75,70.90
+  goto 57.13,71.45
+  goto 57.22,69.94
+  goto 57.32,68.67
+  goto 57.63,70.83
+  goto 57.95,72.23
+  goto 58.37,71.84
+  goto 58.45,72.26
+  goto 58.61,70.55
+  goto 58.71,74.02
+  goto 59.21,71.47
+  goto 59.74,72.17
+  goto 60.06,71.49
+  goto 61.11,72.94
+  goto 63.43,74.38
+  goto 66.68,70.57
+  goto 66.82,69.26
+  goto 67.06,69.03
+  goto 67.08,69.76
+  kill 7446 optional
+  collect 250178 "Recipe: Bear Bruscitti" optional
+  note The Rabid Shardtooth is the sole dropper anywhere in the data and spawns only in Winterspring. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Blacksmithing — no Winterspring source
+
+  zone map 1452
+
+  note No Blacksmithing recipe, plan or pattern is sold by a Winterspring vendor or dropped solely by a Winterspring mob in the data; the Timbermaw Hold stock belongs to Meilosh, who is Felwood-contracted. Nothing to hunt here.
+
+step First Aid and Fishing — no Winterspring source
+
+  zone map 1452
+
+  note No First Aid manual or Fishing recipe is sourced in Winterspring in the data. Nothing to hunt here.
