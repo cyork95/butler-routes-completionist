@@ -1,0 +1,521 @@
+# Butler Routes - The Barrens rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 32 rank-flagged rares of The Barrens
+# (zone key 1413), verified against the local Forever game data
+# (questie-forever npc/object/item dumps). Every goal is optional - a
+# missing spawn never wedges the guide. Hagg Taurenbane holds three
+# points and loops them; every other rare holds a single point and gets
+# a plain single-goto step. Three rares drop signature leather patterns
+# that ride as optional collects with notes (world-drop tables
+# elsewhere - the recipes companion does not list them as zone
+# content); all other loot is ordinary greens, noted not goaled.
+# Humar the Pridelord carries the guide's one tame line (drop evidence
+# plus the core guide's Savannah-lion kills as corroboration); no other
+# beast's family is confirmable from the data (see
+# docs/companion-unverified.md). Takk the Leaper stays out - the core
+# guide already routes its kill for Raptor Horns (865). The three rares
+# above the core band (Brontus, Gerogg, Aean, Hagg) ship with honest
+# come-back-later notes; Darkmist Widow, Ambassador Bloodrage and
+# Burgle Eye (levels 36-40) are out of scope. Treasures ride one loop
+# over the fixed generic-chest points plus their own steps for the
+# unique objects. No accept/turnin lines anywhere - the core guide owns
+# every quest.
+guide butler-routes-completionist/barrens-rares
+title The Barrens - Rares & Treasures
+levels 10-25
+zone The Barrens
+faction Horde
+category Collectibles
+folder Companions
+keywords barrens, rares, treasures, collectibles, companions
+coords live
+version 1
+
+step Crossroads south - Trigore the Lasher
+
+  zone map 1413
+
+  goto 48.29,33.07
+  kill 3652 optional
+  collect 2407 "Pattern: White Leather Jerkin" optional
+  note Trigore the Lasher (level 19 rare) holds a single point south of the Crossroads. The White Leather Jerkin pattern is its signature loot in the data (a world-drop table elsewhere - the recipes companion does not list it as zone content).
+  note Respawn timer unconfirmed.
+
+step Crossroads south - Boahn
+
+  zone map 1413
+
+  goto 49.06,33.9
+  kill 3672 optional
+  note Boahn (level 20 rare) holds a single point south of the Crossroads. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step North flats - Dishu
+
+  zone map 1413
+
+  goto 49.6,15.84
+  kill 5865 optional
+  collect 2408 "Pattern: Fine Leather Gloves" optional
+  note Dishu (level 13 rare elite) holds a single point on the north flats. The Fine Leather Gloves pattern is its signature loot in the data (a world-drop table elsewhere - the recipes companion does not list it as zone content).
+  note Respawn timer unconfirmed.
+
+step North flats - Rathorian
+
+  zone map 1413
+
+  goto 47.95,19.17
+  kill 3470 optional
+  note Rathorian (level 15 rare elite) holds a single point on the north flats. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step East flats - Death Flayer
+
+  zone map 1413
+
+  goto 64.3,23
+  kill 5823 optional
+  note Death Flayer (level 11 rare elite) holds a single point on the east flats. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step West flats - Snort the Heckler
+
+  zone map 1413
+
+  goto 41.15,22.23
+  kill 5829 optional
+  note Snort the Heckler (level 17 rare elite) holds a single point on the west flats. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Northwest - Sister Rathtalon
+
+  zone map 1413
+
+  goto 39.06,15.3
+  kill 5830 optional
+  note Sister Rathtalon (level 19 rare) holds a single point in the northwest. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Northwest flats - Stonearm
+
+  zone map 1413
+
+  goto 42.01,24.66
+  kill 5837 optional
+  note Stonearm (level 15 rare elite) holds a single point on the northwest flats. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Southeast flats - Elder Mystic Razorsnout
+
+  zone map 1413
+
+  goto 59.25,24.38
+  kill 3270 optional
+  note Elder Mystic Razorsnout (level 15 rare) holds a single point on the southeast flats. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Thorn Hill - Brokespear
+
+  zone map 1413
+
+  goto 57.12,41.41
+  kill 5838 optional
+  note Brokespear (level 17 rare elite) holds a single point at Thorn Hill. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Thorn Hill - Rocklance
+
+  zone map 1413
+
+  goto 56.47,41.65
+  kill 5841 optional
+  note Rocklance (level 17 rare) holds a single point at Thorn Hill. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Southwest road - Gesharahan
+
+  zone map 1413
+
+  goto 46.52,39.46
+  kill 3398 optional
+  collect 2409 "Pattern: Dark Leather Tunic" optional
+  note Gesharahan (level 20 rare) holds a single point by the southwest road. The Dark Leather Tunic pattern is its signature loot in the data (a world-drop table elsewhere - the recipes companion does not list it as zone content).
+  note Respawn timer unconfirmed.
+
+step Southwest - Geopriest Gukk'rok
+
+  zone map 1413
+
+  goto 43.18,52.09
+  kill 5863 optional
+  note Geopriest Gukk'rok (level 19 rare elite) holds a single point in the southwest. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Southwest - Swinegart Spearhide
+
+  zone map 1413
+
+  goto 40.75,45.17
+  kill 5864 optional
+  note Swinegart Spearhide (level 22 rare) holds a single point in the southwest. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step South - Silithid Harvester
+
+  zone map 1413
+
+  goto 42,70
+  kill 3253 optional
+  note Silithid Harvester (level 24 rare elite) holds a single point in the south. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Southwest - Aean Swiftriver (come back later)
+
+  zone map 1413
+
+  goto 46,70
+  kill 5797 optional
+  note Aean Swiftriver (level 26 Alliance rare) holds a single point in the southwest - above the core band, come back after 25. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step South road - Thunderstomp
+
+  zone map 1413
+
+  goto 48.09,79.83
+  kill 5832 optional
+  note Thunderstomp (level 24 rare elite) holds a single point by the south road. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Far south - Hagg Taurenbane (come back later)
+
+  zone map 1413
+
+  loop
+  goto 41.55,78.77
+  goto 43.18,83.17
+  goto 44.27,82.91
+  kill 5859 optional
+  note Hagg Taurenbane (level 26 rare) walks three far-south points - above the core band, come back after 25. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Far south - Thora Feathermoon
+
+  zone map 1413
+
+  goto 48.52,79.65
+  kill 5798 optional
+  note Thora Feathermoon (level 25 Alliance rare) holds a single far-south point. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Far south - Hannah Bladeleaf
+
+  zone map 1413
+
+  goto 48.48,79.71
+  kill 5799 optional
+  note Hannah Bladeleaf (level 24 Alliance rare) holds a single far-south point. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Far south - Marcus Bel
+
+  zone map 1413
+
+  goto 48.51,79.72
+  kill 5800 optional
+  note Marcus Bel (level 24 Alliance rare) holds a single far-south point. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Taurajo south - Azzere the Skyblade
+
+  zone map 1413
+
+  goto 44.83,64.1
+  kill 5834 optional
+  note Azzere the Skyblade (level 25 rare elite) holds a single point south of Camp Taurajo. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Bael Modan - Heggin Stonewhisker
+
+  zone map 1413
+
+  goto 47.05,83.96
+  kill 5847 optional
+  note Heggin Stonewhisker (level 24 Alliance rare elite) holds a single point at Bael Modan. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Bael Modan - Digger Flameforge
+
+  zone map 1413
+
+  goto 47.54,85.49
+  kill 5849 optional
+  note Digger Flameforge (level 24 Alliance rare elite) holds a single point at Bael Modan. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Bael Modan - Malgin Barleybrew
+
+  zone map 1413
+
+  goto 49.59,84.3
+  kill 5848 optional
+  note Malgin Barleybrew (level 25 Alliance rare) holds a single point at Bael Modan; his vendor role carries no recipe stock in the data. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Bael Modan - Captain Gerogg Hammertoe (come back later)
+
+  zone map 1413
+
+  goto 49.55,83.86
+  kill 5851 optional
+  note Captain Gerogg Hammertoe (level 27 Alliance rare) holds a single point at Bael Modan - above the core band, come back after 25. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Southwest - Brontus (come back later)
+
+  zone map 1413
+
+  goto 47.28,73.16
+  kill 5827 optional
+  note Brontus (level 27 rare) holds a single point in the southwest - above the core band, come back after 25. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Venture north site - Sludge Beast
+
+  zone map 1413
+
+  goto 56.72,8.17
+  kill 3295 optional
+  note Sludge Beast (level 19 rare elite) holds a single point at the Venture north site. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Venture north site - Foreman Grills
+
+  zone map 1413
+
+  goto 56.37,8.17
+  kill 5835 optional
+  note Foreman Grills (level 19 rare elite) holds a single point at the Venture north site. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Venture north site - Engineer Whirleygig
+
+  zone map 1413
+
+  goto 56.23,8.79
+  kill 5836 optional
+  note Engineer Whirleygig (level 19 rare elite) holds a single point at the Venture north site. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Ratchet road - Humar the Pridelord
+
+  zone map 1413
+
+  goto 62.05,33.33
+  kill 5828 optional
+  task "Tame it instead of killing it" optional only Hunter
+  note Humar the Pridelord (level 23 rare) holds a single point by the Ratchet road - a lion of the same prides the core guide hunts for Savannah Lion Tusks (821), so hunters may prefer the tame. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Ratchet road - Swiftmane
+
+  zone map 1413
+
+  goto 61.23,34.46
+  kill 5831 optional
+  note Swiftmane (level 21 rare) holds a single point by the Ratchet road. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Generic chests - Battered Chest (north and road)
+
+  zone map 1413
+
+  loop
+  goto 39.21,11.83
+  goto 40.02,15.98
+  goto 42.85,55.09
+  goto 43.26,52.2
+  goto 44.99,51.34
+  goto 45.28,54.34
+  goto 45.33,53.92
+  goto 46.95,53.61
+  goto 51.04,57.48
+  goto 51.31,54.89
+  goto 52.6,52.31
+  goto 53.63,53.99
+  goto 59.55,2.74
+  goto 61.68,5.19
+  interact 2849 optional
+  note One Battered Chest object, 14 fixed points at the north site and along the Crossroads road - generic chests, said plainly.
+  note Respawn timers unconfirmed.
+
+step Generic chests - Battered Chest (west)
+
+  zone map 1413
+
+  loop
+  goto 32.6,32.6
+  goto 33.6,36.1
+  goto 34.4,35.4
+  goto 36,52.3
+  goto 36.3,52.4
+  goto 36.6,47.1
+  goto 36.7,51.8
+  goto 37.9,48.7
+  goto 39.6,62.7
+  goto 80.2,40.6
+  goto 80.3,42.3
+  interact 106318 optional
+  note A second Battered Chest object (distinct loot table), 11 fixed points in the west - generic chests, said plainly.
+  note Respawn timers unconfirmed.
+
+step Generic chests - Battered Chest (center and east)
+
+  zone map 1413
+
+  loop
+  goto 42.11,24.64
+  goto 43.64,26.47
+  goto 43.67,21.18
+  goto 45.89,39.42
+  goto 46.15,37.77
+  goto 46.61,18.11
+  goto 47.88,17.97
+  goto 48.93,38.82
+  goto 52.46,11.58
+  goto 52.48,10.66
+  goto 52.85,44.38
+  goto 53.39,40.5
+  goto 53.91,43.06
+  goto 55.94,45.85
+  goto 56.4,8.75
+  goto 56.86,43.51
+  goto 57.1,41.24
+  goto 58.77,27.5
+  goto 59.13,24.38
+  goto 62.75,49.64
+  goto 63.5,46.15
+  goto 63.75,49.18
+  goto 64.32,47.27
+  interact 106319 optional
+  note A third Battered Chest object (distinct loot table), 23 fixed points across the center and east - generic chests, said plainly.
+  note Respawn timers unconfirmed.
+
+step Generic chests - Solid Chest (far south)
+
+  zone map 1413
+
+  loop
+  goto 41.62,78.65
+  goto 43.13,83.22
+  goto 44.31,82.85
+  interact 2850 optional
+  note One Solid Chest object, 3 fixed points in the far south - generic chests, said plainly.
+  note Respawn timers unconfirmed.
+
+step Generic chests - Solid Chest (Razorfen side)
+
+  zone map 1413
+
+  loop
+  goto 38.6,92
+  goto 48.5,96.3
+  goto 48.5,97.2
+  goto 48.5,98.8
+  goto 48.8,98.6
+  goto 49.7,96.6
+  interact 2852 optional
+  note A second Solid Chest object (distinct loot table), 6 fixed points by the Razorfen downs - generic chests, said plainly.
+  note Respawn timers unconfirmed.
+
+step Generic chests - Solid Chest (coast and south)
+
+  zone map 1413
+
+  loop
+  goto 51.4,65.6
+  goto 51.5,64.7
+  goto 51.8,65.1
+  goto 66.1,59
+  goto 68.3,57.7
+  interact 2857 optional
+  note A third Solid Chest object (distinct loot table), 5 fixed points on the south coast and the Merchant Coast - generic chests, said plainly.
+  note Respawn timers unconfirmed.
+
+step Generic chests - Solid Chest (south pair)
+
+  zone map 1413
+
+  loop
+  goto 55,89
+  goto 55.1,90
+  interact 4149 optional
+  note A fourth Solid Chest object (distinct loot table), 2 fixed points in the far south - generic chests, said plainly.
+  note Respawn timers unconfirmed.
+
+step Generic chests - Damaged Chest
+
+  zone map 1413
+
+  goto 49,96.8
+  note Damaged Chest, a single fixed point in the far south - generic chest, said plainly.
+  note Respawn timer unconfirmed.
+
+step Merchant Coast - Buccaneer's Strongboxes
+
+  zone map 1413
+
+  loop
+  goto 65.03,45.36
+  goto 65.05,45.52
+  goto 65,45.4
+  goto 65.07,45.39
+  interact 123330 optional
+  note Four distinct Buccaneer's Strongbox objects sharing one Merchant Coast cluster - all fixed data points. Loot is level-scaled chest loot.
+  note Respawn timers unconfirmed.
+
+step Kolkar's Booty - three hidden caches
+
+  zone map 1413
+
+  loop
+  goto 43.02,23.52
+  goto 44.33,37.66
+  goto 52.73,41.84
+  interact 3642 optional
+  note Three booty caches at fixed data points by the Kolkar camps (objects 3642, 152608, 152618). Quest 1144's objectives are an in-RFK escape event, not these objects - they are lootable booty, not quest objects.
+  note Respawn timers unconfirmed.
+
+step Crossroads - supply crates
+
+  zone map 1413
+
+  loop
+  goto 58.37,27.01
+  goto 58.52,27.28
+  goto 58.55,25.86
+  goto 58.82,27.4
+  goto 59.18,24.43
+  goto 59.35,24.9
+  goto 59.47,24.58
+  interact 175708 optional
+  note Seven Crossroads' Supply Crates at fixed data points east of the Crossroads. Ordinary crate loot.
+  note Respawn timers unconfirmed.
+
+step Far north - Gallywix's Lockboxes
+
+  zone map 1413
+
+  loop
+  goto 54.76,5.56
+  goto 54.8,5.6
+  interact 129127 optional
+  note Two distinct Gallywix's Lockbox objects at fixed data points in the far north. Ordinary lockbox loot.
+  note Respawn timers unconfirmed.
+
+step Raptor grounds - Stolen Iron Chest
+
+  zone map 1413
+
+  goto 55.05,26.65
+  note Stolen Iron Chest, a single fixed point by the raptor grounds. Ordinary chest loot.
+  note Respawn timer unconfirmed.
