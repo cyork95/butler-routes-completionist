@@ -296,7 +296,7 @@ step Ursal the Mauler - the den mother's price
 
 step Dolanaar and Denalan - returns
 
-  tip Loop back through town and the lake: turn in the south's work, muster the Corithras chain (7383 in, 935 out), close the Ban'ethil escorts, and pick up Byancie's last errand with a swing west to Eralya.
+  tip Loop back through town and the lake: turn in the south's work, muster the Corithras chain (934 and 7383 in, 935 out), close the Ban'ethil escorts, and pick up Byancie's last errand with a swing west to Eralya.
   turnin 483 -- The Relics of Wakening - the relics to Athridas Bearmantle
   turnin 486 -- Ursal the Mauler - Ursal's end to Athridas Bearmantle
   turnin 487 -- The Road to Darnassus - the Ambushers' end to Moon Priestess Amara
@@ -326,6 +326,8 @@ step Dolanaar and Denalan - returns
   turnin 490 -- Bounty: Gnarlpine Furbolg - the fangs to Sentinel Shayla Nightbreeze
   turnin 98403 -- Twisted Hatred - the Webwood's end to Tallonkai Swiftroot
   turnin 7383 -- Crown of the Earth - the Amethyst Phial to Corithras Moonrage
+  accept 934 -- Crown of the Earth - Corithras Moonrage; fill the Blessed Water Vial at the Temple of the Moon, Darnassus (below)
+  note The twins exclude each other in the log, so they run serially: 7383 first (per 933’s recorded next-link), now 934, then 935. The compiler still flags 934 as not offered once 7383 is done - accepted as a structural twin-exclusivity warning; both quests complete and 935’s double pre is met.
   accept 935 -- Crown of the Earth - Corithras Moonrage; Fandral Staghelm waits in Darnassus, late
   turnin 99047 -- Not Dead Yet - Eralya's word to Byancie
   accept 99050 -- The Great Tree Provides - Byancie; fronds, a vial and spring water
@@ -334,6 +336,16 @@ step Dolanaar and Denalan - returns
   turnin 99050 -- The Great Tree Provides - the bundle to Byancie
   accept 99073 -- Easing Suffering - Byancie; Eralya at the Oracle Glade waits, late
   turnin 99073 -- Easing Suffering - the run west to Sentinel Eralya Leafshadow
+
+step Temple of the Moon - the blessed fill
+
+  zone map 1457
+
+  complete 934 @39.18,85.59 era -- Vial of Blessed Water (Temple of the Moon Fountain, Darnassus)
+
+  zone map 1438
+
+  turnin 934 -- Crown of the Earth - the vial to Corithras Moonrage
 
 step Darnassus - the city turn-ins
 
