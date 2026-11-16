@@ -11134,6 +11134,19 @@
           "name": "Dreadsteed of Xoroth"
         }
       ]
+    },
+    {
+      "id": "deadwind-pass",
+      "name": "Deadwind Pass",
+      "order": 41,
+      "levelBand": "60-60",
+      "summary": "Alliance route: single tailoring writ (sourceless item-start, turn-in at Hastings); the zone takes no other part in any quest in the data",
+      "quests": [
+        {
+          "id": 94355,
+          "name": "Craftsman's Writ: Tuxedo Jacket"
+        }
+      ]
     }
   ]
 }
