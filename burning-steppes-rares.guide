@@ -1,0 +1,267 @@
+# Burning Steppes - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 11 rares and the fixed world containers of the
+# Burning Steppes. Run it in its own Polestar tab at the end of the core route
+# or standalone. EVERY goal is optional: a rare that is not up never holds the
+# route. Spawn points and levels are the local Forever game data
+# (questie-forever); signature drops are items whose SOLE dropper anywhere in
+# the data is the rare. Ordinary goods and generic multi-zone world drops get
+# a note, not a goal. No tame lines ship (the data has no tameability flag
+# and no rare here presents beast-drop evidence with a core-guide beast-family
+# kill to corroborate - the beast-shaped rares' tame questions are logged in
+# docs/companion-unverified.md). Respawn timers are unconfirmed anywhere, so
+# none are stated. Core-quest objects (Gor'tesh's Head, the Tablet, Kibler's
+# cages) live in the core guide - see
+# docs/burning-steppes-companions-inventory.md for the full inventory. This
+# guide never accepts or turns in.
+guide butler-routes-completionist/burning-steppes-rares
+title Burning Steppes - Rares & Treasures
+levels 48-60
+zone Burning Steppes
+faction Alliance
+category Collectibles
+folder Companions
+keywords burning steppes, rares, treasures, companions
+coords live
+version 1
+
+step Kazon - the Morgan's Vigil road
+
+  zone map 1428
+
+  goto 71.1,85
+  kill 584 optional
+  collect 2058 "Kazon's Maul" optional
+  collect 3231 "Cutthroat Pauldrons" optional
+  note Level 27 rare ranging the eastern road; far below the band, so a trivial kill. Both drops come only from Kazon anywhere in the data.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed. The tame question (ogre) is logged in docs/companion-unverified.md.
+
+step Hematos - the western flats
+
+  zone map 1428
+
+  goto 22.38,60.03
+  kill 8976 optional
+  note Level 60 rare elite on the western flats; no sole drop in the data, so there is nothing signature to chase.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Thauris Balgarr - Blackrock Stronghold circuit
+
+  zone map 1428
+
+  loop
+  goto 54.2,39.11
+  goto 55.47,36.09
+  goto 60.92,36.46
+  goto 61.72,37.6
+  goto 65.03,42.83
+  goto 65.73,43.71
+  goto 66.12,41.93
+  goto 71.04,35.82
+  goto 71.27,36.94
+  kill 8978 optional
+  note Level 57 rare ranging the Stronghold terraces; no sole drop in the data. Nine confirmed points, looped.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Gruklash - the western road circuit
+
+  zone map 1428
+
+  loop
+  goto 15.21,30.42
+  goto 39.68,35.86
+  goto 40.56,34.61
+  goto 40.7,32.6
+  goto 41.47,53.9
+  goto 42.14,54.77
+  goto 44.13,56.33
+  kill 8979 optional
+  note Level 59 rare ranging the western roads from Ruins of Thaurissan to the Slag Pit. Seven confirmed points, looped.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Malfunctioning Reaver - the Pillar of Ash circuit
+
+  zone map 1428
+
+  loop
+  goto 79.17,29.71
+  goto 88.06,31.77
+  goto 90.02,45.99
+  goto 88.6,57.35
+  goto 85.81,57.07
+  kill 8981 optional
+  note Level 56 rare patrolling the gorge floor around the Pillar of Ash. A machine; no sole drop in the data. Five confirmed points, looped.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed.
+
+step Scarshield Quartermaster - Blackrock Stronghold
+
+  zone map 1428
+
+  goto 34.9,27.9
+  kill 9046 optional
+  collect 13248 "Burstshot Harquebus" optional
+  collect 13254 "Astral Guard" optional
+  note Level 55 rare elite; both drops come only from the Quartermaster anywhere in the data.
+  note He also always carries Blackhand's Command, which starts core quest 7761 - the accept lives in the core guide, not here.
+  note Also drops ordinary goods; respawn timer unconfirmed.
+
+step Hahk'Zor - the Cauldron circuit
+
+  zone map 1428
+
+  loop
+  goto 80.54,47.97
+  goto 81.91,48.25
+  goto 81.7,43.77
+  goto 81.73,41.91
+  kill 9602 optional
+  note Level 54 rare ranging the Cauldron rim; no sole drop in the data. Four confirmed points, looped.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed. The tame question is logged in docs/companion-unverified.md.
+
+step Gorgon'och - the Cauldron circuit
+
+  zone map 1428
+
+  loop
+  goto 77.16,43.14
+  goto 77.88,41.49
+  goto 79.82,42.32
+  goto 79.45,45.37
+  goto 80.46,41.45
+  kill 9604 optional
+  note Level 54 rare ranging the Cauldron's west rim; no sole drop in the data. Five confirmed points, looped.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed. The tame question is logged in docs/companion-unverified.md.
+
+step Deathmaw - the eastern fields circuit
+
+  zone map 1428
+
+  loop
+  goto 75.54,32.89
+  goto 82.73,30.35
+  goto 87.36,50.45
+  goto 81.51,56.7
+  kill 10077 optional
+  collect 282049 "Deathmaw's Guise" optional
+  note Level 53 rare ranging the fields east of Blackrock Mountain; the Guise drops only from Deathmaw anywhere in the data. Four confirmed points, looped.
+  note He also drops Blackrock Medallions for core quest 4283 - the completes live in the core guide, not here.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed. The tame question is logged in docs/companion-unverified.md.
+
+step Terrorspark - the terrace circuit
+
+  zone map 1428
+
+  loop
+  goto 41.86,46.53
+  goto 42.3,44.74
+  goto 45.88,43.46
+  goto 49.08,43.12
+  goto 51.2,42.92
+  goto 63.57,37.79
+  goto 68.39,31.45
+  goto 69.03,31.61
+  kill 10078 optional
+  note Level 55 rare ranging the terraces from the Slag Pit to Blackrock Mountain. Eight confirmed points, looped.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed. The tame question is logged in docs/companion-unverified.md.
+
+step Volchan - the Pillar of Ash
+
+  zone map 1428
+
+  goto 74.3,37.82
+  kill 10119 optional
+  note Level 60 rare at the Pillar of Ash; no sole loot drop to chase here. He drops Plans: Volcanic Hammer, routed as a Blacksmithing source in the Burning Steppes recipes companion.
+  note Also drops ordinary goods and generic world greens; respawn timer unconfirmed. The tame question is logged in docs/companion-unverified.md.
+
+step Solid Chests - fixed placements
+
+  zone map 1428
+
+  note One 3-point pass over the generic fixed Solid Chest placements, said plainly: these are ordinary fixed containers, respawn timers unconfirmed.
+  loop
+  goto 64.1,85.2
+  goto 69.5,84.8
+  goto 71.6,84.8
+  interact 2850 optional
+
+step Solid Chests - the northern pair
+
+  zone map 1428
+
+  note One 2-point pass over a second set of generic fixed Solid Chest placements, said plainly: ordinary fixed containers, respawn timers unconfirmed.
+  loop
+  goto 68.3,23.2
+  goto 70,20.8
+  interact 4149 optional
+
+step Solid Chests - the long pass
+
+  zone map 1428
+
+  note One 19-point pass over the third set of generic fixed Solid Chest placements, said plainly: ordinary fixed containers, respawn timers unconfirmed.
+  loop
+  goto 21.78,47.41
+  goto 31.22,62.38
+  goto 36.04,48.18
+  goto 38.8,54.36
+  goto 40.76,34.39
+  goto 42.93,37.52
+  goto 43.28,33.99
+  goto 44.66,58.34
+  goto 51.07,53.13
+  goto 55.46,53.74
+  goto 57.63,61.16
+  goto 76.18,55.9
+  goto 77.04,61.88
+  goto 80.69,48.87
+  goto 81.86,44.81
+  goto 82.86,46.15
+  goto 84.46,26.59
+  goto 88.28,37.84
+  goto 92.24,53.39
+  interact 153453 optional
+
+step Thaurissan Relic caches - Blackrock Stronghold
+
+  zone map 1428
+
+  note One 24-point pass over the fixed Thaurissan Relic placements, the zone's exclusive fixed object, crowded around Blackrock Stronghold. Contents are unconfirmed in the data; respawn timers unconfirmed.
+  loop
+  goto 52.49,39.05
+  goto 53.94,35.06
+  goto 54.18,40.87
+  goto 55.41,37.29
+  goto 55.77,39.4
+  goto 57.32,41.66
+  goto 57.41,36.38
+  goto 57.87,39.06
+  goto 59.32,43.93
+  goto 59.64,37.69
+  goto 60.31,35.13
+  goto 61.5,41.21
+  goto 61.85,36.72
+  goto 62.71,39.6
+  goto 63.46,35.59
+  goto 64.12,44.14
+  goto 64.63,37.23
+  goto 65.26,34.81
+  goto 66.11,40.44
+  goto 67.2,38.07
+  goto 67.59,43.73
+  goto 68.25,40.86
+  goto 69.88,38.12
+  goto 72.39,33.93
+  interact 153556 optional
+
+step Sha'ni Proudtusk's Remains - the Cauldron rim
+
+  zone map 1428
+
+  goto 79.79,45.53
+  note The remains of Sha'ni Proudtusk on the Cauldron's east rim. A Horde-quest furnishing for an out-of-contract quest; nothing to collect for an Alliance player.
+
+step A Small Pack - Ruins of Thaurissan
+
+  zone map 1428
+
+  goto 37.3,26.6
+  note A small pack at the Ruins of Thaurissan. Contents are unconfirmed in the data; respawn timer unconfirmed.
