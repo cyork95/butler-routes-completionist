@@ -466,7 +466,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [x] Lint/playtest clean (0 errors; XP-noise + structural + door-face warnings argued)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (11 rares + 7 fixed-container loops + 7 singles; 21 recipes: 19 vendor, 2 drop)
 
 ### Burning Steppes — contested (Eastern Kingdoms)
 

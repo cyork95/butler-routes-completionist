@@ -606,3 +606,7 @@ as above: game-data citation or a named source.
 
 - No recipe vendor spawns in the zone, so no stock class applies to any of the 16 shipped recipes (all are mob drops).
 - No respawn data for any of the 10 shipped rares or the drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
+
+## Eastern Plaguelands tame lines (pack 0.76.0)
+
+- None of the 11 shipped rares carries a tame line. NPC records have no family flag, so beast status is unassessable from data. Ten are humanoid/undead by name and structure (Scarlet humanoids, Lord Maldazzar, Putridius, The Husk). Foulmane (1847, level 52, 46.27,52.43) is the only possibly-tameable-shaped name, but it presents no beast-drop evidence (table is generic greens plus food/scroll consumables) with a core-guide beast-family kill to corroborate (no core quest targets Foulmane or an asserted same family), so no tame line ships. Revisit if a family flag or tame evidence appears.
