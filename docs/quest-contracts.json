@@ -11147,6 +11147,207 @@
           "name": "Craftsman's Writ: Tuxedo Jacket"
         }
       ]
+    },
+    {
+      "id": "winterspring",
+      "name": "Winterspring",
+      "order": 42,
+      "levelBand": "47-60",
+      "summary": "Alliance route: Everlook hub chains, Donova west, Jaron/Wynd southwest, Ranshalla southeast, Thorium south, KelTheril ruins, grouped expeditions (Feralas/Felwood/Tanaris/UnGoro/BS/Teldrassil/EPL/WPL/2482); soft-pre minis for uncontracted pres, note-only dungeon-interior completes",
+      "quests": [
+        {
+          "id": 969,
+          "name": "Luck Be With You"
+        },
+        {
+          "id": 975,
+          "name": "Cache of Mau'ari"
+        },
+        {
+          "id": 977,
+          "name": "Are We There, Yeti?"
+        },
+        {
+          "id": 3783,
+          "name": "Are We There, Yeti?"
+        },
+        {
+          "id": 3909,
+          "name": "The Videre Elixir"
+        },
+        {
+          "id": 3912,
+          "name": "Meet at the Grave"
+        },
+        {
+          "id": 4809,
+          "name": "Chillwind Horns"
+        },
+        {
+          "id": 4810,
+          "name": "Return to Tinkee"
+        },
+        {
+          "id": 4842,
+          "name": "Strange Sources"
+        },
+        {
+          "id": 4861,
+          "name": "Enraged Wildkin"
+        },
+        {
+          "id": 4863,
+          "name": "Enraged Wildkin"
+        },
+        {
+          "id": 4864,
+          "name": "Enraged Wildkin"
+        },
+        {
+          "id": 4901,
+          "name": "Guardians of the Altar"
+        },
+        {
+          "id": 4907,
+          "name": "Tinkee Steamboil"
+        },
+        {
+          "id": 5082,
+          "name": "Threat of the Winterfall"
+        },
+        {
+          "id": 5084,
+          "name": "Falling to Corruption"
+        },
+        {
+          "id": 5086,
+          "name": "Toxic Horrors"
+        },
+        {
+          "id": 5087,
+          "name": "Winterfall Runners"
+        },
+        {
+          "id": 5121,
+          "name": "High Chief Winterfall"
+        },
+        {
+          "id": 5123,
+          "name": "The Final Piece"
+        },
+        {
+          "id": 5124,
+          "name": "Fiery Plate Gauntlets"
+        },
+        {
+          "id": 5126,
+          "name": "Lorax's Tale"
+        },
+        {
+          "id": 5127,
+          "name": "The Demon Forge"
+        },
+        {
+          "id": 5128,
+          "name": "Words of the High Chief"
+        },
+        {
+          "id": 5161,
+          "name": "Wrath of the Blue Flight"
+        },
+        {
+          "id": 5162,
+          "name": "Wrath of the Blue Flight"
+        },
+        {
+          "id": 5163,
+          "name": "Are We There, Yeti?"
+        },
+        {
+          "id": 5244,
+          "name": "The Ruins of Kel'Theril"
+        },
+        {
+          "id": 5245,
+          "name": "Troubled Spirits of Kel'Theril"
+        },
+        {
+          "id": 5252,
+          "name": "Remorseful Highborne"
+        },
+        {
+          "id": 5253,
+          "name": "The Crystal of Zin-Malor"
+        },
+        {
+          "id": 5305,
+          "name": "Sweet Serenity"
+        },
+        {
+          "id": 5306,
+          "name": "Snakestone of the Shadow Huntress"
+        },
+        {
+          "id": 5307,
+          "name": "Corruption"
+        },
+        {
+          "id": 5601,
+          "name": "Sister Pamela"
+        },
+        {
+          "id": 6028,
+          "name": "The Everlook Report"
+        },
+        {
+          "id": 6030,
+          "name": "Duke Nicholas Zverenhoff"
+        },
+        {
+          "id": 6502,
+          "name": "Drakefire Amulet"
+        },
+        {
+          "id": 6603,
+          "name": "Trouble in Winterspring!"
+        },
+        {
+          "id": 6604,
+          "name": "Enraged Wildkin"
+        },
+        {
+          "id": 6606,
+          "name": "A Little Luck"
+        },
+        {
+          "id": 8798,
+          "name": "A Yeti of Your Own"
+        },
+        {
+          "id": 92009,
+          "name": "Crate Expectations"
+        },
+        {
+          "id": 92859,
+          "name": "Shroud of the Winter Wilds"
+        },
+        {
+          "id": 93269,
+          "name": "Top of the Post"
+        },
+        {
+          "id": 93406,
+          "name": "Unfrozen Deliveries"
+        },
+        {
+          "id": 97490,
+          "name": "Halt the Hail"
+        },
+        {
+          "id": 98462,
+          "name": "Shroud of the Winter Wilds"
+        }
+      ]
     }
   ]
 }
