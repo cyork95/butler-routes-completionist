@@ -488,9 +488,9 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 
 ### Winterspring — contested (Kalimdor)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (48 quests, band 47-60)
+- [x] Core guide (48 accepts / 48 turn-ins)
+- [x] Lint/playtest clean (0 errors, 59 warnings in 4 argued classes; R1 + R5 residue, 0 stuck)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
