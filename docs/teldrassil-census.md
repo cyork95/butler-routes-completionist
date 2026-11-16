@@ -228,3 +228,18 @@ Item-start status does not override the band rule: Feralas: A History (min 42) a
 
 ### (m) Cloth donations 7792-7801 - DECIDED: OUT (city + band)
 Raedon Duskstriker’s donation chain (min 12-50, 7801 repeatable) fails both the city rule and the band rule.
+
+## Addendum - quest 934 "Crown of the Earth" (micro-fix round)
+
+934 (L11/min1, Alliance) accepts at Corithras Moonrage, who spawns only on
+the Teldrassil map (1438 @56.14,61.71) - the accept test puts it here. The
+Teldrassil census excluded it by the fill-location tie-break (its Vial of
+Blessed Water fills at the Temple of the Moon Fountain, whose known point is
+on the Darnassus city map), and the Darnassus census excluded it because the
+giver never spawns on 1457 - so it sat in no contract. Its chain (933, in
+contract) continues into contracted 935 (pre 934+7383) > 98046 > 98065, so
+Teldrassil owns the add. Fill data note: the fountain object (138498) spans
+both maps in the dump (1438 @25.4,64.7 and 1457 @39.18,85.59, the Temple
+point the Darnassus guide already uses for 2520); the guide routes the Temple
+of the Moon fill as a Darnassus expedition and reports the second spawn
+without routing it. Contract 95 > 96.
