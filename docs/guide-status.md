@@ -470,9 +470,9 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 
 ### Burning Steppes — contested (Eastern Kingdoms)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (59 quests, band 48-60)
+- [x] Core guide (59 accepts / 59 turn-ins)
+- [x] Lint/playtest clean (0 errors; XP-noise + structural + sourceless-craft warnings argued)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
