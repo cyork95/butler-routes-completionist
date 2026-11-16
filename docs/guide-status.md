@@ -81,8 +81,9 @@ _The lead-in for Loch Modan (build order #2)._
 
 ### Teldrassil — Night Elf (Alliance) · alongside
 
-- [x] Census — 95 quests, local-data census (`docs/teldrassil-census.md`)
-- [x] Core guide — `teldrassil.guide`
+- [x] Census — 96 quests, local-data census (`docs/teldrassil-census.md` + 934 addendum)
+- [x] Core guide — `teldrassil.guide` (96 accepts / 96 turn-ins)
+- [x] Micro-fix: quest 934 "Crown of the Earth" added to contract + route (was in no contract; accept-tested to Teldrassil, Darnassus fill expedition)
 - [x] Lint/playtest clean — 0 errors, playtest 0 stuck
 - [ ] Cody pilot — Ferinis is playing the zone now
 - [ ] Pilot fixes landed
