@@ -10238,6 +10238,71 @@
           "name": "Craftsman's Writ: Orange Martial Shirt"
         }
       ]
+    },
+    {
+      "id": "the-hinterlands",
+      "name": "The Hinterlands",
+      "order": 37,
+      "levelBand": "38-51",
+      "summary": "Alliance route: Aerie Peak hub (Fraggar, Tove Redstone, Farseer Maret), Rhapsody chain with Kalimdor expedition ingredients, OOX-09/HL rescue with Booty Bay turn-in, Jammal'an finale, Skulk Rock cleanup, troll necklace twins, gryphon-egg rescue, and three sourceless Craftsman's Writs.",
+      "quests": [
+        {
+          "id": 485,
+          "name": "Find OOX-09/HL!"
+        },
+        {
+          "id": 836,
+          "name": "Rescue OOX-09/HL!"
+        },
+        {
+          "id": 1446,
+          "name": "Jammal'an the Prophet"
+        },
+        {
+          "id": 1452,
+          "name": "Rhapsody's Kalimdor Kocktail"
+        },
+        {
+          "id": 1469,
+          "name": "Rhapsody's Tale"
+        },
+        {
+          "id": 2877,
+          "name": "Skulk Rock Clean-up"
+        },
+        {
+          "id": 2880,
+          "name": "Troll Necklace Bounty"
+        },
+        {
+          "id": 2881,
+          "name": "Troll Necklace Bounty"
+        },
+        {
+          "id": 86615,
+          "name": "Treaty Obligations"
+        },
+        {
+          "id": 86616,
+          "name": "Repurposed Totems"
+        },
+        {
+          "id": 86620,
+          "name": "Fledgling Rescue"
+        },
+        {
+          "id": 94266,
+          "name": "Craftsman's Writ: Elixir of Agility"
+        },
+        {
+          "id": 94290,
+          "name": "Craftsman's Writ: Mechanical Repair Kit"
+        },
+        {
+          "id": 94302,
+          "name": "Craftsman's Writ: Turtle Scale Breastplate"
+        }
+      ]
     }
   ]
 }
