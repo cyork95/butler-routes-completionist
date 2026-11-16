@@ -442,9 +442,9 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 
 ### The Hinterlands — contested (Eastern Kingdoms)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (14 IN, 76 OUT)
+- [x] Core guide (14 accepts, 14 turn-ins)
+- [x] Lint/playtest clean (0 errors; 7 XP-noise + 1 structural pre-quest warning)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

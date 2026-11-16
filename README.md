@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.68.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.69.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -107,6 +107,7 @@ Status: **in development (pack v0.68.0), not published yet**. The first release 
 | swamp-of-sorrows.guide (Set 6 core built, pilot pending) | Swamp of Sorrows | 30-38 | Alliance |
 | `swamp-of-sorrows-rares.guide` (companion built, pilot pending) | Swamp of Sorrows rares and treasures | 30-38 | Alliance |
 | `swamp-of-sorrows-recipes.guide` (companion built, pilot pending) | Swamp of Sorrows recipe sources | 30-38 | Alliance |
+| the-hinterlands.guide (Set 6 core built, pilot pending) | The Hinterlands | 38-51 | Alliance |
 
 Each quest guide takes every quest on the zone's tracker list exactly once: 145 accepts / 145 turn-ins for Zephras Isle, 83 / 83 for Elwynn Forest, 43 / 43 for Westfall, 105 / 105 for Dun Morogh, 41 / 41 for Loch Modan, 95 / 95 for Teldrassil, 74 / 74 for Darkshore, 189 / 189 for Stormwind City, and 188 accepts / 186 turn-ins for Ironforge (two contracted quests have no turn-in in the data and ship accept-only with a note). Class quests for other classes are included and gated with `only`, so they never show for a character they are not for.
 
