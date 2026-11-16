@@ -627,3 +627,15 @@ as above: game-data citation or a named source.
 
 - No rare-flagged NPC spawns on key 1430 (all 34 scanned; the only ranked NPC is the rank-1 normal Mistmantle Prowler), so no tame question arises and none is logged. The three shipped treasure singles and both shipped recipes are all the zone holds.
 - 65 in-zone-dropped recipes are generic multi-zone world drops (72-646 droppers each) and ship nowhere per the Elwynn rule. Quest-reward recipes are unverifiable as a class (quest records carry no reward data). The Plated Armorfish recipe object drops at a null rate in the data; no respawn data exists for any Deadwind object or dropper - every step says so.
+
+## Winterspring tame lines (pack 0.82.0)
+
+- Of the 7 shipped rares, 5 read non-beast (Colbatann, Kashoch, Grizzle Snowpaw the furbolg, Hederine the satyr, Azurous the draconic) by name with generic humanoid loot - no tame question arises. Mezzir the Howler (10197, wolf by name) and Rak'shiri (10200, cat by name) are beast-shaped, but neither presents beast-drop evidence (tables are generic greens plus food/scroll consumables) with a core-guide beast-family kill to corroborate (no contract quest kills wolves or cats: kills are furbolgs, giants, sprites, elementals, owlbeasts, High Chief), so no tame line ships. Revisit if a family flag or tame evidence appears.
+
+## Winterspring generic-drop exclusions (pack 0.82.0)
+
+- ~90 in-zone-dropping recipes are generic multi-zone world drops (dozens to hundreds of droppers each) and ship nowhere per the Elwynn rule, including all Mithril/Thorium/Radiant plans, Transmutes, Stoneshield, Frostweave/Runecloth/Brightcloth and Felcloth pieces. Quest-reward recipes are unverifiable as a class (quest records carry no reward data); the Lorax smithing chain (5124/5126/5127) is plausible-but-unverifiable and ships nothing.
+
+## Winterspring stock class and timers (pack 0.82.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so no buy line carries a limited marking; stock class is unconfirmed. No respawn data for any rare or container exists in the local build; every step says the timer is unconfirmed.
