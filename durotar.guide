@@ -1,0 +1,597 @@
+# Durotar - Completionist (pack butler-routes-completionist, v1).
+# The pack's first Horde-block starting-zone route: every Durotar accept in
+# the local census (106 quests, docs/durotar-census.md) appears exactly once
+# as an accept and once as a turnin. Band 1-13 by minLevel cluster (zone id
+# 1411, order 46). Five above-band records, the repeatables, seasonal and
+# broken/out-of-zone rest are out with reasons in the census, plus the two
+# already-contracted Barrens links (1464/1521) and the Alliance set-asides.
+# No race header: Orc, Troll, Tauren and Undead all play this route, with
+# per-line gates where the data is exclusive - only Orc,Troll on the Valley
+# tablets' Orc halves and the hunter chain, only Hunter,Tauren on 6067, only
+# Priest,Troll on the Hex chain's Troll legs and only Priest,Undead on its
+# Touch legs, only Shaman,Horde on 98517 (race bit 33, the Horde flag).
+# Druid quests gate race-only (only Troll on 3086, only Orc on 98576, only
+# Orc,Undead,Troll on 1884) or ungated (1883): the compiler's race/class
+# matrix has no Troll/Orc/Undead Druid combos, so class-bearing Druid gates
+# error as empty sets - the race half is data-exact and the sim offers per
+# the quest data. The Hex/Touch same-name twins (5652/5654, 5660/5662) are
+# mutually exclusive in the data: the blocked twin is ordered first (5652 and
+# 5662 ride the North leg, 5654 and 5660 follow at the Razor Hill return).
+# Soft-pre minis stand alone in dedicated steps: when onquest 787 (Valley
+# arrival), when onquest 786 (Kolkar plans), when onquest 1525 (Call of Fire),
+# when onquest 97904 (Lau'Tiki's shore run), and the west return for 6082.
+# Expedition legs switch frames deliberately and back: Orgrimmar (1454),
+# the Barrens (1413), Mulgore (1412), Tirisfal (1420), Sessaria's map (2521).
+guide butler-routes-completionist/durotar
+title Durotar
+levels 1-13
+zone Durotar
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Valley arrival - the new Horde
+
+  zone map 1411
+
+  when onquest 787
+
+  note The Valley's first visitor (787) turns in to Gornek (42.06,68.33). This mini-step only shows on that quest.
+
+  turnin 787 -- A New Horde? - Gornek takes the word
+
+step Valley of Trials - muster
+
+  zone map 1411
+
+  note Kaltunk (43.29,68.53) and Gornek (42.06,68.33) work the muster yard: trainers Frang (42.89,69.44), Jen'shan (42.84,69.33), Rwag (41.28,68.00), Shikrik (42.39,69.00), Ken'jai (42.36,68.81), Mai'ah (42.51,69.04) and Nartok (40.65,68.52) take the tablets; Canaga (42.40,69.17), Ruzan (42.59,69.00) and Zureetha (42.85,69.15) run the Valley chains; Galgar (42.73,67.23), Foreman Thazz'ril (44.63,68.65), Hana'zua (40.60,62.58) and Ukor (52.06,68.31) have the chores; Magga (43.03,69.40) wants the voucher.
+
+  accept 4641 -- Your Place In The World - Kaltunk; Gornek takes the word
+  turnin 4641 -- Your Place In The World - the word to Gornek
+  accept 788 -- Cutting Teeth - Gornek; ten Mottled Boars, the pens
+  complete 788 @41.27,65.10 era -- Cutting Teeth (Mottled Boar, the pens)
+  turnin 788 -- Cutting Teeth - the boar work to Gornek
+  accept 789 -- Sting of the Scorpid - Gornek; ten Scorpid Worker tails, west dens
+  accept 2383 only Warrior,Orc -- Simple Parchment - Gornek; Frang takes it
+  turnin 2383 only Warrior,Orc -- Simple Parchment - the parchment to Frang
+  accept 3065 only Warrior,Troll -- Simple Tablet - Gornek; Frang takes it
+  turnin 3065 only Warrior,Troll -- Simple Tablet - the tablet to Frang
+  accept 3082 only Hunter,Troll -- Etched Tablet - Gornek; Jen'shan takes it
+  turnin 3082 only Hunter,Troll -- Etched Tablet - the tablet to Jen'shan
+  accept 3083 only Rogue,Troll -- Encrypted Tablet - Gornek; Rwag takes it
+  turnin 3083 only Rogue,Troll -- Encrypted Tablet - the tablet to Rwag
+  accept 3084 only Shaman,Troll -- Rune-Inscribed Tablet - Gornek; Shikrik takes it
+  turnin 3084 only Shaman,Troll -- Rune-Inscribed Tablet - the tablet to Shikrik
+  accept 3085 only Priest,Troll -- Hallowed Tablet - Gornek; Ken'jai takes it
+  turnin 3085 only Priest,Troll -- Hallowed Tablet - the tablet to Ken'jai
+  accept 3086 only Troll -- Glyphic Tablet - Gornek; Mai'ah takes it
+  turnin 3086 only Troll -- Glyphic Tablet - the tablet to Mai'ah
+  accept 3087 only Hunter,Orc -- Etched Parchment - Gornek; Jen'shan takes it
+  turnin 3087 only Hunter,Orc -- Etched Parchment - the parchment to Jen'shan
+  accept 3088 only Rogue,Orc -- Encrypted Parchment - Gornek; Rwag takes it
+  turnin 3088 only Rogue,Orc -- Encrypted Parchment - the parchment to Rwag
+  accept 3089 only Shaman,Orc -- Rune-Inscribed Parchment - Gornek; Shikrik takes it
+  turnin 3089 only Shaman,Orc -- Rune-Inscribed Parchment - the parchment to Shikrik
+  accept 3090 only Warlock,Orc -- Tainted Parchment - Gornek; Nartok takes it
+  turnin 3090 only Warlock,Orc -- Tainted Parchment - the parchment to Nartok
+  accept 98575 only Warlock,Troll -- Tainted Tablet - Gornek; Nartok takes it
+  turnin 98575 only Warlock,Troll -- Tainted Tablet - the tablet to Nartok
+  accept 98576 only Orc -- Glyphic Parchment - Gornek; Mai'ah takes it
+  turnin 98576 only Orc -- Glyphic Parchment - the parchment to Mai'ah
+  accept 1463 only Shaman -- Earth Sapta - Canaga; speak with Canaga
+  turnin 1463 only Shaman -- Earth Sapta - the rite to Canaga
+  accept 1516 only Shaman -- Call of Earth - Canaga; two Felstalker hooves, south road
+  accept 1485 only Warlock -- Vile Familiars - Ruzan; six Vile Familiar heads, south road
+  accept 792 -- Vile Familiars - Zureetha; twelve Vile Familiars, south road
+  accept 5441 -- Lazy Peons - Foreman Thazz'ril; five Lazy Peons, west dens
+  accept 4402 -- Galgar's Cactus Apple Surprise - Galgar; ten Cactus Apples, west dens
+  accept 790 -- Sarkoth - Hana'zua; Sarkoth's Mangled Claw, west dens
+  accept 97279 -- Wayward Weapons - Gornek; six Abandoned Training Weapons, east hollow to Kzan Thornslash
+  complete 97279 @40.80,71.00 era -- Abandoned Training Weapons (east hollow)
+  turnin 97279 -- Wayward Weapons - the weapons to Kzan Thornslash
+  note Welcome! (5843, Orc and Troll only) has no placed pickup in the data - have the Valley of Trials Gift Voucher in your bags before you turn in.
+  accept 5843 only Orc,Troll -- Welcome! - the voucher to Magga
+  turnin 5843 only Orc,Troll -- Welcome! - the voucher to Magga
+  accept 5649 only Priest,Troll -- In Favor of Spirituality - Ken'jai; Tai'jin in Razor Hill takes the word
+  accept 2161 -- A Peon's Burden - Ukor; Innkeeper Grosk in Razor Hill takes it
+
+step Valley of Trials - teeth, tails and peons
+
+  zone map 1411
+
+  note West dens, the east hollow and the south road: Scorpid Workers (39.39-39.99,61.13-66.02), Sarkoth (40.50,66.83), Lazy Peons (38.83-41.27,58.94-61.80), Cactus Apples (39.63-39.94,63.03-68.10), Felstalkers (42.43-42.52,53.50-54.18), Vile Familiars (42.65-42.99,52.70-54.63), Yarrog Baneshadow (42.71,52.95), Thazz'ril's Pick (43.73,53.79).
+
+  complete 789 @39.59,63.08 era -- Scorpid Worker Tails (Scorpid Worker, west dens)
+  turnin 789 -- Sting of the Scorpid - the tails to Gornek
+  complete 790 @40.50,66.83 era -- Sarkoth's Mangled Claw (Sarkoth, west dens)
+  turnin 790 -- Sarkoth - the claw to Hana'zua
+  accept 804 -- Sarkoth - Hana'zua; Gornek takes the word
+  turnin 804 -- Sarkoth - the word to Gornek
+  complete 5441 @38.83,61.80 era -- Lazy Peons (west dens)
+  turnin 5441 -- Lazy Peons - the peons back to work for Foreman Thazz'ril
+  accept 6394 -- Thazz'ril's Pick - Foreman Thazz'ril; his pick, south road
+  complete 6394 @43.73,53.79 era -- Thazz'ril's Pick (south road)
+  turnin 6394 -- Thazz'ril's Pick - the pick to Foreman Thazz'ril
+  complete 4402 @39.63,63.03 era -- Cactus Apples (west dens)
+  turnin 4402 -- Galgar's Cactus Apple Surprise - the apples to Galgar
+  complete 1516 only Shaman @42.43,54.18 era -- Felstalker Hooves (Felstalker, south road)
+  turnin 1516 only Shaman -- Call of Earth - the hooves to Canaga
+  accept 1517 only Shaman -- Call of Earth - Canaga; the Minor Manifestation south takes it
+  complete 792 @42.65,54.63 era -- Vile Familiars (south road)
+  turnin 792 -- Vile Familiars - the familiars to Zureetha
+  complete 1485 only Warlock @42.65,54.63 era -- Vile Familiar Heads (south road)
+  turnin 1485 only Warlock -- Vile Familiars - the heads to Ruzan
+  accept 1499 only Warlock -- Vile Familiars - Ruzan; Zureetha takes the word
+  turnin 1499 only Warlock -- Vile Familiars - the word to Zureetha
+  accept 794 -- Burning Blade Medallion - Zureetha; the medallion off Yarrog Baneshadow, south road
+  complete 794 @42.71,52.95 era -- Burning Blade Medallion (Yarrog Baneshadow, south road)
+  turnin 794 -- Burning Blade Medallion - the medallion to Zureetha
+  note The Adventurer (96652) starts from the Lost Journal on the ground east of Gornek (42.80,69.14) - pick it up if you see it; Brakk in Razor Hill takes the story.
+  accept 96652 -- The Adventurer - the Lost Journal
+  accept 805 -- Report to Sen'jin Village - Zureetha; Master Gadrin in Sen'jin takes the word
+
+step Telf Joolam - the torch (Shaman)
+
+  zone map 1411
+
+  when onquest 1525
+
+  note Call of Fire (1525) needs 1524 turned in, which lives outside this contract (the Barrens guide turns it in) - this mini-step only shows on the quest. The Fire Tar has no Durotar source in the data: Razormane in the Barrens and Tunnel Rats in Loch Modan drop it, so bring one. The Reagent Pouch comes off Burning Blade cultists around Skull Rock (51.89,25.71 - the Margoz leg below). Telf Joolam waits west (38.55,58.96).
+
+  accept 1525 only Shaman -- Call of Fire - Telf Joolam; fire tar from outside, a reagent pouch at Skull Rock
+
+step Razor Hill - the hub
+
+  zone map 1411
+
+  note North to Razor Hill: Gar'Thok (51.95,43.50), Orgnil Soulscar (52.24,43.15), Swart (54.42,42.59), Thotar (51.85,43.49), Tai'jin (54.26,42.93), Turroc (53.95,42.59), Cook Torka (51.11,42.45), Kaplak (51.98,43.69), Ophek (54.37,41.29), Tarshaw Jaggedscar (54.19,42.47), Takrin Pathseeker (50.84,43.59), Innkeeper Grosk (51.51,41.64), Furl Scornbrow (49.88,40.39). Brakk's camp (52.02,47.31) is next door north.
+
+  turnin 2161 -- A Peon's Burden - Ukor's word to Innkeeper Grosk
+  turnin 5649 only Priest,Troll -- In Favor of Spirituality - Ken'jai's word to Tai'jin
+  accept 5648 only Priest,Troll -- Garments of Spirituality - Tai'jin; Grunt Kor'ja, north edge
+  complete 5648 only Priest,Troll @53.10,46.46 era -- Grunt Kor'ja (north edge)
+  turnin 5648 only Priest,Troll -- Garments of Spirituality - Kor'ja's garb to Tai'jin
+  accept 784 -- Vanquish the Betrayers - Gar'Thok; Kul Tiras sailors and marines plus Lieutenant Benedict, the Tiara coast (Kolkar leg below)
+  accept 791 -- Carry Your Weight - Furl Scornbrow; eight Canvas Scraps off Kolkar, south (Kolkar leg below)
+  accept 837 -- Encroachment - Gar'Thok; Razormane quilboar, scouts, dustrunners and battleguards, west (west leg below)
+  accept 96822 -- For Honor - Turroc; the Raider's Bow, Battleaxe and Shield, the Tiara wrecks (Kolkar leg below)
+  accept 96825 -- This Fruit Could Bite Back - Cook Torka; eight Prickly Pear Fruit, west (west leg below)
+  accept 815 -- Break a Few Eggs - Cook Torka; three Taillasher Eggs, Echo Isles (Echo Isles leg below)
+  accept 840 -- Conscript of the Horde - Takrin Pathseeker; the bundle to Kargal Battlescar in the Barrens (Barrens leg below)
+  accept 1505 only Warrior -- Veteran Uzzek - Tarshaw Jaggedscar; Uzzek waits in the Barrens (Barrens leg below)
+  accept 1506 only Warlock -- Gan'rul's Summons - Ophek; Gan'rul Bloodeye in Orgrimmar takes the word (Orgrimmar leg below)
+  accept 1859 only Rogue,Orc -- Therzok - Kaplak; Therzok in Orgrimmar takes the word (Orgrimmar leg below)
+  accept 98517 only Shaman,Horde -- Call of Fire - Swart; Sessaria Skystride takes the word (Sessaria leg below)
+  accept 2983 only Shaman -- Call of Fire - Swart; Kranal Fiss in the Barrens takes the word (Barrens leg below)
+  accept 99048 -- A Missing Hand - Orgnil Soulscar; Heglan Shadeeye east takes the word (east leg below)
+  accept 6062 only Hunter,Orc,Troll -- Taming the Beast - Thotar; a Dire Mottled Boar, west (west leg below)
+  accept 6067 only Hunter,Tauren -- The Hunter's Path - Thotar; Yaw Sharpmane in Mulgore takes the word (Mulgore leg below)
+
+step Razor Hill - Brakk's camp
+
+  zone map 1411
+
+  note Brakk (52.02,47.31) runs the camp: the Adventurer's story ends here, the Great Outdoors fire is his, and all twelve Camping 101 lessons start here - each is optional, take the ones you train. Grunt Kor'ja (53.10,46.46) is done above; Dwukk (52.03,40.72), Mukdrak (52.18,40.80), Krunn (51.81,40.88) and Rawrk (54.17,41.93) work the neighborhood; Cook Torka (51.11,42.45) is back in town; Lau'Tiki fishes the Sen'jin shore far south (shore-run mini below). The six Orgrimmar trainers (Snang, Whuut, Jhag, Jandi, Karolek, Thuwd) take their lessons in the city (Orgrimmar leg below).
+
+  turnin 96652 -- The Adventurer - the journal's story to Brakk
+  accept 96604 -- The Great Outdoors - Brakk; sit by his campfire
+  complete 96604
+  turnin 96604 -- The Great Outdoors - back to Brakk
+  accept 96102 optional -- Camping 101: Tailoring - Brakk; Snang in Orgrimmar takes it (Orgrimmar leg below)
+  accept 96655 optional -- Camping 101: Cooking - Brakk; Cook Torka takes it, here in town
+  complete 96655 optional @51.11,42.45 era -- Cook Torka (here in town)
+  turnin 96655 optional -- Camping 101: Cooking - Cook Torka takes it
+  accept 97899 optional -- Camping 101: Alchemy - Brakk; Whuut in Orgrimmar takes it (Orgrimmar leg below)
+  accept 97900 optional -- Camping 101: Blacksmithing - Brakk; Dwukk takes it, south edge
+  complete 97900 optional @52.03,40.72 era -- Dwukk (south edge)
+  turnin 97900 optional -- Camping 101: Blacksmithing - Dwukk takes it
+  accept 97901 optional -- Camping 101: Enchanting - Brakk; Jhag in Orgrimmar takes it (Orgrimmar leg below)
+  accept 97902 optional -- Camping 101: Engineering - Brakk; Mukdrak takes it, south edge
+  complete 97902 optional @52.18,40.80 era -- Mukdrak (south edge)
+  turnin 97902 optional -- Camping 101: Engineering - Mukdrak takes it
+  accept 97903 optional -- Camping 101: First Aid - Brakk; Rawrk takes it, east edge
+  complete 97903 optional -- Raise your first aid skill to 20
+  turnin 97903 optional -- Camping 101: First Aid - Rawrk takes it
+  accept 97904 optional -- Camping 101: Fishing - Brakk; Lau'Tiki far south takes it (shore-run mini below)
+  accept 97905 optional -- Camping 101: Herbalism - Brakk; Jandi in Orgrimmar takes it (Orgrimmar leg below)
+  accept 97906 optional -- Camping 101: Leatherworking - Brakk; Karolek in Orgrimmar takes it (Orgrimmar leg below)
+  accept 97907 optional -- Camping 101: Mining - Brakk; Krunn takes it, south edge
+  complete 97907 optional @51.81,40.88 era -- Krunn (south edge)
+  turnin 97907 optional -- Camping 101: Mining - Krunn takes it
+  accept 97908 optional -- Camping 101: Skinning - Brakk; Thuwd in Orgrimmar takes it (Orgrimmar leg below)
+
+step South-shore run - Lau'Tiki
+
+  zone map 1411
+
+  when onquest 97904
+
+  note Lau'Tiki (53.25,81.59) fishes the Sen'jin south shore - this mini-step runs the shore for the Fishing lesson, then the route resumes at Sen'jin.
+
+  complete 97904 optional @53.25,81.59 era -- Lau'Tiki (Sen'jin south shore)
+  turnin 97904 optional -- Camping 101: Fishing - Lau'Tiki takes it
+
+step Sen'jin Village - the hub
+
+  zone map 1411
+
+  note South to Sen'jin: Master Gadrin (55.95,74.72), Master Vornal (55.94,74.39), Vel'rin Fang (55.96,73.93), Lar Prowltusk (54.44,74.35), Xar'Ti (55.28,75.49), Un'Thuwa (56.31,75.11), Pa'zula (56.69,73.74) and Kali Remik (56.13,74.24). The Minor Manifestation of Earth waits west (44.03,76.20); Makrura and crawlers work the coasts (51-58,80-84).
+
+  turnin 805 -- Report to Sen'jin Village - Zureetha's word to Master Gadrin
+  accept 823 -- Report to Orgnil - Master Gadrin; Orgnil Soulscar in Razor Hill takes the word
+  accept 808 -- Minshina's Skull - Master Gadrin; the skull in the Imprisoned Darkspear, Echo Isles (Echo Isles leg below)
+  accept 826 -- Zalazane - Master Gadrin; Hexed and Voodoo Trolls plus Zalazane's head, Echo Isles (Echo Isles leg below)
+  accept 817 -- Practical Prey - Vel'rin Fang; four Durotar Tiger furs, Echo Isles (Echo Isles leg below)
+  accept 818 -- A Solvent Spirit - Master Vornal; four Intact Makrura Eyes and eight Crawler Mucus, the coasts
+  accept 97225 -- Forgotten Loa Idols - Master Vornal; eight Forgotten Loa Idols, Echo Isles (Echo Isles leg below)
+  accept 97223 -- Bloodtalon Matriarch - Xar'Ti; the Matriarch's eggs, the east shore (Echo Isles leg below)
+  accept 96821 -- Legging It - Vel'rin Fang; Ridgeshade Creepers and Lurkers, mid-Durotar (Kolkar leg below); Gar'Thok in Razor Hill takes the count
+  accept 1884 only Orc,Undead,Troll -- Ju-Ju Heaps - Un'Thuwa; destroy four Ju-Ju Heaps, Echo Isles (Echo Isles leg below)
+  turnin 1517 only Shaman -- Call of Earth - the earth rite to the Minor Manifestation of Earth
+  accept 1518 only Shaman -- Call of Earth - the Minor Manifestation of Earth; Canaga back in the Valley takes the word
+  note A Pain in the Neck (96873) names three Luminous Residue and the data holds no source for them anywhere - no drop, no vendor, no object. Have three in your bags before you turn in; the route never waits on them.
+  accept 96873 optional -- A Pain in the Neck - Pa'zula; three Luminous Residue, source unconfirmed
+  complete 96873 optional @56.69,73.74 era -- Luminous Residue (Pa'zula's post, source unconfirmed)
+  turnin 96873 optional -- A Pain in the Neck - the residue to Pa'zula
+  accept 6069 only Hunter,Orc,Troll -- The Hunter's Path - Kali Remik; Thotar in Razor Hill takes the word
+
+step Kolkar Crag and the Tiara coast
+
+  zone map 1411
+
+  note The Kolkar camps (46-50,77-81) hold the Valley and Sen'jin attack plans and the canvas-donors; the Tiara wrecks (55-61,50-59) hold the sailors, Benedict (59.72,58.27), his chest (59.26,57.65), the Raider set (56-59,53-56) and Ukorsbane (49.17,56.86); Pal'juh waits in the crag (46.30,78.64).
+
+  complete 784 @55.72,57.54 era -- Kul Tiras Sailors (Tiara wrecks)
+  complete 784 @56.53,50.80 era -- Kul Tiras Marines (Tiara wrecks)
+  complete 784 @59.72,58.27 era -- Lieutenant Benedict (Tiara coast)
+  complete 791 @46.44,79.52 era -- Canvas Scraps (Kolkar Drudge, Kolkar camps)
+  complete 96821 @49.71,49.34 era -- Ridgeshade Creepers (mid-Durotar)
+  complete 96821 @49.41,56.69 era -- Ridgeshade Lurkers (mid-Durotar)
+  note The Admiral's Orders (830) starts from Benedict's Chest on the Tiara shore (59.26,57.65) - take it if you see it; Gar'Thok in Razor Hill takes the orders.
+  accept 830 -- The Admiral's Orders - Benedict's Chest
+  note For Honor (96822) arms from the wreck-objects: the Raider's Bow (59.39,56.41), Battleaxe (57.37,56.43) and Shield (56.54,53.00) - Turroc in Razor Hill takes the set.
+  complete 96822 @59.39,56.41 era -- Raider's Bow (Tiara wrecks)
+  complete 96822 @57.37,56.43 era -- Raider's Battleaxe (Tiara wrecks)
+  complete 96822 @56.54,53.00 era -- Raider's Shield (Tiara wrecks)
+  note Ukor's Lost Pack (96876) drops off Ukorsbane (49.17,56.86) - take it if it drops; Ukor back in the Valley takes the pack.
+  accept 96876 -- Ukor's Lost Pack - Ukorsbane's pack
+  note Lost in the Shadows (99123) escorts Pal'juh out of Kolkar Crag (46.30,78.64) - no placed escort path in the data; Master Vornal in Sen'jin takes the word.
+  accept 99123 -- Lost in the Shadows - Pal'juh; escort out of Kolkar Crag
+  complete 99123
+
+step Kolkar plans - Thwarting Kolkar Aggression
+
+  zone map 1411
+
+  when onquest 786
+
+  note The three attack plans burn in their camps: Valley of Trials (49.81,81.29), Sen'jin Village (47.66,77.34), Orgrimmar (46.23,78.94). This mini-step only shows with the Kolkar bounty up.
+
+  accept 786 -- Thwarting Kolkar Aggression - Lar Prowltusk; burn the three attack plans
+  complete 786 @49.81,81.29 era -- Attack Plan: Valley of Trials (Kolkar camps)
+  complete 786 @47.66,77.34 era -- Attack Plan: Sen'jin Village (Kolkar camps)
+  complete 786 @46.23,78.94 era -- Attack Plan: Orgrimmar (Kolkar camps)
+  turnin 786 -- Thwarting Kolkar Aggression - the burnt plans to Lar Prowltusk
+
+step Echo Isles - Zalazane
+
+  zone map 1411
+
+  note East to the Echo Isles: Voodoo and Hexed Trolls (65-67,82-87), Zalazane (67.55,87.81), the Imprisoned Darkspear (67.43,87.83), Taillasher Eggs (59.50-59.78,83.75-89.67), Durotar Tigers (59.00-59.75,89.81-91.13), Forgotten Loa Idols (64.60-64.70,83.30-84.00), Ju-Ju Heaps (67.03-67.79,82.50-87.80) and the Matriarch (68.81,71.78) east of the isles.
+
+  complete 826 @65.92,82.80 era -- Hexed and Voodoo Trolls (Echo Isles)
+  complete 826 @67.55,87.81 era -- Zalazane's Head (Zalazane, Echo Isles)
+  complete 808 @67.43,87.83 era -- Minshina's Skull (Imprisoned Darkspear, Echo Isles)
+  complete 815 @59.50,83.75 era -- Taillasher Eggs (Echo Isles)
+  complete 815 @59.50,83.75 era -- Taillasher Eggs (Echo Isles)
+  complete 817 @59.00,90.55 era -- Durotar Tiger Furs (Echo Isles)
+  complete 97225 @64.60,84.00 era -- Forgotten Loa Idols (Echo Isles)
+  complete 97223 @68.81,71.78 era -- Bloodtalon Matriarch Eggs (east shore)
+  complete 1884 only Orc,Undead,Troll @67.03,87.80 era -- Ju-Ju Heaps Destroyed (Echo Isles)
+
+step Sen'jin return - idols, skulls and escorts
+
+  zone map 1411
+
+  note Back to Sen'jin with the isles' work: the coasts give Makrura Clackers (51.41,84.88), Shellhides (53.89,84.83), Pygmy Surf Crawlers (51.53,84.03) and Surf Crawlers (58.85,86.20).
+
+  complete 818 @51.41,84.88 era -- Intact Makrura Eyes (Makrura Clacker, Sen'jin coast)
+  complete 818 @51.53,84.03 era -- Crawler Mucus (Pygmy Surf Crawler, Sen'jin coast)
+  turnin 818 -- A Solvent Spirit - the eyes and mucus to Master Vornal
+  turnin 817 -- Practical Prey - the tiger furs to Vel'rin Fang
+  turnin 808 -- Minshina's Skull - the skull to Master Gadrin
+  turnin 826 -- Zalazane - Zalazane's head to Master Gadrin
+  turnin 97225 -- Forgotten Loa Idols - the idols to Master Gadrin
+  turnin 97223 -- Bloodtalon Matriarch - the eggs to Xar'Ti
+  turnin 1884 only Orc,Undead,Troll -- Ju-Ju Heaps - the heaps' ruin to Un'Thuwa
+  turnin 99123 -- Lost in the Shadows - Pal'juh's word to Master Vornal
+
+step Valley return - earth and packs
+
+  zone map 1411
+
+  note Back through the Valley: Canaga (42.40,69.17) takes the earth word, Ukor (52.06,68.31) takes the lost pack.
+
+  turnin 1518 only Shaman -- Call of Earth - the Manifestation's word to Canaga
+  turnin 96876 -- Ukor's Lost Pack - the pack to Ukor
+
+step Razor Hill return - turnins and Skull Rock orders
+
+  zone map 1411
+
+  note Back to Razor Hill with the south's work: Gar'Thok (51.95,43.50) takes the Tiara reckoning, Orgnil (52.24,43.15) takes Sen'jin's word and the Skull Rock orders, Thotar (51.85,43.49) takes the hunter's path.
+
+  turnin 784 -- Vanquish the Betrayers - the Kul Tiras dead to Gar'Thok
+  accept 825 -- From The Wreckage.... - Gar'Thok; three Gnomish Tools, Tiara wrecks (Tiara return below)
+  turnin 791 -- Carry Your Weight - the canvas scraps to Furl Scornbrow
+  turnin 96822 -- For Honor - the Raider's set to Turroc
+  turnin 830 -- The Admiral's Orders - the orders to Gar'Thok
+  accept 831 -- The Admiral's Orders - Gar'Thok; Nazgrel in Orgrimmar takes the orders (Orgrimmar leg below)
+  turnin 823 -- Report to Orgnil - Gadrin's word to Orgnil Soulscar
+  accept 806 -- Dark Storms - Orgnil Soulscar; Fizzle's Claw off Fizzle Darkstorm at Skull Rock (Skull Rock leg below)
+  turnin 96821 -- Legging It - the Ridgeshade count to Gar'Thok
+  turnin 6069 only Hunter,Orc,Troll -- The Hunter's Path - Kali Remik's word to Thotar
+  turnin 815 -- Break a Few Eggs - the eggs to Cook Torka
+
+step Tiara return - Gnomish tools
+
+  zone map 1411
+
+  note Back south to the wrecks for the tools: the Gnomish Toolbox (61.40,56.14) by Benedict's wreck. This short return only runs with 825 up.
+
+  when onquest 825
+
+  complete 825 @61.40,56.14 era -- Gnomish Tools (Gnomish Toolbox, Tiara wrecks)
+
+step West - Razormane and the coast
+
+  zone map 1411
+
+  note West to the Razormane grounds (38-44,48-55) and the north coast: quilboar, scouts, dustrunners and battleguards, Prickly Pear fruit (43.60-44.70,49.60-50.50), Dreadmaw crocolisks (34.14-34.33,46.04-48.13), Dire Mottled Boars (38.11-40.67,35.87-47.06).
+
+  complete 837 @43.20,50.60 era -- Razormane Quilboar (west grounds)
+  complete 837 @43.20,50.40 era -- Razormane Scout (west grounds)
+  complete 837 @38.20,52.40 era -- Razormane Dustrunner (west grounds)
+  complete 837 @38.00,51.80 era -- Razormane Battleguard (west grounds)
+  complete 96825 @43.60,50.50 era -- Prickly Pear Fruit (west grounds)
+  complete 6062 only Hunter,Orc,Troll @38.11,35.87 era -- Dire Mottled Boar (west flats)
+
+step East - Heglan's charge
+
+  zone map 1411
+
+  note East to Heglan Shadeeye (58.60,45.60): the Abandoned Dagger (58.85,44.35), Strange Debris (60.08,42.45) and Weapon Piece (60.11,44.80) lie around his post.
+
+  turnin 99048 -- A Missing Hand - Orgnil's word to Heglan Shadeeye
+  accept 99049 -- Threat from Below - Heglan Shadeeye; the dagger, the debris and the trident, here
+  complete 99049 @58.85,44.35 era -- Orcish Dagger (Abandoned Dagger, Heglan's post)
+  complete 99049 @60.08,42.45 era -- Banner Scrap (Strange Debris, Heglan's post)
+  complete 99049 @60.11,44.80 era -- Broken Bone Trident (Weapon Piece, Heglan's post)
+
+step Skull Rock - Fizzle's Claw
+
+  zone map 1411
+
+  note North to Skull Rock: Fizzle Darkstorm (42.12,26.66) carries the claw; Burning Blade cultists (51.89-52.67,24.93-29.19) carry Call of Fire's Reagent Pouch.
+
+  complete 806 @42.12,26.66 era -- Fizzle's Claw (Fizzle Darkstorm, Skull Rock)
+  complete 1525 only Shaman @51.89,25.71 era -- Reagent Pouch (Burning Blade Cultist, Skull Rock)
+
+step Razor Hill return - Margoz and the below
+
+  zone map 1411
+
+  note Back to Razor Hill: Orgnil takes the claw and Heglan's findings; Thotar takes the boar; Gar'Thok takes the west's work.
+
+  turnin 806 -- Dark Storms - Fizzle's Claw to Orgnil Soulscar
+  accept 828 -- Margoz - Orgnil Soulscar; Margoz far north takes the word (Margoz leg below)
+  turnin 99049 -- Threat from Below - the below's leavings to Orgnil Soulscar
+  accept 99051 -- Threat from Below - Orgnil Soulscar; nine Naga Spinefins off Spitelash, east shore (north leg below)
+  turnin 837 -- Encroachment - the Razormane dead to Gar'Thok
+  turnin 96825 -- This Fruit Could Bite Back - the fruit to Cook Torka
+  turnin 825 -- From The Wreckage.... - the Gnomish Tools to Gar'Thok
+  turnin 6062 only Hunter,Orc,Troll -- Taming the Beast - the boar to Thotar
+  accept 6083 only Hunter,Orc,Troll -- Taming the Beast - Thotar; a Surf Crawler, north-east shore (north leg below)
+
+step Margoz and the collars
+
+  zone map 1411
+
+  note Far north to Margoz (56.41,20.04): Searing Collars off the Burning Blade crews - Fanatics and Apprentices west (41.89-42.88,26.43-26.85), Thugs and Neophytes east (51.88-52.67,25.09-29.19). Neeru Fireblade in Orgrimmar takes the Skull Rock word.
+
+  turnin 828 -- Margoz - Orgnil's word to Margoz
+  accept 827 -- Skull Rock - Margoz; six Searing Collars off the crews
+  complete 827 @52.50,29.19 era -- Searing Collar (Burning Blade Thug, east crew)
+  complete 827 @51.88,26.31 era -- Searing Collar (Burning Blade Neophyte, east crew)
+  complete 827 @42.01,26.57 era -- Searing Collar (Burning Blade Fanatic, west crew)
+  turnin 827 -- Skull Rock - the collars to Margoz
+  accept 829 -- Neeru Fireblade - Margoz; Neeru Fireblade in Orgrimmar takes the word (Orgrimmar leg below)
+
+step North - Thunderhead and the far shore
+
+  zone map 1411
+
+  note North to Thunderhead: Rezlak (46.37,22.94), Stolen Supply Sacks (47.17-47.18,29.67-30.90), Dustwind Savages (51.43-52.12,20.77-23.82) and Storm Witches (50.97-51.27,19.19-23.25), Thunder Lizards and Lightning Hides (38.88-43.36,23.90-30.78). Farther north: Lieutenant Dagel (46.20,8.40), his circle (44.90,16.70), Uthel'nay (42.90,9.70), Ur'kyo (41.90,10.10), Rhinag (41.54,18.60). East shore: Spitelash (53.22-53.83,18.33-34.64), Aggor the Young (59.22,17.60), Armored Scorpids far west (35.74-37.93,36.87-46.49), Surf Crawlers north-east (58.85-59.63,28.34-86.20).
+
+  accept 834 -- Winds in the Desert - Rezlak; five Sacks of Supplies, here
+  complete 834 @47.17,29.67 era -- Sack of Supplies (Stolen Supply Sack, Thunderhead)
+  turnin 834 -- Winds in the Desert - the supplies to Rezlak
+  accept 835 -- Securing the Lines - Rezlak; Dustwind Savages and Storm Witches, here
+  complete 835 @51.43,20.86 era -- Dustwind Savages (Thunderhead)
+  complete 835 @50.97,19.56 era -- Dustwind Storm Witches (Thunderhead)
+  turnin 835 -- Securing the Lines - the Dustwind dead to Rezlak
+  note A Simmering Storm (97281) starts from the Dull Storm Orb off Dustwind Storm Witches and Eggtenders (49.44-51.27,15.34-23.25) - take it if it drops; Rezlak takes the storm.
+  accept 97281 -- A Simmering Storm - the Dull Storm Orb
+  turnin 97281 -- A Simmering Storm - the orb to Rezlak
+  accept 97282 -- Stormy Potential - Rezlak; five Charged Thunder Lizard Organs, west flats
+  complete 97282 @39.10,30.14 era -- Charged Thunder Lizard Organs (Thunder Lizard, west flats)
+  turnin 97282 -- Stormy Potential - the organs to Rezlak
+  accept 9263 -- Investigate the Scourge of Orgrimmar - Lieutenant Dagel; three Dim Necrotic Stones and the circle north (44.90,16.70)
+  complete 9263 @44.90,16.70 era -- Investigate a circle (far north)
+  complete 9263 @43.60,15.40 era -- Dim Necrotic Stones (Spectral Spirit, far north)
+  turnin 9263 -- Investigate the Scourge of Orgrimmar - the findings to Lieutenant Dagel
+  accept 816 -- Lost But Not Forgotten - Misha Tor'kren; Kron's Amulet off Dreadmaw crocolisks, far west coast
+  complete 816 @34.14,46.04 era -- Kron's Amulet (Dreadmaw Crocolisk, far west coast)
+  turnin 816 -- Lost But Not Forgotten - the amulet to Misha Tor'kren
+  accept 1883 -- Speak with Un'thuwa - Uthel'nay; Un'thuwa in Sen'jin takes the word
+  accept 5652 only Priest,Troll -- Hex of Weakness - Ur'kyo; Ur'kyo takes the rite here
+  turnin 5652 only Priest,Troll -- Hex of Weakness - the rite to Ur'kyo
+  accept 5662 only Priest,Undead -- Touch of Weakness - Ur'kyo; Aelthalyste in Tirisfal takes the word (Tirisfal leg below)
+  note Need for a Cure (812) needs one Venomtail Antidote off Kor'ghan in Orgrimmar (47.24,53.58) - none in Durotar; the Orgrimmar leg below runs it.
+  accept 812 -- Need for a Cure - Rhinag; the Venomtail Antidote in Orgrimmar (Orgrimmar leg below)
+  complete 99051 @53.22,31.45 era -- Naga Spinefins (Spitelash Scout, east shore)
+  complete 6083 only Hunter,Orc,Troll @58.85,28.34 era -- Surf Crawler (north-east shore)
+
+step Razor Hill return - below, crawlers and the boar's sequel
+
+  zone map 1411
+
+  note Back to Razor Hill: Orgnil takes the below's leavings, Thotar takes the crawler.
+
+  turnin 99051 -- Threat from Below - the spinefins to Orgnil Soulscar
+  accept 99052 -- Threat from Below - Orgnil Soulscar; Aggor's Belt, far north shore (north-shore return below)
+  accept 5654 only Priest,Troll -- Hex of Weakness - Tai'jin; Ur'kyo far north takes the rite (north coda below)
+  accept 5660 only Priest,Undead -- Touch of Weakness - Tai'jin; Aelthalyste in Tirisfal takes the word (Tirisfal leg below)
+  turnin 6083 only Hunter,Orc,Troll -- Taming the Beast - the crawler to Thotar
+  accept 6082 only Hunter,Orc,Troll -- Taming the Beast - Thotar; an Armored Scorpid, far west (west return below)
+
+step North-shore return - Aggor's Belt
+
+  zone map 1411
+
+  note Back to the far north shore for Aggor's Belt (59.22,17.60). This short return only runs with the below up.
+
+  when onquest 99052
+
+  complete 99052 @59.22,17.60 era -- Aggor's Belt (Aggor the Young, far north shore)
+
+step West return - the Armored Scorpid
+
+  zone map 1411
+
+  note Far west again for the scorpid (35.74-37.93,36.87-46.49). This short return only runs with the taming up.
+
+  when onquest 6082
+
+  complete 6082 only Hunter,Orc,Troll @35.74,36.87 era -- Armored Scorpid (far west)
+
+step Razor Hill return - training complete
+
+  zone map 1411
+
+  note Back to Thotar with the scorpid; his next lesson points to Orgrimmar.
+
+  turnin 6082 only Hunter,Orc,Troll -- Taming the Beast - the scorpid to Thotar
+  turnin 99052 -- Threat from Below - Aggor's Belt to Orgnil Soulscar
+  accept 6081 only Hunter,Orc,Troll -- Training the Beast - Thotar; Ormak Grimshot in Orgrimmar takes the word (Orgrimmar leg below)
+
+step Orgrimmar - city errands
+
+  zone map 1454
+
+  note Through the north gate to Orgrimmar: Nazgrel (32.30,35.75), Neeru Fireblade (49.47,50.59), Gan'rul Bloodeye (48.25,45.28), Ormak Grimshot (66.05,18.53), Therzok (42.73,53.55), Kor'ghan (47.24,53.58); the trainers Snang (62.93,49.24), Whuut (55.79,32.90), Jhag (53.47,38.55), Jandi (55.62,39.46), Karolek (62.81,44.15) and Thuwd (63.36,45.42).
+
+  turnin 831 -- The Admiral's Orders - the orders to Nazgrel
+  turnin 829 -- Neeru Fireblade - the Skull Rock word to Neeru Fireblade
+  turnin 1506 only Warlock -- Gan'rul's Summons - Ophek's word to Gan'rul Bloodeye
+  turnin 6081 only Hunter,Orc,Troll -- Training the Beast - Thotar's word to Ormak Grimshot
+  turnin 1859 only Rogue,Orc -- Therzok - Kaplak's word to Therzok
+  complete 96102 optional @62.93,49.24 -- Snang (Orgrimmar)
+  turnin 96102 optional -- Camping 101: Tailoring - Snang takes it
+  complete 812 @47.24,53.58 -- Venomtail Antidote (Kor'ghan, Orgrimmar)
+  complete 97899 optional @55.79,32.90 -- Whuut (Orgrimmar)
+  turnin 97899 optional -- Camping 101: Alchemy - Whuut takes it
+  complete 97901 optional @53.47,38.55 -- Jhag (Orgrimmar)
+  turnin 97901 optional -- Camping 101: Enchanting - Jhag takes it
+  complete 97905 optional @55.62,39.46 -- Jandi (Orgrimmar)
+  turnin 97905 optional -- Camping 101: Herbalism - Jandi takes it
+  complete 97906 optional @62.81,44.15 -- Karolek (Orgrimmar)
+  turnin 97906 optional -- Camping 101: Leatherworking - Karolek takes it
+  complete 97908 optional @63.36,45.42 -- Thuwd (Orgrimmar)
+  turnin 97908 optional -- Camping 101: Skinning - Thuwd takes it
+
+step North return - Rhinag's cure
+
+  zone map 1411
+
+  note Back north to Rhinag (41.54,18.60) with Kor'ghan's antidote, and to Ur'kyo (41.90,9.70) with Tai'jin's rite.
+
+  turnin 812 -- Need for a Cure - the antidote to Rhinag
+  turnin 5654 only Priest,Troll -- Hex of Weakness - Tai'jin's rite to Ur'kyo
+
+step Sen'jin coda - Un'thuwa's word
+
+  zone map 1411
+
+  note Back south to Un'Thuwa (56.31,75.11) in Sen'jin with Uthel'nay's word.
+
+  turnin 1883 -- Speak with Un'thuwa - Uthel'nay's word to Un'Thuwa
+
+step Barrens - tar and the outpost turnins
+
+  zone map 1413
+
+  note South into the Barrens: Razormane Seekers (53.05-53.65,24.51-25.05) carry the Fire Tar; Uzzek (61.38,21.12), Kargal Battlescar (62.26,19.38) and Kranal Fiss (56.03,19.89) take the outpost words. Telf Joolam's torch still needs its tar - grab one here.
+
+  complete 1525 only Shaman @53.05,25.05 -- Fire Tar (Razormane Seeker, the Barrens)
+  turnin 1505 only Warrior -- Veteran Uzzek - Tarshaw's word to Uzzek
+  turnin 840 -- Conscript of the Horde - the bundle to Kargal Battlescar
+  turnin 2983 only Shaman -- Call of Fire - Swart's word to Kranal Fiss
+
+step Telf Joolam - the torch's return
+
+  zone map 1411
+
+  when onquest 1525
+
+  note Back west to Telf Joolam (38.55,58.96) with the tar and the pouch. This mini-step only shows with the torch up.
+
+  turnin 1525 only Shaman -- Call of Fire - the tar and pouch to Telf Joolam
+
+step Telf Joolam - fire and ember
+
+  zone map 1411
+
+  note The Glowing Ember burns off the Minor Manifestation of Fire (38.72,58.29), and the Brazier of the Dormant Flame (38.96,58.22) takes the ember and gives the last Call.
+
+  accept 1526 only Shaman -- Call of Fire - Telf Joolam; a Glowing Ember off the Manifestation, here
+  complete 1526 only Shaman @38.72,58.29 era -- Glowing Ember (Minor Manifestation of Fire, here)
+  turnin 1526 only Shaman -- Call of Fire - the ember to the Brazier of the Dormant Flame
+  accept 1527 only Shaman -- Call of Fire - the Brazier of the Dormant Flame; Kranal Fiss in the Barrens takes the word (Barrens return below)
+
+step Barrens return - Kranal's word
+
+  zone map 1413
+
+  note South again to Kranal Fiss (56.03,19.89) with the Brazier's word.
+
+  turnin 1527 only Shaman -- Call of Fire - the Brazier's word to Kranal Fiss
+
+step Mulgore - the hunter's path
+
+  zone map 1412
+
+  note West to Mulgore: Yaw Sharpmane (46.93,59.65) takes the hunter's word.
+
+  turnin 6067 only Hunter,Tauren -- The Hunter's Path - Thotar's word to Yaw Sharpmane
+
+step Tirisfal - weakness shared
+
+  zone map 1420
+
+  note East across the sea to Tirisfal: Aelthalyste (58.20,68.90) takes both weakness rites.
+
+  turnin 5660 only Priest,Undead -- Touch of Weakness - Tai'jin's rite to Aelthalyste
+  turnin 5662 only Priest,Undead -- Touch of Weakness - Ur'kyo's rite to Aelthalyste
+
+step Sessaria - the fire call
+
+  zone map 2521
+
+  note Last leg to Sessaria Skystride (58.31,78.51) with the fire call. This step only shows on the Shaman intro.
+
+  when onquest 98517
+
+  turnin 98517 only Shaman,Horde -- Call of Fire - Swart's word to Sessaria Skystride
