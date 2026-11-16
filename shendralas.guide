@@ -1,0 +1,170 @@
+# Shen'dralas - Completionist (pack butler-routes-completionist, v1).
+# Every Shen'dralas accept in the local census (28 quests, band 30-49,
+# docs/shendralas-census.md, accept key 2652 verified by spawn counts) appears
+# exactly once as an accept; 28 turnins close every record (all 28 have a
+# turn-in in the data). The Horde-gated 93058/93062/93122/93128 block is out
+# with reasons in the census. No race header and no race gates: all 28 are
+# races=null (open). No class or skill gates anywhere (all null). Item
+# objectives with no data-placed source ship as honest area notes naming the
+# thing (R2); kill objectives and the data-placed pylons/events ride real
+# completes. Soft pres ride dedicated when-onquest minis: 93034 (Desolace
+# accept, turnin Nerlokh here) and 93066 (Desolace accept, turnin Hagiak
+# here); both turnins are documented non-contract lines, Silithus precedent.
+# Expedition tail groups the Desolace-frame objectives (11559 kills, Uthek
+# turnin) with frame switches (R1).
+
+guide butler-routes-completionist/shendralas
+title Shen'dralas
+levels 30-49
+zone Shen'dralas
+faction Alliance
+category Leveling
+folder Kalimdor
+coords live
+version 1
+
+step Nerlokh camp arrival (when onquest 93034)
+
+  zone map 2652
+
+  when onquest 93034
+  note Valley of Bones (93034) accepts from Uthek the Wise in Desolace, outside this contract - the Desolace guide routes it here. This step carries that handoff and nothing else.
+  turnin 93034 -- Valley of Bones - to Nerlokh (20.93, 22.68); holders turn in here, others skip - this unlocks Ravaging Ravagers and Outing Outcasts below
+
+step Nerlokh camp - Ravaging Ravagers and Outing Outcasts
+
+  zone map 2652
+
+  tip Arriving from Desolace down the Maraudon descent, Nerlokh's camp in the west is the hub: Nerlokh at (20.93, 22.68). This leg clears his openers and picks up the Uthek delivery for the end of the route.
+  accept 93035 -- Ravaging Ravagers - Nerlokh (20.93, 22.68)
+  turnin 93035 -- Ravaging Ravagers - back to Nerlokh
+  accept 93037 -- Outing Outcasts - Nerlokh (20.93, 22.68)
+  turnin 93037 -- Outing Outcasts - back to Nerlokh
+  accept 93041 -- Facing the Truth - Nerlokh (20.93, 22.68); for Uthek the Wise in Desolace - carried on the expedition below
+  note Magram Necromancers (253272) prowl the west, e.g. (24.55, 24.24) - Tattered Journal (item 260347) drops there and starts Tattered Journal, turned in at Mordent in the halls below; Outcast Necromancers in Desolace (the expedition below) drop it too
+
+step Hagiak camp - Long-Term Solutions (when onquest 93066)
+
+  zone map 2652
+
+  when onquest 93066
+  note Bristleback Retreat (93066) accepts from Orgrul in Desolace, outside this contract - the Desolace guide routes it here. This step carries that handoff and nothing else.
+  turnin 93066 -- Bristleback Retreat - to Hagiak (59.27, 53.93); holders turn in here, others skip - this unlocks Long-Term Solutions and Threat of Starvation below
+
+step Hagiak camp - Threat of Starvation and the Outcast kills
+
+  zone map 2652
+
+  accept 93129 -- Threat of Starvation - Hagiak (59.27, 53.93)
+  turnin 93129 -- Threat of Starvation - back to Hagiak
+  accept 93072 -- Long-Term Solutions - Hagiak (59.27, 53.93); Outcast Scouts and Marauders around the camp, Outcast Necromancers (11559) live in Desolace - carried on the expedition below
+  complete 93072 @46.44,58.86 -- Outcast Scouts west of the camp
+  complete 93072 @48.93,54.14 -- Outcast Marauders around the camp
+
+step Mordent halls - Strange Pylons and the history chain
+
+  zone map 2652
+
+  goto 35.17,46.61 -- Mordent Evenshade's halls in the center
+  accept 92914 -- Strange Pylons - Shen'dralar Pylon (43.61, 34.29)
+  complete 92914 @47.60,76.66 -- Temple pylon found, south past the halls
+  turnin 92914 -- Strange Pylons - to Mordent Evenshade (35.17, 46.61)
+  accept 96010 -- Fragments of the Pylons - Mordent Evenshade (35.17, 46.61); Pylon Fragments and Shards come from pylon sources the data does not place - check the pylons themselves
+  complete 96010 @43.61,34.29 -- Pylon Fragments and Shards at the western pylon
+  turnin 96010 -- Fragments of the Pylons - back to Mordent Evenshade
+  accept 96018 -- Powering the Pylons - Mordent Evenshade (35.17, 46.61)
+  turnin 96018 -- Powering the Pylons - back to Mordent Evenshade
+  accept 93016 -- A Brief History Lesson - Mordent Evenshade (35.17, 46.61)
+  turnin 93016 -- A Brief History Lesson - back to Mordent Evenshade
+  accept 93394 -- Meeting the Magister - Mordent Evenshade (35.17, 46.61)
+  turnin 93394 -- Meeting the Magister - to Magister Kirandis (47.37, 76.46)
+  note Prowlers (255207) roam the center - Partially Digested Collar (item 259461) drops there and starts Partially Digested Collar, turned in at Liranne below
+  accept 93568 -- Partially Digested Collar - starts from the Prowler-dropped collar in your bags, otherwise farmed below
+  collect 259461 x1 quest 93568.1 @45.75,49.32 -- Partially Digested Collar off the Prowlers for Liranne
+  turnin 93568 -- Partially Digested Collar - to Liranne (47.46, 65.63)
+  note Magram Necromancers (253272) prowl the west, e.g. (24.55, 24.24), and Outcast Necromancers work Desolace (the expedition below) - Tattered Journal (item 260347) drops from both and starts Tattered Journal
+  accept 93644 -- Tattered Journal - starts from the journal in your bags, otherwise farmed above
+  collect 260347 x1 quest 93644.1 @24.55,24.24 -- Tattered Journal off the Magram Necromancers for Mordent Evenshade
+  turnin 93644 -- Tattered Journal - to Mordent Evenshade (35.17, 46.61)
+
+step Forlorn gardens - Mithera's peonies
+
+  zone map 2652
+
+  accept 93341 -- Forlorn Gardens - Mithera (53.32, 76.02)
+  complete 93341 @70.32,79.69 -- Pedestal examined, east of the gardens
+  turnin 93341 -- Forlorn Gardens - back to Mithera
+  accept 93362 -- What They've Done to My Peonies - Mithera (53.32, 76.02)
+  complete 93362 @51.11,74.51 -- Rowdy Roses around the gardens
+  complete 93362 @58.00,82.52 -- Terrible Tulips south of the gardens
+  complete 93362 @57.76,53.95 -- Malevolent Marigolds north of the gardens
+  turnin 93362 -- What They've Done to My Peonies - back to Mithera
+  accept 93594 -- Word of the Woods - Mithera (53.32, 76.02)
+  turnin 93594 -- Word of the Woods - to Woodwyrd (69.66, 71.78)
+  note Forlorn Necklace (item 260247) has no drop source anywhere in the data - if it is in your bags it starts Forlorn Necklace, turned in here; never farmed
+  accept 93609 -- Forlorn Necklace - starts from the necklace in your bags, if you have it
+  turnin 93609 -- Forlorn Necklace - to Mithera (53.32, 76.02)
+
+step Vindael rise - Phantasmal Problems and the Biraxas relics
+
+  zone map 2652
+
+  accept 93450 -- Phantasmal Problems - Vindael (42.00, 79.02); the Phantasmal Blade (item 258735) has no placed source in the data - check phantasmal haunts near the rise
+  complete 93450 @42.00,79.02 -- Phantasmal Blade, around Vindael's rise
+  turnin 93450 -- Phantasmal Problems - back to Vindael
+  accept 93546 -- Spectral Iron Ore - Vindael (42.00, 79.02); Spectral Iron Ore (item 259226) x10 comes from ore sources the data does not place
+  complete 93546 @42.00,79.02 -- Spectral Iron Ore, around Vindael's rise
+  turnin 93546 -- Spectral Iron Ore - back to Vindael
+  accept 96060 -- Tempered Expectations - Vindael (42.00, 79.02)
+  turnin 96060 -- Tempered Expectations - back to Vindael
+  accept 99257 -- A Heart of Crystal - Historian Biraxas (46.00, 78.22)
+  complete 99257 @47.44,42.36 -- Depleted Crystal Heart off the Decrepit Pylon Protectors in the center
+  turnin 99257 -- A Heart of Crystal - back to Historian Biraxas
+  accept 99258 -- Mana Mania - Historian Biraxas (46.00, 78.22)
+  complete 99258 @45.89,39.56 -- Nascent Pylon Protectors in the center
+  turnin 99258 -- Mana Mania - back to Historian Biraxas
+  accept 93125 -- Going Home - Rokren (34.14, 77.91); for Nerlokh back west - carried to the closing step
+
+step Woodwyrd hollow - Rot and Regret
+
+  zone map 2652
+
+  accept 93404 -- Rot and Regret - Woodwyrd (69.66, 71.78); the Vial of Earth Song Water (item 258296) comes from a source the data does not map
+  complete 93404 @69.66,71.78 -- Woodwyrd himself, and the vial where you find it
+  turnin 93404 -- Rot and Regret - back to Woodwyrd
+  accept 93601 -- Passing the Blame - Woodwyrd (69.66, 71.78)
+  turnin 93601 -- Passing the Blame - to Kog'thug the Brave (72.73, 31.17)
+  accept 93604 -- Agamaggan's Blood - Kog'thug the Brave (72.73, 31.17); the Virulent Blood (item 260237) rides a kill credit the data does not place - blood of Agamaggan's line around the Bristleback grounds
+  complete 93604 @72.73,31.17 -- Virulent Blood of Agamaggan, around Kog'thug's grounds
+  turnin 93604 -- Agamaggan's Blood - back to Kog'thug the Brave
+  accept 93606 -- Not on Squealing Terms - Kog'thug the Brave (72.73, 31.17); the Benevolent Bouquet (item 260244) has no placed source in the data
+  complete 93606 @72.73,31.17 -- Benevolent Bouquet, around Kog'thug's grounds
+  turnin 93606 -- Not on Squealing Terms - to Quolga the Wise (58.15, 14.78)
+  tip Corpsefeeder is elite: grouping up is advised.
+  note Corpsefeeder (253394, rare elite) hunts the center-east, e.g. (43.81, 32.48) - its carapace (item 259893) starts Corpsefeeder's Carapace
+  accept 93574 -- Corpsefeeder's Carapace - starts from the Corpsefeeder-dropped carapace in your bags, otherwise farmed below
+  collect 259893 x1 quest 93574.1 @43.81,32.48 optional -- Corpsefeeder's Carapace off elite Corpsefeeder for Kog'thug the Brave
+  turnin 93574 -- Corpsefeeder's Carapace - to Kog'thug the Brave (72.73, 31.17)
+
+step Desolace expedition - necromancers and Uthek
+
+  zone map 1443
+
+  note Leaving Shen'dralas south into Desolace for the two out-of-zone legs, then back. Frame switches here and back.
+  complete 93072 @59.88,89.88 -- 8 Outcast Necromancers in the south of Desolace
+  turnin 93041 -- Facing the Truth - to Uthek the Wise (36.22, 79.25); this feeds the Desolace-contracted A Cleansing Cry, which the Desolace guide routes
+
+step Hagiak return - Orgrul handoff
+
+  zone map 2652
+
+  note Back inside Shen'dralas. Frame is home again.
+  turnin 93072 -- Long-Term Solutions - to Hagiak (59.27, 53.93)
+  accept 93188 -- Return to Orgrul - Hagiak (59.27, 53.93)
+  turnin 93188 -- Return to Orgrul - to Orgrul (35.71, 12.66); this feeds the Desolace-contracted Khan Jehn, which the Desolace guide routes. Orgrul also offers the Desolace-contracted Orgrul chain (92844 and followers) - see the Desolace guide, never accepted here.
+
+step Nerlokh close - Going Home
+
+  zone map 2652
+
+  turnin 93125 -- Going Home - to Nerlokh (20.93, 22.68), closing the loop back west
