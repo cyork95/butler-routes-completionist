@@ -433,9 +433,9 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 
 ### Swamp of Sorrows — contested (Eastern Kingdoms)
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (19 IN, 33 OUT)
+- [x] Core guide (19 accepts, 19 turn-ins)
+- [x] Lint/playtest clean (0 errors; R1/R2/R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
