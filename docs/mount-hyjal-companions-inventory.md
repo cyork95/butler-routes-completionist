@@ -28,9 +28,10 @@ Shipped (spawn points are 2482 data points):
   No mob drops in the data. Kill-only in the rares guide; he is ALSO a
   6-recipe vendor (see Recipes) — the step tells the player to buy first.
 - Head Scratcher (251199, lvl60, rank 1) — 4 pts: (33.82,72.86) /
-  (35.32,71.3) / (36.02,73.39) / (36.56,72.13), loop over all. Signature:
-  Head Scratcher's Scratchers (251781), sole dropper anywhere in the data —
-  ships as an optional collect.
+  (35.32,71.3) / (36.02,73.39) / (36.56,72.13), loop over all. Signature drop noted but NOT shipped as a collect: Head Scratcher's
+  Scratchers (251781) drop solely from him, but only while holding Horde-only
+  quest 92446 — an Alliance collect could never credit, so the step carries
+  an honest note instead (R3 warning cleared by removing the goal).
 - Ghansurok (251488 + 264867, lvl61, rank 1, "Blight of the Hills") — 10 pts
   across both ids: east cluster (59-61, 61-64) and north cluster
   (69.1-69.4, 21.5-23), loop over all. One level above band: come-back-later

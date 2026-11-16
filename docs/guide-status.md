@@ -513,7 +513,7 @@ _Content as the game data dictates._
 - [x] Lint/playtest clean (0 errors, 35 warnings in 3 argued classes; R1 + R5 residue, 0 stuck)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (8 rares, 0 treasures in data; 80 recipes: 78 vendor + 2 zone-narrow drops)
 
 ### Shen'dralas — Forever-original zone
 

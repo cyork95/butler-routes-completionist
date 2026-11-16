@@ -639,3 +639,15 @@ as above: game-data citation or a named source.
 ## Winterspring stock class and timers (pack 0.82.0)
 
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so no buy line carries a limited marking; stock class is unconfirmed. No respawn data for any rare or container exists in the local build; every step says the timer is unconfirmed.
+
+## Mount Hyjal tame lines (pack 0.86.0)
+
+- Of the 8 shipped rares, 6 read non-beast (Death Wailer, Legion Hulk, Bannerwing Survivor, Overseer Myoleth, Pexmit, Doomguard Xarkul) by name/family with generic or no loot - no tame question arises. Head Scratcher (251199) and Ghansurok (251488/264867) are beast-plausible, but neither presents beast-drop evidence with a core-guide beast-family kill to corroborate (core kills are soldiers, raveners, reanimators, furbolg, ancients, owls, foxes, stags, cultists, adepts, sentinels, slimes and demons - no scratcher/blight overlap confirmable), and NPC records carry no family/tame flags, so no tame line ships. Revisit if a family flag or tame evidence appears.
+
+## Mount Hyjal generic-drop exclusions (pack 0.86.0)
+
+- Hundreds of in-zone-dropping recipe-name matches are generic multi-zone world drops (dozens to hundreds of droppers each) and ship nowhere per the Elwynn rule. Quest-reward recipes are unverifiable as a class (quest records carry no reward data). Head Scratcher's Scratchers (251781) drop solely from Head Scratcher but only while holding Horde-only quest 92446, so no Alliance collect could credit - the rares step carries an honest note instead of a goal.
+
+## Mount Hyjal stock class and timers (pack 0.86.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so no buy line carries a limited marking; stock class is unconfirmed. No respawn data for any rare exists in the local build; every step says the timer is unconfirmed.
