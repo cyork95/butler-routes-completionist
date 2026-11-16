@@ -593,3 +593,16 @@ as above: game-data citation or a named source.
 
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so none of the 8 vendor recipes is marked limited.
 - No respawn data for any of the 10 shipped rares or the 6 drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
+
+## Western Plaguelands tame lines (pack 0.74.0)
+
+- None of the 10 shipped rares carries a tame line. NPC records have no family flag, so beast status is unassessable from data, and none of the 10 presents beast-drop evidence (tables are generic greens plus the three signature weapon/ring/seal drops) with a core-guide beast-family kill to corroborate (core kills are scourge/undead, scarlets, spiders, elementals, oozes - no hunter-tameable family overlap asserted). Revisit if a family flag or tame evidence appears.
+
+## Western Plaguelands objects without loot evidence (pack 0.74.0)
+
+- Present on map 1423 with fixed points but no contents or quest linkage in the data, so no step can be built: Blood of Heroes (176213/176214, 24 pts each), Third/Fourth Mosh'aru Tablet (175487/175488), Quel'Thalas Registry (177747), Aurora's Book (178229) + Aurora's Aura (178230), Symbol of Lost Honor (177264), Tirion Fordring's Grave (177239) + Loose Dirt Mound (177240), Darrowshire Town Square spell focus DND (177528), Rancid Meat (177664), Big Rancid Meat (177665), Torn Scroll (177667), Mound of Dirt (177675), Mangled Human Remains x3 (177804/177805/177806), Shallow Grave (177677), Mark of Detonation (177668), Tower Banner (182106), Lordaeron Shrines (181682/181955), Basin of Holy Water (182063), The Argent Hold (176317), Horgus' Skull Trap (176591), Sword of Marduk Trap (176865).
+
+## Western Plaguelands stock class and respawn timers (pack 0.74.0)
+
+- No recipe vendor spawns in the zone, so no stock class applies to any of the 16 shipped recipes (all are mob drops).
+- No respawn data for any of the 10 shipped rares or the drop-source mobs exists in the local build. Every step says the timer is unconfirmed.
