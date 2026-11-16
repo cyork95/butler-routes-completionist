@@ -1,0 +1,24 @@
+# Deadwind Pass - Completionist (pack butler-routes-completionist, v1).
+# The zone's whole census is one quest: the data holds no quest that accepts
+# from any of Deadwind's 34 NPCs or 39 objects, and no quest objectives any
+# of them. What exists is a single sourceless tailoring writ turning in at
+# Hastings. Run this in its own tab at 60 whenever the writ is to hand.
+guide butler-routes-completionist/deadwind-pass
+title Deadwind Pass
+levels 60-60
+zone Deadwind Pass
+faction Alliance
+category Leveling
+folder Eastern Kingdoms
+coords live
+version 1
+
+step Hastings - the Tuxedo Jacket writ
+
+  zone map 1430
+
+  note One quest lives in Deadwind Pass in the data: the Craftsman's Writ below. Ride in from Duskwood to the west or the Swamp of Sorrows to the east; Hastings waits at the roadside south of the crossroads.
+  note The writ item (264155) has no source anywhere in the data - no drops, no vendors - so have the writ and a Tuxedo Jacket (10036) in your bags before you come; nothing here can supply them.
+  goto 46.99,75.32
+  accept 94355 optional -- Craftsman's Writ: Tuxedo Jacket - Hastings; have the writ and the jacket in your bags
+  turnin 94355 optional -- Craftsman's Writ: Tuxedo Jacket - Hastings
