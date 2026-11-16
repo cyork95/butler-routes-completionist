@@ -1,0 +1,200 @@
+# Swamp of Sorrows - Completionist (pack butler-routes-completionist, v1).
+# The pack's Alliance route for the contested Swamp (zone key 1435,
+# order 36). Every Swamp accept in the local census (19 quests,
+# docs/swamp-of-sorrows-census.md) appears exactly once as an accept
+# and once as a turnin. Band 30-38 by minLevel cluster (ten at min30,
+# top min36). 17 Horde accepts set aside for the Horde block, 16
+# above-band records out (Fallen Hero, Eranikus, amulet, Warrior
+# 8423-8425, Visions chains). No class, race or profession gates: the
+# data locks none of the 19. The four Craftsman's Writs ride optional
+# + when-skill gated with bag notes (sourceless item-starts, crafted
+# turn-ins). Cortello's Riddle starts from a Stranglethorn object and
+# ends in Dustwallow (Barrens copy noted); the entomology specimens
+# are caught in Stranglethorn, Arathi and Desolace; deliveries run to
+# the Blasted Lands, Riverglades and Desolace - the contract is
+# accept-based, so the zone's chains are followed wherever they lead.
+guide butler-routes-completionist/swamp-of-sorrows
+title Swamp of Sorrows - Completionist
+levels 30-38
+zone Swamp of Sorrows
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Nethergarde - the caravan chain
+
+  zone map 1435
+
+  note Enter from the Blasted Lands border; Watcher Biggs holds the Nethergarde caravan chain.
+  accept 1396 -- Encroaching Wildlife - Watcher Biggs; crocolisks, spinners and jaguars, west wilds
+  complete 1396 @27.1,55.13 -- Young Sawtooth Crocolisk (west wilds)
+  complete 1396 @30.32,54.77 -- Young Sawtooth Crocolisk (west wilds)
+  complete 1396 @25.38,59.33 -- Sorrow Spinner (west wilds)
+  complete 1396 @28.34,62.04 -- Sorrow Spinner (west wilds)
+  complete 1396 @26.33,60.73 -- Swamp Jaguar (west wilds)
+  complete 1396 @31.66,29.4 -- Swamp Jaguar (west wilds)
+  turnin 1396 -- Encroaching Wildlife - the cull to Watcher Biggs
+  accept 1421 -- The Lost Caravan - Watcher Biggs; the wizards' reagents in the Fallow Sanctuary, east (Fallow leg below)
+
+step Fallow Sanctuary - the caravan chest
+
+  zone map 1435
+
+  complete 1421 @64.46,18.3 -- Wizards' Reagents (Caravan Chest, Fallow Sanctuary)
+  accept 1393 -- Galen's Escape - Galen Goodward; escort out of the Fallow Sanctuary (@65.47,18.16, same ground)
+  complete 1393 @53.08,29.55 -- Escort Galen out of the Fallow Sanctuary
+  turnin 1393 -- Galen's Escape - Galen's Strongbox (@47.81,39.76, his camp west)
+  note Noboru's Cudgel (item 6196) drops off Noboru the Cudgel at 54.9,34.1, south of here - accept 1392 below when it drops.
+  accept 1392 -- Noboru the Cudgel - the cudgel to the Harborage leader (Harborage leg below)
+
+step Harborage - draenethyst and the mage's word
+
+  zone map 1435
+
+  accept 1389 -- Draenethyst Crystals - Magtoor; six crystals to the Harborage (@25.98,31.4, northwest)
+  complete 1389 @55.09,30.08 -- Draenethyst Crystal (Harborage approach)
+  complete 1389 @62.08,22.45 -- Draenethyst Crystal (east ground)
+  complete 1389 @64.76,22.7 -- Draenethyst Crystal (east ground)
+  turnin 1389 -- Draenethyst Crystals - the crystals to Magtoor
+  accept 93464 -- The Visiting Mage - Magtoor; the Desolace mage who knows draenethyst (Desolace expedition below)
+  turnin 1392 -- Noboru the Cudgel - the cudgel to Magtoor
+  turnin 1421 -- The Lost Caravan - the reagents to Watcher Biggs (Nethergarde return below)
+
+step Nethergarde return - driftwood and the shipments
+
+  zone map 1435
+
+  accept 1398 -- Driftwood - Watcher Biggs; sundried driftwood, the east coast run below
+  complete 1398 @83.51,13.78 -- Sundried Driftwood (east coast)
+  complete 1398 @89.79,22.36 -- Sundried Driftwood (east coast)
+  complete 1398 @94.65,49.99 -- Sundried Driftwood (east coast)
+  complete 1398 @86.35,81.45 -- Sundried Driftwood (far east shore)
+  turnin 1398 -- Driftwood - the driftwood to Watcher Biggs
+  accept 1425 -- Deliver the Shipment - Watcher Biggs; the shipment to Quartermaster Lungertz in Nethergarde Keep, Blasted Lands (Blasted expedition below)
+  accept 94929 -- Deliver the Second Shipment - Watcher Biggs; the shipment to Demar Brant at Farholde Keep in the Riverglades (Riverglades expedition below)
+
+step West wilds - the entomologist and the light
+
+  zone map 1435
+
+  accept 93176 -- My Little Friends - Amaryllis Webb; three specimens caught abroad, one each in Stranglethorn, Arathi and Desolace (specimen legs below - the kit is the sourcing note)
+  goto 22.32,50.41 -- Father Tuttle (west wilds)
+  note Cortello's Riddle (item 4056) is picked up off Cortello's Riddle object in Stranglethorn - accept 624 below when it drops; no placed source in this zone.
+  accept 624 -- Cortello's Riddle - solve the riddle; the Soggy Scroll waits in the west wilds (@22.87,48.19, below)
+  turnin 624 @22.87,48.19 -- Cortello's Riddle - the riddle to the Soggy Scroll
+  accept 625 -- Cortello's Riddle - the Soggy Scroll's word; the Musty Scroll waits in Dustwallow (Dustwallow expedition below)
+  accept 93585 -- This Light of Mine - Father Tuttle; escort to the Harborage (no objectives in the data - walk him to Magtoor, turnin below)
+
+step Harborage return - Tuttle's light
+
+  zone map 1435
+
+  turnin 93585 -- This Light of Mine - Father Tuttle to the Harborage, word to Magtoor
+
+step North - blood, bait and the Fallow fishermen
+
+  zone map 1435
+
+  note Blood of My Blood: the data lists no objectives although the log text says slay 10 Lost Ones in the Fallow Sanctuary - no complete can be written from data, so accept and turnin only.
+  accept 93429 -- Blood of My Blood - Karana; Lost Ones, Fallow Sanctuary (see note above)
+  turnin 93429 -- Blood of My Blood - Karana's word
+  accept 93430 -- Taking the Bait Back - Pelluk; the Lucky Lure off the Lost One Fisherman, Fallow water (@43-59,27-32, below)
+  complete 93430 @48.66,30.44 -- Lucky Lure (Lost One Fisherman, Fallow water)
+  complete 93430 @56.58,30.73 -- Lucky Lure (Lost One Fisherman, Fallow water)
+  turnin 93430 -- Taking the Bait Back - the lure to Pelluk
+
+step East - Shadow Oil writ (optional craft)
+
+  zone map 1435
+
+  when skill Alchemy 1
+
+  goto 62.39,52.85 -- Mukomonji (east Swamp)
+  note Craftsman's Writ: Shadow Oil (item 264064) turns up in loot - the data names no placed source, so accept 94264 below when the writ drops; craft or buy the Shadow Oil beforehand.
+  accept 94264 optional -- Craftsman's Writ: Shadow Oil - Mukomonji; Shadow Oil, Alchemy work (see note above)
+  turnin 94264 optional -- Craftsman's Writ: Shadow Oil - the Shadow Oil to Mukomonji
+
+step East - Big Voodoo Mask writ (optional craft)
+
+  zone map 1435
+
+  when skill Leatherworking 1
+
+  goto 62.39,52.85 -- Mukomonji (east Swamp)
+  note Craftsman's Writ: Big Voodoo Mask (item 264100) turns up in loot - the data names no placed source, so accept 94300 below when the writ drops; craft or buy the Big Voodoo Mask beforehand.
+  accept 94300 optional -- Craftsman's Writ: Big Voodoo Mask - Mukomonji; Big Voodoo Mask, Leatherworking work (see note above)
+  turnin 94300 optional -- Craftsman's Writ: Big Voodoo Mask - the Big Voodoo Mask to Mukomonji
+
+step East - Mithril Frag Bomb writ (optional craft)
+
+  zone map 1435
+
+  when skill Engineering 1
+
+  goto 69.98,41.6 -- Bullets Bigblast (far east)
+  note Craftsman's Writ: Mithril Frag Bomb (item 264088) turns up in loot - the data names no placed source, so accept 94288 below when the writ drops; craft or buy the Mithril Frag Bombs beforehand.
+  accept 94288 optional -- Craftsman's Writ: Mithril Frag Bomb - Bullets Bigblast; Mithril Frag Bombs, Engineering work (see note above)
+  turnin 94288 optional -- Craftsman's Writ: Mithril Frag Bomb - the Mithril Frag Bombs to Bullets Bigblast
+
+step East - Orange Martial Shirt writ (optional craft)
+
+  zone map 1435
+
+  when skill Tailoring 1
+
+  goto 69.98,41.6 -- Bullets Bigblast (far east)
+  note Craftsman's Writ: Orange Martial Shirt (item 264112) turns up in loot - the data names no placed source, so accept 94312 below when the writ drops; craft or buy the Orange Martial Shirt beforehand.
+  accept 94312 optional -- Craftsman's Writ: Orange Martial Shirt - Bullets Bigblast; Orange Martial Shirt, Tailoring work (see note above)
+  turnin 94312 optional -- Craftsman's Writ: Orange Martial Shirt - the Orange Martial Shirt to Bullets Bigblast
+
+step Blasted expedition - the first shipment
+
+  zone map 1419
+
+  turnin 1425 -- Deliver the Shipment - the shipment to Quartermaster Lungertz
+
+step Riverglades expedition - the second shipment
+
+  zone map 2548
+
+  turnin 94929 -- Deliver the Second Shipment - the shipment to Demar Brant
+
+step Desolace expedition - the mage and the picker
+
+  zone map 1443
+
+  turnin 93464 -- The Visiting Mage - Magtoor's word to Azore Aldamort
+  goto 49.16,58.45 -- Flesh Picker ground (Desolace)
+  collect 213567 "Flesh Picker Specimen" optional
+  note Flesh Picker specimen for My Little Friends (93176) - caught here, turned in back in the Swamp (Amaryllis Webb). Two of three specimens; the third rides the Arathi leg.
+
+step Arathi expedition - the weevil
+
+  zone map 1417
+
+  goto 31.12,29.53 -- Hay Weevil ground (Arathi)
+  collect 213568 "Hay Weevil Specimen" optional
+  note Hay Weevil specimen for My Little Friends (93176) - caught here. One of three specimens; the other two ride the Desolace and Stranglethorn legs.
+
+step Stranglethorn expedition - the tarantula
+
+  zone map 1434
+
+  goto 44.05,22.65 -- Arbor Tarantula ground (Stranglethorn)
+  collect 213566 "Arbor Tarantula Specimen" optional
+  note Arbor Tarantula specimen for My Little Friends (93176) - caught here. Last of the three specimens; turnin back in the Swamp.
+
+step Dustwallow expedition - the Musty Scroll
+
+  zone map 1445
+
+  turnin 625 @31.11,66.14 -- Cortello's Riddle - the riddle's end at the Musty Scroll (Dustwallow copy)
+  note The data also shows this scroll in the far-south Barrens (51.6,88.2) - either copy advances the riddle; this guide routes Dustwallow.
+
+step Swamp return - the specimens home
+
+  zone map 1435
+
+  turnin 93176 -- My Little Friends - the three specimens to Amaryllis Webb
