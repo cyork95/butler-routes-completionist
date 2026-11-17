@@ -544,9 +544,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 _City guide per the Alliance city pattern: a census + compact core for the quests that accept inside the city. Companions only where the data warrants._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census — 155 candidates, 78 IN (Mulgore 150 reconciled)
+- [x] Core guide — `thunder-bluff-city.guide`
+- [x] Lint/playtest clean — 0 errors, playtest residue R1/R5 only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions (only where the data warrants)
