@@ -13370,6 +13370,707 @@
           "name": "Rear Guard Patrol"
         }
       ]
+    },
+    {
+      "id": "orgrimmar-city",
+      "name": "Orgrimmar",
+      "order": 49,
+      "levelBand": "1-60",
+      "summary": "Horde capital: Valley of Strength and Wisdom hubs, the Cleft of Shadow warlock row, Drag and Valley of Honor class chains, the Mokvar T0.5 sets, cloth donations, multi-city shared accepts, and accept-based expeditions",
+      "quests": [
+        {
+          "id": 787,
+          "name": "The New Horde"
+        },
+        {
+          "id": 809,
+          "name": "Ak'Zeloth"
+        },
+        {
+          "id": 813,
+          "name": "Finding the Antidote"
+        },
+        {
+          "id": 1018,
+          "name": "The New Frontier"
+        },
+        {
+          "id": 1061,
+          "name": "The Spirits of Stonetalon"
+        },
+        {
+          "id": 1146,
+          "name": "The Swarm Grows"
+        },
+        {
+          "id": 1361,
+          "name": "Regthar Deathgate"
+        },
+        {
+          "id": 1431,
+          "name": "Alliance Relations"
+        },
+        {
+          "id": 1432,
+          "name": "Alliance Relations"
+        },
+        {
+          "id": 1501,
+          "name": "Creature of the Void"
+        },
+        {
+          "id": 1504,
+          "name": "The Binding"
+        },
+        {
+          "id": 1507,
+          "name": "Devourer of Souls"
+        },
+        {
+          "id": 1508,
+          "name": "Blind Cazul"
+        },
+        {
+          "id": 1509,
+          "name": "News of Dogran"
+        },
+        {
+          "id": 1513,
+          "name": "The Binding"
+        },
+        {
+          "id": 1522,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 1528,
+          "name": "Call of Water"
+        },
+        {
+          "id": 1531,
+          "name": "Call of Air"
+        },
+        {
+          "id": 1718,
+          "name": "The Islander"
+        },
+        {
+          "id": 1823,
+          "name": "Speak with Ruga"
+        },
+        {
+          "id": 1858,
+          "name": "The Shattered Hand"
+        },
+        {
+          "id": 1944,
+          "name": "Waters of Xavian"
+        },
+        {
+          "id": 1945,
+          "name": "Laughing Sisters"
+        },
+        {
+          "id": 1947,
+          "name": "Journey to the Marsh"
+        },
+        {
+          "id": 1953,
+          "name": "Return to the Marsh"
+        },
+        {
+          "id": 1959,
+          "name": "Report to Anastasia"
+        },
+        {
+          "id": 1963,
+          "name": "The Shattered Hand"
+        },
+        {
+          "id": 2283,
+          "name": "Necklace Recovery"
+        },
+        {
+          "id": 2284,
+          "name": "Necklace Recovery, Take 2"
+        },
+        {
+          "id": 2341,
+          "name": "Necklace Recovery, Take 3"
+        },
+        {
+          "id": 235,
+          "name": "The Ashenvale Hunt"
+        },
+        {
+          "id": 2379,
+          "name": "Zando'zan"
+        },
+        {
+          "id": 2382,
+          "name": "Wrenix of Ratchet"
+        },
+        {
+          "id": 2458,
+          "name": "Deep Cover"
+        },
+        {
+          "id": 2460,
+          "name": "The Shattered Salute"
+        },
+        {
+          "id": 2479,
+          "name": "Hinott's Assistance"
+        },
+        {
+          "id": 2751,
+          "name": "Barbaric Battlements"
+        },
+        {
+          "id": 2752,
+          "name": "On Iron Pauldrons"
+        },
+        {
+          "id": 2753,
+          "name": "Trampled Under Foot"
+        },
+        {
+          "id": 2754,
+          "name": "Horns of Frenzy"
+        },
+        {
+          "id": 2755,
+          "name": "Joys of Omosh"
+        },
+        {
+          "id": 2756,
+          "name": "The Old Ways"
+        },
+        {
+          "id": 2757,
+          "name": "Booty Bay or Bust!"
+        },
+        {
+          "id": 2841,
+          "name": "Rig Wars"
+        },
+        {
+          "id": 2842,
+          "name": "Chief Engineer Scooty"
+        },
+        {
+          "id": 2950,
+          "name": "Nogg's Ring Redo"
+        },
+        {
+          "id": 2981,
+          "name": "A Threat in Feralas"
+        },
+        {
+          "id": 2996,
+          "name": "Seeking Strahad"
+        },
+        {
+          "id": 3122,
+          "name": "Return to Witch Doctor Uzer'i"
+        },
+        {
+          "id": 3504,
+          "name": "Betrayed"
+        },
+        {
+          "id": 3563,
+          "name": "Jes'rimon's Payment to Jediga"
+        },
+        {
+          "id": 3631,
+          "name": "Summon Felsteed"
+        },
+        {
+          "id": 3924,
+          "name": "Samophlange Manual"
+        },
+        {
+          "id": 4002,
+          "name": "The Eastern Kingdom"
+        },
+        {
+          "id": 4003,
+          "name": "The Royal Rescue"
+        },
+        {
+          "id": 4300,
+          "name": "Bone-Bladed Weapons"
+        },
+        {
+          "id": 4494,
+          "name": "March of the Silithid"
+        },
+        {
+          "id": 4511,
+          "name": "Calm Before the Storm"
+        },
+        {
+          "id": 4737,
+          "name": "In Search of Menara Voidrender"
+        },
+        {
+          "id": 4967,
+          "name": "Knowledge of the Orb of Orahil"
+        },
+        {
+          "id": 4974,
+          "name": "For The Horde!"
+        },
+        {
+          "id": 5093,
+          "name": "A Call to Arms: The Plaguelands!"
+        },
+        {
+          "id": 5301,
+          "name": "The Art of the Armorsmith"
+        },
+        {
+          "id": 5302,
+          "name": "The Way of the Weaponsmith"
+        },
+        {
+          "id": 5646,
+          "name": "Dark Sacrifice"
+        },
+        {
+          "id": 5680,
+          "name": "Shadowguard"
+        },
+        {
+          "id": 5726,
+          "name": "Hidden Enemies"
+        },
+        {
+          "id": 5727,
+          "name": "Hidden Enemies"
+        },
+        {
+          "id": 5728,
+          "name": "Hidden Enemies"
+        },
+        {
+          "id": 5729,
+          "name": "Hidden Enemies"
+        },
+        {
+          "id": 5730,
+          "name": "Hidden Enemies"
+        },
+        {
+          "id": 5761,
+          "name": "Slaying the Beast"
+        },
+        {
+          "id": 5927,
+          "name": "Heeding the Call"
+        },
+        {
+          "id": 6066,
+          "name": "The Hunter's Path"
+        },
+        {
+          "id": 6068,
+          "name": "The Hunter's Path"
+        },
+        {
+          "id": 6385,
+          "name": "Doras the Wind Rider Master"
+        },
+        {
+          "id": 6386,
+          "name": "Return to the Crossroads."
+        },
+        {
+          "id": 649,
+          "name": "Ripple Recovery"
+        },
+        {
+          "id": 650,
+          "name": "Ripple Recovery"
+        },
+        {
+          "id": 6566,
+          "name": "What the Wind Carries"
+        },
+        {
+          "id": 6567,
+          "name": "The Champion of the Horde"
+        },
+        {
+          "id": 65601,
+          "name": "Love Hurts"
+        },
+        {
+          "id": 65604,
+          "name": "The Binding"
+        },
+        {
+          "id": 65610,
+          "name": "Wish You Were Here"
+        },
+        {
+          "id": 6608,
+          "name": "You Too Good."
+        },
+        {
+          "id": 6611,
+          "name": "To Gadgetzan You Go!"
+        },
+        {
+          "id": 6623,
+          "name": "Horde Trauma"
+        },
+        {
+          "id": 6681,
+          "name": "The Manor, Ravenholdt"
+        },
+        {
+          "id": 7068,
+          "name": "Shadowshard Fragments"
+        },
+        {
+          "id": 7241,
+          "name": "In Defense of Frostwolf"
+        },
+        {
+          "id": 7341,
+          "name": "A Fair Trade"
+        },
+        {
+          "id": 7491,
+          "name": "For All To See"
+        },
+        {
+          "id": 7492,
+          "name": "Camp Mojache"
+        },
+        {
+          "id": 7493,
+          "name": "The Journey Has Just Begun"
+        },
+        {
+          "id": 7541,
+          "name": "Service to the Horde"
+        },
+        {
+          "id": 7562,
+          "name": "Mor'zul Bloodbringer"
+        },
+        {
+          "id": 7667,
+          "name": "Material Assistance"
+        },
+        {
+          "id": 7668,
+          "name": "The Darkreaver Menace"
+        },
+        {
+          "id": 7669,
+          "name": "Again Into the Great Ossuary"
+        },
+        {
+          "id": 7784,
+          "name": "The Lord of Blackrock"
+        },
+        {
+          "id": 7824,
+          "name": "A Donation of Runecloth"
+        },
+        {
+          "id": 7826,
+          "name": "A Donation of Wool"
+        },
+        {
+          "id": 7827,
+          "name": "A Donation of Silk"
+        },
+        {
+          "id": 7831,
+          "name": "A Donation of Mageweave"
+        },
+        {
+          "id": 7833,
+          "name": "A Donation of Wool"
+        },
+        {
+          "id": 7834,
+          "name": "A Donation of Silk"
+        },
+        {
+          "id": 7835,
+          "name": "A Donation of Mageweave"
+        },
+        {
+          "id": 7836,
+          "name": "A Donation of Runecloth"
+        },
+        {
+          "id": 79094,
+          "name": "The Lessons of Ta'zo"
+        },
+        {
+          "id": 8151,
+          "name": "The Hunter's Charm"
+        },
+        {
+          "id": 8233,
+          "name": "A Simple Request"
+        },
+        {
+          "id": 8250,
+          "name": "Magecraft"
+        },
+        {
+          "id": 8254,
+          "name": "Cenarion Aid"
+        },
+        {
+          "id": 8258,
+          "name": "The Darkreaver Menace"
+        },
+        {
+          "id": 8259,
+          "name": "A More Fitting Reward"
+        },
+        {
+          "id": 8276,
+          "name": "Taking Back Silithus"
+        },
+        {
+          "id": 8410,
+          "name": "Elemental Mastery"
+        },
+        {
+          "id": 8417,
+          "name": "A Troubled Spirit"
+        },
+        {
+          "id": 8419,
+          "name": "An Imp's Request"
+        },
+        {
+          "id": 84155,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 84156,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 84157,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 84158,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 84159,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 84160,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 84161,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 84162,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 8913,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 8914,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 8915,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 8916,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 8917,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 8918,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 8919,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 8920,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 8923,
+          "name": "A Supernatural Device"
+        },
+        {
+          "id": 8927,
+          "name": "Just Compensation"
+        },
+        {
+          "id": 8930,
+          "name": "In Search of Anthion"
+        },
+        {
+          "id": 8938,
+          "name": "Just Compensation"
+        },
+        {
+          "id": 8939,
+          "name": "Just Compensation"
+        },
+        {
+          "id": 8940,
+          "name": "Just Compensation"
+        },
+        {
+          "id": 8941,
+          "name": "Just Compensation"
+        },
+        {
+          "id": 8942,
+          "name": "Just Compensation"
+        },
+        {
+          "id": 8943,
+          "name": "Just Compensation"
+        },
+        {
+          "id": 8944,
+          "name": "Just Compensation"
+        },
+        {
+          "id": 9007,
+          "name": "Saving the Best for Last"
+        },
+        {
+          "id": 9008,
+          "name": "Saving the Best for Last"
+        },
+        {
+          "id": 9009,
+          "name": "Saving the Best for Last"
+        },
+        {
+          "id": 9010,
+          "name": "Saving the Best for Last"
+        },
+        {
+          "id": 9011,
+          "name": "Saving the Best for Last"
+        },
+        {
+          "id": 9012,
+          "name": "Saving the Best for Last"
+        },
+        {
+          "id": 9013,
+          "name": "Saving the Best for Last"
+        },
+        {
+          "id": 9014,
+          "name": "Saving the Best for Last"
+        },
+        {
+          "id": 9032,
+          "name": "Bodley's Unfortunate Fate"
+        },
+        {
+          "id": 91548,
+          "name": "Vek'zol"
+        },
+        {
+          "id": 91735,
+          "name": "Remote Contact"
+        },
+        {
+          "id": 936,
+          "name": "Assisting Arch Druid Runetotem"
+        },
+        {
+          "id": 93739,
+          "name": "Exploring the Horde"
+        },
+        {
+          "id": 95283,
+          "name": "The Missing Kor'kron"
+        },
+        {
+          "id": 95697,
+          "name": "Changing Tastes"
+        },
+        {
+          "id": 96376,
+          "name": "State Secrets"
+        },
+        {
+          "id": 96874,
+          "name": "This Is Spinal Axe"
+        },
+        {
+          "id": 96875,
+          "name": "Beasts of Thunder Ridge"
+        },
+        {
+          "id": 96994,
+          "name": "Your First Riding Wolf"
+        },
+        {
+          "id": 97194,
+          "name": "Learning to Ride"
+        },
+        {
+          "id": 97242,
+          "name": "Yelmak's Medley"
+        },
+        {
+          "id": 97246,
+          "name": "Meal Appeal"
+        },
+        {
+          "id": 97249,
+          "name": "Favorite Food"
+        },
+        {
+          "id": 97275,
+          "name": "Whuut's the Rush"
+        },
+        {
+          "id": 97326,
+          "name": "Rocks to Rests"
+        },
+        {
+          "id": 97411,
+          "name": "An Earnest Proposition"
+        },
+        {
+          "id": 98024,
+          "name": "Journey to the Crossroads"
+        },
+        {
+          "id": 2861,
+          "name": "Tabetha's Task"
+        }
+      ]
     }
   ]
 }
