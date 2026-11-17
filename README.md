@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.98.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.99.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -109,6 +109,7 @@ Status: **in development (pack v0.98.0), not published yet**. The first release 
 | `tirisfal-glades.guide` (Horde block core built, pilot pending) | Tirisfal Glades | 1-13 | Horde |
 | `orgrimmar-city.guide` (Horde block core built, pilot pending) | Orgrimmar | 1-60 | Horde |
 | `thunder-bluff-city.guide` (Horde block core built, pilot pending) | Thunder Bluff | 3-60 | Horde |
+| `undercity-city.guide` (Horde block core built, pilot pending) | Undercity | 1-60 | Horde |
 | swamp-of-sorrows.guide (Set 6 core built, pilot pending) | Swamp of Sorrows | 30-38 | Alliance |
 | `swamp-of-sorrows-rares.guide` (companion built, pilot pending) | Swamp of Sorrows rares and treasures | 30-38 | Alliance |
 | `swamp-of-sorrows-recipes.guide` (companion built, pilot pending) | Swamp of Sorrows recipe sources | 30-38 | Alliance |

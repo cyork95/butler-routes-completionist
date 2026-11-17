@@ -555,9 +555,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 _City guide per the Alliance city pattern: a census + compact core for the quests that accept inside the city. Companions only where the data warrants._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census — 108 quests, city key 1458
+- [x] Core guide — `undercity-city.guide`
+- [x] Lint/playtest clean — 0 errors, residue R1/R2 only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions (only where the data warrants)
