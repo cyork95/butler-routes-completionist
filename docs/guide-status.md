@@ -250,6 +250,7 @@ _Booty Bay country._
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 8 rares (6 with sole-drop signatures) + 9 fixed containers, 39 recipes (36 vendor + 3 drops), 0 lint errors/warnings
+- [x] Faction ungating (Option A, 2026-11-17) - 83 Alliance-only lines gated, header dropped, 0 dead lines
 
 ### Riverglades — Forever-original zone
 
@@ -597,9 +598,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Stranglethorn Vale — Horde
 
-- [ ] Census (reconcile against 39 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 258 zone-1434 records (39 Horde / 35 Alliance / 184 null by races mask); 39 Horde IN, 0 OUT, 123 Alliance-contracted not duplicated, docs/stranglethorn-horde-census.md
+- [x] Core guide - stranglethorn-horde.guide (39 quests, band 30-47; 5148 + 8116-8119 above-band with gates noted)
+- [x] Lint/playtest clean - 0 errors; honest playtest Horde personas (Orc Warrior/Shaman), residue R1/R5 only (expedition legs + bag-note objectives)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

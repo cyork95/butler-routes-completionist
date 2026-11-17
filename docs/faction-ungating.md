@@ -222,10 +222,14 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: wetlands.guide
 - header: Alliance; contract: 87 (82 primary / 5 shared)
 - shared IDs: 94219, 94228, 94237, 94246, 94255
-### stranglethorn-vale
-- file: stranglethorn.guide
-- header: Alliance; contract: 123 (29 primary / 94 shared)
-- shared IDs: 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 201, 208, 209, 213, 338, 339, 340, 341, 342, 348, 575, 576, 577, 580, 583, 587, 594, 595, 597, 599, 600, 604, 605, 606, 607, 608, 609, 613, 617, 621, 628, 630, 670, 1116, 1117, 1119, 1181, 1182, 1183, 2760, 2761, 2762, 2763, 2764, 2765, 2864, 2872, 2904, 3625, 3626, 3721, 4782, 7810, 8551, 8552, 8553, 8554, 78823, 78830, 79236, 79242, 79731, 94217, 94226, 94235, 94244, 94253, 95322, 95325, 95326, 95327, 95384, 95385, 95789, 95791, 97047, 97048, 97328, 97329, 97331, 97332
+### stranglethorn-vale (UNGATED 2026-11-17, Horde round)
+- file: stranglethorn.guide (was Alliance primary)
+- contract: 123 (29 primary / 94 shared)
+- shared IDs: 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 201, 208, 209, 213, 338, 339, 340, 341, 342, 348, 575, 576, 577, 580, 583, 587, 594, 595, 597, 599, 600, 604, 605, 606, 607, 608, 609, 613, 617, 621, 628, 630, 670, 1116, 1117, 1119, 1181, 1182, 1183, 2760, 2761, 2762, 2763, 2764, 2765, 2864, 2872, 2904, 3625, 3626, 3721, 4782, 7810, 8551, 8552, 8553, 8554, 78823, 78830, 79236, 79242, 79731, 94217, 94226, 94235, 94244, 94253, 95322, 95325, 95326, 95327, 95384, 95385, 95789, 95791, 97047, 97048, 97328, 97329, 97331, 97332 (per the Alliance census; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 198, 200, 202, 203, 204, 205, 206, 207, 210, 215, 328, 329, 330, 331, 574, 578, 601, 602, 610, 611, 616, 622, 623, 627, 1041, 93443, 95786, 97405, 97420.
+- Lines gated: 83 quest lines (`only Alliance`; no composition — no primary carries a pre-existing gate, and none of the 83 lines is `optional`). 0 soft-pre minis (the 2 `when onquest` steps reference shared 3626/2764 — stay bare), 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: prose "boats" only, no travel lines). Class-gated shared lines (79731 `only Priest`, 78830 `only Hunter`, 4782 `only Warlock`) stay bare per the rule.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 51 warnings, warning classes byte-identical to the pre-ungating baseline (22 classes, zero diff both ways). Playtest `--honest`: Human-persona findings byte-identical before/after (0 gone, 0 new); NightElf/Orc/Scourge personas complete the shared lines with residue only in R1/R2/R5; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations both factions.
 ### riverglades (UNGATED 2026-11-17, Horde round)
 - file: riverglades.guide (was Alliance primary)
 - contract: 112 (83 primary / 29 shared)
@@ -391,6 +395,10 @@ candidate. Companions carry no quest lines and are not part of this fix.
 ### riverglades-horde
 - file: riverglades-horde.guide (Horde mirror)
 - header: Horde; contract: 66 (66 primary / 0 shared)
+- shared IDs: none
+### stranglethorn-horde
+- file: stranglethorn-horde.guide (Horde mirror)
+- header: Horde; contract: 39 (39 primary / 0 shared)
 - shared IDs: none
 
 ## Follow-up

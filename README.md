@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.107.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.108.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -42,6 +42,7 @@ Status: **in development (pack v0.107.0), not published yet**. The first release
 | `stranglethorn.guide` (Set 3 core built, pilot pending) | Stranglethorn Vale | 30–45 | Alliance |
 | `stranglethorn-rares.guide` (companion built, pilot pending) | Stranglethorn Vale rares and treasures | 30–45 | Alliance |
 | `stranglethorn-recipes.guide` (companion built, pilot pending) | Stranglethorn Vale recipe sources | 30–45 | Alliance |
+| `stranglethorn-horde.guide` (Horde block core built, pilot pending) | Stranglethorn Vale (Horde) | 30-47 | Horde |
 | `riverglades.guide` (Set 3 core built, pilot pending) | Riverglades | 36–45 | Alliance |
 | `riverglades-rares.guide` (companion built, pilot pending) | Riverglades rares and treasures | 36-45 | Alliance |
 | `riverglades-recipes.guide` (companion built, pilot pending) | Riverglades recipe sources | 36-45 | Alliance |
