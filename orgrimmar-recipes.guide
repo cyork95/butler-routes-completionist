@@ -1,0 +1,238 @@
+# Butler Routes - Orgrimmar recipes companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and schematics sold by vendors spawning inside Orgrimmar (zone 1454), verified against the local Forever game data. 119 recipes across 121 vendor links
+# (see docs/horde-city-recipes-inventory.md), including the Winter Veil seasonal pair.
+# Each step is gated to its profession; the one pattern that names no profession anywhere in the data
+# ships ungated with an honest note. No stock-class flag exists in the data,
+# so nothing is marked limited.
+guide butler-routes-completionist/orgrimmar-recipes
+title Orgrimmar - Recipes & Patterns
+levels 1-60
+zone Orgrimmar
+faction Horde
+category Professions
+folder Companions
+keywords orgrimmar, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — Orgrimmar (Shankys)
+  when skill Cooking 1
+
+  vendor 3333 -- Shankys (69.99, 29.77)
+  buy 6368 "Recipe: Rainbow Fin Albacore" npc 3333
+  buy 6369 "Recipe: Rockscale Cod" npc 3333
+  buy 17062 "Recipe: Mithril Head Trout" npc 3333
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Orgrimmar (Xen'to)
+  when skill Cooking 1
+
+  vendor 3400 -- Xen'to (57.57, 52.9)
+  buy 21099 "Recipe: Smoked Sagefish" npc 3400
+  buy 21219 "Recipe: Sagefish Delight" npc 3400
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Orgrimmar (Penney Copperpinch)
+  when skill Cooking 1
+
+  vendor 13420 -- Penney Copperpinch (53.21, 65.89)
+  buy 17200 "Recipe: Gingerbread Cookie" npc 13420
+  buy 17201 "Recipe: Egg Nog" npc 13420
+  note Winter Veil seasonal stock, sold during the Feast of the Winter Veil; out of season, skip this step. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Orgrimmar (Hagrus)
+  when skill Alchemy 1
+
+  vendor 3335 -- Hagrus (45.99, 45.68)
+  buy 5640 "Recipe: Rage Potion" npc 3335
+  buy 5643 "Recipe: Great Rage Potion" npc 3335
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Orgrimmar (Kor'geld)
+  when skill Alchemy 1
+
+  vendor 3348 -- Kor'geld (56.05, 34.12)
+  buy 5642 "Recipe: Free Action Potion" npc 3348
+  buy 13478 "Recipe: Elixir of Superior Defense" npc 3348
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Orgrimmar (Jornah)
+  when skill Alchemy 1
+
+  vendor 214070 -- Jornah (51.4, 63.8)
+  buy 217399 "Recipe: Lesser Arcane Elixir" npc 214070
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Orgrimmar (Kithas)
+  when skill Enchanting 1
+
+  vendor 3346 -- Kithas (53.88, 38.02)
+  buy 6342 "Formula: Enchant Chest - Minor Mana" npc 3346
+  buy 6346 "Formula: Enchant Chest - Lesser Mana" npc 3346
+  buy 6349 "Formula: Enchant 2H Weapon - Lesser Intellect" npc 3346
+  buy 20752 "Formula: Minor Mana Oil" npc 3346
+  buy 20753 "Formula: Lesser Wizard Oil" npc 3346
+  buy 20758 "Formula: Minor Wizard Oil" npc 3346
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Orgrimmar (Kithas)
+  when skill Tailoring 1
+
+  vendor 3346 -- Kithas (53.88, 38.02)
+  buy 22307 "Pattern: Enchanted Mageweave Pouch" npc 3346
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Orgrimmar (Borya)
+  when skill Tailoring 1
+
+  vendor 3364 -- Borya (63.08, 51.45)
+  buy 5772 "Pattern: Red Woolen Bag" npc 3364
+  buy 6270 "Pattern: Blue Linen Vest" npc 3364
+  buy 6274 "Pattern: Blue Overalls" npc 3364
+  buy 10314 "Pattern: Lavender Mageweave Shirt" npc 3364
+  buy 10317 "Pattern: Pink Mageweave Shirt" npc 3364
+  buy 215369 "Pattern: Invoker's Cord" npc 3364
+  buy 215370 "Pattern: Invoker's Mantle" npc 3364
+  buy 253665 "Pattern: Linen Reagent Bag" npc 3364
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 3364
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Orgrimmar (Darah)
+  when skill Tailoring 1
+
+  vendor 258463 -- Darah (63.5, 50.53)
+  buy 253665 "Pattern: Linen Reagent Bag" npc 258463
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 258463
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Orgrimmar (Tamar)
+  when skill Leatherworking 1
+
+  vendor 3366 -- Tamar (63.05, 45.53)
+  buy 18731 "Pattern: Heavy Leather Ball" npc 3366
+  buy 252783 "Pattern: Mystic Medium Armor Kit" npc 3366
+  buy 252784 "Pattern: Forceful Medium Armor Kit" npc 3366
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Orgrimmar (Pawani)
+  when skill Leatherworking 1
+
+  vendor 248201 -- Pawani (49.37, 69.8)
+  buy 252765 "Pattern: Brawler's Leather Belt" npc 248201
+  buy 252766 "Pattern: Trapper's Leather Belt" npc 248201
+  buy 252767 "Pattern: Defender's Leather Belt" npc 248201
+  buy 252768 "Pattern: Totemic Leather Belt" npc 248201
+  buy 252769 "Pattern: Stormrider's Leather Belt" npc 248201
+  buy 252770 "Pattern: Wisdom's Leather Belt" npc 248201
+  buy 252777 "Pattern: Brawler's Leather Gloves" npc 248201
+  buy 252778 "Pattern: Trapper's Leather Gloves" npc 248201
+  buy 252779 "Pattern: Defender's Leather Gloves" npc 248201
+  buy 252780 "Pattern: Totemic Leather Gloves" npc 248201
+  buy 252781 "Pattern: Stormrider's Leather Gloves" npc 248201
+  buy 252782 "Pattern: Wisdom's Leather Gloves" npc 248201
+  buy 252786 "Pattern: Brawler's Leather Boots" npc 248201
+  buy 252787 "Pattern: Trapper's Leather Boots" npc 248201
+  buy 252788 "Pattern: Defender's Leather Boots" npc 248201
+  buy 252789 "Pattern: Totemic Leather Boots" npc 248201
+  buy 252790 "Pattern: Stormrider's Leather Boots" npc 248201
+  buy 252791 "Pattern: Wisdom's Leather Boots" npc 248201
+  buy 252798 "Pattern: Brawler's Leather Hood" npc 248201
+  buy 252799 "Pattern: Trapper's Leather Hood" npc 248201
+  buy 252800 "Pattern: Defender's Leather Hood" npc 248201
+  buy 252801 "Pattern: Totemic Leather Hood" npc 248201
+  buy 252802 "Pattern: Stormrider's Leather Hood" npc 248201
+  buy 252803 "Pattern: Wisdom's Leather Hood" npc 248201
+  buy 252805 "Pattern: Brawler's Leather Tunic" npc 248201
+  buy 252806 "Pattern: Trapper's Leather Tunic" npc 248201
+  buy 252807 "Pattern: Defender's Leather Tunic" npc 248201
+  buy 252808 "Pattern: Totemic Leather Tunic" npc 248201
+  buy 252809 "Pattern: Stormrider's Leather Tunic" npc 248201
+  buy 252810 "Pattern: Wisdom's Leather Tunic" npc 248201
+  buy 252820 "Pattern: Brawler's Leather Legguards" npc 248201
+  buy 252821 "Pattern: Trapper's Leather Legguards" npc 248201
+  buy 252822 "Pattern: Defender's Leather Kilt" npc 248201
+  buy 252823 "Pattern: Totemic Leather Leggings" npc 248201
+  buy 252824 "Pattern: Stormrider's Leather Kilt" npc 248201
+  buy 252825 "Pattern: Wisdom's Leather Leggings" npc 248201
+  buy 252834 "Pattern: Forceful Thick Armor Kit" npc 248201
+  buy 252836 "Pattern: Prowler's Leather Gloves" npc 248201
+  buy 252837 "Pattern: Skulker's Leather Gloves" npc 248201
+  buy 252838 "Pattern: Stalker's Leather Gloves" npc 248201
+  buy 252839 "Pattern: Warden's Leather Gloves" npc 248201
+  buy 252840 "Pattern: Skirmisher's Leather Gloves" npc 248201
+  buy 252841 "Pattern: Skycaller's Leather Gloves" npc 248201
+  buy 252842 "Pattern: Mender's Leather Gloves" npc 248201
+  buy 252848 "Pattern: Prowler's Leather Shoulders" npc 248201
+  buy 252849 "Pattern: Skulker's Leather Shoulder" npc 248201
+  buy 252850 "Pattern: Warden's Leather Shoulders" npc 248201
+  buy 252851 "Pattern: Skycaller's Leather Shoulders" npc 248201
+  buy 252852 "Pattern: Mender's Leather Shoulders" npc 248201
+  buy 252853 "Pattern: Prowler's Leather Bracers" npc 248201
+  buy 252854 "Pattern: Skulker's Leather Bracers" npc 248201
+  buy 252855 "Pattern: Warden's Leather Bracers" npc 248201
+  buy 252856 "Pattern: Skycaller's Leather Bracers" npc 248201
+  buy 252857 "Pattern: Mender's Leather Bracers" npc 248201
+  buy 252860 "Pattern: Prowler's Leather Boots" npc 248201
+  buy 252861 "Pattern: Skulker's Leather Boots" npc 248201
+  buy 252862 "Pattern: Warden's Leather Boots" npc 248201
+  buy 252863 "Pattern: Skycaller's Leather Boots" npc 248201
+  buy 252864 "Pattern: Mender's Leather Boots" npc 248201
+  buy 252872 "Pattern: Prowler's Leather Waistguard" npc 248201
+  buy 252873 "Pattern: Skulker's Leather Waistguard" npc 248201
+  buy 252874 "Pattern: Warden's Leather Waistguard" npc 248201
+  buy 252875 "Pattern: Skycaller's Leather Waistguard" npc 248201
+  buy 252876 "Pattern: Mender's Leather Waistguard" npc 248201
+  buy 252900 "Pattern: Stalker's Mail Shoulders" npc 248201
+  buy 252901 "Pattern: Skycaller's Mail Shoulders" npc 248201
+  buy 252902 "Pattern: Skirmisher's Mail Shoulders" npc 248201
+  buy 252903 "Pattern: Mender's Mail Shoulders" npc 248201
+  buy 252904 "Pattern: Stalker's Mail Bracers" npc 248201
+  buy 252905 "Pattern: Skycaller's Mail Bracers" npc 248201
+  buy 252906 "Pattern: Skirmisher's Mail Bracers" npc 248201
+  buy 252907 "Pattern: Mender's Mail Bracers" npc 248201
+  buy 252910 "Pattern: Stalker's Mail Sabatons" npc 248201
+  buy 252911 "Pattern: Skycaller's Mail Sabatons" npc 248201
+  buy 252912 "Pattern: Skirmisher's Mail Sabatons" npc 248201
+  buy 252913 "Pattern: Mender's Mail Sabatons" npc 248201
+  buy 252922 "Pattern: Stalker's Mail Belt" npc 248201
+  buy 252923 "Pattern: Skycaller's Mail Belt" npc 248201
+  buy 252924 "Pattern: Skirmisher's Mail Belt" npc 248201
+  buy 252925 "Pattern: Mender's Mail Belt" npc 248201
+  buy 252941 "Pattern: Mystic Rugged Armor Kit" npc 248201
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Orgrimmar (Sumi)
+  when skill Blacksmithing 1
+
+  vendor 3356 -- Sumi (82.6, 23.96)
+  buy 12162 "Plans: Hardened Iron Shortsword" npc 3356
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Orgrimmar (Jornah)
+  when skill Blacksmithing 1
+
+  vendor 214070 -- Jornah (51.4, 63.8)
+  buy 210779 "Plans: Mantle of the Second War" npc 214070
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — Orgrimmar (Sovik)
+  when skill Engineering 1
+
+  vendor 3413 -- Sovik (75.49, 25.36)
+  buy 16041 "Schematic: Thorium Grenade" npc 3413
+  buy 16042 "Schematic: Thorium Widget" npc 3413
+  buy 18647 "Schematic: Red Firework" npc 3413
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — Orgrimmar (Jornah)
+  when skill Engineering 1
+
+  vendor 214070 -- Jornah (51.4, 63.8)
+  buy 212230 "Schematic: Soul Vessel" npc 214070
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Unclassified — Orgrimmar (Jornah)
+
+  vendor 214070 -- Jornah (51.4, 63.8)
+  buy 211247 "Pattern: Phoenix Bindings" npc 214070
+  note The data names no profession for this pattern (it also drops from the Burning Blade Augur in Desolace) - every character sees this step; skip it if you cannot learn it. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
