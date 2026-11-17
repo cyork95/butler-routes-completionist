@@ -1,0 +1,134 @@
+# Riverglades (Horde) - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and schematics whose SOURCE is physically
+# in Riverglades for a Horde player, verified against the local Forever
+# game data (questie-forever item vendor tables). Thirteen recipes are
+# vendor-sold in-zone: the Powderfuse Port (neutral east-hub) vendors
+# Fimbo Greasemitz, Gritta Chumwater, Grizzek, Innkeeper Zizplink, Stitch
+# Pinwizzle, Kor'gar and Fizzix Boomshot, and the Horde-hub vendor Naluk -
+# Naluk is the Horde-only source the Alliance guide excludes. No
+# mob-dropped recipe has an in-zone dropper anywhere in the data, so this
+# guide is vendor-only. The Alliance-hub vendors Martha Wellsworth and
+# Miranda Turner are Alliance-only and excluded (Alterac precedent/EPL
+# lesson - see docs/riverglades-horde-companions-inventory.md and
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. Alchemy, Enchanting, First
+# Aid, Fishing, Leatherworking, Tailoring and Blacksmithing have no
+# in-zone Horde source, so that is stated, not padded.
+guide butler-routes-completionist/riverglades-horde-recipes
+title Riverglades (Horde) - Recipes & Patterns
+levels 35-45
+zone Riverglades
+faction Horde
+category Professions
+folder Companions
+keywords riverglades, horde, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Powderfuse Port vendors - Fimbo's stock (Cooking)
+
+  zone map 2548
+
+  when skill Cooking 1
+
+  vendor 259962 -- Fimbo Greasemitz (79.02, 54.20), port
+  buy 21099 "Recipe: Smoked Sagefish" npc 259962
+  buy 21219 "Recipe: Sagefish Delight" npc 259962
+  note Miranda Turner at the southern Turner farm sells the same two, but she is Alliance-faction - Fimbo is the Horde-usable source here. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Powderfuse Port vendors - Gritta's stock (Cooking)
+
+  zone map 2548
+
+  when skill Cooking 1
+
+  vendor 260487 -- Gritta Chumwater (77.42, 52.76), port
+  buy 6330 "Recipe: Bristle Whisker Catfish" npc 260487
+  buy 6368 "Recipe: Rainbow Fin Albacore" npc 260487
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Powderfuse Port vendor - Grizzek's chowder (Cooking)
+
+  zone map 2548
+
+  when skill Cooking 1
+
+  vendor 255895 -- Grizzek (74.60, 51.86), port
+  buy 16767 "Recipe: Undermine Clam Chowder" npc 255895
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Powderfuse Port vendor - Zizplink's steak (Cooking)
+
+  zone map 2548
+
+  when skill Cooking 1
+
+  vendor 255894 -- Innkeeper Zizplink (78.77, 53.98), port
+  buy 18046 "Recipe: Tender Wolf Steak" npc 255894
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Krom'rosh command vendor - Naluk's surprise (Cooking)
+
+  zone map 2548
+
+  when skill Cooking 1
+
+  vendor 261313 -- Naluk (53.10, 45.85), Horde-hub vendor
+  buy 5483 "Recipe: Scorpid Surprise" npc 261313
+  note Naluk serves Horde players; the Alliance guide excludes him. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Powderfuse Port vendor - Stitch's stock (Tailoring)
+
+  zone map 2548
+
+  when skill Tailoring 1
+
+  vendor 260570 -- Stitch Pinwizzle (76.94, 52.51), port
+  buy 7088 "Pattern: Crimson Silk Robe" npc 260570
+  buy 21358 "Pattern: Soul Pouch" npc 260570
+  buy 253665 "Pattern: Linen Reagent Bag" npc 260570
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 260570
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Powderfuse Port vendor - Kor'gar's stock (Engineering)
+
+  zone map 2548
+
+  when skill Engineering 1
+
+  vendor 260565 -- Kor'gar (77.13, 52.61), port
+  buy 16046 "Schematic: Masterwork Target Dummy" npc 260565
+  buy 16047 "Schematic: Thorium Tube" npc 260565
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Powderfuse Port vendor - Fizzix's dynamite (Engineering)
+
+  zone map 2548
+
+  when skill Engineering 1
+
+  vendor 260566 -- Fizzix Boomshot (77.37, 52.92), port
+  buy 18650 "Schematic: EZ-Thro Dynamite II" npc 260566
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step No Horde source - Alchemy
+  note Alchemy has no recipe source physically in Riverglades for Horde players in the data - no servable in-zone vendor sells one and no in-zone mob drops one - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Horde source - Enchanting
+  note Enchanting has no recipe source physically in Riverglades for Horde players in the data - no servable in-zone vendor sells one and no in-zone mob drops one - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Horde source - First Aid
+  note First Aid has no recipe source physically in Riverglades for Horde players in the data - no servable in-zone vendor sells one and no in-zone mob drops one - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Horde source - Fishing
+  note Fishing has no recipe source physically in Riverglades for Horde players in the data - no servable in-zone vendor sells one and no in-zone mob drops one - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Horde source - Leatherworking
+  note Leatherworking has no recipe source physically in Riverglades for Horde players in the data - no servable in-zone vendor sells one and no in-zone mob drops one - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Horde source - Tailoring
+  note Tailoring has no recipe source physically in Riverglades for Horde players in the data - no servable in-zone vendor sells one and no in-zone mob drops one - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Horde source - Blacksmithing
+  note Blacksmithing has no recipe source physically in Riverglades for Horde players in the data - Martha Wellsworth holds the only in-zone stock but is Alliance-faction, and no in-zone mob drops one - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
