@@ -1,0 +1,480 @@
+# Tirisfal Glades - Completionist (pack butler-routes-completionist, v1).
+# The Horde-block Tirisfal route: every Tirisfal Glades accept in the local
+# census (109 quests, docs/tirisfal-glades-census.md) appears exactly once
+# as an accept and once as a turnin. Band 1-13 by minLevel cluster (zone key
+# 1420, order 48). Undercity accepts (key 1458) are city quests and stay out.
+# No race header: the zone serves all Horde, and the Undead race bits the data
+# carries are the home-zone default, not exclusivity - per-line `only` gates
+# carry class only (Warrior, Rogue, Priest, Mage, Warlock, Paladin lines).
+# Soft-pre notes stand on the three IN quests with out-of-contract pres
+# (409 needs Silverpine 366; 441 needs Silverpine 440; 94436 needs city
+# 94435) - the sim reads them as structural warnings, never wedges.
+# Item-starts ride the bag-note pattern (361's letter, 95328's residue).
+# Expedition legs switch frames deliberately and back: Silverpine (1421,
+# Renferrel takes 445) and Undercity (1458, nine turn-ins).
+guide butler-routes-completionist/tirisfal-glades
+title Tirisfal Glades
+levels 1-13
+zone Tirisfal Glades
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Deathknell - arrival in the shadow
+
+  zone map 1420
+
+
+  note Deathknell works the Rude Awakening line, the crypt scrolls, the paladin drills and the Arren chain - all within a minute of the coffin.
+
+  accept 363 -- Rude Awakening - Mordo; word for Sarvis
+  turnin 363 -- Rude Awakening - the word to Sarvis
+  accept 364 -- The Mindless Ones - Sarvis; eight Mindless and eight Wretched
+  complete 364 @30.70,62.50 -- Mindless Zombie and Wretched Zombie (crypt grounds)
+  turnin 364 -- The Mindless Ones - the dead to Sarvis
+  accept 376 -- The Damned - Elreth; paws and wings off the skitterers
+  complete 376 @29.15,65.90 -- Scavenger Paw (Young and Ragged Scavenger, north field)
+  complete 376 @27.90,64.30 -- Duskbat Wing (Duskbat and Mangy Duskbat, north field)
+  turnin 376 -- The Damned - the parts to Elreth
+  accept 1470 only Warlock -- Piercing the Veil - Quinn; three Rattlecage Skulls
+  complete 1470 only Warlock @31.00,60.80 -- Rattlecage Skull (Rattlecage Skeleton, crypt floor)
+  turnin 1470 only Warlock -- Piercing the Veil - the skulls to Quinn
+  accept 3095 only Warrior -- Simple Scroll - Agnes; the scroll to the warrior trainer
+  turnin 3095 only Warrior -- Simple Scroll - the scroll to the warrior trainer
+  accept 3096 only Rogue -- Encrypted Scroll - Agnes; the scroll to the rogue trainer
+  turnin 3096 only Rogue -- Encrypted Scroll - the scroll to the rogue trainer
+  accept 3097 only Priest -- Hallowed Scroll - Agnes; the scroll to Duesten
+  turnin 3097 only Priest -- Hallowed Scroll - the scroll to Duesten
+  accept 3098 only Mage -- Glyphic Scroll - Agnes; the scroll to the mage trainer
+  turnin 3098 only Mage -- Glyphic Scroll - the scroll to the mage trainer
+  accept 3099 only Warlock -- Tainted Scroll - Agnes; the scroll to the warlock trainer
+  turnin 3099 only Warlock -- Tainted Scroll - the scroll to the warlock trainer
+  accept 98601 only Paladin -- A Difficult Path - Agnes and Elreth; report to Hammerhand
+  turnin 98601 only Paladin -- A Difficult Path - the word to Hammerhand
+  accept 90902 only Paladin -- Rediscovering the Light - Hammerhand; five Injured Deathguards
+  complete 90902 only Paladin @28.84,65.39 -- Injured Deathguard (crypt approach)
+  turnin 90902 only Paladin -- Rediscovering the Light - the rite to Hammerhand
+  accept 91208 only Paladin -- Coming to Terms - Hammerhand; the Frightened Paladin
+  complete 91208 only Paladin @27.69,63.82 -- Frightened Paladin (crypt approach)
+  turnin 91208 only Paladin -- Coming to Terms - the word to Hammerhand
+  accept 91209 only Paladin -- Continue Your Training - Hammerhand; Shari Stilwell waits in Brill (Brill leg below)
+  accept 98389 -- A Light in the Darkness - Hammerhand; six Webbed Forsaken freed
+  complete 98389 @23.40,59.30 -- Webbed Forsaken freed (Night Web cave mouth)
+  turnin 98389 -- A Light in the Darkness - the word to Hammerhand
+  accept 380 -- Night Web's Hollow - Arren; young and full Night Webs
+  complete 380 @26.83,56.16 -- Young Night Web Spider (Night Web cave)
+  complete 380 @23.16,59.64 -- Night Web Spider (Night Web cave)
+  turnin 380 -- Night Web's Hollow - the webs to Arren
+  accept 381 -- The Scarlet Crusade - Arren; twelve Scarlet Armbands
+  complete 381 @36.20,68.30 -- Scarlet Armband (Convert and Initiate, east camp)
+  turnin 381 -- The Scarlet Crusade - the armbands to Arren
+  accept 382 -- The Red Messenger - Arren; Meven Korgal
+  complete 382 @36.57,68.54 -- Meven Korgal (east camp)
+  turnin 382 -- The Red Messenger - the word to Arren
+  accept 383 -- Vital Intelligence - Arren; the word to Zygand in Brill (no fighting, just carry it)
+  accept 3901 -- Rattling the Rattlecages - Agnes; twelve Rattlecage Skeletons
+  complete 3901 @31.00,60.80 -- Rattlecage Skeleton (crypt floor)
+  turnin 3901 -- Rattling the Rattlecages - the count to Agnes
+  accept 3902 -- Scavenging Deathknell - Saltain; six Scavenged Goods
+  complete 3902 @31.60,62.50 -- Scavenged Goods (Equipment Boxes, crypt floor)
+  turnin 3902 -- Scavenging Deathknell - the goods to Saltain
+  accept 6395 -- Marla's Last Wish - Elreth; bury Samuel's Remains at Marla's Grave
+  complete 6395 @31.17,65.08 -- Samuel's Remains Buried (Marla's Grave, crypt yard)
+  turnin 6395 -- Marla's Last Wish - the news to Elreth
+  accept 5651 only Priest -- In Favor of Darkness - Duesten; carry the favor to Beryl in Brill (Brill leg below)
+  accept 96656 -- The Adventurer - Arren; Eleanor Shackleton runs the camp west of Brill (Brill leg below)
+  note Calvin Montague waits on the east road with the first of two same-named jobs - the letter for Renee; the debt itself comes due on the way west below.
+  accept 8 -- A Rogue's Deal - Calvin Montague; the Nondescript Letter for Renee in Brill (Brill leg below)
+
+step Brill - arrival at the top of the hill
+
+  zone map 1420
+
+
+  note Brill takes the Deathknell handoffs, works the Warrior and Priest lines, and opens the apothecary row, the Scarlet orders and the camp.
+
+  turnin 383 -- Vital Intelligence - the word to Zygand
+  turnin 5651 only Priest -- In Favor of Darkness - the favor to Beryl
+  accept 5650 only Priest -- Garments of Darkness - Beryl; Deathguard Kel west of town
+  complete 5650 only Priest @59.18,46.50 -- Deathguard Kel (Brill west edge)
+  turnin 5650 only Priest -- Garments of Darkness - the garb to Beryl
+  accept 1818 only Warrior -- Speak with Dillinger - the trainer; word for Dillinger
+  turnin 1818 only Warrior -- Speak with Dillinger - the word to Dillinger
+  accept 1819 only Warrior -- Ulag the Cleaver - Dillinger; Ulag west of town
+  complete 1819 only Warrior @59.47,48.28 -- Ulag the Cleaver (Brill west edge)
+  turnin 1819 only Warrior -- Ulag the Cleaver - the news to Dillinger
+  accept 1820 only Warrior -- Speak with Coleman - Dillinger; word for Coleman
+  turnin 1820 only Warrior -- Speak with Coleman - the word to Coleman
+  accept 1821 only Warrior -- Agamand Heirlooms - Coleman; the four family racks (Agamand leg below)
+  complete 91209 only Paladin @60.22,52.66 -- Shari Stilwell (Brill doorstep)
+  turnin 91209 only Paladin -- Continue Your Training - the drill to Shari Stilwell
+  accept 91282 only Paladin -- A Second Home - Stilwell; report to Samuels at the west camp (west leg below)
+  accept 427 -- At War With The Scarlet Crusade - Zygand; Scarlet Warriors at the west camp (west leg below)
+  accept 354 -- Deaths in the Family - Coleman; Gregor Agamand's Remains (Agamand leg below)
+  accept 362 -- The Haunted Mills - Coleman; Devlin's Remains (Agamand leg below)
+  accept 358 -- Graverobbers - Sevren; Embalming Ichor (Agamand leg below)
+  accept 367 -- A New Plague - Johaan; Darkhound Blood (Agamand leg below)
+  accept 375 -- The Chill of Death - Gretchen; Duskbat Pelts (Agamand leg below)
+  note A Letter Undelivered (361) starts from A Letter to Yvette, which drops off Rattlecages, Darkeyes, Skulls, Ancestors, Spirits, Zealots, Darkhounds and Vachon - farmed in Agamand below, turned in on the Brill return below.
+  accept 404 only Warrior -- A Putrid Task - Dillinger; seven Putrid Claws (Agamand leg below)
+  accept 97558 -- Hides for the Forsaken - Shelene and Linnea; membranes, hides and murloc skins (Agamand and west legs below, turn-in east below)
+  accept 99141 -- Patience - Zygand; three field reports (Agamand below, Brill below, east below)
+
+step Agamand Mills - the family crypts
+
+  zone map 1420
+
+  note West into Agamand: Simmer's fields, the crypt grounds, the Rattlecage rows, Gordo's post, then Holland's hut.
+
+
+  accept 365 -- Fields of Grief - Simmer; Tirisfal Pumpkins
+  complete 365 @31.88,47.08 -- Tirisfal Pumpkin (pumpkin field, west rows)
+
+  complete 354 @45.79,29.39 -- Gregor Agamand (Agamand crypt grounds)
+  complete 362 @47.23,40.02 -- Devlin's Remains (Devlin Agamand, mill yard)
+  complete 404 only Warrior @49.80,55.00 -- Putrid Claw (Rotting Dead and Ravaged Corpse, mill rows)
+
+  accept 5481 -- Gordo's Task - Gordo; three Gloom Weed
+  complete 5481 @39.56,50.65 -- Gloom Weed (west ditch)
+  complete 99141 @43.06,54.69 -- Dillinger's Report (Deathguard Dillinger's word, via Gordo)
+
+  complete 358 @56.71,35.40 -- Embalming Ichor (Rot Hide Gnoll, east ditch)
+  complete 358 @52.30,56.10 -- Embalming Ichor (Rot Hide Graverobber, mill rows)
+
+  collect 2839 optional @44.60,39.80 -- A Letter to Yvette (Rattlecage Soldier rows; 361's start, bank it)
+  complete 367 @37.49,45.14 -- Darkhound Blood (Decrepit Darkhound, south field)
+  complete 375 @36.49,47.27 -- Duskbat Pelt (Greater Duskbat, south field)
+  note The Chill of Death (375) also wants one Coarse Thread, and the data holds no source for Coarse Thread anywhere - have one in your bags.
+  goto 51.70,25.70
+
+  complete 1821 only Warrior @52.66,25.85 -- Agamand Family Axe (weapon rack, upper crypt)
+  complete 1821 only Warrior @51.68,25.69 -- Agamand Family Dagger (weapon rack, upper crypt)
+  complete 1821 only Warrior @51.88,27.14 -- Agamand Family Sword (weapon rack, upper crypt)
+  complete 1821 only Warrior @52.66,27.04 -- Agamand Family Mace (weapon rack, upper crypt)
+
+  turnin 5481 -- Gordo's Task - the weed to Holland
+  accept 5482 -- Doom Weed - Holland; ten Doom Weed
+  complete 5482 @54.73,38.98 -- Doom Weed (north rise)
+  turnin 5482 -- Doom Weed - the weed to Holland
+  accept 99142 -- Tomb Weed - Holland; Tomb Weed far east (east leg below)
+
+step Brill - Sevren, Coleman and the camp
+
+  zone map 1420
+
+
+  note Back to the top of the hill with Agamand's work: turn-ins, the Coleman-Sevren handoffs, and Eleanor's campfire pass.
+
+  turnin 354 -- Deaths in the Family - Gregor's rest to Coleman
+  turnin 362 -- The Haunted Mills - Devlin's rest to Coleman
+  turnin 358 -- Graverobbers - the ichor to Sevren
+  accept 86784 -- Sticks and Bones - Bartholomew; six Dry Branches west of Brill
+  complete 86784 @54.50,53.20 -- Dry Branch (Brill west woods)
+  turnin 86784 -- Sticks and Bones - the branches to Eleanor
+  turnin 8 -- A Rogue's Deal - the Nondescript Letter to Renee
+  accept 361 -- A Letter Undelivered - letter in hand; Yvette waits here
+  turnin 361 -- A Letter Undelivered - the letter to Yvette
+  turnin 367 -- A New Plague - the blood to Johaan
+  accept 368 -- A New Plague - Johaan; Vile Fin shore (west leg below)
+  turnin 365 -- Fields of Grief - the pumpkins to Johaan
+  accept 407 -- Fields of Grief - Johaan; word for the Captured Scarlet Zealot
+  turnin 407 -- Fields of Grief - the word to the Captured Scarlet Zealot
+  turnin 375 -- The Chill of Death - the pelts to Gretchen
+  turnin 404 only Warrior -- A Putrid Task - the claws to Dillinger
+  accept 426 only Warrior -- The Mills Overrun - Dillinger; ribs and skulls (east leg below)
+  turnin 1821 only Warrior -- Agamand Heirlooms - the racks to Coleman
+  accept 1822 only Warrior -- Heirloom Weapon - Coleman; take the heirloom
+  turnin 1822 only Warrior -- Heirloom Weapon - the heirloom stays with Coleman
+  accept 355 -- Speak with Sevren - Coleman; word for Sevren
+  turnin 355 -- Speak with Sevren - the word to Sevren
+  accept 408 -- The Family Crypt - Sevren; Captain Dargol's Skull (east leg below)
+  accept 405 -- The Prodigal Lich - Sevren; word for Bethor in Undercity (city leg below)
+  accept 359 -- Forsaken Duties - Sevren; word for Linnea at the east corner (east leg below)
+  accept 398 -- WANTED: Maggot Eye - the poster at the Brill boards; Maggot Eye north (east leg below)
+  accept 79095 -- The Apothecary's Metaphysical Primer - the Primer at the Brill lectern; the city takes it (city leg below)
+  complete 79095 @59.40,52.30 -- The Apothecary's Metaphysical Primer (Brill lectern)
+  accept 1478 only Warlock -- Halgar's Summons - the warlock trainer; Carendin Halgar waits in Undercity (city leg below)
+  accept 1881 only Mage -- Speak with Anastasia - the mage trainer; Anastasia waits in Undercity (city leg below)
+  accept 1885 only Rogue -- Mennet Carkad - the rogue trainer; Mennet waits in Undercity (city leg below, with a Wetlands copy noted there)
+  accept 445 -- Delivery to Silverpine Forest - Johaan; the delivery for Renferrel (Silverpine leg below)
+  accept 441 -- Raleigh and the Undercity - Sevren; Raleigh waits in Undercity (city leg below; needs Silverpine 440 first)
+  accept 96895 -- The Argent Emissary - Terrence; the word to Hadric at the east corner (east leg below)
+  accept 99134 -- Discipline - Zygand; Linnea herself at the east corner (east leg below)
+  complete 99141 @58.20,51.45 -- Dillinger's Report (Deathguard Dillinger, Brill)
+  accept 95314 -- That Shadowvale Green Elixir - Carolai and Johaan; eight elixir bottles (west leg below)
+  turnin 96656 -- The Adventurer - the word to Eleanor
+  accept 96607 -- The Great Outdoors - Eleanor; sit by the campfire and rest
+  complete 96607 -- The Great Outdoors - rested at the campfire
+  turnin 96607 -- The Great Outdoors - rested, back to Eleanor
+  accept 96658 optional -- Camping 101: Cooking - Eleanor; William Pickman
+  note Cooking's operative leg (96658) needs the other zones' campfire quests first, so it credits late.
+  complete 96658 optional @61.75,51.44 -- William Pickman (Brill)
+  turnin 96658 optional -- Camping 101: Cooking - the work to Pickman
+  accept 97952 optional -- Camping 101: Blacksmithing - Eleanor; Basil Frye takes it in Undercity (city leg below)
+  accept 97954 optional -- Camping 101: Engineering - Eleanor; Graham takes it in Undercity (city leg below)
+  accept 97959 optional -- Camping 101: Mining - Eleanor; Brom takes it in Undercity (city leg below)
+
+step Brill - the camping pass (one craft at a time)
+
+  note The eight Brill-side campfire quests credit here in Brill; the three city-side ones (Blacksmithing, Engineering, Mining) took their accepts above and turn in on the Undercity leg below.
+
+  goto 62.06,51.38
+
+  when skill Alchemy 1
+  accept 97951 optional -- Camping 101: Alchemy - Eleanor; Carolai takes it
+  complete 97951 optional @59.43,52.19 -- Carolai Anise (Brill)
+  turnin 97951 optional -- Camping 101: Alchemy - the work to Carolai
+  when skill Enchanting 1
+  accept 97953 optional -- Camping 101: Enchanting - Eleanor; Vance takes it
+  complete 97953 optional @61.77,51.56 -- Vance Undergloom (Brill)
+  turnin 97953 optional -- Camping 101: Enchanting - the work to Vance
+  when skill First Aid 1
+  accept 97955 optional -- Camping 101: First Aid - Eleanor; Neela takes it
+  complete 97955 optional @61.82,52.83 -- Nurse Neela (Brill)
+  turnin 97955 optional -- Camping 101: First Aid - the work to Neela
+  when skill Fishing 1
+  accept 97956 optional -- Camping 101: Fishing - Eleanor; Clyde takes it
+  complete 97956 optional @67.17,50.99 -- Clyde Kellen (Brill east edge)
+  turnin 97956 optional -- Camping 101: Fishing - the work to Kellen
+  when skill Herbalism 1
+  accept 97957 optional -- Camping 101: Herbalism - Eleanor; Faruza takes it
+  complete 97957 optional @59.79,52.12 -- Faruza (Brill)
+  turnin 97957 optional -- Camping 101: Herbalism - the work to Faruza
+  when skill Leatherworking 1
+  accept 97958 optional -- Camping 101: Leatherworking - Eleanor; Shelene takes it at the east corner
+  complete 97958 optional @65.43,60.12 -- Shelene Rhobart (east corner)
+  turnin 97958 optional -- Camping 101: Leatherworking - the work to Shelene
+  when skill Skinning 1
+  accept 97960 optional -- Camping 101: Skinning - Eleanor; Rand takes it at the east corner
+  complete 97960 optional @65.58,60.03 -- Rand Rhobart (east corner)
+  turnin 97960 optional -- Camping 101: Skinning - the work to Rand
+  when skill Tailoring 1
+  accept 97961 optional -- Camping 101: Tailoring - Eleanor; Bowen takes it
+  complete 97961 optional @52.59,55.52 -- Bowen Brisboise (Brill west edge)
+  turnin 97961 optional -- Camping 101: Tailoring - the work to Bowen
+
+step West - the Scarlet camp and the Vile Fin shore
+
+  zone map 1420
+
+  note West past Deathknell: the Scarlet convert camp, the Vile Fin shore and the paladin camp at the stone circle. Calvin's debt comes due first - Renee's delivery unlocked it.
+
+  accept 590 -- A Rogue's Deal - Calvin Montague; defeat Calvin himself
+  complete 590 @38.23,56.79 -- Calvin Montague defeated (east road)
+  turnin 590 -- A Rogue's Deal - the debt settled with Calvin
+
+
+  complete 427 @29.91,49.04 -- Scarlet Warrior (west convert camp)
+
+  complete 368 @29.44,45.08 -- Vile Fin Puddlejumper (Vile Fin shore)
+  complete 368 @26.07,47.28 -- Vile Fin Minor Oracle (Vile Fin shore)
+  complete 97558 @25.48,48.47 -- Vile Fin Murloc Skin (Vile Fin shore)
+
+  accept 99144 -- Seeking Refuge - Bareth Dawnstone; escort him out of the Crusader's Outpost, then to Stilwell in Brill (Brill farewell below)
+  complete 99144 @31.96,46.35 -- Escort Bareth Dawnstone out (Crusader's Outpost, west camp)
+  goto 22.00,45.00
+
+  turnin 91282 only Paladin -- A Second Home - the word to Samuels
+  accept 91285 only Paladin -- Murlocs at the Gates - Samuels; Vile Fin attackers and seers (far west below)
+  accept 94436 only Paladin -- A Lesson in Divinity - Morr; no fighting, carry the lesson (needs city 94435 first)
+  turnin 94436 only Paladin -- A Lesson in Divinity - the lesson to Billmuth
+  accept 94438 only Paladin -- A Lesson in Divinity - Billmuth; carry it east to the far camp (east leg below)
+
+step East - Scarlet north, crypts and the Bulwark corner
+
+  zone map 1420
+
+  note East again: Brill handoffs first, then Perrine's camp, Maggot Eye, Dargol, the Mills ribs, Gunther's crypts and the Bulwark corner.
+
+
+  turnin 427 -- At War With The Scarlet Crusade - the warriors to Zygand
+  turnin 368 -- A New Plague - the shore to Johaan
+  accept 369 -- A New Plague - Johaan; Night Web venom at the far east (east leg below)
+  accept 370 -- At War With The Scarlet Crusade - Zygand; Perrine and the zealots north
+  accept 374 -- Proof of Demise - Burgess; Scarlet rings (east below)
+
+  complete 370 @51.14,67.80 -- Captain Perrine (Scarlet north camp)
+  complete 370 @48.82,66.18 -- Scarlet Zealot (Scarlet north camp)
+  complete 370 @43.23,65.17 -- Scarlet Missionary (Scarlet north camp)
+
+  complete 398 @58.66,30.77 -- Maggot Eye (north rise)
+  turnin 398 -- WANTED: Maggot Eye - the eye to Zygand
+
+  complete 408 @52.81,26.35 -- Captain Dargol (upper crypt)
+  turnin 408 -- The Family Crypt - the skull to Sevren
+  goto 43.00,33.00
+
+  complete 426 only Warrior @42.39,33.63 -- Darkeye Bonecaster (mill crypts)
+  complete 426 only Warrior @43.33,31.32 -- Cracked Skull Soldier (mill crypts)
+  turnin 426 only Warrior -- The Mills Overrun - the mills to Dillinger
+
+  note Proving Allegiance (409) needs Silverpine 366 done first.
+  accept 409 -- Proving Allegiance - Gunther; Lillith Nefara
+  complete 409 @66.67,44.97 -- Lillith Nefara (Gunther's crypt)
+  turnin 409 -- Proving Allegiance - the allegiance to Gunther
+  accept 410 -- The Dormant Shade - Lillith's Dinner Table; a Candle of Beckoning
+  complete 410 @68.16,42.02 -- Candle of Beckoning (Crate of Candles, crypt mouth)
+  turnin 410 -- The Dormant Shade - the candle to the Dinner Table
+  accept 411 -- The Prodigal Lich Returns - Gunther; Bethor waits in Undercity (city leg below)
+  accept 431 -- Candles of Beckoning - the Crate of Candles; light them
+  turnin 431 -- Candles of Beckoning - the candles to the Crate
+
+  turnin 359 -- Forsaken Duties - the word to Linnea
+  accept 360 -- Return to the Magistrate - Linnea; word for Sevren in Brill (farewell below)
+  complete 99134 @65.49,60.25 -- Deathguard Linnea (Bulwark corner)
+  complete 99141 @65.25,60.20 -- Kristof's Report (Deathguard Kristof, Bulwark corner)
+  turnin 96895 -- The Argent Emissary - the word to Hadric
+  accept 96897 -- The Cult of the Damned - Hadric; Neophytes and crystal fragments
+  complete 96897 @62.89,61.38 -- Dark Neophyte (Bulwark corner)
+  complete 96897 @66.40,63.60 -- Glowing Crystal Fragment (Bulwark corner)
+  turnin 96897 -- The Cult of the Damned - the cult to Hadric
+  accept 96898 -- Remnants of War - Hadric; Enforcers and fragments
+  complete 96898 @62.22,60.78 -- Dark Enforcer (Bulwark corner)
+  complete 96898 @66.40,63.60 -- Glowing Crystal Fragment (Bulwark corner)
+  turnin 96898 -- Remnants of War - the remnants to Hadric
+  accept 96899 -- Bandarion Keep - Hadric; Leonid waits at the west camp (west leg below)
+  turnin 97558 -- Hides for the Forsaken - the hides to Shelene
+  accept 356 -- Rear Guard Patrol - Linnea; horrors and spirits at the Rear Guard grounds
+
+  complete 356 @74.16,62.79 -- Bleeding Horror (Rear Guard grounds)
+  complete 356 @74.22,61.47 -- Wandering Spirit (Rear Guard grounds)
+  turnin 356 -- Rear Guard Patrol - the patrol to Linnea
+  complete 99142 @74.20,60.20 -- Tomb Weed (Rear Guard grounds)
+
+  accept 99156 -- Rear Guard Patrol - Linnea; Riptear's Heart
+
+  complete 99156 @72.57,54.63 -- Riptear's Heart (Riptear, Rear Guard grounds)
+  turnin 99156 -- Rear Guard Patrol - the heart to Linnea
+
+  turnin 370 -- At War With The Scarlet Crusade - Perrine's fall to Zygand
+  accept 371 -- At War With The Scarlet Crusade - Zygand; Vachon and the friars far east (east leg below)
+
+step East - Vachon, Melrache and the far camp
+
+  zone map 1420
+
+  note Far east: Vachon's camp, Melrache's rise, the venom hollow, then back to Brill before the Ambulant far camp.
+
+
+  complete 371 @78.82,56.13 -- Captain Vachon (far east camp)
+  complete 371 @76.11,57.23 -- Scarlet Friar (far east camp)
+  complete 374 @76.11,57.23 -- Scarlet Insignia Ring (friars, zealots and guards, far east camp)
+  turnin 374 -- Proof of Demise - the rings to Burgess
+  turnin 371 -- At War With The Scarlet Crusade - Vachon's fall to Zygand
+
+  accept 372 -- At War With The Scarlet Crusade - Zygand; Melrache and the bodyguards
+
+  complete 372 @79.52,25.15 -- Captain Melrache (Melrache's rise)
+  complete 372 @79.44,25.12 -- Scarlet Bodyguard (Melrache's rise)
+  turnin 372 -- At War With The Scarlet Crusade - the rise to Zygand
+
+  complete 369 @82.43,54.77 -- Vicious Night Web Spider venom (venom hollow)
+  turnin 369 -- A New Plague - the venom to Johaan
+  goto 86.73,47.72
+
+  turnin 94438 only Paladin -- A Lesson in Divinity - the lesson to the far camp
+  accept 94440 only Paladin -- A Lesson in Divinity - the far camp; the Attack Plans
+  complete 94440 only Paladin @86.73,47.72 -- Scarlet Crusade Attack Plans (far camp)
+  note The Attack Plans turn in west to Billmuth below.
+
+step West - paladin grounds and the Shadowvale
+
+  zone map 1420
+
+  note Far west: the paladin camp finishes its tour, Hadric's word reaches Leonid, and the Shadowvale gives up its bones and its elixir.
+
+  goto 22.00,45.00
+
+  complete 91285 only Paladin @11.21,58.65 -- Vile Fin Seer (far west shore)
+  complete 91285 only Paladin @11.52,58.22 -- Vile Fin Attacker (far west shore)
+  turnin 91285 only Paladin -- Murlocs at the Gates - the shore to Samuels
+  accept 91294 only Paladin -- Touring the Grounds - Samuels; the grounds' masters
+  complete 91294 only Paladin @21.96,47.25 -- Hilda the Breaker (paladin camp)
+  complete 91294 only Paladin @22.69,44.70 -- Jorin Croge (paladin camp)
+  complete 91294 only Paladin @25.41,50.41 -- Ander Solliden (paladin camp)
+  complete 91294 only Paladin @22.09,44.66 -- Danitha Morr (paladin camp)
+  turnin 91294 only Paladin -- Touring the Grounds - the tour to Samuels
+  accept 91316 only Paladin -- Making Repairs - Croge; lumber piles
+  complete 91316 only Paladin @8.50,67.10 -- Lumber Pile (Shadowvale west)
+  turnin 91316 only Paladin -- Making Repairs - the lumber to Croge
+  accept 91317 only Paladin -- The Tarnished - Morr; Gelhardt and the tarnished dead
+  complete 91317 only Paladin @11.51,64.18 -- Rudolph Gelhardt's Head (Gelhardt, Shadowvale west)
+  complete 91317 only Paladin @9.70,63.03 -- Tarnished Drudge (Shadowvale west)
+  complete 91317 only Paladin @9.99,58.57 -- Tarnished Zealot (Shadowvale west)
+  turnin 91317 only Paladin -- The Tarnished - the news to Morr
+  accept 95803 only Paladin -- A Token of Good Faith - Morr; Sylvanas waits in Undercity (city leg below)
+  turnin 96899 -- Bandarion Keep - the keep to Leonid
+  accept 96896 -- A Righteous Cause - Leonid; the cause holds here
+  turnin 96896 -- A Righteous Cause - the cause to Leonid
+  accept 99152 -- As Above, So Below - Hilda; Shadowvale bones
+  complete 99152 @8.56,59.38 -- Shadowvale Lurcher (Shadowvale west)
+  complete 99152 @8.79,67.06 -- Shadowvale Mystic (Shadowvale west)
+  turnin 99152 -- As Above, So Below - the bones to Hilda
+  accept 99153 -- The One That Got Away - Ephram; the crystal that got away
+  complete 99153 @9.74,69.43 -- Glowing Crystal Fragment (Shadowvale west)
+  turnin 99153 -- The One That Got Away - the crystal to Ephram
+  accept 98545 -- Leonid's Letter - Leonid; Glix waits in Undercity (city leg below)
+  turnin 94440 only Paladin -- A Lesson in Divinity - the plans to Billmuth
+  accept 94441 only Paladin -- A Lesson in Divinity - Billmuth; carry it to Morr
+  turnin 94441 only Paladin -- A Lesson in Divinity - the lesson to Morr
+  accept 94427 only Paladin -- A Lesson in Divinity - Morr; Tanis waits in Undercity (city leg below)
+  note Whispering Horror Residue (95328) drops off the Whispering Horror on the far west shore above - take it when it shows.
+  accept 95328 -- Whispering Horror Residue - the residue off the Horror above, when it shows; Lankester waits in Undercity (city leg below)
+
+  complete 95314 @8.60,59.50 -- Bottle of Whispering Elixir (Shadowvale west)
+
+step Brill - farewell turn-ins
+
+  zone map 1420
+
+  note Last pass over the hill: the west's escorts and bottles, the field reports, and the murloc skins' delivery.
+
+
+  turnin 99144 -- Seeking Refuge - Bareth to Stilwell
+  turnin 95314 -- That Shadowvale Green Elixir - the elixir to Carolai
+  turnin 99141 -- Patience - the reports to Zygand
+  turnin 99134 -- Discipline - the discipline to Zygand
+  accept 492 -- A New Plague - Johaan; word for the Captured Mountaineer
+  turnin 492 -- A New Plague - the word to the Captured Mountaineer
+  turnin 360 -- Return to the Magistrate - the word to Sevren
+
+  turnin 99142 -- Tomb Weed - the weed to Holland
+
+step Silverpine expedition - Renferrel's delivery
+
+  zone map 1421
+
+  note South over the border to the Sepulcher: Renferrel takes Johaan's delivery, and the frame switches back for the city run.
+
+
+  turnin 445 -- Delivery to Silverpine Forest - the delivery to Renferrel
+
+  zone map 1420
+
+step Undercity expedition - liches, letters and the Dark Lady
+
+  zone map 1458
+
+  note The city run: Bethor takes the liches' work, Sylvanas the token, the primer goes home, Glix gets the letter, and Lankester takes the residue. Mennet also keeps a Wetlands copy - either takes the turn-in.
+  tip Expedition leg to Undercity; the frame switches on.
+
+  turnin 405 -- The Prodigal Lich - the lich to Bethor
+  turnin 411 -- The Prodigal Lich Returns - the lich to Bethor
+  turnin 95803 only Paladin -- A Token of Good Faith - the token to Sylvanas
+  turnin 79095 -- The Apothecary's Metaphysical Primer - the Primer to Owen Thadd
+  turnin 98545 -- Leonid's Letter - the letter to Glix
+  turnin 441 -- Raleigh and the Undercity - Raleigh takes the word
+  turnin 1478 only Warlock -- Halgar's Summons - the summons to Carendin Halgar
+  turnin 1881 only Mage -- Speak with Anastasia - the word to Anastasia
+  turnin 1885 only Rogue -- Mennet Carkad - the word to Mennet
+  turnin 95328 -- Whispering Horror Residue - the residue to Lankester
+  complete 97952 optional @60.17,29.09 -- Basil Frye (Undercity)
+  turnin 97952 optional -- Camping 101: Blacksmithing - the work to Frye
+  complete 97954 optional @75.34,73.13 -- Graham Van Talen (Undercity)
+  turnin 97954 optional -- Camping 101: Engineering - the work to Van Talen
+  complete 97959 optional @56.03,37.45 -- Brom Killian (Undercity)
+  turnin 97959 optional -- Camping 101: Mining - the work to Brom
+  turnin 94427 only Paladin -- A Lesson in Divinity - the word to Tanis (Undercity)
+
