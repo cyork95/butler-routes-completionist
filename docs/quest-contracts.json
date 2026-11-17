@@ -14877,6 +14877,38 @@
         {"id": 98251, "name": "Never Coming Back"},
         {"id": 98252, "name": "A Void Path"}
       ]
+    },
+    {
+      "id": "stonetalon-horde",
+      "name": "Stonetalon Mountains (Horde)",
+      "order": 53,
+      "levelBand": "12-30",
+      "summary": "Horde side of contested Stonetalon Mountains.",
+      "quests": [
+        {"id": 1058, "name": "Jin'Zil's Forest Magic"},
+        {"id": 1087, "name": "Cenarius' Legacy"},
+        {"id": 1088, "name": "Ordanus"},
+        {"id": 1089, "name": "The Den"},
+        {"id": 1154, "name": "Test of Lore"},
+        {"id": 1159, "name": "Test of Lore"},
+        {"id": 1511, "name": "Ken'zigla's Draught"},
+        {"id": 5881, "name": "Calling in the Reserves"},
+        {"id": 6282, "name": "Harpies Threaten"},
+        {"id": 6283, "name": "Bloodfury Bloodline"},
+        {"id": 6284, "name": "Arachnophobia"},
+        {"id": 6301, "name": "Cycle of Rebirth"},
+        {"id": 6381, "name": "New Life"},
+        {"id": 6393, "name": "Elemental War"},
+        {"id": 6421, "name": "Boulderslide Ravine"},
+        {"id": 6461, "name": "Blood Feeders"},
+        {"id": 6481, "name": "Earthen Arise"},
+        {"id": 6523, "name": "Protect Kaya"},
+        {"id": 6542, "name": "Report to Kadrak"},
+        {"id": 6562, "name": "Trouble in the Deeps"},
+        {"id": 6627, "name": "Test of Lore"},
+        {"id": 86576, "name": "Bloodfury Trinkets"},
+        {"id": 94216, "name": "Craftsman's Writ: Elixir of Lesser Agility"}
+      ]
     }
   ]
 }
