@@ -12925,6 +12925,451 @@
           "name": "Kyle's Gone Missing!"
         }
       ]
+    },
+    {
+      "id": "tirisfal-glades",
+      "name": "Tirisfal Glades",
+      "order": 48,
+      "levelBand": "1-13",
+      "summary": "Horde route: Deathknell and Brill hubs, Agamand Mills, the Scarlet chain, apothecary chain, Undead class scrolls, Undead-paladin west line, Divinity line, Argent chain, camping profession pass; Undercity city legs set aside",
+      "quests": [
+        {
+          "id": 8,
+          "name": "A Rogue's Deal"
+        },
+        {
+          "id": 354,
+          "name": "Deaths in the Family"
+        },
+        {
+          "id": 355,
+          "name": "Speak with Sevren"
+        },
+        {
+          "id": 356,
+          "name": "Rear Guard Patrol"
+        },
+        {
+          "id": 358,
+          "name": "Graverobbers"
+        },
+        {
+          "id": 359,
+          "name": "Forsaken Duties"
+        },
+        {
+          "id": 360,
+          "name": "Return to the Magistrate"
+        },
+        {
+          "id": 361,
+          "name": "A Letter Undelivered"
+        },
+        {
+          "id": 362,
+          "name": "The Haunted Mills"
+        },
+        {
+          "id": 363,
+          "name": "Rude Awakening"
+        },
+        {
+          "id": 364,
+          "name": "The Mindless Ones"
+        },
+        {
+          "id": 365,
+          "name": "Fields of Grief"
+        },
+        {
+          "id": 367,
+          "name": "A New Plague"
+        },
+        {
+          "id": 368,
+          "name": "A New Plague"
+        },
+        {
+          "id": 369,
+          "name": "A New Plague"
+        },
+        {
+          "id": 370,
+          "name": "At War With The Scarlet Crusade"
+        },
+        {
+          "id": 371,
+          "name": "At War With The Scarlet Crusade"
+        },
+        {
+          "id": 372,
+          "name": "At War With The Scarlet Crusade"
+        },
+        {
+          "id": 374,
+          "name": "Proof of Demise"
+        },
+        {
+          "id": 375,
+          "name": "The Chill of Death"
+        },
+        {
+          "id": 376,
+          "name": "The Damned"
+        },
+        {
+          "id": 380,
+          "name": "Night Web's Hollow"
+        },
+        {
+          "id": 381,
+          "name": "The Scarlet Crusade"
+        },
+        {
+          "id": 382,
+          "name": "The Red Messenger"
+        },
+        {
+          "id": 383,
+          "name": "Vital Intelligence"
+        },
+        {
+          "id": 398,
+          "name": "WANTED: Maggot Eye"
+        },
+        {
+          "id": 404,
+          "name": "A Putrid Task"
+        },
+        {
+          "id": 405,
+          "name": "The Prodigal Lich"
+        },
+        {
+          "id": 407,
+          "name": "Fields of Grief"
+        },
+        {
+          "id": 408,
+          "name": "The Family Crypt"
+        },
+        {
+          "id": 409,
+          "name": "Proving Allegiance"
+        },
+        {
+          "id": 410,
+          "name": "The Dormant Shade"
+        },
+        {
+          "id": 411,
+          "name": "The Prodigal Lich Returns"
+        },
+        {
+          "id": 426,
+          "name": "The Mills Overrun"
+        },
+        {
+          "id": 427,
+          "name": "At War With The Scarlet Crusade"
+        },
+        {
+          "id": 431,
+          "name": "Candles of Beckoning"
+        },
+        {
+          "id": 441,
+          "name": "Raleigh and the Undercity"
+        },
+        {
+          "id": 445,
+          "name": "Delivery to Silverpine Forest"
+        },
+        {
+          "id": 492,
+          "name": "A New Plague"
+        },
+        {
+          "id": 590,
+          "name": "A Rogue's Deal"
+        },
+        {
+          "id": 1470,
+          "name": "Piercing the Veil"
+        },
+        {
+          "id": 1478,
+          "name": "Halgar's Summons"
+        },
+        {
+          "id": 1818,
+          "name": "Speak with Dillinger"
+        },
+        {
+          "id": 1819,
+          "name": "Ulag the Cleaver"
+        },
+        {
+          "id": 1820,
+          "name": "Speak with Coleman"
+        },
+        {
+          "id": 1821,
+          "name": "Agamand Heirlooms"
+        },
+        {
+          "id": 1822,
+          "name": "Heirloom Weapon"
+        },
+        {
+          "id": 1881,
+          "name": "Speak with Anastasia"
+        },
+        {
+          "id": 1885,
+          "name": "Mennet Carkad"
+        },
+        {
+          "id": 3095,
+          "name": "Simple Scroll"
+        },
+        {
+          "id": 3096,
+          "name": "Encrypted Scroll"
+        },
+        {
+          "id": 3097,
+          "name": "Hallowed Scroll"
+        },
+        {
+          "id": 3098,
+          "name": "Glyphic Scroll"
+        },
+        {
+          "id": 3099,
+          "name": "Tainted Scroll"
+        },
+        {
+          "id": 3901,
+          "name": "Rattling the Rattlecages"
+        },
+        {
+          "id": 3902,
+          "name": "Scavenging Deathknell"
+        },
+        {
+          "id": 5481,
+          "name": "Gordo's Task"
+        },
+        {
+          "id": 5482,
+          "name": "Doom Weed"
+        },
+        {
+          "id": 5650,
+          "name": "Garments of Darkness"
+        },
+        {
+          "id": 5651,
+          "name": "In Favor of Darkness"
+        },
+        {
+          "id": 6395,
+          "name": "Marla's Last Wish"
+        },
+        {
+          "id": 79095,
+          "name": "The Apothecary's Metaphysical Primer"
+        },
+        {
+          "id": 86784,
+          "name": "Sticks and Bones"
+        },
+        {
+          "id": 90902,
+          "name": "Rediscovering the Light"
+        },
+        {
+          "id": 91208,
+          "name": "Coming to Terms"
+        },
+        {
+          "id": 91209,
+          "name": "Continue Your Training"
+        },
+        {
+          "id": 91282,
+          "name": "A Second Home"
+        },
+        {
+          "id": 91285,
+          "name": "Murlocs at the Gates"
+        },
+        {
+          "id": 91294,
+          "name": "Touring the Grounds"
+        },
+        {
+          "id": 91316,
+          "name": "Making Repairs"
+        },
+        {
+          "id": 91317,
+          "name": "The Tarnished"
+        },
+        {
+          "id": 94427,
+          "name": "A Lesson in Divinity"
+        },
+        {
+          "id": 94436,
+          "name": "A Lesson in Divinity"
+        },
+        {
+          "id": 94438,
+          "name": "A Lesson in Divinity"
+        },
+        {
+          "id": 94440,
+          "name": "A Lesson in Divinity"
+        },
+        {
+          "id": 94441,
+          "name": "A Lesson in Divinity"
+        },
+        {
+          "id": 95314,
+          "name": "That Shadowvale Green Elixir"
+        },
+        {
+          "id": 95328,
+          "name": "Whispering Horror Residue"
+        },
+        {
+          "id": 95803,
+          "name": "A Token of Good Faith"
+        },
+        {
+          "id": 96607,
+          "name": "The Great Outdoors"
+        },
+        {
+          "id": 96656,
+          "name": "The Adventurer"
+        },
+        {
+          "id": 96658,
+          "name": "Camping 101: Cooking"
+        },
+        {
+          "id": 96895,
+          "name": "The Argent Emissary"
+        },
+        {
+          "id": 96896,
+          "name": "A Righteous Cause"
+        },
+        {
+          "id": 96897,
+          "name": "The Cult of the Damned"
+        },
+        {
+          "id": 96898,
+          "name": "Remnants of War"
+        },
+        {
+          "id": 96899,
+          "name": "Bandarion Keep"
+        },
+        {
+          "id": 97558,
+          "name": "Hides for the Forsaken"
+        },
+        {
+          "id": 97951,
+          "name": "Camping 101: Alchemy"
+        },
+        {
+          "id": 97952,
+          "name": "Camping 101: Blacksmithing"
+        },
+        {
+          "id": 97953,
+          "name": "Camping 101: Enchanting"
+        },
+        {
+          "id": 97954,
+          "name": "Camping 101: Engineering"
+        },
+        {
+          "id": 97955,
+          "name": "Camping 101: First Aid"
+        },
+        {
+          "id": 97956,
+          "name": "Camping 101: Fishing"
+        },
+        {
+          "id": 97957,
+          "name": "Camping 101: Herbalism"
+        },
+        {
+          "id": 97958,
+          "name": "Camping 101: Leatherworking"
+        },
+        {
+          "id": 97959,
+          "name": "Camping 101: Mining"
+        },
+        {
+          "id": 97960,
+          "name": "Camping 101: Skinning"
+        },
+        {
+          "id": 97961,
+          "name": "Camping 101: Tailoring"
+        },
+        {
+          "id": 98389,
+          "name": "A Light in the Darkness"
+        },
+        {
+          "id": 98545,
+          "name": "Leonid's Letter"
+        },
+        {
+          "id": 98601,
+          "name": "A Difficult Path"
+        },
+        {
+          "id": 99134,
+          "name": "Discipline"
+        },
+        {
+          "id": 99141,
+          "name": "Patience"
+        },
+        {
+          "id": 99142,
+          "name": "Tomb Weed"
+        },
+        {
+          "id": 99144,
+          "name": "Seeking Refuge"
+        },
+        {
+          "id": 99152,
+          "name": "As Above, So Below"
+        },
+        {
+          "id": 99153,
+          "name": "The One That Got Away"
+        },
+        {
+          "id": 99156,
+          "name": "Rear Guard Patrol"
+        }
+      ]
     }
   ]
 }
