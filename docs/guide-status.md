@@ -122,7 +122,7 @@ _The lead-in for Loch Modan (build order #2)._
 - [x] Lint/playtest clean (109 quests, lint 0 errors; playtest: Horde personas, 0 stuck / 0 failed beyond R1/R2 residue)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (12 rares, 10 treasures, 4 recipes)
 
 **Publish rule (Cody, 2026-11-13): v1.0.0 waits for ALL of it** — every zone on this checklist, both factions and Set 2 included, done at first pass: core + companions written and lint-clean. Then the `v1.0.0` tag push fires the GitHub Actions publish to polestar.guide. Pilots and pilot-fix rounds continue after publish as v1.x updates. The build order follows zone progression; per the pack principle above, that orders the writing, never the content.
 
