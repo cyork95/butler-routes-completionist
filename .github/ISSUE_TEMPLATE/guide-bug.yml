@@ -1,0 +1,71 @@
+name: Guide problem
+description: A quest, step, or coordinate in a Butler Routes guide is wrong, missing, or confusing.
+title: "[Guide] "
+labels: ["guide-bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting it — every report gets checked against the game data.
+        The three things that make a report actionable are the **guide**, the **quest**, and the **step title** (step titles are written to be reported in plain words).
+  - type: input
+    id: guide
+    attributes:
+      label: Guide
+      description: Which guide were you following?
+      placeholder: e.g. Ashenvale - Completionist, or Darkshore Rares & Treasures
+    validations:
+      required: true
+  - type: input
+    id: quest
+    attributes:
+      label: Quest
+      description: The quest name or ID involved, if any.
+      placeholder: e.g. 6124, or "The Tower of Althalaxx"
+    validations:
+      required: false
+  - type: input
+    id: step
+    attributes:
+      label: Step title
+      description: The title of the step where it went wrong, exactly as shown in Polestar.
+      placeholder: e.g. "Auberdine - the beached creatures"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem?
+      options:
+        - Wrong location / coordinates
+        - Quest missing from the guide
+        - Quest in the guide that isn't offered in game
+        - Chain out of order or blocked
+        - Rare / treasure / recipe entry wrong
+        - Text is confusing
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+      description: What the guide told you to do, and what the game actually did.
+    validations:
+      required: true
+  - type: input
+    id: character
+    attributes:
+      label: Character (optional)
+      description: Class, level, race, and faction — class and race gating bugs hide here.
+      placeholder: e.g. Night Elf Druid, level 26, Alliance
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Pack version (optional)
+      description: Shown in Polestar's pack list.
+      placeholder: e.g. 1.0.0
+    validations:
+      required: false
