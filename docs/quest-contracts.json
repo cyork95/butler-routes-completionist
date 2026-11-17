@@ -12620,6 +12620,303 @@
           "name": "Lost in the Shadows"
         }
       ]
+    },
+    {
+      "id": "mulgore",
+      "name": "Mulgore",
+      "order": 47,
+      "levelBand": "1-13",
+      "summary": "Horde route: Camp Narache and Bloodhoof Village hubs, the rites and totem chains, Tauren class notes, Shaman Call of Earth/Fire links, Hunter taming chain (city legs set aside), Priest Hex/Touch Mulgore legs, camping profession pass, 773 Rite of Wisdom via chain-consistency; Thunder Bluff city legs and Barrens/Durotar-homed chains excluded by rule.",
+      "quests": [
+        {
+          "id": 743,
+          "name": "Dangers of the Windfury"
+        },
+        {
+          "id": 745,
+          "name": "Sharing the Land"
+        },
+        {
+          "id": 746,
+          "name": "Dwarven Digging"
+        },
+        {
+          "id": 747,
+          "name": "The Hunt Begins"
+        },
+        {
+          "id": 748,
+          "name": "Poison Water"
+        },
+        {
+          "id": 749,
+          "name": "The Ravaged Caravan"
+        },
+        {
+          "id": 750,
+          "name": "The Hunt Continues"
+        },
+        {
+          "id": 751,
+          "name": "The Ravaged Caravan"
+        },
+        {
+          "id": 752,
+          "name": "A Humble Task"
+        },
+        {
+          "id": 753,
+          "name": "A Humble Task"
+        },
+        {
+          "id": 754,
+          "name": "Winterhoof Cleansing"
+        },
+        {
+          "id": 755,
+          "name": "Rites of the Earthmother"
+        },
+        {
+          "id": 756,
+          "name": "Thunderhorn Totem"
+        },
+        {
+          "id": 757,
+          "name": "Rite of Strength"
+        },
+        {
+          "id": 758,
+          "name": "Thunderhorn Cleansing"
+        },
+        {
+          "id": 759,
+          "name": "Wildmane Totem"
+        },
+        {
+          "id": 760,
+          "name": "Wildmane Cleansing"
+        },
+        {
+          "id": 761,
+          "name": "Swoop Hunting"
+        },
+        {
+          "id": 763,
+          "name": "Rites of the Earthmother"
+        },
+        {
+          "id": 764,
+          "name": "The Venture Co."
+        },
+        {
+          "id": 765,
+          "name": "Supervisor Fizsprocket"
+        },
+        {
+          "id": 766,
+          "name": "Mazzranache"
+        },
+        {
+          "id": 767,
+          "name": "Rite of Vision"
+        },
+        {
+          "id": 771,
+          "name": "Rite of Vision"
+        },
+        {
+          "id": 772,
+          "name": "Rite of Vision"
+        },
+        {
+          "id": 773,
+          "name": "Rite of Wisdom"
+        },
+        {
+          "id": 780,
+          "name": "The Battleboars"
+        },
+        {
+          "id": 861,
+          "name": "The Hunter's Way"
+        },
+        {
+          "id": 1519,
+          "name": "Call of Earth"
+        },
+        {
+          "id": 1520,
+          "name": "Call of Earth"
+        },
+        {
+          "id": 1656,
+          "name": "A Task Unfinished"
+        },
+        {
+          "id": 2984,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 3091,
+          "name": "Simple Note"
+        },
+        {
+          "id": 3092,
+          "name": "Etched Note"
+        },
+        {
+          "id": 3093,
+          "name": "Rune-Inscribed Note"
+        },
+        {
+          "id": 3094,
+          "name": "Verdant Note"
+        },
+        {
+          "id": 3376,
+          "name": "Break Sharptusk!"
+        },
+        {
+          "id": 5655,
+          "name": "Hex of Weakness"
+        },
+        {
+          "id": 5661,
+          "name": "Touch of Weakness"
+        },
+        {
+          "id": 5928,
+          "name": "Heeding the Call"
+        },
+        {
+          "id": 6061,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6087,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6088,
+          "name": "Taming the Beast"
+        },
+        {
+          "id": 6089,
+          "name": "Training the Beast"
+        },
+        {
+          "id": 94911,
+          "name": "Child of Nature"
+        },
+        {
+          "id": 95350,
+          "name": "Welcome to Azeroth"
+        },
+        {
+          "id": 95805,
+          "name": "Grace of An'she and Mu'sha"
+        },
+        {
+          "id": 96130,
+          "name": "Chakuyak"
+        },
+        {
+          "id": 96605,
+          "name": "The Great Outdoors"
+        },
+        {
+          "id": 96659,
+          "name": "The Adventurer"
+        },
+        {
+          "id": 96661,
+          "name": "Camping 101: Cooking"
+        },
+        {
+          "id": 97927,
+          "name": "Camping 101: Alchemy"
+        },
+        {
+          "id": 97928,
+          "name": "Camping 101: Blacksmithing"
+        },
+        {
+          "id": 97929,
+          "name": "Camping 101: Enchanting"
+        },
+        {
+          "id": 97930,
+          "name": "Camping 101: Engineering"
+        },
+        {
+          "id": 97931,
+          "name": "Camping 101: First Aid"
+        },
+        {
+          "id": 97932,
+          "name": "Camping 101: Fishing"
+        },
+        {
+          "id": 97933,
+          "name": "Camping 101: Herbalism"
+        },
+        {
+          "id": 97934,
+          "name": "Camping 101: Leatherworking"
+        },
+        {
+          "id": 97935,
+          "name": "Camping 101: Mining"
+        },
+        {
+          "id": 97936,
+          "name": "Camping 101: Skinning"
+        },
+        {
+          "id": 97937,
+          "name": "Camping 101: Tailoring"
+        },
+        {
+          "id": 98427,
+          "name": "Ceasing Operations"
+        },
+        {
+          "id": 98430,
+          "name": "The Longwalkers"
+        },
+        {
+          "id": 98435,
+          "name": "Thunderhorn's Report"
+        },
+        {
+          "id": 99079,
+          "name": "Longwalker Malah"
+        },
+        {
+          "id": 99080,
+          "name": "Drive Them Out"
+        },
+        {
+          "id": 99081,
+          "name": "Grim Tidings"
+        },
+        {
+          "id": 99082,
+          "name": "The High Chieftain"
+        },
+        {
+          "id": 99101,
+          "name": "Our Ancient Enemy"
+        },
+        {
+          "id": 99108,
+          "name": "Sparring Match"
+        },
+        {
+          "id": 99411,
+          "name": "Kyle's Gone Missing!"
+        }
+      ]
     }
   ]
 }
