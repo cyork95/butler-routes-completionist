@@ -114,8 +114,7 @@ _The lead-in for Loch Modan (build order #2)._
 - [x] Lint/playtest clean (72 quests, lint 0 errors; playtest: Horde personas, 0 stuck / 0 failed beyond R1 residue)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
-
+- [x] Companions (9 rares, 13 recipes; Thunder Bluff city stock excluded)
 ### Tirisfal Glades — Undead (Horde) · Horde block — last
 
 - [ ] Census

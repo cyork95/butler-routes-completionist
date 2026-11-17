@@ -660,3 +660,7 @@ as above: game-data citation or a named source.
 ## Durotar tame lines (pack 0.90.0)
 
 - Six rank-flagged rares ship with no tame line. Death Flayer 5823 reads as a scorpid (beast by name + scorpid loot incl. Venomtail Poison Sac 4886), but the core guide never kills scorpids by NPC ID (812 takes the antidote as an item; no kill lines for 3127/3226), so there is no core-guide beast-family corroboration - the Barrens companion likewise ships Death Flayer without one. Kolkanis, Zalaphil, Scornn, Flat Tusk and Mottle present no beast evidence at all, and NPC records carry no family/tame flags. Revisit if a family flag or tame evidence appears.
+
+## Mulgore tame lines (pack 0.92.0)
+
+- Ghost Howl 3056 (wolf table: Stringy Wolf Meat 2672, Fractured Canine 3299, Sharp Claw 5635) and The Rake 5807 (cat table: Small Leather Collar 4813, Discolored Fang 4814) present drop evidence but no contracted Mulgore quest kills wolves or cats by NPC ID, so there is no core-guide beast-family corroboration - logged, not shipped. Mazzranache 3068 ships the zone's tame line (plainstrider parts on its table plus contracted quest 6061 killing Adult Plainstrider 2956). NPC records carry no family/tame flags. Revisit if a family flag or tame evidence appears.
