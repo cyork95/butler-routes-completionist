@@ -1,0 +1,198 @@
+# Butler Routes - Mulgore rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 9 rare-flagged NPCs of Mulgore
+# (zone key 1412), verified against the local Forever game data
+# (questie-forever npc/object/item dumps). Every goal is optional - a
+# missing spawn never wedges the guide. Six carry the data's rare
+# role; three (Ukta, Igleg, Snarlsnout) are rank-4 elites with no
+# rare role but eponymous exclusive drops, and ship with that caveat
+# stated (see docs/mulgore-companions-inventory.md). Multi-point
+# rares loop all their points; single-point rares get plain
+# single-goto steps. Mazzranache carries the zone's only tame line
+# (plainstrider parts on its table plus a contracted core quest that
+# kills plainstriders). Treasures ride one loop over the 24 fixed
+# Battered Chest points plus a single-goto step for the Dirt-stained
+# Map (which starts uncontracted quest 781 - noted, never accepted).
+# No accept/turnin lines anywhere - the core guide owns every quest.
+guide butler-routes-completionist/mulgore-rares
+title Mulgore - Rares & Treasures
+levels 1-13
+zone Mulgore
+faction Horde
+category Collectibles
+folder Companions
+keywords mulgore, rares, treasures, collectibles, companions
+coords live
+version 1
+
+step The wilds - Ghost Howl
+
+  zone map 1412
+
+  loop
+  goto 34.7,34.23
+  goto 47.11,47.75
+  goto 46.7,25.48
+  kill 3056 optional
+  collect 4854 "Demon Scarred Cloak" optional
+  note Ghost Howl (level 12 rare elite) roams the mesa country west, central and east of Thunder Bluff. The cloak drops every kill and drops nowhere else.
+  note Also drops ordinary greens (Stringy Wolf Meat, rabbit feet, Shadowgem); respawn timer unconfirmed.
+
+step Ravaged Caravan wreck - Mazzranache
+
+  zone map 1412
+
+  goto 49.07,48.71
+  kill 3068 optional
+  task "Tame it instead of killing it" optional only Hunter
+  collect 4861 "Sleek Feathered Tunic" optional
+  note Mazzranache (level 9 rare elite) stands by the Ravaged Caravan wreck ground east of Bloodhoof. The tunic drops here and nowhere else.
+  note A tallstrider: hunters may tame rather than kill. Also drops plainstrider parts and ordinary greens; respawn timer unconfirmed.
+
+step West of Thunder Bluff - Sister Hatelash
+
+  zone map 1412
+
+  goto 37.24,22.6
+  kill 5785 optional
+  collect 4772 "Warm Cloak" optional
+  note Sister Hatelash (level 11 rare) holds a single point west of Thunder Bluff. The cloak drops here and nowhere else.
+  note Also drops ordinary greens (Linen Cloth, Light Feather); respawn timer unconfirmed.
+
+step The southern plains - Snagglespear
+
+  zone map 1412
+
+  loop
+  goto 47.42,73.29
+  goto 51.7,74.28
+  kill 5786 optional
+  note Snagglespear (level 9 rare elite) walks two points on the southern plains. No unique loot recorded - ordinary greens and generic world-drop patterns only.
+  note Respawn timer unconfirmed.
+
+step Thunder Bluff base - Enforcer Emilgund
+
+  zone map 1412
+
+  goto 40.75,26.26
+  kill 5787 optional
+  collect 284361 "Venture Company Legguards" optional
+  note Enforcer Emilgund (level 11 rare elite) holds a single point at the Thunder Bluff base. The legguards drop here and nowhere else.
+  note Also drops ordinary greens (Linen Cloth, Slitherskin Mackerel); respawn timer unconfirmed.
+
+step Eastern plain - The Rake
+
+  zone map 1412
+
+  goto 51.57,27.38
+  kill 5807 optional
+  collect 17922 "Lionfur Armor" optional
+  note The Rake (level 10 rare elite) holds a single point on the eastern plain. The armor drops every kill and drops nowhere else.
+  note Also drops ordinary greens (Discolored Fang, Small Leather Collar); respawn timer unconfirmed.
+
+step Galak edge - Stormherald Ukta
+
+  zone map 1412
+
+  loop
+  goto 58.84,58.37
+  goto 58.99,59.43
+  goto 59.19,60.16
+  goto 59.3,55.86
+  goto 59.32,57.99
+  goto 59.4,56.65
+  goto 59.41,59.01
+  goto 59.51,57.38
+  goto 59.87,59.7
+  goto 60.16,58.36
+  goto 60.16,60.47
+  goto 60.35,60.95
+  goto 60.58,58.87
+  goto 60.58,59.73
+  kill 276105 optional
+  collect 286754 "Ukta's Conduit" optional
+  note Stormherald Ukta (level 12 elite) patrols the Galak edge. The data carries no rare role for him, but his conduit drops here and nowhere else, so he ships as a rare with that caveat.
+  note Respawn timer unconfirmed.
+
+step Northeast heights - Thornstarter Igleg
+
+  zone map 1412
+
+  loop
+  goto 57.54,32.79
+  goto 57.84,34.22
+  goto 58.05,30.74
+  goto 58.25,31.3
+  goto 58.33,30.04
+  goto 58.64,33.04
+  goto 58.94,32.38
+  goto 59.03,31.8
+  goto 59.08,29.91
+  goto 59.08,30.57
+  goto 59.19,31.25
+  goto 59.29,32.98
+  goto 59.67,30.85
+  kill 276108 optional
+  collect 286752 "Igleggings" optional
+  note Thornstarter Igleg (level 12 elite) patrols the northeast heights. The data carries no rare role for him, but the Igleggings drop here and nowhere else, so he ships as a rare with that caveat.
+  note Respawn timer unconfirmed.
+
+step Palemane country - Snarlsnout
+
+  zone map 1412
+
+  loop
+  goto 32.38,63.07
+  goto 32.49,63.69
+  goto 32.57,65.58
+  goto 32.64,64.48
+  goto 32.89,64.94
+  goto 33.11,65.79
+  goto 33.29,63.6
+  goto 33.69,63.06
+  goto 33.92,63.74
+  goto 34.46,64.16
+  goto 34.82,64.71
+  kill 276109 optional
+  collect 286753 "Snarlsnout Shooter" optional
+  note Snarlsnout (level 10 elite) roams Palemane country in the west. The data carries no rare role for him, but the shooter drops here and nowhere else, so he ships as a rare with that caveat.
+  note Respawn timer unconfirmed.
+
+step Battered Chests - fixed points across Mulgore
+
+  zone map 1412
+
+  loop
+  goto 31.68,34.8
+  goto 32.72,32.28
+  goto 32.85,63.86
+  goto 33.24,48.16
+  goto 33.45,48.8
+  goto 34.53,52.66
+  goto 36.48,65.05
+  goto 36.68,65.33
+  goto 37.64,23.94
+  goto 40.44,25.95
+  goto 40.88,26.65
+  goto 47.29,73.54
+  goto 51.53,74.21
+  goto 51.54,53.37
+  goto 51.86,53.12
+  goto 51.91,53.6
+  goto 52.97,26.59
+  goto 54.37,25.51
+  goto 56.98,53.35
+  goto 57.36,53.44
+  goto 57.85,44.73
+  goto 60.08,47.48
+  goto 60.58,70.76
+  goto 61.75,70.94
+  interact 106318 optional
+  note Generic Battered Chests at their 24 fixed points across Mulgore: random greens, Waylaid Supplies and scrolls, plainly nothing unique. Open what is up, skip the rest.
+
+step Thornmantle camp - Dirt-stained Map
+
+  zone map 1412
+
+  goto 59.8,82.2
+  interact 3076 optional
+  note The Dirt-stained Map at the Thornmantle camp always yields item 4851, which starts quest 781 Attack on Camp Narache. That quest is in no guide and no contract (census gap, see the inventory) - noted here, never accepted here.
