@@ -1,0 +1,326 @@
+# Butler Routes - Tirisfal Glades rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 12 rare-flagged NPCs of Tirisfal Glades
+# (zone key 1420), verified against the local Forever game data
+# (questie-forever npc/object/item dumps). Nine carry the data's rare
+# role; three (Blightsculler, Decrepit Harvester, The Condemned One)
+# are rank-4 elites with no rare role but exclusive named loot, and
+# ship with that caveat stated (see
+# docs/tirisfal-glades-companions-inventory.md). One rank-4 without
+# loot (Coldrasp) is excluded. Every goal is optional - a missing
+# spawn never wedges the guide. Multi-point rares loop all their
+# points; single-point rares get plain single-goto steps. No tame
+# lines ship (drop evidence but no same-species core kill; see
+# docs/companion-unverified.md). Treasures ride two Battered Chest
+# loops plus single-goto steps for the unique objects, all with
+# contents-unconfirmed notes. No accept/turnin lines anywhere - the
+# core guide owns every quest.
+guide butler-routes-completionist/tirisfal-glades-rares
+title Tirisfal Glades — Rares & Treasures
+levels 1-13
+zone Tirisfal Glades
+faction Horde
+category Collectibles
+folder Companions
+keywords tirisfal glades, rares, treasures, collectibles, companions
+coords live
+version 1
+
+step West road - Bayne
+
+  zone map 1420
+
+  goto 39.9,42.16
+  kill 10356 optional
+  collect 283462 "Bayne's Bite" optional
+  note Bayne (level 10 rare) holds a single point on the west road. Bayne's Bite drops here and nowhere else.
+  note Also drops ordinary greens (wolf meat, rabbit feet); respawn timer unconfirmed.
+
+step West fields - Muad
+
+  zone map 1420
+
+  goto 36.49,42.39
+  kill 1910 optional
+  note Muad (level 10 rare) holds a single point in the west fields. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step Solliden farm - Farmer Solliden
+
+  zone map 1420
+
+  loop
+  goto 34.07,52.11
+  goto 37.09,49.46
+  goto 38.03,52.21
+  goto 38.04,49.61
+  kill 1936 optional
+  collect 4261 "Solliden's Trousers" optional
+  note Farmer Solliden (level 8 rare) walks four points around the Solliden farm. The trousers drop here and nowhere else.
+  note Also drops ordinary greens (linen, light feathers); respawn timer unconfirmed.
+
+step Agamand Mills - Lost Soul
+
+  zone map 1420
+
+  loop
+  goto 44.6,40.51
+  goto 53.18,48.37
+  goto 53.34,45.6
+  kill 1531 optional
+  note Lost Soul (level 6 rare) drifts between three points around Agamand Mills. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step North fields - Tormented Spirit
+
+  zone map 1420
+
+  goto 45.59,31.62
+  kill 1533 optional
+  note Tormented Spirit (level 8 rare) holds a single point in the north fields. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step North-east - Deeb
+
+  zone map 1420
+
+  goto 63.29,27.48
+  kill 1911 optional
+  note Deeb (level 12 rare) holds a single point in the north-east. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step West shore - Blightsculler
+
+  zone map 1420
+
+  loop
+  goto 12.05,56.73
+  goto 13.25,58.79
+  goto 13.92,56.25
+  goto 14.04,53.92
+  goto 15.05,52.05
+  goto 15.58,56.35
+  goto 15.95,59.33
+  goto 16.15,50.82
+  goto 16.17,61.98
+  goto 16.27,53.6
+  goto 17.06,48.99
+  goto 17.41,56.45
+  goto 17.93,52.36
+  goto 18.3,60.23
+  goto 18.31,54.87
+  goto 18.73,58.07
+  goto 18.77,62.4
+  goto 19,50.17
+  goto 19.58,47.15
+  goto 19.8,52.88
+  goto 20.85,54.78
+  goto 21.31,48.74
+  goto 21.43,57.37
+  goto 21.73,51.62
+  kill 271080 optional
+  collect 283460 "Decaying Flesh Belt" optional
+  note Blightsculler (level 10) patrols the west shore. It carries no rare flag in the data, but the Decaying Flesh Belt drops here and nowhere else, so it ships with this caveat.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Brill west - Decrepit Harvester
+
+  zone map 1420
+
+  loop
+  goto 50.67,56.44
+  goto 51.66,53.9
+  goto 51.95,58.91
+  goto 52.03,55.44
+  goto 52.36,56.08
+  goto 52.59,57.85
+  goto 52.76,56.65
+  goto 52.86,59.05
+  goto 53.08,53.86
+  goto 53.11,56.09
+  goto 53.29,55.37
+  goto 53.47,57.02
+  goto 53.6,57.8
+  goto 53.68,58.58
+  goto 53.76,60.58
+  goto 53.94,53.61
+  goto 54.39,56.75
+  goto 54.43,58.84
+  goto 54.62,55.39
+  goto 54.88,57.35
+  goto 54.9,59.52
+  goto 55.75,56.37
+  goto 55.78,58.87
+  goto 60.55,58.45
+  kill 276061 optional
+  note Decrepit Harvester (level 8) works the fields west of Brill. It carries no rare flag in the data, but it is the sole source of the Harvester Override Signalcaster schematic, which rides as a collect in the Tirisfal recipes companion - hunt here, buy there.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step East - Fellicent's Shade
+
+  zone map 1420
+
+  goto 76.96,60.35
+  kill 10358 optional
+  collect 283471 "Fellicent's Bindings" optional
+  note Fellicent's Shade (level 12 rare) holds a single point in the east. Fellicent's Bindings drop here and nowhere else.
+  note Also drops ordinary greens (mageweave, formulas are generic world drops); respawn timer unconfirmed.
+
+step Far east - Sri'skulk
+
+  zone map 1420
+
+  goto 88.16,51.44
+  kill 10359 optional
+  collect 283480 "Cracked Carapace Hauberk" optional
+  note Sri'skulk (level 13 rare) holds a single point in the far east. The Cracked Carapace Hauberk drops here and nowhere else.
+  note Also drops ordinary greens (spider silk, venom sacs); respawn timer unconfirmed.
+
+step East - The Condemned One
+
+  zone map 1420
+
+  loop
+  goto 64.66,43.15
+  goto 64.86,46.63
+  goto 65.31,39.82
+  goto 65.75,44.89
+  goto 65.98,48.4
+  goto 66.54,42
+  goto 66.8,37.53
+  goto 67.15,50.84
+  goto 67.52,46.83
+  goto 67.64,43.79
+  goto 68.07,42.09
+  goto 68.57,39.99
+  goto 68.64,37.7
+  goto 68.75,49.35
+  goto 69.26,46.6
+  goto 69.85,36.43
+  goto 70.32,38.68
+  goto 70.35,42.73
+  goto 70.41,47.95
+  goto 70.42,45.17
+  goto 70.52,40.95
+  goto 71.9,40.27
+  goto 72.33,42.29
+  goto 73.47,44.43
+  kill 276089 optional
+  collect 286755 "Helm Splitter" optional
+  note The Condemned One (level 11) roams the east. It carries no rare flag in the data, but the Helm Splitter drops here and nowhere else, so it ships with this caveat.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step South shore - Ressan the Needler
+
+  zone map 1420
+
+  goto 42.86,67.57
+  kill 10357 optional
+  collect 283473 "Batwing Bindings" optional
+  note Ressan the Needler (level 11 rare) holds a single point on the south shore. The Batwing Bindings drop here and nowhere else.
+  note Also drops ordinary greens (bat wings, bat blood); respawn timer unconfirmed.
+
+step West - Battered Chests (coast set)
+
+  zone map 1420
+
+  note One of two fixed Battered Chest sets in the zone; contents unconfirmed in the data.
+
+  loop
+  goto 23.6,58.28
+  goto 24.71,59.78
+  goto 26.11,60.35
+  goto 31.32,62.16
+  goto 34.22,64.3
+  goto 36.51,62.2
+  goto 37.35,68.01
+  interact 2843 optional
+
+step Inland - Battered Chests (field set)
+
+  zone map 1420
+
+  note The second fixed Battered Chest set, scattered inland; contents unconfirmed in the data.
+
+  loop
+  goto 31.63,46.11
+  goto 34.72,40.98
+  goto 37.93,49.61
+  goto 49.24,33.57
+  goto 49.68,35.68
+  goto 49.79,42.73
+  goto 51,67.4
+  goto 57.91,32.88
+  goto 58.86,26.91
+  goto 67.08,25.84
+  goto 72.83,25.84
+  goto 77.21,59.79
+  interact 106318 optional
+
+step Perrine's camp - Perrine's Chest
+
+  zone map 1420
+
+  goto 51.06,67.57
+  note Perrine's Chest sits at Captain Perrine's north camp - loot it while the core route kills Perrine for quest 370. Contents unconfirmed in the data.
+
+step Brill - Buried Treasure
+
+  zone map 1420
+
+  goto 52.9,54
+  note Buried Treasure lies just west of Brill. Contents unconfirmed in the data.
+
+step Far west - Lost Stash
+
+  zone map 1420
+
+  goto 24.6,59.5
+  note Lost Stash sits on the far west shore. Contents unconfirmed in the data.
+
+step North coast - Shipwreck Cache
+
+  zone map 1420
+
+  goto 66.7,24.6
+  note Shipwreck Cache lies on the north coast. Contents unconfirmed in the data.
+
+step Far east - Supply Locker
+
+  zone map 1420
+
+  goto 81.1,32.1
+  note Supply Locker sits in the far east. Contents unconfirmed in the data.
+
+step North - Relic Coffer
+
+  zone map 1420
+
+  goto 52.5,25.8
+  note Relic Coffer lies in the north. Contents unconfirmed in the data.
+
+step Far east ruins - Salem's Chest
+
+  zone map 1420
+
+  goto 87.06,43.15
+  note Dark Cleric Salem's Chest sits in the far east. Contents unconfirmed in the data.
+
+step Brill west - Mech Arms
+
+  zone map 1420
+
+  note Scattered salvage arms west of Brill; contents unconfirmed in the data.
+
+  loop
+  goto 52.4,57.7
+  goto 53,55.8
+  goto 53.2,57
+  goto 53.3,57.5
+  goto 53.7,56.6
+  goto 54.2,57.5
+  goto 54.2,58.7
+  goto 54.5,56.7
+  goto 54.5,58.2
+  goto 54.8,56.4
+  goto 57.9,56.9
+  interact 459259 optional
