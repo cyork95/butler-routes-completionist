@@ -173,3 +173,12 @@ Rogue, 16 Priest, 64 Shaman, 128 Mage, 256 Warlock, 1024 Druid;
   route never wedges (bag notes where item-started).
 
 
+
+## Addendum 2026-11-17 - two item-started quests contracted (72 -> 74)
+
+The census above states 
+o item-starts in the data for this zone. That claim is corrected here: the census method keyed NPC accepts and missed item starts. Two in-band, Horde-acceptable, zone-1412 item-started quests exist, and by the pack's item-start rule both are IN the core contract. Nothing else in the census changes.
+
+- 781 Attack on Camp Narache (lvl4/min1, Horde-all) IN: starts from item 4851 Dirt-stained Map (100% from object 3076 Dirt-stained Map @59.8,82.2, Thornmantle camp); no objectives; turn-in Chief Hawkwind 2981 @43.89,76.66 (Camp Narache); no pre, no gates. The companions round already ships the map as a treasure note; the core guide now routes it.
+
+- 98424 Fizsprocket's Notes (lvl10/min5, Horde-all) IN: starts from item 281031 Mulgore Expansion Plans (dropped by Supervisor Fizsprocket 3051 @61.19,49.32, east site - drop rate unconfirmed in the data, bag-note handling); objectives are three document items from east-site objects (Shredder Operation Instructions 281035 @58.63,47.31, Barrens Operations Best Practices 281036 @61.67,47.31, One Gerenzo of Stonetalon 281037 @59.02,46.41); turn-in Morin Cloudstalker 2988; no pre. This is the blocking pre-quest of contracted 98427 Ceasing Operations, whose soft-pre mini-step already rides in the core guide.
