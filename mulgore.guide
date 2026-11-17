@@ -1,0 +1,344 @@
+# Mulgore - Completionist (pack butler-routes-completionist, v1).
+# The Horde block's Tauren starting-zone route: every Mulgore accept
+# in the local census (72 quests, docs/mulgore-census.md) appears
+# exactly once as an accept and once as a turnin. Band 1-13 by
+# minLevel cluster (zone id 1412, order 47); 95350 Welcome to Azeroth
+# (lvl13/min7) is the finale-rule IN. The Thunder Bluff city rule
+# sends all 1456-accept quests to the future city census (150 duals
+# including the Shaman/Druid city legs and the Hunter chain's city
+# legs); Barrens-homed 775/833 and Durotar-homed 1505/1883 are noted
+# where their chains cross but never double-contracted.
+# No race header: every line gates exactly what the data gates -
+# only Tauren on the Tauren-only rites and totem chains, only
+# Warrior,Tauren / only Hunter,Tauren / only Shaman,Tauren / only
+# Druid,Tauren on the four class notes, only Shaman on the Call of
+# Earth/Fire links, only Druid,Tauren on 5928 (Barrens 6128
+# precedent), only Druid,Horde on 94911 (Durotar 98517 precedent),
+# only Priest,Troll on the Hex leg and only Priest,Undead on the
+# Touch leg (Durotar's blocked-first twins live here as the Mulgore
+# halves), only Hunter,Tauren on the taming chain. The camping pass
+# rides optional + when-skill gated like Durotar's, with only the
+# operative Kaga step functional. One soft-pre mini stands alone:
+# when onquest 98424 (item-started, uncontracted) for 98427.
+# Expedition legs switch frames deliberately and back: Orgrimmar
+# (1454, Thrall takes 95350 home), the Barrens (1413, Kranal Fiss
+# takes 2984), Durotar (1411, Ur'kyo takes 5655), Tirisfal (1420,
+# Aelthalyste takes 5661).
+guide butler-routes-completionist/mulgore
+title Mulgore
+levels 1-13
+zone Mulgore
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Camp Narache - arrival
+
+  zone map 1412
+
+  note Grull Hawkwind (44.47,77.5) runs the camp: Chief Hawkwind (43.89,76.66) and Greatmother Hawkwind (48.77,80.92) trade the humble tasks; the trainers Harutt (43.75,76.72), Lanka (43.96,76.35), Meela Dawnstrider (44.58,76.56) and Gart (44.65,76.55) take the class notes; Brave Windfeather (44.18,77.03) eyes Sharptusk far east; Antur Fallow (39.16,81.24) needs Innkeeper Kauth in Bloodhoof.
+
+  accept 747 -- The Hunt Begins - Grull; plainstrider meat and feathers, the herds south
+  complete 747 @42.8,77.05 era -- Plainstrider Meat and Feathers (Plainstriders, south herds)
+  turnin 747 -- The Hunt Begins - the hunt to Grull
+  accept 752 -- A Humble Task - Chief Hawkwind; Greatmother takes the word
+  turnin 752 -- A Humble Task - the word to Greatmother Hawkwind
+  accept 753 -- A Humble Task - Greatmother Hawkwind; the Water Pitcher at the well
+  complete 753 @48.91,81.17 era -- Water Pitcher (the well east of camp)
+  turnin 753 -- A Humble Task - the pitcher to Chief Hawkwind
+  accept 750 -- The Hunt Continues - Grull; mountain cougar pelts, the ridges
+  complete 750 @41.11,81.67 era -- Mountain Cougar Pelts (Mountain Cougars, the ridges)
+  turnin 750 -- The Hunt Continues - the pelts to Grull
+  accept 780 -- The Battleboars - Grull; snouts and flanks, the pens and flats
+  complete 780 @51.31,78 era -- Battleboar Snouts and Flanks (Battleboars)
+  turnin 780 -- The Battleboars - the boar work to Grull
+  accept 3091 only Warrior,Tauren -- Simple Note - Grull; Harutt takes it
+  turnin 3091 only Warrior,Tauren -- Simple Note - the note to Harutt Thunderhorn
+  accept 3092 only Hunter,Tauren -- Etched Note - Grull; Lanka takes it
+  turnin 3092 only Hunter,Tauren -- Etched Note - the note to Lanka Farshot
+  accept 3093 only Shaman,Tauren -- Rune-Inscribed Note - Grull; Meela takes it
+  turnin 3093 only Shaman,Tauren -- Rune-Inscribed Note - the note to Meela Dawnstrider
+  accept 3094 only Druid,Tauren -- Verdant Note - Grull; Gart takes it
+  turnin 3094 only Druid,Tauren -- Verdant Note - the note to Gart Mistrunner
+  accept 3376 -- Break Sharptusk! - Windfeather; the chief far east (east leg below)
+  complete 3376 @61.02,78 era -- Chief Sharptusk Thornmantle (southeast flats)
+  accept 1656 -- A Task Unfinished - Antur Fallow; Innkeeper Kauth in Bloodhoof takes the word
+  turnin 1656 -- A Task Unfinished - Antur's word to Innkeeper Kauth
+
+step Rites of the Earthmother - south and east
+
+  zone map 1412
+
+  note The Earthmother chain runs south first: Seer Graytongue (42.54,90.13) reads the rites, the quilboar belts come off Bristlebacks southeast (55.2,77.39), Zarlman Two-Moons (46.88,61.19) keeps the vision in Bloodhoof, and Seer Wiserunner (34.31,43.29) keeps the wisdom west, and the Ancestral Spirit waits east (58.31,30.7).
+
+  accept 755 -- Rites of the Earthmother - Chief Hawkwind; Seer Graytongue takes the word
+  turnin 755 -- Rites of the Earthmother - the word to Seer Graytongue
+  accept 757 -- Rite of Strength - Graytongue; twelve Bristleback Belts, southeast
+  complete 757 @55.76,78.56 era -- Bristleback Belts (Bristlebacks, southeast)
+  turnin 757 -- Rite of Strength - the belts to Chief Hawkwind
+  accept 763 -- Rites of the Earthmother - Chief Hawkwind; Baine takes the word
+  turnin 763 -- Rites of the Earthmother - the word to Baine Bloodhoof
+  accept 767 -- Rite of Vision - Baine; Zarlman takes the word
+  turnin 767 -- Rite of Vision - the word to Zarlman Two-Moons
+  accept 771 -- Rite of Vision - Zarlman; well stones and ambercorn
+  complete 771 @42.41,25 era -- Well Stones (the stones north)
+  complete 771 @35.91,71.95 era -- Ambercorn (Ambercorn, west flats)
+  turnin 771 -- Rite of Vision - the vision to Zarlman Two-Moons
+  accept 772 -- Rite of Vision - Zarlman; Seer Wiserunner west takes the word
+  turnin 772 -- Rite of Vision - the word to Seer Wiserunner
+  accept 773 -- Rite of Wisdom - Wiserunner; the Ancestral Spirit east takes it (Barrens-owned 775 follows - see census)
+  turnin 773 -- Rite of Wisdom - the wisdom to the Ancestral Spirit
+
+step Bloodhoof Village - the hub
+
+  zone map 1412
+
+  note Bloodhoof Village works the center: Baine (46.67,63.38) holds the village chains, Harken Windtotem (47.67,62.68) hunts swoops, Mull Thunderhorn (47.52,63.58) runs the Tauren totems and cleansings, Kaga Wildhoof (46.18,67.3) runs the camp, Morin Cloudstalker (54.76,64.27 and 50.32,62.88) watches the Venture east.
+
+  accept 743 -- Dangers of the Windfury - Ruul Eagletalon (46.54,64.94); eight talons off Windfury Harpies northwest
+  complete 743 @33.01,48.4 era -- Windfury Talons (Windfury Harpies, northwest)
+  turnin 743 -- Dangers of the Windfury - the talons to Ruul Eagletalon
+  accept 745 -- Sharing the Land - Baine; Palemane at the rock west
+  complete 745 @33.4,63.55 era -- Palemane Tanners (the rock west)
+  complete 745 @33.42,63.29 era -- Palemane Skinners (the rock west)
+  complete 745 @32.23,63.69 era -- Palemane Poachers (the rock west)
+  turnin 745 -- Sharing the Land - the land shared, back to Baine Bloodhoof
+  accept 746 -- Dwarven Digging - Baine; the Bael'dun relics (forge 33.1,54.8)
+  complete 746 @33.1,54.8 era -- Bael'dun Relics (the forge, Bael'dun site)
+  turnin 746 -- Dwarven Digging - the relics to Baine Bloodhoof
+  accept 761 -- Swoop Hunting - Harken; eight trophy quills, the swoops
+  complete 761 @36.41,54.45 era -- Trophy Swoop Quills (Swoops)
+  turnin 761 -- Swoop Hunting - the quills to Harken Windtotem
+  accept 766 -- Mazzranache - Maur Raincaller (46.23,60.8); heart, femur, scale and gizzard
+  complete 766 @35.43,79.37 era -- Prairie Wolf Heart (Prairie Wolves)
+  complete 766 @35.1,34.53 era -- Flatland Cougar Femur (Flatland Cougars)
+  complete 766 @42.32,81.14 era -- Plainstrider Scale (Plainstriders)
+  complete 766 @35.54,78.5 era -- Swoop Gizzard (Wiry Swoops)
+  turnin 766 -- Mazzranache - the four to Maur Raincaller
+  accept 748 only Tauren -- Poison Water - Mull Thunderhorn; paws and talons off the bristlebacks
+  complete 748 @55.76,78.56 era -- Bristleback Paws and Talons (Bristlebacks, southeast)
+  turnin 748 only Tauren -- Poison Water - the cure to Mull Thunderhorn
+  accept 754 only Tauren -- Winterhoof Cleansing - Mull; cleanse the Winterhoof well
+  complete 754 @51.85,68.53 era -- Cleanse the Winterhoof Water Well
+  turnin 754 only Tauren -- Winterhoof Cleansing - the well cleansed, back to Mull
+  accept 756 only Tauren -- Thunderhorn Totem - Mull; stalker and cougar claws
+  complete 756 @35.68,36.3 era -- Stalker Claws (Prairie Stalkers)
+  complete 756 @35.1,34.53 era -- Cougar Claws (Flatland Cougars)
+  turnin 756 only Tauren -- Thunderhorn Totem - the claws to Mull Thunderhorn
+  accept 758 only Tauren -- Thunderhorn Cleansing - Mull; cleanse the Thunderhorn well
+  complete 758 -- Cleanse the Thunderhorn Water Well
+  turnin 758 only Tauren -- Thunderhorn Cleansing - the well cleansed, back to Mull
+  accept 759 only Tauren -- Wildmane Totem - Mull; eight alpha teeth
+  complete 759 @33.99,29.94 era -- Prairie Alpha Teeth (Prairie Wolf Alphas)
+  turnin 759 only Tauren -- Wildmane Totem - the teeth to Mull Thunderhorn
+  accept 760 only Tauren -- Wildmane Cleansing - Mull; cleanse the Wildmane well (Hamuul's word follows)
+  complete 760 -- Cleanse the Wildmane Well
+  turnin 760 only Tauren -- Wildmane Cleansing - the well cleansed, back to Mull
+  accept 98435 -- Thunderhorn's Report - Mull; Arch Druid Hamuul takes the word north
+  accept 1519 only Shaman -- Call of Earth - Seer Ravenfeather (44.35,76.77); two ritual salves off Bristleback Shamans
+  complete 1519 @56.61,78.3 era -- Ritual Salves (Bristleback Shamans, southeast)
+  turnin 1519 only Shaman -- Call of Earth - the salves to Seer Ravenfeather
+  accept 1520 only Shaman -- Call of Earth - Ravenfeather; the Minor Manifestation southeast (51.99,80.4) takes it
+  turnin 1520 only Shaman -- Call of Earth - the earth heard, back to Seer Ravenfeather
+  accept 2984 only Shaman -- Call of Fire - Narm Skychaser (47.4,62.54); Kranal Fiss in the Barrens takes the word (Barrens leg below)
+
+step Bloodhoof Village - the hunter chain
+
+  zone map 1412
+
+  note Yaw Sharpmane (46.93,59.65) runs the Tauren taming chain west of the village; Skorn Whitecloud (46.03,63.44) walks the Hunter's Way north. The city legs 6065/6070 live in Thunder Bluff (see census) - this chain ends at Holt Thunderhorn (41.4,35.1) on the north road.
+
+  accept 6061 only Hunter,Tauren -- Taming the Beast - Yaw; tame an Adult Plainstrider
+  complete 6061 @39.73,57.37 era -- Tame an Adult Plainstrider (west herds)
+  turnin 6061 only Hunter,Tauren -- Taming the Beast - the beast to Yaw Sharpmane
+  accept 6087 only Hunter,Tauren -- Taming the Beast - Yaw; tame a Prairie Stalker
+  complete 6087 @41.6,50.87 era -- Tame a Prairie Stalker (central herds)
+  turnin 6087 only Hunter,Tauren -- Taming the Beast - the beast to Yaw Sharpmane
+  accept 6088 only Hunter,Tauren -- Taming the Beast - Yaw; tame a Swoop
+  complete 6088 @44.34,42.28 era -- Tame a Swoop (central flats)
+  turnin 6088 only Hunter,Tauren -- Taming the Beast - the beast to Yaw Sharpmane
+  accept 6089 only Hunter,Tauren -- Training the Beast - Yaw; Holt Thunderhorn north takes the word
+  accept 861 -- The Hunter's Way - Skorn; four Flatland Prowler claws, the north flats
+  complete 861 @33.96,28.99 era -- Flatland Prowler Claws (Flatland Prowlers, north flats)
+  accept 96130 -- Chakuyak - Yaw; the pelt off Chakuyak, west
+  complete 96130 @39.46,66.18 era -- Chakuyak's Pelt (Chakuyak, west)
+  turnin 96130 -- Chakuyak - the pelt to Yaw Sharpmane
+
+step Bloodhoof Village - priests and druids
+
+  zone map 1412
+
+  note Var'jun (46.2,62.27) holds the two Mulgore Hex/Touch legs: the Hex runs to Ur'kyo in Durotar, the Touch to Aelthalyste in Tirisfal (expedition legs below). Durotar routes the sibling legs. Gennia Runetotem (47.48,62.95) sends young druids to Turak north.
+
+  accept 5655 only Priest,Troll -- Hex of Weakness - Var'jun; Ur'kyo in Durotar takes it (Durotar leg below)
+  accept 5661 only Priest,Undead -- Touch of Weakness - Var'jun; Aelthalyste in Tirisfal takes it (Tirisfal leg below)
+  accept 5928 only Druid,Tauren -- Heeding the Call - Gennia; Turak Runetotem north takes the word (north leg below)
+  accept 94911 only Druid,Horde -- Child of Nature - Muln Earthfury (33.42,22.59) and Alaana Stormwalker (33.37,22.57), the west reach
+
+step Bloodhoof Village - the Malah war
+
+  zone map 1412
+
+  note The Galak war runs east: Brave Wildrunner (46.68,63.83) and Baine (46.67,63.38) trade the legs, Malah Longwind (57.62,63.18) holds the east camp, Herak the Pillager (59.25,60.13) holds the head.
+
+  accept 99079 -- Longwalker Malah - Wildrunner; Malah Longwind east takes the word
+  turnin 99079 -- Longwalker Malah - the word to Malah Longwind
+  accept 99081 -- Grim Tidings - Malah; Wildrunner takes the word
+  turnin 99081 -- Grim Tidings - the tidings to Brave Wildrunner
+  accept 99101 -- Our Ancient Enemy - Wildrunner; Baine takes the word
+  turnin 99101 -- Our Ancient Enemy - the word to Baine Bloodhoof
+  accept 99080 -- Drive Them Out - Baine; Galak at the east camps and Herak's head
+  complete 99080 @62.81,60.75 era -- Galak Centaurs and Outrunners (east camps)
+  complete 99080 @59.25,60.13 era -- Herak's Head (Herak the Pillager, east camp)
+  turnin 99080 -- Drive Them Out - the east won, back to Baine Bloodhoof
+  accept 99082 -- The High Chieftain - Baine; Cairne takes the word north (north leg below)
+  accept 749 -- The Ravaged Caravan - Morin; the sealed crate takes the word
+  turnin 749 -- The Ravaged Caravan - the word at the Sealed Supply Crate (51.87,53.37)
+  accept 751 -- The Ravaged Caravan - the Sealed Supply Crate; Morin takes the word back
+  turnin 751 -- The Ravaged Caravan - the crate word to Morin Cloudstalker
+  accept 764 -- The Venture Co. - Morin Cloudstalker; fourteen workers and six supervisors, the east site
+  complete 764 @56.73,53.17 era -- Venture Co. Workers (the east site)
+  complete 764 @56.19,42.39 era -- Venture Co. Supervisors (the east site)
+  turnin 764 -- The Venture Co. - the site cleared, back to Morin Cloudstalker
+  accept 765 -- Supervisor Fizsprocket - Morin; the clipboard off Fizsprocket himself
+  complete 765 @61.19,49.32 era -- Fizsprocket's Clipboard (Supervisor Fizsprocket, east site)
+  turnin 765 -- Supervisor Fizsprocket - the clipboard to Morin Cloudstalker
+  accept 98427 -- Ceasing Operations - Morin; the Clearcutter Key off the Clearcutter (soft-pre mini below carries it)
+
+step Venture east - Fizsprocket's key (soft-pre)
+
+  zone map 1412
+
+  when onquest 98424
+
+  note Ceasing Operations (98427) needs Fizsprocket's Notes (98424) turned in, which starts from an item outside this contract - this mini-step only shows on that quest. The Clearcutter Key comes off the Clearcutter (56.76,42.75).
+
+  complete 98427 @56.76,42.75 era -- Clearcutter Key (Venture Co. Clearcutter, east site)
+  turnin 98427 -- Ceasing Operations - the key to Morin Cloudstalker
+
+step Bloodhoof Village - the camping pass
+
+  zone map 1412
+
+  note Kaga Wildhoof (46.18,67.3) runs the camp: Chief Hawkwind's Adventurer word (96659) opens the pass and the campfire sitting completes the Outdoors (96605). The twelve profession legs are optional and skill-gated - they only credit with their pre chain done, so the route never wedges on them.
+
+  accept 96659 -- The Adventurer - Chief Hawkwind; Kaga takes the story
+  turnin 96659 -- The Adventurer - the story to Kaga Wildhoof
+  accept 96605 -- The Great Outdoors - Kaga; sit by the campfire and rest
+  complete 96605
+  turnin 96605 -- The Great Outdoors - rested, back to Kaga Wildhoof
+  accept 96661 optional -- Camping 101: Cooking - Kaga; Pyall takes it
+  when skill Cooking 1
+  complete 96661 optional @44.92,61.67 era -- Pyall Silentstride (Bloodhoof)
+  turnin 96661 optional -- Camping 101: Cooking - Pyall takes it
+  accept 97927 optional -- Camping 101: Alchemy - Kaga; Kray takes it
+  when skill Alchemy 1
+  complete 97927 optional @39.3,23.8 era -- Kray (north road)
+  turnin 97927 optional -- Camping 101: Alchemy - Kray takes it
+  accept 97928 optional -- Camping 101: Blacksmithing - Kaga; Thrag takes it
+  when skill Blacksmithing 1
+  complete 97928 optional @37.8,28.4 era -- Thrag Stonehoof (north road)
+  turnin 97928 optional -- Camping 101: Blacksmithing - Thrag takes it
+  accept 97929 optional -- Camping 101: Enchanting - Kaga; Mot takes it
+  when skill Enchanting 1
+  complete 97929 optional @38.9,24.7 era -- Mot Dawnstrider (north road)
+  turnin 97929 optional -- Camping 101: Enchanting - Mot takes it
+  accept 97930 optional -- Camping 101: Engineering - Kaga; Twizwick takes it
+  when skill Engineering 1
+  complete 97930 optional @58.65,39.38 era -- Twizwick Sprocketgrind (east site)
+  turnin 97930 optional -- Camping 101: Engineering - Twizwick takes it
+  accept 97931 optional -- Camping 101: First Aid - Kaga; Vira takes it
+  when skill First Aid 1
+  complete 97931 optional @46.08,63.96 era -- Vira Younghoof (Bloodhoof)
+  turnin 97931 optional -- Camping 101: First Aid - Vira takes it
+  accept 97932 optional -- Camping 101: Fishing - Kaga; Uthan takes it
+  when skill Fishing 1
+  complete 97932 optional @44.16,63.8 era -- Uthan Stillwater (Bloodhoof)
+  turnin 97932 optional -- Camping 101: Fishing - Uthan takes it
+  accept 97933 optional -- Camping 101: Herbalism - Kaga; Komin takes it
+  when skill Herbalism 1
+  complete 97933 optional @40,25.1 era -- Komin Winterhoof (north road)
+  turnin 97933 optional -- Camping 101: Herbalism - Komin takes it
+  accept 97934 optional -- Camping 101: Leatherworking - Kaga; Chaw takes it
+  when skill Leatherworking 1
+  complete 97934 optional @44.94,61.46 era -- Chaw Stronghide (Bloodhoof)
+  turnin 97934 optional -- Camping 101: Leatherworking - Chaw takes it
+  accept 97935 optional -- Camping 101: Mining - Kaga; Brek takes it
+  when skill Mining 1
+  complete 97935 optional @36.8,28.6 era -- Brek Stonehoof (north road)
+  turnin 97935 optional -- Camping 101: Mining - Brek takes it
+  accept 97936 optional -- Camping 101: Skinning - Kaga; Yonn takes it
+  when skill Skinning 1
+  complete 97936 optional @44.97,61.4 era -- Yonn Deepcut (Bloodhoof)
+  turnin 97936 optional -- Camping 101: Skinning - Yonn takes it
+  accept 97937 optional -- Camping 101: Tailoring - Kaga; Vhan takes it
+  when skill Tailoring 1
+  complete 97937 optional @38.8,25.9 era -- Vhan (north road)
+  turnin 97937 optional -- Camping 101: Tailoring - Vhan takes it
+
+step Bloodhoof Village - outliers
+
+  zone map 1412
+
+  note Loose ends around the village: Seer Graytongue's grace burns at the Ritual Fire southeast, Krang Spars at the village edge, and Ahab Wheathoof's Kyle frenzies west of the village.
+
+  accept 95805 -- Grace of An'she and Mu'sha - Seer Graytongue; the Ritual Fire southeast (56.61,88.7) takes it
+  turnin 95805 -- Grace of An'she and Mu'sha - the grace given, back to Seer Graytongue
+  turnin 3376 -- Break Sharptusk! - the chief's head to Brave Windfeather
+  accept 99108 -- Sparring Match - Krang Stonehoof (48.35,63.74); beat a Novice Warrior
+  complete 99108 @48.45,63.72 era -- Sparring Match (Novice Warrior, village edge)
+  turnin 99108 -- Sparring Match - the match to Krang Stonehoof
+  accept 99411 -- Kyle's Gone Missing! - Ahab Wheathoof (47.28,57.63); Kyle frenzies west
+  complete 99411 @46.28,62.34 era -- Kyle the Frenzied (west of the village)
+  turnin 99411 -- Kyle's Gone Missing! - Kyle found, back to Ahab Wheathoof
+
+step Thunder Bluff approach - the north leg
+
+  zone map 1412
+
+  note The north road gathers the turn-ins: Melor Stonehoof (42.3,33.3) takes the Hunter's Way, Holt Thunderhorn (41.4,35.1) takes the taming word, Turak Runetotem (45.3,22.4) takes the druid word, Hamuul Runetotem (45.8,22.7) takes Mull's report, and Cairne (42.1,27.3) takes the escort home and the High Chieftain's word.
+
+  turnin 861 -- The Hunter's Way - the claws to Melor Stonehoof
+  turnin 6089 only Hunter,Tauren -- Training the Beast - the trained beast to Holt Thunderhorn
+  turnin 94911 only Druid,Horde -- Child of Nature - the word to Turak Runetotem
+  turnin 5928 only Druid,Tauren -- Heeding the Call - the word to Turak Runetotem
+  turnin 98435 -- Thunderhorn's Report - Mull's report to Arch Druid Hamuul Runetotem
+  accept 98430 -- The Longwalkers - Perith Stormhoof (33.11,65.95); escort out of Palemane Rock, Cairne north takes them home
+  complete 98430 @33.11,65.95 era -- Escort Perith Stormhoof out of Palemane Rock
+  turnin 98430 -- The Longwalkers - the walkers to Cairne Bloodhoof
+  turnin 99082 -- The High Chieftain - the east won, the word to Cairne Bloodhoof
+
+step Orgrimmar - Thrall takes the word
+
+  zone map 1454
+
+  note West reach to Orgrimmar: Alaana Stormwalker's Welcome (95350) ends at Thrall himself. The Durotar and Barrens legs below leave from here.
+
+  accept 95350 -- Welcome to Azeroth - Alaana Stormwalker; Thrall in Orgrimmar takes the word
+  turnin 95350 -- Welcome to Azeroth - the word to Thrall
+
+step Barrens - Kranal Fiss takes the fire
+
+  zone map 1413
+
+  note Back east through the Barrens gate: Narm's Call of Fire (2984) ends at Kranal Fiss.
+
+  turnin 2984 only Shaman -- Call of Fire - the fire to Kranal Fiss
+
+step Durotar - Ur'kyo takes the hex
+
+  zone map 1411
+
+  note South to Durotar: Var'jun's Hex (5655) ends at Ur'kyo.
+
+  turnin 5655 only Priest,Troll -- Hex of Weakness - the hex to Ur'kyo
+
+step Tirisfal - Aelthalyste takes the touch
+
+  zone map 1420
+
+  note East to Tirisfal: Var'jun's Touch (5661) ends at Aelthalyste.
+
+  turnin 5661 only Priest,Undead -- Touch of Weakness - the touch to Aelthalyste
