@@ -1507,7 +1507,7 @@
         {
           "id": 282,
           "name": "Senir's Observations",
-          "note": "Same-name variant; see also quest 420. excl[287] looks like data noise — both routed in chain order, playtest-verified."
+          "note": "Same-name variant; see also quest 420. excl[287] looks like data noise \u00e2\u20ac\u201d both routed in chain order, playtest-verified."
         },
         {
           "id": 287,
@@ -1624,7 +1624,7 @@
         {
           "id": 1784,
           "name": "The Tome of Divinity",
-          "note": "Pre 1783 (Ironforge) unroutable — structural chain warning expected."
+          "note": "Pre 1783 (Ironforge) unroutable \u00e2\u20ac\u201d structural chain warning expected."
         },
         {
           "id": 1879,
@@ -1641,7 +1641,7 @@
         {
           "id": 2239,
           "name": "Onin's Report",
-          "note": "Pre 2238 (Ironforge) unroutable — structural chain warning expected."
+          "note": "Pre 2238 (Ironforge) unroutable \u00e2\u20ac\u201d structural chain warning expected."
         },
         {
           "id": 2997,
@@ -1718,7 +1718,7 @@
         {
           "id": 5841,
           "name": "Welcome!",
-          "note": "Starts from a Coldridge Valley Gift Voucher (14647, sourceless in data) — check bags."
+          "note": "Starts from a Coldridge Valley Gift Voucher (14647, sourceless in data) \u00e2\u20ac\u201d check bags."
         },
         {
           "id": 6064,
@@ -1743,7 +1743,7 @@
         {
           "id": 6391,
           "name": "Ride to Ironforge",
-          "note": "Pre 6387 (Loch Modan) unroutable — structural chain warning expected; ends Golnir Bouldertoe (Ironforge)."
+          "note": "Pre 6387 (Loch Modan) unroutable \u00e2\u20ac\u201d structural chain warning expected; ends Golnir Bouldertoe (Ironforge)."
         },
         {
           "id": 6722,
@@ -1760,7 +1760,7 @@
         {
           "id": 94465,
           "name": "Call of Fire",
-          "note": "Pre 94449 (Ironforge) unroutable — structural chain warning expected; ends Braldir Ashmantle (Loch Modan)."
+          "note": "Pre 94449 (Ironforge) unroutable \u00e2\u20ac\u201d structural chain warning expected; ends Braldir Ashmantle (Loch Modan)."
         },
         {
           "id": 94776,
@@ -1769,7 +1769,7 @@
         {
           "id": 94824,
           "name": "Confounding Flash",
-          "note": "Chain-consistent Gnome Priest version; see census borderline (a) — 94817 is the unpicked variant."
+          "note": "Chain-consistent Gnome Priest version; see census borderline (a) \u00e2\u20ac\u201d 94817 is the unpicked variant."
         },
         {
           "id": 95212,
@@ -1778,7 +1778,7 @@
         {
           "id": 95213,
           "name": "Stolen Blasting Powder",
-          "note": "Item-start (Empty Powder Keg 268548, Rockjaw troggs) — note + optional kill."
+          "note": "Item-start (Empty Powder Keg 268548, Rockjaw troggs) \u00e2\u20ac\u201d note + optional kill."
         },
         {
           "id": 95214,
@@ -1831,7 +1831,7 @@
         {
           "id": 96391,
           "name": "Underground Map",
-          "note": "Item-start (Dark Iron Map 274268, Dark Iron Spy / Captain Beld) — note + optional kill."
+          "note": "Item-start (Dark Iron Map 274268, Dark Iron Spy / Captain Beld) \u00e2\u20ac\u201d note + optional kill."
         },
         {
           "id": 96392,
@@ -1917,7 +1917,7 @@
       "name": "Loch Modan",
       "order": 5,
       "levelBand": "10-20",
-      "summary": "Dwarf and Gnome second zone: Thelsamar hub, the Loch shore and Stonewrought Dam, Algaz, Farstrider Lodge, Ironband’s Excavation, and the Mo’grosh stronghold. Leads on to the Wetlands.",
+      "summary": "Dwarf and Gnome second zone: Thelsamar hub, the Loch shore and Stonewrought Dam, Algaz, Farstrider Lodge, Ironband\u00e2\u20ac\u2122s Excavation, and the Mo\u00e2\u20ac\u2122grosh stronghold. Leads on to the Wetlands.",
       "quests": [
         {
           "id": 161,
@@ -2090,7 +2090,7 @@
       "name": "Teldrassil",
       "order": 6,
       "levelBand": "1-10",
-      "summary": "Night Elf starting zone: Shadowglen, Dolanaar hub, Starbreeze Village, Lake Al’Ameth, the Oracle Glade, Gnarlpine Hold, and the Rut’theran crossing to Darkshore.",
+      "summary": "Night Elf starting zone: Shadowglen, Dolanaar hub, Starbreeze Village, Lake Al\u00e2\u20ac\u2122Ameth, the Oracle Glade, Gnarlpine Hold, and the Rut\u00e2\u20ac\u2122theran crossing to Darkshore.",
       "quests": [
         {
           "id": 456,
@@ -2788,7 +2788,7 @@
       "name": "Stormwind City",
       "order": 8,
       "levelBand": "1-60",
-      "summary": "The first city guide: the Alliance capital as a repeat-visit hub — districts, class and profession lines, the Defias and Diplomat chains, the Stockade, the Onyxia and epic-mount endgames, and accept-based expeditions to 20+ zones.",
+      "summary": "The first city guide: the Alliance capital as a repeat-visit hub \u00e2\u20ac\u201d districts, class and profession lines, the Defias and Diplomat chains, the Stockade, the Onyxia and epic-mount endgames, and accept-based expeditions to 20+ zones.",
       "quests": [
         {
           "id": 72
@@ -3552,7 +3552,7 @@
       "name": "Ironforge",
       "order": 9,
       "levelBand": "1-60",
-      "summary": "The second city guide: the dwarven capital as a repeat-visit hub — districts, class and profession lines, the Uldaman and Gnomeregan chains, the Magni endgame and dungeon-tier set, and accept-based expeditions to 20+ zones.",
+      "summary": "The second city guide: the dwarven capital as a repeat-visit hub \u00e2\u20ac\u201d districts, class and profession lines, the Uldaman and Gnomeregan chains, the Magni endgame and dungeon-tier set, and accept-based expeditions to 20+ zones.",
       "quests": [
         {
           "id": 302
@@ -4125,7 +4125,7 @@
       "name": "Darnassus",
       "order": 10,
       "levelBand": "4-60",
-      "summary": "The third city guide: the night elf capital as a repeat-visit hub — the Temple of the Moon, the Cenarion Enclave and the trades terraces, the druid class chain flagged for the future Set 4 druid guide, the Moonglade link, and accept-based expeditions to 15+ zones.",
+      "summary": "The third city guide: the night elf capital as a repeat-visit hub \u00e2\u20ac\u201d the Temple of the Moon, the Cenarion Enclave and the trades terraces, the druid class chain flagged for the future Set 4 druid guide, the Moonglade link, and accept-based expeditions to 15+ zones.",
       "quests": [
         {
           "id": 26
@@ -4344,7 +4344,7 @@
       "name": "Redridge Mountains",
       "order": 11,
       "levelBand": "14-26",
-      "summary": "Set 2 opener: Lakeshire hub, the gnoll and orc lines, the Rethban and Alther’s Mill chains, the messenger exits to Stormwind, Westfall and Duskwood, and the western oddities. Leads on to Duskwood and the Burning Steppes.",
+      "summary": "Set 2 opener: Lakeshire hub, the gnoll and orc lines, the Rethban and Alther\u00e2\u20ac\u2122s Mill chains, the messenger exits to Stormwind, Westfall and Duskwood, and the western oddities. Leads on to Duskwood and the Burning Steppes.",
       "quests": [
         {
           "id": 19,
@@ -4529,7 +4529,7 @@
       "name": "Ashenvale",
       "order": 12,
       "levelBand": "18-32",
-      "summary": "Set 2 second zone (Alliance): Astranaar hub, the Tower of Althalaxx chain, Raene’s Cleansing, the Foulweald and Xavian lines, the Stonetalon exits, and the western oddities. Leads on to Stonetalon and the Barrens.",
+      "summary": "Set 2 second zone (Alliance): Astranaar hub, the Tower of Althalaxx chain, Raene\u00e2\u20ac\u2122s Cleansing, the Foulweald and Xavian lines, the Stonetalon exits, and the western oddities. Leads on to Stonetalon and the Barrens.",
       "quests": [
         {
           "id": 970,
@@ -7444,7 +7444,7 @@
       "name": "Moonglade (Druid)",
       "order": 23,
       "levelBand": "10-52",
-      "summary": "Set 4 druid class guide (Alliance route): the bear, aquatic, cure and cat chains in level order plus the level-50 Torwa chain; expedition legs to Stormwind, Darnassus, Darkshore, Alterac and Un’Goro.",
+      "summary": "Set 4 druid class guide (Alliance route): the bear, aquatic, cure and cat chains in level order plus the level-50 Torwa chain; expedition legs to Stormwind, Darnassus, Darkshore, Alterac and Un\u00e2\u20ac\u2122Goro.",
       "quests": [
         {
           "id": 29,
@@ -10313,7 +10313,7 @@
       "name": "Western Plaguelands",
       "order": 38,
       "levelBand": "50-58",
-      "summary": "Alliance route: Darrowshire chain out of Pamela/Carlin, Light’s Hope Argent hub with Stratholme/Scholomance dungeon legs, Aurora Skycaller chain with Azshara/Feralas/Darnassus expedition legs, Menethil chain exiting to Andorhal, Anthion tier-0.5 chain with Ironforge turn-ins, armor-scrap heads, world-drop Front letters, and the northwest roaming quests.",
+      "summary": "Alliance route: Darrowshire chain out of Pamela/Carlin, Light\u00e2\u20ac\u2122s Hope Argent hub with Stratholme/Scholomance dungeon legs, Aurora Skycaller chain with Azshara/Feralas/Darnassus expedition legs, Menethil chain exiting to Andorhal, Anthion tier-0.5 chain with Ironforge turn-ins, armor-scrap heads, world-drop Front letters, and the northwest roaming quests.",
       "quests": [
         {
           "id": 5149,
@@ -14069,6 +14069,327 @@
         {
           "id": 2861,
           "name": "Tabetha's Task"
+        }
+      ]
+    },
+    {
+      "id": "thunder-bluff-city",
+      "name": "Thunder Bluff",
+      "order": 50,
+      "levelBand": "3-60",
+      "summary": "Horde capital on the bluffs: druid and shaman class rows, the Morrowgrain and Sacred Flame chains, cloth donations, multi-city shared accepts, and accept-based expeditions",
+      "quests": [
+        {
+          "id": 27,
+          "name": "A Lesson to Learn"
+        },
+        {
+          "id": 264,
+          "name": "Until Death Do Us Part"
+        },
+        {
+          "id": 742,
+          "name": "The Ashenvale Hunt"
+        },
+        {
+          "id": 744,
+          "name": "Preparation for Ceremony"
+        },
+        {
+          "id": 768,
+          "name": "Gathering Leather"
+        },
+        {
+          "id": 769,
+          "name": "Kodo Hide Bag"
+        },
+        {
+          "id": 776,
+          "name": "Rites of the Earthmother"
+        },
+        {
+          "id": 860,
+          "name": "Sergra Darkthorn"
+        },
+        {
+          "id": 886,
+          "name": "The Barrens Oases"
+        },
+        {
+          "id": 914,
+          "name": "Leaders of the Fang"
+        },
+        {
+          "id": 962,
+          "name": "Serpentbloom"
+        },
+        {
+          "id": 1000,
+          "name": "The New Frontier"
+        },
+        {
+          "id": 1049,
+          "name": "Compendium of the Fallen"
+        },
+        {
+          "id": 1064,
+          "name": "Forsaken Aid"
+        },
+        {
+          "id": 1065,
+          "name": "Journey to Tarren Mill"
+        },
+        {
+          "id": 1086,
+          "name": "The Flying Machine Airport"
+        },
+        {
+          "id": 1102,
+          "name": "A Vengeful Fate"
+        },
+        {
+          "id": 1123,
+          "name": "Rabine Saturna"
+        },
+        {
+          "id": 1131,
+          "name": "Steelsnap"
+        },
+        {
+          "id": 1136,
+          "name": "Frostmaw"
+        },
+        {
+          "id": 1195,
+          "name": "The Sacred Flame"
+        },
+        {
+          "id": 1196,
+          "name": "The Sacred Flame"
+        },
+        {
+          "id": 1205,
+          "name": "Deadmire"
+        },
+        {
+          "id": 1490,
+          "name": "Nara Wildmane"
+        },
+        {
+          "id": 1523,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 1529,
+          "name": "Call of Water"
+        },
+        {
+          "id": 1532,
+          "name": "Call of Air"
+        },
+        {
+          "id": 1718,
+          "name": "The Islander"
+        },
+        {
+          "id": 1823,
+          "name": "Speak with Ruga"
+        },
+        {
+          "id": 1844,
+          "name": "Chimaeric Horn"
+        },
+        {
+          "id": 1845,
+          "name": "Brutal Helm"
+        },
+        {
+          "id": 1947,
+          "name": "Journey to the Marsh"
+        },
+        {
+          "id": 1953,
+          "name": "Return to the Marsh"
+        },
+        {
+          "id": 1959,
+          "name": "Report to Anastasia"
+        },
+        {
+          "id": 2440,
+          "name": "The Platinum Discs"
+        },
+        {
+          "id": 2965,
+          "name": "Portents of Uldum"
+        },
+        {
+          "id": 2966,
+          "name": "Seeing What Happens"
+        },
+        {
+          "id": 2968,
+          "name": "A Future Task"
+        },
+        {
+          "id": 3562,
+          "name": "Magatha's Payment to Jediga"
+        },
+        {
+          "id": 3761,
+          "name": "Un'Goro Soil"
+        },
+        {
+          "id": 3762,
+          "name": "Assisting Arch Druid Runetotem"
+        },
+        {
+          "id": 3782,
+          "name": "Morrowgrain Research"
+        },
+        {
+          "id": 3786,
+          "name": "Morrowgrain Research"
+        },
+        {
+          "id": 3804,
+          "name": "Morrowgrain to Thunder Bluff"
+        },
+        {
+          "id": 5088,
+          "name": "Arikara"
+        },
+        {
+          "id": 5095,
+          "name": "A Call to Arms: The Plaguelands!"
+        },
+        {
+          "id": 5722,
+          "name": "Searching for the Lost Satchel"
+        },
+        {
+          "id": 5723,
+          "name": "Testing an Enemy's Strength"
+        },
+        {
+          "id": 5922,
+          "name": "Moonglade"
+        },
+        {
+          "id": 5926,
+          "name": "Heeding the Call"
+        },
+        {
+          "id": 6002,
+          "name": "Body and Heart"
+        },
+        {
+          "id": 94913,
+          "name": "Moonglade"
+        },
+        {
+          "id": 6065,
+          "name": "The Hunter's Path"
+        },
+        {
+          "id": 6070,
+          "name": "The Hunter's Path"
+        },
+        {
+          "id": 6126,
+          "name": "Lessons Anew"
+        },
+        {
+          "id": 6363,
+          "name": "Tal the Wind Rider Master"
+        },
+        {
+          "id": 6364,
+          "name": "Return to Jahan"
+        },
+        {
+          "id": 7492,
+          "name": "Camp Mojache"
+        },
+        {
+          "id": 7820,
+          "name": "A Donation of Wool"
+        },
+        {
+          "id": 7821,
+          "name": "A Donation of Silk"
+        },
+        {
+          "id": 7822,
+          "name": "A Donation of Mageweave"
+        },
+        {
+          "id": 7823,
+          "name": "A Donation of Runecloth"
+        },
+        {
+          "id": 8151,
+          "name": "The Hunter's Charm"
+        },
+        {
+          "id": 8250,
+          "name": "Magecraft"
+        },
+        {
+          "id": 8410,
+          "name": "Elemental Mastery"
+        },
+        {
+          "id": 8417,
+          "name": "A Troubled Spirit"
+        },
+        {
+          "id": 9063,
+          "name": "Torwa Pathfinder"
+        },
+        {
+          "id": 91737,
+          "name": "Remote Contact"
+        },
+        {
+          "id": 92343,
+          "name": "Get to the Roots of It"
+        },
+        {
+          "id": 97022,
+          "name": "Report to Danitha"
+        },
+        {
+          "id": 97485,
+          "name": "Traditions of the Bluff"
+        },
+        {
+          "id": 97538,
+          "name": "Pigments for Paints"
+        },
+        {
+          "id": 98340,
+          "name": "The Great Cat Spirit"
+        },
+        {
+          "id": 98517,
+          "name": "Call of Fire"
+        },
+        {
+          "id": 98823,
+          "name": "Earthen Echo"
+        },
+        {
+          "id": 76156,
+          "name": "Stalk With The Earthmother"
+        },
+        {
+          "id": 76160,
+          "name": "Stalk With The Earthmother"
+        },
+        {
+          "id": 76240,
+          "name": "Stalk With The Earthmother"
         }
       ]
     }
