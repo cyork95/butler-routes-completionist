@@ -12,7 +12,6 @@ guide butler-routes-completionist/zephras-isle
 title Zephras Isle - Completionist (Skyborne)
 levels 1-12
 zone Zephras Isle
-faction Alliance
 race Skyborne
 category Leveling
 folder Completionist
@@ -222,10 +221,10 @@ step Shen'dar Village - Camping 101
   accept 97970 -- Camping 101: Mining
   accept 97971 optional -- Camping 101: Skinning
   accept 97972 optional only Horde -- Camping 101: Tailoring
-  accept 97973 optional -- Camping 101: Tailoring (second version)
+  accept 97973 optional only Alliance -- Camping 101: Tailoring (second version)
   accept 98284 optional only Horde -- Camping 101: Enchanting
   accept 98285 optional -- Camping 101: Engineering
-  accept 98286 optional -- Camping 101: Enchanting (second version)
+  accept 98286 optional only Alliance -- Camping 101: Enchanting (second version)
 
 step Shen'dar Village - Camping 101 hand-ins
 
@@ -240,10 +239,10 @@ step Shen'dar Village - Camping 101 hand-ins
   turnin 97970 -- Camping 101: Mining
   turnin 97971 optional -- Camping 101: Skinning
   turnin 97972 optional only Horde -- Camping 101: Tailoring
-  turnin 97973 optional -- Camping 101: Tailoring (second version)
+  turnin 97973 optional only Alliance -- Camping 101: Tailoring (second version)
   turnin 98284 optional only Horde -- Camping 101: Enchanting
   turnin 98285 optional -- Camping 101: Engineering
-  turnin 98286 optional -- Camping 101: Enchanting (second version)
+  turnin 98286 optional only Alliance -- Camping 101: Enchanting (second version)
 
 step Valanaar - arrival
 
