@@ -673,3 +673,12 @@ as above: game-data citation or a named source.
 ## Ashenvale (Horde) tame lines (pack 0.102.0)
 
 - Ursol'lok 12037 ships the rares guide's tame line (Big Bear Meat + Bear Gall Bladder on its drop table, plus contracted core quest 98251 killing Ashenvale Bears - drop evidence with core-guide beast-family corroboration, the Mulgore Mazzranache pattern). The remaining beast-plausible rares and hunt beasts (Terrowulf Packlord 3792, Oakpaw 10640, Mist Howler 10644, Sharptalon 12676, Ursangous 12678, Shadumbra 12677) present no equivalent drop evidence with a contracted core quest killing their beast family by NPC ID, and NPC records carry no family/tame flags. Logged, not shipped. Revisit if a family flag or tame evidence appears.
+
+## Stonetalon (Horde) tame lines (pack 0.105.0)
+
+- All 9 shipped rares (5932/5931/4015/5916/5928/5930/5915/4030/4066) have zero loot records in the data, so no drop-evidence beast typing exists for any of them (npc records carry no classification flag), and the stonetalon-horde core guide (23-contract) carries no tame lines and no references to any of the 9 rares. No only-Hunter task ships; all nine steps are kill-or-skip. Promote only with drop evidence plus core-guide corroboration or a named source.
+
+## Stonetalon (Horde) recipe calls (pack 0.105.0)
+
+- Formula: Enchant Gloves - Herbalism (item 11151) ships here as a narrow Charred Vale family drop (3 in-zone droppers 4028/4029/4030 plus 2 outside); the Alliance round (0.36.0) logged the same item as a multi-zone world drop and left it unshipped. Same data, different bar application - the Horde round's brief sets the narrow-family bar, argued in docs/stonetalon-horde-companions-inventory.md. Revisit if either bar is ruled pack-wide.
+- Vendor-ID hygiene: the first filter pass matched phantom IDs (item 605, vendors 4839/13159, plus armor/consumable names 7413/7418/3012 and the 6217 tool). Re-checked against item names: the real records are Jeeda npc 4083 selling 6055, Kulwia npc 12043 selling 11039/11101. Lesson: match names, not bare IDs.

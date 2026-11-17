@@ -582,7 +582,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - lint 0 errors; playtest 2 Horde personas, 0 stuck, residue R1/R2/R5 only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (rares: 9 rares + fixed containers; recipes: 3 vendor + 4 narrow mob drops; both 0 errors / 0 warnings)
 
 ### Duskwood — Horde
 

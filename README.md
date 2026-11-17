@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.104.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.105.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -117,6 +117,8 @@ Status: **in development (pack v0.104.0), not published yet**. The first release
 | `ashenvale-horde-rares.guide` (companion built, pilot pending) | Ashenvale (Horde) rares and treasures | 19-30 | Horde |
 | `ashenvale-horde-recipes.guide` (companion built, pilot pending) | Ashenvale (Horde) recipe sources | 19-30 | Horde |
 | `stonetalon-horde.guide` (Horde block core built, pilot pending) | Stonetalon Mountains (Horde) | 12-30 | Horde |
+| `stonetalon-horde-rares.guide` (companion built, pilot pending) | Stonetalon Mountains (Horde) rares and treasures | 12-30 | Horde |
+| `stonetalon-horde-recipes.guide` (companion built, pilot pending) | Stonetalon Mountains (Horde) recipe sources | 12-30 | Horde |
 | swamp-of-sorrows.guide (Set 6 core built, pilot pending) | Swamp of Sorrows | 30-38 | Alliance |
 | `swamp-of-sorrows-rares.guide` (companion built, pilot pending) | Swamp of Sorrows rares and treasures | 30-38 | Alliance |
 | `swamp-of-sorrows-recipes.guide` (companion built, pilot pending) | Swamp of Sorrows recipe sources | 30-38 | Alliance |
