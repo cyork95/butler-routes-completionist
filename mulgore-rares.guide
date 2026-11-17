@@ -195,4 +195,4 @@ step Thornmantle camp - Dirt-stained Map
 
   goto 59.8,82.2
   interact 3076 optional
-  note The Dirt-stained Map at the Thornmantle camp always yields item 4851, which starts quest 781 Attack on Camp Narache. That quest is in no guide and no contract (census gap, see the inventory) - noted here, never accepted here.
+  note The Dirt-stained Map at the Thornmantle camp always yields item 4851, which starts quest 781 Attack on Camp Narache - the core guide routes it (2026-11-17 addendum); this step is the hunt, never the accept.

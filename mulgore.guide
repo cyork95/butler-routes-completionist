@@ -1,6 +1,6 @@
 # Mulgore - Completionist (pack butler-routes-completionist, v1).
 # The Horde block's Tauren starting-zone route: every Mulgore accept
-# in the local census (72 quests, docs/mulgore-census.md) appears
+# in the local census (74 quests, docs/mulgore-census.md + 2026-11-17 item-start addendum) appears
 # exactly once as an accept and once as a turnin. Band 1-13 by
 # minLevel cluster (zone id 1412, order 47); 95350 Welcome to Azeroth
 # (lvl13/min7) is the finale-rule IN. The Thunder Bluff city rule
@@ -18,8 +18,7 @@
 # Touch leg (Durotar's blocked-first twins live here as the Mulgore
 # halves), only Hunter,Tauren on the taming chain. The camping pass
 # rides optional + when-skill gated like Durotar's, with only the
-# operative Kaga step functional. One soft-pre mini stands alone:
-# when onquest 98424 (item-started, uncontracted) for 98427.
+# operative Kaga step functional. One soft-pre mini stands alone: when onquest 98424 for 98427 covers plans that drop late (98424 is contracted in-sequence above).
 # Expedition legs switch frames deliberately and back: Orgrimmar
 # (1454, Thrall takes 95350 home), the Barrens (1413, Kranal Fiss
 # takes 2984), Durotar (1411, Ur'kyo takes 5655), Tirisfal (1420,
@@ -66,6 +65,14 @@ step Camp Narache - arrival
   complete 3376 @61.02,78 era -- Chief Sharptusk Thornmantle (southeast flats)
   accept 1656 -- A Task Unfinished - Antur Fallow; Innkeeper Kauth in Bloodhoof takes the word
   turnin 1656 -- A Task Unfinished - Antur's word to Innkeeper Kauth
+
+step Thornmantle camp - Dirt-stained Map
+
+  zone map 1412
+
+  goto 59.8,82.2
+  note The Dirt-stained Map at the Thornmantle camp always yields the map that starts Attack on Camp Narache (781) - take it; the route never waits on it.
+  accept 781 -- Attack on Camp Narache - the map at the Thornmantle camp (59.8,82.2) to Chief Hawkwind
 
 step Rites of the Earthmother - south and east
 
@@ -205,6 +212,12 @@ step Bloodhoof Village - the Malah war
   accept 765 -- Supervisor Fizsprocket - Morin; the clipboard off Fizsprocket himself
   complete 765 @61.19,49.32 era -- Fizsprocket's Clipboard (Supervisor Fizsprocket, east site)
   turnin 765 -- Supervisor Fizsprocket - the clipboard to Morin Cloudstalker
+  note Fizsprocket also carries the Mulgore Expansion Plans that start Fizsprocket's Notes (98424) - take them if they drop; the route never waits on them.
+  accept 98424 -- Fizsprocket's Notes - the plans off Fizsprocket (61.19,49.32) to Morin Cloudstalker
+  complete 98424 @58.63,47.31 era -- Shredder Operation Instructions (east site)
+  complete 98424 @61.67,47.31 era -- Barrens Operations Best Practices (east site)
+  complete 98424 @59.02,46.41 era -- One "Gerenzo," of Stonetalon (east site)
+  turnin 98424 -- Fizsprocket's Notes - the documents to Morin Cloudstalker
   accept 98427 -- Ceasing Operations - Morin; the Clearcutter Key off the Clearcutter (soft-pre mini below carries it)
 
 step Venture east - Fizsprocket's key (soft-pre)
@@ -213,7 +226,7 @@ step Venture east - Fizsprocket's key (soft-pre)
 
   when onquest 98424
 
-  note Ceasing Operations (98427) needs Fizsprocket's Notes (98424) turned in, which starts from an item outside this contract - this mini-step only shows on that quest. The Clearcutter Key comes off the Clearcutter (56.76,42.75).
+  note Ceasing Operations (98427) needs Fizsprocket's Notes (98424) turned in, contracted earlier in this guide - this mini-step only shows if the plans dropped late and 98424 is still open. The Clearcutter Key comes off the Clearcutter (56.76,42.75).
 
   complete 98427 @56.76,42.75 era -- Clearcutter Key (Venture Co. Clearcutter, east site)
   turnin 98427 -- Ceasing Operations - the key to Morin Cloudstalker
@@ -287,6 +300,7 @@ step Bloodhoof Village - outliers
   accept 95805 -- Grace of An'she and Mu'sha - Seer Graytongue; the Ritual Fire southeast (56.61,88.7) takes it
   turnin 95805 -- Grace of An'she and Mu'sha - the grace given, back to Seer Graytongue
   turnin 3376 -- Break Sharptusk! - the chief's head to Brave Windfeather
+  turnin 781 -- Attack on Camp Narache - the map's word to Chief Hawkwind
   accept 99108 -- Sparring Match - Krang Stonehoof (48.35,63.74); beat a Novice Warrior
   complete 99108 @48.45,63.72 era -- Sparring Match (Novice Warrior, village edge)
   turnin 99108 -- Sparring Match - the match to Krang Stonehoof
