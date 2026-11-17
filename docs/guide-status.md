@@ -32,14 +32,14 @@ Companions (Rares & Treasures · Recipes & Patterns) follow the core guide once 
 
 ### Zephras Isle — Skyborne (Horde)
 
-_The twin guide. Horde quest lines are already faction-gated inside the Alliance file. Part of the Horde block — built last, after Alliance completion._
+_Case B (audit-and-close round, pack 0.96.0): no separate twin - the shared `zephras-isle.guide` serves both factions. Census in `docs/zephras-isle-horde-census.md`: 121 Horde-applicable quests all routed with correct faction gates; only the `faction Alliance` header blocked Horde. Fixed by dropping the header (nil = either) in the core + both companions and gating 97973/98286 `only Alliance`._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 121 Horde-applicable of 145 (24 Alliance-only set aside), `docs/zephras-isle-horde-census.md`
+- [x] Core guide - shared `zephras-isle.guide` (Case B: header fix, no separate file)
+- [x] Lint/playtest clean - 0 new errors; Horde personas (incl. Shaman) play 0 stuck
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - shared rares + recipes (headers fixed; all vendors neutral AH)
 
 ### Elwynn Forest — Human (Alliance)
 
