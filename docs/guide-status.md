@@ -223,6 +223,7 @@ _Follows Westfall. Raven Hill country._
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 6 rares (4 above-band with come-back-later notes) + 86-pt container loop and unique/marker steps, 14 recipes (9 vendor + 5 drops), 0 lint errors/warnings
+- [x] Faction ungating (Option A, 2026-11-17) - 175 Alliance-only lines gated, header dropped, 0 dead lines
 
 ---
 
@@ -586,9 +587,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Duskwood — Horde
 
-- [ ] Census (reconcile against 5 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 100 zone-field records + 1 spawn-pull; 5 Horde IN (1372-1391 chain + 94241 writ), 92 already contracted (not duplicated), 4 OUT, docs/duskwood-horde-census.md
+- [x] Core guide - duskwood-horde.guide (5 quests, band 37-42 + L60 writ special)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas, 0 stuck, residue R1/R2/R5 only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

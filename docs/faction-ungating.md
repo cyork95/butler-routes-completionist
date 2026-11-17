@@ -214,7 +214,7 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: stonetalon.guide (UNGATED this round)
 - header: Alliance; contract: 40 (26 primary / 14 shared)
 - shared IDs: 1090, 1092, 1093, 1094, 1096, 78149, 78270, 94225, 94234, 94243, 94252, 79974, 79980, 80001
-### duskwood
+### duskwood (UNGATED this round - see above)
 - file: duskwood.guide
 - header: Alliance; contract: 93 (68 primary / 25 shared)
 - shared IDs: 236, 81730, 81731, 81732, 81733, 81734, 81735, 81736, 81737, 81738, 81739, 81740, 81741, 81742, 81743, 81744, 81745, 81746, 81747, 94214, 94223, 94232, 94250, 98372, 78147
@@ -302,6 +302,15 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: barrens.guide (UNGATED this round)
 - header: Horde; contract: 157 (118 primary / 39 shared)
 - shared IDs: 854, 858, 863, 865, 866, 887, 888, 890, 892, 894, 895, 896, 900, 901, 902, 959, 1069, 1095, 1221, 1483, 1486, 1487, 1491, 1524, 1740, 3366, 6128, 6129, 6361, 6362, 6365, 6384, 6981, 78143, 78145, 79097, 79192, 91899, 97253
+### duskwood (UNGATED 2026-11-17, Horde round)
+- file: duskwood.guide (was Alliance primary)
+- contract: 93 (68 primary / 25 shared)
+- shared IDs: 236, 81730, 81731, 81732, 81733, 81734, 81735, 81736, 81737, 81738, 81739, 81740, 81741, 81742, 81743, 81744, 81745, 81746, 81747, 94214, 94223, 94232, 94250, 98372, 78147 (per the pack-wide sweep; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): the other 68 contract IDs.
+- Lines gated: 175 quest lines (`only Alliance`, incl. `optional only Alliance` for 90/94214/94232/94250; kill 272273 + collect 281142 attributed to Alliance-only 96138 via step context). 0 soft-pre minis (file has no `when onquest` lines), 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none). Shared lines for all 25 shared IDs stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 35 warnings, warning classes and quest-ID sets byte-identical to HEAD full-pack baseline (6 structural out-of-contract pres + 29 XP-model level noise, incl. the pack-context 226 line present on HEAD too). Playtest `--honest` both factions (Human/NightElf/Orc/Scourge Warriors): 0 stuck; Alliance findings unchanged in kind; Horde personas complete the shared lines with residue only in R1/R2/R5; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
+
 ### swamp-of-sorrows
 - file: swamp-of-sorrows.guide
 - header: Alliance; contract: 19 (6 primary / 13 shared)
