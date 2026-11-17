@@ -1,0 +1,509 @@
+guide butler-routes-completionist/thunder-bluff-city
+title Thunder Bluff
+levels 3-60
+zone Thunder Bluff
+faction Horde
+category Leveling
+folder Cities
+coords live
+version 1
+keywords thunder bluff, city, completionist
+
+# Thunder Bluff is the Horde capital on the bluffs and a hub the player
+# returns to across their whole leveling life, so this route groups by rise
+# and keeps every chain together. Out-of-city objectives ride in expedition
+# legs grouped by destination, each with a deliberate zone-frame switch and
+# a switch back. Every goto and complete below is a point from the game
+# data; where the data gives no point the note says so instead of inventing
+# one. Race and class gates mirror the data: only <Class> where the data
+# gates class, only <Race> where it gates race, both where it gates both.
+# The 46 Horde-mask quests the data leaves open to Orc, Troll and Undead
+# ride ungated on race, per the Orgrimmar precedent.
+
+step Lower Rise - hearth, flight and the arch druid
+  note Set the hearth at Innkeeper Pala; the whole route returns here. Tal is the Wind Rider Master below, so the flight point is covered in the same pass.
+  accept 3762 -- Assisting Arch Druid Runetotem - Innkeeper Pala; Arch Druid Hamuul Runetotem waits on the Elder Rise, late
+  note 3762 is Thunder Bluff's own accept of the Runetotem errand (Orgrimmar contracts Gryshka's 936 for its players); both feed the same Un'Goro Soil chain.
+  accept 5926 only Druid,Tauren -- Heeding the Call - Innkeeper Pala; Turak Runetotem waits on the Elder Rise, late
+  note 5926's follow-up (5922, Turak's Moonglade) stays in - turn in to Turak on the Elder Rise leg and stop there.
+
+step Lower Rise - the stalk with the Earthmother
+  accept 76156 only Tauren -- Stalk With The Earthmother - Boarton Shadetotem; Seaforium charges out of the Venture mine southeast of the Bluff
+  complete 76156 only Tauren @39.44,65.82 era -- five Seaforium Mining Charges from the carts in the Venture mine for Boarton
+  turnin 76156 only Tauren -- Stalk With The Earthmother - the charges to Boarton
+  accept 76160 only Tauren -- Stalk With The Earthmother - Boarton Shadetotem; Windfury Cones north of the Bluff
+  complete 76160 only Tauren @39.44,65.82 era -- Pine Salve: eight Windfury Cones worked with the Mortar and Pestle for Boarton
+  turnin 76160 only Tauren -- Stalk With The Earthmother - the salve to Boarton
+  accept 76240 only Tauren -- Stalk With The Earthmother - Boarton Shadetotem; a Raw Brilliant Smallfish, bought or caught
+  complete 76240 only Tauren @39.44,65.82 era -- the Smallfish filleted with the Knife Set before Boarton
+  turnin 76240 only Tauren -- Stalk With The Earthmother - the fillets to Boarton
+
+step Lower Rise - Eylah, Eyahn and Auld
+  accept 97485 -- Traditions of the Bluff - Eylah Sunhorn; herb, twig, thread, flint and tinder from the Bluff's own vendors
+  note The Bundle of Herbs, Cedar Twigs, Sinew Thread, Flint and Tinder come from Nida, Nata, Mahu and Naal around the city: buy the set from the world, so this accept never wedges - check the bags on the way.
+  complete 97485 -- Prepared Incense, sprinkled off Hunter's Rise for Eylah
+  turnin 97485 -- Traditions of the Bluff - back to Eylah
+  accept 744 -- Preparation for Ceremony - Eyahn Eagletalon; Azure and Bronze Feathers
+  complete 744 @37.75,59.57 era -- six Azure Feathers and six Bronze Feathers from the bags for Eyahn
+  turnin 744 -- Preparation for Ceremony - the feathers to Eyahn
+  accept 1102 -- A Vengeful Fate - Auld Stonespire; Razorflank's Heart
+  complete 1102 @35.97,59.92 era -- Razorflank's Heart from the bags for Auld
+  turnin 1102 -- A Vengeful Fate - the heart to Auld
+
+step Lower Rise - Orm's warrior steel
+  note 1844's pre (1840, a Barrens accept) turns in just below - take it first if offered.
+  accept 1844 only Warrior -- Chimaeric Horn - Orm Stonehoof; a Galvanized Horn
+  complete 1844 only Warrior @38.99,55.98 era -- a Galvanized Horn from the bags for Orm
+  turnin 1844 only Warrior -- Chimaeric Horn - the horn to Orm
+  accept 1845 only Warrior -- Brutal Helm - Orm Stonehoof; Orm's follow-up
+  turnin 1845 only Warrior -- Brutal Helm - back to Orm
+
+step Lower Rise - the Bluff Runners
+  accept 742 -- The Ashenvale Hunt - Bluff Runner Windstrider; Senani Thunderheart waits at Splintertree Post, late
+  note 742's follow-up (6383, Senani's chain) stays out - turn in to Senani on the Ashenvale leg and stop there.
+  accept 1000 -- The New Frontier - Bluff Runner Windstrider; Arch Druid Hamuul Runetotem waits on the Elder Rise, late
+  note 1000 is Thunder Bluff's own accept of the frontier trio (1004 and 1018 accept in the Undercity and Orgrimmar for their players).
+  accept 5095 -- A Call to Arms: The Plaguelands! - Bluff Runner Windstrider; High Executor Derrington waits at the Bulwark, very late
+  note 5095's follow-up (5096, Derrington's chain) stays out - turn in to Derrington on the Tirisfal leg and stop there.
+  accept 7492 -- Camp Mojache - Bluff Runner Windstrider; Talo Thornhoof waits in Feralas, late
+  note 7492's follow-up (7489, Talo's chain) stays out - turn in to Talo on the Feralas leg and stop there.
+
+step Lower Rise - Ahanu's leather goods
+  note 6363's pre (6362, a Mulgore accept) turns in just below - take it first if offered.
+  accept 6363 only Tauren -- Tal the Wind Rider Master - Ahanu; Ahanu's Leather Goods to Tal
+  turnin 6363 only Tauren -- Tal the Wind Rider Master - the goods to Tal
+  accept 6364 only Tauren -- Return to Jahan - Tal; buy the wind rider to the Crossroads, then Jahan Hawkwing waits in the Barrens, late
+  note 6364's ride is the quest working as written: fly Tal's rider to the Crossroads, then turn in to Jahan on the Barrens leg.
+
+step Middle Rise - Rumstag's donations
+  note Bring the cloth yourself; nothing here asks you to go get it. Take each tier in order.
+  accept 7820 -- A Donation of Wool - Rumstag Proudstrider; sixty Wool Cloth
+  complete 7820 @43.05,42.72 era -- sixty Wool Cloth from the bags for Rumstag
+  turnin 7820 -- A Donation of Wool - the wool to Rumstag
+  accept 7821 -- A Donation of Silk - Rumstag Proudstrider; sixty Silk Cloth
+  complete 7821 @43.05,42.72 era -- sixty Silk Cloth from the bags for Rumstag
+  turnin 7821 -- A Donation of Silk - the silk to Rumstag
+  accept 7822 -- A Donation of Mageweave - Rumstag Proudstrider; sixty Mageweave Cloth
+  complete 7822 @43.05,42.72 era -- sixty Mageweave Cloth from the bags for Rumstag
+  turnin 7822 -- A Donation of Mageweave - the mageweave to Rumstag
+  accept 7823 -- A Donation of Runecloth - Rumstag Proudstrider; sixty Runecloth
+  complete 7823 @43.05,42.72 era -- sixty Runecloth from the bags for Rumstag
+  turnin 7823 -- A Donation of Runecloth - the runecloth to Rumstag
+  note 7823's follow-up (7825, the repeatable Additional Runecloth) stays out - the ladder ends here.
+
+step Middle Rise - Veren's leatherwork
+  accept 768 optional -- Gathering Leather - Veren Tallstrider; twelve Light Leather
+  when skill Skinning 1
+  complete 768 optional @44.39,44.7 era -- twelve Light Leather from the bags for Veren
+  turnin 768 optional -- Gathering Leather - the leather to Veren
+  accept 769 optional -- Kodo Hide Bag - Veren Tallstrider; Light Leather and Coarse Thread
+  when skill Leatherworking 1
+  complete 769 optional @44.39,44.7 era -- four Light Leather and four Coarse Thread from the bags for Veren
+  turnin 769 optional -- Kodo Hide Bag - the bag to Veren
+
+step Middle Rise - Sage Truthseeker
+  note 2440's pre (2280, Orgrimmar's accept-only Platinum Discs) turns in just below - take it first if offered.
+  accept 2440 -- The Platinum Discs - Sage Truthseeker; the reward voucher to Bena Winterhoof
+  turnin 2440 -- The Platinum Discs - the voucher to Bena
+  accept 2965 -- Portents of Uldum - Sage Truthseeker; Nara Wildmane waits on the Elder Rise, late
+  note 2965's follow-up (2966, Nara's Tanaris errand) stays in - take it on the Elder Rise leg.
+  note 2968's pre (2967, whose giver has no placed point) turns in just below - take it first if offered.
+  note 2968 accepts from Nara Wildmane on the Elder Rise leg; the turn-in rides that leg.
+  accept 1049 only Orc,Tauren,Troll -- Compendium of the Fallen - Sage Truthseeker; the Compendium, out of the Monastery in Tirisfal
+  note The Monastery sits in Tirisfal Glades: bring the Compendium from the world, so this accept never wedges - check the bags on the way.
+  complete 1049 only Orc,Tauren,Troll @34.4,46.87 era -- the Compendium of the Fallen from the bags for Sage
+  turnin 1049 only Orc,Tauren,Troll -- Compendium of the Fallen - the book to Sage
+
+step Spirit Rise - Zamah's row
+  accept 962 -- Serpentbloom - Apothecary Zamah; ten Serpentbloom
+  complete 962 @22.81,20.89 era -- ten Serpentbloom from the bags for Zamah
+  turnin 962 -- Serpentbloom - the bloom to Zamah
+  note 1064's pre (1063, a Hillsbrad accept) turns in just below - take it first if offered.
+  note 1064 accepts from Magatha Grimtotem on the Elder Rise leg; the turn-in rides that leg.
+  note 1064's follow-up (1065, Zamah's Tarren Mill errand) stays in - take it below.
+  accept 1065 -- Journey to Tarren Mill - Apothecary Zamah; Zamah's Note to Apothecary Lydon in Tarren Mill, late
+  note 1065's follow-up (1066, Lydon's chain) stays out - turn in to Lydon on the Hillsbrad leg and stop there.
+  note 1086's pre (1067, whose turn-in is Zamah herself) turns in just below - take it first if offered.
+  accept 1086 -- The Flying Machine Airport - Apothecary Zamah; the Toxic Fogger to the Venture sky port
+  complete 1086 -- the Toxic Fogger placed at the Venture Co. sky port for Zamah
+  turnin 1086 -- The Flying Machine Airport - back to Zamah
+
+step Spirit Rise - Xanis and the calls
+  accept 1523 only Shaman,Orc,Tauren,Troll -- Call of Fire - Xanis Flameweaver; Kranal Fiss waits in the Barrens, late
+  note 1523's follow-up (1524, Kranal's chain) stays out - turn in to Kranal on the Barrens leg and stop there.
+  accept 1529 only Shaman,Horde -- Call of Water - Xanis Flameweaver; Islen Waterseer waits in the Barrens, late
+  note 1529's follow-up (1530, Islen's chain) stays out - turn in to Islen on the Barrens leg and stop there.
+  accept 1532 only Shaman,Horde -- Call of Air - Xanis Flameweaver; Prate Cloudseer waits in Thousand Needles, late
+  note 1532's follow-up (79360, Prate's chain) stays out - turn in to Prate on the Thousand Needles leg and stop there.
+  accept 8410 only Shaman -- Elemental Mastery - Beram Skychaser; samples of air, fire, earth and water for Bath'rah, very late
+  note 8410's follow-up (8412, Bath'rah's chain) stays out - turn in to Bath'rah on the Alterac leg and stop there.
+  accept 98517 only Shaman,Horde -- Call of Fire - Beram Skychaser; Sessaria Skystride waits on Zephras Isle, late
+  note 98517 rides the skycutter home: return to Zephras via the transport that docks in Mulgore at Skywatcher Plateau, then turn in to Sessaria on the Zephras leg and stop there.
+
+step Spirit Rise - the mage row
+  accept 1947 only Mage -- Journey to the Marsh - Ursyn Ghull; Tabetha waits in Dustwallow, late
+  accept 1953 only Mage -- Return to the Marsh - Ursyn Ghull; Tabetha waits in Dustwallow, late
+  note 1953's follow-up (1954, Tabetha's chain) stays out - turn in to Tabetha on the Dustwallow leg and stop there.
+  accept 8250 only Mage -- Magecraft - Archmage Shymm; Sanath Lim-yo waits in Azshara, late
+  note 8250's follow-up (8251, Sanath's chain) stays out - turn in to Sanath on the Azshara leg and stop there.
+  accept 1959 only Mage,Troll,Undead -- Report to Anastasia - Thurston Xane; Anastasia Hartwell waits in the Undercity, late
+  note 1959's follow-up (1960, Anastasia's chain) stays out - turn in to Anastasia on the Undercity leg and stop there.
+  accept 97022 only Paladin,Undead -- Report to Danitha - Alodan the Hopeful; Danitha Morr waits at Bandarion Keep in Tirisfal, late
+  note 97022 is Thunder Bluff's own accept (Alodan); Garen Largo offers the same errand in the Undercity for its players. Its follow-up (94971, Danitha's chain) stays out - turn in to Danitha on the Tirisfal leg and stop there.
+  accept 264 -- Until Death Do Us Part - Clarice Foster; Clarice's Pendant onto Yuriv's Tomb in Silverpine, late
+  note The Tombstone stands in Silverpine: the pendant rides the Silverpine leg below.
+step Elder Rise - Hamuul's circle
+  turnin 3762 -- Assisting Arch Druid Runetotem - Innkeeper Pala's word to Arch Druid Hamuul Runetotem
+  accept 886 -- The Barrens Oases - Arch Druid Hamuul Runetotem; Tonga Runetotem waits at the Crossroads, late
+  note 886's follow-up (870, Tonga's chain) stays out - turn in to Tonga on the Barrens leg and stop there.
+  turnin 1000 -- The New Frontier - Bluff Runner Windstrider's word to Arch Druid Hamuul Runetotem
+  note 1000's follow-up (1123, Rabine Saturna) stays in - take it below.
+  accept 1123 -- Rabine Saturna - Arch Druid Hamuul Runetotem; Rabine waits in Moonglade, late
+  note 1123's pre is the contracted 1000 above, so the chain reads whole; its follow-up (1124, Rabine's chain) stays out - turn in to Rabine on the Moonglade leg and stop there.
+  note 1490's pre (1489, a Mulgore accept) turns in just below - take it first if offered.
+  accept 1490 -- Nara Wildmane - Arch Druid Hamuul Runetotem; Nara waits below on the Rise, late
+  turnin 1490 -- Nara Wildmane - Hamuul's word to Nara Wildmane
+  note 1490's follow-up (914, Nara's fang errand) stays in - take it below.
+  accept 3761 -- Un'Goro Soil - Arch Druid Hamuul Runetotem; twenty soil samples for Ghede below
+  note 3761's pres are 936, 3784 and the contracted 3762 above; with 3762 done the chain reads whole.
+  complete 3761 @77.46,21.97 era -- twenty Un'Goro Soil samples from the bags for Ghede
+  turnin 3761 -- Un'Goro Soil - the soil to Ghede
+  note 3761's follow-up (3782, Bashana's Morrowgrain) stays in - take it below.
+  accept 3782 -- Morrowgrain Research - Arch Druid Hamuul Runetotem; the Seed Voucher to Bashana below
+  turnin 3782 -- Morrowgrain Research - the voucher to Bashana
+  note 3782's follow-up (3786, cultivating Morrowgrain) stays in - take it below.
+
+step Elder Rise - Turak's druids
+  accept 27 only Druid,Tauren -- A Lesson to Learn - Turak Runetotem; Dendrite Starblaze waits in Moonglade, late
+  note 27's follow-up (28, Dendrite's chain) stays out - turn in to Dendrite on the Moonglade leg and stop there.
+  turnin 5926 only Druid,Tauren -- Heeding the Call - Innkeeper Pala's word to Turak Runetotem
+  note 5926's follow-up (5922, Turak's Moonglade) stays in - take it below.
+  accept 5922 only Druid,Tauren -- Moonglade - Turak Runetotem; Dendrite Starblaze waits in Moonglade, late
+  note 5922's follow-up (5930, Dendrite's chain) stays out - turn in to Dendrite on the Moonglade leg and stop there.
+  note 6002's pre (5932, a Moonglade accept) turns in just below - take it first if offered.
+  accept 6002 only Druid,Tauren -- Body and Heart - Turak Runetotem; face Lunaclaw at the Moonkin Stone between Mulgore and the Barrens
+  complete 6002 only Druid,Tauren -- Lunaclaw faced at the Moonkin Stone for Turak
+  turnin 6002 only Druid,Tauren -- Body and Heart - back to Turak
+  accept 94913 only Druid,Horde -- Moonglade - Turak Runetotem; Dendrite Starblaze waits in Moonglade, late
+  accept 6126 only Druid,Tauren -- Lessons Anew - Turak Runetotem; Dendrite Starblaze waits in Moonglade, late
+  note 6126's follow-up (6127, Dendrite's chain) has no placed accept in the data - turn in to Dendrite on the Moonglade leg and stop there.
+  accept 98340 only Druid,Tauren -- The Great Cat Spirit - Turak Runetotem; Dendrite Starblaze waits in Moonglade, late
+  note 98340's follow-up (98341, Dendrite's chain) stays out - turn in to Dendrite on the Moonglade leg and stop there.
+  accept 9063 only Druid -- Torwa Pathfinder - Turak Runetotem; Torwa waits in Un'Goro, very late
+  note 9063's follow-up (9052, Torwa's chain) stays out - turn in to Torwa on the Un'Goro leg and stop there.
+step Elder Rise - Nara's post
+  turnin 2965 -- Portents of Uldum - Sage's word to Nara Wildmane
+  accept 914 -- Leaders of the Fang - Nara Wildmane; the Gems of Cobrahn, Anacondra, Pythas and Serpentis
+  turnin 914 -- Leaders of the Fang - Nara Wildmane takes the fang gems
+  note 914's pre is the contracted 1490 above, so the chain reads whole.
+  complete 914 -- the Gems of Cobrahn, Anacondra, Pythas and Serpentis off their fang-bearers for Nara
+  accept 2966 -- Seeing What Happens - Nara Wildmane; the miniature discs to the gates of Uldum in Tanaris, late
+  note 2966's follow-up (2954, a Tanaris accept) stays out - place the discs at the Uldum Pedestal on the Tanaris leg and stop there.
+  accept 2968 -- A Future Task - Nara Wildmane; Sage Truthseeker takes it back on the Middle Rise
+  turnin 2968 -- A Future Task - back to Sage on the Middle Rise
+  accept 92343 -- Get to the Roots of It - Nara Wildmane; ten Nordrassil Root Caps inside Blackmaw Hold
+  note 92343 has no turn-in anywhere in the data: gather the caps if the Hold allows it and hold them - this accept never wedges, and nothing is invented here.
+  complete 92343 -- ten Nordrassil Root Caps from Blackmaw Hold for Nara
+
+step Elder Rise - Magatha's word
+  accept 1064 -- Forsaken Aid - Magatha Grimtotem; Magatha's word to Zamah on Spirit Rise
+  turnin 1064 -- Forsaken Aid - Magatha's word to Zamah
+  note 1064's pre (1063) turns in to Magatha herself in the mini-step below - take it first if offered.
+  note 3562's pre (3518, a Jediga accept) turns in just below - take it first if offered.
+  accept 3562 -- Magatha's Payment to Jediga - Magatha Grimtotem; Magatha's Note to Jediga in Azshara, late
+  note 5088's pre (5062, whose turn-in is Magatha herself) turns in just below - take it first if offered.
+  accept 5088 -- Arikara - Magatha Grimtotem; Arikara's skin and the Incendia powder to Motega Firemane in Thousand Needles, late
+  accept 91737 -- Remote Contact - Magatha Grimtotem; Jediga waits in Azshara, late
+
+step Elder Rise - Rahauro's Ragefire work
+  note Maur Grimtotem's corpse lies in Ragefire Chasm beneath Orgrimmar: bring what the Chasm gives from the world, so this accept never wedges - check the bags on the way.
+  accept 5722 -- Searching for the Lost Satchel - Rahauro; Maur Grimtotem's corpse in Ragefire Chasm
+  note Maur Grimtotem has no placed point in the data - hand in where he stands.
+  turnin 5722 -- Searching for the Lost Satchel - back to Rahauro's tale
+  note 5722's follow-up (5724, the satchel's chain) stays out - the search ends here.
+  accept 5723 -- Testing an Enemy's Strength - Rahauro; Ragefire Troggs and Shaman in Ragefire Chasm
+  complete 5723 -- eight Ragefire Troggs and eight Ragefire Shaman in Ragefire Chasm, with a group, for Rahauro
+  turnin 5723 -- Testing an Enemy's Strength - back to Rahauro
+
+step Elder Rise - Bashana's Morrowgrain
+  accept 3786 -- Morrowgrain Research - Bashana Runetotem; cultivate ten Morrowgrain
+  complete 3786 @71.06,34.19 era -- ten Morrowgrain cultivated with Evergreen Pouch, Tharlendis Seeds and Un'Goro soil for Bashana
+  turnin 3786 -- Morrowgrain Research - the Morrowgrain to Bashana
+  note 3786's follow-up (3804, the Bluff delivery) stays in - take it below.
+  accept 3804 -- Morrowgrain to Thunder Bluff - Bashana Runetotem; the Morrowgrain stays on the Rise
+  complete 3804 @71.06,34.19 era -- ten Morrowgrain from the bags for Bashana
+  turnin 3804 -- Morrowgrain to Thunder Bluff - back to Bashana
+  note 98823's pre (95664, whose giver has no placed point) turns in just below - take it first if offered.
+  accept 98823 -- Earthen Echo - Bashana Runetotem; the Titan Relic to Muln Earthfury in Mulgore, late
+  note Muln waits at Skywatcher Plateau in northwest Mulgore - turn in to Muln on the Mulgore leg and stop there.
+
+step Hunter Rise - Melor's hunts
+  note 860's pre (861, a Mulgore accept) turns in just below - take it first if offered.
+  accept 860 -- Sergra Darkthorn - Melor Stonehoof; Sergra waits at the Crossroads, late
+  note 860's follow-up (844, Sergra's chain) stays out - turn in to Sergra on the Barrens leg and stop there.
+  note 1131's pre (1130, a Thousand Needles accept) turns in just below - take it first if offered.
+  accept 1131 -- Steelsnap - Melor Stonehoof; Steelsnap's Rib
+  complete 1131 @61.54,80.92 era -- Steelsnap's Rib from the bags for Melor
+  turnin 1131 -- Steelsnap - the rib to Melor
+  note 1131's follow-up (1136, Frostmaw) stays in - take it below.
+  accept 1136 -- Frostmaw - Melor Stonehoof; Frostmaw's Mane
+  complete 1136 @61.54,80.92 era -- Frostmaw's Mane from the bags for Melor
+  turnin 1136 -- Frostmaw - the mane to Melor
+  accept 1205 -- Deadmire - Melor Stonehoof; Deadmire's Tooth
+  note 1205's follow-up (97378) has no quest record in the data - the chain ends here honestly.
+  complete 1205 @61.54,80.92 era -- Deadmire's Tooth from the bags for Melor
+  turnin 1205 -- Deadmire - the tooth to Melor
+
+step Hunter Rise - the warrior row
+  accept 1718 only Warrior -- The Islander - Torm Ragetotem; Klannoc Macleod waits in the Barrens, late
+  note 1718's follow-up (1719, Klannoc's chain) stays out - turn in to Klannoc on the Barrens leg and stop there.
+  accept 1823 only Warrior -- Speak with Ruga - Torm Ragetotem; Ruga Ragetotem waits in the Barrens, late
+  note 1823's follow-up (1824, Ruga's chain) stays out - turn in to Ruga on the Barrens leg and stop there.
+  accept 8417 only Warrior -- A Troubled Spirit - Torm Ragetotem; the Fallen Hero waits in the Swamp of Sorrows, very late
+  note 8417's follow-up (8423, the Hero's chain) stays out - turn in to the Hero on the Swamp leg and stop there.
+  accept 8151 only Hunter -- The Hunter's Charm - Holt Thunderhorn; Ogtinc waits in Azshara, late
+  note 8151's follow-up (8153, Ogtinc's chain) stays out - turn in to Ogtinc on the Azshara leg and stop there.
+  accept 6065 only Hunter,Tauren -- The Hunter's Path - Kary Thunderhorn; Yaw Sharpmane waits in Bloodhoof, late
+  note 6065's follow-up (6061, Yaw's chain) stays out - turn in to Yaw on the Mulgore leg and stop there.
+  accept 6070 only Hunter,Orc,Troll -- The Hunter's Path - Kary Thunderhorn; Thotar waits at Razor Hill, late
+  note 6070's follow-up (6062, Thotar's chain) stays out - turn in to Thotar on the Durotar leg and stop there.
+
+step High Rise - Cairne's mesa
+  note 776's pre (775, a Mulgore accept) turns in just below - take it first if offered.
+  accept 776 -- Rites of the Earthmother - Cairne Bloodhoof; the Horn of Arra'chea
+  note The Horn comes off Arra'chea in Mulgore: bring it from the world, so this accept never wedges - check the bags on the way.
+  complete 776 @60.3,51.68 era -- the Horn of Arra'chea from the bags for Cairne
+  turnin 776 -- Rites of the Earthmother - the horn to Cairne
+  accept 1195 -- The Sacred Flame - Zangen Stonehoof; a Filled Etched Phial
+  complete 1195 @54.97,51.41 era -- a Filled Etched Phial from the bags for Zangen
+  turnin 1195 -- The Sacred Flame - the phial to Zangen
+  note 1195's follow-up (1196, the Freewind delivery) stays in - take it below.
+  accept 1196 -- The Sacred Flame - Zangen Stonehoof; the Filled Etched Phial to Rau Cliffrunner in Thousand Needles, late
+  note 1196's follow-up (1197, Rau's chain) stays out - turn in to Rau on the Thousand Needles leg and stop there.
+  accept 97538 -- Pigments for Paints - Tah Winterhoof; thirty Mirkweed Pods from Mirkfallon Lake
+  complete 97538 @54.14,47.05 era -- thirty Mirkweed Pods from the bags for Tah
+  turnin 97538 -- Pigments for Paints - the pods to Tah
+step Cairne's word - the Earthmother's rite
+  when onquest 775
+
+  note Journey into Thunder Bluff (775, a Mulgore accept) is uncontracted - turn it in here if the log carries it.
+  turnin 775 -- Journey into Thunder Bluff - back to Cairne
+
+step Melor's word - the hunter's way
+  when onquest 861
+
+  note The Hunter's Way (861, a Mulgore accept) is uncontracted - turn it in here if the log carries it.
+  turnin 861 -- The Hunter's Way - back to Melor
+
+step Magatha's word - the elder crone
+  when onquest 1063
+
+  note The Elder Crone (1063, a Hillsbrad accept) is uncontracted - turn it in here if the log carries it.
+  turnin 1063 -- The Elder Crone - back to Magatha
+
+step Zamah's word - the flying machine's return
+  when onquest 1067
+
+  note Return to Thunder Bluff (1067, whose turn-in is Zamah herself) is uncontracted - turn it in here if the log carries it.
+  turnin 1067 -- Return to Thunder Bluff - back to Zamah
+
+step Melor's word - Melor sends word
+  when onquest 1130
+
+  note Melor Sends Word (1130, a Thousand Needles accept) is uncontracted - turn it in here if the log carries it.
+  turnin 1130 -- Melor Sends Word - back to Melor
+
+step Hamuul's word - the arch druid's summons
+  when onquest 1489
+
+  note Hamuul Runetotem (1489, a Mulgore accept) is uncontracted - turn it in here if the log carries it.
+  turnin 1489 -- Hamuul Runetotem - back to Hamuul
+
+step Sage's word - the platinum past
+  when onquest 2280
+
+  note The Platinum Discs (2280, Orgrimmar's accept-only record) is uncontracted - turn it in here if the log carries it.
+  turnin 2280 -- The Platinum Discs - back to Sage
+
+step Nara's word - the Thunder Bluff return
+  when onquest 2967
+
+  note Return to Thunder Bluff (2967, whose giver has no placed point) is uncontracted - turn it in here if the log carries it.
+  turnin 2967 -- Return to Thunder Bluff - back to Nara
+
+step Magatha's word - delivery and sacred fire
+  when onquest 3518
+
+  note Delivery to Magatha (3518, a Jediga accept) is uncontracted - turn it in here if the log carries it.
+  turnin 3518 -- Delivery to Magatha - back to Magatha
+
+step Magatha's word - the sacred fire
+  when onquest 5062
+
+  note Sacred Fire (5062, a Thousand Needles accept) is uncontracted - turn it in here if the log carries it.
+  turnin 5062 -- Sacred Fire - back to Magatha
+
+step Turak's word - back to the Bluff
+  when onquest 5932
+
+  note Back to Thunder Bluff (5932, a Moonglade accept) is uncontracted - turn it in here if the log carries it.
+  turnin 5932 -- Back to Thunder Bluff - back to Turak
+
+step Ahanu's word - the ride home
+  when onquest 6362
+
+  note Ride to Thunder Bluff (6362, a Mulgore accept) is uncontracted - turn it in here if the log carries it.
+  turnin 6362 -- Ride to Thunder Bluff - back to Ahanu
+
+step Bashana's word - elder knowledge
+  when onquest 95664
+
+  note Elder Knowledge (95664, whose giver has no placed point) is uncontracted - turn it in here if the log carries it.
+  turnin 95664 -- Elder Knowledge - back to Bashana
+
+step Nara's word - beneath Nordrassil
+  when onquest 92346
+
+  note Beneath Nordrassil (92346, a Jediga accept) is uncontracted - turn it in here if the log carries it.
+  turnin 92346 -- Beneath Nordrassil - back to Nara
+
+step Expedition - Moonglade, Nighthaven
+  zone map 1450
+
+  tip Moonglade is the druid hub: Dendrite takes the chain ends, Rabine takes her own.
+  turnin 27 only Druid,Tauren -- A Lesson to Learn - Turak's word to Dendrite Starblaze
+  turnin 5922 only Druid,Tauren -- Moonglade - Turak's word to Dendrite Starblaze
+  turnin 6126 only Druid,Tauren -- Lessons Anew - Turak's word to Dendrite Starblaze
+  turnin 94913 only Druid,Horde -- Moonglade - Turak's word to Dendrite Starblaze
+  turnin 98340 only Druid,Tauren -- The Great Cat Spirit - Turak's word to Dendrite Starblaze
+  turnin 1123 -- Rabine Saturna - Hamuul's word to Rabine Saturna
+  zone map 1456
+
+step Expedition - Mulgore, Yaw and Muln
+  zone map 1412
+
+  tip Work Bloodhoof down to the plateau: Yaw's grounds, then Skywatcher.
+  turnin 6065 only Hunter,Tauren -- The Hunter's Path - Kary's word to Yaw Sharpmane
+  turnin 98823 -- Earthen Echo - Bashana's relic to Muln Earthfury
+  zone map 1456
+
+step Expedition - the Barrens, Crossroads to Camp Taurajo
+  zone map 1413
+
+  tip The Crossroads first, then south along the road: Kranal, Islen, Klannoc, Ruga, Jahan.
+  turnin 860 -- Sergra Darkthorn - Melor's word to Sergra Darkthorn
+  turnin 886 -- The Barrens Oases - Hamuul's word to Tonga Runetotem
+  turnin 1523 only Shaman,Orc,Tauren,Troll -- Call of Fire - Xanis's word to Kranal Fiss
+  turnin 1529 only Shaman,Horde -- Call of Water - Xanis's word to Islen Waterseer
+  turnin 1718 only Warrior -- The Islander - Torm's word to Klannoc Macleod
+  turnin 1823 only Warrior -- Speak with Ruga - Torm's word to Ruga Ragetotem
+  turnin 6364 only Tauren -- Return to Jahan - Ahanu's goods to Jahan Hawkwing
+  zone map 1456
+
+step Expedition - Durotar, Razor Hill
+  zone map 1411
+
+  turnin 6070 only Hunter,Orc,Troll -- The Hunter's Path - Kary's word to Thotar
+  zone map 1456
+
+step Expedition - Ashenvale, Splintertree
+  zone map 1440
+
+  turnin 742 -- The Ashenvale Hunt - Windstrider's word to Senani Thunderheart
+  zone map 1456
+
+step Expedition - Feralas, Camp Mojache
+  zone map 1444
+
+  turnin 7492 -- Camp Mojache - Windstrider's word to Talo Thornhoof
+  zone map 1456
+
+step Expedition - Thousand Needles, Freewind and Whitereach
+  zone map 1441
+
+  tip Freewind Post first, then the flats: Rau, Prate, and Motega at Whitereach.
+  turnin 1196 -- The Sacred Flame - Zangen's phial to Rau Cliffrunner
+  turnin 1532 only Shaman,Horde -- Call of Air - Xanis's word to Prate Cloudseer
+  complete 5088 @21.54,32.35 era -- Arikara's skin and the Incendia powder for Motega Firemane
+  turnin 5088 -- Arikara - the skin and powder to Motega Firemane
+  zone map 1456
+
+step Expedition - Tanaris, the Uldum gates
+  zone map 1446
+
+  turnin 2966 -- Seeing What Happens - the discs to the Uldum Pedestal
+  zone map 1456
+
+step Expedition - Un'Goro, Torwa's camp
+  zone map 1449
+
+  turnin 9063 only Druid -- Torwa Pathfinder - Turak's word to Torwa Pathfinder
+  note Torwa also shows on the Tanaris map (27.5,42.7) in the data; this camp is the chain's own words.
+  zone map 1456
+
+step Expedition - Dustwallow, Tabetha's farm
+  zone map 1445
+
+  turnin 1947 only Mage -- Journey to the Marsh - Ursyn's word to Tabetha
+  turnin 1953 only Mage -- Return to the Marsh - Ursyn's word to Tabetha
+  zone map 1456
+
+step Expedition - Azshara, Jediga's post
+  zone map 1447
+
+  tip Jediga first, then Ogtinc and Sanath along the coast road.
+  turnin 3562 -- Magatha's Payment to Jediga - Magatha's Note to Jediga
+  turnin 91737 -- Remote Contact - Magatha's word to Jediga
+  turnin 8151 only Hunter -- The Hunter's Charm - Holt's word to Ogtinc
+  turnin 8250 only Mage -- Magecraft - Shymm's word to Sanath Lim-yo
+  zone map 1456
+
+step Expedition - the Swamp, the Fallen Hero
+  zone map 1435
+
+  turnin 8417 only Warrior -- A Troubled Spirit - Torm's word to the Fallen Hero of the Horde
+  note The Hero waits at the entrance to the Blasted Lands.
+  zone map 1456
+
+step Expedition - Alterac, the Windwatcher
+  zone map 1416
+
+  complete 8410 only Shaman @80.5,66.92 era -- samples of air, fire, earth and water from the world for Bath'rah the Windwatcher
+  turnin 8410 only Shaman -- Elemental Mastery - the samples to Bath'rah the Windwatcher
+  note Bath'rah also shows in the Hillsbrad foothills (79.3,7) in the data; this plateau is the chain's own ground.
+  zone map 1456
+
+step Expedition - Zephras Isle, the skycutter home
+  zone map 2521
+
+  tip Sessaria trains the Horde shaman line: fly the skycutter from Skywatcher Plateau in Mulgore.
+  turnin 98517 only Shaman,Horde -- Call of Fire - Beram's word to Sessaria Skystride
+  zone map 1456
+
+step Expedition - Tirisfal, the Bulwark and Bandarion
+  zone map 1420
+
+  tip The Bulwark first at the eastern wall, then Bandarion Keep.
+  turnin 5095 -- A Call to Arms: The Plaguelands! - Windstrider's word to High Executor Derrington
+  note Derrington also shows in the Eastern Plaguelands (26.5,56) in the data; the Bulwark camp is the quest's own words.
+  turnin 97022 only Paladin,Undead -- Report to Danitha - Alodan's word to Danitha Morr
+  zone map 1456
+
+step Expedition - Hillsbrad, Tarren Mill
+  zone map 1424
+
+  turnin 1065 -- Journey to Tarren Mill - Zamah's Note to Apothecary Lydon
+  zone map 1456
+
+step Expedition - Silverpine, Yuriv's Tomb
+  zone map 1421
+
+  turnin 264 -- Until Death Do Us Part - Clarice's Pendant to Yuriv's Tombstone
+  zone map 1456
+
+step Expedition - the Undercity, the Banshee Queen's court
+  zone map 1458
+
+  tip Take the zeppelin to Orgrimmar, then the tower outside its gates straight to the Undercity.
+  turnin 1959 only Mage,Troll,Undead -- Report to Anastasia - Thurston's word to Anastasia Hartwell
+  zone map 1456
