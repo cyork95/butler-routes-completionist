@@ -664,3 +664,7 @@ as above: game-data citation or a named source.
 ## Mulgore tame lines (pack 0.92.0)
 
 - Ghost Howl 3056 (wolf table: Stringy Wolf Meat 2672, Fractured Canine 3299, Sharp Claw 5635) and The Rake 5807 (cat table: Small Leather Collar 4813, Discolored Fang 4814) present drop evidence but no contracted Mulgore quest kills wolves or cats by NPC ID, so there is no core-guide beast-family corroboration - logged, not shipped. Mazzranache 3068 ships the zone's tame line (plainstrider parts on its table plus contracted quest 6061 killing Adult Plainstrider 2956). NPC records carry no family/tame flags. Revisit if a family flag or tame evidence appears.
+
+## Tirisfal Glades tame lines (pack 0.95.0)
+
+- Bayne 10356 (wolf table: Stringy Wolf Meat 2672, Fractured Canine 3299, Rabbit's Foot 10574), Ressan the Needler 10357 (bat table: Dried Bat Blood 11409, Patch of Bat Hair 11410, Meaty Bat Wing 11411) and Sri'skulk 10359 (spider table: Spider Venom Sac 1954, Spider Leg 2010, Discolored Fang 4814) present drop evidence, but no contracted Tirisfal quest kills wolves, Needlers or this spider by NPC ID - the core kills Duskbats and Night Web spiders specifically, never the candidates' species - so there is no core-guide beast-family corroboration under the Mulgore bar. Logged, not shipped. The other nine rares are undead/humanoid/mechanical or unknown-nonbeast types and are not tame candidates. NPC records carry no family/tame flags. Revisit if a family flag or tame evidence appears.
