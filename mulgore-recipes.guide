@@ -1,0 +1,117 @@
+# Butler Routes - Mulgore recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and formulas whose SOURCE is
+# physically in Mulgore (zone key 1412), verified against the local
+# Forever game data (questie-forever item, vendor and drop tables).
+# 3 recipes are vendor-sold by Horde vendors spawning only in-zone,
+# 8 more by the in-zone custom vendor Sutara Plainstalker, and 2 drop
+# from named in-zone mobs with 2- and 4-dropper tables; every other
+# dropped recipe is a generic multi-hundred-zone world drop (see
+# docs/mulgore-companions-inventory.md), and quest records carry no
+# reward data (see docs/companion-unverified.md). Recipes sold only
+# by the dual-spawn Thunder Bluff city vendors belong to the future
+# Thunder Bluff city companion, not this guide. Trainer-taught
+# staples are excluded: Polestar's own profession guides cover
+# those. Each step is gated to its profession; other characters skip
+# it cleanly.
+guide butler-routes-completionist/mulgore-recipes
+title Mulgore - Recipes & Patterns
+levels 1-13
+zone Mulgore
+faction Horde
+category Professions
+folder Companions
+keywords mulgore, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking - Wunna Darkmane (Bloodhoof)
+
+  zone map 1412
+
+  when skill Cooking 1
+
+  vendor 3081 -- Wunna Darkmane (45.56,61.73)
+  buy 5484 "Recipe: Roasted Kodo Meat" npc 3081
+  note Wunna Darkmane (Horde) sells the recipe at Bloodhoof Village - sole vendor anywhere in the data. Stock class unconfirmed.
+
+step Cooking - Harn Longcast (Bloodhoof)
+
+  zone map 1412
+
+  when skill Cooking 1
+
+  vendor 5940 -- Harn Longcast (46.67,59.13)
+  buy 6325 "Recipe: Brilliant Smallfish" npc 5940
+  buy 6328 "Recipe: Longjaw Mud Snapper" npc 5940
+  note Harn Longcast (Horde) sells both recipes at Bloodhoof Village (each also sold elsewhere). Stock class unconfirmed.
+
+step Blacksmithing - Sutara Plainstalker
+
+  zone map 1412
+
+  when skill Blacksmithing 1
+
+  vendor 264078 -- Sutara Plainstalker (34.56,23)
+  buy 276976 "Plans: Cloudy Skyforged Helm" npc 264078
+  buy 276977 "Plans: Cloudy Skyforged Pauldrons" npc 264078
+  note Sutara Plainstalker (Horde) sells both plans west of Thunder Bluff - sole vendor anywhere in the data. Stock class unconfirmed.
+
+step Tailoring - Sutara Plainstalker
+
+  zone map 1412
+
+  when skill Tailoring 1
+
+  vendor 264078 -- Sutara Plainstalker (34.56,23)
+  buy 276978 "Pattern: Cloudy Gustwoven Hood" npc 264078
+  buy 276979 "Pattern: Cloudy Gustwoven Spaulders" npc 264078
+  buy 276980 "Pattern: Cloudy Windraveled Cover" npc 264078
+  buy 276981 "Pattern: Cloudy Windraveled Drapes" npc 264078
+  buy 276982 "Pattern: Cloudy Stormsewn Cowl" npc 264078
+  buy 276983 "Pattern: Cloudy Stormsewn Epaulets" npc 264078
+  note Sutara Plainstalker (Horde) sells all six patterns west of Thunder Bluff - sole vendor anywhere in the data. Profession by the pack's prefix convention (Pattern) plus cloth naming; item records carry no profession field. Stock class unconfirmed.
+
+step Alchemy - Venture Co. Hireling (drop)
+
+  zone map 1412
+
+  when skill Alchemy 1
+
+  loop
+  goto 51.43,68.44
+  goto 51.5,68.92
+  goto 51.54,67.98
+  goto 51.83,68.08
+  goto 52.03,69.3
+  goto 52.06,68.36
+  goto 52.34,68.67
+  goto 52.36,68.11
+  kill 2975 optional
+  collect 250375 "Recipe: Minor Mageblood Elixir" optional
+  note Dropped by Venture Co. Hirelings at their southern camp (2 droppers zone-wide, the other far outside Mulgore). No vendor sells it.
+
+step Alchemy - Windfury Wind Witch (drop)
+
+  zone map 1412
+
+  when skill Alchemy 1
+
+  loop
+  goto 33.55,47.67
+  goto 33.6,49.06
+  goto 34.6,49.07
+  goto 34.62,48.38
+  goto 35.1,48.24
+  goto 35.21,46.8
+  goto 35.58,49.17
+  goto 35.65,47.55
+  goto 35.72,49.93
+  kill 2963 optional
+  collect 250982 "Recipe: Minor Frenzy Potion" optional
+  note Dropped by Windfury Wind Witches (4 droppers zone-wide). This step loops the Windfury Heights cluster; the same mob also spawns a second 1412 cluster far southeast (58.51-63.82 x 70.23-72.76). No vendor sells it.
+
+step Other professions - no Mulgore source
+
+  zone map 1412
+
+  note No Leatherworking pattern, Enchanting formula, Engineering schematic, First Aid manual or Fishing recipe has a Mulgore source in the data - stated, not padded. The Thunder Bluff city vendors' stock (Tailoring bags and kits, Enchanting formulas, Cooking fish recipes) belongs to the future Thunder Bluff city companion. Trainer-taught staples live in Polestar's own profession guides.
