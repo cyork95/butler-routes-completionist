@@ -1,0 +1,1209 @@
+guide butler-routes-completionist/orgrimmar-city
+title Orgrimmar
+levels 1-60
+zone Orgrimmar
+faction Horde
+category Leveling
+folder Cities
+coords live
+version 1
+keywords orgrimmar, city, completionist
+
+# Orgrimmar is the Horde capital and a hub the player returns to for fifty
+# levels, so this route groups by district and keeps every chain together.
+# Out-of-city objectives ride in expedition legs grouped by destination zone,
+# each with a deliberate zone-frame switch and a switch back. Every goto and
+# complete below is a point from the game data; where the data gives no point
+# the note says so instead of inventing one.
+
+step Gates of Orgrimmar — hearth and flight
+  note Set the hearth at Innkeeper Gryshka and take the flight from Doras; the whole route returns here.
+  accept 936 -- Assisting Arch Druid Runetotem - Innkeeper Gryshka; Arch Druid Hamuul Runetotem waits in Thunder Bluff, late
+  note 6385's pre (6384, a Barrens accept) turns in just below — take it first if offered.
+  accept 6385 only Orc,Troll -- Doras the Wind Rider Master - Innkeeper Gryshka; Doras the Wind Rider Master by the gate
+  turnin 6385 only Orc,Troll -- Doras the Wind Rider Master - back to Doras
+  accept 6386 -- Return to the Crossroads - Doras; Zargh waits in the Barrens, late
+  note 6386's follow-up (6387, Zargh's Barrens chain) stays out — turn in to Zargh on the Barrens leg and stop there.
+  accept 5927 only Druid,Tauren -- Heeding the Call - Innkeeper Gryshka; Turak Runetotem waits in Mulgore, late
+  note 5927's follow-up (5922, Mulgore) stays out — turn in to Turak on the Mulgore leg and stop there.
+
+step Valley of Strength — Eitrigg's council
+  accept 787 -- The New Horde - Eitrigg; Gornek waits in Durotar
+  note 787 turns in to Gornek in Durotar — the Durotar guide owns that leg.
+  accept 95283 -- The Missing Kor'kron - Eitrigg; Nazeer Bloodpike waits in the Barrens, late
+
+step Grommash Hold — Thrall's war council
+  note The Head of Rend Blackhand (12630) has no placed point in the data: bring Rend's head from the world, so this accept never wedges — check the bags on the way.
+  note 4974's pre (4941, a Badlands accept) turns in just below — take it first if offered.
+  accept 93739 -- Exploring the Horde - Thrall; four leaders across the Horde
+  complete 93739 @32.3,35.75 era -- Nazgrel for Thrall
+  complete 93739 @34.34,36.33 era -- Vol'jin for Thrall
+  note Cairne waits in Mulgore and Sylvanas in the Undercity — their completes ride on those legs below.
+  turnin 93739 -- Exploring the Horde - the leaders' word to Thrall
+  accept 4974 -- For The Horde! - Thrall; Warchief Rend Blackhand's head
+  complete 4974 -- the Head of Rend Blackhand, from Upper Blackrock Spire with a group, for Thrall
+  turnin 4974 -- For The Horde! - the head to Thrall
+  accept 6566 -- What the Wind Carries - Thrall; Thrall's tale
+  complete 6566 @31.78,37.81 era -- Thrall's tale
+  turnin 6566 -- What the Wind Carries - back to Thrall
+  accept 6567 -- The Champion of the Horde - Thrall; Rexxar waits in Desolace, late
+  note 6567's follow-up (6568, Rexxar's Desolace chain) stays out — turn in to Rexxar on the Desolace leg and stop there.
+  note 4002's pre (4001, whose giver has no placed point) never fills — take 4002 on its own.
+  accept 4002 -- The Eastern Kingdom - Thrall; Thrall's word
+  turnin 4002 -- The Eastern Kingdom - back to Thrall
+  note Kharan has no placed point in the data: take the quest now, find the Emperor inside Blackrock Depths with a group, hand in on return.
+  accept 4003 -- The Royal Rescue - Thrall; Emperor Dagran Thaurissan, in Blackrock Depths, very late
+  complete 4003 -- Emperor Dagran Thaurissan, in Blackrock Depths with a group
+  turnin 4003 -- The Royal Rescue - Moira Bronzebeard has no placed point in the data — hand in where she stands
+  accept 96376 -- State Secrets - Nazgrel; a Document Box
+  note The Document Box (274041) has no source in the data: it comes with the world around the quest, so this accept never wedges — check the bags on the way.
+  complete 96376 @32.3,35.75 era -- the Document Box for Nazgrel
+  turnin 96376 -- State Secrets - the box to Nazgrel
+
+step Grommash Hold — Thrall's war council, continued
+  note 7491's pre (7490) starts from the Head of Onyxia (18422), which drops off Onyxia herself: bring the head from the world, so this accept never wedges — check the bags on the way.
+  accept 7491 -- For All To See - Thrall; Overlord Runthak waits below
+  note 7784's pre (7783) starts from the Head of Nefarian (19002), which drops off Nefarian himself: bring the head from the world, so this accept never wedges — check the bags on the way.
+  accept 7784 -- The Lord of Blackrock - Thrall; High Overlord Saurfang waits below
+  note 98024's pre (95350, a Mulgore accept) is OUT — take 98024 on its own.
+  accept 98024 -- Journey to the Crossroads - Thrall; Thork waits in the Barrens, late
+
+step Grommash Hold — the Hidden Enemies chain
+  note The Lieutenant's Insignia (14544) drops off the Burning Blade in Durotar (expedition below): bring it from the world, so this accept never wedges — check the bags on the way.
+  accept 5726 -- Hidden Enemies - Thrall; a Lieutenant's Insignia
+  note The insignia drops off the Burning Blade on Thunder Ridge — its complete and turn-in both ride on the Durotar leg below.
+  note Thrall's word (5727) and the rest of the chain ride post-Durotar (below), after the insignia turns in.
+
+step Grommash Hold — a welcome in hand
+  when onquest 95350
+
+  note Welcome to Azeroth (95350, a Mulgore accept) is uncontracted — turn it in here if the log carries it.
+  turnin 95350 -- Welcome to Azeroth - back to Thrall
+
+step Grommash Hold — Onyxia's head
+  when onquest 7490
+
+  note Victory for the Horde (7490) starts from the Head of Onyxia itself, which drops off Onyxia: turn it in here if the log carries it.
+  turnin 7490 -- Victory for the Horde - the head to Thrall
+
+step Grommash Hold — Nefarian's head
+  when onquest 7783
+
+  note The Lord of Blackrock (7783) starts from the Head of Nefarian itself, which drops off Nefarian: turn it in here if the log carries it.
+  turnin 7783 -- The Lord of Blackrock - the head to Thrall
+
+step Grommash Hold — Eitrigg's wisdom
+  when onquest 4941
+
+  note Eitrigg's Wisdom (4941, a Badlands accept) is uncontracted — turn it in here if the log carries it.
+  turnin 4941 -- Eitrigg's Wisdom - back to Thrall
+
+step Valley of Spirits — Neeru Fireblade
+  note 809's pre (829, a Durotar accept from Margoz) turns in just below — take it first if offered.
+  accept 809 -- Hidden Enemies - Neeru Fireblade; Ak'Zeloth waits in the Barrens, late
+  note 3122's pre (3121, a Feralas accept from Uzer'i) is OUT — take 3122 on its own.
+  accept 3122 -- Return to Witch Doctor Uzer'i - Neeru Fireblade; Witch Doctor Uzer'i waits in Feralas, late
+  note The Taragaman Heart (14540) drops off Taragaman the Hungerer, who has no placed point in the data: bring the heart from the world, so this accept never wedges — check the bags on the way.
+  accept 5761 -- Slaying the Beast - Neeru Fireblade; Taragaman the Hungerer's heart
+  complete 5761 -- Taragaman the Hungerer's heart, in Ragefire Chasm below the city, for Neeru
+  turnin 5761 -- Slaying the Beast - the heart to Neeru Fireblade
+
+step Valley of Spirits — Neeru's old debt
+  when onquest 829
+
+  note Neeru Fireblade (829, a Durotar accept) is uncontracted — turn it in here if the log carries it.
+  turnin 829 -- Neeru Fireblade - back to Neeru
+
+step Valley of Spirits — the witch doctor's request
+  when onquest 3121
+
+  note A Strange Request (3121, a Feralas accept) is uncontracted — turn it in here if the log carries it.
+  turnin 3121 -- A Strange Request - back to Neeru
+
+step The Drag — Mokvar's call
+  goto 32.65,36.55
+  note Mokvar's eight propositions are class-gated — a character takes only their own line, then comes back.
+  accept 84155 only Druid -- An Earnest Proposition - Mokvar; a proposition for a Druid
+  turnin 84155 only Druid -- An Earnest Proposition - back to Mokvar
+  accept 84156 only Hunter -- An Earnest Proposition - Mokvar; a proposition for a Hunter
+  turnin 84156 only Hunter -- An Earnest Proposition - back to Mokvar
+  accept 84157 only Mage -- An Earnest Proposition - Mokvar; a proposition for a Mage
+  turnin 84157 only Mage -- An Earnest Proposition - back to Mokvar
+  accept 84158 only Priest -- An Earnest Proposition - Mokvar; a proposition for a Priest
+  turnin 84158 only Priest -- An Earnest Proposition - back to Mokvar
+  accept 84159 only Rogue -- An Earnest Proposition - Mokvar; a proposition for a Rogue
+  turnin 84159 only Rogue -- An Earnest Proposition - back to Mokvar
+  accept 84160 only Shaman -- An Earnest Proposition - Mokvar; a proposition for a Shaman
+  turnin 84160 only Shaman -- An Earnest Proposition - back to Mokvar
+  accept 84161 only Warlock -- An Earnest Proposition - Mokvar; a proposition for a Warlock
+  turnin 84161 only Warlock -- An Earnest Proposition - back to Mokvar
+  accept 84162 only Warrior -- An Earnest Proposition - Mokvar; a proposition for a Warrior
+  turnin 84162 only Warrior -- An Earnest Proposition - back to Mokvar
+
+step The Drag — Mokvar's dungeon tier
+  goto 34.95,38.29
+  note Take the set now, do the legs with a group when ready, hand in on return. Each line is class-gated, so a character takes only their own.
+  accept 8913 only Druid -- An Earnest Proposition - Mokvar; Silithus venom and Wildheart Bracers
+  complete 8913 only Druid @34.95,38.29 era -- Silithus venom samples and a Wildheart Bracers for Mokvar
+  turnin 8913 only Druid -- An Earnest Proposition - back to Mokvar
+  accept 8914 only Hunter -- An Earnest Proposition - Mokvar; Silithus venom and Beaststalker's Bindings
+  complete 8914 only Hunter @34.95,38.29 era -- Silithus venom samples and Beaststalker's Bindings for Mokvar
+  turnin 8914 only Hunter -- An Earnest Proposition - back to Mokvar
+  accept 8915 only Mage -- An Earnest Proposition - Mokvar; Silithus venom and Magister's Bindings
+  complete 8915 only Mage @34.95,38.29 era -- Silithus venom samples and Magister's Bindings for Mokvar
+  turnin 8915 only Mage -- An Earnest Proposition - back to Mokvar
+  accept 8916 only Priest -- An Earnest Proposition - Mokvar; Silithus venom and Devout Bracers
+  complete 8916 only Priest @34.95,38.29 era -- Silithus venom samples and Devout Bracers for Mokvar
+  turnin 8916 only Priest -- An Earnest Proposition - back to Mokvar
+  accept 8917 only Rogue -- An Earnest Proposition - Mokvar; Silithus venom and Shadowcraft Bracers
+  complete 8917 only Rogue @34.95,38.29 era -- Silithus venom samples and Shadowcraft Bracers for Mokvar
+  turnin 8917 only Rogue -- An Earnest Proposition - back to Mokvar
+  accept 8918 only Shaman -- An Earnest Proposition - Mokvar; Silithus venom and Bindings of Elements
+  complete 8918 only Shaman @34.95,38.29 era -- Silithus venom samples and Bindings of Elements for Mokvar
+  turnin 8918 only Shaman -- An Earnest Proposition - back to Mokvar
+  accept 8919 only Warlock -- An Earnest Proposition - Mokvar; Silithus venom and Dreadmist Bracers
+  complete 8919 only Warlock @34.95,38.29 era -- Silithus venom samples and Dreadmist Bracers for Mokvar
+  turnin 8919 only Warlock -- An Earnest Proposition - back to Mokvar
+  accept 8920 only Warrior -- An Earnest Proposition - Mokvar; Silithus venom and Bracers of Valor
+  complete 8920 only Warrior @34.95,38.29 era -- Silithus venom samples and Bracers of Valor for Mokvar
+  turnin 8920 only Warrior -- An Earnest Proposition - back to Mokvar
+
+step The Drag — Mokvar's compensation
+  goto 34.95,38.29
+  note 8927 and its seven twins need 8978 (Return to Mokvar, a Tanaris accept) done first — 8978 turns in just below; take the set now, do the legs with a group when ready, hand in on return.
+  accept 8927 only Druid -- Just Compensation - Mokvar; a Wildheart Belt and Wildheart Gloves
+  complete 8927 only Druid @34.95,38.29 era -- a Wildheart Belt and Wildheart Gloves for Mokvar
+  turnin 8927 only Druid -- Just Compensation - back to Mokvar
+  accept 8938 only Hunter -- Just Compensation - Mokvar; a Beaststalker's Belt and Beaststalker's Gloves
+  complete 8938 only Hunter @34.95,38.29 era -- a Beaststalker's Belt and Beaststalker's Gloves for Mokvar
+  turnin 8938 only Hunter -- Just Compensation - back to Mokvar
+  accept 8939 only Mage -- Just Compensation - Mokvar; a Magister's Belt and Magister's Gloves
+  complete 8939 only Mage @34.95,38.29 era -- a Magister's Belt and Magister's Gloves for Mokvar
+  turnin 8939 only Mage -- Just Compensation - back to Mokvar
+  accept 8940 only Priest -- Just Compensation - Mokvar; a Devout Belt and Devout Gloves
+  complete 8940 only Priest @34.95,38.29 era -- a Devout Belt and Devout Gloves for Mokvar
+  turnin 8940 only Priest -- Just Compensation - back to Mokvar
+  accept 8941 only Rogue -- Just Compensation - Mokvar; a Shadowcraft Belt and Shadowcraft Gloves
+  complete 8941 only Rogue @34.95,38.29 era -- a Shadowcraft Belt and Shadowcraft Gloves for Mokvar
+  turnin 8941 only Rogue -- Just Compensation - back to Mokvar
+  accept 8942 only Shaman -- Just Compensation - Mokvar; a Cord of Elements and Gauntlets of Elements
+  complete 8942 only Shaman @34.95,38.29 era -- a Cord of Elements and Gauntlets of Elements for Mokvar
+  turnin 8942 only Shaman -- Just Compensation - back to Mokvar
+  accept 8943 only Warlock -- Just Compensation - Mokvar; a Dreadmist Belt and Dreadmist Wraps
+  complete 8943 only Warlock @34.95,38.29 era -- a Dreadmist Belt and Dreadmist Wraps for Mokvar
+  turnin 8943 only Warlock -- Just Compensation - back to Mokvar
+  accept 8944 only Warrior -- Just Compensation - Mokvar; a Belt of Valor and Gauntlets of Valor
+  complete 8944 only Warrior @34.95,38.29 era -- a Belt of Valor and Gauntlets of Valor for Mokvar
+  turnin 8944 only Warrior -- Just Compensation - back to Mokvar
+  accept 8930 -- In Search of Anthion - Mokvar; Anthion Harmon waits in the Western Plaguelands, late
+  accept 8923 -- A Supernatural Device - Mokvar; Mux Manascrambler waits in Tanaris, late
+
+step The Drag — a return to Mokvar
+  when onquest 8978
+
+  note Return to Mokvar (8978, a Tanaris accept) is uncontracted — turn it in here if the log carries it.
+  turnin 8978 -- Return to Mokvar - back to Mokvar
+
+step The Drag — Mokvar's best
+  goto 34.95,38.29
+  note 9007 and its seven twins need 8998 (Back to the Beginning, a Blackrock accept) done first — 8998 turns in to Bodley on the Blackrock leg below; take the set now, do the legs with a group when ready, hand in on return.
+  accept 9007 only Druid -- Saving the Best for Last - Mokvar; a Wildheart Cowl and Wildheart Vest
+  complete 9007 only Druid @34.95,38.29 era -- a Wildheart Cowl and Wildheart Vest for Mokvar
+  turnin 9007 only Druid -- Saving the Best for Last - back to Mokvar
+  accept 9008 only Hunter -- Saving the Best for Last - Mokvar; a Beaststalker's Cap and Beaststalker's Tunic
+  complete 9008 only Hunter @34.95,38.29 era -- a Beaststalker's Cap and Beaststalker's Tunic for Mokvar
+  turnin 9008 only Hunter -- Saving the Best for Last - back to Mokvar
+  accept 9009 only Priest -- Saving the Best for Last - Mokvar; a Devout Crown and Devout Robe
+  complete 9009 only Priest @34.95,38.29 era -- a Devout Crown and Devout Robe for Mokvar
+  turnin 9009 only Priest -- Saving the Best for Last - back to Mokvar
+  accept 9010 only Rogue -- Saving the Best for Last - Mokvar; a Shadowcraft Cap and Shadowcraft Tunic
+  complete 9010 only Rogue @34.95,38.29 era -- a Shadowcraft Cap and Shadowcraft Tunic for Mokvar
+  turnin 9010 only Rogue -- Saving the Best for Last - back to Mokvar
+  accept 9011 only Shaman -- Saving the Best for Last - Mokvar; a Coif of Elements and Vest of Elements
+  complete 9011 only Shaman @34.95,38.29 era -- a Coif of Elements and Vest of Elements for Mokvar
+  turnin 9011 only Shaman -- Saving the Best for Last - back to Mokvar
+  accept 9012 only Warlock -- Saving the Best for Last - Mokvar; a Dreadmist Mask and Dreadmist Robe
+  complete 9012 only Warlock @34.95,38.29 era -- a Dreadmist Mask and Dreadmist Robe for Mokvar
+  turnin 9012 only Warlock -- Saving the Best for Last - back to Mokvar
+  accept 9013 only Warrior -- Saving the Best for Last - Mokvar; a Helm of Valor and Breastplate of Valor
+  complete 9013 only Warrior @34.95,38.29 era -- a Helm of Valor and Breastplate of Valor for Mokvar
+  turnin 9013 only Warrior -- Saving the Best for Last - back to Mokvar
+  accept 9014 only Mage -- Saving the Best for Last - Mokvar; a Magister's Crown and Magister's Robes
+  complete 9014 only Mage @34.95,38.29 era -- a Magister's Crown and Magister's Robes for Mokvar
+  turnin 9014 only Mage -- Saving the Best for Last - back to Mokvar
+  note 9032's eight pres (Anthion's Parting Words, the class lines out of the Western Plaguelands) are all uncontracted — take 9032 on its own and turn it in to Bodley in Blackrock (leg below).
+  accept 9032 -- Bodley's Unfortunate Fate - Mokvar; Bodley waits in Blackrock, late
+
+step Cleft of Shadow — Zevrost's warlocks
+  goto 48.47,45.43
+  note Strahad's follow-ups (1801, an Undercity accept, and the felsteed chain 4490) stay out — turn in to Strahad on the Barrens leg and stop there.
+  accept 3631 only Warlock -- Summon Felsteed - Zevrost; Strahad Farsan waits in the Barrens, late
+  accept 4737 only Warlock -- In Search of Menara Voidrender - Zevrost; Menara Voidrender waits in the Barrens, late
+  note 4737's follow-up (1796) stays out — turn in to Menara on the Barrens leg and stop there.
+  accept 4967 only Warlock -- Knowledge of the Orb of Orahil - Zevrost; Menara Voidrender waits in the Barrens, late
+  note 4967's follow-up (1799) stays out — turn in to Menara on the Barrens leg and stop there.
+  note Zevrost's other line (8419, a Felwood turn-in) rides the Felwood leg below — warlocks only there too.
+  accept 8419 only Warlock -- An Imp's Request - Zevrost; Impsy waits in Felwood, late
+  note Vek'zol's heart (246780) drops off Vek'zol in the Blasted Lands (expedition below): bring it from the world, so this accept never wedges — check the bags on the way.
+  note 91548's pre (91547, an Azshara accept from Jediga) turns in just below — take it first if offered.
+  accept 91548 -- Vek'zol - Zevrost; the Heart of Vek'zol
+
+step Cleft of Shadow — the summoning tome
+  when onquest 91547
+
+  note The Sin'dorei Tome of Summoning (91547, an Azshara accept) is uncontracted — turn it in here if the log carries it.
+  turnin 91547 -- Sin'dorei Tome of Summoning - back to Zevrost
+
+step Cleft of Shadow — Gan'rul's bindings
+  goto 48.25,45.28
+  note The Tablet of Verga (6535) sits in the Burning Blade Stash in Durotar (expedition below): bring it from the world, so this accept never wedges — check the bags on the way.
+  accept 1501 only Warlock,Orc,Troll,Undead -- Creature of the Void - Gan'rul Bloodeye; a Tablet of Verga
+  note The tablet sits in the Burning Blade Stash on Thunder Ridge — its complete and turn-in both ride on the Durotar leg below.
+  accept 1504 only Warlock,Orc,Troll,Undead -- The Binding - Gan'rul Bloodeye; a Summoned Voidwalker
+  complete 1504 only Warlock,Orc,Troll,Undead -- a Summoned Voidwalker, summoned and slain at Gan'rul's side, for Gan'rul
+  turnin 1504 only Warlock,Orc,Troll,Undead -- The Binding - back to Gan'rul
+  note 1507's pre (1506, a Durotar accept from Ophek) is uncontracted — take 1507 on its own. The quest shows level -1; min level is 20.
+  accept 1507 only Warlock -- Devourer of Souls - Gan'rul Bloodeye; Cazul waits below
+  turnin 1507 only Warlock -- Devourer of Souls - Gan'rul's word to Cazul
+  accept 1508 only Warlock -- Blind Cazul - Cazul; Zankaja waits below
+  note Zankaja stands across the Cleft — 1508's turn-in and 1509 ride in the step below.
+  note 1513's pre (1512, a Barrens accept from Dogran) turns in just below — take it first if offered.
+  accept 1513 only Warlock,Orc,Troll,Undead -- The Binding - Gan'rul Bloodeye; a Summoned Succubus
+  complete 1513 only Warlock,Orc,Troll,Undead -- a Summoned Succubus, summoned and slain at Gan'rul's side, for Gan'rul
+  turnin 1513 only Warlock,Orc,Troll,Undead -- The Binding - back to Gan'rul
+  accept 2996 only Warlock -- Seeking Strahad - Gan'rul Bloodeye; Strahad Farsan waits in the Barrens, late
+
+step Cleft of Shadow — a love, a scarf, a binding
+  goto 47.06,46.43
+  note 65604's pre (65601, same hub) comes first — 65604 itself rides post-Ashenvale (below), after the scarf turns in on the leg.
+  accept 65601 only Warlock -- Love Hurts - Cazul; Magar waits below
+  note Magar stands across the Cleft — 65601's turn-in and 65610 ride in the step below.
+  note Take the scarf line (65610) from Magar below — 65604 rides post-Ashenvale, after the scarf turns in on the leg.
+
+step Cleft of Shadow — a warlock's summons
+  when onquest 1506
+
+  note Gan'rul's Summons (1506, a Durotar accept) is uncontracted — turn it in here if the log carries it.
+  turnin 1506 -- Gan'rul's Summons - back to Gan'rul
+
+step Cleft of Shadow — Dogran's love
+  when onquest 1512
+
+  note Love's Gift (1512, a Barrens accept) is uncontracted — turn it in here if the log carries it.
+  turnin 1512 -- Love's Gift - back to Gan'rul
+
+step Valley of Wisdom — Searn's elements
+  goto 37.96,37.73
+  note The Undercity twins (1523, 2983, 2984 and their sisters) stay out — Searn's line is the contracted pick.
+  accept 1522 only Shaman,Orc,Tauren,Troll -- Call of Fire - Searn Firewarder; Kranal Fiss waits in the Barrens, late
+  accept 1528 only Shaman -- Call of Water - Searn Firewarder; Islen Waterseer waits in the Barrens, late
+  accept 1531 only Shaman -- Call of Air - Searn Firewarder; Prate Cloudseer waits in Thousand Needles, late
+  note 1531's follow-up (79360, Prate's Thousand Needles chain) stays out — turn in to Prate on the leg and stop there.
+  note Sagorne's diamonds come with the world (generic veins and drops across Kalimdor): bring an Azerothian Diamond and a Pristine Black Diamond from the bags, so these accepts never wedge.
+  accept 7667 only Shaman -- Material Assistance - Sagorne Creststrider; an Azerothian Diamond and a Pristine Black Diamond
+  complete 7667 only Shaman @38.66,35.92 era -- an Azerothian Diamond and a Pristine Black Diamond for Sagorne
+  turnin 7667 only Shaman -- Material Assistance - the diamonds to Sagorne
+  note 7668 and 8258 are mutually exclusive twins — take the Darkreaver branch or the Silithus branch, not both.
+  accept 7668 only Shaman -- The Darkreaver Menace - Sagorne Creststrider; the Darkreaver's head
+  note The Darkreaver's Head (18880) drops off Death Knight Darkreaver, who has no placed point in the data: bring the head from the world, so this accept never wedges — check the bags on the way.
+  complete 7668 only Shaman -- the Darkreaver's head, from the bags, for Sagorne
+  turnin 7668 only Shaman -- The Darkreaver Menace - the head to Sagorne
+  accept 8258 only Shaman -- The Darkreaver Menace - Sagorne Creststrider; Silithus work, late
+  note 8258's follow-up (7669, same hub) comes next in this step — take them in order.
+  accept 7669 only Shaman -- Again Into the Great Ossuary - Sagorne Creststrider; the ossuary work
+  turnin 7669 only Shaman -- Again Into the Great Ossuary - back to Sagorne
+  accept 8259 -- A More Fitting Reward - Sagorne Creststrider; the fitting reward
+  turnin 8259 -- A More Fitting Reward - back to Sagorne
+  turnin 8258 only Shaman -- The Darkreaver Menace - back to Sagorne
+  accept 8276 -- Taking Back Silithus - Cenarion Emissary Blackhoof; Windcaller Proudhorn waits in Silithus, late
+  note 8276's follow-up (8280, Proudhorn's Silithus chain) stays out — turn in to Proudhorn on the leg and stop there.
+  note 8410 and its twin (8411) are mutually exclusive — Sagorne's line is the contracted pick; Beram's Mulgore offer is the same quest from another hub.
+  accept 8410 only Shaman -- Elemental Mastery - Sagorne Creststrider; four elements for Bath'rah the Windwatcher, late
+  note The four elements (air, fire, earth, water) come with the world (elementals across two continents): bring one of each from the bags, so this accept never wedges — check the bags on the way.
+  complete 8410 only Shaman @38.66,35.92 era -- the four elements for Bath'rah the Windwatcher
+  note Bath'rah the Windwatcher waits in Alterac — 8410's turn-in rides on the Alterac leg below.
+
+step The Drag — Shenthul's rogues
+  goto 43.05,53.74
+  note 2379 needs both 2378 (Find the Shattered Hand, Tirisfal and Undercity) and 2380 (To Orgrimmar, Durotar) done first — both turn in just below; take 2379 on its own and follow the chain through.
+  accept 2379 only Rogue -- Zando'zan - Shenthul; Wrenix the Wretched waits in Ratchet, late
+  note 2379's follow-up (2382) comes next in this step — take them in order.
+  accept 2382 only Rogue -- Wrenix of Ratchet - Zando'zan; Wrenix the Wretched waits in Ratchet, late
+  note 2382's follow-up (2381, a Ratchet accept) stays out — turn in to Wrenix on the Barrens leg and stop there.
+  accept 2460 only Rogue -- The Shattered Salute - Shenthul; Shenthul's salute
+  complete 2460 only Rogue @43.05,53.74 era -- Shenthul's salute for Shenthul
+  turnin 2460 only Rogue -- The Shattered Salute - back to Shenthul
+  note 2458's pre (2460, same hub) comes first in this step — take them in order.
+  accept 2458 only Rogue -- Deep Cover - Shenthul; Taskmaster Fizzule waits in the Barrens, late
+  note 2458's follow-up (2478, a Barrens accept from Fizzule) is OUT — take 2458 on its own.
+  accept 8233 only Rogue -- A Simple Request - Ormok; Lord Jorach Ravenholdt waits in Hillsbrad, late
+  note Turn in to Ravenholdt on the Hillsbrad leg and stop there.
+  note 2479's pre (2478, a Barrens accept from Fizzule) turns in just below — take it first if offered.
+  accept 2479 only Rogue -- Hinott's Assistance - Shenthul; Serge Hinott waits in Hillsbrad, late
+  note 2479's follow-up (2480, Hinott's Hillsbrad chain) stays out — turn in to Hinott on the Hillsbrad leg and stop there.
+  note Tazan's Satchel (7209) drops off Tazan in the Barrens (expedition below): bring it from the world, so this accept never wedges — check the bags on the way.
+  accept 1963 only Rogue,Orc,Troll -- The Shattered Hand - Therzok; Tazan's Satchel
+  note The satchel drops off Tazan — its complete rides on the Barrens leg below.
+  note Tazan's Logbook (7295) comes inside Tazan's Satchel — open the satchel first, then carry the logbook home.
+  accept 1858 only Rogue,Orc,Troll -- The Shattered Hand - Therzok; Tazan's Logbook for Therzok
+  note The logbook's complete and turn-in both ride on the Barrens leg below, with the satchel's.
+  note Venomtail Poison Sacs (4886) drop off the Durotar and Barrens scorpids (expedition below): bring four from the world, so this accept never wedges — check the bags on the way.
+  note 813's pre (812, a Durotar accept from Rhinag) is OUT — take 813 on its own.
+  accept 813 -- Finding the Antidote - Kor'ghan; four Venomtail Poison Sacs
+  note The sacs' complete rides on the Barrens leg below.
+
+step The Drag — finding the Shattered Hand
+  when onquest 2378
+
+  note Find the Shattered Hand (2378, Tirisfal and Undercity) is uncontracted — turn it in here if the log carries it.
+  turnin 2378 -- Find the Shattered Hand - back to Shenthul
+
+step The Drag — the road to Orgrimmar
+  when onquest 2380
+
+  note To Orgrimmar! (2380, a Durotar accept) is uncontracted — turn it in here if the log carries it.
+  turnin 2380 -- To Orgrimmar! - back to Shenthul
+
+step The Drag — Fizzule's mission
+  when onquest 2478
+
+  note Mission: Possible But Not Probable (2478, a Barrens accept) is uncontracted - turn it in here if the log carries it. Do its Ratchet objectives (Silixiz's Tower Key, Gallywix's Head and Zanzil's Mixture at the cache) while passing through Ratchet.
+  turnin 2478 only Rogue -- Mission: Possible But Not Probable - back to Shenthul
+
+step Valley of Spirits — Deino the mage
+  goto 38.45,86.13
+  note Deino also takes students in Durotar, and Anastasia Hartwell, Bink and Jennea Cannon offer the same errands in their own cities — the Orgrimmar lines below are the contracted picks, mages only throughout.
+  note 1944's pre (1943, a Tirisfal and Undercity accept from Anastasia) turns in just below — take it first if offered.
+  accept 1944 only Mage,Orc,Troll,Undead -- Waters of Xavian - Deino; a Xavian Water Sample
+  note The sample comes from the Xavian Waterfall — its complete rides on the Ashenvale leg below.
+  note 1944's follow-up (1946, Kil'hala's Barrens chain) stays out — turn in to Kil'hala on the Barrens leg and stop there.
+  accept 1945 only Mage,Orc,Troll,Undead -- Laughing Sisters - Deino; twelve Laughing Sister's Hairs for Kil'hala
+  note The hairs' complete and turn-in both ride on the Ashenvale leg below, with the sample's.
+  accept 1947 only Mage -- Journey to the Marsh - Deino; Tabetha waits in Dustwallow, late
+  accept 1953 only Mage -- Return to the Marsh - Deino; Tabetha waits in Dustwallow, late
+  note 1953's follow-up (1954, Tabetha's Dustwallow chain) stays out — turn in to Tabetha on the Dustwallow leg and stop there.
+  accept 1959 only Mage,Troll,Undead -- Report to Anastasia - Uthel'nay; Anastasia Hartwell waits in Tirisfal, late
+  note 1959's follow-up (1960, an Undercity accept) stays out — turn in to Anastasia on the Tirisfal leg and stop there.
+  note 2861 is the mages' errand to Tabetha — take it here, finish it on the Dustwallow leg.
+  accept 2861 only Mage -- Tabetha's Task - Deino; Tabetha waits in Dustwallow, late
+  note 2861's follow-up (2846, Tabetha's Dustwallow chain) stays out — turn in to Tabetha on the Dustwallow leg and stop there.
+
+step Valley of Spirits — speaking with Deino
+  when onquest 1943
+
+  note Speak with Deino (1943, a Tirisfal and Undercity accept) is uncontracted — turn it in here if the log carries it.
+  turnin 1943 -- Speak with Deino - back to Deino
+
+step Valley of Strength — Nazgrel's errand
+  note Krusk offers 1361 in Alterac and Belgrom offers it here — Nazgrel's line is the contracted pick; take it here.
+  accept 1361 -- Regthar Deathgate - Nazgrel; Regthar Deathgate waits in the Barrens, late
+  note 1361's follow-up (1362, Regthar's Barrens chain) stays out — turn in to Regthar on the Barrens leg and stop there.
+
+step The Drag — the Droffers' necklaces
+  note The Shattered Necklace (7666) drops off the Shadowforge and Stonevault crews in Badlands (expedition below): bring it from the world, so this accept never wedges — check the bags on the way.
+  accept 2283 -- Necklace Recovery - Dran Droffers; a Shattered Necklace
+  note The necklace's complete rides on the Badlands leg below.
+  note The Take 2 line (2284) rides post-Badlands (below), after the necklace turns in on the leg.
+  note 2284's follow-up (2318, a found journal that starts at the Remains itself) is OUT — pick it up there if offered.
+  note 2341's pre (2340, which turns in to Dran just below) turns in here — take it first if offered.
+  accept 2341 -- Necklace Recovery, Take 3 - Dran Droffers; Jarkal Mossmeld waits in Badlands, late
+  accept 649 -- Ripple Recovery - Dran Droffers; Malton Droffers waits below
+  turnin 649 -- Ripple Recovery - back to Malton Droffers
+  note 649's follow-up (650) comes next in this step — take them in order.
+  accept 650 -- Ripple Recovery - Malton Droffers; Gilveradin Sunchaser waits in the Hinterlands, late
+  note 650's follow-up (77, Gilveradin's Hinterlands chain) stays out — turn in to Gilveradin on the Hinterlands leg and stop there.
+
+step The Drag — delivering the gems
+  when onquest 2340
+
+  note Deliver the Gems (2340, a Badlands and Searing Gorge accept) is uncontracted — turn it in here if the log carries it.
+  turnin 2340 -- Deliver the Gems - back to Dran
+
+step Valley of Honor — Nogg's engineering
+  note Rig Blueprints (9153) come out of Thermaplugg's Safe and the Safe Combination (9299) off Mekgineer Thermaplugg himself — neither has a placed point in the data: bring both from the world, so this accept never wedges — check the bags on the way.
+  accept 2841 -- Rig Wars - Nogg; Rig Blueprints and Thermaplugg's Safe Combination
+  complete 2841 @75.99,25.41 era -- Rig Blueprints and Thermaplugg's Safe Combination for Nogg
+  turnin 2841 -- Rig Wars - back to Nogg
+  accept 2842 -- Chief Engineer Scooty - Sovik; Scooty waits in Stranglethorn, late
+  note 2842's follow-up (2843, Scooty's Stranglethorn chain) stays out — turn in to Scooty on the Stranglethorn leg and stop there.
+  note 2950's pre (2949, the ring's first half) turns in just below — take it first if offered.
+  accept 2950 -- Nogg's Ring Redo - Nogg; a Silver Bar and Moss Agate
+  complete 2950 @75.99,25.41 era -- a Silver Bar and Moss Agate for Nogg
+  turnin 2950 -- Nogg's Ring Redo - the ring to Nogg
+
+step Valley of Honor — the ring's first half
+  when onquest 2949
+
+  note Return of the Ring (2949, whose giver has no placed point) is uncontracted — turn it in here if the log carries it.
+  turnin 2949 -- Return of the Ring - back to Nogg
+
+step The Drag — Jes'rimin's errands
+  note 3563's pre (3541, an Azshara accept from Jediga) has its own turn-in step at the end of this guide — take it first if offered.
+  accept 3563 -- Jes'rimin's Payment to Jediga - Jes'rimin; Jediga waits in Azshara, late
+  note White Ravasaur Claws (11477) drop off the Un'Goro ravasaurs (expedition below): bring eight from the world, so this accept never wedges — check the bags on the way.
+  accept 4300 -- Bone-Bladed Weapons - Jes'rimin; eight White Ravasaur Claws
+  note The claws' complete rides on the Un'Goro leg below.
+  accept 91735 -- Remote Contact - Jes'rimin; Jediga waits in Azshara, late
+
+step Valley of Strength — Belgrom's reach
+  note 1146's pre (1145, a Barrens accept from Korran) turns in just below — take it first if offered.
+  accept 1146 -- The Swarm Grows - Belgrom Rockmaul; Moktar Krin waits in Thousand Needles, late
+  note 1146's follow-up (1147, Moktar's Thousand Needles chain) stays out — turn in to Moktar on the leg and stop there.
+  accept 2981 -- A Threat in Feralas - Belgrom Rockmaul; Rok Orhan waits in Feralas, late
+  note 2981's follow-up (2975, Rok's Feralas chain) stays out — turn in to Rok on the leg and stop there.
+  accept 3504 -- Betrayed - Belgrom Rockmaul; Ag'tor Bloodfist waits in Azshara, late
+  note 3504's follow-up (3505, Ag'tor's Azshara chain) stays out — turn in to Ag'tor on the leg and stop there.
+
+step Valley of Strength — the swarm grows
+  when onquest 1145
+
+  note The Swarm Grows (1145, a Barrens accept) is uncontracted — turn it in here if the log carries it.
+  turnin 1145 -- The Swarm Grows - back to Belgrom
+
+step Valley of Strength — the warcaller
+  note Harbinger Balthazad and Bluff Runner Windstrider offer 7492 in their own cities — Gorlach's line is the contracted pick.
+  accept 7241 -- In Defense of Frostwolf - Frostwolf Ambassador Rokhstrom; Warmaster Laggrond waits in Alterac, late
+  note 7241's follow-up stays out — turn in to Laggrond on the Alterac leg and stop there.
+  accept 1018 -- The New Frontier - Warcaller Gorlach; Arch Druid Hamuul Runetotem waits in Thunder Bluff, late
+  note 1018's follow-up (1123, Hamuul's chain) stays out — turn in to Hamuul on the leg and stop there.
+  note 235's twins (742, Mulgore, and 6382, the Barrens) stay out — Gorlach's hunt is the contracted pick.
+  accept 235 -- The Ashenvale Hunt - Warcaller Gorlach; Senani Thunderheart waits in Ashenvale, late
+  note 235's follow-up (6383, Senani's Ashenvale chain) stays out — turn in to Senani on the leg and stop there.
+  note Derrington also takes the call in Tirisfal — the Plaguelands post is the contracted pick.
+  accept 5093 -- A Call to Arms: The Plaguelands! - Warcaller Gorlach; High Executor Derrington waits in the Western Plaguelands, late
+  note 5093's follow-ups (5096 and the Plaguelands chain) stay out — turn in to Derrington on the leg and stop there.
+  accept 7492 -- Camp Mojache - Warcaller Gorlach; Talo Thornhoof waits in Feralas, late
+  note 7492's follow-up (7489, Talo's Feralas chain) stays out — turn in to Talo on the leg and stop there.
+
+step The Drag — Craven Drok's diplomacy
+  accept 1431 -- Alliance Relations - Craven Drok; Keldran waits below
+  turnin 1431 -- Alliance Relations - Drok's word to Keldran
+  note 1431's follow-up (1432) comes next in this step — take them in order.
+  accept 1432 -- Alliance Relations - Keldran; Takata Steelblade waits in Desolace, late
+  note 1432's follow-up (1433, Takata's Desolace chain) stays out — turn in to Takata on the leg and stop there.
+
+step Valley of Wisdom — Zor's service
+  note 7541's pre (1262, a Barrens and Dustwallow accept from Nazeer) turns in just below — take it first if offered.
+  accept 7541 -- Service to the Horde - Zor Lonetree; Zor's service
+  turnin 7541 -- Service to the Horde - back to Zor
+  turnin 2379 only Rogue -- Zando'zan - back to Zando'zan
+  note 1061's follow-up (1062, Seereth's chain) stays out — turn in to Seereth on the Barrens leg and stop there.
+  accept 1061 -- The Spirits of Stonetalon - Zor Lonetree; Seereth Stonebreak waits in the Barrens, late
+  note Seereth also stands in Stonetalon — the Barrens post is the contracted pick.
+
+step Valley of Wisdom — reporting to Zor
+  when onquest 1262
+
+  note Report to Zor (1262, a Barrens and Dustwallow accept) is uncontracted — turn it in here if the log carries it.
+  turnin 1262 -- Report to Zor - back to Zor
+
+step Cleft of Shadow — Zankaja's news
+  goto 37.04,59.45
+  turnin 1508 only Warlock -- Blind Cazul - Cazul's word to Zankaja
+  accept 1509 only Warlock -- News of Dogran - Zankaja; Gazrog waits in the Barrens, late
+  note 1509's follow-up (1510, Gazrog's Barrens chain) stays out — turn in to Gazrog on the Barrens leg and stop there.
+
+step Valley of Honor — Runthak's report
+  turnin 7491 -- For All To See - Thrall's word to Overlord Runthak
+
+step Valley of Honor — Runthak's leatherwork
+  when skill Leatherworking 1
+
+  note Runthak's line needs the leatherworker's hands — skip it without the skill.
+  accept 7493 -- Leatherwork - Overlord Runthak; Runthak's leatherwork
+  turnin 7493 -- Leatherwork - back to Runthak
+
+step Valley of Strength — Saurfang's command
+  turnin 7784 -- The Lord of Blackrock - Thrall's word to High Overlord Saurfang
+
+step Valley of Honor — Rilli's samophlange
+  note 3924's pre (3923, a Barrens accept) turns in just below — take it first if offered.
+  note The Samophlange Manual (11149) has no source in the data: it comes with the world around the quest, so this accept never wedges — check the bags on the way.
+  accept 3924 -- The Samophlange Job - Rilli Greasygob; a Samophlange Manual
+  complete 3924 @76.52,24.41 era -- a Samophlange Manual for Rilli
+  turnin 3924 -- The Samophlange Job - the manual to Rilli
+
+step Valley of Honor — Wenikee's debt
+  when onquest 3923
+
+  note Wenikee Boltbucket's Debt (3923, a Barrens accept) is uncontracted — turn it in here if the log carries it.
+  turnin 3923 -- Wenikee Boltbucket's Debt - back to Rilli
+
+step Valley of Honor — Kurgul's demon
+  goto 47.52,46.72
+  note Balthazad, Martha and Jubahl offer the same warlock errand in their own cities — Kurgul's line is the contracted pick, warlocks only.
+  accept 7562 only Warlock -- The Demon Seed - Kurgul; Mor'zul Bloodbringer waits in the Burning Steppes, late
+  note 7562's follow-ups (7423 and Mor'zul's chain) stay out — turn in to Mor'zul on the leg and stop there.
+
+step Valley of Honor — Orokk's smithy
+  when skill Blacksmithing 1
+
+  note Orokk's whole chain needs the smith's hammer — skip it without the skill. Patterned Bronze needs the forge right here.
+  accept 2751 -- Barbaric Battlements - Orokk Omosh; Patterned Bronze and a Sharp Claw
+  note The Sharp Claw comes off the Starving Dire Wolf in Duskwood — its complete rides on the Duskwood leg below; the bronze comes from the bags.
+  note 2751's follow-up (2752, same forge) rides post-Duskwood (below), after the bracers turn in — take them in order.
+  note 2756 and 2757 carry the chain to Aturk and the Booty Bay road — take them in order.
+  accept 2756 -- Barbaric Battlements - Orokk Omosh; Aturk the Anvil waits below
+  complete 2756 -- craft the Steel Breastplates and Steel Plate Helms from the bags for Orokk
+  turnin 2756 -- Barbaric Battlements - Orokk's word to Aturk
+  accept 2757 -- Booty Bay or Bust! - Ox; McGavan waits in Stranglethorn, late
+  note 2757's follow-up (2760, Ox's Stranglethorn chain) stays out — turn in to Ox on the leg and stop there.
+
+step Valley of Honor — the anvil's twins
+  when skill Blacksmithing 1
+
+  note Borgosh and Okothos offer the same anvil work — take one twin or the other, not both.
+  accept 5301 -- The Art of the Armorsmith - Okothos Ironrager; Ornate Mithril work
+  complete 5301 @79.8,24.06 era -- Ornate Mithril pieces for Okothos
+  turnin 5301 -- The Art of the Armorsmith - back to Okothos
+  accept 5302 -- The Way of the Weaponsmith - Borgosh Corebender; heavy smithing work
+  complete 5302 @79.41,23.74 era -- Moonsteel and Mithril pieces for Borgosh
+  turnin 5302 -- The Way of the Weaponsmith - back to Borgosh
+
+step Cleft of Shadow — Magar's wish
+  goto 63.65,49.93
+  turnin 65601 only Warlock -- Love Hurts - Cazul's word to Magar
+  note The Withered Scarf (190232) drops off the Shadethicket furbolgs in Ashenvale (expedition below): bring it from the world, so this accept never wedges — check the bags on the way.
+  accept 65610 only Warlock -- Wish You Were Here - Magar; a Withered Scarf for Gan'rul
+  note The scarf's complete and turn-in both ride on the Ashenvale leg below.
+
+step Valley of Honor — Rashona's donations
+  note Bring the cloth yourself; nothing here asks you to go get it. Take each tier in order.
+  accept 7826 -- A Donation of Wool - Rashona Straglash; sixty Wool Bandages
+  complete 7826 @63.6,51.23 era -- sixty Wool Cloth from the bags for Rashona
+  turnin 7826 -- A Donation of Wool - the wool to Rashona
+  accept 7827 -- A Donation of Silk - Rashona Straglash; sixty Silk Bandages
+  complete 7827 @63.6,51.23 era -- sixty Silk Cloth from the bags for Rashona
+  turnin 7827 -- A Donation of Silk - the silk to Rashona
+  accept 7831 -- A Donation of Mageweave - Rashona Straglash; sixty Mageweave Bandages
+  complete 7831 @63.6,51.23 era -- sixty Mageweave Cloth from the bags for Rashona
+  turnin 7831 -- A Donation of Mageweave - the mageweave to Rashona
+  accept 7824 -- A Donation of Runecloth - Rashona Straglash; sixty Runecloth
+  complete 7824 @63.6,51.23 era -- sixty Runecloth for Rashona
+  turnin 7824 -- A Donation of Runecloth - the runecloth to Rashona
+  note 7824's follow-up (7832, the repeatable Additional Runecloth) stays out — the ladder ends here.
+
+step Valley of Spirits — Vehena's donations
+  note Bring the cloth yourself; nothing here asks you to go get it. Take each tier in order.
+  accept 7833 -- A Donation of Wool - Vehena; sixty Wool Bandages
+  complete 7833 @37.7,87.9 era -- sixty Wool Cloth from the bags for Vehena
+  turnin 7833 -- A Donation of Wool - the wool to Vehena
+  accept 7834 -- A Donation of Silk - Vehena; sixty Silk Bandages
+  complete 7834 @37.7,87.9 era -- sixty Silk Cloth from the bags for Vehena
+  turnin 7834 -- A Donation of Silk - the silk to Vehena
+  accept 7835 -- A Donation of Mageweave - Vehena; sixty Mageweave Bandages
+  complete 7835 @37.7,87.9 era -- sixty Mageweave Cloth from the bags for Vehena
+  turnin 7835 -- A Donation of Mageweave - the mageweave to Vehena
+  accept 7836 -- A Donation of Runecloth - Vehena; sixty Runecloth
+  complete 7836 @37.7,87.9 era -- sixty Runecloth for Vehena
+  turnin 7836 -- A Donation of Runecloth - the runecloth to Vehena
+  note 7836's follow-up (7837, the repeatable Additional Runecloth) stays out — the ladder ends here.
+
+step Valley of Honor — the cook's errands
+  goto 56.05,34.12
+  accept 97246 -- Meal Appeal - Thatog; Borstan waits below
+  turnin 97246 -- Meal Appeal - Thatog's word to Borstan
+  accept 97249 -- Favorite Food - Borstan; Migi waits below
+  turnin 97249 -- Favorite Food - Borstan's word to Migi
+  note Whuut's line (97275) rides below — take them in order.
+  note Thicket Raptor Meat (271100) drops off raptors with no placed points in the data: bring the meat from the world, so this accept never wedges — check the bags on the way.
+  accept 95697 -- Changing Tastes - Borstan; Thicket Raptor Meat
+  complete 95697 @56.05,34.12 era -- Thicket Raptor Meat for Borstan
+  turnin 95697 -- Changing Tastes - the meat to Borstan
+
+step Valley of Honor — the water and the rocks
+  note Handfuls of Cattails (277278) and Spears of Grass (277279) grow right here in the Valley of Honor — gather them from the world, so these accepts never wedge.
+  accept 97242 -- Handfuls of Cattails - Ug'thok; cattails and speargrass
+  complete 97242 @66.1,28.9 era -- a Handful of Cattails in the Valley of Spirits
+  complete 97242 @65.4,26.4 era -- Speargrass Cuttings in the Valley of Spirits
+  turnin 97242 -- Handfuls of Cattails - back to Ug'thok
+  accept 97275 -- Whuut's the Rush - Yelmak; Whuut waits below
+  turnin 97275 -- Whuut's the Rush - Yelmak's word to Whuut
+  note Smooth Boulders (277952) lie east in the Valley of Wisdom — gather one from the world, so this accept never wedges.
+  accept 97326 -- Smooth Boulder - Kor'geld; a Smooth Boulder
+  complete 97326 @38.8,26.7 era -- a Smooth Boulder in the Valley of Wisdom
+  turnin 97326 -- Smooth Boulder - back to Kor'geld
+
+step Valley of Honor — the wolf pens
+  goto 69.38,12.24
+  note The wolf lines are Orc-only — the pens answer only to orcs.
+  accept 96994 only Orc -- Your First Riding Wolf - Ogunaro Wolfrunner; the wolves' examination
+  complete 96994 only Orc @69.38,12.24 era -- the wolves' examination at the pens
+  turnin 96994 only Orc -- Your First Riding Wolf - back to Ogunaro
+  accept 97194 only Orc -- Learning to Ride - Kildar; Ogunaro Wolfrunner waits below
+  turnin 97194 only Orc -- Learning to Ride - Kildar's word to Ogunaro
+
+step Valley of Strength — Kolark's trade
+  goto 46.85,55.17
+  note Thorium Shells (15997) come from Jimmy McWeaksauce, who has no placed point in the data: bring two hundred from the world, so this accept never wedges — check the bags on the way.
+  accept 7341 -- A Fair Trade - Bounty Hunter Kolark; two hundred Thorium Shells
+  complete 7341 @75.05,23.13 era -- two hundred Thorium Shells from the bags for Kolark
+  turnin 7341 -- A Fair Trade - the shells to Kolark
+
+step Valley of Wisdom — the Mural of Ta'zo
+  note Owen and Garion also offer this lesson in their own cities — the Mural's line is the contracted pick.
+  accept 79094 -- The Lessons of Ta'zo - the Mural of Ta'zo; Ta'zo's lesson
+  complete 79094 @38.7,78.4 era -- Ta'zo's lesson at the Mural
+  note Owen waits in the Undercity and Garion in Stormwind — the Undercity turn-in is the contracted pick.
+  zone map 1458
+  turnin 79094 -- The Lessons of Ta'zo - Ta'zo's word to Owen
+  zone map 1454
+
+step Valley of Spirits — Uthel'nay's fragments
+  note Shadowshard Fragments (17756) drop off the Shadowshard mobs in Desolace (expedition below): bring ten from the world, so this accept never wedges — check the bags on the way.
+  accept 7068 -- Shadowshard Fragments - Uthel'nay; ten Shadowshard Fragments
+  note The fragments' complete rides on the Desolace leg below.
+  note Turn in to Uthel'nay here and stop there.
+  accept 8250 only Mage -- Magecraft - Uthel'nay; Sanath waits in Azshara, late
+  note 8250's follow-up (8251, Sanath's Azshara chain) stays out — turn in to Sanath on the leg and stop there.
+
+step Valley of Honor — Lumak's fishing
+  when skill Fishing 1
+
+  note Lumak's errand needs the fisher's hands — skip it without the skill.
+  accept 6608 -- You Too Good. - Lumak; Nat Pagle waits in Dustwallow, late
+  note 6608's follow-up (6607, Pagle's Dustwallow chain) stays out — turn in to Pagle on the leg and stop there.
+
+step Valley of Honor — Zamja's cooking
+  when skill Cooking 1
+
+  note Zamja's errand needs the cook's hands — skip it without the skill.
+  accept 6611 -- To Gadgetzan You Go! - Zamja; Dirge Quickcleave waits in Tanaris, late
+  note 6611's follow-up (6610, Dirge's Tanaris chain) stays out — turn in to Dirge on the leg and stop there.
+
+step Valley of Spirits — Arnok's bandages
+  when skill First Aid 1
+
+  note Arnok's errand needs the healer's hands — skip it without the skill.
+  accept 6623 -- Horde Trauma - Arnok; Doctor Gregory Victor waits in Arathi, late
+  note 6623's follow-up (6622, Victor's Arathi chain) stays out — turn in to Victor on the leg and stop there.
+
+step The Drag — Zilzibin's business
+  accept 4494 -- Zapped Giants - Zilzibin Drumlore; Pestlezugg the Card Shark waits in Tanaris, late
+  note Zapped Giants itself (4509, a Tanaris accept) turns in on the Tanaris leg below — take this chain in order.
+  accept 4511 -- The Slaughterhouse - Zilzibin Drumlore; Karus waits below
+  note 4509 is the follow-up to 4494 and the pre to 4511 — take them in order on the Tanaris leg.
+  turnin 4511 -- The Slaughterhouse - Zilzibin's word to Karus
+
+step Valley of Wisdom — Sian'dur's hunters
+  goto 67.96,17.8
+  accept 6066 only Hunter,Tauren -- Yaw Sharpmane - Sian'dur; Yaw Sharpmane waits in Mulgore, late
+  note 6066's follow-up (6061, Yaw's Mulgore chain) stays out — turn in to Yaw on the leg and stop there.
+  accept 6068 only Hunter,Orc,Troll -- Thotar - Sian'dur; Thotar waits in Durotar, late
+  note 6068's follow-up (6062, Thotar's Durotar chain) stays out — turn in to Thotar on the leg and stop there.
+
+step Cleft of Shadow — the Elegant Letter
+  goto 48.25,45.28
+  note The Elegant Letter (17126) comes from pickpocketing the city's rogues — Ormok and Shenthul stand here; lift it and check the bags on the way.
+  accept 6681 only Rogue -- The Manor, Ravenholdt - an Elegant Letter; Fahrad waits in Alterac, late
+  note The Rite of Cunning (13936) waits at the Manor — its complete rides on the Alterac leg below.
+
+step Valley of Spirits — Ur'kyo's priests
+  goto 35.59,87.82
+  note Ur'kyo's three lines are priest-gated — take the one matching the character's race.
+  accept 5646 only Priest,Undead -- Heeding the Call - Ur'kyo; Aelthalyste waits in Tirisfal, late
+  note 5646's follow-up (5645, Aelthalyste's chain) stays out — turn in to Aelthalyste on the Tirisfal leg and stop there.
+  accept 5680 only Priest,Troll -- Heeding the Call - Ur'kyo; Ur'kyo's blessing
+  turnin 5680 only Priest,Troll -- Heeding the Call - back to Ur'kyo
+  note The Cenarion twins (5675, 5677) stay out — Ur'kyo's line is the contracted pick.
+  accept 8254 only Priest -- Cenarion Aid - Ur'kyo; Ogtinc waits in Azshara, late
+  note 8254's follow-up (8255, Ogtinc's Azshara chain) stays out — turn in to Ogtinc on the leg and stop there.
+
+step Valley of Honor — Ormak's charm
+  goto 66.05,18.53
+  accept 8151 only Hunter -- The Hunter's Charm - Ormak Grimshot; Ogtinc waits in Azshara, late
+  note 8151's follow-up (8153, Ogtinc's Azshara chain) stays out — turn in to Ogtinc on the leg and stop there.
+  note Ulfir, Darnath, Wu Shen, Baltus and Kelv offer the same charms in their own cities — the Orgrimmar lines are the contracted picks.
+
+step Gates of Orgrimmar — Doras's return
+  when onquest 6384
+
+  note Doras the Wind Rider Master (6384, a Barrens accept from Devrak) is uncontracted — turn it in here if the log carries it.
+  turnin 6384 -- Doras the Wind Rider Master - back to Gryshka
+
+step Valley of Strength — a paladin's loose end
+  note An Earnest Proposition (97411) has no giver, no goal and no turn-in anywhere in the data: it is contracted on the census's say-so, so take it if offered and bank it — never let it hold the route.
+  accept 97411 only Paladin -- An Earnest Proposition - the proposition, giver unknown
+
+step Valley of Honor — Sorek's warriors
+  note Torm, Christoph, Kelv, Wu Shen and Darnath offer the same warrior errands in their own cities -- Sorek's lines are the contracted picks, warriors only throughout.
+  accept 1718 only Warrior -- The Islander - Sorek; Klannoc Macleod waits in the Barrens, late
+  note Turn in to Klannoc on the Barrens leg and stop there.
+  accept 1823 only Warrior -- Speak with Ruga - Sorek; Ruga Ragetotem waits in the Barrens, late
+  note Turn in to Ruga on the Barrens leg and stop there.
+  accept 8417 only Warrior -- A Warrior's Charm - Sorek; the Fallen Hero waits in the Swamp, late
+  note Turn in on the Swamp leg and stop there.
+
+step Valley of Honor — Ug'thok's spinal axe
+  when skill Blacksmithing 1
+
+  note Ug'thok's line needs the smith's hands -- skip it without the skill. Thunder Lizards walk Thunder Ridge in Durotar (expedition below).
+  accept 96874 -- Spinal Axe - Ug'thok; Weathered Spines and Rough Grinding Stones
+  note The spines' complete rides on the Durotar leg below; bring the ground stones from the bags.
+
+step Valley of Wisdom — Kamari's thunder hides
+  when skill Leatherworking 1
+
+  note Kamari's line needs the leatherworker's hands -- skip it without the skill. Lightning Hides graze Thunder Ridge in Durotar (expedition below).
+  accept 96875 -- Beasts of Thunder Ridge - Kamari; Rough Lizard Hides and Cured Light Hides
+  note The hides' complete rides on the Durotar leg below; bring the cured hides from the bags.
+
+step The Drag — Jes'rimin's late delivery
+  when onquest 3541
+
+  note Delivery to Jes'rimin (3541, an Azshara accept from Jediga) is uncontracted -- turn it in here if the log carries it.
+  turnin 3541 -- Delivery to Jes'rimin - back to Jes'rimin
+
+step Valley of Strength — Zilzibin's early deliveries
+  when onquest 32
+
+  note Rise of the Silithid (32, a Tanaris accept) is uncontracted — turn it in here if the log carries it.
+  turnin 32 -- Rise of the Silithid - back to Zilzibin
+  when onquest 7732
+
+  note Zukk'ash Report (7732, a Feralas accept) is uncontracted — turn it in here if the log carries it.
+  turnin 7732 -- Zukk'ash Report - back to Zilzibin
+
+step Valley of Strength — Zilzibin's late delivery
+  when onquest 4509
+
+  note Calm Before the Storm (4509, a Tanaris accept from Pestlezugg) is uncontracted -- turn it in here if the log carries it.
+  turnin 4509 -- Calm Before the Storm - back to Zilzibin
+
+step The Drag — Anthion's parting words
+  when onquest 8957
+
+  note Anthion's Parting Words (8957, a Western Plaguelands accept) is uncontracted -- turn it in here if the log carries it.
+  turnin 8957 -- Anthion's Parting Words - back to Mokvar
+  when onquest 9016
+
+  note Anthion's Parting Words (9016, a Western Plaguelands accept) is uncontracted -- turn it in here if the log carries it.
+  turnin 9016 -- Anthion's Parting Words - back to Mokvar
+  when onquest 9017
+
+  note Anthion's Parting Words (9017, a Western Plaguelands accept) is uncontracted -- turn it in here if the log carries it.
+  turnin 9017 -- Anthion's Parting Words - back to Mokvar
+  when onquest 9018
+
+  note Anthion's Parting Words (9018, a Western Plaguelands accept) is uncontracted -- turn it in here if the log carries it.
+  turnin 9018 -- Anthion's Parting Words - back to Mokvar
+  when onquest 9019
+
+  note Anthion's Parting Words (9019, a Western Plaguelands accept) is uncontracted -- turn it in here if the log carries it.
+  turnin 9019 -- Anthion's Parting Words - back to Mokvar
+  when onquest 9020
+
+  note Anthion's Parting Words (9020, a Western Plaguelands accept) is uncontracted -- turn it in here if the log carries it.
+  turnin 9020 -- Anthion's Parting Words - back to Mokvar
+  when onquest 9021
+
+  note Anthion's Parting Words (9021, a Western Plaguelands accept) is uncontracted -- turn it in here if the log carries it.
+  turnin 9021 -- Anthion's Parting Words - back to Mokvar
+  when onquest 9022
+
+  note Anthion's Parting Words (9022, a Western Plaguelands accept) is uncontracted -- turn it in here if the log carries it.
+  turnin 9022 -- Anthion's Parting Words - back to Mokvar
+
+step Expedition — Durotar, Thunder Ridge and the Valley of Trials
+
+  zone map 1411
+
+  tip This leg leaves the city and comes back — work Thunder Ridge first, then the Valley of Trials.
+  turnin 787 -- The New Horde - Gornek; the Durotar guide owns the onward road
+  turnin 6068 only Hunter,Orc,Troll -- The Hunter's Path - Thotar
+  note 6068 falls out of contract here -- turn in to Thotar and stop there.
+  complete 1501 only Warlock,Orc,Troll,Undead @51.62,9.76 era -- the Tablet of Verga in the Burning Blade Stash for Gan'rul
+  turnin 1501 only Warlock,Orc,Troll,Undead -- Creature of the Void - the tablet to Gan'rul
+  complete 5726 @42.01,26.57 era -- a Lieutenant's Insignia off the Burning Blade for Thrall
+  turnin 5726 -- Hidden Enemies - the insignia to Thrall
+  complete 96874 @39.1,30.14 era -- Weathered Spines off the Thunder Lizards for Ug'thok
+  complete 96875 @38.88,25.27 era -- Rough Lizard Hides off the Lightning Hides for Kamari
+  zone map 1454
+
+step Grommash Hold — Hidden Enemies, Thrall's word
+  note The insignia turned in on the Durotar leg above — take Thrall's word now and follow the chain through.
+  accept 5727 -- Hidden Enemies - Thrall; Neeru Fireblade waits in the Valley of Spirits
+  complete 5727 @49.47,50.59 era -- Thrall's word delivered to Neeru Fireblade
+  turnin 5727 -- Hidden Enemies - Thrall's word to Neeru Fireblade
+  note Bazzalan and Jergosh the Invoker have no placed points in the data: take the quest now, kill them where they stand, hand in on return.
+  accept 5728 -- Hidden Enemies - Thrall; Bazzalan and Jergosh the Invoker
+  complete 5728 -- Bazzalan and Jergosh the Invoker, in Ragefire Chasm below the city, for Thrall
+  turnin 5728 -- Hidden Enemies - back to Thrall
+  accept 5729 -- Hidden Enemies - Thrall; Neeru Fireblade waits in the Valley of Spirits
+  turnin 5729 -- Hidden Enemies - Thrall's word to Neeru Fireblade
+  accept 5730 -- Hidden Enemies - Neeru Fireblade; Thrall waits in Grommash Hold
+  turnin 5730 -- Hidden Enemies - Neeru's word to Thrall
+
+step Valley of Honor — Ug'thok's axe, the turn-in
+  when onquest 96874
+
+  note The spines credited on the Durotar leg above — turn in here if the log carries the axe.
+  turnin 96874 -- Spinal Axe - back to Ug'thok
+
+step Valley of Wisdom — Kamari's hides, the turn-in
+  when onquest 96875
+
+  note The hides credited on the Durotar leg above — turn in here if the log carries them.
+  turnin 96875 -- Beasts of Thunder Ridge - back to Kamari
+
+step Expedition — the Barrens, south road to the Crossroads and Ratchet
+
+  zone map 1413
+
+  tip This leg leaves the city and comes back — work the deep south first, then the Crossroads, then Ratchet and the north.
+  turnin 2458 only Rogue -- Deep Cover - Taskmaster Fizzule
+  turnin 95283 -- The Missing Kor'kron - Nazeer Bloodpike
+  turnin 1718 only Warrior -- The Islander - Klannoc Macleod
+  turnin 1823 only Warrior -- Speak with Ruga - Ruga Ragetotem
+  turnin 6386 -- Return to the Crossroads - Zargh
+  note 6386 falls out of contract here -- turn in to Zargh and stop there.
+  turnin 1509 only Warlock -- News of Dogran - Gazrog
+  note 1509 falls out of contract here -- turn in to Gazrog and stop there.
+  turnin 98024 -- Journey to the Crossroads - Thork
+  turnin 1361 -- Regthar Deathgate - Regthar Deathgate
+  note 1361 falls out of contract here -- turn in to Regthar and stop there.
+  turnin 2996 only Warlock -- Seeking Strahad - Strahad Farsan
+  turnin 3631 only Warlock -- Summon Felsteed - Strahad Farsan
+  turnin 4737 only Warlock -- In Search of Menara Voidrender - Menara Voidrender
+  note 4737's falls out of contract here -- turn in to Menara and stop there.
+  turnin 4967 only Warlock -- Knowledge of the Orb of Orahil - Menara Voidrender
+  note 4967's falls out of contract here -- turn in to Menara and stop there.
+  turnin 2382 only Rogue -- Wrenix of Ratchet - Wrenix the Wretched
+  note 2382 falls out of contract here -- turn in to Wrenix and stop there.
+  complete 813 @63.5,23.6 era -- Venomtail Poison Sacs off the scorpids for Kor'ghan
+  turnin 813 -- Finding the Antidote - the sacs to Kor'ghan
+  complete 809 @62.34,20.07 era -- destroy the Demon Seed in the Barrens for Neeru
+  turnin 809 -- Ak'Zeloth - Ak'Zeloth
+  turnin 1522 only Shaman,Orc,Tauren,Troll -- Call of Fire - Kranal Fiss
+  turnin 1061 -- The Spirits of Stonetalon - Seereth Stonebreak
+  note 1061 falls out of contract here -- turn in to Seereth and stop there.
+  complete 1963 only Rogue,Orc,Troll @63.11,44.29 era -- Tazan's Satchel off Tazan for Therzok
+  complete 1858 only Rogue,Orc,Troll @63.11,44.29 era -- Tazan's Logbook, inside Tazan's Satchel, for Therzok
+  turnin 1858 only Rogue,Orc,Troll -- The Shattered Hand - the logbook to Therzok
+  turnin 1963 only Rogue,Orc,Troll -- The Shattered Hand - back to Therzok
+  turnin 1528 only Shaman -- Call of Water - Islen Waterseer
+  zone map 1454
+
+step Expedition — Ashenvale, the Xavian falls and the Thicket
+
+  zone map 1440
+
+  tip Work Ashenvale east to west: the Xavian falls, the Laughing Sisters, the Shadethicket, then Senani's post.
+  complete 1944 only Mage,Orc,Troll,Undead @76.29,41.49 era -- a Xavian Water Sample from the falls for Deino
+  turnin 1944 only Mage,Orc,Troll,Undead -- Waters of Xavian - back to Deino
+  complete 1945 only Mage,Orc,Troll,Undead @58.05,58.43 era -- Laughing Sister's Hairs for Kil'hala
+  turnin 1945 only Mage,Orc,Troll,Undead -- Laughing Sisters - Kil'hala
+  complete 65610 only Warlock @59.03,78.93 era -- a Withered Scarf off the Shadethicket for Gan'rul
+  turnin 65610 only Warlock -- Wish You Were Here - the scarf to Gan'rul
+  turnin 235 -- The Ashenvale Hunt - Senani Thunderheart
+  note 235 falls out of contract here -- turn in to Senani and stop there.
+  zone map 1454
+
+step Cleft of Shadow — Gan'rul's incubus
+  note The scarf turned in on the Ashenvale leg above — take the Binding line now.
+  accept 65604 only Warlock -- The Binding - Gan'rul Bloodeye; a Summoned Incubus
+  complete 65604 only Warlock -- a Summoned Incubus, summoned and slain at Gan'rul's side, for Gan'rul
+  turnin 65604 only Warlock -- The Binding - back to Gan'rul
+
+step Expedition — Dustwallow Marsh, Tabetha's farm
+
+  zone map 1445
+
+  tip Tabetha's farm sits in the marsh's south; Pagle's post is on the coast.
+  turnin 1947 only Mage -- Journey to the Marsh - Tabetha
+  turnin 1953 only Mage -- Return to the Marsh - Tabetha
+  note 1953 falls out of contract here -- turn in to Tabetha and stop there.
+  turnin 2861 only Mage -- Tabetha's Task - Tabetha
+  note 2861 falls out of contract here -- turn in to Tabetha and stop there.
+  when skill Fishing 1
+
+  turnin 6608 -- You Too Good. - Nat Pagle
+  note 6608 falls out of contract here -- turn in to Pagle and stop there.
+  zone map 1454
+
+step Expedition — Tirisfal Glades, the Hartwell road
+
+  zone map 1420
+
+  tip Anastasia's farm and Aelthalyste's chapel sit along the Hartwell road east of the Undercity.
+  turnin 1959 only Mage,Troll,Undead -- Report to Anastasia - Anastasia Hartwell
+  note 1959 falls out of contract here -- turn in to Anastasia and stop there.
+  turnin 5646 only Priest,Undead -- Dark Sacrifice - Aelthalyste
+  note 5646 falls out of contract here -- turn in to Aelthalyste and stop there.
+  zone map 1454
+
+step Expedition — the Undercity, the Banshee Queen
+
+  zone map 1458
+
+  tip Take the zeppelin from the tower outside Orgrimmar's gates straight to the Undercity.
+  complete 93739 @58.05,91.79 era -- Lady Sylvanas Windrunner for Thrall
+  zone map 1454
+
+step Expedition — Thunder Bluff, the arch druid
+
+  zone map 1456
+
+  tip This leg leaves the city and comes back — work the stops in order.
+  turnin 936 -- Assisting Arch Druid Runetotem - Arch Druid Hamuul Runetotem
+  turnin 1018 -- The New Frontier - Arch Druid Hamuul Runetotem
+  note 1018 falls out of contract here -- turn in to Hamuul and stop there.
+  zone map 1454
+
+step Expedition — Mulgore, Turak, Yaw and Cairne
+
+  zone map 1412
+
+  tip Work Mulgore's mesas: Turak's post, Yaw's grounds, then Cairne's mesa.
+  turnin 5927 only Druid,Tauren -- Heeding the Call - Turak Runetotem
+  note 5927 falls out of contract here -- turn in to Turak and stop there.
+  turnin 6066 only Hunter,Tauren -- The Hunter's Path - Yaw Sharpmane
+  note 6066 falls out of contract here -- turn in to Yaw and stop there.
+  complete 93739 @42.1,27.3 era -- Cairne Bloodhoof for Thrall
+  zone map 1454
+
+step Expedition — Azshara, the Bay of Storms to the Cliffs
+
+  zone map 1447
+
+  tip Azshara runs north to south: Ag'tor's camp and Sanath's post up the coast, Ogtinc inland.
+  turnin 3504 -- Betrayed - Ag'tor Bloodfist
+  note 3504 falls out of contract here -- turn in to Ag'tor and stop there.
+  turnin 3563 -- Jes'rimin's Payment to Jediga - Jediga
+  turnin 91735 -- Remote Contact - Jediga
+  turnin 8250 only Mage -- Magecraft - Sanath Lim-yo
+  note 8250 falls out of contract here -- turn in to Sanath and stop there.
+  turnin 8151 only Hunter -- The Hunter's Charm - Ogtinc
+  note 8151 falls out of contract here -- turn in to Ogtinc and stop there.
+  turnin 8254 only Priest -- Cenarion Aid - Ogtinc
+  note 8254 falls out of contract here -- turn in to Ogtinc and stop there.
+  zone map 1454
+
+step Expedition — Feralas, the Mojache road
+
+  zone map 1444
+
+  tip Camp Mojache sits high on the road past the Twin Colossals; Rok's camp and Uzer'i's grove lie nearby.
+  turnin 2981 -- A Threat in Feralas - Rok Orhan
+  note 2981 falls out of contract here -- turn in to Rok and stop there.
+  turnin 3122 -- Return to Witch Doctor Uzer'i - Witch Doctor Uzer'i
+  turnin 7492 -- Camp Mojache - Talo Thornhoof
+  note 7492 falls out of contract here -- turn in to Talo and stop there.
+  zone map 1454
+
+step Expedition — Desolace, Rexxar's post and the Kodo Graveyard
+
+  zone map 1443
+
+  tip Rexxar walks the Stonetalon edge in the northwest; Takata's post and the Shadowshard mobs lie south.
+  turnin 6567 -- The Champion of the Horde - Rexxar
+  note 6567 falls out of contract here -- turn in to Rexxar and stop there.
+  turnin 1432 -- Alliance Relations - Takata Steelblade
+  note 1432 falls out of contract here -- turn in to Takata and stop there.
+  complete 7068 @26.51,57.01 era -- Shadowshard Fragments off the Shadowshard mobs for Uthel'nay
+  turnin 7068 -- Shadowshard Fragments - the fragments to Uthel'nay
+  zone map 1454
+
+step Expedition — Un'Goro Crater, the ravasaur grounds
+
+  zone map 1449
+
+  tip The ravasaur grounds sprawl across the crater's east; loop the packs and come back.
+  complete 4300 @57.36,77.14 era -- White Ravasaur Claws off the ravasaurs for Jes'rimin
+  turnin 4300 -- Bone-Bladed Weapons - the claws to Jes'rimin
+  zone map 1454
+
+step Expedition — Stranglethorn Vale, Booty Bay
+
+  zone map 1434
+
+  tip Booty Bay sits at the cape's southern tip; take the boat from Ratchet and work the bay.
+  when skill Blacksmithing 1
+
+  turnin 2757 -- Booty Bay or Bust! - McGavan
+  note 2757 falls out of contract here -- turn in to McGavan and stop there.
+  turnin 2842 -- Chief Engineer Scooty - Scooty
+  note 2842 falls out of contract here -- turn in to Scooty and stop there.
+  zone map 1454
+
+step Expedition — Tanaris, Gadgetzan
+
+  zone map 1446
+
+  tip Gadgetzan sits in the desert's middle; take the boat from Booty Bay and work the town.
+  turnin 4494 -- March of the Silithid - Alchemist Pestlezugg
+  when skill Cooking 1
+
+  turnin 6611 -- To Gadgetzan You Go! - Dirge Quikcleave
+  note 6611 falls out of contract here -- turn in to Dirge and stop there.
+  turnin 8923 -- A Supernatural Device - Mux Manascrambler
+  zone map 1454
+
+step Expedition — Duskwood, the Rotting Orchard
+
+  zone map 1431
+
+  tip The Starving Dire Wolf roams the Rotting Orchard in Duskwood's northeast.
+  complete 2751 @80.4,18.72 era -- a Sharp Claw off the Starving Dire Wolf for Orokk
+  zone map 1454
+
+step Valley of Honor — Orokk's later work
+  when skill Blacksmithing 1
+
+  note The bracers turned in above, after the Duskwood leg credited the claw — take the rest of the chain now, in order.
+  complete 2751 -- craft the Patterned Bronze Bracers and Bronze Greatswords from the bags for Orokk
+  turnin 2751 -- Barbaric Battlements - the bracers to Orokk
+  accept 2752 -- Barbaric Battlements - Orokk Omosh; a Bronze Greatsword
+  complete 2752 @79.24,22.4 era -- a Bronze Greatsword for Orokk
+  turnin 2752 -- Barbaric Battlements - the sword to Orokk
+  accept 2753 -- Barbaric Battlements - Orokk Omosh; a Sharp Claw
+  complete 2753 @79.24,22.4 era -- a Sharp Claw for Orokk
+  turnin 2753 -- Barbaric Battlements - the claw to Orokk
+  accept 2754 -- Barbaric Battlements - Orokk Omosh; a duel with Orokk himself
+  complete 2754 @79.24,22.4 era -- a duel with Orokk himself, for Orokk
+  turnin 2754 -- Barbaric Battlements - back to Orokk
+  accept 2755 -- Barbaric Battlements - Orokk Omosh; Orokk Omosh himself
+  complete 2755 @79.24,22.4 era -- Orokk Omosh himself, for Orokk
+  turnin 2755 -- Barbaric Battlements - back to Orokk
+
+step Expedition — the Badlands, Uldaman's shadow
+
+  zone map 1418
+
+  tip The Shadowforge and Stonevault crews work the Badlands' dig sites; Jarkal waits at the dust bowl's edge.
+  complete 2283 @43.8,10.6 era -- a Shattered Necklace off the Shadowforge for Dran Droffers
+  turnin 2283 -- Necklace Recovery - the necklace to Dran Droffers
+  turnin 2341 -- Necklace Recovery, Take 3 - Jarkal Mossmeld
+  note 2341 falls out of contract here -- turn in to Jarkal and stop there.
+  zone map 1454
+
+step The Drag — the Take 2 follow-up
+  note The necklace turned in on the Badlands leg above — take the Take 2 line now. The Remains of a Paladin has no placed point in the data, and Take 2 has no turn-in in the data, so bank it.
+  accept 2284 -- Necklace Recovery, Take 2 - Dran Droffers; the Remains of a Paladin waits in Badlands, late
+
+step Expedition — Blackrock Mountain, Bodley's post
+
+  zone map 1415
+
+  tip Bodley waits inside Blackrock Mountain with a group; 9032's pres turn in to Mokvar back in the city.
+  when onquest 8998
+
+  note Back to the Beginning (8998, a Blackrock accept) is uncontracted — turn it in here if the log carries it.
+  turnin 8998 -- Back to the Beginning - Bodley
+  turnin 9032 -- Bodley's Unfortunate Fate - Bodley
+  zone map 1454
+
+step Expedition — the Burning Steppes, Mor'zul's camp
+
+  zone map 1428
+
+  tip Mor'zul Bloodbringer camps the Steppes' western edge with a group.
+  turnin 7562 only Warlock -- The Demon Seed - Mor'zul Bloodbringer
+  note 7562 falls out of contract here -- turn in to Mor'zul and stop there.
+  zone map 1454
+
+step Expedition — Arathi Highlands, Victor's farm
+
+  zone map 1417
+
+  tip This leg leaves the city and comes back — work the stops in order.
+  when skill First Aid 1
+
+  turnin 6623 -- Horde Trauma - Doctor Gregory Victor
+  note 6623 falls out of contract here -- turn in to Victor and stop there.
+  zone map 1454
+
+step Expedition — the Western Plaguelands, Anthion's chapel
+
+  zone map 1423
+
+  tip Anthion Harmon keeps the chapel in the Plaguelands' west with a group.
+  turnin 8930 -- In Search of Anthion - Anthion Harmon
+  zone map 1454
+
+step Expedition — the Eastern Plaguelands, Light's Hope
+
+  zone map 1422
+
+  tip High Executor Derrington commands the chapel at Light's Hope with a group.
+  turnin 5093 -- A Call to Arms: The Plaguelands! - High Executor Derrington
+  note 5093 falls out of contract here -- turn in to Derrington and stop there.
+  zone map 1454
+
+step Expedition — Alterac Mountains, Frostwolf and the Windwatcher
+
+  zone map 1416
+
+  tip Laggrond holds the Frostwolf pass and Bath'rah watches the winds from the high peaks.
+  turnin 7241 -- In Defense of Frostwolf - Warmaster Laggrond
+  turnin 8410 only Shaman -- Elemental Mastery - Bath'rah the Windwatcher
+  zone map 1454
+
+step Expedition — Hillsbrad Foothills, Ravenholdt Manor
+
+  zone map 1424
+
+  tip This leg leaves the city and comes back — work the stops in order.
+  turnin 2479 only Rogue -- Hinott's Assistance - Serge Hinott
+  note 2479 falls out of contract here -- turn in to Hinott and stop there.
+  complete 6681 only Rogue @78.64,17.84 era -- the Rite of Cunning at Ravenholdt Manor for Fahrad
+  turnin 6681 only Rogue -- The Manor, Ravenholdt - Fahrad
+  note 6681 falls out of contract here -- turn in to Fahrad and stop there.
+  turnin 8233 only Rogue -- A Simple Request - Lord Jorach Ravenholdt
+  zone map 1454
+
+step Expedition — the Hinterlands, Gilveradin's post
+
+  zone map 1425
+
+  tip Gilveradin Sunchaser watches the Hinterlands' western edge from her post.
+  turnin 650 -- Ripple Recovery - Gilveradin Sunchaser
+  note 650 falls out of contract here -- turn in to Gilveradin and stop there.
+  zone map 1454
+
+step Expedition — the Swamp of Sorrows, the Fallen Hero
+
+  zone map 1435
+
+  tip The Fallen Hero of the Horde lies in the Swamp's central ruins.
+  turnin 8417 only Warrior -- A Troubled Spirit - Fallen Hero of the Horde
+  note 8417 falls out of contract here -- turn in to the hero and stop there.
+  zone map 1454
+
+step Expedition — Felwood, the Imp in the woods
+
+  zone map 1448
+
+  tip Impsy hides in the Felwood's southern woods; bring Felcloth from the world.
+  complete 8419 only Warlock @36.67,56.8 era -- Felcloth off the Jadefire Trickster for Impsy
+  turnin 8419 only Warlock -- An Imp's Request - Impsy
+  zone map 1454
+
+step Expedition — Silithus, Proudhorn's camp
+
+  zone map 1451
+
+  tip Windcaller Proudhorn camps in Silithus' northwest with a group.
+  turnin 8276 -- Taking Back Silithus - Windcaller Proudhorn
+  note 8276 falls out of contract here -- turn in to Proudhorn and stop there.
+  zone map 1454
+
+step Expedition — Thousand Needles, the Salt Flats
+
+  zone map 1441
+
+  tip Moktar and Prate work the Salt Flats' raceway in the Needles' east.
+  turnin 1146 -- The Swarm Grows - Moktar Krin
+  note 1146 falls out of contract here -- turn in to Moktar and stop there.
+  turnin 1531 only Shaman -- Call of Air - Prate Cloudseer
+  note 1531 falls out of contract here -- turn in to Prate and stop there.
+  zone map 1454
+
+step Expedition — the Blasted Lands, Vek'zol's crater
+
+  zone map 1419
+
+  tip Vek'zol stalks the Blasted Lands' crater in the southeast.
+  complete 91548 @49.91,35.52 era -- the Heart of Vek'zol for Zevrost
+  turnin 91548 -- Vek'zol - the heart to Zevrost
+  zone map 1454
