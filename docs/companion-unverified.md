@@ -656,3 +656,7 @@ as above: game-data citation or a named source.
 
 - No rares shipped (10 rank-1s examined, all excluded in docs/shendralas-companions-inventory.md). Beast-plausible mobs on the key: Prowler 255207 (drops the core collar 259461 - not tameability evidence) and Bear 263681 (no drops at all). Neither presents beast-drop evidence with a core-guide beast-family kill to corroborate (core kills are Outcasts, flowers, Pylon Protectors, Necromancers and Woodwyrd), and NPC records carry no family/tame flags, so no tame line ships. Revisit if a family flag or tame evidence appears.
 
+
+## Durotar tame lines (pack 0.90.0)
+
+- Six rank-flagged rares ship with no tame line. Death Flayer 5823 reads as a scorpid (beast by name + scorpid loot incl. Venomtail Poison Sac 4886), but the core guide never kills scorpids by NPC ID (812 takes the antidote as an item; no kill lines for 3127/3226), so there is no core-guide beast-family corroboration - the Barrens companion likewise ships Death Flayer without one. Kolkanis, Zalaphil, Scornn, Flat Tusk and Mottle present no beast evidence at all, and NPC records carry no family/tame flags. Revisit if a family flag or tame evidence appears.
