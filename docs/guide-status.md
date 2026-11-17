@@ -109,9 +109,9 @@ _The lead-in for Loch Modan (build order #2)._
 
 ### Mulgore — Tauren (Horde) · Horde block — last
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census
+- [x] Core guide
+- [x] Lint/playtest clean (72 quests, lint 0 errors; playtest: Horde personas, 0 stuck / 0 failed beyond R1 residue)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.90.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.91.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -105,6 +105,7 @@ Status: **in development (pack v0.90.0), not published yet**. The first release 
 | arrens-rares.guide (companion built, pilot pending) | The Barrens rares and treasures | 10-25 | Horde |
 | arrens-recipes.guide (companion built, pilot pending) | The Barrens recipe sources | 10-25 | Horde |
 | `durotar.guide` (Horde block core built, pilot pending) | Durotar | 1-13 | Horde |
+| `mulgore.guide` (Horde block core built, pilot pending) | Mulgore | 1-13 | Horde |
 | swamp-of-sorrows.guide (Set 6 core built, pilot pending) | Swamp of Sorrows | 30-38 | Alliance |
 | `swamp-of-sorrows-rares.guide` (companion built, pilot pending) | Swamp of Sorrows rares and treasures | 30-38 | Alliance |
 | `swamp-of-sorrows-recipes.guide` (companion built, pilot pending) | Swamp of Sorrows recipe sources | 30-38 | Alliance |
@@ -152,7 +153,7 @@ All starting zones, both factions:
 
 - Zephras Isle (Alliance) ✓, Elwynn Forest ✓, Westfall (core ✓, pilot pending)
 - Dun Morogh / Coldridge Valley ✓ (core built, pilot pending), Loch Modan ✓ (core built, pilot pending), Teldrassil ✓ (core + companions built, pilot pending), Darkshore ✓ (core + companions built, pilot pending)
-- Durotar (core built, pilot pending), Mulgore, Tirisfal Downs
+- Durotar (core built, pilot pending), Mulgore (core built, pilot pending), Tirisfal Downs
 - Zephras Isle (Horde)
 
 ## Install
