@@ -185,10 +185,12 @@ expedition, routed honestly with the risk noted):
   R2 bag note), 81947, 81949, 81951, 81952, 81953, 81954, 81955,
   81956, 84395, 84396, 84397, 84398, 84399, 84400, 84401, 84402 -
   then capstone 97286 Research Access (20/1; pre all 40 books, `only
-  Mage`). Book objects span Darkshore, Silverpine, Westfall, Barrens,
-  Wetlands, Duskwood, Loch Modan, Stonetalon, Ironforge, Elwynn,
-  Orgrimmar, Tirisfal, Tanaris, Feralas, Azshara, Searing Gorge,
-  Hillsbrad, Blasted Lands, EPL, Felwood, WPL (x3), Winterspring -
+  Mage`). Book objects span Darkshore, Silverpine (x2), Westfall, Barrens (x3),
+  Wetlands, Duskwood, Loch Modan (x2), Stonetalon, Ironforge, Elwynn,
+  Orgrimmar, Tirisfal, Tanaris, Feralas, Azshara, Searing Gorge, Burning
+  Steppes (x2), Hillsbrad, Blasted Lands, EPL (x2), Felwood, WPL (x3),
+  Winterspring, Stranglethorn, Thousand Needles, Alterac, Arathi, Desolace,
+  Badlands, Dustwallow, Swamp of Sorrows -
   grouped into expedition legs by destination; the 84395-84402
   turn-ins use the Oran (UC) end.
 
@@ -283,3 +285,26 @@ Superior Mana Potion; Gishah 1: Lesser Arcane Elixir); Enchanting 5
 Oil; Daniel Bartlett 1: Greater Stamina); Blacksmithing 1 (Gishah:
 Mantle of the Second War); Engineering 1 (Gishah: Soul Vessel).
 No city rares (no 1458 spawn carries a rare flag in the data).
+
+## Addendum - quest 1899 contracted; 1472/1476 turn-in corrections (chain-order audit)
+
+- 1899 The Deathstalkers (13/10, only Rogue,Undead): accept Andron Gant
+  (1458 @54.81,76.33), objective Andron's Ledger from Andron's Bookshelf
+  (object 103600, 1458 @55.4,76.96), turn-in Mennet Carkad (1458
+  @83.51,69.11). The census listed 1899 only as "uncontracted pre of 1978"
+  without evaluating it; the chain-order audit showed it is an in-band
+  city-key accept, so it contracts here by the accept rule (Mulgore
+  781/98424 precedent). It routes in the returns block between 1898's
+  turn-in and 1978's accept, which also clears 1978's structural warning.
+  Contract: 107 -> 108 quests.
+- 1472 Devourer of Souls: the census called this accept-only, but the data
+  carries end.npc Godrick Farsan (1458 @84.81,14.83) and the compiler
+  demands its turn-in for 1476/65593. Corrected: talk leg Carendin ->
+  turn in to Godrick in the Magic Quarter hub step; no addendum quest,
+  contract count unchanged, and the 1476/65593 chain warnings clear.
+- 1476 Hearts of the Pure: turn-in is Carendin Halgar (1458 @85.06,25.99),
+  not Godrick - the guide turns it in to Carendin in the returns block.
+- 1899's evaluation corrects the rogue mini-step note that claimed
+  "1899 accepts nowhere in the data": it accepts at Andron Gant on the
+  city key. The Varimathras 1978 mini-step is removed (1978 routes in
+  the returns block after 1899's turn-in).
