@@ -1,0 +1,315 @@
+# Ashenvale (Horde) - Rares & Treasures (pack butler-routes-completionist, v1).
+# The Horde companion to ashenvale-horde.guide: every rare-flagged NPC spawning
+# on map 1440 the data supports for Horde, the four core item-start hunts, and
+# the zone's fixed containers. All goals optional; no accept/turnin lines.
+# Levels 19-30 (the Horde core band). Inventoried in
+# docs/ashenvale-horde-companions-inventory.md.
+guide butler-routes-completionist/ashenvale-horde-rares
+title Ashenvale (Horde) - Rares & Treasures
+levels 19-30
+zone Ashenvale
+faction Horde
+category Collectibles
+folder Companions
+coords live
+version 1
+keywords vespia,mist howler,mugglefin,rorgish,snapper,terrowulf,akkrilus,ursangous,tideress,shadumbra,oakpaw,eckalom,sharptalon,raze,ursol,treasure,chest,hunt
+
+step Northwest shore - Lady Vespia
+  zone map 1440
+  loop
+    goto 9.87,14.34 map 1440
+    goto 13.63,24.73 map 1440
+  kill 10559 optional -- Lady Vespia, along the northwest shore
+  note She walks the shoreline rocks - check both points. Respawn timer unconfirmed.
+  collect 284704 optional -- Frostbitten Staff off Lady Vespia, an Ashenvale-exclusive drop
+  note The Ring of Zoram also drops here but drops on Darkshore too - no goal for it.
+
+step Northwest woods - Mist Howler
+  zone map 1440
+  loop
+    goto 20.93,36.92 map 1440
+    goto 26.8,18.35 map 1440
+  kill 10644 optional -- Mist Howler, in the northwest woods
+  note He ranges between the two points. Respawn timer unconfirmed.
+  collect 284666 optional -- Wolf Whistle off Mist Howler, an Ashenvale-exclusive drop
+
+step West - Mugglefin
+  zone map 1440
+  goto 19.38,42.73 map 1440
+  kill 10643 optional -- Mugglefin, west of the forest heart
+  note A lone murloc Oracle with ordinary murloc loot. Respawn timer unconfirmed.
+
+step North-center - Rorgish Jowl
+  zone map 1440
+  goto 35.82,36.61 map 1440
+  kill 10639 optional -- Rorgish Jowl, north of the center
+  note A lone elite furbolg. Respawn timer unconfirmed.
+  collect 284700 optional -- Den Guardian's Crusher off Rorgish Jowl, an Ashenvale-exclusive drop
+
+step Center - Branch Snapper
+  zone map 1440
+  goto 46.51,44.27 map 1440
+  kill 10641 optional -- Branch Snapper, near the center
+  note Ordinary snapper loot - nothing exclusive confirmed. Respawn timer unconfirmed.
+
+step Center-east - Terrowulf Packlord
+  zone map 1440
+  goto 49.77,39.61 map 1440
+  note The Packlord is level 32, just above this guide's band - come back in a level or two if he outmatches you.
+  kill 3792 optional -- Terrowulf Packlord, east of center
+  note A lone elite wolf. Respawn timer unconfirmed.
+  collect 5753 optional -- Ruffled Chaplet off the Terrowulf Packlord, an Ashenvale-exclusive drop
+  collect 5754 optional -- Wolfpack Medallion off the Terrowulf Packlord, an Ashenvale-exclusive drop
+
+step Southwest - Akkrilus
+  zone map 1440
+  goto 25.62,63.54 map 1440
+  kill 3773 optional -- Akkrilus, in the southwest
+  note A satyr with only Shredder Manual pages on him - nothing exclusive confirmed. Respawn timer unconfirmed.
+
+step Thistlefur country - Ursangous's hunt
+  zone map 1440
+  goto 39.76,65.21 map 1440
+  kill 12678 optional -- Ursangous, west of Fallen Sky Lake
+  note Ursangous is not rare-flagged - he is hunted for the core guide's quest, not for himself.
+  collect 16303 optional -- Ursangous's Paw off Ursangous, the 100% drop
+  note The Paw starts quest 23 (Ursangous's Paw) in the core guide ashenvale-horde.guide - the accept and turn-in live there.
+
+step Mystral Lake - Tideress's hunt
+  zone map 1440
+  goto 46.0,70.0 map 1440
+  kill 12759 optional -- Tideress, in Mystral Lake
+  note Tideress is not rare-flagged - she is hunted for the core guide's quest, not for herself.
+  collect 16408 optional -- Befouled Water Globe off Tideress, the 100% drop
+  note The Globe starts quest 1918 (The Befouled Element) in the core guide ashenvale-horde.guide - the accept and turn-in live there. Her Intact Elemental Bracer feeds only an Alliance quest - no goal for it.
+
+step South-center - Shadumbra's hunt
+  zone map 1440
+  goto 57.5,56.05 map 1440
+  kill 12677 optional -- Shadumbra, south of the center
+  note Shadumbra is not rare-flagged - she is hunted for the core guide's quest, not for herself.
+  collect 16304 optional -- Shadumbra's Head off Shadumbra, the 100% drop
+  note The Head starts quest 24 (Shadumbra's Head) in the core guide ashenvale-horde.guide - the accept and turn-in live there.
+
+step Southeast - Oakpaw
+  zone map 1440
+  goto 56.01,62.75 map 1440
+  kill 10640 optional -- Oakpaw, southeast of center
+  note A bear with only Shredder Manual pages on him - nothing exclusive confirmed. Respawn timer unconfirmed.
+
+step Southeast - Eck'alom
+  zone map 1440
+  goto 52.76,70.05 map 1440
+  kill 10642 optional -- Eck'alom, in the southeast
+  note His Broken, Damaged, Fractured and Crushed Elemental Bracers are Ashenvale-exclusive but feed only the Alliance quest Elemental Bracers (q1016) - loot or vendor them; no goal ships for unusable quest items. Respawn timer unconfirmed.
+
+step East - Sharptalon's hunt
+  zone map 1440
+  goto 74.98,70.06 map 1440
+  kill 12676 optional -- Sharptalon, in the east
+  note Sharptalon is not rare-flagged - he is hunted for the core guide's quest, not for himself.
+  collect 16305 optional -- Sharptalon's Claw off Sharptalon, the 100% drop
+  note The Claw starts quest 2 (Sharptalon's Claw) in the core guide ashenvale-horde.guide - the accept and turn-in live there.
+
+step Far east - Prince Raze
+  zone map 1440
+  loop
+    goto 78.08,46.35 map 1440
+    goto 81.56,48.51 map 1440
+  note Prince Raze is level 32, just above this guide's band - come back in a level or two if he outmatches you.
+  kill 10647 optional -- Prince Raze, at the far-east edge
+  note A naga prince ranging between the two points. Respawn timer unconfirmed.
+  collect 284697 optional -- Arcane Charged Robes off Prince Raze, an Ashenvale-exclusive drop
+  note Prince Raze also drops Satyr Horns, but only while on a horns quest - collect them while holding quest 6441 (Satyr Horns) from the core guide ashenvale-horde.guide and hand them to Pixel there.
+
+step Far-east edge - Ursol'lok
+  zone map 1440
+  goto 83.37,48.51 map 1440
+  note Ursol'lok is level 31, just above this guide's band - come back in a level or two if he outmatches you.
+  kill 12037 optional -- Ursol'lok, at the far-east edge
+  note A lone elite bear. Respawn timer unconfirmed.
+  collect 284573 optional -- Ursol'lok's Paws off Ursol'lok, an Ashenvale-exclusive drop
+  task "Tame it instead of killing it" optional only Hunter
+
+step Zone-wide - fixed world containers
+  zone map 1440
+  loop
+    goto 7.05,12.27 map 1440
+    goto 11.55,31.81 map 1440
+    goto 18.5,31.59 map 1440
+    goto 22.43,36.33 map 1440
+    goto 33.44,67.55 map 1440
+    goto 35.46,36.54 map 1440
+    goto 37.9,33.78 map 1440
+    goto 39.65,36.01 map 1440
+    goto 40.47,31.86 map 1440
+    goto 42.29,34.83 map 1440
+    goto 46.14,69.89 map 1440
+    goto 49.93,59.63 map 1440
+    goto 50.89,69.68 map 1440
+    goto 54.1,61.14 map 1440
+    goto 54.33,64.26 map 1440
+    goto 56.26,63.26 map 1440
+    goto 68.77,49.59 map 1440
+    goto 74.81,74.45 map 1440
+    goto 75.58,46.44 map 1440
+    goto 77.43,72.86 map 1440
+    goto 79.41,49.59 map 1440
+    goto 81.21,50.09 map 1440
+    goto 81.79,49.39 map 1440
+    goto 12.3,34.38 map 1440
+    goto 17.56,49.98 map 1440
+    goto 26.65,22.32 map 1440
+    goto 26.78,40.84 map 1440
+    goto 27.25,36.9 map 1440
+    goto 31.33,45.03 map 1440
+    goto 31.67,39.24 map 1440
+    goto 32.63,42.51 map 1440
+    goto 34.34,38.84 map 1440
+    goto 35.51,36.72 map 1440
+    goto 39.91,36.54 map 1440
+    goto 50.08,59.55 map 1440
+    goto 54.31,64.38 map 1440
+    goto 54.34,61.17 map 1440
+    goto 64.73,75.56 map 1440
+    goto 66.81,57.28 map 1440
+    goto 75.32,72.31 map 1440
+    goto 85.03,64.63 map 1440
+    goto 87.14,64.56 map 1440
+    goto 88.66,59.33 map 1440
+    goto 88.95,56.36 map 1440
+    goto 89.1,77.04 map 1440
+    goto 89.53,58.89 map 1440
+    goto 89.53,76.47 map 1440
+    goto 67.8,89.2 map 1440
+    goto 75.07,74.29 map 1440
+    goto 75.18,73.03 map 1440
+    goto 75.29,71.76 map 1440
+    goto 77.87,74.49 map 1440
+    goto 68.24,77.68 map 1440
+    goto 69.29,82.67 map 1440
+    goto 69.87,74.11 map 1440
+    goto 69.89,85.32 map 1440
+    goto 70.1,76.08 map 1440
+    goto 71.04,73.8 map 1440
+    goto 71.29,83.83 map 1440
+    goto 71.45,76.97 map 1440
+    goto 72.51,75.12 map 1440
+    goto 72.63,76.86 map 1440
+    goto 73.09,73.23 map 1440
+    goto 74.23,69.47 map 1440
+    goto 74.34,77.92 map 1440
+    goto 74.41,73.38 map 1440
+    goto 74.46,75.56 map 1440
+    goto 75.87,69.99 map 1440
+    goto 75.88,73.52 map 1440
+    goto 76.22,67.48 map 1440
+    goto 76.77,72.19 map 1440
+    goto 77.03,73.8 map 1440
+    goto 77.97,65.82 map 1440
+    goto 78.26,64.58 map 1440
+    goto 78.31,69.73 map 1440
+    goto 79.08,74.48 map 1440
+    goto 54.42,35.4 map 1440
+    goto 7.14,14.18 map 1440
+    goto 11.18,13.38 map 1440
+    goto 12.05,15.73 map 1440
+    goto 13.39,27.08 map 1440
+    goto 13.45,14.97 map 1440
+    goto 13.63,30.95 map 1440
+    goto 14.15,16.22 map 1440
+    goto 14.44,23.07 map 1440
+    goto 14.77,20.18 map 1440
+    goto 15.08,17.11 map 1440
+    goto 15.61,18.96 map 1440
+    goto 10.69,17.25 map 1440
+    goto 88.4,55.4 map 1440
+    goto 88.5,55.1 map 1440
+    goto 91.0,58.1 map 1440
+  interact 2849 optional
+  interact 2850 optional
+  interact 2852 optional
+  interact 3659 optional
+  interact 3695 optional
+  interact 3662 optional
+  interact 3705 optional
+  interact 3689 optional
+  interact 3702 optional
+  interact 19021 optional
+  interact 19022 optional
+  interact 179487 optional
+  interact 179489 optional
+  interact 441128 optional
+  note Ordinary low-level goods only (no unique or signature drops confirmed) - fixed Battered, Solid, Rusty and Worn chests, camp crates and barrels, Waterlogged Footlockers and the far-east Vibrating Crate, all in one sweep.
+
+step Thistlefur Village - Troll Chests
+  zone map 1440
+  loop
+    goto 39.69,32.95 map 1440
+    goto 39.88,34.17 map 1440
+    goto 40.19,30.99 map 1440
+    goto 40.39,33.24 map 1440
+    goto 40.46,34.44 map 1440
+    goto 40.51,32.27 map 1440
+    goto 40.76,32.81 map 1440
+    goto 40.86,33.64 map 1440
+    goto 40.95,31.6 map 1440
+    goto 41.2,35.35 map 1440
+    goto 41.34,34.18 map 1440
+    goto 41.51,34.77 map 1440
+    goto 41.67,35.7 map 1440
+    goto 41.72,34.48 map 1440
+  interact 178144 optional
+  note The Troll Chests cluster east of the Zoram Strand - the core guide's quest 6462 (Troll Charm) collects charms out of these same chests, so check them with that quest in mind. No accept lines here.
+
+step Warsong camps - Warsong Oil
+  zone map 1440
+  loop
+    goto 66.45,56.85 map 1440
+    goto 66.85,57.14 map 1440
+    goto 67.03,56.69 map 1440
+    goto 78.18,44.75 map 1440
+    goto 78.38,45.07 map 1440
+    goto 79.47,50.74 map 1440
+    goto 80.5,51.24 map 1440
+  interact 178195 optional
+  note The Warsong Oil crates feed quest 6571 (Warsong Supplies) in the core guide ashenvale-horde.guide - the accept and turn-in live there. Contents otherwise unconfirmed.
+
+step Northwest - Plant Bundles
+  zone map 1440
+  loop
+    goto 30.12,24.73 map 1440
+    goto 30.44,25.49 map 1440
+    goto 30.66,22.78 map 1440
+    goto 30.66,23.67 map 1440
+    goto 30.93,20.98 map 1440
+    goto 31.42,21.71 map 1440
+    goto 31.86,22.94 map 1440
+    goto 32.07,23.51 map 1440
+    goto 32.18,21.73 map 1440
+    goto 32.21,24.53 map 1440
+    goto 32.34,22.68 map 1440
+    goto 32.57,23.16 map 1440
+    goto 33.09,22.11 map 1440
+    goto 33.86,21.32 map 1440
+  interact 17282 optional
+  note Fixed pickables with no quest reference anywhere in the data - contents unconfirmed, said plainly.
+
+step East - Bottle of Disease
+  zone map 1440
+  loop
+    goto 75.27,71.8 map 1440
+    goto 75.29,72.22 map 1440
+  interact 18036 optional
+  note A fixed pickable pair with no quest reference anywhere in the data - contents unconfirmed, said plainly.
+
+step Far east - Kurothel's Knapsack
+  zone map 1440
+  loop
+    goto 80.6,49.0 map 1440
+    goto 81.1,50.6 map 1440
+    goto 81.3,50.3 map 1440
+    goto 81.7,49.2 map 1440
+  interact 673431 optional
+  note A fixed container with no quest reference anywhere in the data - contents unconfirmed, said plainly.
