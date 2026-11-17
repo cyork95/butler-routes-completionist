@@ -29,7 +29,6 @@ guide butler-routes-completionist/silverpine-forest
 title Silverpine Forest - Completionist
 levels 10-20
 zone Silverpine Forest
-faction Horde
 category Leveling
 folder Completionist
 coords live
@@ -40,166 +39,168 @@ step The Sepulcher - the Forsaken hub
   zone map 1421
 
   note The Sepulcher holds the route's hub: Hadrec (43.42,40.86), Renferrel (42.8,40.86), Dalar (44.2,39.81), Allister (43.98,40.93), Podrig (43.42,41.68), Karos (45.62,42.6), Trevan (43.4,41.1), Baldren (45.81,41.88) and Lumina (43.4,40.99).
-  accept 428 -- Lost Deathstalkers - Hadrec; find Quinn and Rane at the Ivar Patch north
-  accept 437 -- The Dead Fields - Hadrec; rot hide gnolls west, Nightlash shows herself
-  accept 447 -- A Recipe For Death - Renferrel; grizzled hearts and skittering blood, west woods
-  accept 477 -- Border Crossings - Allister; a Dalaran crate waits in Pyrewood south
-  accept 421 -- Prove Your Worth - Dalar; Moonrage whitescalps, north-west dens
-  accept 448 -- Report to Hadrec - Renferrel; a pointer with no field work (note 446 Thule Ravenclaw accepts in Tirisfal, not contracted here - the turn-in rides the mini-step below)
+  accept 428 only Horde -- Lost Deathstalkers - Hadrec; find Quinn and Rane at the Ivar Patch north
+  accept 437 only Horde -- The Dead Fields - Hadrec; rot hide gnolls west, Nightlash shows herself
+  accept 447 only Horde -- A Recipe For Death - Renferrel; grizzled hearts and skittering blood, west woods
+  accept 477 only Horde -- Border Crossings - Allister; a Dalaran crate waits in Pyrewood south
+  accept 421 only Horde -- Prove Your Worth - Dalar; Moonrage whitescalps, north-west dens
+  accept 448 only Horde -- Report to Hadrec - Renferrel; a pointer with no field work (note 446 Thule Ravenclaw accepts in Tirisfal, not contracted here - the turn-in rides the mini-step below)
   accept 6321 only Undead -- Supplying the Sepulcher - Deathguard Podrig; carry the order to Karos Razok
   turnin 6321 only Undead -- Supplying the Sepulcher - the order to Karos Razok
   accept 6323 only Undead -- Ride to the Undercity - Karos Razok; take the order to Gordon Wendham in Undercity (expedition below)
-  accept 1014 -- Arugal Must Die - Dalar Dawnweaver; Arugal's head sits inside Shadowfang Keep (dungeon note below)
-  accept 1098 -- Deathstalkers in Shadowfang - Hadrec; find Adamant and Vincent (Vincent has no placed spawn - honest note below)
-  accept 493 -- Journey to Hillsbrad Foothills - Renferrel; findings for Lydon in Tarren Mill (Hillsbrad expedition below)
-  accept 91859 only Paladin -- A Curious Pair - Trevan; speak with Deathguard Baldren (note 91858 Diplomatic Incident accepts in Tirisfal, not contracted here - the turn-in rides the mini-step below)
-  accept 516 -- Beren's Peril - Allister; Ravenclaw drudgers and guardians at Beren's Peril south (below)
+  accept 1014 only Horde -- Arugal Must Die - Dalar Dawnweaver; Arugal's head sits inside Shadowfang Keep (dungeon note below)
+  accept 1098 only Horde -- Deathstalkers in Shadowfang - Hadrec; find Adamant and Vincent (Vincent has no placed spawn - honest note below)
+  accept 493 only Horde -- Journey to Hillsbrad Foothills - Renferrel; findings for Lydon in Tarren Mill (Hillsbrad expedition below)
+  accept 91859 only Paladin,Horde -- A Curious Pair - Trevan; speak with Deathguard Baldren (note 91858 Diplomatic Incident accepts in Tirisfal, not contracted here - the turn-in rides the mini-step below)
+  accept 516 only Horde -- Beren's Peril - Allister; Ravenclaw drudgers and guardians at Beren's Peril south (below)
 
 step Soft pre - Thule's chain (open)
 
   zone map 1421
 
   when onquest 448
+  only Horde
 
-  turnin 448 -- Report to Hadrec - the report to Hadrec
+  turnin 448 only Horde -- Report to Hadrec - the report to Hadrec
 
 step Soft pre - Earthen Ring talks (open)
 
   zone map 1421
 
   when onquest 91859
+  only Horde
 
-  turnin 91859 -- A Curious Pair - the word to Deathguard Baldren
-  accept 91860 only Paladin -- A Grim Fate - Baldren; investigate Fenris Isle east
-  complete 91860 only Paladin @65.02,34.1 -- Earthen Ring party fate (Charred Remains, Fenris Isle)
-  turnin 91860 only Paladin -- A Grim Fate - the word to the Charred Remains
+  turnin 91859 only Horde -- A Curious Pair - the word to Deathguard Baldren
+  accept 91860 only Paladin,Horde -- A Grim Fate - Baldren; investigate Fenris Isle east
+  complete 91860 only Paladin,Horde @65.02,34.1 -- Earthen Ring party fate (Charred Remains, Fenris Isle)
+  turnin 91860 only Paladin,Horde -- A Grim Fate - the word to the Charred Remains
 
 step Ivar Patch - Quinn and Rane
 
   zone map 1421
 
   note North to the Ivar Patch: Rane Yorick (53.46,13.43), Quinn Yorick (53.43,12.59), Erland (56.18,9.18).
-  turnin 428 -- Lost Deathstalkers - the word to Rane Yorick
-  accept 429 -- Wild Hearts - Rane Yorick; discolored worg hearts, west woods
-  complete 429 @44.52,26.8 -- Discolored Worg Hearts (Mottled Worg, west woods)
-  complete 429 @44.59,80.7 -- Discolored Worg Hearts (Bloodsnout Worg, south woods)
-  turnin 429 -- Wild Hearts - the hearts to Renferrel
-  accept 430 -- Return to Quinn - Renferrel; carry the potion to Quinn Yorick
-  turnin 430 -- Return to Quinn - the potion to Quinn Yorick
-  accept 91920 -- Wild Eyes - Quinn Yorick; murloc eyes with no in-zone dropper (Westfall expedition below)
-  accept 435 -- Escorting Erland - Deathstalker Erland; escort Erland to Rane Yorick
-  complete 435 @54.37,13.38 -- Escort Erland to Rane Yorick at the Ivar Patch
-  turnin 435 -- Escorting Erland - Erland to Rane Yorick
-  accept 449 -- The Deathstalkers' Report - Rane Yorick; carry the report to Hadrec
+  turnin 428 only Horde -- Lost Deathstalkers - the word to Rane Yorick
+  accept 429 only Horde -- Wild Hearts - Rane Yorick; discolored worg hearts, west woods
+  complete 429 only Horde @44.52,26.8 -- Discolored Worg Hearts (Mottled Worg, west woods)
+  complete 429 only Horde @44.59,80.7 -- Discolored Worg Hearts (Bloodsnout Worg, south woods)
+  turnin 429 only Horde -- Wild Hearts - the hearts to Renferrel
+  accept 430 only Horde -- Return to Quinn - Renferrel; carry the potion to Quinn Yorick
+  turnin 430 only Horde -- Return to Quinn - the potion to Quinn Yorick
+  accept 91920 only Horde -- Wild Eyes - Quinn Yorick; murloc eyes with no in-zone dropper (Westfall expedition below)
+  accept 435 only Horde -- Escorting Erland - Deathstalker Erland; escort Erland to Rane Yorick
+  complete 435 only Horde @54.37,13.38 -- Escort Erland to Rane Yorick at the Ivar Patch
+  turnin 435 only Horde -- Escorting Erland - Erland to Rane Yorick
+  accept 449 only Horde -- The Deathstalkers' Report - Rane Yorick; carry the report to Hadrec
 
 step Sepulcher return - Quinn's chain turns
 
   zone map 1421
 
   note Back to the Sepulcher with the field work.
-  turnin 449 -- The Deathstalkers' Report - the report to Hadrec
-  accept 3221 -- Speak with Renferrel - Hadrec; speak with Renferrel
-  turnin 3221 -- Speak with Renferrel - the word to Renferrel
-  accept 1359 -- Zinge's Delivery - Renferrel; wolf heart samples for Zinge in Undercity (expedition below)
-  complete 421 @47.79,34.1 -- Moonrage Whitescalps (north-west dens)
-  complete 421 @51.78,46.56 -- Moonrage Whitescalps (north-center dens)
-  turnin 421 -- Prove Your Worth - the scalps to Dalar Dawnweaver
-  accept 422 -- Arugal's Folly - Dalar Dawnweaver; the Remedy sits in dusty spellbooks north-west
-  complete 422 @52.83,28.58 -- Remedy of Arugal (Dusty Spellbooks, north-west den)
-  turnin 422 -- Arugal's Folly - the word to Dalar Dawnweaver
-  accept 423 -- Arugal's Folly - Dalar Dawnweaver; glutton and darksoul shackles, north-west
-  complete 423 @38.7,21.97 -- Glutton Shackles (Moonrage Glutton, north-west dens)
-  complete 423 @36.78,21.9 -- Darksoul Shackles (Moonrage Darksoul, north-west dens)
-  turnin 423 -- Arugal's Folly - the shackles to Dalar Dawnweaver
-  accept 424 -- Arugal's Folly - Dalar Dawnweaver; Grimson the Pale south-east, then Dalar's far chain
-  complete 424 @58.58,44.86 -- Head of Grimson (Grimson the Pale, east woods)
-  turnin 424 -- Arugal's Folly - the head to Dalar Dawnweaver
-  accept 99 -- Arugal's Folly - Dalar Dawnweaver; Pyrewood shackles south
-  complete 99 @42.78,73.14 -- Pyrewood Shackles (Pyrewood Watcher, Pyrewood Village)
-  complete 99 @46.73,72.75 -- Pyrewood Shackles (Moonrage Watcher, Pyrewood Village)
-  turnin 99 -- Arugal's Folly - the shackles to Dalar Dawnweaver
-  accept 98298 -- Arugal's Folly - Dalar Dawnweaver; worgen bits south
-  complete 98298 @44.49,79.16 -- Worgen Bits (Moonrage Bloodhowler, far south)
-  turnin 98298 -- Arugal's Folly - the bits to Dalar Dawnweaver
-  accept 98299 -- Stop the Spread - Dalar Dawnweaver; sickly refugees far south
-  complete 98299 @44.33,84.41 -- Haggard Refugees (far south camp)
-  complete 98299 @44.2,83.52 -- Sickly Refugees (far south camp)
-  turnin 98299 -- Stop the Spread - the word to Dalar Dawnweaver
+  turnin 449 only Horde -- The Deathstalkers' Report - the report to Hadrec
+  accept 3221 only Horde -- Speak with Renferrel - Hadrec; speak with Renferrel
+  turnin 3221 only Horde -- Speak with Renferrel - the word to Renferrel
+  accept 1359 only Horde -- Zinge's Delivery - Renferrel; wolf heart samples for Zinge in Undercity (expedition below)
+  complete 421 only Horde @47.79,34.1 -- Moonrage Whitescalps (north-west dens)
+  complete 421 only Horde @51.78,46.56 -- Moonrage Whitescalps (north-center dens)
+  turnin 421 only Horde -- Prove Your Worth - the scalps to Dalar Dawnweaver
+  accept 422 only Horde -- Arugal's Folly - Dalar Dawnweaver; the Remedy sits in dusty spellbooks north-west
+  complete 422 only Horde @52.83,28.58 -- Remedy of Arugal (Dusty Spellbooks, north-west den)
+  turnin 422 only Horde -- Arugal's Folly - the word to Dalar Dawnweaver
+  accept 423 only Horde -- Arugal's Folly - Dalar Dawnweaver; glutton and darksoul shackles, north-west
+  complete 423 only Horde @38.7,21.97 -- Glutton Shackles (Moonrage Glutton, north-west dens)
+  complete 423 only Horde @36.78,21.9 -- Darksoul Shackles (Moonrage Darksoul, north-west dens)
+  turnin 423 only Horde -- Arugal's Folly - the shackles to Dalar Dawnweaver
+  accept 424 only Horde -- Arugal's Folly - Dalar Dawnweaver; Grimson the Pale south-east, then Dalar's far chain
+  complete 424 only Horde @58.58,44.86 -- Head of Grimson (Grimson the Pale, east woods)
+  turnin 424 only Horde -- Arugal's Folly - the head to Dalar Dawnweaver
+  accept 99 only Horde -- Arugal's Folly - Dalar Dawnweaver; Pyrewood shackles south
+  complete 99 only Horde @42.78,73.14 -- Pyrewood Shackles (Pyrewood Watcher, Pyrewood Village)
+  complete 99 only Horde @46.73,72.75 -- Pyrewood Shackles (Moonrage Watcher, Pyrewood Village)
+  turnin 99 only Horde -- Arugal's Folly - the shackles to Dalar Dawnweaver
+  accept 98298 only Horde -- Arugal's Folly - Dalar Dawnweaver; worgen bits south
+  complete 98298 only Horde @44.49,79.16 -- Worgen Bits (Moonrage Bloodhowler, far south)
+  turnin 98298 only Horde -- Arugal's Folly - the bits to Dalar Dawnweaver
+  accept 98299 only Horde -- Stop the Spread - Dalar Dawnweaver; sickly refugees far south
+  complete 98299 only Horde @44.33,84.41 -- Haggard Refugees (far south camp)
+  complete 98299 only Horde @44.2,83.52 -- Sickly Refugees (far south camp)
+  turnin 98299 only Horde -- Stop the Spread - the word to Dalar Dawnweaver
 
 step West woods - hearts and blood for Renferrel
 
   zone map 1421
 
   note West of the Sepulcher for the apothecary run.
-  complete 447 @44.09,52 -- Grizzled Bear Hearts (Ferocious Grizzled Bear, west woods)
-  complete 447 @34.16,17.33 -- Skittering Blood (Moss Stalker, south-west woods)
+  complete 447 only Horde @44.09,52 -- Grizzled Bear Hearts (Ferocious Grizzled Bear, west woods)
+  complete 447 only Horde @34.16,17.33 -- Skittering Blood (Moss Stalker, south-west woods)
 
 step Fenris west - the Dead Fields and the ferry
 
   zone map 1421
 
   note West to the Dead Fields, then east to the ferry landing (58.44,34.9).
-  complete 437 @44,21 -- Essence of Nightlash (Nightlash, Dead Fields west)
-  complete 437 @45.91,21.27 -- Enter the Dead Fields (west field)
-  turnin 437 -- The Dead Fields - the essence to Hadrec
-  accept 438 -- The Decrepit Ferry - Hadrec; search the ferry east
-  turnin 438 -- The Decrepit Ferry - the word to the Corpse Laden Boat
-  accept 439 -- Rot Hide Clues - the Corpse Laden Boat; Deliah's ring for Hadrec
-  turnin 439 -- Rot Hide Clues - the ring to Hadrec
-  accept 443 -- Rot Hide Ichor - Hadrec; ichor off the Fenris rot hides
-  accept 440 -- The Engraved Ring - Hadrec; Deliah's ring for Sevren in Brill (Tirisfal expedition below)
-  complete 443 @63.7,22.9 -- Rot Hide Ichor (Rot Hide Brute, Fenris Isle)
-  complete 443 @65.08,25.13 -- Rot Hide Ichor (Rot Hide Savage, Fenris Isle)
-  turnin 443 -- Rot Hide Ichor - the ichor to Renferrel
-  accept 444 -- Rot Hide Origins - Renferrel; sample ichor for Bethor in Undercity (expedition below)
+  complete 437 only Horde @44,21 -- Essence of Nightlash (Nightlash, Dead Fields west)
+  complete 437 only Horde @45.91,21.27 -- Enter the Dead Fields (west field)
+  turnin 437 only Horde -- The Dead Fields - the essence to Hadrec
+  accept 438 only Horde -- The Decrepit Ferry - Hadrec; search the ferry east
+  turnin 438 only Horde -- The Decrepit Ferry - the word to the Corpse Laden Boat
+  accept 439 only Horde -- Rot Hide Clues - the Corpse Laden Boat; Deliah's ring for Hadrec
+  turnin 439 only Horde -- Rot Hide Clues - the ring to Hadrec
+  accept 443 only Horde -- Rot Hide Ichor - Hadrec; ichor off the Fenris rot hides
+  accept 440 only Horde -- The Engraved Ring - Hadrec; Deliah's ring for Sevren in Brill (Tirisfal expedition below)
+  complete 443 only Horde @63.7,22.9 -- Rot Hide Ichor (Rot Hide Brute, Fenris Isle)
+  complete 443 only Horde @65.08,25.13 -- Rot Hide Ichor (Rot Hide Savage, Fenris Isle)
+  turnin 443 only Horde -- Rot Hide Ichor - the ichor to Renferrel
+  accept 444 only Horde -- Rot Hide Origins - Renferrel; sample ichor for Bethor in Undercity (expedition below)
 
 step Fenris assault - Thule's head
 
   zone map 1421
 
   note Thule Ravenclaw holds Fenris Keep's north end (65.71,23.67).
-  accept 442 -- Assault on Fenris Isle - Hadrec; Thule's head for Hadrec
-  complete 442 @65.71,23.67 -- Head of Thule (Thule Ravenclaw, Fenris Keep)
-  turnin 442 -- Assault on Fenris Isle - the head to Hadrec
+  accept 442 only Horde -- Assault on Fenris Isle - Hadrec; Thule's head for Hadrec
+  complete 442 only Horde @65.71,23.67 -- Head of Thule (Thule Ravenclaw, Fenris Keep)
+  turnin 442 only Horde -- Assault on Fenris Isle - the head to Hadrec
 
 step Fenris graves - Alaric's rest
 
   zone map 1421
 
   note East to the Shallow Grave (67.87,24.85) and the Dusty Shelf (65.36,24.81) on Fenris Isle.
-  collect 3317 optional @63.7,22.9 -- A Talking Head (Rot Hide Brute, Fenris rot hides - accept when it drops)
-  accept 460 -- Resting in Pieces - A Talking Head off the Fenris rot hides; lay Alaric's head in his grave
-  turnin 460 -- Resting in Pieces - the head to the Shallow Grave
-  accept 461 -- The Hidden Niche - the Shallow Grave; take Alaric to the hidden alcove
-  turnin 461 -- The Hidden Niche - Alaric to the Dusty Shelf
-  accept 491 -- Wand to Bethor - the Dusty Shelf; the wand for Bethor in Undercity (expedition below)
+  collect 3317 optional only Horde @63.7,22.9 -- A Talking Head (Rot Hide Brute, Fenris rot hides - accept when it drops)
+  accept 460 only Horde -- Resting in Pieces - A Talking Head off the Fenris rot hides; lay Alaric's head in his grave
+  turnin 460 only Horde -- Resting in Pieces - the head to the Shallow Grave
+  accept 461 only Horde -- The Hidden Niche - the Shallow Grave; take Alaric to the hidden alcove
+  turnin 461 only Horde -- The Hidden Niche - Alaric to the Dusty Shelf
+  accept 491 only Horde -- Wand to Bethor - the Dusty Shelf; the wand for Bethor in Undercity (expedition below)
 
 step Pyrewood - the crate and the council
 
   zone map 1421
 
   note South to Pyrewood Village: the Dalaran Crate (49.89,60.33), Faerleia (46.5,74.39), the Dead Drop (47.12,70.99).
-  turnin 477 -- Border Crossings - the word to the Dalaran Crate
-  accept 478 -- Maps and Runes - the Dalaran Crate; a strange pendant for Allister
-  turnin 478 -- Maps and Runes - the pendant to Allister
-  accept 481 -- Dalar's Analysis - Allister; the rune-inscribed pendant for Dalar
-  turnin 481 -- Dalar's Analysis - the pendant to Dalar Dawnweaver
-  accept 482 -- Dalaran's Intentions - Dalar Dawnweaver; speak with Allister
-  turnin 482 -- Dalaran's Intentions - the word to Allister
-  accept 479 -- Ambermill Investigations - Allister; Dalaran pendants south-east
-  complete 479 @54.85,54.4 -- Dalaran Pendants (Dalaran Protector, Ambermill)
-  complete 479 @57.64,64.3 -- Dalaran Pendants (Dalaran Mage, Ambermill)
-  turnin 479 -- Ambermill Investigations - the pendants to Allister
-  accept 95981 -- Watching the Roads - Allister; wizards and watchers at Ambermill
-  complete 95981 @55.96,78.03 -- Dalaran Watchers (Ambermill south)
-  complete 95981 @57.61,77.46 -- Dalaran Wizards (Ambermill south)
-  turnin 95981 -- Watching the Roads - the word to Allister
-  accept 480 -- The Weaver - Allister; the archmage's staff at Ambermill
-  complete 480 @63.4,64.27 -- Ataeric's Staff (Archmage Ataeric, Ambermill)
-  turnin 480 -- The Weaver - the staff to Allister
-  accept 452 -- Pyrewood Ambush - Deathstalker Faerleia; help kill the Pyrewood Council
-  complete 452 @46.49,74.09 -- Councilman Smithers (Pyrewood Village)
-  turnin 452 -- Pyrewood Ambush - the word to Faerleia
+  turnin 477 only Horde -- Border Crossings - the word to the Dalaran Crate
+  accept 478 only Horde -- Maps and Runes - the Dalaran Crate; a strange pendant for Allister
+  turnin 478 only Horde -- Maps and Runes - the pendant to Allister
+  accept 481 only Horde -- Dalar's Analysis - Allister; the rune-inscribed pendant for Dalar
+  turnin 481 only Horde -- Dalar's Analysis - the pendant to Dalar Dawnweaver
+  accept 482 only Horde -- Dalaran's Intentions - Dalar Dawnweaver; speak with Allister
+  turnin 482 only Horde -- Dalaran's Intentions - the word to Allister
+  accept 479 only Horde -- Ambermill Investigations - Allister; Dalaran pendants south-east
+  complete 479 only Horde @54.85,54.4 -- Dalaran Pendants (Dalaran Protector, Ambermill)
+  complete 479 only Horde @57.64,64.3 -- Dalaran Pendants (Dalaran Mage, Ambermill)
+  turnin 479 only Horde -- Ambermill Investigations - the pendants to Allister
+  accept 95981 only Horde -- Watching the Roads - Allister; wizards and watchers at Ambermill
+  complete 95981 only Horde @55.96,78.03 -- Dalaran Watchers (Ambermill south)
+  complete 95981 only Horde @57.61,77.46 -- Dalaran Wizards (Ambermill south)
+  turnin 95981 only Horde -- Watching the Roads - the word to Allister
+  accept 480 only Horde -- The Weaver - Allister; the archmage's staff at Ambermill
+  complete 480 only Horde @63.4,64.27 -- Ataeric's Staff (Archmage Ataeric, Ambermill)
+  turnin 480 only Horde -- The Weaver - the staff to Allister
+  accept 452 only Horde -- Pyrewood Ambush - Deathstalker Faerleia; help kill the Pyrewood Council
+  complete 452 only Horde @46.49,74.09 -- Councilman Smithers (Pyrewood Village)
+  turnin 452 only Horde -- Pyrewood Ambush - the word to Faerleia
 
 step Dead Drop - the Horn of Xelthos (Rogue)
 
@@ -217,19 +218,19 @@ step Beren's Peril - the Offering Stone
   zone map 1421
 
   note South-east to Beren's Peril and the Offering Stone (58.12,69.77).
-  complete 516 @56.75,70.43 -- Ravenclaw Drudgers (Beren's Peril)
-  complete 516 @57.12,71.02 -- Ravenclaw Guardians (Beren's Peril)
-  turnin 516 -- Beren's Peril - the word to Allister
-  collect 271343 optional @57.12,71.02 -- Note Scrap (Ravenclaw Guardian, Beren's Peril - accept when it drops)
-  accept 95884 -- The Offering Stone - a Note Scrap off Beren's ravenclaw; the turn-in rides the stone below
-  turnin 95884 -- The Offering Stone - the word to the Offering Stone
-  accept 95883 -- The Tortured Soul - the Offering Stone; a tortured soul off Beren's ravenclaw
-  complete 95883 @57.12,71.02 -- Tortured Soul (Ravenclaw Guardian, Beren's Peril)
-  turnin 95883 -- The Tortured Soul - the word to the Offering Stone
-  accept 95885 -- The Offering of Blood - the Offering Stone; blood offering at the stone
-  complete 95885 @58.19,69.83 -- Tortured Soul released (Beren's Peril)
+  complete 516 only Horde @56.75,70.43 -- Ravenclaw Drudgers (Beren's Peril)
+  complete 516 only Horde @57.12,71.02 -- Ravenclaw Guardians (Beren's Peril)
+  turnin 516 only Horde -- Beren's Peril - the word to Allister
+  collect 271343 optional only Horde @57.12,71.02 -- Note Scrap (Ravenclaw Guardian, Beren's Peril - accept when it drops)
+  accept 95884 only Horde -- The Offering Stone - a Note Scrap off Beren's ravenclaw; the turn-in rides the stone below
+  turnin 95884 only Horde -- The Offering Stone - the word to the Offering Stone
+  accept 95883 only Horde -- The Tortured Soul - the Offering Stone; a tortured soul off Beren's ravenclaw
+  complete 95883 only Horde @57.12,71.02 -- Tortured Soul (Ravenclaw Guardian, Beren's Peril)
+  turnin 95883 only Horde -- The Tortured Soul - the word to the Offering Stone
+  accept 95885 only Horde -- The Offering of Blood - the Offering Stone; blood offering at the stone
+  complete 95885 only Horde @58.19,69.83 -- Tortured Soul released (Beren's Peril)
   note 95885's offering ritual has no placed event in the data - work the stone at (58.12,69.77); the route never waits on it.
-  turnin 95885 -- The Offering of Blood - the word to the Offering Stone
+  turnin 95885 only Horde -- The Offering of Blood - the word to the Offering Stone
 
 step Dalaran objects - Digest and Secrets
 
@@ -265,7 +266,7 @@ step Fenris east - the Earthen Ring line (Paladin)
   complete 95036
   note 95036's Weapon Notes, Whitestone Oak Lumber, Enchanted Silver Ingot and Purified Kor Gem have no placed source in the data - check bags and crafts; the route never waits on them.
   turnin 95036 only Paladin,Undead -- A Moon-Kissed Blade - the materials to Trevan Rol
-  accept 95111 only Paladin -- An Underrated Talent - Trevan Rol; ask Ott to forge the blade (Hillsbrad expedition below)
+  accept 95111 only Paladin,Horde -- An Underrated Talent - Trevan Rol; ask Ott to forge the blade (Hillsbrad expedition below)
   accept 95140 only Paladin,Undead -- Old Fire-Eye - Lumina Windsinger; use the Moonsilver Blade on Old Fire-Eye south (note 95126 accepts in Hillsbrad, not contracted here - the complete and turn-in stand alone in the when onquest mini-step below)
 
 step Shadowfang Keep - Arugal and Vincent
@@ -273,10 +274,10 @@ step Shadowfang Keep - Arugal and Vincent
   zone map 1421
 
   note Both of these go inside Shadowfang Keep (no entrance point in the data - enter with a group).
-  complete 1014
+  complete 1014 only Horde
   note 1014's Head of Arugal drops from Archmage Arugal inside Shadowfang Keep (both drop records are unplaced); the route never waits on it.
-  turnin 1014 -- Arugal Must Die - the head to Dalar Dawnweaver
-  turnin 1098 -- Deathstalkers in Shadowfang - the word to Deathstalker Vincent
+  turnin 1014 only Horde -- Arugal Must Die - the head to Dalar Dawnweaver
+  turnin 1098 only Horde -- Deathstalkers in Shadowfang - the word to Deathstalker Vincent
   note Deathstalker Vincent has no placed spawn in the data - turn in if found; the turn-in is written to Vincent, never an invented point.
 
 step Sepulcher west - the Shaman's brazier
@@ -284,35 +285,36 @@ step Sepulcher west - the Shaman's brazier
   zone map 1421
 
   note West to the brazier (38.26,44.56) and the Manifestation (38.65,44.58). Shamans only.
-  accept 100 only Shaman -- Call of Water - the Brazier of Everfount; speak with the Minor Manifestation (note 63 Water Sapta accepts in the Barrens, not contracted here - the turn-in and the shard both ride the mini-step below)
-  accept 1103 only Shaman -- Call of Water - Tiev Mordune; the sapta changes hands here
-  complete 1103 @37.34,44.15 -- Water Sapta (Tiev Mordune, Sepulcher west)
-  turnin 1103 only Shaman -- Call of Water - the word to Tiev Mordune
+  accept 100 only Shaman,Horde -- Call of Water - the Brazier of Everfount; speak with the Minor Manifestation (note 63 Water Sapta accepts in the Barrens, not contracted here - the turn-in and the shard both ride the mini-step below)
+  accept 1103 only Shaman,Horde -- Call of Water - Tiev Mordune; the sapta changes hands here
+  complete 1103 only Horde @37.34,44.15 -- Water Sapta (Tiev Mordune, Sepulcher west)
+  turnin 1103 only Shaman,Horde -- Call of Water - the word to Tiev Mordune
 
 step Soft pre - Water Sapta (open)
 
   zone map 1421
 
   when onquest 100
+  only Horde
 
-  turnin 100 only Shaman -- Call of Water - the word to the Minor Manifestation of Water
-  accept 96 only Shaman -- Call of Water - the Minor Manifestation of Water; carry the shard to Islen Waterseer in the Barrens (expedition below)
+  turnin 100 only Shaman,Horde -- Call of Water - the word to the Minor Manifestation of Water
+  accept 96 only Shaman,Horde -- Call of Water - the Minor Manifestation of Water; carry the shard to Islen Waterseer in the Barrens (expedition below)
 
 step North-east corner - Varimathras
 
   zone map 1421
 
   note North-east to Varimathras (74.2,13.5), past Griffs (71.9,8.9) and Felben (72,9.4) - those two ride later legs.
-  accept 5725 -- The Power to Destroy... - Varimathras; the two books have no placed source in the data (bag note below)
-  complete 5725
+  accept 5725 only Horde -- The Power to Destroy... - Varimathras; the two books have no placed source in the data (bag note below)
+  complete 5725 only Horde
   note 5725's Spells of Shadow and Incantations from the Nether have no placed source in the data - check bags; the route never waits on them.
-  turnin 5725 -- The Power to Destroy... - the word to Varimathras
+  turnin 5725 only Horde -- The Power to Destroy... - the word to Varimathras
 step Undercity run - Faranell's errands
 
   zone map 1458
 
-  turnin 447 -- A Recipe For Death - the hearts and blood to Master Apothecary Faranell (48.82,69.28)
-  accept 450 -- A Recipe For Death - Master Apothecary Faranell; the journal rides the bookshelf below (Sepulcher return leg)
+  turnin 447 only Horde -- A Recipe For Death - the hearts and blood to Master Apothecary Faranell (48.82,69.28)
+  accept 450 only Horde -- A Recipe For Death - Master Apothecary Faranell; the journal rides the bookshelf below (Sepulcher return leg)
   tip Expedition leg to Undercity; the frame switches on.
 
   zone map 1421
@@ -322,18 +324,18 @@ step Sepulcher return - Berard's journal
   zone map 1421
 
   note Back to the Sepulcher with the journal work, then east to the shore - by way of Berard's Bookshelf in Pyrewood (42.98,73.18).
-  complete 450 @42.98,73.18 -- Berard's Journal (Berard's Bookshelf, Pyrewood Village)
-  turnin 450 -- A Recipe For Death - the journal to Renferrel
-  accept 451 -- A Recipe For Death - Renferrel; lake moss and a hardened tumor, east shore
-  complete 451 @68.62,37.41 -- Lake Skulker Moss (Lake Skulker, east shore)
-  complete 451 @76.54,26.1 -- Lake Creeper Moss (Lake Creeper, east shore)
-  complete 451 @56.1,28.41 -- Hardened Tumor (Vile Fin Shredder, east shore)
+  complete 450 only Horde @42.98,73.18 -- Berard's Journal (Berard's Bookshelf, Pyrewood Village)
+  turnin 450 only Horde -- A Recipe For Death - the journal to Renferrel
+  accept 451 only Horde -- A Recipe For Death - Renferrel; lake moss and a hardened tumor, east shore
+  complete 451 only Horde @68.62,37.41 -- Lake Skulker Moss (Lake Skulker, east shore)
+  complete 451 only Horde @76.54,26.1 -- Lake Creeper Moss (Lake Creeper, east shore)
+  complete 451 only Horde @56.1,28.41 -- Hardened Tumor (Vile Fin Shredder, east shore)
 
 step Elwynn expedition - murloc eyes
 
   zone map 1429
 
-  complete 91920 @52.34,86.73 -- Murloc Eyes (Murloc Forager, Elwynn border camp - first-listed source)
+  complete 91920 only Horde @52.34,86.73 -- Murloc Eyes (Murloc Forager, Elwynn border camp - first-listed source)
   tip Expedition leg to Elwynn Forest for the eyes (no in-zone dropper in the data); the frame switches on.
 
   zone map 1421
@@ -343,38 +345,38 @@ step Sepulcher return - Quinn's potion
   zone map 1421
 
   note Back to Renferrel and the Ivar Patch with the eyes.
-  accept 92401 -- A Frightened Request - Tabitha Heartweaver (44.52,43.02); her missing brother lies somewhere in the Ruins of Lordaeron (Undercity expedition below)
-  turnin 91920 -- Wild Eyes - the eyes to Renferrel
-  accept 91921 -- Return to Quinn (Again) - Renferrel; carry the potion to Quinn Yorick
-  turnin 91921 -- Return to Quinn (Again) - the potion to Quinn Yorick
-  accept 425 -- Ivar the Foul - Rane Yorick; Ivar's head at the Ivar Patch
-  complete 425 @51.52,13.9 -- Head of Ivar (Ivar the Foul, Ivar Patch)
-  turnin 425 -- Ivar the Foul - the head to Rane Yorick
+  accept 92401 only Horde -- A Frightened Request - Tabitha Heartweaver (44.52,43.02); her missing brother lies somewhere in the Ruins of Lordaeron (Undercity expedition below)
+  turnin 91920 only Horde -- Wild Eyes - the eyes to Renferrel
+  accept 91921 only Horde -- Return to Quinn (Again) - Renferrel; carry the potion to Quinn Yorick
+  turnin 91921 only Horde -- Return to Quinn (Again) - the potion to Quinn Yorick
+  accept 425 only Horde -- Ivar the Foul - Rane Yorick; Ivar's head at the Ivar Patch
+  complete 425 only Horde @51.52,13.9 -- Head of Ivar (Ivar the Foul, Ivar Patch)
+  turnin 425 only Horde -- Ivar the Foul - the head to Rane Yorick
 
 step Final expeditions - Undercity, Tirisfal, Hillsbrad, Barrens
 
   zone map 1458
 
-  turnin 451 -- A Recipe For Death - the moss and tumor to Master Apothecary Faranell (48.82,69.28)
-  turnin 1359 -- Zinge's Delivery - the wolf heart samples to Apothecary Zinge (50.14,67.97)
-  turnin 444 -- Rot Hide Origins - the sample ichor to Bethor Iceshard (84.07,17.45)
-  turnin 491 -- Wand to Bethor - the woven wand to Bethor Iceshard (84.07,17.45)
+  turnin 451 only Horde -- A Recipe For Death - the moss and tumor to Master Apothecary Faranell (48.82,69.28)
+  turnin 1359 only Horde -- Zinge's Delivery - the wolf heart samples to Apothecary Zinge (50.14,67.97)
+  turnin 444 only Horde -- Rot Hide Origins - the sample ichor to Bethor Iceshard (84.07,17.45)
+  turnin 491 only Horde -- Wand to Bethor - the woven wand to Bethor Iceshard (84.07,17.45)
   turnin 6323 only Undead -- Ride to the Undercity - Podrig's order to Gordon Wendham (61.49,41.79)
   turnin 78127 -- The Dalaran Digest - the volume to Owen Thadd (73.4,33)
   turnin 79096 -- Ataeric: On Arcane Curiosities - the volume to Owen Thadd (73.4,33)
-  complete 92401 @61.39,13.1 -- Search the surface ruins courtyard (Lordaeron Citizen patrols, Ruins of Lordaeron)
+  complete 92401 only Horde @61.39,13.1 -- Search the surface ruins courtyard (Lordaeron Citizen patrols, Ruins of Lordaeron)
   note 92401's investigation event fires in the Ruins of Lordaeron - Edward Heartweaver has no placed spawn in the data, so work the courtyard above and check the log; the route never waits on him.
   tip Expedition leg to Undercity; the frame switches on.
 
   zone map 1420
 
-  turnin 440 -- The Engraved Ring - Deliah's ring to Magistrate Sevren (61.26,50.84)
+  turnin 440 only Horde -- The Engraved Ring - Deliah's ring to Magistrate Sevren (61.26,50.84)
   tip Expedition leg to Tirisfal Glades; the frame switches on.
 
   zone map 1424
 
-  turnin 493 -- Journey to Hillsbrad Foothills - Renferrel's findings to Apothecary Lydon (61.44,19.06)
-  turnin 95111 only Paladin -- An Underrated Talent - the word to Ott (60.43,26.18)
+  turnin 493 only Horde -- Journey to Hillsbrad Foothills - Renferrel's findings to Apothecary Lydon (61.44,19.06)
+  turnin 95111 only Paladin,Horde -- An Underrated Talent - the word to Ott (60.43,26.18)
   tip Expedition leg to Hillsbrad Foothills; the frame switches on.
 
   zone map 1421
@@ -384,8 +386,9 @@ step Barrens expedition - the water shard
   zone map 1413
 
   when onquest 96
+  only Horde
 
-  turnin 96 only Shaman -- Call of Water - the shard to Islen Waterseer (65.83,43.78)
+  turnin 96 only Shaman,Horde -- Call of Water - the shard to Islen Waterseer (65.83,43.78)
   tip Expedition leg to the Barrens for the Call of Water turn-in, gated on holding 96; the frame switches on.
 
   zone map 1421
@@ -395,10 +398,10 @@ step North-east return - the New Plague
   zone map 1421
 
   note Back north-east to Griffs (71.9,8.9) with Faranell's chain done.
-  accept 95216 -- The New Plague - Theodore Griffs; the strain drops from an unplaced Witherfang (bag note below)
-  complete 95216
+  accept 95216 only Horde -- The New Plague - Theodore Griffs; the strain drops from an unplaced Witherfang (bag note below)
+  complete 95216 only Horde
   note 95216's Highly Toxic Strain drops from Witherfang, which has no placed spawn in the data - check bags; the route never waits on it.
-  turnin 95216 -- The New Plague - the strain to Theodore Griffs
+  turnin 95216 only Horde -- The New Plague - the strain to Theodore Griffs
 
 step Soft pre - the forged blade (open)
 
@@ -415,5 +418,5 @@ step Sepulcher farewell - Tabitha's thanks
   zone map 1421
 
   note Back to the Sepulcher to close Tabitha's request.
-  turnin 92401 -- A Frightened Request - word of the Ruins to Tabitha Heartweaver (44.52,43.02)
+  turnin 92401 only Horde -- A Frightened Request - word of the Ruins to Tabitha Heartweaver (44.52,43.02)
 
