@@ -1,0 +1,129 @@
+# Stonetalon Mountains (Horde) - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics and formulas whose SOURCE is
+# physically in Stonetalon Mountains for a Horde player, verified against the
+# local Forever game data (questie-forever item vendor and drop tables). Three
+# recipes are vendor-sold in-zone by Horde or neutral vendors (every buy line
+# carries an npc pin to the exact in-zone vendor); four more drop from narrow
+# in-zone sources and nowhere else, or nearly nowhere else, in the data.
+# Recipes sold only by Alliance-faction vendors are excluded (Alterac rule,
+# flipped — see docs/stonetalon-horde-companions-inventory.md), every other
+# Stonetalon-dropping recipe is a generic multi-zone world drop, and quest
+# records carry no reward data (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover
+# those. Each step is gated to its profession; other characters skip it
+# cleanly. Tailoring, Leatherworking, First Aid and Fishing have no
+# in-zone Horde source, so that is stated, not padded.
+guide butler-routes-completionist/stonetalon-horde-recipes
+title Stonetalon Mountains (Horde) - Recipes & Patterns
+levels 12-30
+zone Stonetalon Mountains
+faction Horde
+category Professions
+folder Companions
+keywords stonetalon, horde, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Alchemy — Sun Rock Retreat (Jeeda)
+
+  when skill Alchemy 1
+
+  vendor 4083 -- Jeeda (47.61, 61.59), Apprentice Witch Doctor
+  buy 6055 "Recipe: Fire Protection Potion" npc 4083
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — the south (Kulwia)
+
+  when skill Enchanting 1
+
+  vendor 12043 -- Kulwia (45.39, 59.33), Trade Supplies
+  buy 11039 "Formula: Enchant Cloak - Minor Agility" npc 12043
+  buy 11101 "Formula: Enchant Bracer - Lesser Strength" npc 12043
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+  note Kulwia also sells the Copper Rod tool — a tool, not a recipe, so it is not ridden here.
+
+step Engineering — the east (Veenix)
+
+  when skill Engineering 1
+
+  vendor 4086 -- Veenix (58.22, 51.74), Venture Co. Merchant
+  buy 7561 "Schematic: Goblin Jumper Cables" npc 4086
+  note Veenix is neutral and serves both factions; this is his Stonetalon point. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Windshear (rare drop)
+
+  when skill Cooking 1
+
+  loop
+  goto 73.13,61.06
+  goto 73.53,58.74
+  goto 73.8,59.26
+  goto 73.92,59.62
+  goto 74.43,58.39
+  goto 75.67,59.2
+  collect 249880 "Recipe: Royal Tea" optional
+  note Dropped only by the Windshear Geomancer (level 20); the recipe drops nowhere else in the data.
+
+step Alchemy — the west (rare drop)
+
+  when skill Alchemy 1
+
+  loop
+  goto 30.18,64.33
+  goto 30.93,59.23
+  goto 31.34,60.42
+  goto 31.83,58.76
+  goto 31.95,66.51
+  goto 32.57,60.66
+  goto 32.75,64.45
+  goto 33.36,64.99
+  goto 34.51,60.8
+  goto 35.25,63.21
+  goto 37.36,49.09
+  goto 37.79,44.11
+  collect 250382 "Recipe: Elixir of Spirit" optional
+  note Dropped only by the Bloodfury Harpy (level 23); the recipe drops nowhere else in the data.
+
+step Blacksmithing — the south (rare drop)
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 58.15,90.75
+  goto 58.28,89.89
+  goto 58.51,91.47
+  goto 58.74,89.58
+  goto 59.03,89.94
+  goto 59.57,90.25
+  goto 59.61,92.77
+  goto 60,90.26
+  goto 60.08,92.07
+  goto 60.44,90.99
+  goto 60.57,91.43
+  goto 61.08,92.46
+  goto 61.28,90.98
+  goto 61.93,93.42
+  goto 62.14,93.05
+  goto 62.22,93.59
+  goto 62.44,92.25
+  goto 62.67,92.57
+  collect 251454 "Plans: Brass Knuckles" optional
+  note Dropped only by the Gogger Rock Keeper (level 16); the plans drop nowhere else in the data.
+
+step Enchanting — the Charred Vale (rare drop)
+
+  when skill Enchanting 1
+
+  loop
+  goto 30.89,64.73
+  goto 30.45,68.08
+  goto 32.73,72.79
+  goto 32.8,63.45
+  goto 32.89,63.2
+  goto 34.15,67.58
+  collect 11151 "Formula: Enchant Gloves - Herbalism" optional
+  note Dropped by the Charred Ancient, the Blackened Ancient and the Vengeful Ancient — a tight in-zone family — plus two out-of-zone droppers; narrow, not zone-exclusive.
+
+step Tailoring, Leatherworking, First Aid, Fishing — no Horde source
+
+  note The data holds no Tailoring, Leatherworking, First Aid or Fishing recipe sourced in Stonetalon Mountains for Horde players: no servable in-zone vendor sells one and no in-zone mob drops one. (The in-zone Alliance vendors Harlown Darkweave and Janet Hommers sell a pattern and two cooking recipes, but they are Alliance-faction — see the inventory doc.) Polestar's own profession guides cover those professions' progression.
