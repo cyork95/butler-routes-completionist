@@ -1,0 +1,182 @@
+# Ashenvale (Horde) - Recipes (pack butler-routes-completionist, v1).
+# The Horde recipes companion to ashenvale-horde.guide: every recipe, pattern,
+# plans or formula whose source is physically in Ashenvale on map 1440 and
+# available to Horde - vendor-sold (Horde vendor only) or narrow mob drops.
+# All goals optional; skill-gated per profession; no accept/turnin lines.
+# Levels 19-30 (the Horde core band). Inventoried in
+# docs/ashenvale-horde-companions-inventory.md.
+guide butler-routes-completionist/ashenvale-horde-recipes
+title Ashenvale (Horde) - Recipes
+levels 19-30
+zone Ashenvale
+faction Horde
+category Professions
+folder Companions
+coords live
+version 1
+keywords recipe,pattern,plans,formula,cooking,alchemy,blacksmithing,leatherworking,enchanting
+
+step Northwest shore - Wik'Tar's stock
+  zone map 1440
+  vendor 12962 -- Wik'Tar, Fish Merchant & Supplies
+  when skill Cooking 1
+  buy 6369 "Recipe: Rockscale Cod" npc 12962 optional
+  buy 17062 "Recipe: Mithril Head Trout" npc 12962 optional
+  note No other profession has a vendor source in Ashenvale for Horde - the other vendors on this map are Alliance-faction and excluded.
+
+step Far north - Dark Strand Cultist's formula
+  zone map 1440
+  when skill Enchanting 1
+  loop
+    goto 30.38,31.76 map 1440
+    goto 30.39,30.99 map 1440
+    goto 30.8,31.61 map 1440
+    goto 30.99,30.89 map 1440
+    goto 31.11,30.25 map 1440
+    goto 31.47,29.3 map 1440
+    goto 32.59,29.31 map 1440
+  collect 249475 optional -- Formula: Enchant Bracer - Minor Healing Power off the Dark Strand Cultist, the sole dropper anywhere
+  note Seven far-north points - work the camp for the drop.
+
+step Zone-wide - Ashenvale Bear's recipe
+  zone map 1440
+  when skill Cooking 1
+  loop
+    goto 32.52,42.45 map 1440
+    goto 33.69,35.82 map 1440
+    goto 36.68,68.29 map 1440
+    goto 37.44,71.52 map 1440
+    goto 37.79,39.36 map 1440
+    goto 37.88,62.21 map 1440
+    goto 39.8,67.19 map 1440
+    goto 41.06,71.13 map 1440
+    goto 41.32,43.87 map 1440
+    goto 43.09,62.91 map 1440
+    goto 44.39,51.3 map 1440
+    goto 44.63,66.73 map 1440
+    goto 45.52,54.58 map 1440
+    goto 45.92,59.59 map 1440
+    goto 45.94,42.61 map 1440
+    goto 48.71,63.33 map 1440
+    goto 50.64,47.54 map 1440
+    goto 50.77,53.4 map 1440
+    goto 51.61,44.0 map 1440
+    goto 54.77,51.33 map 1440
+    goto 56.97,55.84 map 1440
+    goto 63.73,77.22 map 1440
+    goto 67.17,78.19 map 1440
+    goto 67.87,85.51 map 1440
+  collect 250182 optional -- Recipe: Bear Brisket off the Ashenvale Bear, the sole dropper anywhere
+  note The Bear also spawns in the Barrens - the drop is narrow, not zone-exclusive.
+
+step Zone-wide - Shadowhorn Stag's pattern
+  zone map 1440
+  when skill Leatherworking 1
+  loop
+    goto 36.82,71.59 map 1440
+    goto 37.58,61.82 map 1440
+    goto 38.66,66.44 map 1440
+    goto 39.95,63.48 map 1440
+    goto 40.01,69.23 map 1440
+    goto 40.59,72.88 map 1440
+    goto 41.53,59.34 map 1440
+    goto 42.89,68.5 map 1440
+    goto 43.0,64.19 map 1440
+    goto 45.4,60.42 map 1440
+    goto 46.09,66.29 map 1440
+    goto 46.29,63.64 map 1440
+    goto 47.49,52.29 map 1440
+    goto 48.64,55.94 map 1440
+    goto 48.77,62.31 map 1440
+    goto 49.79,48.7 map 1440
+    goto 50.23,51.2 map 1440
+    goto 51.81,53.31 map 1440
+    goto 52.05,45.36 map 1440
+    goto 52.2,64.06 map 1440
+    goto 52.27,56.57 map 1440
+    goto 54.26,51.74 map 1440
+    goto 55.56,55.18 map 1440
+    goto 57.96,57.73 map 1440
+  collect 252804 optional -- Pattern: Hillman's Leather Boots off the Shadowhorn Stag, the sole dropper anywhere
+
+step East - Xavian Hellcaller's recipe
+  zone map 1440
+  when skill Alchemy 1
+  loop
+    goto 77.73,44.78 map 1440
+    goto 77.8,42.52 map 1440
+    goto 77.85,44.43 map 1440
+    goto 78.23,44.8 map 1440
+    goto 78.67,45.35 map 1440
+    goto 79.06,45.55 map 1440
+  collect 250368 optional -- Recipe: Cleric's Elixir off the Xavian Hellcaller, the sole dropper anywhere
+  note His Uncloven Satyr Hoof feeds only an Alliance quest - no goal for it.
+
+step Northwest shore - Wrathtail Myrmidon's plans
+  zone map 1440
+  when skill Blacksmithing 1
+  loop
+    goto 4.95,14.49 map 1440
+    goto 6.02,11.0 map 1440
+    goto 6.09,12.7 map 1440
+    goto 6.46,11.84 map 1440
+    goto 6.62,16.17 map 1440
+    goto 7.06,15.46 map 1440
+    goto 7.18,13.74 map 1440
+    goto 7.2,12.93 map 1440
+    goto 7.21,14.28 map 1440
+    goto 7.83,16.06 map 1440
+    goto 7.84,12.61 map 1440
+    goto 7.97,15.18 map 1440
+    goto 8.34,15.18 map 1440
+    goto 11.25,31.02 map 1440
+  collect 251337 optional -- Plans: Sterling Silver Gauntlet off the Wrathtail Myrmidon, the sole dropper anywhere
+  note The Myrmidon also spawns on Darkshore - the drop is narrow, not zone-exclusive.
+
+step Southeast - Shadethicket Oracle's recipe
+  zone map 1440
+  when skill Alchemy 1
+  goto 66.66,82.17 map 1440
+  collect 250385 optional -- Recipe: Elixir of Strength off the Shadethicket Oracle, the sole dropper anywhere
+
+step Far north - Dark Strand Enforcer's plans
+  zone map 1440
+  when skill Blacksmithing 1
+  goto 31.62,30.68 map 1440
+  collect 251455 optional -- Plans: Bronze Dory off the Dark Strand Enforcer, the sole dropper anywhere
+
+step East - Bleakheart Hellcaller's plans
+  zone map 1440
+  when skill Blacksmithing 1
+  loop
+    goto 79.54,50.12 map 1440
+    goto 79.64,49.29 map 1440
+    goto 79.93,50.78 map 1440
+    goto 79.97,49.01 map 1440
+    goto 80.63,50.88 map 1440
+    goto 82.39,49.96 map 1440
+    goto 82.4,51.7 map 1440
+    goto 82.97,49.89 map 1440
+  collect 251456 optional -- Plans: Iron Fists off the Bleakheart Hellcaller, the sole dropper anywhere
+
+step Far-east edge - Highborne Apparition's pattern
+  zone map 1440
+  when skill Leatherworking 1
+  loop
+    goto 98.6,45.8 map 1440
+    goto 99.1,46.2 map 1440
+  note The Apparition is level 45, far above this guide's band - come back at the cap for this one.
+  collect 252858 optional -- Pattern: Tooled Leather Belt off the Highborne Apparition, the sole dropper anywhere
+
+step Far-east edge - Highborne Lichling's plans
+  zone map 1440
+  when skill Blacksmithing 1
+  loop
+    goto 98.2,47.0 map 1440
+    goto 99.1,46.2 map 1440
+  note The Lichling is level 46, far above this guide's band - come back at the cap for this one.
+  collect 251438 optional -- Plans: Blessed Plate Pauldrons off the Highborne Lichling, the sole dropper anywhere
+
+step Professions with no Ashenvale source
+  zone map 1440
+  note Tailoring, First Aid, Engineering and Fishing have no recipe, pattern, plans or schematic source physically in Ashenvale for Horde - no padding ships here.
