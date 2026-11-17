@@ -1,0 +1,268 @@
+guide butler-routes-completionist/ashenvale-horde
+title Ashenvale (Horde)
+levels 19-30
+zone Ashenvale
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step East - Splintertree Post, mustering
+
+  note Splintertree Post is the Horde hub: Senani Thunderheart, Pixel, Kuray'bin, Gurda Ragescar, Locke Okarr, Mastok Wrilehiss, Yama Snowhoof, Ertog Ragetusk, and the writ-taker Ash'alari. Take the hub's asks here; the forest fills them.
+  accept 6383 -- The Ashenvale Hunt - Senani Thunderheart; the hunt opens with Sharptalon, Ursangous and Shadumbra, east and west
+  turnin 6383 -- The Ashenvale Hunt - back to Senani Thunderheart
+  note 6383 carries no objectives of its own - it opens the three beast item-starts below, which need it in the log.
+  accept 6441 -- Satyr Horns - Pixel; sixteen Satyr Horns out of the Xavian satyrs, far east
+  note 6441's horns fill on the eastern sweep below - hand them in on the return.
+  accept 6503 -- Ashenvale Outrunners - Kuray'bin; nine Ashenvale Outrunners in the woods north of the post
+  note 6503's runners fill on the eastern sweep below - hand them in on the return.
+  accept 6504 -- The Lost Pages - Gurda Ragescar; the twelve missing Shredder Manual pages, bound as Chapters 1, 2 and 3
+  note 6504's pages name no dropper and no vendor anywhere in the data - have Chapters 1, 2 and 3 (items 16642-16644) in your bags.
+  accept 6571 -- Warsong Supplies - Locke Okarr; Saw Blades, Logging Rope, Warsong Oil and the Warsong Axe Shipment
+  note 6571's four supplies scatter wide: rope off the Thistlefur furbolgs west, oil out of the Warsong camp crates, blades off Pixel himself, and the axe shipment all the way in Stranglethorn - the legs below gather each in turn.
+  accept 94213 optional -- Craftsman's Writ: Lesser Mana Potion - the writ (item 264013) and a Lesser Mana Potion (crafted, or bought widely)
+  note 94213's writ has no placed source in the data - have the writ and a Lesser Mana Potion in your bags.
+  turnin 94213 optional -- Craftsman's Writ: Lesser Mana Potion - back to Ash'alari
+  accept 25 -- Stonetalon Standstill - Mastok Wrilehiss; twelve Befouled Water Elementals at Mystral Lake, and the gazebo above the Alliance outpost
+
+step Center - Mystral Lake and Tideress
+
+  complete 25 @45.08,69.3 era -- twelve Befouled Water Elementals for Mastok Wrilehiss, around Mystral Lake
+  note The elementals cluster around (45-50, 67-72) - work the lakeshore for all twelve.
+  complete 25 @48.92,69.56 era -- scout the gazebo on Mystral Lake for Mastok Wrilehiss, above the Alliance outpost
+  collect 16408 @46.0,70.0 era -- the Befouled Water Globe off Tideress for Mastok Wrilehiss
+  note The Befouled Water Globe starts The Befouled Element in your bags - Mastok takes it on the return below.
+  accept 1918 -- The Befouled Element - the Befouled Water Globe to Mastok Wrilehiss at Splintertree Post
+
+step East - Sharptalon's ground
+
+  collect 16305 @74.98,70.06 era -- Sharptalon's Claw off Sharptalon for Senani Thunderheart
+  note Sharptalon's Claw starts Sharptalon's Claw in your bags - Senani takes it on the return below.
+  accept 2 -- Sharptalon's Claw - the claw to Senani Thunderheart at Splintertree Post
+
+step East - the Outrunner woods and the satyrs
+
+  complete 6503 @70.97,72.6 era -- nine Ashenvale Outrunners for Kuray'bin, in the woods north of Splintertree
+  note The outrunners range around (70-76, 69-76) - work the woods for all nine.
+  collect 5481 x16 @77.58,46.17 era -- sixteen Satyr Horns off the Xavian satyrs for Pixel
+  note The Xavian rogues cluster around (77-78, 43-46), east past the post - work the camp for all sixteen horns.
+
+step East - Splintertree Post, first return
+
+  turnin 2 -- Sharptalon's Claw - the claw to Senani Thunderheart
+  turnin 25 -- Stonetalon Standstill - back to Mastok Wrilehiss
+  turnin 1918 -- The Befouled Element - the globe to Mastok Wrilehiss
+  accept 824 -- Je'neu of the Earthen Ring - Mastok Wrilehiss; the Befouled Water Globe goes to Je'neu Sancrea at Zoram'gar, far west
+  note 824 waited on 1918's turn-in - carry the fresh globe west with the outpost business.
+  turnin 6503 -- Ashenvale Outrunners - back to Kuray'bin
+
+step South - Torek's assault and Kadrak's bundle
+
+  accept 6544 -- Torek's Assault - Torek; escort him against Silverwing Outpost, then Ertog Ragetusk hears of it at Splintertree
+  complete 6544 @64.65,75.35 era -- take Silverwing Outpost with Torek for Ertog Ragetusk
+  note Silverwing Outpost sits at the recorded assault point - fight through it with Torek, then carry the word back east.
+
+step South - Kadrak's tower
+
+  note Kadrak holds the southern tower for the Horde war effort. Travellers carrying a twin report from the Barrens or Stonetalon hand it in here; everyone else takes the bundle on its own.
+  accept 6543 -- The Warsong Reports - Kadrak; the Bundle of Reports goes to the Scout, the Runner and the Outrider, and their updates come back to Kadrak's Barrens tower
+  note 6543 needs neither twin to take it - holders of 6541 or 6542 use the mini-steps below; everyone else takes it here on its own. Have the Bundle of Reports (item 16783, no placed source in the data) in your bags.
+
+step South - the Barrens twin report
+
+  when onquest 6541
+  turnin 6541 -- Report to Kadrak - Thork's word to Kadrak
+  accept 6543 -- The Warsong Reports - Kadrak; the Bundle of Reports goes to the Scout, the Runner and the Outrider
+  note Have the Bundle of Reports (item 16783, no placed source in the data) in your bags.
+
+step South - the Stonetalon twin report
+
+  when onquest 6542
+  turnin 6542 -- Report to Kadrak - Darn Talongrip's word to Kadrak
+  accept 6543 -- The Warsong Reports - Kadrak; the Bundle of Reports goes to the Scout, the Runner and the Outrider
+  note Have the Bundle of Reports (item 16783, no placed source in the data) in your bags.
+
+step East - the Scout's update, then the Outrider's
+
+  accept 6547 -- Warsong Scout Update - the Warsong Scout; his report for Kadrak's bundle
+  note The Report (item 16746) names no mob, object or vendor anywhere in the data - have the Warsong Report in your bags.
+  turnin 6547 -- Warsong Scout Update - back to the Warsong Scout
+  collect 16764 @71.05,68.36 era -- the Warsong Scout Update from the Warsong Scout for Kadrak's bundle
+  collect 16744 @78.18,44.75 era -- Warsong Oil out of the Warsong camp crates for Locke Okarr's supplies
+  note 6571's oil fills here among the eastern camp crates - the axe shipment waits for the Stranglethorn expedition.
+  accept 6546 -- Warsong Outrider Update - the Warsong Outrider; his report for Kadrak's bundle
+  note The Report (item 16746) names no mob, object or vendor anywhere in the data - have the Warsong Report in your bags.
+  turnin 6546 -- Warsong Outrider Update - back to the Warsong Outrider
+  collect 16765 @81.83,53.51 era -- the Warsong Outrider Update from the Warsong Outrider for Kadrak's bundle
+
+step West - Zoram'gar outpost, first visit
+
+  note The far west hub: Karang Amakkar, the Zoram Strand vendors Marukai and Mitsuwa, Warsong Runner, Muglash, and Je'neu Sancrea's cave. Take the outpost's asks here; the strand and the hills fill them.
+  accept 216 -- Between a Rock and a Thistlefur - Karang Amakkar; eight Thistlefur Avengers and eight Shamans, east in Thistlefur Village
+  note 216's kills fill on the central sweep below - hand them in on the way back through.
+  accept 6442 -- Naga at the Zoram Strand - Marukai; twenty Wrathtail Heads along the strand
+  complete 6442 @6.02,11.0 era -- twenty Wrathtail Heads off the Wrathtail along the strand for Marukai
+  note The Wrathtail line the strand around (5-8, 11-16) - work the shoreline for all twenty heads.
+  turnin 6442 -- Naga at the Zoram Strand - back to Marukai
+  accept 6462 -- Troll Charm - Mitsuwa; eight Troll Charms out of the Troll Chests, east past the strand
+  note 6462's charms fill on the central sweep below - hand them in on the way back through.
+  accept 6545 -- Warsong Runner Update - the Warsong Runner; his report for Kadrak's bundle
+  note The Report (item 16746) names no mob, object or vendor anywhere in the data - have the Warsong Report in your bags. This completes Kadrak's set of three updates.
+  turnin 6545 -- Warsong Runner Update - back to the Warsong Runner
+  collect 16763 @12.22,34.22 era -- the Warsong Runner Update from the Warsong Runner for Kadrak's bundle
+  accept 6641 -- Vorsha the Lasher - Muglash; see him to the brazier south of the outpost and put it out
+  complete 6641 @9.59,27.58 era -- see Muglash to the brazier and defeat Vorsha the Lasher for the Warsong Runner
+  turnin 6641 -- Vorsha the Lasher - Muglash's word to the Warsong Runner
+  accept 6921 -- Amongst the Ruins - Je'neu Sancrea; the Fathom Core
+  note 6921's Fathom Stone object has no placed spawn in the data - have the Fathom Core (item 16762) in your bags.
+  turnin 6921 -- Amongst the Ruins - the Fathom Core to Je'neu Sancrea
+  accept 6922 -- Baron Aquanis - Je'neu Sancrea; the Strange Water Globe
+  note 6922's globe drops off Baron Aquanis, who has no placed spawn in the data - have the Strange Water Globe (item 16782) in your bags.
+  turnin 6922 -- Baron Aquanis - the Strange Water Globe to Je'neu Sancrea
+  accept 909 -- Baron Aquanis - Je'neu Sancrea; the same Strange Water Globe, the twin of 6922 above
+  note 909 records no starter of its own in the data - it shares 6922's globe and Je'neu's turn-in, so take it here on the twin's evidence.
+  turnin 909 -- Baron Aquanis - the Strange Water Globe to Je'neu Sancrea
+  note 6564 (Allegiance to the Old Gods) starts from the Damp Note and turns in to Je'neu - the note fills on the northern leg below, and the accept rides there with it.
+
+step Center-west - Thistlefur and the troll chests
+
+  complete 216 @31.38,45.24 era -- eight Thistlefur Avengers for Karang Amakkar, in Thistlefur Village
+  note The Avengers range around (31-38, 32-45) - work the village for all eight.
+  complete 216 @30.28,42.26 era -- eight Thistlefur Shaman for Karang Amakkar, in Thistlefur Village
+  note The Shaman range around (30-36, 31-45) - work the village for all eight.
+  collect 16743 @31.55,45.66 era -- Logging Rope off the Thistlefur furbolgs for Locke Okarr's supplies
+  note The furbolgs drop the rope all through the village - take one for 6571's set.
+  collect 16602 x8 @40.39,33.24 era -- eight Troll Charms out of the Troll Chests for Mitsuwa, east of the Zoram Strand
+  note The Troll Chests stand clustered around (40-41, 31-35) - work the cluster for all eight charms.
+  accept 6482 -- Freedom to Ruul - Ruul Snowhoof; see him free of the Thistlefurs, then Yama Snowhoof hears of it far east
+  complete 6482 @38.53,37.32 era -- escort Ruul Snowhoof free of the Thistlefur camp for Yama Snowhoof
+  note Yama waits at Splintertree far east - hand 6482 in on the eastern return below.
+
+step Center - Ursangous's ground and the void caller
+
+  collect 16303 @39.76,65.21 era -- Ursangous's Paw off Ursangous for Senani Thunderheart
+  note Ursangous's Paw starts Ursangous's Paw in your bags - Senani takes it on the eastern return below.
+  accept 23 -- Ursangous's Paw - the paw to Senani Thunderheart at Splintertree Post
+  accept 98251 -- Never Coming Back - Va'xug Firefure; six Shadowhorn Stag and six Ashenvale Bear, north-west of Fallen Sky Lake
+  complete 98251 @37.58,61.82 era -- six Shadowhorn Stag for Va'xug Firefure, in the woods north-west of Fallen Sky Lake
+  note The stags range around (37-50, 48-72) - work the woods for all six.
+  complete 98251 @37.79,39.36 era -- six Ashenvale Bear for Va'xug Firefure, down toward the Thistlefur country
+  note The bears range around (32-50, 35-71) - work the woods for all six.
+  turnin 98251 -- Never Coming Back - back to Va'xug Firefure
+  accept 98252 -- A Void Path - Va'xug Firefure; show the Eye of Kilrogg the way back to the main road
+  complete 98252 @38.27,58.41 era -- guide the Eye of Kilrogg to the road for Va'xug Firefure
+  turnin 98252 -- A Void Path - the Eye's word to the Eye of Kilrogg
+
+step West - Zoram'gar outpost, second visit
+
+  turnin 216 -- Between a Rock and a Thistlefur - back to Karang Amakkar
+  accept 6621 -- King of the Foulweald - Karang Amakkar; the banner on the Foulweald Totem Mound, then Chief Murgut
+  turnin 6462 -- Troll Charm - back to Mitsuwa
+
+step Center-east - the mound and Shadumbra
+
+  complete 6621 @56.5,63.5 era -- place Karang's banner on the Foulweald Totem Mound and take Chief Murgut's Totem for Karang Amakkar
+  note Chief Murgut walks the mound itself at (56.43, 63.5) - the banner first, then the chief. Karang takes the totem on the western return below.
+  collect 16304 @57.5,56.05 era -- Shadumbra's Head off Shadumbra for Senani Thunderheart
+  note Shadumbra's Head starts Shadumbra's Head in your bags - Senani takes it on the eastern return below.
+  accept 24 -- Shadumbra's Head - the head to Senani Thunderheart at Splintertree Post
+
+step East - Splintertree Post, second return
+
+  turnin 23 -- Ursangous's Paw - the paw to Senani Thunderheart
+  turnin 24 -- Shadumbra's Head - the head to Senani Thunderheart
+  accept 247 -- The Hunt Completed - Senani Thunderheart; the three-beast hunt closes here
+  note 247 waited on all three hunt turn-ins - the hunt is done, take the closing word.
+  turnin 247 -- The Hunt Completed - back to Senani Thunderheart
+  turnin 6441 -- Satyr Horns - the sixteen horns to Pixel
+  collect 16742 @73.06,61.48 era -- Warsong Saw Blades off Pixel himself for Locke Okarr's supplies
+  note The drop data names Pixel as the blades' only source - take them off him with the turn-in.
+  turnin 6544 -- Torek's Assault - the Silverwing word to Ertog Ragetusk
+  turnin 6482 -- Freedom to Ruul - Ruul's freedom to Yama Snowhoof
+
+step North - the Blackfathom camp
+
+  collect 16790 @13.55,12.06 era optional -- the Damp Note off a Blackfathom Tide Priestess for Je'neu Sancrea
+  note Blackfathom Tide Priestess is elite: grouping up is advised.
+  accept 6564 -- Allegiance to the Old Gods - take it on the Damp Note; Je'neu Sancrea takes it in the west below
+  note 6564's chain link (6562, Trouble in the Deeps) sits in Stonetalon, uncontracted - take 6564 on its own here.
+
+step West - Zoram'gar outpost, third visit
+
+  turnin 6564 -- Allegiance to the Old Gods - the Damp Note to Je'neu Sancrea
+  accept 6565 -- Allegiance to the Old Gods - Je'neu Sancrea; Lorgus Jett waits inside Blackfathom Deeps
+  turnin 824 -- Je'neu of the Earthen Ring - the Befouled Water Globe to Je'neu Sancrea
+  turnin 6621 -- King of the Foulweald - Murgut's Totem to Karang Amakkar
+
+step Je'neu's cave - the Stonetalon word
+
+  when onquest 6562
+  turnin 6562 -- Trouble in the Deeps - Tsunaman's word to Je'neu Sancrea
+  accept 6563 -- The Essence of Aku'Mai - Je'neu Sancrea; twenty Sapphires of Aku'Mai, north
+  note 6563's sapphires fill on the northern leg below - take 6563 here if 6562 brought you in.
+
+step North - sapphires for the Stonetalon word
+
+  when onquest 6563
+  complete 6563 @13.17,13.49 era -- twenty Sapphires of Aku'Mai off the surf-cave mouths for Je'neu Sancrea
+  note The sapphire mouths cluster around (13-14, 10-13) - work the cluster for all twenty. This leg only runs holding 6563.
+
+step West - the sapphires delivered
+
+  when onquest 6563
+  turnin 6563 -- The Essence of Aku'Mai - the sapphires to Je'neu Sancrea
+
+step North - the Deeps doors
+
+  complete 6565 @13.55,12.06 era -- Lorgus Jett waits inside Blackfathom Deeps for Je'neu Sancrea; descend from the Blackfathom camp
+  note No entrance marker exists in the data - the kill sits inside the Deeps past this camp, so go in fighting and come back out to turn in.
+
+step Je'neu's cave - the Deeps word delivered
+
+  turnin 6565 -- Allegiance to the Old Gods - Lorgus Jett's death to Je'neu Sancrea
+
+step East - Splintertree Post, closing the pages
+
+  turnin 6504 -- The Lost Pages - the bound chapters to Gurda Ragescar
+
+step Barrens - Kadrak's tower and the Runed Scroll
+
+  zone The Barrens
+  note The bundle's updates are gathered - cross into the Barrens for Kadrak's northern guard tower.
+  turnin 6543 -- The Warsong Reports - the three updates to Kadrak at the northern guard tower
+  collect 10621 @46.0,70.0 era optional -- the Runed Scroll off Aean Swiftriver for Kadrak's tower
+  note Aean Swiftriver is elite: grouping up is advised.
+  note The Runed Scroll starts The Runed Scroll in your bags - the tower takes it below.
+  accept 3513 -- The Runed Scroll - the scroll to Kadrak at the northern guard tower
+  turnin 3513 -- The Runed Scroll - back to Kadrak
+  accept 3514 -- Horde Presence - Kadrak; Rynthariel the Keymaster holds the Talon Den in Stonetalon, south-west
+  note 3514 waited on 3513's turn-in - carry Kadrak's flag into Stonetalon below.
+
+step Stonetalon - the Talon Den
+
+  zone Stonetalon Mountains
+  note Rynthariel's Talon Den sits across the border in Stonetalon - a short expedition from the tower.
+  complete 3514 @29.71,16.91 era -- kill Rynthariel the Keymaster for Kadrak
+  zone Ashenvale
+
+step Barrens - the den-master answered
+
+  zone The Barrens
+  turnin 3514 -- Horde Presence - Rynthariel's death to Kadrak at the northern guard tower
+  zone Ashenvale
+
+step Stranglethorn - the axe shipment
+
+  zone Stranglethorn Vale
+  note 6571's last supply sits far south in Stranglethorn - one expedition for the set.
+  collect 16745 @26.43,73.3 era -- the Warsong Axe Shipment for Locke Okarr's supplies
+  zone Ashenvale
+
+step East - the supplies delivered
+
+  turnin 6571 -- Warsong Supplies - the four supplies to Locke Okarr
+  accept 6581 -- Warsong Saw Blades - Pixel; a Deadly Blunderbuss for the post's arsenal
+  note 6581 waited on 6571's turn-in - and its Blunderbuss (item 4369) names no dropper or vendor anywhere in the data, so have it in your bags.
+  turnin 6581 -- Warsong Saw Blades - the Blunderbuss to Pixel
