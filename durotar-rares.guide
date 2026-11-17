@@ -1,0 +1,175 @@
+# Butler Routes - Durotar rares and treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 6 rank-flagged rares of Durotar
+# (zone key 1411), verified against the local Forever game data
+# (questie-forever npc/object/item dumps). Every goal is optional - a
+# missing spawn never wedges the guide. Five rares hold multiple
+# points and loop them; Death Flayer holds a single Durotar point and
+# gets a plain single-goto step. None of the six carries signature
+# loot in the data: every recipe on their tables is a 400-570-zone
+# generic world drop (the recipes companion does not list zone
+# content among them), and Death Flayer's Venomtail Poison Sac serves
+# only a repeatable out-of-contract quest - so no collect goals ride
+# the rare steps. No tame lines ship: no family flag exists in NPC
+# records and the core guide never kills these beasts' kin (see
+# docs/companion-unverified.md). Treasures ride one loop over the 24
+# fixed Battered Chest points plus their own steps for the 5 unique
+# rune objects. No accept/turnin lines anywhere - the core guide owns
+# every quest.
+guide butler-routes-completionist/durotar-rares
+title Durotar - Rares & Treasures
+levels 1-13
+zone Durotar
+faction Horde
+category Collectibles
+folder Companions
+keywords durotar, rares, treasures, collectibles, companions
+coords live
+version 1
+
+step Tiragarde Keep side - Warlord Kolkanis
+
+  zone map 1411
+
+  loop
+  goto 46.43,79
+  goto 47.88,77.37
+  goto 49.88,80.6
+  kill 5808 optional
+  note Warlord Kolkanis (level 9 rare elite) walks three points on the Tiragarde Keep side. No unique loot recorded - ordinary greens and generic world-drop patterns only.
+  note Respawn timer unconfirmed.
+
+step Echo Isles side - Watch Commander Zalaphil
+
+  zone map 1411
+
+  loop
+  goto 59.23,58.52
+  goto 59.93,59.02
+  kill 5809 optional
+  note Watch Commander Zalaphil (level 9 rare elite) walks two points on the Echo Isles side. He is an Alliance-faction commander - hostile to Horde players, killable. No unique loot recorded - ordinary greens only.
+  note Respawn timer unconfirmed.
+
+step North pass - Felweaver Scornn
+
+  zone map 1411
+
+  loop
+  goto 51.68,9.59
+  goto 52.78,8.96
+  goto 53.05,7.25
+  kill 5822 optional
+  note Felweaver Scornn (level 11 rare) walks three points at the north pass. No unique loot recorded - ordinary greens and generic world-drop patterns only.
+  note Respawn timer unconfirmed.
+
+step Southwest flats - Death Flayer
+
+  zone map 1411
+
+  goto 36.53,49.67
+  kill 5823 optional
+  note Death Flayer (level 11 rare elite) holds a single point on the southwest flats. It also spawns in the Barrens (covered by the Barrens companion). Its Venomtail Poison Sac serves only a repeatable out-of-contract quest, so it rides no collect goal here.
+  note Respawn timer unconfirmed.
+
+step Central barrens - Captain Flat Tusk
+
+  zone map 1411
+
+  loop
+  goto 38.74,53.98
+  goto 42.57,39.03
+  goto 44.93,50.53
+  kill 5824 optional
+  note Captain Flat Tusk (level 11 rare) walks three points across the central barrens. No unique loot recorded - ordinary greens and generic world-drop patterns only.
+  note Respawn timer unconfirmed.
+
+step Central barrens - Geolord Mottle
+
+  zone map 1411
+
+  loop
+  goto 43.17,39.26
+  goto 43.81,50.46
+  goto 47.18,49.86
+  kill 5826 optional
+  note Geolord Mottle (level 9 rare elite) walks three points across the central barrens. No unique loot recorded - ordinary greens and generic world-drop patterns only.
+  note Respawn timer unconfirmed.
+
+step Battered Chests of Durotar
+
+  zone map 1411
+
+  loop
+  goto 39.42,53.81
+  goto 40.84,30.47
+  goto 42.07,27.13
+  goto 43.57,35.56
+  goto 43.84,39.21
+  goto 44.12,23.98
+  goto 44.18,50.36
+  goto 47.09,49.84
+  goto 47.4,30.97
+  goto 47.76,77.12
+  goto 49.02,48.6
+  goto 49.62,24.28
+  goto 51.16,18.91
+  goto 51.24,20.98
+  goto 51.43,10.78
+  goto 52.04,25.34
+  goto 52.53,9.15
+  goto 53.24,26.85
+  goto 57.82,58.75
+  goto 59.64,56.23
+  goto 63.23,56.82
+  goto 65.56,83.12
+  goto 67.12,86.66
+  goto 68.34,85.07
+  interact 106318 optional
+  note One Battered Chest object, 24 fixed points across Durotar - generic chests, said plainly. Loot is shared world drops only.
+  note Respawn timers unconfirmed.
+
+step Skull Rock side - Buried Treasure
+
+  zone map 1411
+
+  goto 62.1,94.8
+  collect 203991 "Rune of Quick Draw" optional
+  note Buried Treasure holds a single point on the Skull Rock side. The Rune of Quick Draw has no quest use anywhere in the data - bank it or use it per your class.
+  note Respawn timer unconfirmed.
+
+step Dustwind Gulch - Rusty Lockbox
+
+  zone map 1411
+
+  goto 53.8,27.2
+  collect 203993 "Rune of Slaughter" optional
+  note Rusty Lockbox holds a single point in Dustwind Gulch. The Rune of Slaughter has no quest use anywhere in the data - bank it or use it per your class.
+  note Respawn timer unconfirmed.
+
+step Southfury waters - Swordsman's Reward
+
+  zone map 1411
+
+  goto 40.9,49.3
+  collect 204441 "Rune of Blood Frenzy" optional
+  note Swordsman's Reward holds a single point by the Southfury waters. The Rune of Blood Frenzy has no quest use anywhere in the data - bank it or use it per your class.
+  note Respawn timer unconfirmed.
+
+step Tiragarde coast - Waterlogged Stashbox
+
+  zone map 1411
+
+  goto 43,54.4
+  collect 203751 "Spell Notes: CALE ENCI" optional
+  collect 205230 "Rune of Haunting" optional
+  note Waterlogged Stashbox holds a single point on the Tiragarde coast. Neither the spell notes nor the Rune of Haunting has any quest use in the data - bank them or use them per your class.
+  note Respawn timer unconfirmed.
+
+step Valley of Trials side - Hidden Cache
+
+  zone map 1411
+
+  goto 43.2,69.6
+  collect 204795 "Rune of Shadowstrike" optional
+  collect 204806 "Rune of Victory Rush" optional
+  note Hidden Cache holds a single point on the Valley of Trials side. Neither rune has any quest use in the data - bank them or use them per your class.
+  note Respawn timer unconfirmed.
