@@ -14909,6 +14909,20 @@
         {"id": 86576, "name": "Bloodfury Trinkets"},
         {"id": 94216, "name": "Craftsman's Writ: Elixir of Lesser Agility"}
       ]
+    },
+    {
+      "id": "duskwood-horde",
+      "name": "Duskwood (Horde)",
+      "order": 54,
+      "levelBand": "37-42",
+      "summary": "Horde side of contested Duskwood: the Nothing But The Truth chain plus the Horde writ.",
+      "quests": [
+        {"id": 1372, "name": "Nothing But The Truth"},
+        {"id": 1383, "name": "Nothing But The Truth"},
+        {"id": 1388, "name": "Nothing But The Truth"},
+        {"id": 1391, "name": "Nothing But The Truth"},
+        {"id": 94241, "name": "Craftsman's Writ: Dark Leather Tunic"}
+      ]
     }
   ]
 }
