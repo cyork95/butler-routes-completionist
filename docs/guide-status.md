@@ -603,7 +603,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; honest playtest Horde personas (Orc Warrior/Shaman), residue R1/R5 only (expedition legs + bag-note objectives)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 8 rares + 51-pt container loop + 5 uniques; 65 recipes (58 vendor + 7 narrow drops); both guides 0 errors / 0 warnings
 
 ### Riverglades — Horde
 
