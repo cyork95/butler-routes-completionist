@@ -533,9 +533,9 @@ _Per Cody's build order, the Horde block runs last: the Horde starting zones (tr
 
 _City guide per the Alliance city pattern: a census + compact core for the quests that accept inside the city. Companions only where the data warrants._
 
-- [ ] Census
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (173 quests, span 1-60)
+- [x] Core guide
+- [x] Lint/playtest clean (0 errors; R1/R2/R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions (only where the data warrants)
