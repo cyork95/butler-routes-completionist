@@ -1,0 +1,402 @@
+# Stranglethorn Vale (Horde) - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics and formulas whose SOURCE is
+# physically in Stranglethorn Vale for a Horde player, verified against the
+# local Forever game data (questie-forever item vendor and drop tables).
+# Fifty-eight recipes are vendor-sold in-zone (every buy line carries an npc
+# pin to the exact in-zone vendor, Horde or neutral — no bare buys); seven
+# more drop from narrow in-zone sources and nowhere else, or nearly nowhere
+# else, in the data. The famous crab and omelet ship here: their only
+# in-zone vendors are Horde-only (Nerrist and Uthok in Grom'gol). Recipes
+# whose only in-zone vendor is Alliance-faction are excluded (Alterac rule,
+# flipped — see docs/stranglethorn-horde-companions-inventory.md); every other
+# Stranglethorn-dropping recipe is a generic multi-zone world drop, and quest
+# records carry no reward data (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover
+# those. Each step is gated to its profession; other characters skip it
+# cleanly. First Aid and Fishing have no in-zone Horde source, so that is
+# stated, not padded.
+guide butler-routes-completionist/stranglethorn-horde-recipes
+title Stranglethorn Vale (Horde) - Recipes & Patterns
+levels 30-47
+zone Stranglethorn Vale
+faction Horde
+category Professions
+folder Companions
+keywords stranglethorn, horde, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — Booty Bay (Kelsey Yance)
+
+  when skill Cooking 1
+
+  vendor 2664 -- Kelsey Yance (28.23, 74.34), Cook
+  buy 6039 "Recipe: Giant Clam Scorcho" npc 2664
+  buy 6369 "Recipe: Rockscale Cod" npc 2664
+  buy 13940 "Recipe: Cooked Glossy Mightfish" npc 2664
+  buy 13941 "Recipe: Filet of Redgill" npc 2664
+  buy 13943 "Recipe: Hot Smoked Bass" npc 2664
+  buy 17062 "Recipe: Mithril Head Trout" npc 2664
+  buy 21099 "Recipe: Smoked Sagefish" npc 2664
+  buy 21219 "Recipe: Sagefish Delight" npc 2664
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Booty Bay (Glyx Brewright)
+
+  when skill Alchemy 1
+
+  vendor 2848 -- Glyx Brewright (28.14, 78.11), Alchemy Supplies
+  buy 6056 "Recipe: Frost Protection Potion" npc 2848
+  buy 6057 "Recipe: Nature Protection Potion" npc 2848
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Booty Bay (Xizk Goodstitch)
+
+  when skill Tailoring 1
+
+  vendor 2670 -- Xizk Goodstitch (28.71, 76.89), Tailoring Supplies
+  buy 7087 "Pattern: Crimson Silk Cloak" npc 2670
+  buy 253665 "Pattern: Linen Reagent Bag" npc 2670
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 2670
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Booty Bay (Xizk Goodstitch)
+
+  when skill Enchanting 1
+
+  vendor 2670 -- Xizk Goodstitch (28.71, 76.89), Tailoring Supplies
+  buy 14630 "Pattern: Enchanter's Cowl" npc 2670
+  buy 217258 "Pattern: Enchanter's Cowl" npc 2670
+  note Both titles are sold here — the same-title twin ships with this note. Stock class is not in the local data; if out of stock, come back later.
+
+step Tailoring — the cape (Cowardly Crosby)
+
+  when skill Tailoring 1
+
+  vendor 2672 -- Cowardly Crosby (27, 82.48), Tailoring Supplies
+  buy 10318 "Pattern: Admiral's Hat" npc 2672
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Booty Bay (Narkk)
+
+  when skill Tailoring 1
+
+  vendor 2663 -- Narkk (28.13, 74.42), Pirate Supplies
+  buy 10728 "Pattern: Black Swashbuckler's Shirt" npc 2663
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Booty Bay (Rikqiz)
+
+  when skill Leatherworking 1
+
+  vendor 2699 -- Rikqiz (28.49, 76.05), Leatherworking Supplies
+  buy 14635 "Pattern: Gem-studded Leather Belt" npc 2699
+  buy 18239 "Pattern: Shadowskin Gloves" npc 2699
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Booty Bay (Blixrez Goodstitch)
+
+  when skill Leatherworking 1
+
+  vendor 2846 -- Blixrez Goodstitch (28.25, 77.54), Leatherworking Supplies
+  buy 5788 "Pattern: Thick Murloc Armor" npc 2846
+  buy 5789 "Pattern: Murloc Scale Bracers" npc 2846
+  note Both patterns also drop in-zone (Kurzen Commando and Bloodsail Raider); the vendor is the clean in-zone source. Stock class is not in the local data; if out of stock, come back later.
+
+step Tailoring — Booty Bay (Pix Xizzix)
+
+  when skill Tailoring 1
+
+  vendor 227853 -- Pix Xizzix (28.52, 75.86), Undermine Trader
+  buy 228121 "Pattern: Leather-Reinforced Runecloth Bag" npc 227853
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — the east (Knaz Blunderflame)
+
+  when skill Engineering 1
+
+  vendor 8679 -- Knaz Blunderflame (51.05, 35.23), Engineering Supplies
+  buy 10602 "Schematic: Deadly Scope" npc 8679
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Booty Bay (Jutak)
+
+  when skill Blacksmithing 1
+
+  vendor 2843 -- Jutak (27.46, 77.55), Blade Trader
+  buy 12162 "Plans: Hardened Iron Shortsword" npc 2843
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Booty Bay (Zarena Cromwind)
+
+  when skill Blacksmithing 1
+
+  vendor 2482 -- Zarena Cromwind (28.34, 75.46), Superior Weaponsmith
+  buy 12163 "Plans: Moonsteel Broadsword" npc 2482
+  buy 217282 "Plans: Moonsteel Broadsword" npc 2482
+  note Both titles are sold here — the same-title twin ships with this note. Stock class is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Grom'gol (Vharr)
+
+  when skill Blacksmithing 1
+
+  vendor 1146 -- Vharr (32.36, 27.95), Superior Weaponsmith
+  buy 12164 "Plans: Massive Iron Axe" npc 1146
+  note Jaquilina Dramet stocks the same plan north, but Vharr's Grom'gol pin is the routed one. Stock class is not in the local data; if out of stock, come back later.
+
+step Engineering — Booty Bay (Mazk Snipeshot)
+
+  when skill Engineering 1
+
+  vendor 2685 -- Mazk Snipeshot (28.5, 75.12), Engineering Supplies
+  buy 13310 "Schematic: Accurate Scope" npc 2685
+  buy 18651 "Schematic: Truesilver Transformer" npc 2685
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — the east (Gnaz Blunderflame)
+
+  when skill Engineering 1
+
+  vendor 2687 -- Gnaz Blunderflame (50.98, 35.21), Engineering Supplies
+  buy 13311 "Schematic: Mechanical Dragonling" npc 2687
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — Booty Bay (Crazk Sparks)
+
+  when skill Engineering 1
+
+  vendor 2838 -- Crazk Sparks (28.36, 76.66), Fireworks Merchant
+  buy 18648 "Schematic: Green Firework" npc 2838
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Grom'gol (Nerrist)
+
+  when skill Cooking 1
+
+  vendor 1148 -- Nerrist (32.7, 29.23), Trade Goods
+  buy 3682 "Recipe: Curiously Tasty Omelet" npc 1148
+  buy 12228 "Recipe: Roast Raptor" npc 1148
+  buy 12231 "Recipe: Jungle Stew" npc 1148
+  note Nerrist is Horde-faction: the omelet's only in-zone vendor, and Corporal Bluth's two recipes ride here too (Bluth is Alliance-faction — excluded). Stock class is not in the local data; if out of stock, come back later.
+
+step Cooking — Grom'gol (Uthok)
+
+  when skill Cooking 1
+
+  vendor 1149 -- Uthok (31.55, 27.95), General Supplies
+  buy 16111 "Recipe: Spiced Chili Crab" npc 1149
+  note Uthok is Horde-faction: the crab's only in-zone vendor. Stock class is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Yojamba Isle (Rin'wosho the Trader)
+
+  when skill Leatherworking 1
+
+  vendor 14921 -- Rin'wosho the Trader (15.07, 16), Zandalar Supplies and Repair
+  buy 19764 "Pattern: Bloodvine Vest" npc 14921
+  buy 19765 "Pattern: Bloodvine Leggings" npc 14921
+  buy 19766 "Pattern: Bloodvine Boots" npc 14921
+  buy 19769 "Pattern: Primal Batskin Jerkin" npc 14921
+  buy 19770 "Pattern: Primal Batskin Gloves" npc 14921
+  buy 19771 "Pattern: Primal Batskin Bracers" npc 14921
+  buy 19772 "Pattern: Blood Tiger Breastplate" npc 14921
+  buy 19773 "Pattern: Blood Tiger Shoulders" npc 14921
+  buy 19776 "Plans: Bloodsoul Breastplate" npc 14921
+  buy 19777 "Plans: Bloodsoul Shoulders" npc 14921
+  buy 19778 "Plans: Bloodsoul Gauntlets" npc 14921
+  buy 19779 "Plans: Darksoul Breastplate" npc 14921
+  buy 19780 "Plans: Darksoul Leggings" npc 14921
+  buy 19781 "Plans: Darksoul Shoulders" npc 14921
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Yojamba Isle (Rin'wosho the Trader)
+
+  when skill Blacksmithing 1
+
+  vendor 14921 -- Rin'wosho the Trader (15.07, 16), Zandalar Supplies and Repair
+  buy 20000 "Schematic: Bloodvine Goggles" npc 14921
+  buy 20001 "Schematic: Bloodvine Lens" npc 14921
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Yojamba Isle (Rin'wosho the Trader)
+
+  when skill Alchemy 1
+
+  vendor 14921 -- Rin'wosho the Trader (15.07, 16), Zandalar Supplies and Repair
+  buy 20011 "Recipe: Mageblood Potion" npc 14921
+  buy 20012 "Recipe: Greater Dreamless Sleep" npc 14921
+  buy 20013 "Recipe: Living Action Potion" npc 14921
+  buy 20014 "Recipe: Major Troll's Blood Potion" npc 14921
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Yojamba Isle (Rin'wosho the Trader)
+
+  when skill Enchanting 1
+
+  vendor 14921 -- Rin'wosho the Trader (15.07, 16), Zandalar Supplies and Repair
+  buy 20756 "Formula: Brilliant Wizard Oil" npc 14921
+  buy 20757 "Formula: Brilliant Mana Oil" npc 14921
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Yojamba Isle (Rin'wosho the Trader)
+
+  when skill Cooking 1
+
+  vendor 14921 -- Rin'wosho the Trader (15.07, 16), Zandalar Supplies and Repair
+  buy 232610 "Formula: Magnificent Trollshine" npc 14921
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — the north-west (rare drop)
+
+  when skill Cooking 1
+
+  loop
+  goto 24.01,15.73
+  goto 24.16,16.26
+  goto 24.75,16.04
+  collect 250185 "Recipe: Twice-Spiced Raptor Slice" optional
+  note Dropped only by the Young Stranglethorn Raptor (level 30); the recipe drops nowhere else in the data.
+
+step Tailoring — the north-west (rare drop)
+
+  when skill Tailoring 1
+
+  loop
+  goto 22.54,13.37
+  goto 22.93,12.23
+  goto 23.13,13.15
+  goto 23.38,12.61
+  goto 23.89,12.2
+  goto 24.23,13.24
+  goto 24.7,11.5
+  goto 24.79,12.18
+  goto 25.05,9.72
+  goto 25.18,11.27
+  goto 25.35,12.24
+  goto 25.39,9.96
+  goto 25.43,9.2
+  goto 25.45,9.59
+  goto 25.72,10.03
+  goto 25.88,11.03
+  goto 26,11.5
+  goto 26.11,8.95
+  goto 26.11,12.17
+  goto 26.11,13.42
+  goto 26.17,8.33
+  goto 26.46,11.42
+  goto 27.21,11.26
+  goto 27.58,11
+  collect 254018 "Pattern: Earthen Silk Gloves" optional
+  note Dropped only by the Bloodscalp Mystic (level 34); the pattern drops nowhere else in the data.
+
+step Tailoring — the west (rare drop)
+
+  when skill Tailoring 1
+
+  loop
+  goto 24.29,24.28
+  goto 24.52,25.01
+  goto 24.56,23.99
+  goto 24.8,23.42
+  goto 25.1,23.79
+  collect 254022 "Pattern: Gilded Handwraps" optional
+  note Dropped only by the Saltscale Oracle (level 36); the pattern drops nowhere else in the data.
+
+step Enchanting — the east (rare drop)
+
+  when skill Enchanting 1
+
+  loop
+  goto 40.35,43.27
+  goto 40.35,43.79
+  goto 40.78,43.12
+  goto 41.18,41.92
+  goto 41.21,43.01
+  goto 41.3,43.62
+  goto 41.32,42.43
+  goto 41.58,41.41
+  goto 41.58,44.62
+  goto 41.63,42.31
+  goto 41.65,42.88
+  goto 41.67,43.91
+  goto 41.77,45.17
+  goto 41.94,43.11
+  goto 42.02,46.3
+  goto 42.05,42.57
+  goto 42.11,41.8
+  goto 42.29,44.33
+  goto 42.29,45.09
+  goto 42.38,41.41
+  collect 11203 "Formula: Enchant Gloves - Advanced Mining" optional
+  note Dropped only by the Venture Co. Strip Miner (level 40, 4%); the formula drops nowhere else in the data.
+
+step Blacksmithing — the Kurzen compound (rare drop)
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 43.57,9.73
+  goto 43.92,9.71
+  goto 44.51,10
+  goto 44.55,11.49
+  goto 44.67,11
+  goto 44.85,8.61
+  goto 44.95,8.29
+  goto 45.3,11.27
+  goto 45.96,12.05
+  goto 46.07,11.27
+  goto 46.16,12.6
+  goto 46.98,10.45
+  collect 251388 "Plans: Hard Gold Leggings" optional
+  note Dropped only by the Kurzen Jungle Fighter (level 32); the plans drop nowhere else in the data.
+
+step Blacksmithing — the west coast (rare drop)
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 23.97,63.62
+  goto 24.12,62.29
+  goto 24.48,64.39
+  goto 24.69,61.46
+  goto 24.69,62.95
+  goto 24.88,59.52
+  goto 25.04,60.48
+  goto 25.07,63.69
+  goto 25.14,58.77
+  goto 25.66,63.19
+  goto 25.67,61.32
+  goto 25.8,59.63
+  goto 26.2,62.42
+  goto 26.32,60.65
+  goto 26.4,59.99
+  goto 26.94,63.7
+  goto 26.99,61.39
+  goto 27,60.62
+  goto 27.05,62.46
+  goto 27.06,59.69
+  goto 27.84,62.32
+  goto 27.92,61.59
+  goto 27.99,63.11
+  goto 28.21,64.41
+  collect 251395 "Plans: Shining Mithril Helm" optional
+  note Dropped only by the Naga Explorer (level 43); the plans drop nowhere else in the data.
+
+step Engineering — the north (rare drop)
+
+  when skill Engineering 1
+
+  loop
+  goto 27.12,7.97
+  goto 27.22,7.45
+  goto 27.81,7.76
+  goto 28.22,8.04
+  goto 28.66,7.93
+  goto 28.76,6.85
+  goto 28.93,7.65
+  goto 29.14,7.22
+  collect 264210 "Schematic: Shafety Sheep" optional
+  note Dropped only by the Venture Co. Miner (level 34) — a two-zone family (Stranglethorn north plus Westfall 1436); narrow, not zone-exclusive.
+
+step First Aid, Fishing — no Horde source
+
+  note The data holds no First Aid or Fishing recipe sourced in Stranglethorn Vale for Horde players: no servable in-zone vendor sells one and no in-zone mob drops one. Blacksmithing and Engineering DO have in-zone Horde sources (Jutak/Zarena/Vharr plans, Knaz/Mazk/Gnaz/Crazk schematics), so neither is listed here. Polestar's own profession guides cover progression.
