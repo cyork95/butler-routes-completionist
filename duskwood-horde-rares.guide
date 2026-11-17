@@ -1,0 +1,284 @@
+# Duskwood (Horde) - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 6 confirmed rares and the fixed world
+# containers of Duskwood a Horde player can actually engage. Run it in its
+# own Polestar tab at the end of the core route or standalone. EVERY goal
+# is optional: a rare that is not up never holds the route. Spawn points
+# and levels are the local Forever game data (questie-forever); all six
+# rares sit BELOW the Horde core band (37-42), so each carries an honest
+# below-band note — trivial at Horde levels, swept opportunistically. All
+# six signature drops are sole drops of their rare in the data; no quest
+# takes any of them. No tame lines ship (no tameability flag, no core-guide
+# corroboration — see docs/companion-unverified.md). Respawn timers are
+# unconfirmed anywhere, so none are stated. No rare in this guide is a
+# giver, ender, or objective of any Horde core-contracted quest; the writ
+# item 264041 is sourceless, so there is nothing to hunt for it. Objects
+# that serve Alliance-only quests are excluded (a Horde player cannot
+# accept those quests); quest-unused uniques and flavor markers ship. See
+# docs/duskwood-horde-companions-inventory.md for the full inventory this
+# guide was built against.
+guide butler-routes-completionist/duskwood-horde-rares
+title Duskwood (Horde) - Rares & Treasures
+levels 37-42
+zone Duskwood
+faction Horde
+category Collectibles
+folder Companions
+keywords duskwood, horde, rares, treasures, companions
+coords live
+version 1
+
+step Lord Malathrom — the north-west (below the band)
+
+  zone map 1431
+
+  loop
+  goto 20.31,28.83
+  goto 21.14,27.19
+  goto 22.07,28.35
+  goto 22.77,28.87
+  goto 24.51,31.24
+  goto 24.67,29.37
+  goto 25.92,30.90
+  kill 503 optional
+  collect 1187 "Spiked Collar" optional
+  collect 4462 "Cloak of Rot" optional
+  note Level 31 rare in the north-west — BELOW the core band (37-42), so trivial at Horde levels; sweep it opportunistically. Its sole drops are the Spiked Collar and the Cloak of Rot. No quest takes either in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Fenros — the east (below the band)
+
+  zone map 1431
+
+  loop
+  goto 60.68,40.70
+  goto 60.78,43.71
+  goto 61.21,49.87
+  goto 61.52,38.99
+  goto 61.72,36.85
+  goto 62.19,45.92
+  goto 63.75,47.13
+  goto 63.88,51.77
+  kill 507 optional
+  collect 4474 "Ravenwood Bow" optional
+  collect 6204 "Tribal Worg Helm" optional
+  note Level 32 rare in the east — BELOW the core band (37-42), so trivial at Horde levels; sweep it opportunistically. Its sole drops are the Ravenwood Bow and the Tribal Worg Helm. No quest takes either in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Lupos — the western road (below the band)
+
+  zone map 1431
+
+  loop
+  goto 19.99,26.39
+  goto 21.52,26.54
+  goto 23.59,26.96
+  goto 24.86,28.39
+  goto 27.13,27.20
+  goto 29.60,29.75
+  goto 31.64,29.12
+  goto 32.63,25.84
+  goto 34.23,29.59
+  goto 36.31,24.37
+  goto 38.27,25.29
+  goto 61.18,22.82
+  goto 61.98,24.90
+  goto 64.50,26.75
+  goto 67.26,26.85
+  goto 70.63,26.64
+  kill 521 optional
+  collect 3018 "Hide of Lupos" optional
+  collect 3227 "Nightbane Staff" optional
+  note Level 23 rare working the western road and Raven Hill woods — BELOW the core band (37-42), so trivial at Horde levels; sweep it opportunistically. Its sole drops are the Hide of Lupos and the Nightbane Staff. No quest takes either in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Commander Felstrom — the west (below the band)
+
+  zone map 1431
+
+  loop
+  goto 13.18,36.19
+  goto 14.04,34.61
+  goto 14.38,32.70
+  goto 14.79,36.54
+  goto 14.85,33.31
+  goto 16.30,37.36
+  goto 16.51,35.68
+  goto 16.77,34.32
+  goto 18.01,37.90
+  goto 18.55,35.73
+  kill 771 optional
+  collect 4464 "Trouncing Boots" optional
+  collect 4465 "Bonefist Gauntlets" optional
+  note Level 32 rare in the west — BELOW the core band (37-42), so trivial at Horde levels; sweep it opportunistically. Its sole drops are the Trouncing Boots and the Bonefist Gauntlets. No quest takes either in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Naraxis — the far east (below the band)
+
+  zone map 1431
+
+  goto 86.36,47.57
+  kill 574 optional
+  collect 4448 "Husk of Naraxis" optional
+  collect 4449 "Naraxis' Fang" optional
+  note Level 27 rare in the far east — BELOW the core band (37-42), so trivial at Horde levels; sweep it opportunistically. Its sole drops are the Husk of Naraxis and Naraxis' Fang. No quest takes either in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Nefaru — the far south (below the band)
+
+  zone map 1431
+
+  loop
+  goto 61.85,81.38
+  goto 63.48,83.67
+  goto 74.33,77.90
+  kill 534 optional
+  collect 4476 "Beastwalker Robe" optional
+  collect 4477 "Nefarious Buckler" optional
+  note Level 34 rare in the far south — BELOW the core band (37-42), so trivial at Horde levels; sweep it opportunistically. Its sole drops are the Beastwalker Robe and the Nefarious Buckler. No quest takes either in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Fixed containers — the whole zone
+
+  zone map 1431
+
+  loop
+  goto 12.74,33.77
+  goto 13.21,27.16
+  goto 14.58,67.27
+  goto 16.33,28.84
+  goto 17.58,36.29
+  goto 17.75,33.88
+  goto 18.97,53.93
+  goto 21.46,73.59
+  goto 21.96,72.15
+  goto 23.52,71.70
+  goto 24.20,72.07
+  goto 24.56,27.17
+  goto 26.04,36.49
+  goto 28.01,31.15
+  goto 31.56,32.43
+  goto 31.69,39.72
+  goto 32.42,68.84
+  goto 32.69,28.11
+  goto 32.84,47.80
+  goto 33.30,69.44
+  goto 33.34,76.12
+  goto 33.55,76.50
+  goto 34.72,54.52
+  goto 35.52,80.23
+  goto 35.97,27.46
+  goto 36.55,83.53
+  goto 37.25,77.79
+  goto 38.04,80.17
+  goto 39.48,75.22
+  goto 40.27,75.55
+  goto 45.44,67.45
+  goto 50.61,77.29
+  goto 51.01,76.16
+  goto 51.91,62.17
+  goto 52.57,59.33
+  goto 52.61,57.92
+  goto 57.81,30.75
+  goto 58.24,29.99
+  goto 59.16,25.23
+  goto 60.29,40.26
+  goto 60.61,41.44
+  goto 60.83,75.50
+  goto 61.66,25.36
+  goto 62.34,79.53
+  goto 63.43,51.67
+  goto 64.24,73.00
+  goto 64.33,51.70
+  goto 65.49,68.10
+  goto 65.79,67.51
+  goto 66.11,76.25
+  goto 66.12,75.20
+  goto 68.75,25.66
+  goto 71.21,72.37
+  goto 72.35,56.85
+  goto 73.13,72.07
+  goto 73.25,72.63
+  goto 73.60,50.36
+  goto 73.67,43.35
+  goto 77.33,36.56
+  goto 77.52,36.08
+  goto 77.53,52.75
+  goto 78.70,32.39
+  goto 79.64,47.80
+  goto 80.74,71.11
+  goto 81.87,59.76
+  goto 81.94,58.74
+  goto 82.14,61.29
+  goto 88.34,34.75
+  interact 2850 optional
+  interact 2852 optional
+  interact 3659 optional
+  interact 3695 optional
+  note The zone's generic fixed containers looped as one sweep: two Solid Chest objects (20 + 24 fixed points) and a Barrel of Melon Juice sharing its 24 points with a Food Crate — 68 unique points. Ordinary low-level goods; check whatever is up.
+  note These are generic world containers, not unique treasures — no signature loot is confirmed in the data.
+
+step Dusty Coffer — the north-west
+
+  zone map 1431
+
+  goto 26.00,31.00
+  interact 411348 optional
+  note A lone coffer in the north-west; no loot table is confirmed in the data, so check it for whatever is inside.
+
+step Offering Box — the far south-east
+
+  zone map 1431
+
+  goto 81.20,71.80
+  interact 410779 optional
+  note A lone offering box in the far south-east; no loot table is confirmed in the data, so check it for whatever is inside.
+
+step Tear of Tilloa — the east
+
+  zone map 1431
+
+  goto 78.35,35.95
+  interact 321 optional
+  note The Tear of Tilloa in the east (the data lists it twice at the same point); no loot table is confirmed in the data, so check it for whatever is inside.
+
+step Eliza's Tombstone — the north-west
+
+  zone map 1431
+
+  goto 28.90,30.50
+  note Eliza's Tombstone in the north-west; a flavor marker with no loot in the data. Sightsee only.
+
+step Carved Stone — the center
+
+  zone map 1431
+
+  goto 49.40,34.00
+  note The Carved Stone in the center; a flavor marker with no loot in the data. Sightsee only.
+
+step Faustin's Alchemy Set — the north-east
+
+  zone map 1431
+
+  goto 87.48,35.19
+  note Faustin's Alchemy Set in the north-east, beside the Horde camp; a flavor marker with no loot in the data. Sightsee only.
+
+step Field Guide — the east
+
+  zone map 1431
+
+  goto 78.30,45.30
+  note The Field Guide in the east; a flavor marker with no loot in the data. Sightsee only.
+
+step Memory of Valor — the west
+
+  zone map 1431
+
+  goto 21.10,55.60
+  note The Memory of Valor in the west; a flavor marker with no loot in the data. Sightsee only.
+
+step Moonwell — the center
+
+  zone map 1431
+
+  goto 49.20,33.29
+  note The Moonwell in the center; a flavor marker with no loot in the data. Sightsee only.
