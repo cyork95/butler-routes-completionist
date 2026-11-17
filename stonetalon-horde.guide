@@ -1,0 +1,170 @@
+guide butler-routes-completionist/stonetalon-horde
+title Stonetalon Mountains (Horde)
+levels 12-30
+zone Stonetalon Mountains
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step South - Sun Rock Retreat, mustering
+
+  note Sun Rock Retreat is the Horde hub: Maggran Earthbinder, Tammra Windfield, Tsunaman and Mor'rogal hold the rise. Take the hub's asks here; the mountain fills them.
+  accept 6282 -- Harpies Threaten - Maggran Earthbinder; Bloodfury harpies, northwest
+  note 6282's harpies fill on the western sweep below - hand them in on the return.
+  accept 6284 -- Arachnophobia - the Wanted Poster: Besseleth; Besseleth's Fang, west
+  note The poster hangs at (59.06, 75.71), west of the Retreat - take 6284 there, then hunt Besseleth on the western sweep.
+  accept 6301 -- Cycle of Rebirth - Tammra Windfield; ten Gaea Seeds
+  note 6301's Gaea Seeds name no dropper and no vendor anywhere in the data - have ten Gaea Seeds (item 16205) in your bags.
+  accept 6393 -- Elemental War - Tsunaman; Incendrites off the fire elementals, south
+  note 6393's elementals fill on the southern sweep below - hand them in on the return.
+  accept 6421 -- Boulderslide Ravine - Mor'rogal; the cave and ten Resonite Crystals, east
+  note 6421's cave fills on the eastern leg below; its Resonite Crystals name no dropper anywhere in the data - have ten Resonite Crystals (item 16581) in your bags.
+  accept 6562 -- Trouble in the Deeps - Tsunaman; Je'neu Sancrea waits in Ashenvale
+  note 6562's turn-in is an Ashenvale expedition - the Ashenvale leg below carries it, and the core guide ashenvale-horde.guide owns Je'neu's follow-ups.
+  accept 5881 -- Calling in the Reserves - Maggran Earthbinder; a letter for Grish Longrunner at the Great Lift, Barrens
+  note 5881's letter rides to the Barrens expedition below - carry it south on the way out.
+  accept 86576 -- Bloodfury Trinkets - Maggran Earthbinder; Glittering Sunstones off the harpies, turn-in Mor'rogal
+  note 86576's sunstones fill with 6282's harpies on the western sweep - hand them to Mor'rogal on the return.
+
+step West - Bloodfury harpies and Besseleth
+
+  complete 6282 @32.78,66.31 era -- Bloodfury harpies for Maggran Earthbinder, in the northwest vales
+  note The harpies range around (27-37, 58-71) - work the vales for all four bloodlines.
+  collect 277936 x15 @32.78,66.31 era -- fifteen Glittering Sunstones off the Bloodfury harpies for Mor'rogal
+  complete 6284 @52.5,71.69 era -- Besseleth's Fang for Maggran Earthbinder, west
+  note Besseleth ranges three points around (52-55, 72-74) - work the ridge for the Fang.
+
+step Sun Rock Retreat, first return
+
+  turnin 6282 -- Harpies Threaten - back to Maggran Earthbinder
+  turnin 6284 -- Arachnophobia - Besseleth's Fang to Maggran Earthbinder
+  turnin 86576 -- Bloodfury Trinkets - the sunstones to Mor'rogal
+  turnin 6301 -- Cycle of Rebirth - the Gaea Seeds to Tammra Windfield
+  accept 6283 -- Bloodfury Bloodline - Maggran Earthbinder; the Ripper's Remains, northwest
+  note 6283 waited on 6282's turn-in - take it here for the Ripper's single point, west again below.
+  accept 6381 -- New Life - Tammra Windfield; the mounds, southwest
+  note 6381 waited on 6301's turn-in - take it here for the mound slope below.
+
+step West again - the Ripper's Remains
+
+  complete 6283 @30.75,61.91 era -- Bloodfury Ripper's Remains for Maggran Earthbinder, off the Ripper's single point
+  note The pre-chain forces the second western trip - the Ripper's point sits inside the harpy grounds just worked.
+  turnin 6283 -- Bloodfury Bloodline - the Remains to Maggran Earthbinder
+
+step South-center - elementals, mounds and the cave
+
+  collect 16312 x10 @34.5,59.88 era -- ten Incendrites off the fire elementals for Tsunaman, south
+  note The elementals range around (28-37, 49-74) - work the burns for the Incendrites.
+  complete 6381 @33.7,72.95 era -- the mounds for Tammra Windfield, southwest
+  note 6381's mounds dot the slope around (30-37, 70-74) - work the mounds.
+  complete 6421 @58.22,89.51 era -- investigate the cave at Boulderslide Ravine for Mor'rogal, east
+  note Goggeroc waits at the cave's back (57.4, 89.4, per the NPC record - spawnz carries no entry) - but 6481 only opens after 6421's turn-in, so the kill fills on the northern leg below.
+
+step Sun Rock Retreat, second return
+
+  turnin 6393 -- Elemental War - the Incendrites to Tsunaman
+  turnin 6381 -- New Life - the mounds worked, back to Tammra Windfield
+  turnin 6421 -- Boulderslide Ravine - the cave investigated, back to Mor'rogal
+  accept 6481 -- Earthen Arise - Mor'rogal; Goggeroc at the cave's back, east
+  note 6481 waited on 6421's turn-in - take it here for the northern leg below.
+  accept 1087 -- Cenarius' Legacy - Braelyn Firehand; the Cenarius brood, north
+  note Braelyn holds the stand just west of the Retreat - take 1087 here; the brood fills on the northern leg below.
+
+step North - Goggeroc and the Cenarius brood
+
+  complete 6481 @57.4,89.4 era -- Goggeroc for Mor'rogal, at the cave's back
+  note The pre-chain forces the second cave trip - the mouth sits at (58.22, 89.51), worked above.
+  complete 1087 @36.97,14.98 era -- the Cenarius brood for Braelyn Firehand, far north
+  note Sons, Daughters and Botanists cluster around (35-38, 10-16) - work the grove for the brood.
+  turnin 6481 -- Earthen Arise - Goggeroc slain, back to Mor'rogal on the way north
+  turnin 1087 -- Cenarius' Legacy - the brood culled, back to Braelyn Firehand
+  accept 1088 -- Ordanus - Braelyn Firehand; Keeper Ordanus's head, over the Ashenvale line
+  note 1088 waited on 1087's turn-in - take it here; the kill is an Ashenvale expedition below.
+
+step East - Xen'Zilla and Kaya
+
+  accept 6461 -- Blood Feeders - Xen'Zilla; Deepmoss creepers and venomspitters, southeast
+  note 6461's moss-beasts fill on the southeastern leg below - hand them in on the return.
+  accept 6523 -- Protect Kaya - Kaya Flathoof; escort Kaya to Camp Aparaje
+  note 6523's follow-up (6401, Kaya's Alive) is contracted in the Barrens guide - take 6401 up there after this leg.
+  complete 6461 @64.27,93.44 era -- Deepmoss creepers for Xen'Zilla, southeast
+  note The creepers range around (61-69, 78-93), the spitters around (52-54, 74-75) - work both clusters.
+  complete 6461 @53.42,74.94 era -- Deepmoss venomspitters for Xen'Zilla, south of the creepers
+  complete 6523 @77.1,90.85 era -- escort Kaya to Camp Aparaje for Makaba Flathoof
+
+step Far east - Jin'Zil and Ken'zigla
+
+  accept 1058 -- Jin'Zil's Forest Magic - Witch Doctor Jin'Zil; sap, whisker, eye and scale, north
+  note 1058's four parts fill on the northern leg below - hand them in on the return.
+  accept 1511 only Warlock -- Ken'zigla's Draught - Ken'zigla; the draught goes to Grunt Logmar at Camp Taurajo, Barrens
+  note 1511's pre (1510, News of Dogran) is contracted in the Barrens guide - take 1511 after that leg; its turn-in rides the Barrens expedition below.
+  collect 5582 x5 @37.41,20.37 era -- five Stonetalon Saps off the Sap Beasts for Jin'Zil, north
+  note The Sap Beasts range around (34-47, 19-30) - work the grove for the sap.
+  collect 5584 x5 @33.3,12.27 era -- five Twilight Whiskers off the Twilight Runners for Jin'Zil
+  note The runners range around (31-39, 11-18) - work the runs for the whisker.
+  collect 5585 x30 @46.77,27.6 era -- thirty Courser Eyes off the coursers for Jin'Zil
+  note Antlered and Great Coursers range around (36-52, 6-38) - work the herds for the eye.
+  collect 5583 @37.41,20.93 era -- a Fey Dragon Scale off the Fey Dragons for Jin'Zil
+  note Fey Dragons and Nal'taszar range around (26-40, 10-21) - work the glade for the scale.
+
+step Aparaje north - Darn Talongrip
+
+  accept 6542 -- Report to Kadrak - Darn Talongrip; Kadrak waits at the watch tower in northern Barrens
+  note 6542's turn-in rides the Barrens expedition below; its Alliance twin (6541) is not this guide's.
+  turnin 6523 -- Protect Kaya - Kaya safe at Camp Aparaje, back to Makaba Flathoof
+  turnin 6461 -- Blood Feeders - the moss-beasts cleared, back to Xen'Zilla
+  turnin 1058 -- Jin'Zil's Forest Magic - the four parts to Witch Doctor Jin'Zil
+
+step South - Windshear Crag, the Lore test
+
+  when onquest 1152
+  accept 1154 -- Test of Lore - Braug Dimspirit; the Legacy of the Aspects
+  note 1154's pre (1152, Test of Lore) accepts from Dorn Plainstalker in Thousand Needles - take 1154 here if that leg sent you in; its Legacy (item 5860) names no dropper anywhere in the data, so have it in your bags.
+  turnin 1154 -- Test of Lore - the Legacy to Braug Dimspirit
+  accept 6627 -- Test of Lore - Braug Dimspirit; answer Braug's question
+  note 6627 waited on 1154's turn-in - take it after handing the Legacy over.
+  complete 6627 @78.75,45.63 era -- answer Braug Dimspirit's question for the Lore test
+  turnin 6627 -- Test of Lore - Braug's question answered, back to Braug
+  accept 1159 -- Test of Lore - Braug Dimspirit; Parqual Fintallas waits in Undercity
+  note 1159 waited on 6627's turn-in; its turn-in rides the Undercity expedition below.
+
+step Center - Ziz and the writ
+
+  accept 94216 optional -- Craftsman's Writ: Elixir of Lesser Agility - the writ and an Elixir of Lesser Agility; Ziz Fizziks takes it
+  note 94216's writ has no placed source in the data - have the writ (item 264016) and an Elixir of Lesser Agility (item 3390) in your bags.
+  turnin 94216 optional -- Craftsman's Writ: Elixir of Lesser Agility - back to Ziz Fizziks
+
+step Expedition - the Barrens legs
+
+  zone The Barrens
+  note Three letters ride south: Maggran's, Ken'zigla's and Darn's - one expedition for the set.
+  turnin 5881 -- Calling in the Reserves - Maggran's letter to Grish Longrunner at the Great Lift
+  turnin 1511 only Warlock -- Ken'zigla's Draught - the draught to Grunt Logmar at Camp Taurajo
+  turnin 6542 -- Report to Kadrak - Darn's report to Kadrak at the northern guard tower
+  zone Stonetalon Mountains
+
+step Expedition - the Ashenvale legs
+
+  zone Ashenvale
+  note Ordanus stands over the border and Je'neu waits in the south - one expedition for both.
+  complete 1088 @62.05,51.37 era -- Keeper Ordanus's head for Braelyn Firehand, over the Ashenvale line
+  note Ordanus stands in Ashenvale-frame ground east of the border - both the world spawn and the NPC record agree on the point; cross back after the kill.
+  turnin 6562 -- Trouble in the Deeps - Tsunaman's word to Je'neu Sancrea
+  note Je'neu's follow-ups (6563-6565) live in the core guide ashenvale-horde.guide - take them up there after this handoff.
+  zone Stonetalon Mountains
+
+step Sun Rock Retreat, home from Ashenvale
+
+  turnin 1088 -- Ordanus - the head to Braelyn Firehand
+  accept 1089 -- The Den - Braelyn Firehand; the druids' hidden items on the Peak
+  note 1088's turn-in unlocks the Den - and 1089 has no turn-in anywhere in the data, so take it and move on; its three keys (Sleepers', Claw, Barrow - items 5689-5691) name no dropper anywhere in the data, so have them in your bags if they surface.
+
+step Expedition - the Undercity leg
+
+  when onquest 1159
+  zone Undercity
+  note Braug's word rides east to the Undercity - one expedition for the Lore test's end.
+  turnin 1159 -- Test of Lore - Braug's word to Parqual Fintallas in Undercity
+  zone Stonetalon Mountains
