@@ -2,7 +2,6 @@ guide butler-routes-completionist/stranglethorn-vale
 title Stranglethorn Vale - Completionist
 levels 30-45
 zone Stranglethorn Vale
-faction Alliance
 category Leveling
 folder Completionist
 coords live
@@ -16,48 +15,48 @@ version 1
 
 step The Duskwood road - Rebel Camp arrival
 
-  accept 215 @38,3.4 -- Jungle Secrets - Private Thorsen; Doren takes it at the camp
-  accept 203 -- The Second Rebellion - Sergeant Yohwa; Kurzen Jungle Fighters, the compound
-  accept 204 -- Bad Medicine - Sergeant Yohwa; remedies and fern extract, the compound
-  accept 210 -- Krazek's Cookery - Corporal Kaleb; carry the crock pot to Krazek in Booty Bay, south
+  accept 215 only Alliance @38,3.4 -- Jungle Secrets - Private Thorsen; Doren takes it at the camp
+  accept 203 only Alliance -- The Second Rebellion - Sergeant Yohwa; Kurzen Jungle Fighters, the compound
+  accept 204 only Alliance -- Bad Medicine - Sergeant Yohwa; remedies and fern extract, the compound
+  accept 210 only Alliance -- Krazek's Cookery - Corporal Kaleb; carry the crock pot to Krazek in Booty Bay, south
   note Thorsen walks two points ([38,3.4] + [40.34,8.44]) - this step uses his camp point.
-  accept 93443 -- Lost Shipping Crate - the crate on the north shore; Friz takes it in Riverglades, late
+  accept 93443 only Alliance -- Lost Shipping Crate - the crate on the north shore; Friz takes it in Riverglades, late
   note 93443's twins (94841/94895/94930) are the Desolace and Thousand Needles versions of the same crate - ours is the Vale's.
 
 step Rebel Camp - secrets and the camp records
 
-  turnin 215 -- Jungle Secrets - Thorsen's word to Lieutenant Doren
-  accept 200 -- Bookie Herod - Lieutenant Doren; his records, the compound
-  turnin 200 -- Bookie Herod - back to Bookie Herod's Records
-  accept 328 -- The Hidden Key - the records; the strongbox, east
-  turnin 328 -- The Hidden Key - the records' word to Bookie Herod's Strongbox
-  accept 329 -- The Spy Revealed! - the strongbox; the muddy note, Doren takes it
-  turnin 329 -- The Spy Revealed! - the strongbox's word to Lieutenant Doren
-  accept 330 -- Patrol Schedules - Lieutenant Doren; Sethman takes it
-  turnin 330 -- Patrol Schedules - Doren's word to Corporal Sethman
-  accept 331 -- Report to Doren - Corporal Sethman; carry it back
-  turnin 331 -- Report to Doren - Sethman's word to Lieutenant Doren
+  turnin 215 only Alliance -- Jungle Secrets - Thorsen's word to Lieutenant Doren
+  accept 200 only Alliance -- Bookie Herod - Lieutenant Doren; his records, the compound
+  turnin 200 only Alliance -- Bookie Herod - back to Bookie Herod's Records
+  accept 328 only Alliance -- The Hidden Key - the records; the strongbox, east
+  turnin 328 only Alliance -- The Hidden Key - the records' word to Bookie Herod's Strongbox
+  accept 329 only Alliance -- The Spy Revealed! - the strongbox; the muddy note, Doren takes it
+  turnin 329 only Alliance -- The Spy Revealed! - the strongbox's word to Lieutenant Doren
+  accept 330 only Alliance -- Patrol Schedules - Lieutenant Doren; Sethman takes it
+  turnin 330 only Alliance -- Patrol Schedules - Doren's word to Corporal Sethman
+  accept 331 only Alliance -- Report to Doren - Corporal Sethman; carry it back
+  turnin 331 only Alliance -- Report to Doren - Sethman's word to Lieutenant Doren
 
 step The Kurzen compound - Yohwa's war
 
-  complete 203 @43.57,9.73 era -- Kurzen Jungle Fighters for Sergeant Yohwa
-  complete 204 @43.7,9.53 era -- Jungle Remedies off the Kurzen Medicine Men for Sergeant Yohwa
-  complete 204 @44.1,9.54 era -- Venom Fern Extract off the Kurzen supplies for Sergeant Yohwa
-  turnin 203 -- The Second Rebellion - back to Sergeant Yohwa
-  turnin 204 -- Bad Medicine - back to Sergeant Yohwa
+  complete 203 only Alliance @43.57,9.73 era -- Kurzen Jungle Fighters for Sergeant Yohwa
+  complete 204 only Alliance @43.7,9.53 era -- Jungle Remedies off the Kurzen Medicine Men for Sergeant Yohwa
+  complete 204 only Alliance @44.1,9.54 era -- Venom Fern Extract off the Kurzen supplies for Sergeant Yohwa
+  turnin 203 only Alliance -- The Second Rebellion - back to Sergeant Yohwa
+  turnin 204 only Alliance -- Bad Medicine - back to Sergeant Yohwa
   note 207's pres (203 and 204 above) fill here - take 207 after them.
-  accept 207 -- Kurzen's Mystery - Brother Nimetz; the four troll legends, west
+  accept 207 only Alliance -- Kurzen's Mystery - Brother Nimetz; the four troll legends, west
   note 574's pres (203 and 204 above) fill here - take 574 after them.
-  accept 574 -- Special Forces - Sergeant Yohwa; commandos and headshrinkers, Doren takes it
-  complete 574 @44.15,7.91 era -- Kurzen Commandos for Sergeant Yohwa
-  complete 574 @46.33,6.96 era -- Kurzen Headshrinkers for Sergeant Yohwa
-  turnin 574 -- Special Forces - Yohwa's word to Lieutenant Doren
+  accept 574 only Alliance -- Special Forces - Sergeant Yohwa; commandos and headshrinkers, Doren takes it
+  complete 574 only Alliance @44.15,7.91 era -- Kurzen Commandos for Sergeant Yohwa
+  complete 574 only Alliance @46.33,6.96 era -- Kurzen Headshrinkers for Sergeant Yohwa
+  turnin 574 only Alliance -- Special Forces - Yohwa's word to Lieutenant Doren
   note 202's pre (574 above) fills here - take 202 after it.
-  accept 202 -- Colonel Kurzen - Lieutenant Doren; elites, subchiefs and the Colonel's head
-  complete 202 @46.69,6.21 era -- Kurzen Elites for Lieutenant Doren
-  complete 202 @48.71,5.37 era -- Kurzen Subchiefs for Lieutenant Doren
-  complete 202 @49.94,3.95 era -- Colonel Kurzen's head for Lieutenant Doren
-  turnin 202 -- Colonel Kurzen - back to Lieutenant Doren
+  accept 202 only Alliance -- Colonel Kurzen - Lieutenant Doren; elites, subchiefs and the Colonel's head
+  complete 202 only Alliance @46.69,6.21 era -- Kurzen Elites for Lieutenant Doren
+  complete 202 only Alliance @48.71,5.37 era -- Kurzen Subchiefs for Lieutenant Doren
+  complete 202 only Alliance @49.94,3.95 era -- Colonel Kurzen's head for Lieutenant Doren
+  turnin 202 only Alliance -- Colonel Kurzen - back to Lieutenant Doren
   accept 97047 -- The Cook in the Cage - Wendel Mathers, east; the cage key and a uniform
   complete 97047 @46.69,6.21 era -- the Compound Cage Key off the Colonel's guard for Wendel Mathers
   complete 97047 @49.6,7.7 era -- a Kurzen Fighter's Uniform from the supply crate for Wendel Mathers
@@ -144,38 +143,38 @@ step The west-north - Zimmix and the tablets
   accept 97328 -- Anything of Value - the thoroughly scavenged supplies; stolen shipments, Lozgil takes them
   note 97328's shipments name no placed source besides the supplies - work them off the supplies.
   complete 97328 @31.5,12.85 era -- Stolen Shipments from the scavenged supplies for Wharfmaster Lozgil
-  complete 207 @22.95,12.02 era -- the First Troll Legend off the Fall of Gurubashi tablet for Brother Nimetz
-  complete 207 @24.7,8.93 era -- the Fourth Troll Legend off the Emperor's Tomb tablet for Brother Nimetz
-  complete 207 @29.48,19.14 era -- the Second Troll Legend off the Moon Over the Vale tablet for Brother Nimetz
-  complete 207 @24.82,23.03 era -- the Third Troll Legend off the Gri'lek tablet for Brother Nimetz
-  turnin 207 -- Kurzen's Mystery - back to Brother Nimetz
+  complete 207 only Alliance @22.95,12.02 era -- the First Troll Legend off the Fall of Gurubashi tablet for Brother Nimetz
+  complete 207 only Alliance @24.7,8.93 era -- the Fourth Troll Legend off the Emperor's Tomb tablet for Brother Nimetz
+  complete 207 only Alliance @29.48,19.14 era -- the Second Troll Legend off the Moon Over the Vale tablet for Brother Nimetz
+  complete 207 only Alliance @24.82,23.03 era -- the Third Troll Legend off the Gri'lek tablet for Brother Nimetz
+  turnin 207 only Alliance -- Kurzen's Mystery - back to Brother Nimetz
   note 205's pre (207 above) fills here - take 205 after it.
-  accept 205 -- Troll Witchery - Brother Nimetz; skullsplitter fetishes, east, carried
+  accept 205 only Alliance -- Troll Witchery - Brother Nimetz; skullsplitter fetishes, east, carried
   note 205's fetishes wait for the Skullsplitter detour below - carry it.
 
 step The Skullsplitter detour - Nimetz's fetishes
 
   note East of the compound the Skullsplitters gather - take Nimetz's fetishes off their mystics, then head back north.
-  complete 205 @41.93,36.28 era -- Skullsplitter Fetishes off the Skullsplitter Mystics for Brother Nimetz
+  complete 205 only Alliance @41.93,36.28 era -- Skullsplitter Fetishes off the Skullsplitter Mystics for Brother Nimetz
 
 step The south road - to Booty Bay
 
-  turnin 205 -- Troll Witchery - the fetishes to Brother Nimetz
+  turnin 205 only Alliance -- Troll Witchery - the fetishes to Brother Nimetz
   note 206's pre (205 above) fills here - take 206 after it.
-  accept 206 -- Mai'Zoth - Brother Nimetz; the Mind's Eye off Mai'Zoth, east, carried
+  accept 206 only Alliance -- Mai'Zoth - Brother Nimetz; the Mind's Eye off Mai'Zoth, east, carried
   note 95786's pre (205 above) fills here - take 95786 after it.
-  accept 95786 -- An Acquaintance in Southshore - Brother Nimetz; Dibbs takes it in Hillsbrad, late
+  accept 95786 only Alliance -- An Acquaintance in Southshore - Brother Nimetz; Dibbs takes it in Hillsbrad, late
   note The road south passes the Skullsplitter grounds, but their errands (tusks, notes) wait for Booty Bay accepts below - carry on.
   turnin 97048 -- Returning to Port - Wendel's word to Captain Aransas
-  turnin 210 -- Krazek's Cookery - Kaleb's crock pot to Krazek
+  turnin 210 only Alliance -- Krazek's Cookery - Kaleb's crock pot to Krazek
   note 627's pre (210 above) fills here - take 627 after it.
-  accept 627 -- Favor for Krazek - Krazek; lesser bloodstone ore, Arathi and Hinterlands, late
+  accept 627 only Alliance -- Favor for Krazek - Krazek; lesser bloodstone ore, Arathi and Hinterlands, late
 
 step Booty Bay - Krazek and Kebok
 
-  accept 198 -- Supplies to Private Thorsen - Krazek; carry them north, returned late
+  accept 198 only Alliance -- Supplies to Private Thorsen - Krazek; carry them north, returned late
   accept 201 -- Investigate the Camp - Krazek; find the hunters' camp, completed north late
-  accept 616 -- The Haunted Isle - Krazek; Revilgaz takes it
+  accept 616 only Alliance -- The Haunted Isle - Krazek; Revilgaz takes it
   accept 1116 -- Dream Dust in the Swamp - Krazek; dream dust, Swamp of Sorrows, late
   note 1116's pre (1115, the Rumormonger, accepts in Thousand Needles) lives outside this tracker's list.
   accept 189 -- Bloodscalp Ears - Kebok; ears off the western trolls
@@ -242,13 +241,13 @@ step Booty Bay - the Bloodsail
 step Booty Bay - Revilgaz and Catelyn
 
   note 610's pre (603, Ansirem's Key, accepts in Alterac) lives outside this tracker's list.
-  accept 610 -- "Pretty Boy" Duncan - Catelyn the Blade; her blade off Duncan, south
+  accept 610 only Alliance -- "Pretty Boy" Duncan - Catelyn the Blade; her blade off Duncan, south
   accept 617 -- Akiris by the Bundle - Privateer Bloads; akiris reed off the western naga
 
 step Booty Bay - Lozgil, Ruzzgot and Drizzlik
 
   note 1041's pre (1040, Passage to Booty Bay, accepts in the Barrens) lives outside this tracker's list.
-  accept 1041 -- The Caravan Road - Caravaneer Ruzzgot; Daltry takes it in Duskwood, late
+  accept 1041 only Alliance -- The Caravan Road - Caravaneer Ruzzgot; Daltry takes it in Duskwood, late
   note 1042 continues in Duskwood from Daltry.
   note 95322's pre (95295, I Know a Guy, accepts in Riverglades) lives outside this tracker's list.
   accept 95322 -- Get the Goods - Caravaneer Ruzzgot; Ruzzgot takes it
@@ -291,12 +290,12 @@ step The west dash - the correspondence
   note The Bloodsail chain hinges on this paper: grab it, run it home, and the rest of the chain opens.
   turnin 595 -- The Bloodsail Buccaneers - the word to the Bloodsail Correspondence
   accept 597 -- The Bloodsail Buccaneers - the correspondence; Crazz takes it
-  complete 610 @27.39,69.42 era -- Catelyn's Blade off "Pretty Boy" Duncan for Catelyn the Blade
+  complete 610 only Alliance @27.39,69.42 era -- Catelyn's Blade off "Pretty Boy" Duncan for Catelyn the Blade
 
 step The north, returned - first pass
 
   note Back north for the errands that need Rebel hands: Thorsen, the camp and the river.
-  turnin 198 -- Supplies to Private Thorsen - Krazek's word to Private Thorsen
+  turnin 198 only Alliance -- Supplies to Private Thorsen - Krazek's word to Private Thorsen
   complete 201 @35.65,10.59 era -- the hunters' camp for Krazek
   complete 575 @32.46,8.92 era -- Large River Crocolisk Skins off the River Crocolisks for Drizzlik
   complete 213 @27.62,8.09 era -- Tumbled Crystals off the Venture Co. Geologists for Kebok
@@ -315,12 +314,12 @@ step Booty Bay, returned - the Bloodsail opens
   turnin 599 -- The Bloodsail Buccaneers - Crazz's word to Fleet Master Seahorn
   note 604's pre (599 above) fills here - take 604 after it.
   accept 604 -- The Bloodsail Buccaneers - Fleet Master Seahorn; swashbucklers west, charts and orders south
-  turnin 616 -- The Haunted Isle - Krazek's word to Baron Revilgaz
+  turnin 616 only Alliance -- The Haunted Isle - Krazek's word to Baron Revilgaz
   note 578's pre (616 above) fills here - take 578 after it.
-  accept 578 -- The Stone of the Tides - Baron Revilgaz; the haunted isle, west
-  turnin 610 -- "Pretty Boy" Duncan - the blade to Catelyn the Blade
+  accept 578 only Alliance -- The Stone of the Tides - Baron Revilgaz; the haunted isle, west
+  turnin 610 only Alliance -- "Pretty Boy" Duncan - the blade to Catelyn the Blade
   note 611's pre (610 above) fills here - take 611 after it.
-  accept 611 -- The Curse of the Tides - Catelyn the Blade; the stone off Gazban, west
+  accept 611 only Alliance -- The Curse of the Tides - Catelyn the Blade; the stone off Gazban, west
   note 576's and 587's pre (595 above) fills here - take them after the correspondence run.
   accept 576 -- Keep An Eye Out - Dizzy One-Eye; Dizzy's eye off the western Bloodsail
   accept 587 -- Up to Snuff - Deeg; snuff off the western Bloodsail
@@ -330,8 +329,8 @@ step The west coast - Bloodsail, elementals and reeds
   complete 576 @27.29,69.97 era -- Dizzy's Eye off the Bloodsail Raiders for Dizzy One-Eye
   complete 587 @25.76,66.03 era -- Snuff off the Bloodsail Mages for Deeg
   complete 604 @23.16,52.79 era -- Bloodsail Swashbucklers for Fleet Master Seahorn
-  complete 578 @20.79,23.15 era -- the haunted isle for Baron Revilgaz
-  complete 611 @19.84,22.52 era -- the Stone of the Tides off Gazban for Catelyn the Blade
+  complete 578 only Alliance @20.79,23.15 era -- the haunted isle for Baron Revilgaz
+  complete 611 only Alliance @19.84,22.52 era -- the Stone of the Tides off Gazban for Catelyn the Blade
   complete 617 @23.97,63.62 era -- Akiris Reed off the Naga Explorers for Privateer Bloads
   complete 617 @13.12,17.3 era -- Akiris Reed off the Brinescale Skirmishers for Privateer Bloads
   complete 189 @22.26,13.08 era -- Bloodscalp Ears off the Bloodscalp Scouts for Kebok
@@ -362,13 +361,13 @@ step Booty Bay, returned - the west pays
 
   turnin 576 -- Keep An Eye Out - back to Dizzy One-Eye
   turnin 587 -- Up to Snuff - back to Deeg
-  turnin 578 -- The Stone of the Tides - back to Baron Revilgaz
+  turnin 578 only Alliance -- The Stone of the Tides - back to Baron Revilgaz
   note 601's pre (578 above) fills here - take 601 after it.
-  accept 601 -- Water Elementals - Baron Revilgaz; bracers off the elementals, returned late
-  turnin 611 -- The Curse of the Tides - Catelyn's word to Baron Revilgaz
+  accept 601 only Alliance -- Water Elementals - Baron Revilgaz; bracers off the elementals, returned late
+  turnin 611 only Alliance -- The Curse of the Tides - Catelyn's word to Baron Revilgaz
   turnin 617 -- Akiris by the Bundle - back to Privateer Bloads
   note 623's pre (617 above) fills here - take 623 after it.
-  accept 623 -- Akiris by the Bundle - Privateer Bloads; the bundle, Groy takes it in Dustwallow, late
+  accept 623 only Alliance -- Akiris by the Bundle - Privateer Bloads; the bundle, Groy takes it in Dustwallow, late
   note 623 is Alliance-only; the Horde twin is not routed here.
   turnin 8552 -- The Monogrammed Sash - the sash to Captain Hecklebury Smotts
   note 8553's pre (8552 above) fills here - take 8553 after it.
@@ -386,7 +385,7 @@ step Booty Bay, returned - the west pays
 
 step The cape loop - bottles, charts and the cutlass
 
-  complete 610 @27.39,69.42 era -- Catelyn's Blade off "Pretty Boy" Duncan for Catelyn the Blade
+  complete 610 only Alliance @27.39,69.42 era -- Catelyn's Blade off "Pretty Boy" Duncan for Catelyn the Blade
   note The Half-Buried Bottles (2560) hold the Carefully Folded Note (594's starter) - work one open.
   collect 4098 @33.79,77.68 era optional
   accept 594 -- Message in a Bottle - the note; Poobah takes it on Jaguero Isle
@@ -519,16 +518,16 @@ step Galvan's forge - the mithril order (Blacksmithing)
 
 step The east jungle - Gnaz, Knaz and Mai'Zoth
 
-  accept 97420 -- Reduce, Reuse, Reconcile - Gnaz Blunderflame; drums off the venture mechanics
-  complete 97420 @42.05,18.29 era -- Drums of Crude Oil off the Venture Co. Mechanics for Gnaz Blunderflame
-  turnin 97420 -- Reduce, Reuse, Reconcile - back to Gnaz Blunderflame
-  accept 97405 -- Noise Complaints - Knaz Blunderflame; Mosh'Ogg spellcrafters, warmongers, maulers and shamans
-  complete 97405 @50.34,31.03 era -- Mosh'Ogg Spellcrafters for Knaz Blunderflame
-  complete 97405 @46.4,25.34 era -- Mosh'Ogg Warmongers for Knaz Blunderflame
-  complete 97405 @50.19,27.73 era -- Mosh'Ogg Maulers for Knaz Blunderflame
-  complete 97405 @50.14,27.94 era -- Mosh'Ogg Shamans for Knaz Blunderflame
-  turnin 97405 -- Noise Complaints - back to Knaz Blunderflame
-  complete 206 @52.93,27.6 era -- the Mind's Eye off Mai'Zoth for Brother Nimetz
+  accept 97420 only Alliance -- Reduce, Reuse, Reconcile - Gnaz Blunderflame; drums off the venture mechanics
+  complete 97420 only Alliance @42.05,18.29 era -- Drums of Crude Oil off the Venture Co. Mechanics for Gnaz Blunderflame
+  turnin 97420 only Alliance -- Reduce, Reuse, Reconcile - back to Gnaz Blunderflame
+  accept 97405 only Alliance -- Noise Complaints - Knaz Blunderflame; Mosh'Ogg spellcrafters, warmongers, maulers and shamans
+  complete 97405 only Alliance @50.34,31.03 era -- Mosh'Ogg Spellcrafters for Knaz Blunderflame
+  complete 97405 only Alliance @46.4,25.34 era -- Mosh'Ogg Warmongers for Knaz Blunderflame
+  complete 97405 only Alliance @50.19,27.73 era -- Mosh'Ogg Maulers for Knaz Blunderflame
+  complete 97405 only Alliance @50.14,27.94 era -- Mosh'Ogg Shamans for Knaz Blunderflame
+  turnin 97405 only Alliance -- Noise Complaints - back to Knaz Blunderflame
+  complete 206 only Alliance @52.93,27.6 era -- the Mind's Eye off Mai'Zoth for Brother Nimetz
 
 step Booty Bay, returned - the east pays
 
@@ -551,15 +550,15 @@ step The south-west, returned - elder, elementals and miners
 
   note Back west for what the early runs left: the elder croc, the elementals and the venture miners.
   complete 628 @25.35,19.22 era -- the Elder Crocolisk Skin off the Elder Saltwater Crocolisk for Drizzlik
-  complete 601 @19.43,22.31 era -- Water Elemental Bracers off the Lesser Water Elementals for Baron Revilgaz
+  complete 601 only Alliance @19.43,22.31 era -- Water Elemental Bracers off the Lesser Water Elementals for Baron Revilgaz
   complete 600 @40.35,43.27 era -- Singing Blue Crystals off the Venture Strip Miners for Crank Fizzlebub
 
 step Booty Bay, the south-west pays
 
   turnin 628 -- Excelsior - back to Drizzlik
-  turnin 601 -- Water Elementals - back to Baron Revilgaz
+  turnin 601 only Alliance -- Water Elementals - back to Baron Revilgaz
   note 602's pre (601 above) fills here - take 602 after it.
-  accept 602 -- Magical Analysis - Baron Revilgaz; the bracers, Ansirem takes them in Alterac, late
+  accept 602 only Alliance -- Magical Analysis - Baron Revilgaz; the bracers, Ansirem takes them in Alterac, late
   turnin 600 -- Venture Company Mining - back to Crank Fizzlebub
   note 1119's pres (621, paid at the cape above, plus 1118 Back to Booty Bay, accepts in Thousand Needles) fill here - take 1119 after them.
   accept 1119 -- Zanzil's Mixture and a Fool's Stout - Crank Fizzlebub; the stout, Kravel takes it in Thousand Needles, late
@@ -606,7 +605,7 @@ step Expedition - Arathi, three errands
 
   zone map 1417
 
-  complete 627 @82.81,33.53 era -- Lesser Bloodstone Ore off the deposits for Krazek
+  complete 627 only Alliance @82.81,33.53 era -- Lesser Bloodstone Ore off the deposits for Krazek
   turnin 670 -- Sunken Treasure - Seahorn's letter to Shakes O'Breen
   turnin 79242 -- No Honor Among Thieves - Tokal's word to Illari's Loot Cache
   zone map 1434
@@ -631,25 +630,25 @@ step Expedition - Alterac and Hillsbrad, two words north
 
   zone map 1416
 
-  turnin 602 -- Magical Analysis - the bracers to Archmage Ansirem Runeweaver
+  turnin 602 only Alliance -- Magical Analysis - the bracers to Archmage Ansirem Runeweaver
   note Ansirem walks two zones - this step uses his Alterac point.
   zone map 1424
 
-  turnin 95786 -- An Acquaintance in Southshore - Nimetz's word to Loremaster Dibbs
+  turnin 95786 only Alliance -- An Acquaintance in Southshore - Nimetz's word to Loremaster Dibbs
   zone map 1434
 
 step Expedition - Duskwood, the caravan road home
 
   zone map 1431
 
-  turnin 1041 -- The Caravan Road - Ruzzgot's word to Clerk Daltry
+  turnin 1041 only Alliance -- The Caravan Road - Ruzzgot's word to Clerk Daltry
   zone map 1434
 
 step Expedition - Dustwallow, Groy's word
 
   zone map 1445
 
-  turnin 623 -- Akiris by the Bundle - the bundle to Privateer Groy
+  turnin 623 only Alliance -- Akiris by the Bundle - the bundle to Privateer Groy
   zone map 1434
 
 step Expedition - the Hinterlands, Slim's grog
@@ -664,7 +663,7 @@ step Expedition - Riverglades, three words across the water
 
   zone map 2548
 
-  turnin 93443 -- Lost Shipping Crate - the crate's word to Friz Frazzlespark
+  turnin 93443 only Alliance -- Lost Shipping Crate - the crate's word to Friz Frazzlespark
   turnin 95327 -- All's Well That Ends Well - Ruzzgot's word to Friz Frazzlespark
   turnin 97332 -- Twice Misplaced Trust - Lozgil's word to Wharfmaster Whizzbuzz
   zone map 1434
@@ -680,15 +679,15 @@ step Expedition - the Barrens, Xizk's word (Warlock)
 
 step Booty Bay, the east ore home
 
-  turnin 627 -- Favor for Krazek - the ore to Krazek
+  turnin 627 only Alliance -- Favor for Krazek - the ore to Krazek
   note 622's pre (627 above) fills here - take 622 after it.
-  accept 622 -- Return to Corporal Kaleb - Krazek; carry it north, returned late
+  accept 622 only Alliance -- Return to Corporal Kaleb - Krazek; carry it north, returned late
   turnin 580 -- Whiskey Slim's Lost Grog - the port to Whiskey Slim
 
 step The north, returned - Rebel Camp and the camp
 
-  turnin 206 -- Mai'Zoth - the Mind's Eye to Brother Nimetz
-  turnin 622 -- Return to Corporal Kaleb - Krazek's word to Corporal Kaleb
+  turnin 206 only Alliance -- Mai'Zoth - the Mind's Eye to Brother Nimetz
+  turnin 622 only Alliance -- Return to Corporal Kaleb - Krazek's word to Corporal Kaleb
   turnin 78823 -- Terror of the Desert Skies - the drawing to Hemet Nesingwary
   accept 78830 only Hunter -- Terror of the Desert Skies - Hemet Nesingwary; an empty bait cage, Badlands, late
   note Each chapter combines from its four pages (right-click a page with its set) - Barnil takes the four chapters.

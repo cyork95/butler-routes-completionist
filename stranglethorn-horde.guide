@@ -1,0 +1,371 @@
+# Stranglethorn Vale (Horde) - Completionist (pack butler-routes-completionist, v1).
+# The Horde side of contested Stranglethorn Vale: the Grom'gol defense and
+# Mok'thardin chains, the Nimboya/Yenniku and Kin'weelay/Gurubashi lines, the
+# Booty Bay errands, the Tribal Leatherworking writ-class record and the
+# Shaman Voodress chain (band 30-47; 5148 and 8116-8119 ride above-band with
+# their gates noted). Every accept is on key 1434; the Arathi, Dustwallow,
+# Hinterlands, Durotar and Riverglades legs ride honest expedition steps below.
+# See docs/stranglethorn-horde-census.md.
+guide butler-routes-completionist/stranglethorn-horde
+title Stranglethorn Vale (Horde)
+levels 30-47
+zone Stranglethorn Vale
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Grom'gol, mustering
+
+  note Grom'gol is the Horde hub: Commander Aggro'gosh (32.17, 28.9), Far Seer Mok'thardin (32.12, 29.24), Nimboya (32.16, 27.72) and Kin'weelay (32.27, 27.71) hold the rise with the Bubbling Cauldron (32.22, 27.6) between them. Take the hub's asks here; the jungle fills them.
+  goto 32.17,28.9
+  accept 568 -- The Defense of Grom'gol - Commander Aggro'gosh; fifteen Lashtail Raptors, ringing the camp
+  note 568's raptors fill on the ring sweep below - hand them in on the return.
+  accept 570 -- Mok'thardin's Enchantment - Far Seer Mok'thardin; eight Shadowmaw Claws and the Pristine Tigress Fang
+  note 570's cats fill on the east-3 leg below (northeast cluster, with Mai'Zoth) - hand them in on the return.
+  accept 581 -- Hunt for Yenniku - Nimboya; nine Bloodscalp Tusks, west
+  note 581's tusks fill on the first western trip below - hand them in on the return.
+  accept 596 -- Bloody Bone Necklaces - Kin'weelay; twenty-five necklaces off the western Bloodscalps
+  note 596's necklaces fill across the first two western trips - hand them in when full.
+  accept 629 -- The Vile Reef - Kin'weelay; the Tablet Shard off the Gri'lek remains, west
+  note 629's shard fills on the first western trip - 95748 opens on the return.
+  accept 638 -- Trollbane - Nimboya; Zengu waits in Arathi, late
+  note 638's turn-in is an Arathi expedition - the leg below carries it.
+  accept 1261 -- Marg Speaks - the Bubbling Cauldron; the Jeweled Pendant and Nazeer, Dustwallow, late
+  note 1261's pendant drops only in Dustwallow and its turn-in sits there too - the expedition leg below carries both.
+  accept 2932 -- Grim Message - Nimboya; place the message at the Hinterlands point, late
+  note 2932's objective is a Hinterlands expedition - the leg below carries it.
+  accept 95141 -- Report to Rog'mar - Commander Aggro'gosh; Krom'rosh waits in Riverglades, late
+  note 95141's turn-in is a Riverglades expedition - the leg below carries it.
+  accept 97453 -- Weed Whacked - Gemmil (Crank in Booty Bay holds the twin starter); six Carnivorous Weeds, ringing the camp
+  note 97453's weeds fill on the ring sweep below - Nerrist takes them on the return.
+
+step Grom'gol, the Troll Witchdoctor
+
+  when onquest 1240
+  goto 32.27,27.71
+  turnin 1240 -- The Troll Witchdoctor - the Defiant Orc Head to Kin'weelay
+  note 1240 accepts in the Barrens and lives outside this tracker's list - turn it in here if the log carries it.
+
+step Grom'gol ring - raptors and weeds
+
+  complete 568 @32.97,23.89 era -- fifteen Lashtail Raptors for Commander Aggro'gosh, ringing the camp
+  note The raptors range around (30-39, 19-28) - work the ring for all fifteen.
+  complete 97453 @33.51,27.63 era -- six Carnivorous Weeds for Nerrist, around the camp
+  note The weeds ring the camp around (31-37, 22-33) - work the ring for all six.
+
+step Grom'gol, first return
+
+  goto 32.17,28.9
+  turnin 568 -- The Defense of Grom'gol - the raptors to Commander Aggro'gosh
+  accept 569 -- The Defense of Grom'gol - Commander Aggro'gosh; Mosh'Ogg Brutes and Witch Doctors, east
+  note 569 waited on 568's turn-in - its camp fills on the way west below.
+  turnin 97453 -- Weed Whacked - the weeds to Nerrist
+  note 97453's Booty Bay twin starter (Crank) is not this guide's - the Grom'gol start above is the routed one.
+
+step West - Bloodscalp country, first trip
+
+  complete 569 @37.17,30.63 era -- ten Mosh'Ogg Brutes for Commander Aggro'gosh, east of the camp
+  note The brutes cluster around (35-38, 30-32), on the way west.
+  complete 569 @37.01,28.69 era -- five Mosh'Ogg Witch Doctors for Commander Aggro'gosh, with the brutes
+  note The witch doctors work around (36-38, 28-32) - clear them with the brutes.
+  collect 3901 x9 @25.6,10.59 era -- nine Bloodscalp Tusks off the Bloodscalps for Nimboya, west
+  note The Bloodscalps range the west around (19-34, 8-21) - work the villages for the tusks; the necklaces (596) fill on the same kills.
+  collect 3915 @25.6,10.59 era -- Bloody Bone Necklaces off the western Bloodscalps for Kin'weelay
+  note The necklaces drop at 17% - farm them across this trip and the next; hand them in when the twenty-five are full.
+  collect 4094 @24.77,22.88 era -- the Tablet Shard off the Gri'lek remains for Kin'weelay, west
+  note The shard sits on the Gri'lek objects (npcs.json point; spawnz carries no entry) - 95748 opens back at the hub.
+  note The Third Troll Legend rubbing (95748) and the headhunting (582) ride the next western trip - their pres open on the return below.
+
+step Grom'gol, second return
+
+  goto 32.17,28.9
+  turnin 569 -- The Defense of Grom'gol - the Mosh'Ogg dead to Commander Aggro'gosh
+  accept 97386 -- The Offense of Grom'gol - Commander Aggro'gosh; the four Mosh'Ogg kinds, east
+  note 97386 waited on 569's turn-in - its camp fills on the east-3 leg below.
+  turnin 581 -- Hunt for Yenniku - the tusks to Nimboya
+  accept 582 -- Headhunting - Nimboya; twenty Shrunken Heads, west
+  note 582 waited on 581's turn-in - its heads fill on the next western trip.
+  turnin 629 -- The Vile Reef - the shard to Kin'weelay
+  accept 95748 -- The Gurubashi Legends of Old - Kin'weelay; the rubbing at the Fall of Gurubashi, west
+  note 95748 waited on 629's turn-in - its rubbing fills on the next western trip.
+
+step West - heads and the rubbing, second trip
+
+  collect 1532 x20 @22.7,10.79 era -- twenty Shrunken Heads off the Bloodscalp Headhunters for Nimboya, west
+  note The headhunters work around (20-24, 8-13) - farm them for all twenty heads.
+  collect 3915 @22.7,10.79 era -- more Bloody Bone Necklaces off the western Bloodscalps for Kin'weelay
+  note Finish the twenty-five here if the first trip left any short - 598 opens on the return.
+  collect 2007 @22.95,12.02 era -- the Third Troll Legend rubbing at the Fall of Gurubashi for Kin'weelay, west
+  note The rubbing comes off the Fall of Gurubashi object - 95770 and 95773 open on the return.
+  note Gan'zulah, Nezzliok (584), the Drowned City entrance (95770) and the tridents (95773) ride the next western trip - their pres open on the return below.
+
+step Grom'gol, third return
+
+  goto 32.16,27.72
+  turnin 582 -- Headhunting - the heads to Nimboya
+  accept 584 -- Bloodscalp Clan Heads - Nimboya; Gan'zulah's and Nezzliok's heads, west, for the Cauldron
+  note 584 waited on 582's turn-in - its heads fill on the next western trip.
+  turnin 596 -- Bloody Bone Necklaces - the necklaces to Kin'weelay
+  accept 598 -- Split Bone Necklace - Kin'weelay; twenty-five split necklaces, Skullsplitter country east
+  note 598 waited on 596's turn-in - its necklaces fill on the east trip below.
+  turnin 95748 -- The Gurubashi Legends of Old - the rubbing to Kin'weelay
+  accept 95770 -- Locating the Lost City - Kin'weelay (the Cauldron starts it too); find the Drowned City entrance, west
+  note 95770 waited on 95748's turn-in - its entrance fills on the next western trip.
+  accept 95773 -- Enemies in the Water - Commander Aggro'gosh (Nimboya holds the twin starter); ten Brinescale Tridents, west coast
+  note 95773 waited on 95748's turn-in - its tridents fill on the next western trip. The Nimboya twin is not this guide's - the Aggro'gosh start above is the routed one.
+
+step West - the heads and the Drowned City, third trip
+
+  collect 3904 @23.44,8.12 era -- Gan'zulah's Head for the Cauldron, west
+  collect 3905 @23.52,9.53 era -- Nezzliok's Head for the Cauldron, west
+  note The two heads come off Gan'zulah and Nezzliok themselves, side by side in the west.
+  complete 95770 @22.38,27.13 era -- find the Drowned City entrance for Kin'weelay, west
+  note The entrance event sits at the data-placed point - 95775 opens on the return.
+  collect 270305 x10 @20.84,20.82 era -- ten Brinescale Tridents off the Skirmishers for Commander Aggro'gosh, west coast
+  note The skirmishers line the coast around (13-31, 14-34) - work the shore for all ten tridents.
+  note The twins (585/586) and the tablets (95775) ride the hub and the east below - their pres open on the return.
+
+step Grom'gol, fourth return
+
+  goto 32.22,27.6
+  turnin 584 -- Bloodscalp Clan Heads - the heads to the Bubbling Cauldron
+  accept 585 -- Speaking with Nezzliok - the Bubbling Cauldron; three Skullsplitter trophies, east
+  note 585 waited on 584's turn-in - its trophies fill on the east trip below.
+  accept 586 -- Speaking with Gan'zulah - the Bubbling Cauldron; Skullsplitter kills and Ana'thek's armor, east
+  note 586 waited on 584's turn-in (twin of 585; 588 needs both) - its kills fill on the same east trip.
+  turnin 95770 -- Locating the Lost City - the entrance found, to Kin'weelay
+  accept 95775 -- The Drowned City - Kin'weelay; four rubbings of the I'lalai tablets
+  note 95775 waited on 95770's turn-in - its tablets name no placed spawn anywhere in the data, so have all four (items 270308-270311) in your bags.
+  turnin 95773 -- Enemies in the Water - the tridents to Commander Aggro'gosh
+  accept 95776 -- The Only Good Brinescale... - Commander Aggro'gosh; Var'Taka, in the Drowned City
+  note 95776 waited on 95770 and 95773 together - Var'Taka has no placed spawn anywhere in the data, so complete it here at Aggro'gosh with the note.
+  complete 95776 @32.17,28.9 era -- Var'Taka for Commander Aggro'gosh, accounted at the giver
+  turnin 95776 -- The Only Good Brinescale... - Var'Taka slain, to Commander Aggro'gosh
+
+step East - Skullsplitter country, first trip
+
+  collect 3906 @46.13,32.33 era -- the Balia'mah Trophy off its skull for the Cauldron, east
+  collect 3907 @42.21,36.11 era -- the Ziata'jai Trophy off its skull for the Cauldron, east
+  collect 3908 @47.65,39.54 era -- the Zul'Mamwe Trophy off its skull for the Cauldron, east
+  note The three trophy skulls stand around (42-48, 32-40) - work them on one sweep.
+  complete 586 @45.04,39.56 era -- eight Skullsplitter Hunters for the Cauldron, east
+  complete 586 @47.58,42.9 era -- six Skullsplitter Headhunters for the Cauldron, east
+  complete 586 @44.25,44.84 era -- four Skullsplitter Berserkers for the Cauldron, east
+  note The Skullsplitters range around (43-48, 38-45) - work the ruins for all three kinds.
+  collect 3909 @44.3,45 era -- Ana'thek's Broken Armor for the Cauldron, east
+  note Ana'thek the Cruel stands at the single point - his armor doubles for 598's split necklaces below.
+  collect 3916 x25 @44.3,45 era -- Split Bone Necklaces off Ana'thek and the Skullsplitters for Kin'weelay
+  note The split necklaces drop at 10% - farm them with the 586 kills; hand them in on the return.
+  note The basilisk crystals (589) and the Mind's Eye (591) ride the next east trip - their pres open on the return below.
+
+step Grom'gol, fifth return
+
+  goto 32.22,27.6
+  turnin 585 -- Speaking with Nezzliok - the trophies to the Bubbling Cauldron
+  turnin 586 -- Speaking with Gan'zulah - the kills and the armor to the Bubbling Cauldron
+  accept 588 -- The Fate of Yenniku - the Bubbling Cauldron; Kin'weelay takes the word
+  note 588 waited on 585 and 586 together - it carries no objectives, so hand it straight over.
+  turnin 588 -- The Fate of Yenniku - to Kin'weelay
+  accept 589 -- The Singing Crystals - Kin'weelay; three Pulsing Blue Shards off the Ironjaw Basilisks, east
+  note 589 waited on 588's turn-in - its shards fill on the next east trip.
+  turnin 598 -- Split Bone Necklace - the necklaces to Kin'weelay
+  turnin 95775 -- The Drowned City - the four rubbings to Kin'weelay
+  accept 96078 -- A Tale Spun Around the Fire - Kin'weelay; Master Gadrin waits in Durotar, late
+  note 96078 waited on 95775's turn-in - its turn-in is a Durotar expedition, late, and closes the Gurubashi line.
+
+step East - basilisks, second trip
+
+  collect 3911 x3 @43.01,49.16 era -- three Pulsing Blue Shards off the Ironjaw Basilisks for Kin'weelay, east
+  note The basilisks cluster around (41-44, 45-49) - work the flats for all three shards.
+  note The Mind's Eye (591) rides the next east trip - its pre opens on the return below.
+
+step Grom'gol, sixth return
+
+  goto 32.27,27.71
+  turnin 589 -- The Singing Crystals - the shards to Kin'weelay
+  accept 591 -- The Mind's Eye - Kin'weelay; the Mind's Eye off Mai'Zoth, far east
+  note 591 waited on 589's turn-in - Mai'Zoth waits on the next east trip.
+
+step East - Mai'Zoth and the Mosh'Ogg, third trip
+
+  collect 3838 x8 @48.69,22.22 era -- eight Shadowmaw Claws off the panthers for Mok'thardin, northeast
+  note The panthers range the northeast around (45-50, 20-29) - work the hills for the claws; the Fang (3839) drops off the Tigresses on the same kills.
+  collect 3839 @48.69,22.22 era -- the Pristine Tigress Fang off the Tigresses for Mok'thardin, northeast
+  complete 97386 @50.19,27.73 era -- Mosh'Ogg Maulers for Commander Aggro'gosh, at the Ogre Mound
+  complete 97386 @48.76,31.47 era -- Mosh'Ogg Warmongers for Commander Aggro'gosh, at the mound
+  complete 97386 @50.34,31.03 era -- Mosh'Ogg Spellcrafters for Commander Aggro'gosh, at the mound
+  note The Mosh'Ogg work the mound around (46-52, 24-31) - the Shamans hold the same ground; the data names no counts, so clear the camp. 97386 closes the Grom'gol defense.
+  collect 3616 @52.93,27.6 era -- the Mind's Eye off Mai'Zoth for Kin'weelay, far east
+  note Mai'Zoth holds the single eastern point - take the Eye and head home.
+  note Mok'thardin's second ask (572) opens on the return - its feathers lie west-center.
+
+step Grom'gol, seventh return
+
+  goto 32.27,27.71
+  turnin 591 -- The Mind's Eye - the Eye to Kin'weelay
+  accept 592 -- Saving Yenniku - Kin'weelay; the Filled Soul Gem goes to Nimboya
+  note 592 waited on 591's turn-in - its gem comes out of 593 at Yenniku below.
+  goto 32.12,29.24
+  turnin 570 -- Mok'thardin's Enchantment - the claws and the Fang to Mok'thardin
+  accept 572 -- Mok'thardin's Enchantment - Mok'thardin; ten Jungle Stalker Feathers, west-center
+  note 572 waited on 570's turn-in - its feathers fill on the west-center leg below.
+  turnin 97386 -- The Offense of Grom'gol - the mound cleared, to Commander Aggro'gosh
+
+step West-center - stalkers
+
+  collect 3863 x10 @27.6,50.28 era -- ten Jungle Stalker Feathers off the Stalkers for Mok'thardin, west-center
+  note The stalkers range around (23-34, 36-51) - work the woods for all ten feathers.
+
+step Grom'gol, eighth return
+
+  goto 32.12,29.24
+  turnin 572 -- Mok'thardin's Enchantment - the feathers to Mok'thardin
+  accept 571 -- Mok'thardin's Enchantment - Mok'thardin; the Aged Gorilla Sinew, south
+  note 571 waited on 572's turn-in - its sinew fills on the south leg below.
+
+step South - gorillas and Yenniku
+
+  collect 3862 @30.85,60.03 era -- the Aged Gorilla Sinew off the Elder Mistvale Gorillas for Mok'thardin, south
+  note The elders range the south around (30-34, 57-68) at a 5% sinew rate - work the vale for the sinew.
+  goto 39.02,58.35
+  accept 593 -- Filling the Soul Gem - Yenniku; fill the Soul Gem at his side
+  note 593 waited on 592 (held since the seventh return) - the Soul Gem itself names no source anywhere in the data, so it rides with the accept; the repeatable flag covers re-farming, not this completion.
+  complete 593 @39.02,58.35 era -- fill the Soul Gem for Yenniku, at his side
+  turnin 593 -- Filling the Soul Gem - the filled gem to Yenniku
+  note 592's Filled Soul Gem (item 3913) comes out of this turn-in - carry it north.
+  collect 3913 @39.02,58.35 era -- the Filled Soul Gem from Yenniku for Nimboya
+
+step Grom'gol, ninth return
+
+  goto 32.12,29.24
+  turnin 571 -- Mok'thardin's Enchantment - the sinew to Mok'thardin
+  accept 573 -- Mok'thardin's Enchantment - Mok'thardin; ten Naga Explorers and the Holy Spring Water, south
+  note 573 waited on 571's turn-in and closes his line - its gorge fills on the south leg below.
+  goto 32.16,27.72
+  turnin 592 -- Saving Yenniku - the Filled Soul Gem to Nimboya
+  note The Nimboya/Yenniku line closes here - the Vale's north is done.
+
+step South - the Naga gorge, second trip
+
+  complete 573 @25.07,63.69 era -- ten Naga Explorers for Mok'thardin, on the south coast
+  note The explorers line the coast around (23-28, 58-64) - work the shore for all ten.
+  collect 737 @28.96,61.93 era -- the Holy Spring Water for Mok'thardin, south
+  note The water comes off the Holy Spring object - 573 closes back at the hub.
+
+step Grom'gol, home from the south
+
+  goto 32.12,29.24
+  turnin 573 -- Mok'thardin's Enchantment - the gorge cleared, to Mok'thardin
+  note Mok'thardin's line closes here - Booty Bay and the expeditions are all that remain.
+
+step Booty Bay, the engineers' minis
+
+  when onquest 2842
+  goto 27.6,77.48
+  turnin 2842 -- Chief Engineer Scooty - Sovik's word to Scooty
+  accept 2843 -- Gnomer-gooooone! - Scooty; wait for the calibration
+  note Holders of 2842 turn in here first, then take 2843 on the same terms as the step below.
+
+step Booty Bay, the Gnome mini
+
+  when onquest 3635
+  goto 28.36,76.35
+  turnin 3635 -- Gnome Engineering - Graham's word to Oglethorpe Obnoticus
+  accept 3642 -- The Pledge of Secrecy - Oglethorpe Obnoticus; sign on as a Gnome Engineer
+  note Holders of 3635 turn in here first, then take the pledge on the same terms as the Engineering step below (which gates the skill).
+
+step Booty Bay - Scooty and Oglethorpe
+
+  note Booty Bay holds the south's errands: Scooty (27.6, 77.48) calibrates the transponder and Oglethorpe Obnoticus (28.36, 76.35) signs the pledge. Take both asks here; both turn in here.
+  goto 27.6,77.48
+  accept 2843 -- Gnomer-gooooone! - Scooty; wait for the calibration
+  note 2843 needs 2842 (Chief Engineer Scooty, Orgrimmar-routed) done - take it here if that leg sent you in.
+  complete 2843 @27.6,77.48 era -- wait for Scooty to calibrate the Goblin Transponder
+  turnin 2843 -- Gnomer-gooooone! - back to Scooty
+  goto 28.36,76.35
+  note Oglethorpe's pledge line (3642/3643) needs Gnome Engineering (3635, Undercity-routed, or its Barrens twin 3637) done - engineers take it in the pledge step below (and the mini above); 3645 (Membership Card Renewal, Ironforge-keyed, no objectives) is an uncontracted extra.
+
+step Booty Bay - the pledge (Engineering)
+
+  when skill Engineering 1
+
+  goto 28.36,76.35
+  accept 3642 optional -- The Pledge of Secrecy - Oglethorpe Obnoticus; sign on as a Gnome Engineer
+  note 3642 needs the engineer's hands and a finished Gnome line (3635 or 3637) - skip it without both. Have the pledge (item 11282) in your bags.
+  turnin 3642 optional -- The Pledge of Secrecy - the signed pledge to Oglethorpe Obnoticus
+  accept 3643 optional -- Show Your Work - Oglethorpe Obnoticus; the crafted materials
+  note 3643 waited on 3642's turn-in - have the tubes, scope and dummies (items 10559, 4407, 4392) in your bags.
+  turnin 3643 optional -- Show Your Work - the materials to Oglethorpe Obnoticus
+
+step North - Se'Jib's arts (Leatherworking)
+
+  when skill Leatherworking 1
+
+  goto 36.55,34.09
+  accept 5148 optional -- Tribal Leatherworking - Se'Jib; a Wild Leather Vest and Helmet
+  note 5148 needs the leatherworker's hands and 2860 (Master of the Wild Leather, Feralas accept, unrouted) done - skip it without both. Its vest and helmet are crafted and name no source anywhere in the data, so have them (items 8211, 8214) in your bags. Its excl twins (5145/5146, other specializations) are not this guide's.
+  turnin 5148 optional -- Tribal Leatherworking - the vest and helmet to Se'Jib
+
+step Yojamba Isle - the Voodress chain (Shaman)
+
+  only Shaman
+
+  goto 15.3,16.02
+  note Maywiki of Zuldazar holds the Voodress chain on Yojamba Isle for Shaman with standing: 8116 (Honored 3000), 8117 (9000), 8118 (21000), 8119 (42000). Take each link as its rep allows; the three Visions name no source anywhere in the data, so have them (items 19606-19608) in your bags.
+  accept 8116 only Shaman -- Vision of Voodress - Maywiki of Zuldazar; Zandalar's word
+  turnin 8116 only Shaman -- Vision of Voodress - back to Maywiki of Zuldazar
+  accept 8117 only Shaman -- Vision of Voodress - Maywiki of Zuldazar; the first vision
+  turnin 8117 only Shaman -- Vision of Voodress - the vision to Maywiki of Zuldazar
+  accept 8118 only Shaman -- Vision of Voodress - Maywiki of Zuldazar; the second vision
+  turnin 8118 only Shaman -- Vision of Voodress - the vision to Maywiki of Zuldazar
+  accept 8119 only Shaman -- The Unmarred Vision of Voodress - Maywiki of Zuldazar; the unmarred vision
+  turnin 8119 only Shaman -- The Unmarred Vision of Voodress - the vision to Maywiki of Zuldazar
+
+step Expedition - the Hinterlands message
+
+  zone The Hinterlands
+
+  complete 2932 @23.41,58.06 era -- place the grim message at the Witherbark point for Nimboya
+  note The data places the event point in the Hinterlands - carry Nimboya's laden pike there and back.
+  zone Stranglethorn Vale
+
+step Grom'gol, the message delivered
+
+  goto 32.16,27.72
+  turnin 2932 -- Grim Message - the message placed, to Nimboya
+
+step Expedition - Dustwallow, the pendant and Nazeer
+
+  zone Dustwallow Marsh
+
+  collect 5942 @54.23,46.08 era -- the Jeweled Pendant off the Muckshells for Nazeer, Dustwallow
+  note The pendant drops at 5% off the Dustwallow Muckshells (and Lord Angler) - work the marsh for it.
+  turnin 1261 -- Marg Speaks - the pendant to Nazeer in Brackenwall Village @35.21,30.66 era
+  note 1262 (Report to Zor, Barrens accept) follows Nazeer and lives outside this tracker's list - stop here.
+  zone Stranglethorn Vale
+
+step Expedition - Arathi, Zengu's word
+
+  zone Arathi Highlands
+
+  turnin 638 -- Trollbane - Nimboya's word to Zengu @73.8,33.96 era
+  note 639 (Sigil of Strom, Arathi accept) follows Zengu and lives outside this tracker's list - stop here.
+  zone Stranglethorn Vale
+
+step Expedition - Durotar, Gadrin's fire
+
+  zone Durotar
+
+  turnin 96078 -- A Tale Spun Around the Fire - the tablet etchings to Master Gadrin @55.95,74.72 era
+  note The Gurubashi line closes at Gadrin's fire - the Vale is done all but the Riverglades word.
+  zone Stranglethorn Vale
+
+step Expedition - Riverglades, Rog'mar's word
+
+  zone Riverglades
+
+  turnin 95141 -- Report to Rog'mar - Aggro'gosh's word to Krom'rosh @59.37,45.6 era
+  note Krom'rosh's point is npcs.json-only (spawnz carries no entry) - the Vale closes here. Take the boats south for wherever next.
+  zone Stranglethorn Vale
