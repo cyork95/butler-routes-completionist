@@ -569,7 +569,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - lint 0 errors, 20 warnings all argued; playtest 3 Horde personas, 0 stuck, residue R1/R2/R5 only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (rares: 11 rares + 4 item-start hunts + fixed containers; recipes: 2 vendor + 10 narrow mob drops; both 0 errors / 0 warnings)
 
 ### Stonetalon Mountains — Horde
 

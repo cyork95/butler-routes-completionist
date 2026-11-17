@@ -668,3 +668,8 @@ as above: game-data citation or a named source.
 ## Tirisfal Glades tame lines (pack 0.95.0)
 
 - Bayne 10356 (wolf table: Stringy Wolf Meat 2672, Fractured Canine 3299, Rabbit's Foot 10574), Ressan the Needler 10357 (bat table: Dried Bat Blood 11409, Patch of Bat Hair 11410, Meaty Bat Wing 11411) and Sri'skulk 10359 (spider table: Spider Venom Sac 1954, Spider Leg 2010, Discolored Fang 4814) present drop evidence, but no contracted Tirisfal quest kills wolves, Needlers or this spider by NPC ID - the core kills Duskbats and Night Web spiders specifically, never the candidates' species - so there is no core-guide beast-family corroboration under the Mulgore bar. Logged, not shipped. The other nine rares are undead/humanoid/mechanical or unknown-nonbeast types and are not tame candidates. NPC records carry no family/tame flags. Revisit if a family flag or tame evidence appears.
+
+
+## Ashenvale (Horde) tame lines (pack 0.102.0)
+
+- Ursol'lok 12037 ships the rares guide's tame line (Big Bear Meat + Bear Gall Bladder on its drop table, plus contracted core quest 98251 killing Ashenvale Bears - drop evidence with core-guide beast-family corroboration, the Mulgore Mazzranache pattern). The remaining beast-plausible rares and hunt beasts (Terrowulf Packlord 3792, Oakpaw 10640, Mist Howler 10644, Sharptalon 12676, Ursangous 12678, Shadumbra 12677) present no equivalent drop evidence with a contracted core quest killing their beast family by NPC ID, and NPC records carry no family/tame flags. Logged, not shipped. Revisit if a family flag or tame evidence appears.
