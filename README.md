@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.100.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.101.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -113,6 +113,7 @@ Status: **in development (pack v0.100.0), not published yet**. The first release
 | `orgrimmar-recipes.guide` (companion built, pilot pending) | Orgrimmar recipes & patterns | 1-60 | Horde |
 | `thunder-bluff-recipes.guide` (companion built, pilot pending) | Thunder Bluff recipes & patterns | 3-60 | Horde |
 | `undercity-recipes.guide` (companion built, pilot pending) | Undercity recipes & patterns | 1-60 | Horde |
+| `ashenvale-horde.guide` (Horde block core built, pilot pending) | Ashenvale (Horde) | 19-30 | Horde |
 | swamp-of-sorrows.guide (Set 6 core built, pilot pending) | Swamp of Sorrows | 30-38 | Alliance |
 | `swamp-of-sorrows-rares.guide` (companion built, pilot pending) | Swamp of Sorrows rares and treasures | 30-38 | Alliance |
 | `swamp-of-sorrows-recipes.guide` (companion built, pilot pending) | Swamp of Sorrows recipe sources | 30-38 | Alliance |

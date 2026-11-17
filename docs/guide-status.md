@@ -564,9 +564,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Ashenvale — Horde
 
-- [ ] Census (reconcile against 39 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 39 banked set-asides reconciled (35 IN; 8266/8296 repeatable OUT, 79098/95042 broken OUT, 3/4 phantom), docs/ashenvale-horde-census.md
+- [x] Core guide - ashenvale-horde.guide (35 quests, band 19-30)
+- [x] Lint/playtest clean - lint 0 errors, 20 warnings all argued; playtest 3 Horde personas, 0 stuck, residue R1/R2/R5 only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
