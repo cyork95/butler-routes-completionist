@@ -2,7 +2,6 @@ guide butler-routes-completionist/stonetalon-mountains
 title Stonetalon Mountains - Completionist
 levels 16-30
 zone Stonetalon Mountains
-faction Alliance
 category Leveling
 folder Completionist
 coords live
@@ -11,7 +10,7 @@ version 1
 step The north border - Albagorm's vale
 
   note In from Ashenvale along the north road: Keeper Albagorm holds the border post. Quests here run 16 to 30, with the Desolace-border finales up to 40 - the steps say which legs belong to which level.
-  accept 1057 -- Reclaiming the Charred Vale - Keeper Albagorm; Bloodfury harpies, west
+  accept 1057 only Alliance -- Reclaiming the Charred Vale - Keeper Albagorm; Bloodfury harpies, west
   note 1057's pre (1056, Journey to Stonetalon Peak) lives in the Ashenvale guide - take 1057 after that leg.
   note Innkeeper Faralia binds here, at the north post.
   buy 4470 "Simple Wood"
@@ -21,17 +20,17 @@ step The north border - Albagorm's vale
 step Stonetalon Peak - Gaxim and Kaela
 
   note The Peak is the Alliance hub: Gaxim Rustfizzle and Kaela Shadowspear hold the terrace, Ziz Fizziks and Veenix the lower huts.
-  accept 1085 -- On Guard in Stonetalon - Kaela Shadowspear; Gaxim Rustfizzle takes it
+  accept 1085 only Alliance -- On Guard in Stonetalon - Kaela Shadowspear; Gaxim Rustfizzle takes it
   note 1085's pre (1070, On Guard in Stonetalon) lives in the Ashenvale guide - take 1085 after that leg.
-  turnin 1085 -- On Guard in Stonetalon - Kaela's word to Gaxim Rustfizzle
-  accept 1071 -- A Gnome's Respite - Gaxim Rustfizzle; Venture Co. loggers, east
+  turnin 1085 only Alliance -- On Guard in Stonetalon - Kaela's word to Gaxim Rustfizzle
+  accept 1071 only Alliance -- A Gnome's Respite - Gaxim Rustfizzle; Venture Co. loggers, east
   note 1071's pre (1085 above) fills here - take 1071 after it.
-  accept 1079 -- Covert Ops - Alpha - Gaxim Rustfizzle; the Engineering Plans, east
+  accept 1079 only Alliance -- Covert Ops - Alpha - Gaxim Rustfizzle; the Engineering Plans, east
   note 1079's pres (1074 in Ironforge, 1077 in Stormwind) live in the city guides - take 1079 after those legs.
-  accept 1080 -- Covert Ops - Beta - Gaxim Rustfizzle; the Venture Co. Letters, east
+  accept 1080 only Alliance -- Covert Ops - Beta - Gaxim Rustfizzle; the Venture Co. Letters, east
   note 1080's pres (1074, 1077 above) fill the same way - take 1080 after those legs.
   note The Covert Ops kit (Pack, Plans, Detonators, Explosives) has no placed source in the data - have it in your bags.
-  accept 2931 -- Castpipe's Task - Gaxim Rustfizzle; Master Mechanic Castpipe takes it in Ironforge
+  accept 2931 only Alliance -- Castpipe's Task - Gaxim Rustfizzle; Master Mechanic Castpipe takes it in Ironforge
 
 step Stonetalon Peak - Ziz and Veenix
 
@@ -89,17 +88,17 @@ step Windshear - Piznik's orders
 
 step Windshear Crag - Covert Ops
 
-  complete 1071 @64,53 era -- Venture Co. Loggers for Gaxim Rustfizzle
-  complete 1071 @65,54 era -- Venture Co. Deforesters for Gaxim Rustfizzle
-  turnin 1071 -- A Gnome's Respite - back to Gaxim Rustfizzle
-  complete 1079 @66.09,51.33 era -- the Engineering Plans off the plans hut for Gaxim Rustfizzle
-  turnin 1079 -- Covert Ops - Alpha - the plans to Gaxim Rustfizzle
-  complete 1080 @74.46,59.3 era -- the Venture Co. Letters off the documents hut for Gaxim Rustfizzle
-  turnin 1080 -- Covert Ops - Beta - the letters to Gaxim Rustfizzle
-  accept 1091 -- Kaela's Update - Gaxim Rustfizzle; Kaela Shadowspear takes it, with the Letters
+  complete 1071 only Alliance @64,53 era -- Venture Co. Loggers for Gaxim Rustfizzle
+  complete 1071 only Alliance @65,54 era -- Venture Co. Deforesters for Gaxim Rustfizzle
+  turnin 1071 only Alliance -- A Gnome's Respite - back to Gaxim Rustfizzle
+  complete 1079 only Alliance @66.09,51.33 era -- the Engineering Plans off the plans hut for Gaxim Rustfizzle
+  turnin 1079 only Alliance -- Covert Ops - Alpha - the plans to Gaxim Rustfizzle
+  complete 1080 only Alliance @74.46,59.3 era -- the Venture Co. Letters off the documents hut for Gaxim Rustfizzle
+  turnin 1080 only Alliance -- Covert Ops - Beta - the letters to Gaxim Rustfizzle
+  accept 1091 only Alliance -- Kaela's Update - Gaxim Rustfizzle; Kaela Shadowspear takes it, with the Letters
   note 1091's pres (1079, 1080 above) fill here - take 1091 after them.
   note 1091 names the Venture Co. Letters - the documents hut east has more if your bags are short.
-  turnin 1091 -- Kaela's Update - back to Kaela Shadowspear
+  turnin 1091 only Alliance -- Kaela's Update - back to Kaela Shadowspear
   complete 78270 only Rogue @66.69,52.33 era -- a Venture Co. Work Order off the Windshear crews for Veenix
   turnin 78270 only Rogue -- Goblin Lockpicks - the order to Veenix
   complete 1093 @67,52 era -- the Super Reaper 6000 Blueprints off a Venture Co. Operator for Ziz Fizziks
@@ -110,26 +109,26 @@ step Windshear Crag - Covert Ops
 
 step The Charred Vale - harpies and embers
 
-  accept 1083 -- Enraged Spirits - Kaela Shadowspear; Smoldering Embers, south-west
+  accept 1083 only Alliance -- Enraged Spirits - Kaela Shadowspear; Smoldering Embers, south-west
   note 1083's pre (1091) fills at Windshear - take 1083 after it.
-  accept 1084 -- Wounded Ancients - Kaela Shadowspear; Corroded Shrapnel, south-west
+  accept 1084 only Alliance -- Wounded Ancients - Kaela Shadowspear; Corroded Shrapnel, south-west
   note 1084's pre (1091) fills at Windshear - take 1084 after it.
-  complete 1057 @33.36,64.99 era -- Bloodfury harpies for Keeper Albagorm
-  complete 1057 @32.07,60.43 era -- Bloodfury ambushers for Keeper Albagorm
-  complete 1057 @32.66,67.44 era -- Bloodfury slayers for Keeper Albagorm
-  complete 1057 @34.69,68.03 era -- Bloodfury rogues for Keeper Albagorm
-  complete 1083 @35,66 era -- Smoldering Embers off the flame spirits for Kaela Shadowspear
-  complete 1084 @32,66 era -- Corroded Shrapnel off the charred ancients for Kaela Shadowspear
+  complete 1057 only Alliance @33.36,64.99 era -- Bloodfury harpies for Keeper Albagorm
+  complete 1057 only Alliance @32.07,60.43 era -- Bloodfury ambushers for Keeper Albagorm
+  complete 1057 only Alliance @32.66,67.44 era -- Bloodfury slayers for Keeper Albagorm
+  complete 1057 only Alliance @34.69,68.03 era -- Bloodfury rogues for Keeper Albagorm
+  complete 1083 only Alliance @35,66 era -- Smoldering Embers off the flame spirits for Kaela Shadowspear
+  complete 1084 only Alliance @32,66 era -- Corroded Shrapnel off the charred ancients for Kaela Shadowspear
 
 step The Peak, returned - Kaela's update
 
-  turnin 1083 -- Enraged Spirits - back to Kaela Shadowspear
-  turnin 1084 -- Wounded Ancients - back to Kaela Shadowspear
-  accept 1072 -- An Old Colleague - Gaxim Rustfizzle; Lomac Gearstrip takes it in Ironforge
+  turnin 1083 only Alliance -- Enraged Spirits - back to Kaela Shadowspear
+  turnin 1084 only Alliance -- Wounded Ancients - back to Kaela Shadowspear
+  accept 1072 only Alliance -- An Old Colleague - Gaxim Rustfizzle; Lomac Gearstrip takes it in Ironforge
   note 1072's pre (1071) fills at Windshear - take 1072 after it.
-  accept 1075 -- A Scroll from Mauren - Gaxim Rustfizzle; Collin Mauren takes it in Stormwind
+  accept 1075 only Alliance -- A Scroll from Mauren - Gaxim Rustfizzle; Collin Mauren takes it in Stormwind
   note 1075's pre (1071) fills at Windshear - take 1075 after it.
-  accept 1082 -- Update for Sentinel Thenysil - Kaela Shadowspear; Thenysil takes it in Ashenvale
+  accept 1082 only Alliance -- Update for Sentinel Thenysil - Kaela Shadowspear; Thenysil takes it in Ashenvale
   note 1082's pres (1083, 1084 above) fill here - take 1082 after them.
   complete 1096 @64.49,40.25 era -- Gerenzo's Mechanical Arm off Gerenzo Wrenchwhistle for Ziz Fizziks
   turnin 1096 -- Gerenzo Wrenchwhistle - back to Ziz Fizziks
@@ -138,8 +137,8 @@ step The Peak, returned - Kaela's update
 
 step The center - courier, pridewings and the firepit
 
-  accept 86574 -- Stonetalon Supply Run - Night Elf Courier; a Supply Bundle off the pridewings, Faralia takes it
-  complete 86574 @50.41,45.39 era -- a Stonetalon Supply Bundle off the pridewings for Innkeeper Faralia
+  accept 86574 only Alliance -- Stonetalon Supply Run - Night Elf Courier; a Supply Bundle off the pridewings, Faralia takes it
+  complete 86574 only Alliance @50.41,45.39 era -- a Stonetalon Supply Bundle off the pridewings for Innkeeper Faralia
   accept 79980 -- Scramble - the Pocket Litter, central
   note 79980's listed pre (79192, Stepping Stones) has no start anywhere in the data - take 79980 on its own.
   turnin 79980 -- Scramble - the litter's word to the Mound of Dirt
@@ -151,84 +150,84 @@ step The center - courier, pridewings and the firepit
 
 step The north road, returned
 
-  turnin 1057 -- Reclaiming the Charred Vale - back to Keeper Albagorm
-  accept 1059 -- Reclaiming the Charred Vale - Keeper Albagorm; Falfindel Waywarder takes it, south
+  turnin 1057 only Alliance -- Reclaiming the Charred Vale - back to Keeper Albagorm
+  accept 1059 only Alliance -- Reclaiming the Charred Vale - Keeper Albagorm; Falfindel Waywarder takes it, south
   note 1059's pre (1057 above) fills here - take 1059 after it.
-  turnin 86574 -- Stonetalon Supply Run - the bundle to Innkeeper Faralia
+  turnin 86574 only Alliance -- Stonetalon Supply Run - the bundle to Innkeeper Faralia
 
 step The south camp - Kreldig's stand
 
   note The south camp holds the Desolace-border chains: Kreldig Ungor, Vahlarriel Demonslayer, Captain Pentigast and Corporal Melkins. Innkeeper Lyshaerya binds here.
-  accept 1458 -- Reagents for Reclaimers Inc. - Kreldig Ungor; Hatefury claws and horns, here
+  accept 1458 only Alliance -- Reagents for Reclaimers Inc. - Kreldig Ungor; Hatefury claws and horns, here
   note 1458's pre (1453, Reclaimers' Business in Desolace) lives in the Ironforge guide - take 1458 after that leg.
-  accept 1454 -- The Karnitol Shipwreck - Kreldig Ungor; Karnitol's Chest takes it, Desolace
+  accept 1454 only Alliance -- The Karnitol Shipwreck - Kreldig Ungor; Karnitol's Chest takes it, Desolace
   note 1454's pre (1453 above) fills the same way - take 1454 after that leg.
-  accept 1456 -- The Karnitol Shipwreck - Kreldig Ungor; Karnitol's Satchel off the Slitherblades, Desolace coast
+  accept 1456 only Alliance -- The Karnitol Shipwreck - Kreldig Ungor; Karnitol's Satchel off the Slitherblades, Desolace coast
   note 1456's pre (1455, from Karnitol's Chest below) is uncontracted in Desolace - take 1456 on its own.
-  accept 1459 -- Reagents for Reclaimers Inc. - Kreldig Ungor; venom and kodo hide, here and Desolace
+  accept 1459 only Alliance -- Reagents for Reclaimers Inc. - Kreldig Ungor; venom and kodo hide, here and Desolace
   note 1459's pre (1458 above) fills here - take 1459 after it.
-  accept 1466 -- Reagents for Reclaimers Inc. - Kreldig Ungor; demon bits, Desolace south
+  accept 1466 only Alliance -- Reagents for Reclaimers Inc. - Kreldig Ungor; demon bits, Desolace south
   note 1466's pre (1459 above) fills here - take 1466 after it.
-  accept 1437 -- Vahlarriel's Search - Vahlarriel Demonslayer; the Malem Chest takes it, Desolace
-  accept 1438 -- Vahlarriel's Search - Vahlarriel Demonslayer; Dalinda Malem takes it, Desolace
+  accept 1437 only Alliance -- Vahlarriel's Search - Vahlarriel Demonslayer; the Malem Chest takes it, Desolace
+  accept 1438 only Alliance -- Vahlarriel's Search - Vahlarriel Demonslayer; Dalinda Malem takes it, Desolace
   note 1438's pre (1465, from the Malem Chest below) is uncontracted in Desolace - take 1438 on its own.
-  accept 1382 -- Strange Alliance - Captain Pentigast; Uthek the Wise takes it, Desolace
-  accept 1385 -- Brutal Politics - Captain Pentigast; Warug takes it, Desolace
-  accept 1387 -- Centaur Bounty - Corporal Melkins; centaur ears, Desolace
-  complete 1458 @50,87 era -- Hatefury Claws off the Hatefury for Kreldig Ungor
-  complete 1458 @50,87 era -- Hatefury Horns off the Hatefury for Kreldig Ungor
-  complete 1459 @33,83 era -- Scorpashi Venom off the snapper for Kreldig Ungor
+  accept 1382 only Alliance -- Strange Alliance - Captain Pentigast; Uthek the Wise takes it, Desolace
+  accept 1385 only Alliance -- Brutal Politics - Captain Pentigast; Warug takes it, Desolace
+  accept 1387 only Alliance -- Centaur Bounty - Corporal Melkins; centaur ears, Desolace
+  complete 1458 only Alliance @50,87 era -- Hatefury Claws off the Hatefury for Kreldig Ungor
+  complete 1458 only Alliance @50,87 era -- Hatefury Horns off the Hatefury for Kreldig Ungor
+  complete 1459 only Alliance @33,83 era -- Scorpashi Venom off the snapper for Kreldig Ungor
 
 step Expedition - Desolace, the northern chests
 
   zone map 1443
-  turnin 1437 -- Vahlarriel's Search - Vahlarriel's word to the Malem Chest
+  turnin 1437 only Alliance -- Vahlarriel's Search - Vahlarriel's word to the Malem Chest
   note The Malem Chest offers 1465 (Vahlarriel's Search) - take it and turn it back in to Vahlarriel; 1438 follows.
-  turnin 1454 -- The Karnitol Shipwreck - Kreldig's word to Karnitol's Chest
+  turnin 1454 only Alliance -- The Karnitol Shipwreck - Kreldig's word to Karnitol's Chest
   note Karnitol's Chest offers 1455 (The Karnitol Shipwreck) - take it and turn it back in to Kreldig; 1456 follows.
-  complete 1456 @31,12 era -- Karnitol's Satchel off the Slitherblades for Kreldig Ungor
-  turnin 1438 -- Vahlarriel's Search - Vahlarriel's word to Dalinda Malem
+  complete 1456 only Alliance @31,12 era -- Karnitol's Satchel off the Slitherblades for Kreldig Ungor
+  turnin 1438 only Alliance -- Vahlarriel's Search - Vahlarriel's word to Dalinda Malem
   zone map 1442
 
 step Expedition - Desolace, the southern coves
 
   zone map 1443
-  turnin 1382 -- Strange Alliance - Pentigast's word to Uthek the Wise
-  turnin 1385 -- Brutal Politics - Pentigast's word to Warug
-  complete 1387 @70,46 era -- Centaur Ears off the Kolkar for Corporal Melkins
-  complete 1459 @49,41 era -- an Aged Kodo Hide for Kreldig Ungor
-  complete 1466 @52,68 era -- Felhound Brains for Kreldig Ungor
-  complete 1466 @50,77 era -- Nether Wings for Kreldig Ungor
-  complete 1466 @51,83 era -- Doomwarder Blood for Kreldig Ungor
+  turnin 1382 only Alliance -- Strange Alliance - Pentigast's word to Uthek the Wise
+  turnin 1385 only Alliance -- Brutal Politics - Pentigast's word to Warug
+  complete 1387 only Alliance @70,46 era -- Centaur Ears off the Kolkar for Corporal Melkins
+  complete 1459 only Alliance @49,41 era -- an Aged Kodo Hide for Kreldig Ungor
+  complete 1466 only Alliance @52,68 era -- Felhound Brains for Kreldig Ungor
+  complete 1466 only Alliance @50,77 era -- Nether Wings for Kreldig Ungor
+  complete 1466 only Alliance @51,83 era -- Doomwarder Blood for Kreldig Ungor
   zone map 1442
 
 step The south camp, returned
 
-  turnin 1458 -- Reagents for Reclaimers Inc. - claws and horns to Kreldig Ungor
-  turnin 1459 -- Reagents for Reclaimers Inc. - venom and hide to Kreldig Ungor
-  turnin 1466 -- Reagents for Reclaimers Inc. - demon bits to Kreldig Ungor
-  accept 1467 -- Reagents for Reclaimers Inc. - Kreldig Ungor; Roetten Stonehammer takes it in Ironforge
+  turnin 1458 only Alliance -- Reagents for Reclaimers Inc. - claws and horns to Kreldig Ungor
+  turnin 1459 only Alliance -- Reagents for Reclaimers Inc. - venom and hide to Kreldig Ungor
+  turnin 1466 only Alliance -- Reagents for Reclaimers Inc. - demon bits to Kreldig Ungor
+  accept 1467 only Alliance -- Reagents for Reclaimers Inc. - Kreldig Ungor; Roetten Stonehammer takes it in Ironforge
   note 1467's pre (1466 above) fills here - take 1467 after it.
   note 1467's starter (Leftwitch's Package) has no placed source in the data - have it in your bags.
-  turnin 1456 -- The Karnitol Shipwreck - the satchel to Kreldig Ungor
-  accept 1457 -- The Karnitol Shipwreck - Kreldig Ungor; Roetten Stonehammer takes it in Ironforge, with the Satchel
+  turnin 1456 only Alliance -- The Karnitol Shipwreck - the satchel to Kreldig Ungor
+  accept 1457 only Alliance -- The Karnitol Shipwreck - Kreldig Ungor; Roetten Stonehammer takes it in Ironforge, with the Satchel
   note 1457's pre (1456 above) fills here - take 1457 after it.
   note 1457 takes the Satchel to Roetten - the Slitherblades above drop more.
-  turnin 1387 -- Centaur Bounty - the ears to Corporal Melkins
+  turnin 1387 only Alliance -- Centaur Bounty - the ears to Corporal Melkins
 
 step Expedition - Ironforge, the Peak quests come home
 
   zone map 1455
-  turnin 1072 -- An Old Colleague - Gaxim's word to Lomac Gearstrip
-  turnin 2931 -- Castpipe's Task - Gaxim's word to Master Mechanic Castpipe
-  turnin 1457 -- The Karnitol Shipwreck - Kreldig's word to Roetten Stonehammer
-  turnin 1467 -- Reagents for Reclaimers Inc. - Kreldig's word to Roetten Stonehammer
+  turnin 1072 only Alliance -- An Old Colleague - Gaxim's word to Lomac Gearstrip
+  turnin 2931 only Alliance -- Castpipe's Task - Gaxim's word to Master Mechanic Castpipe
+  turnin 1457 only Alliance -- The Karnitol Shipwreck - Kreldig's word to Roetten Stonehammer
+  turnin 1467 only Alliance -- Reagents for Reclaimers Inc. - Kreldig's word to Roetten Stonehammer
   zone map 1442
 
 step Expedition - Stormwind, the Peak quests come home
 
   zone map 1453
-  turnin 1075 -- A Scroll from Mauren - Gaxim's word to Collin Mauren
+  turnin 1075 only Alliance -- A Scroll from Mauren - Gaxim's word to Collin Mauren
   buy 7371 "Heavy Quiver"
   note Marda Weller sells the Heavy Quiver for the Peak writ - buy one for Ziz.
   turnin 78149 -- Fury of the Land - the Scrolls' word to Garion Wendell
@@ -243,13 +242,13 @@ step Expedition - Barrens, Sputtervalve's word
 step Expedition - Ashenvale, Thenysil's word
 
   zone map 1440
-  turnin 1082 -- Update for Sentinel Thenysil - Kaela's word to Sentinel Thenysil
+  turnin 1082 only Alliance -- Update for Sentinel Thenysil - Kaela's word to Sentinel Thenysil
   zone map 1442
 
 step Expedition - Feralas, Falfindel's word
 
   zone map 1444
-  turnin 1059 -- Reclaiming the Charred Vale - Albagorm's word to Falfindel Waywarder
+  turnin 1059 only Alliance -- Reclaiming the Charred Vale - Albagorm's word to Falfindel Waywarder
   note Falfindel wanders - she also appears in Thousand Needles; this turn-in uses her Feralas camp.
   zone map 1442
 
