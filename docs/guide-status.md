@@ -257,7 +257,8 @@ _Skyborne country._
 
 - [x] Census - 178 candidates, 112 IN / 66 OUT (Horde set-aside)
 - [x] Core guide - `riverglades.guide`
-- [x] Lint/playtest clean - 0 errors, playtest 3 personas 0 stuck (R1+R2+R5 residue only)
+- [x] Lint/playtest clean - 0 errors, playtest 4 personas (Alliance + Horde) 0 stuck (R1+R2+R5 residue only)
+- [x] Faction ungating (Option A, 2026-11-17) - 222 Alliance-only lines gated, header dropped, 0 dead lines both factions (races masks are the faction data; see the Horde census ruling)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 5 rares (5 with sole-drop signatures) + rock-pile container loop, 15 recipes (all vendor), 0 lint errors/warnings
@@ -605,9 +606,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Riverglades — Horde
 
-- [ ] Census (reconcile against 66 set-asides banked by the Alliance census — the mirrored hub chains)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 178 zone-2548 records (83 Alliance / 66 Horde / 29 neutral by races mask); 66 Horde IN, 0 OUT, 29 neutral not duplicated, docs/riverglades-horde-census.md
+- [x] Core guide - riverglades-horde.guide (66 quests, band 35-45, map-1444 expedition)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas (Orc Warrior/Shaman/Hunter), 0 stuck, residue R1/R5 only (bag-note items + expedition leg)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

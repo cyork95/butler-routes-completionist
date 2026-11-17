@@ -226,10 +226,15 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: stranglethorn.guide
 - header: Alliance; contract: 123 (29 primary / 94 shared)
 - shared IDs: 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 201, 208, 209, 213, 338, 339, 340, 341, 342, 348, 575, 576, 577, 580, 583, 587, 594, 595, 597, 599, 600, 604, 605, 606, 607, 608, 609, 613, 617, 621, 628, 630, 670, 1116, 1117, 1119, 1181, 1182, 1183, 2760, 2761, 2762, 2763, 2764, 2765, 2864, 2872, 2904, 3625, 3626, 3721, 4782, 7810, 8551, 8552, 8553, 8554, 78823, 78830, 79236, 79242, 79731, 94217, 94226, 94235, 94244, 94253, 95322, 95325, 95326, 95327, 95384, 95385, 95789, 95791, 97047, 97048, 97328, 97329, 97331, 97332
-### riverglades
-- file: riverglades.guide
-- header: Alliance; contract: 112 (83 primary / 29 shared)
-- shared IDs: 94262, 94274, 94286, 94298, 94310, 94961, 94963, 95118, 95119, 95120, 95121, 95122, 95123, 95124, 95165, 95254, 95260, 95261, 95267, 95288, 95293, 95294, 95295, 95296, 95792, 95934, 95982, 96063, 96067
+### riverglades (UNGATED 2026-11-17, Horde round)
+- file: riverglades.guide (was Alliance primary)
+- contract: 112 (83 primary / 29 shared)
+- shared IDs: 94262, 94274, 94286, 94298, 94310, 94961, 94963, 95118, 95119, 95120, 95121, 95122, 95123, 95124, 95165, 95254, 95260, 95261, 95267, 95288, 95293, 95294, 95295, 95296, 95792, 95934, 95982, 96063, 96067 (per the Alliance census; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): the other 83 contract IDs.
+- Lines gated: 222 quest lines (`only Alliance`, incl. `optional only Alliance` for the elite-dropped collects and the writ/profession optionals; bare `kill` lines with no quest ref stay bare per the rule). 0 soft-pre minis (file has no `when onquest` lines), 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; the only gotos are in-zone Spek lines). All 29 shared-ID lines stay bare.
+- Ruling (zone-specific, recorded in the Horde census): the `races` mask is the faction data here (classes/skill/event/repeatable are null on all 178 records), so dropping the header alone would strand Horde players on dead steps — the 83 Alliance-mask lines had to be gated.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 19 warnings, warning quest-ID set byte-identical to the pre-ungating baseline. Playtest `--honest` all four personas (Human/NightElf/Orc/Scourge Warriors): Alliance findings unchanged in kind; Horde personas complete only the shared lines with residue only in R1/R2/R5, every Horde finding on a neutral-mask quest; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations both factions.
 ### thousand-needles
 - file: thousand-needles.guide
 - header: Alliance; contract: 34 (2 primary / 32 shared)
@@ -382,6 +387,10 @@ candidate. Companions carry no quest lines and are not part of this fix.
 ### stonetalon-horde
 - file: stonetalon-horde.guide (Horde mirror)
 - header: Horde; contract: 23 (23 primary / 0 shared)
+- shared IDs: none
+### riverglades-horde
+- file: riverglades-horde.guide (Horde mirror)
+- header: Horde; contract: 66 (66 primary / 0 shared)
 - shared IDs: none
 
 ## Follow-up
