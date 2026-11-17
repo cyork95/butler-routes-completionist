@@ -199,6 +199,7 @@ _Follows Darkshore._
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 12 rares (no loot in data) + 121 container placements, 19 recipes (9 vendor + 10 drops), 0 lint errors/warnings
+- [x] Faction ungating (Option A, 2026-11-17)
 
 ### Stonetalon Mountains — contested (both factions)
 
@@ -210,6 +211,7 @@ _Off Ashenvale. Alliance route first; Horde content handled as the data dictates
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 9 rares (no loot in data) + 56 container placements and Barrow Dens caches, 7 recipes (4 vendor + 3 drops), 0 lint errors/warnings
+- [x] Faction ungating (Option A, 2026-11-17)
 
 ### Duskwood — third zone (Alliance)
 
@@ -419,6 +421,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions (7 rares + treasures; 17 vendor buys + Rot Hide drop)
+- [x] Faction ungating (Option A, 2026-11-17)
 
 ### The Barrens — Horde second zone
 
@@ -430,6 +433,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions (32 rares + treasures; 70 recipes)
+- [x] Faction ungating (Option A, 2026-11-17)
 
 ### Swamp of Sorrows — contested (Eastern Kingdoms)
 
