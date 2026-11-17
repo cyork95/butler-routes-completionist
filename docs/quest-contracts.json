@@ -14833,6 +14833,50 @@
           "name": "The New Frontier"
         }
       ]
+    },
+    {
+      "id": "ashenvale-horde",
+      "name": "Ashenvale (Horde)",
+      "order": 52,
+      "levelBand": "19-30",
+      "summary": "Horde side of contested Ashenvale.",
+      "quests": [
+        {"id": 2, "name": "Sharptalon's Claw"},
+        {"id": 23, "name": "Ursangous's Paw"},
+        {"id": 24, "name": "Shadumbra's Head"},
+        {"id": 25, "name": "Stonetalon Standstill"},
+        {"id": 216, "name": "Between a Rock and a Thistlefur"},
+        {"id": 247, "name": "The Hunt Completed"},
+        {"id": 824, "name": "Je'neu of the Earthen Ring"},
+        {"id": 909, "name": "Baron Aquanis"},
+        {"id": 1918, "name": "The Befouled Element"},
+        {"id": 3513, "name": "The Runed Scroll"},
+        {"id": 3514, "name": "Horde Presence"},
+        {"id": 6383, "name": "The Ashenvale Hunt"},
+        {"id": 6441, "name": "Satyr Horns"},
+        {"id": 6442, "name": "Naga at the Zoram Strand"},
+        {"id": 6462, "name": "Troll Charm"},
+        {"id": 6482, "name": "Freedom to Ruul"},
+        {"id": 6503, "name": "Ashenvale Outrunners"},
+        {"id": 6504, "name": "The Lost Pages"},
+        {"id": 6543, "name": "The Warsong Reports"},
+        {"id": 6544, "name": "Torek's Assault"},
+        {"id": 6545, "name": "Warsong Runner Update"},
+        {"id": 6546, "name": "Warsong Outrider Update"},
+        {"id": 6547, "name": "Warsong Scout Update"},
+        {"id": 6563, "name": "The Essence of Aku'Mai"},
+        {"id": 6564, "name": "Allegiance to the Old Gods"},
+        {"id": 6565, "name": "Allegiance to the Old Gods"},
+        {"id": 6571, "name": "Warsong Supplies"},
+        {"id": 6581, "name": "Warsong Saw Blades"},
+        {"id": 6621, "name": "King of the Foulweald"},
+        {"id": 6641, "name": "Vorsha the Lasher"},
+        {"id": 6921, "name": "Amongst the Ruins"},
+        {"id": 6922, "name": "Baron Aquanis"},
+        {"id": 94213, "name": "Craftsman's Writ: Lesser Mana Potion"},
+        {"id": 98251, "name": "Never Coming Back"},
+        {"id": 98252, "name": "A Void Path"}
+      ]
     }
   ]
 }
