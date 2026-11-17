@@ -14392,6 +14392,443 @@
           "name": "Stalk With The Earthmother"
         }
       ]
+    },
+    {
+      "id": "undercity-city",
+      "name": "Undercity",
+      "order": 51,
+      "levelBand": "1-60",
+      "summary": "Horde capital of the forsaken: Bethor/Anastasia/Kaal/Aelthalyste city-NPC class rows, Mennet rogue chain, Owen Thadd 40-book library, apothecary chains, cloth donations, multi-city shared accepts, and accept-based expeditions",
+      "quests": [
+        {
+          "id": 357,
+          "name": "The Lich's Identity"
+        },
+        {
+          "id": 366,
+          "name": "Return the Book"
+        },
+        {
+          "id": 446,
+          "name": "Thule Ravenclaw"
+        },
+        {
+          "id": 1882,
+          "name": "The Balnir Farmstead"
+        },
+        {
+          "id": 1943,
+          "name": "Speak with Deino"
+        },
+        {
+          "id": 1947,
+          "name": "Journey to the Marsh"
+        },
+        {
+          "id": 1953,
+          "name": "Return to the Marsh"
+        },
+        {
+          "id": 1960,
+          "name": "Investigate the Alchemist Shop"
+        },
+        {
+          "id": 1961,
+          "name": "Gathering Materials"
+        },
+        {
+          "id": 4489,
+          "name": "Summon Felsteed"
+        },
+        {
+          "id": 4739,
+          "name": "In Search of Menara Voidrender"
+        },
+        {
+          "id": 4969,
+          "name": "Knowledge of the Orb of Orahil"
+        },
+        {
+          "id": 5643,
+          "name": "Shadowguard"
+        },
+        {
+          "id": 5657,
+          "name": "Hex of Weakness"
+        },
+        {
+          "id": 5658,
+          "name": "Touch of Weakness"
+        },
+        {
+          "id": 5679,
+          "name": "Dark Sacrifice"
+        },
+        {
+          "id": 65593,
+          "name": "Hearts of the Lovers"
+        },
+        {
+          "id": 65597,
+          "name": "The Binding"
+        },
+        {
+          "id": 1472,
+          "name": "Devourer of Souls"
+        },
+        {
+          "id": 1474,
+          "name": "The Binding"
+        },
+        {
+          "id": 1476,
+          "name": "Hearts of the Pure"
+        },
+        {
+          "id": 1718,
+          "name": "The Islander"
+        },
+        {
+          "id": 1823,
+          "name": "Speak with Ruga"
+        },
+        {
+          "id": 1846,
+          "name": "Dragonmaw Shinbones"
+        },
+        {
+          "id": 1847,
+          "name": "Brutal Legguards"
+        },
+        {
+          "id": 8233,
+          "name": "A Simple Request"
+        },
+        {
+          "id": 8250,
+          "name": "Magecraft"
+        },
+        {
+          "id": 8417,
+          "name": "A Troubled Spirit"
+        },
+        {
+          "id": 7562,
+          "name": "Mor'zul Bloodbringer"
+        },
+        {
+          "id": 8419,
+          "name": "An Imp's Request"
+        },
+        {
+          "id": 1978,
+          "name": "The Deathstalkers"
+        },
+        {
+          "id": 1886,
+          "name": "The Deathstalkers"
+        },
+        {
+          "id": 1898,
+          "name": "The Deathstalkers"
+        },
+        {
+          "id": 1998,
+          "name": "Fenwick Thatros"
+        },
+        {
+          "id": 1999,
+          "name": "Tools of the Trade"
+        },
+        {
+          "id": 2378,
+          "name": "Find the Shattered Hand"
+        },
+        {
+          "id": 3526,
+          "name": "Goblin Engineering"
+        },
+        {
+          "id": 3635,
+          "name": "Gnome Engineering"
+        },
+        {
+          "id": 3568,
+          "name": "Seeping Corruption"
+        },
+        {
+          "id": 3569,
+          "name": "Seeping Corruption"
+        },
+        {
+          "id": 3570,
+          "name": "Seeping Corruption"
+        },
+        {
+          "id": 7813,
+          "name": "A Donation of Wool"
+        },
+        {
+          "id": 7814,
+          "name": "A Donation of Silk"
+        },
+        {
+          "id": 7817,
+          "name": "A Donation of Mageweave"
+        },
+        {
+          "id": 7818,
+          "name": "A Donation of Runecloth"
+        },
+        {
+          "id": 4133,
+          "name": "Vivian Lagrave"
+        },
+        {
+          "id": 4769,
+          "name": "Vivian Lagrave and the Darkstone Tablet"
+        },
+        {
+          "id": 5094,
+          "name": "A Call to Arms: The Plaguelands!"
+        },
+        {
+          "id": 7492,
+          "name": "Camp Mojache"
+        },
+        {
+          "id": 95216,
+          "name": "The New Plague"
+        },
+        {
+          "id": 95204,
+          "name": "Crest of Lordaeron"
+        },
+        {
+          "id": 95328,
+          "name": "Whispering Horror Residue"
+        },
+        {
+          "id": 96988,
+          "name": "Source of Power"
+        },
+        {
+          "id": 97049,
+          "name": "Essence of Seeping Slimes"
+        },
+        {
+          "id": 97985,
+          "name": "Thundering Hearts"
+        },
+        {
+          "id": 4293,
+          "name": "A Sample of Slime..."
+        },
+        {
+          "id": 4294,
+          "name": "... and a Batch of Ooze"
+        },
+        {
+          "id": 4642,
+          "name": "Melding of Influences"
+        },
+        {
+          "id": 5961,
+          "name": "The Champion of the Banshee Queen"
+        },
+        {
+          "id": 6145,
+          "name": "The Crimson Courier"
+        },
+        {
+          "id": 1109,
+          "name": "Going, Going, Guano!"
+        },
+        {
+          "id": 1113,
+          "name": "Hearts of Zeal"
+        },
+        {
+          "id": 78124,
+          "name": "Nar'thalas Almanac"
+        },
+        {
+          "id": 78127,
+          "name": "The Dalaran Digest"
+        },
+        {
+          "id": 78142,
+          "name": "Bewitchments and Glamours"
+        },
+        {
+          "id": 78143,
+          "name": "Secrets of the Dreamers"
+        },
+        {
+          "id": 78145,
+          "name": "Arcanic Systems Manual"
+        },
+        {
+          "id": 78146,
+          "name": "Goaz Scrolls"
+        },
+        {
+          "id": 78147,
+          "name": "Crimes Against Anatomy"
+        },
+        {
+          "id": 78148,
+          "name": "Runes of the Sorcerer-Kings"
+        },
+        {
+          "id": 78149,
+          "name": "Fury of the Land"
+        },
+        {
+          "id": 79091,
+          "name": "Archmage Antonidas: The Unabridged Autobiography"
+        },
+        {
+          "id": 79092,
+          "name": "Archmage Theocritus' Research Journal"
+        },
+        {
+          "id": 79093,
+          "name": "Rumi of Gnomeregan: The Collected Works"
+        },
+        {
+          "id": 79094,
+          "name": "The Lessons of Ta'zo"
+        },
+        {
+          "id": 79095,
+          "name": "The Apothecary's Metaphysical Primer"
+        },
+        {
+          "id": 79096,
+          "name": "Ataeric: On Arcane Curiosities"
+        },
+        {
+          "id": 79097,
+          "name": "Baxtan: On Destructive Magics"
+        },
+        {
+          "id": 79535,
+          "name": "Basilisks: Should Petrification be Feared?"
+        },
+        {
+          "id": 79947,
+          "name": "Geomancy: The Stone-Cold Truth"
+        },
+        {
+          "id": 79948,
+          "name": "Defensive Magics 101"
+        },
+        {
+          "id": 79949,
+          "name": "A Web of Lies: Debunking Myths and Legends"
+        },
+        {
+          "id": 79950,
+          "name": "Demons and You"
+        },
+        {
+          "id": 79951,
+          "name": "Mummies: A Guide to the Unsavory Undead"
+        },
+        {
+          "id": 79952,
+          "name": "RwlRwlRwlRwl!"
+        },
+        {
+          "id": 79953,
+          "name": "A Ludite's Guide to Caring for Your Demonic Pet"
+        },
+        {
+          "id": 81947,
+          "name": "Sanguine Sorcery"
+        },
+        {
+          "id": 81949,
+          "name": "Legends of the Tidesages"
+        },
+        {
+          "id": 81951,
+          "name": "The Liminal and the Arcane"
+        },
+        {
+          "id": 81952,
+          "name": "Everyday Etiquette"
+        },
+        {
+          "id": 81953,
+          "name": "Stonewrought Design"
+        },
+        {
+          "id": 81954,
+          "name": "Venomous Journeys"
+        },
+        {
+          "id": 81955,
+          "name": "A Mind of Metal"
+        },
+        {
+          "id": 81956,
+          "name": "Conjurer's Codex"
+        },
+        {
+          "id": 78150,
+          "name": "Friend of the Library"
+        },
+        {
+          "id": 79536,
+          "name": "Greater Friend of the Library"
+        },
+        {
+          "id": 82208,
+          "name": "Greater Friend of the Library"
+        },
+        {
+          "id": 97286,
+          "name": "Research Access"
+        },
+        {
+          "id": 84395,
+          "name": "Undead Potatoes"
+        },
+        {
+          "id": 84396,
+          "name": "Magma or Lava?"
+        },
+        {
+          "id": 84397,
+          "name": "Northern Kalimdor - A Comprehensive Guide"
+        },
+        {
+          "id": 84398,
+          "name": "A Study of the Light"
+        },
+        {
+          "id": 84399,
+          "name": "Ka-Boom!"
+        },
+        {
+          "id": 84400,
+          "name": "The Knight and the Lady"
+        },
+        {
+          "id": 84401,
+          "name": "Scourge: Undead Menace or Misunderstood?"
+        },
+        {
+          "id": 84402,
+          "name": "Necromancy 101"
+        },
+        {
+          "id": 1004,
+          "name": "The New Frontier"
+        }
+      ]
     }
   ]
 }
