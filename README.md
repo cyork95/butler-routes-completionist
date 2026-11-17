@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.109.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.110.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -36,6 +36,8 @@ Status: **in development (pack v0.109.0), not published yet**. The first release
 | `duskwood-rares.guide` (companion built, pilot pending) | Duskwood rares and treasures | 17-28 | Alliance |
 | `duskwood-recipes.guide` (companion built, pilot pending) | Duskwood recipe sources | 17-28 | Alliance |
 | `duskwood-horde.guide` (Horde block core built, pilot pending) | Duskwood (Horde) | 37-42 | Horde |
+| `duskwood-horde-rares.guide` (companion built, pilot pending) | Duskwood (Horde) rares and treasures | 37-42 | Horde |
+| `duskwood-horde-recipes.guide` (companion built, pilot pending) | Duskwood (Horde) recipe sources | 37-42 | Horde |
 | `wetlands.guide` (Set 3 core built, pilot pending) | Wetlands | 20–30 | Alliance |
 | `wetlands-rares.guide` (companion built, pilot pending) | Wetlands rares and treasures | 20-30 | Alliance |
 | `wetlands-recipes.guide` (companion built, pilot pending) | Wetlands recipe sources | 20-30 | Alliance |

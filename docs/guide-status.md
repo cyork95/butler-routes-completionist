@@ -594,7 +594,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; playtest Horde personas, 0 stuck, residue R1/R2/R5 only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (rares: 6 below-band rares + 68-pt container loop + 3 uniques + 6 markers; recipes: 4 neutral-vendor + 5 in-zone drops; both 0 errors / 0 warnings)
 
 ### Stranglethorn Vale — Horde
 
