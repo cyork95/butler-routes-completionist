@@ -1,0 +1,322 @@
+guide butler-routes-completionist/riverglades-horde
+title Riverglades (Horde)
+levels 35-45
+zone Riverglades
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+# The Horde side is run from Krom'rosh command (Krom'rosh, Kreza,
+# Gorg, Tran'gul, Tan'jani, the wanted boards), then the western
+# Twilight front (Da'grosh, Crag'rog), the central pairs (Neza, the
+# carcass, Tan'jani), Powderfuse Port (Friz), the north-east (Clugfist,
+# Jezap, Gobam, Na'zok, Hamur) and the expedition leg for the chain
+# that leaves the zone. Every Horde accept in the local census (66
+# quests, docs/riverglades-horde-census.md) appears exactly once as an
+# accept and once as a turnin, except 95181 which names no ender in the
+# data. The 29 shared quests stay with the main guide's contract.
+# Sourceless and spawnless-sourced objectives complete at the giver
+# with bag notes, never invented points.
+
+step Krom'rosh command - mustering
+
+  accept 93786 -- A Message in Blood - Krom'rosh; farmhands, the east fields
+  accept 93787 -- Food for the Taking - Krom'rosh; feed satchels, farmed below
+  note 93787's satchels have no dropper and no vendor anywhere in the data - have six in your bags.
+  complete 93787
+  accept 93788 -- Borrowed Blades - Kreza Darkthorn; woodworker's axes, the mill
+  accept 93971 -- Farholde Scouting Report - Krom'rosh holds the word
+  note 93971 names no giver in the data - Krom'rosh offers it at the command.
+  accept 94973 -- Krol'dok Moulding - Kreza Darkthorn holds the mould
+  note 94973 names no giver in the data - Kreza offers it at the command.
+  note 94974's pre (94973 above) fills at Kreza's - take it there.
+  accept 95936 -- Hail the Dragonslayer - Krom'rosh holds the word
+  note 95936 names no giver in the data - Krom'rosh offers it at the command; Scaldaron waits on the far west coast below.
+  accept 95882 -- WANTED: Scoutmaster Vargas - the wanted board; Vargas's eye, the north-east
+  note Scoutmaster Vargas is elite: grouping is advised.
+  accept 95992 -- WANTED: Ghostmaw - the wanted board; Ghostmaw's fang, the center
+  note Ghostmaw is elite: grouping is advised.
+  accept 95181 -- Twilight Scouting Report - the report; no giver in the data
+  note 95181 names no giver and no ender in the data - take it and carry on.
+  accept 95951 -- Fetch 'n' Fletch - Tan'jani; stickin' spears, farmed below
+  note 95951's spears have no dropper and no vendor anywhere in the data - have twenty in your bags.
+  complete 95951
+  accept 95033 -- On the Other Side - Tan'jani; Uzer'i takes it far away, late
+
+step The east fields - farmhands and satchels
+
+  complete 93786 @45.33,84.11 -- Meadowsbrook Farmhands off the farmhands for Krom'rosh
+  complete 93786 @47.12,80.86 -- Meadowsbrook Farmhands off the farmhands for Krom'rosh
+  turnin 93786 -- A Message in Blood - back to Krom'rosh
+  turnin 93787 -- Food for the Taking - the satchels to Krom'rosh
+  turnin 93971 -- Farholde Scouting Report - back to Krom'rosh
+  note 94480's and 94483's pres (93787 and 93786 plus 93787 above) fill here - take both after it.
+  accept 94480 -- A Gift From Our Enemies - Krom'rosh; Gorg takes it by the command
+  accept 94483 -- Show Them How It's Done - Krom'rosh; priests and scouts, the center
+
+step The mill and the center - axes, priests and trainees
+
+  collect 263972 x10 quest 93788.1 @35.55,61.05 -- Woodworker's Axes off the Turner's Mill Lumberjacks for Kreza Darkthorn
+  turnin 94480 -- A Gift From Our Enemies - Krom'rosh's word to Gorg
+  note 94481's pre (94480 above) fills here - take 94481 after it.
+  accept 94481 -- A Serving of Strength - Gorg; Rog'mar trainees, the south flats
+  complete 94483 @44.04,62.48 -- Farholde Priests off the priests for Krom'rosh
+  complete 94483 @45.18,66.79 -- Farholde Scouts off the scouts for Krom'rosh
+  complete 94481 @52.28,51.83 -- Rog'mar Trainees off the trainees for Gorg
+  turnin 93788 -- Borrowed Blades - the axes to Kreza Darkthorn
+  note 93976's pre (93788 above) fills here - take 93976 after it.
+  accept 93976 -- The Goblin Trader - Kreza Darkthorn; Friz takes it at the port, east
+  turnin 94481 -- A Serving of Strength - back to Gorg
+  turnin 94483 -- Show Them How It's Done - back to Krom'rosh
+  note 94672's and 94680's pres (94483 above) fill here - take both after it.
+  accept 94672 -- Encroaching Twilight - Tran'gul; raiders and shadowmancers, the west camp
+  accept 94680 -- Twilight Missives - Tran'gul; missives off the shadowmancers, west
+
+step The west Twilight camp - raiders and missives
+
+  complete 94672 @33.61,43.39 -- Twilight Raiders off the raiders for Tran'gul
+  complete 94672 @40.32,48.69 -- Twilight Shadowmancers off the shadowmancers for Tran'gul
+  complete 94672 @37.16,44.95 -- Twilight Neophytes off the neophytes for Tran'gul
+  collect 265745 x3 quest 94680.1 @40.32,48.69 -- Twilight Missives off the Twilight Shadowmancers for Tran'gul
+  turnin 94672 -- Encroaching Twilight - back to Tran'gul
+  turnin 94680 -- Twilight Missives - back to Tran'gul
+  note 94727's pre (94672 and 94680 above) fills here - take 94727 after it.
+  accept 94727 -- Digging for Answers - Tran'gul; Clubtoe takes it by the camp
+  turnin 94727 -- Digging for Answers - Tran'gul's word to Clubtoe
+  note 95417's and 95602's pres (94727 above) fill here - take both after it.
+  accept 95417 -- The Purple Ones - Clubtoe; the Brute takes it by the camp
+  accept 95602 -- Sickening Lights - Clubtoe; the lights, the camp
+
+step The brute - ritualists and heads
+
+  turnin 95417 -- The Purple Ones - Clubtoe's word to the Twilight Brute
+  note 95601's pre (95417 above) fills here - take 95601 after it.
+  accept 95601 -- The Purple Ones - the Twilight Brute; brutes and ritualists, the camp
+  complete 95601 @44.14,49.67 -- Empowered Brutes off the brutes for the Twilight Brute
+  complete 95601 @44.96,51.18 -- Twilight Ritualists off the ritualists for the Twilight Brute
+  turnin 95601 -- The Purple Ones - back to Clubtoe
+  turnin 95602 -- Sickening Lights - back to Clubtoe
+  note 95427's pre (95601 and 95602 above) fills here - take 95427 after it.
+  accept 95427 -- Twilight No More! - Clubtoe; Chogg'Zac's heads, the ogre camp
+  note Chogg'Zac is elite: grouping is advised.
+  kill 256899 optional -- Chogg'Zac, for the Heads of Chogg'Zac
+  collect 265750 quest 95427.1 @44.33,50.01 optional -- Chogg's Head off Chogg'Zac for Clubtoe
+  collect 265751 quest 95427.2 @44.33,50.01 optional -- Zac's Head off Chogg'Zac for Clubtoe
+  turnin 95427 -- Twilight No More! - back to Clubtoe
+  note 95418's pre (95427 above) fills here - take 95418 after it.
+  accept 95418 -- Spread the Word - Clubtoe; Tran'gul takes it east
+  turnin 95418 -- Spread the Word - Clubtoe's word to Tran'gul
+  note 95420's pre (95418 above) fills here - take 95420 after it.
+  accept 95420 -- Land of Giants - Tran'gul; Clugfist takes it in the north-east
+  note Clugfist holds the next three asks - the north-east leg below carries them.
+
+step Tan'jani and the carcass - crocolisks and tallstriders
+
+  turnin 95951 -- Fetch 'n' Fletch - the spears to Tan'jani
+  note 95955's pre (95951 above) fills here - take 95955 after it.
+  accept 95955 -- Stick 'Em - Tan'jani; crocolisks, the shore
+  complete 95955 @43.24,54.04 -- Freshwater Crocolisks off the crocolisks for Tan'jani
+  turnin 95955 -- Stick 'Em - back to Tan'jani
+  accept 96103 -- A Feast for Buzzards - the Picked Carcass; Neza takes the word, north
+  turnin 96103 -- A Feast for Buzzards - the carcass's word to Neza Bloodsnout
+  note 96104's pre (96103 above) fills here - take 96104 after it.
+  accept 96104 -- Song of the Strider - Neza Bloodsnout; a tallstrider beak, the plains
+  accept 96107 -- Feathers for Fletching - Neza Bloodsnout; buzzard feathers, the plains
+  collect 271778 quest 96104.1 @52.2,59.53 -- Intact Tallstrider Beak off the Roving Tallstrider for Neza Bloodsnout
+  collect 271793 x6 quest 96107.1 @53.77,56.89 -- Plains Buzzard Feathers off the Low Plains Buzzards for Neza Bloodsnout
+  turnin 96104 -- Song of the Strider - back to Neza Bloodsnout
+  note 96105's pre (96104 above) fills here - take 96105 after it.
+  accept 96105 -- King of the Wild Plains - Neza Bloodsnout; Ombassa's hide, the plains
+  note Ombassa is elite: grouping is advised.
+  kill 263315 optional -- Ombassa, for the Hide of Ombassa
+  collect 281052 quest 96105.1 @55.12,70.37 optional -- Ombassa's Hide off Ombassa for Neza Bloodsnout
+  turnin 96105 -- King of the Wild Plains - back to Neza Bloodsnout
+  turnin 96107 -- Feathers for Fletching - back to Neza Bloodsnout
+  note 96108's pre (96107 above) fills here - take 96108 after it.
+  accept 96108 -- Poison Tips - Neza Bloodsnout; viper venom, the plains
+  collect 271776 x4 quest 96108.1 @56.26,57.09 -- Glade Viper Venom off the Glade Vipers for Neza Bloodsnout
+  turnin 96108 -- Poison Tips - back to Neza Bloodsnout
+  note 96109's pre (96108 above) fills here - take 96109 after it.
+  accept 96109 -- A Hunter's Quiver - Neza Bloodsnout; prized lion hides, the plains
+  collect 266888 x6 quest 96109.1 @49.06,57.76 -- Prized Lion Hides off the Wildplains Patriarchs for Neza Bloodsnout
+  turnin 96109 -- A Hunter's Quiver - back to Neza Bloodsnout
+  note 94532's and 94533's pres (96109 above) fill here - take both after it.
+  accept 94532 -- Gnoll Infestation - Neza Bloodsnout; Redridge gnolls, north
+  note 94532's Alliance twin runs from Dalton - ours is Neza's.
+  accept 94533 -- Snargl's Snout - Neza Bloodsnout; Snargl's snout, north
+  note 94533's Alliance twin runs from Dalton - ours is Neza's.
+  note 94535's pre (96109 above) fills at Kreza's - take it there on the north pass below.
+
+step The north gnoll fields - mystics, Snargl and Ghostmaw
+
+  accept 94535 -- Bristle Hills Bandits - Kreza Darkthorn; stolen ore, the north fields
+  complete 94532 @16.12,68.24 -- Redridge Mystics off the mystics for Neza Bloodsnout
+  complete 94532 @16.08,68.48 -- Redridge Trappers off the trappers for Neza Bloodsnout
+  complete 94532 @16.15,73.23 -- Redridge Brutes off the brutes for Neza Bloodsnout
+  collect 265358 x40 quest 94535.1 @16.12,68.24 -- Stolen Ore off the Redridge gnolls for Kreza Darkthorn
+  note Snargl is elite: grouping is advised.
+  collect 265357 quest 94533.1 @16.02,71.89 optional -- Snargl's Snout off Snargl for Neza Bloodsnout
+  turnin 94532 -- Gnoll Infestation - back to Neza Bloodsnout
+  turnin 94533 -- Snargl's Snout - back to Neza Bloodsnout
+  turnin 94535 -- Bristle Hills Bandits - the ore to Kreza Darkthorn
+  note Ghostmaw is elite: grouping is advised.
+  kill 263380 optional -- Ghostmaw, for Ghostmaw's Fang
+  collect 271828 quest 95992.1 @40.37,65.36 optional -- Ghostmaw's Fang off Ghostmaw for Tan'jani
+  turnin 95992 -- WANTED: Ghostmaw - the Fang to Tan'jani
+  note Scaldaron is rare elite: grouping is advised.
+  kill 263141 optional -- Scaldaron, for the Head of Scaldaron
+  collect 271613 quest 95936.1 @29.24,70.42 optional -- Head of Scaldaron off Scaldaron for Krom'rosh
+
+step Powderfuse Port - Friz and the crate
+
+  turnin 93976 -- The Goblin Trader - Kreza's word to Friz Frazzlespark
+  note 93976's chain runs on in the main guide - Friz's Smuggler's Paradise (95288) is a shared line there.
+  accept 95062 -- Frazzlespark's Crate - Friz Frazzlespark; Krom'rosh takes it west
+
+step The north-east - Clugfist, Jezap and the ring
+
+  turnin 95420 -- Land of Giants - Tran'gul's word to Clugfist
+  note 95424's and 95425's and 94668's pres (95420 above) fill here - take all three after it.
+  accept 95424 -- Might Makes Right - Clugfist; maulers and firecallers, the giant grounds
+  accept 95425 -- Unworthy Champion - Clugfist; Skullbasher, the giant grounds
+  complete 95424 @67.03,30.59 -- Twilight Maulers off the maulers for Clugfist
+  complete 95424 @73.73,24.72 -- Twilight Firecallers off the firecallers for Clugfist
+  collect 269257 quest 95425.1 @74.12,25.47 -- Skullbasher off Klunk for Clugfist
+  turnin 95424 -- Might Makes Right - back to Clugfist
+  turnin 95425 -- Unworthy Champion - back to Clugfist
+  note 95428's and 94668's pres (95424 and 95425 above) fill here - take both after it.
+  accept 95428 -- Clugfist's Decree - Clugfist; Krom'rosh takes it south-west
+  accept 94668 -- Bloodmaster's Ring - Clugfist; Jezap takes it west
+  turnin 94668 -- Bloodmaster's Ring - Clugfist's word to Jezap Jinglesprocket
+  note 94669's pre (94668 above) fills here - take 94669 after it.
+  accept 94669 -- Pay to Play - Jezap Jinglesprocket; the ring, the camp
+  turnin 94669 -- Pay to Play - back to Jezap Jinglesprocket
+  note 94670's pre (94669 above) fills here - take 94670 after it.
+  accept 94670 -- Bloodmaster's Ring - Jezap Jinglesprocket; the ring, the camp
+  turnin 94670 -- Bloodmaster's Ring - back to Jezap Jinglesprocket
+  note 94739's pre (94670 above) fills here - take 94739 after it.
+  accept 94739 -- Bloodmaster's Ring - Jezap Jinglesprocket; the ring, the camp
+  turnin 94739 -- Bloodmaster's Ring - back to Jezap Jinglesprocket
+  note 94962's pre (94739 above) fills here - take 94962 after it.
+  accept 94962 -- Bloodmaster's Ring - Jezap Jinglesprocket; the ring, the camp
+  turnin 94962 -- Bloodmaster's Ring - back to Jezap Jinglesprocket
+  note 94964's pre (94962 above) fills here - take 94964 after it.
+  accept 94964 -- Bloodmaster's Ring - Jezap Jinglesprocket; the ring, the camp
+  turnin 94964 -- Bloodmaster's Ring - back to Jezap Jinglesprocket
+  note 94733's pre (94964 above) fills here - take 94733 after it.
+  accept 94733 -- Our Ogre Friend - Jezap Jinglesprocket; Gobam takes it east
+  turnin 94733 -- Our Ogre Friend - Jezap's word to Gobam
+  note 94734's pre (94733 above) fills here - take 94734 after it.
+  accept 94734 -- A Boar's Delight - Gobam; sweetberries and riverweed, farmed below
+  note 94734's berries and weed have no dropper and no vendor anywhere in the data - have eight Sweetberries and twelve Riverweed in your bags.
+  complete 94734
+  turnin 94734 -- A Boar's Delight - back to Gobam
+  note 94737's pre (94734 above) fills here - take 94737 after it.
+  accept 94737 -- A Treat for a Friend - Gobam; Jezap takes it west
+  turnin 94737 -- A Treat for a Friend - Gobam's word to Jezap Jinglesprocket
+  note 94965's pre (94737 above) fills here - take 94965 after it.
+  accept 94965 -- Bloodmaster's Ring - Jezap Jinglesprocket; the ring, the camp
+  turnin 94965 -- Bloodmaster's Ring - back to Jezap Jinglesprocket
+  note 95063's pre (94965 above) fills here - take 95063 after it.
+  accept 95063 -- Bloodmaster's Ring - Jezap Jinglesprocket; Clugfist takes it north
+  accept 94556 -- Jom-jom's Escape - Jom-jom; Clugfist takes it north
+  turnin 95063 -- Bloodmaster's Ring - Jezap's word to Clugfist
+  turnin 94556 -- Jom-jom's Escape - Jom-jom's word to Clugfist
+  note Vargas's eye fills here - hunt him on the ridge before leaving.
+  kill 260211 optional -- Scoutmaster Vargas, for the Scoutmaster's Eye
+  collect 268581 quest 95882.1 @71.6,30.5 optional -- Scoutmaster's Eye off Scoutmaster Vargas for Neza Bloodsnout
+  accept 95162 -- Paletusk Harvesting - Na'zok; boar meat, farmed below
+  note 95162's meat names no 2548 dropper in the data - have ten Chunks of Boar Meat in your bags.
+  accept 95163 -- Drive Them Back - Na'zok; young paletusk, the east flats
+  complete 95163 @71.89,33.16 -- Young Paletusk off the paletusk for Na'zok
+  turnin 95162 -- Paletusk Harvesting - the meat to Na'zok
+  turnin 95163 -- Drive Them Back - back to Na'zok
+  accept 95183 -- Step One: Rock - Hamur; good rocks, the giant grounds
+  note Gorgegut and Hamur both offer 95183 - Hamur's copy is the one to take, since the turn-in lives with him.
+  note 95183's rocks have no dropper and no vendor anywhere in the data - have ten Good Rocks in your bags.
+  turnin 95183 -- Step One: Rock - the rocks to Hamur
+  note The Eye rides south - Neza's word is on the way.
+  turnin 95882 -- WANTED: Scoutmaster Vargas - the Eye to Neza Bloodsnout
+
+step Hamur - more rock (Blacksmithing)
+
+  when skill Blacksmithing 1
+
+  note 96026's pre (95183 far above) fills at Hamur's - take it there.
+  accept 96026 optional -- Step Two: More Rock - Hamur; weightstones, farmed below
+  note 96026 needs Blacksmithing to finish - take it with the trade.
+  note Heavy Weightstones have no dropper in the data - craft or bring ten in your bags.
+  turnin 96026 optional -- Step Two: More Rock - the stones to Hamur
+
+step The western front - Da'grosh and the executioner
+
+  turnin 95428 -- Clugfist's Decree - Clugfist's word to Krom'rosh
+  note 94744's pre (95428 above) fills here - take 94744 after it.
+  accept 94744 -- The Wayward Warrior - Krom'rosh; Da'grosh takes it in the west
+  turnin 94744 -- The Wayward Warrior - Krom'rosh's word to Da'grosh
+  note 94745's and 94748's and 95431's pres (94744 above) fill here - take all three after it.
+  accept 94745 -- Carving a Path - Da'grosh; fanatics and corrupters, the west camp
+  accept 94748 -- Break Their Chains - Da'grosh; Rog'mar scouts, the west camp
+  accept 95431 -- Rumblings of Discontent - Da'grosh; Crag'rog takes it north
+  complete 94745 @24.89,43.58 -- Twilight Fanatics off the fanatics for Da'grosh
+  complete 94745 @25.07,43.07 -- Twilight Corrupters off the corrupters for Da'grosh
+  complete 94745 @25.82,40.31 -- Twilight Champions off the champions for Da'grosh
+  complete 94748 @25.22,45.31 -- Rog'mar Scouts off the scouts for Da'grosh
+  turnin 95431 -- Rumblings of Discontent - Da'grosh's word to Crag'rog
+  note 95432's pre (95431 above) fills here - take 95432 after it.
+  accept 95432 -- Rise Up! - Crag'rog; the rise, the camp
+  turnin 95432 -- Rise Up! - back to Crag'rog
+  note 95433's pre (95432 above) fills here - take 95433 after it.
+  accept 95433 -- Death to the Executioner - Crag'rog; Morg's mace, the camp
+  note Executioner Morg is elite: grouping is advised.
+  collect 269351 quest 95433.1 @26.72,39.93 optional -- Executioner's Mace off Executioner Morg for Clugfist
+  turnin 94745 -- Carving a Path - back to Da'grosh
+  turnin 94748 -- Break Their Chains - back to Da'grosh
+  note 94768's pre (94745 and 94748 above) fills here - take 94768 after it.
+  accept 94768 -- Bring Me His Head - Da'grosh; Kilgar's head, the west camp
+  note Overlord Kilgar is elite: grouping is advised.
+  collect 265837 quest 94768.1 @25.79,43.59 optional -- Kilgar's Head off Overlord Kilgar for Da'grosh
+  turnin 94768 -- Bring Me His Head - back to Da'grosh
+  note 94975's and 95278's pres (94768 above) fill here - take both after it.
+  accept 94975 -- A Token of Vengeance - Da'grosh; cultist ears, farmed above
+  note 94975's ears have no spawned source in the data - the Twilight holders stand nowhere; have fifteen Cultist Ears in your bags.
+  complete 94975
+  turnin 94975 -- A Token of Vengeance - back to Da'grosh
+  accept 95278 -- It Is Time, Brother... - Da'grosh; Krom'rosh takes it east
+  note The Mace rides north-east and the word rides east - Clugfist first, then the command.
+  turnin 95433 -- Death to the Executioner - the Mace to Clugfist
+  turnin 95278 -- It Is Time, Brother... - Da'grosh's word to Krom'rosh
+  note 94968's and 94972's pres (95278 above) fill here - take both after it.
+  accept 94968 -- Eye of Mugg - Krom'rosh; the Eye, farmed above
+  note Overlord Mugg has no spawn in the data - have his Eye in your bags.
+  complete 94968
+  turnin 94968 -- Eye of Mugg - the Eye to Krom'rosh
+  accept 94972 -- Tome of Twilight - Tran'gul; the Tome, farmed above
+  note Nar'gurk has no spawn in the data - have his Tome in your bags.
+  complete 94972
+  turnin 94972 -- Tome of Twilight - the Tome to Tran'gul
+
+step Krom'rosh command - the mould, the crate and the close
+
+  turnin 94973 -- Krol'dok Moulding - the mould to Kreza Darkthorn
+  note 94974's pre (94973 above) fills here - take 94974 after it.
+  accept 94974 optional -- Key Ingredients - Kreza Darkthorn; leather and iron bars, farmed below
+  note 94974 needs Blacksmithing to finish - take it with the trade.
+  note Thick Leather has no vendor in the Glades (Lhara sells it off-zone) and Iron Bars come off no line here - have four leather and twelve bars in your bags.
+  when skill Blacksmithing 1
+  turnin 94974 optional -- Key Ingredients - the leather and iron to Kreza Darkthorn
+  turnin 95062 -- Frazzlespark's Crate - Friz's word to Krom'rosh
+  turnin 95936 -- Hail the Dragonslayer - the Head to Krom'rosh
+
+step Expedition - map 1444, Uzer'i's word
+
+  zone map 1444
+
+  turnin 95033 -- On the Other Side - Tan'jani's word to Witch Doctor Uzer'i
+  zone map 2548
+
+step Riverglades - done
+
+  note The Glades are held: Krom'rosh commands, the Twilight falls west and east, Neza runs the gnolls. The Alliance side belongs to the main guide.
