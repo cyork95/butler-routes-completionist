@@ -538,7 +538,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean (0 errors; R1/R2/R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions (only where the data warrants)
+- [x] Companions (recipes built - 119 vendor recipes; no city rares, so no rares companion)
 
 ### Thunder Bluff — Horde capital
 
@@ -549,7 +549,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean — 0 errors, playtest residue R1/R5 only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions (only where the data warrants)
+- [x] Companions (recipes built - 28 vendor recipes; no city rares, so no rares companion)
 
 ### Undercity — Horde capital
 
@@ -560,7 +560,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean — 0 errors, residue R1/R2 only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions (only where the data warrants)
+- [x] Companions (recipes built - 33 vendor recipes; no city rares, so no rares companion)
 
 ### Ashenvale — Horde
 
