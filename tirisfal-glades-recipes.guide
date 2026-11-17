@@ -1,0 +1,94 @@
+# Butler Routes - Tirisfal Glades recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes and schematics whose SOURCE is physically in Tirisfal
+# Glades (zone key 1420), verified against the local Forever game data
+# (questie-forever item, vendor and drop tables). Zero recipes are
+# sold by any in-zone vendor (all 331 NPCs spawning on 1420 checked
+# against every item's vendor list); the 4 shipped entries all drop
+# from narrow in-zone sources. Dropped generics (400-570 droppers)
+# are excluded per the Elwynn rule, quest-reward recipes are
+# unverifiable as a class, and trainer-taught staples live in
+# Polestar's own profession guides (see
+# docs/tirisfal-glades-companions-inventory.md). Each step is gated
+# to its profession; other characters skip it cleanly. Every goal is
+# optional. No accept/turnin lines anywhere.
+guide butler-routes-completionist/tirisfal-glades-recipes
+title Tirisfal Glades — Recipes
+levels 1-13
+zone Tirisfal Glades
+faction Horde
+category Professions
+folder Companions
+keywords tirisfal glades, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Alchemy - Vile Fin Muckdweller and Attacker (drop)
+
+  zone map 1420
+
+  when skill Alchemy 1
+
+  loop
+  goto 23.84,49.74
+  goto 25.48,48.47
+  goto 25.61,45.09
+  goto 26.22,49.91
+  goto 26.74,47.37
+  goto 26.81,46.77
+  goto 29.28,46.57
+  kill 1545 optional
+  kill 250283 optional
+  collect 250366 "Recipe: Minor Cleric's Elixir" optional
+  note Dropped by Vile Fin Muckdwellers and Attackers on the west shore (4 droppers in 2 zones; the Elwynn half is Murloc Foragers and Elder Finseers). Farm it alongside the core route's Vile Fin kills. No vendor sells it.
+
+step Alchemy - Tirisfal Farmer (drop)
+
+  zone map 1420
+
+  when skill Alchemy 1
+
+  loop
+  goto 34.63,50.67
+  goto 35.78,50.68
+  goto 36.54,51.8
+  goto 37.49,51.63
+  goto 37.89,50.65
+  kill 1934 optional
+  collect 250988 "Recipe: Minor Mender's Potion" optional
+  note Dropped by Tirisfal Farmers around Solliden's farm (2 droppers in 2 zones; the Teldrassil half is a Gnarlpine Mystic). Farm it alongside the core route's farmer kills. No vendor sells it.
+
+step Engineering - Decrepit Harvester (drop)
+
+  zone map 1420
+
+  when skill Engineering 1
+
+  loop
+  goto 52.03,55.44
+  goto 52.36,56.08
+  goto 53.11,56.09
+  goto 53.29,55.37
+  goto 54.62,55.39
+  kill 276061 optional
+  collect 277470 "Schematic: Harvester Override Signalcaster" optional
+  note The Harvester is the sole dropper anywhere in the data. The kill entry rides in the Tirisfal rares companion - hunt there, collect here. No vendor sells it.
+
+step Engineering - Scarlet Scout (drop, come back later)
+
+  zone map 1420
+
+  when skill Engineering 1
+
+  loop
+  goto 83.07,29.34
+  goto 83.77,35.71
+  goto 83.94,30.71
+  kill 4281 optional
+  collect 264207 "Schematic: SAF-T Bronze Bomb" optional
+  note The Scout is the sole dropper anywhere in the data, but it is level 29 in the far east - far above this 1-13 guide's band. Bank this step and come back at level 29+. No vendor sells it.
+
+step Other professions - no Tirisfal source
+
+  zone map 1420
+
+  note No Blacksmithing plans, Cooking recipe, Enchanting formula, First Aid manual, Fishing recipe, Herbalism, Leatherworking pattern, Mining, Skinning or Tailoring pattern has a Tirisfal Glades source in the data - stated, not padded. Trainer-taught staples live in Polestar's own profession guides.
