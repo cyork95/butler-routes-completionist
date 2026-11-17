@@ -1,0 +1,65 @@
+# Duskwood (Horde) - Completionist (pack butler-routes-completionist, v1).
+# The Horde side of contested Duskwood: the four-quest Nothing But The Truth
+# chain (Deathstalker Zraedus and Apothecary Faustin, east, band 37-42) plus
+# the Level 60 Leatherworking writ as a special class. Every accept is on key
+# 1431; the chain's objectives and its final turn-in lie outside Duskwood and
+# ride honest expedition legs below. See docs/duskwood-horde-census.md.
+guide butler-routes-completionist/duskwood-horde
+title Duskwood (Horde)
+levels 37-42
+zone Duskwood
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step The east - Deathstalker Zraedus
+
+  note The Horde side of Duskwood is one chain and one writ: Deathstalker Zraedus (87.81,35.63) and Apothecary Faustin (87.45,35.25) hold the east at 37 to 42, and Kzixx's post holds the Level 60 Leatherworking writ as a special class. The chain's objectives and final turn-in lie outside Duskwood - the expedition legs below carry them.
+  goto 87.81,35.63
+  accept 1372 -- Nothing But The Truth - Deathstalker Zraedus; Apothecary Faustin waits nearby
+  turnin 1372 -- Nothing But The Truth - to Apothecary Faustin
+  accept 1383 -- Nothing But The Truth - Apothecary Faustin; hearts, fungus and tumor, all out of zone
+  note 1383's objectives drop nowhere in Duskwood - the Swamp of Sorrows and Desolace legs below gather them; hand 1383 in on the return.
+
+step Expedition - the Swamp of Sorrows legs
+
+  zone Swamp of Sorrows
+  complete 1383 @69.4,66.4 era -- Shadow Panther Hearts off the Shadow Panthers, east
+  complete 1383 @88.2,40.8 era -- more Shadow Panther Hearts, south-east
+  complete 1383 @5.5,31.38 era -- the Mire Lord Fungus off the Mire Lord, far west
+  note Siopi is named on 1383's heart table but has no spawn in any zone in the data - hunt the Shadow Panthers, not the name.
+  zone Duskwood
+
+step Expedition - the Desolace leg
+
+  zone Desolace
+  complete 1383 @66.26,32.79 era -- the Deepstrider Tumor off the Deepstrider Giant, east
+  complete 1383 @32.07,24.66 era -- the Deepstrider Tumor off the Deepstrider Searcher, west
+  note Either Deepstrider fills the single tumor - take whichever side the road gives.
+  zone Duskwood
+
+step The east - Faustin to Zraedus
+
+  goto 87.45,35.25
+  turnin 1383 -- Nothing But The Truth - the hearts, fungus and tumor to Apothecary Faustin
+  accept 1388 -- Nothing But The Truth - Apothecary Faustin; back to Zraedus
+  turnin 1388 -- Nothing But The Truth - to Deathstalker Zraedus
+  accept 1391 -- Nothing But The Truth - Deathstalker Zraedus; Infiltrator Marksen waits in the Swamp of Sorrows
+  note 1391's turn-in is a Swamp of Sorrows expedition - the leg below carries it.
+
+step Expedition - Marksen's turn-in
+
+  zone Swamp of Sorrows
+  turnin 1391 -- Nothing But The Truth - to Infiltrator Marksen @44.29,52.43 era
+  zone Duskwood
+
+step Kzixx's post - writ: tunic (Leatherworking)
+
+  when skill Leatherworking 1
+
+  goto 81.82,19.77
+  accept 94241 optional -- Craftsman's Writ: Dark Leather Tunic - Kzixx; back to Kzixx, at 60
+  note 94241's starter (the writ) has no placed source in the data - have it in your bags.
+  turnin 94241 optional -- Craftsman's Writ: Dark Leather Tunic - back to Kzixx
