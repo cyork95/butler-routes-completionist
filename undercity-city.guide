@@ -1,0 +1,673 @@
+guide butler-routes-completionist/undercity-city
+title Undercity
+levels 1-60
+zone Undercity
+faction Horde
+category Leveling
+folder Cities
+coords live
+version 1
+
+# Undercity is the Horde capital of the forsaken and a hub a player
+# returns to across their whole leveling life, so this route groups by
+# quarter and keeps every chain together. Out-of-city objectives ride in
+# expedition legs grouped by destination, each with a deliberate zone-frame
+# switch and a switch back. Every goto and complete below is a point from
+# the game data; where the data gives no point the note says so instead of
+# inventing one. Single-starter quests never double: 97022 stays Thunder
+# Bluff's (Alodan's leg); multi-city class chains contract their own UC leg.
+
+step Royal Quarter - the throne and its errands
+  accept 5961 -- The Champion of the Banshee Queen - Lady Sylvanas Windrunner; Nathanos Blightcaller waits in the Plaguelands, very late
+  note 5961 turns in to Nathanos on the Western Plaguelands leg below.
+  accept 6145 -- The Crimson Courier - Varimathras; a Grand Crusader's Command from the Crimson Courier in the Plaguelands, very late
+  note 6145's pre (6144, a Plaguelands accept) is out of contract - the complete and turn-in ride a dedicated mini-step below.
+
+step Rogues' Quarter - Mennet's Deathstalkers
+  accept 1886 only Rogue,Undead -- The Deathstalkers - Mennet Carkad; Astor Hadren's letter from Silverpine, early
+  note 1886's letter rides the Silverpine leg below.
+  accept 1998 only Rogue,Undead -- Fenwick Thatros - Mennet Carkad; Fenwick's head from Silverpine, early
+  note 1998's objective rides the Silverpine leg below.
+  accept 2378 only Rogue -- Find the Shattered Hand - Mennet Carkad; Shenthul waits in Orgrimmar, late
+  note 2378 turns in to Shenthul on the Orgrimmar leg below.
+
+step Magic Quarter - the warlock trainers
+  accept 1472 only Warlock -- Devourer of Souls - Carendin Halgar; Godrick waits across the ring, early
+  note 1472 is a talk leg (no objectives) - turn it in to Godrick now, then take 1476 and 65593.
+  turnin 1472 only Warlock -- Devourer of Souls - the word to Godrick Farsan
+  accept 1476 only Warlock -- Hearts of the Pure - Godrick Farsan; Dalin's and Comar's hearts, early
+  note 1476's pre is the contracted 1472 above; its objectives ride the Silverpine and Arathi legs below.
+  accept 65593 only Warlock -- Hearts of the Lovers - Godrick Farsan; Avelina's and Isaac's hearts, late
+  note 65593's pre is the contracted 1472 above; its objectives ride the Silverpine and Barrens legs below.
+
+step Upper Ring - Kaal' + chr(39) + 's warlocks
+  accept 4489 only Warlock -- Summon Felsteed - Kaal Soulreaper; Strahad Farsan waits in the Barrens, mid
+  note 4489 turns in to Strahad on the Barrens leg below; its follow-up (4490, Strahad' + chr(39) + 's chain) stays out.
+  accept 4739 only Warlock -- In Search of Menara Voidrender - Kaal Soulreaper; Menara Voidrender waits in the Barrens, mid
+  note 4739 turns in to Menara on the Barrens leg below; its follow-up (1796, Menara' + chr(39) + 's chain) stays out.
+  accept 4969 only Warlock -- Knowledge of the Orb of Orahil - Kaal Soulreaper; Menara Voidrender waits in the Barrens, late
+  note 4969 turns in to Menara on the Barrens leg below; its follow-up (1799, Menara' + chr(39) + 's chain) stays out.
+step Magic Quarter - Anastasia's mages
+  accept 1882 only Mage,Undead,Troll -- The Balnir Farmstead - Anastasia Hartwell; Balnir Snapdragons from Tirisfal, early
+  note 1882's objective rides the Tirisfal leg below.
+  accept 1943 only Mage,Orc,Undead,Troll -- Speak with Deino - Anastasia Hartwell; Deino waits in Durotar, late
+  note 1943's follow-up (1944, Deino's chain) stays out - turn in to Deino on the Durotar leg and stop there.
+  accept 1947 only Mage -- Journey to the Marsh - Anastasia Hartwell; Tabetha waits in Dustwallow, late
+  note 1947 turns in to Tabetha on the Dustwallow leg below.
+  accept 1953 only Mage -- Return to the Marsh - Anastasia Hartwell; Tabetha waits in Dustwallow, late
+  note 1953's follow-up (1954, Tabetha's chain) stays out - turn in to Tabetha on the Dustwallow leg and stop there.
+  accept 1960 only Mage,Orc,Undead,Troll -- Investigate the Alchemist Shop - Anastasia Hartwell; the shop counter, early
+  note 1960 needs 1959 (Report to Anastasia, an Orgrimmar/Thunder Bluff accept) done in the world - if Anastasia will not offer it yet, work that chain and take the dedicated mini-step below on return; 1961 opens once 1960 turns in.
+
+step Magic Quarter - Aelthalyste's priests
+  accept 5643 only Priest,Troll -- Shadowguard - Aelthalyste; Ur'kyo waits in Durotar, early
+  note 5643 turns in to Ur'kyo on the Durotar leg below.
+  accept 5657 only Priest,Troll -- Hex of Weakness - Aelthalyste; Ur'kyo waits in Durotar, early
+  note 5657 turns in to Ur'kyo on the Durotar leg below.
+  accept 5658 only Priest,Undead -- Touch of Weakness - Aelthalyste; Aelthalyste's touch, early
+  turnin 5658 only Priest,Undead -- Touch of Weakness - the weakness to Aelthalyste
+  accept 5679 only Priest,Undead -- Dark Sacrifice - Aelthalyste; Aelthalyste's sacrifice, early
+  turnin 5679 only Priest,Undead -- Dark Sacrifice - the sacrifice to Aelthalyste
+step Magic Quarter - Owen's library, the primer shelf
+  accept 78150 -- Friend of the Library - Owen Thadd; Owen's primer shelf, early
+  turnin 78150 -- Friend of the Library - the primer to Owen
+  accept 79536 -- Greater Friend of the Library - Owen Thadd; Owen's primer shelf, early
+  turnin 79536 -- Greater Friend of the Library - the primer to Owen
+  note 79536's pre is the contracted 78150 above, so the chain reads whole.
+  accept 82208 -- Greater Friend of the Library - Owen Thadd; Owen's primer shelf, mid
+  turnin 82208 -- Greater Friend of the Library - the primer to Owen
+  note 82208's pre is the contracted 79536 above, so the chain reads whole.
+
+step Magic Quarter - Owen's library, the research shelves
+  accept 78124 -- Nar'thalas Almanac - Owen Thadd; the Almanac in Darkshore, early
+  note 78124's objective rides the Darkshore leg below.
+  accept 78127 -- The Dalaran Digest - Owen Thadd; the Digest in Silverpine, early
+  note 78127's objective rides the Silverpine leg below.
+  accept 78142 -- Bewitchments and Glamours - Owen Thadd; the book in Westfall, early
+  note 78142's objective rides the Westfall leg below.
+  accept 78143 -- Secrets of the Dreamers - Owen Thadd; the scrolls in the Barrens, early
+  note 78143's objective rides the Barrens leg below.
+  accept 78145 -- Arcanic Systems Manual - Owen Thadd; the manual in the Barrens, early
+  note 78145's objective rides the Barrens leg below.
+  accept 78146 -- Goaz Scrolls - Owen Thadd; the scrolls in the Wetlands, early
+  note 78146's objective rides the Wetlands leg below.
+  accept 78147 -- Crimes Against Anatomy - Owen Thadd; the spellbook in Duskwood, early
+  note 78147's objective rides the Duskwood leg below.
+  accept 78148 -- Runes of the Sorcerer-Kings - Owen Thadd; the scrolls in Loch Modan, mid
+  note 78148's objective rides the Loch Modan leg below.
+  accept 78149 -- Fury of the Land - Owen Thadd; the scrolls in Stonetalon, mid
+  note 78149's objective rides the Stonetalon leg below.
+  accept 79091 -- Archmage Antonidas: The Unabridged Autobiography - Owen Thadd; the book in Ironforge, mid
+  note 79091's objective rides the Ironforge leg below.
+  accept 79092 -- Archmage Theocritus' Research Journal - Owen Thadd; the journal in Elwynn, mid
+  note 79092's objective rides the Elwynn leg below.
+  accept 79093 -- Rumi of Gnomeregan: The Collected Works - Owen Thadd; the tome in Loch Modan or Westfall, mid
+  note 79093's objective rides the Loch Modan leg below.
+  accept 79094 -- The Lessons of Ta'zo - Owen Thadd; the mural in Orgrimmar, mid
+  note 79094's objective rides the Orgrimmar leg below.
+  accept 79095 -- The Apothecary's Metaphysical Primer - Owen Thadd; the primer in Tirisfal, mid
+  note 79095's objective rides the Tirisfal leg below.
+  accept 79096 -- Ataeric: On Arcane Curiosities - Owen Thadd; the secrets in Silverpine, mid
+  note 79096's objective rides the Silverpine leg below.
+  accept 79097 -- Baxtan: On Destructive Magics - Owen Thadd; the tome in the Barrens, mid
+  note 79097's objective rides the Barrens leg below.
+  accept 79535 -- Basilisks: Should Petrification be Feared? - Owen Thadd; the notes in Stranglethorn, mid
+  note 79535's objective rides the Stranglethorn leg below.
+  accept 79947 -- Geomancy: The Stone-Cold Truth - Owen Thadd; the scrolls in Thousand Needles, late
+  note 79947's objective rides the Thousand Needles leg below.
+  accept 79948 -- Defensive Magics 101 - Owen Thadd; the manual in Alterac, late
+  note 79948's objective rides the Alterac leg below.
+  accept 79949 -- A Web of Lies: Debunking Myths and Legends - Owen Thadd; the scrolls in Arathi, late
+  note 79949's objective rides the Arathi leg below.
+  accept 79950 -- Demons and You - Owen Thadd; the book in Desolace, late
+  note 79950's objective rides the Desolace leg below.
+  accept 79951 -- Mummies: A Guide to the Unsavory Undead - Owen Thadd; the scrolls in the Badlands, late
+  note 79951's objective rides the Badlands leg below.
+  accept 79952 -- RwlRwlRwlRwl! - Owen Thadd; the waterlogged book in Dustwallow, late
+  note 79952's objective rides the Dustwallow leg below.
+  accept 79953 -- A Ludite's Guide to Caring for Your Demonic Pet - Owen Thadd; the pet-care guide, late
+  note 79953's book names no placed source in the data - check the bags for it.
+  complete 79953 -- the pet-care guide from the bags for Owen
+  turnin 79953 -- A Ludite's Guide to Caring for Your Demonic Pet - the guide to Owen
+  accept 81947 -- Sanguine Sorcery - Owen Thadd; the book in the Swamp of Sorrows, late
+  note 81947's objective rides the Swamp of Sorrows leg below.
+  accept 81949 -- Legends of the Tidesages - Owen Thadd; the book in Tanaris, late
+  note 81949's objective rides the Tanaris leg below.
+  accept 81951 -- The Liminal and the Arcane - Owen Thadd; the book in Feralas, late
+  note 81951's objective rides the Feralas leg below.
+  accept 81952 -- Everyday Etiquette - Owen Thadd; the book in Azshara, late
+  note 81952's objective rides the Azshara leg below.
+  accept 81953 -- Stonewrought Design - Owen Thadd; the book in the Burning Steppes, late
+  note 81953's objective rides the Burning Steppes leg below.
+  accept 81954 -- Venomous Journeys - Owen Thadd; the book in the Hillsbrad Foothills, late
+  note 81954's objective rides the Hillsbrad leg below.
+  accept 81955 -- A Mind of Metal - Owen Thadd; the book in Searing Gorge, late
+  note 81955's objective rides the Searing Gorge leg below.
+  accept 81956 -- Conjurer's Codex - Owen Thadd; the book in the Blasted Lands, late
+  note 81956's objective rides the Blasted Lands leg below.
+
+step Magic Quarter - Oran's shelf, the eight Stormwind-listed books
+  accept 84395 -- Undead Potatoes - Oran Snakewrithe; the book in the Plaguelands, endgame
+  note 84395's objective rides the Eastern Plaguelands leg below; the turn-in uses Oran's (Undercity) end, never Jennea's Stormwind end.
+  accept 84396 -- Magma or Lava? - Oran Snakewrithe; the book in the Burning Steppes, endgame
+  note 84396's objective rides the Burning Steppes leg below; the turn-in uses Oran's end.
+  accept 84397 -- Northern Kalimdor - A Comprehensive Guide - Oran Snakewrithe; the book in Felwood, endgame
+  note 84397's objective rides the Felwood leg below; the turn-in uses Oran's end.
+  accept 84398 -- A Study of the Light - Oran Snakewrithe; the book in the Plaguelands, endgame
+  note 84398's objective rides the Western Plaguelands leg below; the turn-in uses Oran's end.
+  accept 84399 -- Ka-Boom! - Oran Snakewrithe; the book in Winterspring, endgame
+  note 84399's objective rides the Winterspring leg below; the turn-in uses Oran's end.
+  accept 84400 -- The Knight and the Lady - Oran Snakewrithe; the book in the Plaguelands, endgame
+  note 84400's objective rides the Western Plaguelands leg below; the turn-in uses Oran's end.
+  accept 84401 -- Scourge: Undead Menace or Misunderstood? - Oran Snakewrithe; the book in the Plaguelands, endgame
+  note 84401's objective rides the Western Plaguelands leg below; the turn-in uses Oran's end.
+  accept 84402 -- Necromancy 101 - Oran Snakewrithe; the book in the Plaguelands, endgame
+  note 84402's objective rides the Eastern Plaguelands leg below; the turn-in uses Oran's end.
+  accept 97286 only Mage -- Research Access - Owen Thadd; forty books to Garion's list, endgame
+  note 97286's pre is the forty-book chain above; every book turn-in rides the returns step below, then the capstone turns in here.
+step Apothecarium - Faranell's poisons and the slime crew
+  accept 1109 -- Going, Going, Guano! - Master Apothecary Faranell; Kraul Guano, mid
+  note 1109's guano names no placed source in the data - check the bags for it.
+  complete 1109 -- Kraul Guano from the bags for Faranell
+  turnin 1109 -- Going, Going, Guano! - the guano to Faranell
+  accept 1113 -- Hearts of Zeal - Master Apothecary Faranell; Hearts of Zeal from Tirisfal, mid
+  note 1113's pre is the contracted 1109 above; its objective rides the Tirisfal leg below.
+  accept 96988 -- Source of Power - Doctor Martin Felben; Cracked Sentry Cores, mid
+  note 96988's cores name no placed source in the data - check the bags for them.
+  complete 96988 -- six Cracked Sentry Cores from the bags for Felben
+  turnin 96988 -- Source of Power - the cores to Felben
+  accept 97049 -- Essence of Seeping Slimes - Chemist Fuely; Seeping Slime Essences, endgame
+  note 97049's essences name no placed source in the data - check the bags for them.
+  complete 97049 -- eight Seeping Slime Essences from the bags for Fuely
+  turnin 97049 -- Essence of Seeping Slimes - the essences to Fuely
+  accept 4293 -- A Sample of Slime... - Chemist Fuely; a Corrupted Felwood Sample, late
+  complete 4293 @47.85,73.48 era -- five Corrupted Felwood Samples from Fuely's Testing Equipment for Fuely
+  accept 4294 -- ... and a Batch of Ooze - Chemist Fuely; a Pure Un'Goro Sample, late
+  complete 4294 @47.74,73.57 era -- five Pure Un'Goro Samples from Fuely's Testing Equipment for Fuely
+  accept 4642 -- Melding of Influences - Chemist Fuely; a Merged Ooze Sample from Un'Goro, late
+  note 4642's pre is the contracted 4293+4294 above; its objective rides the Un'Goro leg below.
+  accept 95216 -- The New Plague - Theodore Griffs; a Highly Toxic Strain, early
+  note 95216's pre (451, a Silverpine accept) is out of contract - the complete and turn-in ride a dedicated mini-step below.
+  accept 97985 -- Thundering Hearts - Calder Gray; Stormheart's heart from Thousand Needles, mid
+  note 97985's objective is an optional hunt on the Thousand Needles leg below - a missing Stormheart never wedges the route.
+  accept 95204 -- Crest of Lordaeron - the Crest of Lordaeron, early
+  note 95204 starts from the Crest of Lordaeron item, which names no placed source in the data - check the bags for it.
+  turnin 95204 -- Crest of Lordaeron - the crest to Oran Snakewrithe
+
+step Apothecarium - the Seeping Corruption vials
+  accept 3568 -- Seeping Corruption - Chemist Cazarez; the first vial from Azshara, late
+  note 3568's objective rides the Azshara leg below.
+step Upper Ring - Bethor's row
+  accept 357 -- The Lich's Identity - Bethor Iceshard; the Lich's Spellbook from Tirisfal, early
+  note 357's pre (405, a Tirisfal accept) is out of contract; its objective rides the Tirisfal leg below.
+  accept 446 -- Thule Ravenclaw - Bethor Iceshard; Renferrel waits in Silverpine, early
+  note 446's pre (444, a Silverpine accept) is out of contract; its turn-in rides the Silverpine leg below, and its follow-up (448, a Silverpine accept) stays out.
+
+step Apothecarium - Zinge's Vivian errands
+  accept 4133 -- Vivian Lagrave - Apothecary Zinge; Shadowmage Vivian Lagrave waits in the Badlands, late
+  note 4133 turns in to Vivian on the Badlands leg below; its follow-up (4134, Vivian's chain) stays out.
+  accept 4769 -- Vivian Lagrave and the Darkstone Tablet - Apothecary Zinge; Vivian waits in the Badlands, endgame
+  note 4769 turns in to Vivian on the Badlands leg below; its follow-up (4768, Vivian's chain) stays out.
+step War Quarter - the warrior row and the far errands
+  accept 1718 only Warrior -- The Islander - Baltus Fowler; Klannoc Macleod waits in the Barrens, mid
+  note 1718's follow-up (1719, Klannoc's chain) stays out - turn in to Klannoc on the Barrens leg and stop there.
+  accept 1823 only Warrior -- Speak with Ruga - Baltus Fowler; Ruga Ragetotem waits in the Barrens, early
+  note 1823's follow-up (1824, Ruga's chain) stays out - turn in to Ruga on the Barrens leg and stop there.
+  accept 8417 only Warrior -- A Troubled Spirit - Christoph Walker; the Fallen Hero waits in the Swamp of Sorrows, late
+  note 8417's follow-up (8423, the Hero's chain) stays out - turn in to the Hero on the Swamp of Sorrows leg and stop there.
+  accept 1846 only Warrior -- Dragonmaw Shinbones - Velora Nitely; Sturdy Dragonmaw Shinbones from the Wetlands, mid
+  note 1846's pre (1841, a Barrens accept) is out of contract - the complete and turn-in ride a dedicated mini-step below.
+  accept 1004 -- The New Frontier - Harbinger Balthazad; Carendin Halgar's word to Thunder Bluff, late
+  note 1004 turns in to Carendin on the Thunder Bluff leg below; its follow-up (1123, Thunder Bluff's accept) stays in Thunder Bluff.
+  accept 5094 -- A Call to Arms: The Plaguelands! - Harbinger Balthazad; High Executor Derrington waits in Tirisfal, late
+  note 5094 turns in to Derrington on the Tirisfal leg below; its follow-up (5096, a Tirisfal accept) stays out.
+  accept 7492 -- Camp Mojache - Harbinger Balthazad; Talo Thornhoof waits in Feralas, late
+  note 7492 turns in to Talo on the Feralas leg below; its follow-up (7489, Talo's chain) stays out.
+  accept 8233 only Rogue -- A Simple Request - Miles Dexter; Lord Jorach Ravenholdt waits in the Hillsbrad Foothills, late
+  note 8233's follow-up (8234, Ravenholdt's chain) stays out - turn in to Ravenholdt on the Hillsbrad leg and stop there.
+  accept 8250 only Mage -- Magecraft - Pierce Shackleton; Sanath Lim-yo waits in Azshara, late
+  note 8250's follow-up (8251, Sanath's chain) stays out - turn in to Sanath on the Azshara leg and stop there.
+  accept 7562 only Warlock -- Mor'zul Bloodbringer - Martha Strain; Mor'zul waits in Searing Gorge, endgame
+  note 7562 turns in to Mor'zul on the Searing Gorge leg below; its follow-up (7563, Mor'zul's chain) stays out.
+  accept 8419 only Warlock -- An Imp's Request - Kaal Soulreaper; Felcloth and Impsy in Felwood, late
+  note 8419's Felcloth is a generic world drop - check the bags for it.
+  complete 8419 only Warlock optional @46.93,15.23 era -- Felcloth from the bags for Impsy
+  note 8419 turns in to Impsy on the Felwood leg below; its follow-up (8421, Impsy's chain) stays out.
+
+step Trade Quarter - Ralston's cloth
+  accept 7813 optional -- A Donation of Wool - Ralston Farnsley; sixty Wool Cloth, mid
+  complete 7813 optional @71.66,29.23 era -- sixty Wool Cloth from the bags for Ralston
+  turnin 7813 optional -- A Donation of Wool - the wool to Ralston
+  accept 7814 optional -- A Donation of Silk - Ralston Farnsley; sixty Silk Cloth, mid
+  complete 7814 optional @71.66,29.23 era -- sixty Silk Cloth from the bags for Ralston
+  turnin 7814 optional -- A Donation of Silk - the silk to Ralston
+  accept 7817 optional -- A Donation of Mageweave - Ralston Farnsley; sixty Mageweave Cloth, late
+  complete 7817 optional @71.66,29.23 era -- sixty Mageweave Cloth from the bags for Ralston
+  turnin 7817 optional -- A Donation of Mageweave - the mageweave to Ralston
+  accept 7818 optional -- A Donation of Runecloth - Ralston Farnsley; sixty Runecloth, endgame
+  complete 7818 optional @71.66,29.23 era -- sixty Runecloth from the bags for Ralston
+  turnin 7818 optional -- A Donation of Runecloth - the runecloth to Ralston
+  note 7818's pre is the contracted 7813+7814+7817 above, so the chain reads whole.
+step Trade Quarter - Graham's engineering branches
+  when skill Engineering 1
+
+  note Graham's line needs the engineer's hands - skip it without the skill.
+  accept 3526 optional -- Goblin Engineering - Graham Van Talen; Nixx Sprocketspring waits in Tanaris, late
+  note 3526 turns in to Nixx back in this step; its follow-up (3638, Nixx's chain) stays out.
+  accept 3635 optional -- Gnome Engineering - Graham Van Talen; Oglethorpe Obnoticus waits in Booty Bay, late
+  note 3635 turns in to Oglethorpe back in this step; its follow-up (3642, Oglethorpe's chain) stays out.
+  note Goblin and Gnome Engineering exclude each other - take one branch only; the other line stays unaccepted.
+  turnin 3526 optional -- Goblin Engineering - Graham's word to Nixx Sprocketspring
+  turnin 3635 optional -- Gnome Engineering - Graham's word to Oglethorpe Obnoticus
+step Expedition - Tirisfal Glades, the clearing and the farmsteads
+  zone map 1420
+
+  tip Deathknell to the clearing to Balnir: Derrington, Bethor, Gunther, the Scarlet Preserve, Balnir, the Horror.
+  turnin 5094 -- A Call to Arms: The Plaguelands! - Balthazad's word to High Executor Derrington
+  complete 357 @67.96,42.09 era -- the Lich's Spellbook from Gunther's Books for Bethor
+  turnin 357 -- The Lich's Identity - the spellbook to Bethor Iceshard
+  note 366 opens once 357 turns in - Bethor stands in this clearing, Gunther below.
+  accept 366 -- Return the Book - Bethor Iceshard; Gunther Arcanus waits below, early
+  turnin 366 -- Return the Book - the book to Gunther Arcanus
+  complete 1113 @81.36,33.72 era -- twenty Hearts of Zeal from the Scarlet Preservers for Faranell
+  complete 1882 @77.39,61.76 era -- Balnir Snapdragons from the farmstead for Anastasia
+  note The Whispering Horror at the clearing (8.89,60.21) drops the residue that starts 95328 - kill it here and take the accept if it dropped; the route never waits on it.
+  accept 95328 -- Whispering Horror Residue - the Whispering Horror's residue from Tirisfal, early
+  complete 79095 @59.4,52.3 era -- the Apothecary's Metaphysical Primer from the Society primer for Owen
+  zone map 1458
+
+step Expedition - Silverpine Forest, the ranger's road
+  zone map 1421
+
+  tip Renferrel first, then the coast road south: Astor, Fenwick, Dalin, Avelina, the Apprentices. (The Strongbox rides its own detour - 1999 opens only after 1998 turns in.)
+  turnin 446 -- Thule Ravenclaw - Bethor's word to Apothecary Renferrel
+  complete 1886 @49.71,32.22 era -- Astor's Letter of Introduction from Astor Hadren for Mennet
+  complete 1998 @59.58,33.94 era -- Fenwick's Head from Fenwick Thatros for Mennet
+  complete 1476 @47.6,85.65 era -- Dalin's Heart from Dalin Forgewright for Carendin
+  complete 65593 @60.28,64.22 era -- Avelina's Heart from Avelina Lilly for Godrick
+  complete 78127 @63.5,63.2 era -- the Dalaran Digest from the Silverpine bookshelf for Owen
+  complete 79096 @43.4,41.2 era -- Ataeric's secrets from the Silverpine arcana for Owen
+  zone map 1458
+
+step Expedition - Western Plaguelands, Nathanos and the books
+  zone map 1422
+
+  tip Nathanos first on the Marris stead, then the book houses west.
+  turnin 5961 -- The Champion of the Banshee Queen - Sylvanas's word to Nathanos Blightcaller
+  complete 84398 @71.86,48.27 era -- A Study of the Light from the Plaguelands book for Oran
+  complete 84400 @47.3,42.23 era -- The Knight and the Lady from the Plaguelands book for Oran
+  complete 84401 @26.43,15.13 era -- Scourge: Undead Menace or Misunderstood? from the Plaguelands book for Oran
+  zone map 1458
+
+step Expedition - Eastern Plaguelands, the book houses
+  zone map 1423
+
+  tip The two book houses: the eastern farm, then the southern abbey lands.
+  complete 84395 @38.2,54.6 era -- Undead Potatoes from the Plaguelands book for Oran
+  complete 84402 @69.41,72.84 era -- Necromancy 101 from the Plaguelands book for Oran
+  zone map 1458
+
+step Expedition - Searing Gorge and Burning Steppes, Mor'zul and the books
+  zone map 1428
+
+  tip The Steppes book first, then south through the pass for Mor'zul and the Gorge book.
+  complete 84396 @26.4,24.45 era -- Magma or Lava? from the Steppes book for Oran
+  complete 81953 @28.96,28.93 era -- Stonewrought Design from the Steppes book for Owen
+  zone map 1427
+
+  tip Mor'zul's camp, then the Gorge book.
+  turnin 7562 only Warlock -- Mor'zul Bloodbringer - Martha's word to Mor'zul Bloodbringer
+  complete 81955 @37.8,49.3 era -- A Mind of Metal from the Gorge book for Owen
+  zone map 1458
+
+step Expedition - Badlands, Vivian and the scrolls
+  zone map 1418
+
+  tip Vivian's camp first, then the scrolls east.
+  turnin 4133 -- Vivian Lagrave - Zinge's word to Shadowmage Vivian Lagrave
+  turnin 4769 -- Vivian Lagrave and the Darkstone Tablet - Zinge's word to Shadowmage Vivian Lagrave
+  complete 79951 @56.7,39.9 era -- Mummies: A Guide to the Unsavory Undead from the Badlands scrolls for Owen
+  zone map 1458
+
+step Expedition - Dustwallow Marsh, Tabetha and the waterlogged book
+  zone map 1445
+
+  tip Tabetha's farm first, then the book in the marsh.
+  turnin 1947 only Mage -- Journey to the Marsh - Anastasia's word to Tabetha
+  turnin 1953 only Mage -- Return to the Marsh - Anastasia's word to Tabetha
+  complete 79952 @57.2,20.8 era -- RwlRwlRwlRwl! from the waterlogged book for Owen
+  zone map 1458
+
+step Expedition - Durotar, Ur'kyo and Deino
+  zone map 1411
+
+  tip The two trainers on the Razor Hill road.
+  turnin 5643 only Priest,Troll -- Shadowguard - Aelthalyste's word to Ur'kyo
+  turnin 5657 only Priest,Troll -- Hex of Weakness - Aelthalyste's word to Ur'kyo
+  turnin 1943 only Mage,Orc,Undead,Troll -- Speak with Deino - Anastasia's word to Deino
+  zone map 1458
+
+step Expedition - the Barrens, turn-ins and the books
+  zone map 1413
+
+  tip The Crossroads road north to south: Klannoc, Ruga, Strahad, Menara, Isaac, then the books.
+  turnin 1718 only Warrior -- The Islander - Baltus's word to Klannoc Macleod
+  turnin 1823 only Warrior -- Speak with Ruga - Baltus's word to Ruga Ragetotem
+  turnin 4489 only Warlock -- Summon Felsteed - Kaal's word to Strahad Farsan
+  turnin 4739 only Warlock -- In Search of Menara Voidrender - Kaal's word to Menara Voidrender
+  turnin 4969 only Warlock -- Knowledge of the Orb of Orahil - Kaal's word to Menara Voidrender
+  complete 65593 @61.92,38.49 era -- Isaac's Heart from Isaac Pearson for Godrick
+  complete 78143 @49.3,32.88 era -- Secrets of the Dreamers from the Barrens scrolls for Owen
+  complete 78145 @56.3,8.8 era -- the Arcanic Systems Manual from the Barrens manual for Owen
+  complete 79097 @62.7,36.3 era -- Baxtan's tome from the Barrens goblin tome for Owen
+  zone map 1458
+
+step Expedition - Azshara, the tide pools and the coast
+  zone map 1447
+
+  tip The three tide pools north to south, then Sanath and the book down the coast.
+  complete 3568 @47.98,61.03 era -- the first vial filled at the First Tide Pool for Cazarez
+  complete 3568 @47.84,51.39 era -- the second vial filled at the Second Tide Pool for Cazarez
+  complete 3568 @48.65,48.5 era -- the third vial filled at the Third Tide Pool for Cazarez
+  turnin 8250 only Mage -- Magecraft - Pierce's word to Sanath Lim-yo
+  complete 81952 @20.7,62.0 era -- Everyday Etiquette from the Azshara book for Owen
+  zone map 1458
+step Expedition - Un'Goro Crater, the oozes
+  zone map 1449
+
+  tip The slime pits: Gargantuan first, then the primal pools.
+  complete 4642 @46.27,25.21 era -- the Merged Ooze Sample from the Gargantuan Ooze for Fuely
+  zone map 1458
+
+step Expedition - Felwood, Impsy and the book
+  zone map 1448
+
+  tip Impsy's grove first, then the book north.
+  turnin 8419 only Warlock -- An Imp's Request - Kaal's word to Impsy
+  complete 84397 @65.2,3.3 era -- Northern Kalimdor from the Felwood book for Oran
+  zone map 1458
+
+step Expedition - Winterspring, the book
+  zone map 1452
+
+  complete 84399 @60.7,37.7 era -- Ka-Boom! from the Winterspring book for Oran
+  zone map 1458
+
+step Expedition - Feralas, Talo and the book
+  zone map 1444
+
+  tip Talo at the Feathermoon road, then the book on the coast.
+  turnin 7492 -- Camp Mojache - Balthazad's word to Talo Thornhoof
+  complete 81951 @50.6,15.7 era -- The Liminal and the Arcane from the Feralas book for Owen
+  zone map 1458
+
+step Expedition - Tanaris, Nixx and the book
+  zone map 1446
+
+  tip Nixx in Gadgetzan first, then the book on the coast.
+  complete 81949 @72.6,47.8 era -- Legends of the Tidesages from the Tanaris book for Owen
+  zone map 1458
+
+step Expedition - Stranglethorn Vale, Oglethorpe and the notes
+  zone map 1434
+
+  tip Oglethorpe in Booty Bay first, then the notes in the jungle.
+  complete 79535 @41.4,50.9 era -- the basilisk research notes from Stranglethorn for Owen
+  zone map 1458
+
+step Expedition - Swamp of Sorrows, the Hero and the book
+  zone map 1435
+
+  tip The Fallen Hero on the road, then the book in the marsh.
+  turnin 8417 only Warrior -- A Troubled Spirit - Christoph's word to the Fallen Hero of the Horde
+  complete 81947 @70.0,51.0 era -- Sanguine Sorcery from the Swamp book for Owen
+  zone map 1458
+
+step Expedition - Hillsbrad Foothills, Ravenholdt and the book
+  zone map 1424
+
+  tip Ravenholdt Manor first, then the book in the hills.
+  turnin 8233 only Rogue -- A Simple Request - Miles's word to Lord Jorach Ravenholdt
+  complete 81954 @36.0,72.8 era -- Venomous Journeys from the Hillsbrad book for Owen
+  zone map 1458
+
+step Expedition - Arathi Highlands, Comar and the scrolls
+  zone map 1417
+
+  tip Comar in Stromgarde first, then the scrolls south.
+  complete 1476 @44.1,98.4 era -- Comar's Heart from Comar Villard for Carendin
+  complete 79949 @73.6,65.2 era -- A Web of Lies from the Arathi scrolls for Owen
+  zone map 1458
+
+step Expedition - Desolace, the book
+  zone map 1443
+
+  complete 79950 @55.0,26.2 era -- Demons and You from the Desolace book for Owen
+  zone map 1458
+
+step Expedition - Alterac Mountains, the manual
+  zone map 1416
+
+  complete 79948 @48.4,57.6 era -- Defensive Magics 101 from the Alterac manual for Owen
+  zone map 1458
+
+step Expedition - Thousand Needles, the scrolls and the hunt
+  zone map 1441
+
+  tip The scrolls first, then Stormheart if the log needs the heart.
+  complete 79947 @34.4,40.1 era -- Geomancy from the Needles scrolls for Owen
+  note 97985's heart comes from Stormheart below - hunt it here if the log needs it, or skip it.
+  complete 97985 optional @46.72,54.28 era -- Stormheart's Still-beating Heart from Stormheart for Calder
+  zone map 1458
+
+step Expedition - Elwynn Forest, the journal
+  zone map 1429
+
+  complete 79092 @65.4,70.1 era -- Theocritus's journal from the Elwynn library for Owen
+  zone map 1458
+
+step Expedition - Westfall, the books
+  zone map 1436
+
+  tip The two farmsteads: the spellbook, then the tome.
+  complete 78142 @45.4,70.4 era -- Bewitchments and Glamours from the Westfall spellbook for Owen
+  note 79093's tome also shows on the Westfall map (52.7,53.8) - the Loch Modan copy below is the routed one.
+  zone map 1458
+
+step Expedition - Loch Modan, the books
+  zone map 1432
+
+  tip The two shelves: the spellbook, then the tome.
+  complete 78148 @77.4,14.0 era -- Runes of the Sorcerer-Kings from the Loch spellbook for Owen
+  complete 79093 @35.6,48.9 era -- Rumi's tome from the Loch shelf for Owen
+  zone map 1458
+
+step Expedition - Stonetalon Mountains, the scrolls
+  zone map 1442
+
+  complete 78149 @74.4,85.7 era -- Fury of the Land from the Stonetalon scrolls for Owen
+  zone map 1458
+
+step Expedition - Duskwood, the spellbook
+  zone map 1431
+
+  complete 78147 @16.7,28.4 era -- Crimes Against Anatomy from the Duskwood spellbook for Owen
+  zone map 1458
+
+step Expedition - the Wetlands, the scrolls
+  zone map 1437
+
+  complete 78146 @33.6,47.9 era -- Goaz Scrolls from the Wetlands scrolls for Owen
+  zone map 1458
+step Expedition - Darkshore, the almanac
+  zone map 1439
+
+  complete 78124 @59.6,22.2 era -- the Nar'thalas Almanac from the Darkshore scrolls for Owen
+  zone map 1458
+
+step Expedition - Ironforge, the autobiography
+  zone map 1455
+
+  complete 79091 @76.0,10.4 era -- Antonidas's autobiography from the Ironforge library for Owen
+  zone map 1458
+
+step Expedition - Orgrimmar, the mural and the Shattered Hand
+  zone map 1454
+
+  tip Shenthul first in the Cleft, then the mural in the Valley of Wisdom.
+  turnin 2378 only Rogue -- Find the Shattered Hand - Mennet's word to Shenthul
+  complete 79094 @38.7,78.4 era -- the Lessons of Ta'zo from the Orgrimmar mural for Owen
+  zone map 1458
+
+step Expedition - Thunder Bluff, Carendin's word
+  zone map 1456
+
+  turnin 1004 -- The New Frontier - Balthazad's word to Carendin Halgar
+  zone map 1458
+
+step Expedition - the Blasted Lands, the codex
+  zone map 1419
+
+  complete 81956 @55.4,32.2 era -- the Conjurer's Codex from the Blasted book for Owen
+  zone map 1458
+
+step Undercity - the returns
+  turnin 1882 only Mage,Undead,Troll -- The Balnir Farmstead - the snapdragons to Anastasia Hartwell
+  note 1961 opens once 1960 turns in (mini-step below) - take that first if offered.
+  turnin 1476 only Warlock -- Hearts of the Pure - the hearts to Carendin Halgar
+  note The Binding opens once 1476 turns in - Carendin binds on the spot.
+  accept 1474 only Warlock -- The Binding - Carendin Halgar; a summoned Succubus, early
+  complete 1474 only Warlock @86.7,27.1 era -- the Summoned Succubus at the warlock circle for Carendin
+  turnin 1474 only Warlock -- The Binding - the binding to Carendin
+  turnin 65593 only Warlock -- Hearts of the Lovers - the hearts to Carendin Halgar
+  note The Binding opens once 65593 turns in - Carendin binds on the spot.
+  accept 65597 only Warlock -- The Binding - Carendin Halgar; a summoned Incubus, late
+  complete 65597 only Warlock @85.04,26.3 era -- the Summoned Incubus at the warlock circle for Carendin
+  turnin 65597 only Warlock -- The Binding - the binding to Carendin
+  turnin 1113 -- Hearts of Zeal - the hearts to Faranell
+  turnin 95328 -- Whispering Horror Residue - the residue to Father Lankester
+  turnin 3568 -- Seeping Corruption - the vials to Chemist Cazarez
+  note 3569 opens once 3568 turns in - Thersa stands beside Cazarez.
+  accept 3569 -- Seeping Corruption - Chemist Cazarez; Cazarez and Sandoval, late
+  turnin 3569 -- Seeping Corruption - the chain to Thersa Windsong
+  note 3570 opens once 3569 turns in.
+  accept 3570 -- Seeping Corruption - Chemist Cazarez; Cazarez again, late
+  turnin 3570 -- Seeping Corruption - the chain to Chemist Cazarez
+  turnin 1886 only Rogue,Undead -- The Deathstalkers - the letter to Mennet Carkad
+  note 1898 opens once 1886 turns in - Mennet hands it over on the spot.
+  accept 1898 only Rogue,Undead -- The Deathstalkers - Mennet Carkad; Andron Gant waits below, early
+  turnin 1898 only Rogue,Undead -- The Deathstalkers - the chain to Andron Gant
+  note 1899 opens once 1898 turns in - Andron hands over the ledger hunt on the spot.
+  accept 1899 only Rogue,Undead -- The Deathstalkers - Andron Gant; his ledger sits on his own shelf, early
+  complete 1899 only Rogue,Undead @55.4,76.96 era -- Andron's Ledger from Andron's Bookshelf for Mennet
+  turnin 1899 only Rogue,Undead -- The Deathstalkers - the ledger to Mennet Carkad
+  note 1978 opens once 1899 turns in - Mennet sends the word on the spot.
+  accept 1978 only Rogue,Undead -- The Deathstalkers - Mennet Carkad; Varimathras waits in the throne room
+  turnin 1978 only Rogue,Undead -- The Deathstalkers - Mennet's word to Varimathras
+  turnin 1998 only Rogue,Undead -- Fenwick Thatros - the head to Mennet Carkad
+  note 1999 opens once 1998 turns in - Mennet hands it over on the spot; its Strongbox rides the detour below.
+  accept 1999 only Rogue,Undead -- Tools of the Trade - Mennet Carkad; the Ambermill Strongbox waits in Silverpine, early
+  turnin 4293 -- A Sample of Slime... - the sample to Fuely
+  turnin 4294 -- ... and a Batch of Ooze - the sample to Fuely
+  turnin 4642 -- Melding of Influences - the merged sample to Fuely
+  turnin 97985 -- Thundering Hearts - the heart to Calder Gray
+  turnin 78124 -- Nar'thalas Almanac - the book to Owen
+  turnin 78127 -- The Dalaran Digest - the book to Owen
+  turnin 78142 -- Bewitchments and Glamours - the book to Owen
+  turnin 78143 -- Secrets of the Dreamers - the book to Owen
+  turnin 78145 -- Arcanic Systems Manual - the book to Owen
+  turnin 78146 -- Goaz Scrolls - the book to Owen
+  turnin 78147 -- Crimes Against Anatomy - the book to Owen
+  turnin 78148 -- Runes of the Sorcerer-Kings - the book to Owen
+  turnin 78149 -- Fury of the Land - the book to Owen
+  turnin 79091 -- Archmage Antonidas: The Unabridged Autobiography - the book to Owen
+  turnin 79092 -- Archmage Theocritus' Research Journal - the book to Owen
+  turnin 79093 -- Rumi of Gnomeregan: The Collected Works - the book to Owen
+  turnin 79094 -- The Lessons of Ta'zo - the book to Owen
+  turnin 79095 -- The Apothecary's Metaphysical Primer - the book to Owen
+  turnin 79096 -- Ataeric: On Arcane Curiosities - the book to Owen
+  turnin 79097 -- Baxtan: On Destructive Magics - the book to Owen
+  turnin 79535 -- Basilisks: Should Petrification be Feared? - the book to Owen
+  turnin 79947 -- Geomancy: The Stone-Cold Truth - the book to Owen
+  turnin 79948 -- Defensive Magics 101 - the book to Owen
+  turnin 79949 -- A Web of Lies: Debunking Myths and Legends - the book to Owen
+  turnin 79950 -- Demons and You - the book to Owen
+  turnin 79951 -- Mummies: A Guide to the Unsavory Undead - the book to Owen
+  turnin 79952 -- RwlRwlRwlRwl! - the book to Owen
+  turnin 81947 -- Sanguine Sorcery - the book to Owen
+  turnin 81949 -- Legends of the Tidesages - the book to Owen
+  turnin 81951 -- The Liminal and the Arcane - the book to Owen
+  turnin 81952 -- Everyday Etiquette - the book to Owen
+  turnin 81953 -- Stonewrought Design - the book to Owen
+  turnin 81954 -- Venomous Journeys - the book to Owen
+  turnin 81955 -- A Mind of Metal - the book to Owen
+  turnin 81956 -- Conjurer's Codex - the book to Owen
+  turnin 84395 -- Undead Potatoes - the book to Oran Snakewrithe
+  turnin 84396 -- Magma or Lava? - the book to Oran Snakewrithe
+  turnin 84397 -- Northern Kalimdor - A Comprehensive Guide - the book to Oran Snakewrithe
+  turnin 84398 -- A Study of the Light - the book to Oran Snakewrithe
+  turnin 84399 -- Ka-Boom! - the book to Oran Snakewrithe
+  turnin 84400 -- The Knight and the Lady - the book to Oran Snakewrithe
+  turnin 84401 -- Scourge: Undead Menace or Misunderstood? - the book to Oran Snakewrithe
+  turnin 84402 -- Necromancy 101 - the book to Oran Snakewrithe
+  turnin 97286 only Mage -- Research Access - the forty-book set to Owen
+  note 97286's pre is the forty-book chain above - every book turn-in rides this step, so the chain reads whole.
+step Expedition - Silverpine, the Ambermill Strongbox detour
+  zone map 1421
+
+  note 1999 only opens after 1998 turns in above - this second Silverpine pass is the honest price of the chain.
+  complete 1999 only Rogue,Undead @63.71,65.24 era -- the Dalaran Status Report from the Ambermill Strongbox for Mennet
+  zone map 1458
+
+  turnin 1999 only Rogue,Undead -- Tools of the Trade - the report to Mennet Carkad
+step Velora's word - the shinbones from the Wetlands
+  when onquest 1846
+
+  note Dragonmaw Shinbones needs 1841 (a Barrens accept) turned in first, and 1841 is out of contract - complete 1846 here if the log carries it.
+  zone map 1437
+
+  complete 1846 only Warrior @41.0,39.96 era -- eight Sturdy Dragonmaw Shinbones from the Dragonmaw Raiders for Velora
+  zone map 1458
+
+  turnin 1846 only Warrior -- Dragonmaw Shinbones - the shinbones to Velora Nitely
+  note 1847 opens once 1846 turns in - Velora hands over the legguards on the spot.
+  accept 1847 only Warrior -- Brutal Legguards - Velora Nitely; Velora's legguards, mid
+  turnin 1847 only Warrior -- Brutal Legguards - the legguards to Velora Nitely
+
+step Anastasia's word - the alchemist's shop
+  when onquest 1960
+
+  note Investigate the Alchemist Shop needs 1959 (an Orgrimmar/Thunder Bluff accept) turned in first, and 1959 is out of contract - complete 1960 here if the log carries it.
+  complete 1960 only Mage,Orc,Undead,Troll @85.48,9.9 era -- the Chest of Containment Coffers from the shop for Anastasia
+  note the Filled Containment Coffers name no placed source in the data - check the bags for them.
+  complete 1960 only Mage,Orc,Undead,Troll -- the Filled Containment Coffers from the bags for Anastasia
+  turnin 1960 only Mage,Orc,Undead,Troll -- Investigate the Alchemist Shop - the findings to Anastasia Hartwell
+  note 1961 opens once 1960 turns in - Anastasia hands it over on the spot.
+  accept 1961 only Mage,Orc,Undead,Troll -- Gathering Materials - Anastasia Hartwell; linen and Dalaran Mana Gems, early
+  complete 1961 only Mage,Orc,Undead,Troll @85.14,10.03 era -- ten Linen Cloth from the bags for Josef
+  note 1961's Mana Gems come from the Dalaran Apprentices in Silverpine - one trip below.
+  zone map 1421
+
+  complete 1961 only Mage,Orc,Undead,Troll @50.57,60.92 era -- six Dalaran Mana Gems from the Dalaran Apprentices for Josef
+  zone map 1458
+
+  turnin 1961 only Mage,Orc,Undead,Troll -- Gathering Materials - the gems and linen to Josef Gregorian
+
+step Varimathras's word - the courier in the Plaguelands
+  when onquest 6145
+
+  note The Crimson Courier needs 6144 (a Plaguelands accept) turned in first, and 6144 is out of contract - complete 6145 here if the log carries it.
+  zone map 1423
+
+  complete 6145 @51.39,30.59 era -- the Grand Crusader's Command from the Crimson Courier for Varimathras
+  turnin 6145 -- The Crimson Courier - the command to Nathanos Blightcaller
+  zone map 1458
+
+step Theodore's word - the new plague
+  when onquest 95216
+
+  note The New Plague needs 451 (a Silverpine accept) turned in first, and 451 is out of contract - complete 95216 here if the log carries it.
+  note 95216's Highly Toxic Strain names no placed source in the data - check the bags for it.
+  complete 95216 -- the Highly Toxic Strain from the bags for Theodore
+  turnin 95216 -- The New Plague - the strain to Theodore Griffs
+
