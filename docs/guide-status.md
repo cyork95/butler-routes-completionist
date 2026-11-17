@@ -612,7 +612,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; playtest Horde personas (Orc Warrior/Shaman/Hunter), 0 stuck, residue R1/R5 only (bag-note items + expedition leg)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 5 rares (all sole-drop signatures, Reginald as killable opposition) + Rock Pile loop, 13 vendor recipes (12 port + Naluk), 0 lint errors/warnings
 
 ### Thousand Needles — Horde
 

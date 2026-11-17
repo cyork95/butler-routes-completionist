@@ -450,6 +450,20 @@ as above: game-data citation or a named source.
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so no vendor recipe is marked limited. Each vendor step notes that stock class is unconfirmed.
 - No respawn data for any of the 5 shipped Riverglades rares or the Rock Pile exists in the local build. Every step says the timer is unconfirmed.
 
+## Riverglades (Horde) tame lines (pack 0.109.0)
+
+- None of the 5 shipped Riverglades (Horde) rares is drop-evidenced as a tameable beast family (scrolls, Waylaid Crates, a Pristine Hide and a Skypierce Javelin on Scaldaron, cultist robes, a pendant, forge gear, a pitchfork - no meat/fang-family evidence), npc records carry no tameability flag, and the Horde core guide (66-contract) carries no `only Hunter` lines and no references to any shipped rare beyond the core's own Scaldaron sourcing kill (95936's head, contract-owned). No only-Hunter task ships; all five steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
+
+## Riverglades (Horde) quest-reward recipes (pack 0.109.0)
+
+- Quest records in the local build carry no reward data, so no quest-reward recipe for the Horde side can be confirmed from the toolchain. The 13 shipped recipes are all vendor-sold. If a Horde-side quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
+
+## Riverglades (Horde) stock class, respawn timers and faction differences (pack 0.109.0)
+
+- Local item/vendor records carry no limited-vs-unlimited stock flag, so no vendor recipe is marked limited. Each vendor step notes that stock class is unconfirmed.
+- No respawn data for any of the 5 shipped Horde-side rares or the Rock Pile exists in the local build. Every step says the timer is unconfirmed.
+- Genuine faction differences from the Alliance round, flagged not harmonized: Reginald Holmsby ships here as killable opposition (excluded Alliance-side as friendly); Mosh'gra is excluded here as friendly (shipped Alliance-side as opposition); Martha Wellsworth's and Miranda Turner's recipes do not ship here (shipped Alliance-side) while Naluk's Scorpid Surprise ships here (excluded Alliance-side). Both inventories name the same mobs and objects with the same points and drops.
+
 ## Blasted Lands tame lines (pack 0.51.0)
 
 - None of the 5 shipped Blasted Lands rares is drop-evidenced as a tameable beast family (shared tables carry only generic leather gear plus the ordinary greens; Grunter, the one boar, is excluded as quest-significant rather than shipped), npc records carry no tameability flag, and the Blasted Lands core guide (21-contract) carries no tame lines and no references to any of the 10 flagged rares. No only-Hunter task ships; all five steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
@@ -682,3 +696,12 @@ as above: game-data citation or a named source.
 
 - Formula: Enchant Gloves - Herbalism (item 11151) ships here as a narrow Charred Vale family drop (3 in-zone droppers 4028/4029/4030 plus 2 outside); the Alliance round (0.36.0) logged the same item as a multi-zone world drop and left it unshipped. Same data, different bar application - the Horde round's brief sets the narrow-family bar, argued in docs/stonetalon-horde-companions-inventory.md. Revisit if either bar is ruled pack-wide.
 - Vendor-ID hygiene: the first filter pass matched phantom IDs (item 605, vendors 4839/13159, plus armor/consumable names 7413/7418/3012 and the 6217 tool). Re-checked against item names: the real records are Jeeda npc 4083 selling 6055, Kulwia npc 12043 selling 11039/11101. Lesson: match names, not bare IDs.
+
+## Stranglethorn (Horde) companion calls (pack 0.109.0)
+
+- Tame lines: no tameability flag exists anywhere in the data (same finding as the Alliance round), and the stranglethorn-horde core guide (39-contract) carries no tame lines and no references to any of the 8 rares. No only-Hunter task ships; all eight steps are kill-or-collect. Promote only with drop evidence plus core-guide corroboration or a named source.
+- Kurzen Supply Crate (object 424002): excluded from the Horde companions — it drops item 216617 Kurzen Fighter's Uniform, the objective of core quest 97047, which the Horde core guide already collects at the crate (Stonetalon 6284 pointer-only precedent). The Alliance companions inventory lists the same crate as treasure while its core routes the same uniform from the same crate. Same data, different treatment — the Horde round excludes core-linked containers. Revisit if the pack rules treasure/core overlap pack-wide.
+- Solid Chest counts: object 4149 carries 24 points on key 1434 (2855: 12, 2857: 15 — 51 total); the Alliance inventory counts 30 for 4149 and 57 total. The Horde guide loops the 51 placed points. Same data, different count — the Horde round follows the 1434 pts arrays. Revisit if the extra 6 are placed in the data.
+- Barrel of Sweet Nectar (3706) + Food Crate (3707): 24 fixed points each in the data's 1434 pts arrays (shared 24); the Alliance inventory counts 45 each. The Horde guide loops the 24 placed points. Same data, different count — revisit if more points are placed in the data.
+- Rin'wosho scope: the Horde recipes guide ships all 23 recipes Rin'wosho the Trader (14921) stocks in-zone; the Alliance round shipped 12 from the same vendor. Same vendor, same access, wider scope — the Horde round's brief ships every stocked recipe with an in-zone pin. Revisit if the pack rules vendor scope pack-wide.
+- Schematic: Shafety Sheep (item 264210) ships as a narrow two-zone family drop (sole dropper Venture Co. Miner 1094: Stranglethorn 1434 north + Westfall 1436) — said so in the guide, Stonetalon 11151 precedent.
