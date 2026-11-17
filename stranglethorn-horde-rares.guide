@@ -1,0 +1,221 @@
+# Stranglethorn Vale (Horde) - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 8 confirmed in-band rares and the fixed
+# world containers of Stranglethorn Vale a Horde player can actually engage.
+# Run it in its own Polestar tab at the end of the core route or standalone.
+# EVERY goal is optional: a rare that is not up never holds the route. Spawn
+# points and levels are the local Forever game data (questie-forever); the
+# Kurzen Supply Crate is core-linked (it drops the core quest 97047's uniform
+# and the core guide already collects it there), so no companion step hunts it.
+# No rare in this guide is a giver, ender, or objective of any
+# core-contracted quest, and no tameability flag exists anywhere in the data,
+# so no tame lines ship either (see docs/companion-unverified.md). Respawn
+# timers are unconfirmed anywhere, so none are stated. See
+# docs/stranglethorn-horde-companions-inventory.md for the full inventory this
+# guide was built against.
+guide butler-routes-completionist/stranglethorn-horde-rares
+title Stranglethorn Vale (Horde) - Rares & Treasures
+levels 30-47
+zone Stranglethorn Vale
+faction Horde
+category Collectibles
+folder Companions
+keywords stranglethorn, horde, rares, treasures, companions
+coords live
+version 1
+
+step Mosh'Ogg Butcher — the Ogre Mound
+
+  goto 49.83,30.87
+  kill 723 optional
+  collect 1680 "Headchopper" optional
+  note Level 44 rare (rank 2), flagged rare in the data, at the Mosh'Ogg mound.
+  note The Headchopper drops at 7% off the Butcher alone. Maury's Key and Green Hills pages also drop here but feed Alliance-contract quests — not shipped. Respawn timer unconfirmed.
+
+step Scale Belly — the northeast
+
+  loop
+  goto 41.79,48.36
+  goto 42.61,46.49
+  goto 43.44,45.71
+  goto 43.74,47.5
+  kill 1552 optional
+  collect 1604 "Chromatic Sword" optional
+  collect 4478 "Iridescent Scale Leggings" optional
+  note Level 45 rare, flagged rare in the data, working the northeast.
+  note The Chromatic Sword drops at 25% and the Iridescent Scale Leggings at 75%, both off Scale Belly alone. Respawn timer unconfirmed.
+
+step Lord Sakrasis — the west coast
+
+  loop
+  goto 28.33,62.56
+  goto 28.85,62.04
+  kill 2541 optional
+  collect 5028 "Lord Sakrasis' Scepter" optional
+  collect 5029 "Talisman of the Naga Lord" optional
+  note Level 45 rare, flagged rare in the data, on the west coast.
+  note The Scepter and the Talisman drop at 50% each, both off Sakrasis alone. Star Belt also drops here at 0.12% but is a 25-dropper generic, not a signature — not shipped. Respawn timer unconfirmed.
+
+step Gluggle — the northwest
+
+  loop
+  goto 33.92,22.63
+  goto 34.71,21.9
+  goto 34.87,22.71
+  goto 35.52,23.73
+  kill 14487 optional
+  collect 281750 "Murloc Oracle's Dagger" optional
+  note Level 37 rare, flagged rare in the data, in the northwest.
+  note The Murloc Oracle's Dagger drops off Gluggle alone (no rate in the data). Respawn timer unconfirmed.
+
+step Roloch — the north
+
+  goto 37.37,31.22
+  kill 14488 optional
+  note Level 38 rare, flagged rare in the data, in the north.
+  note The data records no signature loot on this rare — generics only, kill note, no collect. Respawn timer unconfirmed.
+
+step Rippa — the cape tip
+
+  goto 29.23,84.89
+  kill 14490 optional
+  note Level 44 rare, flagged rare in the data, at the cape tip.
+  note The data records no signature loot on this rare — generics only, kill note, no collect. Respawn timer unconfirmed.
+
+step Kurmokk — the south
+
+  goto 38.11,61.13
+  kill 14491 optional
+  collect 281746 "Kurmokk's Pelt" optional
+  note Level 42 rare, flagged rare in the data, in the south.
+  note Kurmokk's Pelt drops off Kurmokk alone (no rate in the data). Respawn timer unconfirmed.
+
+step Verifonix — the center-west
+
+  loop
+  goto 34.89,56.02
+  goto 35.91,54.46
+  goto 36.41,55.94
+  goto 36.52,57.06
+  goto 36.55,55.5
+  goto 36.97,53.82
+  kill 14492 optional
+  collect 281896 "Surveyor's Gloves" optional
+  note Level 42 rare, flagged rare in the data, working the center-west.
+  note The Surveyor's Gloves drop off Verifonix alone (no rate in the data). Respawn timer unconfirmed.
+
+step World containers — the whole zone
+
+  loop
+  goto 24.33,12.65
+  goto 24.99,23.02
+  goto 25.18,29.71
+  goto 25.71,29.5
+  goto 29.95,19.84
+  goto 33.45,15.51
+  goto 42.66,18.75
+  goto 42.97,19.39
+  goto 43.81,9.37
+  goto 43.9,18.34
+  goto 44.43,10.05
+  goto 45.65,9.77
+  goto 20.39,11.72
+  goto 23.25,7.98
+  goto 25.36,9.61
+  goto 26.22,8.62
+  goto 35.51,23.82
+  goto 36.97,31.31
+  goto 37.59,30.8
+  goto 37.75,22.84
+  goto 41.8,35.59
+  goto 46.23,31.77
+  goto 47.16,5.47
+  goto 47.33,40.04
+  goto 48.53,7.06
+  goto 48.68,6.01
+  goto 49.62,7.9
+  goto 27.18,82.72
+  goto 27.32,69.53
+  goto 27.73,62.38
+  goto 29.43,89.55
+  goto 29.55,80.84
+  goto 30.03,87.11
+  goto 33.72,88.19
+  goto 35.22,50.76
+  goto 38.01,82.28
+  goto 39.2,58.67
+  goto 40.5,80.9
+  goto 40.65,85.66
+  goto 41.52,49.61
+  goto 41.59,42.21
+  goto 42.11,44.52
+  goto 42.19,46.37
+  goto 43.35,47.28
+  goto 43.39,49.03
+  goto 44.33,45.06
+  goto 44.77,41.61
+  goto 45.79,42.84
+  goto 47.66,42.43
+  goto 50.47,30.69
+  goto 51.76,27.67
+  goto 18.61,12.37
+  goto 22.75,53.81
+  goto 23.31,18.31
+  goto 25.79,9.16
+  goto 26.35,58.49
+  goto 26.47,73.28
+  goto 26.71,48.25
+  goto 26.88,83.09
+  goto 27.05,38.03
+  goto 29.45,23.97
+  goto 32.31,29.63
+  goto 34.36,73.16
+  goto 35.23,51.32
+  goto 35.36,35.99
+  goto 35.8,11.07
+  goto 37.22,65.34
+  goto 37.74,3.07
+  goto 41.51,57.93
+  goto 42.46,18.25
+  goto 45.32,11.39
+  goto 46.36,43.23
+  goto 47.84,29.65
+  goto 50.4,20.23
+  goto 50.81,36.12
+  interact 2855 optional
+  interact 2857 optional
+  interact 4149 optional
+  interact 3706 optional
+  interact 3707 optional
+  note Twelve plus fifteen plus twenty-four Solid Chest placements, and twenty-four Barrels of Sweet Nectar with their matching Food Crates at the same shared points. All hold ordinary goods; no unique treasure confirmed.
+  note The Kurzen Supply Crate is core-linked (it drops the core quest 97047's uniform, routed in the core guide) — excluded, not covered here.
+  note Respawn timers unconfirmed.
+
+step Cozzle's Footlocker — the east
+
+  goto 43.33,20.33
+  interact 20691 optional
+  note Cozzle's Footlocker, a single east point. Respawn timer unconfirmed.
+
+step Cuts-N-Bruises Incorporated — Booty Bay
+
+  goto 28.36,75.33
+  interact 59847 optional
+  note Cuts-N-Bruises Incorporated, a single Booty Bay point. Respawn timer unconfirmed.
+
+step Arena Treasure Chest — the Gurubashi Arena
+
+  goto 30.52,47.87
+  interact 179697 optional
+  note The Arena Treasure Chest, a single Gurubashi Arena point. Respawn timer unconfirmed.
+
+step Lost Shipping Crate — the Rebel Camp shore
+
+  goto 38,3.01
+  interact 658116 optional
+  note The Lost Shipping Crate, a single Rebel Camp shore point. Respawn timer unconfirmed.
+
+step Traveler's Cache — the north-west
+
+  goto 14.4,27.2
+  interact 674124 optional
+  note The Traveler's Cache, a single north-west point. Respawn timer unconfirmed.
