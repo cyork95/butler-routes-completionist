@@ -573,9 +573,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Stonetalon Mountains — Horde
 
-- [ ] Census (reconcile against 32 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 32 banked set-asides reconciled (23 IN; 6568/6602 above-band, 97446 mount/broken, 6x zone-1413 already in Barrens contract), docs/stonetalon-horde-census.md
+- [x] Core guide - stonetalon-horde.guide (23 quests, band 12-30)
+- [x] Lint/playtest clean - lint 0 errors; playtest 2 Horde personas, 0 stuck, residue R1/R2/R5 only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
