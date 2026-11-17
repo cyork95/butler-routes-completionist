@@ -1,0 +1,118 @@
+# Butler Routes - Thunder Bluff recipes companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns sold by vendors spawning inside Thunder Bluff (zone 1456), verified against the local Forever game data. 28 recipes across 31 vendor links
+# (see docs/horde-city-recipes-inventory.md), including the Winter Veil seasonal pair.
+# Each step is gated to its profession; the one pattern that names no profession anywhere in the data
+# ships ungated with an honest note. No stock-class flag exists in the data,
+# so nothing is marked limited.
+guide butler-routes-completionist/thunder-bluff-recipes
+title Thunder Bluff - Recipes & Patterns
+levels 3-60
+zone Thunder Bluff
+faction Horde
+category Professions
+folder Companions
+keywords thunder-bluff, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — Thunder Bluff (Naal Mistrunner)
+  when skill Cooking 1
+
+  vendor 3027 -- Naal Mistrunner (50.99, 52.45)
+  buy 6328 "Recipe: Longjaw Mud Snapper" npc 3027
+  buy 6330 "Recipe: Bristle Whisker Catfish" npc 3027
+  buy 21099 "Recipe: Smoked Sagefish" npc 3027
+  buy 21219 "Recipe: Sagefish Delight" npc 3027
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Thunder Bluff (Sewa Mistrunner)
+  when skill Cooking 1
+
+  vendor 3029 -- Sewa Mistrunner (55.79, 47.02)
+  buy 6325 "Recipe: Brilliant Smallfish" npc 3029
+  buy 6330 "Recipe: Bristle Whisker Catfish" npc 3029
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Thunder Bluff (Seersa Copperpinch)
+  when skill Cooking 1
+
+  vendor 13432 -- Seersa Copperpinch (39.04, 61.07)
+  buy 17200 "Recipe: Gingerbread Cookie" npc 13432
+  buy 17201 "Recipe: Egg Nog" npc 13432
+  note Winter Veil seasonal stock, sold during the Feast of the Winter Veil; out of season, skip this step. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Thunder Bluff (Dokimi)
+  when skill Alchemy 1
+
+  vendor 214096 -- Dokimi (39.4, 53.4)
+  buy 217399 "Recipe: Lesser Arcane Elixir" npc 214096
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Thunder Bluff (Nata Dawnstrider)
+  when skill Enchanting 1
+
+  vendor 3012 -- Nata Dawnstrider (44.99, 38.75)
+  buy 6342 "Formula: Enchant Chest - Minor Mana" npc 3012
+  buy 6349 "Formula: Enchant 2H Weapon - Lesser Intellect" npc 3012
+  buy 6377 "Formula: Enchant Boots - Minor Agility" npc 3012
+  buy 20752 "Formula: Minor Mana Oil" npc 3012
+  buy 20753 "Formula: Lesser Wizard Oil" npc 3012
+  buy 20758 "Formula: Minor Wizard Oil" npc 3012
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Thunder Bluff (Mahu)
+  when skill Tailoring 1
+
+  vendor 3005 -- Mahu (43.8, 45.12)
+  buy 5771 "Pattern: Red Linen Bag" npc 3005
+  buy 5772 "Pattern: Red Woolen Bag" npc 3005
+  buy 10311 "Pattern: Orange Martial Shirt" npc 3005
+  buy 10325 "Pattern: White Wedding Dress" npc 3005
+  buy 253665 "Pattern: Linen Reagent Bag" npc 3005
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 3005
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Thunder Bluff (Nata Dawnstrider)
+  when skill Tailoring 1
+
+  vendor 3012 -- Nata Dawnstrider (44.99, 38.75)
+  buy 22307 "Pattern: Enchanted Mageweave Pouch" npc 3012
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Thunder Bluff (Boramu)
+  when skill Tailoring 1
+
+  vendor 258466 -- Boramu (44.07, 44.87)
+  buy 253665 "Pattern: Linen Reagent Bag" npc 258466
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 258466
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Thunder Bluff (Mahu)
+  when skill Leatherworking 1
+
+  vendor 3005 -- Mahu (43.8, 45.12)
+  buy 252783 "Pattern: Mystic Medium Armor Kit" npc 3005
+  buy 252784 "Pattern: Forceful Medium Armor Kit" npc 3005
+  buy 252811 "Pattern: Mystic Heavy Armor Kit" npc 3005
+  buy 252812 "Pattern: Forceful Heavy Armor Kit" npc 3005
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Thunder Bluff (Dokimi)
+  when skill Blacksmithing 1
+
+  vendor 214096 -- Dokimi (39.4, 53.4)
+  buy 210779 "Plans: Mantle of the Second War" npc 214096
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — Thunder Bluff (Dokimi)
+  when skill Engineering 1
+
+  vendor 214096 -- Dokimi (39.4, 53.4)
+  buy 212230 "Schematic: Soul Vessel" npc 214096
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Unclassified — Thunder Bluff (Dokimi)
+
+  vendor 214096 -- Dokimi (39.4, 53.4)
+  buy 211247 "Pattern: Phoenix Bindings" npc 214096
+  note The data names no profession for this pattern (it also drops from the Burning Blade Augur in Desolace) - every character sees this step; skip it if you cannot learn it. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
