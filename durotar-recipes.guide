@@ -1,0 +1,111 @@
+# Butler Routes - Durotar recipes and patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics and formulas whose SOURCE
+# is physically in Durotar (zone key 1411), verified against the
+# local Forever game data (questie-forever item, vendor and drop
+# tables). 2 recipes are vendor-sold by Horde vendors in-zone and 2
+# drop from named in-zone mobs with 2-droppers-zone-wide tables;
+# every other dropped recipe is a generic multi-hundred-zone world
+# drop (see docs/durotar-companions-inventory.md), and quest records
+# carry no reward data (see docs/companion-unverified.md). No
+# Blacksmithing plan, Tailoring pattern, Leatherworking pattern,
+# Engineering schematic, Enchanting formula, First Aid manual or
+# Fishing recipe has a Durotar source in the data - stated, not
+# padded. Trainer-taught staples are excluded: Polestar's own
+# profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly.
+guide butler-routes-completionist/durotar-recipes
+title Durotar - Recipes & Patterns
+levels 1-13
+zone Durotar
+faction Horde
+category Professions
+folder Companions
+keywords durotar, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking - Grimtak (Razor Hill)
+
+  zone map 1411
+
+  when skill Cooking 1
+
+  vendor 3881 -- Grimtak (51.13,42.63)
+  buy 5483 "Recipe: Scorpid Surprise" npc 3881
+  note Grimtak (Horde) sells the recipe at Razor Hill (also sold by one vendor on Riverglades). Stock class unconfirmed.
+
+step Cooking - Zansoa (Echo Isles)
+
+  zone map 1411
+
+  when skill Cooking 1
+
+  vendor 5942 -- Zansoa (56.06,73.39)
+  buy 6326 "Recipe: Slitherskin Mackerel" npc 5942
+  note Zansoa (Horde) sells the recipe on the Echo Isles (also sold elsewhere). Stock class unconfirmed.
+
+step Alchemy - Kul Tiras Sailor (drop)
+
+  zone map 1411
+
+  when skill Alchemy 1
+
+  loop
+  goto 55.72,57.54
+  goto 55.88,51.84
+  goto 55.92,59.05
+  goto 55.95,53.78
+  goto 56.36,56.47
+  goto 56.41,58.48
+  goto 56.61,52.97
+  goto 56.66,54.94
+  goto 57.11,53.12
+  goto 57.11,57.24
+  goto 57.12,51.52
+  goto 57.22,54.7
+  goto 57.39,56.76
+  goto 57.65,58.54
+  goto 57.82,52.64
+  goto 58.19,56.79
+  goto 58.45,53.74
+  goto 58.51,57.5
+  goto 58.77,60.16
+  goto 58.98,52.66
+  goto 59.38,58.94
+  goto 59.77,58.06
+  goto 60.22,59.18
+  goto 61.01,58.75
+  collect 250380 "Recipe: Elixir of Minor Spirit" optional
+  note Dropped by Kul Tiras Sailors along the Tiragarde coast (2 droppers zone-wide, the other on Teldrassil). No vendor sells it.
+
+step Alchemy - Dustwind Harpy (drop)
+
+  zone map 1411
+
+  when skill Alchemy 1
+
+  loop
+  goto 44.99,29.02
+  goto 45.03,32.77
+  goto 45.22,30.97
+  goto 45.85,33.84
+  goto 45.86,30.07
+  goto 47.72,33.1
+  goto 47.74,31.12
+  goto 48.09,31.52
+  goto 48.16,33.01
+  goto 48.19,32.05
+  goto 48.67,32.32
+  goto 49.14,22.17
+  goto 49.88,32.52
+  goto 49.96,27.56
+  goto 50.15,25.11
+  goto 50.57,26.02
+  collect 250976 "Recipe: Minor Spellblasting Potion" optional
+  note Dropped by Dustwind Harpies in Dustwind Gulch (2 droppers zone-wide, the other off-zone). No vendor sells it.
+
+step Other professions - no Durotar source
+
+  zone map 1411
+
+  note No Blacksmithing plan, Tailoring pattern, Leatherworking pattern, Engineering schematic, Enchanting formula, First Aid manual or Fishing recipe has a Durotar source in the data - stated, not padded. Trainer-taught staples live in Polestar's own profession guides.
