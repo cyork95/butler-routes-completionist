@@ -1,0 +1,134 @@
+# Butler Routes - Undercity recipes companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns sold by vendors spawning inside Undercity (zone 1458), verified against the local Forever game data. 33 recipes across 35 vendor links
+# (see docs/horde-city-recipes-inventory.md), including the Winter Veil seasonal pair.
+# Each step is gated to its profession; the one pattern that names no profession anywhere in the data
+# ships ungated with an honest note. No stock-class flag exists in the data,
+# so nothing is marked limited.
+guide butler-routes-completionist/undercity-recipes
+title Undercity - Recipes & Patterns
+levels 1-60
+zone Undercity
+faction Horde
+category Professions
+folder Companions
+keywords undercity, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — Undercity (Ronald Burch)
+  when skill Cooking 1
+
+  vendor 4553 -- Ronald Burch (62.31, 43.09)
+  buy 6330 "Recipe: Bristle Whisker Catfish" npc 4553
+  buy 6368 "Recipe: Rainbow Fin Albacore" npc 4553
+  buy 21099 "Recipe: Smoked Sagefish" npc 4553
+  buy 21219 "Recipe: Sagefish Delight" npc 4553
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Undercity (Lizbeth Cromwell)
+  when skill Cooking 1
+
+  vendor 4574 -- Lizbeth Cromwell (81.04, 30.75)
+  buy 6325 "Recipe: Brilliant Smallfish" npc 4574
+  buy 6328 "Recipe: Longjaw Mud Snapper" npc 4574
+  buy 6369 "Recipe: Rockscale Cod" npc 4574
+  buy 17062 "Recipe: Mithril Head Trout" npc 4574
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Cooking — Undercity (Nardstrum Copperpinch)
+  when skill Cooking 1
+
+  vendor 13429 -- Nardstrum Copperpinch (68.24, 38.86)
+  buy 17200 "Recipe: Gingerbread Cookie" npc 13429
+  buy 17201 "Recipe: Egg Nog" npc 13429
+  note Winter Veil seasonal stock, sold during the Feast of the Winter Veil; out of season, skip this step. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Undercity (Algernon)
+  when skill Alchemy 1
+
+  vendor 4610 -- Algernon (51.71, 74.67)
+  buy 9301 "Recipe: Elixir of Shadow Power" npc 4610
+  buy 13477 "Recipe: Superior Mana Potion" npc 4610
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Alchemy — Undercity (Gishah)
+  when skill Alchemy 1
+
+  vendor 214098 -- Gishah (64.4, 38.4)
+  buy 217399 "Recipe: Lesser Arcane Elixir" npc 214098
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Undercity (Daniel Bartlett)
+  when skill Enchanting 1
+
+  vendor 4561 -- Daniel Bartlett (64.05, 37.37)
+  buy 16217 "Formula: Enchant Shield - Greater Stamina" npc 4561
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Enchanting — Undercity (Thaddeus Webb)
+  when skill Enchanting 1
+
+  vendor 4617 -- Thaddeus Webb (62.38, 60.98)
+  buy 6342 "Formula: Enchant Chest - Minor Mana" npc 4617
+  buy 20752 "Formula: Minor Mana Oil" npc 4617
+  buy 20753 "Formula: Lesser Wizard Oil" npc 4617
+  buy 20758 "Formula: Minor Wizard Oil" npc 4617
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Undercity (Millie Gregorian)
+  when skill Tailoring 1
+
+  vendor 4577 -- Millie Gregorian (70.59, 30.14)
+  buy 5772 "Pattern: Red Woolen Bag" npc 4577
+  buy 6275 "Pattern: Greater Adept's Robe" npc 4577
+  buy 10321 "Pattern: Tuxedo Shirt" npc 4577
+  buy 10323 "Pattern: Tuxedo Pants" npc 4577
+  buy 10326 "Pattern: Tuxedo Jacket" npc 4577
+  buy 253665 "Pattern: Linen Reagent Bag" npc 4577
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 4577
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Undercity (Thaddeus Webb)
+  when skill Tailoring 1
+
+  vendor 4617 -- Thaddeus Webb (62.38, 60.98)
+  buy 22307 "Pattern: Enchanted Mageweave Pouch" npc 4617
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Tailoring — Undercity (Angela Ward)
+  when skill Tailoring 1
+
+  vendor 258415 -- Angela Ward (66.12, 31.33)
+  buy 253665 "Pattern: Linen Reagent Bag" npc 258415
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 258415
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Leatherworking — Undercity (Joseph Moore)
+  when skill Leatherworking 1
+
+  vendor 4589 -- Joseph Moore (70.07, 58.44)
+  buy 7451 "Pattern: Green Whelp Bracers" npc 4589
+  buy 18949 "Pattern: Barbaric Bracers" npc 4589
+  buy 252783 "Pattern: Mystic Medium Armor Kit" npc 4589
+  buy 252784 "Pattern: Forceful Medium Armor Kit" npc 4589
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Blacksmithing — Undercity (Gishah)
+  when skill Blacksmithing 1
+
+  vendor 214098 -- Gishah (64.4, 38.4)
+  buy 210779 "Plans: Mantle of the Second War" npc 214098
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Engineering — Undercity (Gishah)
+  when skill Engineering 1
+
+  vendor 214098 -- Gishah (64.4, 38.4)
+  buy 212230 "Schematic: Soul Vessel" npc 214098
+  note Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
+
+step Unclassified — Undercity (Gishah)
+
+  vendor 214098 -- Gishah (64.4, 38.4)
+  buy 211247 "Pattern: Phoenix Bindings" npc 214098
+  note The data names no profession for this pattern (it also drops from the Burning Blade Augur in Desolace) - every character sees this step; skip it if you cannot learn it. Stock class (limited vs unlimited) is not in the local data; if out of stock, come back later.
