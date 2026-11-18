@@ -313,6 +313,7 @@ _Skyborne country._
 - [x] Census - 164 candidates, 20 IN / 144 OUT (67 Horde set-aside)
 - [x] Core guide - `alterac.guide`
 - [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R2+R5 writ residue only)
+- [x] Faction ungating (Option A, 2026-11-17)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 7 rares (no loot in data, incl. dual-zone Jimmy) + 52 container placements, 26 recipes (22 vendor + 4 drops), 0 lint errors/warnings
@@ -657,9 +658,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Alterac Mountains — Horde
 
-- [ ] Census (reconcile against 67 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 67 pool records, 50 IN / 17 OUT (67/67 banked set-asides reconciled), band 20-45, docs/alterac-horde-census.md
+- [x] Core guide - `alterac-horde.guide` (50 quests, band 20-45, 2 soft-pre minis + expedition legs)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas incl. Orc/Tauren Shaman, 0 stuck (R1 expedition + R5 bag-note residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

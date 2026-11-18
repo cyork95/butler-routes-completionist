@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.116.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.117.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -66,6 +66,7 @@ Status: **in development (pack v0.116.0), not published yet**. The first release
 | `arathi.guide` (Set 4 core built, pilot pending) | Arathi Highlands | 30-40 | Alliance |
 | `arathi-horde.guide` (Horde block core built, pilot pending) | Arathi Highlands (Horde) | 30-40 | Horde |
 | `alterac.guide` (Set 4 core built, pilot pending) | Alterac Mountains | 30-40 | Alliance |
+| `alterac-horde.guide` (Horde block core built, pilot pending) | Alterac Mountains (Horde) | 20-45 | Horde |
 | `moonglade.guide` (Druid class guide built, pilot pending) | Moonglade (Druid class quests) | 10-52 | Alliance (Druid) |
 | `dustwallow.guide` (Set 4 core built, pilot pending) | Dustwallow Marsh | 35-45 | Alliance |
 | `dustwallow-horde.guide` (Horde block core built, pilot pending) | Dustwallow Marsh (Horde) | 30-45 | Horde |

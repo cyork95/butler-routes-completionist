@@ -287,6 +287,13 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: alterac.guide
 - header: Alliance; contract: 20 (8 primary / 12 shared)
 - shared IDs: 1712, 1713, 1792, 96781, 96782, 96783, 94004, 94220, 94229, 94238, 94247, 94251
+### alterac (UNGATED 2026-11-17, Horde round)
+- file: alterac.guide (was Alliance primary)
+- contract: 20 (8 primary / 12 shared, per the pack-wide sweep; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 510, 511, 603, 96800, 96770, 96771, 96773, 97130.
+- Lines gated: 21 quest lines pre-gated `only Alliance` (kept as-is); 3 soft-pre minis (`when onquest 510/511/603`) gated at STEP level with `only Alliance`. 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). Shared lines for all 12 shared IDs stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 11 warnings, warned quest-ID set (9 IDs) identical to pre-edit baseline. Playtest `--honest` both factions (Human/NightElf/Orc/Scourge + Orc/Tauren Shaman on the Horde side): 0 stuck; Alliance outcome unchanged per-persona vs baseline; Horde personas complete the shared lines with residue only in R2/R5 (shared writs); mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
 ### moonglade-druid
 - file: moonglade.guide (druid class guide)
 - header: shared-only; contract: 19 (0 primary / 19 shared)
