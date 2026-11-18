@@ -75,7 +75,7 @@ No tame lines ship (Duskwood precedent: the bar does not lower): drop evidence e
 ## BORDERLINE (argued, none decided silently)
 
 1. 7492? No — the pool holds no such record; the enumeration above is exhaustive (9 rares + named objects + 144 recipes), and "no others" is a scan result, not an assertion.
-2. 93568/93574 collects credit uncontracted quests' objectives: the census deferred both records to companions explicitly ("noted for companions"), so the collects are the deferred content itself — not scope creep. No accept/turnin lines anywhere; the quests stay uncontracted.
+2. 93568/93574 ride as NOTES, not collects: the census deferred both records to companions explicitly ("noted for companions"), but neither item has a record in the local item data (verified empty), so a collect line would reference a data-unknown item — the guides note both ground objectives instead. No accept/turnin lines anywhere; the quests stay uncontracted.
 3. The 9300 profession gate (Alchemy vs Enchanting vs Cooking): gated per evident item-family naming in the pack's established shape; if the data ever gains a skill field, the gate follows the data.
 4. The five Horde-vendor recipes' off-zone alternatives are logged beside each entry (Hillsbrad precedent) so a reader can verify the flip in both directions.
 5. Caravan Chest ships for Horde as a unique with a dead-end note while the Alliance inventory excludes it as core-owned: the same object, honestly different dispositions — the Alliance `complete 1421` arrow does not exist for Horde (1421 is Alliance-only; Horde's 1422 twin is a talk-through that never touches the chest). Flagged, not harmonized.

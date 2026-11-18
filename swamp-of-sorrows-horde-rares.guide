@@ -32,8 +32,7 @@ step Fallow Sanctuary - Lost One Cook
   goto 65.23,22.8
   kill 1106 optional
   collect 250186 "Giant Scrambled Eggs" optional
-  collect 93568 "Worn Stone Token (Stitches the Outcast)" optional
-  note Lost One Cook (level 37) loops the Sanctuary. 250186 is his exclusive drop anywhere in the data. The Worn Stone Token is the ground objective of uncontracted quest 699 Stitches the Outcast (the Horde census deferred it to companions) - no quest line ships here. No core quest takes the Cook.
+  note Lost One Cook (level 37) loops the Sanctuary. 250186 is his exclusive drop anywhere in the data. The Worn Stone Token ground objective of uncontracted quest 699 Stitches the Outcast (deferred to companions by the Horde census) has no item record in the data, so no collect ships for it - no quest line ships here either. No core quest takes the Cook.
   note Respawn timer unconfirmed.
 
 step Fallow Sanctuary - Lost One Chieftain
@@ -48,8 +47,7 @@ step Fallow Sanctuary - Lost One Chieftain
   goto 63.81,20.85
   kill 763 optional
   collect 282003 "Lost Chieftain's Greatsword" optional
-  collect 93574 "Corpsefeeder's Head (Corpsefeeder)" optional
-  note Lost One Chieftain (level 39) sits one level over the 30-38 band - come back later. 282003 is his exclusive drop anywhere in the data. The Corpsefeeder's Head is the ground objective of uncontracted quest 698 Corpsefeeder (deferred to companions by the Horde census) - no quest line ships here. No core quest takes the Chieftain.
+  note Lost One Chieftain (level 39) sits one level over the 30-38 band - come back later. 282003 is his exclusive drop anywhere in the data. The Corpsefeeder's Head ground objective of uncontracted quest 698 Corpsefeeder (deferred to companions by the Horde census) has no item record in the data, so no collect ships for it - no quest line ships here either. No core quest takes the Chieftain.
   note Respawn timer unconfirmed.
 
 step The western marshes - Molt Thorn

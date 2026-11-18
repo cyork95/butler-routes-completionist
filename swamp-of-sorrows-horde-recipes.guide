@@ -82,7 +82,7 @@ step The eastern marshes - Potent Anti-Venom (First Aid)
 
   zone map 1435
 
-  when skill FirstAid 1
+  when skill First Aid 1
 
   loop
   goto 55.75,34.07
