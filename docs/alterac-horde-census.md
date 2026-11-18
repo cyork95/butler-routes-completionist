@@ -39,7 +39,7 @@ Alterac-Valley/Frostwolf set (BG screen below) plus 7181/7381
 (repeatable + BG).
 
 No race header for the guide: no contracted quest is locked to a single
-Horde race. Class gates: Hunter (2480), Shaman (79365, 8411/8412/8413).
+Horde race. Class gates: Rogue (2480 — class 8, Ravenholdt/Junkboxes mask), Shaman (79365, 8411/8412/8413).
 One profession gate: Cooking 185 (7321, optional + when-skill). No other
 skill gates in the Horde pool. One dungeon turn-in: none — every
 contracted turn-in sits in the open world or a capital (capital legs
@@ -112,7 +112,7 @@ Crown chain (Melisara 2278 @61.5,82.5):
 
 Dalaran + Perenolde (Magus 2410 @60.3,82.8; Thaivand 2429 @62.9,81.4):
 | 544 Prison Break In | 33/30 | no pre | 4 Bloodstone turn-ins (Kegan/Ricter/Alina/Dermot, 100%, 1 pt each, in-zone) |
-| 545 Dalaran Patrols | 35/30 | pre 544 | 6 Summoners + 12 Slaves (Dalaran camp 10-22, 73-84, in-zone); next 92434 is hillsbrad-horde-contracted (chain link noted, not duplicated) |
+| 545 Dalaran Patrols | 35/30 | pre 544; Hillsbrad lead-in 93680 (Key to the City, Hillsbrad-accept, hillsbrad-horde-contracted — named, not routed) | 6 Summoners + 12 Slaves (Dalaran camp 10-22, 73-84, in-zone); next 92434 is hillsbrad-horde-contracted (chain link noted, not duplicated) |
 | 552 Helcular's Revenge | 33/29 | no pre | Helcular's Rod off Yetis (1416, 6%) → Thaivand |
 | 553 Helcular's Revenge | 33/29 | pre 552 (completed — plain accept + note, STV-5148 pattern) | charge at Flames 1768/1769/1770 (in-zone) |
 | 556 Stone Tokens | 33/30 | no pre | 10 Worn Stone Tokens (Dalaran guards, 1416, 47-48%) → Bel'varil 2437 |
@@ -144,7 +144,7 @@ Innocent Blood pair (Lydon 2216 @60.1,80.7):
 | `when onquest 1065` soft-pre mini at Lydon (turn in 1065, accept 1066) — the pre ends in-zone at the follow-up's giver |
 
 Hinott (Hinott 2391 @60.3,80.9):
-| 2480 Hinott's Assistance | 20/20 | pre 2479 (Orgrimmar-accept, outside); class 8 (Hunter) | event objective in Hillsbrad (map 1424 @61.57,19.21) → Hillsbrad expedition objective; `only Hunter`; `when onquest 2479` soft-pre mini at Hinott (turn in + accept) |
+| 2480 Hinott's Assistance | 20/20 | pre 2479 (Orgrimmar-accept, outside); class 8 (Rogue) | event objective in Hillsbrad (map 1424 @61.57,19.21) → Hillsbrad expedition objective; `only Rogue`; `when onquest 2479` soft-pre mini at Hinott (turn in + accept) |
 
 ## OUT (17)
 
