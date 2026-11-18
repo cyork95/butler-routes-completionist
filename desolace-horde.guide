@@ -1,0 +1,262 @@
+# Desolace (Horde) - Completionist (pack butler-routes-completionist, v1).
+# The Horde side of contested Desolace: the Ghost Walker centaur lines and
+# clan befriendings, the Maurin/Takata chain, the Corrupter chain, the
+# Shadowprey coast business, the Gelkis clan finale and the Shen'dralas
+# pre (band 31-45; the L60 Economic Warfare rides as the optional clan
+# capstone). Every accept is on key 1443; the Orgrimmar, Stranglethorn,
+# Riverglades and Maraudon legs ride honest expedition steps below. See
+# docs/desolace-horde-census.md.
+guide butler-routes-completionist/desolace-horde
+title Desolace (Horde)
+levels 31-45
+zone Desolace
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Ghost Walker, the Kolkar pre
+
+  when onquest 1362
+  goto 56.19,59.57
+  turnin 1362 -- The Kolkar of Desolace - Regthar's word to Felgur Twocuts
+  accept 1365 -- Khan Dez'hepah - Felgur Twocuts; Dez'hepah's head, east
+  note Holders of 1362 turn in here first, then take 1365 on the same terms as the muster below.
+
+step Ghost Walker, mustering
+
+  note Ghost Walker is the Horde hub: Felgur Twocuts (56.19, 59.57) and Gurda Wildmane (56.29, 59.68) hold the rise. Take the hub's asks here; the clans fill them.
+  goto 56.19,59.57
+  accept 1365 -- Khan Dez'hepah - Felgur Twocuts; Dez'hepah's head, east
+  note 1365 needs 1362 (The Kolkar of Desolace, Barrens accept, unrouted) done - take it here if that leg sent you in; holders use the mini above.
+  accept 1367 -- Magram Alliance - Gurda Wildmane; befriend the Magram, Warug takes the word east
+  note 1367's follow-up 1369 rides the main guide - take it there after Warug's word.
+  accept 1368 -- Gelkis Alliance - Gurda Wildmane; befriend the Gelkis, Uthek takes the word west
+  note 1368's follow-up 1370 rides the main guide - take it there after Uthek's word.
+  accept 93225 -- Carved Centaur Totems - Gurda Wildmane; five totems off the zone's centaurs
+  note 93225's totems fill on the eastern trip below - 94873 opens on the return.
+
+step East - the Kolkar camp
+
+  complete 1365 @73.4,43 era -- Khan Dez'hepah's head for Felgur Twocuts, east
+  note Dez'hepah works seven points around (73-74, 41-48) - take the head.
+  collect 6067 x15 @68.55,52.17 era -- fifteen Centaur Ears off the Kolkar for Felgur Twocuts, east
+  note The Kolkar camp the east around (67-70, 41-52) - farm ears across this trip and the Gelkis loop below; Magram, Gelkis and Maraudine centaurs drop them too.
+  collect 254432 x5 @68.55,52.17 era -- five Carved Centaur Totems off the Kolkar for Gurda Wildmane, east
+  note The totems drop off the zone's centaurs with no rates in the data - work the camp for all five.
+  goto 74.97,68.16
+  turnin 1367 -- Magram Alliance - the Magram word to Warug
+  note 1369 (Broken Tears, shared) opens at Warug now - it rides the main guide, not this tracker's list.
+
+step Ghost Walker, first return
+
+  goto 56.19,59.57
+  turnin 1365 -- Khan Dez'hepah - the head to Felgur Twocuts
+  accept 1366 -- Centaur Bounty - Felgur Twocuts; fifteen Centaur Ears
+  note 1366 waited on 1365's turn-in - its ears fill with the camp work above and the Gelkis loop below; hand them in on the second return.
+  goto 56.29,59.68
+  turnin 93225 -- Carved Centaur Totems - the totems to Gurda Wildmane
+  accept 94873 -- Buying Friendship: Gelkis - Gurda Wildmane; the Totem Tote goes to Molkar, west
+  note 94873 waited on 93225's turn-in - Molkar waits in the west below. Its Magram twin 94872 is set aside (its next needs an Alliance-only pre) - see the census.
+  goto 55.41,55.81
+  accept 5386 -- Catch of the Day - Nataka Longhorn; two Bloodbelly Fish, Jinar grants them west
+  note 5386's fish come from Jinar'Zillen in the west below - turn them in back here on the return.
+
+step West - Gelkis Village
+
+  goto 36.22,79.25
+  turnin 1368 -- Gelkis Alliance - the Gelkis word to Uthek the Wise
+  note 1370 (Stealing Supplies, shared) opens at Uthek now - it rides the main guide, not this tracker's list.
+  accept 93045 -- Test Your Theory - Uthek the Wise; Nerlokh waits in Maraudon, late
+  note 93045 needs 93044 (shared, main-contracted) done first - take it here if that leg sent you in. Its turn-in is a Maraudon expedition, late, and homes the Shen'dralas chain's pre.
+  goto 35.68,92.23
+  turnin 94873 -- Buying Friendship: Gelkis - the Totem Tote to Molkar
+  accept 92812 -- Economic Warfare - Molkar; a Carved Centaur Totem, west
+  note 92812 waited on 94873's turn-in and closes the clan line - its totem fills on the Gelkis families here. It rides optional as the L60 custom capstone.
+  collect 254432 @35.68,92.23 era -- a Carved Centaur Totem off the Gelkis families for Molkar, west
+  turnin 92812 -- Economic Warfare - the totem to Molkar
+  note 92812's totem names no count in the data - work the families until it credits.
+  collect 6067 @35.68,92.23 era -- more Centaur Ears off the Gelkis families for Felgur Twocuts, west
+  note Finish the fifteen here if the Kolkar camp left any short - 1366 turns in on the second return.
+
+step Ghost Walker, second return
+
+  goto 56.19,59.57
+  turnin 1366 -- Centaur Bounty - the ears to Felgur Twocuts
+  note The ears ride the Kolkar camp plus the Gelkis loop - the Vale's east is done.
+
+step Shadowprey Village, mustering
+
+  note Shadowprey Village is the west hub: Taiga Wisemane (25.82, 68.21), Roon Wildmane (25.05, 72.27), Mai'Lahii (22.64, 71.97), Drulzegar Skraghook (23.32, 72.87) and Aka'rai (25.32, 67.05) hold the coast. Take the hub's asks here; the coast fills them.
+  goto 25.82,68.21
+  accept 5381 -- Hand of Iruxos - Taiga Wisemane; the Demon Box off the Demon Spirit, north
+  note 5381's box fills on the northern trip below - hand it in on the return.
+  accept 5763 -- Hunting in Stranglethorn - Roon Wildmane; Roon's Kodo Horn goes to Hemet Nesingwary in Stranglethorn, late
+  note 5763's turn-in is a Stranglethorn expedition - the leg below carries it.
+  accept 6142 -- Clam Bait - Mai'Lahii; ten Soft-shelled Clam Meat, south
+  note 6142's meat fills on the coast trip below - hand it in on the return.
+  accept 6143 -- Other Fish to Fry - Drulzegar Skraghook; Myrmidons, Naga and Sorceresses, south
+  note 6143's naga fill on the coast trip below - hand them in on the return.
+  accept 97265 -- Hate the Hatefury - Aka'rai; Hatefury satyrs at Sargeron, north-east
+  note 97265's satyrs have no counts in the data - work the Sargeron camp on the north-east trip below.
+  goto 23.43,72.6
+  accept 94895 -- Lost Shipping Crate - the Lost Shipping Crate; Friz takes it in Riverglades, late
+  note 94895's turn-in is a Riverglades expedition - the leg below carries it. Its crate twins are unroutable or out-of-zone - see the census.
+
+step Nijel's Point, the Orgrimmar pre
+
+  when onquest 1432
+  goto 52.57,54.39
+  turnin 1432 -- Alliance Relations - Keldran's word to Takata Steelblade
+  accept 1433 -- Alliance Relations - Takata Steelblade; Maurin takes the word
+  note Holders of 1432 turn in here first, then take the chain on the same terms as the muster below.
+
+step Nijel's Point, mustering
+
+  note Nijel's Point is the north hub: Takata Steelblade (52.57, 54.39) and Maurin Bonesplitter (52.25, 53.44) hold the rise with the Burning Blade cult below. Take the hub's asks here.
+  goto 52.57,54.39
+  accept 1433 -- Alliance Relations - Takata Steelblade; Maurin takes the word
+  note 1433 needs 1432 (Alliance Relations, Orgrimmar accept, unrouted) done - take it here if that leg sent you in.
+  turnin 1433 -- Alliance Relations - Takata's word to Maurin Bonesplitter
+  accept 1434 -- Befouled by Satyr - Takata Steelblade; four satyr kinds at Sargeron, north-east
+  note 1434 needs 1432 done too - its satyrs fill on the Sargeron trip below; hand them in on the return.
+  goto 52.25,53.44
+  accept 1435 -- The Burning of Spirits - Maurin Bonesplitter; fifteen Infused Burning Gems off the Burning Blade, north
+  note 1435 waited on 1433's turn-in - its gems fill on the northern trip below; 1436 opens on the return.
+
+step North-center - the Burning Blade
+
+  collect 6435 x15 @52.08,28.86 era -- fifteen Infused Burning Gems off the Burning Blade for Maurin Bonesplitter, north-center
+  note The cult works around (52-57, 21-33) - farm gems across the camp; the Flayed Demon Skins (1480) fill on the same kills.
+  collect 20310 @52.08,28.86 era -- a Flayed Demon Skin off the Burning Blade for Maurin Bonesplitter, north-center
+  collect 6766 @52.08,28.86 era -- a Flayed Demon Skin (old) off the Burning Blade for Maurin Bonesplitter, north-center
+  note Either skin starts 1480 - one pickup is enough; the Augur (5%/2%), Reaver, Adept, Felsworn, Shadowmage and Seer all carry them in-zone.
+  collect 13542 @55,26.6 era -- the Demon Box off the Demon Spirit for Taiga Wisemane, north
+  note The Demon Spirit holds the single point - 5581 opens back at Taiga.
+
+step Nijel's Point, first return
+
+  goto 52.25,53.44
+  accept 1480 -- The Corrupter - Maurin Bonesplitter; the Flayed Demon Skin starts it
+  note 1480 waited on the skin pickup above - take it here with the skin in bags.
+  turnin 1480 -- The Corrupter - the skin to Maurin Bonesplitter
+  accept 1481 -- The Corrupter - Maurin Bonesplitter; a Shadowstalker Scalp, Sargeron
+  note 1481 waited on 1480's turn-in - its scalp fills on the Sargeron trip below.
+  turnin 1435 -- The Burning of Spirits - the gems to Maurin Bonesplitter
+
+step North-east - Sargeron, first trip
+
+  complete 1434 @73.53,9.04 era -- seven Hatefury Rogues for Takata Steelblade, at Sargeron
+  complete 1434 @73.66,10.25 era -- seven Hatefury Felsworn for Takata Steelblade, at Sargeron
+  complete 1434 @72.53,21.56 era -- seven Hatefury Betrayers for Takata Steelblade, at Sargeron
+  complete 1434 @72.57,15.73 era -- seven Hatefury Hellcallers for Takata Steelblade, at Sargeron
+  note The Hatefury work Sargeron around (70-80, 9-28) - the 1442 Stonetalon points are noted, not used. 1481's scalp fills on the same sweep.
+  collect 6441 @75.65,26.62 era -- a Shadowstalker Scalp off the Shadowstalker for Maurin Bonesplitter, at Sargeron
+  note The scalp drops at 33% off the Shadowstalker - 1482 opens on the return.
+
+step Takata Steelblade, the Sargeron word
+
+  goto 52.57,54.39
+  turnin 1434 -- Befouled by Satyr - the satyrs to Takata Steelblade
+  goto 52.25,53.44
+  turnin 1481 -- The Corrupter - the scalp to Maurin Bonesplitter
+  accept 1482 -- The Corrupter - Maurin Bonesplitter; an Oracle Crystal, south-west coast
+  note 1482 waited on 1481's turn-in - its crystal fills on the coast trip below.
+
+step South-west - the Slitherblade coast
+
+  collect 6442 @27.69,7.92 era -- an Oracle Crystal off the Slitherblade Oracle for Maurin Bonesplitter, south-west coast
+  note The Oracle holds five points around (27-33, 6-24) at a 100% crystal rate.
+  collect 15924 x10 @30.5,31.87 era -- ten Soft-shelled Clam Meat off the Enraged Reef Crawlers for Mai'Lahii, south-west
+  note The crawlers work the shore around (30-36, 22-35) at 100%; the Giant Softshell Clams feed the same ten.
+  complete 6143 @32.74,23.92 era -- seven Slitherblade Naga for Drulzegar Skraghook, south-west
+  complete 6143 @32.74,14.68 era -- seven Slitherblade Myrmidon for Drulzegar Skraghook, south-west
+  complete 6143 @32.94,23.32 era -- five Slitherblade Sorceresses for Drulzegar Skraghook, south-west
+  note The Slitherblade work the coast around (27-41, 5-28) - work the shore for all three kinds.
+  goto 22.64,71.97
+  turnin 6142 -- Clam Bait - the meat to Mai'Lahii
+  goto 23.32,72.87
+  turnin 6143 -- Other Fish to Fry - the naga dead to Drulzegar Skraghook
+
+step Nijel's Point, second return
+
+  goto 52.25,53.44
+  turnin 1482 -- The Corrupter - the crystal to Maurin Bonesplitter
+  accept 1484 -- The Corrupter - Maurin Bonesplitter; Takata takes the word
+  note 1484 waited on 1482's turn-in - it carries no objectives, so hand it straight over.
+  goto 52.57,54.39
+  turnin 1484 -- The Corrupter - to Takata Steelblade
+  accept 1488 -- The Corrupter - Takata Steelblade; Lord Azrethoc and Jugkar Grim'rod, Sargeron
+  note 1488 waited on 1484's turn-in and closes the chain - its pair fills on the Sargeron trip below.
+  goto 52.25,53.44
+  accept 1436 -- Alliance Relations - Maurin Bonesplitter; Keldran waits in Orgrimmar, late
+  note 1436 waited on 1434 and 1435 together - its turn-in is an Orgrimmar expedition, late.
+
+step Shadowprey Village, the west work
+
+  goto 25.82,68.21
+  turnin 5381 -- Hand of Iruxos - the box to Taiga Wisemane
+  accept 5581 -- Portals of the Legion - Taiga Wisemane; banish six Portals at Mannoroc Coven, west-center
+  note 5581 waited on 5381's turn-in - its portals fill on the Mannoroc leg below.
+  goto 22.45,73.12
+  collect 13546 x2 @22.45,73.12 era -- two Bloodbelly Fish from Jinar'Zillen for Nataka Longhorn, west
+  note Jinar'Zillen records the fish as its only dropper with no rate - read as granted in flow; if the grant does not credit in-game, have two Bloodbelly Fish (item 13546) in bags instead.
+
+step West-center - Mannoroc Coven
+
+  complete 5581 @49.4,76 era -- six Portals Banished off the Demon Portal Guardians for Taiga Wisemane, at Mannoroc Coven
+  note The Guardians hold eight points around (49-52, 70-81) - banish all six portals.
+  goto 25.82,68.21
+  turnin 5581 -- Portals of the Legion - the portals banished, to Taiga Wisemane
+
+step North-east - Sargeron, second trip
+
+  complete 1488 @56.95,75.74 era -- Lord Azrethoc for Takata Steelblade, at Sargeron
+  complete 1488 @55.91,77.76 era -- Jugkar Grim'rod for Takata Steelblade, at Sargeron
+  note Azrethoc and Grim'rod hold single Sargeron points (both 1443, not the dungeon) - 1488 closes the Corrupter chain here.
+  complete 97265 @71.54,17.92 era -- Hatefury Tricksters and Shadowstalkers for Aka'rai, at Sargeron
+  complete 97265 @72.28,19.19 era -- Hatefury Hellcallers and Felsworn for Aka'rai, at Sargeron
+  note 97265's satyrs name no counts in the data - work the camp varieties until they credit.
+
+step The Vale, home
+
+  goto 52.57,54.39
+  turnin 1488 -- The Corrupter - the pair slain, to Takata Steelblade
+  goto 25.32,67.05
+  turnin 97265 -- Hate the Hatefury - the satyrs beaten, to Aka'rai
+  goto 55.41,55.81
+  turnin 5386 -- Catch of the Day - the fish to Nataka Longhorn
+  note The Vale's in-zone work is done - the four expedition legs below close the contracts.
+
+step Expedition - Orgrimmar, Keldran's word
+
+  zone Orgrimmar
+
+  turnin 1436 -- Alliance Relations - Maurin's word to Keldran @22.56,52.63 era
+  note 1436 closes the Maurin chain at Keldran's side.
+  zone Desolace
+
+step Expedition - Stranglethorn, Hemet's horn
+
+  zone Stranglethorn Vale
+
+  turnin 5763 -- Hunting in Stranglethorn - Roon's Kodo Horn to Hemet Nesingwary @35.66,10.81 era
+  note The kodo horn rides south to Hemet's camp - the Vale's errand closes there.
+  zone Desolace
+
+step Expedition - Riverglades, Friz's crate
+
+  zone Riverglades
+
+  turnin 94895 -- Lost Shipping Crate - the crate to Friz Frazzlespark @77.1,52.9 era
+  note The crate rides east to Powderfuse Port - Friz's twins live in other zones' trackers, not this one.
+  zone Desolace
+
+step Expedition - Maraudon, Nerlokh's word
+
+  zone Shen'dralas
+
+  turnin 93045 -- Test Your Theory - Uthek's word to Nerlokh @20.93,22.68 era
+  note Nerlokh spawns only inside Maraudon (key 2652, no open-world point) - carry the word in. The Shen'dralas chain (93058 and on, all dungeon-accept) is the future Shen'dralas (Horde) round's, homed on this pre.
+  zone Desolace
