@@ -30,8 +30,6 @@ step Ghost Walker, mustering
   goto 56.19,59.57
   accept 1365 -- Khan Dez'hepah - Felgur Twocuts; Dez'hepah's head, east
   note 1365 needs 1362 (The Kolkar of Desolace, Barrens accept, unrouted) done - take it here if that leg sent you in; holders use the mini above.
-  accept 1366 -- Centaur Bounty - Felgur Twocuts; fifteen Centaur Ears
-  note 1366 needs 1365's turn-in first (game-gated) - take it here; its ears credit from here on.
   accept 1367 -- Magram Alliance - Gurda Wildmane; befriend the Magram, Warug takes the word east
   note 1367's follow-up 1369 rides the main guide - take it there after Warug's word.
   accept 1368 -- Gelkis Alliance - Gurda Wildmane; befriend the Gelkis, Uthek takes the word west
@@ -43,10 +41,8 @@ step East - the Kolkar camp
 
   complete 1365 @73.4,43 era -- Khan Dez'hepah's head for Felgur Twocuts, east
   note Dez'hepah works seven points around (73-74, 41-48) - take the head.
-  collect 6067 x15 @68.55,52.17 era -- fifteen Centaur Ears off the Kolkar for Felgur Twocuts, east
-  note The Kolkar camp the east around (67-70, 41-52) - farm ears across this trip and the Gelkis loop below; Magram, Gelkis and Maraudine centaurs drop them too.
   collect 254432 x5 @68.55,52.17 era -- five Carved Centaur Totems off the Kolkar for Gurda Wildmane, east
-  note The totems drop off the zone's centaurs with no rates in the data - work the camp for all five.
+  note The totems drop off the zone's centaurs with no rates in the data - work the camp for all five. Centaur Ears wait for 1366's accept on the return - same families, next trip.
   goto 74.97,68.16
   turnin 1367 -- Magram Alliance - the Magram word to Warug
   note 1369 (Broken Tears, shared) opens at Warug now - it rides the main guide, not this tracker's list.
@@ -55,7 +51,8 @@ step Ghost Walker, first return
 
   goto 56.19,59.57
   turnin 1365 -- Khan Dez'hepah - the head to Felgur Twocuts
-  note 1366's ears fill with the camp work above and the Gelkis loop below; hand them in on the second return.
+  accept 1366 -- Centaur Bounty - Felgur Twocuts; fifteen Centaur Ears
+  note 1366 waited on 1365's turn-in - take it here; its ears fill on the Gelkis loop below.
   goto 56.29,59.68
   turnin 93225 -- Carved Centaur Totems - the totems to Gurda Wildmane
   accept 94873 -- Buying Friendship: Gelkis - Gurda Wildmane; the Totem Tote goes to Molkar, west
@@ -78,8 +75,8 @@ step West - Gelkis Village
   collect 254432 @35.68,92.23 era -- a Carved Centaur Totem off the Gelkis families for Molkar, west
   turnin 92812 -- Economic Warfare - the totem to Molkar
   note 92812's totem names no count in the data - work the families until it credits.
-  collect 6067 @35.68,92.23 era -- more Centaur Ears off the Gelkis families for Felgur Twocuts, west
-  note Finish the fifteen here if the Kolkar camp left any short - 1366 turns in on the second return.
+  collect 6067 x15 @35.68,92.23 era -- fifteen Centaur Ears off the Gelkis families for Felgur Twocuts, west
+  note The Gelkis families work the west - farm them for all fifteen; Magram, Kolkar and Maraudine centaurs drop them too.
 
 step Ghost Walker, second return
 
