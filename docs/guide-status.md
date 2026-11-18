@@ -654,7 +654,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1+R2+R5 accepted only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 10 rares (8 in-band + Foulbelly/Nazjak come-back-later) + Fixed Chests loop + 11 uniques, 16 recipes (9 vendor + 7 narrow drops), 0 lint errors/warnings
 
 ### Alterac Mountains — Horde
 
@@ -663,7 +663,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; playtest Horde personas incl. Orc/Tauren Shaman, 0 stuck (R1 expedition + R5 bag-note residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 8 rares, 73-pt container loop + 2 unique objects, 20 vendor + 4 drop recipes, 0 lint errors/warnings
 
 ### Dustwallow Marsh — Horde
 

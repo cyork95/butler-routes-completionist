@@ -753,3 +753,18 @@ as above: game-data citation or a named source.
 - Worn Wooden Chest excluded here as a quest-owned singleton (parchment for 551 + Durotar contracts) vs shipped there as generic - genuine data-rule difference. Revisit if the pack rules quest-item-only containers pack-wide.
 - Jimmy the Bleeder: same treatment both sides (1416 point here, 1424 point in hillsbrad-horde-rares, sole-drop pants in both). Araga the same (1416 point here, 1424 point noted not used).
 - Archmage Alvareauxs 8 recipes excluded here (Alliance-only in-zone vendor) vs shipped there - genuine faction difference. Mallen Swain covers the reagent bags and Derak Nightfall covers the sagefish for Horde instead.
+
+## Arathi Highlands (Horde) companion calls (pack 0.122.0)
+
+- Tame lines: no tameability flag exists anywhere in the data (same finding as every round). The 10 shipped rares are ogre / troll / worgen / naga humanoids with flat generic loot (no exclusive pet/beast drops) and the arathi-horde core guide (29-contract) kills troll/ogre humanoids (2554/2555/2556/2566/2567/2570/2571 family IDs), never a tameable beast family. No only-Hunter task ships; all ten rares are kill-only. Promote only with drop evidence plus core-guide corroboration or a named source.
+- Loot basis: this build's drop table is flat generic greens by dropper-count - none of the 10 rares has a sole-dropper signature item (verified by reverse-indexing every item drop record). Genuine data difference from zones with sole-drop rares; the kill-only steps are the honest shape, not a gap.
+- Axe Thrower 2554 / Headhunter 2556 / Brute 2566: no rare flag in this build (rank None, no rare role) AND core-contracted kill targets (677/678) - not companion content (Dun Morogh precedent). DELTA vs the Alliance inventory, which shipped these three as its rare loop on an older build's basis.
+- Falthis / Barash: the 2574 record in this build is Drywhisker Digger (unflagged) and 2549 is Garr Salthoof spawning only on 1434 - neither name exists in-zone. The Alliance doc's entries do not hold in this build.
+- NPCs 2576 / 211016 (Alliance doc's Forsaken pair): records absent from this build's npc table - not in data.
+- LoGrosh 2453: spawns keyed 1416 (Alterac), none on 1417 - not Arathi content here; not duplicated. Whether the Alterac guides cover it is Butler's call.
+- Bliztik 2481 (spawns 1431/Duskwood), Nimboya 2497 (spawns 1434/STV): not Arathi content; not duplicated here. Flamescale Drake 2472: loot confirmed but zero spawn points anywhere - no writable step.
+- Needletooth 217836: rank 4 but no rare role, custom wolf model, full 1417 spawn set - quest-lookalike ruling stands (Stonetalon precedent).
+- Pattern: Murloc Scale Bracers 5789: no in-zone dropper in this build (Deckhand 2636 spawns only on 1434; vendors 2846/4897 out-of-zone) - DELTA vs the Alliance inventory's Faldir's Cove step; not zone content here.
+- Pattern: Raptor Hide Belt 13288: sole vendor Androd Fadran is Alliance-only - genuine Horde gap, stated in the guide. First Aid (Deneb Walker) and Fishing have no Horde in-zone source.
+- Messenger Bag 406918 + Satchel 424006: furniture of the uncontracted null-mask 1417 chain 79976 (starts at the Bag, ends at the Satchel; pre-link 79975 is the main guide's intentional non-contract turn-in) - census consideration for Butler, not this round.
+- Quest-reward recipes: class unverifiable locally (quest records carry no reward data). The 16 shipped recipes are 9 vendor-sold + 7 narrow drops. If a Horde-side quest is later found to reward a recipe, add it as a note step at the relevant hub.
