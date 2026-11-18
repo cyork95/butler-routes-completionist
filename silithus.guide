@@ -4,8 +4,9 @@
 # close every record that has one in the data (all 52 do). The 35 event-gated
 # records (AQ gate cluster ev85/86, hive phases ev62/63/64, Lunar Festival
 # ev7), the 18 repeatables and the 9 Horde set-asides are out with reasons in
-# the census. No race header and no race gates: nothing contracted is
-# race-locked (9415/9419 are Alliance-only by faction and ride inline). Class
+# the census. No race header; the three Alliance-only quests (9415/9419 inline,
+# 8376 composed with its class gate) and the 8275 mini ride only Alliance gates
+# per docs/faction-ungating.md. Class
 # gates: the 7 contracted Armaments of War variants ride only-gated per line
 # (Warrior, Paladin, Hunter, Rogue, Priest, Mage+Warlock, Druid; the Shaman
 # twin is Horde and set aside). Profession lines ride optional + when-skill
@@ -19,7 +20,6 @@ guide butler-routes-completionist/silithus
 title Silithus
 levels 54-60
 zone Silithus
-faction Alliance
 category Leveling
 folder Kalimdor
 coords live
@@ -30,11 +30,11 @@ step Cenarion Hold arrival - the Bluewall report
   zone map 1451
 
   tip Cenarion Hold is the hub: flight point, inn and most givers below. This opening leg rides west to the Bluewall post and back.
-  accept 9415 -- Report to Marshal Bluewall - Rifleman Torrig (50.68, 34.71); a min-level-1 breadcrumb below the band, routed here as the zone entry
-  turnin 9415 -- Report to Marshal Bluewall - to Marshal Bluewall (33.29, 51.06)
-  accept 9419 -- Scouring the Desert - Marshal Bluewall; the dust doodad beside him
-  complete 9419 @32.95,50.81 -- the Silithus Dust turnin doodad
-  turnin 9419 -- Scouring the Desert - back to Marshal Bluewall
+  accept 9415 only Alliance -- Report to Marshal Bluewall - Rifleman Torrig (50.68, 34.71); a min-level-1 breadcrumb below the band, routed here as the zone entry
+  turnin 9415 only Alliance -- Report to Marshal Bluewall - to Marshal Bluewall (33.29, 51.06)
+  accept 9419 only Alliance -- Scouring the Desert - Marshal Bluewall; the dust doodad beside him
+  complete 9419 only Alliance @32.95,50.81 -- the Silithus Dust turnin doodad
+  turnin 9419 only Alliance -- Scouring the Desert - back to Marshal Bluewall
 
 step Cenarion Hold - Beetix venom and Noggle's hope
 
@@ -57,9 +57,10 @@ step Cenarion Hold - Taking Back Silithus handoff (when onquest 8275)
   zone map 1451
 
   when onquest 8275
+  only Alliance
 
   note Taking Back Silithus (8275) accepts from Cenarion Emissary Jademoon in Ironforge, outside this pack's contracts; 8276 is its Horde twin from Orgrimmar and stays out. This step carries the handoff and nothing else.
-  turnin 8275 -- Taking Back Silithus - to Windcaller Proudhorn (51.15, 38.29)
+  turnin 8275 only Alliance -- Taking Back Silithus - to Windcaller Proudhorn (51.15, 38.29)
 
 step Cenarion Hold - Proudhorn security
 
@@ -165,8 +166,8 @@ step Cenarion Hold - Armaments of War (class-gated)
 
   accept 8316 only Warrior -- Armaments of War - Geologist Larksbane (49.67, 37.46); the Calling turned in above
   turnin 8316 only Warrior -- Armaments of War - back to Geologist Larksbane
-  accept 8376 only Paladin -- Armaments of War - Geologist Larksbane; the Calling turned in above
-  turnin 8376 only Paladin -- Armaments of War - back to Geologist Larksbane
+  accept 8376 only Paladin,Alliance -- Armaments of War - Geologist Larksbane; the Calling turned in above
+  turnin 8376 only Paladin,Alliance -- Armaments of War - back to Geologist Larksbane
   accept 8377 only Hunter -- Armaments of War - Geologist Larksbane; the Calling turned in above
   turnin 8377 only Hunter -- Armaments of War - back to Geologist Larksbane
   accept 8378 only Rogue -- Armaments of War - Geologist Larksbane; the Calling turned in above
