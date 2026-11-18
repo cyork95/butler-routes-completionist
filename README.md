@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.147.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.148.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -114,6 +114,8 @@ Status: **in development (pack v0.147.0), not published yet**. The first release
 | `azshara-rares.guide` (companion built, pilot pending) | Azshara rares and treasures | 45-55 | Alliance |
 | `azshara-recipes.guide` (companion built, pilot pending) | Azshara recipe sources | 45-55 | Alliance |
 | `azshara-horde.guide` (Horde block core built, pilot pending) | Azshara (Horde) | 44-50 | Horde |
+| `azshara-horde-rares.guide` (companion built, pilot pending) | Azshara (Horde) rares and treasures | 44-50 | Horde |
+| `azshara-horde-recipes.guide` (companion built, pilot pending) | Azshara (Horde) recipe sources | 44-50 | Horde |
 | `ungoro.guide` (Set 5 core built, pilot pending) | Un'Goro Crater | 47-54 | Alliance |
 | `ungoro-rares.guide` (companion built, pilot pending) | Un'Goro Crater rares and treasures | 47-54 | Alliance |
 | `ungoro-recipes.guide` (companion built, pilot pending) | Un'Goro Crater recipe sources | 47-54 | Alliance |

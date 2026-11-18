@@ -742,7 +742,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; playtest Horde personas in band, 0 stuck; residue R1 expedition legs only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 8 rares (1 signature collect) + 3 fixed containers + 21 recipes (4 vendor + 17 narrow drops), 0 lint errors/warnings; Mammoth Shark ruled out, no tame line
 
 ### Un'Goro Crater — Horde
 
