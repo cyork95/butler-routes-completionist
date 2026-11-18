@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.124.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.125.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -80,6 +80,8 @@ Status: **in development (pack v0.124.0), not published yet**. The first release
 | `moonglade.guide` (Druid class guide built, pilot pending) | Moonglade (Druid class quests) | 10-52 | Alliance (Druid) |
 | `dustwallow.guide` (Set 4 core built, pilot pending) | Dustwallow Marsh | 35-45 | Alliance |
 | `dustwallow-horde.guide` (Horde block core built, pilot pending) | Dustwallow Marsh (Horde) | 30-45 | Horde |
+| `dustwallow-horde-rares.guide` (companion built, pilot pending) | Dustwallow Marsh (Horde) rares and treasures | 30-45 | Horde |
+| `dustwallow-horde-recipes.guide` (companion built, pilot pending) | Dustwallow Marsh (Horde) recipe sources | 30-45 | Horde |
 | `feralas.guide` (Set 4 core built, pilot pending) | Feralas | 38-50 | Alliance |
 | `feralas-rares.guide` (companion built, pilot pending) | Feralas rares and treasures | 38-50 | Alliance |
 | `feralas-recipes.guide` (companion built, pilot pending) | Feralas recipe sources | 38-50 | Alliance |
