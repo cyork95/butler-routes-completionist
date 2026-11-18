@@ -796,15 +796,15 @@ as above: game-data citation or a named source.
 - Alliance-inventory deltas, flagged not harmonized: (1) 286616 Matriarch's Prowlers is a SOLE drop of Ravasaur Matriarch 6581 (null rate; Feralas calibration ships null-rate sole drops) — ships here as a collect; the Alliance inventory reads all three rank-4s as signature-less. (2) 285284 Balanced Knives of the Bandit is a SOLE drop of Uhk'loc 6585 (null rate) — ships here as a collect, same basis. (3) Zavas handling differs by band only: Alliance band 47-54 ships her clean; Horde band 47-53 carries a come-back-later note on the same verified point.
 - Same-named mob twins noted, not routed outside their dropper: Venomhide Ravasaur 269206 spawns in-zone but drops nothing (250181 rides 6508's points only); Scorching Elemental 272319 has NO spawns anywhere (252882 rides 6520's points only).
 
-## Felwood (Horde) tame lines (pack 0.145.0)
+## Felwood (Horde) tame lines (pack 0.147.0)
 
 - None of the 7 shipped Felwood (Horde) rares is drop-evidenced as a tameable beast family (sole drops are the two Sinslayer signatures; shared tables carry only generic gear, profession mats and the ordinary greens), npc records carry no tameability flag, and the Horde core guide (8-contract `felwood-horde.guide`) carries no tame lines and no references to any shipped rare. No only-Hunter task ships; all seven steps are kill-or-collect. Promote only with core-guide corroboration or a named source.
 
-## Felwood (Horde) quest-reward recipes (pack 0.145.0)
+## Felwood (Horde) quest-reward recipes (pack 0.147.0)
 
 - Quest records in the local build carry no reward data, so no quest-reward recipe for the Horde side can be confirmed from the toolchain. The 23 shipped recipes are 9 narrow mob drops plus 14 Meilosh vendor sales plus Bale's Monster Omelet (Cooking). If a Horde-side quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
 
-## Felwood (Horde) stock class, respawn timers, Meilosh standing and Alliance deltas (pack 0.145.0)
+## Felwood (Horde) stock class, respawn timers, Meilosh standing and Alliance deltas (pack 0.147.0)
 
 - Local item/vendor records carry no limited-vs-unlimited stock flag, so no vendor recipe is marked limited. Each Meilosh and Bale buy step notes that stock class is unconfirmed.
 - No respawn data for any of the 7 shipped Horde-side rares exists in the local build. Every step says the timer is unconfirmed.
