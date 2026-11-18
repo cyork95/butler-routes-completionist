@@ -17,7 +17,6 @@ guide butler-routes-completionist/swamp-of-sorrows
 title Swamp of Sorrows - Completionist
 levels 30-38
 zone Swamp of Sorrows
-faction Alliance
 category Leveling
 folder Completionist
 coords live
@@ -28,21 +27,21 @@ step Nethergarde - the caravan chain
   zone map 1435
 
   note Enter from the Blasted Lands border; Watcher Biggs holds the Nethergarde caravan chain.
-  accept 1396 -- Encroaching Wildlife - Watcher Biggs; crocolisks, spinners and jaguars, west wilds
-  complete 1396 @27.1,55.13 -- Young Sawtooth Crocolisk (west wilds)
-  complete 1396 @30.32,54.77 -- Young Sawtooth Crocolisk (west wilds)
-  complete 1396 @25.38,59.33 -- Sorrow Spinner (west wilds)
-  complete 1396 @28.34,62.04 -- Sorrow Spinner (west wilds)
-  complete 1396 @26.33,60.73 -- Swamp Jaguar (west wilds)
-  complete 1396 @31.66,29.4 -- Swamp Jaguar (west wilds)
-  turnin 1396 -- Encroaching Wildlife - the cull to Watcher Biggs
-  accept 1421 -- The Lost Caravan - Watcher Biggs; the wizards' reagents in the Fallow Sanctuary, east (Fallow leg below)
+  accept 1396 only Alliance -- Encroaching Wildlife - Watcher Biggs; crocolisks, spinners and jaguars, west wilds
+  complete 1396 only Alliance @27.1,55.13 -- Young Sawtooth Crocolisk (west wilds)
+  complete 1396 only Alliance @30.32,54.77 -- Young Sawtooth Crocolisk (west wilds)
+  complete 1396 only Alliance @25.38,59.33 -- Sorrow Spinner (west wilds)
+  complete 1396 only Alliance @28.34,62.04 -- Sorrow Spinner (west wilds)
+  complete 1396 only Alliance @26.33,60.73 -- Swamp Jaguar (west wilds)
+  complete 1396 only Alliance @31.66,29.4 -- Swamp Jaguar (west wilds)
+  turnin 1396 only Alliance -- Encroaching Wildlife - the cull to Watcher Biggs
+  accept 1421 only Alliance -- The Lost Caravan - Watcher Biggs; the wizards' reagents in the Fallow Sanctuary, east (Fallow leg below)
 
 step Fallow Sanctuary - the caravan chest
 
   zone map 1435
 
-  complete 1421 @64.46,18.3 -- Wizards' Reagents (Caravan Chest, Fallow Sanctuary)
+  complete 1421 only Alliance @64.46,18.3 -- Wizards' Reagents (Caravan Chest, Fallow Sanctuary)
   accept 1393 -- Galen's Escape - Galen Goodward; escort out of the Fallow Sanctuary (@65.47,18.16, same ground)
   complete 1393 @53.08,29.55 -- Escort Galen out of the Fallow Sanctuary
   turnin 1393 -- Galen's Escape - Galen's Strongbox (@47.81,39.76, his camp west)
@@ -62,20 +61,20 @@ step Harborage - draenethyst and the mage's word
   turnin 1389 -- Draenethyst Crystals - the crystals to Magtoor
   accept 93464 -- The Visiting Mage - Magtoor; the Desolace mage who knows draenethyst (Desolace expedition below)
   turnin 1392 -- Noboru the Cudgel - the cudgel to Magtoor
-  turnin 1421 -- The Lost Caravan - the reagents to Watcher Biggs (Nethergarde return below)
+  turnin 1421 only Alliance -- The Lost Caravan - the reagents to Watcher Biggs (Nethergarde return below)
 
 step Nethergarde return - driftwood and the shipments
 
   zone map 1435
 
-  accept 1398 -- Driftwood - Watcher Biggs; sundried driftwood, the east coast run below
-  complete 1398 @83.51,13.78 -- Sundried Driftwood (east coast)
-  complete 1398 @89.79,22.36 -- Sundried Driftwood (east coast)
-  complete 1398 @94.65,49.99 -- Sundried Driftwood (east coast)
-  complete 1398 @86.35,81.45 -- Sundried Driftwood (far east shore)
-  turnin 1398 -- Driftwood - the driftwood to Watcher Biggs
-  accept 1425 -- Deliver the Shipment - Watcher Biggs; the shipment to Quartermaster Lungertz in Nethergarde Keep, Blasted Lands (Blasted expedition below)
-  accept 94929 -- Deliver the Second Shipment - Watcher Biggs; the shipment to Demar Brant at Farholde Keep in the Riverglades (Riverglades expedition below)
+  accept 1398 only Alliance -- Driftwood - Watcher Biggs; sundried driftwood, the east coast run below
+  complete 1398 only Alliance @83.51,13.78 -- Sundried Driftwood (east coast)
+  complete 1398 only Alliance @89.79,22.36 -- Sundried Driftwood (east coast)
+  complete 1398 only Alliance @94.65,49.99 -- Sundried Driftwood (east coast)
+  complete 1398 only Alliance @86.35,81.45 -- Sundried Driftwood (far east shore)
+  turnin 1398 only Alliance -- Driftwood - the driftwood to Watcher Biggs
+  accept 1425 only Alliance -- Deliver the Shipment - Watcher Biggs; the shipment to Quartermaster Lungertz in Nethergarde Keep, Blasted Lands (Blasted expedition below)
+  accept 94929 only Alliance -- Deliver the Second Shipment - Watcher Biggs; the shipment to Demar Brant at Farholde Keep in the Riverglades (Riverglades expedition below)
 
 step West wilds - the entomologist and the light
 
@@ -87,13 +86,13 @@ step West wilds - the entomologist and the light
   accept 624 -- Cortello's Riddle - solve the riddle; the Soggy Scroll waits in the west wilds (@22.87,48.19, below)
   turnin 624 @22.87,48.19 -- Cortello's Riddle - the riddle to the Soggy Scroll
   accept 625 -- Cortello's Riddle - the Soggy Scroll's word; the Musty Scroll waits in Dustwallow (Dustwallow expedition below)
-  accept 93585 -- This Light of Mine - Father Tuttle; escort to the Harborage (no objectives in the data - walk him to Magtoor, turnin below)
+  accept 93585 only Alliance -- This Light of Mine - Father Tuttle; escort to the Harborage (no objectives in the data - walk him to Magtoor, turnin below)
 
 step Harborage return - Tuttle's light
 
   zone map 1435
 
-  turnin 93585 -- This Light of Mine - Father Tuttle to the Harborage, word to Magtoor
+  turnin 93585 only Alliance -- This Light of Mine - Father Tuttle to the Harborage, word to Magtoor
 
 step North - blood, bait and the Fallow fishermen
 
@@ -155,13 +154,13 @@ step Blasted expedition - the first shipment
 
   zone map 1419
 
-  turnin 1425 -- Deliver the Shipment - the shipment to Quartermaster Lungertz
+  turnin 1425 only Alliance -- Deliver the Shipment - the shipment to Quartermaster Lungertz
 
 step Riverglades expedition - the second shipment
 
   zone map 2548
 
-  turnin 94929 -- Deliver the Second Shipment - the shipment to Demar Brant
+  turnin 94929 only Alliance -- Deliver the Second Shipment - the shipment to Demar Brant
 
 step Desolace expedition - the mage and the picker
 
