@@ -406,6 +406,13 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: swamp-of-sorrows.guide
 - header: Alliance; contract: 19 (6 primary / 13 shared)
 - shared IDs: 624, 625, 1389, 1392, 1393, 93176, 93429, 93430, 93464, 94264, 94288, 94300, 94312
+### swamp-of-sorrows (UNGATED 2026-11-18, Horde round)
+- file: swamp-of-sorrows.guide (was Alliance primary)
+- contract: 19 (6 primary / 13 shared, per the pack-wide sweep; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 1396, 1398, 1421, 1425, 93585, 94929.
+- Lines gated: 23 quest lines (`only Alliance` on every accept/turnin/complete of the 6 primaries; no pre-existing class gates to compose). 0 soft-pre minis (no `when onquest` steps exist in the file). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). Shared lines for all 13 shared IDs stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 4 warnings, warned quest-ID set identical to pre-edit baseline. Playtest `--honest` both factions: 0 stuck; Alliance outcome byte-identical per-persona vs baseline (full finding multiset match); Horde personas (Orc/Scourge) complete only shared lines with residue in accepted classes; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
 ### the-hinterlands
 - file: the-hinterlands.guide
 - header: Alliance; contract: 14 (8 primary / 6 shared)

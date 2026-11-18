@@ -455,6 +455,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [x] Census (19 IN, 33 OUT)
 - [x] Core guide (19 accepts, 19 turn-ins)
 - [x] Lint/playtest clean (0 errors; R1/R2/R5 residue only)
+- [x] Faction ungating (Option A, 2026-11-17)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions (5 rares + treasures; 2 vendor buys + 5 mob drops)
@@ -745,9 +746,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Swamp of Sorrows — Horde
 
-- [ ] Census (reconcile against 17 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 17 Horde-mask pool records (17/17 banked set-asides reconciled: 12 IN / 5 OUT), band 30-38, docs/swamp-of-sorrows-horde-census.md
+- [x] Core guide - `swamp-of-sorrows-horde.guide` (12 quests, band 30-38, 1 soft-pre mini + 2 capital expeditions)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas, 0 stuck (R1 expedition + R5 bag-note residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
