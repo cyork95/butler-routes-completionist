@@ -469,6 +469,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions (10 rares, 1 generic-containers loop; 15 recipes: 8 vendor, 7 drop)
+- [x] Faction ungating (Option A, 2026-11-17) - 25 Alliance-only quest lines + 7 Alliance-attributed kill lines gated, header dropped, 0 dead lines both factions
 
 ### Western Plaguelands — contested (Eastern Kingdoms)
 
@@ -756,9 +757,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### The Hinterlands — Horde
 
-- [ ] Census (reconcile against 25 set-asides banked by the Alliance census — the Revantusk block)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (reconcile against 25 set-asides banked by the Alliance census — the Revantusk block) - 38 zone-1425 records (23 Horde / 8 Alliance / 7 null by races mask) + city-rule sweep, no beyond-25 Horde; 25 Horde IN (band 38–46), 0 banked OUT, docs/the-hinterlands-horde-census.md
+- [x] Core guide - the-hinterlands-horde.guide (25 quests, band 38–46, Revantusk hub + 4 expedition legs)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas in band, 0 stuck; residue R1 expedition legs only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

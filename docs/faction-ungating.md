@@ -420,10 +420,14 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - Lines gated: 23 quest lines (`only Alliance` on every accept/turnin/complete of the 6 primaries; no pre-existing class gates to compose). 0 soft-pre minis (no `when onquest` steps exist in the file). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). Shared lines for all 13 shared IDs stay bare.
 - Anomalies: none. Header removed.
 - Verification: forge lint 0 errors / 4 warnings, warned quest-ID set identical to pre-edit baseline. Playtest `--honest` both factions: 0 stuck; Alliance outcome byte-identical per-persona vs baseline (full finding multiset match); Horde personas (Orc/Scourge) complete only shared lines with residue in accepted classes; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
-### the-hinterlands
-- file: the-hinterlands.guide
-- header: Alliance; contract: 14 (8 primary / 6 shared)
-- shared IDs: 485, 836, 1446, 94266, 94290, 94302
+### the-hinterlands (UNGATED 2026-11-18, Horde round)
+- file: the-hinterlands.guide (was Alliance primary)
+- contract: 14 (8 primary / 6 shared)
+- shared IDs: 485, 836, 1446, 94266, 94290, 94302 (per the Alliance census; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): the other 8 contract IDs.
+- Lines gated: 25 quest lines (`only Alliance`, none carried prior gates) + 7 kill lines attributed to Alliance-only quests (`optional only Alliance`, Duskwood attribution precedent; the shared-beacon 2659 line stays bare). 0 soft-pre minis (file has no `when onquest` lines — pres ride notes + structural warnings per the Alliance guide). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome/portal search: none). Shared lines for all 6 shared IDs stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors; warned quest-ID set identical to pre-edit baseline (8/8). Playtest `--honest` both factions (Human/NightElf/Orc/Scourge Warriors): Alliance findings identical in kind to baseline; Horde personas complete only the shared lines with residue only in R1/R2/R5; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
 ### western-plaguelands
 - file: western-plaguelands.guide
 - header: Alliance; contract: 65 (12 primary / 53 shared)
