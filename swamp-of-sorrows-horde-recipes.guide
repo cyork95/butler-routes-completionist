@@ -62,18 +62,18 @@ step The eastern marshes - Mithril Stiletto (Blacksmithing)
   when skill Blacksmithing 1
 
   loop
-  goto 46.92,67.1
-  goto 47.4,64.11
-  goto 48.58,66.11
-  goto 49.15,61.9
-  goto 49.42,67.91
-  goto 49.51,63.83
-  goto 49.9,60.64
-  goto 50.31,66.51
-  goto 51.56,66.78
-  goto 51.73,64.96
-  goto 52.23,61.31
-  goto 54.32,63.45
+  goto 55.13,30.32
+  goto 55.15,25.15
+  goto 55.78,29.12
+  goto 56.81,25.23
+  goto 57.27,24.65
+  goto 57.63,23.97
+  goto 57.79,24.74
+  goto 58.08,26.76
+  goto 61.93,22.74
+  goto 62,23.53
+  goto 62.62,24.07
+  goto 64.75,23.02
   kill 759 optional
   collect 251463 "Mithril Stiletto" optional
   note Lost One Hunter (level 36) is the sole dropper anywhere in the data. No quest takes the recipe.
@@ -85,19 +85,19 @@ step The eastern marshes - Potent Anti-Venom (First Aid)
   when skill FirstAid 1
 
   loop
-  goto 43.74,73.64
-  goto 44.96,70.8
-  goto 45.41,76.81
-  goto 45.67,73.1
-  goto 45.92,75.43
-  goto 47.77,72.35
-  goto 48.79,67.24
-  goto 51.25,61.63
-  goto 51.53,60.4
-  goto 51.95,62.72
-  goto 52.49,59.66
-  goto 52.92,58.32
-  goto 53.19,63.59
+  goto 55.75,34.07
+  goto 55.89,34.37
+  goto 56.06,31.86
+  goto 57.7,29.92
+  goto 58.41,28.46
+  goto 59.02,23.56
+  goto 60.87,28.44
+  goto 61.17,25.27
+  goto 62.25,19.42
+  goto 62.34,26.7
+  goto 63.45,17.41
+  goto 63.45,21.88
+  goto 64.66,26.17
   kill 760 optional
   collect 255728 "Potent Anti-Venom" optional
   note Lost One Muckdweller (level 36) is the sole dropper anywhere in the data. No quest takes the recipe.
@@ -109,17 +109,17 @@ step The western marshes - Enchant Gloves (Enchanting)
   when skill Enchanting 1
 
   loop
-  goto 26.6,42.54
-  goto 26.65,37.12
-  goto 27.36,40.09
-  goto 28.47,39.2
-  goto 29.18,41.3
-  goto 29.42,36.93
-  goto 30.38,34.37
-  goto 30.79,39.62
-  goto 31.91,37.34
-  goto 32.1,33.85
-  goto 32.72,36.45
+  goto 11.43,38.66
+  goto 13,37.04
+  goto 14.37,34.71
+  goto 14.92,38.73
+  goto 15.77,40.78
+  goto 15.81,36.55
+  goto 16.87,38.78
+  goto 46.88,37.1
+  goto 49.28,35.27
+  goto 51.17,36.76
+  goto 54.74,32.1
   kill 764 optional
   collect 11205 "Formula: Enchant Gloves - Advanced Herbalism" optional
   note Swampwalker (level 38) anchors the step; four more Swamp-only droppers share the table (Elder 765, Tangled Horror 766, Mire Lord 1081, Molt Thorn 14448 - the last two above band). No quest takes the recipe.
@@ -131,19 +131,19 @@ step The marsh oracles - Sunny Tea (Cooking)
   when skill Cooking 1
 
   loop
-  goto 42.78,55.47
-  goto 44.08,53.85
-  goto 44.63,55.83
-  goto 44.7,61.09
-  goto 45.14,57.69
-  goto 45.78,56.24
-  goto 46.08,53.87
-  goto 46.41,55.08
-  goto 47.29,57.87
-  goto 47.85,54.58
-  goto 48.3,58.65
-  goto 49.25,56.14
-  goto 52.49,54.39
+  goto 60.48,86.56
+  goto 60.9,83.58
+  goto 61.41,84.34
+  goto 61.99,87.28
+  goto 62.37,88.13
+  goto 62.76,87.05
+  goto 63.15,80.42
+  goto 63.59,86.78
+  goto 89.05,78.45
+  goto 94.18,30.52
+  goto 94.86,61
+  goto 94.89,60.05
+  goto 95.05,51.06
   kill 752 optional
   collect 249883 "Sunny Tea" optional
   note Marsh Oracle (level 44) is the sole dropper anywhere in the data but sits above the 30-38 band - come back later. He also spawns in the Blasted Lands. No quest takes the recipe.
