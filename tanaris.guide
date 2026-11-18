@@ -17,7 +17,6 @@ guide butler-routes-completionist/tanaris
 title Tanaris - Completionist
 levels 38-50
 zone Tanaris
-faction Alliance
 category Leveling
 folder Completionist
 coords live
@@ -37,7 +36,7 @@ step Gadgetzan - landfall
   accept 3362 -- Thistleshrub Valley - Tran'rek; thistleshrubs, far south-west
   accept 4504 -- Super Sticky - Tran'rek; Super Sticky Tar, in Un'Goro, late
   note 2944 needs 2941 (The Borrower, from Daryn Lightwind in Teldrassil) first - take the Snapper in its own soft-pre step once 2941 is done.
-  accept 3022 -- Handle With Care - Curgle Cranklehop; Erelas takes it in Teldrassil, late
+  accept 3022 only Alliance -- Handle With Care - Curgle Cranklehop; Erelas takes it in Teldrassil, late
   note 6610 needs 6612 (I Know A Guy, from Daryl Riknussun in Ironforge) first - take the Clamlette in its own soft-pre step once 6612 is done.
   accept 95144 -- Overseas Delivery - Innkeeper Fizzgrimble; Friz Frazzlespark waits at the 2548 mooring, late
   accept 2741 -- The Super Egg-O-Matic - the Egg-O-Matic; a Hippogryph Egg, in Feralas, late
@@ -127,15 +126,16 @@ step The Super Snapper (soft pre)
   zone map 1446
 
   when onquest 2941
+  only Alliance
 
   tip Holding 2941 (The Borrower, from Daryn Lightwind in Teldrassil): Curgle Cranklehop's photography ask in Gadgetzan.
-  accept 2944 -- The Super Snapper FX - Curgle Cranklehop; photograph Gammerita, then Daryn in Teldrassil
+  accept 2944 only Alliance -- The Super Snapper FX - Curgle Cranklehop; photograph Gammerita, then Daryn in Teldrassil
 
 step Clamlette Surprise (soft pre)
 
   zone map 1446
 
-  when onquest 6612
+  when onquest 6612,6611
 
   when skill Cooking 225
 
@@ -209,8 +209,8 @@ step Gadgetzan - writs banked
   accept 94313 optional -- Craftsman's Writ: White Bandit Mask - the writ; White Bandit Mask to Vizzklick, at 60
   complete 94313 -- White Bandit Mask (player-crafted) for Vizzklick
   turnin 94313 -- Craftsman's Writ: White Bandit Mask - the mask to Vizzklick
-  accept 97536 -- Gnomish Garbage - Jhordy Lapforge; back to Jhordy
-  turnin 97536 -- Gnomish Garbage - back to Jhordy Lapforge
+  accept 97536 only Alliance -- Gnomish Garbage - Jhordy Lapforge; back to Jhordy
+  turnin 97536 only Alliance -- Gnomish Garbage - back to Jhordy Lapforge
 
 step Gadgetzan - noggenfogger and the coast
 
@@ -231,7 +231,7 @@ step Gadgetzan - noggenfogger and the coast
   turnin 110 -- Insect Part Analysis - back to Alchemist Pestlezugg
   accept 113 -- Insect Part Analysis - Alchemist Pestlezugg; back to Fizzledowser
   turnin 113 -- Insect Part Analysis - back to Senior Surveyor Fizzledowser
-  accept 162 -- Rise of the Silithid - Senior Surveyor Fizzledowser; Gracina takes it in Darnassus, late
+  accept 162 only Alliance -- Rise of the Silithid - Senior Surveyor Fizzledowser; Gracina takes it in Darnassus, late
 
 step Dunemaul south-west
 
@@ -253,7 +253,7 @@ step Marvon's circle (soft pre)
 
   zone map 1446
 
-  when onquest 3445
+  when onquest 3445,3380
 
   tip Holding 3445 (The Sunken Temple, from Angelas Moonbreeze in Feralas): Marvon Rivetseeker's circle at his camp (52.71, 45.92).
   accept 3444 -- The Stone Circle - Marvon Rivetseeker; the Circle in Durotar, late
@@ -297,7 +297,7 @@ step Bungle in the Jungle (soft pre)
 
   zone map 1446
 
-  when onquest 4493
+  when onquest 4493,4494
 
   tip Holding 4493 (March of the Silithid, from Gracina Spiritmight in Darnassus): Pestlezugg's silithid ask in Gadgetzan (50.89, 26.96). The follow-ups (4507, then 4508) are taken in Un'Goro after each pre turns in.
   accept 4496 -- Bungle in the Jungle - Alchemist Pestlezugg; scent gland and soil, in Un'Goro
@@ -393,7 +393,7 @@ step The Desert Wolf and the robot
   accept 2954 -- The Stone Watcher - the Stone Watcher of Norgannon; kill it, then the pedestal
   complete 2954 @37.60,81.40 era -- the Stone Watcher of Norgannon, Uldum
   turnin 2954 -- The Stone Watcher - back to the Uldum Pedestal
-  accept 2977 -- Return to Ironforge - the Uldum Pedestal; Karnik takes it in Ironforge, late
+  accept 2977 only Alliance -- Return to Ironforge - the Uldum Pedestal; Karnik takes it in Ironforge, late
   complete 1560 @66.58,25.67 era -- Torta, east coast
   turnin 1560 -- Tooga's Quest - the word to Torta
 
@@ -434,7 +434,7 @@ step The Hinterlands - gammerita, tragan and the egg
   goto 57.58,86.79
 
   tip Gammerita swims (80.40, 58.23) the Hinterlands shore; Violet Tragan grows (39.50, 60.03) inland; the Ancient Egg waits (57.58, 86.79) south (the data also shows an Arathi point for the Egg - this one rides the route).
-  complete 2944 @80.40,58.23 era -- photograph Gammerita, the Hinterlands
+  complete 2944 only Alliance @80.40,58.23 era -- photograph Gammerita, the Hinterlands
   complete 2641 @39.50,60.03 era -- Violet Tragan, the Hinterlands
   turnin 2641 -- Sprinkle's Secret Ingredient - the tragan back to Sprinkle
   accept 2661 -- Delivery for Marin - Sprinkle; back to Marin
@@ -571,7 +571,7 @@ step Bungle in the Jungle - the Un'Goro work (soft pre)
   accept 4507 -- Pawn Captures Queen - Alchemist Pestlezugg; the queen's brain, south-west
   complete 4507 @43.85,81.39 era -- the Gorishi Queen's brain, Un'Goro
   turnin 4507 -- Pawn Captures Queen - the brain back to Alchemist Pestlezugg
-  accept 4508 -- Calm Before the Storm - Alchemist Pestlezugg; Gracina takes it in Darnassus, late
+  accept 4508 only Alliance -- Calm Before the Storm - Alchemist Pestlezugg; Gracina takes it in Darnassus, late
   zone map 1446
 
 step Linken's Sword - the delivery (soft pre)
@@ -589,7 +589,7 @@ step Darnassus - the silithid word
   zone map 1457
 
   tip Gracina Spiritmight (41.83, 85.62) takes the silithid word in Darnassus.
-  turnin 162 -- Rise of the Silithid - the word to Gracina Spiritmight
+  turnin 162 only Alliance -- Rise of the Silithid - the word to Gracina Spiritmight
   zone map 1446
 
 step Calm Before the Storm - the Darnassus word (soft pre)
@@ -597,9 +597,10 @@ step Calm Before the Storm - the Darnassus word (soft pre)
   zone map 1457
 
   when onquest 4508
+  only Alliance
 
   tip Holding the storm (4508, taken from Pestlezugg after the Un'Goro bungle): Gracina Spiritmight (41.83, 85.62) takes it in Darnassus.
-  turnin 4508 -- Calm Before the Storm - the word to Gracina Spiritmight
+  turnin 4508 only Alliance -- Calm Before the Storm - the word to Gracina Spiritmight
   zone map 1446
 
 step Teldrassil - the coast photography
@@ -607,7 +608,7 @@ step Teldrassil - the coast photography
   zone map 1438
 
   tip Erelas Ambersky (55.50, 92.05) takes the handling at Rut'theran, Teldrassil.
-  turnin 3022 -- Handle With Care - the word to Erelas Ambersky
+  turnin 3022 only Alliance -- Handle With Care - the word to Erelas Ambersky
   zone map 1446
 
 step The Super Snapper - the Teldrassil word (soft pre)
@@ -615,9 +616,10 @@ step The Super Snapper - the Teldrassil word (soft pre)
   zone map 1438
 
   when onquest 2944
+  only Alliance
 
   tip Holding the Snapper (2944, taken from Curgle after the Teldrassil pre): Daryn Lightwind (55.41, 92.23) takes the snapshot at Rut'theran.
-  turnin 2944 -- The Super Snapper FX - the snapshot to Daryn Lightwind
+  turnin 2944 only Alliance -- The Super Snapper FX - the snapshot to Daryn Lightwind
   zone map 1446
 
 step Booty Bay - the coast deliveries
@@ -649,7 +651,7 @@ step Ironforge - the pedestal's word
   zone map 1455
 
   tip Historian Karnik (77.54, 11.82) takes the pedestal's word in Ironforge.
-  turnin 2977 -- Return to Ironforge - the word to Historian Karnik
+  turnin 2977 only Alliance -- Return to Ironforge - the word to Historian Karnik
   zone map 1446
 
 step Badlands - yuka's word
