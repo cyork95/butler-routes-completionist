@@ -697,7 +697,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors, 43 warnings in accepted classes; playtest Horde personas 0 stuck (R1 expedition + R2 sourceless residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 9 rares (7 signature collects) + Perfect Yeti Hide hunt + 6 fixed containers + 27 recipes (16 vendor + 11 narrow drops), 0 lint errors/warnings; Arash-ethis logged, no tame line
 
 ### Tanaris — Horde
 
