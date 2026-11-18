@@ -1,0 +1,193 @@
+# Butler Routes - The Hinterlands (Horde) completionist (pack butler-routes-completionist, v1).
+# Every Horde accept in the local census (25 quests, docs/the-hinterlands-horde-census.md)
+# appears exactly once as an accept and once as a turnin. The two off-zone
+# accepts (Belgrom's opener sits in Orgrimmar's contract; the Atal'ai pre and
+# the Fel'zerul/oran follow-ups live in the Swamp pool or nowhere) are bridged
+# with dedicated when onquest mini-steps or named handoffs, never duplicated.
+# No race, class or profession gates: nothing contracted is locked, and the data
+# carries no skill or class fields in the pool. Object-started chains (Rin'ji's
+# Secret, the Venom Bottles, both wanted posters) ride normal accepts at their
+# placed objects with notes so the route never wedges. Expedition legs and
+# turn-ins (Orgrimmar, Swamp of Sorrows, Undercity, Tarren Mill) switch frames
+# deliberately and switch back.
+guide butler-routes-completionist/the-hinterlands-horde
+title The Hinterlands (Horde)
+levels 38-46
+zone The Hinterlands
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Revantusk muster - the east-coast hub
+
+  zone map 1425
+
+  tip Revantusk Village holds the east coast: Katoom the Angler (80.33, 81.54) works the bay; Huntsman Markhor (79.16, 79.53) runs the hunters; Smith Slagtree (77.23, 80.13), Lard (78.14, 81.38), Otho Moji'ko (79.38, 79.08) and Mystic Yayo'jin (78.8, 78.25) hold the village; Primal Torntusk (78.2, 81.18) leads; Qujo (77.95, 77.83) pays for a hunt; the Call to Arms! poster (79.08, 78.99) pins the board.
+  accept 7815 -- Snapjaws, Mon! - Katoom the Angler; saltwater snapjaws, south shore
+  accept 7816 -- Gammerita, Mon! - Katoom the Angler; Gammerita's lure, the bay
+  accept 7828 -- Stalking the Stalkers - Huntsman Markhor; Silvermane wolves, west
+  accept 7829 -- Hunt the Savages - Huntsman Markhor; savage owlbeasts, west
+  accept 7830 -- Avenging the Fallen - Huntsman Markhor; a skylord plume, the rookery
+  accept 7839 -- Vilebranch Hooligans - Smith Slagtree; lost tools, the troll grounds
+  accept 7840 -- Lard Lost His Lunch - Lard; lunch west, the kidnappers' camp
+  accept 7841 -- Message to the Wildhammer - Otho Moji'ko; Highvale scouts and runners, west
+  accept 7844 -- Cannibalistic Cousins - Mystic Yayo'jin; scalpers and soothsayers, center ruins
+  accept 7845 -- Kidnapped Elder Torntusk! - Primal Torntusk; the elder waits at Jintha'Alor, south
+  accept 7849 -- Separation Anxiety - Huntsman Markhor; a skull and bones, south terraces
+  accept 7850 -- Dark Vessels - Primal Torntusk; tainted vessels, south terraces
+  accept 7861 -- Wanted: Vile Priestess Hexx and Her Minions - the Call to Arms! poster; Hexx and her guard, Jintha'Alor
+  accept 7862 -- Job Opening: Guard Captain of Revantusk Village - the Call to Arms! poster; Vilebranch packs, the terraces
+  accept 98203 -- Witch Doctor Ti'ik - Qujo; Ti'ik's head, west grounds
+
+step OOX opener (soft pre)
+
+  zone map 1425
+
+  when onquest 650
+
+  tip Holding 650 (Ripple Recovery, from Belgrom Rockmaul in Orgrimmar at 75.23, 34.24): Gilveradin Sunchaser (26.71, 48.59) hires honey hunters in the west; the supply crates (45.56, 41.12) hold the ripples.
+  accept 77 -- A Sticky Situation - Gilveradin Sunchaser; honey ripples off the supply crates, west
+  collect 8684 x10 quest 77.1 @45.56,41.12 era -- Hinterlands Honey Ripples off the Horde Supply Crates, west
+  turnin 77 -- A Sticky Situation - the ripples to Gilveradin Sunchaser
+
+step West grounds - honey, Highvale, feathers, bottles
+
+  zone map 1425
+
+  complete 7841 @29.66,50.05 era -- Highvale Scouts, west
+  complete 7841 @28.72,51.23 era -- Highvale Outrunners, west
+  complete 7841 @28.47,45.43 era -- Highvale Rangers, west
+  complete 7841 @28.33,46.26 era -- Highvale Marksmen, west
+  complete 7830 @47.80,43.60 era -- Skylord Plume off the Razorbeak Skylords, the rookery
+  complete 98203 @24.62,65.49 era -- Ti'ik's Head off Witch Doctor Ti'ik, west grounds
+  accept 2742 -- Rin'ji is Trapped! - Rin'ji (30.73, 46.9); escort her east
+  complete 2742 @34.58,56.33 era -- Escort Rin'ji to safety, west
+  accept 2933 -- Venom Bottles - the west dens; twelve bottles, no pre
+  note The twelve Venom Bottles are the accept - twelve objects in the two west dens, never wedged.
+
+step West returns - honey, chains, Ti'ik
+
+  zone map 1425
+
+  accept 81 -- Ripple Delivery - Gilveradin Sunchaser; Dran takes it in Orgrimmar
+  turnin 7841 -- Message to the Wildhammer - the scouts and runners to Otho Moji'ko
+  accept 7842 -- Another Message to the Wildhammer - Otho Moji'ko; feathers for the next word
+  complete 7842 @27.97,57.96 era -- Long Elegant Feathers off the Witherbark Hideskinners, west
+  turnin 7842 -- Another Message to the Wildhammer - the feathers to Otho Moji'ko
+  accept 7843 -- The Final Message to the Wildhammer - Otho Moji'ko; deliver it at the Aerie side
+  turnin 7830 -- Avenging the Fallen - the plume to Huntsman Markhor
+  turnin 98203 -- Witch Doctor Ti'ik - the head to Qujo
+
+step Aerie side - the final message
+
+  zone map 1425
+
+  complete 7843 @14.34,48.07 era -- Message to the Wildhammer delivered, Aerie side
+  turnin 7843 -- The Final Message to the Wildhammer - the word to Otho Moji'ko
+
+step East and center - wolves, owls, cousins, bay
+
+  zone map 1425
+
+  complete 7828 @51.10,60.99 era -- Silvermane Stalkers, west
+  complete 7828 @37.39,61.02 era -- Silvermane Howlers, west
+  complete 7829 @51.40,45.60 era -- Savage Owlbeasts, west
+  complete 7844 @44.27,67.04 era -- Vilebranch Scalpers, center ruins
+  complete 7844 @44.57,65.48 era -- Vilebranch Soothsayers, center ruins
+  complete 7839 @53.30,38.80 era -- Slagtree's Lost Tools, the troll grounds
+  complete 7816 @80.40,58.23 era -- Katoom's Best Lure off Gammerita, the bay
+  complete 7840 @84.60,41.20 era -- Lard's Lunch off the Vilebranch Kidnappers, east
+  complete 7815 @74.63,68.29 era -- Saltwater Snapjaws, south shore
+
+step Jintha'Alor - skulls, vessels, Hexx, Torntusk
+
+  zone map 1425
+
+  complete 7849 @58.56,64.76 era -- Huntsman Malkhor's Skull, south terraces
+  complete 7849 @62.11,75.35 era -- Huntsman Malkhor's Bones, south terraces
+  complete 7850 @57.02,69.00 era -- Vessels of Tainted Blood, south terraces
+  complete 7861 @59.47,78.26 era -- Vile Priestess Hexx, Jintha'Alor
+  complete 7861 @54.48,83.98 era -- Vilebranch Aman'zasi Guards, the terraces
+  complete 7862 @63.26,66.57 era -- Vilebranch Berserkers, the terraces
+  complete 7862 @59.10,71.32 era -- Vilebranch Shadow Hunters, the terraces
+  complete 7862 @58.27,72.79 era -- Vilebranch Blood Drinkers, the terraces
+  complete 7862 @57.98,71.70 era -- Vilebranch Soul Eaters, the terraces
+  turnin 7845 -- Kidnapped Elder Torntusk! - the word to Elder Torntusk (59.69, 77.84)
+  accept 7846 -- Recover the Key! - Elder Torntusk; Hitah'ya's shackle key, far south
+  complete 7846 @57.32,86.64 era -- the Shackle Key off Hitah'ya the Keeper, far south
+  turnin 7846 -- Recover the Key! - the key to Elder Torntusk
+  accept 7847 -- Return to Primal Torntusk - Elder Torntusk; Primal waits at Revantusk
+
+step Revantusk returns - cousins, bay, terraces, Torntusk
+
+  zone map 1425
+
+  turnin 7828 -- Stalking the Stalkers - the wolf word to Huntsman Markhor
+  turnin 7829 -- Hunt the Savages - the savages to Huntsman Markhor
+  turnin 7844 -- Cannibalistic Cousins - the cousins to Mystic Yayo'jin
+  turnin 7839 -- Vilebranch Hooligans - the tools to Smith Slagtree
+  turnin 7840 -- Lard Lost His Lunch - the lunch to Lard
+  turnin 7816 -- Gammerita, Mon! - the lure to Katoom the Angler
+  turnin 7815 -- Snapjaws, Mon! - the snapjaws to Katoom the Angler
+  turnin 7849 -- Separation Anxiety - the skull and bones to Huntsman Markhor
+  turnin 7850 -- Dark Vessels - the vessels to Primal Torntusk
+  turnin 7861 -- Wanted: Vile Priestess Hexx and Her Minions - the deed to Primal Torntusk
+  turnin 7862 -- Job Opening: Guard Captain of Revantusk Village - the deed to Primal Torntusk
+  turnin 7847 -- Return to Primal Torntusk - the word to Primal Torntusk
+
+step East coast - the Secret and the Exile
+
+  zone map 1425
+
+  turnin 2742 -- Rin'ji is Trapped! - Rin'ji safe at Rin'ji's Secret (86.30, 59.01)
+  accept 2782 -- Rin'ji's Secret - Rin'ji's Secret; Oran takes it in the Undercity
+
+step Fel'zerul word (soft pre)
+
+  zone map 1425
+
+  when onquest 1429
+
+  tip Holding 1429 (The Atal'ai Exile, from the Swamp of Sorrows pool): the Atal'ai Exile (33.75, 75.21) wants Fel'zerul's word, south.
+  accept 1444 -- Return to Fel'Zerul - the Atal'ai Exile; Fel'zerul takes it in the Swamp
+
+step Orgrimmar expedition - Dran's delivery
+
+  zone Orgrimmar
+
+  when onquest 81
+
+  turnin 81 -- Ripple Delivery - the ripple to Dran Droffers @59.49,36.57 era
+  zone The Hinterlands
+
+step Swamp expedition - Fel'zerul's word
+
+  zone Swamp of Sorrows
+
+  when onquest 1444
+
+  turnin 1444 -- Return to Fel'Zerul - the word to Fel'zerul @47.93,54.78 era
+  note The chain continues with 1445 (The Temple of Atal'Hakkar) - Swamp-Horde-contracted; handed off, not duplicated here.
+  zone The Hinterlands
+
+step Undercity expedition - Oran's secret
+
+  zone Undercity
+
+  when onquest 2782
+
+  turnin 2782 -- Rin'ji's Secret - the secret to Oran Snakewrithe @73.06,32.85 era
+  note The chain continues with 8273 (Oran's Gratitude) from Oran - in no pack contract; uncontracted past here.
+  zone The Hinterlands
+
+step Tarren Mill leg - Lydon's bottles
+
+  zone Hillsbrad Foothills
+
+  when onquest 2933
+
+  turnin 2933 -- Venom Bottles - the bottles to Apothecary Lydon @61.44,19.06 era
+  note The chain continues with 2934 (Undamaged Venom Sac) from Lydon - Alterac-Horde-contracted; handed off, not duplicated here. Lydon's Alterac point is named in the census.
+  zone The Hinterlands
