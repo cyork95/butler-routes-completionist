@@ -60,11 +60,21 @@ step The east camp - Krom'Grul
   complete 3822 @79.66,47.43 era -- Sha'ni's Nose-Ring off Krom'Grul (100% at his single point, south of Sha'ni)
   note The turn-in leaves the zone (Badlands expedition below).
 
-step Badlands expedition - Lexlort and Thal'trak
+step Badlands expedition - Lexlort's word
 
   zone map 1418
 
+  when onquest 4121
+
   turnin 4121 -- Precarious Predicament - the word to Lexlort @5.88,47.63 era
+  zone map 1428
+
+step Badlands expedition - Thal'trak's nose-ring
+
+  zone map 1418
+
+  when onquest 3822
+
   turnin 3822 -- Krom'Grul - the nose-ring to Thal'trak Proudtusk @3.36,48.06 era
   zone map 1428
 
