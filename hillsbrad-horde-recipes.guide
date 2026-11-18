@@ -1,0 +1,203 @@
+guide butler-routes-completionist/hillsbrad-horde-recipes
+title Hillsbrad Foothills (Horde) - Recipes
+levels 19-32
+zone Hillsbrad Foothills
+faction Horde
+category Professions
+folder Companions
+keywords hillsbrad, horde, recipes, patterns, professions, companions
+coords live
+version 1
+
+# Hillsbrad (Horde) - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and schematics whose SOURCE is physically in
+# Hillsbrad Foothills for a Horde player, verified against the local Forever
+# game data (questie-forever item vendor and drop tables). Fourteen recipes are
+# vendor-sold by Horde or neutral in-zone vendors (every buy is pinned to its
+# vendor); six more drop from Hillsbrad mobs with no vendor anywhere (four sole
+# drops, one tight in-zone family, one named single-source drop - two of those
+# droppers outlevel the zone, so those steps say to come back later). Every
+# other Hillsbrad-dropping recipe is a generic multi-zone world drop. Quest
+# records carry no reward data (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover
+# those. Each step is gated to its profession; other characters skip it
+# cleanly. First Aid and Fishing have no in-zone Horde source, so that is
+# stated, not padded.
+
+step Tailoring - Tarren Mill (Mallen Swain)
+
+  when skill Tailoring 1
+
+  vendor 2394 -- Mallen Swain (61.9, 20.98), Tailoring Supplies
+  buy 6274 "Pattern: Blue Overalls" npc 2394
+  buy 6401 "Pattern: Dark Silk Shirt" npc 2394
+  buy 253665 "Pattern: Linen Reagent Bag" npc 2394
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 2394
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Tailoring - Tarren Mill north (Christoph Jeffcoat)
+
+  when skill Tailoring 1
+
+  vendor 2393 -- Christoph Jeffcoat (62.29, 19.04), Tradesman
+  buy 5788 "Pattern: Thick Murloc Armor" npc 2393
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Alchemy - Tarren Mill north (Christoph Jeffcoat)
+
+  when skill Alchemy 1
+
+  vendor 2393 -- Christoph Jeffcoat (62.29, 19.04), Tradesman
+  buy 6054 "Recipe: Shadow Protection Potion" npc 2393
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Cooking - Tarren Mill (Derak Nightfall)
+
+  when skill Cooking 1
+
+  vendor 2397 -- Derak Nightfall (63.09, 19.41), Cook
+  buy 6330 "Recipe: Bristle Whisker Catfish" npc 2397
+  buy 21099 "Recipe: Smoked Sagefish" npc 2397
+  buy 21219 "Recipe: Sagefish Delight" npc 2397
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Leatherworking - the east (George Candarte)
+
+  when skill Leatherworking 1
+
+  vendor 2698 -- George Candarte (92.02, 38.23), Leatherworking Supplies
+  buy 7613 "Pattern: Green Leather Armor" npc 2698
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Tailoring - the hills (Zixil)
+
+  when skill Tailoring 1
+
+  vendor 3537 -- Zixil (55.38, 34.71), Merchant Supreme
+  buy 5772 "Pattern: Red Woolen Bag" npc 3537
+  note Zixil is neutral and serves Horde players. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Enchanting - the hills (Zixil)
+
+  when skill Enchanting 1
+
+  vendor 3537 -- Zixil (55.38, 34.71), Merchant Supreme
+  buy 6377 "Formula: Enchant Boots - Minor Agility" npc 3537
+  note Zixil is neutral and serves Horde players. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Leatherworking - the hills (Zixil)
+
+  when skill Leatherworking 1
+
+  vendor 3537 -- Zixil (55.38, 34.71), Merchant Supreme
+  buy 7362 "Pattern: Earthen Leather Shoulders" npc 3537
+  note Zixil is neutral and serves Horde players. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Engineering - the hills (Zixil)
+
+  when skill Engineering 1
+
+  vendor 3537 -- Zixil (55.38, 34.71), Merchant Supreme
+  buy 7561 "Schematic: Goblin Jumper Cables" npc 3537
+  note Zixil is neutral and serves Horde players. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Alchemy - the hills (Zixil)
+
+  when skill Alchemy 1
+
+  vendor 3537 -- Zixil (55.38, 34.71), Merchant Supreme
+  buy 210709 "Recipe: Elixir of Coalesced Regret" npc 3537
+  note Zixil is neutral and serves Horde players. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Engineering - the east (Zan Shivsproket)
+
+  when skill Engineering 1
+
+  vendor 6777 -- Zan Shivsproket (84.1, 18.4), Specialty Engineer
+  buy 7742 "Schematic: Gnomish Cloaking Device" npc 6777
+  note Zan is neutral and serves Horde players. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Cooking - the east (Smudge Thunderwood)
+
+  when skill Cooking 1
+
+  vendor 6779 -- Smudge Thunderwood (84.2, 18.1), Poison Vendor
+  buy 18160 "Recipe: Thistle Tea" npc 6779
+  note Smudge is neutral and serves Horde players. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Cooking - the Torn Fin shallows (rare drop)
+
+  when skill Cooking 1
+
+  loop
+  goto 35.68,66.4
+  goto 37.24,69.14
+  goto 40.4,71.23
+  goto 44.15,71.11
+  goto 45.98,66.75
+  goto 47.15,68.34
+  collect 249881 "Recipe: Root Tea" optional
+  note Dropped only by the Torn Fin Oracle (level 30), which patrols these points; the recipe drops nowhere else and has no vendor anywhere in the data.
+
+step Blacksmithing - the Syndicate camp (rare drop)
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 65.78,48.49
+  goto 67.07,47.7
+  goto 74.37,40.5
+  goto 76.23,40.83
+  goto 77.91,41.35
+  goto 79.54,45.55
+  goto 81.16,41.95
+  goto 67.6,47.59
+  goto 76.36,46.41
+  goto 79.83,40.76
+  collect 251335 "Plans: Sterling Silver Boots" optional
+  note Dropped only by the Syndicate Watchman (level 20), which patrols this camp; the recipe drops nowhere else and has no vendor anywhere in the data.
+
+step Blacksmithing - the far north (rare drop, come back later)
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 48.2,1.1
+  goto 50.5,1
+  goto 50.5,3.7
+  goto 49.3,3.7
+  goto 51.6,2.3
+  collect 251391 "Plans: Hard Gold Pauldrons" optional
+  note Dropped only by the Crushridge Ogre (level 34), past the top of the guide band - come back at a higher level; the recipe drops nowhere else and has no vendor anywhere in the data.
+
+step Engineering - the far north (rare drop, come back later)
+
+  when skill Engineering 1
+
+  goto 43.2,0.5
+  collect 284870 "Schematic: Unsanctified Grenade" optional
+  note Dropped only by the Crushridge Warmonger (level 39), past the top of the guide band - come back at a higher level; the recipe drops nowhere else and has no vendor anywhere in the data.
+
+step Enchanting - the Torn Fin shallows (tight family drop)
+
+  when skill Enchanting 1
+
+  loop
+  goto 20.44,64.62
+  goto 23.17,64.21
+  goto 25.32,72.79
+  goto 29.78,73.6
+  goto 33.86,72.8
+  goto 22.11,64.01
+  goto 24.83,67.23
+  goto 28.05,72.85
+  goto 32.67,74.36
+  goto 36.18,70.22
+  goto 41.02,69.49
+  goto 46.03,63.96
+  collect 11152 "Formula: Enchant Gloves - Fishing" optional
+  note Dropped only by the Torn Fin family (Muckdweller, Coastrunner, Tidehunter, Oracle) and Scargil, all in these shallows; the recipe has no vendor anywhere in the data. The Alliance companion omits this family - the data shows no vendor anywhere, so it ships here with the delta stated in the inventory.
+
+step First Aid and Fishing - no Hillsbrad source
+
+  note First Aid and Fishing have no recipe source physically in Hillsbrad Foothills for Horde players in the data - no servable in-zone vendor sells one and no in-zone mob drops one - so this guide carries nothing for them. Polestar's own profession guides cover trainer-taught staples.
