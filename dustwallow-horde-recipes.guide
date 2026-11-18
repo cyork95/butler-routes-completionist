@@ -1,0 +1,132 @@
+# Dustwallow Marsh (Horde) - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes whose SOURCE is physically in Dustwallow Marsh for a Horde player, verified against the local Forever game data (questie-forever item vendor and drop tables). Nine recipes are vendor-sold by Horde in-zone vendors (every buy is pinned to its vendor); five more drop exclusively from in-zone mobs. Every other Dustwallow-dropping recipe is a generic multi-zone world drop, and quest records carry no reward data (see docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover those. Each step is gated to its profession; other characters skip it cleanly. Leatherworking, Fishing, Engineering and Alchemy have no in-zone Horde source, so that is stated, not padded.
+guide butler-routes-completionist/dustwallow-horde-recipes
+title Dustwallow Marsh (Horde) - Recipes
+levels 30-45
+zone Dustwallow Marsh
+faction Horde
+category Professions
+folder Companions
+keywords dustwallow, horde, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking - Brackenwall (Ogg'marr)
+
+  when skill Cooking 1
+
+  vendor 4879 -- Ogg'marr (36.7, 30.97), Butcher
+  buy 12228 "Recipe: Roast Raptor" npc 4879
+  buy 12232 "Recipe: Carrion Surprise" npc 4879
+  buy 12239 "Recipe: Dragonbreath Chili" npc 4879
+  buy 20075 "Recipe: Heavy Crocolisk Stew" npc 4879
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Tailoring - Brackenwall (Ghok'kah)
+
+  when skill Tailoring 1
+
+  vendor 6567 -- Ghok'kah (35.15, 30.83), Tailoring Supplies
+  buy 4355 "Pattern: Icy Cloak" npc 6567
+  buy 253665 "Pattern: Linen Reagent Bag" npc 6567
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 6567
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step First Aid - Brackenwall (Balai Lok'Wein)
+
+  when skill First Aid 1
+
+  vendor 13476 -- Balai Lok'Wein (36.49, 30.36), Potions, Scrolls and Reagents
+  buy 16112 "Manual: Heavy Silk Bandage" npc 13476
+  buy 16113 "Manual: Mageweave Bandage" npc 13476
+  note Balai also sells the Expert First Aid book itself. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Blacksmithing - the north shore (rare drop)
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 53.96,15.18
+  goto 54.33,14.82
+  goto 54.36,13.95
+  goto 54.68,14.92
+  goto 54.98,16.33
+  goto 56.18,16.65
+  goto 56.88,16.48
+  goto 57.32,15.09
+  goto 57.5,14.7
+  goto 57.52,15.68
+  goto 58.32,16.07
+  goto 58.36,15.41
+  goto 58.44,16.82
+  goto 58.7,16.27
+  collect 251459 "Plans: Mithril Shortsword" optional
+  note Dropped only by the Mirefin Coastrunner (level 36), which patrols these points; the recipe drops nowhere else and has no vendor anywhere in the data.
+
+step Tailoring - the north-east shore (rare drop)
+
+  when skill Tailoring 1
+
+  loop
+  goto 53.78,15.15
+  goto 54.19,15.66
+  goto 54.57,15.53
+  goto 54.74,16.48
+  goto 56.2,22
+  goto 56.4,23
+  goto 57,21.2
+  goto 57,22.4
+  collect 254020 "Pattern: Earthen Silk Cuffs" optional
+  note Dropped only by the Mirefin Murloc (level 35), which patrols these points; the recipe drops nowhere else and has no vendor anywhere in the data.
+
+step Enchanting - the far south (rare drop)
+
+  when skill Enchanting 1
+
+  loop
+  goto 36.8,69
+  goto 38.2,66.8
+  goto 38.4,68.6
+  goto 39.4,64.4
+  goto 40.6,66
+  goto 41.6,73.2
+  goto 42.6,68.6
+  goto 43.8,64.4
+  goto 44.6,81.8
+  collect 249511 "Formula: Enchant 2H Weapon - Lesser Agility" optional
+  note Dropped only by the Firemane Scout (level 41), which patrols these points - but the same scout also drops it in the Barrens, so this is a dual-zone drop, not Dustwallow-exclusive. No quest takes it in the data.
+
+step Cooking - Bloodfen (rare drop)
+
+  when skill Cooking 1
+
+  loop
+  goto 31.26,66.01
+  goto 32.71,64.41
+  goto 33.07,64.46
+  goto 33.86,71.68
+  goto 36.31,66.1
+  goto 36.93,69.71
+  goto 37.54,67.84
+  collect 250184 "Recipe: Raptor Rouladen" optional
+  note Dropped only by the Bloodfen Lashtail (level 40), which patrols these points - but the same lashtail also drops it in the Barrens, so this is a dual-zone drop, not Dustwallow-exclusive. No quest takes it in the data.
+
+step Tailoring - the far south (rare drop)
+
+  when skill Tailoring 1
+
+  loop
+  goto 48.16,76.29
+  goto 48.59,74.62
+  goto 50.24,83.73
+  goto 50.35,81.37
+  goto 50.89,76.6
+  goto 51.53,81.56
+  goto 52.16,84.58
+  collect 254684 "Pattern: Stormcloth Headband" optional
+  note Dropped only by the Firemane Flamecaller (level 43), which patrols these points; the recipe drops nowhere else and has no vendor anywhere in the data.
+
+step No Leatherworking, Fishing, Engineering or Alchemy source in-zone
+
+  note Leatherworking, Fishing, Engineering and Alchemy have no recipe source physically in Dustwallow Marsh for a Horde player in the data - no servable in-zone vendor sells one (Alliance-held sources: Lindea Rabinne's line, Harggan, Nioma, Micha Yance) and no in-zone mob drops one - so this guide carries nothing for them. Polestar's own profession guides cover trainer-taught staples.
