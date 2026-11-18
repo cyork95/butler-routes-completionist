@@ -353,10 +353,14 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - Lines gated: 50 quest lines (`only Alliance`, composing as `only Paladin,Alliance` on the 3 paladin lines and `optional only Alliance` on the profession-gated accepts/turn-ins). 1 single-pre mini (`when onquest 5083`, neutral Hold - correctly left bare: the quest is shared). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). Shared lines for all 42 shared IDs stay bare.
 - Anomalies: none. Header removed.
 - Verification: forge lint 0 errors; warned quest-ID set identical to pre-edit baseline. Playtest `--honest` both factions: 0 stuck; Alliance outcome byte-identical per-persona vs baseline (full finding multiset match); Horde personas complete only shared lines with residue in accepted classes; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
-### azshara
-- file: azshara.guide
-- header: Alliance; contract: 52 (20 primary / 32 shared)
-- shared IDs: 3141, 3381, 3508, 3509, 3510, 3511, 3601, 3602, 3621, 5534, 5535, 5536, 6804, 6805, 8153, 8231, 8232, 8235, 8236, 8251, 8252, 8253, 8255, 8256, 8257, 86746, 86747, 8720, 91877, 92069, 94316, 97327
+### azshara (UNGATED 2026-11-18, Horde round)
+- file: azshara.guide (was Alliance primary)
+- contract: 52 (20 primary / 32 shared)
+- shared IDs: 3141, 3381, 3508, 3509, 3510, 3511, 3601, 3602, 3621, 5534, 5535, 5536, 6804, 6805, 8153, 8231, 8232, 8235, 8236, 8251, 8252, 8253, 8255, 8256, 8257, 86746, 86747, 8720, 91877, 92069, 94316, 97327 (per the Alliance census; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): the other 20 contract IDs (3461 + the 19 banked set-aside context).
+- Lines gated: 54 quest lines (`only Alliance`, composition appends to `optional` on 5141 ×2 + 89015). 1 soft-pre mini (`when onquest 3461`, pre Alliance-only uncontracted) gated at STEP level with `only Alliance` — the mini shares its step with the shared 8236 Ravenholdt mini, so the step was split first (shared mini stands alone, ungated). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none). Shared lines for all 32 shared IDs stay bare, class gates untouched.
+- Anomalies: none (one near-miss caught and fixed: the step-level gate initially covered the shared 8236 mini in the same step; split before commit). Header removed.
+- Verification: forge lint 0 errors; warned quest-ID set identical to pre-edit baseline. Playtest `--honest` both factions (Human/NightElf/Orc/Scourge, Rogue/Mage/Hunter/Warrior/Priest): Alliance findings identical in kind to baseline; Horde personas complete only the shared lines with residue only in R1/R5 expedition legs; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
 ### ungoro-crater
 - file: ungoro.guide
 - header: Alliance; contract: 42 (3 primary / 39 shared)

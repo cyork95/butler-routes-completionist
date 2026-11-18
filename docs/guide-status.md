@@ -410,6 +410,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions — 8 rares (1 sole-drop signature Joonho’s Mercy, 7 kill-note, incl. Varo’then core pointer; Feardred loops 3 pts), 46-pt treasure (13 + 12 solid chests + 21 mossy footlockers), 21 recipes (17 exclusive drops + 4 neutral-vendor)
+- [x] Faction ungating (Option A, 2026-11-17) - 54 Alliance-only lines + 1 soft-pre mini gated (step split for the shared 8236 mini), header dropped, 0 dead lines both factions
 
 ### Un'Goro Crater — contested (Kalimdor)
 
@@ -726,9 +727,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Azshara — Horde
 
-- [ ] Census (reconcile against 30 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (reconcile against 30 set-asides banked by the Alliance census) - 82 zone-1447 records (23 Horde / 19 Alliance / 40 null by races mask) + 13 off-key ledger IDs = 95 with the Alliance ledger, none missing; 22 Horde IN (band 44–50), 8 OUT argued, docs/azshara-horde-census.md
+- [x] Core guide - azshara-horde.guide (22 quests, band 44–50, west hub + east camp + 4 expedition legs)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas in band, 0 stuck; residue R1 expedition legs only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
