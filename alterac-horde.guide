@@ -1,0 +1,504 @@
+# Alterac Mountains (Horde) - Completionist (pack butler-routes-completionist, v1).
+# The Horde side of contested Alterac: the Tarren Mill elixir and battle
+# chains, the Durnholde rescue, the Dalaran and Crown work, the Shaman
+# elements, the cooking bisque and the venom line (band 20-45; L55 2938
+# and the L50-52 Shaman chain ride as noted exceptions). Every accept is
+# on key 1416; Hillsbrad, Arathi, Barrens, Durotar, Thunder Bluff,
+# Orgrimmar, Undercity and Thousand Needles legs ride honest expedition
+# steps below. See docs/alterac-horde-census.md.
+guide butler-routes-completionist/alterac-horde
+title Alterac Mountains (Horde)
+levels 20-45
+zone Alterac Mountains
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Tarren Mill, mustering
+
+  note Tarren Mill is the Horde hub: High Executor Darthalia (61.1, 82.1), Apothecary Lydon (60.1, 80.7) and Krusk (62.2, 82.5) hold the rise. Take the hub's asks here; the foothills fill them. The Kolkar work waits on the Barrens pre below; the Crown work waits on a Silverpine pre; the venom line's middle links live outside this tracker's list.
+  goto 61.1,82.1
+  accept 496 -- Elixir of Suffering - Apothecary Lydon; ten Gray Bear Tongues and Creeper Ichor, south
+  note 496's tongues and ichor fill on the southern sweep below - hand them in on the return.
+  accept 501 -- Elixir of Pain - Apothecary Lydon; ten Mountain Lion Blood, south
+  note 501's blood fills on the southern sweep below - hand it in on the return.
+  accept 527 -- Battle of Hillsbrad - High Executor Darthalia; farmers, farmhands and Ray, south; Getz rides Hillsbrad, late
+  note 527's south-farm kills fill on the southern sweep below - Getz is a Hillsbrad touch, noted on the expedition leg.
+  accept 549 -- WANTED: Syndicate Personnel - the WANTED board; ten Rogues and ten Watchmen, Hillsbrad camp, late
+  note 549's board stands in Tarren Mill - its camp fills on the Hillsbrad leg below; 566 opens on the return.
+  accept 567 -- Dangerous! - the Dangerous! board; four named Hillsbrad kills, late
+  note 567's board stands in Tarren Mill - its four fill on the Hillsbrad town leg below.
+  accept 552 -- Helcular's Revenge - Novice Thaivand; Helcular's Rod off the Yetis, west
+  note 552's rod fills on the western sweep below - 553 opens on the return.
+  accept 556 -- Stone Tokens - Keeper Bel'varil; ten Worn Stone Tokens off the Dalaran guard, west
+  note 556's tokens fill on the western sweep below - 557 opens on the return.
+  accept 544 -- Prison Break In - Magus Voidglare; four Bloodstones off the Durnholde traitors, north
+  note 544's bloodstones fill on the northern sweep below - 545 opens on the return.
+  accept 1361 -- Regthar Deathgate - Krusk; speak with Regthar in the Barrens, late
+  note 1361's turn-in is a Barrens expedition - the leg below carries it.
+  accept 1066 -- Blood of Innocents - Apothecary Lydon; five Vials of Innocent Blood, Hillsbrad camp, late
+  note 1066 needs 1065 (Mulgore-accept, uncontracted) done - take it here if that leg sent you in; holders use the mini below.
+  accept 2480 only Rogue -- Hinott's Assistance - Serge Hinott; wait for the cure at the Hillsbrad point, late
+  note 2480 needs 2479 (Orgrimmar-accept, uncontracted) done and Rogue hands - take it here if that leg sent you in; holders use the mini below.
+  accept 535 -- Valik - Henchman Valik's camp; a mug of Southshore Stout
+  note 535 rides its parent 533's line - take it here; its stout fills on the western sweep below.
+  accept 518 -- The Crown of Will - Melisara; ten Crushridge Maulers, north-east
+  note 518 needs 495 (Silverpine-accept, uncontracted) done - take it here if that leg sent you in; its maulers fill on the northern sweep below.
+  accept 498 -- The Rescue - Krusk; Drull and Tog'thar in Durnholde cages, Hillsbrad east, late
+  note 498's cages sit across the Hillsbrad line - take it here; the rescue leg below carries it; 533 opens on its return.
+  accept 509 -- Elixir of Agony - Apothecary Lydon; six Mudsnout Blossoms, Hillsbrad, late
+  note 509's blossoms sit across the Hillsbrad line - take it here; the south-center leg below carries it; 513 opens on its return.
+  accept 517 -- Elixir of Agony - Apothecary Lydon; a Keg of Shindigger Stout, Dun Garok, late
+  note 517 needs 515 (Undercity-accept, uncontracted) done - take it here if that leg sent you in; its keg fills on the Dun Garok leg below.
+  accept 547 -- Humbert's Sword - Deathguard Humbert; the sword off the Dun Garok line, late
+  note 547's sword fills on the Dun Garok leg below - hand it in on the return.
+  accept 676 -- The Hammer May Fall - Tallow; Boulderfist Ogres in Arathi, late
+  note 676's ogres and turn-in sit in Arathi - the expedition leg below carries it.
+  accept 2934 -- Undamaged Venom Sac - Apothecary Lydon; the sac off the Hinterlands Broodguard, late
+  note 2934 needs 2933 (Hinterlands, starter-unknown, uncontracted) - take it here if that trail sent you in; its sac fills on the Hinterlands leg below.
+  note 2938 waits on uncontracted 2937 (Durotar-accept) - take it at the handoff below if that leg sent you in; its turn-in rides the Undercity leg.
+
+step Tarren Mill, the Lydon pre
+
+  when onquest 1065
+  goto 60.1,80.7
+  turnin 1065 -- Journey to Tarren Mill - Zamah's word to Apothecary Lydon
+  accept 1066 -- Blood of Innocents - Apothecary Lydon; five Vials of Innocent Blood, Hillsbrad camp, late
+  note Holders of 1065 turn in here first, then take 1066 on the same terms as the muster above. 1065 accepts in Mulgore and lives outside this tracker's list.
+
+step Tarren Mill, the Hinott pre
+
+  when onquest 2479
+  goto 60.3,80.9
+  turnin 2479 -- Hinott's Assistance - Rumstag's word to Serge Hinott
+  accept 2480 -- Hinott's Assistance - Serge Hinott; wait for the cure at the Hillsbrad point, late
+  note Holders of 2479 turn in here first, then take the Rogue-only 2480 on the same terms as the muster above. 2479 accepts in Orgrimmar and lives outside this tracker's list.
+
+step South - the border farms
+
+  collect 3476 x10 @51.85,69.12 era -- ten Gray Bear Tongues off the bears for Apothecary Lydon, south
+  note The bears range the south around (36-55, 69-99) - work the hills for all ten tongues.
+  collect 3477 @51.3,74.5 era -- Creeper Ichor off the Forest Moss Creepers for Apothecary Lydon, south
+  note The creepers work around (51-55, 70-75) - take the ichor with the tongues.
+  collect 3496 x10 @39,99.4 era -- ten Mountain Lion Blood off the lions for Apothecary Lydon, far south
+  note The lions range the far south around (29-46, 88-99) - work the flats for all ten vials.
+  complete 527 @25,98.9 era -- six Hillsbrad Farmers for High Executor Darthalia, on the border farms
+  complete 527 @27.8,98.7 era -- Farmer Ray for High Executor Darthalia, on the border farms
+  note The border farms sit right on the line around (24-28, 98-99) - Getz works the Hillsbrad side and rides the expedition leg below.
+  collect 3692 x30 @25,98.9 era -- thirty Hillsbrad Human Skulls off the farmers for Deathguard Samsa, on the border farms
+  note The skulls drop off the border farmers with no rate in the data - work the farms for all thirty; hand them in on the return.
+
+step Tarren Mill, first return
+
+  goto 60.1,80.7
+  turnin 496 -- Elixir of Suffering - the tongues and ichor to Apothecary Lydon
+  accept 499 -- Elixir of Suffering - Apothecary Lydon; the elixir to Umpi
+  note 499 waited on 496's turn-in - Umpi stands beside Lydon, so hand it straight over.
+  turnin 499 -- Elixir of Suffering - the elixir to Umpi
+  turnin 501 -- Elixir of Pain - the blood to Apothecary Lydon
+  accept 502 -- Elixir of Pain - Apothecary Lydon; feed the elixir to Stanley, far south-west
+  note 502 waited on 501's turn-in - Stanley waits on the western sweep below.
+  turnin 527 -- Battle of Hillsbrad - the farm dead to High Executor Darthalia
+  accept 528 -- Battle of Hillsbrad - High Executor Darthalia; fifteen Hillsbrad Peasants, Southshore, late
+  note 528 waited on 527's turn-in - its peasants fill on the Hillsbrad leg below.
+  accept 546 -- Souvenirs of Death - Deathguard Samsa; thirty Hillsbrad Human Skulls
+  note 546 waited on 527's turn-in - its skulls fill on the trip below; hand them in on the return after that.
+
+step South - the skull trip
+
+  collect 3692 x30 @25,98.9 era -- thirty Hillsbrad Human Skulls off the farmers for Deathguard Samsa, on the border farms
+  note The farmers work the border around (24-28, 98-99) with no rate in the data - work them for all thirty; hand them in on the next return.
+
+step Hillsbrad - Durnholde east and the camp
+
+  zone Hillsbrad Foothills
+
+  complete 498 @75.33,41.5 era -- free Drull at Durnholde for Krusk, east
+  complete 498 @79.79,39.65 era -- free Tog'thar at Durnholde for Krusk, east
+  note The locked balls and chains hold two Durnholde points east - 498's rescues are here.
+  complete 549 @65.36,46.57 era -- ten Syndicate Rogues for High Executor Darthalia, at the camp
+  complete 549 @65.78,48.1 era -- ten Syndicate Watchmen for High Executor Darthalia, at the camp
+  note The Syndicate camp works around (65-67, 45-48) - clear both kinds for the poster; 566's Baron opens on the return.
+  collect 5620 @64.85,47.08 era -- Vials of Innocent Blood off the Shadow Mages for Apothecary Lydon, at the camp
+  note The Shadow Mages share the camp at 80% - take the vials for 1066 here too.
+  zone Alterac Mountains
+
+step Tarren Mill, the rescue return
+
+  goto 62.2,82.5
+  turnin 498 -- The Rescue - Drull and Tog'thar free, to Krusk
+  accept 533 -- Infiltration - Krusk; a Syndicate Missive from Durnholde, west
+  note 533 waited on its 498 preAny - take it here; its missive fills on the western sweep below.
+  turnin 549 -- WANTED: Syndicate Personnel - the camp cleared, to High Executor Darthalia
+  accept 566 -- WANTED: Baron Vardus - the WANTED board; kill Baron Vardus, north-east
+  note 566 waited on its 549 preAny - Vardus holds five points north-east (47-60, 17-43) at 100%; take the head on the trip below.
+  turnin 546 -- Souvenirs of Death - the skulls to Deathguard Samsa
+  note 546's skulls filled on the border trip above - hand them in here.
+  goto 60.1,80.7
+  turnin 1066 -- Blood of Innocents - the vials to Apothecary Lydon
+  accept 1067 -- Return to Thunder Bluff - Apothecary Lydon; Zamah waits in Thunder Bluff, late
+  note 1067 waited on 1066's turn-in - its turn-in is a Thunder Bluff expedition, late.
+
+step West - Durnholde and the Dalaran camp
+
+  collect 3601 @47.68,81.86 era -- a Syndicate Missive off the Footpads for Krusk, west
+  note The Syndicate works Durnholde around (47-49, 81-87) at 33% - take the missive.
+  collect 3708 @37.9,96.8 era -- Helcular's Rod off the Cave Yetis for Novice Thaivand, far west
+  note The Yetis range the far west around (29-39, 52-99) at 6% - work the hills for the rod.
+  collect 3714 x10 @17.66,83.59 era -- ten Worn Stone Tokens off the Dalaran guard for Keeper Bel'varil, west
+  note The Dalaran camp holds around (10-28, 71-84) - the Guard drops at 49%, the Theurgist at 47%; take all ten.
+  collect 3691 @16.8,89.4 era -- the Bloodstone Wedge off Kegan Darkmar for Magus Voidglare, west
+  collect 3689 @19.5,90 era -- the Bloodstone Marble off Ricter for Magus Voidglare, west
+  collect 3690 @19.6,90.9 era -- the Bloodstone Shard off Alina for Magus Voidglare, west
+  collect 3688 @19.3,91.1 era -- the Bloodstone Oval off Dermot for Magus Voidglare, west
+  note The four turncoats hold single points around (16-20, 89-91) at 100% each - take all four stones.
+  goto 57.17,69.51
+  turnin 535 -- Valik - the stout to Henchman Valik
+  note 535 closes at Valik's camp - the stout came off the Footpad above.
+  goto 27.2,99.3
+  turnin 502 -- Elixir of Pain - the elixir to Stanley
+  note Stanley waits at the far south-west corner - feed him on the way back.
+  goto 37.29,19.83
+  collect 3712 x10 @37.29,19.83 era -- ten Turtle Meat off Cranky Benj for Christoph Jeffcoat, north-west
+  note Benj holds the single point at 17%; the Snapjaws below share the drop.
+  collect 3712 @14.22,53.03 era -- more Turtle Meat off the Snapjaws for Christoph Jeffcoat, west
+  note The Snapjaws work the shore around (10-22, 53-79) at 29% - finish the ten here if Benj left any short.
+
+step Tarren Mill, second return
+
+  goto 62.2,82.5
+  turnin 533 -- Infiltration - the missive to Krusk
+  note The Gol'dir chain opens here - 503 waits on this turn-in.
+  accept 503 -- Gol'dir - Krusk; the Rusted Iron Key at Durnholde, north
+  note 503 waited on 533's turn-in - its key fills on the northern trip below.
+  goto 62.9,81.4
+  turnin 552 -- Helcular's Revenge - the rod to Novice Thaivand
+  accept 553 -- Helcular's Revenge - Novice Thaivand; charge the rod at the three Flames, west
+  note 553 waited on 552's turn-in - its flames fill on the return trip below.
+  goto 60.6,81.3
+  turnin 556 -- Stone Tokens - the tokens to Keeper Bel'varil
+  accept 557 -- Bracers of Binding - Keeper Bel'varil; four Bracers of Earth Binding off the Elemental Slaves, west
+  note 557 waited on 556's turn-in - its bracers fill on the return trip below.
+  turnin 544 -- Prison Break In - the stones to Magus Voidglare
+  accept 545 -- Dalaran Patrols - Magus Voidglare; six Summoners and twelve Slaves, west
+  note 545 waited on 544's turn-in - its Dalaran fills on the return trip below; 92434 (hillsbrad-horde) follows it - noted, not duplicated. 545's Hillsbrad lead-in 93680 (Key to the City, Hillsbrad-accept, uncontracted) is named, not routed.
+
+step West - the return sweep
+
+  complete 553 @40,91 era -- charge the Rod at the Flame of Azel for Novice Thaivand, west
+  complete 553 @40.2,89.3 era -- charge the Rod at the Flame of Veraz for Novice Thaivand, west
+  complete 553 @37.55,66.24 era -- charge the Rod at the Flame of Uzel for Novice Thaivand, west
+  note The three Flames hold single points west - charge the rod at each.
+  collect 3715 x4 @10.12,78.2 era -- four Bracers of Earth Binding off the Elemental Slaves for Keeper Bel'varil, west
+  note The Slaves work the Dalaran camp at 80% - take all four.
+  complete 545 @10.95,78.67 era -- six Dalaran Summoners for Magus Voidglare, west
+  complete 545 @10.77,80.58 era -- twelve Elemental Slaves for Magus Voidglare, west
+  note The Summoners (22%) and Slaves share the camp - clear them together.
+  goto 62.9,81.4
+  turnin 553 -- Helcular's Revenge - the rod charged, to Novice Thaivand
+  goto 60.6,81.3
+  turnin 557 -- Bracers of Binding - the bracers to Keeper Bel'varil
+  goto 60.3,82.8
+  turnin 545 -- Dalaran Patrols - the Dalaran dead to Magus Voidglare
+
+step North - Durnholde and Gol'dir's hold
+
+  collect 3704 @60.4,43.8 era -- the Rusted Iron Key off Jailor Borhuin for Krusk, north
+  note Borhuin holds three Durnholde points at 100% - take the key.
+  complete 503 @60.6,43.8 era -- find where Gol'dir is being held for Krusk, north
+  note The hold sits at the data-placed point - Gol'dir takes his own turn-in below.
+  goto 59.96,43.74
+  turnin 503 -- Gol'dir - the key and the word to Gol'dir himself
+  accept 506 -- Blackmoore's Legacy - Gol'dir; his word goes back to Krusk
+  note 506 waited on 503's turn-in - take it here at Gol'dir's side.
+
+step Tarren Mill, the Gol'dir return
+
+  goto 62.2,82.5
+  turnin 506 -- Blackmoore's Legacy - Gol'dir's word to Krusk
+  accept 507 -- Lord Aliden Perenolde - Krusk; kill Perenolde at Durnholde, Elysa takes the word
+  note 507 waited on 506's turn-in - take it here; its kill fills on the trip below.
+  complete 507 @39.32,14.58 era -- Lord Aliden Perenolde for Gol'dir, at Durnholde
+  note Perenolde holds the single Durnholde point - 507's kill is here; Elysa takes the turn-in below.
+  goto 39.3,14.31
+  turnin 507 -- Lord Aliden Perenolde - Perenolde dead, to Elysa
+  accept 508 -- Taretha's Gift - Elysa; Taretha's pendant to Krusk
+  note 508 waited on 507's turn-in - it carries no objectives, so hand it over on the return.
+  goto 62.2,82.5
+  turnin 508 -- Taretha's Gift - the pendant to Krusk
+  note The Gol'dir chain closes here - the Vale's north work is the Crown's.
+
+step North-east - Vardus and the Maulers
+
+  collect 3626 @47.83,17.11 era -- the Head of Baron Vardus for High Executor Darthalia, north-east
+  note Vardus holds five points around (47-60, 17-43) at a 100% head rate - take the head.
+  collect 2254 @43.25,50.17 era -- ten Crushridge Maulers for Melisara, north-east
+  note The Maulers work the hills around (38-47, 38-52) - take all ten for 518 here too.
+
+step Tarren Mill, the Vardus return
+
+  goto 61.1,82.5
+  turnin 566 -- WANTED: Baron Vardus - the head to High Executor Darthalia
+  goto 61.5,82.5
+  turnin 518 -- The Crown of Will - ten Maulers to Melisara
+  accept 519 -- The Crown of Will - Melisara; Targ, Muckrake and Glommus heads, north-east
+  note 519 waited on 518's turn-in - its heads fill on the trip below.
+
+step North-east - the three heads
+
+  collect 3550 @39.57,52.89 era -- Targ's Head for Melisara, north-east
+  collect 3551 @38.65,46.75 era -- Muckrake's Head for Melisara, north-east
+  collect 3552 @39.5,41.82 era -- Glommus's Head for Melisara, north-east
+  note The three hold single points around (38-40, 41-53) at 100% each - 519's heads are here.
+
+step Tarren Mill, the heads return
+
+  goto 61.5,82.5
+  turnin 519 -- The Crown of Will - the three heads to Melisara
+  accept 520 -- The Crown of Will - Melisara; Mug'thol's head and the Crown, center
+  note 520 waited on 519's turn-in - its pair fills on the trip below.
+
+step Center - Mug'thol
+
+  collect 3553 @35.68,54.25 era -- Mug'thol's Head for Melisara, center
+  collect 3554 @35.68,54.25 era -- the Crown of Will off Mug'thol for Melisara, center
+  note Mug'thol holds the single point at 100% for both - 520's pair is here.
+  goto 61.5,82.5
+  turnin 520 -- The Crown of Will - the head and the Crown to Melisara
+  accept 521 -- The Crown of Will - Melisara; the Crown to Sharlindra in the Undercity, late
+  note 521 waited on 520's turn-in - its turn-in is an Undercity expedition, late.
+
+step Hillsbrad - the south-center run
+
+  zone Hillsbrad Foothills
+
+  collect 3502 x6 @62.85,62.14 era -- six Mudsnout Blossoms off the blossom objects for Apothecary Lydon, center
+  note The blossoms hold three points around (62-64, 60-62) at 100% - 509's objective is here.
+  complete 2480 @61.57,19.21 era -- wait for Serge Hinott's cure for Serge Hinott, south
+  note The cure event sits at the data-placed point - 2480 closes back at Tarren Mill.
+  zone Alterac Mountains
+
+step Tarren Mill, the south-center return
+
+  goto 60.1,80.7
+  turnin 509 -- Elixir of Agony - the blossoms to Apothecary Lydon
+  accept 513 -- Elixir of Agony - Apothecary Lydon; the Composite to Master Apothecary Faranell in the Undercity, late
+  note 513 waited on 509's turn-in - its turn-in is an Undercity expedition, late.
+  goto 60.3,80.9
+  turnin 2480 -- Hinott's Assistance - the cure waited out, to Serge Hinott
+
+step Hillsbrad - Southshore, first trip
+
+  zone Hillsbrad Foothills
+
+  complete 528 @29.77,43.77 era -- fifteen Hillsbrad Peasants for High Executor Darthalia, Southshore
+  note The peasants work Southshore around (29-30, 40-43) - farm all fifteen.
+  complete 527 @35,38.6 era -- Farmer Getz for High Executor Darthalia, Southshore fields
+  note Getz works three points around (35, 38-40) - 527's Hillsbrad touch is here.
+  zone Alterac Mountains
+
+step Tarren Mill, Southshore return
+
+  goto 61.1,82.5
+  turnin 528 -- Battle of Hillsbrad - the peasants to High Executor Darthalia
+  accept 529 -- Battle of Hillsbrad - High Executor Darthalia; Verringtan, Apprentices and the Shipment, Southshore
+  note 529 waited on 528's turn-in - its town targets fill on the trip below.
+
+step Hillsbrad - Southshore town, second trip
+
+  zone Hillsbrad Foothills
+
+  complete 529 @32.11,44.2 era -- Blacksmith Verringtan for High Executor Darthalia, Southshore
+  complete 529 @31.61,43.9 era -- four Hillsbrad Apprentice Blacksmiths for High Executor Darthalia, Southshore
+  note Verringtan holds the single point; the apprentices work around (31-32, 43-47).
+  collect 3564 @32.01,45.45 era -- the Shipment of Iron for High Executor Darthalia, Southshore
+  note The shipment sits at the single Southshore point - 529's iron is here.
+  complete 567 @29.51,42.1 era -- Clerk Horrace Whitesteed for High Executor Darthalia, Southshore
+  complete 567 @32.62,39.79 era -- Citizen Wilkes for High Executor Darthalia, Southshore
+  note Horrace and Wilkes hold single town points - half of 567's four is here; Hackett and Kalaba ride the southern leg below.
+  zone Alterac Mountains
+
+step Tarren Mill, town return
+
+  goto 61.1,82.5
+  turnin 529 -- Battle of Hillsbrad - Verringtan, the apprentices and the iron to High Executor Darthalia
+  accept 532 -- Battle of Hillsbrad - High Executor Darthalia; Burnside, Councilmen, the Proclamation and the Registry, Southshore
+  note 532 waited on 529's turn-in - its town targets fill on the trip below.
+
+step Hillsbrad - Southshore town, third trip
+
+  zone Hillsbrad Foothills
+
+  complete 532 @29.67,41.64 era -- Magistrate Burnside for High Executor Darthalia, Southshore
+  complete 532 @29.47,43.13 era -- five Hillsbrad Councilmen for High Executor Darthalia, Southshore
+  note Burnside holds the single point; the councilmen work around (29-31, 39-43).
+  complete 532 @29.73,41.75 era -- destroy the Hillsbrad Proclamation for High Executor Darthalia, Southshore
+  collect 3657 @29.52,41.53 era -- the Hillsbrad Town Registry for High Executor Darthalia, Southshore
+  note The proclamation and the registry share the town square - 532's objects are here.
+  zone Alterac Mountains
+
+step Tarren Mill, the council return
+
+  goto 61.1,82.5
+  turnin 532 -- Battle of Hillsbrad - Burnside, the council, the proclamation and the registry to High Executor Darthalia
+  accept 539 -- Battle of Hillsbrad - High Executor Darthalia; Foreman Bonds and Hillsbrad Miners, south
+  note 539 waited on 532's turn-in - its southern targets fill on the trip below.
+
+step Hillsbrad - the southern mines
+
+  zone Hillsbrad Foothills
+
+  complete 539 @31.21,56.01 era -- Foreman Bonds for High Executor Darthalia, south
+  complete 539 @27.79,54.14 era -- ten Hillsbrad Miners for High Executor Darthalia, south
+  note Bonds holds the single point; the miners work around (26-28, 51-56).
+  complete 567 @32.81,52.7 era -- Miner Hackett for High Executor Darthalia, south
+  complete 567 @35.88,46.57 era -- Farmer Kalaba for High Executor Darthalia, center
+  note Hackett and Kalaba hold single points - 567 closes here.
+  zone Alterac Mountains
+
+step Tarren Mill, the mines return
+
+  goto 61.1,82.5
+  turnin 539 -- Battle of Hillsbrad - Bonds and the miners to High Executor Darthalia
+  accept 541 -- Battle of Hillsbrad - High Executor Darthalia; Dun Garok Mountaineers, Riflemen, Priests and Captain Ironhill, north-east
+  note 541 waited on 539's turn-in - Dun Garok fills on the trip below.
+  turnin 567 -- Dangerous! - the four dead to High Executor Darthalia
+
+step Hillsbrad - Dun Garok, the fortress leg
+
+  zone Hillsbrad Foothills
+
+  complete 541 @68.87,79.54 era -- eight Dun Garok Mountaineers for High Executor Darthalia, at Dun Garok
+  complete 541 @69.34,76.58 era -- four Dun Garok Riflemen for High Executor Darthalia, at Dun Garok
+  complete 541 @70.7,75.78 era -- two Dun Garok Priests for High Executor Darthalia, at Dun Garok
+  complete 541 @71.47,79.78 era -- Captain Ironhill for High Executor Darthalia, at Dun Garok
+  note Dun Garok sprawls on the Hillsbrad side around (68-73, 75-80) - work the fortress for all four kinds; the Arathi-side points are noted, not used.
+  collect 3693 x1 @68.87,79.54 era -- Humbert's Sword off the Dun Garok line for Deathguard Humbert, at Dun Garok
+  note The sword drops at 8% across the fortress line - farm it with 541's kills.
+  collect 3517 @71.53,80.88 era -- the Keg of Shindigger Stout off the Dun Garok stocks for Apothecary Lydon, at Dun Garok
+  note The keg sits at the Hillsbrad-side Dun Garok point - 517's keg is here.
+  zone Alterac Mountains
+
+step Tarren Mill, the fortress return
+
+  goto 61.1,82.5
+  turnin 541 -- Battle of Hillsbrad - Dun Garok cleared, to High Executor Darthalia
+  accept 550 -- Battle of Hillsbrad - High Executor Darthalia; the Sealed Commendation to Varimathras in the Undercity, late
+  note 550 waited on 541's turn-in - its turn-in is an Undercity expedition, late.
+  goto 61.6,82.1
+  turnin 547 -- Humbert's Sword - the sword to Deathguard Humbert
+  goto 60.1,80.7
+  turnin 517 -- Elixir of Agony - the keg to Apothecary Lydon
+  accept 524 -- Elixir of Agony - Apothecary Lydon; place the Tainted Keg for the Rug
+  note 524 waited on 517's turn-in - it carries no objectives beyond the Rug itself.
+  goto 61.7,80.3
+  turnin 524 -- Elixir of Agony - the keg placed, to the Rug
+
+step Bath'rah the Windwatcher - the Shaman chain
+
+  only Shaman
+
+  goto 80.5,66.92
+  note Bath'rah holds the elements chain for Shaman: 8411 (Air, Earth, Fire, Water), 8412 (Spider Eyes, Thick Claws), 8413 (voodoo feathers). None of the reagents names a placed source anywhere in the data - have them all in your bags: Elemental Air 7067, Elemental Earth 7066, Elemental Fire 7068, Elemental Water 7070, Bloodshot Spider Eye 20610 x8, Thick Black Claw 20611 x8, Amber/Green/Blue Voodoo Feather 20606/20608/20607 x2 each.
+  accept 8411 only Shaman -- Mastering the Elements - Bath'rah the Windwatcher; the four elements
+  turnin 8411 only Shaman -- Mastering the Elements - the elements to Bath'rah the Windwatcher
+  accept 8412 only Shaman -- Spirit Totem - Bath'rah the Windwatcher; eyes and claws
+  turnin 8412 only Shaman -- Spirit Totem - the pieces to Bath'rah the Windwatcher
+  accept 8413 only Shaman -- Da Voodoo - Bath'rah the Windwatcher; the voodoo feathers
+  turnin 8413 only Shaman -- Da Voodoo - the feathers to Bath'rah the Windwatcher
+  accept 79365 only Orc,Tauren,Shaman -- With Wind Beneath Your Wings - Bath'rah the Windwatcher; Rau Cliffrunner waits in Thousand Needles, late
+  note 79365 needs no pre - take it here if the Shaman holds Orc or Tauren blood; its turn-in is a Thousand Needles expedition, late.
+
+step Tarren Mill - the bisque (Cooking)
+
+  when skill Cooking 1
+
+  goto 61.1,80.7
+  accept 7321 optional -- Soothing Turtle Bisque - Christoph Jeffcoat; ten Turtle Meat and Soothing Spices
+  note 7321 needs the cook's hands (skill 185) - skip it without them. Its twin 555 is Alliance-only and lives in Hillsbrad - not this guide's.
+  loop
+  goto 37.29,19.83
+  goto 14.22,53.03
+  collect 3712 x10 -- ten Turtle Meat off Benj and the Snapjaws for Christoph Jeffcoat, north-west
+  note Benj holds the single point at 17%; the Snapjaws work the shore around (10-28, 53-79) at 29% - finish the ten across both.
+  goto 61.1,80.7
+  buy 3713 "Soothing Spices"
+  note The Soothing Spices come from Jeffcoat himself - buy them on the turn-in.
+  turnin 7321 optional -- Soothing Turtle Bisque - the meat and spices to Christoph Jeffcoat
+
+step Expedition - the Barrens, Regthar's word
+
+  zone The Barrens
+
+  turnin 1361 -- Regthar Deathgate - Krusk's word to Regthar Deathgate @45.34,28.41 era
+  note 1362 (The Kolkar of Desolace, Barrens-accept) follows Regthar and lives outside this tracker's list - stop here. The Desolace guide turns it in at Felgur.
+  zone Alterac Mountains
+
+step Expedition - Thunder Bluff, Zamah's toxin
+
+  zone Thunder Bluff
+
+  turnin 1067 -- Return to Thunder Bluff - Lydon's Toxin to Apothecary Zamah @22.81,20.89 era
+  note 1066's line closes at Zamah's side - the Vale's west work is done all but the capitals.
+  zone Alterac Mountains
+
+step Expedition - the Hinterlands, the venom sac
+
+  zone The Hinterlands
+
+  collect 9322 @29.48,70.66 era -- an Undamaged Venom Sac off the Witherbark Broodguard for Apothecary Lydon, Hinterlands
+  note The Broodguard works Hinterlands around (29-37, 63-74) at 10% - 2934's sac is here.
+  zone Alterac Mountains
+
+step Tarren Mill, the sac delivered
+
+  goto 60.1,80.7
+  turnin 2934 -- Undamaged Venom Sac - the sac to Apothecary Lydon
+  accept 2935 -- Consult Master Gadrin - Apothecary Lydon; speak with Master Gadrin in Durotar, late
+  note 2935 waited on 2934's turn-in - its turn-in is a Durotar expedition, late. Run it before the Undercity leg below.
+
+step Expedition - Durotar, Gadrin's word
+
+  zone Durotar
+
+  turnin 2935 -- Consult Master Gadrin - Lydon's word to Master Gadrin @55.95,74.72 era
+  note 2936 (The Spider God, Durotar-accept) follows Gadrin and lives outside this tracker's list - stop here.
+  zone Alterac Mountains
+
+step Tarren Mill, the venom handoff
+
+  goto 60.1,80.7
+  accept 2938 -- Venom to the Undercity - Apothecary Lydon; Faranell's Parcel to the Undercity, late
+  note 2938 needs 2937 (Durotar-accept, uncontracted - 2936/2937 Durotar pair noted for a future Durotar round) done - take it here if that leg sent you in; its turn-in rides the Undercity leg below.
+
+step Expedition - the Undercity word
+
+  zone Undercity
+
+  turnin 513 -- Elixir of Agony - the Composite to Master Apothecary Faranell @48.82,69.28 era
+  turnin 550 -- Battle of Hillsbrad - the Sealed Commendation to Varimathras @48.82,69.28 era
+  turnin 2938 -- Venom to the Undercity - Faranell's Parcel to Master Apothecary Faranell @48.82,69.28 era
+  turnin 521 -- The Crown of Will - the Crown to Sharlindra in the Undercity @48.82,69.28 era
+  note Four turn-ins ride one Undercity trip: 513 and 550 close their lines here; 2938 closes the venom line (its Durotar pre stays off-tracker); 521 closes the Crown line. 515 (Undercity-accept) follows Faranell and lives outside this tracker's list - stop here.
+  zone Alterac Mountains
+
+step Expedition - Arathi, Drum Fel's word
+
+  zone Arathi Highlands
+
+  complete 676 @31.05,43.67 era -- eight Boulderfist Ogres for Tallow, Arathi
+  complete 676 @31.05,43.67 era -- ten Boulderfist Enforcers for Tallow, Arathi
+  note The Boulderfist work Arathi around (31, 41-48) - clear both kinds.
+  turnin 676 -- The Hammer May Fall - the ogres dead, to Drum Fel @74.24,33.92 era
+  note 677 (Arathi-accept) follows Drum Fel and lives outside this tracker's list - stop here.
+  zone Alterac Mountains
+
+step Expedition - Thousand Needles, Rau's wings
+
+  zone Thousand Needles
+
+  turnin 79365 -- With Wind Beneath Your Wings - Bath'rah's word to Rau Cliffrunner @46.14,51.71 era
+  note Rau waits at Freewind Post - the Shaman's wings close here. The Vale is done.
+  zone Alterac Mountains
