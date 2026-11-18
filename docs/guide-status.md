@@ -331,6 +331,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 
 - [x] Census
 - [x] Core guide - `dustwallow.guide`
+- [x] Faction ungating (Option A, 2026-11-17) - 51 Alliance-only lines gated (incl. `only Paladin,Alliance` composition), header dropped, 0 dead lines both factions
 - [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1/R2/R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
@@ -664,9 +665,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Dustwallow Marsh — Horde
 
-- [ ] Census (reconcile against 15 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 69 zone-1445 records (27 Alliance / 15 Horde / 24 neutral + 1 Human-only); 5 Horde IN, 10 OUT above-band, docs/dustwallow-horde-census.md
+- [x] Core guide - dustwallow-horde.guide (5 quests, band 30-45, 2 dedicated soft-pre minis)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas (Orc/Shaman/Hunter), 0 stuck, residue R1 only (Barrens expedition leg)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

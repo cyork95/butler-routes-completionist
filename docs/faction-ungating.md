@@ -284,10 +284,19 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: moonglade.guide (druid class guide)
 - header: shared-only; contract: 19 (0 primary / 19 shared)
 - shared IDs: 29, 272, 5061, 5924, 5929, 5931, 6122, 6125, 94912, 98394, 98396, 98731, 98341, 98404, 98738, 98397, 9052, 9051, 9053
-### dustwallow-marsh
-- file: dustwallow.guide
-- header: Alliance; contract: 45 (21 primary / 24 shared)
+### dustwallow-marsh (UNGATED this round - see above)
+- file: dustwallow.guide (was Alliance primary)
+- contract: 45 (21 primary / 24 shared)
 - shared IDs: 1203, 1206, 1218, 1288, 1948, 1949, 1952, 1954, 1955, 1956, 1957, 1958, 2846, 4961, 4976, 6607, 94258, 94270, 94282, 94294, 94306, 98205, 98215, 98231
+
+### dustwallow (UNGATED 2026-11-18, Horde round)
+- file: dustwallow.guide (was Alliance primary)
+- contract: 45 (21 primary / 24 shared)
+- shared IDs: 1203, 1206, 1218, 1288, 1948, 1949, 1952, 1954, 1955, 1956, 1957, 1958, 2846, 4961, 4976, 6607, 94258, 94270, 94282, 94294, 94306, 98205, 98215, 98231 (per the Alliance census; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): the other 21 contract IDs.
+- Lines gated: 51 quest lines (`only Alliance`, incl. `only Paladin,Alliance` composition on the Paladin pair 81765; the file carried no pre-existing faction gates, only class gates). 0 soft-pre minis (file has no `when onquest` lines), 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). Class-gated shared lines stay bare (Mage x8, Warlock x2).
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 23 warnings, warned quest-ID set byte-identical to the pre-ungating baseline. Playtest `--honest` all four personas (Human/NightElf/Orc/Scourge): Alliance findings identical in kind and count to baseline; Horde personas complete only the shared lines with residue only in R1/R2/R5; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations both factions.
 ### feralas
 - file: feralas.guide
 - header: Alliance; contract: 57 (44 primary / 13 shared)
