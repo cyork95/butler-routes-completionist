@@ -303,6 +303,7 @@ _Skyborne country._
 - [x] Census - 117 candidates, 47 IN / 70 OUT (50 Horde set-aside)
 - [x] Core guide - `arathi.guide`
 - [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1+R2+R5 accepted only)
+- [x] Faction ungating (Option A, 2026-11-18)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 9 rares (no loot in data) + containers incl. Illari cache, 23 recipes (15 vendor + 8 drops), 0 lint errors/warnings
@@ -647,9 +648,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Arathi Highlands — Horde
 
-- [ ] Census (reconcile against 50 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 29 IN (50/50 set-asides reconciled), band 30-40 + L60 writ special
+- [x] Core guide - `arathi-horde.guide`
+- [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1+R2+R5 accepted only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

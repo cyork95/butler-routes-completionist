@@ -276,6 +276,13 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: arathi.guide
 - header: Alliance; contract: 47 (23 primary / 24 shared)
 - shared IDs: 635, 642, 651, 652, 662, 663, 664, 665, 666, 667, 668, 669, 79624, 79677, 79678, 79976, 92867, 94221, 94230, 94239, 94248, 96784, 96785, 96786
+### arathi (UNGATED 2026-11-18, Horde round)
+- file: arathi.guide (was Alliance primary)
+- contract: 47 (23 primary / 24 shared, per the pack-wide sweep; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 632, 647, 653, 657, 658, 660, 661, 681, 682, 684, 685, 691, 693, 694, 695, 696, 697, 79358, 92872, 95315, 96016, 96135, 96264.
+- Lines gated: 59 quest lines (`only Alliance`, incl. `only Shaman,Alliance` compositions on the 96264/79358/96135/96016 chain; kill 2557 attributed to the Alliance-only Kryten chain via step context). 1 soft-pre mini (`when onquest 79975`, null-mask shared - correctly left bare). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none). Shared lines for all 24 shared IDs stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 26 warnings, warned quest-ID set (22 IDs) identical to pre-edit baseline. Playtest `--honest` both factions (Human/NightElf/Orc/Scourge Rogue/Warrior + Orc Shaman): 0 stuck; Alliance outcome unchanged in kind; Horde personas complete the shared lines with residue only in R1/R2/R5; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
 ### alterac-mountains
 - file: alterac.guide
 - header: Alliance; contract: 20 (8 primary / 12 shared)
