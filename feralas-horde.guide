@@ -1,0 +1,342 @@
+# Feralas (Horde) - Completionist (pack butler-routes-completionist, v1).
+# The Horde side of contested Feralas: 39 quests on key 1444
+# (docs/feralas-horde-census.md), routed from Camp Mojache. The 46
+# Alliance accepts stay with the Alliance guide; 7481/7489 run above
+# the band and stay out. Chain order is strictly turn-in-before-accept.
+# The Wild Leather chain (2854-2860) is Leatherworking bench work under
+# a skill gate. Two accepts whose pres sit outside every pack contract
+# (2981 and 3122, both Orgrimmar) ride dedicated `when onquest`
+# mini-steps, each standing alone. The Gordunni Scroll (2978) is
+# sourceless in the data and rides a bag note; the Perfect Yeti Hide
+# (7738) hunts on the Feral Scar grounds. Expedition turn-ins
+# (Orgrimmar, Thunder Bluff, Tanaris) and expedition completes
+# (Hinterlands, Felwood) switch frames and switch back.
+guide butler-routes-completionist/feralas-horde
+title Feralas (Horde)
+levels 38-50
+zone Feralas
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Camp Mojache - mustering
+
+  tip Camp Mojache holds the chains: Jangdor Swiftstrider (74.43, 42.91) posts the hide and leather work, Hadoken Swiftstrider (74.91, 42.46) runs the Woodpaw war, Krueg Skullsplitter (75.94, 42.74) wants sprite wings and grim horns, Rok Orhan (75.8, 43.58) holds the Gordunni war, Orwin Gizzmick (75.7, 44.31) assays cobalt, Talo Thornhoof (76.18, 43.83) hunts the north and the corruption, Uzer'i (74.42, 43.36) brews the muisek vessels and names the Sunken Temple, Blaise Montgomery (74.91, 44.02) lost his words, and Innkeeper Greul (74.8, 45.18) keeps the bunks. Take every hub ask here; the wilds fill them.
+  accept 2822 -- The Mark of Quality - Jangdor Swiftstrider; ten Thick Yeti Hides, south-center
+  accept 2862 -- War on the Woodpaw - Hadoken Swiftstrider; ten Woodpaw Gnoll Manes, east
+  accept 2973 -- A New Cloak's Sheen - Krueg Skullsplitter; ten Iridescent Sprite Darter Wings, east
+  note The Gordunni Scroll (2978's starter) has no placed dropper in the data - have the scroll in your bags; Rok takes it on the south-west leg below.
+  accept 2978 optional -- The Gordunni Scroll - the scroll; Rok Orhan takes it, south-west
+  accept 2987 -- Gordunni Cobalt - Orwin Gizzmick; twelve Gordunni Cobalt off the Dirt Mounds, east
+  accept 3062 -- Dark Heart - Talo Thornhoof; Edana's Dark Heart, far north-west
+  accept 3063 -- Vengeance on the Northspring - Talo Thornhoof; Northspring harpies, north-west
+  accept 4120 -- The Strength of Corruption - Talo Thornhoof; Angerclaw and Felpaw in Felwood, late
+  accept 3121 -- A Strange Request - Witch Doctor Uzer'i; Neeru Fireblade waits in Orgrimmar, late
+  accept 3380 -- The Sunken Temple - Witch Doctor Uzer'i; Marvon Rivetseeker waits in Tanaris, late
+  accept 92878 -- Lost for Words - Blaise Montgomery; Namida's Hoof, east
+  note The Perfect Yeti Hide (7738's starter) drops off the Feral Scar yetis - the guide never wedges on it: hunt the south-center grounds below, take the quest, hand in at Jangdor.
+
+step Jangdor's bench (Leatherworking)
+
+  when skill Leatherworking 1
+
+  tip Jangdor's bench is crafted goods - have the leather and kits in your bags.
+  accept 2854 -- Wild Leather Armor - Jangdor Swiftstrider; Thick Leather for the armor
+  complete 2854 -- ten Thick Leather for Jangdor's armor
+  turnin 2854 -- Wild Leather Armor - the armor to Jangdor Swiftstrider
+  accept 2855 -- Wild Leather Shoulders - Jangdor Swiftstrider; kits and Wildvine for the shoulders
+  complete 2855 -- armor kits and Wildvine for the shoulders
+  turnin 2855 -- Wild Leather Shoulders - the shoulders to Jangdor Swiftstrider
+  accept 2856 -- Wild Leather Vest - Jangdor Swiftstrider; turtle scale for the vest
+  complete 2856 -- turtle scale and Wildvine for the vest
+  turnin 2856 -- Wild Leather Vest - the vest to Jangdor Swiftstrider
+  accept 2857 -- Wild Leather Helmet - Jangdor Swiftstrider; nightscape for the helmet
+  complete 2857 -- nightscape and Wildvine for the helmet
+  turnin 2857 -- Wild Leather Helmet - the helmet to Jangdor Swiftstrider
+  accept 2858 -- Wild Leather Boots - Jangdor Swiftstrider; nightscape for the boots
+  complete 2858 -- nightscape and Wildvine for the boots
+  turnin 2858 -- Wild Leather Boots - the boots to Jangdor Swiftstrider
+  accept 2859 -- Wild Leather Leggings - Jangdor Swiftstrider; turtle scale for the leggings
+  complete 2859 -- turtle scale and Wildvine for the leggings
+  turnin 2859 -- Wild Leather Leggings - the leggings to Jangdor Swiftstrider
+  accept 2860 -- Master of the Wild Leather - Jangdor Swiftstrider; Una takes the mastery, late
+  note 2860's turn-in is a Thunder Bluff expedition - the leg below carries it; her onward work is outside this contract.
+
+step South-center - Feral Scar yetis
+
+  goto 52.26,57.93
+  goto 55.29,53.76
+
+  tip The Feral Scar yetis range the south-center; the Lurking Feral Scar works alone south-east of them.
+  complete 2822 @52.26,57.93 era -- ten Thick Yeti Hides for Jangdor Swiftstrider, south-center
+  kill 7848 optional -- Lurking Feral Scar for the Perfect Yeti Hide
+  note The hide starts 7738 in your bags - take the quest on the return below and hand it in with the Mark's hides.
+
+step Camp Mojache - hides banked
+
+  turnin 2822 -- The Mark of Quality - the hides to Jangdor Swiftstrider
+  accept 7734 -- Improved Quality - Jangdor Swiftstrider; ten Rage Scar Yeti Hides, north-west
+  accept 7738 -- Perfect Yeti Hide - the hide; Jangdor Swiftstrider takes it
+  turnin 7738 -- Perfect Yeti Hide - the hide to Jangdor Swiftstrider
+
+step North-west - Rage Scar hides
+
+  tip The Rage Scar yetis work the north-west canyons.
+  complete 7734 @54.05,32.51 era -- ten Rage Scar Yeti Hides for Jangdor Swiftstrider, north-west
+
+step Camp Mojache - Rage Scars banked
+
+  turnin 7734 -- Improved Quality - the hides to Jangdor Swiftstrider
+
+step East - Woodpaw manes
+
+  tip The Woodpaw gnolls hold the east in two packs: the manes south of the Battle Map ground, the alphas west of it.
+  complete 2862 @69.37,51.35 era -- ten Woodpaw Gnoll Manes for Hadoken Swiftstrider, east
+
+step Camp Mojache - manes banked
+
+  turnin 2862 -- War on the Woodpaw - the manes to Hadoken Swiftstrider
+  accept 2863 -- Alpha Strike - Hadoken Swiftstrider; five Woodpaw Alphas, east
+
+step East - Woodpaw alphas
+
+  complete 2863 @65.26,52.02 era -- five Woodpaw Alphas for Hadoken Swiftstrider, east
+
+step Camp Mojache - alphas banked
+
+  turnin 2863 -- Alpha Strike - the alphas to Hadoken Swiftstrider
+  accept 2902 -- Woodpaw Investigation - Hadoken Swiftstrider; the Woodpaw Battle Map, east
+
+step East - the Battle Map
+
+  tip The Woodpaw Battle Map (71.63, 55.92) lies pinned in the gnoll camp, east.
+  turnin 2902 -- Woodpaw Investigation - the word to the Woodpaw Battle Map
+  accept 2903 -- The Battle Plans - the Woodpaw Battle Map; Hadoken Swiftstrider takes the plans
+
+step Camp Mojache - the plans banked
+
+  turnin 2903 -- The Battle Plans - the plans to Hadoken Swiftstrider
+  accept 7730 -- Zukk'ash Infestation - Hadoken Swiftstrider; twenty Zukk'ash Carapaces, south-east
+  accept 7731 -- Stinglasher - Hadoken Swiftstrider; Stinglasher's Glands, south-east
+
+step South-east - Zukk'ash
+
+  goto 72.71,64.54
+  goto 75.58,60.85
+
+  tip The Zukk'ash swarm the south-east hives; Stinglasher (75.58, 60.85) holds the middle hive alone.
+  complete 7730 @72.71,64.54 era -- twenty Zukk'ash Carapaces for Hadoken Swiftstrider, south-east
+  complete 7731 @75.58,60.85 era -- Stinglasher's Glands for Hadoken Swiftstrider, south-east
+
+step Camp Mojache - the hive banked
+
+  turnin 7730 -- Zukk'ash Infestation - the carapaces to Hadoken Swiftstrider
+  turnin 7731 -- Stinglasher - the glands to Hadoken Swiftstrider
+  accept 7732 -- Zukk'ash Report - Hadoken Swiftstrider; Zilzibin Drumlore waits in Orgrimmar, late
+
+step East - Sprite Darters, Grimtotem and Namida
+
+  goto 64.42,48.87
+  goto 66.77,38.64
+
+  tip The Sprite Darters drift the east glades; the Grimtotem hold north of them, and Namida Grimtotem (66.77, 38.64) runs the north edge alone.
+  complete 2973 @64.42,48.87 era -- ten Iridescent Sprite Darter Wings for Krueg Skullsplitter, east
+  complete 92878 @66.77,38.64 era -- Namida's Hoof for Blaise Montgomery, east
+
+step Camp Mojache - wings and words banked
+
+  turnin 2973 -- A New Cloak's Sheen - the wings to Krueg Skullsplitter
+  accept 2974 -- A Grim Discovery - Krueg Skullsplitter; twenty Grimtotem Horns, east
+  turnin 92878 -- Lost for Words - the hoof to Blaise Montgomery
+
+step East - Grimtotem horns
+
+  complete 2974 @66.12,46.72 era -- twenty Grimtotem Horns for Krueg Skullsplitter, east
+
+step Camp Mojache - horns banked
+
+  turnin 2974 -- A Grim Discovery - the horns to Krueg Skullsplitter
+  accept 2976 -- A Grim Discovery - Krueg Skullsplitter; Belgrom Rockmaul waits in Orgrimmar, late
+
+step East - Gordunni Dirt Mounds
+
+  tip The Dirt Mounds dot the eastern Gordunni grounds around (74-81, 28-36).
+  complete 2987 @76,29 era -- twelve Gordunni Cobalt for Orwin Gizzmick, east
+
+step Camp Mojache - cobalt banked
+
+  turnin 2987 -- Gordunni Cobalt - the cobalt to Orwin Gizzmick
+
+step South-west - the Gordunni Mage-Lord
+
+  goto 57.76,70.20
+
+  tip The Gordunni Mage-Lord (57.76, 70.20) holds the south-west coven with the orb.
+  turnin 2978 -- The Gordunni Scroll - the scroll to Rok Orhan
+  accept 2979 -- Dark Ceremony - Rok Orhan; the Gordunni Orb off the Mage-Lord, south-west
+  complete 2979 @57.76,70.20 era -- the Gordunni Orb off the Gordunni Mage-Lord for Rok Orhan, south-west
+  turnin 2979 -- Dark Ceremony - the orb to Rok Orhan
+  accept 3002 -- The Gordunni Orb - Rok Orhan; Uthel'nay takes the orb, late
+  note 3002's turn-in rides the Orgrimmar expedition below with 2976's and 3121's.
+
+step Far north-west - Edana and the Northspring harpies
+
+  goto 40.55,8.60
+  goto 40.02,14.34
+
+  tip Edana Hatetalon (40.55, 8.60) holds the far north-west alone; the Northspring harpies work the slopes south-east of her.
+  complete 3062 @40.55,8.60 era -- Edana's Dark Heart off Edana Hatetalon for Talo Thornhoof, far north-west
+  complete 3063 @40.02,14.34 era -- Northspring Harpies, Roguefeathers, Slayers and Windcallers for Talo Thornhoof, north-west
+
+step Felwood - the Strength of Corruption (expedition)
+
+  zone Felwood
+
+  tip The Angerclaw Grizzlies and Felpaw Ravagers share the Felwood dens around (53-58, 20-28) - twelve of each for Talo.
+  complete 4120 @55.63,23.37 era -- twelve Angerclaw Grizzlies for Talo Thornhoof, Felwood
+  complete 4120 @55.54,26.94 era -- twelve Felpaw Ravagers for Talo Thornhoof, Felwood
+  zone Feralas
+
+step Camp Mojache - the north banked
+
+  turnin 3062 -- Dark Heart - the heart to Talo Thornhoof
+  turnin 3063 -- Vengeance on the Northspring - the vengeance to Talo Thornhoof
+  turnin 4120 -- The Strength of Corruption - the strength to Talo Thornhoof
+
+step Orgrimmar - turnins and pickups (expedition)
+
+  zone Orgrimmar
+
+  goto 49.47,50.59
+  goto 75.23,34.24
+  goto 56.26,46.68
+  goto 39.16,86.27
+
+  tip Neeru Fireblade (49.47, 50.59) takes Uzer'i's strange ask; Belgrom Rockmaul (75.23, 34.24) takes Krueg's grim word; Zilzibin Drumlore (56.26, 46.68) takes Hadoken's hive word; Uthel'nay (39.16, 86.27) takes Rok's orb. The two out-of-contract pres below are named pickups, not pack content - take them in the city and the Feralas minis below unlock.
+  turnin 3121 -- A Strange Request - the ask to Neeru Fireblade
+  note 3122 (the Testing vessel follow-up) accepts at Neeru Fireblade here - take it and 3123 rides its own soft-pre step once 3122 is in the log.
+  turnin 2976 -- A Grim Discovery - the discovery to Belgrom Rockmaul
+  note 2981 (the Ogres of Feralas pre) accepts at Belgrom Rockmaul here - take it and 2975 rides its own soft-pre step once 2981 is in the log.
+  turnin 7732 -- Zukk'ash Report - the report to Zilzibin Drumlore
+  turnin 3002 -- The Gordunni Orb - the orb to Uthel'nay
+  zone Feralas
+
+step Rok's ogres (soft pre)
+
+  when onquest 2981
+
+  tip Holding 2981 (the Ogres pre, from Belgrom Rockmaul in Orgrimmar): Rok's eastern ask.
+  accept 2975 -- The Ogres of Feralas - Rok Orhan; Gordunni Ogres, Mages and Brutes, east
+
+step Uzer'i's vessels (soft pre)
+
+  when onquest 3122
+
+  tip Holding 3122 (the vessel follow-up, from Neeru Fireblade in Orgrimmar): Uzer'i's asks.
+  accept 3123 -- Testing the Vessel - Witch Doctor Uzer'i; ten Wildkin Muisek - the owls range the Hinterlands, late
+  note 3123's owls live outside Feralas - the Hinterlands expedition below gathers them; hand 3123 in on the return.
+  accept 3128 -- Natural Materials - Witch Doctor Uzer'i; logs, minerals, sinew and fragments across the zone
+  note 3128's components fill alongside the muisek legs below - hand the set in with the vessels at the end.
+
+step East - the Ogres of Feralas I
+
+  tip The eastern Gordunni hold the Feralas leg: ogres, mages and brutes around (74-76, 25-34).
+  complete 2975 @74.75,25.92 era -- ten Gordunni Ogres for Rok Orhan, east
+  complete 2975 @74.79,29.29 era -- ten Gordunni Ogre Mages for Rok Orhan, east
+  complete 2975 @74.68,29.56 era -- five Gordunni Brutes for Rok Orhan, east
+
+step Camp Mojache - the eastern ogres banked
+
+  turnin 2975 -- The Ogres of Feralas - the ogres to Rok Orhan
+  accept 2980 -- The Ogres of Feralas - Rok Orhan; Gordunni Shaman, Warlocks and Maulers, south-west
+
+step South-west - the Ogres of Feralas II
+
+  goto 58.44,67.55
+  goto 57.99,72.27
+
+  tip The south-western Gordunni hold the second leg: shaman, warlocks and maulers around (57-62, 62-73).
+  complete 2980 @58.44,67.55 era -- ten Gordunni Shaman for Rok Orhan, south-west
+  complete 2980 @57.99,72.27 era -- ten Gordunni Warlocks for Rok Orhan, south-west
+  complete 2980 @58.93,65.03 era -- five Gordunni Maulers for Rok Orhan, south-west
+
+step Camp Mojache - the western ogres banked
+
+  turnin 2980 -- The Ogres of Feralas - the ogres to Rok Orhan
+
+step The Hinterlands - Wildkin Muisek (expedition)
+
+  zone The Hinterlands
+
+  tip The Vicious Owlbeasts range the southern Hinterlands around (25-33, 49-68) - ten muisek for Uzer'i.
+  complete 3123 @26.28,54.29 era -- ten Wildkin Muisek off the Vicious Owlbeasts for Witch Doctor Uzer'i, the Hinterlands
+  zone Feralas
+
+step Camp Mojache - the vessel tested
+
+  turnin 3123 -- Testing the Vessel - the vessel to Witch Doctor Uzer'i
+  accept 3124 -- Hippogryph Muisek - Witch Doctor Uzer'i; ten Hippogryph Muisek off the Frayfeathers, south
+
+step South - Frayfeather hippogryphs
+
+  tip The Frayfeather hippogryphs wheel the southern sky around (53-58, 60-75); their sinew fills Uzer'i's material set too.
+  complete 3124 @54.92,60.82 era -- ten Hippogryph Muisek off the Frayfeather Hippogryphs for Witch Doctor Uzer'i, south
+  complete 3128 @54.92,60.82 era -- Resilient Sinew off the Frayfeathers for Witch Doctor Uzer'i, south
+
+step Camp Mojache - hippogryphs banked
+
+  turnin 3124 -- Hippogryph Muisek - the muisek to Witch Doctor Uzer'i
+  accept 3125 -- Faerie Dragon Muisek - Witch Doctor Uzer'i; eight Faerie Dragon Muisek off the Sprite Darters, east
+
+step East - Sprite Darters again
+
+  tip The Sprite Darters drift the east glades; their wings and the faerie muisek and minerals fill together.
+  complete 3125 @64.42,48.87 era -- eight Faerie Dragon Muisek off the Sprite Darters for Witch Doctor Uzer'i, east
+  complete 3128 @64.42,48.87 era -- Encrusted Minerals off the Sprite Darters for Witch Doctor Uzer'i, east
+
+step Camp Mojache - faerie dragons banked
+
+  turnin 3125 -- Faerie Dragon Muisek - the muisek to Witch Doctor Uzer'i
+  accept 3126 -- Treant Muisek - Witch Doctor Uzer'i; three Treant Muisek off the Wandering Forest Walker, center
+
+step Center - the wandering treant
+
+  tip The Wandering Forest Walker (54.02, 47.22) strides the center; its logs fill Uzer'i's material set too.
+  complete 3126 @54.02,47.22 era -- three Treant Muisek off the Wandering Forest Walker for Witch Doctor Uzer'i, center
+  complete 3128 @54.02,47.22 era -- Splintered Logs off the Wandering Forest Walker for Witch Doctor Uzer'i, center
+
+step Camp Mojache - treants banked
+
+  turnin 3126 -- Treant Muisek - the muisek to Witch Doctor Uzer'i
+  accept 3127 -- Mountain Giant Muisek - Witch Doctor Uzer'i; seven Mountain Giant Muisek off the Land Walkers and Cliff Giants, north-west
+
+step North-west - mountain giants
+
+  tip The Land Walkers and Cliff Giants stride the north-west around (37-41, 18-25); their fragments close Uzer'i's material set.
+  complete 3127 @37.76,21.92 era -- seven Mountain Giant Muisek for Witch Doctor Uzer'i, north-west
+  complete 3128 @37.76,21.92 era -- Metallic Fragments off the giants for Witch Doctor Uzer'i, north-west
+
+step Camp Mojache - the vessels closed
+
+  turnin 3127 -- Mountain Giant Muisek - the muisek to Witch Doctor Uzer'i
+  turnin 3128 -- Natural Materials - the materials to Witch Doctor Uzer'i
+  accept 3129 -- Weapons of Spirit - Witch Doctor Uzer'i; the vessels are proven
+  turnin 3129 -- Weapons of Spirit - the weapons to Witch Doctor Uzer'i
+
+step Thunder Bluff - Una's mastery (expedition)
+
+  zone Thunder Bluff
+
+  tip Una (41.5, 42.57) takes Jangdor's mastery in Thunder Bluff; she also walks Mulgore (38.2, 25.5) if the road gives her first.
+  turnin 2860 -- Master of the Wild Leather - the mastery to Una @41.5,42.57 era
+  zone Feralas
+
+step Tanaris - the Sunken Temple word (expedition)
+
+  zone Tanaris
+
+  tip Marvon Rivetseeker (52.71, 45.92) takes Uzer'i's temple word in Gadgetzan; his chain runs on in the pack's Tanaris guide.
+  turnin 3380 -- The Sunken Temple - the word to Marvon Rivetseeker @52.71,45.92 era
+  zone Feralas
