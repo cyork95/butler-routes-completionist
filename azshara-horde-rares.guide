@@ -1,0 +1,170 @@
+# Azshara (Horde) - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 8 flagged rares of Azshara a Horde player
+# can actually engage, plus the three fixed world containers of the zone.
+# Run it in its own Polestar tab at the end of the core route or standalone.
+# EVERY goal is optional: a rare that is not up never holds the route.
+# Spawn points and levels are the local Forever game data (questie-forever);
+# the signature drop is a verified sole-drop in the item data. Respawn
+# timers are unconfirmed anywhere, so none are stated. Mammoth Shark is
+# NOT listed: rank 1, no rare flag, no signature loot — a quest-target
+# lookalike of the broken record 91611 (see the inventory). No rare in
+# this guide is a giver, ender, or objective of any Horde
+# core-contracted quest. No tame lines ship (see
+# docs/companion-unverified.md). See
+# docs/azshara-horde-companions-inventory.md for the full inventory.
+guide butler-routes-completionist/azshara-horde-rares
+title Azshara (Horde) - Rares & Treasures
+levels 44-50
+zone Azshara
+faction Horde
+category Collectibles
+folder Companions
+keywords azshara, horde, rares, treasures, companions
+coords live
+version 1
+
+step Varo'then's Ghost — the far west
+
+  zone map 1447
+
+  goto 13.23,74.2
+  kill 6118 optional
+  note Level 48 rare, flagged rare in the data, single confirmed point far west.
+  note It drops Ichor of Undeath among ~120 world droppers; the shared quest The Ichor of Undeath (8256) is contracted in the ungated main guide — this guide only hunts the ghost, the main guide owns the quest. Respawn timer unconfirmed.
+
+step Magister Hawkhelm — the center
+
+  zone map 1447
+
+  goto 58.46,30.89
+  kill 6647 optional
+  note Level 52 rare, flagged rare in the data, single confirmed point center.
+  note The data records no exclusive drop on this rare (its Invisibility Potion drop is a 560-dropper world drop) — ordinary loot only. Respawn timer unconfirmed.
+
+step Antilos — the west
+
+  zone map 1447
+
+  goto 16.6,54.1
+  kill 6648 optional
+  note Level 50 rare, flagged rare in the data, single confirmed point west.
+  note The data records no exclusive drop on this rare — ordinary loot only. Respawn timer unconfirmed.
+
+step Lady Sesspira — the center
+
+  zone map 1447
+
+  goto 35.39,55.69
+  kill 6649 optional
+  note Level 51 rare, flagged rare in the data, single confirmed point center.
+  note The data records no exclusive drop on this rare — ordinary loot only (the same-name regular 239942 is a quest-target lookalike, not the rare). Respawn timer unconfirmed.
+
+step General Fangferror — the center
+
+  zone map 1447
+
+  goto 41.31,53.96
+  kill 6650 optional
+  collect 17054 "Joonho's Mercy" optional
+  note Level 51 rare, flagged rare in the data, single confirmed point center.
+  note Joonho's Mercy drops only from Fangferror anywhere in the data; it starts nothing and is no quest's objective. Anything else is ordinary loot. Respawn timer unconfirmed.
+
+step Gatekeeper Rageroar — the center
+
+  zone map 1447
+
+  goto 38.27,32.08
+  kill 6651 optional
+  note Level 50 rare, flagged rare in the data, single confirmed point center.
+  note The data records no exclusive drop on this rare — ordinary loot only. Respawn timer unconfirmed.
+
+step Master Feardred — the north-east
+
+  zone map 1447
+
+  loop
+  goto 61.35,24.92
+  goto 61.55,24.25
+  goto 66.3,16.72
+  kill 6652 optional
+  note Level 52 rare, flagged rare in the data, three confirmed points north-east (loop covers all of them).
+  note The data records no exclusive drop on this rare — ordinary loot only. Respawn timer unconfirmed.
+
+step The Evalcharr — the west
+
+  zone map 1447
+
+  goto 17.87,65.6
+  kill 8660 optional
+  note Level 48 rare, flagged rare in the data, single confirmed point west.
+  note The data records no exclusive drop on this rare — ordinary loot only. Respawn timer unconfirmed.
+
+step Solid Chests — the western arc
+
+  zone map 1447
+
+  loop
+  goto 15.01,73.1
+  goto 17.6,68.92
+  goto 20.5,62.4
+  goto 25.9,61.43
+  goto 26.56,55.99
+  goto 29.25,53.0
+  goto 32.01,51.51
+  goto 32.38,45.29
+  goto 34.65,40.58
+  goto 35.53,35.85
+  goto 35.74,52.39
+  goto 38.44,47.81
+  goto 41.22,49.94
+  interact 153451 optional
+  note Fixed Solid Chest object, western arc — one generic chest object over its fixed points, said plainly. No loot table confirmed; contents unconfirmed. Respawn timer unconfirmed.
+
+step Solid Chests — the scattered grounds
+
+  zone map 1447
+
+  loop
+  goto 38.02,80.26
+  goto 41.43,20.32
+  goto 41.87,76.5
+  goto 43.56,81.84
+  goto 44.41,26.08
+  goto 51.2,18.88
+  goto 56.31,28.53
+  goto 61.63,25.03
+  goto 62.14,93.64
+  goto 65.94,76.9
+  goto 76.52,45.87
+  goto 77.81,30.77
+  interact 153453 optional
+  note A second same-name fixed Solid Chest object over its own fixed points, said plainly. No loot table confirmed; contents unconfirmed. Respawn timer unconfirmed.
+
+step Mossy Footlockers — zone-wide
+
+  zone map 1447
+
+  loop
+  goto 46.44,42.43
+  goto 47.44,46.21
+  goto 49.55,41.67
+  goto 49.87,63.53
+  goto 50.51,64.82
+  goto 52.62,59.51
+  goto 55.13,48.29
+  goto 56.38,58.24
+  goto 57.9,56.65
+  goto 58.25,42.93
+  goto 59.17,43.09
+  goto 60.64,50.75
+  goto 61.25,71.14
+  goto 66.04,32.67
+  goto 71.29,74.35
+  goto 73.11,40.9
+  goto 77.5,45.59
+  goto 77.96,44.9
+  goto 78.52,85.69
+  goto 78.64,39.09
+  goto 82.53,30.71
+  interact 179497 optional
+  note Fixed Mossy Footlocker objects zone-wide — one generic container over its fixed points, said plainly. No loot table confirmed; contents unconfirmed. Respawn timer unconfirmed.
