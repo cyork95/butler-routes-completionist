@@ -161,9 +161,12 @@ UC/Org/TB zones) — the city-side remote pointers; 91734 additionally
 has an empty end and no objectives (degenerate, second reason).
 Broken (1): 91611 Deadliest Catch (L56/min50) — no accept AND no
 turn-in anywhere in the record (empty start and end) against an
-objective (1 Mammoth Shark Steak) with no stated source. Unroutable as
-stated; twin 89015's contracted accept-only shape does not transfer
-(97821 Mirage Mirror precedent). Revisit if the record gains an accept.
+objective (1 Mammoth Shark Steak) whose dropper (12125 Mammoth Shark,
+placed 1447 at 61.11, 52.25 — the Alliance guide's point, verified in
+the dump) does exist. The gap is the missing accept/turnin, not the
+objective — still unroutable as stated. Twin 89015's contracted
+accept-only shape does not transfer (97821 Mirage Mirror precedent).
+Revisit if the record gains an accept.
 Alliance-only set-asides for the record (19, all in the main guide's
 contract — none duplicated here): 5141, 88807, 88809, 88812, 88813,
 88821, 88857, 88884, 88917, 89001, 89013, 89015, 89037, 89038, 89053,
@@ -189,9 +192,9 @@ is duplicated here.
    (or player) can pick it up. 3565 is the contrast that proves the
    rule (ends at Xylem in-zone → IN).
 4. 91611 OUT broken although twin 89015 is IN: the twin's accept
-   (Berdun 240482) does not transfer across faction records. A quest
-   with no accept and no turn-in cannot be pointed at, however real
-   its objective text reads. Data over symmetry.
+   (Berdun 240482) does not transfer across faction records. The steak
+   objective even has a placed dropper — but a quest with no accept
+   and no turn-in cannot be pointed at regardless. Data over symmetry.
 5. 91607 IN turn-in-only although it has no accept either: the
    difference from 91611 is the placed ender (Izvi in-zone) plus a
    placed objective source (Cliff Walkers) — the exact contracted

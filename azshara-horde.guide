@@ -1,0 +1,148 @@
+# Butler Routes - Azshara (Horde) completionist (pack butler-routes-completionist, v1).
+# Every Horde accept in the local census (22 quests, docs/azshara-horde-census.md)
+# appears exactly once as an accept and once as a turnin. The seven off-zone
+# accepts (Belgrom's Betrayed opener, the three city Payment legs, the three
+# Remote Contact pointers) and the broken Deadliest Catch record stay out with
+# reasons in the census. No race, class or profession gates: nothing contracted
+# is locked, and no skill fields exist in the pool. The object-started Betrayed
+# leg rides a normal accept at the placed Tome. Accepts whose pres sit outside
+# every pack contract ride dedicated `when onquest` mini-steps, each standing
+# alone. Expedition legs and turn-ins (Orgrimmar, Undercity, Thunder Bluff,
+# Magatha's record zone) switch frames deliberately and switch back.
+guide butler-routes-completionist/azshara-horde
+title Azshara (Horde)
+levels 44-50
+zone Azshara
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step West hub - Jediga, Kurll and Izvi
+
+  zone map 1447
+
+  tip Jediga (22.56, 51.42) holds the west hub; Kurll (21.82, 52.1) hires hunters next door; Izvi Gildfizz (22.46, 51.89) pays for beach salvage.
+  accept 3517 -- Stealing Knowledge - Jediga; four tablets, center ruins
+  accept 91488 -- Home on the Range - Kurll; Mosshoof hides, south
+  accept 91568 -- Long Walks on the Beach - Izvi Gildfizz; treasure fragments, center-east
+  accept 91569 -- Blue Gold - Izvi Gildfizz; a siphoning wand, east camp
+
+step Betrayed opener (soft pre)
+
+  zone map 1447
+
+  when onquest 3504
+
+  tip Holding 3504 (Betrayed, from Belgrom Rockmaul in Orgrimmar at 75.23, 34.24): Ag'tor Bloodfist (22.26, 51.48) takes the accusation at the west hub; the Kaldorei Tome (59.51, 31.3) closes it, east camp.
+  accept 3505 -- Betrayed - Ag'tor Bloodfist; Reclaimers and Surveyors, east camp
+  turnin 3505 -- Betrayed - the findings to the Kaldorei Tome of Summoning
+
+step East camp - Reclaimers, seals and the wand
+
+  zone map 1447
+
+  complete 3505 @55.29,27.59 era -- Blood Elf Reclaimers and Surveyors, east camp
+  complete 3505 @59.53,31.47 era -- Magus Rimtori's camp, east camp
+  accept 3506 -- Betrayed - the Kaldorei Tome of Summoning (59.51, 31.3); Rimtori's head
+  complete 3506 @59.51,31.37 era -- the Head of Magus Rimtori off Rimtori, east camp
+  accept 91497 -- Seals of the Sin'dorei - the Sin'dorei Tome of Summoning (59.52, 31.31); three officers' seals
+  complete 91497 @55.02,26.73 era -- the Seal of the Warrior off Magister Hawkhelm, east camp
+  complete 91497 @65.92,26.31 era -- the Seal of the Warden off Lieutenant Suncrest, east camp
+  complete 91497 @68.81,27.21 era -- the Seal of the Ranger off Ranger Lydrea, east camp
+  turnin 91497 -- Seals of the Sin'dorei - the seals to the Sin'dorei Tome of Summoning
+  accept 91500 -- An Explosive Gambit - the Sin'dorei Tome of Summoning; a second head
+  complete 91500 @59.51,31.37 era -- a second Head of Magus Rimtori off Rimtori, east camp
+  note One head per turn-in - Rimtori re-drops it for the Gambit.
+  accept 91538 -- Sin'dorei Tome of Summoning - the Sin'dorei Tome of Summoning; Jediga takes the word, west hub
+  complete 91569 @65.55,28.62 era -- the Mana-Siphoning Wand off the Blood Elf Arcanists, east camp
+
+step West returns - heads, gambits and words
+
+  zone map 1447
+
+  turnin 3506 -- Betrayed - the head to Ag'tor Bloodfist
+  accept 3507 -- Betrayed - Ag'tor Bloodfist; Belgrom takes the word in Orgrimmar
+  turnin 91500 -- An Explosive Gambit - the head to Ag'tor Bloodfist
+  accept 91531 -- Revenge Exacted - Ag'tor Bloodfist; Belgrom takes the word in Orgrimmar
+  turnin 91538 -- Sin'dorei Tome of Summoning - the word to Jediga
+  accept 91547 -- Sin'dorei Tome of Summoning - Jediga; Zevrost takes it in Orgrimmar
+
+step Beach and south - hides, honey, squid, tear
+
+  zone map 1447
+
+  complete 91488 @12.66,75.31 era -- Mosshoof Hides off the Mosshoof Runners, south
+  turnin 91488 -- Home on the Range - the hides to Kurll
+  accept 91608 -- Gettin' Buzzed - Kurll; wild honey, west grounds
+  accept 91610 -- Winter Frontier Fishery - Kurll; winter squid, fished
+  complete 91608 @15.58,51.46 era -- Wild Honey off the Honey Wasps, west grounds
+  turnin 91608 -- Gettin' Buzzed - the honey to Kurll
+  note The Winter Squid has no placed source anywhere in the data - fished, same as the Alliance twin's squid; bank ten if they turn up.
+  turnin 91610 -- Winter Frontier Fishery - the squid to Kurll
+  turnin 91569 -- Blue Gold - the wand to Izvi Gildfizz
+  accept 91685 -- Ley of the Land - Izvi Gildfizz; the Tear of Mennar, far south
+  complete 91685 @38.27,81.58 era -- the Tear of Mennar off Celegosa, far south
+  turnin 91685 -- Ley of the Land - the tear to Izvi Gildfizz
+  accept 91607 -- Pay Dirt! - Izvi Gildfizz; the data carries no accept for this record, so the accept rides here at the ender with this note
+  complete 91607 @16.82,53.81 era -- the Humongous Crystal off the Cliff Walkers, west grounds
+  turnin 91607 -- Pay Dirt! - the crystal to Izvi Gildfizz
+  complete 91568 @44.10,55.99 era -- Highborne Treasure Fragments off the Makrinni Burrowers, center-east
+  turnin 91568 -- Long Walks on the Beach - the fragments to Izvi Gildfizz
+
+step Center ruins - tablets and deliveries
+
+  zone map 1447
+
+  complete 3517 @34.10,50.50 era -- the Tablet of Beth'Amara, center ruins
+  complete 3517 @34.00,59.90 era -- the Tablet of Jin'yael, center ruins
+  complete 3517 @34.20,57.80 era -- the Tablet of Markri, center ruins
+  complete 3517 @35.60,55.90 era -- the Tablet of Sael'hai, center ruins
+  turnin 3517 -- Stealing Knowledge - the tablets to Jediga
+  accept 3518 -- Delivery to Magatha - Jediga; Magatha takes it off-zone
+  accept 3541 -- Delivery to Jes'rimon - Jediga; Jes'rimon takes it in Orgrimmar
+  accept 3542 -- Delivery to Andron Gant - Jediga; Andron takes it in the Undercity
+  accept 3561 -- Delivery to Archmage Xylem - Jediga; Xylem takes it north-center
+  turnin 3561 -- Delivery to Archmage Xylem - the delivery to Archmage Xylem (29.25, 40.21)
+  accept 3565 -- Xylem's Payment to Jediga - Archmage Xylem; Jediga takes the payment
+  turnin 3565 -- Xylem's Payment to Jediga - the payment to Jediga
+  accept 92346 -- Beneath Nordrassil - Jediga; Nara takes it in Thunder Bluff
+
+step Orgrimmar expedition - four turn-ins
+
+  zone Orgrimmar
+
+  turnin 3507 -- Betrayed - the word to Belgrom Rockmaul @75.23,34.24 era
+  turnin 91531 -- Revenge Exacted - the word to Belgrom Rockmaul @75.23,34.24 era
+  turnin 3541 -- Delivery to Jes'rimon - the delivery to Jes'rimon @55.52,34.08 era
+  note Jes'rimmon's Payment (3563) accepts at Jes'rimmon - off-zone, not contracted; the delivery story ends here.
+  turnin 91547 -- Sin'dorei Tome of Summoning - the tome to Zevrost @48.47,45.43 era
+  note The chain continues with 91548 (Vek'zol) from Zevrost - Orgrimmar-contracted; handed off, not duplicated here.
+  zone Azshara
+
+step Undercity expedition - Andron's delivery
+
+  zone Undercity
+
+  turnin 3542 -- Delivery to Andron Gant - the delivery to Andron Gant @54.81,76.33 era
+  note Andron's Payment (3564) accepts at Andron - off-zone, not contracted; the delivery story ends here.
+  zone Azshara
+
+step Magatha's record zone - the 1412 leg
+
+  zone map 1412
+
+  turnin 3518 -- Delivery to Magatha - the delivery to Magatha Grimtotem @44.00,23.10 era
+  note Magatha's Payment (3562) accepts at Magatha (also Thunder Bluff 69.85, 30.91) - off-zone, not contracted; the delivery story ends here.
+  zone Azshara
+
+step Thunder Bluff expedition - Nara's word
+
+  zone Thunder Bluff
+
+  when onquest 92346
+
+  turnin 92346 -- Beneath Nordrassil - the word to Nara Wildmane @75.65,31.61 era
+  note The chain continues with 92343 (Get to the Roots of It) from Nara - Thunder-Bluff-contracted; handed off, not duplicated here. Nara's 1412 point is named in the census; the Bluff point routes.
+  zone Azshara
