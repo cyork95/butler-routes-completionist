@@ -20,6 +20,7 @@ version 1
 
 step Thunder Bluff, mustering
 
+  zone Thunder Bluff
   note Thunder Bluff is the Horde hub: Turak Runetotem (76.48, 27.22) holds the rise. Take the hubs asks here; Moonglade fills them below.
   goto 76.48,27.22
   accept 5922 only Tauren,Druid -- Moonglade - Turak Runetotem; Dendrite Starblaze waits in Moonglade
@@ -77,9 +78,7 @@ step Moonglade, the Great Cat Spirit
   goto 56.21,30.64
   turnin 98340 only Tauren,Skyborne,Druid -- The Great Cat Spirit - the word to Dendrite Starblaze
   accept 98405 only Tauren,Druid -- The Great Cat Spirit - Dendrite Starblaze; the Great Cat Spirit waits south-west
-  note 98405 waited on 98340s turn-in - take it here; Tauren only per the data.
-  complete 98405 only Tauren,Druid @54.50,75.00 era -- seeking out the Great Cat Spirit
-  note The Spirit holds the south-west at (54.50, 75.00) - the seek completes there.
+  note 98405 waited on 98340s turn-in - take it here; Tauren only per the data. Seek out the Spirit south-west at (54.50, 75.00) before turning in.
 
 step Great Cat Spirit, the relics
 
@@ -101,6 +100,7 @@ step Great Cat Spirit, the relics
 
 step Thunder Bluff, Back to Thunder Bluff
 
+  zone Thunder Bluff
   zone map 1456
 
   goto 76.48,27.22
@@ -155,6 +155,7 @@ step Moonglade, the cure complete
 
 step Thunder Bluff, the finale
 
+  zone Thunder Bluff
   zone map 1456
 
   goto 76.48,27.22
