@@ -1,0 +1,162 @@
+# Thousand Needles (Horde) - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns whose SOURCE is physically in Thousand Needles
+# for a Horde buyer, verified against the local Forever game data
+# (questie-forever item vendor and drop tables). Four are vendor-sold by
+# in-zone Horde-buyable vendors (Jandia and Montarr at Freewind Post, Jinky
+# Twizzlefixxit and Maximillian at Mirage Raceway — every buy carries an
+# npc pin to the exact in-zone vendor); five are mob drops with sole
+# droppers spawning in-zone (two of them narrow 2-zone drops, shipped with
+# both zones named). Two in-zone-sold patterns are Alliance-vendor
+# exclusive and two more are 34-vendor generic stock, so neither ships;
+# everything else Thousand-Needles-dropping is a generic multi-zone world
+# drop (Elwynn rule, argued per case in the inventory); quest records
+# carry no reward data, so none of that class ships (see
+# docs/thousand-needles-horde-companions-inventory.md and
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. Cooking, Enchanting, First
+# Aid and Fishing have no Thousand Needles Horde source, so that is
+# stated, not padded.
+guide butler-routes-completionist/thousand-needles-horde-recipes
+title Thousand Needles (Horde) - Recipes
+levels 20-32
+zone Thousand Needles
+faction Horde
+category Professions
+folder Companions
+keywords thousand needles, horde, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Freewind Post vendor - Jandia's stock (Tailoring)
+
+  zone map 1441
+
+  when skill Tailoring 1
+
+  tip Jandia (46.21, 51.51) at Freewind Post sells the pattern; the shop is Horde, so Horde characters can buy.
+  buy 5973 "Pattern: Barbaric Leggings" npc 4877
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Freewind Post vendor - Montarr's stock (Alchemy)
+
+  zone map 1441
+
+  when skill Alchemy 1
+
+  tip Montarr (45.15, 50.79) at Freewind Post sells the recipe; the shop is Horde, so Horde characters can buy.
+  buy 6068 "Recipe: Shadow Oil" npc 4878
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Mirage Raceway - Jinky's schematics (Engineering)
+
+  zone map 1441
+
+  when skill Engineering 1
+
+  tip Jinky Twizzlefixxit (77.68, 77.9) at Mirage Raceway sells both schematics; the shop is neutral, so Horde characters can buy.
+  buy 7560 "Schematic: Gnomish Universal Remote" npc 6730
+  buy 13309 "Schematic: Lovingly Crafted Boomstick" npc 6730
+  note Stock class is unconfirmed in the data (no limited flag either way). The Remote also lists a drop off Mekgineer Thermaplugg, who has no spawn point in any zone in the data — unplaceable, so buy-only.
+
+step Mirage Raceway - Maximillian's helmet (Engineering)
+
+  zone map 1441
+
+  when skill Engineering 1
+
+  tip Maximillian "The Greaser" (79.8, 77.2) at Mirage Raceway sells the schematic; the shop is neutral, so Horde characters can buy. Sole vendor anywhere.
+  buy 221336 "Schematic: Goblin Mining Helmet" npc 222261
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Galak Mauler grounds - Elixir of Intellect (Alchemy)
+
+  zone map 1441
+
+  when skill Alchemy 1
+
+  loop
+  goto 17.18,18.83
+  goto 20.75,22
+  goto 42.55,32.52
+  goto 44.93,32.8
+  kill 4095 optional
+  collect 250389 "Recipe: Elixir of Intellect" optional
+  note Sole dropper is the Galak Mauler, west and center grounds; the same mob also spawns in the Barrens, so both zones are named.
+
+step Screeching Roguefeather grounds - Hard Gold Cuirass (Blacksmithing)
+
+  zone map 1441
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 26.67,47.49
+  goto 27.4,47.38
+  goto 26.72,56.01
+  goto 27.06,55.19
+  kill 4101 optional
+  collect 251385 "Plans: Hard Gold Cuirass" optional
+  note Sole dropper is the Screeching Roguefeather, spawning only in-zone.
+
+step Saltstone Crystalhide grounds - Steel Spear (Blacksmithing)
+
+  zone map 1441
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 72.38,77.17
+  goto 79.35,55.96
+  goto 83.23,62.09
+  goto 88.3,74.38
+  kill 4151 optional
+  collect 251457 "Plans: Steel Spear" optional
+  note Sole dropper is the Saltstone Crystalhide, spawning only in-zone across the east and south-east.
+
+step Grimtotem Bandit grounds - Sterling Silver Breastplate (Blacksmithing)
+
+  zone map 1441
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 33.35,27.43
+  goto 33.21,38.11
+  goto 37.02,32.35
+  goto 38.04,35.7
+  kill 10758 optional
+  collect 251339 "Plans: Sterling Silver Breastplate" optional
+  note Sole dropper is the Grimtotem Bandit; it also spawns in the Barrens, so both zones are named.
+
+step Gravelsnout Surveyor grounds - Earthen Leggings (Leatherworking)
+
+  zone map 1441
+
+  when skill Leatherworking 1
+
+  loop
+  goto 11.66,22.79
+  goto 12.88,14.74
+  goto 64.05,46.9
+  goto 66.27,49.56
+  goto 67.49,60.12
+  kill 4116 optional
+  collect 254000 "Pattern: Earthen Leggings" optional
+  note Sole dropper is the Gravelsnout Surveyor; the loop covers the 5 in-zone points and the note names its 1 Feralas point.
+
+step No Thousand Needles Horde source - Cooking
+
+  note Cooking has no recipe source physically in Thousand Needles for Horde in the data - no Horde-buyable vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Thousand Needles Horde source - Enchanting
+
+  note Enchanting has no recipe source physically in Thousand Needles for Horde in the data - no Horde-buyable vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Thousand Needles Horde source - First Aid
+
+  note First Aid has no recipe source physically in Thousand Needles for Horde in the data - no Horde-buyable vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Thousand Needles Horde source - Fishing
+
+  note Fishing has no recipe source physically in Thousand Needles for Horde in the data - no Horde-buyable vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
