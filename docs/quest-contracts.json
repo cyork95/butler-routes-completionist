@@ -15446,6 +15446,16 @@
         {"id": 7862, "name": "Job Opening: Guard Captain of Revantusk Village"},
         {"id": 98203, "name": "Witch Doctor Ti'ik"}
       ]
+    },
+    {
+      "id": "wetlands-horde",
+      "name": "Wetlands (Horde)",
+      "order": 72,
+      "levelBand": "24-31",
+      "summary": "Horde side of contested Wetlands: the Deathstalker hunt (single quest).",
+      "quests": [
+        {"id": 95682, "name": "Open the Maw"}
+      ]
     }
   ]
 }
