@@ -1,0 +1,287 @@
+# Dustwallow Marsh (Horde) - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 12 flagged rares a Horde player can actually engage and the zone's fixed containers. Run it in its own Polestar tab at the end of the core route or standalone.
+# EVERY goal is optional: a rare that is not up never holds the route. Spawn points, levels and loot are the local Forever game data (questie-forever); signature drops are items whose SOLE dropper is the rare. The two Alliance-aligned rares (Malgin, Gerogg) are killable opposition for Horde players and say so; both sit below the band and say that too. No rare in this guide is a giver, ender, or objective of any core-contracted quest. The Loose Dirt mound (1238/1239's start-object) belongs to the core route, not here. Atrexis (96986's ender) has no spawn anywhere and carries no usable point - logged in the inventory, never a step. See docs/dustwallow-horde-companions-inventory.md for the full inventory this guide was built against.
+guide butler-routes-completionist/dustwallow-horde-rares
+title Dustwallow Marsh (Horde) - Rares & Treasures
+levels 30-45
+zone Dustwallow Marsh
+faction Horde
+category Collectibles
+folder Companions
+keywords dustwallow, horde, rares, treasures, companions
+coords live
+version 1
+
+step Brimgore - the far south
+
+  zone map 1445
+
+  goto 42.12,75.94
+  kill 4339 optional
+  collect 285063 "Black Brood Battleguards" optional
+  note Level 45 rare, flagged rare in the data, at the top of the band in the far south; its sole drop is the Black Brood Battleguards. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Darkmist Widow - the west
+
+  zone map 1445
+
+  goto 31.15,20.4
+  kill 4380 optional
+  collect 285102 "Darkmist Dirk" optional
+  note Level 40 rare, flagged rare in the data, in the west; its sole drop is the Darkmist Dirk. The Unpopped Darkmist Eye it also drops is the core 1206 objective's item - the hunt rides the core guide, noted here, never an accept.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Burgle Eye - the north-east shore
+
+  zone map 1445
+
+  goto 59.04,9.37
+  kill 14230 optional
+  collect 285095 "Twitching Eye" optional
+  note Level 38 rare, flagged rare in the data, on the north-east shore; its sole drop is the Twitching Eye. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Drogoth the Roamer - the west
+
+  zone map 1445
+
+  goto 39.5,18.92
+  kill 14231 optional
+  collect 285089 "Swamp Roamer's Band" optional
+  note Level 37 rare, flagged rare in the data, in the west; its sole drop is the Swamp Roamer's Band. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Dart - the west
+
+  zone map 1445
+
+  goto 47.27,18.38
+  kill 14232 optional
+  collect 285100 "Serrated Raptor Teeth" optional
+  collect 285283 "Serrated Axes" optional
+  note Level 38 rare, flagged rare in the data, in the west; its sole drops are the Serrated Raptor Teeth and the Serrated Axes. No quest takes either in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Ripscale - the south-east shallows
+
+  zone map 1445
+
+  loop
+  goto 37.8,50.29
+  goto 42.35,55
+  goto 44.08,50.17
+  goto 49.06,57.33
+  kill 14233 optional
+  note Level 39 rare, flagged rare in the data, working its 4 confirmed points in the south-east shallows; no sole drop, so ordinary greens get a note rather than a collect goal.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Hayoc - the south
+
+  zone map 1445
+
+  goto 52.02,62.87
+  kill 14234 optional
+  collect 285103 "Marsh Serpent's Scales" optional
+  note Level 41 rare, flagged rare in the data, in the south; its sole drop is the Marsh Serpent's Scales. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step The Rot - the south
+
+  zone map 1445
+
+  goto 52.9,57.4
+  kill 14235 optional
+  collect 285101 "Rot-Fused Greaves" optional
+  note Level 43 rare, flagged rare in the data, in the south; its sole drop is the Rot-Fused Greaves. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Lord Angler - the south-east
+
+  zone map 1445
+
+  goto 57.83,61.62
+  kill 14236 optional
+  collect 285094 "Ravaged Fishing Pole" optional
+  note Level 44 rare, flagged rare in the data, in the south-east; its sole drop is the Ravaged Fishing Pole, a fishing pole - flavor, not a profession source. No quest takes it in the data.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Oozeworm - the far south
+
+  zone map 1445
+
+  loop
+  goto 34.95,70.86
+  goto 36.03,63.07
+  goto 39.12,63.05
+  kill 14237 optional
+  note Level 42 rare, flagged rare in the data, working its 3 confirmed points in the far south; no sole drop, so ordinary greens get a note rather than a collect goal.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Malgin Barleybrew - below the band, killable opposition
+
+  zone map 1445
+
+  goto 27.2,58.6
+  kill 5848 optional
+  collect 286541 "Bael'dun Tankard" optional
+  note Level 25 rare, flagged rare in the data, below the guide band - come back at a higher level; its sole drop is the Bael'dun Tankard (his other drops are generic vendor drinks). Flagged Alliance-faction in the data: an enemy to Horde players - expect opposition.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Captain Gerogg Hammertoe - below the band, killable opposition
+
+  zone map 1445
+
+  goto 27.1,57.7
+  kill 5851 optional
+  collect 285344 "Guard Captain's Barrier" optional
+  note Level 27 rare, flagged rare in the data, below the guide band - come back at a higher level; its sole drop is the Guard Captain's Barrier. Flagged Alliance-faction in the data: an enemy to Horde players - expect opposition.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Fixed Chests - world containers
+
+  zone map 1445
+
+  loop
+  goto 30.62,22.4
+  goto 31.43,21.51
+  goto 57.28,15.12
+  goto 57.66,16.47
+  goto 57.99,13.35
+  goto 59.08,9.7
+  goto 61.64,18.15
+  goto 62.93,9.31
+  goto 63.08,19.03
+  goto 63.19,27.27
+  goto 63.23,7.2
+  goto 64.43,26.89
+  goto 37.71,67.61
+  goto 37.85,69.64
+  goto 38.7,64.62
+  goto 42.93,65.71
+  goto 44.09,64.94
+  goto 44.86,66.89
+  goto 44.99,65.42
+  goto 49.12,72.87
+  goto 53.41,73.51
+  goto 55.54,62.58
+  goto 55.56,63.89
+  goto 55.99,63.24
+  goto 56.12,62.85
+  goto 56.94,87.55
+  goto 57.32,69.51
+  goto 58.77,45.73
+  goto 58.83,46.23
+  goto 58.97,68.02
+  goto 59.94,68.94
+  goto 26.8,57.3
+  goto 27.2,57.2
+  goto 27.5,58.1
+  goto 26.8,57.3
+  goto 27.2,57.2
+  goto 27.5,58.1
+  goto 51.7,5.2
+  goto 32.89,64.33
+  goto 35.42,38.3
+  goto 35.88,54.27
+  goto 44.2,66.19
+  goto 46.14,56.9
+  goto 53.99,56.75
+  goto 56.12,62.52
+  goto 59.78,68.05
+  goto 35.1,31.07
+  goto 36.29,31.93
+  goto 36.65,30.3
+  goto 38.17,26.13
+  goto 42.78,30.4
+  goto 43.28,27.97
+  goto 45.09,24.68
+  goto 46.87,24.23
+  goto 56.98,21.14
+  goto 58.25,15.58
+  goto 58.91,11.32
+  goto 59.61,40.92
+  goto 61.64,18.3
+  goto 62.34,8.28
+  goto 26.2,58.4
+  goto 26.4,57.6
+  goto 26.4,58.7
+  goto 26.6,58
+  goto 26.9,58.6
+  goto 27,57.6
+  goto 27.2,58
+  goto 27.3,58.5
+  goto 26.2,58.4
+  goto 26.4,57.6
+  goto 26.4,58.7
+  goto 26.6,58
+  goto 26.9,58.6
+  goto 27,57.6
+  goto 27.2,58
+  goto 27.3,58.5
+  goto 26.4,58.7
+  goto 26.6,58
+  goto 26.9,58.6
+  goto 27.2,58
+  goto 27.3,58.5
+  goto 35.1,31.07
+  goto 42.78,30.4
+  goto 43.28,27.97
+  goto 45.09,24.68
+  goto 56.98,21.14
+  goto 58.91,11.32
+  goto 61.64,18.3
+  goto 71.53,51.19
+  goto 54.08,55.9
+  goto 54.07,56.49
+  interact 2857 optional
+  interact 4149 optional
+  interact 3715 optional
+  interact 3714 optional
+  interact 111095 optional
+  interact 153470 optional
+  interact 3707 optional
+  interact 3702 optional
+  interact 3689 optional
+  interact 3695 optional
+  interact 3706 optional
+  interact 20925 optional
+  interact 174728 optional
+  interact 20727 optional
+  note Twelve Solid Chest placements, nineteen more Solid Chest placements across the south, three Alliance Chest plus three Alliance Strongbox placements at the same three points (no faction lock in the data), one Alliance Chest far north, Food Crate and Armor/Weapon Crate clusters, seven Milk barrel placements, one Captain's Footlocker, one Damaged Crate, and one Gizmorium Shipping Crate (Horde-side addition - the data shows a fixed point, loot and no quest link; the Alliance inventory omits it). All hold ordinary low-level goods; no unique treasure confirmed.
+  note No contract quest takes an object objective from any of these containers. Objects the Alliance guide routes here that have no 1445 spawn anywhere (Alliance Chests 4096/105579, Alliance Strongbox 105570, Battered Footlockers, Camp/Unopened Crates, Ambermill Strongbox) are not shipped - flagged in the inventory, never harmonized. The Keg that starts the core's Ruined Kegs is that quest's object-start and is not covered here. Respawn timers unconfirmed.
+
+step General Twinbraid's Strongbox - the west
+
+  zone map 1445
+
+  goto 26.3,58.5
+  interact 3646 optional
+  note General Twinbraid's Strongbox in the west; its loot is the Tear of the Moons. No quest takes it in the data - flavor, not furniture.
+
+step Mok'Morokk's horde - the ogre mound
+
+  zone map 1445
+
+  goto 44.53,66.04
+  goto 38.66,65.57
+  goto 36.64,69.57
+  interact 19904 optional
+  interact 19905 optional
+  interact 19906 optional
+  note Mok'Morokk's Snuff, Grog and Strongbox on the ogre mound; no quest takes any of them in the data - flavor, not furniture. Respawn timers unconfirmed.
+
+step Seaworn Altar and Enchanted Sea Kelp - the east coast
+
+  zone map 1445
+
+  goto 59.36,9.63
+  goto 59.35,9.6
+  note The Seaworn Altar and its Enchanted Sea Kelp on the east coast; neither has loot in the data and no quest takes either. Surveyed, not shipped as an interact - flavor, noted.
+
+step Orc Spy Report - Theramore, noted
+
+  zone map 1445
+
+  goto 68.18,48.63
+  note The Orc Spy Report sits in Theramore; it has no loot in the data and no quest takes it. Noted, not shipped.
