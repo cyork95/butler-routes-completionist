@@ -1,0 +1,124 @@
+# Tanaris (Horde) - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans and manuals whose SOURCE is physically in
+# Tanaris for a Horde player, verified against the local Forever game data
+# (questie-forever item vendor and drop tables). Sixteen recipes are
+# vendor-sold by in-zone neutral vendors (Alchemist Pestlezugg, Vizzklick,
+# Gikkix, Jabbey, Fizzgrimble and Dirge Quikcleave — all faction AH, so
+# Horde buys at the same counters as the Alliance side); nine
+# Leatherworking patterns drop each from named in-zone mobs, seven of them
+# from the Wastewander camps in the east. The two same-title Crimson Silk
+# Robe patterns are both sold by Vizzklick and both ship with a note. Every
+# buy line carries an npc pin to the exact in-zone vendor. Quest records
+# carry no reward data, so no quest-reward recipe ships (see
+# docs/tanaris-horde-companions-inventory.md). Trainer-taught staples are
+# excluded: Polestar's own profession guides cover those. Each step is
+# gated to its profession; other characters skip it cleanly. No in-zone
+# Horde source exists for Blacksmithing, Engineering, Enchanting, First
+# Aid or Fishing, so that is stated, not padded.
+guide butler-routes-completionist/tanaris-horde-recipes
+title Tanaris (Horde) - Recipes & Patterns
+levels 38-50
+zone Tanaris
+faction Horde
+category Professions
+folder Companions
+keywords tanaris, horde, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Gadgetzan vendors - Pestlezugg's stock (Alchemy)
+
+  zone map 1446
+
+  when skill Alchemy 1
+
+  tip Alchemist Pestlezugg (50.89, 26.96) sells recipes in Gadgetzan; Steamwheedle-neutral, same counter both factions use.
+  buy 6057 "Recipe: Nature Protection Potion" npc 5594
+  buy 9303 "Recipe: Philosopher's Stone" npc 5594
+  buy 9304 "Recipe: Transmute Iron to Gold" npc 5594
+  buy 9305 "Recipe: Transmute Mithril to Truesilver" npc 5594
+  buy 12958 "Recipe: Transmute Arcanite" npc 5594
+
+step Gadgetzan vendors - Vizzklick's stock (Tailoring)
+
+  zone map 1446
+
+  when skill Tailoring 1
+
+  tip Vizzklick (51.01, 27.36) sells patterns in Gadgetzan; Steamwheedle-neutral, same counter both factions use.
+  buy 7088 "Pattern: Crimson Silk Robe" npc 6568
+  buy 21358 "Pattern: Soul Pouch" npc 6568
+  buy 217244 "Pattern: Crimson Silk Robe" npc 6568
+  buy 253665 "Pattern: Linen Reagent Bag" npc 6568
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 6568
+  note Two same-title Crimson Silk Robe patterns share this vendor's stock - both are genuine in-zone sources, so both ship.
+
+step Steamwheedle Port vendors - Gikkix's stock (Cooking)
+
+  zone map 1446
+
+  when skill Cooking 1
+
+  tip Gikkix (66.64, 22.08) sells recipes at Steamwheedle Port; Steamwheedle-neutral, same counter both factions use.
+  buy 13939 "Recipe: Spotted Yellowtail" npc 8137
+  buy 13942 "Recipe: Grilled Squid" npc 8137
+  buy 13945 "Recipe: Nightfin Soup" npc 8137
+  buy 13946 "Recipe: Poached Sunscale Salmon" npc 8137
+
+step Steamwheedle Port vendors - Jabbey's stock (Cooking)
+
+  zone map 1446
+
+  when skill Cooking 1
+
+  tip Jabbey (67.01, 21.99) sells recipes at Steamwheedle Port; Steamwheedle-neutral, same counter both factions use.
+  buy 16767 "Recipe: Undermine Clam Chowder" npc 8139
+
+step Gadgetzan vendors - the steak (Cooking)
+
+  zone map 1446
+
+  when skill Cooking 1
+
+  tip Innkeeper Fizzgrimble (52.51, 27.91) and Dirge Quikcleave (52.63, 28.11) both sell the steak in Gadgetzan; both Steamwheedle-neutral.
+  buy 18046 "Recipe: Tender Wolf Steak" npc 7733
+  note Dirge Quikcleave (8125) stocks the same recipe at his own counter; either neutral vendor serves.
+
+step Wastewander camp drops (Leatherworking)
+
+  zone map 1446
+
+  when skill Leatherworking 1
+
+  tip The Wastewander camps work the east; Andre Firebeard holds the cove. All droppers below spawn only in Tanaris.
+  collect 8395 "Pattern: Tough Scorpid Breastplate" optional
+  note Off the Wastewander Bandits (13 points, east).
+  collect 8397 "Pattern: Tough Scorpid Bracers" optional
+  note Off the Wastewander Shadow Mages (22 points, east).
+  collect 8398 "Pattern: Tough Scorpid Gloves" optional
+  note Off the Wastewander Thieves (20 points, east).
+  collect 8399 "Pattern: Tough Scorpid Boots" optional
+  note Off the Wastewander Rogues (20 points, east).
+  collect 8401 "Pattern: Tough Scorpid Leggings" optional
+  note Off the Wastewander Rogues (same camp).
+  collect 8400 "Pattern: Tough Scorpid Shoulders" optional
+  note Off the Wastewander Assassins (10 points), the Scofflaw (66.16, 34.99), or Andre Firebeard (73.37, 47.14).
+  collect 8402 "Pattern: Tough Scorpid Helm" optional
+  note Off the same three sources as the Shoulders.
+
+step Cove and south-west drops (Leatherworking)
+
+  zone map 1446
+
+  when skill Leatherworking 1
+
+  collect 17722 "Pattern: Gloves of the Greatfather" optional
+  note Off the Southsea Freebooters (22 points), sole dropper, Lost Rigger Cove pirates.
+  collect 252908 "Pattern: Supple Scorpid Boots" optional
+  note Off the Dunemaul Ogres (10 points, south-west), sole dropper.
+
+step Professions with no Tanaris source
+
+  zone map 1446
+
+  note Blacksmithing, Engineering, Enchanting, First Aid and Fishing have no recipe source physically in Tanaris for a Horde player - no vendor sells them in-zone and no narrow in-zone dropper carries them. This guide stays silent on those professions rather than padding.
