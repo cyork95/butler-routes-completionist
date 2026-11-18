@@ -56,7 +56,7 @@ mirror note). Above-band: none — the highest-flagged rare is exactly 45
   (36.03, 63.07), (39.12, 63.05), far south | no sole drops — ordinary
   greens get a note | kill + loop, no collect |
 - Malgin Barleybrew | npc 5848 | level 25 rare, faction A | 1 pt
-  (27.2, 58.61) | 286541 Bael'dun Tankard (sole; his other drops are
+  (27.2, 58.6) | 286541 Bael'dun Tankard (sole; his other drops are
   generic vendor drinks) | kill + collect, no loop + two notes:
   killable opposition for Horde (faction A) AND below the band (mirror
   note) |
