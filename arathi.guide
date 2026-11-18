@@ -12,7 +12,6 @@ guide butler-routes-completionist/arathi-highlands
 title Arathi Highlands - Completionist
 levels 30-40
 zone Arathi Highlands
-faction Alliance
 category Leveling
 folder Completionist
 coords live
@@ -21,18 +20,18 @@ version 1
 step Refuge Pointe - arrival
 
   tip Refuge Pointe is the Alliance hub: Captain Nials (45.83, 47.56) holds the Stromgarde line, the Wanted Board (46.04, 47.76) posts the bounties, Apprentice Kryten (46.2, 47.75) and Skuerto (46.65, 47.01) work the tower, and Muggol Breezebeard (48.68, 55.78) takes writs.
-  accept 681 -- Northfold Manor - Captain Nials
-  accept 684 -- WANTED: Marez Cowl - the Wanted Board
-  accept 685 -- WANTED: Otto and Falconcrest - the Wanted Board
-  accept 691 -- Worth Its Weight in Gold - Apprentice Kryten
-  accept 95315 -- The Riverglades Report - Captain Nials
+  accept 681 only Alliance -- Northfold Manor - Captain Nials
+  accept 684 only Alliance -- WANTED: Marez Cowl - the Wanted Board
+  accept 685 only Alliance -- WANTED: Otto and Falconcrest - the Wanted Board
+  accept 691 only Alliance -- Worth Its Weight in Gold - Apprentice Kryten
+  accept 95315 only Alliance -- The Riverglades Report - Captain Nials
   note The Riverglades Report rides the Farholde expedition at the end.
   accept 94221 optional -- Craftsman's Writ: Golden Rod - Muggol Breezebeard; have the Golden Rod in your bags
   note The writs are optional: have each requested good in your bags before taking the turn-in leg.
 
 step Northfold Manor - highwaymen and mercenaries
 
-  complete 681 @29.05,28.38 era -- 10 Syndicate Highwaymen and 6 Syndicate Mercenaries for Captain Nials
+  complete 681 only Alliance @29.05,28.38 era -- 10 Syndicate Highwaymen and 6 Syndicate Mercenaries for Captain Nials
   accept 96784 only Rogue -- Master of Disguise - the Syndicate Footlocker (32.29, 26.57)
   note The footlocker starts the Rogue's Stromgarde Keep line; its pre (96783) lives outside this contract. The rest of that line runs in the streets below.
 
@@ -40,7 +39,7 @@ step Stromgarde west - Lomar, Alaric and Anastasia
 
   tip Groundskeeper Lomar (27, 57.2) and Caretaker Alaric (28.98, 59.68) work the west gate; Anastasia Miller (26.81, 64.44) waits further in.
   accept 92867 -- Ground to Keep - Groundskeeper Lomar
-  accept 92872 -- Dutiful Steps - Caretaker Alaric
+  accept 92872 only Alliance -- Dutiful Steps - Caretaker Alaric
   note Alaric's pouch goes into the sea on any coast; have it thrown before you report back.
   turnin 96784 only Rogue -- Master of Disguise - Anastasia Miller
   accept 96785 only Rogue -- Ain't No Telling - Anastasia Miller
@@ -48,15 +47,15 @@ step Stromgarde west - Lomar, Alaric and Anastasia
 
 step Stromgarde streets - heads and intruders
 
-  complete 684 @29.47,64.14 era -- Marez Cowl for Captain Nials
-  complete 685 @26.22,65.55 era -- Otto and Lord Falconcrest for Captain Nials
+  complete 684 only Alliance @29.47,64.14 era -- Marez Cowl for Captain Nials
+  complete 685 only Alliance @26.22,65.55 era -- Otto and Lord Falconcrest for Captain Nials
 
   complete 92867 @17.51,68.38 era -- the Boulderfist, Syndicate and Witherbark intruders in the keep for Groundskeeper Lomar
 
 step Stromgarde west - dust and duty paid
 
   turnin 92867 -- Ground to Keep - Groundskeeper Lomar
-  turnin 92872 -- Dutiful Steps - Caretaker Alaric
+  turnin 92872 only Alliance -- Dutiful Steps - Caretaker Alaric
   turnin 96785 only Rogue -- Ain't No Telling - Anastasia Miller
   accept 96786 only Rogue -- The Syndicate Sting - Anastasia Miller
   complete 96786 only Rogue @26.81,64.44 era -- have the Intercepted Shipment in your bags; it names no placed source in the data
@@ -64,17 +63,17 @@ step Stromgarde west - dust and duty paid
 
 step Refuge Pointe - the captains paid
 
-  turnin 681 -- Northfold Manor - Captain Nials
-  accept 682 -- Stromgarde Badges - Captain Nials
+  turnin 681 only Alliance -- Northfold Manor - Captain Nials
+  accept 682 only Alliance -- Stromgarde Badges - Captain Nials
   note 682's badges come from the Syndicate in the streets above - take the badges leg next.
-  turnin 684 -- WANTED: Marez Cowl - Captain Nials
-  turnin 685 -- WANTED: Otto and Falconcrest - Captain Nials
+  turnin 684 only Alliance -- WANTED: Marez Cowl - Captain Nials
+  turnin 685 only Alliance -- WANTED: Otto and Falconcrest - Captain Nials
   turnin 94221 optional -- Craftsman's Writ: Golden Rod - Muggol Breezebeard
 
 step Stromgarde streets - badges
 
-  complete 682 @25.39,63.4 era -- 7 Stromgarde Badges from the Syndicate in the streets for Captain Nials
-  turnin 682 -- Stromgarde Badges - Captain Nials
+  complete 682 only Alliance @25.39,63.4 era -- 7 Stromgarde Badges from the Syndicate in the streets for Captain Nials
+  turnin 682 only Alliance -- Stromgarde Badges - Captain Nials
 
 step The circle - Keystone and Inner Binding
 
@@ -83,7 +82,7 @@ step The circle - Keystone and Inner Binding
   note 651's pre (642, the Princess) is a documented no-turn-in record below; the keys are gathered anyway, honestly carried with no invented turn-in.
   accept 652 -- Breaking the Keystone - the Stone of Inner Binding, beside the Keystone
   note 652's pre (651 above) is a documented no-turn-in record; the Rod runs to the Keystone anyway.
-  accept 653 -- Myzrael's Allies - the Keystone
+  accept 653 only Alliance -- Myzrael's Allies - the Keystone
   note 653's pre (652 above) is a documented no-turn-in record; the chain leaves for Ironforge on 653 regardless.
 
 step The northwest - Alyce's writs and the West stone
@@ -112,25 +111,25 @@ step Eagle's Fist site - the figurine chain
 step South - Foggy and the corpse
 
   tip Foggy MacKreel (43.24, 92.64) brews at the far south; Ebenezer Rustlocke's corpse (45.7, 93.1) lies nearby.
-  accept 647 -- MacKreel's Moonshine - Foggy MacKreel
+  accept 647 only Alliance -- MacKreel's Moonshine - Foggy MacKreel
   note Foggy also stands on the Wetlands side; the quest's zone field keeps it here, and Bilger waits in Hillsbrad.
-  accept 632 -- The Thandol Span - Ebenezer Rustlocke's corpse
+  accept 632 only Alliance -- The Thandol Span - Ebenezer Rustlocke's corpse
   note 632's pre (631) lives in the Wetlands guide - take 632 after that leg; Rhag takes the parchment on the Wetlands expedition below.
 
 step South - the courier and the plague chain
 
   tip Quae (60.18, 53.85) and Kinelory (60.24, 53.92) work the east camp; the Forsaken Courier (52.47, 61.53) walks west of it.
-  accept 658 -- Hints of a New Plague? - Quae
+  accept 658 only Alliance -- Hints of a New Plague? - Quae
   note 658's pre (659) is contracted in the Hillsbrad guide - take 658 after that leg.
 
-  complete 658 @52.47,61.53 era -- the Forsaken Courier's Sealed Folder for Quae
-  turnin 658 -- Hints of a New Plague? - Quae
-  accept 657 -- Hints of a New Plague? - Quae
-  turnin 657 -- Hints of a New Plague? - Kinelory
-  accept 660 -- Hints of a New Plague? - Quae
-  complete 660 @60.1,53.83 era -- defend Kinelory for Quae
-  turnin 660 -- Hints of a New Plague? - Quae
-  accept 661 -- Hints of a New Plague? - Quae
+  complete 658 only Alliance @52.47,61.53 era -- the Forsaken Courier's Sealed Folder for Quae
+  turnin 658 only Alliance -- Hints of a New Plague? - Quae
+  accept 657 only Alliance -- Hints of a New Plague? - Quae
+  turnin 657 only Alliance -- Hints of a New Plague? - Kinelory
+  accept 660 only Alliance -- Hints of a New Plague? - Quae
+  complete 660 only Alliance @60.1,53.83 era -- defend Kinelory for Quae
+  turnin 660 only Alliance -- Hints of a New Plague? - Quae
+  accept 661 only Alliance -- Hints of a New Plague? - Quae
   note 661 ends with Phin Odelic in Southshore, on the Hillsbrad leg below.
 
 step South - Skonk's kitchen
@@ -146,7 +145,7 @@ step South - Skonk's kitchen
   turnin 79677 -- A Quick Grocery Run - Skonk
   accept 79678 -- Taste Testing - Skonk
   turnin 79678 -- Taste Testing - Skonk
-  kill 2557 optional -- Shadow Hunter; its knife goes to Kryten's Worth Its Weight in Gold up north
+  kill 2557 optional only Alliance -- Shadow Hunter; its knife goes to Kryten's Worth Its Weight in Gold up north
   note The tusks and pouches for 691 come from the Witherbark Witch Doctor in the ogre hills next.
 
 step Ogre hills - pendant and tusks
@@ -156,44 +155,44 @@ step Ogre hills - pendant and tusks
   accept 635 -- Crystal in the Mountains - use the Pendant of Myzrael
   note The data names no objectives and no turn-in for the crystal: the pendant's vision is the whole record, honestly carried.
 
-  complete 691 @30.52,43.56 era -- 10 Witherbark Tusks and 4 Witherbark Medicine Pouches, with the Shadow Hunter Knife bagged south
+  complete 691 only Alliance @30.52,43.56 era -- 10 Witherbark Tusks and 4 Witherbark Medicine Pouches, with the Shadow Hunter Knife bagged south
 
 step Refuge tower - Kryten's cut and Skuerto's wand
 
-  turnin 691 -- Worth Its Weight in Gold - Apprentice Kryten
-  accept 693 -- Wand over Fist - Skuerto
+  turnin 691 only Alliance -- Worth Its Weight in Gold - Apprentice Kryten
+  accept 693 only Alliance -- Wand over Fist - Skuerto
   note The wand waits on Kor'gresh Coldrage (54.75, 81.87) down south.
 
 step South return - Kor'gresh Coldrage
 
-  complete 693 @54.75,81.87 era -- Trelane's Wand of Invocation from Kor'gresh Coldrage for Skuerto
+  complete 693 only Alliance @54.75,81.87 era -- Trelane's Wand of Invocation from Kor'gresh Coldrage for Skuerto
 
 step Refuge tower - Defenses
 
-  turnin 693 -- Wand over Fist - Skuerto
-  accept 694 -- Trelane's Defenses - Apprentice Kryten
+  turnin 693 only Alliance -- Wand over Fist - Skuerto
+  accept 694 only Alliance -- Trelane's Defenses - Apprentice Kryten
   note The Azure Agate sits on the Boulderfist Shaman (17.82, 69.12) out west.
 
 step West - the Azure Agate
 
-  complete 694 @17.82,69.12 era -- the Azure Agate from the Boulderfist Shaman for Apprentice Kryten
+  complete 694 only Alliance @17.82,69.12 era -- the Azure Agate from the Boulderfist Shaman for Apprentice Kryten
 
 step Refuge tower - enchantment and attack
 
-  turnin 694 -- Trelane's Defenses - Apprentice Kryten
-  accept 695 -- An Apprentice's Enchantment - Apprentice Kryten
-  turnin 695 -- An Apprentice's Enchantment - Skuerto
-  accept 696 -- Attack on the Tower - Skuerto
+  turnin 694 only Alliance -- Trelane's Defenses - Apprentice Kryten
+  accept 695 only Alliance -- An Apprentice's Enchantment - Apprentice Kryten
+  turnin 695 only Alliance -- An Apprentice's Enchantment - Skuerto
+  accept 696 only Alliance -- Attack on the Tower - Skuerto
   note The boxes wait in Trelane's Tower (18.03-18.18, 67.87-69.15) out west.
 
 step West - Trelane's boxes
 
-  complete 696 @18.18,68.14 era -- Trelane's Phylactery, Orb and Ember Agate from the footlocker, chest and lockbox
+  complete 696 only Alliance @18.18,68.14 era -- Trelane's Phylactery, Orb and Ember Agate from the footlocker, chest and lockbox
 
 step Refuge tower - Malin's request
 
-  turnin 696 -- Attack on the Tower - Skuerto
-  accept 697 -- Malin's Request - Skuerto
+  turnin 696 only Alliance -- Attack on the Tower - Skuerto
+  accept 697 only Alliance -- Malin's Request - Skuerto
   note Malin takes the letter in Stormwind, on the expedition below.
 
 step East - motes, shards and the Rod
@@ -210,15 +209,15 @@ step East - motes, shards and the Rod
 
 step East - Veyric and the bindings
 
-  accept 96264 only Shaman -- Elemental Aid - Veyric Thunderhame
+  accept 96264 only Shaman,Alliance -- Elemental Aid - Veyric Thunderhame
   note The Tattered Note comes from Charlga Razorflank in Razorfen Kraul; the instance has no map frame in the data, so take the note when you run the Kraul and report back with it in your bags.
-  complete 96264 only Shaman @59.84,27.57 era -- the Tattered Note in your bags, for Veyric Thunderhame
-  turnin 96264 only Shaman -- Elemental Aid - Veyric Thunderhame
-  accept 79358 only Shaman -- Storm, Earth, and Fire - Veyric Thunderhame
+  complete 96264 only Shaman,Alliance @59.84,27.57 era -- the Tattered Note in your bags, for Veyric Thunderhame
+  turnin 96264 only Shaman,Alliance -- Elemental Aid - Veyric Thunderhame
+  accept 79358 only Shaman,Alliance -- Storm, Earth, and Fire - Veyric Thunderhame
   note The four Twisted Totem sets drop far afield - fire from the Badlands Dustbelchers, earth from the Swamp of Sorrows Lost Ones, water from the Dustwallow Mirefin, air from the Desolace Maraudine; none drop in Arathi, so bag them on your travels, never farmed in-route.
-  complete 79358 only Shaman @59.84,27.57 era -- the four Twisted Totem sets in your bags, for Veyric Thunderhame
-  turnin 79358 only Shaman -- Storm, Earth, and Fire - Veyric Thunderhame
-  accept 96135 only Shaman -- Heed My Call - Veyric Thunderhame
+  complete 79358 only Shaman,Alliance @59.84,27.57 era -- the four Twisted Totem sets in your bags, for Veyric Thunderhame
+  turnin 79358 only Shaman,Alliance -- Storm, Earth, and Fire - Veyric Thunderhame
+  accept 96135 only Shaman,Alliance -- Heed My Call - Veyric Thunderhame
   note The eye waits in Desolace on the expedition below; the ritual ends where the totems say.
 
   note The Thundering Key for 651 comes from the Stone of Outer Binding.
@@ -265,13 +264,13 @@ step Shaman expedition - Desolace, the Tempest's eye
 
   tip The Ravaging Tempest roams the Desolace flats around (31-45, 33-47).
 
-  complete 96135 only Shaman @34.66,33.4 era -- the Eye of the Tempest from the Ravaging Tempest, with the Twisted Totems in your bags
+  complete 96135 only Shaman,Alliance @34.66,33.4 era -- the Eye of the Tempest from the Ravaging Tempest, with the Twisted Totems in your bags
   zone map 1417
 
 step Arathi - the Tempest answered
 
-  turnin 96135 only Shaman -- Heed My Call - Veyric Thunderhame
-  accept 96016 only Shaman -- The Tempest's Weapons - Veyric Thunderhame
+  turnin 96135 only Shaman,Alliance -- Heed My Call - Veyric Thunderhame
+  accept 96016 only Shaman,Alliance -- The Tempest's Weapons - Veyric Thunderhame
   note 96016's other pre (79366) lives outside this contract; the eye itself is in hand, so Bath'rah takes the delivery on the Alterac leg below.
 
 step Expedition - Wetlands and Hillsbrad
@@ -279,12 +278,12 @@ step Expedition - Wetlands and Hillsbrad
   zone map 1437
 
   tip Rhag Garmason (49.9, 18.24) works the Wetlands.
-  turnin 632 -- The Thandol Span - Rhag Garmason
+  turnin 632 only Alliance -- The Thandol Span - Rhag Garmason
   zone map 1424
 
   tip Brewmeister Bilger (52.13, 58.74) and Phin Odelic (50.35, 59.05) work Southshore.
-  turnin 647 -- MacKreel's Moonshine - Brewmeister Bilger
-  turnin 661 -- Hints of a New Plague? - Phin Odelic
+  turnin 647 only Alliance -- MacKreel's Moonshine - Brewmeister Bilger
+  turnin 661 only Alliance -- Hints of a New Plague? - Phin Odelic
   zone map 1417
 
 step Expedition - Ironforge and Stormwind
@@ -292,11 +291,11 @@ step Expedition - Ironforge and Stormwind
   zone map 1455
 
   tip Gerrig Bonegrip (50.83, 5.62) works Ironforge.
-  turnin 653 -- Myzrael's Allies - Gerrig Bonegrip
+  turnin 653 only Alliance -- Myzrael's Allies - Gerrig Bonegrip
   zone map 1453
 
   tip Archmage Malin (50.5, 87.47) works Stormwind.
-  turnin 697 -- Malin's Request - Archmage Malin
+  turnin 697 only Alliance -- Malin's Request - Archmage Malin
   zone map 1417
 
 step Expedition - Stranglethorn, Alterac, Ravenholdt and Riverglades
@@ -308,10 +307,10 @@ step Expedition - Stranglethorn, Alterac, Ravenholdt and Riverglades
   zone map 1416
 
   tip Bath'rah the Windwatcher (80.5, 66.92) and Myrokos Silentform (84.93, 80.38) work the Alterac side.
-  turnin 96016 only Shaman -- The Tempest's Weapons - Bath'rah the Windwatcher
+  turnin 96016 only Shaman,Alliance -- The Tempest's Weapons - Bath'rah the Windwatcher
   turnin 96786 only Rogue -- The Syndicate Sting - Myrokos Silentform
   zone map 2548
 
   tip Demar Brant (66.67, 81.01) holds Farholde Keep in the Riverglades.
-  turnin 95315 -- The Riverglades Report - Demar Brant
+  turnin 95315 only Alliance -- The Riverglades Report - Demar Brant
   zone map 1417
