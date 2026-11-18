@@ -1,0 +1,57 @@
+# Un'Goro Crater (Horde) - Rares companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 3 confirmed rank-4 rares of Un'Goro
+# Crater. Run it in its own Polestar tab at the end of the Horde core
+# route or standalone. EVERY goal is optional: a rare that is not up
+# never holds the route. Spawn points and levels are the local Forever
+# game data (questie-forever), verified for the Horde side. Signature
+# drops are items whose SOLE dropper is the rare (null rate stated, per
+# the Feralas calibration): the Matriarch and Uhk'loc each carry one;
+# Clutchmother Zavas has none and ships as a kill goal with a
+# come-back-later note (level 54, one above the Horde 47-53 band). All
+# three rares are a single confirmed point each, so no step loops. No
+# treasures ship: no lootable fixed container exists in the data that is
+# not core-owned quest furniture (see
+# docs/ungoro-horde-companions-inventory.md). No tame lines ship (no data
+# flag; the core guide kills devilsaurs for the Sprout but carries no
+# Hunter lines - see docs/companion-unverified.md). Respawn timers are
+# unconfirmed anywhere, so none are stated. No rare in this guide is a
+# giver, ender, or objective of any Horde-contracted quest.
+guide butler-routes-completionist/ungoro-horde-rares
+title Un'Goro Crater (Horde) - Rares
+levels 47-53
+zone Un'Goro Crater
+faction Horde
+category Collectibles
+folder Companions
+keywords ungoro, horde, rares, companions
+coords live
+version 1
+
+step Ravasaur Matriarch — the east crater
+
+  zone map 1449
+
+  goto 62.35,65.95
+  kill 6581 optional
+  collect 286616 "Matriarch's Prowlers" optional
+  note Level 50 rare at its single confirmed point in the east crater; its sole drop is the Matriarch's Prowlers (no rate in the data). No quest takes it.
+  note Also drops ordinary greens and raptor bits; respawn timer unconfirmed.
+
+step Uhk'loc — the north crater
+
+  zone map 1449
+
+  goto 68.48,12.66
+  kill 6585 optional
+  collect 285284 "Balanced Knives of the Bandit" optional
+  note Level 53 rare at its single confirmed point in the north crater; its sole drop is the Balanced Knives of the Bandit (no rate in the data). No quest takes it.
+  note Also drops ordinary greens and gorilla bits; respawn timer unconfirmed.
+
+step Clutchmother Zavas — the south-east (come back later)
+
+  zone map 1449
+
+  goto 48.73,85.35
+  kill 6582 optional
+  note Level 54 rare at its single confirmed point in the south-east; one level above the Horde 47-53 band, so work it after the core route. The data shows no sole drop for it, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens and insect bits; respawn timer unconfirmed.
