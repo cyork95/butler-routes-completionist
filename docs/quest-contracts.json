@@ -15484,6 +15484,33 @@
         {"id": 9022, "name": "Anthion's Parting Words"},
         {"id": 9665, "name": "Bolstering Our Defenses"}
       ]
+    },
+    {
+      "id": "moonglade-horde",
+      "name": "Moonglade (Horde)",
+      "order": 74,
+      "levelBand": "10-20",
+      "summary": "Horde druid class guide (Tauren chains).",
+      "quests": [
+        {"id": 27, "name": "A Lesson to Learn"},
+        {"id": 28, "name": "Trial of the Lake"},
+        {"id": 30, "name": "Trial of the Sea Lion"},
+        {"id": 31, "name": "Aquatic Form"},
+        {"id": 5922, "name": "Moonglade"},
+        {"id": 5930, "name": "Great Bear Spirit"},
+        {"id": 5932, "name": "Back to Thunder Bluff"},
+        {"id": 6002, "name": "Body and Heart"},
+        {"id": 6126, "name": "Lessons Anew"},
+        {"id": 6127, "name": "The Principal Source"},
+        {"id": 6128, "name": "Gathering the Cure"},
+        {"id": 6129, "name": "Curing the Sick"},
+        {"id": 6130, "name": "Power over Poison"},
+        {"id": 98340, "name": "The Great Cat Spirit"},
+        {"id": 98342, "name": "The Great Cat Spirit"},
+        {"id": 98405, "name": "The Great Cat Spirit"},
+        {"id": 98739, "name": "Blessings of the Great Cat Spirit"},
+        {"id": 98362, "name": "To Thunder Bluff"}
+      ]
     }
   ]
 }
