@@ -15557,6 +15557,19 @@
         {"id": 3822, "name": "Krom'Grul"},
         {"id": 8998, "name": "Back to the Beginning"}
       ]
+    },
+    {
+      "id": "shendralas-horde",
+      "name": "Shen'dralas (Horde)",
+      "order": 78,
+      "levelBand": "30-35",
+      "summary": "Horde side of contested Shen'dralas.",
+      "quests": [
+        {"id": 93058, "name": "Saving Our Own"},
+        {"id": 93062, "name": "Bone Burying"},
+        {"id": 93122, "name": "Checking Things Out"},
+        {"id": 93128, "name": "Khan Jehn"}
+      ]
     }
   ]
 }
