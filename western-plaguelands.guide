@@ -24,7 +24,6 @@ guide butler-routes-completionist/western-plaguelands
 title Western Plaguelands
 levels 50-58
 zone Western Plaguelands
-faction Alliance
 category Leveling
 folder Eastern Kingdoms
 coords live
@@ -68,15 +67,15 @@ step Darrowshire south - Orthas and Zaeldarr
 
   accept 84318 -- Oi! - Orthas (warhammer note below)
   complete 84318 -- Ornate Warhammer (object 461639 has no spawns in the data, so this complete carries no place)
-  accept 84330 -- A Wee Bit O' Necromancy - Orthas (runestone and tooth notes below)
-  complete 84330 -- Necrotic Runestone and Gold Tooth (the runestone's only dropper Maleki has no spawns in the data, so this complete carries no place)
+  accept 84330 only Alliance -- A Wee Bit O' Necromancy - Orthas (runestone and tooth notes below)
+  complete 84330 only Alliance -- Necrotic Runestone and Gold Tooth (the runestone's only dropper Maleki has no spawns in the data, so this complete carries no place)
   note The Gold Tooth is sold by Rix Xizzix in Booty Bay (1434, expedition below) - buy it there or bring one.
   accept 6021 -- Zaeldarr the Outcast - Alen's writ from Light's Hope (below)
   kill 12247 -- eight Scourge Structures at the cauldron field
   complete 6021 @23.07,72.63 era -- Zaeldarr's Head off Zaeldarr
   turnin 6021 @23.58,73.79 era -- Zaeldarr the Outcast - the head in the Mound of Dirt
   turnin 84318 @24.33,69.07 -- Oi! - Orthas (with the warhammer in the bags)
-  turnin 84330 @23.1,73.32 -- A Wee Bit O' Necromancy - the Rotting Dwarf (with tooth and runestone in the bags)
+  turnin 84330 only Alliance @23.1,73.32 -- A Wee Bit O' Necromancy - the Rotting Dwarf (with tooth and runestone in the bags)
   accept 6024 -- Hameya's Plea - the Torn Scroll off the ground at 22.9,72.96; needs Hameya's Key (see note)
   kill 12248 -- Infiltrator Hameya at the north fence for her key
   note Hameya's Key comes from Infiltrator Hameya at 61.96,11.11 (placed); 6024 has no turnin anywhere in the data (accept-only record, honest note, never an invented turnin).
@@ -360,78 +359,79 @@ step Sorrow Hill - parting words
 
   zone map 1423
 
-  accept 8951 -- Anthion's Parting Words - Anthion (pre turned in above; Deliana in Ironforge takes all eight turnins, expedition below)
-  complete 8951 -- Wildheart Boots and Spaulders (all three dungeon bosses per set have no spawns in the data, so these completes carry no place); bring the pieces
-  accept 8952 -- Anthion's Parting Words
-  complete 8952 -- Beaststalker's Boots, Belt and Gloves (see 8951 note)
-  accept 8953 -- Anthion's Parting Words
-  complete 8953 -- Magister's Boots, Belt and Gloves (see 8951 note)
-  accept 8954 -- Anthion's Parting Words
-  complete 8954 -- Lightforge Boots, Belt and Bracers (see 8951 note)
-  accept 8955 -- Anthion's Parting Words
-  complete 8955 -- Devout Sandals, Belt and Bracers (see 8951 note)
-  accept 8956 -- Anthion's Parting Words
-  complete 8956 -- Shadowcraft Boots, Belt and Bracers (see 8951 note)
-  accept 8958 -- Anthion's Parting Words
-  complete 8958 -- Dreadmist Sandals, Belt and Wraps (see 8951 note)
-  accept 8959 -- Anthion's Parting Words
-  complete 8959 -- Boots, Belt and Bracers of Valor (see 8951 note)
+  accept 8951 only Alliance -- Anthion's Parting Words - Anthion (pre turned in above; Deliana in Ironforge takes all eight turnins, expedition below)
+  complete 8951 only Alliance -- Wildheart Boots and Spaulders (all three dungeon bosses per set have no spawns in the data, so these completes carry no place); bring the pieces
+  accept 8952 only Alliance -- Anthion's Parting Words
+  complete 8952 only Alliance -- Beaststalker's Boots, Belt and Gloves (see 8951 note)
+  accept 8953 only Alliance -- Anthion's Parting Words
+  complete 8953 only Alliance -- Magister's Boots, Belt and Gloves (see 8951 note)
+  accept 8954 only Alliance -- Anthion's Parting Words
+  complete 8954 only Alliance -- Lightforge Boots, Belt and Bracers (see 8951 note)
+  accept 8955 only Alliance -- Anthion's Parting Words
+  complete 8955 only Alliance -- Devout Sandals, Belt and Bracers (see 8951 note)
+  accept 8956 only Alliance -- Anthion's Parting Words
+  complete 8956 only Alliance -- Shadowcraft Boots, Belt and Bracers (see 8951 note)
+  accept 8958 only Alliance -- Anthion's Parting Words
+  complete 8958 only Alliance -- Dreadmist Sandals, Belt and Wraps (see 8951 note)
+  accept 8959 only Alliance -- Anthion's Parting Words
+  complete 8959 only Alliance -- Boots, Belt and Bracers of Valor (see 8951 note)
 
 step North - Aurora's chain
 
   zone map 1423
 
-  accept 5246 -- Fragments of the Past - Aurora Skycaller; needs the Darnassus pre (uncontracted) first; listed structural warning
+  accept 5246 only Alliance -- Fragments of the Past - Aurora Skycaller; needs the Darnassus pre (uncontracted) first; listed structural warning
 
 step Azshara - the writings (soft pre)
 
   zone map 1447
 
   when onquest 5246
+  only Alliance
 
-  complete 5246 @41.52,52.54 era -- Fragments of the Past: the Sacred Highborne Writings (Kalimdor expedition leg)
+  complete 5246 only Alliance @41.52,52.54 era -- Fragments of the Past: the Sacred Highborne Writings (Kalimdor expedition leg)
   note Writings done; the turnin rides Aurora back home (below).
 
 step North - Aurora's return
 
   zone map 1423
 
-  turnin 5246 @46.49,16.03 -- Fragments of the Past - Aurora
-  accept 5247 -- Fragments of the Past - Aurora (pre turned in above; bar, crystal and vial notes below)
-  complete 5247 -- Enchanted Thorium Bar and Crystal Restore (neither has any source in the data; the bag note below covers them)
+  turnin 5246 only Alliance @46.49,16.03 -- Fragments of the Past - Aurora
+  accept 5247 only Alliance -- Fragments of the Past - Aurora (pre turned in above; bar, crystal and vial notes below)
+  complete 5247 only Alliance -- Enchanted Thorium Bar and Crystal Restore (neither has any source in the data; the bag note below covers them)
   note The bar and crystal are bag goods, not drops: bring them (Ashenvale R5 handling).
 
 step Feralas expedition - the vial
 
   zone map 1444
 
-  complete 5247 @58.94,35.97 era -- Fragments of the Past: the Vial of Dire Water (Kalimdor expedition leg)
+  complete 5247 only Alliance @58.94,35.97 era -- Fragments of the Past: the Vial of Dire Water (Kalimdor expedition leg)
 
 step North - Aurora's farewell
 
   zone map 1423
 
-  turnin 5247 @46.49,16.03 -- Fragments of the Past - Aurora back home
-  accept 5248 -- Tormented By the Past - Aurora (pre turned in above; Darnassus takes the turnin, expedition below)
+  turnin 5247 only Alliance @46.49,16.03 -- Fragments of the Past - Aurora back home
+  accept 5248 only Alliance -- Tormented By the Past - Aurora (pre turned in above; Darnassus takes the turnin, expedition below)
 
 step Darnassus expedition - the Highborne
 
   zone map 1452
 
-  turnin 5248 @56.14,44.36 -- Tormented By the Past - the Remorseful Highborne at the Temple of the Moon
+  turnin 5248 only Alliance @56.14,44.36 -- Tormented By the Past - the Remorseful Highborne at the Temple of the Moon
 
 step Ironforge expedition - Deliana
 
   zone map 1455
 
-  turnin 8951 @43.53,52.64 optional -- Anthion's Parting Words - Deliana (with the three dungeon pieces in the bags)
-  turnin 8952 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
-  turnin 8953 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
-  turnin 8954 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
-  turnin 8955 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
-  turnin 8956 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
-  turnin 8958 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
-  turnin 8959 @43.53,52.64 optional -- Anthion's Parting Words - Deliana
+  turnin 8951 @43.53,52.64 optional only Alliance -- Anthion's Parting Words - Deliana (with the three dungeon pieces in the bags)
+  turnin 8952 @43.53,52.64 optional only Alliance -- Anthion's Parting Words - Deliana
+  turnin 8953 @43.53,52.64 optional only Alliance -- Anthion's Parting Words - Deliana
+  turnin 8954 @43.53,52.64 optional only Alliance -- Anthion's Parting Words - Deliana
+  turnin 8955 @43.53,52.64 optional only Alliance -- Anthion's Parting Words - Deliana
+  turnin 8956 @43.53,52.64 optional only Alliance -- Anthion's Parting Words - Deliana
+  turnin 8958 @43.53,52.64 optional only Alliance -- Anthion's Parting Words - Deliana
+  turnin 8959 @43.53,52.64 optional only Alliance -- Anthion's Parting Words - Deliana
   note Anthion's chain exits to Ironforge 8960 (out of contract) - noted, not routed.
 
 step Booty Bay expedition - Rix
