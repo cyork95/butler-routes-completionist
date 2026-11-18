@@ -501,6 +501,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions (11 rares + 4 fixed-container loops + 2 singles; 10 recipes: 1 vendor, 9 drop)
+- [x] Faction ungating (Option A, 2026-11-17)
 
 ### Deadwind Pass — contested (Eastern Kingdoms)
 
@@ -806,9 +807,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Burning Steppes — Horde
 
-- [ ] Census (set-asides counted when the zone's Alliance census runs)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (3 Horde IN: 4121/3822/8998, band 48-58; 3/3 banked set-asides reconciled; Krom'Grul + Bodley accept-geography rulings)
+- [x] Core guide - `burning-steppes-horde.guide` (3 accepts / 3 turn-ins + 2 documented non-contract soft-pre turn-ins 3821/4122; Grark/Bodley/Sha'ni camps + Badlands/Orgrimmar expeditions)
+- [x] Lint/playtest clean (0 errors, 3 warnings in accepted classes; Orc Warrior + Orc Shaman 0 stuck, R1 Orgrimmar-leg residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

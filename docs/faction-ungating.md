@@ -465,6 +465,13 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: burning-steppes.guide
 - header: Alliance; contract: 59 (23 primary / 36 shared)
 - shared IDs: 3801, 3802, 4022, 4024, 4123, 4296, 4726, 4734, 4735, 4808, 4866, 5522, 4136, 4729, 4862, 7487, 7848, 7761, 8961, 8962, 8966, 8970, 8985, 8990, 8994, 8995, 8996, 7563, 7564, 7623, 7626, 7627, 7628, 7629, 7630, 7631
+### burning-steppes (UNGATED 2026-11-18, Horde round)
+- file: burning-steppes.guide (was Alliance primary)
+- contract: 59 (23 primary / 36 shared, per the pack-wide sweep; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 219, 3823, 3824, 3825, 4182, 4183, 4224, 4241, 4242, 4262, 4263, 4283, 4286, 4322, 4701, 4764, 4765, 5002, 5081, 5089, 5102, 6402, 8997.
+- Lines gated: 68 quest lines (`only Alliance`; no composition — no primary carries a pre-existing gate). 3 soft-pre minis (`when onquest 4223/4282/5001`, all Alliance-only pres) gated at STEP level with `only Alliance`; mini interiors carry per-line gates too (Ashenvale precedent). The 4810/4324/7625 minis stay bare (shared pres), as does the shared-quest Bodley block (8996/8990-8995; the Horde-only pre 9032 rides a named note, never a mini). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). Shared lines for all 36 shared IDs stay bare, `only Warlock` Dreadsteed gates untouched.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 54 warnings, warned quest-ID set identical to pre-edit baseline (zero diff). Playtest `--honest` both factions: Alliance findings byte-identical before/after (Human Warlock 22 = 22, Human Warrior 18 = 18); Horde personas (Orc/Scourge Warlock/Warrior + NightElf Warrior) complete only shared lines with residue only in R1/R2/R5; mechanical dead-line check (no visible line may reference a quest the viewer's faction cannot accept): 0 violations.
 ### deadwind-pass
 - file: deadwind-pass.guide
 - header: shared-only; contract: 1 (0 primary / 1 shared)
