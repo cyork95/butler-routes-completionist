@@ -105,9 +105,9 @@ step Cooking - Bloodfen (rare drop)
   goto 31.26,66.01
   goto 32.71,64.41
   goto 33.07,64.46
-  goto 33.86,71.68
+  goto 33.53,72.05
   goto 36.31,66.1
-  goto 36.93,69.71
+  goto 36.93,69.05
   goto 37.54,67.84
   collect 250184 "Recipe: Raptor Rouladen" optional
   note Dropped only by the Bloodfen Lashtail (level 40), which patrols these points - but the same lashtail also drops it in the Barrens, so this is a dual-zone drop, not Dustwallow-exclusive. No quest takes it in the data.
@@ -119,7 +119,7 @@ step Tailoring - the far south (rare drop)
   loop
   goto 48.16,76.29
   goto 48.59,74.62
-  goto 50.24,83.73
+  goto 50.24,83.34
   goto 50.35,81.37
   goto 50.89,76.6
   goto 51.53,81.56
