@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.125.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.126.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -85,6 +85,7 @@ Status: **in development (pack v0.125.0), not published yet**. The first release
 | `feralas.guide` (Set 4 core built, pilot pending) | Feralas | 38-50 | Alliance |
 | `feralas-rares.guide` (companion built, pilot pending) | Feralas rares and treasures | 38-50 | Alliance |
 | `feralas-recipes.guide` (companion built, pilot pending) | Feralas recipe sources | 38-50 | Alliance |
+| `feralas-horde.guide` (Horde block core built, pilot pending) | Feralas (Horde) | 38-50 | Horde |
 | `tanaris.guide` (Set 4 core built, pilot pending) | Tanaris | 38-50 | Alliance |
 | `tanaris-horde.guide` (Horde block core built, pilot pending) | Tanaris (Horde) | 38-50 | Horde |
 | `tanaris-rares.guide` (companion built, pilot pending) | Tanaris rares and treasures | 38-50 | Alliance |

@@ -371,6 +371,14 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - Anomalies: none. Header removed.
 - Verification: forge lint 0 errors / 35 warnings, warning classes and quest-ID sets byte-identical to HEAD full-pack baseline (6 structural out-of-contract pres + 29 XP-model level noise, incl. the pack-context 226 line present on HEAD too). Playtest `--honest` both factions (Human/NightElf/Orc/Scourge Warriors): 0 stuck; Alliance findings unchanged in kind; Horde personas complete the shared lines with residue only in R1/R2/R5; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
 
+### feralas (UNGATED 2026-11-18, Horde round)
+- file: feralas.guide (was Alliance primary)
+- contract: 57 (44 primary / 13 shared)
+- shared IDs: 2766, 2767, 3567, 4041, 7003, 7721, 7725, 7726, 81924, 94260, 94272, 94284, 94296 (per the Alliance census; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): the other 44 contract IDs.
+- Lines gated: 111 quest lines (`only Alliance`, composition appends to existing class/race gates). 4 soft-pre minis (`when onquest 4142` x2 legs, 3781, 2943 - all Alliance-only pres) gated at STEP level with `only Alliance`. 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: 5 prose "Row Boat" hits inside already-gated 4125/4127 lines only, no travel commands). Shared lines for all 13 shared IDs stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors; warned quest-ID set identical to pre-edit baseline (46/46). Playtest `--honest` both factions: Alliance findings identical in kind to baseline; Horde personas complete only the shared lines with residue only in R1/R2; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
 ### swamp-of-sorrows
 - file: swamp-of-sorrows.guide
 - header: Alliance; contract: 19 (6 primary / 13 shared)

@@ -344,6 +344,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Census - 107 candidates, 57 IN / 50 OUT (41 Horde set aside)
 - [x] Core guide - `feralas.guide`
 - [x] Lint/playtest clean - 0 errors, playtest 3 personas 0 stuck (R1+R2+R5 residue only)
+- [x] Faction ungating (Option A, 2026-11-17)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 9 rares (7 with sole-drop signatures) + 3 fixed containers, 24 recipes (13 vendor + 11 drops), 0 lint errors/warnings
@@ -677,9 +678,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Feralas — Horde
 
-- [ ] Census (reconcile against 41 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 41 Horde-mask pool records (41/41 banked set-asides reconciled: 39 IN / 2 OUT above-band), band 38-50, docs/feralas-horde-census.md
+- [x] Core guide - `feralas-horde.guide` (39 quests, band 38-50, Camp Mojache hub + capital/out-zone expedition legs)
+- [x] Lint/playtest clean - 0 errors, 43 warnings in accepted classes; playtest Horde personas 0 stuck (R1 expedition + R2 sourceless residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
