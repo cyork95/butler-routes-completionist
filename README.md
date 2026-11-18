@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.148.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.149.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -169,6 +169,8 @@ Status: **in development (pack v0.148.0), not published yet**. The first release
 | `swamp-of-sorrows-recipes.guide` (companion built, pilot pending) | Swamp of Sorrows recipe sources | 30-38 | Alliance |
 | the-hinterlands.guide (Set 6 core built, pilot pending) | The Hinterlands | 38-51 | Alliance |
 | the-hinterlands-horde.guide (Horde block core built, pilot pending) | The Hinterlands (Horde) | 38-46 | Horde |
+| hinterlands-horde-rares.guide (companion built, pilot pending) | The Hinterlands (Horde) rares and treasures | 38-46 | Horde |
+| hinterlands-horde-recipes.guide (companion built, pilot pending) | The Hinterlands (Horde) recipe sources | 38-46 | Horde |
 | western-plaguelands.guide (Set 6 core built, pilot pending) | Western Plaguelands | 50-58 | Alliance |
 | western-plaguelands-horde.guide (Horde block core built, pilot pending) | Western Plaguelands (Horde) | 54-58 | Horde |
 | eastern-plaguelands.guide (Set 6 core built, pilot pending) | Eastern Plaguelands | 50-60 | Alliance |

@@ -199,7 +199,7 @@ Purple Lotus, Sungrass, Ghost Mushroom, Golden Sansam, Star Lotus),
 campfires/bonfires/braziers/forges/anvils/chairs/stools/MFF decor,
 fishing objects, Smoked Meat Racks, 144011 Mailbox.
 
-## RECIPES — shipped (8 vendor buys + 7 drop collects)
+## RECIPES — shipped (7 vendor buys + 7 drop collects)
 
 Profession tags follow the item-name convention (Recipe:+potion/drink ->
 Alchemy/Cooking, Pattern: -> Tailoring/Leatherworking, Plans: ->

@@ -769,7 +769,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; playtest Horde personas in band, 0 stuck; residue R1 expedition legs only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 10 rares (6 above-band come-back-later) + 3 treasures, 14 recipes (7 vendor + 7 narrow drops), 0 lint errors/warnings
 
 ### Wetlands — Horde
 

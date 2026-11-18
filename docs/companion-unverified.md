@@ -837,7 +837,7 @@ as above: game-data citation or a named source.
 
 ## Hinterlands (Horde) quest-reward recipes (pack 0.148.0)
 
-- Quest records in the local build carry no reward data, so no quest-reward recipe for the Horde side can be confirmed from the toolchain. The 15 shipped recipes are 8 vendor-sold plus 7 narrow mob drops. If a Horde-side quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
+- Quest records in the local build carry no reward data, so no quest-reward recipe for the Horde side can be confirmed from the toolchain. The 14 shipped recipes are 7 vendor-sold plus 7 narrow mob drops. If a Horde-side quest is later found to reward a recipe, add it as a note step at the relevant hub (the quest itself stays core-only).
 
 ## Hinterlands (Horde) stock class, respawn timers and Wildhammer/Revantusk deltas (pack 0.148.0)
 
