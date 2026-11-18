@@ -18,7 +18,6 @@ guide butler-routes-completionist/searing-gorge
 title Searing Gorge - Completionist
 levels 40-52
 zone Searing Gorge
-faction Alliance
 category Leveling
 folder Completionist
 coords live
@@ -83,11 +82,11 @@ step Zamael - prayer in the west
 
   zone map 1427
 
-  accept 3377 -- Prayer to Elune - Zamael Lunthistle; the rite needs Zamael himself struck down
-  complete 3377 @29.57,26.29 -- Zamael Lunthistle, at his point in the west
-  turnin 3377 -- Prayer to Elune - the word back to Zamael Lunthistle
-  accept 3378 -- Prayer to Elune - Zamael Lunthistle; the prayer drops off the Twilight cultists further west
-  complete 3378 @19.09,35.77 -- Twilight cultists, in the western camps
+  accept 3377 only Alliance -- Prayer to Elune - Zamael Lunthistle; the rite needs Zamael himself struck down
+  complete 3377 only Alliance @29.57,26.29 -- Zamael Lunthistle, at his point in the west
+  turnin 3377 only Alliance -- Prayer to Elune - the word back to Zamael Lunthistle
+  accept 3378 only Alliance -- Prayer to Elune - Zamael Lunthistle; the prayer drops off the Twilight cultists further west
+  complete 3378 only Alliance @19.09,35.77 -- Twilight cultists, in the western camps
   tip The prayer page also drops off the Fire Guards and Geomancers working the same camps.
 
 step Weathered etching - the burning beast
@@ -140,22 +139,22 @@ step Dying Archaeologist - release and obsidion
 
   zone map 1427
 
-  accept 3372 -- Release Them - Dying Archaeologist; its pre (3371 Dwarven Justice, Ironforge) sits outside this route - structural, chain named. The Mysterious Artifact has no placed source anywhere in the data - have it in your bags (honest note)
-  complete 3372 -- Release Them (no placed source - honest note above)
-  turnin 3372 @41.25,25.41 -- Release Them - the word at the Altar of Suntara in the ruins
-  accept 3566 -- Rise, Obsidion! - Dying Archaeologist; two heads off the north ruins
-  complete 3566 @41.32,25.53 -- Head of Lathoric the Black, at the northern ruins
-  complete 3566 @41.76,24.33 -- Heart of Obsidion, beside him
+  accept 3372 only Alliance -- Release Them - Dying Archaeologist; its pre (3371 Dwarven Justice, Ironforge) sits outside this route - structural, chain named. The Mysterious Artifact has no placed source anywhere in the data - have it in your bags (honest note)
+  complete 3372 only Alliance -- Release Them (no placed source - honest note above)
+  turnin 3372 only Alliance @41.25,25.41 -- Release Them - the word at the Altar of Suntara in the ruins
+  accept 3566 only Alliance -- Rise, Obsidion! - Dying Archaeologist; two heads off the north ruins
+  complete 3566 only Alliance @41.32,25.53 -- Head of Lathoric the Black, at the northern ruins
+  complete 3566 only Alliance @41.76,24.33 -- Heart of Obsidion, beside him
   tip Both turn-ins land with Curator Thorius in Ironforge - expedition below.
 
 step Dorius - suntara escort and letter
 
   zone map 1427
 
-  accept 3367 -- Suntara Stones - Dorius Stonetender; the escort starts at the stones
-  complete 3367 @74.47,19.44 -- the Dorius escort, east at the stones (the quest's own event record; the Singed Letter below sits at 74.45,19.29)
-  turnin 3367 @74.45,19.29 -- Suntara Stones - the escort's word at the Singed Letter
-  accept 3368 -- Suntara Stones - the Singed Letter where the escort ends (74.45,19.29); it completes on the spot
+  accept 3367 only Alliance -- Suntara Stones - Dorius Stonetender; the escort starts at the stones
+  complete 3367 only Alliance @74.47,19.44 -- the Dorius escort, east at the stones (the quest's own event record; the Singed Letter below sits at 74.45,19.29)
+  turnin 3367 only Alliance @74.45,19.29 -- Suntara Stones - the escort's word at the Singed Letter
+  accept 3368 only Alliance -- Suntara Stones - the Singed Letter where the escort ends (74.45,19.29); it completes on the spot
   tip Both legs turn in with Curator Thorius in Ironforge, and 3368's next (3371 Dwarven Justice) lives there too - expedition below.
 
 step Outhouse - caught and the ledger
@@ -193,7 +192,7 @@ step Margol - the horn of the beast
 
   zone map 1427
 
-  accept 3181 -- The Horn of the Beast - Margol's Horn off Margol the Rager himself, far east above the Cauldron (73.52,82.31); it completes on the spot
+  accept 3181 only Alliance -- The Horn of the Beast - Margol's Horn off Margol the Rager himself, far east above the Cauldron (73.52,82.31); it completes on the spot
   tip The horn rides to Mountaineer Pebblebitty in Loch Modan (its next, 3182 Proof of Deed, lives there too) - expedition below.
 
 step Sarah Tanner - elemental leatherworking
@@ -202,11 +201,11 @@ step Sarah Tanner - elemental leatherworking
 
   when skill Leatherworking 225
 
-  accept 5144 optional -- Elemental Leatherworking - Sarah Tanner; hearts, water, earth and wind, farmed below
-  complete 5144 @40.69,36.73 -- Hearts of Fire off the Blazing elementals
-  complete 5144 @13.52,35.95 -- Globes of Water off Muck Splash in the west
-  complete 5144 @79.60,73.50 -- Cores of Earth off the Greater Rock Elementals far east
-  complete 5144 @29.53,62.44 -- Core of Earth off Smoldar, south of the center
+  accept 5144 optional only Alliance -- Elemental Leatherworking - Sarah Tanner; hearts, water, earth and wind, farmed below
+  complete 5144 only Alliance @40.69,36.73 -- Hearts of Fire off the Blazing elementals
+  complete 5144 only Alliance @13.52,35.95 -- Globes of Water off Muck Splash in the west
+  complete 5144 only Alliance @79.60,73.50 -- Cores of Earth off the Greater Rock Elementals far east
+  complete 5144 only Alliance @29.53,62.44 -- Core of Earth off Smoldar, south of the center
   tip The Breath of Wind waits on the Cyclonian in Alterac - expedition below; the turn-in lands here after.
 
 step Durganon - the fire writs
@@ -228,8 +227,8 @@ step Anvilrage - the crumpled note
 
   zone map 1427
 
-  accept 4264 -- A Crumpled Up Note - off the Anvilrage crews in the southwest (25.20,75.20 and neighboring points); it completes on the spot. Its pre (4242 Abandoned Hope, Burning Steppes) sits outside this route - structural, chain named
-  turnin 4264 -- A Crumpled Up Note - the note to Marshal Windsor; the data holds no spawn point for Windsor anywhere (Stormwind, per the chain) - note-only turn-in, nothing invented
+  accept 4264 only Alliance -- A Crumpled Up Note - off the Anvilrage crews in the southwest (25.20,75.20 and neighboring points); it completes on the spot. Its pre (4242 Abandoned Hope, Burning Steppes) sits outside this route - structural, chain named
+  turnin 4264 only Alliance -- A Crumpled Up Note - the note to Marshal Windsor; the data holds no spawn point for Windsor anywhere (Stormwind, per the chain) - note-only turn-in, nothing invented
   tip The chain runs on through 4282 outside this zone; this route carries it as far as the data goes.
 
 step Ironband the Elder - lunar elder
@@ -245,8 +244,8 @@ step Ironforge expedition - the Thorius turn-ins
 
   zone map 1455
 
-  turnin 3368 -- Suntara Stones - the letter to Curator Thorius in the Hall of Explorers
-  turnin 3566 -- Rise, Obsidion! - the heads to Curator Thorius
+  turnin 3368 only Alliance -- Suntara Stones - the letter to Curator Thorius in the Hall of Explorers
+  turnin 3566 only Alliance -- Rise, Obsidion! - the heads to Curator Thorius
   tip Expedition leg to Ironforge; the frame switches back after.
 
   zone map 1427
@@ -283,7 +282,7 @@ step Loch Modan expedition - the horn delivery
 
   zone map 1432
 
-  turnin 3181 -- The Horn of the Beast - the horn to Mountaineer Pebblebitty
+  turnin 3181 only Alliance -- The Horn of the Beast - the horn to Mountaineer Pebblebitty
   tip Expedition leg to Loch Modan; the frame switches back after.
 
   zone map 1427
@@ -307,12 +306,12 @@ step Alterac expedition - breath of wind
 
   when skill Leatherworking 225
 
-  complete 5144 @80.32,62.14 -- Breath of Wind off the Cyclonian in Alterac
+  complete 5144 only Alliance @80.32,62.14 -- Breath of Wind off the Cyclonian in Alterac
   tip Expedition leg to Alterac; the frame switches back after.
 
   zone map 1427
 
-  turnin 5144 optional -- Elemental Leatherworking - all four elements to Sarah Tanner
+  turnin 5144 optional only Alliance -- Elemental Leatherworking - all four elements to Sarah Tanner
 
 step Teldrassil expedition - the prayer finale
 
@@ -320,7 +319,7 @@ step Teldrassil expedition - the prayer finale
 
   zone map 1438
 
-  turnin 3378 -- Prayer to Elune - the prayer to Astarii Starseeker
+  turnin 3378 only Alliance -- Prayer to Elune - the prayer to Astarii Starseeker
   tip Expedition leg to Teldrassil; the frame switches back after.
 
   zone map 1427
