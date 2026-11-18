@@ -15148,6 +15148,44 @@
         {"id": 1273, "name": "Questioning Reethe"},
         {"id": 98192, "name": "Skin Careful, Skin Sharp"}
       ]
+    },
+    {
+      "id": "arathi-horde",
+      "name": "Arathi Highlands (Horde)",
+      "order": 63,
+      "levelBand": "30-40",
+      "summary": "Horde side of contested Arathi Highlands: Hammerfall hub, the Call to Arms ogre/troll campaigns, the Stromgarde sigil chain and its Trol'kalar finale, the Myzrael twin, plus profession and writ specials.",
+      "quests": [
+        {"id": 639, "name": "Sigil of Strom"},
+        {"id": 640, "name": "The Broken Sigil"},
+        {"id": 641, "name": "Sigil of Thoradin"},
+        {"id": 643, "name": "Sigil of Arathor"},
+        {"id": 644, "name": "Sigil of Trollbane"},
+        {"id": 645, "name": "Trol'kalar"},
+        {"id": 646, "name": "Trol'kalar"},
+        {"id": 655, "name": "Hammerfall"},
+        {"id": 671, "name": "Foul Magics"},
+        {"id": 672, "name": "Raising Spirits"},
+        {"id": 673, "name": "Foul Magics"},
+        {"id": 674, "name": "Raising Spirits"},
+        {"id": 675, "name": "Raising Spirits"},
+        {"id": 677, "name": "Call to Arms"},
+        {"id": 678, "name": "Call to Arms"},
+        {"id": 679, "name": "Call to Arms"},
+        {"id": 680, "name": "The Real Threat"},
+        {"id": 688, "name": "Myzrael's Allies"},
+        {"id": 701, "name": "Guile of the Raptor"},
+        {"id": 702, "name": "Guile of the Raptor"},
+        {"id": 847, "name": "Guile of the Raptor"},
+        {"id": 5146, "name": "Elemental Leatherworking"},
+        {"id": 6622, "name": "Triage"},
+        {"id": 92707, "name": "The Giant in the Den"},
+        {"id": 94212, "name": "Craftsman's Writ: Elixir of Wisdom"},
+        {"id": 95143, "name": "Finding Tan'jani"},
+        {"id": 95663, "name": "Dragonmaw Rumors"},
+        {"id": 97539, "name": "Silky Sutures"},
+        {"id": 92519, "name": "Ward Restocking"}
+      ]
     }
   ]
 }
