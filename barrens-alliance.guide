@@ -1,0 +1,248 @@
+# The Barrens (Alliance) - Completionist (pack butler-routes-completionist, v1).
+# Alliance addendum to the Horde route: the 13 Alliance-acceptable Barrens
+# accepts the Horde census set aside (docs/barrens-alliance-census.md;
+# contract the-barrens-alliance, order 81). Levels 1-47 by the data (min1
+# chicken 3861 and min4 Shaman link 94375, min15-25 middle, min30 top:
+# the Theramore chain, the warlock Tome, Gnome Engineering).
+# Every addendum accept appears exactly once as an accept and once as a
+# turnin. Chain order is strictly turn-in-before-accept in file order.
+# Out-of-contract pres (1039 darnassus-city, 1286 dustwallow-marsh, 1716
+# and 1798 stormwind-city, 6981 the-barrens main guide, 94374 dun-morogh)
+# ride dedicated when onquest mini-steps, each standing alone in its own
+# step; out-of-contract chain exits (1041 stranglethorn-vale, 1259/1319/
+# 1288 dustwallow-marsh, 1739/65603 stormwind-city, 1802/3640
+# ironforge-city) get handoff notes, never duplication. Expedition legs
+# (Ashenvale, Stormwind, Ironforge, Dun Morogh, Darnassus, Dustwallow,
+# Booty Bay) switch frames deliberately and switch back. Coordinates use
+# data-placed points only; sourceless objectives ride bag notes, never
+# invented points. The 3370 turn-in rides Darnassus per the data (the
+# round brief's Alterac leg is corrected in the census).
+guide butler-routes-completionist/the-barrens-alliance
+title The Barrens (Alliance) - Completionist
+levels 1-47
+zone The Barrens
+faction Alliance
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Ratchet - bounties and the chicken
+
+  zone map 1413
+
+  note Ratchet work with no outside pre: Bainham's ravener, Tinkerwiz below in its own skill step, and the chicken.
+  accept 97005 -- Chol'aruk the Ravener - Bainham; the ravener works the north-center flats (kill leg below)
+  accept 3861 -- CLUCK! - the chicken at Ratchet (60.76,55.49); have a Special Chicken Feed in your bags - Farmer Saldean in Westfall sells it
+  complete 3861 @60.76,55.49 -- Special Chicken Feed (the Ratchet chicken; /cheer per the quest text, then the feed)
+  turnin 3861 @60.76,55.49 -- CLUCK! - the word to the befriended chicken
+
+step Ratchet - Gnome Engineering (profession)
+
+  zone map 1413
+
+  when skill Engineering 1
+
+  accept 3634 optional -- Gnome Engineering - Tinkerwiz; Tinkmaster Overspark in Ironforge takes the pledge (next 3640 Ironforge, not contracted here)
+
+step Ratchet - Dizzywig's passage (soft pre)
+
+  zone map 1413
+
+  when onquest 1039
+
+  note Holding 1039 (The Barrens Port, from Thyn'tel in Teldrassil - darnassus-city's): Dizzywig takes the Booty Bay word here.
+  accept 1040 -- Passage to Booty Bay - Wharfmaster Dizzywig; take the boat word for Caravaneer Ruzzgot (needs 1039 darnassus-city first - take its warning if it is not done)
+
+step Ratchet - Strahad's tome (soft pre)
+
+  zone map 1413
+
+  when onquest 1798
+
+  note Holding 1798 (Seeking Strahad, from Stormwind - stormwind-city's): Strahad takes the cabal word here.
+  accept 1758 only Warlock -- Tome of the Cabal - Strahad Farsan; Krom Stoutarm in Ironforge takes it (needs 1798 stormwind-city first - take its warning if it is not done)
+
+step Takar - the warlock pair, first link (soft pre)
+
+  zone map 1413
+
+  when onquest 1716
+
+  note Holding 1716 (Devourer of Souls, from Gakin in Stormwind - stormwind-city's): Takar takes both warlock words here.
+  accept 1738 only Warlock -- Heartswood - Takar the Seer; the Heartswood waits in Ashenvale (needs 1716 stormwind-city first - take its warning if it is not done)
+
+step Takar - the warlock pair, second link (soft pre)
+
+  zone map 1413
+
+  when onquest 1716
+
+  accept 65602 only Warlock -- What Is Love? - Takar the Seer; the Wooden Figurine waits in Ashenvale (needs 1716 stormwind-city first - take its warning if it is not done)
+
+step Falla - nightmares (soft pre)
+
+  zone map 1413
+
+  when onquest 6981
+
+  note Holding 6981 (The Glowing Shard, the-barrens main guide's): Falla takes the nightmare word here - the Alliance twin of 3369, which stays the main guide's.
+  accept 3370 -- In Nightmares - Falla Sagewind; Mathrengyl Bearwalker in Darnassus takes the shard (needs 6981 the-barrens first - take its warning if it is not done)
+
+step North-center flats - the ravener's head
+
+  zone map 1413
+
+  note North from Falla to the ravener grounds for Bainham's bounty.
+  complete 97005 @57.18,28.79 -- Chol'aruk (north-center flats; also 56.96,26.19 and 57.68,27.38)
+  turnin 97005 @61.88,39.44 -- Chol'aruk the Ravener - the head to Bainham at Ratchet
+
+step Far south - the Theramore chain
+
+  zone map 1413
+
+  note South past Takar to the Thousand Needles lift road: the badge, the shield and the hoofprints lie together.
+  accept 1252 -- Lieutenant Paval Reethe - Theramore Guard Badge; Captain Garran Vimes in Theramore takes the badge (take 1302 wetlands or 1282 dustwallow-marsh first - one of the pair is required)
+  accept 1253 -- The Black Shield - the Black Shield; Vimes in Theramore takes it (take 1302 wetlands or 1282 dustwallow-marsh first - one of the pair is required)
+  accept 1284 -- Suspicious Hoofprints - the Hoofprints; Vimes in Theramore takes the word (take 1282 dustwallow-marsh or 1302 wetlands first - one of the pair is required)
+
+step Far south - Balos (soft pre)
+
+  zone map 1413
+
+  when onquest 1286
+
+  note Holding 1286 (The Deserters, from Vimes in Theramore - dustwallow-marsh's): Balos takes the deserter word here.
+  accept 1287 -- The Deserters - Balos Jacken; Vimes in Theramore takes it (needs 1286 dustwallow-marsh first - take its warning if it is not done)
+
+step East Barrens - the manifestation (soft pre)
+
+  zone map 1413
+
+  when onquest 94374
+
+  note Holding 94374 (Call of Earth, from Teo Hammerstorm in Dun Morogh - dun-morogh's): the manifestation takes the earth word here.
+  accept 94375 only Shaman -- Call of Earth - Minor Manifestation of Earth; have the Rough Quartz (item 6656, no placed source in the data) in your bags - Teo in Anvilmar takes it (needs 94374 dun-morogh first - take its warning if it is not done)
+
+step Ashenvale expedition - Heartswood (soft pre)
+
+  zone map 1440
+
+  when onquest 1716
+
+  note North over the border into Ashenvale for the warlock completes; the frame switches on.
+  complete 1738 only Warlock @31.55,31.57 -- Heartswood (Ashenvale)
+  tip Expedition leg to Ashenvale; the frame switches on.
+
+  zone map 1413
+
+step Ashenvale expedition - the figurine (soft pre)
+
+  zone map 1440
+
+  when onquest 1716
+
+  complete 65602 only Warlock @26.61,22.03 -- Wooden Figurine (Ashenvale)
+  tip Expedition leg to Ashenvale; the frame switches on.
+
+  zone map 1413
+
+step Stormwind expedition - Gakin's bindings
+
+  zone Stormwind City
+
+  when onquest 1716
+
+  note East to Stormwind to close the warlock pair; the frame switches on.
+  turnin 1738 only Warlock @39.22,85.23 -- Heartswood - the Heartswood to Gakin the Darkbinder
+  turnin 65602 only Warlock @39.22,85.23 -- What Is Love? - the figurine to Gakin the Darkbinder
+  note 1738's next (1739, The Binding) and 65602's next (65603, The Binding) both accept from Gakin - stormwind-city's, not contracted here.
+  tip Expedition leg to Stormwind; the frame switches on.
+
+  zone map 1413
+
+step Ironforge expedition - Krom's tome
+
+  zone Ironforge
+
+  when onquest 1798
+
+  note East to Ironforge for the tome; the frame switches on.
+  turnin 1758 only Warlock @74.19,9.39 -- Tome of the Cabal - the word to Krom Stoutarm
+  note 1758's next (1802) accepts from Krom - ironforge-city's, not contracted here.
+  tip Expedition leg to Ironforge; the frame switches on.
+
+  zone map 1413
+
+step Ironforge expedition - Overspark's pledge
+
+  zone Ironforge
+
+  when skill Engineering 1
+
+  note East to Ironforge for the pledge; the frame switches on.
+  turnin 3634 optional @69.55,50.33 -- Gnome Engineering - the pledge to Tinkmaster Overspark
+  note 3634's next (3640) accepts from Overspark - ironforge-city's, not contracted here.
+  tip Expedition leg to Ironforge; the frame switches on.
+
+  zone map 1413
+
+step Dun Morogh expedition - Teo's quartz
+
+  zone Dun Morogh
+
+  when onquest 94374
+
+  note East to Anvilmar in Dun Morogh to close the earth link; the frame switches on.
+  turnin 94375 only Shaman @28.79,66.18 -- Call of Earth - the quartz to Teo Hammerstorm
+  tip Expedition leg to Dun Morogh; the frame switches on.
+
+  zone map 1413
+
+step Darnassus expedition - Mathrengyl's shard
+
+  zone Darnassus
+
+  when onquest 6981
+
+  note North to Darnassus with the nightmare shard; the frame switches on.
+  turnin 3370 @35.37,8.4 -- In Nightmares - the shard to Mathrengyl Bearwalker
+  tip Expedition leg to Darnassus. The addendum's Kalimdor work ends here.
+
+  zone map 1413
+
+step Dustwallow expedition - Vimes's chain
+
+  zone Dustwallow Marsh
+
+  note South to Theramore in Dustwallow with the badge, the shield and the hoofprints; the frame switches on.
+  turnin 1252 @68.21,48.62 -- Lieutenant Paval Reethe - the badge to Captain Garran Vimes
+  turnin 1253 @68.21,48.62 -- The Black Shield - the shield to Captain Garran Vimes
+  turnin 1284 @68.21,48.62 -- Suspicious Hoofprints - the word to Captain Garran Vimes
+  note 1252's next (1259) and 1253's next (1319) both accept from Vimes - dustwallow-marsh's, not contracted here.
+  tip Expedition leg to Dustwallow; the frame switches on.
+
+  zone map 1413
+
+step Dustwallow expedition - Balos's deserter (soft pre)
+
+  zone Dustwallow Marsh
+
+  when onquest 1286
+
+  turnin 1287 @68.21,48.62 -- The Deserters - Balos's word to Captain Garran Vimes
+  note 1287's next (1288) accepts from Vimes - dustwallow-marsh's, not contracted here.
+  tip Expedition leg to Dustwallow; the frame switches on.
+
+  zone map 1413
+
+step Booty Bay expedition - Ruzzgot's boat
+
+  zone Stranglethorn Vale
+
+  when onquest 1039
+
+  note South by boat to Booty Bay to close the passage; the frame switches on.
+  turnin 1040 @27.37,74.08 -- Passage to Booty Bay - the word to Caravaneer Ruzzgot
+  note 1040's next (1041) accepts from Ruzzgot - stranglethorn-vale's, not contracted here. The addendum ends here.
+  tip Expedition leg to Booty Bay. The addendum ends here.
