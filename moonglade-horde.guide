@@ -1,0 +1,166 @@
+# Moonglade (Horde) - Druid Class Quests (pack butler-routes-completionist, v1).
+# The Horde side of the druid class guide: the Tauren bear chain, the
+# aquatic chain, the cure chain and the great-cat chain, centred on
+# Thunder Bluff and Moonglade (span 10-20; the Fallen trinket and the
+# Silithus dungeon set are out with reasons in the census). Every line
+# is druid content, gated per the data (`only Tauren,Druid` where the
+# record is Tauren-locked, `only Tauren,Skyborne,Druid` where the record
+# names Tauren and Horde-side Skyborne); the Thunder Bluff and
+# Crossroads legs ride honest expedition steps below. See
+# docs/moonglade-horde-census.md.
+guide butler-routes-completionist/moonglade-horde
+title Moonglade (Horde)
+levels 10-20
+zone Moonglade
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Thunder Bluff, mustering
+
+  note Thunder Bluff is the Horde hub: Turak Runetotem (76.48, 27.22) holds the rise. Take the hubs asks here; Moonglade fills them below.
+  goto 76.48,27.22
+  accept 5922 only Tauren,Druid -- Moonglade - Turak Runetotem; Dendrite Starblaze waits in Moonglade
+  note 5922 needs a Heeding the Call variant done (homed in thunder-bluff-city, orgrimmar-city, mulgore - take it here if any of those legs sent you in).
+  accept 27 only Tauren,Skyborne,Druid -- A Lesson to Learn - Turak Runetotem; Dendrite Starblaze waits in Moonglade
+  accept 6126 only Tauren,Skyborne,Druid -- Lessons Anew - Turak Runetotem; Dendrite Starblaze waits in Moonglade (Hana Lighthoof in Mulgore starts it too)
+  accept 98340 only Tauren,Skyborne,Druid -- The Great Cat Spirit - Turak Runetotem; Dendrite Starblaze waits in Moonglade
+  note 98340s Horde twin 98393 lives in the Darnassus guide - only one twin is takeable; take it here.
+
+step Moonglade, Great Bear Spirit
+
+  zone map 1450
+
+  goto 56.21,30.64
+  turnin 5922 only Tauren,Druid -- Moonglade - the word to Dendrite Starblaze
+  accept 5930 only Tauren,Druid -- Great Bear Spirit - Dendrite Starblaze; the rite at his side
+  note 5930 waited on 5922s turn-in - take it here.
+  complete 5930 only Tauren,Druid @56.21,30.64 era -- the Great Bear Spirit rite with Dendrite Starblaze
+  turnin 5930 only Tauren,Druid -- Great Bear Spirit - the rite to Dendrite Starblaze
+  accept 5932 only Tauren,Druid -- Back to Thunder Bluff - Dendrite Starblaze; Turak waits in Thunder Bluff
+  note 5932 waited on 5930s turn-in - take it here; its turn-in rides the Thunder Bluff return below.
+
+step Moonglade, the sea trials
+
+  zone map 1450
+
+  goto 56.21,30.64
+  turnin 27 only Tauren,Skyborne,Druid -- A Lesson to Learn - the word to Dendrite Starblaze
+  accept 28 only Tauren,Skyborne,Druid -- Trial of the Lake - Dendrite Starblaze; the shrine rite in the north-west
+  note 28 waited on 27s turn-in - take it here; the shrine rite fills below.
+  complete 28 only Tauren,Skyborne,Druid @36.00,41.42 era -- the shrine rite at the Shrine of Remulos
+  goto 36.52,40.10
+  turnin 28 only Tauren,Skyborne,Druid -- Trial of the Lake - the rite to Tajarri
+  accept 30 only Tauren,Skyborne,Druid -- Trial of the Sea Lion - Tajarri; the pendant at the shrine
+  note 30 waited on 28s turn-in - take it here; the pendant rite fills back at the shrine.
+  complete 30 only Tauren,Skyborne,Druid @36.00,41.42 era -- the pendant rite at the Shrine of Remulos
+  goto 56.21,30.64
+  turnin 30 only Tauren,Skyborne,Druid -- Trial of the Sea Lion - the pendant to Dendrite Starblaze
+  accept 31 only Tauren,Skyborne,Druid -- Aquatic Form - Dendrite Starblaze; Turak waits in Thunder Bluff
+  note 31 waited on 30s turn-in - take it here; its turn-in rides the Thunder Bluff return below.
+
+step Moonglade, the cure
+
+  zone map 1450
+
+  goto 56.21,30.64
+  turnin 6126 only Tauren,Skyborne,Druid -- Lessons Anew - the word to Dendrite Starblaze
+  accept 6127 only Tauren,Skyborne,Druid -- The Principal Source - Dendrite Starblaze; the Dreadmist sampler fills in the Barrens
+  note 6127 waited on 6126s turn-in - take it here; its sampler fills on the Crossroads leg below.
+
+step Moonglade, the Great Cat Spirit
+
+  zone map 1450
+
+  goto 56.21,30.64
+  turnin 98340 only Tauren,Skyborne,Druid -- The Great Cat Spirit - the word to Dendrite Starblaze
+  accept 98405 only Tauren,Druid -- The Great Cat Spirit - Dendrite Starblaze; the Great Cat Spirit waits south-west
+  note 98405 waited on 98340s turn-in - take it here; Tauren only per the data.
+  complete 98405 only Tauren,Druid @54.50,75.00 era -- seeking out the Great Cat Spirit
+  note The Spirit holds the south-west at (54.50, 75.00) - the seek completes there.
+
+step Great Cat Spirit, the relics
+
+  zone map 1450
+
+  goto 54.50,75.00
+  turnin 98405 only Tauren,Druid -- The Great Cat Spirit - the seekers word to the Great Cat Spirit
+  accept 98342 only Tauren,Druid -- The Great Cat Spirit - the Spirit; three relics for its blessing
+  note 98342 waited on 98405s turn-in - take it here; Tauren only per the data (the Alliance variants 98396/98404 stay in the main guide).
+  complete 98342 only Tauren,Druid @54.50,75.00 era -- the three relics to the Great Cat Spirit
+  note The relics only name Stormrage Barrow Dens (Fang 672821 at 72.4,66; Claw 673093 at 75.2,67.2; Silent Shadow 673094 at 74.4,65.4) - work all three dens for all three.
+  turnin 98342 only Tauren,Druid -- The Great Cat Spirit - the relics to the Great Cat Spirit
+  accept 98739 only Tauren,Druid -- Blessings of the Great Cat Spirit - the Spirit; Dendrite takes the word
+  note 98739 waited on 98342s turn-in - take it here.
+  goto 56.21,30.64
+  turnin 98739 only Tauren,Druid -- Blessings of the Great Cat Spirit - the word to Dendrite Starblaze
+  accept 98362 only Tauren,Skyborne,Druid -- To Thunder Bluff - Dendrite Starblaze; Turak waits in Thunder Bluff
+  note 98362 needs 98739 done (or the Skyborne branch 98738, main-contracted and Horde-visible after this rounds ungating) - take it here if either leg sent you in; its turn-in rides the Thunder Bluff finale below.
+
+step Thunder Bluff, Back to Thunder Bluff
+
+  zone map 1456
+
+  goto 76.48,27.22
+  turnin 5932 only Tauren,Druid -- Back to Thunder Bluff - the word to Turak Runetotem
+  accept 6002 only Tauren,Druid -- Body and Heart - Turak Runetotem; Lunaclaw at the Moonkin Stone, Mulgore border
+  note 6002 waited on 5932s turn-in - take it here; the Lunaclaw event fires at the Moonkin Stone between Mulgore and the Barrens - have the Cenarion Lunardust (item 15710) in bags, it names no source anywhere.
+  complete 6002 only Tauren,Druid -- Lunaclaw brought down at the Moonkin Stone
+  note The event has no placed spawn anywhere in the data - this complete carries no place; the kill credits on the event.
+  turnin 6002 only Tauren,Druid -- Body and Heart - Lunaclaw to Turak Runetotem
+  note 6002 closes the bear chain here.
+
+step Barrens, Crossroads sampling
+
+  zone map 1413
+
+  goto 48.40,18.89
+  complete 6127 only Tauren,Skyborne,Druid @48.40,18.89 era -- the Dreadmist Peak sampler fills at Dreadmist Peak Pool
+  goto 52.26,31.93
+  turnin 6127 only Tauren,Skyborne,Druid -- The Principal Source - the sampler to Tonga Runetotem
+  accept 6128 only Tauren,Skyborne,Druid -- Gathering the Cure - Tonga Runetotem; Kodo Horns and Earthroot, north
+  note 6128 waited on 6127s turn-in - take it here; the horns and roots fill on the kodo run below.
+
+step Barrens, kodo horns and earthroot
+
+  zone map 1413
+
+  goto 40.14,24.25
+  complete 6128 only Tauren,Skyborne,Druid -- five Kodo Horns and five Earthroot for Tonga Runetotem
+  note The Lost Barrens Kodo works the north around (40-41, 21-25) and the Barrens Kodo the east around (45-47, 66-68) - work them for all five horns; Earthroot gathers anywhere or buys at any herbalism vendor.
+  goto 52.26,31.93
+  turnin 6128 only Tauren,Skyborne,Druid -- Gathering the Cure - the cure to Tonga Runetotem
+  accept 6129 only Tauren,Skyborne,Druid -- Curing the Sick - Tonga Runetotem; the salve works north, then Dendrite takes the word
+  note 6129 waited on 6128s turn-in - take it here; its salve fills on the gazelle run below.
+
+step Barrens, sickly gazelles
+
+  zone map 1413
+
+  goto 41.18,25.68
+  complete 6129 only Tauren,Skyborne,Druid -- the curative salve on ten Sickly Gazelles
+  note The gazelles work the north around (41-42, 15-25) - use the salve on all ten.
+  zone Moonglade
+
+step Moonglade, the cure complete
+
+  zone map 1450
+
+  goto 56.21,30.64
+  turnin 6129 only Tauren,Skyborne,Druid -- Curing the Sick - the word to Dendrite Starblaze
+  accept 6130 only Tauren,Skyborne,Druid -- Power over Poison - Dendrite Starblaze; Turak waits in Thunder Bluff
+  note 6130 waited on 6129s turn-in - take it here; its turn-in rides the Thunder Bluff finale below.
+
+step Thunder Bluff, the finale
+
+  zone map 1456
+
+  goto 76.48,27.22
+  turnin 6130 only Tauren,Skyborne,Druid -- Power over Poison - the word to Turak Runetotem
+  turnin 31 only Tauren,Skyborne,Druid -- Aquatic Form - the pendant to Turak Runetotem
+  turnin 98362 only Tauren,Skyborne,Druid -- To Thunder Bluff - the finale to Turak Runetotem
+  note 98362 closes the great-cat chain here - Tauren druids via 98739, Horde Skyborne druids via main-contracted 98738.
+  zone Moonglade
+
