@@ -480,6 +480,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions (10 rares + 35-pt container sweep; 16 drop recipes, 0 vendors in-zone)
+- [x] Faction ungating (Option A, 2026-11-17) - 36 Alliance-only quest lines + 7 Alliance-attributed kill lines + 1 soft-pre mini gated, header dropped, 0 dead lines both factions
 
 ### Eastern Plaguelands — contested (Eastern Kingdoms)
 
@@ -785,9 +786,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Western Plaguelands — Horde
 
-- [ ] Census (set-asides counted when the zone's Alliance census runs)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (20 banked Horde set-asides reconciled + 6 rule-excluded crafting records; 19 Horde IN (band 54–58), 1 broken + 6 rule-excluded OUT, docs/western-plaguelands-horde-census.md)
+- [x] Core guide - western-plaguelands-horde.guide (19 quests, band 54–58, Bulwark hub + 2 expedition legs)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas in band, 0 stuck; residue R1 expedition legs only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

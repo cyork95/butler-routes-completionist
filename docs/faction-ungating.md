@@ -435,10 +435,14 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - Lines gated: 25 quest lines (`only Alliance`, none carried prior gates) + 7 kill lines attributed to Alliance-only quests (`optional only Alliance`, Duskwood attribution precedent; the shared-beacon 2659 line stays bare). 0 soft-pre minis (file has no `when onquest` lines — pres ride notes + structural warnings per the Alliance guide). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome/portal search: none). Shared lines for all 6 shared IDs stay bare.
 - Anomalies: none. Header removed.
 - Verification: forge lint 0 errors; warned quest-ID set identical to pre-edit baseline (8/8). Playtest `--honest` both factions (Human/NightElf/Orc/Scourge Warriors): Alliance findings identical in kind to baseline; Horde personas complete only the shared lines with residue only in R1/R2/R5; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
-### western-plaguelands
-- file: western-plaguelands.guide
-- header: Alliance; contract: 65 (12 primary / 53 shared)
-- shared IDs: 5149, 5152, 5168, 5181, 5206, 5211, 5241, 5941, 5942, 5212, 5213, 5214, 5243, 5251, 5262, 5263, 5264, 5265, 5503, 5513, 5517, 5529, 5531, 4771, 5463, 5464, 5465, 8945, 8946, 8947, 8948, 9015, 9141, 9124, 9126, 9128, 9131, 9136, 9295, 9299, 9300, 9301, 9302, 9304, 9247, 6021, 6024, 6026, 6041, 6164, 84318, 5281, 5282
+### western-plaguelands (UNGATED 2026-11-18, Horde round)
+- file: western-plaguelands.guide (was Alliance primary)
+- contract: 65 (12 primary / 53 shared)
+- shared IDs: 5149, 5152, 5168, 5181, 5206, 5211, 5241, 5941, 5942, 5212, 5213, 5214, 5243, 5251, 5262, 5263, 5264, 5265, 5503, 5513, 5517, 5529, 5531, 4771, 5463, 5464, 5465, 8945, 8946, 8947, 8948, 9015, 9141, 9124, 9126, 9128, 9131, 9136, 9295, 9299, 9300, 9301, 9302, 9304, 9247, 6021, 6024, 6026, 6041, 6164, 84318, 5281, 5282 (per the Alliance census; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 5246, 5247, 5248, 8951, 8952, 8953, 8954, 8955, 8956, 8958, 8959, 84330.
+- Lines gated: 36 quest lines (`only Alliance`, composition appends to `optional` on 8951-8959 turnins) + 7 kill lines attributed to Alliance-only quests (`optional only Alliance`, Duskwood attribution precedent; the shared-beacon 2659 line stays bare). 1 soft-pre mini (`when onquest 5246`, pre Alliance-only uncontracted) gated at STEP level with `only Alliance` (dedicated step, no shared lines trapped). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome/portal goal search: none — one prose hearth note only). Shared lines for all 53 shared IDs stay bare, class gates untouched (none exist in this file).
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors; warned quest-ID set identical to pre-edit baseline. Playtest `--honest` both factions (Human/NightElf/Orc/Scourge Warriors): Alliance findings identical in kind to baseline; Horde personas complete only the shared lines with residue only in R1/R2/R5; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
 ### eastern-plaguelands
 - file: eastern-plaguelands.guide
 - header: Alliance; contract: 76 (29 primary / 47 shared)

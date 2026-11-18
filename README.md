@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.134.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.135.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -160,6 +160,7 @@ Status: **in development (pack v0.134.0), not published yet**. The first release
 | the-hinterlands.guide (Set 6 core built, pilot pending) | The Hinterlands | 38-51 | Alliance |
 | the-hinterlands-horde.guide (Horde block core built, pilot pending) | The Hinterlands (Horde) | 38-46 | Horde |
 | western-plaguelands.guide (Set 6 core built, pilot pending) | Western Plaguelands | 50-58 | Alliance |
+| western-plaguelands-horde.guide (Horde block core built, pilot pending) | Western Plaguelands (Horde) | 54-58 | Horde |
 | eastern-plaguelands.guide (Set 6 core built, pilot pending) | Eastern Plaguelands | 50-60 | Alliance |
 | burning-steppes.guide (Set 6 core built, pilot pending) | Burning Steppes | 48-60 | Alliance |
 | urning-steppes-rares.guide (companion built, pilot pending) | Burning Steppes rares and treasures | 48-60 | Alliance |
