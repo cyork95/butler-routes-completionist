@@ -15331,6 +15331,23 @@
         {"id": 2340, "name": "Deliver the Gems"},
         {"id": 5145, "name": "Dragonscale Leatherworking"}
       ]
+    },
+    {
+      "id": "felwood-horde",
+      "name": "Felwood (Horde)",
+      "order": 67,
+      "levelBand": "45-48",
+      "summary": "Horde side of contested Felwood.",
+      "quests": [
+        {"id": 4102, "name": "Cleansing Felwood"},
+        {"id": 5887, "name": "Salve via Hunting"},
+        {"id": 5888, "name": "Salve via Mining"},
+        {"id": 5889, "name": "Salve via Gathering"},
+        {"id": 5890, "name": "Salve via Skinning"},
+        {"id": 5891, "name": "Salve via Disenchanting"},
+        {"id": 8485, "name": "The Brokering of Peace"},
+        {"id": 86612, "name": "Stag Lord's Bauble"}
+      ]
     }
   ]
 }
