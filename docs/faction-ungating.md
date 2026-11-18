@@ -222,6 +222,13 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: wetlands.guide
 - header: Alliance; contract: 87 (82 primary / 5 shared)
 - shared IDs: 94219, 94228, 94237, 94246, 94255
+### wetlands (UNGATED 2026-11-18, Horde round)
+- file: wetlands.guide (was Alliance primary)
+- contract: 87 (82 primary / 5 shared; shared list per the sweep stub above, verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): the other 82 contract IDs.
+- Lines gated: 218 quest lines (`only Alliance`; composition appends to pre-existing gates) + 2 mask-pure steps step-gated with `only Alliance` (The northeast - gnolls and Hervdana's cave; Expedition - Loch Modan — 14 lines covered, incl. the 11 `only Shaman` Call of Water lines: the parser rejects two `only` gates on one line, so the step gate carries them and their per-line faction gates were reverted). 0 soft-pre minis (file has no `when onquest` lines). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none). All 5 shared-ID lines stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 35 warnings, warned quest-ID set identical to pre-edit baseline (zero diff). Playtest `--honest` both factions: Human Warrior findings byte-identical before/after (21 = 21); Orc/Scourge personas complete only shared lines (0 hits on gated lines); micro-guide Orc Warrior 1 = 1; 0 stuck; residue only in R1/R2/R5; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations both factions.
 ### stranglethorn-vale (UNGATED 2026-11-17, Horde round)
 - file: stranglethorn.guide (was Alliance primary)
 - contract: 123 (29 primary / 94 shared)

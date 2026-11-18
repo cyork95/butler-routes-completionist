@@ -239,6 +239,7 @@ _Menethil Harbor. Sorinis is questing here now._
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 8 rares (7 in-band + 1 one-over with note) + 4 generic loops and 5 uniques, 16 recipes (12 vendor + 4 drops), 0 lint errors/warnings
+- [x] Faction ungating (Option A, 2026-11-17) - 218 lines + 2 mask-pure steps step-gated to Alliance (11 double-only class lines carried by step gates), header dropped, 0 dead lines both factions
 
 ### Stranglethorn Vale — follows Duskwood / Redridge
 
@@ -766,9 +767,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Wetlands — Horde
 
-- [ ] Census (reconcile against a single set-aside banked by the Alliance census (95682) — the census decides whether it ships as a micro-addendum rather than a full guide)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (1 IN: 95682 Open the Maw by in-zone giver geography, band 24-31; 97171 OUT hollow + above-band; item-start scan clean)
+- [x] Core guide — `wetlands-horde.guide` (single-quest micro-guide at the Deathstalker Agent)
+- [x] Lint/playtest clean (1/1, 0 errors, 2 accepted warnings: structural pre in arathi-horde + unplaced dispatch objective)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
