@@ -379,6 +379,14 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - Lines gated: 111 quest lines (`only Alliance`, composition appends to existing class/race gates). 4 soft-pre minis (`when onquest 4142` x2 legs, 3781, 2943 - all Alliance-only pres) gated at STEP level with `only Alliance`. 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: 5 prose "Row Boat" hits inside already-gated 4125/4127 lines only, no travel commands). Shared lines for all 13 shared IDs stay bare.
 - Anomalies: none. Header removed.
 - Verification: forge lint 0 errors; warned quest-ID set identical to pre-edit baseline (46/46). Playtest `--honest` both factions: Alliance findings identical in kind to baseline; Horde personas complete only the shared lines with residue only in R1/R2; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
+### searing-gorge (UNGATED 2026-11-18, Horde round)
+- file: searing-gorge.guide (was Alliance primary)
+- contract: 39 (9 primary / 30 shared)
+- shared IDs: 3379, 3385, 3402, 3441, 3442, 3443, 3452, 3453, 3454, 3462, 3463, 3481, 4449, 4450, 4451, 7701, 7704, 7722, 7723, 7724, 7727, 7728, 7729, 81900, 8651, 94263, 94275, 94287, 94299, 94311 (per the Alliance census; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 3181, 3367, 3368, 3372, 3377, 3378, 3566, 4264, 5144.
+- Lines gated: 29 quest lines (`only Alliance`, incl. `optional only Alliance` on the 5144 pair; no class-gate composition — no primary carries a pre-existing class gate). 0 soft-pre minis (file has no `when onquest` lines; the two out-of-contract pres 3371/4242 ride as named structural warnings). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). All 30 shared-ID lines stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 36 warnings, warned quest-ID set identical to pre-edit baseline (19 IDs, zero diff). Playtest `--honest` both factions (Human+NightElf / Orc+Scourge Warriors): 0 stuck; Alliance outcome byte-identical before/after (22 findings); Horde personas complete only the shared lines with residue only in R1/R2/R5; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
 ### swamp-of-sorrows
 - file: swamp-of-sorrows.guide
 - header: Alliance; contract: 19 (6 primary / 13 shared)

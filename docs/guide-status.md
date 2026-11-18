@@ -386,6 +386,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Census - 88 candidates, 39 IN / 49 OUT (19 Horde set aside)
 - [x] Core guide - `searing-gorge.guide`
 - [x] Lint/playtest clean - 0 errors, 36 warnings (all dispositioned), playtest 0 stuck (R1+R2+R5 residue only)
+- [x] Faction ungating (Option A, 2026-11-17)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 9 rares (4 sole-drop signatures, 4 kill-note, Quartermaster come-back + bank note), 32-pt treasure (15 chest + 17 footlocker), 9 recipes (all exclusive drops)
@@ -705,9 +706,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Searing Gorge — Horde
 
-- [ ] Census (reconcile against 19 set-asides banked by the Alliance census — 18 of them accept in the Badlands at Kargath)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 88 records on key 1427 (81 placed + 7 sourceless), zero in-band Horde-only accepts; Kargath 18 homed to Badlands (Horde) (8 IN / 10 OUT above-band); 8998 ruled OUT (Bodley accept, min58, endgame) — docs/searing-gorge-horde-census.md
+- [ ] Core guide (no micro-contract: section closed by census)
+- [x] Lint/playtest clean - main-guide ungating verified (0 errors; warned IDs identical to baseline; both-faction playtest 0 stuck, dead-line 0 violations)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
