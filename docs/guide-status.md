@@ -666,7 +666,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 ### Dustwallow Marsh — Horde
 
 - [x] Census - 69 zone-1445 records (27 Alliance / 15 Horde / 24 neutral + 1 Human-only); 5 Horde IN, 10 OUT above-band, docs/dustwallow-horde-census.md
-- [x] Core guide - dustwallow-horde.guide (5 quests, band 30-45, 2 dedicated soft-pre minis)
+- [x] Core guide - dustwallow-horde.guide (5 quests, band 30-45, 1 dedicated soft-pre mini + Barrens expedition turn-in)
 - [x] Lint/playtest clean - 0 errors; playtest Horde personas (Orc/Shaman/Hunter), 0 stuck, residue R1 only (Barrens expedition leg)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
