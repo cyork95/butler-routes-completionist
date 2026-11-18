@@ -1,0 +1,228 @@
+# Butler Routes - Badlands (Horde) Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 6 confirmed flagged rares of the Badlands and
+# its fixed world containers, for Horde players. Run it in its own Polestar tab
+# at the end of the core route or standalone. EVERY goal is optional: a rare
+# that is not up never holds the route. Spawn points and levels are the local
+# Forever game data (questie-forever); signature drops are items whose SOLE
+# dropper is the rare, and three of the six have none - they ship as kill goals
+# with notes. Two rares are single confirmed points, so those steps are plain
+# single-goto steps (a loop needs at least two). No tame lines ship (the data
+# has no tameability flag and the Horde core guide carries no tame corroboration -
+# see docs/companion-unverified.md). Respawn timers are unconfirmed anywhere,
+# so none are stated. No rare in this guide is a giver, ender, or objective
+# of any Horde-contracted quest (checked field by field against the 13-contract
+# - the Dun Morogh rule never triggers here). Above-band Rumbler (45 vs band
+# top 40) ships with an honest come-back-later note.
+guide butler-routes-completionist/badlands-horde-rares
+title Badlands (Horde) - Rares & Treasures
+levels 30-40
+zone Badlands
+faction Horde
+category Collectibles
+folder Companions
+keywords badlands, rares, treasures, companions, horde
+coords live
+version 1
+
+step Siege Golem - the west
+
+  zone map 1418
+
+  loop
+
+  goto 5.49,59.53
+  goto 8.60,61.81
+  goto 11.58,59.14
+  goto 15.82,65.31
+  goto 15.90,59.23
+  goto 19.07,60.63
+  goto 19.86,56.58
+  goto 24.53,50.11
+  goto 24.61,55.58
+  goto 29.18,47.41
+  goto 31.47,50.02
+  goto 35.66,47.63
+  goto 36.25,41.73
+  goto 40.03,39.82
+  kill 2749 optional
+  collect 282561 "Siegebreaker's Blaster" optional
+  note Level 40 rare working its 14 confirmed points in the west; its sole drop is the Siegebreaker's Blaster. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Shadowforge Commander - the center-north
+
+  zone map 1418
+
+  goto 41.49,29.75
+  kill 2744 optional
+  note Level 40 rare at the single confirmed point; no sole drops (ordinary greens only). No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Digmaster Shovelphlange - the north
+
+  zone map 1418
+
+  goto 34.60,23.10
+  kill 7057 optional
+  collect 9375 "Expert Goldminer's Helmet" optional
+  collect 9378 "Shovelphlange's Mining Axe" optional
+  collect 9382 "Tromping Miner's Boots" optional
+  note Level 38 rare elite at the single confirmed point; its three sole drops are the Helmet (10%), the Axe (15%) and the Boots (65%). No quest takes them.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step War Golem - the center and north
+
+  zone map 1418
+
+  loop
+
+  goto 45.36,33.53
+  goto 49.38,12.06
+  goto 52.41,19.48
+  kill 2751 optional
+  note Level 36 rare working 3 confirmed points; no sole drops (ordinary greens only). No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Broken Tooth - the east
+
+  zone map 1418
+
+  loop
+
+  goto 45.80,36.50
+  goto 53.65,15.53
+  goto 59.68,26.92
+  goto 59.69,29.37
+  kill 2850 optional
+  note Level 37 rare cat working 4 confirmed points in the east; no sole drops (the Sabertooth Fang drops from many beasts). No quest takes it. No tame line ships - tameability has no data flag and the Horde core guide carries no tame corroboration; see docs/companion-unverified.md.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Rumbler - the far south-west (come back later)
+
+  zone map 1418
+
+  loop
+
+  goto 1.98,80.52
+  goto 4.77,81.78
+  goto 13.86,86.11
+  goto 14.73,89.33
+  kill 2752 optional
+  collect 282556 "Groundshaker's Bindings" optional
+  note Level 45 rare working 4 confirmed points in the far south-west - come back after the band (top 40); its sole drop is the Groundshaker's Bindings. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Solid Chests - the zone caches
+
+  zone map 1418
+
+  loop
+
+  goto 13.87,74.93
+  goto 29.52,56.32
+  goto 40.59,26.03
+  goto 40.70,28.21
+  goto 41.49,26.23
+  goto 42.45,28.85
+  goto 50.75,68.08
+  goto 53.12,34.94
+  goto 53.62,29.65
+  goto 62.69,70.29
+  goto 6.35,90.31
+  goto 7.60,96.13
+  goto 7.97,85.73
+  goto 9.57,93.38
+  interact 2857 optional
+  interact 4149 optional
+  note Generic Solid Chests at 14 fixed points (10 + 4), said plainly as one loop; nothing quest-linked.
+  note Respawn timer unconfirmed.
+
+step Footlockers - the north-center camp
+
+  zone map 1418
+
+  loop
+
+  goto 40.50,28.00
+  goto 41.30,29.29
+  goto 41.38,26.16
+  goto 41.45,29.97
+  goto 42.15,31.01
+  goto 43.79,29.74
+  goto 40.72,28.07
+  goto 40.81,28.67
+  goto 41.07,27.40
+  goto 42.31,28.41
+  interact 179490 optional
+  interact 179492 optional
+  note Battered (6) and Dented (4) Footlockers at 10 fixed points, said plainly as one loop; generic gems, food and potions, nothing quest-linked.
+  note Respawn timer unconfirmed.
+
+step Carved Stone Urns - the north
+
+  zone map 1418
+
+  loop
+
+  goto 32.23,15.95
+  goto 33.19,13.80
+  goto 34.09,18.52
+  goto 34.12,21.53
+  goto 34.72,23.94
+  goto 34.98,22.10
+  goto 35.52,16.36
+  goto 35.89,11.64
+  goto 37.97,13.92
+  goto 39.57,18.47
+  goto 39.79,19.67
+  goto 40.62,12.09
+  goto 40.99,16.01
+  goto 42.81,9.95
+  interact 2743 optional
+  note Carved Stone Urns at 14 fixed points, said plainly as one loop. The urns hold item 4610 (4 needed by quest 704 Agmond's Fate, contracted nowhere - Loch Modan left the whole Agmond chain out); bank it if it turns up.
+  note Respawn timer unconfirmed.
+
+step Garrett Family Chest - the east
+
+  zone map 1418
+
+  goto 34.19,18.63
+  interact 124388 optional
+  note Garrett Family Chest at the single fixed point; holds 8026 Garrett Family Treasure (objective of Horde quest 2342 Reclaimed Treasures, accepted in the Undercity - uncontracted, expedition note, not a core line).
+  note Respawn timer unconfirmed.
+
+step Krom Stoutarm's Chest - the east
+
+  zone map 1418
+
+  goto 35.56,23.51
+  interact 124389 optional
+  note Krom Stoutarm's Chest at the single fixed point; holds 8027 Krom Stoutarm's Treasure (objective of Alliance-only quest 1360 Reclaimed Treasures, Ironforge-contracted - unusable by Horde, noted honestly).
+  note Respawn timer unconfirmed.
+
+step Pillar of Diamond - the east
+
+  zone map 1418
+
+  goto 83.54,32.84
+  interact 2842 optional
+  note Pillar of Diamond at the single fixed point; drops 4845 Diamond Runestone for quests 779/795 (Seal of the Earth, both out of contract - the Thor story ends at 793).
+  note Respawn timer unconfirmed.
+
+step Pillar of Opal - the south-center
+
+  zone map 1418
+
+  goto 72.32,66.94
+  interact 2848 optional
+  note Pillar of Opal at the single fixed point; drops 4844 Opal Runestone for quests 779/795 (out of contract, as above).
+  note Respawn timer unconfirmed.
+
+step Pillar of Amethyst - the south-east
+
+  zone map 1418
+
+  goto 81.33,64.28
+  interact 2858 optional
+  note Pillar of Amethyst at the single fixed point; drops 4843 Amethyst Runestone for quests 779/795 (out of contract, as above).
+  note Respawn timer unconfirmed.
