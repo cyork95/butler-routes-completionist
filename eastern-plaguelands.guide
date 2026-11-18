@@ -12,7 +12,6 @@ guide butler-routes-completionist/eastern-plaguelands
 title Eastern Plaguelands
 levels 50-60
 zone Eastern Plaguelands
-faction Alliance
 category Leveling
 folder Eastern Kingdoms
 coords live
@@ -22,15 +21,15 @@ step Chillwind Camp - arrival
 
   zone map 1422
 
-  accept 5097 -- All Along the Watchtowers - Ashlam (pre turned in above)
-  accept 5092 -- Clear the Way - Ashlam (pres 5066/5090/5091 are the three capital Call to Arms quests, all outside - note, structural)
-  accept 5215 -- The Scourge Cauldrons - Ashlam (pre turned in above)
-  accept 211 -- Alas, Andorhal - Ashlam (pre 5097 comes later in this hub; accept holds)
-  accept 5533 -- Scholomance - Ashlam (pre 5097 comes later in this hub; accept holds)
+  accept 5097 only Alliance -- All Along the Watchtowers - Ashlam (pre turned in above)
+  accept 5092 only Alliance -- Clear the Way - Ashlam (pres 5066/5090/5091 are the three capital Call to Arms quests, all outside - note, structural)
+  accept 5215 only Alliance -- The Scourge Cauldrons - Ashlam (pre turned in above)
+  accept 211 only Alliance -- Alas, Andorhal - Ashlam (pre 5097 comes later in this hub; accept holds)
+  accept 5533 only Alliance -- Scholomance - Ashlam (pre 5097 comes later in this hub; accept holds)
   accept 8414 -- Dispelling Evil - Ashlam (Paladin only; pre 8415 is a Stormwind quest, outside - note, structural)
   accept 5401 -- Argent Dawn Commission - Pureheart (one-time commission; the repeatable stone turn-ins are out of contract)
   accept 92842 -- A Cousin Abroad - Pureheart (null minLevel, lv 55 in band; Riverglades turn-in leg below)
-  accept 5343 -- Barov Family Fortune - Weldon Barov (four deeds, see note)
+  accept 5343 only Alliance -- Barov Family Fortune - Weldon Barov (four deeds, see note)
 
 step Chillwind fields - Clear the Way
 
@@ -51,8 +50,8 @@ step Chillwind fields - Clear the Way
   goto 39.11,55.45
   goto 48.70,80.40
   goto 49.54,76.04
-  complete 5092 -- Skeletal Flayer x10 and Slavering Ghoul x10 (western field and Chillwind edge)
-  turnin 5092 @42.70,84.03 -- Clear the Way - Ashlam
+  complete 5092 only Alliance -- Skeletal Flayer x10 and Slavering Ghoul x10 (western field and Chillwind edge)
+  turnin 5092 only Alliance @42.70,84.03 -- Clear the Way - Ashlam
 
 step Chillwind Camp - the watchtowers
 
@@ -62,10 +61,10 @@ step Chillwind Camp - the watchtowers
   goto 42.33,66.24
   goto 44.30,63.25
   goto 46.62,71.05
-  complete 5097 -- Andorhal Tower One through Four (tap each tower)
-  turnin 5097 @42.70,84.03 -- All Along the Watchtowers - Ashlam
-  turnin 5533 @42.66,83.77 -- Scholomance - Arbington (pre turned in above)
-  accept 5537 -- Skeletal Fragments - Arbington (pre turned in above)
+  complete 5097 only Alliance -- Andorhal Tower One through Four (tap each tower)
+  turnin 5097 only Alliance @42.70,84.03 -- All Along the Watchtowers - Ashlam
+  turnin 5533 only Alliance @42.66,83.77 -- Scholomance - Arbington (pre turned in above)
+  accept 5537 only Alliance -- Skeletal Fragments - Arbington (pre turned in above)
 
 step Arbington - fragments and the key
 
@@ -75,45 +74,45 @@ step Arbington - fragments and the key
   goto 36.05,58.49
   goto 37.28,59.38
   goto 38.12,53.81
-  complete 5537 -- Skeletal Fragments x15 (Felstone-area skeletons)
-  turnin 5537 @42.66,83.77 -- Skeletal Fragments - Arbington
-  accept 5538 -- Mold Rhymes With... - Arbington (Tanaris turn-in leg below)
-  accept 5803 -- Araj's Scarab - Arbington (pre 5801 is a Tanaris quest, outside - note, structural)
-  accept 5505 -- The Key to Scholomance - Arbington (pre turned in above)
+  complete 5537 only Alliance -- Skeletal Fragments x15 (Felstone-area skeletons)
+  turnin 5537 only Alliance @42.66,83.77 -- Skeletal Fragments - Arbington
+  accept 5538 only Alliance -- Mold Rhymes With... - Arbington (Tanaris turn-in leg below)
+  accept 5803 only Alliance -- Araj's Scarab - Arbington (pre 5801 is a Tanaris quest, outside - note, structural)
+  accept 5505 only Alliance -- The Key to Scholomance - Arbington (pre turned in above)
 
 step Chillwind Camp - the cauldron chain opens
 
   zone map 1422
 
-  turnin 5215 @42.97,84.50 -- The Scourge Cauldrons - MacDonnell (pre turned in above)
-  accept 5216 -- Target: Felstone Field - MacDonnell
+  turnin 5215 only Alliance @42.97,84.50 -- The Scourge Cauldrons - MacDonnell (pre turned in above)
+  accept 5216 only Alliance -- Target: Felstone Field - MacDonnell
 
 step Felstone Field - Bilemaw and the cauldron
 
   zone map 1422
 
   goto 36.93,57.41 -- Cauldron Lord Bilemaw
-  complete 5216 -- Felstone Field Cauldron Key (Bilemaw)
-  turnin 5216 @37.25,56.78 era -- Target: Felstone Field - cauldron
-  accept 5217 -- Return to Chillwind Camp - cauldron
-  turnin 5217 @42.97,84.50 -- Return to Chillwind Camp - MacDonnell
+  complete 5216 only Alliance -- Felstone Field Cauldron Key (Bilemaw)
+  turnin 5216 only Alliance @37.25,56.78 era -- Target: Felstone Field - cauldron
+  accept 5217 only Alliance -- Return to Chillwind Camp - cauldron
+  turnin 5217 only Alliance @42.97,84.50 -- Return to Chillwind Camp - MacDonnell
   accept 5218 -- Felstone Field Cauldron - cauldron
   goto 35.63,57.01
   goto 36.05,58.49
   goto 37.28,59.38
   complete 5218 -- Osseous Agitator x6 (Felstone skeletons) plus Arcane Quickener and Runecloth (neither has any source anywhere in the data: no droppers, objects, or vendors - bag note)
   turnin 5218 @37.25,56.78 era -- Felstone Field Cauldron - cauldron
-  accept 5219 -- Target: Dalson's Tears - MacDonnell (back at the hub; pre turned in above)
+  accept 5219 only Alliance -- Target: Dalson's Tears - MacDonnell (back at the hub; pre turned in above)
 
 step Dalson's Tears - Malvinious and the cauldron
 
   zone map 1422
 
   goto 46.11,52.61 -- Cauldron Lord Malvinious
-  complete 5219 -- Dalson's Tears Cauldron Key (Malvinious)
-  turnin 5219 @46.18,51.90 era -- Target: Dalson's Tears - cauldron
-  accept 5220 -- Return to Chillwind Camp - cauldron
-  turnin 5220 @42.97,84.50 -- Return to Chillwind Camp - MacDonnell
+  complete 5219 only Alliance -- Dalson's Tears Cauldron Key (Malvinious)
+  turnin 5219 only Alliance @46.18,51.90 era -- Target: Dalson's Tears - cauldron
+  accept 5220 only Alliance -- Return to Chillwind Camp - cauldron
+  turnin 5220 only Alliance @42.97,84.50 -- Return to Chillwind Camp - MacDonnell
   accept 5221 -- Dalson's Tears Cauldron - cauldron
   goto 37.92,70.55
   goto 39.56,66.81
@@ -122,16 +121,16 @@ step Dalson's Tears - Malvinious and the cauldron
   goto 42.95,66.15
   complete 5221 -- Somatic Intensifier x5 (Andorhal ghouls) plus Arcane Quickener and Runecloth (no source anywhere in the data - bag note)
   turnin 5221 @46.18,51.90 era -- Dalson's Tears Cauldron - cauldron
-  accept 5222 -- Target: Writhing Haunt - MacDonnell (back at the hub; pre turned in above)
+  accept 5222 only Alliance -- Target: Writhing Haunt - MacDonnell (back at the hub; pre turned in above)
 step Writhing Haunt - Razarch and the cauldron
 
   zone map 1422
 
   goto 52.88,66.08 -- Cauldron Lord Razarch
-  complete 5222 -- Writhing Haunt Cauldron Key (Razarch)
-  turnin 5222 @53.02,65.61 era -- Target: Writhing Haunt - cauldron
-  accept 5223 -- Return to Chillwind Camp - cauldron
-  turnin 5223 @42.97,84.50 -- Return to Chillwind Camp - MacDonnell
+  complete 5222 only Alliance -- Writhing Haunt Cauldron Key (Razarch)
+  turnin 5222 only Alliance @53.02,65.61 era -- Target: Writhing Haunt - cauldron
+  accept 5223 only Alliance -- Return to Chillwind Camp - cauldron
+  turnin 5223 only Alliance @42.97,84.50 -- Return to Chillwind Camp - MacDonnell
   accept 5224 -- Writhing Haunt Cauldron - cauldron
   goto 51.94,65.44
   goto 52.34,64.69
@@ -140,17 +139,17 @@ step Writhing Haunt - Razarch and the cauldron
   goto 53.76,65.31
   complete 5224 -- Somatic Intensifier x5 (Writhing Haunt ghouls) plus Arcane Quickener and Runecloth (no source anywhere in the data - bag note)
   turnin 5224 @53.02,65.61 era -- Writhing Haunt Cauldron - cauldron
-  accept 5225 -- Target: Gahrron's Withering - MacDonnell (back at the hub; pre turned in above)
+  accept 5225 only Alliance -- Target: Gahrron's Withering - MacDonnell (back at the hub; pre turned in above)
 
 step Gahrron's Withering - Soulwrath and the cauldron
 
   zone map 1422
 
   goto 62.18,59.06 -- Cauldron Lord Soulwrath
-  complete 5225 -- Gahrron's Withering Cauldron Key (Soulwrath)
-  turnin 5225 @62.54,58.47 era -- Target: Gahrron's Withering - cauldron
-  accept 5226 -- Return to Chillwind Camp - cauldron
-  turnin 5226 @42.97,84.50 -- Return to Chillwind Camp - MacDonnell
+  complete 5225 only Alliance -- Gahrron's Withering Cauldron Key (Soulwrath)
+  turnin 5225 only Alliance @62.54,58.47 era -- Target: Gahrron's Withering - cauldron
+  accept 5226 only Alliance -- Return to Chillwind Camp - cauldron
+  turnin 5226 only Alliance @42.97,84.50 -- Return to Chillwind Camp - MacDonnell
   accept 5227 -- Gahrron's Withering Cauldron - cauldron
   goto 60.68,58.28
   goto 61.84,59.12
@@ -161,20 +160,20 @@ step Gahrron's Withering - Soulwrath and the cauldron
   goto 64.04,57.58
   complete 5227 -- Ectoplasmic Resonator x4 (Blood and Hungering wraiths, Haunting Visions) plus Arcane Quickener and Runecloth (no source anywhere in the data - bag note)
   turnin 5227 @62.54,58.47 era -- Gahrron's Withering Cauldron - cauldron
-  accept 5237 -- Mission Accomplished! - Ashlam (pre turned in above)
-  turnin 5237 @42.70,84.03 -- Mission Accomplished! - Ashlam (pre turned in above)
+  accept 5237 only Alliance -- Mission Accomplished! - Ashlam (pre turned in above)
+  turnin 5237 only Alliance @42.70,84.03 -- Mission Accomplished! - Ashlam (pre turned in above)
 
 step Barov fortune - the four deeds
 
   zone map 1422
 
   note The four deeds (Brill, Caer Darrow, Southshore, Tarren Mill) have no placed source anywhere in the data: no droppers, objects, or vendors. Bring them in the bags.
-  complete 5343 -- The Deed to Brill, the Deed to Caer Darrow, the Deed to Southshore and the Deed to Tarren Mill (bag note above covers them)
-  turnin 5343 @43.45,83.73 -- Barov Family Fortune - Weldon (pre is the accept itself)
-  accept 5344 -- The Last Barov - Weldon
+  complete 5343 only Alliance -- The Deed to Brill, the Deed to Caer Darrow, the Deed to Southshore and the Deed to Tarren Mill (bag note above covers them)
+  turnin 5343 only Alliance @43.45,83.73 -- Barov Family Fortune - Weldon (pre is the accept itself)
+  accept 5344 only Alliance -- The Last Barov - Weldon
   goto 26.40,58.80 -- Alexi Barov
-  complete 5344 -- Head of Alexi Barov (Alexi, west of the farmsteads)
-  turnin 5344 @43.45,83.73 -- The Last Barov - Weldon
+  complete 5344 only Alliance -- Head of Alexi Barov (Alexi, west of the farmsteads)
+  turnin 5344 only Alliance @43.45,83.73 -- The Last Barov - Weldon
 
 step Chillwind Camp - Argent commission
 
@@ -203,8 +202,8 @@ step Chillwind Camp - the plague upon thee
 
   zone map 1422
 
-  accept 5903 -- A Plague Upon Thee - Dumah (below-band min-48 chain per the Front-letter precedent; the termites are a Western Plaguelands leg below)
-  accept 6185 -- The Eastern Plagues - Shadowmore (pre 6184 is a Stormwind quest, outside - note, structural; the insignias are a Western Plaguelands leg below)
+  accept 5903 only Alliance -- A Plague Upon Thee - Dumah (below-band min-48 chain per the Front-letter precedent; the termites are a Western Plaguelands leg below)
+  accept 6185 only Alliance -- The Eastern Plagues - Shadowmore (pre 6184 is a Stormwind quest, outside - note, structural; the insignias are a Western Plaguelands leg below)
 
 step Darrowshire - Marlene and Janice
 
@@ -214,7 +213,7 @@ step Darrowshire - Marlene and Janice
   accept 5153 -- A Strange Historian - Marlene (pre 5152 is WPL-contracted - note, structural; the ring is an Andorhal leg below)
   accept 5021 -- Better Late Than Never - Janice (ends at her parcel below)
   turnin 5021 @38.73,55.24 era -- Better Late Than Never - Janice's Parcel
-  accept 5022 -- Better Late Than Never - parcel (Stormwind turn-in leg below)
+  accept 5022 only Alliance -- Better Late Than Never - parcel (Stormwind turn-in leg below)
   accept 5051 -- Two Halves Become One - Janice (pre 5050 is a Stormwind quest, outside - note, structural; the charm has no source - bag note below)
   note The Good Luck Charm (12723) has no source anywhere in the data: no droppers, objects, or vendors. Bring it in the bags.
   complete 5051 -- Good Luck Charm (bag note above covers it)
@@ -435,36 +434,36 @@ step Mulgris - the wildlife and the branch
   goto 60.47,51.95
   complete 4985 -- Diseased Grizzly x8 (southern wilds)
   turnin 4985 @53.73,64.66 -- The Wildlife Suffers Too - Mulgris
-  accept 4986 -- Glyphed Oaken Branch - Mulgris (pre turned in above; Darnassus turn-in leg below)
+  accept 4986 only Alliance -- Glyphed Oaken Branch - Mulgris (pre turned in above; Darnassus turn-in leg below)
 
 step Lightspark - mantles and tokens
 
   zone map 1422
 
-  accept 5507 -- Mantles of the Dawn - Lightspark (ten Valor Tokens, see note)
+  accept 5507 only Alliance -- Mantles of the Dawn - Lightspark (ten Valor Tokens, see note)
   note Argent Dawn Valor Tokens (12844) have no source anywhere in the data: no droppers, objects, or vendors. Bring them in the bags (Ashenvale R5 handling).
-  complete 5507 -- Argent Dawn Valor Tokens x10 (bag note above covers them)
-  turnin 5507 @42.84,83.72 -- Mantles of the Dawn - Lightspark
-  accept 5521 -- Chromatic Mantle of the Dawn - Lightspark (twenty-five Valor Tokens, same note)
-  complete 5521 -- Argent Dawn Valor Tokens x25 (bag note above covers them)
-  turnin 5521 @42.84,83.72 -- Chromatic Mantle of the Dawn - Lightspark
+  complete 5507 only Alliance -- Argent Dawn Valor Tokens x10 (bag note above covers them)
+  turnin 5507 only Alliance @42.84,83.72 -- Mantles of the Dawn - Lightspark
+  accept 5521 only Alliance -- Chromatic Mantle of the Dawn - Lightspark (twenty-five Valor Tokens, same note)
+  complete 5521 only Alliance -- Argent Dawn Valor Tokens x25 (bag note above covers them)
+  turnin 5521 only Alliance @42.84,83.72 -- Chromatic Mantle of the Dawn - Lightspark
 
 step Andorhal - the phylactery shard
 
   zone map 1422
 
   goto 45.27,69.21 -- Araj's Phylactery
-  complete 211 -- Araj's Phylactery Shard (Andorhal phylactery)
-  turnin 211 @42.70,84.03 -- Alas, Andorhal - Ashlam (back at Chillwind)
+  complete 211 only Alliance -- Araj's Phylactery Shard (Andorhal phylactery)
+  turnin 211 only Alliance @42.70,84.03 -- Alas, Andorhal - Ashlam (back at Chillwind)
 
 step Andorhal - Araj's scarab
 
   zone map 1422
 
   goto 45.27,69.21 -- Araj's Phylactery
-  complete 5803 -- Araj's Scarab (Andorhal phylactery; pre 5801 noted at the accept)
-  turnin 5803 @42.66,83.77 -- Araj's Scarab - Arbington
-  turnin 5505 @42.66,83.77 -- The Key to Scholomance - Arbington (pre turned in above)
+  complete 5803 only Alliance -- Araj's Scarab (Andorhal phylactery; pre 5801 noted at the accept)
+  turnin 5803 only Alliance @42.66,83.77 -- Araj's Scarab - Arbington
+  turnin 5505 only Alliance @42.66,83.77 -- The Key to Scholomance - Arbington (pre turned in above)
 step Marlene's ring - the historian's errand
 
   zone map 1422
@@ -492,29 +491,29 @@ step WPL Darrowshire expedition - Pamela, Joseph, termites, insignias
   goto 22.26,17.76
   goto 23.99,25.40
   goto 24.16,30.78
-  complete 5903 -- Plagueland Termites x100 (large termite mounds, WPL Darrowshire edge)
+  complete 5903 only Alliance -- Plagueland Termites x100 (large termite mounds, WPL Darrowshire edge)
 
   zone map 1422
 
-  turnin 5903 @43.42,84.83 era -- A Plague Upon Thee - Dumah (back in EPL; pre chain continues below)
-  accept 5904 -- A Plague Upon Thee - Dumah (pre turned in above)
-  turnin 5904 @48.34,31.99 era -- A Plague Upon Thee - Termite Barrel (pre turned in above)
-  accept 6389 -- A Plague Upon Thee - Termite Barrel (pre turned in above; Horde twin 6390 out of contract)
-  turnin 6389 @43.42,84.83 -- A Plague Upon Thee - Dumah
+  turnin 5903 only Alliance @43.42,84.83 era -- A Plague Upon Thee - Dumah (back in EPL; pre chain continues below)
+  accept 5904 only Alliance -- A Plague Upon Thee - Dumah (pre turned in above)
+  turnin 5904 only Alliance @48.34,31.99 era -- A Plague Upon Thee - Termite Barrel (pre turned in above)
+  accept 6389 only Alliance -- A Plague Upon Thee - Termite Barrel (pre turned in above; Horde twin 6390 out of contract)
+  turnin 6389 only Alliance @43.42,84.83 -- A Plague Upon Thee - Dumah
 
   zone map 1423
 
   goto 22.79,63.72
   goto 24.28,63.65
   goto 24.28,68.11
-  complete 6185 -- SI:7 Insignia (Rutger) plus SI:7 Insignia (Fredo) plus SI:7 Insignia (Turyen) (mangled remains, WPL Darrowshire; pre 6184 noted at the accept)
+  complete 6185 only Alliance -- SI:7 Insignia (Rutger) plus SI:7 Insignia (Fredo) plus SI:7 Insignia (Turyen) (mangled remains, WPL Darrowshire; pre 6184 noted at the accept)
   note The Blightcaller Uncovered resolves as a scripted event (no placed objective in the data): stand ready, no farming needed.
-  complete 6185 -- The Blightcaller Uncovered (scripted event, note above)
+  complete 6185 only Alliance -- The Blightcaller Uncovered (scripted event, note above)
 
   zone map 1422
 
-  turnin 6185 @43.61,84.51 era -- The Eastern Plagues - Shadowmore (back in EPL)
-  accept 6186 -- The Blightcaller Cometh - Shadowmore (Stormwind turn-in leg below)
+  turnin 6185 only Alliance @43.61,84.51 era -- The Eastern Plagues - Shadowmore (back in EPL)
+  accept 6186 only Alliance -- The Blightcaller Cometh - Shadowmore (Stormwind turn-in leg below)
 
   zone map 1422
 
@@ -613,7 +612,7 @@ step Tanaris expedition - the Barov turn-in
 
   zone map 1446
 
-  turnin 5538 @51.46,28.81 era -- Mold Rhymes With... - Krinkle (Tanaris turn-in for the EPL accept)
+  turnin 5538 only Alliance @51.46,28.81 era -- Mold Rhymes With... - Krinkle (Tanaris turn-in for the EPL accept)
 
   zone map 1422
 
@@ -621,8 +620,8 @@ step Stormwind expedition - parcel and Blightcaller
 
   zone map 1453
 
-  turnin 5022 @57.17,48.07 era -- Better Late Than Never - Bathrilor (Stormwind turn-in for the EPL accept)
-  turnin 6186 @80.21,38.35 era -- The Blightcaller Cometh - Bolvar (Stormwind turn-in for the EPL accept; feeds 6187, Stormwind-contracted)
+  turnin 5022 only Alliance @57.17,48.07 era -- Better Late Than Never - Bathrilor (Stormwind turn-in for the EPL accept)
+  turnin 6186 only Alliance @80.21,38.35 era -- The Blightcaller Cometh - Bolvar (Stormwind turn-in for the EPL accept; feeds 6187, Stormwind-contracted)
 
   zone map 1422
 
@@ -630,7 +629,7 @@ step Darnassus expedition - the oaken branch
 
   zone map 1457
 
-  turnin 4986 @35.37,8.40 era -- Glyphed Oaken Branch - Mathrengyl (Darnassus turn-in for the EPL accept)
+  turnin 4986 only Alliance @35.37,8.40 era -- Glyphed Oaken Branch - Mathrengyl (Darnassus turn-in for the EPL accept)
 
   zone map 1422
 
