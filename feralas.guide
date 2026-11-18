@@ -18,7 +18,6 @@ guide butler-routes-completionist/feralas
 title Feralas - Completionist
 levels 38-50
 zone Feralas
-faction Alliance
 category Leveling
 folder Completionist
 coords live
@@ -29,48 +28,48 @@ step Feathermoon Stronghold - landfall
   zone map 1444
 
   tip The stronghold holds the chains: Shandris (30.28, 46.17) posts the Solarsal and Hatecrest work, Latronicus (30.38, 46.17) runs the coast and the courier line, Ginro (31.86, 45.13) holds the wreckage end, Troyas (31.78, 45.5) seeks knowledge, Angelas (31.83, 45.61) watches the ogres, Quintis (32.45, 43.79) studies grain, Shyria (30.97, 43.49) keeps the inn, Pratt (30.63, 42.71) buys hides, and the WANTED poster (31.09, 43.84) names Ohk'zi. Take every quest in town before you head out.
-  accept 2866 -- The Ruins of Solarsal - Shandris Feathermoon; the Solarsal Gazebo, west
-  accept 4124 -- The Missing Courier - Latronicus Moonspear; Ginro Hearthkindle takes the word
-  turnin 4124 -- The Missing Courier - the word to Ginro Hearthkindle
-  accept 4125 -- The Missing Courier - Ginro Hearthkindle; the Wrecked Row Boat, far south
-  accept 2939 -- In Search of Knowledge - Troyas Moonbreeze; Daryn Lightwind takes it in Teldrassil, late
+  accept 2866 only Alliance -- The Ruins of Solarsal - Shandris Feathermoon; the Solarsal Gazebo, west
+  accept 4124 only Alliance -- The Missing Courier - Latronicus Moonspear; Ginro Hearthkindle takes the word
+  turnin 4124 only Alliance -- The Missing Courier - the word to Ginro Hearthkindle
+  accept 4125 only Alliance -- The Missing Courier - Ginro Hearthkindle; the Wrecked Row Boat, far south
+  accept 2939 only Alliance -- In Search of Knowledge - Troyas Moonbreeze; Daryn Lightwind takes it in Teldrassil, late
   note 2879's pre (2943, Return to Troyas) accepts outside every pack guide - take 2939 now, pick up 2943 from Daryn when the Teldrassil leg turns 2939 in, and 2879 rides its own soft-pre step after.
-  accept 2982 -- The High Wilderness - Angelas Moonbreeze; Gordunni in the east
-  accept 3445 -- The Sunken Temple - Angelas Moonbreeze; Marvon Rivetseeker waits in Tanaris, late
-  accept 2821 -- The Mark of Quality - Pratt McGrubben; ten Thick Yeti Hides
+  accept 2982 only Alliance -- The High Wilderness - Angelas Moonbreeze; Gordunni in the east
+  accept 3445 only Alliance -- The Sunken Temple - Angelas Moonbreeze; Marvon Rivetseeker waits in Tanaris, late
+  accept 2821 only Alliance -- The Mark of Quality - Pratt McGrubben; ten Thick Yeti Hides
   note 92858's poster hangs here - Ohk'zi works the east, and the staff comes off him.
-  accept 92858 -- WANTED: Ohk'zi - the WANTED poster; the Staff of Ohk'zi, east
+  accept 92858 only Alliance -- WANTED: Ohk'zi - the WANTED poster; the Staff of Ohk'zi, east
 
 step Solarsal Gazebo - west
 
   zone map 1444
 
   tip The Gazebo stands west of the stronghold.
-  turnin 2866 -- The Ruins of Solarsal - the ruins to the Solarsal Gazebo
-  accept 2867 -- Return to Feathermoon Stronghold - the Solarsal Gazebo; Shandris takes the word
+  turnin 2866 only Alliance -- The Ruins of Solarsal - the ruins to the Solarsal Gazebo
+  accept 2867 only Alliance -- Return to Feathermoon Stronghold - the Solarsal Gazebo; Shandris takes the word
 
 step Stronghold - first returns
 
   zone map 1444
 
-  turnin 2867 -- Return to Feathermoon Stronghold - the Gazebo's word to Shandris Feathermoon
-  accept 3130 -- Against the Hatecrest - Shandris Feathermoon; Latronicus Moonspear takes it
-  turnin 3130 -- Against the Hatecrest - Shandris's word to Latronicus Moonspear
-  accept 2869 -- Against the Hatecrest - Latronicus Moonspear; Hatecrest scales, north coast
+  turnin 2867 only Alliance -- Return to Feathermoon Stronghold - the Gazebo's word to Shandris Feathermoon
+  accept 3130 only Alliance -- Against the Hatecrest - Shandris Feathermoon; Latronicus Moonspear takes it
+  turnin 3130 only Alliance -- Against the Hatecrest - Shandris's word to Latronicus Moonspear
+  accept 2869 only Alliance -- Against the Hatecrest - Latronicus Moonspear; Hatecrest scales, north coast
 
 step North coast - Hatecrest scales
 
   zone map 1444
 
   tip The Hatecrest work the north coast.
-  complete 2869 @25.46,49.46 era -- ten Hatecrest scales for Latronicus Moonspear, north coast
+  complete 2869 only Alliance @25.46,49.46 era -- ten Hatecrest scales for Latronicus Moonspear, north coast
 
 step Stronghold - the relic chain
 
   zone map 1444
 
-  turnin 2869 -- Against the Hatecrest - the scales to Latronicus Moonspear
-  accept 2870 -- Against Lord Shalzaru - Latronicus Moonspear; the Mysterious Relic, far south
+  turnin 2869 only Alliance -- Against the Hatecrest - the scales to Latronicus Moonspear
+  accept 2870 only Alliance -- Against Lord Shalzaru - Latronicus Moonspear; the Mysterious Relic, far south
 
 step Shay's camp - the giant's bell
 
@@ -80,12 +79,12 @@ step Shay's camp - the giant's bell
   goto 38.22,10.30
 
   tip Rockbiter (42.39, 22.00) holds the north camp; Shay (38.22, 10.30) waits south of him. Marli Wishrunner (45.82, 16.47) runs an errand east of the camp, and Gregan Brewspewer (45.12, 25.57) works south of her.
-  accept 2844 -- The Giant Guardian - Rockbiter; Shay Leafrunner takes the word
-  turnin 2844 -- The Giant Guardian - the word to Shay Leafrunner
-  accept 2845 -- Wandering Shay - Shay Leafrunner; Shay's Bell and the escort to Rockbiter's camp
-  complete 2845 @38.25,10.29 era -- Shay's Bell in Shay's Chest by her camp
-  complete 2845 @42.33,21.85 era -- the escort of Shay Leafrunner to Rockbiter's camp
-  turnin 2845 -- Wandering Shay - Shay home to Rockbiter
+  accept 2844 only Alliance -- The Giant Guardian - Rockbiter; Shay Leafrunner takes the word
+  turnin 2844 only Alliance -- The Giant Guardian - the word to Shay Leafrunner
+  accept 2845 only Alliance -- Wandering Shay - Shay Leafrunner; Shay's Bell and the escort to Rockbiter's camp
+  complete 2845 only Alliance @38.25,10.29 era -- Shay's Bell in Shay's Chest by her camp
+  complete 2845 only Alliance @42.33,21.85 era -- the escort of Shay Leafrunner to Rockbiter's camp
+  turnin 2845 only Alliance -- Wandering Shay - Shay home to Rockbiter
   accept 3567 -- To the Top - Marli Wishrunner; her errand at the camp
   turnin 3567 -- To the Top - back to Marli Wishrunner
   note 4041's pre (3909, a Winterspring quest) lives outside every pack guide - 4041 rides its own soft-pre step once 3909 is in the log.
@@ -110,10 +109,11 @@ step Haze of Evil (soft pre)
   zone map 1444
 
   when onquest 4142
+  only Alliance
 
   tip Holding 4142 (A Visit to Gregan, from Muigin in Un'Goro): Gregan's haze ask; Muigin takes it in Un'Goro, late.
-  accept 4143 -- Haze of Evil - Gregan Brewspewer; Atal'ai Haze, then Muigin in Un'Goro
-  complete 4143 -- Atal'ai Haze for Gregan Brewspewer
+  accept 4143 only Alliance -- Haze of Evil - Gregan Brewspewer; Atal'ai Haze, then Muigin in Un'Goro
+  complete 4143 only Alliance -- Atal'ai Haze for Gregan Brewspewer
   note The Haze comes off the Atal'ai in the Sunken Temple - its droppers have no placed point in the data, so no complete is plotted; take the quest now, find the Haze inside with a group, hand in on return.
 
 step South-center - Feral Scar yetis
@@ -121,14 +121,14 @@ step South-center - Feral Scar yetis
   zone map 1444
 
   tip The Feral Scar yetis range the south-center.
-  complete 2821 @52.26,57.93 era -- ten Thick Yeti Hides for Pratt McGrubben, south-center
+  complete 2821 only Alliance @52.26,57.93 era -- ten Thick Yeti Hides for Pratt McGrubben, south-center
 
 step Stronghold - the Mark's turnin
 
   zone map 1444
 
-  turnin 2821 -- The Mark of Quality - the hides to Pratt McGrubben
-  accept 7733 -- Improved Quality - Pratt McGrubben; Rage Scar hides, north-west
+  turnin 2821 only Alliance -- The Mark of Quality - the hides to Pratt McGrubben
+  accept 7733 only Alliance -- Improved Quality - Pratt McGrubben; Rage Scar hides, north-west
 
 step North-west - Rage Scar yetis
 
@@ -139,15 +139,15 @@ step North-west - Rage Scar yetis
   tip The Rage Scar yetis work the north-west; the Pristine Hide starts its own errand here.
   note The Pristine Yeti Hide (7735's starter) drops off these Rage Scar yetis - the guide never wedges on it: kill one optionally, take the quest, hand in at Pratt.
   kill 5296 optional -- Rage Scar Yeti for the Pristine Yeti Hide
-  accept 7735 -- Pristine Yeti Hide - the hide; Pratt McGrubben takes it
-  complete 7733 @51.80,30.79 era -- ten Rage Scar Yeti Hides for Pratt McGrubben, north-west
+  accept 7735 only Alliance -- Pristine Yeti Hide - the hide; Pratt McGrubben takes it
+  complete 7733 only Alliance @51.80,30.79 era -- ten Rage Scar Yeti Hides for Pratt McGrubben, north-west
 
 step Stronghold - hides and the yeti line
 
   zone map 1444
 
-  turnin 7733 -- Improved Quality - the hides to Pratt McGrubben
-  turnin 7735 -- Pristine Yeti Hide - the hide to Pratt McGrubben
+  turnin 7733 only Alliance -- Improved Quality - the hides to Pratt McGrubben
+  turnin 7735 only Alliance -- Pristine Yeti Hide - the hide to Pratt McGrubben
 
 step East - Woodpaw gnolls and Ohk'zi
 
@@ -160,15 +160,15 @@ step East - Woodpaw gnolls and Ohk'zi
   note The OOX-22/FE Distress Beacon (2766's starter) drops zone-wide - the guide never wedges on it: farm the Woodpaw packs optionally, take the quest at the Homing Robot.
   kill 5255 optional -- Woodpaw Mystic for the OOX-22/FE Distress Beacon
   accept 2766 -- Find OOX-22/FE! - the beacon; the Homing Robot takes it, south-west
-  complete 92858 @74.48,27.97 era -- the Staff of Ohk'zi for Latronicus Moonspear, east
-  complete 2982 @65.26,52.02 era -- Gordunni Warlocks, Shaman and Brutes for Angelas Moonbreeze, east
+  complete 92858 only Alliance @74.48,27.97 era -- the Staff of Ohk'zi for Latronicus Moonspear, east
+  complete 2982 only Alliance @65.26,52.02 era -- Gordunni Warlocks, Shaman and Brutes for Angelas Moonbreeze, east
 
 step Stronghold - the east banked
 
   zone map 1444
 
-  turnin 2982 -- The High Wilderness - the Gordunni word to Angelas Moonbreeze
-  turnin 92858 -- WANTED: Ohk'zi - the staff to Latronicus Moonspear
+  turnin 2982 only Alliance -- The High Wilderness - the Gordunni word to Angelas Moonbreeze
+  turnin 92858 only Alliance -- WANTED: Ohk'zi - the staff to Latronicus Moonspear
 
 step Homing Robot - the escort
 
@@ -187,13 +187,13 @@ step Kindal's camp - Sprite Darters and Grimtotem
   zone map 1444
 
   tip Kindal (65.94, 45.65) and Jer'kai (65.95, 45.61) hold the east camp; the Sprite Darters are caged just east at (67.27, 46.67), the Grimtotem just north-west.
-  accept 2969 -- Freedom for All Creatures - Kindal Moonweaver; Sprite Darters, east
-  complete 2969 @67.27,46.67 era -- six Sprite Darters freed from capture, east
-  turnin 2969 -- Freedom for All Creatures - the darters to Kindal Moonweaver
-  accept 2970 -- Doling Justice - Jer'kai Moonweaver; Grimtotem, north-west
-  complete 2970 @66.12,46.72 era -- Grimtotem Naturalists, Raiders and Shaman for Jer'kai Moonweaver, north-west
-  turnin 2970 -- Doling Justice - the justice to Jer'kai Moonweaver
-  accept 2972 -- Doling Justice - Jer'kai Moonweaver; Tyrande Whisperwind takes it in Darnassus, late
+  accept 2969 only Alliance -- Freedom for All Creatures - Kindal Moonweaver; Sprite Darters, east
+  complete 2969 only Alliance @67.27,46.67 era -- six Sprite Darters freed from capture, east
+  turnin 2969 only Alliance -- Freedom for All Creatures - the darters to Kindal Moonweaver
+  accept 2970 only Alliance -- Doling Justice - Jer'kai Moonweaver; Grimtotem, north-west
+  complete 2970 only Alliance @66.12,46.72 era -- Grimtotem Naturalists, Raiders and Shaman for Jer'kai Moonweaver, north-west
+  turnin 2970 only Alliance -- Doling Justice - the justice to Jer'kai Moonweaver
+  accept 2972 only Alliance -- Doling Justice - Jer'kai Moonweaver; Tyrande Whisperwind takes it in Darnassus, late
 
 step Tyrisius - the druid word
 
@@ -253,23 +253,23 @@ step Far south - Shalzaru and the wreck
   goto 45.44,64.96
 
   tip Lord Shalzaru (28.50, 70.46) holds the far south; the Wrecked Row Boat (45.44, 64.96) lies south-east of the stronghold.
-  complete 2870 @28.50,70.46 era -- the Mysterious Relic off Lord Shalzaru for Latronicus Moonspear, far south
-  turnin 4125 -- The Missing Courier - the word to the Wrecked Row Boat
-  accept 4127 -- Boat Wreckage - the Wrecked Row Boat; Ginro Hearthkindle takes it
+  complete 2870 only Alliance @28.50,70.46 era -- the Mysterious Relic off Lord Shalzaru for Latronicus Moonspear, far south
+  turnin 4125 only Alliance -- The Missing Courier - the word to the Wrecked Row Boat
+  accept 4127 only Alliance -- Boat Wreckage - the Wrecked Row Boat; Ginro Hearthkindle takes it
 
 step Stronghold - the knife and the reading
 
   zone map 1444
 
-  turnin 2870 -- Against Lord Shalzaru - the relic to Latronicus Moonspear
-  accept 2871 -- Delivering the Relic - Latronicus Moonspear; Vestia Moonspear takes it
-  turnin 2871 -- Delivering the Relic - the relic to Vestia Moonspear
-  turnin 4127 -- Boat Wreckage - the wreck's word to Ginro Hearthkindle
-  accept 4129 -- The Knife Revealed - Ginro Hearthkindle; Quintis Jonespyre takes the knife
-  turnin 4129 -- The Knife Revealed - the knife to Quintis Jonespyre
-  accept 4130 -- Psychometric Reading - Quintis Jonespyre; Ginro takes the reading
-  turnin 4130 -- Psychometric Reading - the reading to Ginro Hearthkindle
-  accept 4131 -- The Woodpaw Gnolls - Ginro Hearthkindle; the Large Leather Backpacks, far east
+  turnin 2870 only Alliance -- Against Lord Shalzaru - the relic to Latronicus Moonspear
+  accept 2871 only Alliance -- Delivering the Relic - Latronicus Moonspear; Vestia Moonspear takes it
+  turnin 2871 only Alliance -- Delivering the Relic - the relic to Vestia Moonspear
+  turnin 4127 only Alliance -- Boat Wreckage - the wreck's word to Ginro Hearthkindle
+  accept 4129 only Alliance -- The Knife Revealed - Ginro Hearthkindle; Quintis Jonespyre takes the knife
+  turnin 4129 only Alliance -- The Knife Revealed - the knife to Quintis Jonespyre
+  accept 4130 only Alliance -- Psychometric Reading - Quintis Jonespyre; Ginro takes the reading
+  turnin 4130 only Alliance -- Psychometric Reading - the reading to Ginro Hearthkindle
+  accept 4131 only Alliance -- The Woodpaw Gnolls - Ginro Hearthkindle; the Large Leather Backpacks, far east
 
 step Far east - backpacks, pod and writs
 
@@ -281,11 +281,11 @@ step Far east - backpacks, pod and writs
   goto 89.42,45.99
 
   tip The Backpacks (73.32, 56.31) sit south-east; the Pod (72.07, 63.72) north of them; Scout Raroul (72.41, 52.47) holds the writ post; Kristy Grant (89.42, 45.99) works the far east edge.
-  turnin 4131 -- The Woodpaw Gnolls - the word to the Large Leather Backpacks
-  accept 4135 -- The Writhing Deep - the Large Leather Backpacks; the Zukk'ash Pod, north
-  turnin 4135 -- The Writhing Deep - the deep to the Zukk'ash Pod
-  accept 4265 -- Freed from the Hive - the Zukk'ash Pod; Ginro Hearthkindle takes the word
-  complete 4265 @72.13,63.84 era -- Raschal freed from the hive, far east
+  turnin 4131 only Alliance -- The Woodpaw Gnolls - the word to the Large Leather Backpacks
+  accept 4135 only Alliance -- The Writhing Deep - the Large Leather Backpacks; the Zukk'ash Pod, north
+  turnin 4135 only Alliance -- The Writhing Deep - the deep to the Zukk'ash Pod
+  accept 4265 only Alliance -- Freed from the Hive - the Zukk'ash Pod; Ginro Hearthkindle takes the word
+  complete 4265 only Alliance @72.13,63.84 era -- Raschal freed from the hive, far east
   note The four Craftsman's Writs (94260, 94272, 94284, 94296) start from writ items with no placed source in the data - have them in your bags; Raroul takes them here, at 60.
   accept 94260 optional -- Craftsman's Writ: Catseye Draught - the writ; back to Scout Raroul, at 60
   turnin 94260 optional -- Craftsman's Writ: Catseye Draught - the draught to Scout Raroul
@@ -295,19 +295,19 @@ step Far east - backpacks, pod and writs
   turnin 94284 optional -- Craftsman's Writ: Catseye Ultra Goggles - the goggles to Scout Raroul
   accept 94296 optional -- Craftsman's Writ: Wild Leather Shoulders - the writ; back to Scout Raroul, at 60
   turnin 94296 optional -- Craftsman's Writ: Wild Leather Shoulders - the shoulders to Scout Raroul
-  accept 98155 -- Pristine Pesterhide Pelts - Kristy Grant; Pesterhide pelts, east
-  complete 98155 @90.60,40.40 era -- five Pristine Pesterhide Pelts off the Pesterhide Snarler, far east
-  turnin 98155 -- Pristine Pesterhide Pelts - the pelts to Kristy Grant
-  accept 98156 -- Packaged Pristine Pelts - Kristy Grant; Kimberly Grant waits in Stormwind, late
+  accept 98155 only Alliance -- Pristine Pesterhide Pelts - Kristy Grant; Pesterhide pelts, east
+  complete 98155 only Alliance @90.60,40.40 era -- five Pristine Pesterhide Pelts off the Pesterhide Snarler, far east
+  turnin 98155 only Alliance -- Pristine Pesterhide Pelts - the pelts to Kristy Grant
+  accept 98156 only Alliance -- Packaged Pristine Pelts - Kristy Grant; Kimberly Grant waits in Stormwind, late
 
 step Stronghold - the hive banked
 
   zone map 1444
 
-  turnin 4265 -- Freed from the Hive - Raschal's word to Ginro Hearthkindle
-  accept 4266 -- A Hero's Welcome - Ginro Hearthkindle; Shandris Feathermoon takes the word
-  turnin 4266 -- A Hero's Welcome - the welcome to Shandris Feathermoon
-  accept 4267 -- Rise of the Silithid - Shandris Feathermoon; Gracina Spiritmight takes it in Darnassus, late
+  turnin 4265 only Alliance -- Freed from the Hive - Raschal's word to Ginro Hearthkindle
+  accept 4266 only Alliance -- A Hero's Welcome - Ginro Hearthkindle; Shandris Feathermoon takes the word
+  turnin 4266 only Alliance -- A Hero's Welcome - the welcome to Shandris Feathermoon
+  accept 4267 only Alliance -- Rise of the Silithid - Shandris Feathermoon; Gracina Spiritmight takes it in Darnassus, late
 
 step Pratt's craft (Leatherworking)
 
@@ -316,68 +316,70 @@ step Pratt's craft (Leatherworking)
   when skill Leatherworking 1
 
   tip Pratt's bench: the Wild Leather set is crafted goods - have the pieces in your bags.
-  accept 2847 -- Wild Leather Armor - Pratt McGrubben; Thick Leather for the armor
-  complete 2847 -- ten Thick Leather for Pratt's armor
-  turnin 2847 -- Wild Leather Armor - the armor to Pratt McGrubben
-  accept 2848 -- Wild Leather Shoulders - Pratt McGrubben; kits and vine for the shoulders
-  complete 2848 -- armor kits and Wildvine for the shoulders
-  turnin 2848 -- Wild Leather Shoulders - the shoulders to Pratt McGrubben
-  accept 2849 -- Wild Leather Vest - Pratt McGrubben; turtle scale for the vest
-  complete 2849 -- turtle scale and Wildvine for the vest
-  turnin 2849 -- Wild Leather Vest - the vest to Pratt McGrubben
-  accept 2850 -- Wild Leather Helmet - Pratt McGrubben; nightscape for the helmet
-  complete 2850 -- nightscape and Wildvine for the helmet
-  turnin 2850 -- Wild Leather Helmet - the helmet to Pratt McGrubben
-  accept 2851 -- Wild Leather Boots - Pratt McGrubben; nightscape for the boots
-  complete 2851 -- nightscape and Wildvine for the boots
-  turnin 2851 -- Wild Leather Boots - the boots to Pratt McGrubben
-  accept 2852 -- Wild Leather Leggings - Pratt McGrubben; turtle scale for the leggings
-  complete 2852 -- turtle scale and Wildvine for the leggings
-  turnin 2852 -- Wild Leather Leggings - the leggings to Pratt McGrubben
-  accept 2853 -- Master of the Wild Leather - Pratt McGrubben; Telonis takes it in Darnassus, late
+  accept 2847 only Alliance -- Wild Leather Armor - Pratt McGrubben; Thick Leather for the armor
+  complete 2847 only Alliance -- ten Thick Leather for Pratt's armor
+  turnin 2847 only Alliance -- Wild Leather Armor - the armor to Pratt McGrubben
+  accept 2848 only Alliance -- Wild Leather Shoulders - Pratt McGrubben; kits and vine for the shoulders
+  complete 2848 only Alliance -- armor kits and Wildvine for the shoulders
+  turnin 2848 only Alliance -- Wild Leather Shoulders - the shoulders to Pratt McGrubben
+  accept 2849 only Alliance -- Wild Leather Vest - Pratt McGrubben; turtle scale for the vest
+  complete 2849 only Alliance -- turtle scale and Wildvine for the vest
+  turnin 2849 only Alliance -- Wild Leather Vest - the vest to Pratt McGrubben
+  accept 2850 only Alliance -- Wild Leather Helmet - Pratt McGrubben; nightscape for the helmet
+  complete 2850 only Alliance -- nightscape and Wildvine for the helmet
+  turnin 2850 only Alliance -- Wild Leather Helmet - the helmet to Pratt McGrubben
+  accept 2851 only Alliance -- Wild Leather Boots - Pratt McGrubben; nightscape for the boots
+  complete 2851 only Alliance -- nightscape and Wildvine for the boots
+  turnin 2851 only Alliance -- Wild Leather Boots - the boots to Pratt McGrubben
+  accept 2852 only Alliance -- Wild Leather Leggings - Pratt McGrubben; turtle scale for the leggings
+  complete 2852 only Alliance -- turtle scale and Wildvine for the leggings
+  turnin 2852 only Alliance -- Wild Leather Leggings - the leggings to Pratt McGrubben
+  accept 2853 only Alliance -- Master of the Wild Leather - Pratt McGrubben; Telonis takes it in Darnassus, late
 
 step Jonespyre's grain (soft pre)
 
   zone map 1444
 
   when onquest 3781
+  only Alliance
 
   tip Holding 3781 (Morrowgrain Research, from Fandral Staghelm in Darnassus - the pack's Darnassus guide routes it): Shyria's ask and Quintis's grain work.
-  accept 3788 -- Jonespyre's Request - Innkeeper Shyria; Quintis Jonespyre takes the word
-  turnin 3788 -- Jonespyre's Request - the word to Quintis Jonespyre
-  accept 3791 -- The Mystery of Morrowgrain - Quintis Jonespyre; Morrowgrain for the mystery
-  complete 3791 -- Morrowgrain for Quintis's mystery
+  accept 3788 only Alliance -- Jonespyre's Request - Innkeeper Shyria; Quintis Jonespyre takes the word
+  turnin 3788 only Alliance -- Jonespyre's Request - the word to Quintis Jonespyre
+  accept 3791 only Alliance -- The Mystery of Morrowgrain - Quintis Jonespyre; Morrowgrain for the mystery
+  complete 3791 only Alliance -- Morrowgrain for Quintis's mystery
   note Morrowgrain has no placed source in the data - gather it where you find it; no complete is plotted.
-  turnin 3791 -- The Mystery of Morrowgrain - the grain to Quintis Jonespyre
-  accept 3792 -- Morrowgrain to Feathermoon Stronghold - Quintis Jonespyre; more grain for the run
-  complete 3792 -- more Morrowgrain for Quintis's run
-  turnin 3792 -- Morrowgrain to Feathermoon Stronghold - the grain to Quintis Jonespyre
+  turnin 3791 only Alliance -- The Mystery of Morrowgrain - the grain to Quintis Jonespyre
+  accept 3792 only Alliance -- Morrowgrain to Feathermoon Stronghold - Quintis Jonespyre; more grain for the run
+  complete 3792 only Alliance -- more Morrowgrain for Quintis's run
+  turnin 3792 only Alliance -- Morrowgrain to Feathermoon Stronghold - the grain to Quintis Jonespyre
 
 step The Stave (soft pre)
 
   zone map 1444
 
   when onquest 2943
+  only Alliance
 
   goto 31.78,45.50
   goto 38.83,13.17
 
   tip Holding 2943 (Return to Troyas, picked up from Daryn Lightwind on the Teldrassil leg below): Troyas's stave and the Monolith, far north.
-  accept 2879 -- The Stave of Equinex - Troyas Moonbreeze; the Monolith, far north
-  complete 2879 -- the Stave of Equinex for Troyas Moonbreeze
+  accept 2879 only Alliance -- The Stave of Equinex - Troyas Moonbreeze; the Monolith, far north
+  complete 2879 only Alliance -- the Stave of Equinex for Troyas Moonbreeze
   note The Stave of Equinex has no placed source in the data - the turn-in is the Equinex Monolith; no complete is plotted.
-  turnin 2879 -- The Stave of Equinex - the stave to the Equinex Monolith
-  accept 2942 -- The Morrow Stone - the Equinex Monolith; Troyas takes the stone
-  complete 2942 -- the Sparkling Stone for Troyas Moonbreeze
+  turnin 2879 only Alliance -- The Stave of Equinex - the stave to the Equinex Monolith
+  accept 2942 only Alliance -- The Morrow Stone - the Equinex Monolith; Troyas takes the stone
+  complete 2942 only Alliance -- the Sparkling Stone for Troyas Moonbreeze
   note The Sparkling Stone has no placed source in the data - the accept is the Monolith; no complete is plotted.
-  turnin 2942 -- The Morrow Stone - the stone to Troyas Moonbreeze
+  turnin 2942 only Alliance -- The Morrow Stone - the stone to Troyas Moonbreeze
 
 step Teldrassil - knowledge delivered
 
   zone map 1438
 
   tip Daryn Lightwind (55.41, 92.23) takes Troyas's word in Teldrassil; pick up 2943 (Return to Troyas) from Daryn while here - the Stave step above needs it in the log.
-  turnin 2939 -- In Search of Knowledge - Troyas's word to Daryn Lightwind
+  turnin 2939 only Alliance -- In Search of Knowledge - Troyas's word to Daryn Lightwind
   zone map 1444
 
 step Darnassus - late turnins
@@ -389,9 +391,9 @@ step Darnassus - late turnins
   goto 41.83,85.62
 
   tip Telonis (64.43, 21.54) closes the Wild Leather book; Tyrande (39.10, 81.59) takes Jer'kai's justice; Gracina (41.83, 85.62) takes Shandris's silithid word.
-  turnin 2853 -- Master of the Wild Leather - the mastery to Telonis
-  turnin 2972 -- Doling Justice - the justice to Tyrande Whisperwind
-  turnin 4267 -- Rise of the Silithid - the rise to Gracina Spiritmight
+  turnin 2853 only Alliance -- Master of the Wild Leather - the mastery to Telonis
+  turnin 2972 only Alliance -- Doling Justice - the justice to Tyrande Whisperwind
+  turnin 4267 only Alliance -- Rise of the Silithid - the rise to Gracina Spiritmight
   zone map 1444
 
 step Back east - the orphan's home
@@ -399,7 +401,7 @@ step Back east - the orphan's home
   zone map 1444
 
   tip Back east with 2972 done: Kindal's orphan ask.
-  accept 3841 -- An Orphan Looking For a Home - Kindal Moonweaver; Quentin waits in Thousand Needles, late
+  accept 3841 only Alliance -- An Orphan Looking For a Home - Kindal Moonweaver; Quentin waits in Thousand Needles, late
 
 step Booty Bay - the escort paid
 
@@ -414,7 +416,7 @@ step Stormwind - pelts packaged
   zone map 1453
 
   tip Kimberly Grant (37.78, 64.80) takes Kristy's pelts in Stormwind.
-  turnin 98156 -- Packaged Pristine Pelts - the pelts to Kimberly Grant
+  turnin 98156 only Alliance -- Packaged Pristine Pelts - the pelts to Kimberly Grant
   zone map 1444
 
 step Tanaris - the Sunken Temple word
@@ -422,7 +424,7 @@ step Tanaris - the Sunken Temple word
   zone map 1446
 
   tip Marvon Rivetseeker (52.71, 45.92) takes Angelas's word in Gadgetzan.
-  turnin 3445 -- The Sunken Temple - the word to Marvon Rivetseeker
+  turnin 3445 only Alliance -- The Sunken Temple - the word to Marvon Rivetseeker
   zone map 1444
 
 step Thousand Needles - the orphan homed
@@ -430,7 +432,7 @@ step Thousand Needles - the orphan homed
   zone map 1441
 
   tip Quentin (78.35, 74.72) takes Kindal's orphan in Thousand Needles.
-  turnin 3841 -- An Orphan Looking For a Home - the orphan to Quentin
+  turnin 3841 only Alliance -- An Orphan Looking For a Home - the orphan to Quentin
   zone map 1444
 
 step Un'Goro - the haze delivered
@@ -438,7 +440,8 @@ step Un'Goro - the haze delivered
   zone map 1449
 
   when onquest 4142
+  only Alliance
 
   tip Muigin (42.94, 9.64) takes Gregan's haze in Un'Goro - only for holders of 4142's visit.
-  turnin 4143 -- Haze of Evil - the haze to Muigin
+  turnin 4143 only Alliance -- Haze of Evil - the haze to Muigin
   zone map 1444
