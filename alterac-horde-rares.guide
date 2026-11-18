@@ -1,0 +1,221 @@
+# Alterac Mountains (Horde) - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 8 shipped flagged rares of Alterac Mountains
+# and its fixed containers. Run it in its own Polestar tab at the end of the
+# core route or standalone. EVERY goal is optional: a rare that is not up
+# never holds the route. Spawn points and levels are the local Forever game
+# data (questie-forever); signature drops are items whose SOLE dropper is
+# the rare. The in-band Narillasanz ships as a normal collect rare (44 sits
+# inside the 20-45 Horde band - the Alliances above-band exclusion does not
+# transfer); Cranky Benj ships as a kill-note rare whose Turtle Meat feeds
+# the cores 7321 bisque loop, said plainly. Alterac Valley is the separate
+# key 1459, which holds zero rare-flagged spawns in the data - battleground
+# content is out of the packs scope regardless. No tame lines ship (the data
+# has no tameability flag and the core guide carries no tame corroboration -
+# see docs/companion-unverified.md). Respawn timers are unconfirmed anywhere,
+# so none are stated. No shipped rare is a giver, ender, or objective of any
+# core-contracted quest - so this round carries no overlap notes except the
+# shared Benj meat, said plainly on his step.
+guide butler-routes-completionist/alterac-horde-rares
+title Alterac Mountains (Horde) - Rares & Treasures
+levels 20-45
+zone Alterac Mountains
+faction Horde
+category Collectibles
+folder Companions
+keywords alterac, horde, rares, treasures, companions
+coords live
+version 1
+
+step Stone Fury - the east
+
+  zone map 1416
+
+  goto 64.68,44.77
+  kill 2258 optional -- Stone Fury, in the east
+  collect 283254 "Heart of Alterac" optional
+  note Level 37 rare at its single confirmed point in the east; its sole drop is the Heart of Alterac. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Narillasanz - the south-east
+
+  zone map 1416
+
+  goto 73.71,65.35
+  kill 2447 optional -- Narillasanz, in the south-east
+  collect 282778 "Mark of the Red Flight" optional
+  note Level 44 rare at its single confirmed point in the south-east, inside the 20-45 band; its sole drop is the Mark of the Red Flight. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Skhowl - the west
+
+  zone map 1416
+
+  goto 31.43,51.51
+  kill 2452 optional -- Skhowl, in the west
+  collect 3011 "Feathered Headdress" optional
+  collect 6331 "Howling Blade" optional
+  note Level 36 rare at its single confirmed point in the west; its sole drops are the Feathered Headdress and the Howling Blade. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step LoGrosh - the center
+
+  zone map 1416
+
+  loop
+  goto 47.52,32.31
+  goto 52.09,46.94
+  kill 2453 optional -- LoGrosh, in the center
+  collect 1678 "Black Ogre Kickers" optional
+  collect 4810 "Boulder Pads" optional
+  collect 6327 "The Pacifier" optional
+  note Level 39 rare at its two confirmed points in the center; its sole drops are the Black Ogre Kickers, the Boulder Pads and The Pacifier. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Gravis Slipknot - east of center
+
+  zone map 1416
+
+  goto 58.20,41.91
+  kill 14221 optional -- Gravis Slipknot, east of center
+  collect 283255 "Syndicate Executioners Slicer" optional
+  note Level 36 rare at its single confirmed point east of center; its sole drop is the Syndicate Executioners Slicer. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Araga - the south-west
+
+  zone map 1416
+
+  goto 30.20,72.11
+  kill 14222 optional -- Araga, in the south-west
+  collect 283253 "Denmothers Hide" optional
+  note Level 35 rare at its single confirmed 1416 point in the south-west (it also spawns on 1424, not used); its sole drop is the Denmothers Hide. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Cranky Benj - the north
+
+  zone map 1416
+
+  goto 37.29,19.83
+  kill 14223 optional -- Cranky Benj, in the north
+  note Level 32 rare at its single confirmed point in the north; the data shows no sole drop for it. His Turtle Meat feeds the core guides 7321 bisque loop (same camp the core already routes), so there is nothing companion-exclusive to collect. No quest takes him as a subject.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Jimmy the Bleeder - the south
+
+  zone map 1416
+
+  goto 58.58,69.30
+  kill 14281 optional -- Jimmy the Bleeder, in the south
+  collect 282713 "Bloodstained Pants" optional
+  note Level 23 rare at its single confirmed 1416 point in the south (it also spawns on 1424, covered by hillsbrad-horde-rares at its 1424 point); its sole drop is the Bloodstained Pants. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Fixed containers - chests, crates, barrels and granite
+
+  zone map 1416
+
+  loop
+  goto 38.54,46.96
+  goto 39.89,52.96
+  goto 41.45,40.06
+  goto 42.51,47.95
+  goto 61.06,44.07
+  goto 61.23,43.01
+  goto 63.38,44.17
+  goto 63.54,45.30
+  goto 35.29,53.40
+  goto 35.82,55.85
+  goto 36.12,55.03
+  goto 37.50,15.09
+  goto 38.86,14.80
+  goto 39.64,15.25
+  goto 40.29,20.60
+  goto 53.67,20.99
+  goto 56.40,26.93
+  goto 10.67,77.53
+  goto 11.48,75.13
+  goto 12.80,76.49
+  goto 15.42,76.40
+  goto 18.39,76.95
+  goto 18.56,74.51
+  goto 18.75,54.87
+  goto 19.51,75.52
+  goto 20.70,60.26
+  goto 20.94,63.32
+  goto 20.97,56.52
+  goto 21.17,53.74
+  goto 21.33,64.35
+  goto 21.60,57.65
+  goto 21.79,60.75
+  goto 22.63,60.49
+  goto 4.90,59.50
+  goto 52.30,96.90
+  goto 52.30,97.30
+  goto 11.53,79.08
+  goto 14.22,78.19
+  goto 18.00,82.78
+  goto 18.66,82.44
+  goto 18.95,74.70
+  goto 19.30,85.72
+  goto 20.21,70.87
+  goto 20.38,85.96
+  goto 20.70,53.35
+  goto 21.25,63.69
+  goto 22.67,60.26
+  goto 40.04,79.75
+  goto 47.75,82.83
+  goto 58.17,68.33
+  goto 62.42,58.39
+  goto 36.99,15.37
+  goto 38.20,49.52
+  goto 38.64,58.24
+  goto 38.96,39.09
+  goto 39.06,15.75
+  goto 39.22,44.03
+  goto 41.28,45.61
+  goto 46.69,46.30
+  goto 47.91,16.97
+  goto 48.55,34.54
+  goto 48.66,44.35
+  goto 49.04,56.57
+  goto 49.66,56.59
+  goto 57.35,45.65
+  goto 62.69,41.43
+  goto 63.26,42.88
+  goto 39.10,96.50
+  goto 39.20,90.90
+  goto 39.60,93.40
+  goto 40.00,94.80
+  goto 41.50,87.70
+  goto 41.50,91.30
+  interact 2855 optional
+  interact 2857 optional
+  interact 2039 optional
+  interact 2849 optional
+  interact 181302 optional
+  interact 3659 optional
+  interact 3695 optional
+  interact 3706 optional
+  interact 3707 optional
+  interact 2714 optional
+  note Solid Chests (2855 at eight east points, 2857 at nine north and south points), Hidden Strongboxes (2039 at sixteen west points), one Battered Chest, one Camp Crate, Melon Juice barrels with Food Crates (fifteen shared south-west points), Sweet Nectar barrels with Food Crates (sixteen shared center points) and Alterac Granite (six far-south points); loot is the usual container fare. No Alterac-contract quest owns any of them.
+  note Respawn timers unconfirmed.
+
+step Spring Well - the south-east
+
+  zone map 1416
+
+  goto 60.90,82.70
+  interact 107045 optional
+  note Spring Well at a single fixed point in the south-east; its only data source anywhere, yielding 7771 Filled Red Waterskin. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Frozen Remains - the south-center
+
+  zone map 1416
+
+  goto 39.70,60.80
+  interact 423841 optional
+  note Frozen Remains at a single fixed point in the south-center; its only data source anywhere, yielding 213452 Dormant Holy Rune. Which class can use the rune is not in the data. No quest takes it.
+  note Respawn timer unconfirmed.
+
