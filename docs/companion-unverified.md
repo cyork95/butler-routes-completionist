@@ -742,3 +742,14 @@ as above: game-data citation or a named source.
 - Atrexis (96986's ender): no spawn entries, no moves entry, no rank/roles anywhere - spawnless, not rare-flagged, no usable point. Excluded in writing (Baron Aquanis precedent); never a step.
 - Quest-reward recipes: class unverifiable locally (quest records carry no reward data). The 20 shipped recipes are 14 vendor-sold + 6 narrow drops. If a Horde-side quest is later found to reward a recipe, add it as a note step at the relevant hub.
 
+
+
+
+## Alterac (Horde) companion calls (pack 0.120.0)
+
+- Tame lines: npc records carry no tameability flag anywhere in the data (same finding as the Alliance round), and the alterac-horde core guide (50-contract) carries zero `only Hunter` lines and no references to any shipped rare. Benjs Turtle Meat drop is ingredient evidence, not pet-family evidence, and lacks core corroboration. No only-Hunter task ships; all eight rares are kill-or-collect. Promote only with drop evidence plus core-guide corroboration or a named source.
+- Loot drift: 7 of 8 flagged rares now carry sole drops in this build (the Alliance inventory recorded none) - shipped as signature collects; Cranky Benj has no sole and ships as a kill note with the 7321 overlap named. Ogre point drift: 2252 shows 24 placed 1416 points here vs 47 central points there. Revisit if either build misplaces points.
+- Narillasanz ships here as an in-band (44 in 20-45) kill-collect rare vs excluded there as above-band - genuine band difference. Revisit if the pack rules in-band no-sole rares pack-wide (here it carries a sole, so the question is moot for this round).
+- Worn Wooden Chest excluded here as a quest-owned singleton (parchment for 551 + Durotar contracts) vs shipped there as generic - genuine data-rule difference. Revisit if the pack rules quest-item-only containers pack-wide.
+- Jimmy the Bleeder: same treatment both sides (1416 point here, 1424 point in hillsbrad-horde-rares, sole-drop pants in both). Araga the same (1416 point here, 1424 point noted not used).
+- Archmage Alvareauxs 8 recipes excluded here (Alliance-only in-zone vendor) vs shipped there - genuine faction difference. Mallen Swain covers the reagent bags and Derak Nightfall covers the sagefish for Horde instead.
