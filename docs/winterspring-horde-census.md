@@ -167,8 +167,10 @@ contracted-elsewhere 6031/6032/6241/8461/8462/8464/8465/8471/5083/
    objectives on placed mobs but no endpoints. Both OUT, distinguished
    in the ledger so a future data fix routes each correctly (endpoints
    added → contractable; husk gains content → re-rule).
-6. No soft-pre minis were needed: every IN-record pre is either empty
-   or contracted in-route... (verified: 5055←5054, 5056←5055,
-   5057←5056 — all in-contract, all routed in chain order). The
-   technique stands ready but untriggered; the guide states this
-   rather than inventing minis.
+6. Exactly one soft-pre mini was needed: 4882's any-pre 4741
+   (Timbermaw remainder, uncontracted) — found only because the
+   enumeration reads pre/preAll/preAny all three (the WPL round's
+   preAll lesson, extended here). The mini holds 4882's item-start
+   accept + its Felwood turnin (1108-mini shape). Every other
+   IN-record pre is empty or contracted in-route, verified across all
+   three pre fields; the one mini is argued, not routine.

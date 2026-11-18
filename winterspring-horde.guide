@@ -1,0 +1,74 @@
+# Butler Routes - Winterspring (Horde) completionist (pack butler-routes-completionist, v1).
+# Every Horde accept in the local census (7 quests, docs/winterspring-horde-census.md)
+# appears exactly once as an accept and once as a turnin. One out-of-contract pre
+# (4741 Timbermaw remainder gating 4882's item-start accept; every other
+# IN-record pre is empty or contracted in-route) rides a dedicated when onquest
+# mini-step. The Timbermaw remainder
+# (4505/4506/4521/4741/4721/4883/6162) is handed off with per-quest notes, never
+# routed and never lost. The owlbeast-necklace item-start rides a bag note at the
+# east grounds. Expedition legs and turn-ins (Felwood Timbermaw Hold, EPL
+# Andorhal) switch frames deliberately and switch back.
+guide butler-routes-completionist/winterspring-horde
+title Winterspring (Horde)
+levels 49-55
+zone Winterspring
+faction Horde
+category Leveling
+folder Kalimdor
+coords live
+version 1
+
+step Everlook muster - Harlo, Gregor and Shadowhoof
+
+  zone map 1452
+
+  tip Harlo Wigglesworth (61.12, 38.43) and Gregor Greystone (61.35, 38.97) hold Everlook's east counter; Storm Shadowhoof (61.93, 38.38) waits just north of them.
+  accept 6605 -- A Strange One - Harlo Wigglesworth; Winna takes the word in Felwood
+  accept 6029 -- The Everlook Report - Gregor Greystone; Garush takes it in the Eastern Plaguelands
+  accept 5054 -- Ursius of the Shardtooth - Storm Shadowhoof; Ursius, east grounds
+
+step East grounds - Ursius, Brumeran, Shy-Rotam
+
+  zone map 1452
+
+  complete 5054 @60.92,32.90 era -- Ursius of the Shardtooth, east grounds
+  turnin 5054 -- Ursius of the Shardtooth - the deed to Storm Shadowhoof
+  accept 5055 -- Brumeran of the Chillwind - Storm Shadowhoof; Brumeran, south-east
+  complete 5055 @62.54,57.90 era -- Brumeran of the Chillwind, south-east
+  turnin 5055 -- Brumeran of the Chillwind - the deed to Storm Shadowhoof
+  accept 5056 -- Shy-Rotam - Storm Shadowhoof; Shy-Rotam, far north
+  complete 5056 @49.81,9.80 era -- Shy-Rotam, far north
+  turnin 5056 -- Shy-Rotam - the deed to Storm Shadowhoof
+  accept 5057 -- Past Endeavors - Storm Shadowhoof; talk it through
+  turnin 5057 -- Past Endeavors - the word to Storm Shadowhoof
+
+step Owlbeast grounds - the necklace (soft pre)
+
+  zone map 1452
+
+  when onquest 4741
+
+  tip Holding 4741 (Wild Guardians, from Trull Failbane in the uncontracted Timbermaw remainder): the Blue-feathered Necklace drops off the Crazed (58.65, 60.31), Moontouched (58.95, 59.03) and Berserk (58.30, 59.39) Owlbeasts, east grounds - bank it when it drops.
+  accept 4882 -- Guarding Secrets - the Blue-feathered Necklace; Trull takes it in Felwood
+  zone Felwood
+  turnin 4882 -- Guarding Secrets - the necklace to Trull Failbane @34.73,52.79 era
+  note The chain continues with 4883 (Guarding Secrets) from Trull - in no pack contract; the remainder continues, handed off, not duplicated. (Trull's Darkshore point is named in the census.)
+  zone map 1452
+
+step Felwood expedition - Winna's word
+
+  zone Felwood
+
+  when onquest 6605
+
+  turnin 6605 -- A Strange One - the word to Winna Hazzard @34.21,52.34 era
+  note The chain continues with 4505 (Well of Corruption) from Winna - in no pack contract; the Timbermaw remainder starts here, handed off, not duplicated. (Winna's Darkshore point is named in the census.)
+  zone Winterspring
+
+step EPL expedition - Garush's report
+
+  zone map 1422
+
+  turnin 6029 -- The Everlook Report - the report to Argent Officer Garush @26.60,55.50 era
+  note Garush's Tirisfal point is named in the census; the Andorhal frame routes.
+  zone map 1452
