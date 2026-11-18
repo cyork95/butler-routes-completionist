@@ -1,0 +1,97 @@
+# Butler Routes - Mount Hyjal (Horde) completionist (pack butler-routes-completionist, v1).
+# Every Horde accept in the local census (13 quests, docs/mount-hyjal-horde-census.md,
+# key 2482, band 54-60) appears exactly once as an accept and once as a turnin.
+# No soft-pre minis: every blocking pre is in-contract (92609, 96616, 96998,
+# the four summit pres) or main-contracted shared (95316, chain note at the
+# Crow). The Durotar turn-in (96999 to Tai'tasi) rides a deliberate expedition
+# leg. Sourceless objectives (Silphium, Stag Sliders) ride bag notes, never
+# invented completes.
+guide butler-routes-completionist/mount-hyjal-horde
+title Mount Hyjal (Horde)
+levels 54-60
+zone Mount Hyjal
+faction Horde
+category Leveling
+folder Kalimdor
+coords live
+version 1
+
+step Western post - the chain heads
+
+  zone map 2482
+
+  tip Kal'tinzan (13.77, 53.06), Zet'gan (13.82, 54.75) and Ortak Lomgok (12.93, 52.85) hold the western post, shoulder to shoulder.
+  accept 91794 -- Flags of Our Forebears - Kal'tinzan; the Horde Flag has no placed source in the data - it rides with the heraldry crews below
+  accept 92592 -- Final Death - Zet'gan; a Reanimator's Amulet off the Scourge Reanimators west
+  accept 92609 -- Feathers in Flight - Zet'gan; nine Hyjal Owl Feathers off the owls west
+  accept 95026 -- Blight No More - Zet'gan; Forgotten Soldiers and Fleshflay Raveners in the west fields
+  accept 96616 -- Herbs for the Bruised and Weary - Ortak Lomgok; the Hyjal Silphium has no placed source in the data - have it in your bags
+  accept 97119 -- Now We're Cooking - Ortak Lomgok; the Savory Stag Sliders have no source anywhere in the data - have them in your bags
+
+step The west fields - flags, feathers, amulets, blight
+
+  zone map 2482
+
+  complete 91794 @43.89,32.63 -- Scrap of Horde Heraldry off the Felguard Sentinels, demon front
+  complete 91794 @49.33,32.45 -- more heraldry off the Doomguards, demon front east
+  complete 92592 @22.69,47.54 -- a Reanimator's Amulet off the Scourge Reanimators, west fields
+  complete 92609 @18.98,60.98 -- Hyjal Owl Feathers off the owls, west
+  complete 92609 @26.25,65.29 -- more feathers, north-west
+  complete 95026 @18.0,60.38 -- Forgotten Soldiers, west fields
+  complete 95026 @23.09,51.75 -- Fleshflay Raveners, west fields
+  turnin 91794 -- Flags of Our Forebears - the flag and heraldry to Kal'tinzan
+  turnin 92592 -- Final Death - the amulet to Zet'gan
+  turnin 92609 -- Feathers in Flight - the feathers to Zet'gan
+  turnin 95026 -- Blight No More - the count to Zet'gan
+  turnin 96616 -- Herbs for the Bruised and Weary - the word to Ortak Lomgok
+  turnin 97119 -- Now We're Cooking - the word to Ortak Lomgok
+  accept 92446 -- Head Scratcher - Zet'gan; the Scratchers come off the Head Scratchers south
+  accept 96622 -- A Rest Without Pain - Ortak Lomgok; the word stays at the post
+
+step The south camp - scratchers and rest
+
+  zone map 2482
+
+  complete 92446 @33.82,72.86 -- Head Scratcher's Scratchers off the Head Scratchers, south camp
+  complete 92446 @36.02,73.39 -- more Scratchers, south camp east
+  turnin 92446 -- Head Scratcher - the Scratchers to Zet'gan
+  turnin 96622 -- A Rest Without Pain - the word to Ortak Lomgok
+
+step Elder grove - the Crow's post
+
+  zone map 2482
+
+  tip The Curious Crow waits at (48.26, 85.72) in the elder grove, far north-east.
+  note 95316 (The Experimental Method) is contracted in the main Mount Hyjal guide - bring it done from the elder-grove leg there; this guide does not re-route it.
+  accept 94782 -- The Western Post - the Curious Crow; the word goes back to Zet'gan
+
+step Troll Remains - tribal colors
+
+  zone map 2482
+
+  accept 96998 -- Tribal Colors - the Troll Remains; the word goes to Zet'gan
+  turnin 96998 -- Tribal Colors - the word to Zet'gan
+  accept 96999 -- Wrap Return - Zet'gan; the word goes to Tai'tasi in Durotar (expedition below)
+
+step Far east - Thark Gorax
+
+  zone map 2482
+
+  tip Thark Gorax holds his single point at (79.94, 70.69), far east.
+  accept 96830 -- Farsight Guided - Thark Gorax; the word goes back west to Ortak
+  turnin 96830 -- Farsight Guided - the word to Ortak Lomgok
+
+step The summit - eternity
+
+  zone map 2482
+
+  turnin 94782 -- The Western Post - the word to Zet'gan
+  accept 95248 -- To the Summit of Eternity - Zet'gan; the word goes to Thisalee Crow at the summit
+  turnin 95248 -- To the Summit of Eternity - the word to Thisalee Crow @68.99,49.99 era
+
+step Durotar expedition - Tai'tasi's wrap
+
+  zone map 1411
+
+  turnin 96999 -- Wrap Return - the word to Tai'tasi @56.41,73.79 era
+  zone map 2482
