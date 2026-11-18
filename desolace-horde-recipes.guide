@@ -1,0 +1,294 @@
+# Desolace (Horde) - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns whose SOURCE is physically in Desolace for a
+# Horde character, verified against the local Forever game data (questie-forever
+# item vendor and drop tables). Thirty-two are vendor-sold by in-zone vendors
+# Horde characters can buy (Super-Seller 680 and Vendor-Tron 1000, both
+# neutral; Kireena, Wulan and Muuran, all Horde; the Magram/Gelkis clan
+# quartermasters Gorhak and Molkar, who carry no Horde flag); six are mob
+# drops with sole droppers spawning only in-zone. Everything else
+# Desolace-dropping is a generic multi-zone world drop (Elwynn rule, argued
+# per case in the inventory), quest records carry no reward data so no
+# quest-reward recipe ships, and one narrow formula belongs to a
+# Badlands-family mob with a single incidental Desolace point (see
+# docs/desolace-horde-companions-inventory.md and
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestars own profession guides cover those. Each step is gated to its
+# profession and every goal is optional; other characters skip it cleanly.
+# First Aid has no Desolace source, so that is stated, not padded.
+guide butler-routes-completionist/desolace-horde-recipes
+title Desolace (Horde) - Recipes & Patterns
+levels 31-45
+zone Desolace
+faction Horde
+category Professions
+folder Companions
+keywords desolace, horde, recipes, patterns, companions
+coords live
+version 1
+
+step Super-Seller 680 - bear, buzzard, wolf, chili and mystery (Cooking)
+
+  zone map 1443
+
+  when skill Cooking 1
+
+  tip Super-Seller 680 (40.48, 79.27) sells the recipes; the shop is neutral, so Horde characters can buy.
+  buy 3734 "Recipe: Big Bear Steak" npc 12246 optional
+  buy 4609 "Recipe: Barbecued Buzzard Wing" npc 12246 optional
+  buy 12227 "Recipe: Lean Wolf Steak" npc 12246 optional
+  buy 12229 "Recipe: Hot Wolf Ribs" npc 12246 optional
+  buy 12239 "Recipe: Dragonbreath Chili" npc 12246 optional
+  buy 12233 "Recipe: Mystery Stew" npc 12246 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Vendor-Tron 1000 - chops, venison, raptor and stews (Cooking)
+
+  zone map 1443
+
+  when skill Cooking 1
+
+  tip Vendor-Tron 1000 (60.33, 38.12) sells the recipes; the shop is neutral, so Horde characters can buy.
+  buy 3735 "Recipe: Hot Lion Chops" npc 12245 optional
+  buy 5489 "Recipe: Lean Venison" npc 12245 optional
+  buy 12228 "Recipe: Roast Raptor" npc 12245 optional
+  buy 12231 "Recipe: Jungle Stew" npc 12245 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Kireena - stews and silk gloves (Cooking and Tailoring)
+
+  zone map 1443
+
+  when skill Cooking 1
+
+  tip Kireena (50.98, 53.55), Horde Trade Goods, sells the recipes; Horde characters buy from their own vendor.
+  buy 12232 "Recipe: Carrion Surprise" npc 9636 optional
+  buy 12240 "Recipe: Heavy Kodo Stew" npc 9636 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+  when skill Tailoring 1
+
+  buy 7114 "Pattern: Azure Silk Gloves" npc 9636 optional
+  note Kireena is the in-zone seller; the only other vendor is out-of-zone. Stock class is unconfirmed in the data.
+
+step Wulan - fish recipes (Fishing)
+
+  zone map 1443
+
+  when skill Fishing 1
+
+  tip Wulan (26.17, 69.65), Horde Cooking Supplies in Shadowprey Village, sells the recipes; Horde characters buy from their own vendor.
+  buy 6369 "Recipe: Rockscale Cod" npc 12033 optional
+  buy 17062 "Recipe: Mithril Head Trout" npc 12033 optional
+  buy 21099 "Recipe: Smoked Sagefish" npc 12033 optional
+  buy 21219 "Recipe: Sagefish Delight" npc 12033 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Muuran - solid iron maul (Blacksmithing)
+
+  zone map 1443
+
+  when skill Blacksmithing 1
+
+  tip Muuran (55.59, 56.50), Horde Superior Macecrafter, sells the plans; Horde characters buy from their own vendor.
+  buy 10858 "Plans: Solid Iron Maul" npc 8878 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Magram quartermaster - bracer formulas (Enchanting)
+
+  zone map 1443
+
+  when skill Enchanting 1
+
+  tip Gorhak (66.25, 79.42), Magram Clan Quartermaster, sells the formulas; he carries no Horde flag, so Horde characters can buy. Molkar (35.68, 92.23), Gelkis Clan Quartermaster, sells the healing formula too.
+  buy 249486 "Formula: Enchant Bracer - Lesser Agility" npc 253139 optional
+  buy 249489 "Formula: Enchant Bracer - Lesser Healing Power" npc 253139 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Magram quartermaster - spellblasting and frenzy (Alchemy)
+
+  zone map 1443
+
+  when skill Alchemy 1
+
+  tip Gorhak (66.25, 79.42), Magram Clan Quartermaster, is the sole vendor anywhere for both; he carries no Horde flag, so Horde characters can buy.
+  buy 250979 "Recipe: Greater Spellblasting Potion" npc 253139 optional
+  buy 250985 "Recipe: Greater Frenzy Potion" npc 253139 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Magram quartermaster - gold bracers and morningstar (Blacksmithing)
+
+  zone map 1443
+
+  when skill Blacksmithing 1
+
+  tip Gorhak (66.25, 79.42), Magram Clan Quartermaster, is the sole vendor anywhere for both; he carries no Horde flag, so Horde characters can buy.
+  buy 251390 "Plans: Hard Gold Gauntlet" npc 253139 optional
+  buy 251458 "Plans: Iron Morningstar" npc 253139 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Magram quartermaster - armor kit and hoofwarmers (Leatherworking)
+
+  zone map 1443
+
+  when skill Leatherworking 1
+
+  tip Gorhak (66.25, 79.42), Magram Clan Quartermaster, is the sole vendor anywhere for both; he carries no Horde flag, so Horde characters can buy.
+  buy 252833 "Pattern: Mystic Thick Armor Kit" npc 253139 optional
+  buy 274491 "Pattern: Centaur Hoofwarmers" npc 253139 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Magram quartermaster - reagent bag and stormcloth (Tailoring)
+
+  zone map 1443
+
+  when skill Tailoring 1
+
+  tip Gorhak (66.25, 79.42), Magram Clan Quartermaster, is the sole vendor anywhere for both; he carries no Horde flag, so Horde characters can buy.
+  buy 253974 "Pattern: Silk Reagent Bag" npc 253139 optional
+  buy 254682 "Pattern: Stormcloth Gloves" npc 253139 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Magram quartermaster - banner device and foot pedal (Engineering)
+
+  zone map 1443
+
+  when skill Engineering 1
+
+  tip Gorhak (66.25, 79.42), Magram Clan Quartermaster, is the sole vendor anywhere for both; he carries no Horde flag, so Horde characters can buy.
+  buy 269901 "Schematic: Centaur Banner Deployment Device" npc 253139 optional
+  buy 269903 "Schematic: Hoof-Shaped Foot Pedal" npc 253139 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Burning Blade augur - phoenix bindings (Tailoring)
+
+  zone map 1443
+
+  when skill Tailoring 1
+
+  loop
+  goto 52.08,28.86
+  goto 52.54,29.98
+  goto 52.90,32.33
+  goto 53.26,29.86
+  goto 54.04,27.86
+  goto 54.66,24.64
+  goto 54.76,23.48
+  goto 55.18,30.05
+  goto 55.28,22.40
+  goto 55.95,27.40
+  kill 4663 optional -- Burning Blade Augur, in the north-center camp
+  collect 211247 "Pattern: Phoenix Bindings" optional
+  note The Burning Blade Augur is the sole dropper anywhere in the data and spawns only in Desolace; the Tailoring gate follows the cloth-wrist reading (see the inventorys open inference). No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Mage hunter - agility formula (Enchanting)
+
+  zone map 1443
+
+  when skill Enchanting 1
+
+  loop
+  goto 53.30,79.18
+  goto 53.58,76.87
+  goto 55.74,77.70
+  goto 55.87,72.78
+  goto 56.49,72.97
+  goto 56.66,77.70
+  goto 56.88,75.49
+  goto 58.26,75.54
+  kill 4681 optional -- Mage Hunter, west of the center
+  collect 249488 "Formula: Enchant Bracer - Agility" optional
+  note The Mage Hunter is the sole dropper anywhere in the data and spawns only in Desolace. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Nether sorceress - predatory senses (Alchemy)
+
+  zone map 1443
+
+  when skill Alchemy 1
+
+  loop
+  goto 50.64,82.57
+  goto 51.74,82.53
+  goto 51.85,84.68
+  goto 52.02,83.96
+  goto 52.36,83.36
+  kill 4684 optional -- Nether Sorceress, in the west
+  collect 250363 "Recipe: Potion of Predatory Senses" optional
+  note The Nether Sorceress is the sole dropper anywhere in the data and spawns only in Desolace. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Kolkar centaur - fortitude elixir (Alchemy)
+
+  zone map 1443
+
+  when skill Alchemy 1
+
+  loop
+  goto 68.55,52.17
+  goto 68.63,43.57
+  goto 68.67,47.94
+  goto 69.23,51.00
+  goto 69.35,42.54
+  goto 69.35,46.87
+  goto 70.11,41.16
+  kill 4632 optional -- Kolkar Centaur, in the Kolkar camp east
+  collect 250370 "Recipe: Elixir of Fortitude" optional
+  note The Kolkar Centaur is the sole dropper anywhere in the data and spawns only in Desolace. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Slitherblade naga - hard gold bracers (Blacksmithing)
+
+  zone map 1443
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 32.74,23.92
+  goto 35.16,27.79
+  goto 35.29,26.63
+  goto 35.40,22.01
+  goto 35.79,23.80
+  goto 35.97,27.06
+  goto 36.25,23.14
+  goto 36.48,20.40
+  goto 36.69,24.24
+  goto 36.72,21.31
+  goto 37.00,21.91
+  goto 38.13,21.25
+  goto 38.46,23.68
+  goto 38.88,21.40
+  kill 4711 optional -- Slitherblade Naga, on the south-west coast
+  collect 251387 "Plans: Hard Gold Bracers" optional
+  note The Slitherblade Naga is the sole dropper anywhere in the data and spawns only in Desolace. The family is a 6143 core-target family - farmed on the cores coast leg anyway. No quest takes the plans.
+  note Respawn timer unconfirmed.
+
+step Slitherblade sea witch - earthen silk hood (Tailoring)
+
+  zone map 1443
+
+  when skill Tailoring 1
+
+  loop
+  goto 27.66,12.58
+  goto 27.73,9.09
+  goto 27.79,10.14
+  goto 28.66,12.50
+  goto 29.15,9.03
+  goto 29.16,11.34
+  goto 29.96,11.15
+  goto 30.54,16.40
+  goto 30.70,10.98
+  goto 30.80,7.92
+  goto 30.93,9.77
+  goto 34.36,8.07
+  goto 34.53,9.92
+  goto 34.97,16.77
+  kill 4719 optional -- Slitherblade Sea Witch, on the south-west coast
+  collect 254016 "Pattern: Earthen Silk Hood" optional
+  note The Slitherblade Sea Witch is the sole dropper anywhere in the data and spawns only in Desolace. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Desolace source - First Aid
+  note First Aid has no recipe source physically in Desolace in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestars own profession guides cover trainer-taught staples.
+
