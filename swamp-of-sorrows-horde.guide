@@ -31,6 +31,8 @@ step Stonard, mustering
   goto 47.93,54.78
   accept 1424 -- Pool of Tears - Felzerul; ten Atalai Artifacts, east-center
   note 1424s artifacts fill on the east-center run below - hand them in on the return after that.
+  accept 1445 -- The Temple of AtalHakkar - Felzerul; twenty Fetishes of Hakkar, east-center
+  note 1445 needs 1444 (Return to FelZerul, Hinterlands-accept, unrouted) done - take it here if that leg sent you in; holders use the mini below.
   goto 44.70,57.21
   accept 93663 -- Lost in Transit - Dar; Magtoor takes the shipment, north-west
   note 93663s shipment names no source in the data - have the Couriers Shipment (item 260452) in bags; hand it in on the return after that.
@@ -54,6 +56,13 @@ step Stonard, first return
   turnin 698 -- Lack of Surplus - the flanks to Dar
   accept 699 -- Lack of Surplus - Dar; six Sawtooth Snapper Claws, east
   note 699 waited on 698s turn-in - take it here; its claws fill on the east leg below.
+
+step East-center - artifacts and fetishes
+
+  collect 6175 x10 @61.52,57.88 era -- ten Atalai Artifacts off objects 30854/30855/30856 for Felzerul, east-center
+  note The three objects share the east-center cluster around (61-65, 49-57) at 100% - work all three points for all ten.
+  collect 6181 x20 @73.10,47.40 era -- twenty Fetishes of Hakkar off the Atalai family for Felzerul, east-center
+  note The Cursed Atalai (40%) holds the single east point with more family around (73-80, 39-51); the Enthralled, Mummified and Priest share the camp at 40%, Veyzhak, Zekkis and Kazkaz hold single points nearby - work the family for all twenty. Dungeon-side sharers are noted, not used.
 
 step Far east - TokKar and the Snapper claws
 
