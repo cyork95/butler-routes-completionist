@@ -2,7 +2,6 @@ guide butler-routes-completionist/wetlands
 title Wetlands - Completionist
 levels 20-30
 zone Wetlands
-faction Alliance
 category Leveling
 folder Completionist
 coords live
@@ -11,260 +10,260 @@ version 1
 step The south road - Dun Modr crater
 
   note In from Loch Modan through the south tunnels: Dun Modr crater holds the Dark Iron camp. Quests here run 20 to 30, with the Level 60 writs as a special class - the steps say which legs belong to which level.
-  accept 303 -- The Dark Iron War - Motley Garmason; Dark Iron Dwarves, the crater
-  complete 303 @47.19,15.69 era -- Dark Iron Dwarves for Motley Garmason
-  complete 303 @45.65,16.85 era -- Dark Iron Tunnelers for Motley Garmason
-  complete 303 @46.44,16.18 era -- Dark Iron Saboteurs for Motley Garmason
-  complete 303 @46.5,18.74 era -- Dark Iron Demolitionists for Motley Garmason
-  turnin 303 -- The Dark Iron War - back to Motley Garmason
-  accept 378 -- The Fury Runs Deep - Motley Garmason; the Head of Deepfury
+  accept 303 only Alliance -- The Dark Iron War - Motley Garmason; Dark Iron Dwarves, the crater
+  complete 303 only Alliance @47.19,15.69 era -- Dark Iron Dwarves for Motley Garmason
+  complete 303 only Alliance @45.65,16.85 era -- Dark Iron Tunnelers for Motley Garmason
+  complete 303 only Alliance @46.44,16.18 era -- Dark Iron Saboteurs for Motley Garmason
+  complete 303 only Alliance @46.5,18.74 era -- Dark Iron Demolitionists for Motley Garmason
+  turnin 303 only Alliance -- The Dark Iron War - back to Motley Garmason
+  accept 378 only Alliance -- The Fury Runs Deep - Motley Garmason; the Head of Deepfury
   note Kam Deepfury has no placed spawn in any zone - the only record points at a Barrens mushroom, which reads corrupt; bring the Head if earned.
-  complete 378 @49.67,18.23 era -- the Head of Deepfury for Motley Garmason; Kam Deepfury names no source in the data, so have it in your bags
-  turnin 378 -- The Fury Runs Deep - back to Motley Garmason
-  accept 631 -- The Thandol Span - Rhag Garmason; Ebenezer Rustlocke's Corpse, south
-  turnin 631 -- The Thandol Span - Rhag's word to Ebenezer Rustlocke's Corpse
-  accept 633 -- The Thandol Span - Rhag Garmason; the Cache of Explosives, Arathi
+  complete 378 only Alliance @49.67,18.23 era -- the Head of Deepfury for Motley Garmason; Kam Deepfury names no source in the data, so have it in your bags
+  turnin 378 only Alliance -- The Fury Runs Deep - back to Motley Garmason
+  accept 631 only Alliance -- The Thandol Span - Rhag Garmason; Ebenezer Rustlocke's Corpse, south
+  turnin 631 only Alliance -- The Thandol Span - Rhag's word to Ebenezer Rustlocke's Corpse
+  accept 633 only Alliance -- The Thandol Span - Rhag Garmason; the Cache of Explosives, Arathi
   note 633's pre (632, an Arathi accept) sits outside this contract - take 633 on its own.
-  accept 304 -- A Grim Task - Longbraid the Grim; Balgaras the Foul, the crater
-  complete 304 @47,17 era -- Balgaras the Foul for Longbraid the Grim
-  turnin 304 -- A Grim Task - back to Longbraid the Grim
-  accept 87491 -- Spark of Freedom - Captive Fire Elemental; Roggo Harlbarrow takes it
-  turnin 87491 -- Spark of Freedom - the Elemental's word to Roggo Harlbarrow
-  accept 274 -- A Dark Threat Looms - Ashlan Stonesmirk; Hinderweir takes it, Loch Modan
+  accept 304 only Alliance -- A Grim Task - Longbraid the Grim; Balgaras the Foul, the crater
+  complete 304 only Alliance @47,17 era -- Balgaras the Foul for Longbraid the Grim
+  turnin 304 only Alliance -- A Grim Task - back to Longbraid the Grim
+  accept 87491 only Alliance -- Spark of Freedom - Captive Fire Elemental; Roggo Harlbarrow takes it
+  turnin 87491 only Alliance -- Spark of Freedom - the Elemental's word to Roggo Harlbarrow
+  accept 274 only Alliance -- A Dark Threat Looms - Ashlan Stonesmirk; Hinderweir takes it, Loch Modan
   note 274's pre (161, A Dark Threat Looms) lives in the Loch Modan guide - take 274 after that leg.
-  accept 88756 -- Bring Back a Bang - Ashlan Stonesmirk; Stolen Explosives, the camps
-  complete 88756 @47.19,15.69 era -- Stolen Explosives from the Dun Modr camps for Ashlan Stonesmirk; they name no source in the data, so have them in your bags
-  turnin 88756 -- Bring Back a Bang - back to Ashlan Stonesmirk
+  accept 88756 only Alliance -- Bring Back a Bang - Ashlan Stonesmirk; Stolen Explosives, the camps
+  complete 88756 only Alliance @47.19,15.69 era -- Stolen Explosives from the Dun Modr camps for Ashlan Stonesmirk; they name no source in the data, so have them in your bags
+  turnin 88756 only Alliance -- Bring Back a Bang - back to Ashlan Stonesmirk
 
 step The north road - Einar's post
 
-  accept 469 -- Daily Delivery - Einar Stonegrip; James Halloran takes it, Menethil
+  accept 469 only Alliance -- Daily Delivery - Einar Stonegrip; James Halloran takes it, Menethil
   note 469 is a one-time delivery despite the name - the data carries no repeatable flag.
 
 step Menethil Harbor - the west row
 
   note Menethil Harbor is the hub: Halloran, Valstag, Sida, Boran, Tarrel and Flagongut hold the west row, with Helbrek's inn for home.
-  accept 484 -- Young Crocolisk Skins - James Halloran; Young Crocolisks, the harbor
-  complete 484 @13.35,54.72 era -- Young Crocolisk Skins off the harbor crocolisks for James Halloran
-  turnin 484 -- Young Crocolisk Skins - back to James Halloran
-  accept 471 -- Apprentice's Duties - James Halloran; Giant Crocolisk Skins, north
+  accept 484 only Alliance -- Young Crocolisk Skins - James Halloran; Young Crocolisks, the harbor
+  complete 484 only Alliance @13.35,54.72 era -- Young Crocolisk Skins off the harbor crocolisks for James Halloran
+  turnin 484 only Alliance -- Young Crocolisk Skins - back to James Halloran
+  accept 471 only Alliance -- Apprentice's Duties - James Halloran; Giant Crocolisk Skins, north
   note 471's pre (484 above) fills here - take 471 after it.
-  accept 98815 -- Highland Hides - James Halloran; Thicket Raptor Hides
+  accept 98815 only Alliance -- Highland Hides - James Halloran; Thicket Raptor Hides
   note The Thicket raptors (260325 and kin) have no placed spawn in any zone - have the hides in your bags.
-  complete 98815 @8.55,55.74 era -- Thicket Raptor Hides for James Halloran; the raptors name no source in the data, so have them in your bags
-  turnin 98815 -- Highland Hides - back to James Halloran
-  accept 98208 -- Bloom of the Heavens - Sylessa Duskwhisper; Nord'el, Menethil
+  complete 98815 only Alliance @8.55,55.74 era -- Thicket Raptor Hides for James Halloran; the raptors name no source in the data, so have them in your bags
+  turnin 98815 only Alliance -- Highland Hides - back to James Halloran
+  accept 98208 only Alliance -- Bloom of the Heavens - Sylessa Duskwhisper; Nord'el, Menethil
   note Nord'el (279915) has no placed source in the data - have it in your bags.
-  complete 98208 @7.92,55.8 era -- Nord'el for Sylessa Duskwhisper; it names no source in the data, so have it in your bags
-  turnin 98208 -- Bloom of the Heavens - back to Sylessa Duskwhisper
-  accept 98209 -- Bloom of the Heavens - Sylessa Duskwhisper; Thundris Windweaver takes it, Darkshore
+  complete 98208 only Alliance @7.92,55.8 era -- Nord'el for Sylessa Duskwhisper; it names no source in the data, so have it in your bags
+  turnin 98208 only Alliance -- Bloom of the Heavens - back to Sylessa Duskwhisper
+  accept 98209 only Alliance -- Bloom of the Heavens - Sylessa Duskwhisper; Thundris Windweaver takes it, Darkshore
   note 98209's pre (98208 above) fills here - take 98209 after it.
-  accept 98197 -- Spoils of War - Valstag Ironjaw; Khaz Modan Timber and Iron, west
-  complete 98197 @3.9,59.8 era -- Khaz Modan Timber off the harbor wreckage for Valstag Ironjaw
-  complete 98197 @3.1,62.3 era -- Khaz Modan Iron off the harbor wreckage for Valstag Ironjaw
-  turnin 98197 -- Spoils of War - back to Valstag Ironjaw
-  accept 470 -- Digging Through the Ooze - Sida; Sida's Bag off the oozes
-  complete 470 @21.31,52.16 era -- Sida's Bag off the Black Ooze for Sida
-  turnin 470 -- Digging Through the Ooze - back to Sida
-  accept 279 -- Claws from the Deep - Karl Boran; Bluegill Murlocs, west
-  complete 279 @10.94,39.86 era -- Bluegill Murlocs for Karl Boran
-  complete 279 @15.21,41.45 era -- Gobbler's Head off Gobbler for Karl Boran
-  turnin 279 -- Claws from the Deep - back to Karl Boran
-  accept 281 -- Reclaiming Goods - Karl Boran; the Damaged Crate, west
+  accept 98197 only Alliance -- Spoils of War - Valstag Ironjaw; Khaz Modan Timber and Iron, west
+  complete 98197 only Alliance @3.9,59.8 era -- Khaz Modan Timber off the harbor wreckage for Valstag Ironjaw
+  complete 98197 only Alliance @3.1,62.3 era -- Khaz Modan Iron off the harbor wreckage for Valstag Ironjaw
+  turnin 98197 only Alliance -- Spoils of War - back to Valstag Ironjaw
+  accept 470 only Alliance -- Digging Through the Ooze - Sida; Sida's Bag off the oozes
+  complete 470 only Alliance @21.31,52.16 era -- Sida's Bag off the Black Ooze for Sida
+  turnin 470 only Alliance -- Digging Through the Ooze - back to Sida
+  accept 279 only Alliance -- Claws from the Deep - Karl Boran; Bluegill Murlocs, west
+  complete 279 only Alliance @10.94,39.86 era -- Bluegill Murlocs for Karl Boran
+  complete 279 only Alliance @15.21,41.45 era -- Gobbler's Head off Gobbler for Karl Boran
+  turnin 279 only Alliance -- Claws from the Deep - back to Karl Boran
+  accept 281 only Alliance -- Reclaiming Goods - Karl Boran; the Damaged Crate, west
   note 281's pre (279 above) fills here - take 281 after it.
-  accept 305 -- In Search of The Excavation Team - Tarrel Rockweaver; Merrin Rockweaver takes it, east
-  accept 943 -- The Absent Minded Prospector - Archaeologist Flagongut; the Stone of Relu
+  accept 305 only Alliance -- In Search of The Excavation Team - Tarrel Rockweaver; Merrin Rockweaver takes it, east
+  accept 943 only Alliance -- The Absent Minded Prospector - Archaeologist Flagongut; the Stone of Relu
   note 943's pre (942, a Teldrassil stub) sits outside this contract - take 943 on its own.
-  accept 472 -- Fall of Dun Modr - Harlo Barnaby; Longbraid the Grim takes it, south
-  accept 1132 -- Fiora Longears - Red Jack Flint; Fiora Longears takes her, Dustwallow
+  accept 472 only Alliance -- Fall of Dun Modr - Harlo Barnaby; Longbraid the Grim takes it, south
+  accept 1132 only Alliance -- Fiora Longears - Red Jack Flint; Fiora Longears takes her, Dustwallow
 step Menethil Harbor - the east row
 
-  accept 463 -- The Greenwarden - First Mate Fitzsimmons; Rethiel the Greenwarden takes it, east
-  accept 288 -- The Third Fleet - First Mate Fitzsimmons; a Flagon of Mead
+  accept 463 only Alliance -- The Greenwarden - First Mate Fitzsimmons; Rethiel the Greenwarden takes it, east
+  accept 288 only Alliance -- The Third Fleet - First Mate Fitzsimmons; a Flagon of Mead
   note No Wetlands vendor sells the Flagon - Elwynn and Stormwind barkeeps do; have one in your bags.
-  complete 288 @10.9,59.64 era -- a Flagon of Mead for First Mate Fitzsimmons; no in-zone vendor sells it, so have one in your bags
-  turnin 288 -- The Third Fleet - back to First Mate Fitzsimmons
-  accept 289 -- The Cursed Crew - First Mate Fitzsimmons; Cursed Sailors and Marines, north
+  complete 288 only Alliance @10.9,59.64 era -- a Flagon of Mead for First Mate Fitzsimmons; no in-zone vendor sells it, so have one in your bags
+  turnin 288 only Alliance -- The Third Fleet - back to First Mate Fitzsimmons
+  accept 289 only Alliance -- The Cursed Crew - First Mate Fitzsimmons; Cursed Sailors and Marines, north
   note 289's pre (288 above) fills here - take 289 after it.
-  accept 321 -- Lightforge Iron - Glorin Steelbrow; the Waterlogged Chest, north
+  accept 321 only Alliance -- Lightforge Iron - Glorin Steelbrow; the Waterlogged Chest, north
   note 321's pre (270, The Doomed Fleet) lives in the Stormwind guide - take 321 after that leg.
-  accept 473 -- Report to Captain Stoutfist - Valstag Ironjaw; Captain Stoutfist takes it
-  accept 98221 -- From the Ashes - Captain Stoutfist; the Attack Plans, the Dragonmaw camp
+  accept 473 only Alliance -- Report to Captain Stoutfist - Valstag Ironjaw; Captain Stoutfist takes it
+  accept 98221 only Alliance -- From the Ashes - Captain Stoutfist; the Attack Plans, the Dragonmaw camp
   note 473's pre (455, The Algaz Gauntlet) sits outside this contract - take 473 on its own.
-  accept 464 -- War Banners - Captain Stoutfist; Dragonmaw War Banners, east
+  accept 464 only Alliance -- War Banners - Captain Stoutfist; Dragonmaw War Banners, east
   note 464's pre (473 above) fills here - take 464 after it.
-  accept 1249 -- The Missing Diplomat - Mikhail; Tapoke Slim Jahn takes him, the harbor
+  accept 1249 only Alliance -- The Missing Diplomat - Mikhail; Tapoke Slim Jahn takes him, the harbor
   note 1249's pre (1248, The Missing Diplomat) lives in the Stormwind guide - take 1249 after that leg.
-  complete 1249 @10.54,60.26 era -- Subdue Tapoke Slim Jahn for Mikhail
-  turnin 1249 -- The Missing Diplomat - back to Mikhail
-  accept 1250 -- The Missing Diplomat - Tapoke Slim Jahn; Mikhail takes him
+  complete 1249 only Alliance @10.54,60.26 era -- Subdue Tapoke Slim Jahn for Mikhail
+  turnin 1249 only Alliance -- The Missing Diplomat - back to Mikhail
+  accept 1250 only Alliance -- The Missing Diplomat - Tapoke Slim Jahn; Mikhail takes him
   note 1250's pre (1249 above) fills here - take 1250 after it.
-  turnin 1250 -- The Missing Diplomat - back to Mikhail
-  accept 1264 -- The Missing Diplomat - Mikhail; Commander Samaul takes him, Dustwallow
+  turnin 1250 only Alliance -- The Missing Diplomat - back to Mikhail
+  accept 1264 only Alliance -- The Missing Diplomat - Mikhail; Commander Samaul takes him, Dustwallow
   note 1264's pre (1250 above) fills here - take 1264 after it.
-  accept 98282 -- Alchemical Hazards - Caitlin Grassman; the Unruptured Stalker Gland
-  accept 95647 -- Lost in the Thicket Things - Caitlin Grassman
+  accept 98282 only Alliance -- Alchemical Hazards - Caitlin Grassman; the Unruptured Stalker Gland
+  accept 95647 only Alliance -- Lost in the Thicket Things - Caitlin Grassman
   note 95647 names no turn-in in the data - the chain moves on with 95809 regardless
-  accept 95809 -- Heartwoven - the Reed-woven Heart; Caitlin Grassman takes it
+  accept 95809 only Alliance -- Heartwoven - the Reed-woven Heart; Caitlin Grassman takes it
   note 95809's pre (95647 above) fills here - take 95809 after it.
   note 95809's starter (the Reed-woven Heart) has no placed source in the data - have it in your bags.
-  turnin 95809 -- Heartwoven - the Heart's word to Caitlin Grassman
-  accept 1302 -- James Hyal - Vincent Hyal; Clerk Lendry takes him, Dustwallow
+  turnin 95809 only Alliance -- Heartwoven - the Heart's word to Caitlin Grassman
+  accept 1302 only Alliance -- James Hyal - Vincent Hyal; Clerk Lendry takes him, Dustwallow
   note 1302's pre (1301, an uncontracted Stormwind accept) sits outside this contract - take 1302 on its own.
 
 step The west coast - barrels and hovels
 
-  turnin 281 -- Reclaiming Goods - back to the Damaged Crate
-  accept 284 -- The Search Continues - the Damaged Crate; the Sealed Barrel takes it, west
+  turnin 281 only Alliance -- Reclaiming Goods - back to the Damaged Crate
+  accept 284 only Alliance -- The Search Continues - the Damaged Crate; the Sealed Barrel takes it, west
   note 284's pre (281 above) fills here - take 284 after it.
-  turnin 284 -- The Search Continues - back to the Sealed Barrel
-  accept 285 -- Search More Hovels - the Sealed Barrel; the Half-buried Barrel takes it, west
+  turnin 284 only Alliance -- The Search Continues - back to the Sealed Barrel
+  accept 285 only Alliance -- Search More Hovels - the Sealed Barrel; the Half-buried Barrel takes it, west
   note 285's pre (284 above) fills here - take 285 after it.
-  turnin 285 -- Search More Hovels - back to the Half-buried Barrel
-  accept 286 -- Return the Statuette - the Half-buried Barrel; Karl Boran takes it, Menethil
+  turnin 285 only Alliance -- Search More Hovels - back to the Half-buried Barrel
+  accept 286 only Alliance -- Return the Statuette - the Half-buried Barrel; Karl Boran takes it, Menethil
   note 286's pre (285 above) fills here - take 286 after it.
 
 step The north coast - the Intrepid and the chest
 
-  complete 289 @13.18,30.72 era -- Cursed Sailors for First Mate Fitzsimmons
-  complete 289 @13.32,29.63 era -- Cursed Marines for First Mate Fitzsimmons
-  complete 289 @13.79,30.18 era -- Snellig's Snuffbox off First Mate Snellig for First Mate Fitzsimmons
-  turnin 289 -- The Cursed Crew - back to First Mate Fitzsimmons
-  accept 290 -- Lifting the Curse - First Mate Fitzsimmons; the Intrepid Strongbox Key, north
-  complete 290 @15.45,23.61 era -- the Intrepid Strongbox Key off Captain Halyndor for First Mate Fitzsimmons
+  complete 289 only Alliance @13.18,30.72 era -- Cursed Sailors for First Mate Fitzsimmons
+  complete 289 only Alliance @13.32,29.63 era -- Cursed Marines for First Mate Fitzsimmons
+  complete 289 only Alliance @13.79,30.18 era -- Snellig's Snuffbox off First Mate Snellig for First Mate Fitzsimmons
+  turnin 289 only Alliance -- The Cursed Crew - back to First Mate Fitzsimmons
+  accept 290 only Alliance -- Lifting the Curse - First Mate Fitzsimmons; the Intrepid Strongbox Key, north
+  complete 290 only Alliance @15.45,23.61 era -- the Intrepid Strongbox Key off Captain Halyndor for First Mate Fitzsimmons
   note 290's pre (289 above) fills here - take 290 after it.
-  turnin 290 -- Lifting the Curse - back to First Mate Fitzsimmons
-  accept 292 -- The Eye of Paleth - the Intrepid's Locked Strongbox; Glorin Steelbrow takes it, Menethil
+  turnin 290 only Alliance -- Lifting the Curse - back to First Mate Fitzsimmons
+  accept 292 only Alliance -- The Eye of Paleth - the Intrepid's Locked Strongbox; Glorin Steelbrow takes it, Menethil
   note 292's pre (290 above) fills here - take 292 after it.
-  complete 471 @15.25,29.22 era -- Giant Crocolisk Skins off the north-coast crocolisks for James Halloran
-  turnin 321 -- Lightforge Iron - Glorin's word to the Waterlogged Chest
-  accept 324 -- The Lost Ingots - the Waterlogged Chest; Glorin Steelbrow takes them, Menethil
+  complete 471 only Alliance @15.25,29.22 era -- Giant Crocolisk Skins off the north-coast crocolisks for James Halloran
+  turnin 321 only Alliance -- Lightforge Iron - Glorin's word to the Waterlogged Chest
+  accept 324 only Alliance -- The Lost Ingots - the Waterlogged Chest; Glorin Steelbrow takes them, Menethil
   note 324's pre (321 above) fills here - take 324 after it.
 
 step The digsite - Whelgar's Excavation
 
-  accept 294 -- Ormer's Revenge - Ormer Ironbraid; Mottled Raptors, the digsite
-  complete 294 @19.77,52.47 era -- Mottled Raptors for Ormer Ironbraid
-  complete 294 @22.62,55.86 era -- Mottled Screechers for Ormer Ironbraid
-  complete 943 @19.77,52.47 era -- the Stone of Relu off the Mottled raptors for Archaeologist Flagongut
+  accept 294 only Alliance -- Ormer's Revenge - Ormer Ironbraid; Mottled Raptors, the digsite
+  complete 294 only Alliance @19.77,52.47 era -- Mottled Raptors for Ormer Ironbraid
+  complete 294 only Alliance @22.62,55.86 era -- Mottled Screechers for Ormer Ironbraid
+  complete 943 only Alliance @19.77,52.47 era -- the Stone of Relu off the Mottled raptors for Archaeologist Flagongut
   note 943's Fossil (Flagongut's Fossil) has no placed source in the data - have it in your bags.
-  turnin 294 -- Ormer's Revenge - back to Ormer Ironbraid
-  accept 295 -- Ormer's Revenge - Ormer Ironbraid; Mottled Scytheclaws and Razormaws, east
+  turnin 294 only Alliance -- Ormer's Revenge - back to Ormer Ironbraid
+  accept 295 only Alliance -- Ormer's Revenge - Ormer Ironbraid; Mottled Scytheclaws and Razormaws, east
   note 295's pre (294 above) fills here - take 295 after it.
-  complete 295 @30.58,48.73 era -- Mottled Scytheclaws for Ormer Ironbraid
-  complete 295 @32.21,48.69 era -- Mottled Razormaws for Ormer Ironbraid
-  turnin 295 -- Ormer's Revenge - back to Ormer Ironbraid
-  accept 296 -- Ormer's Revenge - Ormer Ironbraid; Sarltooth's Talon, east
+  complete 295 only Alliance @30.58,48.73 era -- Mottled Scytheclaws for Ormer Ironbraid
+  complete 295 only Alliance @32.21,48.69 era -- Mottled Razormaws for Ormer Ironbraid
+  turnin 295 only Alliance -- Ormer's Revenge - back to Ormer Ironbraid
+  accept 296 only Alliance -- Ormer's Revenge - Ormer Ironbraid; Sarltooth's Talon, east
   note 296's pre (295 above) fills here - take 296 after it.
-  complete 296 @33.26,51.51 era -- Sarltooth's Talon off Sarltooth for Ormer Ironbraid
-  turnin 296 -- Ormer's Revenge - back to Ormer Ironbraid
-  accept 299 -- Uncovering the Past - Prospector Whelgar; the four tablet fragments
+  complete 296 only Alliance @33.26,51.51 era -- Sarltooth's Talon off Sarltooth for Ormer Ironbraid
+  turnin 296 only Alliance -- Ormer's Revenge - back to Ormer Ironbraid
+  accept 299 only Alliance -- Uncovering the Past - Prospector Whelgar; the four tablet fragments
   note Two fragments wait out of zone - Neru's campfire in Arathi and Ados's bonfire in Badlands, both expedition legs below; Modr's and Golm's name no source in the data, so have them in your bags.
-  complete 98282 @46.2,59.39 era -- the Unruptured Stalker Gland off the Leech Stalkers for Caitlin Grassman
-  accept 95810 -- Lost Relic Carry - the Titan Relic; Whelgar and Merrin take it
+  complete 98282 only Alliance @46.2,59.39 era -- the Unruptured Stalker Gland off the Leech Stalkers for Caitlin Grassman
+  accept 95810 only Alliance -- Lost Relic Carry - the Titan Relic; Whelgar and Merrin take it
   note 95810's starter (the Titan Relic) has no placed source in the data - its only record names an unplaced Relic Guardian; have it in your bags.
-  turnin 95810 -- Lost Relic Carry - the Relic's word to Prospector Whelgar
-  accept 98824 -- Prehistoric Prism - Prospector Whelgar; High Explorer Magellas takes it, Ironforge
+  turnin 95810 only Alliance -- Lost Relic Carry - the Relic's word to Prospector Whelgar
+  accept 98824 only Alliance -- Prehistoric Prism - Prospector Whelgar; High Explorer Magellas takes it, Ironforge
   note 98824's pre (95810 above) fills here - take 98824 after it.
-  turnin 305 -- In Search of The Excavation Team - Tarrel's word to Merrin Rockweaver
-  accept 306 -- In Search of The Excavation Team - Merrin Rockweaver; Tarrel Rockweaver takes it
+  turnin 305 only Alliance -- In Search of The Excavation Team - Tarrel's word to Merrin Rockweaver
+  accept 306 only Alliance -- In Search of The Excavation Team - Merrin Rockweaver; Tarrel Rockweaver takes it
   note 306's pre (305 above) fills here - take 306 after it.
 step The Dragonmaw front - Howin's line
 
-  accept 98245 -- Razormaw Needling - Howin Kindfeather; Razormaw Incisors, south
-  accept 98246 -- Trying Times - Howin Kindfeather; Perfect Razormaw Eggs
+  accept 98245 only Alliance -- Razormaw Needling - Howin Kindfeather; Razormaw Incisors, south
+  accept 98246 only Alliance -- Trying Times - Howin Kindfeather; Perfect Razormaw Eggs
   note The Perfect eggs (280132) have no placed source in the data - have a full set in your bags.
-  complete 98246 @49.36,42.13 era -- Perfect Razormaw Eggs for Howin Kindfeather; the eggs name no source in the data, so have them in your bags
-  complete 464 @39.47,46.97 era -- Dragonmaw War Banners off the Dragonmaw Raiders for Captain Stoutfist
-  complete 464 @38.23,45.85 era -- Dragonmaw War Banners off the Dragonmaw Swamprunners for Captain Stoutfist
-  complete 464 @49.41,46.21 era -- Dragonmaw War Banners off the Dragonmaw Centurions for Captain Stoutfist
-  complete 464 @45.34,44.41 era -- Dragonmaw War Banners off the Dragonmaw Battlemaster for Captain Stoutfist
-  complete 98221 @45.6,42.7 era -- Attack Plan: Menethil Harbor for Captain Stoutfist
-  complete 98221 @49.4,46.8 era -- Attack Plan: Thelsamar for Captain Stoutfist
-  complete 98221 @45.4,45.7 era -- Attack Plan: Southshore for Captain Stoutfist
-  complete 98221 @38.5,46.1 era -- Attack Plan: Ironforge for Captain Stoutfist
-  accept 98223 -- Old Habits - the Tattered Spellbook; Captain Stoutfist takes it, Menethil
+  complete 98246 only Alliance @49.36,42.13 era -- Perfect Razormaw Eggs for Howin Kindfeather; the eggs name no source in the data, so have them in your bags
+  complete 464 only Alliance @39.47,46.97 era -- Dragonmaw War Banners off the Dragonmaw Raiders for Captain Stoutfist
+  complete 464 only Alliance @38.23,45.85 era -- Dragonmaw War Banners off the Dragonmaw Swamprunners for Captain Stoutfist
+  complete 464 only Alliance @49.41,46.21 era -- Dragonmaw War Banners off the Dragonmaw Centurions for Captain Stoutfist
+  complete 464 only Alliance @45.34,44.41 era -- Dragonmaw War Banners off the Dragonmaw Battlemaster for Captain Stoutfist
+  complete 98221 only Alliance @45.6,42.7 era -- Attack Plan: Menethil Harbor for Captain Stoutfist
+  complete 98221 only Alliance @49.4,46.8 era -- Attack Plan: Thelsamar for Captain Stoutfist
+  complete 98221 only Alliance @45.4,45.7 era -- Attack Plan: Southshore for Captain Stoutfist
+  complete 98221 only Alliance @38.5,46.1 era -- Attack Plan: Ironforge for Captain Stoutfist
+  accept 98223 only Alliance -- Old Habits - the Tattered Spellbook; Captain Stoutfist takes it, Menethil
   note 98223's starter (the Spellbook) sits in the Dragonmaw camp - take it off the ground there.
-  turnin 471 -- Apprentice's Duties - Einar's word to James Halloran
-  accept 98072 -- Crocs of the Sky - James Halloran; Pristine Crimson Scales, east
+  turnin 471 only Alliance -- Apprentice's Duties - Einar's word to James Halloran
+  accept 98072 only Alliance -- Crocs of the Sky - James Halloran; Pristine Crimson Scales, east
   note 98072 needs 471 (Apprentice's Duties) turned in first - take it after the harbor leg.
-  complete 98072 @59.51,39.19 era -- Pristine Crimson Scales off the Red Whelps for James Halloran
-  turnin 98072 -- Crocs of the Sky - back to James Halloran
-  accept 98240 -- Crimson Crate Delivery - James Halloran; Howin Kindfeather takes it, east
+  complete 98072 only Alliance @59.51,39.19 era -- Pristine Crimson Scales off the Red Whelps for James Halloran
+  turnin 98072 only Alliance -- Crocs of the Sky - back to James Halloran
+  accept 98240 only Alliance -- Crimson Crate Delivery - James Halloran; Howin Kindfeather takes it, east
   note 98240's pre (98072 above) fills here - take 98240 after it.
-  turnin 98240 -- Crimson Crate Delivery - Halloran's word to Howin Kindfeather
-  accept 98293 -- Forced Disarmament - the Dragonmaw Armaments; Captain Stoutfist takes them
+  turnin 98240 only Alliance -- Crimson Crate Delivery - Halloran's word to Howin Kindfeather
+  accept 98293 only Alliance -- Forced Disarmament - the Dragonmaw Armaments; Captain Stoutfist takes them
   note 98293's starter (the Armaments) is the objective ground itself - take them off it.
 
-  complete 98293 @58.84,45.16 era -- Dragonmaw Armaments for Captain Stoutfist
+  complete 98293 only Alliance @58.84,45.16 era -- Dragonmaw Armaments for Captain Stoutfist
 step Rethiel the Greenwarden
 
-  turnin 463 -- The Greenwarden - Fitzsimmons' word to Rethiel the Greenwarden
-  accept 276 -- Tramping Paws - Rethiel the Greenwarden; Mosshide Gnolls, north-east
+  turnin 463 only Alliance -- The Greenwarden - Fitzsimmons' word to Rethiel the Greenwarden
+  accept 276 only Alliance -- Tramping Paws - Rethiel the Greenwarden; Mosshide Gnolls, north-east
   note 276's pre (463 above) fills here - take 276 after it.
 step The northeast - gnolls and Hervdana's cave
 
-  complete 276 @54.37,73.73 era -- Mosshide Gnolls for Rethiel the Greenwarden
-  complete 276 @55.74,74.78 era -- Mosshide Mongrels for Rethiel the Greenwarden
-  accept 94497 only Shaman -- Call of Water - Hervdana Saegrund; the Empty Brown Waterskin, below her cave
+  complete 276 only Alliance @54.37,73.73 era -- Mosshide Gnolls for Rethiel the Greenwarden
+  complete 276 only Alliance @55.74,74.78 era -- Mosshide Mongrels for Rethiel the Greenwarden
+  accept 94497 only Shaman only Alliance -- Call of Water - Hervdana Saegrund; the Empty Brown Waterskin, below her cave
   note 94497's pre (94495, Call of Water) lives in the Loch Modan guide - take 94497 after that leg.
-  complete 94497 only Shaman @65.76,76.52 era -- the Full Brown Waterskin for Hervdana Saegrund; fill the Empty skin at the falls below her cave, which name no placed point in the data
-  turnin 94497 only Shaman -- Call of Water - back to Hervdana Saegrund
-  accept 94499 only Shaman -- Call of Water - Hervdana Saegrund; the Empty Red Waterskin, Stonewatch Falls
+  complete 94497 only Shaman only Alliance @65.76,76.52 era -- the Full Brown Waterskin for Hervdana Saegrund; fill the Empty skin at the falls below her cave, which name no placed point in the data
+  turnin 94497 only Shaman only Alliance -- Call of Water - back to Hervdana Saegrund
+  accept 94499 only Shaman only Alliance -- Call of Water - Hervdana Saegrund; the Empty Red Waterskin, Stonewatch Falls
   note 94499's pre (94497 above) fills here - take 94499 after it.
-  complete 94499 only Shaman @65.76,76.52 era -- the Full Red Waterskin for Hervdana Saegrund; fill the Empty skin at Stonewatch Falls by the Nightcrawler murlocs, which name no placed point in the data
-  turnin 94499 only Shaman -- Call of Water - back to Hervdana Saegrund
-  accept 94500 only Shaman -- Call of Water - Hervdana Saegrund; the Unfilled Blue Waterskin, Astranaar
+  complete 94499 only Shaman only Alliance @65.76,76.52 era -- the Full Red Waterskin for Hervdana Saegrund; fill the Empty skin at Stonewatch Falls by the Nightcrawler murlocs, which name no placed point in the data
+  turnin 94499 only Shaman only Alliance -- Call of Water - back to Hervdana Saegrund
+  accept 94500 only Shaman only Alliance -- Call of Water - Hervdana Saegrund; the Unfilled Blue Waterskin, Astranaar
   note 94500's pre (94499 above) fills here - take 94500 after it.
-  complete 94500 only Shaman @65.76,76.52 era -- the Full Blue Waterskin for Hervdana Saegrund; fill the Unfilled skin at Astranaar's waters the next time the road takes you through Ashenvale
-  turnin 94500 only Shaman -- Call of Water - back to Hervdana Saegrund
-  accept 94501 only Shaman -- Call of Water - Hervdana Saegrund; Norric Lochthane takes it, Loch Modan
+  complete 94500 only Shaman only Alliance @65.76,76.52 era -- the Full Blue Waterskin for Hervdana Saegrund; fill the Unfilled skin at Astranaar's waters the next time the road takes you through Ashenvale
+  turnin 94500 only Shaman only Alliance -- Call of Water - back to Hervdana Saegrund
+  accept 94501 only Shaman only Alliance -- Call of Water - Hervdana Saegrund; Norric Lochthane takes it, Loch Modan
   note 94501's pre (94500 above) fills here - take 94501 after it.
 step Rethiel, returned - gnolls
 
-  turnin 276 -- Tramping Paws - back to Rethiel the Greenwarden
-  accept 277 -- Fire Taboo - Rethiel the Greenwarden; Crude Flint off the Mosshides, west
+  turnin 276 only Alliance -- Tramping Paws - back to Rethiel the Greenwarden
+  accept 277 only Alliance -- Fire Taboo - Rethiel the Greenwarden; Crude Flint off the Mosshides, west
   note 277's pre (276 above) fills here - take 277 after it.
 step The west fens - flint
 
-  complete 277 @26.47,37.18 era -- Crude Flint off the Mosshide gnolls for Rethiel the Greenwarden
+  complete 277 only Alliance @26.47,37.18 era -- Crude Flint off the Mosshide gnolls for Rethiel the Greenwarden
 step Rethiel, returned - flint
 
-  turnin 277 -- Fire Taboo - back to Rethiel the Greenwarden
-  accept 275 -- Blisters on The Land - Rethiel the Greenwarden; Fen Creepers, west
+  turnin 277 only Alliance -- Fire Taboo - back to Rethiel the Greenwarden
+  accept 275 only Alliance -- Blisters on The Land - Rethiel the Greenwarden; Fen Creepers, west
   note 275's pre (277 above) fills here - take 275 after it.
 step The west fens - creepers
 
-  complete 275 @18.52,27.74 era -- Fen Creepers for Rethiel the Greenwarden
+  complete 275 only Alliance @18.52,27.74 era -- Fen Creepers for Rethiel the Greenwarden
 step Rethiel, returned - creepers
 
-  turnin 275 -- Blisters on The Land - back to Rethiel the Greenwarden
-  accept 98283 -- Carnage - Rethiel the Greenwarden; Rotclaw and Carnage, south and east
+  turnin 275 only Alliance -- Blisters on The Land - back to Rethiel the Greenwarden
+  accept 98283 only Alliance -- Carnage - Rethiel the Greenwarden; Rotclaw and Carnage, south and east
   note 98283's pre (275 above) fills here - take 98283 after it.
-  accept 95646 -- Horrors in the Highland - Rethiel the Greenwarden; the Horrible Rootcore, west
+  accept 95646 only Alliance -- Horrors in the Highland - Rethiel the Greenwarden; the Horrible Rootcore, west
   note 95646's pre (275 above) fills here - take 95646 after it.
 step The far south - Villard estate
 
-  accept 87318 -- Hearts of the Lost - Comar Villard; Essene Villard takes them, the estate
+  accept 87318 only Alliance -- Hearts of the Lost - Comar Villard; Essene Villard takes them, the estate
   note Comar walks two zones - this step uses his Wetlands point.
-  turnin 87318 -- Hearts of the Lost - Comar's word to Essene Villard
-  accept 88757 -- Accessories of the Lost - Essene Villard; her Necklace, Spellbook and Waterskin
+  turnin 87318 only Alliance -- Hearts of the Lost - Comar's word to Essene Villard
+  accept 88757 only Alliance -- Accessories of the Lost - Essene Villard; her Necklace, Spellbook and Waterskin
   note 88757's pre (87318 above) fills here - take 88757 after it.
-  complete 88757 @51.54,9.02 era -- Essene's Necklace for Essene Villard; it names no source in the data, so have it in your bags
-  complete 88757 @51.54,9.02 era -- Essene's Spellbook for Essene Villard; it names no source in the data, so have it in your bags
-  complete 88757 @51.54,9.02 era -- Essene's Waterskin for Essene Villard; it names no source in the data, so have it in your bags
-  turnin 88757 -- Accessories of the Lost - back to Essene Villard
-  accept 88758 -- Sentiments of the Lost - Essene Villard; Comar Villard takes them
+  complete 88757 only Alliance @51.54,9.02 era -- Essene's Necklace for Essene Villard; it names no source in the data, so have it in your bags
+  complete 88757 only Alliance @51.54,9.02 era -- Essene's Spellbook for Essene Villard; it names no source in the data, so have it in your bags
+  complete 88757 only Alliance @51.54,9.02 era -- Essene's Waterskin for Essene Villard; it names no source in the data, so have it in your bags
+  turnin 88757 only Alliance -- Accessories of the Lost - back to Essene Villard
+  accept 88758 only Alliance -- Sentiments of the Lost - Essene Villard; Comar Villard takes them
   note 88758's pre (88757 above) fills here - take 88758 after it.
-  turnin 88758 -- Sentiments of the Lost - back to Comar Villard
-  complete 98245 @32.15,14.62 era -- Razormaw Incisors off the Highland Razormaws for Howin Kindfeather
-  complete 98283 @50.78,15.5 era -- Maddened Rotclaw Flesh off the Rotclaws for Rethiel the Greenwarden
+  turnin 88758 only Alliance -- Sentiments of the Lost - back to Comar Villard
+  complete 98245 only Alliance @32.15,14.62 era -- Razormaw Incisors off the Highland Razormaws for Howin Kindfeather
+  complete 98283 only Alliance @50.78,15.5 era -- Maddened Rotclaw Flesh off the Rotclaws for Rethiel the Greenwarden
 step The east coast - Carnage and Ados
 
-  complete 98283 @67.31,30.86 era -- Carnage's Head off Carnage for Rethiel the Greenwarden
+  complete 98283 only Alliance @67.31,30.86 era -- Carnage's Head off Carnage for Rethiel the Greenwarden
 step Rethiel, returned - carnage
 
-  turnin 98283 -- Carnage - back to Rethiel the Greenwarden
+  turnin 98283 only Alliance -- Carnage - back to Rethiel the Greenwarden
 
 step Kixxle's post - writ: draught (Alchemy)
 
@@ -309,136 +308,136 @@ step Kixxle's post - writ: slippers (Tailoring)
 step Expedition - Arathi, the Span and the stones
 
   zone map 1417
-  complete 633 @48.79,88.05 era -- the Cache of Explosives for Rhag Garmason
-  complete 324 @36.23,57.38 era -- Lightforge Ingots off the Stone of Inner Binding for Glorin Steelbrow
-  complete 299 @61.24,72.41 era -- the Neru Fragment off the campfire for Prospector Whelgar
+  complete 633 only Alliance @48.79,88.05 era -- the Cache of Explosives for Rhag Garmason
+  complete 324 only Alliance @36.23,57.38 era -- Lightforge Ingots off the Stone of Inner Binding for Glorin Steelbrow
+  complete 299 only Alliance @61.24,72.41 era -- the Neru Fragment off the campfire for Prospector Whelgar
   zone map 1437
 
 step Menethil and Dun Modr, returned
 
-  turnin 633 -- The Thandol Span - back to Rhag Garmason
-  accept 634 -- Plea To The Alliance - Rhag Garmason; Captain Nials takes it, Arathi
+  turnin 633 only Alliance -- The Thandol Span - back to Rhag Garmason
+  accept 634 only Alliance -- Plea To The Alliance - Rhag Garmason; Captain Nials takes it, Arathi
   note 634's pre (633 above) fills here - take 634 after it.
-  turnin 472 -- Fall of Dun Modr - Barnaby's word to Longbraid the Grim
-  turnin 324 -- The Lost Ingots - back to Glorin Steelbrow
-  accept 526 -- Lightforge Ingots - Glorin Steelbrow; Lightforge Ingots, Arathi
+  turnin 472 only Alliance -- Fall of Dun Modr - Barnaby's word to Longbraid the Grim
+  turnin 324 only Alliance -- The Lost Ingots - back to Glorin Steelbrow
+  accept 526 only Alliance -- Lightforge Ingots - Glorin Steelbrow; Lightforge Ingots, Arathi
   note 526's pre (324 above) fills here - take 526 after it.
-  accept 322 -- Blessed Arm - Glorin Steelbrow; Grimand Elmore takes it, Stormwind
+  accept 322 only Alliance -- Blessed Arm - Glorin Steelbrow; Grimand Elmore takes it, Stormwind
   note 322's pre (324 above) fills here - take 322 after it.
-  turnin 286 -- Return the Statuette - back to Karl Boran
-  accept 98189 -- Return the Statuette - Karl Boran; Captain Stoutfist takes it
+  turnin 286 only Alliance -- Return the Statuette - back to Karl Boran
+  accept 98189 only Alliance -- Return the Statuette - Karl Boran; Captain Stoutfist takes it
   note 98189's pre (286 above) fills here - take 98189 after it.
-  turnin 98189 -- Return the Statuette - back to Captain Stoutfist
-  accept 98190 -- A Friend of the Family - Captain Stoutfist; Highlord Bolvar Fordragon takes it, Stormwind
+  turnin 98189 only Alliance -- Return the Statuette - back to Captain Stoutfist
+  accept 98190 only Alliance -- A Friend of the Family - Captain Stoutfist; Highlord Bolvar Fordragon takes it, Stormwind
   note 98190's pre (98189 above) fills here - take 98190 after it.
-  turnin 98223 -- Old Habits - back to Captain Stoutfist
-  turnin 292 -- The Eye of Paleth - back to Glorin Steelbrow
-  turnin 943 -- The Absent Minded Prospector - back to Archaeologist Flagongut
-  turnin 469 -- Daily Delivery - Einar's word to James Halloran
-  turnin 464 -- War Banners - back to Captain Stoutfist
-  turnin 473 -- Report to Captain Stoutfist - Valstag's word to Captain Stoutfist
-  turnin 98293 -- Forced Disarmament - back to Captain Stoutfist
-  accept 293 -- Cleansing the Eye - Glorin Steelbrow; Archbishop Benedictus takes it, Stormwind
+  turnin 98223 only Alliance -- Old Habits - back to Captain Stoutfist
+  turnin 292 only Alliance -- The Eye of Paleth - back to Glorin Steelbrow
+  turnin 943 only Alliance -- The Absent Minded Prospector - back to Archaeologist Flagongut
+  turnin 469 only Alliance -- Daily Delivery - Einar's word to James Halloran
+  turnin 464 only Alliance -- War Banners - back to Captain Stoutfist
+  turnin 473 only Alliance -- Report to Captain Stoutfist - Valstag's word to Captain Stoutfist
+  turnin 98293 only Alliance -- Forced Disarmament - back to Captain Stoutfist
+  accept 293 only Alliance -- Cleansing the Eye - Glorin Steelbrow; Archbishop Benedictus takes it, Stormwind
   note 293's pre (292 above) fills here - take 293 after it.
-  turnin 98282 -- Alchemical Hazards - back to Caitlin Grassman
-  complete 95646 @11.21,55.95 era -- the Horrible Rootcore off the Highland Horror for Rethiel the Greenwarden
-  turnin 95646 -- Horrors in the Highland - back to Caitlin Grassman
-  turnin 98221 -- From the Ashes - back to Captain Stoutfist
-  turnin 306 -- In Search of The Excavation Team - back to Tarrel Rockweaver
-  accept 465 -- Nek'rosh's Gambit - Captain Stoutfist; the Dragonmaw Catapults, east
+  turnin 98282 only Alliance -- Alchemical Hazards - back to Caitlin Grassman
+  complete 95646 only Alliance @11.21,55.95 era -- the Horrible Rootcore off the Highland Horror for Rethiel the Greenwarden
+  turnin 95646 only Alliance -- Horrors in the Highland - back to Caitlin Grassman
+  turnin 98221 only Alliance -- From the Ashes - back to Captain Stoutfist
+  turnin 306 only Alliance -- In Search of The Excavation Team - back to Tarrel Rockweaver
+  accept 465 only Alliance -- Nek'rosh's Gambit - Captain Stoutfist; the Dragonmaw Catapults, east
   note 465's pre (98221 above) fills here - take 465 after it.
 
 step Expedition - Arathi, the catapults again
 
   zone map 1417
-  turnin 465 -- Nek'rosh's Gambit - back to the Dragonmaw Catapults
-  accept 474 -- Defeat Nek'rosh - the Dragonmaw Catapults; Chieftain Nek'rosh's Head, east
+  turnin 465 only Alliance -- Nek'rosh's Gambit - back to the Dragonmaw Catapults
+  accept 474 only Alliance -- Defeat Nek'rosh - the Dragonmaw Catapults; Chieftain Nek'rosh's Head, east
   note 474's pre (465 above) fills here - take 474 after it.
-  complete 474 @53.51,54.67 era -- Chieftain Nek'rosh's Head off Chieftain Nek'rosh for Captain Stoutfist
-  complete 526 @36.23,57.38 era -- Lightforge Ingots off the Stone of Inner Binding for Glorin Steelbrow
-  turnin 634 -- Plea To The Alliance - Rhag's word to Captain Nials
+  complete 474 only Alliance @53.51,54.67 era -- Chieftain Nek'rosh's Head off Chieftain Nek'rosh for Captain Stoutfist
+  complete 526 only Alliance @36.23,57.38 era -- Lightforge Ingots off the Stone of Inner Binding for Glorin Steelbrow
+  turnin 634 only Alliance -- Plea To The Alliance - Rhag's word to Captain Nials
   zone map 1437
 
 step Expedition - Badlands, the bonfire
 
   zone map 1418
-  complete 299 @2.93,47.96 era -- the Ados Fragment off the bonfire for Prospector Whelgar
+  complete 299 only Alliance @2.93,47.96 era -- the Ados Fragment off the bonfire for Prospector Whelgar
   zone map 1437
 
 step Menethil and the digsite, returned
 
-  turnin 474 -- Defeat Nek'rosh - Nek'rosh's word to Captain Stoutfist
-  turnin 526 -- Lightforge Ingots - back to Glorin Steelbrow
-  turnin 299 -- Uncovering the Past - back to Prospector Whelgar
-  accept 98216 -- Understanding Our Present - Prospector Whelgar; the Titanic Keystone, west
+  turnin 474 only Alliance -- Defeat Nek'rosh - Nek'rosh's word to Captain Stoutfist
+  turnin 526 only Alliance -- Lightforge Ingots - back to Glorin Steelbrow
+  turnin 299 only Alliance -- Uncovering the Past - back to Prospector Whelgar
+  accept 98216 only Alliance -- Understanding Our Present - Prospector Whelgar; the Titanic Keystone, west
   note 98216's pre (299 above) fills here - take 98216 after it.
-  complete 98216 @14.45,46.33 era -- the Titanic Keystone off the Goaz Warder for Prospector Whelgar
-  turnin 98216 -- Understanding Our Present - back to Prospector Whelgar
-  accept 98310 -- Gleaning Our Future - Prospector Whelgar; the four Hearts across the zone
+  complete 98216 only Alliance @14.45,46.33 era -- the Titanic Keystone off the Goaz Warder for Prospector Whelgar
+  turnin 98216 only Alliance -- Understanding Our Present - back to Prospector Whelgar
+  accept 98310 only Alliance -- Gleaning Our Future - Prospector Whelgar; the four Hearts across the zone
   note 98310's pre (98216 above) fills here - take 98310 after it.
   note The Hearts wait west, center, south and east - the next step rides them all.
-  accept 98230 -- This Land Was Their Land - Captain Stoutfist; Howin Kindfeather takes it
+  accept 98230 only Alliance -- This Land Was Their Land - Captain Stoutfist; Howin Kindfeather takes it
   note 98230's pre (474 above) fills here - take 98230 after it.
 step The Hearts round - west, south, east
 
-  complete 98310 @17.14,43.99 era -- the Heart of Modr off Modr for Prospector Whelgar
-  complete 98310 @42.5,37.8 era -- the Heart of Golm off Golm for Prospector Whelgar
-  complete 98310 @50.3,25.06 era -- the Heart of Neru off Neru for Prospector Whelgar
-  complete 98310 @70.19,36.84 era -- the Heart of Ados off Ados for Prospector Whelgar
-  turnin 98310 -- Gleaning Our Future - back to Prospector Whelgar
-  accept 98313 -- For Further Study - Prospector Whelgar; Historian Karnik takes it, Ironforge
+  complete 98310 only Alliance @17.14,43.99 era -- the Heart of Modr off Modr for Prospector Whelgar
+  complete 98310 only Alliance @42.5,37.8 era -- the Heart of Golm off Golm for Prospector Whelgar
+  complete 98310 only Alliance @50.3,25.06 era -- the Heart of Neru off Neru for Prospector Whelgar
+  complete 98310 only Alliance @70.19,36.84 era -- the Heart of Ados off Ados for Prospector Whelgar
+  turnin 98310 only Alliance -- Gleaning Our Future - back to Prospector Whelgar
+  accept 98313 only Alliance -- For Further Study - Prospector Whelgar; Historian Karnik takes it, Ironforge
   note 98313's pre (98310 above) fills here - take 98313 after it.
 
 step Howin, returned
 
-  turnin 98245 -- Razormaw Needling - back to Howin Kindfeather
-  turnin 98246 -- Trying Times - back to Howin Kindfeather
-  turnin 98230 -- This Land Was Their Land - Stoutfist's word to Howin Kindfeather
-  accept 98291 -- Death to the Dragonmaw - Howin Kindfeather; Reclaimers, Soulbinders and Infiltrators
+  turnin 98245 only Alliance -- Razormaw Needling - back to Howin Kindfeather
+  turnin 98246 only Alliance -- Trying Times - back to Howin Kindfeather
+  turnin 98230 only Alliance -- This Land Was Their Land - Stoutfist's word to Howin Kindfeather
+  accept 98291 only Alliance -- Death to the Dragonmaw - Howin Kindfeather; Reclaimers, Soulbinders and Infiltrators
   note 98291's pre (98245 and 98246 above) fills here - take 98291 after them.
-  complete 98291 @50.05,41.59 era -- Dragonmaw Reclaimers for Howin Kindfeather
-  complete 98291 @51.94,41.75 era -- Dragonmaw Soulbinders for Howin Kindfeather
-  complete 98291 @50.63,38.49 era -- Dragonmaw Infiltrators for Howin Kindfeather
-  turnin 98291 -- Death to the Dragonmaw - back to Howin Kindfeather
-  accept 98297 -- Stopping the Cycle - Howin Kindfeather; the Subdued Dragonspawn, east
+  complete 98291 only Alliance @50.05,41.59 era -- Dragonmaw Reclaimers for Howin Kindfeather
+  complete 98291 only Alliance @51.94,41.75 era -- Dragonmaw Soulbinders for Howin Kindfeather
+  complete 98291 only Alliance @50.63,38.49 era -- Dragonmaw Infiltrators for Howin Kindfeather
+  turnin 98291 only Alliance -- Death to the Dragonmaw - back to Howin Kindfeather
+  accept 98297 only Alliance -- Stopping the Cycle - Howin Kindfeather; the Subdued Dragonspawn, east
   note 98297's pre (98291 above) fills here - take 98297 after it.
-  complete 98297 @56.16,41.78 era -- Subdued Dragonspawn for Howin Kindfeather
-  turnin 98297 -- Stopping the Cycle - back to Howin Kindfeather
-  accept 98300 -- Word to Ironforge - Howin Kindfeather; King Magni Bronzebeard takes it, Ironforge
+  complete 98297 only Alliance @56.16,41.78 era -- Subdued Dragonspawn for Howin Kindfeather
+  turnin 98297 only Alliance -- Stopping the Cycle - back to Howin Kindfeather
+  accept 98300 only Alliance -- Word to Ironforge - Howin Kindfeather; King Magni Bronzebeard takes it, Ironforge
   note 98300's pre (98297 above) fills here - take 98300 after it.
 step Expedition - Stormwind, three words come home
 
   zone map 1453
-  turnin 322 -- Blessed Arm - Glorin's word to Grimand Elmore
-  turnin 293 -- Cleansing the Eye - Glorin's word to Archbishop Benedictus
-  turnin 98190 -- A Friend of the Family - Stoutfist's word to Highlord Bolvar Fordragon
+  turnin 322 only Alliance -- Blessed Arm - Glorin's word to Grimand Elmore
+  turnin 293 only Alliance -- Cleansing the Eye - Glorin's word to Archbishop Benedictus
+  turnin 98190 only Alliance -- A Friend of the Family - Stoutfist's word to Highlord Bolvar Fordragon
   zone map 1437
 
 step Expedition - Ironforge, three words for the city
 
   zone map 1455
-  turnin 98300 -- Word to Ironforge - Howin's word to King Magni Bronzebeard
-  turnin 98313 -- For Further Study - Whelgar's word to Historian Karnik
-  turnin 98824 -- Prehistoric Prism - Whelgar's word to High Explorer Magellas
+  turnin 98300 only Alliance -- Word to Ironforge - Howin's word to King Magni Bronzebeard
+  turnin 98313 only Alliance -- For Further Study - Whelgar's word to Historian Karnik
+  turnin 98824 only Alliance -- Prehistoric Prism - Whelgar's word to High Explorer Magellas
   zone map 1437
 
 step Expedition - Darkshore, Thundris's word
 
   zone map 1439
-  turnin 98209 -- Bloom of the Heavens - Sylessa's word to Thundris Windweaver
+  turnin 98209 only Alliance -- Bloom of the Heavens - Sylessa's word to Thundris Windweaver
   zone map 1437
 
 step Expedition - Loch Modan, two words through the tunnels
 
   zone map 1432
-  turnin 274 -- A Dark Threat Looms - Ashlan's word to Chief Engineer Hinderweir VII
-  turnin 94501 only Shaman -- Call of Water - Hervdana's word to Norric Lochthane
+  turnin 274 only Alliance -- A Dark Threat Looms - Ashlan's word to Chief Engineer Hinderweir VII
+  turnin 94501 only Shaman only Alliance -- Call of Water - Hervdana's word to Norric Lochthane
   zone map 1437
 
 step Expedition - Dustwallow, three words south
 
   zone map 1445
-  turnin 1132 -- Fiora Longears - Flint's word to Fiora Longears
-  turnin 1264 -- The Missing Diplomat - Mikhail's word to Commander Samaul
-  turnin 1302 -- James Hyal - Vincent's word to Clerk Lendry
+  turnin 1132 only Alliance -- Fiora Longears - Flint's word to Fiora Longears
+  turnin 1264 only Alliance -- The Missing Diplomat - Mikhail's word to Commander Samaul
+  turnin 1302 only Alliance -- James Hyal - Vincent's word to Clerk Lendry
   zone map 1437
