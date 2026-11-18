@@ -46,8 +46,7 @@ step Tarren Mill - the command
 
 step The west edge - Lesh's word
 
-  goto 20.79,47.4 era
-  accept 494 -- Time To Strike - Deathstalker Lesh; Darthalia takes it east
+  accept 494 -- Time To Strike - Deathstalker Lesh (20.79, 47.4); Darthalia takes it east
   turnin 494 -- Time To Strike - Lesh's word to Darthalia
 
 step The south-center - the ruined keg
