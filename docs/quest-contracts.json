@@ -15134,6 +15134,20 @@
         {"id": 98094, "name": "Scout Support"},
         {"id": 98095, "name": "Valuable Vantages"}
       ]
+    },
+    {
+      "id": "dustwallow-horde",
+      "name": "Dustwallow Marsh (Horde)",
+      "order": 62,
+      "levelBand": "30-45",
+      "summary": "Horde side of contested Dustwallow Marsh: Brackenwall openers, Stinky's escort, Ogron's questioning and Krak's raptor hides, plus a Barrens expedition. The Onyxia-attunement and Ulka chains sit above band.",
+      "quests": [
+        {"id": 1238, "name": "The Lost Report"},
+        {"id": 1239, "name": "The Severed Head"},
+        {"id": 1270, "name": "Stinky's Escape"},
+        {"id": 1273, "name": "Questioning Reethe"},
+        {"id": 98192, "name": "Skin Careful, Skin Sharp"}
+      ]
     }
   ]
 }
