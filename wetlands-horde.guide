@@ -1,0 +1,25 @@
+# Wetlands (Horde) - Completionist (pack butler-routes-completionist, v1).
+# The Horde side of contested Wetlands: 1 quest on key 1437
+# (docs/wetlands-horde-census.md). 95682 accepts from and turns in to
+# the Deathstalker Agent at his single Wetlands spawn; its pre 95663
+# turns in at the same agent in the Arathi (Horde) route. The 5 shared
+# writs stay with the ungated main guide. All three objective sources
+# are unplaced in the data - no invented points.
+guide butler-routes-completionist/wetlands-horde
+title Wetlands (Horde)
+levels 24-31
+zone Wetlands
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step The Deathstalker Agent - Open the Maw
+
+  zone map 1437
+
+  note The Deathstalker Agent works the wetlands east of Menethil. Take 95682 after 95663 (Dragonmaw Rumors) - its turn-in rides in arathi-horde.guide at this same agent.
+  accept 95682 -- Open the Maw - the Deathstalker Agent @51.41,59.23; two Dragonmaw Saboteurs, four Dragonmaw Warders, and the Dragonmaw Dispatch
+  note The Saboteurs, the Warders and the Dispatch's dropper (a Dragonmaw Thaumaturgist) have no placed spawns in the data - work the Dragonmaw camp for all seven and the dispatch; have them in hand for the turn-in.
+  turnin 95682 -- Open the Maw - the hunt and the dispatch to the Deathstalker Agent @51.41,59.23
