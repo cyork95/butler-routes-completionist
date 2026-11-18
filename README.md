@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.141.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.143.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -139,6 +139,7 @@ Status: **in development (pack v0.141.0), not published yet**. The first release
 | arrens.guide (Set 6 core built, pilot pending) | The Barrens | 10-25 | Horde |
 | arrens-rares.guide (companion built, pilot pending) | The Barrens rares and treasures | 10-25 | Horde |
 | arrens-recipes.guide (companion built, pilot pending) | The Barrens recipe sources | 10-25 | Horde |
+| `barrens-alliance.guide` (Set 6 addendum built, pilot pending) | The Barrens Alliance addendum | 1-47 | Alliance |
 | `durotar.guide` (Horde block core built, pilot pending) | Durotar | 1-13 | Horde |
 | `mulgore.guide` (Horde block core built, pilot pending) | Mulgore | 1-13 | Horde |
 | `tirisfal-glades.guide` (Horde block core built, pilot pending) | Tirisfal Glades | 1-13 | Horde |

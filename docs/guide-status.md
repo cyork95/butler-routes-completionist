@@ -706,7 +706,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; playtest Horde personas, 0 stuck (R1 expedition + R2/R5 sourceless residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 10 rares + 6 treasures (27-pt solid loop, Zopilote 38-pt loop), 25 recipes (16 neutral-vendor + 9 narrow drops); 0 errors / 0 warnings both guides
 
 ### Badlands — Horde
 
@@ -865,9 +865,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 _The mirror of the Silverpine Alliance addendum: the Alliance quests the Barrens' Horde census set aside._
 
-- [ ] Census (reconcile against 17 set-asides banked by the Barrens census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (17 set-asides reconciled: 13 IN band 1-47, 4 battleground OUT; full-scan + item-start sweep, all four named checks ruled)
+- [x] Core guide - `barrens-alliance.guide` (13 accepts / 13 turn-ins; Ratchet/south/manifestation hubs + Ashenvale/Stormwind/Ironforge/Dun Morogh/Darnassus/Dustwallow/Booty Bay expedition legs)
+- [x] Lint/playtest clean (0 errors, 21 warnings in accepted classes; Alliance personas 0 stuck, R1-expedition residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
