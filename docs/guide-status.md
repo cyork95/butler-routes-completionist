@@ -636,7 +636,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; honest playtest Horde personas, residue R1 only (4 expedition legs)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 6 rares + 1480 hunt, 25 Solid + 6 Battered + 10 footlocker pts + 3 unique objects, 38 recipes (32 vendor + 6 drops), 0 lint errors/warnings
 
 ### Hillsbrad Foothills — Horde
 
