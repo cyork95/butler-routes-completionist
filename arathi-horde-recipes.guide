@@ -1,0 +1,263 @@
+# Arathi Highlands (Horde) - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics, manuals and formulas whose
+# SOURCE is physically in Arathi Highlands for a Horde buyer, verified
+# against the local Forever game data (questie-forever item vendor and drop
+# tables). Nine are vendor-sold by in-zone Horde vendors (Keena and Tunkk
+# at Hammerfall, Jun'ha nearby, George Candarte at Stromgarde — every buy
+# carries an npc pin to the exact in-zone vendor); seven are mob drops with
+# narrow in-zone droppers. Recipes sold only by Alliance vendors do not
+# ship (the Raptor Hide Belt is a genuine Horde gap — its sole vendor is
+# Alliance). Everything else Arathi-dropping is a generic multi-zone world
+# drop (Elwynn rule, argued per case in the inventory); quest records carry
+# no reward data, so none of that class ships (see
+# docs/arathi-horde-companions-inventory.md and docs/companion-unverified.md).
+# Trainer-taught staples are excluded: Polestar's own profession guides cover
+# those. Each step is gated to its profession; other characters skip it
+# cleanly. First Aid and Fishing have no Arathi Horde source, so that is
+# stated, not padded.
+guide butler-routes-completionist/arathi-horde-recipes
+title Arathi Highlands (Horde) - Recipes
+levels 30-40
+zone Arathi Highlands
+faction Horde
+category Professions
+folder Companions
+keywords arathi, horde, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Cooking — Hammerfall (Keena)
+
+  zone map 1417
+
+  when skill Cooking 1
+
+  tip Keena (74.09, 32.73) at Hammerfall sells both recipes; the shop is Horde, so Horde characters can buy.
+  buy 3682 "Recipe: Curiously Tasty Omelet" npc 2821
+  buy 12228 "Recipe: Roast Raptor" npc 2821
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Leatherworking — Hammerfall (Keena)
+
+  zone map 1417
+
+  when skill Leatherworking 1
+
+  tip Keena (74.09, 32.73) at Hammerfall sells the pattern; the shop is Horde, so Horde characters can buy.
+  buy 5973 "Pattern: Barbaric Leggings" npc 2821
+  note Hammon Karwn in Refuge Pointe stocks this pattern as well, but his shop is Alliance — Horde characters buy here. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Enchanting — Hammerfall (Keena)
+
+  zone map 1417
+
+  when skill Enchanting 1
+
+  tip Keena (74.09, 32.73) at Hammerfall sells the formula; the shop is Horde, so Horde characters can buy.
+  buy 11163 "Formula: Enchant Bracer - Lesser Deflection" npc 2821
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Leatherworking — Hammerfall (Tunkk)
+
+  zone map 1417
+
+  when skill Leatherworking 1
+
+  tip Tunkk (74.84, 34.59) at Hammerfall sells the pattern; the shop is Horde, so Horde characters can buy.
+  buy 13287 "Pattern: Raptor Hide Harness" npc 2819
+  note Tunkk is the sole vendor anywhere in the data for this pattern. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Tailoring — Hammerfall (Jun'ha)
+
+  zone map 1417
+
+  when skill Tailoring 1
+
+  tip Jun'ha (72.69, 36.45) at Hammerfall sells all three patterns; the shop is Horde, so Horde characters can buy.
+  buy 7089 "Pattern: Azure Silk Cloak" npc 6574
+  buy 253665 "Pattern: Linen Reagent Bag" npc 6574
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 6574
+  note The reagent-bag patterns are sold by dozens of vendors worldwide, but Jun'ha sells them here. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Tailoring — Stromgarde (George Candarte)
+
+  zone map 1417
+
+  when skill Tailoring 1
+
+  tip George Candarte (28.1, 11.8) at Stromgarde sells the pattern; the shop is Horde, so Horde characters can buy.
+  buy 7613 "Pattern: Green Leather Armor" npc 2698
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Enchanting — the south (rare drop)
+
+  zone map 1417
+
+  when skill Enchanting 1
+
+  loop
+  goto 50.43,74.26
+  goto 51.39,77.82
+  goto 52.4,75.6
+  goto 52.96,77.02
+  goto 53.32,74.39
+  goto 53.66,80
+  goto 54.05,71.76
+  goto 54.24,77.74
+  goto 54.61,81.32
+  collect 249487 "Formula: Twisted Nether Wand" optional
+  note Dropped only by the Boulderfist Magus (level 36); the formula drops nowhere else in the data.
+
+step Blacksmithing — the northwest (rare drop)
+
+  zone map 1417
+
+  when skill Blacksmithing 1
+
+  goto 19,20
+  collect 251335 "Plans: Sterling Silver Boots" optional
+  note Dropped only by the Syndicate Watchman (level 20) — BELOW the core band (30-40), so trivial at Horde levels; sweep it opportunistically. The plans drop nowhere else in the data.
+
+step Blacksmithing — Northfold and the west (rare drop)
+
+  zone map 1417
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 29.05,28.38
+  goto 29.32,26.85
+  goto 30.3,24.33
+  goto 30.3,27.97
+  goto 30.37,28.87
+  goto 30.63,25.68
+  goto 30.97,29.79
+  goto 31.22,25.48
+  goto 31.59,31.21
+  goto 31.78,32.98
+  goto 32.11,24.79
+  goto 32.21,31.87
+  goto 32.94,32.38
+  goto 33.51,31.47
+  goto 33.79,30.77
+  goto 33.91,26.51
+  goto 33.92,32.94
+  goto 34,29.55
+  goto 34.19,26.96
+  goto 34.66,31.69
+  goto 34.67,28.35
+  goto 34.69,29.88
+  goto 34.7,27
+  goto 14.83,44.35
+  goto 15.12,40.84
+  goto 15.53,44.61
+  goto 15.59,42.9
+  goto 15.85,43.83
+  goto 15.93,41.66
+  goto 16.15,41.01
+  goto 16.18,44.67
+  goto 16.25,42.93
+  goto 16.41,43.65
+  goto 16.44,45.26
+  goto 16.46,40
+  goto 16.49,42.24
+  goto 16.68,39.37
+  goto 16.68,44.21
+  goto 16.83,45.9
+  goto 16.86,42.96
+  goto 17.04,41.26
+  goto 17.12,36.82
+  goto 17.12,45.24
+  goto 17.5,42.63
+  goto 17.67,40.83
+  goto 18.08,42.2
+  goto 18.08,42.95
+  collect 251386 "Plans: Hard Gold Boots" optional
+  note Dropped by the Syndicate Highwayman (level 30, Northfold) and the Syndicate Smuggler (level 35, the west), the only two droppers anywhere; the plans drop nowhere else in the data.
+
+step Blacksmithing — the shore (rare drop)
+
+  zone map 1417
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 18.16,87.01
+  goto 20.55,84.8
+  goto 21.27,84.08
+  goto 21.83,89.82
+  goto 22.45,84.35
+  goto 22.74,84.63
+  goto 23.75,84.84
+  goto 23.78,89.85
+  collect 251393 "Plans: Shining Mithril Pauldrons" optional
+  note Dropped only by the Daggerspine Sorceress (level 39); the plans drop nowhere else in the data.
+
+step Tailoring — the center (rare drop)
+
+  zone map 1417
+
+  when skill Tailoring 1
+
+  loop
+  goto 32.04,46.29
+  goto 35.1,46.16
+  goto 35.61,49.41
+  goto 37.5,40.95
+  goto 74.08,45.73
+  collect 254014 "Pattern: Earthen Silk Slippers" optional
+  note Dropped only by the Witherbark Troll (level 30); the pattern drops nowhere else in the data.
+
+step Alchemy — Northfold (rare drop)
+
+  zone map 1417
+
+  when skill Alchemy 1
+
+  loop
+  goto 30.9,26.16
+  goto 30.96,27.91
+  goto 31.02,28.75
+  goto 31.54,30.03
+  goto 31.86,25.64
+  goto 32.11,25.35
+  goto 32.11,30.91
+  goto 32.28,31.22
+  goto 32.35,25.93
+  goto 32.47,26.75
+  goto 33.02,31.04
+  goto 33.6,29.25
+  goto 33.66,29.8
+  goto 33.75,27.34
+  collect 255723 "Manual: Greater Healing Potion" optional
+  note Dropped only by the Syndicate Mercenary (level 31); the manual drops nowhere else in the data. Gated to Alchemy by content (a potion), though the Manual prefix is shared with First Aid bandages.
+
+step Engineering — the west (rare drop)
+
+  zone map 1417
+
+  when skill Engineering 1
+
+  loop
+  goto 17.82,69.12
+  goto 18.1,68.38
+  goto 18.68,66.54
+  goto 19.49,64.62
+  goto 19.88,68.5
+  goto 19.97,67.51
+  goto 20.23,69.14
+  goto 20.49,66.67
+  goto 20.87,65.68
+  goto 20.92,67.44
+  goto 21.55,68.36
+  goto 21.57,66.96
+  collect 264212 "Schematic: EZ-Thro Bronze Mortar" optional
+  note Dropped only by the Boulderfist Shaman (level 38); the schematic drops nowhere else in the data.
+
+step First Aid — no Arathi Horde source
+
+  note The data holds no First Aid recipe sold by a Horde vendor or dropped in Arathi Highlands: Deneb Walker in Refuge Pointe is Alliance-only. Polestar's own profession guides cover that profession's progression.
+
+step Fishing — no Arathi source
+
+  note The data holds no Fishing recipe sourced in Arathi Highlands: no in-zone vendor sells one and no in-zone mob drops one. Polestar's own profession guides cover that profession's progression.
