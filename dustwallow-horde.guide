@@ -44,8 +44,7 @@ step The south dirt - the lost report
 
   zone map 1445
 
-  goto 55.44,25.92 era
-  accept 1238 -- The Lost Report - the Loose Dirt; Nazeer takes it at Brackenwall
+  accept 1238 -- The Lost Report - the Loose Dirt (55.44, 25.92); Nazeer takes it at Brackenwall
   turnin 1238 -- The Lost Report - the report to Nazeer Bloodpike
   note 1239's pre (1238 above) fills here - take 1239 after it.
   accept 1239 -- The Severed Head - the Loose Dirt; Nazeer takes it at Brackenwall
