@@ -152,6 +152,32 @@ Contracts UNCHANGED (53 contracts, 3662 total). Companions untouched.
   0 stuck; Horde identical to HEAD; Alliance shared quests residue only
   R1/R2/R5; dead-line check: 0 violations.
 
+### silithus.guide (UNGATED this round)
+
+- Contract: 52 quests = 3 Alliance-only + 49 shared.
+  - Alliance-only: 8376, 9415, 9419.
+  - Shared: 1125, 1126, 6844, 3884, 7785, 7786, 8277, 8278, 8280, 8281, 8282,
+    8283, 8284, 8285, 8286, 8287, 8288, 8301, 8303, 8304, 8306, 8307, 8308,
+    8309, 8310, 8313, 8314, 8315, 8316, 8317, 8318, 8320, 8321, 8331, 8332,
+    8341, 8343, 8348, 8349, 8351, 8352, 8377, 8378, 8379, 8381, 8382, 8519,
+    9023, 9248.
+- Lines gated: 8 quest lines (`only Alliance`: accept+turnin 9415,
+  accept+complete+turnin 9419, accept+turnin 8376 composed as
+  `only Paladin,Alliance`), 1 soft-pre mini via step-level `only Alliance`
+  (8275; the 1124, 8279 and 6844 minis stay bare, their masks are shared),
+  0 travel lines (searched `fly/getfp/taxi/boat/zeppelin/hearth/sethome`:
+  none of any kind). All lines for the 49 shared quests stay bare; the
+  `when skill Cooking 1` step gate and all class gates untouched.
+- Anomalies: none (no Horde-only quest line in the main guide). Header
+  removed.
+- Verification: forge lint 0 errors; warned quest-ID set identical to the
+  pre-edit baseline (37 IDs, zero diff both ways). Playtest `--honest` both
+  factions: 0 stuck; Alliance 12 personas byte-identical findings to HEAD
+  (the same 6 R5-residue quests); Horde 12 new personas complete the shared
+  lines with the same R5 residue only; mechanical dead-line check (no shown
+  line may reference a quest the viewer's faction cannot accept):
+  0 violations.
+
 ## Pack-wide sweep (standing ungating list)
 
 Every other pack guide that carries a `faction` header was checked the same
@@ -480,7 +506,7 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: winterspring.guide
 - header: Alliance; contract: 48 (11 primary / 37 shared)
 - shared IDs: 969, 975, 977, 3783, 3909, 3912, 4809, 4810, 4842, 4907, 5082, 5084, 5086, 5087, 5121, 5123, 5124, 5126, 5127, 5128, 5161, 5162, 5163, 5305, 5306, 5307, 5601, 6030, 6603, 6606, 8798, 92009, 92859, 93269, 93406, 97490, 98462
-### silithus
+### silithus (UNGATED this round - see above)
 - file: silithus.guide
 - header: Alliance; contract: 52 (3 primary / 49 shared)
 - shared IDs: 1125, 1126, 6844, 3884, 7785, 7786, 8277, 8278, 8280, 8281, 8282, 8283, 8284, 8285, 8286, 8287, 8288, 8301, 8303, 8304, 8306, 8307, 8308, 8309, 8310, 8313, 8314, 8315, 8316, 8317, 8318, 8320, 8321, 8331, 8332, 8341, 8343, 8348, 8349, 8351, 8352, 8377, 8378, 8379, 8381, 8382, 8519, 9023, 9248
