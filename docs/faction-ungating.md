@@ -454,6 +454,13 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: eastern-plaguelands.guide
 - header: Alliance; contract: 76 (29 primary / 47 shared)
 - shared IDs: 4971, 4972, 4973, 4984, 4985, 5021, 5051, 5058, 5059, 5060, 5142, 5153, 5154, 5164, 5166, 5167, 5210, 5218, 5221, 5224, 5227, 5382, 5384, 5401, 5461, 5462, 5466, 5515, 5542, 5543, 5544, 5721, 5742, 5781, 5845, 5846, 5848, 5861, 5862, 5944, 6004, 6023, 6025, 8414, 8416, 8418, 92842
+### eastern-plaguelands (UNGATED 2026-11-18, Horde round)
+- file: eastern-plaguelands.guide (was Alliance primary)
+- contract: 76 (29 primary / 47 shared: 44 shared-or-null mask + 3 mask-5 Human/Dwarf paladin 8414/8416/8418, per the sweep; mask split verified from data, verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 211, 4986, 5022, 5092, 5097, 5215, 5216, 5217, 5219, 5220, 5222, 5223, 5225, 5226, 5237, 5343, 5344, 5505, 5507, 5521, 5533, 5537, 5538, 5803, 5903, 5904, 6185, 6186, 6389.
+- Lines gated: 74 quest lines (`only Alliance` on every accept/turnin/complete of the 29 primaries; no pre-existing gates on those lines, so no composition needed). The mask-5 paladin block (8414/8416/8418, `only Paladin`) stays bare per the race-gate rule (mask does not equal the old header) - Horde paladin visibility follows the pack's settled pilot precedent. 0 soft-pre minis (file has no `when onquest` lines; out-of-contract pres ride as named structural notes). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). No collect/kill/buy lines exist in the file (accept/complete/turnin + notes + gotos only), so no drop-linkage attribution needed. Shared lines for all 47 shared IDs stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors; warned quest-ID set identical to pre-edit baseline (38/38 main, 9/9 Horde guide). Playtest `--honest` both factions: Alliance findings identical in kind to baseline (same R1 expedition + R5 keepsake residue, shifted one line by the header removal); Horde personas (Orc/Scourge) complete only shared lines with residue only in R1/R5; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations both factions.
 ### burning-steppes
 - file: burning-steppes.guide
 - header: Alliance; contract: 59 (23 primary / 36 shared)

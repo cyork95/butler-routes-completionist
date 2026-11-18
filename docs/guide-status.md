@@ -491,6 +491,7 @@ _Horde heartland — a Horde-faction route, written here in leveling order, ahea
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions (11 rares + 7 fixed-container loops + 7 singles; 21 recipes: 19 vendor, 2 drop)
+- [x] Faction ungating (Option A, 2026-11-17) - 74 lines for 29 Alliance quests gated, 0 minis, 0 travel, header dropped, 0 dead lines both factions
 
 ### Burning Steppes — contested (Eastern Kingdoms)
 
@@ -796,9 +797,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Eastern Plaguelands — Horde
 
-- [ ] Census (set-asides counted when the zone's Alliance census runs)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (9 Horde IN, band 50-60; rogue block homed in undercity-city, 15/15 set-asides reconciled)
+- [x] Core guide - `eastern-plaguelands-horde.guide` (9 accepts / 9 turn-ins, 8 soft-pre minis)
+- [x] Lint/playtest clean (0 errors, 11 warnings in accepted classes; 4 Horde personas 0 fails)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
