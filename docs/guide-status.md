@@ -353,6 +353,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Census - 162 candidates, 91 IN / 71 OUT (10 Horde set aside)
 - [x] Core guide - `tanaris.guide`
 - [x] Lint/playtest clean - 0 errors, playtest 7 personas 0 stuck (R1+R2 residue + 1 R3 warning, all documented)
+- [x] Faction ungating (Option A, 2026-11-17)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 10 rares (6 with sole-drop signatures) + 6 fixed containers, 25 recipes (16 vendor + 9 drops), 0 lint errors/warnings
@@ -672,7 +673,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; playtest Horde personas (Orc/Shaman/Hunter), 0 stuck, residue R1 only (Barrens expedition leg)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 12 rares (all sole-drop signatures, 2 as killable opposition) + Fixed Chests loop (91 pts) + Gizmorium Crate, 14 recipes (9 vendor + 5 narrow drops), 0 lint errors/warnings
 
 ### Feralas — Horde
 
@@ -685,9 +686,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Tanaris — Horde
 
-- [ ] Census (reconcile against 10 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 10 Horde-mask pool records (10/10 banked set-asides reconciled), 7 IN / 3 OUT, band 38-50, docs/tanaris-horde-census.md
+- [x] Core guide - `tanaris-horde.guide` (7 quests, band 38-50, 1 soft-pre mini + 3 capital expeditions)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas, 0 stuck (R1 expedition + R2/R5 sourceless residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

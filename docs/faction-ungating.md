@@ -319,6 +319,13 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: tanaris.guide
 - header: Alliance; contract: 91 (6 primary / 85 shared)
 - shared IDs: 992, 82, 10, 110, 113, 2781, 1560, 97540, 1690, 1691, 1707, 2768, 2771, 2772, 2773, 3321, 2865, 2873, 2874, 2875, 2876, 3042, 8365, 8366, 97530, 3520, 3527, 4787, 3528, 5065, 4788, 8181, 8182, 2605, 2606, 2641, 2661, 2662, 5863, 2954, 3362, 3444, 3446, 3447, 3913, 3914, 4289, 4290, 4291, 4292, 4301, 9052, 9051, 9053, 4324, 4504, 4496, 4507, 351, 648, 3161, 6610, 95144, 1189, 95383, 95312, 95321, 95472, 95753, 3638, 3639, 7652, 7653, 7654, 7655, 7656, 7657, 7658, 7659, 94265, 94277, 94289, 94301, 94313, 2741
+### tanaris (UNGATED 2026-11-18, Horde round)
+- file: tanaris.guide (was Alliance primary)
+- contract: 91 (6 primary / 85 shared, per the pack-wide sweep; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 162, 2944, 2977, 3022, 4508, 97536.
+- Lines gated: 13 quest lines (`only Alliance` on every accept/turnin/complete of the 6 primaries; composition N/A - no pre-existing class gates on those lines). 3 either-or minis comma-extended (`when onquest 3445,3380` / `4493,4494` / `6612,6611`) - mixed availability, steps stay bare, no step gate; first use of comma-OR when-lists in an ungating (engine supports it per dsl/when.js, honored by playtest-honest). 3 single-pre minis (`when onquest 2941/4508/2944`, all Alliance-only pres) gated at STEP level with `only Alliance`. 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). Shared lines for all 85 shared IDs stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 99 warnings, warned quest-ID set (62 IDs) identical to pre-edit baseline; 4 pre-texts improved to either-or form within the same out-of-contract-pre class (3444/4496 via the comma lists; 2954/3638 via header-drop faction-neutrality surfacing the Horde-side pres 2966/3526). Playtest `--honest` both factions: 0 stuck; Alliance outcome byte-identical per-persona vs baseline (72 findings, full multiset match); Horde personas (Orc/Scourge) complete only shared lines with residue only in R1/R2 (+1 pre-existing R3 writ warn); mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
 ### badlands
 - file: badlands.guide
 - header: Alliance; contract: 35 (12 primary / 23 shared)
