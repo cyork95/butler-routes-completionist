@@ -1,0 +1,151 @@
+# Butler Routes - Badlands (Horde) completionist (pack butler-routes-completionist, v1).
+# Every Horde accept in the local census (13 quests, docs/badlands-horde-census.md)
+# appears exactly once as an accept and once as a turnin. The above-band Kargath
+# chains, the repeatable Seal cycle and the Searing Gorge accept stay out with
+# reasons in the census. No race or class gates: nothing contracted is race- or
+# class-locked. Profession records ride optional goals behind when-skill steps.
+# Sourceless mid-chain lines (the Remains accept, the four necklace gems) carry
+# honest notes naming the gap. Accepts whose pres sit outside every pack contract
+# ride dedicated `when onquest` mini-steps, each standing alone. Expedition legs
+# and turn-ins (Undercity, Orgrimmar, Swamp of Sorrows) switch frames deliberately
+# and switch back.
+guide butler-routes-completionist/badlands-horde
+title Badlands (Horde)
+levels 30-40
+zone Badlands
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Kargath hub - coyotes, reagents, the earth's sign
+
+  zone map 1418
+
+  tip Neeka Bloodscar (6.49, 47.2) hires coyote hunters at Kargath; Jarkal Mossmeld (2.42, 46.06) runs reagents next door; Gorn (2.91, 45.6) wants the earth's sign.
+  accept 1419 -- Coyote Thieves - Neeka Bloodscar; coyote jawbones, Dustbowl
+  accept 2258 -- Badlands Reagent Run - Jarkal Mossmeld; gizzards, fangs and shards
+  accept 782 -- Broken Alliances - Gorn; the Sign of the Earth, far west
+  complete 1419 @46.68,44.14 era -- Coyote Jawbones off the Crag Coyotes, center
+  complete 2258 @46.68,44.14 era -- Crag Coyote Fangs off the same packs, center
+  complete 2258 @48.91,27.41 era -- Buzzard Gizzards off the Starving Buzzards, south-east
+  complete 2258 @11.98,34.27 era -- Rock Elemental Shards off the Rock Elementals, west
+  complete 782 @12.62,75.49 era -- the Sign of the Earth off Boss Tho'grun, far west
+
+step Kargath turn-ins - Thor, reagents, the Uldaman run
+
+  zone map 1418
+
+  turnin 782 -- Broken Alliances - the sign back to Gorn
+  accept 793 -- Broken Alliances - Gorn; bindings and chains, far east
+  turnin 2258 -- Badlands Reagent Run - the gizzards, fangs and shards to Jarkal Mossmeld
+  accept 2202 -- Uldaman Reagent Run - Jarkal Mossmeld; magenta caps, north
+  turnin 1419 -- Coyote Thieves - the jawbones to Neeka Bloodscar
+  complete 2202 @34.04,24.42 era -- Magenta Fungus Caps off the Magenta Cap Clusters, north
+  turnin 2202 -- Uldaman Reagent Run - the caps to Jarkal Mossmeld
+
+step Jarkal's second run (Alchemy)
+
+  zone map 1418
+
+  when skill Alchemy 1
+
+  tip Jarkal's second ask needs the alchemist's hands - skip it without them.
+  accept 2203 optional -- Badlands Reagent Run II - Jarkal Mossmeld; vessels of dragon's blood, east
+  complete 2203 @77.44,53.80 era -- Vessels of Dragon's Blood off the Scorched Guardians, east
+  turnin 2203 optional -- Badlands Reagent Run II - the vessels to Jarkal Mossmeld
+
+step Theldurin's digest - the Undercity pass (soft pre)
+
+  zone map 1418
+
+  when onquest 709
+
+  tip Holding 709 (Solution to Doom, from Theldurin the Lost): the digest pass-through at his south camp (51.39, 76.87).
+  accept 728 -- To the Undercity for Yagyin's Digest - Theldurin the Lost; Bel'dugur takes it in the Undercity
+
+step Undercity expedition - Bel'dugur's digest
+
+  zone Undercity
+
+  when onquest 728
+
+  turnin 728 -- To the Undercity for Yagyin's Digest - the digest to Keeper Bel'dugur @53.74,54.46 era
+  note The chain continues with 736 (The Star, the Hand and the Heart) from Bel'dugur - in no pack contract; uncontracted past here.
+  zone Badlands
+
+step Far east - Blacklash's bindings
+
+  zone map 1418
+
+  complete 793 @81.88,49.46 era -- Blacklash's Bindings and the Chains of Hematus off Blacklash and Hematus, far east
+
+step Thorkaf's dragonscales (Leatherworking)
+
+  zone map 1418
+
+  when skill Leatherworking 1
+
+  tip Thorkaf Dragoneye (62.7, 57.4) teaches Dragonscale Leatherworking to leatherworkers - skip it without the trade. Its twins 5146 (Elemental, Arathi) and 5148 (Tribal, Stranglethorn) are exclusive - pick one line.
+  accept 5145 optional -- Dragonscale Leatherworking - Thorkaf Dragoneye; breastplates, gloves and worn dragonscales
+  complete 5145 @69.67,53.81 era -- Worn Dragonscales off the Scalding Whelps, east
+  note The breastplates and gloves (two each) are crafted turn-ins with no source anywhere in the data - have them made or in your bags.
+  turnin 5145 optional -- Dragonscale Leatherworking - the scales and craftwork to Thorkaf Dragoneye
+
+step Kargath returns - the Thor chain's end
+
+  zone map 1418
+
+  turnin 793 -- Broken Alliances - the bindings and chains to Gorn
+  note The chain continues with 795 (Seal of the Earth) at the Seal object (81.52, 49.94) - a repeatable cycle, in no contract; the contracted story ends here.
+
+step Uldaman remains - the journal page (soft pre)
+
+  zone map 1418
+
+  when onquest 2284
+
+  tip Holding 2284 (Necklace Recovery, Take 2, from Dran Droffers in Orgrimmar): the Remains of a Paladin has no placed spawn anywhere in the data - accept in the field and bank the page.
+  accept 2318 -- Translating the Journal - the Remains of a Paladin; Jarkal takes the page at Kargath
+  turnin 2318 -- Translating the Journal - the page to Jarkal Mossmeld
+
+step Kargath - translating the journal
+
+  zone map 1418
+
+  accept 2338 -- Translating the Journal - Jarkal Mossmeld; talk it through
+  turnin 2338 -- Translating the Journal - the talk back to Jarkal Mossmeld
+  accept 2339 -- Find the Gems and Power Source - Jarkal Mossmeld; four gems with no placed source
+  note The ruby, sapphire, topaz and power source have no placed source anywhere in the data (spawnless bosses Grimlok and Archaedas, spawnless cache objects) - bank them if they turn up.
+  complete 2339 -- the four gems for Jarkal Mossmeld
+  turnin 2339 -- Find the Gems and Power Source - the gems to Jarkal Mossmeld
+  accept 2340 -- Deliver the Gems - Jarkal Mossmeld; Dran takes them in Orgrimmar
+
+step Orgrimmar expedition - Dran's gems
+
+  zone Orgrimmar
+
+  when onquest 2340
+
+  turnin 2340 -- Deliver the Gems - the gems to Dran Droffers @59.49,36.57 era
+  note The chain continues with 2341 (Necklace Recovery, Take 3) from Dran - Orgrimmar-contracted; handed off, not duplicated here.
+  zone Badlands
+
+step Neeka's report - Helgrum's word (soft pre)
+
+  zone map 1418
+
+  when onquest 1418
+
+  tip Holding 1418 (Neeka Bloodscar, from Helgrum the Swift in the Swamp of Sorrows): Neeka takes the report at Kargath (6.49, 47.2).
+  accept 1420 -- Report to Helgrum - Neeka Bloodscar; Helgrum takes the word in the Swamp of Sorrows
+
+step Swamp expedition - Helgrum's report
+
+  zone Swamp of Sorrows
+
+  when onquest 1420
+
+  turnin 1420 -- Report to Helgrum - the word to Helgrum the Swift @47.74,55.2 era
+  zone Badlands
