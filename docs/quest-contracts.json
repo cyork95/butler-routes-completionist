@@ -15527,6 +15527,24 @@
         {"id": 6029, "name": "The Everlook Report"},
         {"id": 4882, "name": "Guarding Secrets"}
       ]
+    },
+    {
+      "id": "eastern-plaguelands-horde",
+      "name": "Eastern Plaguelands (Horde)",
+      "order": 76,
+      "levelBand": "50-60",
+      "summary": "Horde side of contested Eastern Plaguelands.",
+      "quests": [
+        {"id": 4987, "name": "Glyphed Oaken Branch"},
+        {"id": 5023, "name": "Better Late Than Never"},
+        {"id": 5230, "name": "Return to the Bulwark"},
+        {"id": 5232, "name": "Return to the Bulwark"},
+        {"id": 5234, "name": "Return to the Bulwark"},
+        {"id": 5236, "name": "Return to the Bulwark"},
+        {"id": 6390, "name": "A Plague Upon Thee"},
+        {"id": 6569, "name": "Oculus Illusions"},
+        {"id": 6570, "name": "Emberstrife"}
+      ]
     }
   ]
 }
