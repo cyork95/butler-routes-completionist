@@ -35,8 +35,8 @@ minLevel is 38 (98192).
 |----|-------|---------|--------|-------|
 | 1238 | The Lost Report | 35/30 | — (object-start) | Loose Dirt 20985 placed on 1445 [55.44, 25.92]; ends Nazeer Bloodpike (1424+1445; 1445 pt [35.21, 30.66]); no objectives; next 1240 (Barrens — chain exit, handoff note, never contracted here) |
 | 1239 | The Severed Head | 35/30 | — (object-start) | Same Loose Dirt object; pre 1238 (in-contract); ends Nazeer; no objectives |
-| 1270 | Stinky's Escape | 37/30 | "Stinky" Ignatz (1445-only [46.88, 17.52]) | Horde version of the Alliance-contracted Stinky escort (same-title mirrors, enders diverge: Mebok vs Stern — faction split decides); event objective "Help Stinky find Bogbean Leaves" (no placed point — escort rides as written); ender Mebok Mizzyrix on map 1413 [62.37, 37.62] → expedition leg with an escort-shape note; no pre |
-| 1273 | Questioning Reethe | 37/30 | Ogron (1445 [40.96, 36.69]) | kill Paval Reethe 1445 [42.65, 38.07] + event "Question Reethe with Ogron" (no point — completes at Ogron); pre 1269 (Barrens object-start, outside) → soft-pre mini; ends Krog (1424+1445; 1445 pt [36.42, 31.88]) |
+| 1270 | Stinky's Escape | 37/30 | "Stinky" Ignatz (1445-only [46.88, 17.52]) | Horde version of the Alliance-contracted Stinky escort (same-title mirrors, enders diverge: Mebok vs Stern — faction split decides); event objective "Help Stinky find Bogbean Leaves" placed on 1445 [48.87, 24.58] — escort Stinky→Bogbean in-zone, expedition leg only for the Mebok turn-in; ender Mebok Mizzyrix on map 1413 [62.37, 37.62]; no pre |
+| 1273 | Questioning Reethe | 37/30 | Ogron (1445 [40.96, 36.69]) | kill Paval Reethe 1445 [42.65, 38.07] + event "Question Reethe with Ogron" placed on 1445 [42.47, 38.07] (same compound — both objectives complete there); pre 1269 (Barrens object-start, outside) → soft-pre mini; ends Krog (1413+1445; 1445 pt [36.42, 31.88]) |
 | 98192 | Skin Careful, Skin Sharp | 43/38 | Krak (1424+1445; 1445 pt [36.4, 30.85]) | 8 Intact Raptor Hides off Bloodfen Razormaw/Lashtail, in-zone [31-33, 64-66]; no pre; ends Krak |
 
 No class, race, skill, event, or repeatable flags on any of the 5 — no
@@ -148,16 +148,16 @@ scale and its exits (95454 zone-None, Eitrigg on the Orgrimmar map, Ulka
 as a self-contained hub) all sit outside the band; minLevel draws the
 line.
 (d) 1270's cross-key ender: the quest accepts in-zone (Stinky is
-1445-only), so it is ours; the ender (Mebok, 1413 [62.37, 37.62]) rides
-an expedition leg and the escort objective rides as written with an
-honest shape note (no placed Bogbean point in the data; no invented
-path). Accept-based contracting cuts the other way too — the twin
-1222 stays Alliance-side on its Stern ender.
+1445-only), so it is ours; the Bogbean event is placed in-zone (1445
+[48.87, 24.58]) so the escort runs Stinky→Bogbean on the map, and only
+the Mebok turn-in (1413 [62.37, 37.62]) rides an expedition leg.
+Accept-based contracting cuts the other way too — the twin 1222 stays
+Alliance-side on its Stern ender.
 (e) 1273's pre 1269: an out-of-contract Barrens object-start whose
 badge also sits on 1445 [29.83, 48.24] — the Kristy rule still assigns
-the quest to zone 1413 (starter not only on 1445), so 1273's complete
-rides a `when onquest 1269` mini with the badge point named, never
-inline.
+the quest to zone 1413 (starter not only on 1445), so 1273's completes
+(kill at [42.65, 38.07], questioning placed at [42.47, 38.07]) ride a
+`when onquest 1269` mini, never inline.
 (f) 96334's bandana item (274028, Alcaz/Defias droppers): logged with
 the m48 OUT, not sourced in-guide — above-band records get reasons,
 not routes.
