@@ -15582,6 +15582,28 @@
         {"id": 9416, "name": "Report to General Kirika"},
         {"id": 9422, "name": "Scouring the Desert"}
       ]
+    },
+    {
+      "id": "the-barrens-alliance",
+      "name": "The Barrens (Alliance)",
+      "order": 81,
+      "levelBand": "1-47",
+      "summary": "Alliance addendum: the Alliance-only Barrens accepts the Horde census set aside - Dizzywig 1040 (pre 1039 darnassus-city, ends Ruzzgot Booty Bay), the south-Barrens Theramore chain 1252/1253/1284/1287 (pres/nexts dustwallow-marsh, ends Vimes), the Takar warlock pair 1738/65602 (pre 1716 stormwind-city, completes Ashenvale, ends Gakin Stormwind), Strahad 1758 (pre 1798 stormwind-city, ends Krom Ironforge), Tinkerwiz profession 3634 (ends Overspark Ironforge), Falla 3370 (pre 6981 the-barrens, ends Mathrengyl Darnassus), chicken 3861, Bainham 97005, and the Shaman link 94375 (pre 94374 dun-morogh, ends Teo Dun Morogh). 8268 and 98903/98904/98905 excluded: battleground content.",
+      "quests": [
+        {"id": 1040, "name": "Passage to Booty Bay"},
+        {"id": 1252, "name": "Lieutenant Paval Reethe"},
+        {"id": 1253, "name": "The Black Shield"},
+        {"id": 1284, "name": "Suspicious Hoofprints"},
+        {"id": 1287, "name": "The Deserters"},
+        {"id": 1738, "name": "Heartswood"},
+        {"id": 1758, "name": "Tome of the Cabal"},
+        {"id": 3370, "name": "In Nightmares"},
+        {"id": 3634, "name": "Gnome Engineering"},
+        {"id": 3861, "name": "CLUCK!"},
+        {"id": 65602, "name": "What Is Love?"},
+        {"id": 94375, "name": "Call of Earth"},
+        {"id": 97005, "name": "Chol'aruk the Ravener"}
+      ]
     }
   ]
 }
