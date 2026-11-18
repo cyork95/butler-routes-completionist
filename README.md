@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.135.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.136.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -79,6 +79,7 @@ Status: **in development (pack v0.135.0), not published yet**. The first release
 | `alterac-horde-rares.guide` (companion built, pilot pending) | Alterac Mountains (Horde) rares and treasures | 20-45 | Horde |
 | `alterac-horde-recipes.guide` (companion built, pilot pending) | Alterac Mountains (Horde) recipe sources | 20-45 | Horde |
 | `moonglade.guide` (Druid class guide built, pilot pending) | Moonglade (Druid class quests) | 10-52 | Alliance (Druid) |
+| `moonglade-horde.guide` (Horde block class guide built, pilot pending) | Moonglade (Horde) | 10-20 | Horde (Druid) |
 | `dustwallow.guide` (Set 4 core built, pilot pending) | Dustwallow Marsh | 35-45 | Alliance |
 | `dustwallow-horde.guide` (Horde block core built, pilot pending) | Dustwallow Marsh (Horde) | 30-45 | Horde |
 | `dustwallow-horde-rares.guide` (companion built, pilot pending) | Dustwallow Marsh (Horde) rares and treasures | 30-45 | Horde |

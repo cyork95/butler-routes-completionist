@@ -305,6 +305,13 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: moonglade.guide (druid class guide)
 - header: shared-only; contract: 19 (0 primary / 19 shared)
 - shared IDs: 29, 272, 5061, 5924, 5929, 5931, 6122, 6125, 94912, 98394, 98396, 98731, 98341, 98404, 98738, 98397, 9052, 9051, 9053
+### moonglade (UNGATED 2026-11-18, Horde round)
+- file: moonglade.guide (was Alliance-class primary; druid class guide)
+- contract: 19 (0 primary / 19 shared by faction-mask test - zero 8589934770/4294967373 records; race restriction lives in pre-existing per-line gates)
+- Lines gated: 0 new gates (every goal line already carries its data-exact race gate: `only NightElf,Druid` / `only NightElf,Skyborne,Druid` / `only Skyborne,Druid`; null-mask lines stay bare). 0 soft-pre minis (no `when onquest` steps exist). 0 travel lines (zone/zone-map framing only). No `only Horde` lines added anywhere.
+- Anomalies: none. Header dropped (`faction Alliance` line only; `class Druid` stays).
+- Verification: forge lint 0 errors / 21 warnings, warned quest-ID set identical to pre-edit baseline; the single text change is an either/or pre improvement (98341 now names Horde twin 98340 alongside 98393). Playtest `--honest` both factions NightElf + Skyborne druids: 0 stuck; both personas byte-identical per-persona vs baseline; Warrior-only run: 0 findings pack-wide (gates hide all class lines from non-druids). Horde-visibility of shared 98738 confirmed: Skyborne-druid persona walks the full Windborne chain (accept 98341 through turnin 98738) with zero non-R1 findings. Dead-line check: 0 violations.
+
 ### dustwallow-marsh (UNGATED this round - see above)
 - file: dustwallow.guide (was Alliance primary)
 - contract: 45 (21 primary / 24 shared)

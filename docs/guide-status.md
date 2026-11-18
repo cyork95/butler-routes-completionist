@@ -326,6 +326,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Census
 - [x] Core guide - `moonglade.guide`
 - [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1 expedition residue only)
+- [x] Faction ungating (Option A, 2026-11-17)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - recipes shipped (8 vendor buys in `moonglade-recipes.guide`); rares/treasures none in data (0 rares, 1 seasonal event barrel)
@@ -777,9 +778,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Moonglade — Horde (Druid)
 
-- [ ] Census (reconcile against 18 Horde druid set-asides banked by the Moonglade census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 18 Horde-mask pool records (18/18 banked set-asides reconciled), span 10-20, docs/moonglade-horde-census.md
+- [x] Core guide - `moonglade-horde.guide` (18 quests, span 10-20, Tauren/Skyborne-gated lines)
+- [x] Lint/playtest clean - 0 errors (XP-model noise only); playtest Horde druid personas + non-druid, 0 stuck, 0 residue
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
