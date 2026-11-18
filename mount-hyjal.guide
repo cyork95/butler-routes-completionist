@@ -20,7 +20,6 @@ guide butler-routes-completionist/mount-hyjal
 title Mount Hyjal
 levels 54-60
 zone Mount Hyjal
-faction Alliance
 category Leveling
 folder Kalimdor
 coords live
@@ -31,13 +30,13 @@ step Western post arrival - Blight No More
   zone map 2482
 
   tip The western post is the hub: Sefira, Daythor, Hnaz and Mirt below. This leg clears the post's own chains.
-  accept 92449 -- Blight No More - Sefira Everbright (15.67, 54.66); soldiers and raveners south and east of the post
-  complete 92449 @22.26,56.56 -- Forgotten Soldiers south of the post
-  complete 92449 @22.22,53.34 -- Fleshflay Raveners east of the post
-  turnin 92449 -- Blight No More - back to Sefira Everbright
-  accept 92591 -- Final Death - Sefira Everbright; Reanimator's Amulets off the Scourge Reanimators
-  complete 92591 @26.75,58.76 -- Scourge Reanimators east of the post
-  turnin 92591 -- Final Death - back to Sefira Everbright
+  accept 92449 only Alliance -- Blight No More - Sefira Everbright (15.67, 54.66); soldiers and raveners south and east of the post
+  complete 92449 only Alliance @22.26,56.56 -- Forgotten Soldiers south of the post
+  complete 92449 only Alliance @22.22,53.34 -- Fleshflay Raveners east of the post
+  turnin 92449 only Alliance -- Blight No More - back to Sefira Everbright
+  accept 92591 only Alliance -- Final Death - Sefira Everbright; Reanimator's Amulets off the Scourge Reanimators
+  complete 92591 only Alliance @26.75,58.76 -- Scourge Reanimators east of the post
+  turnin 92591 only Alliance -- Final Death - back to Sefira Everbright
   accept 90750 -- More Work? - Sefira Everbright; the listed Zet'gan twin prequest 95026 is the Horde twin of Blight No More and out of contract - the Alliance 92449 above satisfies this chain
   turnin 90750 -- More Work? - to Daythor Brellan (15.55, 52.07)
   accept 90854 -- Leather for Inclement Weather - Zet'gan (13.82, 54.75); same twin note as More Work? above
@@ -46,22 +45,22 @@ step Western post arrival - Blight No More
   turnin 95769 -- Threading a Solution - back to Kal'tinzan
   accept 92433 -- Now We're Cooking - Hnaz Blunderflame (15.64, 49.99)
   turnin 92433 -- Now We're Cooking - back to Hnaz Blunderflame
-  accept 95027 -- Feathers in Flight - Hnaz Blunderflame; Hyjal Owl Feathers off the owls northwest
-  complete 95027 @18.98,60.98 -- Hyjal Owls northwest of the post
-  turnin 95027 -- Feathers in Flight - back to Hnaz Blunderflame
-  accept 96674 -- Ewe Wandered Off - Mirt (15.93, 52.72); the escaped sheep west of the post
-  complete 96674 @11.28,51.08 -- Escaped Sheep west of the post
-  turnin 96674 -- Ewe Wandered Off - back to Mirt
-  accept 95218 -- More of the Same - Daythor Brellan (15.55, 52.07); for Sefira at the post
-  turnin 95218 -- More of the Same - to Sefira Everbright
-  accept 94832 -- Belle's Ring - Sefira Everbright; for Daythor Brellan
-  turnin 94832 -- Belle's Ring - to Daythor Brellan
-  accept 96077 -- Belle's Ring - Daythor Brellan (15.55, 52.07); accept-only - no turn-in exists anywhere in the data, contracted with this honest note, never an invented turn-in
+  accept 95027 only Alliance -- Feathers in Flight - Hnaz Blunderflame; Hyjal Owl Feathers off the owls northwest
+  complete 95027 only Alliance @18.98,60.98 -- Hyjal Owls northwest of the post
+  turnin 95027 only Alliance -- Feathers in Flight - back to Hnaz Blunderflame
+  accept 96674 only Alliance -- Ewe Wandered Off - Mirt (15.93, 52.72); the escaped sheep west of the post
+  complete 96674 only Alliance @11.28,51.08 -- Escaped Sheep west of the post
+  turnin 96674 only Alliance -- Ewe Wandered Off - back to Mirt
+  accept 95218 only Alliance -- More of the Same - Daythor Brellan (15.55, 52.07); for Sefira at the post
+  turnin 95218 only Alliance -- More of the Same - to Sefira Everbright
+  accept 94832 only Alliance -- Belle's Ring - Sefira Everbright; for Daythor Brellan
+  turnin 94832 only Alliance -- Belle's Ring - to Daythor Brellan
+  accept 96077 only Alliance -- Belle's Ring - Daythor Brellan (15.55, 52.07); accept-only - no turn-in exists anywhere in the data, contracted with this honest note, never an invented turn-in
   accept 90865 -- Eyes of the Watchers - Eluneth (18.78, 62.01); the Watcher's Eye has no placed source in the data - check the watchers north, then turn in here
   turnin 90865 -- Eyes of the Watchers - back to Eluneth
-  accept 90702 -- Disturbed Grave - the Unmarked Grave (22.46, 48.66); the Ring of the Fallen Soldier has no placed source in the data - check the grounds, then carry it to Eluneth
-  turnin 90702 -- Disturbed Grave - to Eluneth (18.78, 62.01)
-  accept 91688 -- To the Summit of Eternity - Sefira Everbright; for Thisalee Crow at the northeast summit - carried on the summit leg below
+  accept 90702 only Alliance -- Disturbed Grave - the Unmarked Grave (22.46, 48.66); the Ring of the Fallen Soldier has no placed source in the data - check the grounds, then carry it to Eluneth
+  turnin 90702 only Alliance -- Disturbed Grave - to Eluneth (18.78, 62.01)
+  accept 91688 only Alliance -- To the Summit of Eternity - Sefira Everbright; for Thisalee Crow at the northeast summit - carried on the summit leg below
 
 step Furbolg den - Balance Through Strength
 
@@ -93,15 +92,15 @@ step Fenwick's grove - Branch Out
   zone map 2482
 
   tip Fenwick's survival camp sits south; the Matriarch dens west. This leg clears both before the elder grove.
-  accept 92702 -- Branch Out - Fenwick Togglespring (25.31, 75.87); the Sturdy Tree Branch has no placed source in the data - the Tree Branch ancients at the grove are the evident match, never waited on
-  turnin 92702 -- Branch Out - back to Fenwick Togglespring
-  accept 92064 -- Tree Free - Fenwick Togglespring; the Tree Branch ancient at the grove
-  complete 92064 @25.27,76.34 -- the Tree Branch ancient
-  turnin 92064 -- Tree Free - back to Fenwick Togglespring
-  accept 96559 -- Supply Drop - Fenwick Togglespring; for the Personal Survival Pack
-  turnin 96559 -- Supply Drop - to the Personal Survival Pack (25.46, 74.62)
-  accept 93383 -- Contents Under Pressure - the Personal Survival Pack (25.46, 74.62)
-  turnin 93383 -- Contents Under Pressure - back to the Personal Survival Pack
+  accept 92702 only Alliance -- Branch Out - Fenwick Togglespring (25.31, 75.87); the Sturdy Tree Branch has no placed source in the data - the Tree Branch ancients at the grove are the evident match, never waited on
+  turnin 92702 only Alliance -- Branch Out - back to Fenwick Togglespring
+  accept 92064 only Alliance -- Tree Free - Fenwick Togglespring; the Tree Branch ancient at the grove
+  complete 92064 only Alliance @25.27,76.34 -- the Tree Branch ancient
+  turnin 92064 only Alliance -- Tree Free - back to Fenwick Togglespring
+  accept 96559 only Alliance -- Supply Drop - Fenwick Togglespring; for the Personal Survival Pack
+  turnin 96559 only Alliance -- Supply Drop - to the Personal Survival Pack (25.46, 74.62)
+  accept 93383 only Alliance -- Contents Under Pressure - the Personal Survival Pack (25.46, 74.62)
+  turnin 93383 only Alliance -- Contents Under Pressure - back to the Personal Survival Pack
   accept 91698 -- Barkskin Breakout - Barkskin Matriarch (31.5, 58.59); the Deadwood Key has no placed source in the data - check the Deadwood, then turn in here
   turnin 91698 -- Barkskin Breakout - back to Barkskin Matriarch
   accept 91696 -- Open Season - Barkskin Matriarch (31.5, 58.59); accept-only - no turn-in exists anywhere in the data, contracted with this honest note, never an invented turn-in
@@ -137,8 +136,8 @@ step Ketharas hub - Seeds for a New Season
   zone map 2482
 
   tip Ketharas anchors the southeast: Quintus far east first, then the hub's own chains. The Corvid and the summit chain accept here for legs below.
-  accept 96833 -- Venom Maws - Quintus Wainworth (79.85, 70.69); for Ketharas
-  turnin 96833 -- Venom Maws - to Ketharas (73.34, 81.88)
+  accept 96833 only Alliance -- Venom Maws - Quintus Wainworth (79.85, 70.69); for Ketharas
+  turnin 96833 only Alliance -- Venom Maws - to Ketharas (73.34, 81.88)
   accept 95568 -- Seeds for a New Season - Ketharas; the Untainted Seed has no placed source in the data - check the grounds, then turn in here
   turnin 95568 -- Seeds for a New Season - back to Ketharas
   accept 95569 -- Hope for Hatchlings - Ketharas; Hyjal Owl Eggs off the eastern owls
@@ -196,7 +195,7 @@ step Crow and Felflick - A Curious Question
   turnin 96930 -- The Capricious Corvid - to the Curious Crow; from Ketharas above - this opens the Jereman branch below
   accept 96931 -- Heading Up the Mountain - the Curious Crow; for Jereman in the center
   accept 96131 -- An Oldstone But An Old Friend - the Curious Crow; for Ketharas - carried on the Ketharas return below
-  accept 91881 -- The Western Post - the Curious Crow; for Sefira Everbright at the western post - carried on the closing sweep below
+  accept 91881 only Alliance -- The Western Post - the Curious Crow; for Sefira Everbright at the western post - carried on the closing sweep below
 
 step Jereman branch - Heading Up the Mountain
 
@@ -311,7 +310,7 @@ step Thisalee's rise - Cult Closure
   turnin 93584 -- Cult Closure - back to Thisalee Crow
   accept 96303 -- Memory Mist - Thisalee Crow (68.99, 49.99)
   turnin 96303 -- Memory Mist - back to Thisalee Crow
-  turnin 91688 -- To the Summit of Eternity - to Thisalee Crow; from Sefira at the western post above
+  turnin 91688 only Alliance -- To the Summit of Eternity - to Thisalee Crow; from Sefira at the western post above
   turnin 96025 -- As the Crow Flies - to Thisalee Crow; from Elaena on the northern front above
 
 step Marn's perch - Cleansing Winds
@@ -357,18 +356,18 @@ step Center front - Johun, Kaylaena, Phoebe
   zone map 2482
 
   tip The center front: Johun's skunks and siege chain, Kaylaena's workshop, Galvinquam west, Phoebe and Kala'th south of her. Jereman's and Kala'th's turn-ins from the branch land here.
-  accept 92015 -- Area Denial Skunks - Johun "Punchy" Dillas (43.91, 37.81)
-  turnin 92015 -- Area Denial Skunks - back to Johun "Punchy" Dillas
-  accept 92014 -- Fox Hole - Johun "Punchy" Dillas; Rustleaf Fox Tails off the foxes
-  complete 92014 @43.7,38.18 -- Rustleaf Foxes near the post
-  turnin 92014 -- Fox Hole - back to Johun "Punchy" Dillas
-  accept 96992 -- Resupply - Johun "Punchy" Dillas; Nails and Metal Brackets have no placed sources in the data - resupply around the front, then turn in here
-  turnin 96992 -- Resupply - back to Johun "Punchy" Dillas
-  accept 92593 -- Avalanche of Corruption - Johun "Punchy" Dillas; Dae'gun Horde Tower scouting has no placed objective in the data - scout the tower, then turn in here
-  turnin 92593 -- Avalanche of Corruption - back to Johun "Punchy" Dillas
-  accept 96494 -- Gathering Storm - Johun "Punchy" Dillas; the Hyjal Summit entrance has no placed objective in the data - find the entrance, then turn in here
-  turnin 96494 -- Gathering Storm - back to Johun "Punchy" Dillas
-  accept 96529 -- A Shaw Deal - Johun "Punchy" Dillas; for Master Mathias Shaw in Stormwind - carried on the expedition below
+  accept 92015 only Alliance -- Area Denial Skunks - Johun "Punchy" Dillas (43.91, 37.81)
+  turnin 92015 only Alliance -- Area Denial Skunks - back to Johun "Punchy" Dillas
+  accept 92014 only Alliance -- Fox Hole - Johun "Punchy" Dillas; Rustleaf Fox Tails off the foxes
+  complete 92014 only Alliance @43.7,38.18 -- Rustleaf Foxes near the post
+  turnin 92014 only Alliance -- Fox Hole - back to Johun "Punchy" Dillas
+  accept 96992 only Alliance -- Resupply - Johun "Punchy" Dillas; Nails and Metal Brackets have no placed sources in the data - resupply around the front, then turn in here
+  turnin 96992 only Alliance -- Resupply - back to Johun "Punchy" Dillas
+  accept 92593 only Alliance -- Avalanche of Corruption - Johun "Punchy" Dillas; Dae'gun Horde Tower scouting has no placed objective in the data - scout the tower, then turn in here
+  turnin 92593 only Alliance -- Avalanche of Corruption - back to Johun "Punchy" Dillas
+  accept 96494 only Alliance -- Gathering Storm - Johun "Punchy" Dillas; the Hyjal Summit entrance has no placed objective in the data - find the entrance, then turn in here
+  turnin 96494 only Alliance -- Gathering Storm - back to Johun "Punchy" Dillas
+  accept 96529 only Alliance -- A Shaw Deal - Johun "Punchy" Dillas; for Master Mathias Shaw in Stormwind - carried on the expedition below
   accept 92008 -- Premiere Parts - Kaylaena Springwhisper (60.1, 61.18); for Nami in Winterspring - carried on the expedition below
   accept 92011 -- Rubble Rummage - Kaylaena Springwhisper; the Frayed Wire, Calcified Excrement and Warped Metal Scrap have no placed sources in the data - rummage the rubble, then turn in here
   turnin 92011 -- Rubble Rummage - back to Kaylaena Springwhisper
@@ -402,7 +401,7 @@ step Closing sweep - Ketharas, the grove, the western post
   tip Three carried turn-ins close the route: Ketharas southeast, Fraxinus at the elder grove, Sefira back west where it started.
   turnin 93848 -- Work Well Done - to Ketharas (73.34, 81.88); from Tiala at the summit above
   turnin 90487 -- Ancient Allies - to Fraxinus (53.4, 84.33); from Ketharas above
-  turnin 91881 -- The Western Post - to Sefira Everbright (15.67, 54.66); from the Curious Crow above
+  turnin 91881 only Alliance -- The Western Post - to Sefira Everbright (15.67, 54.66); from the Curious Crow above
 
 step Winterspring expedition - Nami and Vizzie
 
@@ -419,7 +418,7 @@ step Stormwind expedition - A Shaw Deal
   zone map 1453
 
   tip The Stormwind leg: Shaw's deal. Frames switch there and back.
-  turnin 96529 -- A Shaw Deal - to Master Mathias Shaw (78.31, 70.74); from Johun above
+  turnin 96529 only Alliance -- A Shaw Deal - to Master Mathias Shaw (78.31, 70.74); from Johun above
 
   zone map 2482
 
