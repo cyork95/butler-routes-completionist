@@ -1,0 +1,200 @@
+# Swamp of Sorrows (Horde) - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns whose SOURCE is physically in Swamp of Sorrows
+# for a Horde buyer, verified against the local Forever game data
+# (questie-forever item vendor and drop tables). Seven ship as buys from
+# Stonard's Horde vendors (Masat T'andr's two Leatherworking patterns;
+# Gharash, Rartar and Banalash stock); five ship as narrow mob drops with
+# Swamp-only droppers. Masat's remaining 9 recipes are generic multi-zone
+# world drops (Elwynn rule) and do not ship. Everything else
+# Swamp-touching (~130 items, argued per case in the inventory) is a
+# generic world drop with no in-zone sole dropper. Quest records carry no
+# reward data, so no quest-reward recipe ships (logged in
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. Tailoring, Engineering and
+# Leatherworking have no Swamp Horde source beyond the two patterns, so
+# that is stated, not padded.
+guide butler-routes-completionist/swamp-of-sorrows-horde-recipes
+title Swamp of Sorrows (Horde) - Recipes
+levels 30-38
+zone Swamp of Sorrows
+faction Horde
+category Professions
+folder Companions
+keywords swamp of sorrows, horde, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Stonard - Leatherworking patterns
+
+  zone map 1435
+
+  when skill Leatherworking 1
+
+  vendor 11874 -- Masat T'andr (26.46, 31.47)
+  buy 15726 "Pattern: Green Dragonscale Breastplate" npc 11874
+  buy 228309 "Pattern: Living Green Dragonscale Breastplate" npc 11874
+  goto 26.46,31.47
+  note Masat T'andr is the sole vendor anywhere in the data for both patterns. His remaining 9 recipes are generic multi-zone world drops and do not ship here.
+  note Stock class unconfirmed - check in game.
+
+step Fallow Sanctuary - Giant Scrambled Eggs (Cooking)
+
+  zone map 1435
+
+  when skill Cooking 1
+
+  loop
+  goto 60.93,24.28
+  goto 61.82,21.85
+  goto 62.39,20.9
+  goto 62.5,23.31
+  goto 63.98,22.8
+  goto 65.23,22.8
+  kill 1106 optional
+  collect 250186 "Giant Scrambled Eggs" optional
+  note Lost One Cook (level 37) is the sole dropper anywhere in the data. No quest takes the recipe.
+
+step The eastern marshes - Mithril Stiletto (Blacksmithing)
+
+  zone map 1435
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 46.92,67.1
+  goto 47.4,64.11
+  goto 48.58,66.11
+  goto 49.15,61.9
+  goto 49.42,67.91
+  goto 49.51,63.83
+  goto 49.9,60.64
+  goto 50.31,66.51
+  goto 51.56,66.78
+  goto 51.73,64.96
+  goto 52.23,61.31
+  goto 54.32,63.45
+  kill 759 optional
+  collect 251463 "Mithril Stiletto" optional
+  note Lost One Hunter (level 36) is the sole dropper anywhere in the data. No quest takes the recipe.
+
+step The eastern marshes - Potent Anti-Venom (First Aid)
+
+  zone map 1435
+
+  when skill FirstAid 1
+
+  loop
+  goto 43.74,73.64
+  goto 44.96,70.8
+  goto 45.41,76.81
+  goto 45.67,73.1
+  goto 45.92,75.43
+  goto 47.77,72.35
+  goto 48.79,67.24
+  goto 51.25,61.63
+  goto 51.53,60.4
+  goto 51.95,62.72
+  goto 52.49,59.66
+  goto 52.92,58.32
+  goto 53.19,63.59
+  kill 760 optional
+  collect 255728 "Potent Anti-Venom" optional
+  note Lost One Muckdweller (level 36) is the sole dropper anywhere in the data. No quest takes the recipe.
+
+step The western marshes - Enchant Gloves (Enchanting)
+
+  zone map 1435
+
+  when skill Enchanting 1
+
+  loop
+  goto 26.6,42.54
+  goto 26.65,37.12
+  goto 27.36,40.09
+  goto 28.47,39.2
+  goto 29.18,41.3
+  goto 29.42,36.93
+  goto 30.38,34.37
+  goto 30.79,39.62
+  goto 31.91,37.34
+  goto 32.1,33.85
+  goto 32.72,36.45
+  kill 764 optional
+  collect 11205 "Formula: Enchant Gloves - Advanced Herbalism" optional
+  note Swampwalker (level 38) anchors the step; four more Swamp-only droppers share the table (Elder 765, Tangled Horror 766, Mire Lord 1081, Molt Thorn 14448 - the last two above band). No quest takes the recipe.
+
+step The marsh oracles - Sunny Tea (Cooking)
+
+  zone map 1435
+
+  when skill Cooking 1
+
+  loop
+  goto 42.78,55.47
+  goto 44.08,53.85
+  goto 44.63,55.83
+  goto 44.7,61.09
+  goto 45.14,57.69
+  goto 45.78,56.24
+  goto 46.08,53.87
+  goto 46.41,55.08
+  goto 47.29,57.87
+  goto 47.85,54.58
+  goto 48.3,58.65
+  goto 49.25,56.14
+  goto 52.49,54.39
+  kill 752 optional
+  collect 249883 "Sunny Tea" optional
+  note Marsh Oracle (level 44) is the sole dropper anywhere in the data but sits above the 30-38 band - come back later. He also spawns in the Blasted Lands. No quest takes the recipe.
+
+step Stonard - smithing, demonslaying and the trade goods
+
+  zone map 1435
+
+  when skill Blacksmithing 1
+
+  vendor 8176 -- Gharash (45.46, 51.41)
+  buy 7995 "Plans: Mithril Scale Bracers" npc 8176
+  goto 45.46,51.41
+  note Gharash (Horde) is the in-zone source; the same plans ride Alliance vendor Harggan elsewhere. Stock class unconfirmed - check in game.
+
+step Stonard - demonslaying draughts (Alchemy)
+
+  zone map 1435
+
+  when skill Alchemy 1
+
+  vendor 8177 -- Rartar (45.39, 56.87)
+  buy 9300 "Recipe: Elixir of Demonslaying" npc 8177
+  goto 45.39,56.87
+  note Rartar (Horde) is the in-zone source; the same recipe rides Alliance vendor Nina Lightbrew in the Blasted Lands. Stock class unconfirmed - check in game.
+
+step Stonard - enchants and campfire fare
+
+  zone map 1435
+
+  when skill Enchanting 1
+
+  vendor 989 -- Banalash (44.77, 56.63)
+  buy 11223 "Formula: Enchant Bracer - Deflection" npc 989
+  goto 44.77,56.63
+  note Banalash (Horde) is the in-zone source; the same formula rides Alliance vendor Mythrin'dir in Teldrassil. Stock class unconfirmed - check in game.
+
+step Stonard - campfire fare (Cooking)
+
+  zone map 1435
+
+  when skill Cooking 1
+
+  vendor 989 -- Banalash (44.77, 56.63)
+  buy 12232 "Recipe: Carrion Surprise" npc 989
+  buy 16111 "Recipe: Spiced Chili Crab" npc 989
+  goto 44.77,56.63
+  note Banalash (Horde) is the in-zone source for both; the same recipes ride Horde vendors elsewhere (Ogg'marr, Kireena, Uthok) and Alliance vendors in Westfall. Stock class unconfirmed - check in game.
+
+step Professions with no Swamp Horde source
+
+  zone map 1435
+
+  note Tailoring, Engineering and Leatherworking have no recipe source physically in Swamp of Sorrows for a Horde player beyond the two Stonard patterns above - stated, not padded. First Aid and Fishing are covered only by the Muckdweller drop above (First Aid) and nowhere in-zone (Fishing).
