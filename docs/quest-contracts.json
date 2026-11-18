@@ -15400,6 +15400,52 @@
         {"id": 1445, "name": "The Temple of AtalHakkar"},
         {"id": 93663, "name": "Lost in Transit"}
       ]
+    },
+    {
+      "id": "ungoro-horde",
+      "name": "Un'Goro Crater (Horde)",
+      "order": 70,
+      "levelBand": "47-53",
+      "summary": "Horde side of contested Un'Goro Crater.",
+      "quests": [
+        {"id": 4145, "name": "Larion and Muigin"},
+        {"id": 4147, "name": "Marvon's Workshop"},
+        {"id": 4148, "name": "Bloodpetal Zapper"}
+      ]
+    },
+    {
+      "id": "the-hinterlands-horde",
+      "name": "The Hinterlands (Horde)",
+      "order": 71,
+      "levelBand": "38-46",
+      "summary": "Horde side of contested The Hinterlands.",
+      "quests": [
+        {"id": 77, "name": "A Sticky Situation"},
+        {"id": 81, "name": "Ripple Delivery"},
+        {"id": 1444, "name": "Return to Fel'Zerul"},
+        {"id": 2742, "name": "Rin'ji is Trapped!"},
+        {"id": 2782, "name": "Rin'ji's Secret"},
+        {"id": 2933, "name": "Venom Bottles"},
+        {"id": 7815, "name": "Snapjaws, Mon!"},
+        {"id": 7816, "name": "Gammerita, Mon!"},
+        {"id": 7828, "name": "Stalking the Stalkers"},
+        {"id": 7829, "name": "Hunt the Savages"},
+        {"id": 7830, "name": "Avenging the Fallen"},
+        {"id": 7839, "name": "Vilebranch Hooligans"},
+        {"id": 7840, "name": "Lard Lost His Lunch"},
+        {"id": 7841, "name": "Message to the Wildhammer"},
+        {"id": 7842, "name": "Another Message to the Wildhammer"},
+        {"id": 7843, "name": "The Final Message to the Wildhammer"},
+        {"id": 7844, "name": "Cannibalistic Cousins"},
+        {"id": 7845, "name": "Kidnapped Elder Torntusk!"},
+        {"id": 7846, "name": "Recover the Key!"},
+        {"id": 7847, "name": "Return to Primal Torntusk"},
+        {"id": 7849, "name": "Separation Anxiety"},
+        {"id": 7850, "name": "Dark Vessels"},
+        {"id": 7861, "name": "Wanted: Vile Priestess Hexx and Her Minions"},
+        {"id": 7862, "name": "Job Opening: Guard Captain of Revantusk Village"},
+        {"id": 98203, "name": "Witch Doctor Ti'ik"}
+      ]
     }
   ]
 }
