@@ -1,0 +1,372 @@
+# Feralas (Horde) - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, plans, schematics, manuals and formulas whose
+# SOURCE is physically in Feralas for a Horde buyer, verified against the
+# local Forever game data (questie-forever item vendor and drop tables).
+# Sixteen are vendor-sold by in-zone Horde vendors (Jangdor Swiftstrider,
+# Bronk, and Sheendra Tallgrass at Camp Mojache, plus the neutral Zorbin
+# Fandazzle — every buy carries an npc pin to the exact in-zone vendor);
+# eleven are mob drops with sole in-zone droppers. Recipes sold only by
+# Alliance vendors do not ship (Azure Silk Cloak and the two reagent bags
+# are a genuine Horde gap — their sole vendor is Alliance). Everything else
+# Feralas-dropping is a generic multi-zone world drop (Elwynn rule, argued
+# per case in the inventory); quest records carry no reward data, so none
+# of that class ships (see docs/feralas-horde-companions-inventory.md and
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. Fishing has no Feralas
+# Horde source, so that is stated, not padded.
+guide butler-routes-completionist/feralas-horde-recipes
+title Feralas (Horde) - Recipes
+levels 38-50
+zone Feralas
+faction Horde
+category Professions
+folder Companions
+keywords feralas, horde, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Leatherworking — Camp Mojache (Jangdor Swiftstrider)
+
+  zone map 1444
+
+  when skill Leatherworking 1
+
+  tip Jangdor Swiftstrider (74.43, 42.91) at Camp Mojache sells the patterns; the shop is Horde, so Horde characters can buy.
+  buy 7451 "Pattern: Green Whelp Bracers" npc 7854
+  buy 8385 "Pattern: Turtle Scale Gloves" npc 7854
+  buy 8409 "Pattern: Nightscape Shoulders" npc 7854
+  buy 15734 "Pattern: Living Shoulders" npc 7854
+  buy 252783 "Pattern: Rugged Armor Kit" npc 7854
+  buy 252784 "Pattern: Rugged Armor Kit" npc 7854
+  buy 252811 "Pattern: Rugged Armor Kit" npc 7854
+  buy 252812 "Pattern: Rugged Armor Kit" npc 7854
+  buy 252942 "Pattern: Rugged Armor Kit" npc 7854
+  note Nightscape Shoulders and the five armor-kit patterns are sold ONLY by Jangdor — no Alliance source anywhere in the data. The duplicate Turtle Scale Gloves record (item 217271, same vendors) is deliberately not shipped; 8385 covers it. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Alchemy — Camp Mojache (Bronk)
+
+  zone map 1444
+
+  when skill Alchemy 1
+
+  tip Bronk (76.06, 43.28) at Camp Mojache sells both recipes; the shop is Horde, so Horde characters can buy.
+  buy 6057 "Recipe: Nature Protection Potion" npc 8158
+  buy 9302 "Recipe: Ghost Dye" npc 8158
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Cooking — Camp Mojache (Sheendra Tallgrass)
+
+  zone map 1444
+
+  when skill Cooking 1
+
+  tip Sheendra Tallgrass (74.49, 42.73) at Camp Mojache sells all four recipes; the shop is Horde, so Horde characters can buy.
+  buy 12229 "Recipe: Hot Wolf Ribs" npc 8145
+  buy 13947 "Recipe: Lobster Stew" npc 8145
+  buy 13948 "Recipe: Mightfish Steak" npc 8145
+  buy 13949 "Recipe: Baked Salmon" npc 8145
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Engineering — the center (Zorbin Fandazzle)
+
+  zone map 1444
+
+  when skill Engineering 1
+
+  tip Zorbin Fandazzle (44.81, 43.42) in central Feralas sells the schematic; the shop is neutral, so Horde characters can buy.
+  buy 19027 "Schematic: Snake Burst Firework" npc 14637
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Enchanting — the Hatecrest shore (rare drop)
+
+  zone map 1444
+
+  when skill Enchanting 1
+
+  loop
+  goto 23.78,62.42
+  goto 24.35,65.39
+  goto 24.75,67.05
+  goto 24.87,63.44
+  goto 24.89,73.07
+  goto 25.17,72.25
+  goto 25.24,62.76
+  goto 25.27,65.79
+  goto 25.33,66.6
+  goto 25.54,64.44
+  goto 25.7,72.13
+  goto 25.85,66.99
+  goto 25.88,62.22
+  goto 26.84,69.54
+  goto 27.03,68.41
+  goto 27.16,62.86
+  goto 27.19,69.01
+  goto 27.37,68.06
+  goto 27.54,69.41
+  goto 27.61,68.6
+  goto 28.03,68.83
+  goto 28.12,69.48
+  goto 28.24,67.63
+  goto 28.43,70.65
+  collect 249513 "Formula: Enchant 2H Weapon - Lesser Strength" optional
+  note Dropped only by the Hatecrest Sorceress (level 43); the formula drops nowhere else in the data.
+
+step First Aid — the Woodpaw grounds (rare drop)
+
+  zone map 1444
+
+  when skill First Aid 1
+
+  loop
+  goto 65.13,52.68
+  goto 65.29,51.89
+  goto 65.55,53.71
+  goto 66.09,52.93
+  goto 66.41,51.58
+  goto 67.21,55.85
+  goto 68.47,56.62
+  goto 68.55,55.08
+  goto 68.82,53.78
+  goto 69.52,55.57
+  goto 69.62,56.39
+  goto 70.88,56.64
+  goto 71.49,56.18
+  goto 71.95,57.28
+  goto 72.74,56.49
+  goto 72.79,55.7
+  goto 72.81,57.19
+  goto 73.67,57.15
+  goto 74.41,54.75
+  goto 74.62,55.77
+  goto 75.53,56.28
+  goto 76.78,56.56
+  goto 77.27,57.44
+  goto 77.69,56.37
+  collect 249882 "Recipe: Triage Tea" optional
+  note Dropped only by the Woodpaw Mystic (level 42); the recipe drops nowhere else in the data.
+
+step Alchemy — the north (rare drop)
+
+  zone map 1444
+
+  when skill Alchemy 1
+
+  loop
+  goto 37.44,15.62
+  goto 38.18,12.08
+  goto 38.57,16.13
+  goto 39.74,10.42
+  goto 41.55,14.39
+  goto 42.07,12.53
+  collect 250986 "Recipe: Superior Frenzy Potion" optional
+  note Dropped only by the Northspring Roguefeather (level 48); the recipe drops nowhere else in the data.
+
+step Blacksmithing — the Woodpaw grounds (rare drop)
+
+  zone map 1444
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 69.37,51.35
+  goto 69.74,50.85
+  goto 70.02,54.05
+  goto 70.38,51.01
+  goto 70.41,54.36
+  goto 70.98,54.93
+  goto 71,53.53
+  goto 71.25,53.77
+  goto 71.31,54.99
+  goto 71.96,36.77
+  goto 72.13,36.49
+  goto 72.41,37.67
+  goto 72.76,38.42
+  goto 72.81,36.32
+  goto 72.83,37.74
+  goto 72.91,35.78
+  goto 73.16,35.56
+  goto 73.21,36.32
+  goto 73.67,37.3
+  goto 75.21,54.43
+  goto 75.41,55.08
+  goto 75.5,54.15
+  goto 75.74,53.22
+  goto 76.22,53.98
+  collect 251462 "Plans: Mithril Claymore" optional
+  note Dropped only by the Woodpaw Mongrel (level 40); the plans drop nowhere else in the data.
+
+step Blacksmithing — the Gordunni grounds (rare drop)
+
+  zone map 1444
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 58.58,64.94
+  goto 59.31,63.63
+  goto 59.33,57.52
+  goto 60.38,57.09
+  goto 60.41,54.48
+  goto 60.42,58.2
+  goto 60.54,57.66
+  goto 61.37,56.17
+  goto 61.79,53.96
+  goto 61.85,55.16
+  goto 74.68,29.56
+  goto 74.77,27.44
+  goto 75.04,32.39
+  goto 75.07,25.14
+  goto 75.2,26.33
+  goto 75.27,29.06
+  goto 75.4,29.72
+  goto 75.69,34.02
+  goto 76.57,33.37
+  goto 77.54,34.8
+  goto 78.56,33.74
+  goto 79.67,34.2
+  goto 80.31,35.04
+  goto 80.36,34.46
+  collect 251464 "Plans: Charged Mithril Battleaxe" optional
+  note Dropped only by the Gordunni Brute (level 42); the plans drop nowhere else in the data.
+
+step Leatherworking — the Feral Scar grounds (rare drop)
+
+  zone map 1444
+
+  when skill Leatherworking 1
+
+  loop
+  goto 51.8,30.79
+  goto 52.38,29.74
+  goto 52.54,31.75
+  goto 52.94,30.4
+  goto 53.28,31.85
+  goto 54.39,33.1
+  goto 54.83,33.05
+  goto 55.01,32.52
+  collect 252909 "Pattern: Charged Scorpid Belt" optional
+  note Dropped only by the Rage Scar Yeti (level 46); the pattern drops nowhere else in the data. The same grounds carry the Perfect Yeti Hide hunt in the rares companion.
+
+step Leatherworking — the Groddoc Vale (rare drop)
+
+  zone map 1444
+
+  when skill Leatherworking 1
+
+  loop
+  goto 37.68,23.38
+  goto 39.92,18.65
+  goto 40.62,20.55
+  goto 41.13,24.15
+  goto 41.14,17.11
+  goto 41.28,15.88
+  goto 41.78,21.58
+  goto 41.81,23.27
+  goto 42.23,9.04
+  goto 42.62,11.83
+  goto 43.55,25.68
+  goto 43.7,8.28
+  goto 43.7,22.17
+  goto 43.93,23.77
+  goto 44.08,20.28
+  goto 44.79,12.16
+  goto 45.1,19.79
+  goto 45.74,22.08
+  goto 46.32,29.38
+  goto 46.69,24.96
+  goto 48.76,35.36
+  goto 50.22,29.9
+  goto 50.25,31.91
+  goto 50.59,28.23
+  collect 252916 "Pattern: Supple Scorpid Bracers" optional
+  note Dropped only by the Groddoc Thunderer (level 49); the pattern drops nowhere else in the data.
+
+step Tailoring — the surveyor (rare drop)
+
+  zone map 1444
+
+  when skill Tailoring 1
+
+  goto 91.9,49.0
+  collect 254000 "Pattern: Earthen Leggings" optional
+  note Dropped only by the Gravelsnout Surveyor (level 29) — below the core band, so trivial at Horde levels; sweep it opportunistically. The Surveyor also spawns in Thousand Needles; this is its Feralas point. The pattern drops nowhere else in the data.
+  note Horde Tailoring has no vendor source in Feralas (Brienna Starglow's stock is Alliance-only) — these three drop patterns are the profession's whole in-zone source.
+
+step Tailoring — the Feral Scar grounds (rare drop)
+
+  zone map 1444
+
+  when skill Tailoring 1
+
+  loop
+  goto 54.05,32.51
+  goto 54.89,33.52
+  goto 55.01,32.33
+  goto 55.41,32.9
+  goto 55.73,33.05
+  collect 254094 "Pattern: Earthenweave Boots" optional
+  note Dropped only by the Elder Rage Scar (level 48); the pattern drops nowhere else in the data.
+
+step Tailoring — the Hatecrest shore (rare drop)
+
+  zone map 1444
+
+  when skill Tailoring 1
+
+  loop
+  goto 24.75,72.57
+  goto 25.17,72.74
+  goto 25.45,62.98
+  goto 25.72,66.4
+  goto 25.82,71.72
+  goto 26.08,72
+  goto 26.13,67.4
+  goto 26.13,68.7
+  goto 26.29,67.78
+  goto 26.44,68.23
+  goto 26.63,68.99
+  goto 26.73,68.51
+  goto 27.02,68.26
+  goto 27.18,70.38
+  goto 27.25,68.04
+  goto 27.32,68.39
+  goto 27.43,69.77
+  goto 27.44,69.06
+  goto 27.54,70.34
+  goto 27.77,70.84
+  goto 27.78,68.44
+  goto 27.93,69.9
+  goto 28.27,68.03
+  goto 28.64,70.44
+  collect 254686 "Pattern: Stormcloth Boots" optional
+  note Dropped only by the Hatecrest Serpent Guard (level 44); the pattern drops nowhere else in the data.
+
+step First Aid — the Gordunni grounds (rare drop)
+
+  zone map 1444
+
+  when skill First Aid 1
+
+  loop
+  goto 58.44,67.55
+  goto 58.98,69.92
+  goto 59.46,66.05
+  goto 59.89,67.02
+  goto 60,63.28
+  goto 60.03,66.38
+  goto 60.29,65.87
+  goto 60.44,64.8
+  goto 60.71,72.8
+  goto 60.73,66.06
+  goto 60.98,67.86
+  goto 62.13,73.11
+  goto 62.49,69.07
+  goto 63.65,68.8
+  goto 64,68.57
+  collect 255725 "Manual: Superior Healing Potion" optional
+  note Dropped only by the Gordunni Shaman (level 44); the manual drops nowhere else in the data. Gated to First Aid by content (a healing potion), though the Manual prefix is shared with bandages.
+
+step Fishing — no Feralas Horde source
+
+  note The data holds no Fishing recipe sold by a Horde vendor or dropped in Feralas: no in-zone vendor sells one and no in-zone mob drops one. Polestar's own profession guides cover that profession's progression.
