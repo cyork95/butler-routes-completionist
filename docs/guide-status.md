@@ -733,7 +733,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; playtest Horde personas, 0 stuck (R1 expedition + R5 bag-note residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 7 rares (6 above-band come-back-later) + 5 treasures, 23 recipes (14 Meilosh + Bale + 8 narrow drops), 0 lint errors/warnings
 
 ### Azshara — Horde
 
