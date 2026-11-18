@@ -1,0 +1,179 @@
+# Butler Routes - Western Plaguelands (Horde) completionist (pack butler-routes-completionist, v1).
+# Every Horde accept in the local census (19 quests, docs/western-plaguelands-horde-census.md)
+# appears exactly once as an accept and once as a turnin. Chain order is strictly
+# turn-in-before-accept in file order: follow-up accepts always come after their
+# pres' turn-ins. Out-of-contract pres (6145 Undercity-contracted, 5961
+# Undercity-contracted, 9015 shared main-guide) ride dedicated when onquest
+# mini-steps, each standing alone; out-of-contract chain exits (6145, 9032)
+# get handoff notes. Class quests gate every line only <Class> - Shaman, Druid,
+# Hunter, Mage, Priest, Rogue, Warlock, Warrior per the data bitmasks; no Paladin
+# variant exists. Sourceless objectives ride bare completes with honest notes,
+# never invented points. The Stratholme head goes to the data-placed markers
+# with a note saying so. Expedition legs and turn-ins (Undercity, Orgrimmar)
+# switch frames deliberately and switch back.
+guide butler-routes-completionist/western-plaguelands-horde
+title Western Plaguelands (Horde)
+levels 54-58
+zone Western Plaguelands
+faction Horde
+category Leveling
+folder Eastern Kingdoms
+coords live
+version 1
+
+step The Bulwark muster - Nathanos's board
+
+  zone map 1423
+
+  tip Nathanos Blightcaller (22.23, 63.51) holds the Bulwark board in the west.
+  accept 6022 -- To Kill With Purpose - Nathanos Blightcaller; rot off the Corin's Crossing scourge, east
+  accept 6042 -- Un-Life's Little Annoyances - Nathanos Blightcaller; plaguebats, center and west
+  accept 6133 -- The Ranger Lord's Behest - Nathanos Blightcaller; woodsmen and the registry, north
+
+step The Ruse (soft pre)
+
+  zone map 1423
+
+  when onquest 6145
+
+  tip Holding 6145 (The Crimson Courier, from the Undercity contract): Nathanos's Ruse starts at the Bulwark board.
+  accept 6146 -- Nathanos' Ruse - Nathanos Blightcaller; the Grand Crusader's Command, Tyr's Hand
+  complete 6146 -- The Grand Crusader's Command (no placed source anywhere in the data - bank it if it turns up)
+  turnin 6146 -- Nathanos' Ruse - the command to Crusader Lord Valdelmar (75.21, 71.17)
+
+step West and center - rot, bats, registry
+
+  zone map 1423
+
+  complete 6022 -- Coagulated Rot (no placed source anywhere in the data - bank it if it turns up)
+  complete 6042 @38.66,57.14 era -- Noxious Plaguebats, center
+  complete 6042 @15.54,17.01 era -- Monstrous Plaguebats, west
+  complete 6133 @45.27,12.70 era -- Quel'Thalas Registry, north
+  complete 6133 @44.69,15.29 era -- Pathstriders, north
+  complete 6133 @44.13,11.21 era -- Rangers, north
+  complete 6133 @43.85,11.24 era -- Woodsmen, north
+
+step Bulwark returns - the openers banked
+
+  zone map 1423
+
+  turnin 6022 -- To Kill With Purpose - the rot to Nathanos Blightcaller
+  turnin 6042 -- Un-Life's Little Annoyances - the bats to Nathanos Blightcaller
+  turnin 6133 -- The Ranger Lord's Behest - the registry to Nathanos Blightcaller
+
+step The Corpulent One (soft pre)
+
+  zone map 1423
+
+  when onquest 5961
+
+  tip Holding 5961 (The Champion of the Banshee Queen, from Lady Sylvanas in the Undercity): the Corpulent One starts at the Bulwark board.
+  accept 6136 -- The Corpulent One - Nathanos Blightcaller; Borelgore, north-center
+  complete 6136 @47.69,24.87 era -- Borelgore, north-center
+  turnin 6136 -- The Corpulent One - the deed to Nathanos Blightcaller
+
+step West - Duskwing's fur and the chain
+
+  zone map 1423
+
+  accept 6135 -- Duskwing, Oh How I Hate Thee... - Nathanos Blightcaller; Duskwing's fur, west
+  complete 6135 @26.08,59.03 era -- Patch of Duskwing's Fur off Duskwing, west
+  turnin 6135 -- Duskwing, Oh How I Hate Thee... - the fur to Nathanos Blightcaller
+  accept 6144 -- The Call to Command - Nathanos Blightcaller; Varimathras takes it in the Undercity
+  accept 6163 -- Ramstein - Nathanos Blightcaller; Ramstein's head, Stratholme markers below
+
+step North-center - Ramstein's head
+
+  zone map 1423
+
+  complete 6163 @49.98,29.37 era -- Head of Ramstein the Gorger (Stratholme markers - the instance face the data places; the run goes inside from here)
+  turnin 6163 -- Ramstein - the head to Nathanos Blightcaller
+
+step Anthion's offer (soft pre)
+
+  zone map 1423
+
+  when onquest 9015
+
+  tip Holding 9015 (The Challenge, from the shared Anthion chain in the main guide): Anthion Harmon (26.11, 11.3) offers each class its parting words - take yours.
+  accept 8957 only Shaman -- Anthion's Parting Words - Anthion Harmon; Elements set for Mokvar in Orgrimmar
+  accept 9016 only Druid -- Anthion's Parting Words - Anthion Harmon; Wildheart set for Mokvar in Orgrimmar
+  accept 9017 only Hunter -- Anthion's Parting Words - Anthion Harmon; Beaststalker's set for Mokvar in Orgrimmar
+  accept 9018 only Mage -- Anthion's Parting Words - Anthion Harmon; Magister's set for Mokvar in Orgrimmar
+  accept 9019 only Priest -- Anthion's Parting Words - Anthion Harmon; Devout set for Mokvar in Orgrimmar
+  accept 9020 only Rogue -- Anthion's Parting Words - Anthion Harmon; Shadowcraft set for Mokvar in Orgrimmar
+  accept 9021 only Warlock -- Anthion's Parting Words - Anthion Harmon; Dreadmist set for Mokvar in Orgrimmar
+  accept 9022 only Warrior -- Anthion's Parting Words - Anthion Harmon; Valor set for Mokvar in Orgrimmar
+
+step Dungeon sets - the eight partings
+
+  zone map 1423
+
+  complete 8957 only Shaman -- Boots, Kilt and Pauldrons of Elements (all three dungeon bosses per set have no spawns in the data, so these completes carry no place); bring the pieces
+  complete 9016 only Druid -- Wildheart Boots, Kilt and Spaulders (see 8957 note)
+  complete 9017 only Hunter -- Beaststalker's Boots, Pants and Mantle (see 8957 note)
+  complete 9018 only Mage -- Magister's Boots, Leggings and Mantle (see 8957 note)
+  complete 9019 only Priest -- Devout Sandals, Skirt and Mantle (see 8957 note)
+  complete 9020 only Rogue -- Shadowcraft Boots, Pants and Spaulders (see 8957 note)
+  complete 9021 only Warlock -- Dreadmist Sandals, Leggings and Mantle (see 8957 note)
+  complete 9022 only Warrior -- Boots, Legplates and Spaulders of Valor (see 8957 note)
+
+step East - towers, Valdelmar
+
+  zone map 1423
+
+  accept 9665 -- Bolstering Our Defenses - Emmisary Gormok (70.37, 47.94); four capture doodads, east (names carry <TXT> placeholders - the points below are real)
+  complete 9665 @34.09,64.10 era -- Crown Guard capture, east
+  complete 9665 @59.04,39.41 era -- Eastwall capture, center-east
+  complete 9665 @49.25,18.20 era -- Northpass capture, north-center
+  complete 9665 @18.16,25.06 era -- Plaguewood capture, west
+  turnin 9665 -- Bolstering Our Defenses - the towers to Emmisary Gormok
+  accept 6147 -- Return to Nathanos - Crusader Lord Valdelmar (75.21, 71.17); Nathanos takes the word, west
+  turnin 6147 -- Return to Nathanos - the word to Nathanos Blightcaller
+
+step Bulwark returns - Demetria and the chain
+
+  zone map 1423
+
+  accept 6148 -- The Scarlet Oracle, Demetria - Nathanos Blightcaller; Demetria waits east-center
+  complete 6148 @63.30,67.22 era -- Demetria (Vaelan's Gift has no placed source in the data - bank it if it turns up)
+  turnin 6148 -- The Scarlet Oracle, Demetria - the deed to Nathanos Blightcaller
+
+step Undercity expedition - Varimathras's command
+
+  zone Undercity
+
+  turnin 6144 -- The Call to Command - the word to Varimathras @56.25,92.20 era
+  note The chain continues with 6145 (The Crimson Courier) - Undercity-contracted; handed off, not duplicated here.
+  zone Western Plaguelands
+
+step Orgrimmar expedition - Mokvar's eight sets
+
+  zone Orgrimmar
+
+  when onquest 8957
+
+  turnin 8957 only Shaman -- Anthion's Parting Words - the Elements set to Mokvar @34.95,38.29 era
+  when onquest 9016
+
+  turnin 9016 only Druid -- Anthion's Parting Words - the Wildheart set to Mokvar @34.95,38.29 era
+  when onquest 9017
+
+  turnin 9017 only Hunter -- Anthion's Parting Words - the Beaststalker's set to Mokvar @34.95,38.29 era
+  when onquest 9018
+
+  turnin 9018 only Mage -- Anthion's Parting Words - the Magister's set to Mokvar @34.95,38.29 era
+  when onquest 9019
+
+  turnin 9019 only Priest -- Anthion's Parting Words - the Devout set to Mokvar @34.95,38.29 era
+  when onquest 9020
+
+  turnin 9020 only Rogue -- Anthion's Parting Words - the Shadowcraft set to Mokvar @34.95,38.29 era
+  when onquest 9021
+
+  turnin 9021 only Warlock -- Anthion's Parting Words - the Dreadmist set to Mokvar @34.95,38.29 era
+  when onquest 9022
+
+  turnin 9022 only Warrior -- Anthion's Parting Words - the Valor set to Mokvar @34.95,38.29 era
+  note The chain continues with 9032 (Bodley's Unfortunate Fate) from the Orgrimmar side - Orgrimmar-contracted; handed off, not duplicated here.
+  zone Western Plaguelands
