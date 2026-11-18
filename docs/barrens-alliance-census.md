@@ -41,7 +41,8 @@ unaccounted.
 
 Chain notes (all verified in this data build): 1040 pre 1039
 (darnassus-city) > 1040 > next 1041 (stranglethorn-vale); 1252 preAny
-1302 (wetlands) / 1282 (dustwallow-marsh), both optional, > next 1259
+1302 (wetlands) / 1282 (dustwallow-marsh), one of the pair required,
+> next 1259
 (dustwallow-marsh); 1253 > next 1319 (dustwallow-marsh); 1287 pre 1286
 (dustwallow-marsh) > next 1288 (dustwallow-marsh); 1738 pre 1716
 (stormwind-city) > next 1739 (stormwind-city); 65602 pre 1716 shared >
@@ -51,8 +52,10 @@ ironforge-city) > next 1802 (ironforge-city); 3370 pre 6981
 3634 > next 3640 (ironforge-city); 94375 pre 94374 (dun-morogh, whose
 pre 94373 is also dun-morogh). Contracted pres ride soft-pre minis in
 the addendum guide; contracted nexts get handoff notes, never
-duplication. 1252's preAny pair are optional alternates, never
-blockers - noted, not minied.
+duplication. 1252/1253/1284's preAny pair (1302 wetlands /
+1282 dustwallow-marsh) is required-one-of per the data and the forge
+check - the guide notes name both home guides at each accept rather
+than a soft-pre mini (no OR-guard exists).
 
 ## Full-scan check ("no others" - claimed after the complete scan)
 
