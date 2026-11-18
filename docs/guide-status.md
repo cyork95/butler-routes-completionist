@@ -715,7 +715,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; playtest Horde personas in band, 0 stuck; residue R1 expedition leg only (Orgrimmar continent change)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 6 rares (5 in-band + Rumbler come-back-later) + 12 fixed containers + 8 recipes (2 vendor + 6 narrow drops), 0 lint errors/warnings; Broken Tooth logged, no tame line
 
 ### Searing Gorge — Horde
 
