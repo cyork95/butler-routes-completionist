@@ -15379,6 +15379,27 @@
         {"id": 91685, "name": "Ley of the Land"},
         {"id": 92346, "name": "Beneath Nordrassil"}
       ]
+    },
+    {
+      "id": "swamp-of-sorrows-horde",
+      "name": "Swamp of Sorrows (Horde)",
+      "order": 69,
+      "levelBand": "30-38",
+      "summary": "Horde side of contested Swamp of Sorrows.",
+      "quests": [
+        {"id": 698, "name": "Lack of Surplus"},
+        {"id": 699, "name": "Lack of Surplus"},
+        {"id": 1418, "name": "Neeka Bloodscar"},
+        {"id": 1422, "name": "Threat From the Sea"},
+        {"id": 1424, "name": "Pool of Tears"},
+        {"id": 1426, "name": "Threat From the Sea"},
+        {"id": 1427, "name": "Threat From the Sea"},
+        {"id": 1428, "name": "Continued Threat"},
+        {"id": 1429, "name": "The Atalai Exile"},
+        {"id": 1430, "name": "Fresh Meat"},
+        {"id": 1445, "name": "The Temple of AtalHakkar"},
+        {"id": 93663, "name": "Lost in Transit"}
+      ]
     }
   ]
 }
