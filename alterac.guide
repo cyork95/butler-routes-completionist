@@ -19,7 +19,6 @@ guide butler-routes-completionist/alterac-mountains
 title Alterac Mountains - Completionist
 levels 30-40
 zone Alterac Mountains
-faction Alliance
 category Leveling
 folder Completionist
 coords live
@@ -176,6 +175,7 @@ step Myrokos — extraction
 step Expedition — Hillsbrad, Maleb's rings
 
   when onquest 510
+  only Alliance
 
   zone map 1424
 
@@ -187,6 +187,7 @@ step Expedition — Hillsbrad, Maleb's rings
 step Expedition — Hillsbrad, Dibbs's letter
 
   when onquest 511
+  only Alliance
 
   zone map 1424
 
@@ -198,6 +199,7 @@ step Expedition — Hillsbrad, Dibbs's letter
 step Expedition — Stranglethorn, Catelyn's blade
 
   when onquest 603
+  only Alliance
 
   zone map 1434
 
