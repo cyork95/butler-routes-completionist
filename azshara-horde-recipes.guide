@@ -1,0 +1,427 @@
+# Azshara (Horde) - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes, patterns, formulas, plans and schematics whose SOURCE is
+# physically in Azshara for a Horde buyer, verified against the local
+# Forever game data (questie-forever item vendor and drop tables). Four
+# are vendor-sold by the two neutral auction-house goblins (Jubie and Blimo
+# Gadgetspring — every buy carries an npc pin to the exact in-zone vendor);
+# Valormok's Horde vendors sell NO recipes (Kurll and Gruul Darkblade
+# stocks verified item by item), so the Horde and Alliance vendor sets are
+# identical — stated, not padded. Seventeen are mob drops with sole
+# in-zone droppers. Everything else Azshara-dropping is a generic
+# multi-zone world drop (Elwynn rule, argued per case in the inventory);
+# quest records carry no reward data, so none of that class ships (see
+# docs/azshara-horde-companions-inventory.md and
+# docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestar's own profession guides cover those. Each step is gated to its
+# profession; other characters skip it cleanly. First Aid and Fishing have
+# no Azshara source, so that is stated, not padded.
+guide butler-routes-completionist/azshara-horde-recipes
+title Azshara (Horde) - Recipes
+levels 44-50
+zone Azshara
+faction Horde
+category Professions
+folder Companions
+keywords azshara, horde, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Engineering — the auction house (Jubie Gadgetspring)
+
+  zone map 1447
+
+  when skill Engineering 1
+
+  tip Jubie Gadgetspring (45.28, 90.95) at the auction house sells the schematic; the shop is neutral, so Horde characters can buy.
+  buy 10607 "Schematic: Deepdive Helmet" npc 8678
+  note Vendor-exclusive in the data (zero droppers anywhere). Stock class is unconfirmed in the data (no limited flag either way).
+
+step Leatherworking — the auction house (Blimo Gadgetspring)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  tip Blimo Gadgetspring (45.21, 90.85) at the auction house sells all three patterns; the shop is neutral, so Horde characters can buy.
+  buy 15729 "Pattern: Chimeric Gloves" npc 12957
+  buy 15751 "Pattern: Blue Dragonscale Breastplate" npc 12957
+  buy 227898 "Pattern: Honed Blue Dragonscale Breastplate" npc 12957
+  note All three are vendor-exclusive in the data (zero droppers anywhere). Stock class is unconfirmed in the data (no limited flag either way).
+
+step Tailoring — the north (rare drop)
+
+  zone map 1447
+
+  when skill Tailoring 1
+
+  loop
+  goto 35.24,51.76
+  goto 36.31,47.97
+  goto 38.83,60.57
+  goto 39.09,55.33
+  goto 39.38,50.33
+  goto 40.28,46.13
+  collect 14473 "Pattern: Ghostweave Belt" optional
+  note Dropped only by the Lingering Highborne (level 48); the pattern drops nowhere else in the data.
+
+step Tailoring — the west (rare drop)
+
+  zone map 1447
+
+  when skill Tailoring 1
+
+  loop
+  goto 19.35,61.81
+  goto 19.69,63.84
+  goto 20.27,62.23
+  goto 20.9,59.87
+  collect 254074 "Pattern: Ghostweave Cord" optional
+  note Dropped only by the Haldarr Trickster (level 45); the pattern drops nowhere else in the data.
+
+step Leatherworking + Enchanting — the Legashi grounds (rare drops)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 50.79,17.63
+  goto 51.84,20.73
+  goto 52.06,19.08
+  goto 52.08,20.39
+  goto 60.65,24.47
+  goto 60.72,25.03
+  goto 61.13,26.45
+  goto 61.24,23.41
+  goto 61.44,24.97
+  goto 62.78,25.49
+  goto 65.79,18.64
+  goto 65.89,16.9
+  goto 66.25,16.72
+  goto 66.55,17.64
+  goto 66.62,15.39
+  goto 66.75,19.37
+  collect 15728 "Pattern: Wicked Leather Bracers" optional
+  collect 16219 "Formula: Enchant Gloves - Greater Agility" optional
+  note Both drop only from the Legashi Rogue (level 51); neither drops anywhere else in the data. The formula is gated to Enchanting by content — an Enchanter reads this step for the drop point, a Leatherworker for the pattern.
+
+step Leatherworking — the shore (rare drop)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 72.7,40.92
+  goto 73.65,37.51
+  goto 74.5,40.17
+  goto 75.28,45.12
+  goto 75.71,36.97
+  goto 76.42,43.2
+  goto 76.52,44.25
+  goto 76.68,45.35
+  goto 76.8,44.49
+  goto 76.99,41.4
+  goto 77.15,45.17
+  goto 77.17,42.6
+  goto 77.48,44.39
+  goto 77.67,41.05
+  goto 77.75,38.99
+  goto 78.31,42.78
+  goto 78.36,44.85
+  goto 78.38,44.14
+  goto 78.52,38.24
+  goto 78.66,41.7
+  collect 15753 "Pattern: Stormshroud Armor" optional
+  note Dropped only by the Arkkoran Oracle (level 54); the pattern drops nowhere else in the data.
+
+step Leatherworking — the shore cliffs (rare drops)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 46.34,83.36
+  goto 47.68,85.73
+  goto 48.52,70.85
+  goto 48.53,75.67
+  goto 48.72,79.43
+  goto 48.81,83.38
+  goto 52.4,81.73
+  goto 55.32,85.13
+  goto 55.37,81.3
+  goto 55.45,89.89
+  goto 56.71,79.76
+  goto 58.06,81.99
+  goto 59.31,83.4
+  goto 60.29,81.68
+  goto 63.81,87.31
+  goto 73.05,16.63
+  goto 73.89,14.36
+  goto 74.42,18.55
+  goto 74.59,26.92
+  goto 75.65,16.23
+  goto 75.85,20.28
+  goto 77.22,18.55
+  goto 78.22,17.07
+  goto 79.97,14.4
+  collect 15763 "Pattern: Blue Dragonscale Shoulders" optional
+  collect 227899 "Pattern: Honed Blue Dragonscale Shoulders" optional
+  note Both drop only from the Cliff Breaker (level 54); neither drops anywhere else in the data.
+
+step Leatherworking — the isle waters (rare drop)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 53.77,56.8
+  goto 54.05,60.53
+  goto 56.45,57.82
+  goto 56.57,50.13
+  goto 56.68,54.07
+  goto 56.73,42.04
+  goto 59.49,64.66
+  goto 62.04,37.97
+  collect 15764 "Pattern: Stormshroud Shoulders" optional
+  note Dropped only by the Son of Arkkoroc (level 54); the pattern drops nowhere else in the data.
+
+step Leatherworking — the south-east (rare drop)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 65.36,91.65
+  goto 65.74,76.95
+  goto 66.04,77.08
+  goto 66.22,91.98
+  goto 66.54,89.32
+  goto 66.6,91.55
+  goto 67.21,90.61
+  goto 67.76,91.56
+  goto 67.93,83.47
+  goto 68.65,82.76
+  goto 69.18,83.46
+  goto 69.18,91.36
+  goto 69.75,90.54
+  goto 69.79,82.48
+  goto 70.23,80.6
+  goto 70.54,87.54
+  goto 70.55,89.51
+  goto 71.99,83.43
+  collect 252886 "Pattern: Blue Suede Belt" optional
+  note Dropped only by the Spitelash Battlemaster (level 53); the pattern drops nowhere else in the data.
+
+step Leatherworking — the Blood Elf camp (rare drop)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 55.35,26.45
+  goto 55.46,29.5
+  goto 55.82,30.78
+  goto 55.9,29.41
+  goto 56.16,29.91
+  goto 56.71,28.05
+  goto 57.95,26.45
+  goto 58.02,28.18
+  goto 58.24,31.16
+  goto 58.75,28.42
+  goto 58.78,27.41
+  collect 252929 "Pattern: Supple Scorpid Belt" optional
+  note Dropped only by the Blood Elf Surveyor (level 51); the pattern drops nowhere else in the data.
+
+step Leatherworking + Engineering — the Spitelash shore (rare drops)
+
+  zone map 1447
+
+  when skill Leatherworking 1
+
+  loop
+  goto 34.95,56.17
+  goto 35.0,52.01
+  goto 36.33,48.02
+  goto 38.85,52.3
+  goto 39.01,59.79
+  goto 39.33,62.69
+  goto 39.56,56.96
+  goto 39.91,47.18
+  goto 41.12,54.2
+  goto 43.19,45.25
+  goto 43.59,64.7
+  goto 44.18,50.07
+  goto 44.37,53.93
+  goto 44.56,58.79
+  goto 45.2,62.06
+  goto 46.18,43.01
+  goto 46.4,39.75
+  goto 47.42,50.95
+  goto 47.67,47.21
+  goto 48.71,62.71
+  goto 48.76,58.8
+  goto 48.77,66.69
+  goto 49.57,53.83
+  goto 50.16,43.09
+  collect 252932 "Pattern: Charged Scorpid Vest" optional
+  collect 16045 "Schematic: Spellpower Goggles Xtreme Plus" optional
+  note Both drop only from the Spitelash Siren (level 50); neither drops anywhere else in the data. The schematic is gated to Engineering by content — an Engineer reads this step for the drop point, a Leatherworker for the pattern.
+
+step Enchanting — the Spitelash shore (rare drop)
+
+  zone map 1447
+
+  when skill Enchanting 1
+
+  loop
+  goto 40.2,53.08
+  goto 41.45,48.14
+  goto 43.14,61.95
+  goto 43.69,50.93
+  goto 44.43,58.04
+  goto 44.78,48.99
+  goto 45.06,41.18
+  goto 45.38,60.08
+  goto 45.43,43.92
+  goto 45.95,67.09
+  goto 46.13,53.03
+  goto 46.2,63.24
+  goto 46.73,56.01
+  goto 46.92,46.39
+  goto 47.45,60.85
+  goto 48.18,53.94
+  goto 48.57,64.45
+  goto 48.72,49.17
+  goto 48.84,45.08
+  goto 49.39,57.56
+  goto 49.39,67.71
+  goto 49.51,42.02
+  goto 49.59,51.93
+  goto 50.17,62.62
+  collect 249516 "Formula: Enchant Gloves - Advanced Skinning" optional
+  note Dropped only by the Spitelash Myrmidon (level 50); the formula drops nowhere else in the data.
+
+step Cooking — the south-east (rare drop)
+
+  zone map 1447
+
+  when skill Cooking 1
+
+  loop
+  goto 66.01,91.4
+  goto 66.21,77.8
+  goto 67.07,82.68
+  goto 69.81,80.39
+  goto 69.82,80.72
+  goto 69.82,84.39
+  goto 70.29,85.24
+  goto 70.51,81.44
+  goto 71.02,90.43
+  goto 71.24,89.57
+  goto 71.82,85.6
+  collect 250189 "Recipe: Clam Linguine" optional
+  note Dropped only by the Spitelash Enchantress (level 54); the recipe drops nowhere else in the data.
+
+step Legashi Firewater — the Legashi grounds (narrow family drop)
+
+  zone map 1447
+
+  loop
+  goto 51.42,18.25
+  goto 60.65,25.58
+  goto 61.42,25.2
+  goto 62.62,24.35
+  goto 65.23,17.35
+  goto 65.94,15.61
+  goto 60.05,24.34
+  goto 61.79,23.59
+  goto 64.39,15.02
+  goto 66.36,19.68
+  goto 50.07,19.56
+  goto 62.11,25.89
+  goto 66.43,18.51
+  goto 68.03,17.67
+  goto 60.8,18.76
+  goto 64.55,20.42
+  goto 66.5,22.99
+  goto 69.08,18.39
+  goto 60.69,18.78
+  goto 64.2,15.92
+  goto 65.55,13.79
+  goto 66.67,19.76
+  goto 64.91,15.78
+  goto 65.56,18.66
+  goto 67.01,16.27
+  goto 67.06,18.35
+  collect 235645 "Legashi Firewater Recipe" optional
+  note The item data carries no profession tag for this recipe, so this step is intentionally ungated — read it if you want the drop. Dropped by the Legashi family on these grounds (Satyr, Rogue, Hellcaller, Soulstealer, Hellraiser, Blackguard — all 1447); a seventh same-name record (244129) has no spawns anywhere in the data and is disclosed, not routed.
+
+step Alchemy — the west (rare drop)
+
+  zone map 1447
+
+  when skill Alchemy 1
+
+  loop
+  goto 23.76,60.01
+  goto 25.68,50.93
+  goto 26.07,57.19
+  goto 26.37,56.12
+  goto 27.07,54.66
+  goto 27.68,59.79
+  goto 29.48,52.0
+  goto 29.76,52.96
+  goto 30.0,60.55
+  goto 31.09,52.89
+  goto 31.11,60.98
+  goto 31.55,55.99
+  goto 31.67,53.74
+  goto 31.68,51.94
+  goto 32.43,52.7
+  goto 33.21,60.07
+  goto 33.52,60.83
+  goto 33.6,55.64
+  goto 33.84,49.58
+  goto 34.14,58.13
+  goto 35.04,49.17
+  goto 36.59,46.16
+  goto 38.85,44.7
+  collect 250980 "Recipe: Superior Spellblasting Potion" optional
+  note Dropped only by the Spitelash Screamer (level 47); the recipe drops nowhere else in the data.
+
+step Blacksmithing — the Blood Elf camp (rare drop)
+
+  zone map 1447
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 55.29,27.59
+  goto 55.47,28.48
+  goto 55.6,30.13
+  goto 55.91,27.01
+  goto 55.93,26.17
+  goto 56.21,29.78
+  goto 56.39,28.85
+  goto 56.63,25.47
+  goto 56.64,30.01
+  goto 56.75,27.28
+  goto 56.9,30.43
+  goto 57.39,26.32
+  goto 57.92,30.44
+  goto 58.04,27.51
+  goto 58.65,28.48
+  goto 58.8,29.14
+  goto 59.19,29.12
+  goto 59.2,28.57
+  collect 251441 "Plans: Imperial Plate Gauntlets" optional
+  note Dropped only by the Blood Elf Reclaimer (level 52); the plans drop nowhere else in the data. The sole Blacksmithing source in-zone.
+
+step First Aid and Fishing — no Azshara Horde source
+
+  note The data holds no First Aid or Fishing recipe sold by a Horde vendor or dropped in Azshara: no in-zone vendor sells one and no in-zone mob drops one. Polestar's own profession guides cover those professions' progression.
