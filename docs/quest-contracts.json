@@ -15570,6 +15570,18 @@
         {"id": 93122, "name": "Checking Things Out"},
         {"id": 93128, "name": "Khan Jehn"}
       ]
+    },
+    {
+      "id": "silithus-horde",
+      "name": "Silithus (Horde)",
+      "order": 79,
+      "levelBand": "58-60",
+      "summary": "Horde side of contested Silithus.",
+      "quests": [
+        {"id": 8380, "name": "Armaments of War"},
+        {"id": 9416, "name": "Report to General Kirika"},
+        {"id": 9422, "name": "Scouring the Desert"}
+      ]
     }
   ]
 }
