@@ -1,0 +1,57 @@
+# Un'Goro Crater (Horde) - Completionist (pack butler-routes-completionist, v1).
+# The Horde side of contested Un'Goro: 3 quests on key 1449
+# (docs/ungoro-horde-census.md), routed from Larion at Marshal's Refuge.
+# The 42 Alliance/shared accepts stay with the ungated main guide. The
+# Larion chain runs through Ratchet: 4147 turns in to Liv Rizzlefix
+# (Barrens expedition), whose follow-up 4146 accepts in Ratchet and stays
+# out of this contract - 4148's pre rides a dedicated `when onquest`
+# mini-step. 94399 is broken (no anchor) and 98093 sits below the band
+# on a Barrens tag; both stay out with reasons in the census.
+guide butler-routes-completionist/ungoro-horde
+title Un'Goro Crater (Horde)
+levels 47-53
+zone Un'Goro Crater
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Marshal's Refuge - Larion and the bloodpetals
+
+  zone map 1449
+
+  note Larion (45.54, 8.72) works the crater's east rise at Marshal's Refuge.
+  accept 4145 -- Larion and Muigin - Larion; five of each bloodpetal, east and central
+  complete 4145 @56.69,33.15 era -- Bloodpetal Lashers (east crater)
+  complete 4145 @56.39,37.33 era -- Bloodpetal Threshers (east crater)
+  complete 4145 @44.9,36.88 era -- Bloodpetal Flayers (central crater)
+  complete 4145 @28.95,38.96 era -- Bloodpetal Trappers (west flats)
+  turnin 4145 -- Larion and Muigin - the word to Larion
+  accept 4147 -- Marvon's Workshop - Larion; carry the zapper to Liv Rizzlefix in Ratchet (expedition below)
+  note Liv Rizzlefix also offers Zapper Fuel (4146) - take it; its haze and turn-in ride the mini-step below. 4146 accepts in Ratchet and stays out of this contract.
+
+step Expedition - Ratchet, Marvon's workshop
+
+  zone map 1413
+
+  tip Liv Rizzlefix (62.45, 38.73) works Marvon's shop in Ratchet.
+  turnin 4147 -- Marvon's Workshop - the zapper to Liv Rizzlefix
+  zone map 1449
+
+step Soft pre - Zapper Fuel (mini)
+
+  zone map 1449
+
+  when onquest 4146
+
+  note The Atal'ai Haze (item 11318) has no placed source in the data - have the haze in your bags; the route never wedges on it.
+  turnin 4146 -- Zapper Fuel - the word to Larion (45.54, 8.72)
+
+step Marshal's Refuge - the Bloodpetal Zapper
+
+  zone map 1449
+
+  accept 4148 -- Bloodpetal Zapper - Larion (note 4146 Zapper Fuel accepts in Ratchet and rides the mini-step above)
+  complete 4148 @31.19,36.42 era -- Bloodpetal Sprout (Devilsaur, west herd)
+  turnin 4148 -- Bloodpetal Zapper - the zapper to Larion
