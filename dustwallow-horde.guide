@@ -1,0 +1,82 @@
+guide butler-routes-completionist/dustwallow-horde
+title Dustwallow Marsh (Horde)
+levels 30-45
+zone Dustwallow Marsh
+faction Horde
+category Leveling
+folder Completionist
+keywords dustwallow, horde, brackenwall
+coords live
+version 1
+
+# Brackenwall Village holds the Horde side: Nazeer Bloodpike's command
+# (Nazeer, Krak, Ogron, Krog), Stinky Ignatz's escape and Bogbean leaves,
+# the raptor-hide work, then the Loose Dirt south and the expedition leg
+# for the chain that leaves the zone (Barrens escort to Mebok).
+# Every Horde accept in the local census (5 quests,
+# docs/dustwallow-horde-census.md) appears exactly once as an accept and
+# once as a turn-in. Completes for quests whose blocking pre-quest sits
+# outside the contract ride in dedicated `when onquest` mini-steps, never
+# inline in a route step. Coordinates on Dustwallow use the era frame;
+# expedition stops use the era frame too, set with zone map lines. The
+# Alliance side belongs to the main guide.
+
+step Brackenwall - mustering
+
+  zone map 1445
+
+  tip Brackenwall Village: Nazeer Bloodpike (35.21, 30.66) holds the command, Krak (36.4, 30.85) works the pens, Ogron (40.96, 36.69) watches the yard, Krog (36.42, 31.88) runs the point.
+  accept 1273 -- Questioning Reethe - Ogron; Paval Reethe, the compound
+  note 1273's pre (1269 Barrens, uncontracted here) fills outside this route - take 1273 here; its questioning leg runs in the mini below. The Badge that starts 1269 sits at (29.83, 48.24) if you pass it.
+  accept 1270 -- Stinky's Escape - Stinky Ignatz (46.88, 17.52); Bogbean leaves, then Mebok takes it in the Barrens, late
+  note 1270's Bogbean patch sits north-east of Stinky - work it on the way out.
+  accept 98192 -- Skin Careful, Skin Sharp - Krak; raptor hides, the bloodfen
+  accept 1238 -- The Lost Report - the Loose Dirt (55.44, 25.92); Nazeer takes it here
+  note 1238's starter (the Dirt) sits south - take it on the south pass below.
+
+step Stinky's Bogbean leaves - the escort east
+
+  zone map 1445
+
+  complete 1270 @48.87,24.58 era -- Bogbean leaves for Stinky Ignatz
+
+step The south dirt - the lost report
+
+  zone map 1445
+
+  goto 55.44,25.92 era
+  accept 1238 -- The Lost Report - the Loose Dirt; Nazeer takes it at Brackenwall
+  turnin 1238 -- The Lost Report - the report to Nazeer Bloodpike
+  note 1239's pre (1238 above) fills here - take 1239 after it.
+  accept 1239 -- The Severed Head - the Loose Dirt; Nazeer takes it at Brackenwall
+  turnin 1239 -- The Severed Head - the head to Nazeer Bloodpike
+  note 1239's chain runs on into the Barrens (1240 Troll Witchdoctor, uncontracted anywhere) - named as the exit, never accepted here.
+
+step The bloodfen - raptor hides
+
+  zone map 1445
+
+  collect 279601 x8 quest 98192.1 @31.73,65.71 era -- Intact Raptor Hides off the Bloodfen Razormaw for Krak
+  turnin 98192 -- Skin Careful, Skin Sharp - the hides to Krak
+
+step Ogron's questioning - Reethe's turn
+
+  when onquest 1269
+
+  zone map 1445
+
+  complete 1273 @42.65,38.07 era -- Paval Reethe for Ogron
+  complete 1273 @42.47,38.07 era -- Question Reethe with Ogron, at the compound
+  turnin 1273 -- Questioning Reethe - Reethe's word to Krog
+
+step Expedition - Barrens, Mebok's word
+
+  zone map 1413
+
+  turnin 1270 -- Stinky's Escape - Stinky's word to Mebok Mizzyrix
+  note The escort crosses the zone line - Stinky walks it with you; the turn-in sits at (62.37, 37.62).
+  zone map 1445
+
+step Dustwallow - done
+
+  note Brackenwall holds: the report delivered, the head severed, Stinky escaped, Reethe questioned, the hides skinned. The Alliance side belongs to the main guide.
