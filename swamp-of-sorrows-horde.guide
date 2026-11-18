@@ -1,0 +1,130 @@
+# Swamp of Sorrows (Horde) - Completionist (pack butler-routes-completionist, v1).
+# The Horde side of contested Swamp of Sorrows: the Stonard Lack of
+# Surplus chain and Fresh Meat, the Threat from the Sea chain in the
+# east, the Atalai work at Felzerul post - Pool of Tears, the Exiles
+# word and the Temple pre - plus Lost in Transits shipment and Neekas
+# Badlands word (band 30-38; the Fallen Hero chain and Rockards trinket
+# are out with reasons in the census). Every accept is on key 1435; the
+# Badlands and Hinterlands legs ride honest expedition steps below. See
+# docs/swamp-of-sorrows-horde-census.md.
+guide butler-routes-completionist/swamp-of-sorrows-horde
+title Swamp of Sorrows (Horde)
+levels 30-38
+zone Swamp of Sorrows
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Stonard, mustering
+
+  note Stonard is the Horde hub: Dar (44.70, 57.21), Helgrum the Swift (47.74, 55.20) and Felzerul (47.93, 54.78) hold the rise. Take the hubs asks here; the crocs and the east shore fill them.
+  goto 44.70,57.21
+  accept 698 -- Lack of Surplus - Dar; eight Unprepared Sawtooth Flanks, west-center
+  note 698s flanks fill on the croc run below - hand them in on the return.
+  accept 1430 -- Fresh Meat - Dar; ten Monstrous Crawler Legs, far east and south
+  note 1430s legs fill on the far-east run below - hand them in on the return after that.
+  goto 47.74,55.20
+  accept 1418 -- Neeka Bloodscar - Helgrum the Swift; Neeka waits in the Badlands, late
+  note 1418 has no objectives - take it here; its turn-in is a Badlands expedition, late.
+  goto 47.93,54.78
+  accept 1424 -- Pool of Tears - Felzerul; ten Atalai Artifacts, east-center
+  note 1424s artifacts fill on the east-center run below - hand them in on the return after that.
+  goto 44.70,57.21
+  accept 93663 -- Lost in Transit - Dar; Magtoor takes the shipment, north-west
+  note 93663s shipment names no source in the data - have the Couriers Shipment (item 260452) in bags; hand it in on the return after that.
+
+step Stonard, the Felzerul pre
+
+  when onquest 1444
+  goto 47.93,54.78
+  turnin 1444 -- Return to FelZerul - the Exiles word to Felzerul
+  accept 1445 -- The Temple of AtalHakkar - Felzerul; twenty Fetishes of Hakkar, east-center
+  note Holders of 1444 turn in here first, then take 1445 on the same terms as the muster above. 1444 accepts at the Exile in the Hinterlands and lives outside this trackers list.
+
+step West-center - the croc run
+
+  collect 6169 x8 @47.55,43.03 era -- eight Unprepared Sawtooth Flanks off the Sawtooth Crocolisks for Dar, west-center
+  note The Crocolisks work the west-center around (47-52, 39-43) at 25% - work them for all eight; the Snappers far east share the drop at the same rate.
+
+step Stonard, first return
+
+  goto 44.70,57.21
+  turnin 698 -- Lack of Surplus - the flanks to Dar
+  accept 699 -- Lack of Surplus - Dar; six Sawtooth Snapper Claws, east
+  note 699 waited on 698s turn-in - take it here; its claws fill on the east leg below.
+
+step Far east - TokKar and the Snapper claws
+
+  goto 81.32,80.97
+  collect 6168 x6 @72.57,99.97 era -- six Sawtooth Snapper Claws off the Sawtooth Snappers for Dar, far east
+  note The Snappers hold 24 points, mostly far east and south (72-76, 97-99 and the north shore) at 80% - work them for all six; 699s turn-in waits at TokKar below.
+  turnin 699 -- Lack of Surplus - the claws to TokKar
+  accept 1422 -- Threat From the Sea - TokKar; Katar takes the word next door
+  note 1422 waited on 699s turn-in and has no objectives - take it here; Katar is a short walk east.
+  goto 83.76,80.41
+  turnin 1422 -- Threat From the Sea - the word to Katar
+  accept 1426 -- Threat From the Sea - Katar; thirty murlocs across the south shore
+  note 1426 waited on 1422s turn-in - its kills fill on the sweep below; hand them in on the return.
+
+step South-east - the murloc shore
+
+  complete 1426 @82.64,94.14 era -- ten Marsh Murlocs for Katar, far south-east
+  complete 1426 @62.32,81.00 era -- ten Marsh Inkspewers for Katar, south-center
+  complete 1426 @60.60,84.65 era -- ten Marsh Flesheaters for Katar, south-center
+  note The Murlocs hold the far south-east around (82-83, 88-94); the Inkspewers and Flesheaters share the south-center box around (60-64, 80-87) - work both shores for all thirty.
+
+step East camp, first return
+
+  goto 83.76,80.41
+  turnin 1426 -- Threat From the Sea - the dead to Katar
+  accept 1427 -- Threat From the Sea - Katar; TokKar takes the word next door
+  note 1427 waited on 1426s turn-in and has no objectives - take it here.
+  goto 81.32,80.97
+  turnin 1427 -- Threat From the Sea - the word to TokKar
+  accept 1428 -- Continued Threat - TokKar; Oracles and the south shore again
+  note 1428 waited on 1427s turn-in - its kills fill on the sweep below.
+
+step South-center - the Oracle sweep
+
+  complete 1428 @60.48,86.56 era -- ten Marsh Oracles for Katar, south-center
+  note The Oracles hold the south-center around (60-61, 83-86); the Inkspewers and Flesheaters share the box from the step above - work them for the second thirty.
+  goto 83.76,80.41
+  turnin 1428 -- Continued Threat - the dead to Katar
+  note 1428 closes the Threat chain here - the east is done.
+
+step Far east and south - the crawler legs
+
+  collect 6184 x10 @85.00,97.20 era -- ten Monstrous Crawler Legs off the Monstrous Crawlers for Dar, far east
+  note The Crawlers hold scattered far points (85,97.2 / 85.8,3 / 87,84.8) at 12% - work them for all ten; 1430 turns in back west.
+
+step Stonard, second return
+
+  goto 44.70,57.21
+  turnin 1430 -- Fresh Meat - the legs to Dar
+  goto 25.98,31.40
+  turnin 93663 -- Lost in Transit - the shipment to Magtoor
+  note 93663s shipment came in bags per the muster note - hand it in here.
+  goto 47.93,54.78
+  turnin 1424 -- Pool of Tears - the artifacts to Felzerul
+  turnin 1445 -- The Temple of AtalHakkar - the fetishes to Felzerul
+  accept 1429 -- The Atalai Exile - Felzerul; the Exile waits in the Hinterlands, late
+  note 1429 waited on 1424s turn-in and has no objectives - take it here; its turn-in is a Hinterlands expedition, late.
+
+step Expedition - Badlands, Neekas word
+
+  zone Badlands
+
+  turnin 1418 -- Neeka Bloodscar - Helgrums word to Neeka Bloodscar @6.49,47.20 era
+  note Neekas word closes at the Badlands camp.
+  zone Swamp of Sorrows
+
+step Expedition - Hinterlands, the Exiles word
+
+  zone The Hinterlands
+
+  turnin 1429 -- The Atalai Exile - Felzeruls word to Atalai Exile @33.75,75.21 era
+  note The Exiles word closes at the Hinterlands camp.
+  zone Swamp of Sorrows
+
