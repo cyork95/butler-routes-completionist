@@ -252,6 +252,14 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: thousand-needles.guide
 - header: Alliance; contract: 34 (2 primary / 32 shared)
 - shared IDs: 1104, 1105, 1106, 1107, 1110, 1111, 1114, 1115, 1118, 1120, 1122, 1175, 1176, 1178, 1186, 1187, 1188, 1190, 1191, 1192, 1194, 1950, 1951, 5762, 8682, 8724, 94218, 94227, 94236, 94245, 94254, 79947
+### thousand-needles (UNGATED 2026-11-18, Horde round)
+- file: thousand-needles.guide (was Alliance primary)
+- contract: 34 (2 primary / 32 shared)
+- shared IDs: 1104, 1105, 1106, 1107, 1110, 1111, 1114, 1115, 1118, 1120, 1122, 1175, 1176, 1178, 1186, 1187, 1188, 1190, 1191, 1192, 1194, 1950, 1951, 5762, 8682, 8724, 94218, 94227, 94236, 94245, 94254, 79947 (32 shared; null-mask records read as shared per the Duskwood ruling, verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 1100, 1101.
+- Lines gated: 6 pre-existing `only Alliance` lines (accept/turnin of 1100, accept/turnin/complete of 1101) + 1 added this round (`only Alliance` on the 5791 collect via 1100 linkage). 0 soft-pre minis gated (the 1 `when onquest` step references shared 1950 - stays bare), 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none). Class-gated shared lines stay bare (1950/1951 `only Mage`).
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors; warned quest-ID set byte-identical to the pre-ungating baseline (26 IDs, zero diff both ways). Playtest `--honest`: Alliance-persona findings byte-identical before/after (same steps, same classes); Horde personas (Orc/Scourge Mage+Warrior, NightElf Warrior) complete the shared lines with residue only in R1/R2; mechanical dead-line check (no visible line may reference a quest the viewer's faction cannot accept): 0 violations both factions.
 ### desolace (UNGATED 2026-11-18, Horde round)
 - file: desolace.guide (was Alliance primary)
 - contract: 56 (13 primary / 43 shared)

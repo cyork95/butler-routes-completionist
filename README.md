@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.113.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.114.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -56,6 +56,7 @@ Status: **in development (pack v0.113.0), not published yet**. The first release
 | `thousand-needles.guide` (Set 3 core built, pilot pending) | Thousand Needles | 25–35 | Alliance |
 | `thousand-needles-rares.guide` (companion built, pilot pending) | Thousand Needles rares and treasures | 25-35 | Alliance |
 | `thousand-needles-recipes.guide` (companion built, pilot pending) | Thousand Needles recipe sources | 25-35 | Alliance |
+| `thousand-needles-horde.guide` (Horde block core built, pilot pending) | Thousand Needles (Horde) | 20-32 | Horde |
 | `desolace.guide` (Set 3 core built, pilot pending) | Desolace | 30–40 | Alliance |
 | `desolace-rares.guide` (companion built, pilot pending) | Desolace rares and treasures | 30–40 | Alliance |
 | `desolace-recipes.guide` (companion built, pilot pending) | Desolace recipe sources | 30–40 | Alliance |

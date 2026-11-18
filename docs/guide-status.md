@@ -272,6 +272,7 @@ _Skyborne country._
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 7 rares (all with sole-drop signatures, come-back notes for the 2 above-band), 18-pt Solid Chest loop, 9 recipes (4 vendor + 5 exclusive/narrow drops)
+- [x] Faction ungating (Option A, 2026-11-17)
 
 ### Desolace — contested (Kalimdor)
 
@@ -618,9 +619,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Thousand Needles — Horde
 
-- [ ] Census (reconcile against 27 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 26 Horde IN at band 20-32, 27/27 set-asides reconciled, docs/thousand-needles-horde-census.md
+- [x] Core guide - thousand-needles-horde.guide (26 quests, Freewind Post + expedition legs)
+- [x] Lint/playtest clean - 0 errors; honest playtest Horde personas, 0 stuck, residue R1/R2 only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
