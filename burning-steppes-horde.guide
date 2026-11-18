@@ -1,0 +1,76 @@
+# Butler Routes - Burning Steppes (Horde) completionist (pack butler-routes-completionist, v1).
+# Every Horde accept in the local census (3 quests, docs/burning-steppes-horde-census.md,
+# key 1428, band 48-58) appears exactly once as an accept and once as a turnin.
+# Two out-of-contract pres (4122 Grark Lorkrub for 4121, 3821 Dreadmaul Rock for 3822)
+# ride dedicated when onquest mini-steps at the in-zone chain heads (the pack's
+# soft-pre technique); 8998's pre 8996 is main-contracted and rides a chain note
+# at Bodley, never a mini. Expedition turn-ins (Badlands: Lexlort and Thal'trak;
+# Orgrimmar: Mokvar) switch frames deliberately and switch back.
+guide butler-routes-completionist/burning-steppes-horde
+title Burning Steppes (Horde)
+levels 48-58
+zone Burning Steppes
+faction Horde
+category Leveling
+folder Eastern Kingdoms
+coords live
+version 1
+
+step Grark Lorkrub camp - the Grark chain head (soft pre)
+
+  zone map 1428
+
+  when onquest 4122
+
+  tip Grark Lorkrub holds his camp at (40.2, 34.24); his errand turns in here.
+  turnin 4122 -- Grark Lorkrub - the word to Grark Lorkrub
+  accept 4121 -- Precarious Predicament - Grark Lorkrub; the escort runs the northwest road, below
+  note 4122 accepts at Lexlort in the Badlands (uncontracted; its 4081>4082 pre-chain is named in the census, not routed).
+
+step The northwest road - the Prisoner Transport escort
+
+  zone map 1428
+
+  complete 4121 @25.73,27.1 era -- the Prisoner Transport escort on the northwest road; the Thorium Shackles come with the escort
+  note The turn-in leaves the zone (Badlands expedition below).
+
+step Blackrock Mountain - Bodley's finale
+
+  zone map 1428
+
+  tip Bodley waits on the mountain at (32.2, 25.8) - one of his three placed points in the data.
+  accept 8998 -- Back to the Beginning - Bodley; the word goes to Mokvar in Orgrimmar (expedition below)
+  note 8996 (Return to Bodley) is contracted in the main Burning Steppes guide - bring it done from Bodley's leg there; this guide does not re-route it.
+
+step Sha'ni's camp - the nose-ring chain head (soft pre)
+
+  zone map 1428
+
+  when onquest 3821
+
+  tip Sha'ni Proudtusk holds her camp at (79.95, 45.4) - her only spawn anywhere in the data.
+  turnin 3821 -- Dreadmaul Rock - the word to Sha'ni Proudtusk
+  accept 3822 -- Krom'Grul - Sha'ni Proudtusk; Krom'Grul waits just south of the camp
+  note 3821 accepts at Thal'trak in the Badlands (uncontracted, named in the census).
+
+step The east camp - Krom'Grul
+
+  zone map 1428
+
+  complete 3822 @79.66,47.43 era -- Sha'ni's Nose-Ring off Krom'Grul (100% at his single point, south of Sha'ni)
+  note The turn-in leaves the zone (Badlands expedition below).
+
+step Badlands expedition - Lexlort and Thal'trak
+
+  zone map 1418
+
+  turnin 4121 -- Precarious Predicament - the word to Lexlort @5.88,47.63 era
+  turnin 3822 -- Krom'Grul - the nose-ring to Thal'trak Proudtusk @3.36,48.06 era
+  zone map 1428
+
+step Orgrimmar expedition - Mokvar's word
+
+  zone map 1454
+
+  turnin 8998 -- Back to the Beginning - the word to Mokvar @34.95,38.29 era
+  zone map 1428
