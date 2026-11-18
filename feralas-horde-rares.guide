@@ -1,0 +1,188 @@
+# Feralas (Horde) - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 9 flagged rares, the Perfect Yeti Hide
+# item-start hunt, and the fixed world containers of Feralas a Horde player
+# can actually open. Run it in its own Polestar tab at the end of the core
+# route or standalone. EVERY goal is optional: a rare that is not up never
+# holds the route. Spawn points and levels are the local Forever game data
+# (questie-forever); signature drops are verified sole-drops in the item
+# data. Respawn timers are unconfirmed anywhere, so none are stated. The
+# three Dire Maul rares sit far above the 38-50 band and are not listed.
+# No rare in this guide is a giver, ender, or objective of any
+# Horde core-contracted quest; the 7738 hunt points at the core guide and
+# carries no accept/turnin lines. No tame lines ship (see
+# docs/companion-unverified.md). See
+# docs/feralas-horde-companions-inventory.md for the full inventory.
+guide butler-routes-completionist/feralas-horde-rares
+title Feralas (Horde) - Rares & Treasures
+levels 38-50
+zone Feralas
+faction Horde
+category Collectibles
+folder Companions
+keywords feralas, horde, rares, treasures, companions
+coords live
+version 1
+
+step Lady Szallah — the far south
+
+  zone map 1444
+
+  goto 28.2,67.6
+  kill 5343 optional
+  collect 284850 "Naga Caster's Staff" optional
+  note Level 46 rare, flagged rare in the data, single confirmed point far south.
+  note The Staff drops only from Szallah anywhere in the data; anything else is ordinary greens. Respawn timer unconfirmed.
+
+step Diamond Head — the center
+
+  zone map 1444
+
+  goto 36.6,51.41
+  kill 5345 optional
+  note Level 45 rare, flagged rare in the data, single confirmed point in the center.
+  note The data records no exclusive drop on this rare — ordinary greens only. Respawn timer unconfirmed.
+
+step Bloodroar the Stalker — the south
+
+  zone map 1444
+
+  goto 52.03,60.91
+  kill 5346 optional
+  collect 285047 "Yeti Hide Stompers" optional
+  note Level 48 rare, flagged rare in the data, single confirmed point south.
+  note The Stompers drop only from Bloodroar anywhere in the data; anything else is ordinary greens. Respawn timer unconfirmed.
+
+step Antilus the Soarer — the south-east
+
+  zone map 1444
+
+  goto 55.6,74.15
+  kill 5347 optional
+  collect 284847 "Hippogryph Down Leggings" optional
+  note Level 48 rare, flagged rare in the data, single confirmed point south-east.
+  note The Leggings drop only from Antilus anywhere in the data; anything else is ordinary greens. Respawn timer unconfirmed.
+
+step Arash-ethis — the north-center
+
+  zone map 1444
+
+  goto 44.79,25.02
+  kill 5349 optional
+  collect 284866 "Windserpent Scaled Cloak" optional
+  note Level 49 rare wind serpent, flagged rare in the data, single confirmed point north-center.
+  note The Cloak drops only from Arash-ethis anywhere in the data; anything else is ordinary greens. Respawn timer unconfirmed.
+  note No tame line ships for this serpent: the data has no tameability flag and the core guide carries no Hunter corroboration (see docs/companion-unverified.md).
+
+step Qirot — the far east
+
+  zone map 1444
+
+  goto 76.65,66.24
+  kill 5350 optional
+  collect 284859 "Silithid Sinew Crossbow" optional
+  note Level 47 rare, flagged rare in the data, single confirmed point far east.
+  note The Crossbow drops only from Qirot anywhere in the data; anything else is ordinary greens. Respawn timer unconfirmed.
+
+step Old Grizzlegut — the east
+
+  zone map 1444
+
+  goto 59.46,59.44
+  kill 5352 optional
+  collect 284843 "Sturdy Bearhide Legguards" optional
+  note Level 43 rare, flagged rare in the data, single confirmed point east.
+  note The Legguards drop only from Grizzlegut anywhere in the data; anything else is ordinary greens. Respawn timer unconfirmed.
+
+step Gnarl Leafbrother — the east
+
+  zone map 1444
+
+  goto 69.24,57.31
+  kill 5354 optional
+  note Level 44 rare, flagged rare in the data, single confirmed point east.
+  note The data records no exclusive drop on this rare — ordinary greens only. Respawn timer unconfirmed.
+
+step Snarler — the far east
+
+  zone map 1444
+
+  goto 80.22,39.57
+  kill 5356 optional
+  collect 285043 "Snarling Fang" optional
+  note Level 42 rare, flagged rare in the data, single confirmed point far east.
+  note The Fang drops only from Snarler anywhere in the data; anything else is ordinary greens. Respawn timer unconfirmed.
+
+step Perfect Yeti Hide hunt — the Feral Scar grounds
+
+  zone map 1444
+
+  loop
+  goto 51.8,30.79
+  goto 52.38,29.74
+  goto 52.54,31.75
+  goto 52.94,30.4
+  goto 53.28,31.85
+  goto 54.39,33.1
+  goto 54.83,33.05
+  goto 55.01,32.52
+  kill 5296 optional
+  collect 18972 "Perfect Yeti Hide" optional
+  note The Hide starts core-contracted quest 7738 in your bags — take the quest there and hand it in at Jangdor Swiftstrider; the core route owns the accept and turnin, this guide only hunts the drop.
+  note The Hide drops from the Rage Scar Yeti here and from three more yetis nearby — the Elder Rage Scar, the Ferocious Rage Scar, and the Lurking Feral Scar; those are the only droppers anywhere in the data.
+
+step Old Crate — the east
+
+  zone map 1444
+
+  goto 76.6,48.0
+  interact 442688 optional
+  note A fixed crate with no quest link and no loot table in the data. Contents unconfirmed; respawn timer unconfirmed.
+
+step Grimtotem Chest — the east
+
+  zone map 1444
+
+  goto 69.6,43.3
+  interact 443727 optional
+  note A fixed chest with no quest link and no loot table in the data. Contents unconfirmed; respawn timer unconfirmed.
+
+step Old Chest — the far east
+
+  zone map 1444
+
+  goto 79.2,49.35
+  interact 642451 optional
+  note A fixed chest that is the turn-in object of quest 95599 (The Old Key) — that quest has no accept anywhere in the data and is OUT as broken, so the chest stands alone. Contents unconfirmed; respawn timer unconfirmed.
+
+step Hippogryph Eggs — the Frayfeather south
+
+  zone map 1444
+
+  loop
+  goto 53.66,74.37
+  goto 55.91,76.03
+  goto 56.65,75.89
+  goto 57.01,78.22
+  goto 57.31,77.35
+  goto 57.98,76.3
+  goto 58.27,76.71
+  goto 58.48,76.11
+  goto 58.62,75.53
+  interact 141931 optional
+  note Fixed egg objects with no quest link and no loot table in the data. Contents unconfirmed; respawn timer unconfirmed.
+
+step Woodpaw Bag — the Woodpaw grounds
+
+  zone map 1444
+
+  goto 66.4,50.9
+  interact 443728 optional
+  note A fixed bag with no quest link and no loot table in the data. Contents unconfirmed; respawn timer unconfirmed.
+
+step Extraplanar Eye — the south-center
+
+  zone map 1444
+
+  goto 57.2,68.8
+  interact 445041 optional
+  note A fixed eye object with no quest link and no loot table in the data. Contents unconfirmed; respawn timer unconfirmed.
