@@ -7,11 +7,13 @@
 # legs carry the chains that leave the zone. Chain order is strictly turn-in-before-
 # accept. Coordinates on Hillsbrad use the era frame; expedition stops use the era
 # frame too, set with zone map lines. The Horde side belongs to the Horde block.
+# Per-line `only Alliance` gates mark the Alliance-only lines (the records'
+# races mask is Horde/Alliance by faction); the shared lines stay open to
+# both factions.
 guide butler-routes-completionist/hillsbrad-foothills
 title Hillsbrad Foothills - Completionist
 levels 20-32
 zone Hillsbrad Foothills
-faction Alliance
 category Leveling
 folder Completionist
 keywords hillsbrad, completionist, southshore
@@ -33,13 +35,13 @@ step Southshore - arrival
   note 540's pre (538 Southshore, done in Stormwind) fills before this route - take 540 here.
   note 95534's starter (the Singed Note) drops off the Syndicate Wizard north - take it on the north leg below.
   accept 659 only Alliance -- Hints of a New Plague? - Phin Odelic; Quae takes it in Arathi, late
-  accept 92432 -- An Alarming Request - Emissary Jacques (48.33, 60.03); the Image takes it in Silverpine, late
+  accept 92432 only Alliance -- An Alarming Request - Emissary Jacques (48.33, 60.03); the Image takes it in Silverpine, late
 
 step The north hills - ogres and Syndicate
 
-  collect 2843 x9 quest 500.1 @48.2,1.1 era -- Dirty Knucklebones off the Crushridge Ogres for Marshal Redpath
-  collect 2843 x9 quest 500.1 @49.6,1.7 era -- Dirty Knucklebones off the Crushridge Brutes for Marshal Redpath
-  collect 3658 x5 quest 540.1 @48.2,1.1 era -- Recovered Tomes off the Crushridge Ogres for Loremaster Dibbs
+  collect 2843 x9 quest 500.1 @48.2,1.1 era only Alliance -- Dirty Knucklebones off the Crushridge Ogres for Marshal Redpath
+  collect 2843 x9 quest 500.1 @49.6,1.7 era only Alliance -- Dirty Knucklebones off the Crushridge Brutes for Marshal Redpath
+  collect 3658 x5 quest 540.1 @48.2,1.1 era only Alliance -- Recovered Tomes off the Crushridge Ogres for Loremaster Dibbs
   collect 213421 @59.7,7.4 era -- the Singed Note off the Syndicate Wizard for Kundric Zanden
   accept 95534 -- Strahnbrad Mystery - the Singed Note; Kundric Zanden takes it in Southshore
 
@@ -90,7 +92,7 @@ step Expedition - Alterac, baron and council
   complete 523 only Alliance @47.83,17.11 era -- the Head of Baron Vardus for Magistrate Henry Maleb
   complete 537 only Alliance @47.79,17.45 era -- Argus Shadow Mages for Magistrate Henry Maleb
   complete 537 only Alliance @39.22,14.31 era -- the Head of Nagaz for Magistrate Henry Maleb
-  collect 3659 quest 540.2 @38.42,46.38 era -- the Worn Leather Book off the bookcase for Loremaster Dibbs
+  collect 3659 quest 540.2 @38.42,46.38 era only Alliance -- the Worn Leather Book off the bookcase for Loremaster Dibbs
   zone map 1424
 
 step Southshore - Alterac goods delivered
@@ -108,7 +110,7 @@ step The west coast - murlocs and proof
   turnin 536 only Alliance -- Down the Coast - back to Farren
   note 559's pre (536 above) fills on this coast - take 559 here.
   accept 559 only Alliance -- Farren's Proof - Farren; Murloc Heads, the same camp
-  collect 3716 x10 quest 559.1 @22.11,64.01 era -- Murloc Heads off the Torn Fin for Farren
+  collect 3716 x10 quest 559.1 @22.11,64.01 era only Alliance -- Murloc Heads off the Torn Fin for Farren
   turnin 559 only Alliance -- Farren's Proof - the Heads to Farren
   note 560's pre (559 above) fills on this coast - take 560 here.
   accept 560 only Alliance -- Farren's Proof - Farren; Redpath takes it in Southshore
@@ -129,7 +131,7 @@ step Southshore - proof carried
 
 step The river mouth - turtle bisque
 
-  collect 3712 x10 quest 555.1 @55.91,57.08 era -- Turtle Meat off the Snapjaw for Chef Jessen
+  collect 3712 x10 quest 555.1 @55.91,57.08 era only Alliance -- Turtle Meat off the Snapjaw for Chef Jessen
   note The Soothing Spices are vendor stock (65 vendors) - buy one with the Meat.
   turnin 555 only Alliance -- Soothing Turtle Bisque - the Meat and Spices to Chef Jessen
 
@@ -138,11 +140,11 @@ step Bartolo's cloak - the yeti fur (Tailoring)
   tip Bartolo Ginsetti (49.43, 55.53) sews on market street.
   when skill Tailoring 1
 
-  accept 565 optional -- Bartolo's Yeti Fur Cloak - Bartolo Ginsetti; wool, thread, a cloak and fur, farmed below
+  accept 565 optional only Alliance -- Bartolo's Yeti Fur Cloak - Bartolo Ginsetti; wool, thread, a cloak and fur, farmed below
   note The wool drops off-zone (Duskwood) and the cloak has no source in the data - have the Bolt, the Thread (vendor), the Hillman's Cloak and ten Furs in your bags.
-  complete 565 optional @42.06,33.18 era -- Yeti Fur off the Cave Yeti for Bartolo Ginsetti
-  complete 565 optional @42.27,30.53 era -- Yeti Fur off the Ferocious Yeti for Bartolo Ginsetti
-  turnin 565 optional -- Bartolo's Yeti Fur Cloak - the bundle to Bartolo Ginsetti
+  complete 565 optional @42.06,33.18 era only Alliance -- Yeti Fur off the Cave Yeti for Bartolo Ginsetti
+  complete 565 optional @42.27,30.53 era only Alliance -- Yeti Fur off the Ferocious Yeti for Bartolo Ginsetti
+  turnin 565 optional only Alliance -- Bartolo's Yeti Fur Cloak - the bundle to Bartolo Ginsetti
 
 step The Dibbs chain - tablets and fetishes
 
@@ -152,40 +154,40 @@ step The Dibbs chain - tablets and fetishes
   accept 554 only Alliance -- Stormpike's Deciphering - Loremaster Dibbs; Prospector Stormpike takes it in Ironforge, late
 
   note 95787's pre (95786 An Acquaintance in Southshore, done in Stranglethorn) fills before this route - take 95787 here.
-  accept 95787 -- Take Two With Water - Loremaster Dibbs; four Tablets with no source in the data
+  accept 95787 only Alliance -- Take Two With Water - Loremaster Dibbs; four Tablets with no source in the data
   note The Tablets have no placed source in the data - have all four in your bags.
-  complete 95787
-  turnin 95787 -- Take Two With Water - the Tablets to Loremaster Dibbs
+  complete 95787 only Alliance
+  turnin 95787 only Alliance -- Take Two With Water - the Tablets to Loremaster Dibbs
   note 95788's pre (95786 above) fills at these Tablets - take 95788 here.
-  accept 95788 -- Magics of the Drowned City - Loremaster Dibbs; five Fetishes with no placed source
+  accept 95788 only Alliance -- Magics of the Drowned City - Loremaster Dibbs; five Fetishes with no placed source
   note The Fetish droppers are unmapped in the data - have five in your bags.
-  complete 95788
-  turnin 95788 -- Magics of the Drowned City - the Fetishes to Loremaster Dibbs
+  complete 95788 only Alliance
+  turnin 95788 only Alliance -- Magics of the Drowned City - the Fetishes to Loremaster Dibbs
   note 95798's pre (95788 above) fills at these Fetishes - take 95798 here.
-  accept 95798 -- The Web of Magic - Loremaster Dibbs; Abra Cadabra takes it in Alterac, late
+  accept 95798 only Alliance -- The Web of Magic - Loremaster Dibbs; Abra Cadabra takes it in Alterac, late
   note 95799's pre (95787 above) fills at these Fetishes - take 95799 here.
-  accept 95799 -- Findings for the Explorer's League - Loremaster Dibbs; Historian Karnik takes it in Ironforge, late
+  accept 95799 only Alliance -- Findings for the Explorer's League - Loremaster Dibbs; Historian Karnik takes it in Ironforge, late
 
 step The seasonal pair - Hartman's watch
 
   tip Sergeant Hartman (50, 57.35) watches the Wickerman season in Southshore.
-  accept 1658 optional -- Crashing the Wickerman Festival - Sergeant Hartman; scout the Forsaken's festival in Tirisfal, late
+  accept 1658 optional only Alliance -- Crashing the Wickerman Festival - Sergeant Hartman; scout the Forsaken's festival in Tirisfal, late
   note The Wickerman Festival comes once a year - Hartman waits if it is not running.
-  accept 8373 optional -- The Power of Pine - Sergeant Hartman; Stink Bombs, right here
+  accept 8373 optional only Alliance -- The Power of Pine - Sergeant Hartman; Stink Bombs, right here
   note The Power of Pine runs on the same season - take it with the Festival above.
   collect 180449 "Forsaken Stink Bomb" @49.49,57.81 era -- Stink Bombs off the bombs for Sergeant Hartman
-  turnin 8373 optional -- The Power of Pine - the Bombs to Sergeant Hartman
+  turnin 8373 optional only Alliance -- The Power of Pine - the Bombs to Sergeant Hartman
 
 step Expedition - Tirisfal, the Wickerman scouting
 
   zone map 1420
 
-  complete 1658 optional @55.48,69.85 era -- scout out the Forsaken's Wickerman Festival for Sergeant Hartman
+  complete 1658 optional @55.48,69.85 era only Alliance -- scout out the Forsaken's Wickerman Festival for Sergeant Hartman
   zone map 1424
 
 step Southshore - the Festival told
 
-  turnin 1658 optional -- Crashing the Wickerman Festival - back to Sergeant Hartman
+  turnin 1658 optional only Alliance -- Crashing the Wickerman Festival - back to Sergeant Hartman
 
 step The east side - Gnoll, Gorgrash and Kris
 
@@ -208,10 +210,10 @@ step Gorgrash's corner - the lock writ
 
   when skill Engineering 1
 
-  accept 94233 optional -- Craftsman's Writ: Practice Lock - Gorgrash; the writ and a lock, farmed below
+  accept 94233 optional only Alliance -- Craftsman's Writ: Practice Lock - Gorgrash; the writ and a lock, farmed below
   note The lock drops in Ashenvale (a prior zone) - bring one with the writ.
   complete 94233 only Alliance
-  turnin 94233 optional -- Craftsman's Writ: Practice Lock - the writ and lock to Gorgrash
+  turnin 94233 optional only Alliance -- Craftsman's Writ: Practice Lock - the writ and lock to Gorgrash
 
 step Kris Legace's corner - the gloves writ
 
@@ -225,19 +227,19 @@ step Kris Legace's corner - the gloves writ
 step The west fields - McManus and Bilger
 
   tip Captain McManus (46.43, 50.2) rides the west fields; Brewmeister Bilger (52.13, 58.74) brews in town.
-  accept 98059 -- Hillsbrad's Hoard - Captain McManus; the sealed company request, west
-  complete 98059 @29.68,41.65 era -- Sealed Company Request delivered to the Hillsbrad council for Captain McManus
-  turnin 98059 -- Hillsbrad's Hoard - back to Captain McManus
-  accept 98071 -- Brewer's Trade - Brewmeister Bilger; homebrew hops, farmed below
+  accept 98059 only Alliance -- Hillsbrad's Hoard - Captain McManus; the sealed company request, west
+  complete 98059 @29.68,41.65 era only Alliance -- Sealed Company Request delivered to the Hillsbrad council for Captain McManus
+  turnin 98059 only Alliance -- Hillsbrad's Hoard - back to Captain McManus
+  accept 98071 only Alliance -- Brewer's Trade - Brewmeister Bilger; homebrew hops, farmed below
   note The Sack of Homebrew Hops has no placed source in the data - have it in your bags.
-  complete 98071
-  turnin 98071 -- Brewer's Trade - the Hops to Brewmeister Bilger
+  complete 98071 only Alliance
+  turnin 98071 only Alliance -- Brewer's Trade - the Hops to Brewmeister Bilger
 
 step The south shore - Tom and Kelly
 
   tip Tom "Half-fish" Wilson (51.21, 66.46) fishes the south shore; Barkeep Kelly (51.57, 58.57) keeps the inn.
-  accept 98459 -- A Lack of Virtue - Tom "Half-fish" Wilson; Bart Tidewater takes it in the Wetlands, late
-  accept 98463 -- Talk of the Town - Barkeep Kelly; Nixxrax Fillamug takes it in Booty Bay, late
+  accept 98459 only Alliance -- A Lack of Virtue - Tom "Half-fish" Wilson; Bart Tidewater takes it in the Wetlands, late
+  accept 98463 only Alliance -- Talk of the Town - Barkeep Kelly; Nixxrax Fillamug takes it in Booty Bay, late
 
 step Expedition - Stormwind, Milton and Samuelson
 
@@ -255,7 +257,7 @@ step Expedition - Ironforge, Stormpike and Karnik
   tip Prospector Stormpike (74.64, 11.74) and Historian Karnik (77.54, 11.82) work Ironforge.
   turnin 514 only Alliance -- Letter to Stormpike - Dibbs's word to Prospector Stormpike
   turnin 554 only Alliance -- Stormpike's Deciphering - Dibbs's word to Prospector Stormpike
-  turnin 95799 -- Findings for the Explorer's League - Dibbs's word to Historian Karnik
+  turnin 95799 only Alliance -- Findings for the Explorer's League - Dibbs's word to Historian Karnik
   zone map 1424
 
 step Expedition - Wetlands, Tidewater's word
@@ -263,7 +265,7 @@ step Expedition - Wetlands, Tidewater's word
   zone map 1437
 
   tip Bart Tidewater (8.66, 58.12) works the Wetlands.
-  turnin 98459 -- A Lack of Virtue - Tom's word to Bart Tidewater
+  turnin 98459 only Alliance -- A Lack of Virtue - Tom's word to Bart Tidewater
   zone map 1424
 
 step Expedition - Arathi, Quae's word
@@ -279,7 +281,7 @@ step Expedition - Silverpine, Modera's image
   zone map 1421
 
   tip the Image of Archmage Modera (68.62, 45.18) watches Silverpine.
-  turnin 92432 -- An Alarming Request - Emissary Jacques's word to the Image of Archmage Modera
+  turnin 92432 only Alliance -- An Alarming Request - Emissary Jacques's word to the Image of Archmage Modera
   zone map 1424
 
 step Expedition - Alterac, Abra's word
@@ -287,7 +289,7 @@ step Expedition - Alterac, Abra's word
   zone map 1416
 
   tip Abra Cadabra (12.01, 70.45) works Alterac.
-  turnin 95798 -- The Web of Magic - Dibbs's word to Abra Cadabra
+  turnin 95798 only Alliance -- The Web of Magic - Dibbs's word to Abra Cadabra
   zone map 1424
 
 step Expedition - Booty Bay, Nixxrax's word
@@ -295,7 +297,7 @@ step Expedition - Booty Bay, Nixxrax's word
   zone map 1434
 
   tip Nixxrax Fillamug (27.04, 77.17) works Booty Bay.
-  turnin 98463 -- Talk of the Town - Kelly's word to Nixxrax Fillamug
+  turnin 98463 only Alliance -- Talk of the Town - Kelly's word to Nixxrax Fillamug
   zone map 1424
 
 step Hillsbrad Foothills - done
