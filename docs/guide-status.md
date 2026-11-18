@@ -371,6 +371,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 6 rares (3 with sole-drop signatures) + 10 fixed containers, 8 recipes (2 vendor + 6 drops), 0 lint errors/warnings
+- [x] Faction ungating (Option A, 2026-11-17) - 32 Alliance-only lines + 4 soft-pre minis gated, header dropped, 0 dead lines both factions
 
 ### Blasted Lands — contested (Eastern Kingdoms)
 
@@ -697,9 +698,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Badlands — Horde
 
-- [ ] Census (reconcile against 35 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (reconcile against 35 set-asides banked by the Alliance census) - 77 zone-1418 records (35 Horde / 29 neutral / 13 Alliance by races mask); 13 Horde IN (band 30-40), 22 OUT argued, docs/badlands-horde-census.md
+- [x] Core guide - badlands-horde.guide (13 quests, band 30-40, Kargath hub + 3 expedition legs)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas in band, 0 stuck; residue R1 expedition leg only (Orgrimmar continent change)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

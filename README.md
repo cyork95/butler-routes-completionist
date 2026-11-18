@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.127.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.128.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -93,6 +93,7 @@ Status: **in development (pack v0.127.0), not published yet**. The first release
 | `badlands.guide` (Set 5 core built, pilot pending) | Badlands | 28–40 | Alliance |
 | `badlands-rares.guide` (companion built, pilot pending) | Badlands rares and treasures | 28-40 | Alliance |
 | `badlands-recipes.guide` (companion built, pilot pending) | Badlands recipe sources | 28-40 | Alliance |
+| `badlands-horde.guide` (Horde block core built, pilot pending) | Badlands (Horde) | 30-40 | Horde |
 | `blasted-lands.guide` (Set 5 core built, pilot pending) | Blasted Lands | 40–50 | Alliance |
 | `searing-gorge.guide` (Set 5 core built, pilot pending) | Searing Gorge | 40-52 | Alliance |
 | `searing-gorge-rares.guide` (companion built, pilot pending) | Searing Gorge rares and treasures | 40-52 | Alliance |

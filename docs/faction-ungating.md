@@ -326,10 +326,14 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - Lines gated: 13 quest lines (`only Alliance` on every accept/turnin/complete of the 6 primaries; composition N/A - no pre-existing class gates on those lines). 3 either-or minis comma-extended (`when onquest 3445,3380` / `4493,4494` / `6612,6611`) - mixed availability, steps stay bare, no step gate; first use of comma-OR when-lists in an ungating (engine supports it per dsl/when.js, honored by playtest-honest). 3 single-pre minis (`when onquest 2941/4508/2944`, all Alliance-only pres) gated at STEP level with `only Alliance`. 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). Shared lines for all 85 shared IDs stay bare.
 - Anomalies: none. Header removed.
 - Verification: forge lint 0 errors / 99 warnings, warned quest-ID set (62 IDs) identical to pre-edit baseline; 4 pre-texts improved to either-or form within the same out-of-contract-pre class (3444/4496 via the comma lists; 2954/3638 via header-drop faction-neutrality surfacing the Horde-side pres 2966/3526). Playtest `--honest` both factions: 0 stuck; Alliance outcome byte-identical per-persona vs baseline (72 findings, full multiset match); Horde personas (Orc/Scourge) complete only shared lines with residue only in R1/R2 (+1 pre-existing R3 writ warn); mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
-### badlands
-- file: badlands.guide
-- header: Alliance; contract: 35 (12 primary / 23 shared)
-- shared IDs: 656, 692, 703, 705, 709, 710, 711, 712, 713, 714, 715, 716, 734, 777, 778, 1108, 1137, 1559, 2418, 94256, 94268, 94292, 94304
+### badlands (UNGATED 2026-11-18, Horde round)
+- file: badlands.guide (was Alliance primary)
+- contract: 35 (12 primary / 23 shared)
+- shared IDs: 656, 692, 703, 705, 709, 710, 711, 712, 713, 714, 715, 716, 734, 777, 778, 1108, 1137, 1559, 2418, 94256, 94268, 94292, 94304 (per the Alliance census; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): the other 12 contract IDs.
+- Lines gated: 32 quest lines (`only Alliance`, none carried prior gates). 4 soft-pre minis (`when onquest 738/723` pres Alliance-only uncontracted, `when onquest 724/739` pres Alliance-contracted) gated at STEP level with `only Alliance`. 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none). Shared lines for all 23 shared IDs stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors; warned quest-ID set identical to pre-edit baseline (30/30). Playtest `--honest` both factions (Human/NightElf/Orc/Scourge Warriors): Alliance findings identical in kind to baseline; Horde personas complete only the shared lines with residue only in R1/R2/R5; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
 ### blasted-lands
 - file: blasted-lands.guide
 - header: Alliance; contract: 21 (10 primary / 11 shared)
