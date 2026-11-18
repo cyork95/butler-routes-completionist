@@ -8,11 +8,13 @@
 # wedge (note at the source, sourcing optional); writs and the crafted blade
 # take the Ashenvale R5 handling (optional + when skill + bag note).
 # Coordinates use the era frame the data carries, set with zone map lines.
+# Per-line `only Alliance` gates mark the Alliance-only lines (the records'
+# races mask is Horde/Alliance by faction, composing with class gates);
+# the shared lines stay open to both factions.
 guide butler-routes-completionist/dustwallow-marsh
 title Dustwallow Marsh - Completionist
 levels 35-45
 zone Dustwallow Marsh
-faction Alliance
 category Leveling
 folder Completionist
 coords live
@@ -24,17 +26,17 @@ step Theramore - landfall
 
   tip Theramore Isle is the hub: Fiora (66.46, 45.15) posts the Astranaar board, Samaul (68.02, 48.71) opens the diplomat line, Tervosh (66.42, 49.26) works the tower, Byron (66.15, 46.07) watches the gate, VanHowzen (67.76, 48.97) runs triage, Janene (66.59, 45.22) keeps the inn, Helenia (66.44, 51.46) sells spices, Jameson (65.50, 45.39) drills the guard, and Elrick (66.45, 45.35) holds a paladin word. Take every quest in town before you head out.
   note 1133's pre (1132, a Wetlands accept) lives outside this guide - take 1133 on its own and carry the word north.
-  accept 1133 -- Journey to Astranaar - Fiora Longears; Shindrell Swiftfire waits in Astranaar
-  accept 1135 -- Highperch Venom - Fiora Longears; ten Venom Sacs off the Thousand Needles wyverns
+  accept 1133 only Alliance -- Journey to Astranaar - Fiora Longears; Shindrell Swiftfire waits in Astranaar
+  accept 1135 only Alliance -- Highperch Venom - Fiora Longears; ten Venom Sacs off the Thousand Needles wyverns
   note 1265's pre (1264, a Wetlands accept) lives outside this guide - take the diplomat line on its own.
-  accept 1265 -- The Missing Diplomat - Commander Samaul; Archmage Tervosh takes the word
-  complete 1265 @66.42,49.26 era -- the diplomat word to Archmage Tervosh in the tower
-  turnin 1265 -- The Missing Diplomat - the word to Archmage Tervosh
-  accept 1282 -- They Call Him Smiling Jim - Guard Byron; Captain Vimes takes the word
-  accept 81765 only Paladin -- Elrick, Paladin of the Silver Hand - Elrick; Innkeeper Janene takes the word
-  turnin 81765 only Paladin -- Elrick, Paladin of the Silver Hand - the word to Innkeeper Janene
-  accept 98233 -- Sword in the Slime - Guard Jameson; a training sword off the corrosive ooze south
-  accept 7070 -- Shadowshard Fragments - Archmage Tervosh; ten fragments off the Desolace rumblers
+  accept 1265 only Alliance -- The Missing Diplomat - Commander Samaul; Archmage Tervosh takes the word
+  complete 1265 @66.42,49.26 era only Alliance -- the diplomat word to Archmage Tervosh in the tower
+  turnin 1265 only Alliance -- The Missing Diplomat - the word to Archmage Tervosh
+  accept 1282 only Alliance -- They Call Him Smiling Jim - Guard Byron; Captain Vimes takes the word
+  accept 81765 only Paladin,Alliance -- Elrick, Paladin of the Silver Hand - Elrick; Innkeeper Janene takes the word
+  turnin 81765 only Paladin,Alliance -- Elrick, Paladin of the Silver Hand - the word to Innkeeper Janene
+  accept 98233 only Alliance -- Sword in the Slime - Guard Jameson; a training sword off the corrosive ooze south
+  accept 7070 only Alliance -- Shadowshard Fragments - Archmage Tervosh; ten fragments off the Desolace rumblers
 
 step Theramore - triage (First Aid)
 
@@ -43,16 +45,16 @@ step Theramore - triage (First Aid)
   when skill First Aid 1
 
   note 6624's pre (6625, an Ironforge accept) lives outside this guide - take triage on its own.
-  accept 6624 -- Triage - Doctor Gustaf VanHowzen; the wounded in the infirmary
-  complete 6624 @67.76,48.97 era -- the triage in VanHowzen's infirmary
-  turnin 6624 -- Triage - the triage to Doctor Gustaf VanHowzen
+  accept 6624 only Alliance -- Triage - Doctor Gustaf VanHowzen; the wounded in the infirmary
+  complete 6624 @67.76,48.97 era only Alliance -- the triage in VanHowzen's infirmary
+  turnin 6624 only Alliance -- Triage - the triage to Doctor Gustaf VanHowzen
 
 step Astranaar - Journey's end
 
   zone map 1440
 
   tip Shindrell Swiftfire (34.67, 48.84) holds the Astranaar end of Fiora's board. Turn in, ride back to the marsh.
-  turnin 1133 -- Journey to Astranaar - Fiora's word to Shindrell Swiftfire
+  turnin 1133 only Alliance -- Journey to Astranaar - Fiora's word to Shindrell Swiftfire
   zone map 1445
 
 step North post - Hendel's line
@@ -62,13 +64,13 @@ step North post - Hendel's line
   goto 45.24,24.65
 
   tip The north post: Hendel (45.24, 24.65) holds the line, Tervosh (45.20, 24.40) works the tower tent, Jaina (45.20, 24.30) keeps the command. Hendel's death is the job - Tervosh and Jaina close it.
-  accept 1266 -- The Missing Diplomat - Private Hendel; carry the word
-  turnin 1266 -- The Missing Diplomat - the word to Private Hendel
-  accept 1324 -- The Missing Diplomat - Private Hendel; Hendel's end at the post
-  complete 1324 @45.24,24.65 era -- Private Hendel brought down at the north post
-  turnin 1324 -- The Missing Diplomat - the news to Archmage Tervosh
-  accept 1267 -- The Missing Diplomat - Lady Jaina Proudmoore; the line closes with her
-  turnin 1267 -- The Missing Diplomat - the line to Lady Jaina Proudmoore
+  accept 1266 only Alliance -- The Missing Diplomat - Private Hendel; carry the word
+  turnin 1266 only Alliance -- The Missing Diplomat - the word to Private Hendel
+  accept 1324 only Alliance -- The Missing Diplomat - Private Hendel; Hendel's end at the post
+  complete 1324 @45.24,24.65 era only Alliance -- Private Hendel brought down at the north post
+  turnin 1324 only Alliance -- The Missing Diplomat - the news to Archmage Tervosh
+  accept 1267 only Alliance -- The Missing Diplomat - Lady Jaina Proudmoore; the line closes with her
+  turnin 1267 only Alliance -- The Missing Diplomat - the line to Lady Jaina Proudmoore
 
 step West road - Jarl and the dirt
 
@@ -76,42 +78,42 @@ step West road - Jarl and the dirt
 
   tip The west road: Loose Dirt (55.44, 25.92) by Jarl's camp starts the Orc report; Jarl (55.44, 26.27) wants spices, eyes and a blade; Stinky (46.88, 17.52) plans his escape in the west. Buy three Soothing Spices from Helenia Olden in Theramore (66.44, 51.46) before you close Jarl's first ask.
   note The Loose Dirt sits by Jarl's camp; the report goes to the Theramore Lieutenant back east.
-  accept 1219 -- The Orc Report - the Loose Dirt; the Theramore Lieutenant takes it
+  accept 1219 only Alliance -- The Orc Report - the Loose Dirt; the Theramore Lieutenant takes it
   accept 1218 -- Soothing Spices - "Swamp Eye" Jarl; three Soothing Spices from Helenia Olden
-  accept 1222 -- Stinky's Escape - "Stinky" Ignatz; the escape at his camp
-  complete 1222 @46.88,17.52 era -- Stinky's escape at his western camp
+  accept 1222 only Alliance -- Stinky's Escape - "Stinky" Ignatz; the escape at his camp
+  complete 1222 @46.88,17.52 era only Alliance -- Stinky's escape at his western camp
 
 step Theramore - the board
 
   zone map 1445
 
   tip The Lieutenant (65.00, 47.00) takes the Orc report; Vimes (68.21, 48.62) holds the deserters board; Tesoran (68.05, 48.11) musters Daelin's men; Caz (64.75, 50.43) checks the Black Shield; Stern (66.34, 45.47) stews the soup. Work the board before the western hunt.
-  turnin 1219 -- The Orc Report - the report to the Theramore Lieutenant
-  accept 1220 -- Captain Vimes - the Theramore Lieutenant; Captain Vimes takes the word
-  turnin 1220 -- Captain Vimes - the word to Captain Garran Vimes
+  turnin 1219 only Alliance -- The Orc Report - the report to the Theramore Lieutenant
+  accept 1220 only Alliance -- Captain Vimes - the Theramore Lieutenant; Captain Vimes takes the word
+  turnin 1220 only Alliance -- Captain Vimes - the word to Captain Garran Vimes
   note 1319's pre (1253, a Barrens accept) lives outside this guide - take the shield line on its own.
-  accept 1319 -- The Black Shield - Captain Garran Vimes; Caz Twosprocket takes it
-  turnin 1319 -- The Black Shield - the shield to Caz Twosprocket
-  accept 1320 -- The Black Shield - Caz Twosprocket; Captain Vimes closes it
-  turnin 1320 -- The Black Shield - the shield to Captain Garran Vimes
-  turnin 1282 -- They Call Him Smiling Jim - the word to Captain Garran Vimes
+  accept 1319 only Alliance -- The Black Shield - Captain Garran Vimes; Caz Twosprocket takes it
+  turnin 1319 only Alliance -- The Black Shield - the shield to Caz Twosprocket
+  accept 1320 only Alliance -- The Black Shield - Caz Twosprocket; Captain Vimes closes it
+  turnin 1320 only Alliance -- The Black Shield - the shield to Captain Garran Vimes
+  turnin 1282 only Alliance -- They Call Him Smiling Jim - the word to Captain Garran Vimes
   complete 1218 @66.44,51.46 era -- three Soothing Spices from Helenia Olden in town
   note 1259's pre (1252, a Barrens accept) lives outside this guide - take Daelin's line on its own.
-  accept 1259 -- Lieutenant Paval Reethe - Captain Garran Vimes; Adjutant Tesoran takes it
-  turnin 1259 -- Lieutenant Paval Reethe - the word to Adjutant Tesoran
-  accept 1285 -- Daelin's Men - Captain Garran Vimes; Adjutant Tesoran musters them
-  turnin 1285 -- Daelin's Men - the muster to Adjutant Tesoran
-  accept 1286 -- The Deserters - Captain Garran Vimes; Balos Jacken waits in the west
-  turnin 1222 -- Stinky's Escape - the escape to Morgan Stern
+  accept 1259 only Alliance -- Lieutenant Paval Reethe - Captain Garran Vimes; Adjutant Tesoran takes it
+  turnin 1259 only Alliance -- Lieutenant Paval Reethe - the word to Adjutant Tesoran
+  accept 1285 only Alliance -- Daelin's Men - Captain Garran Vimes; Adjutant Tesoran musters them
+  turnin 1285 only Alliance -- Daelin's Men - the muster to Adjutant Tesoran
+  accept 1286 only Alliance -- The Deserters - Captain Garran Vimes; Balos Jacken waits in the west
+  turnin 1222 only Alliance -- Stinky's Escape - the escape to Morgan Stern
   note 1204's pre (1260, a Stormwind accept) lives outside this guide - take the soup on its own.
-  accept 1204 -- Mudrock Soup and Bugs - Morgan Stern; eight tongues off the northern tortoises
+  accept 1204 only Alliance -- Mudrock Soup and Bugs - Morgan Stern; eight tongues off the northern tortoises
 
 step West - Balos and the writs
 
   zone map 1445
 
   tip Balos Jacken (36.09, 54.31) deserts in the far west; Mudcrush Durtfeet (35.15, 38.26) and Ugbert (40.99, 27.88) take writs out here. Vimes's Report (6075) has no placed source in the data - have it in your bags before this leg.
-  turnin 1286 -- The Deserters - the deserters to Balos Jacken
+  turnin 1286 only Alliance -- The Deserters - the deserters to Balos Jacken
   note 1288's pre (1287, a Barrens accept) lives outside this guide; its starter Vimes's Report has no placed source - have it in your bags.
   accept 1288 -- Vimes's Report - use the report, then carry it to Lady Jaina
 
@@ -150,7 +152,7 @@ step North flats - tortoises and Darkmist
   goto 61.60,27.80
   kill 4396 optional
   tip The Mudrock tortoises graze the northern flats. Eight Forked tongues for the soup.
-  complete 1204 @55.60,15.40 era -- eight Forked Mudrock Tongues off the northern tortoises
+  complete 1204 @55.60,15.40 era only Alliance -- eight Forked Mudrock Tongues off the northern tortoises
 
 step Jarl - spices in, eyes out
 
@@ -260,7 +262,7 @@ step Thousand Needles - venom and secrets
   goto 16.75,41.49
   kill 4107 optional
   tip The Highperch wyverns ride the north-west mesas; Magus Tirth (78.29, 75.70) keeps the far south. Ten Venom Sacs for Fiora back in the marsh, and Tirth closes the mage secrets.
-  complete 1135 @10.34,35.67 era -- ten Highperch Venom Sacs off the mesa wyverns
+  complete 1135 @10.34,35.67 era only Alliance -- ten Highperch Venom Sacs off the mesa wyverns
   turnin 1949 only Mage -- Hidden Secrets - the secrets to Magus Tirth
 
 step Barrens - Menara's orb
@@ -282,7 +284,7 @@ step Desolace - shadowshards
   goto 29.76,56.17
   kill 11777 optional
   tip The Shadowshard rumblers shake the eastern wastes; Tervosh back in Theramore (66.42, 49.26) takes the fragments.
-  complete 7070 @27.23,57.68 era -- ten Shadowshard Fragments off the eastern rumblers
+  complete 7070 @27.23,57.68 era only Alliance -- ten Shadowshard Fragments off the eastern rumblers
 
 step South shore - Nat's challenge (Fishing)
 
@@ -304,7 +306,7 @@ step South shore - the ooze
   goto 50.97,50.28
   goto 54.13,57.73
   kill 4392 optional
-  complete 98233 @47.62,51.70 era -- Jameson's Training Sword off the southern ooze
+  complete 98233 @47.62,51.70 era only Alliance -- Jameson's Training Sword off the southern ooze
 
 step The four waters - Nat's fish
 
@@ -392,12 +394,12 @@ step Theramore - last words
   zone map 1445
 
   tip Last words in town: Stern (66.34, 45.47) takes the soup and the crawlers, Jaina (66.27, 49.04) takes Vimes's report, Fiora (66.46, 45.15) takes the venom, Tervosh (66.42, 49.26) takes the shards. The soup's pre (1204) fills here, so take the bug hunt after it.
-  turnin 1204 -- Mudrock Soup and Bugs - the soup to Morgan Stern
-  accept 1258 -- ... and Bugs - Morgan Stern; twelve Pristine Crawler Legs, Swamp of Sorrows
+  turnin 1204 only Alliance -- Mudrock Soup and Bugs - the soup to Morgan Stern
+  accept 1258 only Alliance -- ... and Bugs - Morgan Stern; twelve Pristine Crawler Legs, Swamp of Sorrows
   turnin 1288 -- Vimes's Report - the report to Lady Jaina Proudmoore
-  turnin 1135 -- Highperch Venom - the venom to Fiora Longears
-  turnin 7070 -- Shadowshard Fragments - the fragments to Archmage Tervosh
-  turnin 98233 -- Sword in the Slime - the sword to Guard Jameson
+  turnin 1135 only Alliance -- Highperch Venom - the venom to Fiora Longears
+  turnin 7070 only Alliance -- Shadowshard Fragments - the fragments to Archmage Tervosh
+  turnin 98233 only Alliance -- Sword in the Slime - the sword to Guard Jameson
 
 step Swamp of Sorrows - crawler legs
 
@@ -412,6 +414,6 @@ step Swamp of Sorrows - crawler legs
   goto 78.91,5.28
   kill 922 optional
   tip The Silt Crawlers work the north shore; the Monstrous Crawlers walk the same ground. Twelve Pristine legs for Stern's pot back in the marsh.
-  complete 1258 @76.04,3.02 era -- twelve Pristine Crawler Legs off the north-shore crawlers
+  complete 1258 @76.04,3.02 era only Alliance -- twelve Pristine Crawler Legs off the north-shore crawlers
   zone map 1445
-  turnin 1258 -- ... and Bugs - the legs to Morgan Stern
+  turnin 1258 only Alliance -- ... and Bugs - the legs to Morgan Stern
