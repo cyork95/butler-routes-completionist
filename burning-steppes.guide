@@ -19,7 +19,6 @@ guide butler-routes-completionist/burning-steppes
 title Burning Steppes
 levels 48-60
 zone Burning Steppes
-faction Alliance
 category Leveling
 folder Eastern Kingdoms
 coords live
@@ -29,10 +28,10 @@ step Keeshan's Post - Missing in Action
 
   zone map 1428
 
-  accept 219 -- Missing In Action - Corporal Keeshan; the escort runs to Redridge, below the band but contracted as the in-zone accept
+  accept 219 only Alliance -- Missing In Action - Corporal Keeshan; the escort runs to Redridge, below the band but contracted as the in-zone accept
   zone map 1433
-  complete 219 @28.27,48.7 -- escort Corporal Keeshan back to Redridge
-  turnin 219 -- Missing In Action - Keeshan to Marshal Marris
+  complete 219 only Alliance @28.27,48.7 -- escort Corporal Keeshan back to Redridge
+  turnin 219 only Alliance -- Missing In Action - Keeshan to Marshal Marris
   zone map 1428
   tip 219 accepts in-zone at minLevel 19 and walks far below the band; the completionist rule keeps it, flagged outlier in the census.
 
@@ -65,54 +64,54 @@ step Firegut fields - Oralius and the brutes
 
   zone map 1428
 
-  accept 3823 -- Extinguish the Firegut - Oralius; mages, ogres and brutes in the fields southwest
-  complete 3823 @74.6,43.3 -- Firegut Ogre Mages, in the western fields
-  complete 3823 @74.44,38.44 -- Firegut Ogres, in the western fields
-  complete 3823 @78.17,40.37 -- Firegut Brutes, in the western fields
-  turnin 3823 -- Extinguish the Firegut - the count to Oralius
-  accept 3824 -- Gor'tesh the Brute Lord - Oralius; Gor'tesh waits west
-  complete 3824 @39.33,55.3 -- Gor'tesh, west on the mountain road
-  turnin 3824 -- Gor'tesh the Brute Lord - the head to Oralius
-  accept 3825 -- Ogre Head On A Stick = Party - Oralius; plant the head in the east fields
-  complete 3825 @81.0,46.79 -- plant Gor'tesh's head on the Soft Dirt Mound
-  turnin 3825 -- Ogre Head On A Stick = Party - the word back to Oralius
-  accept 4283 -- FIFTY! YEP! - Oralius; fifty Blackrock Medallions off the Blackrock crews and worgs
-  complete 4283 @55.4,54.37 -- Blackrock Medallions off the crews on the mountain road
-  complete 4283 @39.82,32.8 -- Blackrock Medallions off the crews in the west
-  turnin 4283 -- FIFTY! YEP! - the medallions to Oralius
-  accept 4286 -- The Good Stuff - Oralius; twenty Dark Iron Fanny Packs off the Dark Iron crews west
-  complete 4286 @24.6,20.7 -- Dark Iron Fanny Packs off the Anvilrage crews in the west
-  complete 4286 @35.8,19.8 -- Dark Iron Fanny Packs off the travelers west
-  turnin 4286 -- The Good Stuff - the packs to Oralius
+  accept 3823 only Alliance -- Extinguish the Firegut - Oralius; mages, ogres and brutes in the fields southwest
+  complete 3823 only Alliance @74.6,43.3 -- Firegut Ogre Mages, in the western fields
+  complete 3823 only Alliance @74.44,38.44 -- Firegut Ogres, in the western fields
+  complete 3823 only Alliance @78.17,40.37 -- Firegut Brutes, in the western fields
+  turnin 3823 only Alliance -- Extinguish the Firegut - the count to Oralius
+  accept 3824 only Alliance -- Gor'tesh the Brute Lord - Oralius; Gor'tesh waits west
+  complete 3824 only Alliance @39.33,55.3 -- Gor'tesh, west on the mountain road
+  turnin 3824 only Alliance -- Gor'tesh the Brute Lord - the head to Oralius
+  accept 3825 only Alliance -- Ogre Head On A Stick = Party - Oralius; plant the head in the east fields
+  complete 3825 only Alliance @81.0,46.79 -- plant Gor'tesh's head on the Soft Dirt Mound
+  turnin 3825 only Alliance -- Ogre Head On A Stick = Party - the word back to Oralius
+  accept 4283 only Alliance -- FIFTY! YEP! - Oralius; fifty Blackrock Medallions off the Blackrock crews and worgs
+  complete 4283 only Alliance @55.4,54.37 -- Blackrock Medallions off the crews on the mountain road
+  complete 4283 only Alliance @39.82,32.8 -- Blackrock Medallions off the crews in the west
+  turnin 4283 only Alliance -- FIFTY! YEP! - the medallions to Oralius
+  accept 4286 only Alliance -- The Good Stuff - Oralius; twenty Dark Iron Fanny Packs off the Dark Iron crews west
+  complete 4286 only Alliance @24.6,20.7 -- Dark Iron Fanny Packs off the Anvilrage crews in the west
+  complete 4286 only Alliance @35.8,19.8 -- Dark Iron Fanny Packs off the travelers west
+  turnin 4286 only Alliance -- The Good Stuff - the packs to Oralius
 
 step Morgan's Vigil - Maxwell, Helendis and Jalinda
 
   zone map 1428
 
-  accept 4224 -- The True Masters - Marshal Maxwell; its pre (4223, Redridge) sits outside this route - structural, chain named
+  accept 4224 only Alliance -- The True Masters - Marshal Maxwell; its pre (4223, Redridge) sits outside this route - structural, chain named
   note Marshal Windsor (4241) needs 4224 done first - it rides the out-of-zone-pre mini-step below.
-  accept 4182 -- Dragonkin Menace - Helendis Riverhorn; broodlings, dragonspawn, a drake and wyrmkin east
-  complete 4182 @81.01,28.2 -- Black Broodlings, in the eastern rookeries
-  complete 4182 @82.35,26.62 -- Black Dragonspawn, in the eastern rookeries
-  complete 4182 @84.9,28.47 -- Black Drake, in the eastern rookeries
-  complete 4182 @83.99,26.9 -- Black Wyrmkin, in the eastern rookeries
-  turnin 4182 -- Dragonkin Menace - the count to Helendis Riverhorn
-  accept 4183 -- The True Masters - Helendis Riverhorn; the word goes to Magistrate Solomon in Redridge (expedition below)
-  accept 4701 -- Put Her Down - Helendis Riverhorn; Halycon has no outdoor spawn in the data - she lives inside Lower Blackrock Spire, work the Meeting Stone anchor below
-  complete 4701 -- Put Her Down (Halycon, inside Lower Blackrock Spire - no outdoor spawn, honest note above)
-  turnin 4701 -- Put Her Down - the word back to Helendis Riverhorn
-  accept 4764 -- Doomrigger's Clasp - Mayara Brightwing; its pre (4766 Stormwind Rendezvous, routed in the Stormwind core) comes first - reference, not a warning
-  complete 4764 -- Doomrigger's Clasp (the Coffer has no placed spawn in the data - honest note)
-  turnin 4764 -- Doomrigger's Clasp - the clasp to Mayara Brightwing
-  accept 4765 -- Delivery to Ridgewell - Mayara Brightwing; the word goes to Count Ridgewell in Stormwind (expedition below)
-  accept 4262 -- Overmaster Pyron - Jalinda Sprig; Pyron patrols inside Blackrock Mountain (map 1415) - expedition below
+  accept 4182 only Alliance -- Dragonkin Menace - Helendis Riverhorn; broodlings, dragonspawn, a drake and wyrmkin east
+  complete 4182 only Alliance @81.01,28.2 -- Black Broodlings, in the eastern rookeries
+  complete 4182 only Alliance @82.35,26.62 -- Black Dragonspawn, in the eastern rookeries
+  complete 4182 only Alliance @84.9,28.47 -- Black Drake, in the eastern rookeries
+  complete 4182 only Alliance @83.99,26.9 -- Black Wyrmkin, in the eastern rookeries
+  turnin 4182 only Alliance -- Dragonkin Menace - the count to Helendis Riverhorn
+  accept 4183 only Alliance -- The True Masters - Helendis Riverhorn; the word goes to Magistrate Solomon in Redridge (expedition below)
+  accept 4701 only Alliance -- Put Her Down - Helendis Riverhorn; Halycon has no outdoor spawn in the data - she lives inside Lower Blackrock Spire, work the Meeting Stone anchor below
+  complete 4701 only Alliance -- Put Her Down (Halycon, inside Lower Blackrock Spire - no outdoor spawn, honest note above)
+  turnin 4701 only Alliance -- Put Her Down - the word back to Helendis Riverhorn
+  accept 4764 only Alliance -- Doomrigger's Clasp - Mayara Brightwing; its pre (4766 Stormwind Rendezvous, routed in the Stormwind core) comes first - reference, not a warning
+  complete 4764 only Alliance -- Doomrigger's Clasp (the Coffer has no placed spawn in the data - honest note)
+  turnin 4764 only Alliance -- Doomrigger's Clasp - the clasp to Mayara Brightwing
+  accept 4765 only Alliance -- Delivery to Ridgewell - Mayara Brightwing; the word goes to Count Ridgewell in Stormwind (expedition below)
+  accept 4262 only Alliance -- Overmaster Pyron - Jalinda Sprig; Pyron patrols inside Blackrock Mountain (map 1415) - expedition below
   zone map 1415
-  complete 4262 @46.82,67.71 -- Overmaster Pyron, inside Blackrock Mountain
+  complete 4262 only Alliance @46.82,67.71 -- Overmaster Pyron, inside Blackrock Mountain
   zone map 1428
-  turnin 4262 -- Overmaster Pyron - the word back to Jalinda Sprig
-  accept 4263 -- Incendius! - Jalinda Sprig; Lord Incendius has no outdoor spawn in the data - he lives inside Blackrock Depths, work the mountain anchor below
-  complete 4263 -- Incendius! (Lord Incendius, inside Blackrock Depths - no outdoor spawn, honest note above)
-  turnin 4263 -- Incendius! - the word back to Jalinda Sprig
+  turnin 4262 only Alliance -- Overmaster Pyron - the word back to Jalinda Sprig
+  accept 4263 only Alliance -- Incendius! - Jalinda Sprig; Lord Incendius has no outdoor spawn in the data - he lives inside Blackrock Depths, work the mountain anchor below
+  complete 4263 only Alliance -- Incendius! (Lord Incendius, inside Blackrock Depths - no outdoor spawn, honest note above)
+  turnin 4263 only Alliance -- Incendius! - the word back to Jalinda Sprig
 
 step The Pillar of Ash - Cyrus Therepentous
 
@@ -151,15 +150,16 @@ step The west road - Franclorn, Lothos and the tablet
 step Marshal Maxwell - the out-of-zone pre
 
   when onquest 4223
+  only Alliance
 
   zone map 1428
 
-  complete 4224 @65.01,23.76 -- Ragged John, at his camp
-  turnin 4224 -- The True Masters - the word to Marshal Maxwell
-  accept 4241 -- Marshal Windsor - Marshal Maxwell
+  complete 4224 only Alliance @65.01,23.76 -- Ragged John, at his camp
+  turnin 4224 only Alliance -- The True Masters - the word to Marshal Maxwell
+  accept 4241 only Alliance -- Marshal Windsor - Marshal Maxwell
   goto 32.77,30.43
   note Marshal Windsor has no outdoor spawn in the data; this Meeting Stone is the data-placed anchor - head inside Blackrock Spire for the handoff.
-  turnin 4241 -- Marshal Windsor - the word to Marshal Windsor inside Blackrock Spire (no outdoor spawn - note-only turn-in, nothing invented)
+  turnin 4241 only Alliance -- Marshal Windsor - the word to Marshal Windsor inside Blackrock Spire (no outdoor spawn - note-only turn-in, nothing invented)
 
 step Blackrock Mountain - the interior handoffs
 
@@ -167,26 +167,28 @@ step Blackrock Mountain - the interior handoffs
 
   goto 32.77,30.43
   note Bijou and the Spire bosses below have no outdoor spawn points in the data; this Meeting Stone is the data-placed anchor - head inside for each leg. (Windsor's 4241 turn-in rides the mini-step below, after 4224.)
-  accept 4242 -- Abandoned Hope - Marshal Windsor, inside the Spire
-  accept 4322 -- Jail Break! - Marshal Windsor, inside the Spire; its pre (4282, an instance quest) sits outside this route - structural, chain named
-  accept 5002 -- Message to Maxwell - Bijou, inside Lower Blackrock Spire; its pre (5001) sits outside this route - structural, chain named
+  accept 4242 only Alliance -- Abandoned Hope - Marshal Windsor, inside the Spire
+  accept 4322 only Alliance -- Jail Break! - Marshal Windsor, inside the Spire; its pre (4282, an instance quest) sits outside this route - structural, chain named
+  accept 5002 only Alliance -- Message to Maxwell - Bijou, inside Lower Blackrock Spire; its pre (5001) sits outside this route - structural, chain named
 
 step The cell block - Jail Break
 
   when onquest 4282
+  only Alliance
 
   zone map 1428
 
-  complete 4322 -- Jail Break! (scripted event inside Blackrock Spire - no placed event point, honest note)
-  turnin 4322 -- Jail Break! - the word to Marshal Maxwell
+  complete 4322 only Alliance -- Jail Break! (scripted event inside Blackrock Spire - no placed event point, honest note)
+  turnin 4322 only Alliance -- Jail Break! - the word to Marshal Maxwell
 
 step Bijou's word - the out-of-zone pre
 
   when onquest 5001
+  only Alliance
 
   zone map 1428
 
-  turnin 5002 -- Message to Maxwell - Bijou's word to Marshal Maxwell
+  turnin 5002 only Alliance -- Message to Maxwell - Bijou's word to Marshal Maxwell
 
 step The egg shelf - the Winterspring pre
 
@@ -219,16 +221,16 @@ step Morgan's Vigil, returns - Maxwell's mission chain
 
   zone map 1428
 
-  turnin 4242 -- Abandoned Hope - the word to Marshal Maxwell
-  accept 6402 -- Stormwind Rendezvous - Marshal Maxwell; the word goes to Reginald Windsor in Stormwind (expedition below)
-  accept 5081 -- Maxwell's Mission - Marshal Maxwell; War Master Voone, Highlord Omokk and Overlord Wyrmthalak have no outdoor spawns in the data - all three live inside Blackrock Spire, work the mountain anchor above
-  complete 5081 -- Maxwell's Mission (Voone, Omokk and Wyrmthalak, inside the Spire - honest note above)
-  accept 5089 -- General Drakkisath's Command - the Blood of the Black Dragon Champion off Overlord Wyrmthalak inside Upper Blackrock Spire (100% drop, no outdoor spawn) - have it in your bags
-  turnin 5081 -- Maxwell's Mission - the word to Marshal Maxwell
-  turnin 5089 -- General Drakkisath's Command - the blood to Marshal Maxwell
-  accept 5102 -- General Drakkisath's Demise - Marshal Maxwell; Drakkisath has no outdoor spawn in the data - inside Upper Blackrock Spire, work the mountain anchor above
-  complete 5102 -- General Drakkisath's Demise (General Drakkisath, inside the Spire - honest note above)
-  turnin 5102 -- General Drakkisath's Demise - the word to Marshal Maxwell
+  turnin 4242 only Alliance -- Abandoned Hope - the word to Marshal Maxwell
+  accept 6402 only Alliance -- Stormwind Rendezvous - Marshal Maxwell; the word goes to Reginald Windsor in Stormwind (expedition below)
+  accept 5081 only Alliance -- Maxwell's Mission - Marshal Maxwell; War Master Voone, Highlord Omokk and Overlord Wyrmthalak have no outdoor spawns in the data - all three live inside Blackrock Spire, work the mountain anchor above
+  complete 5081 only Alliance -- Maxwell's Mission (Voone, Omokk and Wyrmthalak, inside the Spire - honest note above)
+  accept 5089 only Alliance -- General Drakkisath's Command - the Blood of the Black Dragon Champion off Overlord Wyrmthalak inside Upper Blackrock Spire (100% drop, no outdoor spawn) - have it in your bags
+  turnin 5081 only Alliance -- Maxwell's Mission - the word to Marshal Maxwell
+  turnin 5089 only Alliance -- General Drakkisath's Command - the blood to Marshal Maxwell
+  accept 5102 only Alliance -- General Drakkisath's Demise - Marshal Maxwell; Drakkisath has no outdoor spawn in the data - inside Upper Blackrock Spire, work the mountain anchor above
+  complete 5102 only Alliance -- General Drakkisath's Demise (General Drakkisath, inside the Spire - honest note above)
+  turnin 5102 only Alliance -- General Drakkisath's Demise - the word to Marshal Maxwell
 
 step The warlock enclave - the Dreadsteed chain
 
@@ -329,17 +331,17 @@ step Bodley - the endgame chain
   turnin 8995 -- Mea Culpa, Lord Valthalak - the word to the Spirit of Lord Valthalak (no placed spawn - note-only turn-in, nothing invented)
   accept 8996 -- Return to Bodley - the Spirit of Lord Valthalak (no placed spawn - note-only accept, nothing invented); the Brazier of Beckoning has no placed source in the data - have it in your bags
   turnin 8996 -- Return to Bodley - the word to Bodley
-  accept 8997 -- Back to the Beginning - Bodley; the word goes to Deliana in Ironforge (expedition below)
+  accept 8997 only Alliance -- Back to the Beginning - Bodley; the word goes to Deliana in Ironforge (expedition below)
   zone map 1455
-  turnin 8997 -- Back to the Beginning - the word to Deliana
+  turnin 8997 only Alliance -- Back to the Beginning - the word to Deliana
   zone map 1428
 
 step Expedition - Stormwind, the Plaguelands and Redridge
 
   zone map 1453
-  turnin 4765 -- Delivery to Ridgewell - the clasp to Count Remington Ridgewell
-  turnin 6402 -- Stormwind Rendezvous - Maxwell's word to Reginald Windsor
+  turnin 4765 only Alliance -- Delivery to Ridgewell - the clasp to Count Remington Ridgewell
+  turnin 6402 only Alliance -- Stormwind Rendezvous - Maxwell's word to Reginald Windsor
   zone map 1433
-  turnin 4183 -- The True Masters - the word to Magistrate Solomon
+  turnin 4183 only Alliance -- The True Masters - the word to Magistrate Solomon
   zone map 1428
   tip 4183's pre (4182) is done at Morgan's Vigil; Solomon closes the chain in Redridge.
