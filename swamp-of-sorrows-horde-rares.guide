@@ -1,0 +1,247 @@
+# Swamp of Sorrows (Horde) - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# Every rank-flagged rare spawning in Swamp of Sorrows (zone key 1435) a
+# Horde player can engage (5 shipped, 4 excluded far above band), and every
+# fixed treasure object (8 shippable families plus the Caravan Chest unique),
+# verified against the local Forever game data (questie-forever NPC/object/
+# item dumps). Rares with 2+ points loop over ALL data-confirmed points;
+# single-point rares get plain steps. Every goal is optional - a missing
+# spawn never wedges the guide. Signature drops ride as optional collects;
+# everything else gets a kill-note. No accept/turnin lines anywhere. See
+# docs/swamp-of-sorrows-horde-companions-inventory.md for the full inventory.
+guide butler-routes-completionist/swamp-of-sorrows-horde-rares
+title Swamp of Sorrows (Horde) - Rares & Treasures
+levels 30-38
+zone Swamp of Sorrows
+faction Horde
+category Collectibles
+folder Companions
+keywords swamp of sorrows, horde, rares, treasures, collectibles, companions
+coords live
+version 1
+
+step Fallow Sanctuary - Lost One Cook
+
+  zone map 1435
+
+  loop
+  goto 60.93,24.28
+  goto 61.82,21.85
+  goto 62.39,20.9
+  goto 62.5,23.31
+  goto 63.98,22.8
+  goto 65.23,22.8
+  kill 1106 optional
+  collect 250186 "Giant Scrambled Eggs" optional
+  collect 93568 "Worn Stone Token (Stitches the Outcast)" optional
+  note Lost One Cook (level 37) loops the Sanctuary. 250186 is his exclusive drop anywhere in the data. The Worn Stone Token is the ground objective of uncontracted quest 699 Stitches the Outcast (the Horde census deferred it to companions) - no quest line ships here. No core quest takes the Cook.
+  note Respawn timer unconfirmed.
+
+step Fallow Sanctuary - Lost One Chieftain
+
+  zone map 1435
+
+  loop
+  goto 60.06,20.31
+  goto 60.54,22.93
+  goto 61.59,22.78
+  goto 61.96,21.16
+  goto 63.81,20.85
+  kill 763 optional
+  collect 282003 "Lost Chieftain's Greatsword" optional
+  collect 93574 "Corpsefeeder's Head (Corpsefeeder)" optional
+  note Lost One Chieftain (level 39) sits one level over the 30-38 band - come back later. 282003 is his exclusive drop anywhere in the data. The Corpsefeeder's Head is the ground objective of uncontracted quest 698 Corpsefeeder (deferred to companions by the Horde census) - no quest line ships here. No core quest takes the Chieftain.
+  note Respawn timer unconfirmed.
+
+step The western marshes - Molt Thorn
+
+  zone map 1435
+
+  loop
+  goto 25.83,48.16
+  goto 26.59,38.46
+  goto 27.88,32.7
+  goto 28.37,52.47
+  goto 28.4,45.91
+  goto 29.07,42.35
+  goto 30.52,50.99
+  goto 30.92,36.63
+  goto 32.65,48.08
+  goto 32.88,44.53
+  goto 33.57,35.01
+  goto 34.49,38.84
+  goto 35.57,31.36
+  goto 37.02,44.41
+  goto 37.28,36.97
+  goto 38.23,39.75
+  goto 39.71,36.04
+  goto 41.15,31.64
+  goto 43.27,33.96
+  kill 14448 optional
+  note Molt Thorn (level 42) sits above the 30-38 band - come back later. No signature loot; she is one of five Swamp-only droppers of Formula: Enchant Gloves - Advanced Herbalism (see the Recipes companion). No core quest takes her.
+  note Respawn timer unconfirmed.
+
+step The southern inlet - Fingat
+
+  zone map 1435
+
+  goto 61.43,83.72
+  kill 14446 optional
+  note Fingat (level 43) sits above the 30-38 band - come back later. Single Swamp point; he also spawns in the Blasted Lands. Fish, clams and pearls; no signature loot. No core quest takes him.
+  note Respawn timer unconfirmed.
+
+step The far east shore - Gilmorian
+
+  zone map 1435
+
+  goto 95.87,64.39
+  kill 14447 optional
+  note Gilmorian (level 43) sits above the 30-38 band - come back later. Single point on the far east shore. Fish, clams and pearls; no signature loot. No core quest takes her.
+  note Respawn timer unconfirmed.
+
+step Fixed containers - chests, crates and the footlocker
+
+  zone map 1435
+
+  loop
+  goto 4.83,31.68
+  goto 11.68,34.21
+  goto 13.9,56.02
+  goto 13.96,71.32
+  goto 54.96,29.79
+  goto 60.07,22.04
+  goto 61.17,23.87
+  goto 62.01,21.05
+  goto 62.6,23.32
+  goto 64.18,22.37
+  goto 65.76,18.36
+  goto 56.85,61.13
+  goto 61.4,81.21
+  goto 63.41,87.78
+  goto 64.21,87.23
+  goto 82.8,93.73
+  goto 86.54,84.08
+  goto 89.1,78.39
+  goto 91.14,27.25
+  goto 92.2,68.15
+  goto 94.51,52.7
+  goto 94.91,50.75
+  goto 94.93,60.81
+  goto 94.98,45.34
+  goto 4.64,31.2
+  goto 9.7,29.84
+  goto 12.8,34.43
+  goto 14.19,38.22
+  goto 29.7,50.11
+  goto 29.91,38.31
+  goto 33.64,46.01
+  goto 37.09,34.15
+  goto 37.09,36.16
+  goto 43.29,33.26
+  goto 45.82,35.58
+  goto 54.39,30.59
+  goto 56.92,24.7
+  goto 60.03,21.73
+  goto 62.27,22.5
+  goto 64.09,23.35
+  goto 64.89,20.44
+  goto 65.39,51.74
+  goto 66.26,58.37
+  goto 69.68,61.17
+  goto 71.7,48.23
+  goto 71.81,61.59
+  goto 74.2,58.51
+  interact 2857 optional
+  interact 4149 optional
+  interact 28604 optional
+  interact 179493 optional
+  note Solid Chests, Scattered Crates (Swamp-exclusive) and the Mossy Footlocker share one loop over all data-confirmed fixed points - usual container fare, nothing unique. The chests also spawn in other zones.
+  note Respawn timer unconfirmed.
+
+step The Temple approach - Atal'ai Artifacts
+
+  zone map 1435
+
+  loop
+  goto 61.52,57.88
+  goto 62.41,52.9
+  goto 64.39,49.44
+  goto 65.33,57.13
+  goto 65.45,43.37
+  goto 66.45,54.05
+  goto 67.3,45.79
+  goto 67.31,62.91
+  goto 67.77,49.91
+  goto 69.66,59.37
+  goto 69.8,40.84
+  goto 70.61,66.01
+  goto 71.07,46.59
+  goto 72.43,60.76
+  goto 72.53,53.11
+  goto 73.91,42.31
+  goto 74.31,47.92
+  goto 74.48,58.11
+  goto 74.97,51
+  goto 75.75,44.7
+  goto 76.25,63.5
+  goto 76.31,53.62
+  goto 78.24,48.49
+  goto 78.77,57.17
+  interact 30854 optional
+  interact 30855 optional
+  interact 30856 optional
+  note The three Atal'ai Artifact IDs share the same 24 fixed points around the Sunken Temple approach - one loop, three interact lines. No quest record references any of them. The Alliance inventory counts 67 points here; this data build renders 24 shared (flagged in docs/companion-unverified.md).
+  note Respawn timer unconfirmed.
+
+step The Temple approach - Atal'ai Tablets
+
+  zone map 1435
+
+  loop
+  goto 70.55,44.53
+  goto 71,46.89
+  goto 72.09,45.22
+  goto 72.83,47.65
+  goto 74.7,43.84
+  goto 74.77,46.71
+  goto 75.31,49.51
+  goto 75.68,44.95
+  goto 75.81,49.4
+  goto 75.85,48.3
+  goto 76.07,47.44
+  goto 76.17,43.79
+  goto 76.61,49.05
+  goto 76.71,51.31
+  goto 78.27,49.54
+  interact 37099 optional
+  note Fifteen fixed Tablet points, Swamp-exclusive. No quest link in the data.
+  note Respawn timer unconfirmed.
+
+step The hidden cache and the Sanctuary cages
+
+  zone map 1435
+
+  goto 42.7,30.9
+  goto 62.9,23.7
+  goto 60.49,22.17
+  goto 65.42,22.74
+  interact 423926 optional
+  interact 428228 optional
+  interact 181624 optional
+  interact 181625 optional
+  note Two Conspicuous Cache IDs share one spot; the Tarantula and Jaguar-Crocolisk cages stand in Fallow Sanctuary. No quest takes anything from any of them in the data; the cages' purpose is unconfirmed - check in game, nothing invented here.
+  note Respawn timer unconfirmed.
+
+step The Caravan Chest
+
+  zone map 1435
+
+  goto 64.46,18.3
+  interact 28024 optional
+  note Fixed chest holding the Wizards' Reagents for Alliance-only quest 1421 The Lost Caravan - for Horde it is a dead-end container (the Horde twin 1422 Threat From the Sea is a talk-through that never touches it), opened for generic value.
+  note Respawn timer unconfirmed.
+
+step Left out, logged in the inventory
+
+  zone map 1435
+
+  note Lord Captain Wyrmak, Jade, Veyzhak the Cannibal and Zekkis sit +7 to +11 over the band on single points with no shippable signature - excluded far above band (signatures logged in the inventory). The Soggy Scroll is furniture of uncontracted below-band records, PH-adjacent decor, not a treasure. No tame lines ship: tameability has no data flag and the core guide carries no tame corroboration.
