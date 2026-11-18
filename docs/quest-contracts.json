@@ -15511,6 +15511,22 @@
         {"id": 98739, "name": "Blessings of the Great Cat Spirit"},
         {"id": 98362, "name": "To Thunder Bluff"}
       ]
+    },
+    {
+      "id": "winterspring-horde",
+      "name": "Winterspring (Horde)",
+      "order": 75,
+      "levelBand": "49-55",
+      "summary": "Horde side of contested Winterspring.",
+      "quests": [
+        {"id": 6605, "name": "A Strange One"},
+        {"id": 5054, "name": "Ursius of the Shardtooth"},
+        {"id": 5055, "name": "Brumeran of the Chillwind"},
+        {"id": 5056, "name": "Shy-Rotam"},
+        {"id": 5057, "name": "Past Endeavors"},
+        {"id": 6029, "name": "The Everlook Report"},
+        {"id": 4882, "name": "Guarding Secrets"}
+      ]
     }
   ]
 }
