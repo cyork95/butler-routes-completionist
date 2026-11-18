@@ -1,0 +1,46 @@
+# Butler Routes - Shen'dralas (Horde) completionist (pack butler-routes-completionist, v1).
+# Every Horde accept in the revisit census (4 quests, docs/shendralas-horde-census.md)
+# appears exactly once as an accept and once as a turnin. The blocking pre 93045
+# lives in the Desolace (Horde) contract and rides one dedicated when onquest
+# mini-step standing alone - never duplicated here. Turn-in-before-accept file
+# order throughout the chain (accepts never precede their pres' turnins).
+# No race, class or profession gates: nothing contracted is locked. The Outcast
+# Hideaway event rides its data-placed point; the Desolace expedition leg
+# switches frames deliberately and switches back.
+guide butler-routes-completionist/shendralas-horde
+title Shen'dralas (Horde)
+levels 30-35
+zone Shen'dralas
+faction Horde
+category Leveling
+folder Kalimdor
+coords live
+version 1
+
+step Nerlokh's word (soft pre)
+
+  zone map 2652
+
+  when onquest 93045
+
+  tip Holding 93045 (Test Your Theory, from Uthek the Wise in the Desolace (Horde) guide): Nerlokh (20.93, 22.68) offers the rescue pair on 2652.
+  accept 93058 -- Saving Our Own - Nerlokh; talk it through
+  turnin 93058 -- Saving Our Own - the word to Nerlokh
+  accept 93062 -- Bone Burying - Nerlokh; talk it through
+  turnin 93062 -- Bone Burying - the word to Nerlokh
+
+step Outcast Hideaway - checking things out
+
+  zone map 2652
+
+  accept 93122 -- Checking Things Out - Nerlokh; investigate the Outcast Hideaway
+  complete 93122 @34.85,74.78 -- Investigate the Outcast Hideaway, east
+  turnin 93122 -- Checking Things Out - the word to Nerlokh
+  accept 93128 -- Khan Jehn - Nerlokh; Uthek takes it in Desolace
+
+step Desolace expedition - Uthek's word
+
+  zone Desolace
+
+  turnin 93128 -- Khan Jehn - the word to Uthek the Wise @36.22,79.25
+  zone Shen'dralas
