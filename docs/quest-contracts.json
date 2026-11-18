@@ -15545,6 +15545,18 @@
         {"id": 6569, "name": "Oculus Illusions"},
         {"id": 6570, "name": "Emberstrife"}
       ]
+    },
+    {
+      "id": "burning-steppes-horde",
+      "name": "Burning Steppes (Horde)",
+      "order": 77,
+      "levelBand": "48-58",
+      "summary": "Horde side of contested Burning Steppes.",
+      "quests": [
+        {"id": 4121, "name": "Precarious Predicament"},
+        {"id": 3822, "name": "Krom'Grul"},
+        {"id": 8998, "name": "Back to the Beginning"}
+      ]
     }
   ]
 }
