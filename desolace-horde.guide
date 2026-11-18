@@ -30,6 +30,8 @@ step Ghost Walker, mustering
   goto 56.19,59.57
   accept 1365 -- Khan Dez'hepah - Felgur Twocuts; Dez'hepah's head, east
   note 1365 needs 1362 (The Kolkar of Desolace, Barrens accept, unrouted) done - take it here if that leg sent you in; holders use the mini above.
+  accept 1366 -- Centaur Bounty - Felgur Twocuts; fifteen Centaur Ears
+  note 1366 needs 1365's turn-in first (game-gated) - take it here; its ears credit from here on.
   accept 1367 -- Magram Alliance - Gurda Wildmane; befriend the Magram, Warug takes the word east
   note 1367's follow-up 1369 rides the main guide - take it there after Warug's word.
   accept 1368 -- Gelkis Alliance - Gurda Wildmane; befriend the Gelkis, Uthek takes the word west
@@ -53,8 +55,7 @@ step Ghost Walker, first return
 
   goto 56.19,59.57
   turnin 1365 -- Khan Dez'hepah - the head to Felgur Twocuts
-  accept 1366 -- Centaur Bounty - Felgur Twocuts; fifteen Centaur Ears
-  note 1366 waited on 1365's turn-in - its ears fill with the camp work above and the Gelkis loop below; hand them in on the second return.
+  note 1366's ears fill with the camp work above and the Gelkis loop below; hand them in on the second return.
   goto 56.29,59.68
   turnin 93225 -- Carved Centaur Totems - the totems to Gurda Wildmane
   accept 94873 -- Buying Friendship: Gelkis - Gurda Wildmane; the Totem Tote goes to Molkar, west

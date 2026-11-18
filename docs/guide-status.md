@@ -290,7 +290,8 @@ _Skyborne country._
 
 - [x] Census - 60 candidates, 37 IN / 23 OUT (10 Horde set-aside)
 - [x] Core guide - `hillsbrad.guide`
-- [x] Lint/playtest clean - 0 errors, playtest 0 stuck (R1+R2+R5 residue only)
+- [x] Lint/playtest clean - 0 errors, playtest 4 personas (Alliance + Horde) 0 stuck (R1+R2+R5 residue only)
+- [x] Faction ungating (Option A, 2026-11-18) - 93 Alliance-only lines gated (39 added this round), header dropped, 0 dead lines both factions
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 7 rares + containers, 29 recipes (25 vendor + 4 exclusive drops), 0 lint errors/warnings
@@ -634,9 +635,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Hillsbrad Foothills — Horde
 
-- [ ] Census (reconcile against 10 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 60 zone-1424 records (44 Alliance / 10 Horde / 4 neutral + 2 race-masked); 10 Horde IN, 0 OUT, docs/hillsbrad-horde-census.md
+- [x] Core guide - hillsbrad-horde.guide (10 quests, band 19-32, 5 dedicated soft-pre minis)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas (Orc/Scourge/Paladin), 0 stuck, residue R5 only (bag-note key + spawnless-target turn-ins)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

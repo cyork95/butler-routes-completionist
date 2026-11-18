@@ -239,6 +239,15 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - Ruling (zone-specific, recorded in the Horde census): the `races` mask is the faction data here (classes/skill/event/repeatable are null on all 178 records), so dropping the header alone would strand Horde players on dead steps — the 83 Alliance-mask lines had to be gated.
 - Anomalies: none. Header removed.
 - Verification: forge lint 0 errors / 19 warnings, warning quest-ID set byte-identical to the pre-ungating baseline. Playtest `--honest` all four personas (Human/NightElf/Orc/Scourge Warriors): Alliance findings unchanged in kind; Horde personas complete only the shared lines with residue only in R1/R2/R5, every Horde finding on a neutral-mask quest; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations both factions.
+
+### hillsbrad (UNGATED 2026-11-18, Horde round)
+- file: hillsbrad.guide (was Alliance primary)
+- contract: 37 (33 primary / 4 shared)
+- shared IDs: 94215, 94224, 94242, 95534 (per the Alliance census; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): the other 33 contract IDs.
+- Lines gated: 93 quest lines (`only Alliance`, incl. the seasonal/writ `optional` lines; 54 pre-authored by the Alliance round, 39 added this round). 0 soft-pre minis (file has no `when onquest` lines), 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). All shared-ID lines stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 31 warnings, warning quest-ID set byte-identical to the pre-ungating baseline. Playtest `--honest` all four personas (Human/NightElf/Orc/Scourge): Alliance findings identical in kind and count to baseline; Horde personas complete only the shared lines (neutral writ starters + the pre-existing 180449 item note) with residue only in R2/R3; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations both factions.
 ### thousand-needles
 - file: thousand-needles.guide
 - header: Alliance; contract: 34 (2 primary / 32 shared)
@@ -247,9 +256,9 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: desolace.guide
 - header: Alliance; contract: 56 (13 primary / 43 shared)
 - shared IDs: 1369, 1370, 1371, 1373, 1374, 1375, 1380, 1381, 5501, 5561, 5821, 5943, 6132, 6134, 6161, 5741, 6027, 93465, 93678, 79229, 79235, 92743, 92754, 92755, 92814, 92817, 92818, 92847, 92873, 92893, 92894, 93034, 93044, 93066, 93196, 96222, 92811, 94257, 94269, 94281, 94293, 94305, 7067
-### hillsbrad-foothills
-- file: hillsbrad.guide
-- header: Alliance; contract: 37 (33 primary / 4 shared)
+### hillsbrad-foothills (UNGATED this round - see above)
+- file: hillsbrad.guide (was Alliance primary)
+- contract: 37 (33 primary / 4 shared)
 - shared IDs: 94215, 94224, 94242, 95534
 ### arathi-highlands
 - file: arathi.guide
