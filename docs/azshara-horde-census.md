@@ -167,10 +167,11 @@ the dump) does exist. The gap is the missing accept/turnin, not the
 objective — still unroutable as stated. Twin 89015's contracted
 accept-only shape does not transfer (97821 Mirage Mirror precedent).
 Revisit if the record gains an accept.
-Alliance-only set-asides for the record (19, all in the main guide's
-contract — none duplicated here): 5141, 88807, 88809, 88812, 88813,
-88821, 88857, 88884, 88917, 89001, 89013, 89015, 89037, 89038, 89053,
-89228, 89470, 90813, 92345. Null-mask records stay in the main guide's
+Alliance-only quests for the record (20, all in the main guide's
+contract — none duplicated here): 3461 (Return to Tymor — banked
+nowhere as Horde, being Alliance-mask; gated in the ungating) plus
+5141, 88807, 88809, 88812, 88813, 88821, 88857, 88884, 88917, 89001,
+89013, 89015, 89037, 89038, 89053, 89228, 89470, 90813, 92345. Null-mask records stay in the main guide's
 contract or out per the Alliance census (repeatables 3382/3421/3503,
 above-band 6821/6822/6823/6824/7486/9362/9364/8575/8729, broken
 96246) — the Alliance ledger accounts for every one; nothing null-mask

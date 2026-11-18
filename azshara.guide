@@ -22,7 +22,6 @@ guide butler-routes-completionist/azshara
 title Azshara - Completionist
 levels 45-55
 zone Azshara
-faction Alliance
 category Leveling
 folder Completionist
 coords live
@@ -33,15 +32,15 @@ step South-west landfall - Truesong camp briefing
   zone map 1447
 
   note In from Ashenvale along the west coast: Commander Truesong (11.81,78.36), Berdun Cliffbrew (12.6,77.36) and Loh'atu (11.37,78.17) hold the landing. The Ekkal, Saria and Kim'jael legs below run east from here.
-  accept 88807 -- Slay the Spitelash - Commander Truesong; warriors and screamers on the rise north-east
-  complete 88807 @25.33,52.07 -- Spitelash Warriors for Truesong, the rise
-  complete 88807 @25.68,50.93 -- Spitelash Screamers for Truesong, the rise
-  turnin 88807 -- Slay the Spitelash - the word to Commander Truesong
-  accept 88812 -- Reclaiming Ravencrest - Commander Truesong; a pointer with no field work
-  turnin 88812 -- Reclaiming Ravencrest - the word back to Commander Truesong
-  accept 88809 -- Preserving Eldarath - Commander Truesong; relics and Sarthiss in the south-center camps
-  accept 88821 -- Making Contact - Commander Truesong; carry the word to Saria Fairmoon, central
-  accept 92345 -- Beneath Nordrassil - Commander Truesong; the turn-in rides the Darnassus expedition below
+  accept 88807 only Alliance -- Slay the Spitelash - Commander Truesong; warriors and screamers on the rise north-east
+  complete 88807 only Alliance @25.33,52.07 -- Spitelash Warriors for Truesong, the rise
+  complete 88807 only Alliance @25.68,50.93 -- Spitelash Screamers for Truesong, the rise
+  turnin 88807 only Alliance -- Slay the Spitelash - the word to Commander Truesong
+  accept 88812 only Alliance -- Reclaiming Ravencrest - Commander Truesong; a pointer with no field work
+  turnin 88812 only Alliance -- Reclaiming Ravencrest - the word back to Commander Truesong
+  accept 88809 only Alliance -- Preserving Eldarath - Commander Truesong; relics and Sarthiss in the south-center camps
+  accept 88821 only Alliance -- Making Contact - Commander Truesong; carry the word to Saria Fairmoon, central
+  accept 92345 only Alliance -- Beneath Nordrassil - Commander Truesong; the turn-in rides the Darnassus expedition below
   accept 5535 -- Spiritual Unrest - Loh'atu; apparitions and lichlings in the ruins north
   accept 5536 -- A Land Filled with Hatred - Loh'atu; Haldarr satyrs further north-east
   complete 5535 @14.51,72.3 -- Highborne Apparitions for Loh'atu, west ruins
@@ -50,29 +49,29 @@ step South-west landfall - Truesong camp briefing
   complete 5536 @19.35,61.81 -- Haldarr Tricksters and Felsworn for Loh'atu, same rise
   turnin 5535 -- Spiritual Unrest - the news to Loh'atu
   turnin 5536 -- A Land Filled with Hatred - the news to Loh'atu
-  complete 88809 @37.72,54.35 -- Eldarath Relics (Spitelash camps, south-center)
-  complete 88809 @35.85,58.52 -- Sarthiss (south-center camp)
-  turnin 88809 -- Preserving Eldarath - relics and head to Commander Truesong
-  accept 88813 -- The Head of the Serpent - Commander Truesong; Krellian waits in the central camp below
+  complete 88809 only Alliance @37.72,54.35 -- Eldarath Relics (Spitelash camps, south-center)
+  complete 88809 only Alliance @35.85,58.52 -- Sarthiss (south-center camp)
+  turnin 88809 only Alliance -- Preserving Eldarath - relics and head to Commander Truesong
+  accept 88813 only Alliance -- The Head of the Serpent - Commander Truesong; Krellian waits in the central camp below
 
 step South-west landfall - Berdun's range
 
   zone map 1447
 
-  accept 89001 -- Home on the Range - Berdun Cliffbrew; hides off the Mosshoof herds west
-  complete 89001 @15.98,52.88 -- Mosshoof Hides (Mosshoof Runner, west herds)
-  turnin 89001 -- Home on the Range - the hides to Berdun Cliffbrew
-  accept 89013 -- Gettin' Buzzed - Berdun Cliffbrew; honey off the wasps (note 91488 Home on the Range is the Horde twin listed as an alt pre - the Alliance route satisfies it via 89001 just turned in)
-  accept 89228 -- Winter Frontier Fishery - Berdun Cliffbrew; squid have no placed source in the data (note 91488 as above)
-  accept 90813 -- Pay Dirt! - Berdun Cliffbrew; the data carries no accept for this record, so the accept rides here at the ender with this note (Redridge 95795 mirror)
-  accept 89015 optional -- Deadliest Catch - Berdun Cliffbrew; an accept-only record with no turn-in in the data (honest note, never an invented turn-in) - sharks below
-  complete 89013 @17.25,49.23 -- Wild Honey (Honey Wasp, west hives)
-  complete 90813 @16.82,53.81 -- Humongous Crystal (Cliff Walker, west stones)
+  accept 89001 only Alliance -- Home on the Range - Berdun Cliffbrew; hides off the Mosshoof herds west
+  complete 89001 only Alliance @15.98,52.88 -- Mosshoof Hides (Mosshoof Runner, west herds)
+  turnin 89001 only Alliance -- Home on the Range - the hides to Berdun Cliffbrew
+  accept 89013 only Alliance -- Gettin' Buzzed - Berdun Cliffbrew; honey off the wasps (note 91488 Home on the Range is the Horde twin listed as an alt pre - the Alliance route satisfies it via 89001 just turned in)
+  accept 89228 only Alliance -- Winter Frontier Fishery - Berdun Cliffbrew; squid have no placed source in the data (note 91488 as above)
+  accept 90813 only Alliance -- Pay Dirt! - Berdun Cliffbrew; the data carries no accept for this record, so the accept rides here at the ender with this note (Redridge 95795 mirror)
+  accept 89015 optional only Alliance -- Deadliest Catch - Berdun Cliffbrew; an accept-only record with no turn-in in the data (honest note, never an invented turn-in) - sharks below
+  complete 89013 only Alliance @17.25,49.23 -- Wild Honey (Honey Wasp, west hives)
+  complete 90813 only Alliance @16.82,53.81 -- Humongous Crystal (Cliff Walker, west stones)
   note 89228 Winter Squid has no placed source in the data - fish it anywhere and bring ten to Berdun.
-  complete 89228
-  turnin 89013 -- Gettin' Buzzed - the honey to Berdun Cliffbrew
-  turnin 89228 -- Winter Frontier Fishery - the squid to Berdun Cliffbrew
-  turnin 90813 -- Pay Dirt! - the crystal to Berdun Cliffbrew
+  complete 89228 only Alliance
+  turnin 89013 only Alliance -- Gettin' Buzzed - the honey to Berdun Cliffbrew
+  turnin 89228 only Alliance -- Winter Frontier Fishery - the squid to Berdun Cliffbrew
+  turnin 90813 only Alliance -- Pay Dirt! - the crystal to Berdun Cliffbrew
 
 step West tower - Xylem, Sanath and Keldara
 
@@ -81,7 +80,7 @@ step West tower - Xylem, Sanath and Keldara
   accept 8235 only Rogue -- Encoded Fragments - Archmage Xylem; ooze fragments central (note 8234 Sealed Azure Bag accepts in Alterac, contracted nowhere - the complete and turn-in stand alone in the when onquest mini-step below)
   accept 8251 only Mage -- Magic Dust - Archmage Xylem; dust off the Blood Elf camp east (note 8250 Magecraft accepts in Ironforge, contracted nowhere - mini-step below)
   accept 3381 -- A Meeting with the Master - Sanath Lim-yo; feathers off the hippogryphs west
-  accept 88857 -- Saving a Sentinel - Sentinel Keldara Sunblade; carry the word to Truesong (finale below)
+  accept 88857 only Alliance -- Saving a Sentinel - Sentinel Keldara Sunblade; carry the word to Truesong (finale below)
   complete 3381 @16.01,49.15 -- Undamaged Hippogryph Feathers (Thunderhead Hippogryph, west roosts)
   turnin 3381 -- A Meeting with the Master - the feathers to Sanath Lim-yo
 
@@ -110,10 +109,10 @@ step Galen's speculation - Dragonscale (Leatherworking)
 
   when skill Leatherworking 1
 
-  accept 5141 optional -- Dragonscale Leatherworking - Peter Galen; crafted turn-ins plus scales (note 5143/5144 are the data-marked exclusive variants in other zones - this is the Azshara leg)
-  complete 5141 optional @40.28,85.31 -- Worn Dragonscale (Draconic Mageweaver, south-east run)
+  accept 5141 optional only Alliance -- Dragonscale Leatherworking - Peter Galen; crafted turn-ins plus scales (note 5143/5144 are the data-marked exclusive variants in other zones - this is the Azshara leg)
+  complete 5141 optional only Alliance @40.28,85.31 -- Worn Dragonscale (Draconic Mageweaver, south-east run)
   note 5141 also wants crafted Tough Scorpid Breastplates and Gloves - have them in your bags; the turn-in below takes what you carry.
-  turnin 5141 -- Dragonscale Leatherworking - the scales and craftwork to Peter Galen
+  turnin 5141 only Alliance -- Dragonscale Leatherworking - the scales and craftwork to Peter Galen
 
 step Soft pre - Courser Antlers (Hunter)
 
@@ -160,16 +159,16 @@ step Saria's court - the tablets chain
   zone map 1447
 
   note Saria Fairmoon (50.56,42.7) holds the central court: Truesong's word lands here, and the tablets below all come back here.
-  turnin 88821 -- Making Contact - Truesong's word to Saria Fairmoon
-  accept 88917 -- Slithering Looters - Saria Fairmoon; the staff's only source object has no placed spawn in the data
+  turnin 88821 only Alliance -- Making Contact - Truesong's word to Saria Fairmoon
+  accept 88917 only Alliance -- Slithering Looters - Saria Fairmoon; the staff's only source object has no placed spawn in the data
   note 88917 Staff of Archmage Selwyn comes from an object the data never places - turn in on the word alone; the route never waits on it.
-  complete 88917
-  turnin 88917 -- Slithering Looters - the word to Saria Fairmoon
-  accept 88884 -- Highborne Tablets - Saria Fairmoon; all three tablets come from objects with no placed spawns in the data
+  complete 88917 only Alliance
+  turnin 88917 only Alliance -- Slithering Looters - the word to Saria Fairmoon
+  accept 88884 only Alliance -- Highborne Tablets - Saria Fairmoon; all three tablets come from objects with no placed spawns in the data
   note 88884 Tablets of Creation, Manipulation and Power are unplaced in the data - turn in on the word alone.
-  complete 88884
-  turnin 88884 -- Highborne Tablets - the word to Saria Fairmoon
-  accept 89037 -- Murloc Thieves - Saria Fairmoon; the crystal sits with the Razorgill far east below
+  complete 88884 only Alliance
+  turnin 88884 only Alliance -- Highborne Tablets - the word to Saria Fairmoon
+  accept 89037 only Alliance -- Murloc Thieves - Saria Fairmoon; the crystal sits with the Razorgill far east below
 
 step Ekkal's rock - Legashi and Blackmaw
 
@@ -179,7 +178,7 @@ step Ekkal's rock - Legashi and Blackmaw
   accept 97327 -- Blackmaw Pouches - Ekkal; pouches off the Blackmaw, north-center (note 96246 Blackmaw Pouches is a broken null-zone record the data points at as next - examined and out, so this chain ends here)
   complete 86746 @52.07,18.66 -- Legashi Satyrs, Rogues and Hellcallers for Ekkal, east camps
   complete 97327 @35.92,26.36 -- Blackmaw Pouches for Ekkal, north-center
-  complete 88813 @41.02,53.05 -- Krellian's Head (Warlord Krellian, central camp)
+  complete 88813 only Alliance @41.02,53.05 -- Krellian's Head (Warlord Krellian, central camp)
   turnin 86746 -- The Legashi Threat - the word to Ekkal
   accept 86747 -- Legashi Horns - Ekkal; the data carries no accept for this record, so the accept rides here at the ender with this note (Redridge 95795 mirror)
   turnin 86747 -- Legashi Horns - the horns to Ekkal
@@ -246,12 +245,12 @@ step Far south-east - Xiggs, Skygleam and the east coast run
 
   zone map 1447
 
-  accept 3461 -- Return to Tymor - Pilot Xiggs Fuselighter; a delivery for Ironforge (note 3449 Arcane Runes accepts in Ironforge, contracted in ironforge-city - the turn-in rides the Ironforge expedition below)
+  accept 3461 only Alliance -- Return to Tymor - Pilot Xiggs Fuselighter; a delivery for Ironforge (note 3449 Arcane Runes accepts in Ironforge, contracted in ironforge-city - the turn-in rides the Ironforge expedition below)
   accept 8720 optional -- Skygleam the Elder - Elder Skygleam (seasonal timing; Lunar Festival elder, catch it when the festival runs)
   turnin 8720 optional -- Skygleam the Elder - the word back to Elder Skygleam
-  complete 89037 @88.09,33.27 -- Memory Crystal (Razorgill, far east coast)
+  complete 89037 only Alliance @88.09,33.27 -- Memory Crystal (Razorgill, far east coast)
   complete 8231 only Hunter @83.54,12.7 -- Wavethrasher Scales (north-east coast)
-  complete 89015 @61.11,52.25 -- Mammoth Shark Steak (Mammoth Shark, east waters)
+  complete 89015 only Alliance @61.11,52.25 -- Mammoth Shark Steak (Mammoth Shark, east waters)
 
 step South return - rune, coral and ichor
 
@@ -309,22 +308,22 @@ step Saria return - the monument and the knapsack
 
   zone map 1447
 
-  turnin 89037 -- Murloc Thieves - the crystal to Saria Fairmoon
-  accept 89038 -- A Monumental Task - Saria Fairmoon; the mark's only source object has no placed spawn in the data
+  turnin 89037 only Alliance -- Murloc Thieves - the crystal to Saria Fairmoon
+  accept 89038 only Alliance -- A Monumental Task - Saria Fairmoon; the mark's only source object has no placed spawn in the data
   note 89038 Mark of the Queen is unplaced in the data - turn in on the word alone.
-  complete 89038
-  turnin 89038 -- A Monumental Task - the word to Saria Fairmoon
-  accept 89053 -- Your Final Reward - Saria Fairmoon; the hand-off waits at her knapsack, north-east
-  turnin 89053 -- Your Final Reward - the word to Saria's Knapsack (49.43,41.88)
-  accept 89470 -- Ill Tidings - Saria's Knapsack; the object hand-off from 89053 above, carried to Truesong (finale below)
+  complete 89038 only Alliance
+  turnin 89038 only Alliance -- A Monumental Task - the word to Saria Fairmoon
+  accept 89053 only Alliance -- Your Final Reward - Saria Fairmoon; the hand-off waits at her knapsack, north-east
+  turnin 89053 only Alliance -- Your Final Reward - the word to Saria's Knapsack (49.43,41.88)
+  accept 89470 only Alliance -- Ill Tidings - Saria's Knapsack; the object hand-off from 89053 above, carried to Truesong (finale below)
 
 step South-west finale - Truesong's board
 
   zone map 1447
 
-  turnin 88857 -- Saving a Sentinel - Keldara's word to Commander Truesong
-  turnin 89470 -- Ill Tidings - the knapsack's word to Commander Truesong
-  turnin 88813 -- The Head of the Serpent - Krellian's head to Commander Truesong
+  turnin 88857 only Alliance -- Saving a Sentinel - Keldara's word to Commander Truesong
+  turnin 89470 only Alliance -- Ill Tidings - the knapsack's word to Commander Truesong
+  turnin 88813 only Alliance -- The Head of the Serpent - Krellian's head to Commander Truesong
 
 step Kalimdor expeditions - Stranglethorn, Felwood, Feralas, Darnassus
 
@@ -348,7 +347,7 @@ step Kalimdor expeditions - Stranglethorn, Felwood, Feralas, Darnassus
 
   zone map 1457
 
-  turnin 92345 -- Beneath Nordrassil - Truesong's word to Mathrengyl Bearwalker (35.37,8.4)
+  turnin 92345 only Alliance -- Beneath Nordrassil - Truesong's word to Mathrengyl Bearwalker (35.37,8.4)
   tip Expedition leg to Darnassus (the Cenarion Enclave spawn); the frame switches on.
 
   zone map 1447
@@ -363,9 +362,12 @@ step Eastern Kingdoms expeditions - Plaguelands, Ironforge, Hillsbrad
   zone map 1455
 
   when onquest 3461
+  only Alliance
 
-  turnin 3461 -- Return to Tymor - Xiggs's word to Tymor (30.96,4.83)
+  turnin 3461 only Alliance -- Return to Tymor - Xiggs's word to Tymor (30.96,4.83)
   tip Expedition leg to Ironforge, gated on holding 3461; the frame switches on.
+
+step Ravenholdt expedition - the Azure Key
 
   zone map 1424
 

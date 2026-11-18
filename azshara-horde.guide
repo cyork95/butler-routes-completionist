@@ -79,7 +79,8 @@ step Beach and south - hides, honey, squid, tear
   accept 91610 -- Winter Frontier Fishery - Kurll; winter squid, fished
   complete 91608 @15.58,51.46 era -- Wild Honey off the Honey Wasps, west grounds
   turnin 91608 -- Gettin' Buzzed - the honey to Kurll
-  note The Winter Squid has no placed source anywhere in the data - fished, same as the Alliance twin's squid; bank ten if they turn up.
+  note The Winter Squid has no placed source anywhere in the data - fish it anywhere and bring ten to Kurll.
+  complete 91610
   turnin 91610 -- Winter Frontier Fishery - the squid to Kurll
   turnin 91569 -- Blue Gold - the wand to Izvi Gildfizz
   accept 91685 -- Ley of the Land - Izvi Gildfizz; the Tear of Mennar, far south
