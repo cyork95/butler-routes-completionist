@@ -835,9 +835,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Silithus — Horde
 
-- [ ] Census (set-asides counted when the zone's Alliance census runs)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (9 banked Horde set-asides reconciled + full 1451-pool scan, no others; 3 IN (band 58-60), 16 OUT by rule; 98093 closed with pointers, docs/silithus-horde-census.md)
+- [x] Core guide - silithus-horde.guide (3 quests: 8380 only Shaman via 8315 mini, 9416/9422 intro mirrors)
+- [x] Lint/playtest clean - 0 errors, 1 structural warning (8380/8315 out-of-contract pre, soft-pre mini applied); playtest Horde personas 0 stuck / 0 failed; main-guide ungating verified (dead-line check 0 violations)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

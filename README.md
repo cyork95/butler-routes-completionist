@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.139.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.140.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -171,6 +171,7 @@ Status: **in development (pack v0.139.0), not published yet**. The first release
 | deadwind-pass.guide (Set 6 core built, pilot pending) | Deadwind Pass | 60-60 | Alliance |
 | winterspring.guide (Set 6 core built, pilot pending) | Winterspring | 47-60 | Alliance |
 | silithus.guide (Set 6 core built, pilot pending) | Silithus | 54-60 | Alliance |
+| silithus-horde.guide (Horde block core built, pilot pending) | Silithus (Horde) | 58-60 | Horde |
 | mount-hyjal.guide (Set 6 core built, pilot pending) | Mount Hyjal | 54-60 | Alliance |
 | shendralas.guide (Set 6 core built, pilot pending) | Shen'dralas | 30-49 | Alliance |
 | shendralas-horde.guide (Horde block core built, pilot pending) | Shen'dralas (Horde) | 30-35 | Horde |
