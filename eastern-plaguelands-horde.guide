@@ -1,0 +1,153 @@
+# Eastern Plaguelands (Horde) - Completionist (pack butler-routes-completionist, v1).
+# 9 Horde quests (band 50-60, census docs/eastern-plaguelands-horde-census.md).
+# Every Horde accept in the local census appears exactly once as an accept and
+# once as a turnin. Chain order is strictly turn-in-before-accept in file
+# order. Out-of-contract pres (5229/5231/5233/5235 and 5902 from Tirisfal,
+# 5021 shared from the main guide, 4985 shared, 6568 from Stonetalon) ride
+# dedicated when onquest mini-steps, each standing alone; out-of-contract
+# chain exits (5049, 6582, 5237) get handoff notes. The rogue block
+# (1886/1898/1978/1998/1999/2378) is Undercity-contracted and never duplicated
+# here. Sourceless items ride bag-note completes, never invented points.
+# Expedition legs (Undercity, Thunder Bluff, Dustwallow) switch frames
+# deliberately and switch back. Coordinates use the pack era qualifier; every
+# goto/complete is written from the local Forever data.
+guide butler-routes-completionist/eastern-plaguelands-horde
+title Eastern Plaguelands (Horde)
+levels 50-60
+zone Eastern Plaguelands
+faction Horde
+category Leveling
+folder Eastern Kingdoms
+coords live
+version 1
+
+step The Bulwark - arrival
+
+  zone map 1422
+
+  note The Horde works out of the Bulwark in the west - Vandis and Mickey hold the turn-ins, the cauldron fields and the Termite Barrel lie east.
+  note Four Target quests (5229/5231/5233/5235) and the plague pair (5901/5902) accept from Vandis and Mickey on the Tirisfal side - unguided legs, take them there if you want the full chain; each Bulwark return below fires only holding its Target.
+  note 5236's next (5237, Mission Accomplished!) is Alliance-only - the Horde cauldron fork ends at 5236's turn-in.
+
+step Felstone return (soft pre)
+
+  zone map 1422
+
+  when onquest 5229
+
+  tip Holding 5229 (Target: Felstone Field, from Vandis on the Tirisfal side): the Felstone cauldron takes the return here.
+  accept 5230 -- Return to the Bulwark - Scourge Cauldron; the filled bottle goes back to Vandis
+  note Have the Filled Felstone Field Bottle (item 13190, no placed source in the data) in your bags - it rode 5229's line.
+  turnin 5230 @26.40,59.10 era -- Return to the Bulwark - the bottle to Vandis at the Bulwark
+
+step Dalson's return (soft pre)
+
+  zone map 1422
+
+  when onquest 5231
+
+  tip Holding 5231 (Target: Dalson's Tears, from Vandis on the Tirisfal side): the Dalson's cauldron takes the return here.
+  accept 5232 -- Return to the Bulwark - Scourge Cauldron; the filled bottle goes back to Vandis
+  note Have the Filled Dalson's Tears Bottle (item 13191, no placed source in the data) in your bags - it rode 5231's line.
+  turnin 5232 @26.40,59.10 era -- Return to the Bulwark - the bottle to Vandis at the Bulwark
+
+step Writhing return (soft pre)
+
+  zone map 1422
+
+  when onquest 5233
+
+  tip Holding 5233 (Target: Writhing Haunt, from Vandis on the Tirisfal side): the Writhing cauldron takes the return here.
+  accept 5234 -- Return to the Bulwark - Scourge Cauldron; the filled bottle goes back to Vandis
+  note Have the Filled Writhing Haunt Bottle (item 13192, no placed source in the data) in your bags - it rode 5233's line.
+  turnin 5234 @26.40,59.10 era -- Return to the Bulwark - the bottle to Vandis at the Bulwark
+
+step Gahrron's return (soft pre)
+
+  zone map 1422
+
+  when onquest 5235
+
+  tip Holding 5235 (Target: Gahrron's Withering, from Vandis on the Tirisfal side): the Gahrron's cauldron takes the return here.
+  accept 5236 -- Return to the Bulwark - Scourge Cauldron; the filled bottle goes back to Vandis
+  note Have the Filled Gahrron's Withering Bottle (item 13193, no placed source in the data) in your bags - it rode 5235's line.
+  turnin 5236 @26.40,59.10 era -- Return to the Bulwark - the bottle to Vandis at the Bulwark
+
+step A Plague Upon Thee (soft pre)
+
+  zone map 1422
+
+  when onquest 5902
+
+  tip Holding 5902 (A Plague Upon Thee, from Mickey Levine on the Tirisfal side, after 5901): the Termite Barrel takes the Horde fork here.
+  accept 6390 -- A Plague Upon Thee - Termite Barrel; Mickey Levine hears of it at the Bulwark
+  note Have the Barrel of Plagueland Termites (item 15044, no placed source in the data) in your bags - it rode 5902's line.
+  turnin 6390 @26.70,59.60 era -- A Plague Upon Thee - the barrel's word to Mickey Levine at the Bulwark
+
+step Darrowshire - the parcel (soft pre)
+
+  zone map 1422
+
+  when onquest 5021
+
+  tip Holding 5021 (Better Late Than Never, Janice Felstone's neutral pre from the main guide): her parcel takes the Horde fork here.
+  accept 5023 -- Better Late Than Never - Janice's Parcel; Bauhaus waits in Undercity
+  note Bauhaus offers 5049 (The Jeremiah Blues, Undercity accept, uncontracted) after this - take it if you want the chain; its turn-in is Jeremiah Payson in Undercity. The turn-in below rides the Undercity expedition.
+
+step Mulgris - the oaken branch (soft pre)
+
+  zone map 1422
+
+  when onquest 4985
+
+  tip Holding 4985 (The Wildlife Suffers Too, from Mulgris's shared line in the main guide): the branch takes the Horde fork here.
+  accept 4987 -- Glyphed Oaken Branch - Mulgris Deepriver; Nara Wildmane waits in Thunder Bluff
+  note Have the Glyphed Oaken Branch (item 12663, no placed source in the data) in your bags - it rode 4985's line. The turn-in rides the Thunder Bluff expedition.
+
+step Myranda - oculus and ember (soft pre)
+
+  zone map 1422
+
+  when onquest 6568
+
+  tip Holding 6568 (The Testament of Rexxar, from Stonetalon, uncontracted above-band there): Myranda the Hag takes the chain here.
+  accept 6569 -- Oculus Illusions - Myranda the Hag; Black Dragonspawn Eyes, then Emberstrife
+  complete 6569 -- Black Dragonspawn Eye x20 (no placed dropper anywhere in the data - farm Black dragonspawn where found)
+  turnin 6569 @50.79,77.85 era -- Oculus Illusions - the eyes to Myranda
+  accept 6570 -- Emberstrife - Myranda the Hag; the amulet rides to Dustwallow
+  note Have the Amulet of Draconic Subversion (item 16787, no placed source in the data) in your bags. The turn-in rides the Dustwallow expedition; 6582 (The Test of Skulls, Dustwallow accept, uncontracted) follows it - take it there if you want the chain.
+
+step Expedition - the Undercity leg
+
+  zone Undercity
+
+  when onquest 5023
+
+  note One trip east for the parcel's end - and Bauhaus's follow-up is noted, never duplicated.
+  turnin 5023 @69.79,43.16 era -- Better Late Than Never - the parcel to Royal Overseer Bauhaus
+  note 5049 (The Jeremiah Blues) accepts from Bauhaus here, uncontracted - take it if you want the chain; Jeremiah Payson stands in this city.
+
+  zone map 1422
+
+step Expedition - the Thunder Bluff leg
+
+  zone Thunder Bluff
+
+  when onquest 4987
+
+  note West for the branch's end - one turn-in, then back east.
+  turnin 4987 @75.65,31.61 era -- Glyphed Oaken Branch - the branch to Nara Wildmane
+
+  zone map 1422
+
+step Expedition - the Dustwallow leg
+
+  zone Dustwallow Marsh
+
+  when onquest 6570
+
+  note South across the sea for Emberstrife - one turn-in, then home.
+  turnin 6570 @56.66,87.72 era -- Emberstrife - the amulet to Emberstrife
+  note 6582 (The Test of Skulls, Dustwallow accept, uncontracted) follows here - take it if you want the chain.
+
+  zone map 1422
