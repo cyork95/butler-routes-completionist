@@ -281,6 +281,7 @@ _Skyborne country._
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 5 rares (4 sole-drop signatures + kill-note Hissperak; Cursed Centaur excluded above-band), 31-pt treasure (25 chest + 6 battered), 21 recipes (18 vendor + 3 exclusive drops)
+- [x] Faction ungating (Option A, 2026-11-18) - 36 Alliance-only lines gated (5 added this round, incl. Paladin,Alliance composition), header dropped, 0 dead lines both factions
 
 ---
 
@@ -626,9 +627,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Desolace — Horde
 
-- [ ] Census (reconcile against 29 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 89 zone-1443 records (29 Horde / 15 Alliance / 45 null by races mask); 25 Horde IN, 4 OUT, docs/desolace-horde-census.md
+- [x] Core guide - desolace-horde.guide (25 quests, band 31-45; 93045 + 4 expeditions)
+- [x] Lint/playtest clean - 0 errors; honest playtest Horde personas, residue R1 only (4 expedition legs)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

@@ -252,10 +252,14 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: thousand-needles.guide
 - header: Alliance; contract: 34 (2 primary / 32 shared)
 - shared IDs: 1104, 1105, 1106, 1107, 1110, 1111, 1114, 1115, 1118, 1120, 1122, 1175, 1176, 1178, 1186, 1187, 1188, 1190, 1191, 1192, 1194, 1950, 1951, 5762, 8682, 8724, 94218, 94227, 94236, 94245, 94254, 79947
-### desolace
-- file: desolace.guide
-- header: Alliance; contract: 56 (13 primary / 43 shared)
-- shared IDs: 1369, 1370, 1371, 1373, 1374, 1375, 1380, 1381, 5501, 5561, 5821, 5943, 6132, 6134, 6161, 5741, 6027, 93465, 93678, 79229, 79235, 92743, 92754, 92755, 92814, 92817, 92818, 92847, 92873, 92893, 92894, 93034, 93044, 93066, 93196, 96222, 92811, 94257, 94269, 94281, 94293, 94305, 7067
+### desolace (UNGATED 2026-11-18, Horde round)
+- file: desolace.guide (was Alliance primary)
+- contract: 56 (13 primary / 43 shared)
+- shared IDs: 1369, 1370, 1371, 1373, 1374, 1375, 1380, 1381, 5501, 5561, 5821, 5943, 6132, 6134, 6161, 5741, 6027, 93465, 93678, 79229, 79235, 92743, 92754, 92755, 92814, 92817, 92818, 92847, 92873, 92893, 92894, 93034, 93044, 93066, 93196, 96222, 92811, 94257, 94269, 94281, 94293, 94305, 7067 (43 shared; per the Alliance census, verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 1384, 1386, 1439, 1440, 1455, 1465, 79939, 92841, 92844, 92846, 93224, 93226, 93227, 94841, 97284 (93227/94841 excluded twins, uncontracted for both factions).
+- Lines gated: 31 pre-existing `only Alliance` lines (Nijel's chain, Valley of Bones legs, 93224/93226) + 5 added this round (`only Alliance` on 3 collect lines via quest linkage 1384.1 x2/93224.1, `only Paladin,Alliance` composition on 79939 x2). 0 soft-pre minis (the 1 `when onquest` step references shared 93465 - stays bare), 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none). Class-gated shared lines stay bare (none - the only class gate in file is the composed 79939).
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 17 warnings, warned quest-ID set byte-identical to the pre-ungating baseline (15 IDs, zero diff both ways). Playtest `--honest`: Human-persona findings byte-identical before/after (0 gone, 0 new); NightElf/Orc/Scourge personas complete the shared lines with residue only in R1/R2; mechanical dead-line check (no visible line may reference a quest the viewer's faction cannot accept): 0 violations both factions.
 ### hillsbrad-foothills (UNGATED this round - see above)
 - file: hillsbrad.guide (was Alliance primary)
 - contract: 37 (33 primary / 4 shared)
@@ -408,6 +412,10 @@ candidate. Companions carry no quest lines and are not part of this fix.
 ### stranglethorn-horde
 - file: stranglethorn-horde.guide (Horde mirror)
 - header: Horde; contract: 39 (39 primary / 0 shared)
+- shared IDs: none
+### desolace-horde
+- file: desolace-horde.guide (Horde mirror)
+- header: Horde; contract: 25 (25 primary / 0 shared)
 - shared IDs: none
 
 ## Follow-up
