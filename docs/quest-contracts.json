@@ -15245,6 +15245,70 @@
         {"id": 8413, "name": "Da Voodoo"},
         {"id": 79365, "name": "With Wind Beneath Your Wings"}
       ]
+    },
+    {
+      "id": "feralas-horde",
+      "name": "Feralas (Horde)",
+      "order": 64,
+      "levelBand": "38-50",
+      "summary": "Horde side of contested Feralas.",
+      "quests": [
+        {"id": 2822, "name": "The Mark of Quality"},
+        {"id": 2854, "name": "Wild Leather Armor"},
+        {"id": 2855, "name": "Wild Leather Shoulders"},
+        {"id": 2856, "name": "Wild Leather Vest"},
+        {"id": 2857, "name": "Wild Leather Helmet"},
+        {"id": 2858, "name": "Wild Leather Boots"},
+        {"id": 2859, "name": "Wild Leather Leggings"},
+        {"id": 2860, "name": "Master of the Wild Leather"},
+        {"id": 7734, "name": "Improved Quality"},
+        {"id": 7738, "name": "Perfect Yeti Hide"},
+        {"id": 2862, "name": "War on the Woodpaw"},
+        {"id": 2863, "name": "Alpha Strike"},
+        {"id": 2902, "name": "Woodpaw Investigation"},
+        {"id": 2903, "name": "The Battle Plans"},
+        {"id": 7730, "name": "Zukk'ash Infestation"},
+        {"id": 7731, "name": "Stinglasher"},
+        {"id": 7732, "name": "Zukk'ash Report"},
+        {"id": 2973, "name": "A New Cloak's Sheen"},
+        {"id": 2974, "name": "A Grim Discovery"},
+        {"id": 2976, "name": "A Grim Discovery"},
+        {"id": 2975, "name": "The Ogres of Feralas"},
+        {"id": 2978, "name": "The Gordunni Scroll"},
+        {"id": 2979, "name": "Dark Ceremony"},
+        {"id": 2980, "name": "The Ogres of Feralas"},
+        {"id": 2987, "name": "Gordunni Cobalt"},
+        {"id": 3002, "name": "The Gordunni Orb"},
+        {"id": 3062, "name": "Dark Heart"},
+        {"id": 3063, "name": "Vengeance on the Northspring"},
+        {"id": 4120, "name": "The Strength of Corruption"},
+        {"id": 3121, "name": "A Strange Request"},
+        {"id": 3123, "name": "Testing the Vessel"},
+        {"id": 3124, "name": "Hippogryph Muisek"},
+        {"id": 3125, "name": "Faerie Dragon Muisek"},
+        {"id": 3126, "name": "Treant Muisek"},
+        {"id": 3127, "name": "Mountain Giant Muisek"},
+        {"id": 3128, "name": "Natural Materials"},
+        {"id": 3129, "name": "Weapons of Spirit"},
+        {"id": 3380, "name": "The Sunken Temple"},
+        {"id": 92878, "name": "Lost for Words"}
+      ]
+    },
+    {
+      "id": "tanaris-horde",
+      "name": "Tanaris (Horde)",
+      "order": 65,
+      "levelBand": "38-50",
+      "summary": "Horde side of contested Tanaris.",
+      "quests": [
+        {"id": 32, "name": "Rise of the Silithid"},
+        {"id": 379, "name": "Slake That Thirst"},
+        {"id": 654, "name": "Tanaris Field Sampling"},
+        {"id": 864, "name": "Return to Apothecary Zinge"},
+        {"id": 2967, "name": "Return to Thunder Bluff"},
+        {"id": 4509, "name": "Calm Before the Storm"},
+        {"id": 97534, "name": "Gritty Business"}
+      ]
     }
   ]
 }
