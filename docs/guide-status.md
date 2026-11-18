@@ -627,7 +627,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; honest playtest Horde personas, 0 stuck, residue R1/R2 only
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 7 rares (4 in-band + 3 come-back notes, all sole-drop signatures) + 2 item-start hunts + 18-pt chest loop + crate note, 9 recipes (4 vendor + 5 drops), 0 lint errors/warnings
 
 ### Desolace — Horde
 
