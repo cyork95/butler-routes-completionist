@@ -1,0 +1,271 @@
+# Hinterlands (Horde) - Recipes companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns whose SOURCE is physically in the
+# Hinterlands for a Horde buyer, verified against the local Forever
+# game data (questie-forever item vendor and drop tables). Eight ship
+# as buys from in-zone vendors (George, Zan, Ruppo, Gigget and Smudge,
+# plus the Revantusk pair Otho and Qujo for the sagefish recipes); seven
+# ship as drops with narrow in-zone droppers (the Wildvine recipe rides
+# a collect on each narrow step that drops it). Recipes sold only by
+# Wildhammer (Alliance) vendors do not ship here (Nightscape Shoulders,
+# Mithril Scale Bracers, Tender Wolf Steak - each names its off-zone
+# Horde vendor instead). Everything else Hinterlands-dropping is a
+# generic multi-zone world drop (Elwynn rule, argued per case in the
+# inventory). Quest records carry no reward data, so no quest-reward
+# recipe ships (see docs/companion-unverified.md). Trainer-taught
+# staples are excluded: Polestar's own profession guides cover those.
+# Each step is gated to its profession; other characters skip it
+# cleanly. Fishing and First Aid have no Hinterlands Horde source, so
+# that is stated, not padded.
+guide butler-routes-completionist/hinterlands-horde-recipes
+title Hinterlands (Horde) - Recipes
+levels 38-46
+zone The Hinterlands
+faction Horde
+category Professions
+folder Companions
+keywords hinterlands, horde, recipes, patterns, professions, companions
+coords live
+version 1
+
+step Bitter Gate - green leather armor (Leatherworking)
+
+  zone map 1425
+
+  when skill Leatherworking 1
+
+  vendor 2698 -- George Candarte (7.9, 73.3)
+  buy 7613 "Pattern: Green Leather Armor" npc 2698
+  note George Candarte (Horde) sells the pattern in-zone; Wenna Silkbeard stocks it for the Alliance in the Wetlands. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Razorfen Downs - cloaking device (Engineering)
+
+  zone map 1425
+
+  when skill Engineering 1
+
+  vendor 6777 -- Zan Shivsproket (1.3, 56.9)
+  buy 7742 "Schematic: Gnomish Cloaking Device" npc 6777
+  note Zan Shivsproket (neutral) is the sole vendor anywhere in the data. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Jintha'Alor west - mechanical dragonling (Engineering)
+
+  zone map 1425
+
+  when skill Engineering 1
+
+  vendor 2688 -- Ruppo Zipcoil (34.33, 37.76)
+  buy 10609 "Schematic: Mithril Mechanical Dragonling" npc 2688
+  note Ruppo Zipcoil (neutral, 1425-only) is the sole vendor anywhere in the data. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Jintha'Alor west - ironfeather shoulders (Leatherworking)
+
+  zone map 1425
+
+  when skill Leatherworking 1
+
+  vendor 12958 -- Gigget Zipcoil (34.46, 38.59)
+  buy 15735 "Pattern: Ironfeather Shoulders" npc 12958
+  note Gigget Zipcoil (neutral) is the sole vendor anywhere in the data. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Razorfen Downs - thistle tea (Enchanting)
+
+  zone map 1425
+
+  when skill Enchanting 1
+
+  vendor 6779 -- Smudge Thunderwood (1.4, 56.6)
+  buy 18160 "Recipe: Thistle Tea" npc 6779
+  note Smudge Thunderwood (neutral) is the sole vendor anywhere in the data. Stock class is unconfirmed in the data (no limited flag either way).
+
+step Revantusk Village - sagefish (Cooking)
+
+  zone map 1425
+
+  when skill Cooking 1
+
+  vendor 14738 -- Otho Moji'ko (79.38, 79.08)
+  vendor 270780 -- Qujo (77.95, 77.83)
+  buy 21099 "Recipe: Smoked Sagefish" npc 14738
+  buy 21219 "Recipe: Sagefish Delight" npc 14738
+  note Both are 24-vendor generic cooking stock; the Horde round buys at Revantusk (Otho Moji'ko, Horde - Qujo by the guard post stocks them too). Stock class is unconfirmed in the data (no limited flag either way).
+
+step Vilebranch terraces - ironfeather breastplate (Leatherworking)
+
+  zone map 1425
+
+  when skill Leatherworking 1
+
+  loop
+  goto 57.61,66.63
+  goto 59.16,66.11
+  goto 61.29,67.93
+  goto 62.07,66.43
+  goto 62.09,69.19
+  goto 62.73,70.81
+  goto 63.55,73.13
+  goto 64.05,78.62
+  goto 64.42,74.08
+  goto 65.02,77.08
+  goto 65.39,75.61
+  goto 66.03,74.53
+  goto 66.84,80.31
+  goto 67.48,76.24
+  goto 68.31,75.28
+  kill 2644 optional
+  collect 15760 "Pattern: Ironfeather Breastplate" optional
+  collect 9294 "Recipe: Wildvine Potion" optional
+  note The Vilebranch Hideskinner is the sole dropper anywhere in the data for the Breastplate and spawns only in the Hinterlands; he shares the terraces with the Wildvine recipe stock (narrow 3-zone drop, not a dozens-of-zones world drop). No quest takes the pattern.
+  note Respawn timer unconfirmed.
+
+step Vilebranch terraces - greater intellect (Enchanting)
+
+  zone map 1425
+
+  when skill Enchanting 1
+
+  loop
+  goto 63.48,65.79
+  goto 63.7,71.36
+  goto 64.21,72.17
+  goto 64.27,65.73
+  goto 64.97,71.3
+  goto 65.27,73.4
+  goto 65.78,71.99
+  goto 68.03,73.17
+  kill 2642 optional
+  collect 16214 "Formula: Enchant Bracer - Greater Intellect" optional
+  collect 9294 "Recipe: Wildvine Potion" optional
+  note The Vilebranch Shadowcaster is the sole dropper anywhere in the data for the Formula and spawns only in the Hinterlands; he shares the terraces with the Wildvine recipe stock. No quest takes the formula.
+  note Respawn timer unconfirmed.
+
+step Vilebranch terraces - superior mender's (Alchemy)
+
+  zone map 1425
+
+  when skill Alchemy 1
+
+  loop
+  goto 47.56,69.49
+  goto 63.27,60.03
+  goto 63.75,59.94
+  goto 65.86,68.58
+  goto 67.33,66.35
+  goto 67.35,68.72
+  goto 67.7,66.01
+  goto 68.52,70.25
+  goto 68.94,69.37
+  kill 2640 optional
+  collect 250992 "Recipe: Superior Mender's Potion" optional
+  collect 9294 "Recipe: Wildvine Potion" optional
+  note The Vilebranch Witch Doctor is the sole dropper anywhere in the data for the Mender's recipe and spawns only in the Hinterlands; he shares the terraces with the Wildvine recipe stock. No quest takes the recipe.
+  note Respawn timer unconfirmed.
+
+step Witherbark village - shining mithril pants (Blacksmithing)
+
+  zone map 1425
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 25.4,66.43
+  goto 25.6,65.95
+  goto 30.61,71.36
+  goto 31.71,67.86
+  goto 31.97,70.24
+  goto 32.05,75.77
+  goto 32.35,67.88
+  goto 32.58,67.03
+  goto 32.7,75.32
+  goto 32.95,75.7
+  goto 34.96,72.82
+  goto 35.33,63.5
+  goto 35.67,65.91
+  goto 36.53,63.01
+  goto 36.62,71.46
+  goto 36.68,66.13
+  goto 36.86,72.17
+  goto 36.95,70.77
+  goto 39.7,66.36
+  goto 40.27,66.04
+  kill 2653 optional
+  collect 251396 "Plans: Shining Mithril Pants" optional
+  collect 9294 "Recipe: Wildvine Potion" optional
+  note The Witherbark Sadist is the sole dropper anywhere in the data for the Plans and spawns only in the Hinterlands; he shares the village with the Wildvine recipe stock. No quest takes the plans.
+  note Respawn timer unconfirmed.
+
+step Vilebranch ruins - earthenweave cord (Tailoring)
+
+  zone map 1425
+
+  when skill Tailoring 1
+
+  loop
+  goto 44.57,65.48
+  goto 45.34,66.67
+  goto 45.91,68.15
+  goto 46.92,63.05
+  goto 47.04,65.46
+  goto 47.05,67.61
+  goto 47.56,66.49
+  goto 47.86,67.02
+  goto 48.04,65.62
+  goto 48.15,67.39
+  goto 48.55,67.99
+  goto 48.77,68.97
+  goto 48.83,64.4
+  goto 49.23,68.32
+  goto 49.57,62.92
+  goto 53.07,39.22
+  goto 53.37,38.8
+  goto 66.16,44.28
+  goto 66.22,44.76
+  goto 70.6,48.54
+  goto 71,48.57
+  goto 71.3,48.29
+  kill 4467 optional
+  collect 254078 "Pattern: Earthenweave Cord" optional
+  collect 9294 "Recipe: Wildvine Potion" optional
+  note The Vilebranch Soothsayer is the sole dropper anywhere in the data for the Cord and spawns only in the Hinterlands; she shares the ruins with the Wildvine recipe stock. No quest takes the pattern.
+  note Respawn timer unconfirmed.
+
+step The Altar - EZ-Thro tru-trigger (Engineering)
+
+  zone map 1425
+
+  when skill Engineering 1
+
+  loop
+  goto 44.66,42.92
+  goto 45.47,40.35
+  goto 45.52,38.33
+  goto 46.81,40.1
+  goto 47.54,41.64
+  goto 47.57,51.6
+  goto 48.21,48.05
+  goto 49.41,53.08
+  goto 49.51,48.57
+  goto 50.09,51.07
+  goto 51.17,52.87
+  goto 55.62,41.01
+  goto 55.99,42.72
+  goto 56.19,39.01
+  goto 56.63,44.73
+  goto 56.98,41.02
+  goto 57.15,43.38
+  goto 58.08,45.66
+  goto 58.19,40.89
+  goto 58.25,39.72
+  goto 58.34,38.55
+  goto 58.43,43.54
+  goto 58.47,42.17
+  goto 60.32,42.47
+  kill 2656 optional
+  collect 264218 "Schematic: EZ-Thro Tru-Trigger" optional
+  note The Jade Ooze is the sole dropper anywhere in the data and spawns only in the Hinterlands. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Hinterlands Horde source - Fishing
+  note Fishing has no recipe source physically in the Hinterlands for a Horde buyer in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
+
+step No Hinterlands Horde source - First Aid
+  note First Aid has no recipe source physically in the Hinterlands for a Horde buyer in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestar's own profession guides cover trainer-taught staples.
