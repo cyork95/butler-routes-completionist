@@ -1,0 +1,208 @@
+# Desolace (Horde) - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 6 shipped flagged rares of Desolace, the
+# 1480 item-start hunt, and its fixed containers. Run it in its own Polestar
+# tab at the end of the core route or standalone. EVERY goal is optional: a
+# rare that is not up never holds the route. Spawn points and levels are the
+# local Forever game data (questie-forever); signature drops are items whose
+# SOLE dropper is the rare. The in-band Cursed Centaur ships as a kill-note
+# rare (Fingat pattern: generic loot only, no quest link) - the Alliances
+# above-band exclusion does not transfer to the 31-45 Horde band (see
+# docs/desolace-horde-companions-inventory.md). No tame lines ship (the data
+# has no tameability flag and the core guide carries no tame corroboration -
+# see docs/companion-unverified.md). Respawn timers are unconfirmed
+# anywhere, so none are stated. No shipped rare is a giver, ender, or
+# objective of any core-contracted quest, and none drops a core quest item -
+# so this round carries no overlap notes except the shared Burning Blade
+# camp, said plainly on the hunt step.
+guide butler-routes-completionist/desolace-horde-rares
+title Desolace (Horde) - Rares & Treasures
+levels 31-45
+zone Desolace
+faction Horde
+category Collectibles
+folder Companions
+keywords desolace, horde, rares, treasures, companions
+coords live
+version 1
+
+step Accursed Slitherblade - the north-west
+
+  zone map 1443
+
+  goto 42.17,19.01
+  kill 14229 optional -- Accursed Slitherblade, in the north-west
+  collect 284713 "Accursed Legguards" optional
+  note Level 35 rare at its single confirmed point in the north-west; its sole drop is the Accursed Legguards. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Giggler - the center
+
+  zone map 1443
+
+  goto 61.29,28.91
+  kill 14228 optional -- Giggler, in the center
+  collect 284712 "Hyena Hide Helm" optional
+  note Level 34 rare at its single confirmed point in the center; its sole drop is the Hyena Hide Helm. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Hissperak - the center-south
+
+  zone map 1443
+
+  goto 52.86,50.08
+  kill 14227 optional -- Hissperak, in the center-south
+  note Level 37 rare at its single confirmed point in the center-south; the data shows no sole drop for it and it drops no quest item, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step Prince Kellen - the far east
+
+  zone map 1443
+
+  goto 78.93,21.25
+  kill 14225 optional -- Prince Kellen, in the far east
+  collect 284717 "Royal Satyr Slicer" optional
+  note Level 33 rare at its single confirmed point in the far east; its sole drop is the Royal Satyr Slicer. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Kaskk - the far south
+
+  zone map 1443
+
+  goto 51.15,86.13
+  kill 14226 optional -- Kaskk, in the far south
+  collect 284708 "Demonstrike Emblem" optional
+  note Level 40 rare at its single confirmed point in the far south; its sole drop is the Demonstrike Emblem. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Cursed Centaur - the west
+
+  zone map 1443
+
+  goto 30.36,60.18
+  kill 11688 optional -- Cursed Centaur, in the west
+  note Level 43 rare at its single confirmed point in the west, inside the 31-45 band; the data shows no sole drop for it and it drops no quest item, so there is nothing to collect. No quest takes it.
+  note Drops ordinary greens; respawn timer unconfirmed.
+
+step North-center - the Burning Blade skins (1480 hunt)
+
+  zone map 1443
+
+  loop
+  goto 52.08,28.86
+  goto 54.03,30.39
+  goto 55.14,28.62
+  goto 56.09,29.16
+  goto 56.86,25.66
+  goto 57.49,26.00
+  kill 4663 optional -- Burning Blade Augur, in the north-center camp
+  kill 4664 optional -- Burning Blade Reaver, in the north-center camp
+  kill 4665 optional -- Burning Blade Adept, in the north-center camp
+  kill 4666 optional -- Burning Blade Felsworn, in the north-center camp
+  kill 4667 optional -- Burning Blade Shadowmage, in the north-center camp
+  kill 13019 optional -- Burning Blade Seer, in the north-center camp
+  collect 20310 optional -- Flayed Demon Skin off the Burning Blade, the 1480 starter
+  collect 6766 optional -- Flayed Demon Skin (old variant) off the Burning Blade, the 1480 starter
+  note Either skin starts quest 1480 (The Corrupter) in the core guide desolace-horde.guide - the accept and turn-in live there; one skin is enough. The same kills feed the cores 1435 gem farm.
+  note Summoner 4668 and Invoker 4705 also carry the skins but spawn on 1412 too - this loop stays on the 1443-only camp.
+  note Respawn timer unconfirmed.
+
+step Solid Chests - kodo country and the coast
+
+  zone map 1443
+
+  loop
+  goto 29.30,60.58
+  goto 29.57,58.02
+  goto 30.53,54.82
+  goto 32.63,61.12
+  goto 32.74,55.11
+  goto 32.75,59.55
+  goto 34.23,52.90
+  goto 35.16,61.44
+  goto 35.75,92.10
+  goto 39.82,94.24
+  goto 40.58,94.62
+  goto 52.42,28.53
+  goto 54.35,28.12
+  goto 54.82,26.09
+  goto 55.14,30.00
+  goto 65.94,80.75
+  goto 71.45,71.67
+  goto 71.94,78.63
+  goto 73.47,41.59
+  goto 73.89,73.72
+  goto 74.57,47.14
+  goto 74.62,49.11
+  goto 74.82,19.33
+  goto 77.19,17.89
+  goto 78.88,23.34
+  interact 2855 optional
+  interact 2857 optional
+  note Two generic Solid Chest objects share the zone, 2855 at ten points on the east side and 2857 at fifteen points in the west, north and far south; loot is the usual chest fare. No quest takes either.
+  note Respawn timers unconfirmed.
+
+step Battered Chests - the eastern ruins
+
+  zone map 1443
+
+  loop
+  goto 81.00,48.40
+  goto 82.40,53.80
+  goto 84.50,72.10
+  goto 84.80,73.00
+  goto 86.30,78.20
+  goto 86.60,78.30
+  interact 106318 optional
+  note One generic Battered Chest object at six fixed points among the eastern ruins; loot is the usual container fare. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Footlockers - the south-west shore
+
+  zone map 1443
+
+  loop
+  goto 31.65,22.52
+  goto 34.05,20.70
+  goto 35.44,20.78
+  goto 36.56,22.11
+  goto 37.18,21.96
+  goto 37.47,21.30
+  goto 37.63,22.90
+  goto 34.36,16.95
+  goto 34.71,12.61
+  goto 35.54,13.95
+  interact 179491 optional
+  interact 179493 optional
+  note Waterlogged Footlocker at seven points and Mossy Footlocker at three points along the south-west shore; loot is generic greens, food and potions. No quest takes either.
+  note Respawn timers unconfirmed.
+
+step Blooming Satyrweed - the far east
+
+  zone map 1443
+
+  loop
+  goto 74.40,19.00
+  goto 75.90,16.60
+  goto 75.90,21.10
+  interact 404402 optional
+  note Blooming Satyrweed at three fixed points in the far east; its only data source anywhere, yielding 213120 Rune of the Dreamer. Which class can use the rune is not in the data.
+  note Respawn timer unconfirmed.
+
+step Libram of Deliverance - the north-east
+
+  zone map 1443
+
+  goto 66.50,7.40
+  interact 423695 optional
+  note Libram of Deliverance at a single fixed point in the north-east; its only data source anywhere, yielding 213513 Libram of Deliverance. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Utheks Staff - the west
+
+  zone map 1443
+
+  goto 42.20,82.10
+  interact 587338 optional
+  note Utheks Staff at a single fixed point in the west; its only data source anywhere, yielding 256058 Utheks Staff. No quest takes it.
+  note Respawn timer unconfirmed.
+
