@@ -1,0 +1,211 @@
+# Butler Routes - Thousand Needles (Horde) completionist (pack butler-routes-completionist).
+# Every Horde-accepting Thousand Needles quest in the local census (26 quests,
+# docs/thousand-needles-horde-census.md) appears exactly once as an accept;
+# all 26 turn in (4 at expedition enders outside the zone). Shared and neutral
+# quests stay in the main thousand-needles.guide (ungated this round) and are
+# NOT duplicated here. Chain order is strictly turn-in-before-accept; pres
+# accepting outside the contract ride as pre-notes (their quests are Horde
+# but belong to Orgrimmar, Mulgore or the Barrens). Objectives ride complete
+# / collect lines at data-placed points; the four totem kinds of Storm, Earth,
+# and Fire drop only outside the zone, so each rides an expedition leg grouped
+# by destination. Coordinates use the era frame; expedition stops switch zone
+# map frames and switch back.
+guide butler-routes-completionist/thousand-needles-horde
+title Thousand Needles (Horde)
+levels 20-32
+zone Thousand Needles
+faction Horde
+category Leveling
+folder Completionist
+keywords thousand needles, horde, completionist, freewind, whitereach
+coords live
+version 1
+
+step Freewind Post - arrival
+
+  tip Moktar Krin (67.58, 63.94) runs Freewind Post; Jandia (46.21, 51.51), Dorn Plainstalker (53.95, 41.49), Rau Cliffrunner (46.14, 51.71) and Prate Cloudseer (53.54, 42.65) stand the post. The west and the silithid south fill below.
+  note 1147's pre (1146 The Swarm Grows, an Orgrimmar quest from Belgrom Rockmaul) fills outside this route - take 1147 here.
+  accept 1147 -- The Swarm Grows - Moktar Krin; silithid searchers, invaders and hive drones, far south
+  note 1197's pre (1196 The Sacred Flame, a Mulgore quest from Zangen Stonehoof) fills outside this route - take 1197 here.
+  accept 1197 -- The Sacred Flame - Rau Cliffrunner; a Cloven Hoof, west
+  note 79360's pres (the Call of Air links 1531/1532/96136, Orgrimmar and Mulgore shaman calls) fill outside this route - take 79360 here.
+  accept 79360 only Shaman -- Elemental Aid - Prate Cloudseer; a Tattered Note, carried in
+  note 79360's Tattered Note (item 274463) has no placed source anywhere in the data - have it in your bags.
+  complete 79360 only Shaman
+  accept 98069 -- Stolen Freewind Supplies - Jandia; eight stolen supplies, carried in
+  note The Stolen Freewind Supplies (item 279383) have no placed source anywhere in the data (their crate object 670338 is not in the data) - have eight in your bags.
+  complete 98069
+  accept 98070 -- Stop the Screeching - Jandia; screeching harpies, north
+
+step Dorn Plainstalker - the trials
+
+  accept 1149 -- Test of Faith - Dorn Plainstalker; the leap from the planks, west
+  complete 1149 @26.43,32.93 era -- the leap of faith from the planks for Dorn Plainstalker
+  turnin 1149 -- Test of Faith - back to Dorn Plainstalker
+  accept 1150 -- Test of Endurance - Dorn Plainstalker; Grenka's Claw, north-west
+  collect 5843 @26,55.4 era -- Grenka's Claw off Grenka Bloodscreech for Dorn Plainstalker
+  note Grenka Bloodscreech (level 31) works the north-west - take her Claw there.
+  turnin 1150 -- Test of Endurance - the Claw to Dorn Plainstalker
+  accept 1151 -- Test of Strength - Dorn Plainstalker; Fragments of Rok'Alim, far west
+  collect 5844 quest 1151.1 @10.6,23.1 era optional -- Fragments of Rok'Alim off elite Rok'Alim the Pounder for Dorn Plainstalker
+  note Rok'Alim the Pounder is elite: grouping up is advised.
+  note Rok'Alim the Pounder (level 30) works the far west - take the Fragments there.
+  turnin 1151 -- Test of Strength - the Fragments to Dorn Plainstalker
+  accept 1152 -- Test of Lore - Dorn Plainstalker; Braug Dimspirit takes it in Stonetalon, west
+
+step Whitereach - the west
+
+  tip Elu (44.93, 48.92), Pao'ka Swiftmountain (17.89, 40.57), Hagar Lightninghoof (44.64, 50.29), Cliffwatcher Longhorn (45.67, 50.74), Kanati Greycloud (21.25, 32.06) and Wizlo Bearingshiner (21.43, 32.55) hold the west. The Galak centaurs, the nests and the Grimtotem work all lie here.
+  accept 4767 -- Wind Rider - Elu; ten Highperch Wyvern Eggs, the nests
+  collect 12356 x10 @10.59,36.82 era -- Highperch Wyvern Eggs off the Highperch nests for Elu
+  turnin 4767 -- Wind Rider - the eggs to Elu
+  accept 4770 -- Homeward Bound - Pao'ka Swiftmountain; escort Pao'ka to Motega Firemane
+  complete 4770 @15.15,32.65 era -- escort Pao'ka Swiftmountain from Highperch to Motega Firemane
+  turnin 4770 -- Homeward Bound - Pao'ka to Motega Firemane
+  accept 4821 -- Alien Egg - Hagar Lightninghoof; an Alien Egg, east
+  collect 12467 @37.63,56.13 era -- the Alien Egg for Hagar Lightninghoof
+  turnin 4821 -- Alien Egg - the egg to Hagar Lightninghoof
+  accept 4865 -- Serpent Wild - Hagar Lightninghoof; Motega takes it, west
+  turnin 4865 -- Serpent Wild - back to Motega Firemane
+  note 4841's pre (4542 Message to Freewind Post, a Barrens quest from Brave Moonhorn - who also stands on the canyon rim at (32.24, 22.17)) fills outside this route - take 4841 here.
+  accept 4841 -- Pacify the Centaur - Cliffwatcher Longhorn; Galak scouts, wranglers and windchasers, the camps
+  complete 4841 @39.31,36.92 era -- twelve Galak Scouts for Cliffwatcher Longhorn
+  complete 4841 @38.95,38.06 era -- ten Galak Wranglers for Cliffwatcher Longhorn
+  complete 4841 @39.05,37.93 era -- six Galak Windchasers for Cliffwatcher Longhorn
+  turnin 4841 -- Pacify the Centaur - back to Cliffwatcher Longhorn
+  accept 5064 -- Grimtotem Spying - Cliffwatcher Longhorn; three Secret Notes, the Document Chests
+  collect 12765 @31.79,32.58 era -- Secret Note #1 off the Document Chest for Cliffwatcher Longhorn
+  collect 12766 @31.79,32.58 era -- Secret Note #2 off the Document Chest for Cliffwatcher Longhorn
+  collect 12768 @31.79,32.58 era -- Secret Note #3 off the Document Chest for Cliffwatcher Longhorn
+  note All three Secret Notes drop off the same Document Chest - two further Document Chests stand at (33.76, 39.99) and (39.34, 41.53) as alternates.
+  turnin 5064 -- Grimtotem Spying - the notes to Cliffwatcher Longhorn
+  accept 5361 -- Family Tree - Cliffwatcher Longhorn; Nataka Longhorn takes it in Desolace, west
+  accept 5062 -- Sacred Fire - Motega Firemane; ten Incendia Agave, the flats
+  collect 12732 x10 @33.31,33.45 era -- Incendia Agave off the agave stands for Motega Firemane
+  note Magatha Grimtotem takes 5062 in Thunder Bluff (or Mulgore) - the turn-in rides the Thunder Bluff leg below; 5088 continues in Mulgore, not here.
+  collect 5869 @42.01,31.47 era -- the Cloven Hoof off the Ancient Brazier for Rau Cliffrunner
+  turnin 1197 -- The Sacred Flame - the Hoof to Rau Cliffrunner
+  accept 4881 -- Assassination Plot - the Assassination Note; Kanati takes it, west
+  note The Assassination Note (item 12564) drops off the Galak Messenger at (39.43, 33.1) - take the Messenger there and the note starts 4881 in your bags.
+  kill 10617 optional @39.43,33.1 era -- the Galak Messenger for the Assassination Note
+  collect 12564 optional @39.43,33.1 era -- the Assassination Note, starting Assassination Plot
+  turnin 4881 -- Assassination Plot - the note to Kanati Greycloud
+  accept 4966 -- Protect Kanati Greycloud - Kanati Greycloud; the Galak Assassin, beside him
+  complete 4966 @21.06,31.7 era -- the Galak Assassin for Kanati Greycloud
+  turnin 4966 -- Protect Kanati Greycloud - back to Kanati Greycloud
+  accept 5147 -- WANTED: Arnak Grimtotem - the Wanted Poster @46,50.86 era; Arnak's Hoof, north-east
+  collect 12884 @38.11,26.87 era -- Arnak's Hoof off Arnak Grimtotem for Cliffwatcher Longhorn
+  turnin 5147 -- WANTED: Arnak Grimtotem - the Hoof to Cliffwatcher Longhorn
+  accept 5151 -- Hypercapacitor Gizmo - Wizlo Bearingshiner; a gizmo off the Enraged Panther, south-west
+  collect 12946 quest 5151.1 @22.76,24.62 era optional -- the Hypercapacitor Gizmo off elite Enraged Panther for Wizlo Bearingshiner
+  note Enraged Panther is elite: grouping up is advised.
+  turnin 5151 -- Hypercapacitor Gizmo - the gizmo to Wizlo Bearingshiner
+
+step Harpy heights - the screeching
+
+  complete 98070 @26.01,54.97 era -- five Screeching Harpies for Jandia
+  complete 98070 @26.27,52.64 era -- five Screeching Roguefeathers for Jandia
+  complete 98070 @26,52.76 era -- five Screeching Windcallers for Jandia
+  note The harpies work the heights around (26-28, 47-56) - sweep the ridge for all fifteen.
+
+step Silithid south - the swarm
+
+  complete 1147 @67.72,83.51 era -- five Silithid Searchers for Moktar Krin
+  complete 1147 @63.51,85.8 era -- five Silithid Invaders for Moktar Krin
+  complete 1147 @63.51,85.8 era -- five Silithid Hive Drones for Moktar Krin
+  note The silithids swarm the far south around (63-72, 81-89) - work the hives for all fifteen.
+  note The Cracked Silithid Carapace (item 5877) drops off the southern silithids - it starts Parts of the Swarm in your bags.
+  collect 5877 optional @67.72,83.51 era -- the Cracked Silithid Carapace, starting Parts of the Swarm
+  note 1148's pre (1146 The Swarm Grows, an Orgrimmar quest from Belgrom Rockmaul) fills outside this route - take 1148 here.
+  accept 1148 -- Parts of the Swarm - the Carapace; the Heart, Talons and Carapaces, south
+  collect 5855 @67.72,83.51 era -- the Silithid Heart for Korran
+  collect 5854 x5 @67.72,83.51 era -- Silithid Talons for Korran
+  collect 5853 x3 @67.72,83.51 era -- Intact Silithid Carapaces for Korran
+  note The Heart, Talons and Carapaces all drop off the southern silithids - Korran takes them in the Barrens, on the leg below; 1184 continues there, not here.
+
+step Freewind Post - the shaman chain
+
+  turnin 79360 only Shaman -- Elemental Aid - the Note to Rau Cliffrunner
+  accept 79364 only Shaman -- Eyes on the Sky - Rau Cliffrunner; Prate takes it, east
+  turnin 79364 only Shaman -- Eyes on the Sky - back to Prate Cloudseer
+  accept 79361 only Shaman -- Storm, Earth, and Fire - Prate Cloudseer; twenty Twisted Totems, four far zones
+  note The Twisted Totems drop nowhere in Thousand Needles in the data - Water off the Barrens and Dustwallow mirefins, Earth off the Swamp of Sorrows Lost Ones, Fire off the Badlands ogres, Air off the Desolace maraudine. Each rides its expedition leg below; the turn-in waits until all twenty are in hand.
+
+step Freewind Post - the return
+
+  turnin 1147 -- The Swarm Grows - the kills to Moktar Krin
+  turnin 98069 -- Stolen Freewind Supplies - the supplies to Jandia
+  turnin 98070 -- Stop the Screeching - back to Jandia
+
+step Expedition - Stonetalon, Braug's word
+
+  zone map 1442
+
+  tip Braug Dimspirit (78.8, 45.69) holds the Stonetalon Peak camp.
+  turnin 1152 -- Test of Lore - Dorn's word to Braug Dimspirit
+  note 1154 (the next Test) starts here in Stonetalon - it belongs to the Stonetalon route, not this one.
+  zone map 1441
+
+step Expedition - the Barrens, Korran and the water
+
+  zone map 1413
+
+  tip Korran (51.07, 29.63) camps the Barrens; the Mirefin murlocs work the south-west shore.
+  complete 79361 only Shaman @65.3,59.5 era -- five Twisted Water Totems off the Mirefin murlocs for Prate Cloudseer
+  turnin 1148 -- Parts of the Swarm - the silithid parts to Korran
+  zone map 1441
+
+step Expedition - Thunder Bluff, Magatha's word
+
+  zone map 1456
+
+  tip Magatha Grimtotem (69.85, 30.91) sits Thunder Bluff.
+  turnin 5062 -- Sacred Fire - Motega's word to Magatha Grimtotem
+  zone map 1441
+
+step Expedition - Desolace, Nataka and the air
+
+  zone map 1443
+
+  tip Nataka Longhorn (55.41, 55.81) runs the Desolace camp; the Maraudine centaurs hold the north.
+  complete 79361 only Shaman @30.1,66.27 era -- five Twisted Air Totems off the Maraudine centaurs for Prate Cloudseer
+  turnin 5361 -- Family Tree - Cliffwatcher's word to Nataka Longhorn
+  zone map 1441
+
+step Expedition - Swamp of Sorrows, the earth
+
+  zone map 1435
+
+  tip The Lost Ones work the Swamp of Sorrows.
+  complete 79361 only Shaman @43.46,34.52 era -- five Twisted Earth Totems off the Lost Ones for Prate Cloudseer
+  zone map 1441
+
+step Expedition - Badlands, the fire
+
+  zone map 1418
+
+  tip The Dustbelcher ogres hold the Badlands.
+  complete 79361 only Shaman @29.39,56.79 era -- five Twisted Fire Totems off the Dustbelcher ogres for Prate Cloudseer
+  zone map 1441
+
+step Freewind Post - the storm delivered
+
+  turnin 79361 only Shaman -- Storm, Earth, and Fire - the totems to Prate Cloudseer
+  accept 79366 only Shaman -- Heed My Call - Prate Cloudseer; the Eye of the Tempest, west
+  collect 212792 quest 79366.1 @31.02,45.8 era optional only Shaman -- the Eye of the Tempest off elite Ravaging Tempest for Prate Cloudseer
+  note Ravaging Tempest is elite: grouping up is advised.
+  note The Ravaging Tempest (level 40) works the west around (31-45, 33-47) - a hard fight at the band; come back with help if it resists.
+  turnin 79366 only Shaman -- Heed My Call - the Eye to Rau Cliffrunner
+  accept 79442 only Shaman -- The Tempest's Weapons - Rau Cliffrunner; Bath'rah takes it in Hillsbrad, east
+
+step Expedition - Hillsbrad, Bath'rah's word
+
+  zone map 1424
+
+  tip Bath'rah the Windwatcher (79.3, 7) watches the Hillsbrad shore.
+  turnin 79442 only Shaman -- The Tempest's Weapons - Rau's word to Bath'rah the Windwatcher
+  zone map 1441
+
+step Thousand Needles (Horde) - done
+
+  note The Needles are run: Freewind holds, the west is pacified, the trials are passed, the silithids are thinned, and the words are carried north, south, east and west.
