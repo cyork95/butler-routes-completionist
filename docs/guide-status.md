@@ -751,7 +751,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean (3/3 + intentional non-contract 4146 mini turnin, 0 errors, 1 accepted R2 warning)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 3 rares (2 sole-drop signatures: Matriarch's Prowlers, Balanced Knives) + come-back-later Zavas; 0 treasures; 10 recipes (3 neutral-vendor + 7 narrow drops); 0 errors / 0 warnings both guides
 
 ### Swamp of Sorrows — Horde
 
