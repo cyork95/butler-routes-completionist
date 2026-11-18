@@ -15309,6 +15309,28 @@
         {"id": 4509, "name": "Calm Before the Storm"},
         {"id": 97534, "name": "Gritty Business"}
       ]
+    },
+    {
+      "id": "badlands-horde",
+      "name": "Badlands (Horde)",
+      "order": 66,
+      "levelBand": "30-40",
+      "summary": "Horde side of contested Badlands.",
+      "quests": [
+        {"id": 728, "name": "To the Undercity for Yagyin's Digest"},
+        {"id": 782, "name": "Broken Alliances"},
+        {"id": 793, "name": "Broken Alliances"},
+        {"id": 1419, "name": "Coyote Thieves"},
+        {"id": 1420, "name": "Report to Helgrum"},
+        {"id": 2202, "name": "Uldaman Reagent Run"},
+        {"id": 2203, "name": "Badlands Reagent Run II"},
+        {"id": 2258, "name": "Badlands Reagent Run"},
+        {"id": 2318, "name": "Translating the Journal"},
+        {"id": 2338, "name": "Translating the Journal"},
+        {"id": 2339, "name": "Find the Gems and Power Source"},
+        {"id": 2340, "name": "Deliver the Gems"},
+        {"id": 5145, "name": "Dragonscale Leatherworking"}
+      ]
     }
   ]
 }
