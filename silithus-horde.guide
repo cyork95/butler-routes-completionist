@@ -1,0 +1,44 @@
+# Silithus (Horde) - Completionist (pack butler-routes-completionist, v1).
+# The Horde side of contested Silithus: 3 contracted quests (band 58-60,
+# docs/silithus-horde-census.md). 9416/9422 are the Horde intro mirrors
+# (Scout Bloodfist to General Kirika, far south); 8380 is the Shaman
+# Armaments of War, gated only Shaman, its pre 8315 bridged by a dedicated
+# when-onquest mini (the shared Calling chain lives in the main guide).
+# 9422's dust-turnin doodad has no spawn record - same as its Alliance
+# twin's - so the complete rides at Kirika's data-placed point, stated.
+guide butler-routes-completionist/silithus-horde
+title Silithus (Horde)
+levels 58-60
+zone Silithus
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Cenarion Hold - Bloodfist report
+
+  zone map 1451
+
+  note The Horde entry: Scout Bloodfist holds the north edge of the Hold. Take his report here; it sends you south to General Kirika.
+  accept 9416 -- Report to General Kirika - Scout Bloodfist (48.95, 36.69)
+
+step Cenarion Hold - Larksbane's calling (when onquest 8315)
+
+  zone map 1451
+
+  when onquest 8315
+
+  note Armaments of War (8380) needs The Calling (8315) turned in first - 8315 is shared content routed in the main silithus.guide. Holders proceed; others work the main guide's Calling chain, then return.
+  accept 8380 only Shaman -- Armaments of War - Geologist Larksbane (49.67, 37.46)
+  turnin 8380 only Shaman -- Armaments of War - back to Geologist Larksbane
+
+step Deep south - Kirika's command
+
+  zone map 1451
+
+  note The long south run to General Kirika (50.75, 69.54), past the hives. Hand in Bloodfist's report, take her scouring ask, and work the dust doodad beside her.
+  turnin 9416 -- Report to General Kirika - to General Kirika (50.75, 69.54)
+  accept 9422 -- Scouring the Desert - General Kirika; the Horde dust doodad beside her (the Alliance twin 9419 works the same way for Marshal Bluewall)
+  complete 9422 @50.75,69.54 -- the Silithus Dust Horde turnin doodad beside General Kirika (no placed spawn in the data - same as its Alliance twin; fill at her point)
+  turnin 9422 -- Scouring the Desert - back to General Kirika
