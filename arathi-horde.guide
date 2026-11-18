@@ -1,0 +1,166 @@
+# Arathi Highlands (Horde) - Completionist (pack butler-routes-completionist, v1).
+# The Horde side of contested Arathi: Hammerfall hub, the Witherbark and
+# Boulderfist campaigns, the Stromgarde sigil chain and its Trol'kalar
+# finale, the Myzrael twin, plus profession and writ specials and three
+# expedition turn-ins (Wetlands, Dustwallow, Riverglades). Every accept is
+# on key 1417; shared links live in the main guide and are NOT duplicated
+# here (main guide ungated this round so both factions see them).
+# See docs/arathi-horde-census.md for the census (29 IN, band 30-40).
+guide butler-routes-completionist/arathi-horde
+title Arathi Highlands (Horde)
+levels 30-40
+zone Arathi Highlands
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step Hammerfall - mustering the campaign
+
+  note Hammerfall holds the Horde hub: Tor'gan, Gor'mul, Drum Fel, Korin Fel, Doctor Gregory Victor and Zaruk. Take the hub's asks here; the Highlands fill them.
+  accept 655 -- Hammerfall - Gor'mul @72.64,33.93; carry the word to Tor'gan
+  turnin 655 -- Hammerfall - the word to Tor'gan @74.72,36.29
+  accept 671 -- Foul Magics - Tor'gan @74.72,36.29; Bloodstone Amulets off the northern Syndicate
+  note 638 Trollbane accepts in Stranglethorn (contracted in stranglethorn-horde) - this chain reads whole across the two guides.
+  accept 639 -- Sigil of Strom - Zengu @73.8,33.96; the Sigil rides the Stromgarde run below
+  note 676 The Hammer May Fall accepts in Alterac, outside any contract - Drum Fel still takes the campaign from here.
+  accept 677 -- Call to Arms - Drum Fel @74.24,33.92; Witherbark axes, east
+  note 652 is the shared Myzrael chain in the main guide - the Keystone take below needs it done.
+  accept 97539 -- Silky Sutures - Doctor Gregory Victor @73.41,36.89; Surgical Spidersilk off the plains creepers
+  accept 95663 -- Dragonmaw Rumors - Zaruk @74.54,35.64; carry the word to the Wetlands leg below
+  accept 95143 -- Finding Tan'jani - Tor'gan @74.72,36.29; Tan'jani waits in the Riverglades leg below
+  accept 92707 -- The Giant in the Den - no placed giver in the data; Goliath's Wristguards come off Witherbark Goliath in the east, hand them to Drum Fel
+  accept 94212 optional -- Craftsman's Writ: Elixir of Wisdom - Muggol Breezebeard @48.68,55.78; have the writ and an Elixir of Wisdom in your bags
+  turnin 94212 optional -- Craftsman's Writ: Elixir of Wisdom - the writ and the Elixir to Muggol Breezebeard
+
+step Hammerfall - Brumn's hides (Leatherworking)
+
+  when skill Leatherworking 1
+  accept 5146 optional -- Elemental Leatherworking - Brumn Winterhoof @28.27,45.09; Hearts of Fire, Globes of Water, Cores of Earth and Breaths of Wind, west
+  note Brumn's four elements have no placed farm in Arathi in the data (only Rumbling Exile shows here) - bring them from anywhere.
+  turnin 5146 optional -- Elemental Leatherworking - the elements to Brumn Winterhoof
+
+step Hammerfall - Victor's triage (First Aid)
+
+  when skill First Aid 1
+  note 6623 Trauma accepts in Durotar and is contracted nowhere - Victor still takes the triage from here.
+  accept 6622 optional -- Triage - Doctor Gregory Victor @73.41,36.89; patients wait in the Dustwallow leg below
+
+step Raptor pens - eyes, hearts and sutures
+
+  accept 672 -- Raising Spirits - Tor'gan @74.72,36.29; Highland Raptor Eyes off the striders and thrashers
+  collect 4512 quest 672.1 @23.66,35.37 era -- 10 Highland Raptor Eyes off the striders and thrashers for Tor'gan
+  turnin 672 -- Raising Spirits - the Eyes to Tor'gan @74.72,36.29
+  accept 674 -- Raising Spirits - Tor'gan; carry the word to Gor'mul
+  turnin 674 -- Raising Spirits - the word to Gor'mul @72.64,33.93
+  accept 675 -- Raising Spirits - Gor'mul; carry the word back to Tor'gan
+  turnin 675 -- Raising Spirits - the word to Tor'gan @74.72,36.29
+  accept 701 -- Guile of the Raptor - Tor'gan; Raptor Hearts off the fleshstalkers, south
+  collect 4513 quest 701.1 @45.59,79.5 era -- 12 Raptor Hearts off the Highland Fleshstalkers for Tor'gan
+  turnin 701 -- Guile of the Raptor - the Hearts to Tor'gan @74.72,36.29
+  accept 702 -- Guile of the Raptor - Tor'gan; carry the word to Gor'mul
+  turnin 702 -- Guile of the Raptor - the word to Gor'mul @72.64,33.93
+  accept 847 -- Guile of the Raptor - Gor'mul; carry the word back to Tor'gan
+  turnin 847 -- Guile of the Raptor - the word to Tor'gan @74.72,36.29
+  collect 278225 quest 97539.1 @20.85,42.17 era -- 12 Surgical Spidersilk off the Plains Creepers for Doctor Gregory Victor
+  turnin 97539 -- Silky Sutures - the Spidersilk to Doctor Gregory Victor @73.41,36.89
+  accept 92519 optional -- Ward Restocking - Doctor Gregory Victor; Packaged Tonics, no placed source below
+  note Packaged Tonics have no placed source in the data - have a set ready for Victor (item 278462).
+  turnin 92519 optional -- Ward Restocking - the Tonics to Doctor Gregory Victor @73.41,36.89
+
+step Witherbark village - axes and the Giant
+
+  complete 677 @61.61,72.84 era -- 10 Witherbark Axe Throwers in the village east
+  complete 677 @62.55,73.17 era -- 10 Witherbark Headhunters in the village east
+  complete 677 @61.08,72.16 era -- 8 Witherbark Witch Doctors in the village east
+  collect 253711 quest 92707.1 @66.85,81.23 era optional -- Goliath's Wristguards off Witherbark Goliath (level 35) for Drum Fel
+  note Hand the village work in at Hammerfall on the way through.
+
+step Hammerfall - the campaign turns
+
+  turnin 677 -- Call to Arms - the Witherbark work to Drum Fel @74.24,33.92
+  accept 678 -- Call to Arms - Drum Fel; Boulderfist brutes and magi, south
+  turnin 92707 -- The Giant in the Den - the Wristguards to Drum Fel @74.24,33.92
+
+step Boulderfist grounds - the southern campaign
+
+  complete 678 @50.61,79.81 era -- 10 Boulderfist Brutes on the southern rise
+  complete 678 @50.43,74.26 era -- 4 Boulderfist Magi on the southern rise
+  note Hand the southern work in at Hammerfall on the way through.
+
+step Hammerfall - brutes down, shamans called
+
+  turnin 678 -- Call to Arms - the Boulderfist work to Drum Fel @74.24,33.92
+  accept 679 -- Call to Arms - Drum Fel; Boulderfist shamans and lords, far south-west
+  accept 680 -- The Real Threat - Korin Fel @74.04,33.07; Or'Kalar's Head, far south-west
+
+step Far south-west - shamans, lords and Or'Kalar
+
+  complete 679 @18.68,66.54 era -- 7 Boulderfist Shamans on the far south-western rise
+  complete 679 @18.02,69.04 era -- 3 Boulderfist Lords on the far south-western rise
+  collect 4551 quest 680.1 @18.56,66.24 era optional -- Or'Kalar's Head (level 40) on the far south-western rise
+  tip Or'Kalar is elite: grouping up is advised.
+  note Hand the far southern work in at Hammerfall on the way through.
+
+step Hammerfall - the southern campaign lands
+
+  turnin 679 -- Call to Arms - the shaman work to Drum Fel @74.24,33.92
+  turnin 680 -- The Real Threat - Or'Kalar's Head to Korin Fel @74.04,33.07
+
+step Stromgarde - sigils and stones
+
+  collect 4440 quest 639.1 @25.39,63.4 era optional -- the Sigil of Strom off the Syndicate prowlers north of Stromgarde
+  tip Syndicate Conjuror is elite: grouping up is advised.
+  turnin 639 -- Sigil of Strom - the Sigil to Zengu @73.8,33.96
+  accept 640 -- The Broken Sigil - Zengu; Sigil Fragments off Stromgarde's defenders
+  collect 4450 quest 640.1 @21.31,62.34 era optional -- 11 Sigil Fragments off the Stromgarde defenders
+  tip Stromgarde Troll Hunter is elite: grouping up is advised.
+  turnin 640 -- The Broken Sigil - the Fragments to Tor'gan @74.72,36.29
+  accept 641 -- Sigil of Thoradin - Tor'gan; carry the word to Zengu
+  turnin 641 -- Sigil of Thoradin - the word to Zengu @73.8,33.96
+  collect 4495 quest 671.1 @30.37,28.87 era -- 10 Bloodstone Amulets off the northern Syndicate for Tor'gan
+  turnin 671 -- Foul Magics - the Amulets to Tor'gan @74.72,36.29
+  accept 673 -- Foul Magics - Tor'gan; the Befouled Bloodstone Orb off Marez Cowl
+  collect 4510 quest 673.1 @29.47,64.14 era optional -- the Befouled Bloodstone Orb off Marez Cowl (level 40)
+  tip Marez Cowl is elite: grouping up is advised.
+  turnin 673 -- Foul Magics - the Orb to Tor'gan @74.72,36.29
+  accept 643 -- Sigil of Arathor - Zengu; the Sigil off Lieutenant Valorcall
+  collect 4458 quest 643.1 @33.47,52.08 era optional -- the Sigil of Arathor off Lieutenant Valorcall (level 38)
+  tip Lieutenant Valorcall is elite: grouping up is advised.
+  turnin 643 -- Sigil of Arathor - the Sigil to Zengu @73.8,33.96
+  accept 644 -- Sigil of Trollbane - Zengu; the Sigil off Prince Galen Trollbane
+  collect 4466 quest 644.1 @28.36,58.11 era optional -- the Sigil of Trollbane off Prince Galen Trollbane (level 44)
+  tip Prince Galen Trollbane is elite: grouping up is advised.
+  turnin 644 -- Sigil of Trollbane - the Sigil to Zengu @73.8,33.96
+  accept 645 -- Trol'kalar - Zengu; carry the blade's word to Trollbane's Tomb, west
+  turnin 645 -- Trol'kalar - the word at Trollbane's Tomb @28.86,59.62
+  accept 646 -- Trol'kalar - take up the blade at Trollbane's Tomb @28.86,59.62
+  turnin 646 -- Trol'kalar - the blade's word to Zengu @73.8,33.96
+  accept 688 -- Myzrael's Allies - take the Keystone @36.08,58.09
+  turnin 688 -- Myzrael's Allies - the Keystone's word to Zaruk @74.54,35.64
+
+step Expedition - Wetlands, the agent's word
+
+  zone map 1437
+  turnin 95663 -- Dragonmaw Rumors - the word to the Deathstalker Agent @51.41,59.23
+  note The Agent's chain runs on in the Wetlands (Open the Maw) - outside this contract.
+  zone map 1417
+
+step Expedition - Dustwallow, the triage tent (First Aid)
+
+  when skill First Aid 1
+  zone map 1445
+  complete 6622 optional @67.79,49.06 era -- 15 Patients Saved at the Theramore triage tents for Doctor Gregory Victor
+  zone map 1417
+
+step Hammerfall - the shift report (First Aid)
+
+  when skill First Aid 1
+  turnin 6622 optional -- Triage - the shift report to Doctor Gregory Victor @73.41,36.89
+
+step Expedition - Riverglades, Tan'jani's camp
+
+  zone map 2548
+  turnin 95143 -- Finding Tan'jani - Tor'gan's word to Tan'jani @58.13,45.32
+  zone map 1417
