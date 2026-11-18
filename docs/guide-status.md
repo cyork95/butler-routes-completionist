@@ -420,6 +420,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions — 3 rares (no signature loot; rank-2 Gruff/Mosh excluded per rank rule), no confirmed treasure (rares-only), 10 recipes (LW 9 + Cooking 1)
+- [x] Faction ungating (Option A, 2026-11-17) — 7 Alliance-only lines + 1 soft-pre mini step-gated, header dropped, 0 dead lines both factions
 
 ---
 
@@ -737,9 +738,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Un'Goro Crater — Horde
 
-- [ ] Census (reconcile against 8 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (3 IN at band 47-53; Larion chain 4145/4147/4148; 4146/94399/98093 OUT argued; 8-vs-5 reconciled to the census's named 5)
+- [x] Core guide — `ungoro-horde.guide`
+- [x] Lint/playtest clean (3/3 + intentional non-contract 4146 mini turnin, 0 errors, 1 accepted R2 warning)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

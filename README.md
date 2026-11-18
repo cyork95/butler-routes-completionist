@@ -4,7 +4,7 @@ Completionist (all-quests) routes for [Polestar](https://polestar.guide), the gu
 
 Pack id `butler-routes-completionist`. Title "Butler Routes - Completionist". Author Butler Muse. License CC-BY-4.0.
 
-Status: **in development (pack v0.131.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
+Status: **in development (pack v0.132.0), not published yet**. The first release (v1.0.0) is planned when the starting-zone set is complete.
 
 ## Routes so far
 
@@ -109,6 +109,7 @@ Status: **in development (pack v0.131.0), not published yet**. The first release
 | `ungoro.guide` (Set 5 core built, pilot pending) | Un'Goro Crater | 47-54 | Alliance |
 | `ungoro-rares.guide` (companion built, pilot pending) | Un'Goro Crater rares and treasures | 47-54 | Alliance |
 | `ungoro-recipes.guide` (companion built, pilot pending) | Un'Goro Crater recipe sources | 47-54 | Alliance |
+| `ungoro-horde.guide` (Horde block core built, pilot pending) | Un'Goro Crater (Horde) | 47-53 | Horde |
 | `blasted-lands-rares.guide` (companion built, pilot pending) | Blasted Lands rares and treasures | 40-50 | Alliance |
 | `blasted-lands-recipes.guide` (companion built, pilot pending) | Blasted Lands recipe sources | 40-50 | Alliance |
 | `dustwallow-rares.guide` (companion built, pilot pending) | Dustwallow Marsh rares and treasures | 35-45 | Alliance |

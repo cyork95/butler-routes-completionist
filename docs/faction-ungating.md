@@ -365,6 +365,13 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: ungoro.guide
 - header: Alliance; contract: 42 (3 primary / 39 shared)
 - shared IDs: 974, 980, 1125, 1126, 3844, 3845, 3881, 3882, 3883, 3884, 3908, 3941, 3942, 3961, 3962, 4243, 4244, 4245, 4284, 4285, 4287, 4288, 4321, 4491, 4492, 4501, 4503, 6844, 8279, 8287, 8323, 8681, 87492, 87494, 92020, 94267, 94279, 94303, 94315
+### ungoro-crater (UNGATED 2026-11-18, Horde round)
+- file: ungoro.guide (was Alliance primary)
+- contract: 42 (3 primary / 39 shared; shared list per the sweep stub above, verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 4141, 4142, 4144 (the Muigin chain).
+- Lines gated: 7 quest lines (`only Alliance` on the 4141 accept/turnin, the 4142 accept + Feralas-expedition turnin, the 4144 accept; the two 4141 completes). 1 soft-pre mini (`when onquest 4144`, pre Alliance-only contracted) gated at STEP level with `only Alliance` — mini interior (2 completes + turnin) untouched. 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). All 39 shared-ID lines stay bare; class gates untouched (none exist).
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 22 warnings, warned quest-ID set identical to pre-edit baseline (zero diff). Playtest `--honest` both factions (Human/NightElf + Orc/Scourge Warriors): 0 stuck; Alliance findings identical before/after (15 findings); Horde personas complete only the shared lines with residue only in R1/R2; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations both factions.
 ### silverpine-forest
 - file: silverpine.guide (UNGATED this round)
 - header: Horde; contract: 67 (55 primary / 12 shared)
