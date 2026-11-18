@@ -14,7 +14,6 @@ guide butler-routes-completionist/desolace
 title Desolace - Completionist
 levels 30-40
 zone Desolace
-faction Alliance
 category Leveling
 folder Completionist
 keywords desolace, completionist, nijel's point, maraudon, centaur
@@ -92,12 +91,12 @@ step Warug's stand - the assault
 
 step The Kolkar camp - charms, kills and totems
 
-  collect 6079 x10 quest 1384.1 @68.55,52.17 era -- Crude Charms off the Kolkar Centaurs for Uthek the Wise
-  collect 6079 x10 quest 1384.1 @68.47,38.82 era -- Crude Charms off the Kolkar Scouts for Uthek the Wise
+  collect 6079 x10 quest 1384.1 only Alliance @68.55,52.17 era -- Crude Charms off the Kolkar Centaurs for Uthek the Wise
+  collect 6079 x10 quest 1384.1 only Alliance @68.47,38.82 era -- Crude Charms off the Kolkar Scouts for Uthek the Wise
   complete 1386 only Alliance @68.55,52.17 era -- Kolkar Centaurs for Warug
   complete 1386 only Alliance @68.47,38.82 era -- Kolkar Scouts for Warug
   complete 1386 only Alliance @70.75,43.6 era -- Kolkar Maulers for Warug
-  collect 254432 x5 quest 93224.1 @68.55,52.17 era -- Carved Centaur Totems off the Kolkar for Captain Pentigast
+  collect 254432 x5 quest 93224.1 only Alliance @68.55,52.17 era -- Carved Centaur Totems off the Kolkar for Captain Pentigast
 
 step Nijel's Point - Pentigast paid
 
@@ -299,7 +298,7 @@ step The south - the Pariah's instructions
 step The south - the paladin's hammer
 
   tip The Broken Warhammer (52.72, 84.76) lies in the south.
-  accept 79939 only Paladin -- The Broken Hammer - the Broken Warhammer @52.72,84.76 era; Katherine the Pure takes it in Stormwind, late
+  accept 79939 only Paladin,Alliance -- The Broken Hammer - the Broken Warhammer @52.72,84.76 era; Katherine the Pure takes it in Stormwind, late
 
 step Bibbly's corner - the cylinder writ
 
@@ -374,7 +373,7 @@ step Expedition - Stormwind, the Broken Hammer
   zone map 1453
 
   tip Katherine the Pure (48.48, 49.09) works Stormwind.
-  turnin 79939 only Paladin -- The Broken Hammer - the warhammer to Katherine the Pure
+  turnin 79939 only Paladin,Alliance -- The Broken Hammer - the warhammer to Katherine the Pure
   zone map 1443
 
 step Desolace - done
