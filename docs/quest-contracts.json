@@ -15604,6 +15604,28 @@
         {"id": 94375, "name": "Call of Earth"},
         {"id": 97005, "name": "Chol'aruk the Ravener"}
       ]
+    },
+    {
+      "id": "mount-hyjal-horde",
+      "name": "Mount Hyjal (Horde)",
+      "order": 82,
+      "levelBand": "54-60",
+      "summary": "Horde side of contested Mount Hyjal.",
+      "quests": [
+        {"id": 91794, "name": "Flags of Our Forebears"},
+        {"id": 92446, "name": "Head Scratcher"},
+        {"id": 92592, "name": "Final Death"},
+        {"id": 92609, "name": "Feathers in Flight"},
+        {"id": 94782, "name": "The Western Post"},
+        {"id": 95026, "name": "Blight No More"},
+        {"id": 95248, "name": "To the Summit of Eternity"},
+        {"id": 96616, "name": "Herbs for the Bruised and Weary"},
+        {"id": 96622, "name": "A Rest Without Pain"},
+        {"id": 96830, "name": "Farsight Guided"},
+        {"id": 96998, "name": "Tribal Colors"},
+        {"id": 96999, "name": "Wrap Return"},
+        {"id": 97119, "name": "Now We're Cooking"}
+      ]
     }
   ]
 }
