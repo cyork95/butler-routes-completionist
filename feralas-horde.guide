@@ -247,9 +247,16 @@ step East - the Ogres of Feralas I
   complete 2975 @74.79,29.29 era -- ten Gordunni Ogre Mages for Rok Orhan, east
   complete 2975 @74.68,29.56 era -- five Gordunni Brutes for Rok Orhan, east
 
-step Camp Mojache - the eastern ogres banked
+step Rok's eastern ogres proven (soft pre)
 
+  when onquest 2975
+
+  tip Holding 2975 with its eastern kills done: Rok takes the ogres.
   turnin 2975 -- The Ogres of Feralas - the ogres to Rok Orhan
+
+step Camp Mojache - the western ask taken
+
+  tip Rok's western ask opens once the eastern ogres are proven.
   accept 2980 -- The Ogres of Feralas - Rok Orhan; Gordunni Shaman, Warlocks and Maulers, south-west
 
 step South-west - the Ogres of Feralas II
@@ -274,9 +281,16 @@ step The Hinterlands - Wildkin Muisek (expedition)
   complete 3123 @26.28,54.29 era -- ten Wildkin Muisek off the Vicious Owlbeasts for Witch Doctor Uzer'i, the Hinterlands
   zone Feralas
 
-step Camp Mojache - the vessel tested
+step Uzer'i's vessel proven (soft pre)
 
+  when onquest 3123
+
+  tip Holding 3123 with its owls gathered: Uzer'i takes the vessel.
   turnin 3123 -- Testing the Vessel - the vessel to Witch Doctor Uzer'i
+
+step Camp Mojache - hippogryphs taken
+
+  tip Uzer'i's hippogryph ask opens once the vessel is proven.
   accept 3124 -- Hippogryph Muisek - Witch Doctor Uzer'i; ten Hippogryph Muisek off the Frayfeathers, south
 
 step South - Frayfeather hippogryphs
@@ -318,10 +332,20 @@ step North-west - mountain giants
   complete 3127 @37.76,21.92 era -- seven Mountain Giant Muisek for Witch Doctor Uzer'i, north-west
   complete 3128 @37.76,21.92 era -- Metallic Fragments off the giants for Witch Doctor Uzer'i, north-west
 
-step Camp Mojache - the vessels closed
+step Camp Mojache - giants banked
 
   turnin 3127 -- Mountain Giant Muisek - the muisek to Witch Doctor Uzer'i
+
+step Uzer'i's materials proven (soft pre)
+
+  when onquest 3128
+
+  tip Holding 3128 with its set gathered: Uzer'i takes the materials.
   turnin 3128 -- Natural Materials - the materials to Witch Doctor Uzer'i
+
+step Camp Mojache - spirit proven
+
+  tip Uzer'i's spirit-weapons open once the materials are proven.
   accept 3129 -- Weapons of Spirit - Witch Doctor Uzer'i; the vessels are proven
   turnin 3129 -- Weapons of Spirit - the weapons to Witch Doctor Uzer'i
 
