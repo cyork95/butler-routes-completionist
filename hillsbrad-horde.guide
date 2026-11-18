@@ -1,0 +1,115 @@
+guide butler-routes-completionist/hillsbrad-horde
+title Hillsbrad Foothills (Horde)
+levels 19-32
+zone Hillsbrad Foothills
+faction Horde
+category Leveling
+folder Completionist
+keywords hillsbrad, horde, tarren mill
+coords live
+version 1
+
+# Tarren Mill holds the Horde side: Darthalia's command (Darthalia,
+# Wordeen, Bel'varil, Melisara), Ott's forge and the Masoj scout post,
+# then the Lesh word west, the ruined keg south, and the expedition legs
+# for the chains that leave the zone (Dalaran/Silverpine twice, Tirisfal).
+# Every Horde accept in the local census (10 quests,
+# docs/hillsbrad-horde-census.md) appears exactly once as an accept and
+# once as a turn-in. Completes for quests whose blocking pre-quest sits
+# outside the contract ride in dedicated `when onquest` mini-steps, never
+# inline. Coordinates on Hillsbrad use the era frame; expedition stops use
+# the era frame too, set with zone map lines. The Alliance side belongs to
+# the main guide.
+
+step Tarren Mill - the command
+
+  tip Tarren Mill (62.33, 20.45): High Executor Darthalia holds the command, Magus Wordeen Voidglare (61.6, 20.85) and Keeper Bel'varil (61.5, 20.93) work the tower, Melisara (62.63, 20.65) watches the yard, Ott (60.43, 26.18) works the forge.
+  accept 93680 -- Key to the City - Wordeen and Bel'varil; the Grimy Key, farmed below
+  note 93680's key names no placed source in the data - have it in your bags.
+  complete 93680
+  turnin 93680 -- Key to the City - the Key to Wordeen
+  note 93680's chain runs on into Alterac (545 Dalaran Patrols) - the Dalaran leg below covers the next Horde link.
+  accept 92434 -- Blood in the Streets - Wordeen and Bel'varil; a way into Dalaran, late
+  note 92434's pre (545 Alterac, uncontracted here) fills outside this route - take 92434 here; its Dalaran leg runs in the mini below.
+  accept 97287 -- Shrewd Negotiations - Wordeen; Modera's image takes it in Silverpine, late
+  note 97287's pres (92458 Alliance and 96984 Alterac, uncontracted here) fill outside this route - take 97287 here; only the Horde twin 96984 counts for you, and its Silverpine leg runs in the mini below.
+  accept 96986 -- The Grave Knight - Melisara; Atrexis, the yard
+  note Atrexis the Grave Knight has no spawn in the data - take and turn in; if he surfaces, the kill is yours.
+  turnin 96986 -- The Grave Knight - back to Melisara
+  accept 95125 only Paladin -- Ott's Masterwork - Ott; the masterwork, the forge
+  note 95125 needs a Paladin to finish - take it with the class.
+  note 95125's pre (95111 Silverpine, uncontracted here) fills outside this route - take 95125 here; its forge leg runs in the mini below.
+  accept 98094 -- Scout Support - Darthalia; Masoj takes it in the south-east
+  note 98094's pre (528 Alterac, uncontracted here) fills outside this route - take 98094 here; its Masoj leg runs in the mini below.
+  accept 494 -- Time To Strike - Deathstalker Lesh takes it in the west
+  note Lesh holds the far west edge - the west pass below carries it.
+
+step The west edge - Lesh's word
+
+  goto 20.79,47.4 era
+  accept 494 -- Time To Strike - Deathstalker Lesh; Darthalia takes it east
+  turnin 494 -- Time To Strike - Lesh's word to Darthalia
+
+step The south-center - the ruined keg
+
+  goto 51.37,58.98 era
+  accept 8409 optional -- Ruined Kegs - the Keg; Yanka takes it in Tirisfal, late
+  note 8409 is a seasonal record - take it while it flies; its pre (8322 Tirisfal, uncontracted here) fills outside this route, and its Tirisfal leg runs in the mini below.
+
+step Masoj's post - the scout pair
+
+  when onquest 528
+
+  turnin 98094 -- Scout Support - Darthalia's word to Deathstalker Masoj
+  note 98095's pre (98094 above) fills here - take 98095 after it.
+  accept 98095 -- Valuable Vantages - Masoj; the vials, the field
+  complete 98095 @72.30,31.16 era -- the Northern vial for Masoj
+  complete 98095 @73.78,72.73 era -- the Southern vial for Masoj
+  zone map 1416
+  complete 98095 @38.37,87.21 era -- the Western vial for Masoj, over the Alterac line
+  zone map 1424
+  turnin 98095 -- Valuable Vantages - the vials to Masoj
+
+step Expedition - Silverpine, Modera's image
+
+  when onquest 545
+
+  zone map 1421
+
+  complete 92434 @69.12,45.63 era -- a way into Dalaran along the Lordamere Lake for Wordeen
+  turnin 92434 -- Blood in the Streets - the way to the Image of Archmage Modera
+  note 92434's chain runs on into Alterac (96984 Heart of Disruption) - that link is not contracted here; 97287's mini above covers your next step.
+  zone map 1424
+
+step Expedition - Silverpine, shrewd words
+
+  when onquest 96984
+
+  zone map 1421
+
+  turnin 97287 -- Shrewd Negotiations - Wordeen's word to the Image of Archmage Modera
+  zone map 1424
+
+step Expedition - Tirisfal, Yanka's word
+
+  when onquest 8322
+
+  zone map 1420
+
+  turnin 8409 optional -- Ruined Kegs - the Keg to Darkcaller Yanka
+  zone map 1424
+
+step Ott's forge - the masterwork
+
+  when onquest 95111
+
+  complete 95125 only Paladin -- watch Ott craft the blade for Ott
+  turnin 95125 only Paladin -- Ott's Masterwork - back to Ott
+  note 95126's pre (95125 above) fills here - take 95126 after it.
+  accept 95126 only Paladin -- The Moonsilver Blade - Ott; Trevan takes it south
+  turnin 95126 only Paladin -- The Moonsilver Blade - the blade to Trevan Rol
+  note 95126's chain runs on into Silverpine (95140 Old Fire-Eye, Undead-only and addendum-contracted) - named as the exit, never accepted here.
+
+step Hillsbrad - done
+
+  note Tarren Mill holds: Lesh's word carried, the Key turned, the Grave Knight answered, the scouts supplied, the Dalaran and Tirisfal words delivered. The Alliance side belongs to the main guide.
