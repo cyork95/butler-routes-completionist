@@ -1,0 +1,210 @@
+# Hinterlands (Horde) - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# Every rank-flagged rare spawning in the Hinterlands (10, zone key
+# 1425) and every fixed treasure object (3), verified against the local
+# Forever game data (questie-forever NPC/object/item dumps) for a Horde
+# player. Single-point rares get plain steps; Old Cliff Jumper rides a
+# 2-point loop (one Hinterlands point, one Hillsbrad point). Every goal
+# is optional - a missing spawn never wedges the guide. Signature drops
+# (each rare's sole drop) ride as optional collects; the rest get
+# kill-notes, with pointers where the rare feeds a quest line (some
+# rares drop Troll Tribal Necklaces for Horde-core 7842, OOX beacons
+# for main-guide 485, and Wildvine recipe stock the recipes companion
+# owns - no core quest takes any of these rares as giver, ender, or
+# kill objective). Six of the ten sit above the 38-46 Horde band and
+# carry come-back-later notes. The Jintha'Alor named spawns (Hexx,
+# the Aman'zasi court, Hitah'ya) are core quest targets or unflagged
+# regulars - ruled out in the inventory, never shipped here. No tame
+# lines: tameability has no data flag and the core guide carries no
+# tame corroboration (logged in docs/companion-unverified.md).
+# Respawn timers are unconfirmed everywhere. There are no item-start
+# hunts to route (the Horde contract has no item-started quests).
+# No accept/turnin lines anywhere. See
+# docs/hinterlands-horde-companions-inventory.md for the full inventory.
+guide butler-routes-completionist/hinterlands-horde-rares
+title Hinterlands (Horde) - Rares & Treasures
+levels 38-46
+zone The Hinterlands
+faction Horde
+category Collectibles
+folder Companions
+keywords hinterlands, horde, rares, treasures, collectibles, companions
+coords live
+version 1
+
+step Razorfen downs - Razortalon
+
+  zone map 1425
+
+  goto 37.06,45.33
+  kill 8210 optional
+  collect 283545 "Moonchaser's Headdress" optional
+  note Razortalon (level 44) works the downs. The Headdress is his sole drop anywhere in the data. He also drops an OOX-09/HL Distress Beacon, the starter of main-guide 485 - noted, never accepted here.
+  note Respawn timer unconfirmed.
+
+step West den - Old Cliff Jumper
+
+  zone map 1425
+
+  loop
+  goto 11.92,53.7
+  goto 96.9,14.6
+  kill 8211 optional
+  note Old Cliff Jumper (level 42) runs the west den and across into Hillsbrad - both data points ride one loop. No signature loot, no core quest takes him.
+  note Respawn timer unconfirmed.
+
+step East creek - The Reak
+
+  zone map 1425
+
+  goto 58.88,43.12
+  kill 8212 optional
+  collect 284043 "Dissolved Link Legguards" optional
+  note The Reak (level 49) sits above the 38-46 band - come back later. The Legguards are his sole drop anywhere in the data, and no core quest takes him.
+  note Respawn timer unconfirmed.
+
+step East shore - Ironback
+
+  zone map 1425
+
+  goto 81.48,49.19
+  kill 8213 optional
+  note Ironback (level 51) sits above the 38-46 band - come back later. No signature loot (turtle meat, scale and shell, all shared) and no core quest takes him.
+  note Respawn timer unconfirmed.
+
+step West highlands - Jalinde Summerdrake
+
+  zone map 1425
+
+  goto 30.25,47.95
+  kill 8214 optional
+  collect 284050 "High Elf's Recurve" optional
+  note Jalinde Summerdrake (level 49, Alliance-aligned) sits above the 38-46 band - come back later. The Recurve is her sole drop anywhere in the data. She also drops an OOX-09/HL Distress Beacon, the starter of main-guide 485 - noted, never accepted here.
+  note Respawn timer unconfirmed.
+
+step Seradane - Grimungous
+
+  zone map 1425
+
+  goto 70.19,55.38
+  kill 8215 optional
+  collect 284064 "Cliffbreaker's Pauldrons" optional
+  note Grimungous (level 50, Rare Elite) sits above the 38-46 band - come back later. The Pauldrons are his sole drop anywhere in the data, and no core quest takes him.
+  note Respawn timer unconfirmed.
+
+step The Altar - Retherokk the Berserker
+
+  zone map 1425
+
+  goto 50.54,64.13
+  kill 8216 optional
+  collect 284061 "Berserker's Wraps" optional
+  note Retherokk the Berserker (level 48) sits above the 38-46 band - come back later. The Wraps are his sole drop anywhere in the data. He drops Troll Tribal Necklaces for Horde-core 7842 and the Wildvine recipe stock the recipes companion routes - pointers only, never accepted here.
+  note Respawn timer unconfirmed.
+
+step Jintha'Alor approach - Mith'rethis the Enchanter
+
+  zone map 1425
+
+  goto 63.86,77.61
+  kill 8217 optional
+  collect 17050 "Chan's Imperial Robes" optional
+  note Mith'rethis the Enchanter (level 52, Rare Elite) sits above the 38-46 band - come back later. The Robes are his sole drop anywhere in the data. He drops Troll Tribal Necklaces for Horde-core 7842, an OOX beacon for main-guide 485, and the Wildvine recipe stock the recipes companion routes - pointers only, never accepted here. The Jintha'Alor court below (Hexx and her guards) are core quest targets, not rares - not shipped.
+  note Respawn timer unconfirmed.
+
+step Agol'watha - Witherheart the Stalker
+
+  zone map 1425
+
+  goto 33.12,70.29
+  kill 8218 optional
+  collect 284046 "Witherheart's Stabber" optional
+  note Witherheart the Stalker (level 45) haunts Agol'watha. The Stabber is his sole drop anywhere in the data. He drops Troll Tribal Necklaces for Horde-core 7842 and the Wildvine recipe stock the recipes companion routes - pointers only, never accepted here.
+  note Respawn timer unconfirmed.
+
+step Bogen's Ledge - Zul'arek Hatefowler
+
+  zone map 1425
+
+  goto 32.42,56.9
+  kill 8219 optional
+  collect 284063 "Witherbark Hatecleaver" optional
+  note Zul'arek Hatefowler (level 43) haunts the ledge. The Hatecleaver is his sole drop anywhere in the data. He drops Troll Tribal Necklaces for Horde-core 7842, an OOX beacon for main-guide 485, and the Wildvine recipe stock the recipes companion routes - pointers only, never accepted here.
+  note Respawn timer unconfirmed.
+
+step Solid Chest run - west
+
+  zone map 1425
+
+  loop
+  goto 23.48,58.82
+  goto 25.36,66.86
+  goto 31.61,67.61
+  goto 32.1,58.75
+  goto 32.19,75.75
+  goto 37.23,72.06
+  goto 40.15,66.24
+  goto 41.24,59.38
+  goto 47.46,69.05
+  goto 49.26,68.63
+  interact 4149 optional
+  note The Solid Chest is one generic object at ten fixed western points - usual chest fare, nothing unique.
+  note Respawn timer unconfirmed.
+
+step Solid Chest run - east
+
+  zone map 1425
+
+  loop
+  goto 45.37,39.79
+  goto 50.26,53.3
+  goto 53.11,38.56
+  goto 57.39,63.42
+  goto 57.47,42.26
+  goto 58.34,67.14
+  goto 58.43,72.84
+  goto 60.87,68.11
+  goto 60.89,64.53
+  goto 62.07,65.12
+  goto 63.39,73.41
+  goto 63.9,83.58
+  goto 64.26,64.94
+  goto 65,70.99
+  goto 66.49,44.59
+  goto 67.53,79.92
+  goto 67.64,66.71
+  goto 67.67,77.32
+  goto 68.25,73.36
+  goto 71.1,48.82
+  interact 153451 optional
+  note The Solid Chest is one generic object at twenty fixed eastern points - usual chest fare, nothing unique.
+  note Respawn timer unconfirmed.
+
+step Food Crate run - zone-wide
+
+  zone map 1425
+
+  loop
+  goto 10.69,49.53
+  goto 13.44,43.4
+  goto 13.45,54.02
+  goto 13.99,41.97
+  goto 14.22,44.18
+  goto 14.42,42.25
+  goto 16.33,47.77
+  goto 23.05,58.86
+  goto 26.96,48.82
+  goto 31.92,58.18
+  goto 32.57,43.01
+  goto 33.19,47.99
+  goto 45.54,38.72
+  goto 50.21,52.8
+  goto 53.28,39.43
+  goto 57.26,42.6
+  goto 67.95,66.43
+  goto 68.64,71.77
+  goto 73.36,52.56
+  goto 77.53,84
+  goto 78.77,67.53
+  interact 153470 optional
+  note The Food Crate is one generic object at twenty-one fixed zone-wide points. No contents are listed in the data - check in game, nothing invented here.
+  note Respawn timer unconfirmed.
