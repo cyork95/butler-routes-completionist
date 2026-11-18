@@ -13,7 +13,6 @@ guide butler-routes-completionist/thousand-needles
 title Thousand Needles - Completionist
 levels 25-35
 zone Thousand Needles
-faction Alliance
 category Leveling
 folder Completionist
 keywords thousand needles, completionist, mirage raceway, shimmering flats
@@ -28,7 +27,7 @@ step Whitereach Runestone - arrival
 
 step The canyon floor - journal and scroll
 
-  collect 5791 @30.73,24.35 era -- Henrig Lonebrow's Journal for Falfindel Waywarder
+  collect 5791 only Alliance @30.73,24.35 era -- Henrig Lonebrow's Journal for Falfindel Waywarder
   accept 1100 only Alliance -- Lonebrow's Journal - Henrig Lonebrow's Journal, the canyon floor; Falfindel takes it west
   accept 79947 -- Geomancy: The Stone-Cold Truth - the Scrolls @34.4,40.1 era; Owen Thadd takes it in Durotar, late
   collect 215683 quest 79947.1 @34.4,40.1 era -- the Geomancy scroll for Owen Thadd, Durotar
