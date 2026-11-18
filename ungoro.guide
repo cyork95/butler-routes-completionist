@@ -29,7 +29,6 @@ guide butler-routes-completionist/ungoro-crater
 title Un'Goro Crater - Completionist
 levels 47-54
 zone Un'Goro Crater
-faction Alliance
 category Leveling
 folder Completionist
 coords live
@@ -121,17 +120,18 @@ step Collie camp - crystals, pylons and Muigin
   turnin 4288 -- The Western Pylon - the word to Eridan Bluewind
   accept 4321 -- Making Sense of It - Eridan Bluewind; a pointer with no field work
   turnin 4321 -- Making Sense of It - the word to Eridan Bluewind
-  accept 4141 -- Muigin and Larion - Muigin; bloodpetals off the crater's lashers and trappers
-  complete 4141 @56.69,33.15 -- Bloodpetals (Bloodpetal Lasher, east flats)
-  complete 4141 @24.83,52.22 -- Bloodpetals (Bloodpetal Trapper, west crater)
-  turnin 4141 -- Muigin and Larion - the petals to Muigin
-  accept 4142 -- A Visit to Gregan - Muigin; carry the word to Gregan Brewspewer (Feralas expedition below)
-  accept 4144 -- Bloodpetal Sprouts - Muigin; sprouts off devilsaurs and stegodons (note 4143 Larion's Song accepts in Feralas, contracted in feralas - the complete and turn-in stand alone in the when onquest mini-step below)
+  accept 4141 only Alliance -- Muigin and Larion - Muigin; bloodpetals off the crater's lashers and trappers
+  complete 4141 only Alliance @56.69,33.15 -- Bloodpetals (Bloodpetal Lasher, east flats)
+  complete 4141 only Alliance @24.83,52.22 -- Bloodpetals (Bloodpetal Trapper, west crater)
+  turnin 4141 only Alliance -- Muigin and Larion - the petals to Muigin
+  accept 4142 only Alliance -- A Visit to Gregan - Muigin; carry the word to Gregan Brewspewer (Feralas expedition below)
+  accept 4144 only Alliance -- Bloodpetal Sprouts - Muigin; sprouts off devilsaurs and stegodons (note 4143 Larion's Song accepts in Feralas, contracted in feralas - the complete and turn-in stand alone in the when onquest mini-step below)
   accept 3961 -- Linken's Adventure - Eridan Bluewind; carry the word to Linken (note 4005 Aquementas accepts in Felwood, contracted in felwood - the turn-in rides the mini-step below)
 
 step Soft pre - Bloodpetal Sprouts (open)
 
   zone map 1449
+  only Alliance
 
   when onquest 4144
 
@@ -348,7 +348,7 @@ step Northern expeditions - Winterspring, Feralas, Moonglade
 
   zone map 1444
 
-  turnin 4142 -- A Visit to Gregan - Muigin's word to Gregan Brewspewer (45.12,25.57)
+  turnin 4142 only Alliance -- A Visit to Gregan - Muigin's word to Gregan Brewspewer (45.12,25.57)
   tip Expedition leg to Feralas; the frame switches on.
 
   zone map 1450
