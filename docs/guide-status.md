@@ -397,6 +397,7 @@ _Not a standard zone route: Moonglade is the druid class hub. This guide covers 
 - [x] Census
 - [x] Core guide (59 quests, band 45-55)
 - [x] Lint/playtest clean (0 errors; 45 accepted warnings; playtest 0 stuck, residue R1x47/R2x36/R5x33)
+- [x] Faction ungating (Option A, 2026-11-17)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions - 7 rares (2 sole-drop signatures, 5 kill-note), 19-pt treasure (13 troll + 3 battered + 2 solid + worn + Arko chest), 9 recipes (8 exclusive drops + Meilosh vendor-or-drop)
@@ -716,9 +717,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Felwood — Horde
 
-- [ ] Census (reconcile against 21 set-asides banked by the Alliance census)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census - 13 Horde-mask pool records (banked 21 reconciled: 13 in-zone + 7 Darkshore-zone + 1 Ashenvale-zone, contracted), band 45-48, docs/felwood-horde-census.md
+- [x] Core guide - `felwood-horde.guide` (8 quests, band 45-48, profession-gated salve chain)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas, 0 stuck (R1 expedition + R5 bag-note residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions

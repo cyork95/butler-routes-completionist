@@ -346,6 +346,13 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: felwood.guide
 - header: Alliance; contract: 59 (17 primary / 42 shared)
 - shared IDs: 4005, 4084, 5083, 5085, 5155, 5156, 5157, 5158, 5165, 5202, 5203, 5204, 5242, 5385, 6031, 6032, 6131, 6221, 6241, 7601, 7602, 7603, 8420, 8421, 8422, 8460, 8461, 8462, 8464, 8465, 8470, 8471, 8481, 86577, 8723, 91952, 94259, 94271, 94283, 94295, 94307, 94308
+### felwood (UNGATED 2026-11-18, Horde round)
+- file: felwood.guide (was Alliance primary)
+- contract: 59 (17 primary / 42 shared, per the pack-wide sweep; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 939, 968, 4101, 4261, 4421, 4441, 4442, 4906, 5249, 5882, 5883, 5884, 5885, 5886, 8484, 81790, 86611.
+- Lines gated: 50 quest lines (`only Alliance`, composing as `only Paladin,Alliance` on the 3 paladin lines and `optional only Alliance` on the profession-gated accepts/turn-ins). 1 single-pre mini (`when onquest 5083`, neutral Hold - correctly left bare: the quest is shared). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). Shared lines for all 42 shared IDs stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors; warned quest-ID set identical to pre-edit baseline. Playtest `--honest` both factions: 0 stuck; Alliance outcome byte-identical per-persona vs baseline (full finding multiset match); Horde personas complete only shared lines with residue in accepted classes; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations.
 ### azshara
 - file: azshara.guide
 - header: Alliance; contract: 52 (20 primary / 32 shared)
