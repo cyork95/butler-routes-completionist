@@ -15348,6 +15348,37 @@
         {"id": 8485, "name": "The Brokering of Peace"},
         {"id": 86612, "name": "Stag Lord's Bauble"}
       ]
+    },
+    {
+      "id": "azshara-horde",
+      "name": "Azshara (Horde)",
+      "order": 68,
+      "levelBand": "44-50",
+      "summary": "Horde side of contested Azshara.",
+      "quests": [
+        {"id": 3505, "name": "Betrayed"},
+        {"id": 3506, "name": "Betrayed"},
+        {"id": 3507, "name": "Betrayed"},
+        {"id": 3517, "name": "Stealing Knowledge"},
+        {"id": 3518, "name": "Delivery to Magatha"},
+        {"id": 3541, "name": "Delivery to Jes'rimon"},
+        {"id": 3542, "name": "Delivery to Andron Gant"},
+        {"id": 3561, "name": "Delivery to Archmage Xylem"},
+        {"id": 3565, "name": "Xylem's Payment to Jediga"},
+        {"id": 91488, "name": "Home on the Range"},
+        {"id": 91497, "name": "Seals of the Sin'dorei"},
+        {"id": 91500, "name": "An Explosive Gambit"},
+        {"id": 91531, "name": "Revenge Exacted"},
+        {"id": 91538, "name": "Sin'dorei Tome of Summoning"},
+        {"id": 91547, "name": "Sin'dorei Tome of Summoning"},
+        {"id": 91568, "name": "Long Walks on the Beach"},
+        {"id": 91569, "name": "Blue Gold"},
+        {"id": 91607, "name": "Pay Dirt!"},
+        {"id": 91608, "name": "Gettin' Buzzed"},
+        {"id": 91610, "name": "Winter Frontier Fishery"},
+        {"id": 91685, "name": "Ley of the Land"},
+        {"id": 92346, "name": "Beneath Nordrassil"}
+      ]
     }
   ]
 }
