@@ -1,0 +1,386 @@
+# Arathi Highlands (Horde) - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 10 flagged rares and the fixed world
+# containers of Arathi Highlands a Horde player can actually engage. Run it
+# in its own Polestar tab at the end of the core route or standalone. EVERY
+# goal is optional: a rare that is not up never holds the route. Spawn
+# points and levels are the local Forever game data (questie-forever); the
+# data records no loot on any of these ten rares, so there are no signature
+# drops to chase. Respawn timers are unconfirmed anywhere, so none are
+# stated. Two higher-level rares (Foulbelly, Prince Nazjak) sit just above
+# the 30-40 band and carry come-back-later notes. No rare in this guide is
+# a giver, ender, or objective of any Horde core-contracted quest. There are
+# no item-start hunts to route (the writ 94212 is sourceless; 92707 has no
+# start record), and no tame lines ship (see docs/companion-unverified.md).
+# See docs/arathi-horde-companions-inventory.md for the full inventory.
+guide butler-routes-completionist/arathi-horde-rares
+title Arathi Highlands (Horde) - Rares & Treasures
+levels 30-40
+zone Arathi Highlands
+faction Horde
+category Collectibles
+folder Companions
+keywords arathi, horde, rares, treasures, companions
+coords live
+version 1
+
+step Darbel Montrose — Stromgarde west
+
+  zone map 1417
+
+  loop
+  goto 25.23,62.19
+  goto 25.27,63.16
+  goto 26.06,62.29
+  goto 26.51,60.74
+  goto 27.08,62.22
+  goto 27.39,64.91
+  goto 27.71,65.7
+  goto 28.01,60.51
+  goto 28.03,62.38
+  goto 28.28,63.16
+  goto 28.66,65.85
+  goto 29.27,63.03
+  goto 29.71,64.61
+  goto 29.78,60.67
+  kill 2598 optional
+  note Level 39 rare, flagged rare in the data, working the Stromgarde west grounds.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Singer — north of the circle
+
+  zone map 1417
+
+  goto 32.31,30.99
+  kill 2600 optional
+  note Level 34 rare, flagged rare in the data, single confirmed point north of the circle.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Foulbelly — the far west (above the band)
+
+  zone map 1417
+
+  loop
+  goto 17.9,68.6
+  goto 19.44,68.63
+  goto 20.41,66.87
+  goto 20.79,65.98
+  kill 2601 optional
+  note Level 42 rare, flagged rare in the data — ABOVE the core band (30-40), so come back at higher level; sweep it opportunistically.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Ruul Onestone — the far west
+
+  zone map 1417
+
+  goto 17.96,68.56
+  kill 2602 optional
+  note Level 39 rare, flagged rare in the data, single confirmed point in the far west.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Kovork — the center
+
+  zone map 1417
+
+  loop
+  goto 30.37,43.77
+  goto 31.76,46.21
+  goto 33,44.04
+  kill 2603 optional
+  note Level 36 rare, flagged rare in the data, mid-zone.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Molok the Crusher — the south
+
+  zone map 1417
+
+  loop
+  goto 53.23,80.18
+  goto 54.62,79.71
+  goto 54.88,81.51
+  kill 2604 optional
+  note Level 39 rare, flagged rare in the data, south of the ogre mound.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Zalas Witherbark — the southeast
+
+  zone map 1417
+
+  loop
+  goto 61.09,72.35
+  goto 64.83,73.45
+  goto 66.37,81.78
+  goto 66.77,81.73
+  goto 67.43,80.66
+  goto 67.89,78.47
+  goto 68.33,79.4
+  goto 69.09,81.4
+  goto 69.27,79.62
+  goto 70.23,77.85
+  kill 2605 optional
+  note Level 40 rare, flagged rare in the data, Witherbark village east side.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Nimar the Slayer — the east
+
+  zone map 1417
+
+  loop
+  goto 60.2,72.26
+  goto 61.33,72.54
+  goto 63.23,67.67
+  goto 63.86,68.58
+  goto 64.36,74.68
+  goto 64.64,73.25
+  goto 65.64,63.48
+  goto 66.41,63.95
+  goto 68.86,73.72
+  goto 69.59,61.33
+  goto 69.65,66.18
+  goto 70.28,70.24
+  goto 70.67,69.27
+  goto 72.45,65.8
+  goto 73.5,64.91
+  kill 2606 optional
+  note Level 37 rare, flagged rare in the data, ranging the east basin.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Geomancer Flintdagger — the far east
+
+  zone map 1417
+
+  goto 82.8,32.23
+  kill 2609 optional
+  note Level 40 rare, flagged rare in the data, single confirmed point in the far east.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Prince Nazjak — the naga shore (above the band)
+
+  zone map 1417
+
+  loop
+  goto 19.8,88.8
+  goto 20.2,82.4
+  goto 20.6,83.4
+  goto 20.8,84
+  goto 21.2,84.6
+  goto 21.2,89.2
+  goto 21.2,89.6
+  goto 21.6,82.8
+  goto 21.6,86
+  goto 21.6,89
+  goto 21.8,83.6
+  goto 21.8,84.8
+  goto 22.4,89.6
+  goto 22.8,84.4
+  goto 23,84.8
+  goto 23,86.2
+  goto 23,88
+  goto 23.2,82.2
+  goto 23.2,83.2
+  goto 23.4,89
+  goto 23.6,83.8
+  goto 23.6,89.4
+  goto 23.6,89.8
+  goto 24,88.4
+  kill 2779 optional
+  note Level 41 rare, flagged rare in the data — ABOVE the core band (30-40), so come back at higher level; sweep it opportunistically along the naga shore.
+  note The data records no loot on this rare at all; respawn timer unconfirmed.
+
+step Fixed Chests — world containers
+
+  zone map 1417
+
+  loop
+  goto 31.09,25.91
+  goto 32.28,26.8
+  goto 33.4,31.03
+  goto 33.76,27.49
+  goto 61.17,72.93
+  goto 66.04,63.78
+  goto 68.44,80.38
+  goto 70.64,69.99
+  goto 73.55,65.24
+  goto 16.74,87.37
+  goto 18.22,66.65
+  goto 18.7,64.97
+  goto 19.84,68.99
+  goto 20.69,89.58
+  goto 20.96,84.8
+  goto 22.65,67.35
+  goto 23.39,84.86
+  goto 25.07,64.35
+  goto 25.75,65.81
+  goto 28.31,65.85
+  goto 53.2,77.2
+  goto 53.44,74.37
+  goto 53.61,79.93
+  goto 53.8,75.71
+  goto 82.78,33.39
+  goto 85.61,30.38
+  goto 85.62,32.28
+  goto 88,22.7
+  goto 8.7,47.6
+  goto 10.2,50.5
+  goto 21.5,67.94
+  goto 22.29,59.85
+  goto 23.55,63.6
+  goto 24.49,56.81
+  goto 27.98,60.19
+  goto 29.17,65.77
+  goto 30.91,26.26
+  goto 31.95,31.01
+  goto 33.59,27.03
+  goto 35.39,43.91
+  goto 46.07,47.96
+  goto 48.61,87.39
+  goto 54.35,38.04
+  goto 56.17,35.8
+  goto 56.66,39.13
+  goto 57.89,74.81
+  goto 60.19,59.49
+  goto 60.83,72.65
+  goto 62.05,56.15
+  goto 64.75,74.06
+  goto 65.95,64.44
+  goto 70.87,70.01
+  goto 74.56,31.51
+  goto 75.36,37.04
+  goto 60.11,55.91
+  goto 60.18,58.71
+  goto 62.72,56.43
+  interact 2855 optional
+  interact 2857 optional
+  interact 153451 optional
+  interact 3659 optional
+  interact 3695 optional
+  interact 3706 optional
+  interact 3707 optional
+  interact 105578 optional
+  note Twenty-eight Solid Chest placements, two Barrel of Melon Juice and matching Food Crate placements, twenty-four Barrel of Sweet Nectar and matching Food Crate placements, and three Horde Chest placements at Hammerfall (contested-zone supply chests; anyone can open them). All hold ordinary low-level goods; no unique treasure confirmed.
+  note The Alliance-only chests elsewhere in the zone are not listed here — a Horde player cannot use them. Trelane's Footlocker, the Messenger Bag and satchel, the Cache of Explosives, the Myzrael shards, Trollbane's Tomb, the Binding stones and the Keystone are all quest-owned and routed in the core guides, not here. Respawn timers unconfirmed.
+
+step Illari's Loot Cache — the far east
+
+  zone map 1417
+
+  goto 94.15,69.28
+  interact 418855 optional
+  note A one-off loot cache far east past the Iridescent Shards. No quest in either Arathi contract sends you to it — it is the end-object of a nameless broken Stranglethorn record. Contents unconfirmed in the data; respawn timer unconfirmed.
+
+step Trelane's Chest and Lockbox — Stromgarde west
+
+  zone map 1417
+
+  loop
+  goto 18.17,69.15
+  goto 18.03,67.87
+  interact 2716 optional
+  interact 2718 optional
+  note Two Stromgarde containers with no quest link anywhere in the data. Their neighbour, Trelane's Footlocker, belongs to out-of-zone quests and is not listed here. Contents unconfirmed; respawn timer unconfirmed.
+
+step Keepsake of Remembrance — ogre mound west
+
+  zone map 1417
+
+  loop
+  goto 17.91,69.41
+  goto 18.5,66.2
+  goto 19.4,64.5
+  goto 20.8,65.8
+  goto 27.6,66
+  goto 29.3,62.8
+  goto 29.3,64.9
+  interact 176630 optional
+  note A keepsake box with no quest link anywhere in this data build. Contents unconfirmed in the data; respawn timer unconfirmed.
+
+step Vessel of Tainted Blood — the far east
+
+  zone map 1417
+
+  loop
+  goto 81.5,14.9
+  goto 83.1,17.7
+  goto 85.2,20.9
+  goto 85.7,20.6
+  goto 87.6,23.1
+  interact 179922 optional
+  note A vessel with no quest link anywhere in this data build. Contents unconfirmed in the data; respawn timer unconfirmed.
+
+step Elemental Convergence — zone-wide
+
+  zone map 1417
+
+  loop
+  goto 22.7,23.9
+  goto 25.5,60.5
+  goto 25.9,29.5
+  goto 28.2,85
+  goto 40,66.6
+  goto 48.4,91.6
+  goto 51.6,50.4
+  goto 53.7,69.5
+  goto 66.7,30.4
+  goto 68.5,30.5
+  goto 69.9,31.7
+  goto 73.5,32.4
+  interact 616992 optional
+  note A convergence point with no quest link anywhere in this data build. Contents unconfirmed in the data; respawn timer unconfirmed.
+
+step Dropped Pouch — the far east
+
+  zone map 1417
+
+  loop
+  goto 93.4,71.1
+  goto 93.5,70.4
+  goto 93.8,71.4
+  interact 423569 optional
+  note A dropped pouch with no quest link anywhere in this data build. Contents unconfirmed in the data; respawn timer unconfirmed.
+
+step Sealed Barrel — the naga shore
+
+  zone map 1417
+
+  goto 21.3,84
+  interact 422911 optional
+  note A sealed barrel with no quest link anywhere in this data build. Contents unconfirmed in the data; respawn timer unconfirmed.
+
+step Rowboat — the shores
+
+  zone map 1417
+
+  loop
+  goto 53.7,91.7
+  goto 89.6,78
+  interact 420054 optional
+  note A beached rowboat with no quest link anywhere in this data build. Contents unconfirmed in the data; respawn timer unconfirmed.
+
+step Burnt Page — Stromgarde
+
+  zone map 1417
+
+  loop
+  goto 22.4,24.2
+  goto 22.6,24.5
+  goto 22.7,24.1
+  interact 674068 optional
+  note A burnt page with no quest link anywhere in this data build. Contents unconfirmed in the data; respawn timer unconfirmed.
+
+step Spellbook — the southeast
+
+  zone map 1417
+
+  goto 34.1,80.4
+  interact 499987 optional
+  note A spellbook with no quest link anywhere in this data build. Contents unconfirmed in the data; respawn timer unconfirmed.
+
+step Maiden's Folly pair — Faldir's Cove
+
+  zone map 1417
+
+  loop
+  goto 23.05,84.51
+  goto 23.39,85.09
+  interact 2707 optional
+  interact 2709 optional
+  note The charts and the log at Faldir's Cove, with no quest link anywhere in this data build. Contents unconfirmed in the data; respawn timer unconfirmed.
