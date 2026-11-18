@@ -760,7 +760,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; playtest Horde personas, 0 stuck (R1 expedition + R5 bag-note residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions (shipped: `swamp-of-sorrows-horde-rares.guide` 5 rares + 10 treasure families, `swamp-of-sorrows-horde-recipes.guide` 12 recipes; lint 0/0, playtest 0 stuck/failed)
 
 ### The Hinterlands — Horde
 
