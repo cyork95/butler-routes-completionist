@@ -1,0 +1,268 @@
+# Alterac Mountains (Horde) - Recipes & Patterns companion (pack butler-routes-completionist, v1).
+# Only recipes and patterns whose SOURCE is physically in Alterac Mountains
+# for a Horde character, verified against the local Forever game data
+# (questie-forever item vendor and drop tables). Twenty are vendor-sold by
+# in-zone vendors Horde characters can buy (Zixil, Rizz Loosebolt, Brokin,
+# Zan Shivsproket and Smudge Thunderwood, all neutral; Norvin Alderman,
+# neutral; Christoph Jeffcoat, Mallen Swain and Derak Nightfall, all Horde);
+# four are mob drops from single in-zone families (two with adjacent-zone
+# members, the established genuinely-Alterac bar). Everything else
+# Alterac-dropping is a generic multi-zone world drop (Elwynn rule, argued
+# per case in the inventory), the 8 Archmage Alvareaux recipes are
+# Alliance-vendor exclusive, quest records carry no reward data so no
+# quest-reward recipe ships (see docs/alterac-horde-companions-inventory.md
+# and docs/companion-unverified.md). Trainer-taught staples are excluded:
+# Polestars own profession guides cover those. Each step is gated to its
+# profession and every goal is optional; other characters skip it cleanly.
+# Fishing has no Alterac source for Horde, so that is stated, not padded.
+guide butler-routes-completionist/alterac-horde-recipes
+title Alterac Mountains (Horde) - Recipes & Patterns
+levels 20-45
+zone Alterac Mountains
+faction Horde
+category Professions
+folder Companions
+keywords alterac, horde, recipes, patterns, companions
+coords live
+version 1
+
+step Zixil - bag, boots, shoulders, cables and regret
+
+  zone map 1416
+
+  when skill Tailoring 1
+
+  tip Zixil (53.60, 98.70), Merchant Supreme, sells the recipes; the shop is neutral, so Horde characters can buy.
+  buy 5772 "Pattern: Red Woolen Bag" npc 3537 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+  when skill Enchanting 1
+
+  buy 6377 "Formula: Enchant Boots - Minor Agility" npc 3537 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+  when skill Leatherworking 1
+
+  buy 7362 "Pattern: Earthen Leather Shoulders" npc 3537 optional
+  note The vendor is the SOLE seller anywhere; stock class is unconfirmed in the data (no limited flag either way).
+
+  when skill Engineering 1
+
+  buy 7561 "Schematic: Goblin Jumper Cables" npc 3537 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+  when skill Alchemy 1
+
+  buy 210709 "Recipe: Elixir of Coalesced Regret" npc 3537 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Jeffcoat - murloc armor and shadow protection
+
+  zone map 1416
+
+  when skill Tailoring 1
+
+  tip Christoph Jeffcoat (61.10, 80.70) sells the recipes; Horde characters buy from their own vendor.
+  buy 5788 "Pattern: Thick Murloc Armor" npc 2393 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+  when skill Alchemy 1
+
+  buy 6054 "Recipe: Shadow Protection Potion" npc 2393 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Mallen Swain - overalls, silk shirt and reagent bags (Tailoring)
+
+  zone map 1416
+
+  when skill Tailoring 1
+
+  tip Mallen Swain (60.60, 82.90) sells the patterns; Horde characters buy from their own vendor (the Alliance-only Dominique Stefano also stocks the reagent bags).
+  buy 6274 "Pattern: Blue Overalls" npc 2394 optional
+  buy 6401 "Pattern: Dark Silk Shirt" npc 2394 optional
+  buy 253665 "Pattern: Linen Reagent Bag" npc 2394 optional
+  buy 253668 "Pattern: Woolen Reagent Bag" npc 2394 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Derak Nightfall - catfish and sagefish (Cooking)
+
+  zone map 1416
+
+  when skill Cooking 1
+
+  tip Derak Nightfall (62.00, 81.10) sells the recipes; Horde characters buy from their own vendor (the Alliance-only Derek Odds also sells the sagefish).
+  buy 6330 "Recipe: Bristle Whisker Catfish" npc 2397 optional
+  buy 21099 "Recipe: Smoked Sagefish" npc 2397 optional
+  buy 21219 "Recipe: Sagefish Delight" npc 2397 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Norvin Alderman - silk cloaks (Tailoring)
+
+  zone map 1416
+
+  when skill Tailoring 1
+
+  tip Norvin Alderman (16.02, 65.54), Cloaks, sells the patterns; he carries no Horde flag, so Horde characters can buy.
+  buy 7087 "Pattern: Crimson Silk Cloak" npc 251997 optional
+  buy 7089 "Pattern: Azure Silk Cloak" npc 251997 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Rizz Loosebolt - ice deflector (Engineering)
+
+  zone map 1416
+
+  when skill Engineering 1
+
+  tip Rizz Loosebolt (47.30, 35.16), Engineering Supplies, sells the schematic; the shop is neutral, so Horde characters can buy.
+  buy 13308 "Schematic: Ice Deflector" npc 2684 optional
+  note Stock class is unconfirmed in the data (no limited flag either way).
+
+step Brokin - frost oil (Alchemy)
+
+  zone map 1416
+
+  when skill Alchemy 1
+
+  tip Brokin (38.24, 38.87), Alchemy Supplies, sells the recipe; the shop is neutral, so Horde characters can buy.
+  buy 14634 "Recipe: Frost Oil" npc 2480 optional
+  note The vendor is the SOLE seller anywhere; stock class is unconfirmed in the data (no limited flag either way).
+
+step Zan Shivsproket - cloaking device (Engineering)
+
+  zone map 1416
+
+  when skill Engineering 1
+
+  tip Zan Shivsproket (85.95, 79.96), Specialty Engineer, sells the schematic; the shop is neutral, so Horde characters can buy.
+  buy 7742 "Schematic: Gnomish Cloaking Device" npc 6777 optional
+  note The vendor is the SOLE seller anywhere; stock class is unconfirmed in the data (no limited flag either way).
+
+step Smudge Thunderwood - thistle tea (Cooking)
+
+  zone map 1416
+
+  when skill Cooking 1
+
+  tip Smudge Thunderwood (86.12, 79.58), Poison Vendor, sells the recipe; the shop is neutral, so Horde characters can buy.
+  buy 18160 "Recipe: Thistle Tea" npc 6779 optional
+  note The vendor is the SOLE seller anywhere; stock class is unconfirmed in the data (no limited flag either way).
+
+step Crushridge ogre - hard gold pauldrons (Blacksmithing)
+
+  zone map 1416
+
+  when skill Blacksmithing 1
+
+  loop
+  goto 41.53,30.59
+  goto 43.93,36.52
+  goto 44.92,60.20
+  goto 45.18,29.41
+  goto 46.33,32.80
+  goto 46.35,39.85
+  goto 47.42,60.37
+  goto 47.54,63.59
+  goto 48.61,54.25
+  goto 48.90,43.25
+  goto 48.93,36.94
+  goto 49.98,31.50
+  goto 50.26,59.28
+  goto 51.00,56.38
+  goto 51.04,34.95
+  goto 51.10,40.31
+  goto 51.74,45.41
+  goto 52.47,38.16
+  goto 52.49,52.61
+  goto 53.30,47.95
+  goto 53.64,36.04
+  goto 54.49,43.33
+  goto 55.50,40.57
+  goto 55.75,54.32
+  kill 2252 optional -- Crushridge Ogre, in the center
+  collect 251391 "Plans: Hard Gold Pauldrons" optional
+  note The Crushridge Ogre is the sole 1416 dropper in the data (the family also spawns on 1424, not used). No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Syndicate sentry - superior poultice (First Aid)
+
+  zone map 1416
+
+  when skill First Aid 1
+
+  loop
+  goto 46.32,20.40
+  goto 46.88,18.03
+  goto 47.35,16.86
+  goto 47.68,18.19
+  goto 47.78,16.00
+  goto 48.18,16.79
+  goto 48.43,17.76
+  goto 51.14,29.58
+  goto 51.88,30.63
+  goto 52.75,23.17
+  goto 52.95,25.43
+  goto 53.27,20.25
+  goto 53.90,21.60
+  goto 55.39,30.52
+  goto 56.03,34.37
+  goto 56.12,26.08
+  goto 56.17,27.80
+  goto 57.29,30.97
+  goto 57.55,29.37
+  goto 58.28,30.68
+  goto 58.33,36.14
+  goto 58.85,29.27
+  goto 59.10,29.94
+  goto 60.12,32.39
+  kill 2243 optional -- Syndicate Sentry, in the north
+  collect 255727 "Manual: Superior Poultice" optional
+  note The Syndicate Sentry is the sole 1416 dropper in the data (it also spawns on 1422, not used). No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Crushridge warmonger - unsanctified grenade (Engineering)
+
+  zone map 1416
+
+  when skill Engineering 1
+
+  loop
+  goto 34.94,53.45
+  goto 35.56,53.19
+  goto 35.69,55.52
+  goto 35.71,51.04
+  goto 35.77,53.86
+  goto 35.83,54.31
+  goto 35.91,52.76
+  goto 36.16,54.95
+  goto 36.25,53.62
+  goto 36.32,52.51
+  goto 36.37,53.93
+  goto 36.75,58.02
+  goto 36.83,49.08
+  goto 37.03,53.15
+  goto 37.04,54.46
+  goto 38.08,55.98
+  goto 38.36,57.80
+  goto 39.16,54.50
+  goto 39.24,59.55
+  goto 40.53,52.96
+  kill 2287 optional -- Crushridge Warmonger, in the west
+  collect 284870 "Schematic: Unsanctified Grenade" optional
+  note The Crushridge Warmonger is the sole 1416 dropper in the data (the family also spawns on 1424, not used). No quest takes it.
+  note Respawn timer unconfirmed.
+
+step Skeletal flayer - gift of Arthas (Alchemy)
+
+  zone map 1416
+
+  when skill Alchemy 1
+
+  goto 85.80,29.50
+  kill 1783 optional -- Skeletal Flayer, in the east
+  collect 9296 "Recipe: Gift of Arthas" optional
+  note The Skeletal Flayer (level 50) is the sole 1416 dropper in the data (one off-zone Ghoul shares the drop); come back well above the 20-45 band for it. No quest takes it.
+  note Respawn timer unconfirmed.
+
+step No Alterac source - Fishing
+  note Fishing has no recipe source physically in Alterac Mountains for Horde in the data - no vendor sells them here and no in-zone mob drops them - so this guide carries nothing for it. Polestars own profession guides cover trainer-taught staples.
+
