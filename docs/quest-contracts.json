@@ -15081,6 +15081,59 @@
         {"id": 98070, "name": "Stop the Screeching"},
         {"id": 1148, "name": "Parts of the Swarm"}
       ]
+    },
+    {
+      "id": "desolace-horde",
+      "name": "Desolace (Horde)",
+      "order": 58,
+      "levelBand": "31-45",
+      "summary": "Horde side of contested Desolace.",
+      "quests": [
+        {"id": 1365, "name": "Khan Dez'hepah"},
+        {"id": 1366, "name": "Centaur Bounty"},
+        {"id": 1367, "name": "Magram Alliance"},
+        {"id": 1368, "name": "Gelkis Alliance"},
+        {"id": 1433, "name": "Alliance Relations"},
+        {"id": 1434, "name": "Befouled by Satyr"},
+        {"id": 1435, "name": "The Burning of Spirits"},
+        {"id": 1436, "name": "Alliance Relations"},
+        {"id": 1480, "name": "The Corrupter"},
+        {"id": 1481, "name": "The Corrupter"},
+        {"id": 1482, "name": "The Corrupter"},
+        {"id": 1484, "name": "The Corrupter"},
+        {"id": 1488, "name": "The Corrupter"},
+        {"id": 5381, "name": "Hand of Iruxos"},
+        {"id": 5386, "name": "Catch of the Day"},
+        {"id": 5581, "name": "Portals of the Legion"},
+        {"id": 5763, "name": "Hunting in Stranglethorn"},
+        {"id": 6142, "name": "Clam Bait"},
+        {"id": 6143, "name": "Other Fish to Fry"},
+        {"id": 92812, "name": "Economic Warfare"},
+        {"id": 93045, "name": "Test Your Theory"},
+        {"id": 93225, "name": "Carved Centaur Totems"},
+        {"id": 94873, "name": "Buying Friendship: Gelkis"},
+        {"id": 94895, "name": "Lost Shipping Crate"},
+        {"id": 97265, "name": "Hate the Hatefury"}
+      ]
+    },
+    {
+      "id": "hillsbrad-horde",
+      "name": "Hillsbrad Foothills (Horde)",
+      "order": 59,
+      "levelBand": "19-32",
+      "summary": "Horde side of contested Hillsbrad Foothills: Tarren Mill openers, the Dalaran chain into Silverpine, Ott's Paladin blade, the Grave Knight, and the Masoj scout pair, plus a Tirisfal expedition.",
+      "quests": [
+        {"id": 494, "name": "Time To Strike"},
+        {"id": 8409, "name": "Ruined Kegs"},
+        {"id": 92434, "name": "Blood in the Streets"},
+        {"id": 93680, "name": "Key to the City"},
+        {"id": 95125, "name": "Ott's Masterwork"},
+        {"id": 95126, "name": "The Moonsilver Blade"},
+        {"id": 96986, "name": "The Grave Knight"},
+        {"id": 97287, "name": "Shrewd Negotiations"},
+        {"id": 98094, "name": "Scout Support"},
+        {"id": 98095, "name": "Valuable Vantages"}
+      ]
     }
   ]
 }
