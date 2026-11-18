@@ -1,0 +1,158 @@
+# Thousand Needles (Horde) - Rares & Treasures companion (pack butler-routes-completionist, v1).
+# An opportunistic sweep for the 7 confirmed flagged rares of Thousand
+# Needles a Horde player can actually engage, the two item-start hunts of
+# the Horde core (the Assassination Note and the Cracked Carapace), and the
+# fixed Solid Chests. Run it in its own Polestar tab at the end of the core
+# route or standalone. EVERY goal is optional: a rare that is not up never
+# holds the route. Spawn points and levels are the local Forever game data
+# (questie-forever); signature drops are items whose SOLE dropper is the
+# rare. All 7 rares are faction-null (neutral), so nothing is gated out for
+# Horde. Three rares sit above the 20-32 band and ship with honest
+# come-back-later notes (sole signatures argue for them). No tame lines
+# ship (the data has no tameability flag and the Horde core guide carries
+# no tame corroboration — see docs/companion-unverified.md). Respawn
+# timers are unconfirmed anywhere, so none are stated. The two hunts point
+# at the Horde core guide, which owns the accepts and turnins; the Shaman
+# Eye objective, the Wanted Poster and the Document Chests are core-owned
+# furniture and get no hunt here. See
+# docs/thousand-needles-horde-companions-inventory.md for the full
+# inventory this guide was built against.
+guide butler-routes-completionist/thousand-needles-horde-rares
+title Thousand Needles (Horde) - Rares & Treasures
+levels 20-32
+zone Thousand Needles
+faction Horde
+category Collectibles
+folder Companions
+keywords thousand needles, horde, rares, treasures, companions
+coords live
+version 1
+
+step Harb Foulmountain — the north
+
+  zone map 1441
+
+  goto 32.55,26.78
+  kill 14426 optional
+  collect 285212 "Foulmountain Family Hammer" optional
+  note Level 27 rare at its single confirmed point in the north; its sole drop is the Foulmountain Family Hammer. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Heartrazor — the west
+
+  zone map 1441
+
+  goto 16.75,41.49
+  kill 5934 optional
+  collect 285190 "Wyvern Heart Band" optional
+  note Level 32 rare at its single confirmed point in the west; its sole drop is the Wyvern Heart Band. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed. Hunters: Heartrazor is a wyvern but there is no data flag for tameability and the core route never corroborates a wyvern tame — see docs/companion-unverified.md.
+
+step Achellios the Banished — the north-west
+
+  zone map 1441
+
+  goto 22.73,37.46
+  kill 5933 optional
+  collect 285191 "Banished Centaur's Pauldrons" optional
+  note Level 31 rare at its single confirmed point in the north-west; its sole drop is the Banished Centaur's Pauldrons. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Gibblesnik — the center
+
+  zone map 1441
+
+  goto 55.62,50.45
+  kill 14427 optional
+  collect 285192 "Kobold Firestarter" optional
+  note Level 28 rare at its single confirmed point in the center; its sole drop is the Kobold Firestarter. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Galak Messenger hunt — Assassination Note (core 4881)
+
+  zone map 1441
+
+  goto 39.43,33.1
+  kill 10617 optional
+  collect 12564 "Assassination Note" optional
+  note The Note starts core quest 4881 Assassination Plot in your bags — the Horde core guide owns the accept (Kanati Greycloud) and turnin. This step only hunts the starter.
+
+step Silithid grounds hunt — Cracked Carapace (core 1148)
+
+  zone map 1441
+
+  loop
+  goto 63.51,85.8
+  goto 67.72,83.51
+  goto 67.06,82.47
+  goto 69.03,83.14
+  kill 4130 optional
+  collect 5877 "Cracked Silithid Carapace" optional
+  note The Carapace starts core quest 1148 Parts of the Swarm in your bags — the Horde core guide owns the accept and the Korran turnin. Farm the Searcher/Invader/Hive Drone grounds south; the intact carapaces are the parallel drop, not the starter.
+
+step Silithid Ravager — Shimmering Flats east (come back later)
+
+  zone map 1441
+
+  loop
+  goto 67.26,86.1
+  goto 68.38,82.32
+  goto 70.03,86.22
+  kill 4132 optional
+  collect 8224 "Silithid Ripper" optional
+  note Level 37 rare, above the 20-32 band — come back in the high 30s. Loops its 3 confirmed points in the Flats east; its sole drop is the Silithid Ripper. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Vile Sting — the south-east (come back later)
+
+  zone map 1441
+
+  goto 70.55,72.92
+  kill 5937 optional
+  collect 285177 "Nature's Sting Legguards" optional
+  note Level 35 rare, above the 20-32 band — come back in the mid 30s. Single confirmed point in the south-east; its sole drop is the Nature's Sting Legguards.
+  note Also drops Salty Scorpid Venom, the objective of Salt Flat Venom (1104) — that quest lives in the ungated main guide, which owns its accept and turnin. Hunters: scorpid tameability is unconfirmed in the data — see docs/companion-unverified.md.
+
+step Ironeye the Invincible — the far east (come back later)
+
+  zone map 1441
+
+  goto 87.19,78.39
+  kill 5935 optional
+  collect 8223 "Blade of the Basilisk" optional
+  note Level 37 rare, above the 20-32 band — come back in the high 30s. Single confirmed point in the far east; its sole drop is the Blade of the Basilisk. No quest takes it.
+  note Also drops ordinary greens; respawn timer unconfirmed.
+
+step Solid Chests — zone-wide loop
+
+  zone map 1441
+
+  loop
+  goto 13.94,38.82
+  goto 17.63,41.79
+  goto 17.84,21.29
+  goto 18.56,20.9
+  goto 18.92,23.23
+  goto 19.36,21.74
+  goto 26.58,54.02
+  goto 27.18,52.55
+  goto 42.21,31.7
+  goto 42.24,37.39
+  goto 42.94,39.31
+  goto 43.02,36.81
+  goto 43.45,33.28
+  goto 44.91,32.27
+  goto 65.25,87
+  goto 68.47,82.95
+  goto 69.69,85.84
+  goto 71.2,85.19
+  interact 2852 optional
+  interact 2855 optional
+  note One loop over all 18 fixed Solid Chest points, said plainly as generic chests: the west, north and east-center clusters plus the 4 Shimmering Flats points. No contract quest takes either chest as an object.
+
+step Lost Shipping Crate — the Flats (come back at 36)
+
+  zone map 1441
+
+  goto 45.33,49.18
+  note The crate here starts 94930 Lost Shipping Crate, a level-38 Horde quest above this guide's 20-32 band (turnin Friz Frazzlespark in the Riverglades) — come back at 36. No goal rides here; companions never accept quests.
