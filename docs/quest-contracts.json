@@ -15046,6 +15046,41 @@
         {"id": 96108, "name": "Poison Tips"},
         {"id": 96109, "name": "A Hunter's Quiver"}
       ]
+    },
+    {
+      "id": "thousand-needles-horde",
+      "name": "Thousand Needles (Horde)",
+      "order": 57,
+      "levelBand": "20-32",
+      "summary": "Horde side of contested Thousand Needles.",
+      "quests": [
+        {"id": 1147, "name": "The Swarm Grows"},
+        {"id": 1149, "name": "Test of Faith"},
+        {"id": 1150, "name": "Test of Endurance"},
+        {"id": 1151, "name": "Test of Strength"},
+        {"id": 1152, "name": "Test of Lore"},
+        {"id": 1197, "name": "The Sacred Flame"},
+        {"id": 4767, "name": "Wind Rider"},
+        {"id": 4770, "name": "Homeward Bound"},
+        {"id": 4821, "name": "Alien Egg"},
+        {"id": 4841, "name": "Pacify the Centaur"},
+        {"id": 4865, "name": "Serpent Wild"},
+        {"id": 4881, "name": "Assassination Plot"},
+        {"id": 4966, "name": "Protect Kanati Greycloud"},
+        {"id": 5062, "name": "Sacred Fire"},
+        {"id": 5064, "name": "Grimtotem Spying"},
+        {"id": 5147, "name": "WANTED: Arnak Grimtotem"},
+        {"id": 5151, "name": "Hypercapacitor Gizmo"},
+        {"id": 5361, "name": "Family Tree"},
+        {"id": 79360, "name": "Elemental Aid"},
+        {"id": 79361, "name": "Storm, Earth, and Fire"},
+        {"id": 79364, "name": "Eyes on the Sky"},
+        {"id": 79366, "name": "Heed My Call"},
+        {"id": 79442, "name": "The Tempest's Weapons"},
+        {"id": 98069, "name": "Stolen Freewind Supplies"},
+        {"id": 98070, "name": "Stop the Screeching"},
+        {"id": 1148, "name": "Parts of the Swarm"}
+      ]
     }
   ]
 }
