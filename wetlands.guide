@@ -203,21 +203,22 @@ step Rethiel the Greenwarden
   note 276's pre (463 above) fills here - take 276 after it.
 step The northeast - gnolls and Hervdana's cave
 
-  complete 276 only Alliance @54.37,73.73 era -- Mosshide Gnolls for Rethiel the Greenwarden
-  complete 276 only Alliance @55.74,74.78 era -- Mosshide Mongrels for Rethiel the Greenwarden
-  accept 94497 only Shaman only Alliance -- Call of Water - Hervdana Saegrund; the Empty Brown Waterskin, below her cave
+  only Alliance
+  complete 276 @54.37,73.73 era -- Mosshide Gnolls for Rethiel the Greenwarden
+  complete 276 @55.74,74.78 era -- Mosshide Mongrels for Rethiel the Greenwarden
+  accept 94497 only Shaman -- Call of Water - Hervdana Saegrund; the Empty Brown Waterskin, below her cave
   note 94497's pre (94495, Call of Water) lives in the Loch Modan guide - take 94497 after that leg.
-  complete 94497 only Shaman only Alliance @65.76,76.52 era -- the Full Brown Waterskin for Hervdana Saegrund; fill the Empty skin at the falls below her cave, which name no placed point in the data
-  turnin 94497 only Shaman only Alliance -- Call of Water - back to Hervdana Saegrund
-  accept 94499 only Shaman only Alliance -- Call of Water - Hervdana Saegrund; the Empty Red Waterskin, Stonewatch Falls
+  complete 94497 only Shaman @65.76,76.52 era -- the Full Brown Waterskin for Hervdana Saegrund; fill the Empty skin at the falls below her cave, which name no placed point in the data
+  turnin 94497 only Shaman -- Call of Water - back to Hervdana Saegrund
+  accept 94499 only Shaman -- Call of Water - Hervdana Saegrund; the Empty Red Waterskin, Stonewatch Falls
   note 94499's pre (94497 above) fills here - take 94499 after it.
-  complete 94499 only Shaman only Alliance @65.76,76.52 era -- the Full Red Waterskin for Hervdana Saegrund; fill the Empty skin at Stonewatch Falls by the Nightcrawler murlocs, which name no placed point in the data
-  turnin 94499 only Shaman only Alliance -- Call of Water - back to Hervdana Saegrund
-  accept 94500 only Shaman only Alliance -- Call of Water - Hervdana Saegrund; the Unfilled Blue Waterskin, Astranaar
+  complete 94499 only Shaman @65.76,76.52 era -- the Full Red Waterskin for Hervdana Saegrund; fill the Empty skin at Stonewatch Falls by the Nightcrawler murlocs, which name no placed point in the data
+  turnin 94499 only Shaman -- Call of Water - back to Hervdana Saegrund
+  accept 94500 only Shaman -- Call of Water - Hervdana Saegrund; the Unfilled Blue Waterskin, Astranaar
   note 94500's pre (94499 above) fills here - take 94500 after it.
-  complete 94500 only Shaman only Alliance @65.76,76.52 era -- the Full Blue Waterskin for Hervdana Saegrund; fill the Unfilled skin at Astranaar's waters the next time the road takes you through Ashenvale
-  turnin 94500 only Shaman only Alliance -- Call of Water - back to Hervdana Saegrund
-  accept 94501 only Shaman only Alliance -- Call of Water - Hervdana Saegrund; Norric Lochthane takes it, Loch Modan
+  complete 94500 only Shaman @65.76,76.52 era -- the Full Blue Waterskin for Hervdana Saegrund; fill the Unfilled skin at Astranaar's waters the next time the road takes you through Ashenvale
+  turnin 94500 only Shaman -- Call of Water - back to Hervdana Saegrund
+  accept 94501 only Shaman -- Call of Water - Hervdana Saegrund; Norric Lochthane takes it, Loch Modan
   note 94501's pre (94500 above) fills here - take 94501 after it.
 step Rethiel, returned - gnolls
 
@@ -430,8 +431,9 @@ step Expedition - Darkshore, Thundris's word
 step Expedition - Loch Modan, two words through the tunnels
 
   zone map 1432
-  turnin 274 only Alliance -- A Dark Threat Looms - Ashlan's word to Chief Engineer Hinderweir VII
-  turnin 94501 only Shaman only Alliance -- Call of Water - Hervdana's word to Norric Lochthane
+  only Alliance
+  turnin 274 -- A Dark Threat Looms - Ashlan's word to Chief Engineer Hinderweir VII
+  turnin 94501 only Shaman -- Call of Water - Hervdana's word to Norric Lochthane
   zone map 1437
 
 step Expedition - Dustwallow, three words south

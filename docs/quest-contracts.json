@@ -15456,6 +15456,34 @@
       "quests": [
         {"id": 95682, "name": "Open the Maw"}
       ]
+    },
+    {
+      "id": "western-plaguelands-horde",
+      "name": "Western Plaguelands (Horde)",
+      "order": 73,
+      "levelBand": "54-58",
+      "summary": "Horde side of contested Western Plaguelands.",
+      "quests": [
+        {"id": 6022, "name": "To Kill With Purpose"},
+        {"id": 6042, "name": "Un-Life's Little Annoyances"},
+        {"id": 6133, "name": "The Ranger Lord's Behest"},
+        {"id": 6135, "name": "Duskwing, Oh How I Hate Thee..."},
+        {"id": 6136, "name": "The Corpulent One"},
+        {"id": 6144, "name": "The Call to Command"},
+        {"id": 6146, "name": "Nathanos' Ruse"},
+        {"id": 6147, "name": "Return to Nathanos"},
+        {"id": 6148, "name": "The Scarlet Oracle, Demetria"},
+        {"id": 6163, "name": "Ramstein"},
+        {"id": 8957, "name": "Anthion's Parting Words"},
+        {"id": 9016, "name": "Anthion's Parting Words"},
+        {"id": 9017, "name": "Anthion's Parting Words"},
+        {"id": 9018, "name": "Anthion's Parting Words"},
+        {"id": 9019, "name": "Anthion's Parting Words"},
+        {"id": 9020, "name": "Anthion's Parting Words"},
+        {"id": 9021, "name": "Anthion's Parting Words"},
+        {"id": 9022, "name": "Anthion's Parting Words"},
+        {"id": 9665, "name": "Bolstering Our Defenses"}
+      ]
     }
   ]
 }
