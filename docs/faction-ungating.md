@@ -514,6 +514,13 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: mount-hyjal.guide
 - header: Alliance; contract: 123 (21 primary / 102 shared)
 - shared IDs: 90487, 90647, 90750, 90854, 90865, 91696, 91697, 91698, 91754, 91755, 91770, 91883, 91923, 92008, 92011, 92016, 92017, 92100, 92101, 92111, 92147, 92169, 92171, 92317, 92328, 92329, 92335, 92433, 92500, 92533, 92594, 92612, 92833, 92959, 92960, 93127, 93197, 93407, 93422, 93444, 93510, 93521, 93547, 93567, 93584, 93615, 93617, 93747, 93759, 93825, 93826, 93827, 93831, 93848, 93952, 94479, 94504, 95316, 95317, 95318, 95319, 95320, 95378, 95379, 95380, 95568, 95569, 95611, 95766, 95769, 95793, 96003, 96025, 96131, 96145, 96252, 96255, 96262, 96296, 96301, 96302, 96303, 96321, 96322, 96435, 96550, 96558, 96796, 96930, 96931, 96939, 96957, 96959, 96964, 96971, 96978, 96979, 96983, 96991, 97009, 97010, 99670
+### mount-hyjal (UNGATED 2026-11-18, Horde round)
+- file: mount-hyjal.guide (was Alliance primary)
+- contract: 123 (21 primary / 102 shared, per the pack-wide sweep; verified unchanged)
+- Alliance-only primaries (all mask 4294967373, zero anomalies): 90702, 91688, 91881, 92014, 92015, 92064, 92449, 92591, 92593, 92702, 93383, 94832, 95027, 95218, 96077, 96494, 96529, 96559, 96674, 96833, 96992.
+- Lines gated: 48 quest lines (`only Alliance`; no composition — no primary carries a pre-existing gate). 0 soft-pre minis gated (both `when onquest` steps ride shared pres 92009/93773 — stay bare; the duplicate 95793 turn-in pair stays bare, shared). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome search: none; expeditions use `zone map` legs). Shared lines for all 102 shared IDs stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors / 35 warnings, warned quest-ID set identical to pre-edit baseline (zero diff). Playtest `--honest` both factions: Human Warrior findings byte-identical before/after (52 = 52); Horde personas (Orc/Scourge Warrior) complete only shared lines with residue only in R1/R5, zero findings on Alliance-only quests or outside accepted classes; mechanical dead-line check: 0 violations.
 ### shendralas (UNGATED 2026-11-18, Horde round)
 - file: shendralas.guide (was Alliance primary)
 - contract: 28 (0 primary / 28 shared)

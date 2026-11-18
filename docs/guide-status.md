@@ -540,6 +540,7 @@ _Content as the game data dictates._
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions (8 rares, 0 treasures in data; 80 recipes: 78 vendor + 2 zone-narrow drops)
+- [x] Faction ungating (Option A, 2026-11-17)
 
 ### Shen'dralas — Forever-original zone
 
@@ -844,9 +845,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Mount Hyjal — Horde
 
-- [ ] Census (set-asides counted when the zone's Alliance census runs)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (16 Horde-mask on 2482: 13 IN band 54-60, 3 broken OUT; 13/13 banked set-asides reconciled; split chains, B2 discharge, Belle's Ring adjacency ruled)
+- [x] Core guide - `mount-hyjal-horde.guide` (13 accepts / 13 turn-ins; western-post hubs + Crow/Remains/far-east/summit legs + Durotar expedition)
+- [x] Lint/playtest clean (0 errors, 3 warnings in accepted classes; Orc Warrior + Orc Shaman 0 stuck, R1/R5 residue only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
