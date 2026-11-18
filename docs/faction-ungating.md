@@ -488,9 +488,14 @@ candidate. Companions carry no quest lines and are not part of this fix.
 - file: mount-hyjal.guide
 - header: Alliance; contract: 123 (21 primary / 102 shared)
 - shared IDs: 90487, 90647, 90750, 90854, 90865, 91696, 91697, 91698, 91754, 91755, 91770, 91883, 91923, 92008, 92011, 92016, 92017, 92100, 92101, 92111, 92147, 92169, 92171, 92317, 92328, 92329, 92335, 92433, 92500, 92533, 92594, 92612, 92833, 92959, 92960, 93127, 93197, 93407, 93422, 93444, 93510, 93521, 93547, 93567, 93584, 93615, 93617, 93747, 93759, 93825, 93826, 93827, 93831, 93848, 93952, 94479, 94504, 95316, 95317, 95318, 95319, 95320, 95378, 95379, 95380, 95568, 95569, 95611, 95766, 95769, 95793, 96003, 96025, 96131, 96145, 96252, 96255, 96262, 96296, 96301, 96302, 96303, 96321, 96322, 96435, 96550, 96558, 96796, 96930, 96931, 96939, 96957, 96959, 96964, 96971, 96978, 96979, 96983, 96991, 97009, 97010, 99670
-### shendralas
-- file: shendralas.guide
-- header: shared-only; contract: 28 (0 primary / 28 shared)
+### shendralas (UNGATED 2026-11-18, Horde round)
+- file: shendralas.guide (was Alliance primary)
+- contract: 28 (0 primary / 28 shared)
+- shared IDs: 92914, 96010, 96018, 93016, 93394, 93341, 93362, 93594, 93404, 93601, 93604, 93606, 93450, 93546, 96060, 99257, 99258, 93035, 93037, 93041, 93125, 93072, 93129, 93188, 93568, 93574, 93609, 93644 (per the stub; verified unchanged against the contract file — all 28 records null-mask in the data)
+- Alliance-only primaries: none (zero anomalies — the file's only races field was the header).
+- Lines gated: 0 quest lines. 0 soft-pre minis (both `when onquest` minis ride shared Desolace-contracted pres 93034/93066 — gate nothing). 0 travel lines (fly/getfp/taxi/boat/zeppelin/hearth/sethome/portal goal search: none). Shared lines for all 28 IDs stay bare.
+- Anomalies: none. Header removed.
+- Verification: forge lint 0 errors; warned quest-ID set identical to pre-edit baseline (0/0 — the main guide lints warning-free). Playtest `--honest` both factions (Human/NightElf/Orc/Scourge Warriors): Alliance findings identical in kind to baseline; Horde personas complete only the shared lines with residue only in R1/R2; mechanical dead-line check (no visible line may reference a quest the viewer cannot accept): 0 violations (vacuous — no Alliance-only content exists).
 - shared IDs: 92914, 96010, 96018, 93016, 93394, 93341, 93362, 93594, 93404, 93601, 93604, 93606, 93450, 93546, 96060, 99257, 99258, 93035, 93037, 93041, 93125, 93072, 93129, 93188, 93568, 93574, 93609, 93644
 ### durotar
 - file: durotar.guide

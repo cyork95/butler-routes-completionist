@@ -551,6 +551,7 @@ _No public rare data yet — its census leans on game data._
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions (0 rares in data, treasures-only rares guide: 1 loop + 1 single; 1 recipe: Blacksmithing drop)
+- [x] Faction ungating (Option A, 2026-11-17) - 0 Alliance-only lines (all-shared contract) + 0 minis, header dropped, 0 dead lines both factions
 
 ## The Horde block — Horde sides, Horde cities, and addenda
 
@@ -852,9 +853,9 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 
 ### Shen'dralas — Horde
 
-- [ ] Census (set-asides counted when the zone's Alliance census runs)
-- [ ] Core guide
-- [ ] Lint/playtest clean
+- [x] Census (4 banked Horde-gated set-asides reconciled + full-pool 2652 sweep, no others; 4 IN (band 30–35), 0 OUT, docs/shendralas-horde-census.md)
+- [x] Core guide - shendralas-horde.guide (4 quests, band 30–35, Nerlokh chain + Desolace expedition leg)
+- [x] Lint/playtest clean - 0 errors; playtest Horde personas in band, chain fires end-to-end (0 stuck; residue R1 expedition leg only)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [ ] Companions
