@@ -645,7 +645,7 @@ _City guide per the Alliance city pattern: a census + compact core for the quest
 - [x] Lint/playtest clean - 0 errors; playtest Horde personas (Orc/Scourge/Paladin), 0 stuck, residue R5 only (bag-note key + spawnless-target turn-ins)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
-- [ ] Companions
+- [x] Companions - 7 rares (all sole-drop signatures, 2 as killable opposition) + Fixed Chests loop + Shindigger Kegs, 20 recipes (14 vendor + 6 narrow drops), 0 lint errors/warnings
 
 ### Arathi Highlands — Horde
 
