@@ -1,0 +1,118 @@
+# Felwood (Horde) - Completionist (pack butler-routes-completionist, v1).
+# The Horde side of contested Felwood: the Maybess Cleansing line and its
+# five one-time Salve feeders, the Gorn peace leg and the Statue of
+# Malornes Bauble (band 45-48; the 5 repeatable Salve follow-ups are out
+# with reasons in the census). Every accept is on key 1448; the
+# Orgrimmar leg rides an honest expedition step below. See
+# docs/felwood-horde-census.md.
+guide butler-routes-completionist/felwood-horde
+title Felwood (Horde)
+levels 45-48
+zone Felwood
+faction Horde
+category Leveling
+folder Completionist
+coords live
+version 1
+
+step South - Maybess muster
+
+  note Maybess Riverbreeze (46.75, 83.13) holds the south hub. Take the hubs asks here; the Warpwood mobs east fill them.
+  goto 46.75,83.13
+  accept 4102 -- Cleansing Felwood - Maybess Riverbreeze; fifteen Blood Amber off the Warpwood, east
+  note 4102s amber fills on the Warpwood trip below - hand it in on the return.
+  tip Turning in 4102 unlocks the one-time Salve feeders 5887 (hunting, open) and 5888/5889/5890/5891 (Mining/Herbalism/Skinning/Enchanting, optional + profession-gated); their repeatable even-numbered follow-ups are OUT of contract - the one-time feeders above are the whole chain here.
+
+step East - Warpwood, Blood Amber
+
+  collect 11503 x15 @55.00,17.73 era -- fifteen Blood Amber off the Warpwood family for Maybess Riverbreeze, east
+  note The Moss Flayers work the east around (54-55, 15-18) at 100%, the Shredders around (57, 17-22) at 100% - work the grove for all fifteen; Dessecus holds the single point south.
+  goto 57.76,22.33
+  note Dessecus single point fills the same fifteen - take it here if the grove left any short.
+
+step South - Maybess, first return
+
+  goto 46.75,83.13
+  turnin 4102 -- Cleansing Felwood - the amber to Maybess Riverbreeze
+  accept 5887 -- Salve via Hunting - Maybess Riverbreeze; six Corrupted Soul Shards, Warpwood and beyond
+  note 5887 waited on 4102s turn-in - its shards fill on the trip below; hand them in on the return.
+
+step East and beyond - soul shards
+
+  collect 11515 x6 @38.69,72.74 era -- six Corrupted Soul Shards off the ooze and owl families for Maybess Riverbreeze
+  note Cursed Ooze (4.6%) and Ironbeak Owl (23.8%) work the north-center around (38-42, 69-73); Tainted Ooze (10.6%), Screecher (10.1%) and Hunter (14.5%) range wider, and the satyrs (21%) plus Warpwood shares (5-7.8%) and Dessecus (7.8%) carry them too - work the families for all six.
+
+step South - Maybess, second return
+
+  goto 46.75,83.13
+  turnin 5887 -- Salve via Hunting - the shards to Maybess Riverbreeze
+
+step South - Maybess, the Mining Salve
+
+  when skill Mining 1
+
+  goto 46.75,83.13
+  accept 5888 optional -- Salve via Mining - Maybess Riverbreeze; Tainted Vitriol off a Small Thorium Vein
+  note 5888 waited on 4102s turn-in - take it here with Mining learned; the vitriol fills below.
+  collect 11513 x4 @34.69,61.76 era -- four Tainted Vitriol off Small Thorium Vein 324 for Maybess Riverbreeze, center-west
+  note Vein 324 holds two Felwood points - work them for all four.
+  turnin 5888 optional -- Salve via Mining - the vitriol to Maybess Riverbreeze
+  note 5888s repeatable follow-up 4109 is OUT of contract - the one-time feeder above is the whole chain here.
+
+step South - Maybess, the Gathering Salve
+
+  when skill Herbalism 1
+
+  goto 46.75,83.13
+  accept 5889 optional -- Salve via Gathering - Maybess Riverbreeze; Fel Creep off Arthas Tears
+  note 5889 waited on 4102s turn-in - take it here with Herbalism learned; the creep fills below.
+  collect 11514 x4 @37.26,61.42 era -- four Fel Creep off Arthas Tears 142141 for Maybess Riverbreeze, center
+  note Arthas Tears works 21 Felwood points around (37-38, 45-84) - work the beds for all four.
+  turnin 5889 optional -- Salve via Gathering - the creep to Maybess Riverbreeze
+  note 5889s repeatable follow-up 4110 is OUT of contract - the one-time feeder above is the whole chain here.
+
+step South - Maybess, the Skinning Salve
+
+  when skill Skinning 1
+
+  goto 46.75,83.13
+  accept 5890 optional -- Salve via Skinning - Maybess Riverbreeze; the Patch of Tainted Skin has NO source anywhere in the data - check bags and the auction house
+  note 5890 waited on 4102s turn-in - take it here with Skinning learned and the skin in bags.
+  turnin 5890 optional -- Salve via Skinning - the skin to Maybess Riverbreeze
+  note 5890s repeatable follow-up 4111 is OUT of contract - the one-time feeder above is the whole chain here.
+
+step South - Maybess, the Disenchanting Salve
+
+  when skill Enchanting 1
+
+  goto 46.75,83.13
+  accept 5891 optional -- Salve via Disenchanting - Maybess Riverbreeze; the Lesser Nether Essence has NO source anywhere in the data - check bags and the auction house
+  note 5891 waited on 4102s turn-in - take it here with Enchanting learned and the essence in bags.
+  turnin 5891 optional -- Salve via Disenchanting - the essence to Maybess Riverbreeze
+  note 5891s repeatable follow-up 4112 is OUT of contract - the one-time feeder above is the whole chain here.
+
+step Far north - Gorn One Eye
+
+  goto 65.18,2.68
+  accept 8485 -- The Brokering of Peace - Gorn One Eye; Thrall waits in Orgrimmar, late
+  note 8485 needs 8481 (The Root of All Evil, shared, main-contracted) done - take it here if that leg sent you in; its turn-in is an Orgrimmar expedition, late.
+
+step Center - the Statue of Malorne
+
+  goto 42.03,47.36
+  accept 86612 -- Stag Lords Bauble - the Statue of Malorne; Winna waits west
+  note 86612 waited on nothing - take it here; its turn-in rides the west leg below.
+
+step West - Bloodvenom Post, Winnas word
+
+  goto 34.21,52.34
+  turnin 86612 -- Stag Lords Bauble - the bauble to Winna Hazzard
+
+step Expedition - Orgrimmar, Thralls peace
+
+  zone Orgrimmar
+
+  turnin 8485 -- The Brokering of Peace - the word to Thrall @31.73,37.82 era
+  note Thralls word closes the Gorn leg here.
+  zone Felwood
+
