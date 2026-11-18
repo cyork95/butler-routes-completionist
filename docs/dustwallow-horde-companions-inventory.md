@@ -206,8 +206,9 @@ rule, flipped for Horde):
   reward data) — never shipped, logged in companion-unverified.md.
 - Trainer-taught staples excluded (Polestar's own profession guides).
 - No-source professions stated plainly in the guide, not padded:
-  Fishing, Engineering, Alchemy. (First Aid: Balai's book + manuals;
-  Cooking/Tailoring/Enchanting/Blacksmithing: covered above.)
+  Leatherworking, Fishing, Engineering, Alchemy. (First Aid: Balai's
+  book + manuals; Cooking/Tailoring/Enchanting/Blacksmithing: covered
+  above.)
 
 Cross-check against the Alliance inventory: same 10 in-band rares with
 the same points, drops and band calls, plus the two below-band
