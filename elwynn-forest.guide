@@ -375,7 +375,7 @@ step Westbrook Garrison - and the Applejack Still
   accept 11 -- Riverpaw Gnoll Bounty - Deputy Rainer; eight Painted Gnoll Armbands from the Forest's Edge camps
   collect 782 quest 11.1 @24.3,93.6 live -- Painted Gnoll Armbands, off the riverpaw gnolls south of the garrison
   accept 176 -- Wanted: "Hogger" - from the garrison's wanted poster
-  collect 1931 quest 176.1 @25.0,92.9 live -- Hogger's Huge Gnoll Claw, south of the garrison
+  collect 1931 quest 176.1 @25.0,92.9 live optional -- Hogger's Huge Gnoll Claw, south of the garrison (elite: grouping up is advised - bring a friend or come back a level stronger)
   accept 91738 -- An Apple Treat - Sergeant De Vries
   turnin 91738 -- An Apple Treat - the Thunder Applejack to Sergeant De Vries
   turnin 11 -- Riverpaw Gnoll Bounty - back to Deputy Rainer
