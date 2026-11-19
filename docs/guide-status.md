@@ -25,6 +25,7 @@ Companions (Rares & Treasures · Recipes & Patterns) follow the core guide once 
 - [x] Census — 145 quests, tracker-verified
 - [x] Core guide — `zephras-isle.guide`
 - [x] Lint/playtest clean — 0 errors, playtest 0 stuck
+- [x] Core rework (2026-11-19, pilot-driven: Orinis 2026-11-18) — all kill/collect/interact objectives routed with objective-level lines in the official form; Class 1 gaps closed (Queen, Thugs, 92516, Agitators + suspects), Class 2 re-batching (Crab Season, highlands trio, den pair), prereq order kept; two deliberate talk-verb-gap residues (Fillion/Riaani) + one data-vs-lint elite note (Vulgara) reported in the round
 - [ ] Cody pilot — Orinis, week of Nov 16
 - [ ] Pilot fixes landed
 - [x] Companion: Rares & Treasures — built, lint clean (0 errors / 0 warnings)
@@ -138,6 +139,7 @@ _Everything built is not the same as everything verified together. Before the v1
 - [ ] Install rehearsal — the publish zip built locally the way the workflow builds it, installed into a clean AddOns folder, and every guide confirmed to load and open in Polestar
 - [ ] In-game spot pilots — at least a sample of never-piloted mid-level zones run in game before strangers trust them
 - [ ] QA fix round(s) landed — anything the pass finds is fixed on master and re-verified before the tag
+- [ ] Objective-line conversion (Cody, 2026-11-18) — v1.0.0 now requires full objective-line conversion of ALL 211 guides: every kill/collect objective routed with objective-level lines in the official form; generic complete-pins remain only for event-style objectives with no kill/collect target. The Zephras Isle core rework is the template; the pack-wide conversion-backlog audit is the program's work list
 
 ---
 
