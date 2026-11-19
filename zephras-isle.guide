@@ -89,9 +89,9 @@ step Thendal Grove - around the grove
 
   tip The last Thendal errands, all in or near the grove. The ley line and skysight quests belong to opposite orders: only your own is offered. Take the den pair's accepts here too - the dens work rides the outing below.
   accept 92597 only Alliance -- Reading the Ley Lines - Falorne Fallwind (43.3, 24.9)
-  interact 460002 quest 92597.1 @46.3,17.9 live -- Cast Read Leyline at the Ley Line
+  interact 460002 quest 92597.1 only Alliance @46.3,17.9 live -- Cast Read Leyline at the Ley Line
   accept 92598 only Horde -- The Gift of Skysight - Ventaari Brightwish (42.7, 24.4)
-  interact 460001 quest 92598.1 @48.3,20.6 live -- the Elemental Convergence
+  interact 460001 quest 92598.1 only Horde @48.3,20.6 live -- the Elemental Convergence
   accept 93552 -- Harvesting Windstones - Dalia the Collector (43.3, 24.0)
   collect 258772 quest 93552.1 @38.3,30.0 live -- the windstone clusters south-west of the grove
   accept 92473 -- Aggressive Encroachment - Valreaa Valewind (42.4, 25.1) (needs 92471 turned in first - take its warning if it is not done)
@@ -161,8 +161,7 @@ step Shen'dar Village - the two orders
   accept 94413 only Alliance -- A Magical Affront - Rathiril Sunlance
   accept 94411 only Horde -- Meddlesome Mages - Illaya Amberwind
   accept 92517 -- The Criminal Element - Constable Aonda
-  turnin 94413 only Alliance
-  turnin 94411 only Horde
+  note The apprentices' and seers' work rides the Highlands sweep below - hand in with its returns.
 
 step The Shen'dar Highlands
 
@@ -182,8 +181,8 @@ step The Shen'dar Highlands
   collect 263493 quest 93951.1 @33.2,54.4 live -- Hippogryph Down, at the nesting grounds
   kill 251918 quest 92517.1 @46.3,37.0 live -- Highlands Bandits, with the windstones
   kill 255534 quest 92517.2 @50.6,34.3 live -- "Badwind" Bennic, east of the bandits
-  kill 257521 quest 94411.1 @43.4,40.3 live -- High Order Apprentices, east grounds
-  kill 257532 quest 94413.1 @36.4,48.9 live -- Windshaper Novice Seers, west grounds
+  kill 257521 quest 94411.1 only Horde @43.4,40.3 live -- High Order Apprentices, east grounds
+  kill 257532 quest 94413.1 only Alliance @36.4,48.9 live -- Windshaper Novice Seers, west grounds
   turnin 92515
   turnin 92553
   turnin 92516
@@ -431,12 +430,12 @@ step Valanaar - class lessons at 10
   accept 93791 only Mage -- Speak with Belann - Belann Windwood, Valanaar
   turnin 93791 only Mage
   accept 93797 only Mage -- Boughs in the Wind - Belann Windwood
-  collect 262668 quest 93797.1 @48.4,68.2 live -- the wind-infused boughs along the shore
+  collect 262668 quest 93797.1 only Mage @48.4,68.2 live -- the wind-infused boughs along the shore
   turnin 93797 only Mage
   accept 94006 only Druid -- The Great Ursera Spirit - Lotheluum Starbreeze, Valanaar
   turnin 94006 only Druid
   accept 94638 only Druid -- Strength and Mercy - Urs'endris
-  kill 258443 quest 94638.1 @53.5,64.2 live -- Ur'endra, in the wilds
+  kill 258443 quest 94638.1 only Druid @53.5,64.2 live -- Ur'endra, in the wilds
   turnin 94638 only Druid
   accept 94003 only Warrior -- The Skybreaker Bulwark - Seena Skybreaker (59.9, 72.9); the fight itself is at the Shrine of Akir
 
@@ -504,7 +503,7 @@ step Windsong Lake - the Strange Hermit
 
   tip A hermit by Windsong Lake, at the edge of Shadowgale Forest. The last side quests on the island - and Iaadaria Bitterwind's Unwelcome Visitors (Alliance) works the same forest.
   accept 92741 only Alliance -- Unwelcome Visitors - Iaadaria Bitterwind, Valanaar; Shriekling Talons from Shadowgale Forest
-  collect 254378 quest 92741.1 @52.4,40.7 live -- the shrieklings over the lake
+  collect 254378 quest 92741.1 only Alliance @52.4,40.7 live -- the shrieklings over the lake
   turnin 92741 only Alliance
   accept 93159 -- The Strange Hermit - speak with the Strange Hermit
   turnin 93159
@@ -549,7 +548,7 @@ step Shrine of Akir - the confrontation
   turnin 92947 -- Report to Hyusaa Quickbreeze at the Shrine of Akir
   accept 93958 -- The Inner Sanctum - Valennia Stormfist, inside the Shrine
   turnin 93958
-  collect 263993 quest 94003.1 @56.7,50.4 live -- Zaal Stormshield, who holds the Bulwark
+  collect 263993 quest 94003.1 only Warrior @56.7,50.4 live -- Zaal Stormshield, who holds the Bulwark
   accept 92646 only Horde -- Confront Lorthuna - one of the two versions is your order's; take the portal to the Rohashi Spires
   accept 93835 only Alliance -- Confront Lorthuna - the other order's version; it will not be offered to you
   turnin 92646 only Horde
