@@ -47,6 +47,7 @@ _Case B (audit-and-close round, pack 0.96.0): no separate twin - the shared `zep
 - [x] Census — 83 quests, tracker-verified
 - [x] Core guide — `elwynn-forest.guide`
 - [x] Lint/playtest clean — 0 errors
+- [x] Objective-line conversion (2026-11-19, publish-gate program, Zephras template) — every kill/collect/interact objective routed with objective-level lines and dumped coords; 7 missing-objective gaps closed (Kobold Camp, Echo Ridge x2, Protect the Frontier, Slimy Menace, both Delicate Instruments, taming trio); Camping talk-finds + buy/event objectives keep complete pins per the no-talk-verb rule; 3 pre-existing residue classes unchanged (talk/event R5s, item-start R2s, departure R1s) + 1 disclosed elite-table note (Hogger, rank 1 in data)
 - [ ] Cody pilot
 - [ ] Pilot fixes landed
 - [x] Companions — 24 rares + fixed containers, 4 vendor recipes, lint 0/0 (pilot pending)
