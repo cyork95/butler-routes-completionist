@@ -8,6 +8,9 @@
 # of Zephras, A Grand Adventure, What Comes Next, The Fate of Zephras,
 # Confront Lorthuna) are co-located: take the version your order offers.
 # Coordinates typed in this guide are in the client's own (live) map frame.
+# Kill/collect/interact objectives ride objective-level lines (npc/item id +
+# quest.objective ref + dumped coords); generic complete pins remain only
+# for event-style objectives with no kill/collect target.
 guide butler-routes-completionist/zephras-isle
 title Zephras Isle - Completionist (Skyborne)
 levels 1-12
@@ -17,7 +20,7 @@ category Leveling
 folder Completionist
 keywords zephras, completionist, skyborne, all quests, orinis
 coords live
-version 4
+version 5
 
 step Thendal Village - arrival
 
@@ -26,10 +29,12 @@ step Thendal Village - arrival
   accept 92460 -- Ailee Farheart - Coming of Age
   turnin 92460 -- Hand it to Rorian the Dayseeker
   accept 92461 -- Rorian the Dayseeker - Harmony in Balance (slay 8 Juvenile Vuldren, south of the village)
+  kill 250873 quest 92461.1 @42.6,23.6 live -- Juvenile Vuldren, south of the village
   accept 92464 -- Rorian the Dayseeker - Elemental Unrest
   accept 92462 -- Elatrell Featherlight (43.4, 24.8) - Infestation Investigation (slay 8 Pesky Cirrusflies, alongside the Queen)
-  complete 92462 @43.3,25.2 live -- the cirrusflies around the grove
+  kill 251169 quest 92462.1 @43.3,25.2 live -- the cirrusflies around the grove
   accept 94414 -- Halaan Hawk-Eye (43.8, 24.1) - The Anchors of Zephras
+  complete 94414 @43.8,24.1 live -- Listen to Halaan; that is the whole quest
   accept 92474 -- Myriaal Mistwake (43.7, 24.1) - Falling With Style
 
 step Thendal Village - your class introduction
@@ -51,22 +56,30 @@ step Thendal Village - your class introduction
 
 step Yala Windwatcher
 
-  tip Yala Windwatcher stands east of the village at 47.3, 21.9. Elemental Unrest is handed in to her, and she has the follow-up work.
+  tip Yala Windwatcher stands east of the village at 47.3, 21.9. Elemental Unrest is handed in to her, and she has the follow-up work: converts north of her, roiling winds past them.
   turnin 92464 -- Hand Elemental Unrest to Yala Windwatcher
   accept 92465 -- Agitators - Yala Windwatcher
+  kill 251160 quest 92465.1 @46.5,21.5 live -- Al'Aketh Converts, north of Yala
+  kill 251143 quest 92465.2 @46.2,21.8 live -- Roiling Winds, past the converts
+  turnin 92465 -- Agitators - back to Yala Windwatcher
 
 step Thendal Grove - the grove work
 
-  tip Work the grove quests, then hand in as you pass each giver.
+  tip Work the grove quests, then hand in as you pass each giver. The Queen's own step comes next - a second trip out to the grove.
   turnin 92462 -- Infestation Investigation - back to Elatrell Featherlight
-  accept 92463 -- Elatrell Featherlight - The Cirrusfly Queen
-  turnin 92463 -- The Cirrusfly Queen - back to Elatrell Featherlight
+  accept 92463 -- Elatrell Featherlight - The Cirrusfly Queen (needs 92462 turned in first - take its warning if it is not done)
   turnin 94414 -- The Anchors of Zephras - back to Halaan Hawk-Eye
   turnin 92474 -- Falling With Style - back to Rorian the Dayseeker
-  turnin 92465 -- Agitators - back to Yala Windwatcher
+
+step Thendal Grove - the Cirrusfly Queen
+
+  tip Back out to the meadow east of the grove: the Queen hovers over it on the Yala road. Kill her, then hand in on the next grove pass.
+  kill 251404 quest 92463.1 @48.4,28.5 live -- the Cirrusfly Queen, east meadow
 
 step Word for Rorian
 
+  tip Yala's word goes to Rorian in the grove; Elatrell is on the way through - hand her the Queen as you pass.
+  turnin 92463 -- The Cirrusfly Queen - back to Elatrell Featherlight
   accept 92469 -- Yala Windwatcher (47.3, 21.9) sends word to Rorian
   turnin 92469 -- Return to Rorian - bring word of the Al'Aketh to Rorian
   accept 92471 -- Aetheen of the Gales - Rorian sends you on
@@ -74,46 +87,55 @@ step Word for Rorian
 
 step Thendal Grove - around the grove
 
-  tip The last Thendal errands, all in or near the grove. The ley line and skysight quests belong to opposite orders: only your own is offered.
+  tip The last Thendal errands, all in or near the grove. The ley line and skysight quests belong to opposite orders: only your own is offered. Take the den pair's accepts here too - the dens work rides the outing below.
   accept 92597 only Alliance -- Reading the Ley Lines - Falorne Fallwind (43.3, 24.9)
+  interact 460002 quest 92597.1 @46.3,17.9 live -- Cast Read Leyline at the Ley Line
   accept 92598 only Horde -- The Gift of Skysight - Ventaari Brightwish (42.7, 24.4)
+  interact 460001 quest 92598.1 @48.3,20.6 live -- the Elemental Convergence
   accept 93552 -- Harvesting Windstones - Dalia the Collector (43.3, 24.0)
-  accept 92473 -- Aggressive Encroachment - Valreaa Valewind (42.4, 25.1)
-  complete 93552 @38.3,30.0 live -- the windstone deposits south-west of the grove
-  complete 92473 @35.5,23.9 live -- the ursera dens south-west of the grove
+  collect 258772 quest 93552.1 @38.3,30.0 live -- the windstone clusters south-west of the grove
+  accept 92473 -- Aggressive Encroachment - Valreaa Valewind (42.4, 25.1) (needs 92471 turned in first - take its warning if it is not done)
+  accept 92470 -- Foul Matriarch - Aetheen of the Gales (needs 92471 turned in first - take its warning if it is not done)
   turnin 92597 only Alliance
   turnin 92598 only Horde
   turnin 93552
-  turnin 92473
+
+step Thendal Grove - the dens outing
+
+  tip South-west to the ursera dens for the pair's field work: claws off the scrawny ursera in the woods, then scavengers and Urs'anah herself at the back of the den. One trip, both quests, then hand in together below.
+  collect 251918 quest 92473.1 @35.6,23.9 live -- Scrawny Ursera Claws, in the woods by the dens
+  kill 250937 quest 92470.1 @35.6,24.3 live -- Ursera Scavengers, through the den
+  collect 252665 quest 92470.2 @35.7,26.1 live -- the Head of Urs'anah, at the back of the den
+
+step Thendal Grove - the den mother
+
+  tip Aetheen of the Gales takes the den work together. Foul Matriarch and The Next Step both run through her, and she starts The Adventurer for the Shen'dar camp.
+  level 5
+  turnin 92473 -- Aggressive Encroachment - Valreaa Valewind's word stays in the grove
+  turnin 92470 -- Foul Matriarch - back to Aetheen of the Gales
+  accept 92472 -- The Next Step - Aetheen of the Gales
+  accept 96638 -- The Adventurer - Aetheen of the Gales sends you to Raan Wildwind at the Shen'dar camp
 
 step Thendal Grove - Call of Earth (Shaman)
 
   only Shaman,Horde
   tip The Windshaper shaman's earth totem chain, from Windshaper Boro in Thendal Village. The three quests are all named Call of Earth and run in the order shown.
   accept 92466
-  complete 92466 @43.8,24.1 live -- the cultists around Thendal
+  collect 251924 quest 92466.1 @43.8,24.1 live -- the Signet of Akir, off the cultists around Thendal
   turnin 92466
   accept 92467
   turnin 92467
   accept 92468
   turnin 92468
 
-step Thendal Grove - the den mother
-
-  tip Aetheen of the Gales has the last Thendal work. Foul Matriarch and The Next Step both run through her, and she starts The Adventurer for the Shen'dar camp.
-  level 5
-  accept 92470 -- Foul Matriarch - Aetheen of the Gales
-  complete 92470 @35.6,26.1 live -- Urs'anah, south-west of the grove
-  turnin 92470 -- Foul Matriarch - back to Aetheen of the Gales
-  accept 92472 -- The Next Step - Aetheen of the Gales
-  accept 96638 -- The Adventurer - Aetheen of the Gales sends you to Raan Wildwind at the Shen'dar camp
-
 step The road south
 
   tip On the road south to Shen'dar Village, Hanaa Nightwind (38.4, 30.1) has work: Al'Aketh cultists infest the ruins to the south-west.
   accept 92544 -- Al'Aketh Thugs - Hanaa Nightwind
+  kill 251145 quest 92544.1 @35.4,33.6 live -- Al'Aketh Brutes, in the south-west ruins
+  kill 251448 quest 92544.2 @35.3,33.4 live -- Al'Aketh Neophytes, in the south-west ruins
+  kill 256935 quest 92544.3 @36.1,33.5 live -- Malduko Cloudcrush holds the ruins' middle
   turnin 92544
-
 step Shen'dar Village - arrival
 
   tip Report to Constable Aonda (45.6, 45.5). Make the inn your home while you are here: innkeeper Coriella Calmbreeze stands at 43.0, 43.3.
@@ -129,41 +151,51 @@ step Shen'dar Village - a gatherer's toolkit
 
 step Shen'dar Village - the two orders
 
-  tip Each order sends you against the other's students in the Highlands. Only your own order's quests are offered.
+  tip Each order sends you against the other's students in the Highlands. Only your own order's quests are offered. The apprentices' and seers' work rides the Highlands sweep below - take the quests here, do them there.
   turnin 92514 only Horde -- Welcome to Shen'dar Village - speak with your order's envoy and Coriella Calmbreeze
   turnin 93461 only Alliance -- Welcome to Shen'dar Village - the other order's version ends the same way
-  accept 92596 only Alliance -- The High Order - Rathiril Sunlance (45.0, 46.4)
+  accept 92596 only Alliance -- The High Order - Rathiril Sunlance (46.4, 46.4)
   accept 92595 only Horde -- The Windshapers - Illaya Amberwind (43.5, 44.8)
   turnin 92596 only Alliance
   turnin 92595 only Horde
   accept 94413 only Alliance -- A Magical Affront - Rathiril Sunlance
   accept 94411 only Horde -- Meddlesome Mages - Illaya Amberwind
+  accept 92517 -- The Criminal Element - Constable Aonda
   turnin 94413 only Alliance
   turnin 94411 only Horde
-  accept 92517 -- The Criminal Element - Constable Aonda
 
 step The Shen'dar Highlands
 
-  tip One sweep of the Highlands covers all of these, and Aonda's Criminal Element besides.
+  tip One sweep of the Highlands covers all of these, and Aonda's Criminal Element besides. Work the grounds, then hand in back at the village end of the sweep.
   accept 92515 -- The Problem With Prideclaws - Indari Sunseam (44.6, 44.5)
+  collect 252670 quest 92515.1 @37.5,45.2 live -- Prideclaw Pelts, in the highlands
   accept 92553 -- Restocking the Larders - Zerril Softbreeze (43.9, 43.9)
-  accept 92516 -- Hippogryph Harrassment - Teeri Wellwind (44.4, 45.0)
+  collect 6889 quest 92553.1 -- Small Eggs, off the highlands galestriders (broad multi-zone drop; no single pin)
+  collect 5469 quest 92553.2 -- Strider Meat, off the highlands galestriders (broad multi-zone drop; no single pin)
+  accept 92516 -- Hippogryph Harassment - Teeri Wellwind (44.4, 45.0)
+  kill 251291 quest 92516.1 @33.8,54.6 live -- Hippogryph Youths, at the nesting grounds
+  kill 251284 quest 92516.2 @34.0,55.5 live -- Hippogryph Protectors, at the nesting grounds
+  kill 251261 quest 92516.3 @33.0,54.6 live -- the Hippogryph Matriarch, at the nesting grounds
   accept 93319 -- Pilfered Windstones - Teeri Wellwind
+  collect 257945 quest 93319.1 @46.3,37.0 live -- the highlands bandits' pilfered windstones
   accept 93951 -- A Little Beauty - Taleen Shimmerthread (44.8, 44.2)
-  complete 92515 @37.5,45.2 live -- the prideclaws in the highlands
-  complete 92553 @37.6,43.4 live -- the galestriders and eggs in the highlands
-  complete 93319 @46.3,37.0 live -- the highlands bandits
-  complete 93951 @34.0,55.3 live -- the hippogryph nesting grounds
+  collect 263493 quest 93951.1 @33.2,54.4 live -- Hippogryph Down, at the nesting grounds
+  kill 251918 quest 92517.1 @46.3,37.0 live -- Highlands Bandits, with the windstones
+  kill 255534 quest 92517.2 @50.6,34.3 live -- "Badwind" Bennic, east of the bandits
+  kill 257521 quest 94411.1 @43.4,40.3 live -- High Order Apprentices, east grounds
+  kill 257532 quest 94413.1 @36.4,48.9 live -- Windshaper Novice Seers, west grounds
   turnin 92515
   turnin 92553
   turnin 92516
   turnin 93319
   turnin 93951
   turnin 92517 -- The Criminal Element - back to Constable Aonda
+  turnin 94413 only Alliance
+  turnin 94411 only Horde
 
 step Shen'dar Village - Aonda's errands
 
-  tip Aonda's errands: infiltrate the cult, carry Sania's word to Falaath, and check the bounty board.
+  tip Aonda's errands: infiltrate the cult, carry Sania's word to Falaath, and check the bounty board. Vulgara's head waits for the highlands trio sweep below - take the bounty here, do it there.
   accept 93036 -- Infiltrating the Cult - Constable Aonda
   turnin 93036 -- Infiltrating the Cult - speak with Sania Silverstream
   accept 92529 -- Falaath Village - Sania Silverstream (44.8, 45.5)
@@ -171,25 +203,29 @@ step Shen'dar Village - Aonda's errands
 
 step Falaath Village
 
-  tip Missionary Jasaan watches the cult's village. The Al'Aketh Assassins also start here, from the cult's leavings - their hand-in waits until Valanaar.
+  tip Missionary Jasaan watches the cult's village. The Al'Aketh Assassins also start here, from the cult's leavings - their hand-in waits in Valanaar.
   turnin 92529 -- Falaath Village - report to Missionary Jasaan
   accept 92528 -- Among the Faithful - Missionary Jasaan
+  complete 92528 @48.8,53.9 live -- Search the wardrobe
   accept 98512 -- Al'Aketh Assassins
+  kill 254626 quest 98512.1 @53.2,58.1 live -- Al'Aketh Assassins, east of the village
 
-step Shen'dar Village - turn-ins
+step Shen'dar Village - highlands trio sweep
 
-  tip Hand-ins around Shen'dar, then Aonda's westward orders - the watchtower and Valanaar come next.
+  tip One highlands outing for the trio: Cyclas and his stormcallers, the supply caches, and Vulgara. Accept all three, work all three, hand all three in.
   turnin 96638 -- The Adventurer
   accept 96101 -- The Great Outdoors - the Shen'dar camp
   turnin 96101 -- The Great Outdoors - the Shen'dar camp
   turnin 92528 -- Among the Faithful - back to Constable Aonda
   accept 92550 -- Havoc in the Highlands - Constable Aonda
-  complete 92550 @50.4,57.0 live -- Commander Cyclas, in the highlands
-  turnin 92550 -- Havoc in the Highlands - back to Constable Aonda
+  kill 252068 quest 92550.1 @44.7,57.3 live -- Al'Aketh Stormcallers, in the highlands
+  kill 251662 quest 92550.2 @41.3,54.7 live -- Living Lightning, in the highlands
+  collect 252661 quest 92550.3 @50.4,57.0 live -- Commander Cyclas's head, in the highlands
   accept 92551 -- Stolen Supplies - Danarii Bellowveil
-  complete 92551 @49.0,53.6 live -- the supply caches in the highlands
+  collect 252760 quest 92551.1 @49.0,53.6 live -- the supply caches in the highlands
+  collect 257942 quest 93318.1 @42.7,52.8 live -- Vulgara's head, in the highlands (she hits hard - grouping up is advised)
+  turnin 92550 -- Havoc in the Highlands - back to Constable Aonda
   turnin 92551 -- Stolen Supplies - back to Danarii Bellowveil
-  complete 93318 @42.7,52.8 live -- Vulgara, in the highlands
   turnin 93318 -- WANTED: Vulgara the Insatiable - Vulgara's head to Danarii Bellowveil
   accept 93926 -- The Western Watch - Constable Aonda
 
@@ -198,7 +234,10 @@ step West Pylon Watchtower
   tip Peacekeeper Vaaniel holds the western watchtower. His post has been hit - look for what he left behind.
   turnin 93926 -- The Western Watch - find Peacekeeper Vaaniel
   accept 93927 -- A Last Request - from the note by the dead peacekeeper
-  complete 93927 @41.1,64.1 live -- the peacekeeper, her note and the signs around it
+  collect 254871 quest 93927.1 @42.4,62.1 live -- the Bloody Note by the watchtower
+  kill 256966 quest 93927.2 @41.0,64.1 live -- Skypriest Aanders, by the watchtower
+  collect 263415 quest 93927.3 @41.1,64.1 live -- Raani's Lucky Feather, by the watchtower
+  collect 263418 quest 93927.4 @41.0,64.1 live -- the Shadowsong Family Signet, by the watchtower
   turnin 93927 -- Read the note; that is the whole quest
 
 step Shen'dar Village - Aonda's last orders
@@ -212,19 +251,33 @@ step Shen'dar Village - Camping 101
 
   tip The camp's Camping 101 quests each teach one profession's basics and are offered once you have learned that profession (Tailoring and Enchanting each have a second, specialisation version). Take the ones you qualify for as you learn professions around the island; the rest are optional and safe to skip.
   accept 96646 optional -- Camping 101: Cooking
+  complete 96646 optional @43.9,43.8 live -- Zerril Softbreeze, the cooking trainer
   accept 97963 optional -- Camping 101: Alchemy
+  complete 97963 optional @43.7,43.4 live -- Nyassa Swiftdraught, the alchemy trainer
   accept 97964 optional -- Camping 101: Blacksmithing
+  complete 97964 optional @44.9,44.4 live -- Aedi Thriceforged, the blacksmithing trainer
   accept 97965 optional -- Camping 101: First Aid
+  complete 97965 optional @43.1,46.3 live -- Naleeia Tattermend, the first aid trainer
   accept 97967 optional -- Camping 101: Fishing
+  complete 97967 optional @45.0,48.4 live -- Fenn Fairweather, the fishing trainer
   accept 97968 -- Camping 101: Herbalism
+  complete 97968 @44.8,44.6 live -- Messana Crestwind, the herbalism trainer
   accept 97969 optional -- Camping 101: Leatherworking
+  complete 97969 optional @44.7,44.5 live -- Indari Sunseam, the leatherworking trainer
   accept 97970 -- Camping 101: Mining
+  complete 97970 @44.8,44.6 live -- Messana Crestwind, the mining trainer
   accept 97971 optional -- Camping 101: Skinning
+  complete 97971 optional @43.3,43.4 live -- Mendalass Tattermend, the skinning trainer
   accept 97972 optional only Horde -- Camping 101: Tailoring
+  complete 97972 optional only Horde @44.9,44.2 live -- Taleen Shimmerthread, the tailoring trainer
   accept 97973 optional only Alliance -- Camping 101: Tailoring (second version)
+  complete 97973 optional only Alliance @44.9,44.2 live -- Taleen Shimmerthread, the tailoring trainer
   accept 98284 optional only Horde -- Camping 101: Enchanting
+  complete 98284 optional only Horde @43.2,43.2 live -- Nasalanna Windsinger, the enchanting trainer
   accept 98285 optional -- Camping 101: Engineering
+  complete 98285 optional @54.0,38.9 live -- the Strange Hermit, by Windsong Lake
   accept 98286 optional only Alliance -- Camping 101: Enchanting (second version)
+  complete 98286 optional only Alliance @43.2,43.2 live -- Nasalanna Windsinger, the enchanting trainer
 
 step Shen'dar Village - Camping 101 hand-ins
 
@@ -243,7 +296,6 @@ step Shen'dar Village - Camping 101 hand-ins
   turnin 98284 optional only Horde -- Camping 101: Enchanting
   turnin 98285 optional -- Camping 101: Engineering
   turnin 98286 optional only Alliance -- Camping 101: Enchanting (second version)
-
 step Valanaar - arrival
 
   tip Valanaar, the island's capital. Report to Valennia Stormfist (66.2, 76.6) and deliver the Shadowsong signet. The inn is Donaal Downbreeze's (62.2, 72.7) - bind your hearthstone here.
@@ -251,6 +303,7 @@ step Valanaar - arrival
   turnin 92701 only Alliance -- To Valanaar - the other order's version ends here too
   turnin 93948 -- Deliver the Signet - to Talaanis Shadowsong
   accept 93949 -- Bugged - Valennia Stormfist
+  kill 251727 quest 93949.1 @56.0,73.8 live -- the Skyhopper, Gustberry Lowlands
   accept 92699 only Alliance -- The Supreme Magister - Valennia Stormfist; find Elaadrin Evengale
   accept 92700 only Horde -- The Grand Skyseer - Valennia Stormfist; find Ayessa Dawnsinger
   turnin 92699 only Alliance
@@ -259,10 +312,10 @@ step Valanaar - arrival
 
 step Valanaar - first errands
 
+  tip Aamelia Windfield's orchard lies west along the shore; Nyalah Brightfire stays in the city. Take both errands, work the shore, and hand the crab meat in with the orchard's returns.
   accept 92679 -- Blood Tithe - Alvarion Windfield (62.1, 73.3); it leads to the Windfield Orchard
   accept 93317 -- Crab Season - Nyalah Brightfire (60.7, 72.7)
-  complete 93317 @44.1,74.5 live -- the windsong crawlers along the shore
-  turnin 93317
+  collect 257941 quest 93317.1 @44.1,74.5 live -- the windsong crawlers along the shore
 
 step Windfield Orchard
 
@@ -270,26 +323,30 @@ step Windfield Orchard
   task "Camp Fernfeather, the rare level 10 tallstrider - she walks the orchard (about 52.6, 81.2 and 48.0, 85.4). Tame her; do not kill her." optional
   turnin 92679 -- Blood Tithe - find Aamelia Windfield
   accept 92682 -- Make Yourself Useful - Aamelia Windfield
+  collect 253591 quest 92682.1 @46.2,78.4 live -- the stormapples in the orchard
+  kill 252802 quest 92682.2 @44.6,74.1 live -- the Hungry Bandits on the orchard road
   accept 92683 -- Flutterfly Dust
+  collect 253595 quest 92683.1 @47.8,76.4 live -- flutterfly dust in the orchard
   accept 92684 -- Ornery Ornery Galestriders
-  complete 92682 @46.2,78.4 live -- the stormapples in the orchard
-  complete 92683 @47.8,76.4 live -- flutterfly dust in the orchard
-  complete 92684 @46.9,76.7 live -- the galestriders in the orchard
+  collect 253597 quest 92684.1 @46.9,76.7 live -- the galestriders in the orchard
   turnin 92682
   turnin 92683
   turnin 92684
   accept 92685 -- The Hills Have Eyes
-  complete 92685 @43.8,74.6 live -- the highwaymen on the orchard road
+  collect 253596 quest 92685.1 @43.8,74.6 live -- the highwaymen on the orchard road
   turnin 92685
+  accept 92693 -- Standing Our Ground - Aamelia Windfield
+  kill 252863 quest 92693.2 @46.8,78.2 live -- Ferauu the Bludgeon, in the orchard
+  turnin 92693
   accept 92698 -- What Is My Purpose? - about the Malfunctioning Cyclone Construct
   turnin 92698
-  accept 92693 -- Standing Our Ground - Aamelia Windfield
-  turnin 92693
   accept 92703 -- Deliver the News - word for Alvarion Windfield in Valanaar
 
 step Valanaar - back from the orchard
 
+  tip Back in Valanaar with the orchard's returns: the news for Alvarion and the crab meat for Nyalah.
   turnin 92703 -- Deliver the News - to Alvarion Windfield
+  turnin 93317 -- Crab Season - the crab meat to Nyalah Brightfire
 
 step Valanaar - the missing scholar (1 of 3)
 
@@ -303,10 +360,10 @@ step Overlook Standing Stones - the missing scholar (2 and 3)
   only Alliance
   tip Fillion is alive, out by the Overlook Standing Stones. Part 3 sends you into the Shriekling Den; its hand-in is to Fillion back in Valanaar (66.2, 79.9).
   accept 92849 -- The Missing Scholar, part 2 - from the Bloodstained Satchel
-  complete 92849 @52.1,69.4 live
+  interact 581820 quest 92849.2 @52.1,69.4 live -- the Dusty Bedroll
   turnin 92849 -- Hand in to Fillion Flamebreeze where you find him
   accept 92850 -- The Missing Scholar, part 3 - Fillion Flamebreeze
-  complete 92850 @52.3,66.4 live
+  collect 257107 quest 92850.1 @52.1,65.8 live -- the Shriekling Matriarch's head, in the den
   turnin 92850 -- Hand the Shriekling Matriarch's head to Fillion, in Valanaar
 
 step Valanaar - Fillion's mission (Alliance)
@@ -315,9 +372,10 @@ step Valanaar - Fillion's mission (Alliance)
   accept 99260 -- Fillion's Mission - Fillion Flamebreeze
   turnin 99260 -- Speak with Elaadrin Evengale
   accept 92840 -- Catching Wind - take the Index Esoteria to the Overlook Standing Stones
+  interact 697118 quest 92840.1 @47.3,69.7 live -- the Windstone Formation
   turnin 92840
   accept 92834 -- Avenged Tenfold - Al'Aketh cultists north of Valanaar
-  complete 92834 @60.2,37.5 live -- the stormchasers north of Valanaar
+  collect 255658 quest 92834.1 @60.2,37.5 live -- the stormchasers north of Valanaar
   turnin 92834
 
 step Valanaar - the Broken Construct (Horde)
@@ -327,21 +385,24 @@ step Valanaar - the Broken Construct (Horde)
   accept 93735
   turnin 93735
   accept 93737
-  complete 93737 @59.1,73.0 live -- Riaani and the parts around Broken Cliff
+  collect 260881 quest 93737.2 @51.4,67.5 live -- Crystallized Lightning, in the construct parts
+  collect 260883 quest 93737.3 @49.4,46.0 live -- the Enchanted Gyrozephyr, in the construct parts
+  collect 260880 quest 93737.4 @43.3,74.5 live -- the Air Construct Core, in the construct parts
   turnin 93737
   accept 93738
   turnin 93738
   accept 93736 -- Unwelcome Spirits - Wind Hollow essences, Shadowgale Forest
-  complete 93736 @56.3,36.2 live -- the wind hollow
+  collect 262357 quest 93736.1 @55.5,32.6 live -- the wind hollow essences
   turnin 93736
   accept 93746 -- A Firm Response - confront Belthaan Brightwish on the Shrine of Akir road
+  kill 256247 quest 93746.1 @59.0,55.5 live -- Belthaan Brightwish, on the shrine road
   turnin 93746
 
 step Valanaar - Blood for Blood (Horde)
 
   only Horde
   accept 93740 -- Blood for Blood - Al'Aketh Windstone Charms, Gustberry Lowlands
-  complete 93740 @60.2,37.5 live -- the stormchasers north of Valanaar
+  collect 255658 quest 93740.1 @60.2,37.5 live -- the stormchasers north of Valanaar
   turnin 93740
 
 step Valanaar - the taming chain (Hunter, level 10)
@@ -352,13 +413,13 @@ step Valanaar - the taming chain (Hunter, level 10)
   accept 94007 -- Taming the Beast - Elayaa Easewind in Shen'dar Village (45.2, 44.3) sends you to Quel'ana
   turnin 94007 -- Report to Quel'ana Quickgale in Valanaar
   accept 94978 -- Taming the Beast, part 1 - tame a Windsong Crawler, near water
-  complete 94978 @51.7,72.5 live
+  kill 254588 quest 94978.1 @42.7,68.8 live -- a Windsong Crawler, near the water
   turnin 94978
   accept 94979 -- Taming the Beast, part 2 - tame an Ornery Galestrider, Gustberry Lowlands
-  complete 94979 @57.0,72.1 live
+  kill 251707 quest 94979.1 @46.9,76.7 live -- an Ornery Galestrider, Gustberry Lowlands
   turnin 94979
   accept 94013 -- Taming the Beast, part 3 - tame a Vuldren Alpha, Gustberry Lowlands
-  complete 94013 @54.1,75.1 live
+  kill 250874 quest 94013.1 @51.3,75.3 live -- a Vuldren Alpha, Gustberry Lowlands
   turnin 94013
   accept 94050 -- Training the Beast - Quel'ana teaches you to train your pet
   turnin 94050
@@ -370,11 +431,12 @@ step Valanaar - class lessons at 10
   accept 93791 only Mage -- Speak with Belann - Belann Windwood, Valanaar
   turnin 93791 only Mage
   accept 93797 only Mage -- Boughs in the Wind - Belann Windwood
-  complete 93797 @48.4,68.2 live -- the wind-infused boughs along the shore
+  collect 262668 quest 93797.1 @48.4,68.2 live -- the wind-infused boughs along the shore
   turnin 93797 only Mage
   accept 94006 only Druid -- The Great Ursera Spirit - Lotheluum Starbreeze, Valanaar
   turnin 94006 only Druid
   accept 94638 only Druid -- Strength and Mercy - Urs'endris
+  kill 258443 quest 94638.1 @53.5,64.2 live -- Ur'endra, in the wilds
   turnin 94638 only Druid
   accept 94003 only Warrior -- The Skybreaker Bulwark - Seena Skybreaker (59.9, 72.9); the fight itself is at the Shrine of Akir
 
@@ -386,14 +448,16 @@ step Valanaar - In Service of Zephras
   accept 92871 only Horde -- In Service of Zephras - the other order's version; it will not be offered to you
   turnin 92860 only Alliance
   turnin 92871 only Horde
-
 step East Pylon Watchtower
 
   tip Yorana Windyreed holds the eastern watchtower, in the Gustberry Lowlands.
   accept 93320 -- Tower Defense - report to Yorana Windyreed
   turnin 93320
   accept 92642 -- Disrupting Logistics - Yorana Windyreed
+  kill 254596 quest 92642.1 @60.3,74.3 live -- Al'Aketh Healers, Gustberry Lowlands
+  kill 270201 quest 92642.2 @59.9,73.5 live -- Al'Aketh Brawlers, Gustberry Lowlands
   accept 92645 -- Breaking the Breaker - Yorana Windyreed; Commander Belguilos
+  kill 252666 quest 92645.1 @65.6,65.6 live -- Commander Belguilos, east of the tower
   turnin 92642
   turnin 92645
   accept 92880 -- Return to Valanaar - Yorana's report for Valennia Stormfist
@@ -406,47 +470,49 @@ step Shadowgale Forest
   accept 94484 -- Unnerving Silence - find Elegael Thornpaw in the north-east of Shadowgale Forest
   turnin 94484
   accept 94486 -- Feathers for Binding - Shadowgale Shrieklings
+  collect 265140 quest 94486.1 @52.4,40.7 live -- the shrieklings around Broken Cliff
   accept 94487 -- Unwanted and Unworthy - Bloodied Heirlooms from Al'Aketh Footsoldiers and Stormchasers
+  collect 265141 quest 94487.1 @60.1,38.1 live -- the cultists around Broken Cliff
   accept 94485 -- Tears of the Lady - Lady's Tear Moss
-  complete 94486 @53.6,44.3 live -- the shrieklings around Broken Cliff
-  complete 94487 @60.1,38.1 live -- the cultists around Broken Cliff
-  complete 94485 @59.1,38.4 live -- the Lady's Tear moss around Broken Cliff
+  collect 265105 quest 94485.1 @59.1,38.4 live -- the Lady's Tear moss around Broken Cliff
   turnin 94486
   turnin 94487
   turnin 94485
   accept 94488 -- The Ties That Bind - Commander Haalien's head, to Elegael Thornpaw
+  collect 265475 quest 94488.1 @65.5,36.3 live -- Commander Haalien, in the cultist camp
   accept 94896 -- Aid For The Refugees - Abandoned Belongings, ruins of Ban'aethal
+  collect 266433 quest 94896.1 @56.9,29.4 live -- the belongings in the ruins
   accept 94897 -- The Fate of a Loved One - find Resaan, ruins of Ban'aethal
+  collect 266434 quest 94897.1 @57.1,29.4 live -- Resaan's heirloom, in the ruins
   accept 94490 -- Ripped Missive - starts from a missive found on the cultists
-  complete 94488 @65.5,36.3 live -- Commander Haalien, in the cultist camp
-  complete 94896 @56.9,29.4 live -- the belongings in the ruins
-  complete 94897 @57.0,29.4 live -- Resaan in the ruins
   turnin 94488
   turnin 94896
   turnin 94897
   turnin 94490
   accept 94489 -- The Wounds of Betrayal - the Nightfang Den: heal the druids, find Jorel Windsinger
+  kill 258134 quest 94489.1 @65.0,35.0 live -- Naaleos Leafwhisper, in the Nightfang Den
   turnin 94489
   accept 94491 -- The Fate of the Den - the missive goes to Lotheluum Starbreeze in Valanaar
   accept 93165 -- Mercy Falls on Deaf Ears - Al'Aketh Cultist's Ears, here or at the Shrine of Akir
-  complete 93165 @60.1,38.1 live -- the cultists' ears, north of Valanaar
+  collect 258771 quest 93165.1 @60.1,38.1 live -- the cultists' ears, north of Valanaar
   turnin 93165
   accept 93459 -- More Al'Aketh Ears
-  complete 93459 @60.1,38.1 live -- the cultists' ears, north of Valanaar
+  collect 258771 quest 93459.1 @60.1,38.1 live -- the cultists' ears, north of Valanaar
   turnin 93459
 
 step Windsong Lake - the Strange Hermit
 
   tip A hermit by Windsong Lake, at the edge of Shadowgale Forest. The last side quests on the island - and Iaadaria Bitterwind's Unwelcome Visitors (Alliance) works the same forest.
   accept 92741 only Alliance -- Unwelcome Visitors - Iaadaria Bitterwind, Valanaar; Shriekling Talons from Shadowgale Forest
-  complete 92741 @52.4,40.7 live -- the shrieklings over the lake
+  collect 254378 quest 92741.1 @52.4,40.7 live -- the shrieklings over the lake
   turnin 92741 only Alliance
   accept 93159 -- The Strange Hermit - speak with the Strange Hermit
   turnin 93159
   accept 93160 -- The Forest's Bounty - Shadowgale Acorns
-  complete 93160 @55.7,39.2 live -- the zephyrseed cones by the lake
+  collect 257128 quest 93160.1 @55.7,39.2 live -- the zephyrseed cones by the lake
   turnin 93160
   accept 93172 -- Free the Hollows - destroy Wind Hollows in Shadowgale Forest
+  kill 251676 quest 93172.1 @55.5,32.6 live -- the Wind Hollows in Shadowgale Forest
   turnin 93172
 
 step Valanaar - the eastern reports
@@ -465,6 +531,7 @@ step Valanaar - the High Elder's chain
   accept 92644 -- Unfortunate News - the glowing crystal the Turncoat carried; it goes to Talaanis Shadowsong
   turnin 92644 -- Unfortunate News - the glowing crystal to Talaanis Shadowsong
   accept 94568 -- The Cult's True Plans - Talaanis Shadowsong
+  complete 94568 @66.2,76.5 live -- confront Talaanis Shadowsong in Valanaar
   turnin 94568
   accept 92640 -- Desperate Times - Valennia Stormfist
   turnin 92640
@@ -476,10 +543,13 @@ step Shrine of Akir - the confrontation
   accept 93065 -- Prepare for Battle - Valennia Stormfist, in the Gustberry Lowlands
   turnin 93065
   accept 92947 -- Making Our Move - Al'Aketh Guardians, Spiritcallers and Blademasters
+  kill 252762 quest 92947.1 @55.4,40.8 live -- Al'Aketh Guardians, at the Shrine
+  kill 252763 quest 92947.2 @57.1,49.2 live -- Al'Aketh Spiritcallers, at the Shrine
+  kill 252765 quest 92947.3 @59.0,48.1 live -- Al'Aketh Blademasters, at the Shrine
   turnin 92947 -- Report to Hyusaa Quickbreeze at the Shrine of Akir
   accept 93958 -- The Inner Sanctum - Valennia Stormfist, inside the Shrine
   turnin 93958
-  complete 94003 @56.7,50.4 live -- Zaal Stormshield, who holds the Bulwark
+  collect 263993 quest 94003.1 @56.7,50.4 live -- Zaal Stormshield, who holds the Bulwark
   accept 92646 only Horde -- Confront Lorthuna - one of the two versions is your order's; take the portal to the Rohashi Spires
   accept 93835 only Alliance -- Confront Lorthuna - the other order's version; it will not be offered to you
   turnin 92646 only Horde
@@ -505,12 +575,14 @@ step Zephras Isle - Call of Fire (Shaman)
   accept 97243
   turnin 97243
   accept 97244
-  complete 97244 @64.4,63.7 live -- Skypriest Faladiel, on the Shrine road
+  collect 277267 quest 97244.1 @64.4,63.7 live -- Faladiel's Heart, on the Shrine road
   turnin 97244
   accept 97245
-  complete 97245 @42.4,68.8 live -- Kuramaa, west of the watchtower road
+  collect 277269 quest 97245.1 @42.4,68.8 live -- Kuramaa's Mask, west of the watchtower road
   turnin 97245
   accept 97257
+  kill 268762 quest 97257.1 @51.2,85.9 live -- the Brazier of Offering
+  kill 268679 quest 97257.2 @58.4,78.8 live -- the Brazier of Eternal Flame
   turnin 97257
 
 step Leaving Zephras Isle
